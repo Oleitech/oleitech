@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    background-color: #202020;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.yellowText {
+    color: #9C814A;
+}
+
+.links .yellowText:hover {
+    text-decoration: underline;
+    text-decoration-color: #9C814A;
+}
+
+.whiteText {
+    color: white;
+}
+
+.links .whiteText:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/fundo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 2em;
+}
+
+.simboloSh {
+    max-width: 45px;
+}
+
+.simboloShDiv {
+    width: auto;
+}
+
+.links {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.headerRRow {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainLogo {
+    max-width: 560px;
+}
+
+.mainLogoDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 16em;
+}
+
+.h1Row {
+    display: flex;
+    justify-content: center;
+}
+
+.h1Div {
+    max-width: 750px;
+}
+
+.footerRow {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #202020;
+    width: 100vw;
+    left: 0;
+    height: 50px;
+}
+
+.footerRow f {
+    color: #F4F0ED;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+    .background-image {
+        background-position: left center;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .links {
+        gap: 0.6em;
+    }
+
+    .mainLogo {
+        max-width: 340px;
+    }
+
+    .mainLogoDiv {
+        padding-top: 26svh;
+    }
+
+    .footerRow f {
+        font-size: 11px;
+    }
+
+    .background-image {
+        height: 100svh;
+    }
+}

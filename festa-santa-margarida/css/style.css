@@ -1,0 +1,259 @@
+/* ============================================
+   Festa de Santa Margarida — Oleiros 2026
+   ============================================ */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lime: #C1CF4E;
+  --navy: #0B1A2E;
+}
+
+html { font-size: 16px; }
+
+body {
+  background-color: var(--navy);
+  background-image: url('../assets/images/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+/* --- Header --- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.5rem 2rem;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.site-logo {
+  width: clamp(80px, 10vw, 140px);
+  height: auto;
+  pointer-events: auto;
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.3));
+}
+
+.btn-regulamento {
+  pointer-events: auto;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+  background: var(--lime);
+  padding: 0.55rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-regulamento:hover {
+  background: #d4e35a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* --- Showcase (scroll-driven crossfade) --- */
+.showcase {
+  position: relative;
+  height: 260vh;
+}
+
+.showcase-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  position: absolute;
+  z-index: 1;
+  width: clamp(310px, 78vw, 960px);
+  height: auto;
+  opacity: 0;
+  filter: drop-shadow(0 4px 30px rgba(0, 0, 0, 0.15));
+  will-change: transform, opacity, mask-image, -webkit-mask-image;
+}
+
+.reveal-img {
+  position: absolute;
+  z-index: 2;
+  width: clamp(320px, 80vw, 1000px);
+  height: auto;
+  opacity: 0;
+  filter: drop-shadow(0 4px 30px rgba(0, 0, 0, 0.15));
+  will-change: transform, opacity, mask-image, -webkit-mask-image;
+}
+
+.reveal-img-v2 {
+  position: absolute;
+  z-index: 3;
+  width: clamp(320px, 80vw, 1000px);
+  height: auto;
+  opacity: 0;
+  filter: drop-shadow(0 4px 30px rgba(0, 0, 0, 0.15));
+  will-change: transform, opacity;
+}
+
+/* --- Flower (intro only, JS-controlled) --- */
+.flower {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: auto;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+  filter:
+    drop-shadow(0 0 10px rgba(193, 207, 78, 0.35))
+    drop-shadow(0 0 25px rgba(193, 207, 78, 0.12));
+}
+
+/* --- Ambient glow --- */
+.glow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(193, 207, 78, 0.10) 0%,
+    rgba(193, 207, 78, 0.03) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* --- Floating particles --- */
+.particle {
+  position: fixed;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  animation: particleFloat linear infinite;
+}
+
+@keyframes particleFloat {
+  0%   { transform: translateY(0) translateX(0); opacity: 0; }
+  8%   { opacity: var(--p-opacity, 0.12); }
+  88%  { opacity: var(--p-opacity, 0.12); }
+  100% { transform: translateY(-105vh) translateX(30px); opacity: 0; }
+}
+
+/* --- Footer --- */
+.site-footer {
+  text-align: center;
+}
+
+.footer-dev {
+  background: #fff;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-dev-label {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #888;
+}
+
+.footer-logo {
+  height: 36px;
+  width: auto;
+}
+
+.footer-copy {
+  background: linear-gradient(135deg, #8a9436, #a3b13e, #8a9436);
+  padding: 0.75rem 1.5rem;
+}
+
+.footer-copy p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+.footer-copy strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* --- Scroll hint --- */
+.scroll-hint {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 2.5s forwards;
+  transition: opacity 0.5s;
+}
+
+.scroll-hint.hidden {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+
+.scroll-arrow {
+  width: 18px;
+  height: 18px;
+  border-right: 2px solid rgba(255, 255, 255, 0.35);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  transform: rotate(45deg);
+  animation: bounceArrow 1.5s ease-in-out infinite;
+}
+
+@keyframes bounceArrow {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50%      { transform: rotate(45deg) translateY(6px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .site-header { padding: 1rem 1.2rem; }
+  .site-logo { width: 80px; }
+  .hero-img { width: 93vw; }
+  .reveal-img { width: 94vw; }
+  .reveal-img-v2 { width: 94vw; }
+  .showcase { height: 180vh; }
+}

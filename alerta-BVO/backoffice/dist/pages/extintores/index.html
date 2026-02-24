@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--begin::Head-->
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AdminLTE v4 | Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="AdminLTE v4 | Dashboard" />
+    <meta name="author" content="ColorlibHQ" />
+    <meta
+      name="description"
+      content="AdminLTE is a Free Bootstrap 5 Admin Dashboard, 30 example pages using Vanilla JS."
+    />
+    <meta
+      name="keywords"
+      content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, colorlibhq, colorlibhq dashboard, colorlibhq admin dashboard"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
+      integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.3.0/styles/overlayscrollbars.min.css"
+      integrity="sha256-dSokZseQNT08wYEWiz5iLI8QPlKxG+TswNRD8k35cpg="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.min.css"
+      integrity="sha256-Qsx5lrStHZyR9REqhUF8iQt73X06c8LGIUPzpOhwRrI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../../dist/css/adminlte.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css"
+      integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css"
+      integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/brands.min.js"
+      integrity="sha512-N5K6sQXjzT79tR16zvBu7B0AqvYtHKvk3+eKuQWoVNQDGU5kR9W8OP3CTYtm3vVM2EtObrmtm0Jup17F718OyA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- sweetallert 2 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.0/dist/sweetalert2.all.min.js"></script>
+  </head>
+
+  <style>
+    #wmLogo {
+      background: white;
+      border-radius: 50px;
+      padding: 9px 5px 0px 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #wmLogo h4 {
+      color: #d4895b;
+    }
+
+    button {
+      background-color: #d48259 !important;
+      color: white !important;
+      border: unset !important;
+    }
+  </style>
+
+  <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+    <div class="app-wrapper">
+      <nav class="app-header navbar navbar-expand bg-body">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-lte-toggle="sidebar"
+                href="#"
+                role="button"
+              >
+                <i class="bi bi-list"></i>
+              </a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a href="../../../index.html" class="nav-link">Home</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown user-menu">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                <img
+                  src="../../../dist/assets/img/user.jpg"
+                  class="user-image rounded-circle shadow"
+                  alt="User Image"
+                />
+                <span class="d-none d-md-inline" id="nav_user_name"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
+                <li
+                  class="user-header text-bg-primary"
+                  style="background: linear-gradient(270deg, #ca2d3e, #d5905d)"
+                >
+                  <img
+                    src="../../../dist/assets/img/user.jpg"
+                    class="rounded-circle shadow"
+                    alt="User Image"
+                  />
+                  <p id="nav_user_name2"></p>
+                </li>
+
+                <li
+                  class="user-footer"
+                  style="display: flex; justify-content: center"
+                >
+                  <a
+                    id="logOutBtn"
+                    class="btn btn-default btn-flat float-end"
+                    style="background-color: #d48259; color: white"
+                    >Sign out</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
+        <div
+          class="sidebar-brand"
+          style="background: linear-gradient(270deg, #ca2d3e, #d5905d)"
+        >
+          <a href="./index.html" class="brand-link">
+            <div id="wmLogo">
+              <h4>WM</h4>
+            </div>
+            <span class="brand-text fw-light" style="color: white"
+              >Work Manager v1</span
+            >
+          </a>
+        </div>
+        <div
+          class="sidebar-wrapper"
+          style="background: linear-gradient(270deg, #ca2d3e, #d5905d)"
+        >
+          <nav class="mt-2">
+            <ul
+              class="nav sidebar-menu flex-column"
+              data-lte-toggle="treeview"
+              role="menu"
+              data-accordion="false"
+            >
+              <li class="nav-item">
+                <a
+                  href="../extintores/"
+                  class="nav-link"
+                  style="align-items: center; display: flex"
+                >
+                  <i
+                    class="fa fa-fire-extinguisher"
+                    aria-hidden="true"
+                    style="color: white"
+                  ></i>
+                  <p style="color: white">Extintores</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../utilizadores/"
+                  class="nav-link"
+                  style="align-items: center; display: flex"
+                >
+                  <i
+                    class="fa-solid fa-user"
+                    aria-hidden="true"
+                    style="color: white"
+                  ></i>
+                  <p style="color: white">Utilizadores</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <main class="app-main">
+        <div class="app-content-header">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-2">
+                <h3 class="mb-0">Extintores</h3>
+              </div>
+              <div class="col-sm-10">
+                <ol class="breadcrumb float-sm-end">
+                  <li class="breadcrumb-item">
+                    <a href="../../../index.html" style="color: #d48259"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Extintores
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <a
+                  href="lista-extintores/"
+                  style="color: black; text-decoration: none"
+                >
+                  <div class="info-box mb-3 text-bg-warning">
+                    <span class="info-box-icon">
+                      <i class="bi bi-tag-fill"></i>
+                    </span>
+
+                    <div class="info-box-content">
+                      <span class="info-box-text">Lista de Extintores</span>
+                      <span
+                        class="info-box-number"
+                        id="contagem-extintores"
+                      ></span>
+                    </div>
+                  </div>
+                </a>
+                <!-- <div class="info-box mb-3 text-bg-success">
+                  <span class="info-box-icon">
+                    <i class="bi bi-heart-fill"></i>
+                  </span>
+                  <div class="info-box-content">
+                    <span class="info-box-text">Mentions</span>
+                    <span class="info-box-number">92,050</span>
+                  </div>
+                </div> -->
+              </div>
+              <div class="card col-md-6">
+                <div class="card-header">
+                  <h3 class="card-title">
+                    Alerta de Expiração de datas de validade
+                  </h3>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <!--begin::Row-->
+                  <div class="row">
+                    <div class="col-12">
+                      <div id="pie-chart"></div>
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                  <!--end::Row-->
+                </div>
+              </div>
+              <!-- /.card -->
+              <!-- PRODUCT LIST -->
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="app-footer">
+        <div class="float-end d-none d-sm-inline">Soluções a sua medida</div>
+        <strong>
+          Copyright &copy; 2024&nbsp;
+          <a
+            href="https://rodrigodeveloper.pt/"
+            class="text-decoration-none"
+            style="color: #d48259"
+            >Oleitech</a
+          >.
+        </strong>
+        All rights reserved.
+      </footer>
+    </div>
+
+    <!-- my custom script -->
+    <script src="../../scripts/extintores-2.js"></script>
+    <script src="../../scripts/scripts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.3.0/browser/overlayscrollbars.browser.es6.min.js"
+      integrity="sha256-H2VM7BKda+v2Z4+DRy69uknwxjyDRhszjXFhsL4gD3w="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha256-YMa+wAM6QkVyz999odX7lPRxkoYAan8suedu4k2Zur8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../../dist/js/adminlte.js"></script>
+    <script>
+      const SELECTOR_SIDEBAR_WRAPPER = ".sidebar-wrapper";
+      const Default = {
+        scrollbarTheme: "os-theme-light",
+        scrollbarAutoHide: "leave",
+        scrollbarClickScroll: true,
+      };
+      document.addEventListener("DOMContentLoaded", function () {
+        const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
+        if (
+          sidebarWrapper &&
+          typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== "undefined"
+        ) {
+          OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
+            scrollbars: {
+              theme: Default.scrollbarTheme,
+              autoHide: Default.scrollbarAutoHide,
+              clickScroll: Default.scrollbarClickScroll,
+            },
+          });
+        }
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.min.js"
+      integrity="sha256-+vh8GkaU7C9/wbSLIcwq82tQ2wTf44aOHA8HlBMwRI8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
+      // IT'S ALL JUST JUNK FOR DEMO
+      // ++++++++++++++++++++++++++++++++++++++++++
+
+      //-------------
+      // - PIE CHART -
+      //-------------
+      var dataRetievedInd = "";
+      let oneMonthCount = 0;
+      let threeMonthCount = 0;
+      let sixMonthCount = 0;
+      document.addEventListener("DOMContentLoaded", async function () {
+        const funcgetExtintores = async () => {
+          const response = await fetch("https://oleitech.pt/get_extintores", {
+            method: "GET",
+          });
+
+          const myJson = await response.json(); //extract JSON from the http response
+
+          for (let i = 0; i < myJson.length; i++) {
+            const today = new Date();
+            const oneMonthFromNow = new Date(
+              today.setMonth(today.getMonth() + 1)
+            );
+            const threeMonthsFromNow = new Date(
+              today.setMonth(today.getMonth() + 3)
+            );
+            const sixMonthsFromNow = new Date(
+              today.setMonth(today.getMonth() + 6)
+            );
+            let dateString = `${myJson[i]["data_validade"]}`;
+            let [day, month, year] = dateString.split("/");
+            const dateObj = new Date(+year, +month - 1, +day);
+
+            if (dateObj <= oneMonthFromNow) {
+              oneMonthCount++;
+            }
+
+            if (dateObj <= threeMonthsFromNow && dateObj > oneMonthFromNow) {
+              threeMonthCount++;
+            }
+
+            if (dateObj <= sixMonthsFromNow && dateObj > threeMonthsFromNow) {
+              sixMonthCount++;
+            }
+            dataRetievedInd = [oneMonthCount, threeMonthCount, sixMonthCount];
+          }
+
+          const pie_chart_options = {
+            series: [
+              dataRetievedInd[0],
+              dataRetievedInd[1],
+              dataRetievedInd[2],
+            ],
+            chart: {
+              type: "donut",
+            },
+            labels: ["1 Mês", "3 Meses", "6 Meses"],
+            dataLabels: {
+              enabled: false,
+            },
+            colors: ["#0d6efd", "#20c997", "#ffc107"],
+          };
+
+          const pie_chart = new ApexCharts(
+            document.querySelector("#pie-chart"),
+            pie_chart_options
+          );
+          pie_chart.render();
+        };
+        funcgetExtintores();
+
+        //-----------------
+        // - END PIE CHART -
+        //-----------------
+      });
+    </script>
+    <!--end::Script-->
+  </body>
+</html>
