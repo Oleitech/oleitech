@@ -1,0 +1,29 @@
+name: Deploy Development
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  deploy:
+    name: Deploy to development.oleitech.pt
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftp
+          server-dir: /development.oleitech.pt/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .cpanel.yml
+            .gitignore
