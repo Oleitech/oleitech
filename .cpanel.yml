@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/oleitech/public_html/dev/
+    - export DEPLOYPATH=/home/oleitech/development.oleitech.pt/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
