@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           protocol: ftp
-          server-dir: /development.oleitech.pt/
+          server-dir: /development.oleitech.pt/oleitech/
           exclude: |
             **/.git*
             **/.git*/**
