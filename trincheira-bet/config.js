@@ -1,0 +1,9 @@
+const CONFIG = {
+  API_KEY: '39b7cc96eec7d93794bce93477cfab56',
+  API_HOST: 'v3.football.api-sports.io',
+  DAILY_LIMIT: 100,
+  CACHE_TTL_FIXTURES: 4 * 60 * 60 * 1000,
+  CACHE_TTL_PREDICTIONS: 12 * 60 * 60 * 1000,
+  CACHE_TTL_ODDS: 6 * 60 * 60 * 1000,
+  PRIORITY_LEAGUES: [94, 39, 140, 135, 78, 61, 2, 3, 88, 144, 203, 179, 113, 106]
+};

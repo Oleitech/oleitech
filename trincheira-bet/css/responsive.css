@@ -1,0 +1,128 @@
+/* Mobile first — base styles are mobile */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .main__content {
+    min-width: 0;
+  }
+
+  .match-detail__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filters {
+    padding: var(--space-md) var(--space-md);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .picks-sidebar {
+    display: block;
+  }
+
+  .picks-fab {
+    display: none !important;
+  }
+
+  .header__inner {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Mobile only */
+@media (max-width: 1023px) {
+  .picks-fab {
+    display: flex;
+  }
+
+  .picks-sidebar {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    justify-content: flex-end;
+  }
+
+  .picks-sidebar.open {
+    display: flex;
+  }
+
+  .picks-panel {
+    position: relative;
+    top: 0;
+    width: 320px;
+    max-width: 85vw;
+    height: 100vh;
+    border-radius: 0;
+    border: none;
+    border-left: 1px solid var(--border);
+    animation: slideIn 0.3s ease;
+  }
+
+  .picks-panel__list {
+    max-height: calc(100vh - 60px);
+  }
+}
+
+@media (max-width: 767px) {
+  .top-picks__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .top-picks__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-picks__analyze-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
+
+  .header__controls {
+    justify-content: space-between;
+  }
+
+  .match-card__header {
+    padding: var(--space-sm);
+  }
+
+  .match-card__patterns-preview {
+    display: none;
+  }
+
+  .match-detail__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filters {
+    padding: var(--space-sm);
+    gap: var(--space-xs);
+  }
+
+  .date-tab {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--fs-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .match-card__team-name {
+    max-width: 120px;
+  }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
