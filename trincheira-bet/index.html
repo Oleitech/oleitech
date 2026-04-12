@@ -99,6 +99,28 @@
       </div>
     </section>
 
+    <!-- Corners Scanner Section -->
+    <section class="corners-section" id="corners-section" style="display:none">
+      <div class="corners-section__inner">
+        <div class="corners-section__header">
+          <div class="corners-section__title">&#9917; Corners Scanner</div>
+          <div class="corners-section__subtitle">Over/Under Cantos — análise por liga e ataques</div>
+          <button class="corners-section__analyze-btn" id="btn-corners">
+            Analisar Cantos <span id="corners-cost"></span>
+          </button>
+        </div>
+        <div class="corners-grid" id="corners-grid">
+          <!-- Corner cards load here -->
+        </div>
+        <div class="corners-section__loading" id="corners-loading" style="display:none">
+          <div class="corners-section__progress">
+            <div class="corners-section__progress-bar" id="corners-progress-bar"></div>
+          </div>
+          <span class="corners-section__progress-text" id="corners-progress-text">A analisar...</span>
+        </div>
+      </div>
+    </section>
+
     <!-- Main Layout -->
     <div class="main">
       <div class="main__content" id="fixtures-container">
@@ -142,6 +164,7 @@
   <script src="js/picks.js"></script>
   <script src="js/fixtures.js"></script>
   <script src="js/top-picks.js"></script>
+  <script src="js/corners.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

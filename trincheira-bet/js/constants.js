@@ -4,49 +4,50 @@
 
 const LEAGUES = {
   // === TIER 1: Elite BTTS Leagues (60%+) ===
-  88:  { name: 'Eredivisie', country: 'Netherlands', flag: 'NL', priority: 1, bttsRate: 65 },
-  218: { name: 'Bundesliga', country: 'Austria', flag: 'AT', priority: 1, bttsRate: 62 },
-  144: { name: 'Pro League', country: 'Belgium', flag: 'BE', priority: 1, bttsRate: 61 },
-  207: { name: 'Super League', country: 'Switzerland', flag: 'CH', priority: 1, bttsRate: 60 },
-  103: { name: 'Eliteserien', country: 'Norway', flag: 'NO', priority: 1, bttsRate: 60 },
-  78:  { name: 'Bundesliga', country: 'Germany', flag: 'DE', priority: 1, bttsRate: 60 },
-  119: { name: 'Superliga', country: 'Denmark', flag: 'DK', priority: 1, bttsRate: 59 },
+  // bttsRate = historical BTTS %, avgCorners = average corners per game (2024/25 data)
+  88:  { name: 'Eredivisie', country: 'Netherlands', flag: 'NL', priority: 1, bttsRate: 65, avgCorners: 11.2 },
+  218: { name: 'Bundesliga', country: 'Austria', flag: 'AT', priority: 1, bttsRate: 62, avgCorners: 9.6 },
+  144: { name: 'Pro League', country: 'Belgium', flag: 'BE', priority: 1, bttsRate: 61, avgCorners: 10.4 },
+  207: { name: 'Super League', country: 'Switzerland', flag: 'CH', priority: 1, bttsRate: 60, avgCorners: 10.1 },
+  103: { name: 'Eliteserien', country: 'Norway', flag: 'NO', priority: 1, bttsRate: 60, avgCorners: 9.5 },
+  78:  { name: 'Bundesliga', country: 'Germany', flag: 'DE', priority: 1, bttsRate: 60, avgCorners: 9.5 },
+  119: { name: 'Superliga', country: 'Denmark', flag: 'DK', priority: 1, bttsRate: 59, avgCorners: 9.4 },
 
   // === TIER 2: Very Strong BTTS Leagues (54-60%) ===
-  79:  { name: '2. Bundesliga', country: 'Germany', flag: 'DE', priority: 2, bttsRate: 57 },
-  179: { name: 'Premiership', country: 'Scotland', flag: 'GB', priority: 2, bttsRate: 57 },
-  345: { name: 'First League', country: 'Czech Republic', flag: 'CZ', priority: 2, bttsRate: 57 },
-  113: { name: 'Allsvenskan', country: 'Sweden', flag: 'SE', priority: 2, bttsRate: 57 },
-  244: { name: 'Veikkausliiga', country: 'Finland', flag: 'FI', priority: 2, bttsRate: 56 },
-  106: { name: 'Ekstraklasa', country: 'Poland', flag: 'PL', priority: 2, bttsRate: 56 },
-  98:  { name: 'J1 League', country: 'Japan', flag: 'JP', priority: 2, bttsRate: 56 },
-  292: { name: 'K League 1', country: 'South Korea', flag: 'KR', priority: 2, bttsRate: 55 },
-  253: { name: 'MLS', country: 'USA', flag: 'US', priority: 2, bttsRate: 55 },
-  61:  { name: 'Ligue 1', country: 'France', flag: 'FR', priority: 2, bttsRate: 54 },
-  203: { name: 'Süper Lig', country: 'Turkey', flag: 'TR', priority: 2, bttsRate: 54 },
+  79:  { name: '2. Bundesliga', country: 'Germany', flag: 'DE', priority: 2, bttsRate: 57, avgCorners: 9.3 },
+  179: { name: 'Premiership', country: 'Scotland', flag: 'GB', priority: 2, bttsRate: 57, avgCorners: 10.2 },
+  345: { name: 'First League', country: 'Czech Republic', flag: 'CZ', priority: 2, bttsRate: 57, avgCorners: 9.3 },
+  113: { name: 'Allsvenskan', country: 'Sweden', flag: 'SE', priority: 2, bttsRate: 57, avgCorners: 9.4 },
+  244: { name: 'Veikkausliiga', country: 'Finland', flag: 'FI', priority: 2, bttsRate: 56, avgCorners: 9.2 },
+  106: { name: 'Ekstraklasa', country: 'Poland', flag: 'PL', priority: 2, bttsRate: 56, avgCorners: 9.5 },
+  98:  { name: 'J1 League', country: 'Japan', flag: 'JP', priority: 2, bttsRate: 56, avgCorners: 9.6 },
+  292: { name: 'K League 1', country: 'South Korea', flag: 'KR', priority: 2, bttsRate: 55, avgCorners: 9.4 },
+  253: { name: 'MLS', country: 'USA', flag: 'US', priority: 2, bttsRate: 55, avgCorners: 9.5 },
+  61:  { name: 'Ligue 1', country: 'France', flag: 'FR', priority: 2, bttsRate: 54, avgCorners: 9.0 },
+  203: { name: 'Süper Lig', country: 'Turkey', flag: 'TR', priority: 2, bttsRate: 54, avgCorners: 9.8 },
 
   // === TIER 3: Solid BTTS Leagues (50-55%) ===
-  39:  { name: 'Premier League', country: 'England', flag: 'GB', priority: 3, bttsRate: 53 },
-  188: { name: 'A-League', country: 'Australia', flag: 'AU', priority: 3, bttsRate: 54 },
-  318: { name: 'First Division', country: 'Cyprus', flag: 'CY', priority: 3, bttsRate: 54 },
-  172: { name: 'First League', country: 'Bulgaria', flag: 'BG', priority: 3, bttsRate: 53 },
-  210: { name: 'HNL', country: 'Croatia', flag: 'HR', priority: 3, bttsRate: 52 },
-  94:  { name: 'Liga Portugal', country: 'Portugal', flag: 'PT', priority: 3, bttsRate: 52 },
-  135: { name: 'Serie A', country: 'Italy', flag: 'IT', priority: 3, bttsRate: 52 },
-  140: { name: 'La Liga', country: 'Spain', flag: 'ES', priority: 3, bttsRate: 51 },
-  71:  { name: 'Brasileirão', country: 'Brazil', flag: 'BR', priority: 3, bttsRate: 51 },
-  169: { name: 'Super League', country: 'China', flag: 'CN', priority: 3, bttsRate: 52 },
-  128: { name: 'Primera División', country: 'Argentina', flag: 'AR', priority: 3, bttsRate: 51 },
-  197: { name: 'Super League', country: 'Greece', flag: 'GR', priority: 3, bttsRate: 51 },
+  39:  { name: 'Premier League', country: 'England', flag: 'GB', priority: 3, bttsRate: 53, avgCorners: 9.2 },
+  188: { name: 'A-League', country: 'Australia', flag: 'AU', priority: 3, bttsRate: 54, avgCorners: 10.2 },
+  318: { name: 'First Division', country: 'Cyprus', flag: 'CY', priority: 3, bttsRate: 54, avgCorners: 9.3 },
+  172: { name: 'First League', country: 'Bulgaria', flag: 'BG', priority: 3, bttsRate: 53, avgCorners: 9.1 },
+  210: { name: 'HNL', country: 'Croatia', flag: 'HR', priority: 3, bttsRate: 52, avgCorners: 9.1 },
+  94:  { name: 'Liga Portugal', country: 'Portugal', flag: 'PT', priority: 3, bttsRate: 52, avgCorners: 9.4 },
+  135: { name: 'Serie A', country: 'Italy', flag: 'IT', priority: 3, bttsRate: 52, avgCorners: 8.7 },
+  140: { name: 'La Liga', country: 'Spain', flag: 'ES', priority: 3, bttsRate: 51, avgCorners: 9.7 },
+  71:  { name: 'Brasileirão', country: 'Brazil', flag: 'BR', priority: 3, bttsRate: 51, avgCorners: 9.9 },
+  169: { name: 'Super League', country: 'China', flag: 'CN', priority: 3, bttsRate: 52, avgCorners: 9.3 },
+  128: { name: 'Primera División', country: 'Argentina', flag: 'AR', priority: 3, bttsRate: 51, avgCorners: 9.2 },
+  197: { name: 'Super League', country: 'Greece', flag: 'GR', priority: 3, bttsRate: 51, avgCorners: 9.0 },
 
   // === European Competitions ===
-  2:   { name: 'Champions League', country: 'Europe', flag: 'EU', priority: 2, bttsRate: 55 },
-  3:   { name: 'Europa League', country: 'Europe', flag: 'EU', priority: 2, bttsRate: 54 },
-  848: { name: 'Conference League', country: 'Europe', flag: 'EU', priority: 3, bttsRate: 53 },
+  2:   { name: 'Champions League', country: 'Europe', flag: 'EU', priority: 2, bttsRate: 55, avgCorners: 10.0 },
+  3:   { name: 'Europa League', country: 'Europe', flag: 'EU', priority: 2, bttsRate: 54, avgCorners: 9.6 },
+  848: { name: 'Conference League', country: 'Europe', flag: 'EU', priority: 3, bttsRate: 53, avgCorners: 9.4 },
 
   // === Other leagues (lower BTTS but included for coverage) ===
-  40:  { name: 'Championship', country: 'England', flag: 'GB', priority: 4, bttsRate: 50 },
-  96:  { name: 'Liga Portugal 2', country: 'Portugal', flag: 'PT', priority: 4, bttsRate: 49 },
+  40:  { name: 'Championship', country: 'England', flag: 'GB', priority: 4, bttsRate: 50, avgCorners: 10.2 },
+  96:  { name: 'Liga Portugal 2', country: 'Portugal', flag: 'PT', priority: 4, bttsRate: 49, avgCorners: 9.1 },
 };
 
 // League IDs sorted by BTTS rate for scanning priority
@@ -111,6 +112,13 @@ const THRESHOLDS = {
   BTTS_HIGH: 70,
   BTTS_MEDIUM: 55,
   BTTS_MIN_ODDS: 1.40,   // Minimum BTTS odds to show
+
+  // Corners thresholds
+  CORNERS_FIRE: 82,
+  CORNERS_HIGH: 68,
+  CORNERS_MEDIUM: 55,
+  CORNERS_MIN_ODDS: 1.40,
+  CORNERS_DEFAULT_LINE: 9.5,  // Standard over/under line
 
   // Other pattern thresholds
   OVER25_HIGH: 65,

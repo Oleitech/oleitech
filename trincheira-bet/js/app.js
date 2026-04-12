@@ -15,6 +15,9 @@ const App = {
     // Initialize top picks
     TopPicks.init();
 
+    // Initialize corners scanner
+    Corners.init();
+
     // Setup date tabs
     this.setupDateTabs();
 
@@ -93,8 +96,9 @@ const App = {
     // Load fixtures
     await Fixtures.load(dateStr);
 
-    // Show top picks section with fixture data
+    // Show scanner sections with fixture data
     TopPicks.show(Fixtures.fixturesData);
+    Corners.show(Fixtures.fixturesData);
   }
 };
 
