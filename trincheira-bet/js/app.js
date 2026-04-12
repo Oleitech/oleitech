@@ -98,7 +98,7 @@ const App = {
   }
 };
 
-// Boot — only auto-init if already logged in (Auth handles post-login init)
+// Boot — auto-init if logged in or on localhost (Auth handles post-login init)
 document.addEventListener('DOMContentLoaded', () => {
-  if (Auth.isLoggedIn()) App.init();
+  if (Auth.isLoggedIn() || Auth.isLocalhost()) App.init();
 });

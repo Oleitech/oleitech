@@ -83,6 +83,11 @@
     text-align: center;
   }
 
+  .btts-card__stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+
   .header__inner {
     flex-direction: column;
     align-items: stretch;

@@ -1,16 +1,24 @@
 const TopPicks = {
-  MAX_ANALYZE: 25,
+  MAX_ANALYZE: 35,
   analyzed: [],
   isAnalyzing: false,
 
-  getPriorityFixtures(fixtures) {
-    // Filter to priority leagues (priority 1 and 2) and only not-started matches
-    return fixtures.filter(f => {
-      const league = LEAGUES[f.league.id];
-      if (!league || league.priority > 2) return false;
-      const status = f.fixture.status.short;
-      return status === 'NS' || status === 'TBD';
-    });
+  // Get fixtures from BTTS-friendly leagues, sorted by league BTTS rate
+  getBTTSFixtures(fixtures) {
+    return fixtures
+      .filter(f => {
+        const status = f.fixture.status.short;
+        if (status !== 'NS' && status !== 'TBD') return false;
+        // Accept all known leagues (priority 1-3) for BTTS scanning
+        const league = LEAGUES[f.league.id];
+        return league && league.priority <= 3;
+      })
+      .sort((a, b) => {
+        // Sort by league BTTS rate (highest first)
+        const rateA = LEAGUES[a.league.id]?.bttsRate || 0;
+        const rateB = LEAGUES[b.league.id]?.bttsRate || 0;
+        return rateB - rateA;
+      });
   },
 
   show(fixtures) {
@@ -19,18 +27,17 @@ const TopPicks = {
     const btn = document.getElementById('btn-analyze');
     const costSpan = document.getElementById('analyze-cost');
 
-    const priority = this.getPriorityFixtures(fixtures);
-    if (priority.length === 0) {
+    const bttsFixtures = this.getBTTSFixtures(fixtures);
+    if (bttsFixtures.length === 0) {
       section.style.display = 'none';
       return;
     }
 
     section.style.display = '';
 
-    // Count how many are already cached (free to analyze)
-    const toFetch = Math.min(priority.length, this.MAX_ANALYZE);
+    const toFetch = Math.min(bttsFixtures.length, this.MAX_ANALYZE);
     let cached = 0;
-    priority.slice(0, toFetch).forEach(f => {
+    bttsFixtures.slice(0, toFetch).forEach(f => {
       const qs = new URLSearchParams({ fixture: f.fixture.id }).toString();
       if (Cache.get(`predictions_${qs}`)) cached++;
     });
@@ -41,38 +48,41 @@ const TopPicks = {
     grid.innerHTML = '';
     this.analyzed = [];
 
-    // If we have cached data, show previous results immediately
+    // Show cached results immediately
     if (cached > 0) {
-      this.showCachedResults(priority.slice(0, toFetch), fixtures);
+      this.showCachedResults(bttsFixtures.slice(0, toFetch));
     }
   },
 
-  showCachedResults(priorityFixtures, allFixtures) {
+  showCachedResults(fixtures) {
     const results = [];
-    priorityFixtures.forEach(f => {
+    fixtures.forEach(f => {
       const qs = new URLSearchParams({ fixture: f.fixture.id }).toString();
       const cached = Cache.get(`predictions_${qs}`);
       if (cached && cached.length > 0) {
-        const patterns = Analysis.analyze(cached[0]);
-        if (patterns.length > 0) {
-          const bestPattern = patterns.reduce((a, b) => {
-            const scoreA = this.confidenceScore(a);
-            const scoreB = this.confidenceScore(b);
-            return scoreA >= scoreB ? a : b;
-          });
+        const bttsAnalysis = Analysis.analyzeBTTS(cached[0]);
+        if (bttsAnalysis && bttsAnalysis.score >= THRESHOLDS.BTTS_MEDIUM) {
           results.push({
             fixture: f,
             prediction: cached[0],
-            patterns,
-            bestPattern,
-            totalScore: patterns.reduce((sum, p) => sum + this.confidenceScore(p), 0)
+            btts: bttsAnalysis,
+            bttsOdds: null // Will be populated if odds are cached
           });
         }
       }
     });
 
+    // Check cached odds
+    results.forEach(r => {
+      const qs = new URLSearchParams({ fixture: r.fixture.fixture.id }).toString();
+      const cachedOdds = Cache.get(`odds_${qs}`);
+      if (cachedOdds) {
+        r.bttsOdds = this.extractBTTSOdds(cachedOdds);
+      }
+    });
+
     if (results.length > 0) {
-      results.sort((a, b) => b.totalScore - a.totalScore);
+      results.sort((a, b) => b.btts.score - a.btts.score);
       this.analyzed = results;
       this.renderResults(results);
     }
@@ -82,15 +92,14 @@ const TopPicks = {
     if (this.isAnalyzing) return;
     this.isAnalyzing = true;
 
-    const section = document.getElementById('top-picks-section');
     const grid = document.getElementById('top-picks-grid');
     const loading = document.getElementById('top-picks-loading');
     const progressBar = document.getElementById('top-picks-progress-bar');
     const progressText = document.getElementById('top-picks-progress-text');
     const btn = document.getElementById('btn-analyze');
 
-    const priority = this.getPriorityFixtures(fixtures);
-    const toAnalyze = priority.slice(0, this.MAX_ANALYZE);
+    const bttsFixtures = this.getBTTSFixtures(fixtures);
+    const toAnalyze = bttsFixtures.slice(0, this.MAX_ANALYZE);
 
     btn.style.display = 'none';
     loading.style.display = 'flex';
@@ -99,8 +108,8 @@ const TopPicks = {
     const results = [];
     let done = 0;
 
+    // Phase 1: Fetch predictions for all fixtures
     for (const f of toAnalyze) {
-      // Check remaining requests
       if (Cache.getRemainingRequests() <= 5) {
         UI.showToast('A guardar requests — análise parcial', 'info');
         break;
@@ -113,30 +122,50 @@ const TopPicks = {
       done++;
 
       if (data && data.length > 0) {
-        const prediction = data[0];
-        const patterns = Analysis.analyze(prediction);
-
-        if (patterns.length > 0) {
-          const bestPattern = patterns.reduce((a, b) => {
-            return this.confidenceScore(a) >= this.confidenceScore(b) ? a : b;
-          });
-
+        const bttsAnalysis = Analysis.analyzeBTTS(data[0]);
+        if (bttsAnalysis && bttsAnalysis.score >= THRESHOLDS.BTTS_MEDIUM) {
           results.push({
             fixture: f,
-            prediction,
-            patterns,
-            bestPattern,
-            totalScore: patterns.reduce((sum, p) => sum + this.confidenceScore(p), 0)
+            prediction: data[0],
+            btts: bttsAnalysis,
+            bttsOdds: null
           });
         }
       }
 
-      // Small delay to not hammer the API
-      await new Promise(r => setTimeout(r, 150));
+      await new Promise(r => setTimeout(r, 120));
     }
 
-    // Sort by total confidence score
-    results.sort((a, b) => b.totalScore - a.totalScore);
+    // Phase 2: Fetch odds for top BTTS candidates (max 10 to save API calls)
+    const topCandidates = results
+      .sort((a, b) => b.btts.score - a.btts.score)
+      .slice(0, 10);
+
+    let oddsCount = 0;
+    for (const r of topCandidates) {
+      if (Cache.getRemainingRequests() <= 3) break;
+
+      progressText.textContent = `A buscar odds ${oddsCount + 1}/${topCandidates.length}...`;
+      const oddsData = await API.getOdds(r.fixture.fixture.id);
+      oddsCount++;
+
+      if (oddsData) {
+        r.bttsOdds = this.extractBTTSOdds(oddsData);
+      }
+
+      await new Promise(r => setTimeout(r, 120));
+    }
+
+    // Sort by BTTS score, filter out low odds
+    results.sort((a, b) => {
+      // Prioritize matches with confirmed good odds
+      const aHasOdds = a.bttsOdds && a.bttsOdds.yes >= THRESHOLDS.BTTS_MIN_ODDS;
+      const bHasOdds = b.bttsOdds && b.bttsOdds.yes >= THRESHOLDS.BTTS_MIN_ODDS;
+      if (aHasOdds && !bHasOdds) return -1;
+      if (!aHasOdds && bHasOdds) return 1;
+      return b.btts.score - a.btts.score;
+    });
+
     this.analyzed = results;
 
     loading.style.display = 'none';
@@ -145,7 +174,7 @@ const TopPicks = {
     if (results.length === 0) {
       grid.innerHTML = `
         <div class="top-picks__empty">
-          Sem padrões fortes identificados nas ligas principais
+          Sem jogos com padrão BTTS forte identificado hoje
         </div>`;
     } else {
       this.renderResults(results);
@@ -154,65 +183,166 @@ const TopPicks = {
     this.isAnalyzing = false;
   },
 
-  confidenceScore(pattern) {
-    const pct = parseInt(pattern.confidencePercent) || 0;
-    const multiplier = pattern.confidence === 'high' ? 1.5 :
-                       pattern.confidence === 'medium' ? 1.0 : 0.5;
-    return pct * multiplier;
+  extractBTTSOdds(oddsData) {
+    // API-Football odds structure: response[].bookmakers[].bets[]
+    // BTTS bet has id 8 or name "Both Teams Score"
+    if (!oddsData || !Array.isArray(oddsData)) return null;
+
+    for (const bookmakerEntry of oddsData) {
+      const bookmakers = bookmakerEntry?.bookmakers || [];
+      for (const bk of bookmakers) {
+        const bttsBet = bk.bets?.find(b =>
+          b.id === 8 || b.name === 'Both Teams Score' || b.name === 'Both Teams to Score'
+        );
+        if (bttsBet && bttsBet.values) {
+          const yesOdd = bttsBet.values.find(v => v.value === 'Yes');
+          const noOdd = bttsBet.values.find(v => v.value === 'No');
+          return {
+            yes: parseFloat(yesOdd?.odd || 0),
+            no: parseFloat(noOdd?.odd || 0),
+            bookmaker: bk.name || 'Unknown'
+          };
+        }
+      }
+    }
+    return null;
   },
 
   renderResults(results) {
     const grid = document.getElementById('top-picks-grid');
     grid.innerHTML = '';
 
-    // Show top 12
-    results.slice(0, 12).forEach(r => {
-      const card = this.renderCard(r);
+    // Filter out odds below minimum if odds are available
+    const filtered = results.filter(r => {
+      if (r.bttsOdds && r.bttsOdds.yes > 0 && r.bttsOdds.yes < THRESHOLDS.BTTS_MIN_ODDS) {
+        return false; // Skip low odds (juice bets)
+      }
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      grid.innerHTML = `
+        <div class="top-picks__empty">
+          Todos os jogos filtrados (odds &lt; ${THRESHOLDS.BTTS_MIN_ODDS})
+        </div>`;
+      return;
+    }
+
+    // Show top 15
+    filtered.slice(0, 15).forEach((r, idx) => {
+      const card = this.renderBTTSCard(r, idx + 1);
       grid.appendChild(card);
     });
   },
 
-  renderCard(result) {
-    const { fixture, prediction, patterns, bestPattern, totalScore } = result;
+  renderBTTSCard(result, rank) {
+    const { fixture, prediction, btts, bttsOdds } = result;
     const home = fixture.teams.home;
     const away = fixture.teams.away;
     const time = new Date(fixture.fixture.date).toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
     const leagueInfo = LEAGUES[fixture.league.id];
     const leagueName = leagueInfo?.name || fixture.league.name;
 
-    // Get form strings
+    // Form strings
     const homeForm = prediction.teams?.home?.league?.form?.slice(-5) || '';
     const awayForm = prediction.teams?.away?.league?.form?.slice(-5) || '';
 
-    // Goals stats
-    const homeGoalsFor = prediction.teams?.home?.league?.goals?.for?.average?.total || '?';
-    const homeGoalsAgainst = prediction.teams?.home?.league?.goals?.against?.average?.total || '?';
-    const awayGoalsFor = prediction.teams?.away?.league?.goals?.for?.average?.total || '?';
-    const awayGoalsAgainst = prediction.teams?.away?.league?.goals?.against?.average?.total || '?';
-
-    const card = UI.el('div', 'top-pick-card');
+    const card = UI.el('div', 'btts-card');
     card.dataset.fixtureId = fixture.fixture.id;
 
-    // Confidence tier
-    const tier = totalScore >= 120 ? 'fire' : totalScore >= 80 ? 'hot' : 'warm';
+    // Tier based on BTTS score
+    const tier = btts.score >= THRESHOLDS.BTTS_FIRE ? 'fire' :
+                 btts.score >= THRESHOLDS.BTTS_HIGH ? 'hot' : 'warm';
+
+    // BTTS score color
+    const scoreColor = btts.score >= THRESHOLDS.BTTS_FIRE ? 'var(--green)' :
+                       btts.score >= THRESHOLDS.BTTS_HIGH ? 'var(--amber)' : 'var(--blue)';
+
+    // Odds display
+    let oddsHtml = '';
+    if (bttsOdds && bttsOdds.yes > 0) {
+      const oddsClass = bttsOdds.yes >= 1.70 ? 'btts-odds--value' :
+                        bttsOdds.yes >= 1.50 ? 'btts-odds--fair' : 'btts-odds--low';
+      oddsHtml = `
+        <div class="btts-card__odds ${oddsClass}">
+          <span class="btts-card__odds-label">BTTS Sim</span>
+          <span class="btts-card__odds-value">${bttsOdds.yes.toFixed(2)}</span>
+        </div>`;
+    }
+
+    // H2H BTTS display
+    let h2hHtml = '';
+    if (btts.stats.h2hBtts) {
+      const h = btts.stats.h2hBtts;
+      const h2hColor = h.rate >= 60 ? 'var(--green)' : h.rate >= 40 ? 'var(--amber)' : 'var(--red)';
+      h2hHtml = `
+        <div class="btts-card__h2h">
+          <span class="btts-card__stat-label">H2H BTTS</span>
+          <span style="color:${h2hColor};font-weight:700">${h.count}/${h.total} (${h.rate}%)</span>
+        </div>`;
+    }
+
+    // League BTTS rate
+    let leagueBttsHtml = '';
+    if (btts.stats.leagueBttsRate) {
+      leagueBttsHtml = `
+        <div class="btts-card__league-btts">
+          <span class="btts-card__stat-label">Liga BTTS</span>
+          <span>${btts.stats.leagueBttsRate}%</span>
+        </div>`;
+    }
 
     card.innerHTML = `
-      <div class="top-pick-card__tier top-pick-card__tier--${tier}">
-        ${tier === 'fire' ? '&#128293;' : tier === 'hot' ? '&#11088;' : '&#9898;'}
+      <div class="btts-card__header">
+        <div class="btts-card__rank">#${rank}</div>
+        <div class="btts-card__tier btts-card__tier--${tier}">
+          ${tier === 'fire' ? '&#128293;' : tier === 'hot' ? '&#11088;' : '&#9898;'}
+        </div>
+        <div class="btts-card__score-ring" style="--score-color:${scoreColor}">
+          <span class="btts-card__score-value">${btts.score}</span>
+          <span class="btts-card__score-label">BTTS</span>
+        </div>
       </div>
-      <div class="top-pick-card__league">${leagueName} &middot; ${time}</div>
-      <div class="top-pick-card__matchup">
-        <div class="top-pick-card__team">
-          <img src="${home.logo}" alt="" class="top-pick-card__team-logo" onerror="this.style.display='none'">
+
+      <div class="btts-card__league">${leagueName} &middot; ${time}</div>
+
+      <div class="btts-card__matchup">
+        <div class="btts-card__team">
+          <img src="${home.logo}" alt="" class="btts-card__team-logo" onerror="this.style.display='none'">
           <span>${home.name}</span>
         </div>
-        <span class="top-pick-card__vs">vs</span>
-        <div class="top-pick-card__team">
-          <img src="${away.logo}" alt="" class="top-pick-card__team-logo" onerror="this.style.display='none'">
+        <span class="btts-card__vs">vs</span>
+        <div class="btts-card__team">
+          <img src="${away.logo}" alt="" class="btts-card__team-logo" onerror="this.style.display='none'">
           <span>${away.name}</span>
         </div>
       </div>
-      <div class="top-pick-card__form">
+
+      ${oddsHtml}
+
+      <div class="btts-card__stats-grid">
+        <div class="btts-card__stat">
+          <span class="btts-card__stat-label">Casa marca</span>
+          <span class="btts-card__stat-value">${btts.stats.homeGoalsFor}/jogo</span>
+        </div>
+        <div class="btts-card__stat">
+          <span class="btts-card__stat-label">Casa sofre</span>
+          <span class="btts-card__stat-value">${btts.stats.homeGoalsAgainst}/jogo</span>
+        </div>
+        <div class="btts-card__stat">
+          <span class="btts-card__stat-label">Fora marca</span>
+          <span class="btts-card__stat-value">${btts.stats.awayGoalsFor}/jogo</span>
+        </div>
+        <div class="btts-card__stat">
+          <span class="btts-card__stat-label">Fora sofre</span>
+          <span class="btts-card__stat-value">${btts.stats.awayGoalsAgainst}/jogo</span>
+        </div>
+      </div>
+
+      ${h2hHtml}
+      ${leagueBttsHtml}
+
+      <div class="btts-card__form">
         <div class="form-row">
           <span class="form-row__label" style="min-width:auto;max-width:60px">${home.name.split(' ')[0]}</span>
           <div class="form-badges">${UI.renderFormBadges(homeForm)}</div>
@@ -222,43 +352,44 @@ const TopPicks = {
           <div class="form-badges">${UI.renderFormBadges(awayForm)}</div>
         </div>
       </div>
-      <div class="top-pick-card__stats">
-        <span title="Golos marcados/sofridos casa">&#9917; ${homeGoalsFor}/${homeGoalsAgainst}</span>
-        <span title="Golos marcados/sofridos fora">&#9917; ${awayGoalsFor}/${awayGoalsAgainst}</span>
-      </div>
-      <div class="top-pick-card__patterns">
-        ${patterns.map(p => `
-          <span class="pattern-badge pattern-badge--${p.confidence} ${Picks.isPicked(fixture.fixture.id, p.key) ? 'picked' : ''}"
-                data-pattern="${p.key}"
+
+      ${btts.factors.length > 0 ? `
+        <div class="btts-card__factors">
+          ${btts.factors.map(f => {
+            const isWarning = f.startsWith('⚠');
+            return `<div class="btts-card__factor ${isWarning ? 'btts-card__factor--warning' : ''}">
+              ${isWarning ? '' : '&#10003; '}${f}
+            </div>`;
+          }).join('')}
+        </div>
+      ` : ''}
+
+      <div class="btts-card__actions">
+        <button class="btts-card__pick-btn ${Picks.isPicked(fixture.fixture.id, 'btts') ? 'picked' : ''}"
                 data-fixture="${fixture.fixture.id}"
                 data-home="${home.name}"
                 data-away="${away.name}"
-                data-label="${p.label}"
-                data-confidence="${p.confidencePercent}"
-                title="${p.detail || ''}">
-            ${p.label} <span class="pattern-badge__confidence">${p.confidencePercent}</span>
-          </span>
-        `).join('')}
+                data-confidence="${btts.confidencePercent}">
+          ${Picks.isPicked(fixture.fixture.id, 'btts') ? '&#10003; Adicionado' : '+ Adicionar Pick'}
+        </button>
       </div>
-      ${bestPattern.detail ? `<div class="top-pick-card__insight">${bestPattern.detail}</div>` : ''}
     `;
 
-    // Click on pattern badges to pick
-    card.querySelectorAll('.pattern-badge').forEach(badge => {
-      badge.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const fId = parseInt(badge.dataset.fixture);
-        const pKey = badge.dataset.pattern;
-        const added = Picks.add({
-          fixtureId: fId,
-          patternKey: pKey,
-          patternLabel: badge.dataset.label,
-          confidencePercent: badge.dataset.confidence,
-          homeTeam: badge.dataset.home,
-          awayTeam: badge.dataset.away
-        });
-        badge.classList.toggle('picked', added);
+    // Pick button click
+    card.querySelector('.btts-card__pick-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      const btn = e.currentTarget;
+      const fId = parseInt(btn.dataset.fixture);
+      const added = Picks.add({
+        fixtureId: fId,
+        patternKey: 'btts',
+        patternLabel: 'Ambas Marcam',
+        confidencePercent: btn.dataset.confidence,
+        homeTeam: btn.dataset.home,
+        awayTeam: btn.dataset.away
       });
+      btn.classList.toggle('picked', added);
+      btn.innerHTML = added ? '&#10003; Adicionado' : '+ Adicionar Pick';
     });
 
     return card;

@@ -923,12 +923,13 @@ body {
 /* Top Picks Grid */
 .top-picks__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: var(--space-md);
 }
 
-/* Top Pick Card */
-.top-pick-card {
+/* ===================== BTTS CARD ===================== */
+
+.btts-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -940,33 +941,76 @@ body {
   gap: var(--space-sm);
 }
 
-.top-pick-card:hover {
-  border-color: var(--text-muted);
+.btts-card:hover {
+  border-color: var(--green);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 20px rgba(0, 230, 118, 0.1);
 }
 
-.top-pick-card__tier {
-  position: absolute;
-  top: var(--space-sm);
-  right: var(--space-sm);
+/* Card Header: Rank + Tier + Score Ring */
+.btts-card__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.btts-card__rank {
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.btts-card__tier {
   font-size: var(--fs-md);
 }
 
-.top-pick-card__league {
+.btts-card__score-ring {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid var(--score-color, var(--green));
+  background: rgba(0, 230, 118, 0.05);
+}
+
+.btts-card__score-value {
+  font-size: var(--fs-md);
+  font-weight: 800;
+  color: var(--score-color, var(--green));
+  font-family: var(--font-mono);
+  line-height: 1;
+}
+
+.btts-card__score-label {
+  font-size: 8px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+/* League & Time */
+.btts-card__league {
   font-size: var(--fs-xs);
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-.top-pick-card__matchup {
+/* Matchup */
+.btts-card__matchup {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
 }
 
-.top-pick-card__team {
+.btts-card__team {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
@@ -976,57 +1020,162 @@ body {
   min-width: 0;
 }
 
-.top-pick-card__team span {
+.btts-card__team span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.top-pick-card__team:last-child {
+.btts-card__team:last-child {
   justify-content: flex-end;
   text-align: right;
 }
 
-.top-pick-card__team-logo {
+.btts-card__team-logo {
   width: 22px;
   height: 22px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.top-pick-card__vs {
+.btts-card__vs {
   font-size: var(--fs-xs);
   color: var(--text-muted);
   font-weight: 400;
   flex-shrink: 0;
 }
 
-.top-pick-card__form {
+/* BTTS Odds */
+.btts-card__odds {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--green-dim);
+  border: 1px solid rgba(0, 230, 118, 0.2);
+}
+
+.btts-card__odds-label {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btts-card__odds-value {
+  font-size: var(--fs-lg);
+  font-weight: 800;
+  font-family: var(--font-mono);
+  color: var(--green);
+}
+
+.btts-odds--value .btts-card__odds-value { color: var(--green); }
+.btts-odds--value { border-color: rgba(0, 230, 118, 0.3); }
+
+.btts-odds--fair .btts-card__odds-value { color: var(--amber); }
+.btts-odds--fair { background: var(--amber-dim); border-color: rgba(255, 193, 7, 0.2); }
+
+.btts-odds--low .btts-card__odds-value { color: var(--text-secondary); }
+.btts-odds--low { background: var(--bg-elevated); border-color: var(--border); }
+
+/* Stats Grid */
+.btts-card__stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xs);
+}
+
+.btts-card__stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px var(--space-sm);
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-xs);
+}
+
+.btts-card__stat-label {
+  color: var(--text-muted);
+  font-size: var(--fs-xs);
+}
+
+.btts-card__stat-value {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+
+/* H2H & League BTTS */
+.btts-card__h2h,
+.btts-card__league-btts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px var(--space-sm);
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+}
+
+/* Form */
+.btts-card__form {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.top-pick-card__stats {
+/* Factors */
+.btts-card__factors {
   display: flex;
-  gap: var(--space-md);
-  font-size: var(--fs-xs);
-  color: var(--text-secondary);
-}
-
-.top-pick-card__patterns {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-xs);
-}
-
-.top-pick-card__insight {
-  font-size: var(--fs-xs);
-  color: var(--text-secondary);
-  font-style: italic;
+  flex-direction: column;
+  gap: 2px;
   border-top: 1px solid var(--border-light);
   padding-top: var(--space-sm);
+}
+
+.btts-card__factor {
+  font-size: var(--fs-xs);
+  color: var(--green);
   line-height: 1.4;
+  padding: 1px 0;
+}
+
+.btts-card__factor--warning {
+  color: var(--amber);
+}
+
+/* Actions */
+.btts-card__actions {
+  margin-top: auto;
+}
+
+.btts-card__pick-btn {
+  width: 100%;
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.btts-card__pick-btn:hover {
+  background: var(--green-dim);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.btts-card__pick-btn.picked {
+  background: var(--green);
+  color: var(--text-inverse);
+  border-color: var(--green);
 }
 
 /* Scrollbar */
