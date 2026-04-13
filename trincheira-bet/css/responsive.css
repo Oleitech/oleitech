@@ -69,6 +69,30 @@
 }
 
 @media (max-width: 767px) {
+  .history__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .history__chart-area {
+    height: 120px;
+  }
+
+  .history__chart-label {
+    font-size: 7px;
+  }
+
+  .history__day-header {
+    padding: var(--space-sm);
+  }
+
+  .history__day-badges {
+    flex-wrap: wrap;
+  }
+
+  .history__tip-teams {
+    max-width: 140px;
+  }
+
   .top-picks__grid {
     grid-template-columns: 1fr;
   }

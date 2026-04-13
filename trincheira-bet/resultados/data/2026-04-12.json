@@ -1,0 +1,144 @@
+{
+  "date": "2026-04-12",
+  "btts": {
+    "tips": [
+      {
+        "home": "PEC Zwolle",
+        "away": "Excelsior",
+        "league": "Eredivisie",
+        "country": "NL",
+        "kickoff": "13:30",
+        "confidence": 71,
+        "btts_sim": 1.53,
+        "result_home": 2,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "Dender",
+        "away": "Zulte Waregem",
+        "league": "Pro League",
+        "country": "BE",
+        "kickoff": "18:15",
+        "confidence": 70,
+        "btts_sim": 1.70,
+        "result_home": 1,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "Anderlecht",
+        "away": "Gent",
+        "league": "Pro League",
+        "country": "BE",
+        "kickoff": "17:30",
+        "confidence": 66,
+        "btts_sim": 1.55,
+        "result_home": 3,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Austria Vienna",
+        "away": "Rapid Vienna",
+        "league": "Bundesliga",
+        "country": "AT",
+        "kickoff": "16:00",
+        "confidence": 65,
+        "btts_sim": 1.83,
+        "result_home": 1,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Genk",
+        "away": "OH Leuven",
+        "league": "Pro League",
+        "country": "BE",
+        "kickoff": "15:00",
+        "confidence": 64,
+        "btts_sim": null,
+        "result_home": 0,
+        "result_away": 0,
+        "btts_hit": false
+      },
+      {
+        "home": "FC Luzern",
+        "away": "FC St. Gallen",
+        "league": "Super League",
+        "country": "CH",
+        "kickoff": "15:30",
+        "confidence": 85,
+        "btts_sim": 1.40,
+        "result_home": 2,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "1. FC Köln",
+        "away": "Werder Bremen",
+        "league": "Bundesliga",
+        "country": "DE",
+        "kickoff": "14:30",
+        "confidence": 82,
+        "btts_sim": 1.57,
+        "result_home": 3,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "BSC Young Boys",
+        "away": "Servette FC",
+        "league": "Super League",
+        "country": "CH",
+        "kickoff": "15:30",
+        "confidence": 83,
+        "btts_sim": null,
+        "result_home": 1,
+        "result_away": 1,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 8,
+      "green": 7,
+      "red": 1,
+      "hit_rate": 87.5
+    }
+  },
+  "corners": {
+    "tips": [
+      {
+        "home": "Unknown (left game)",
+        "away": "Unknown",
+        "league": "Unknown",
+        "market": "+10.5 cantos",
+        "total_corners": 5,
+        "hit": false
+      },
+      {
+        "home": "Unknown (middle game)",
+        "away": "Unknown",
+        "league": "Unknown",
+        "market": "+10.5 cantos",
+        "total_corners": 11,
+        "hit": true
+      },
+      {
+        "home": "Unknown (right game)",
+        "away": "Unknown",
+        "league": "Unknown",
+        "market": "+10.5 cantos",
+        "total_corners": 12,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 2,
+      "red": 1,
+      "hit_rate": 66.7
+    }
+  },
+  "notes": "Cantos tip details incomplete - HEIC image not readable. User confirmed: 3 tips all +10.5 corners, left game had 5 (RED), middle had 11 (GREEN), right had 12 (GREEN). Genk vs OH Leuven was the only BTTS miss - 0-0 draw with lowest confidence score (64)."
+}

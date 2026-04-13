@@ -5,5 +5,8 @@ const CONFIG = {
   CACHE_TTL_FIXTURES: 4 * 60 * 60 * 1000,
   CACHE_TTL_PREDICTIONS: 12 * 60 * 60 * 1000,
   CACHE_TTL_ODDS: 6 * 60 * 60 * 1000,
-  PRIORITY_LEAGUES: [94, 39, 140, 135, 78, 61, 2, 3, 88, 144, 203, 179, 113, 106]
+  // BTTS-focused leagues: Eredivisie, Austria, Belgium, Switzerland, Norway, Germany, Denmark,
+  // 2.Bundesliga, Scotland, Czech, Sweden, Finland, Poland, Japan, Korea, MLS, France, Turkey,
+  // Champions League, Europa League
+  PRIORITY_LEAGUES: [88, 218, 144, 207, 103, 78, 119, 79, 179, 345, 113, 244, 106, 98, 292, 253, 61, 203, 2, 3]
 };

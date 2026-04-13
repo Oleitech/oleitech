@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trincheira Bet — BTTS &amp; Corners</title>
+  <title>Trincheira Bet — Análise de Apostas</title>
   <meta name="description" content="Análise estatística de jogos de futebol. Identifica padrões de apostas: Ambas Marcam, Over 2.5, Handicap, Vitória 1ª Parte.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9917;</text></svg>">
   <link rel="stylesheet" href="css/variables.css">
@@ -121,6 +121,17 @@
       </div>
     </section>
 
+    <!-- History / Results Section -->
+    <section class="history-section" id="history-section" style="display:none">
+      <div class="history__inner">
+        <div class="history__header">
+          <div class="history__title">&#128202; Historico de Resultados</div>
+          <div class="history__subtitle">Performance diaria — BTTS & Cantos</div>
+        </div>
+        <div id="history-content"></div>
+      </div>
+    </section>
+
     <!-- Main Layout -->
     <div class="main">
       <div class="main__content" id="fixtures-container">
@@ -165,6 +176,7 @@
   <script src="js/fixtures.js"></script>
   <script src="js/top-picks.js"></script>
   <script src="js/corners.js"></script>
+  <script src="js/history.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

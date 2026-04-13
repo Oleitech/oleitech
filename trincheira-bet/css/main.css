@@ -1556,6 +1556,314 @@ body {
   border-color: var(--amber);
 }
 
+/* ===================== HISTORY SECTION ===================== */
+
+.history-section {
+  padding: var(--space-md) var(--space-md) 0;
+}
+
+.history__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.history__header {
+  margin-bottom: var(--space-lg);
+}
+
+.history__title {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+}
+
+.history__subtitle {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  margin-top: var(--space-xs);
+}
+
+/* Stats cards row */
+.history__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.history__stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  text-align: center;
+}
+
+.history__stat-value {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.history__stat-card--btts .history__stat-value { color: var(--green); }
+.history__stat-card--corners .history__stat-value { color: var(--amber); }
+.history__stat-card--streak .history__stat-value { color: var(--blue); }
+
+.history__stat-label {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+  margin-top: var(--space-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Chart */
+.history__chart {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.history__chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-md);
+}
+
+.history__chart-title {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.history__chart-legend {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.history__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+}
+
+.history__legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.history__legend-dot--btts { background: var(--green); }
+.history__legend-dot--corners { background: var(--amber); }
+
+.history__chart-area {
+  position: relative;
+  height: 160px;
+}
+
+.history__chart-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.history__chart-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.history__chart-line span {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  font-size: 9px;
+  color: var(--text-muted);
+}
+
+.history__chart-cols {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  gap: 2px;
+  padding-left: 32px;
+}
+
+.history__chart-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.history__chart-bars {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  width: 100%;
+}
+
+.history__chart-bar {
+  flex: 1;
+  border-radius: 2px 2px 0 0;
+  min-height: 3px;
+  transition: height var(--transition);
+}
+
+.history__chart-bar--btts.green { background: var(--green); opacity: 0.8; }
+.history__chart-bar--btts.red { background: var(--red); opacity: 0.8; }
+.history__chart-bar--corners { background: var(--amber); opacity: 0.6; }
+
+.history__chart-label {
+  font-size: 8px;
+  color: var(--text-muted);
+  margin-top: var(--space-xs);
+  white-space: nowrap;
+}
+
+/* Day-by-day list */
+.history__days {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.history__day {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.history__day-header {
+  display: flex;
+  align-items: center;
+  padding: var(--space-md);
+  cursor: pointer;
+  gap: var(--space-md);
+  transition: background var(--transition);
+}
+
+.history__day-header:hover {
+  background: var(--bg-hover);
+}
+
+.history__day-date {
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  min-width: 64px;
+}
+
+.history__day-badges {
+  display: flex;
+  gap: var(--space-sm);
+  flex: 1;
+}
+
+.history__badge {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+}
+
+.history__badge.green {
+  background: var(--green-dim);
+  color: var(--green);
+}
+
+.history__badge.red {
+  background: var(--red-dim);
+  color: var(--red);
+}
+
+.history__day-arrow {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  transition: transform var(--transition);
+}
+
+.history__day-arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.history__day-detail {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.history__day-detail.expanded {
+  max-height: 1000px;
+  border-top: 1px solid var(--border);
+}
+
+.history__tip-section {
+  padding: var(--space-sm) var(--space-md);
+}
+
+.history__tip-section-title {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-sm);
+}
+
+.history__tip {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) 0;
+  font-size: var(--fs-sm);
+}
+
+.history__tip.green .history__tip-icon { color: var(--green); }
+.history__tip.red .history__tip-icon { color: var(--red); }
+
+.history__tip-icon {
+  font-size: var(--fs-md);
+  width: 20px;
+  text-align: center;
+}
+
+.history__tip-teams {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history__tip-score {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  min-width: 40px;
+  text-align: center;
+}
+
+.history__tip-conf {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  min-width: 40px;
+  text-align: right;
+}
+
+.history__notes {
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  font-style: italic;
+  border-top: 1px solid var(--border-light);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }

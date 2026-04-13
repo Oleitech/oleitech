@@ -18,6 +18,10 @@ const App = {
     // Initialize corners scanner
     Corners.init();
 
+    // Initialize history (seed data + render)
+    History.seedData();
+    History.init();
+
     // Setup date tabs
     this.setupDateTabs();
 
