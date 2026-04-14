@@ -26,6 +26,7 @@ E partilhar as fotos (tips + resultados). Se os cantos nao tiverem screenshots d
 3. Cruzar tips com resultados e marcar GREEN/RED
 4. Guardar o JSON em `resultados/data/YYYY-MM-DD.json`
 5. Atualizar o historico na app (secao de resultados)
+6. O **Learning Engine** (`js/learning.js`) usa estes dados automaticamente para ajustar as tips futuras
 
 ---
 
@@ -97,6 +98,24 @@ Cada dia gera um ficheiro JSON em `resultados/data/`:
 - Confianca >= 70 parece ser um bom threshold para BTTS
 - Confianca < 65 tem risco elevado
 - Cantos precisa de mais dados para avaliar tendencias
+
+### Dia 13/04/2026 - Aprendizagens
+
+**BTTS (1/2 = 50%)**
+- Fredericia vs Vejle (conf. 80) — GREEN, 2-2. Confianca alta = resultado positivo
+- Lanus vs Banfield (conf. 57) — RED, 1-0. Confianca baixa (<60) volta a falhar
+- Dia com poucas tips disponíveis (apenas 2 jogos)
+
+**Cantos (1/1 = 100%)**
+- Brommapojkarna vs AIK Stockholm: Over 10.5 — GREEN (12 cantos)
+- Conf. 55 mas acertou — cantos parece menos dependente da confianca
+
+**Padroes acumulados (2 dias):**
+- BTTS com conf. >= 70: 6/6 = 100% (perfeito)
+- BTTS com conf. < 65: 1/3 = 33% (alto risco)
+- BTTS conf. 65-69: 2/2 = 100% (amostra pequena)
+- Cantos Over 10.5: 3/4 = 75%
+- Threshold recomendado BTTS: >= 65 (possivelmente >= 70 para maior segurança)
 
 ---
 

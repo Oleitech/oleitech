@@ -132,13 +132,13 @@
       </div>
     </section>
 
-    <!-- Main Layout -->
-    <div class="main">
-      <div class="main__content" id="fixtures-container">
-        <!-- Fixtures load here -->
-      </div>
+    <!-- Main Layout (fixtures list hidden) -->
+    <div class="main" style="display:none">
+      <div class="main__content" id="fixtures-container"></div>
+    </div>
 
-      <!-- Picks Sidebar -->
+    <!-- Picks sidebar & FAB hidden -->
+    <div style="display:none">
       <aside class="picks-sidebar" id="picks-sidebar">
         <div class="picks-panel">
           <div class="picks-panel__header">
@@ -153,10 +153,8 @@
           <div class="picks-panel__list" id="picks-list"></div>
         </div>
       </aside>
+      <button class="picks-fab" id="picks-fab" title="Ver picks">0</button>
     </div>
-
-    <!-- Mobile Picks FAB -->
-    <button class="picks-fab" id="picks-fab" title="Ver picks">0</button>
 
     <!-- Toast Container -->
     <div class="toast-container" id="toast-container"></div>
@@ -171,6 +169,7 @@
   <script src="js/cache.js"></script>
   <script src="js/ui.js"></script>
   <script src="js/api.js"></script>
+  <script src="js/learning.js"></script>
   <script src="js/analysis.js"></script>
   <script src="js/picks.js"></script>
   <script src="js/fixtures.js"></script>

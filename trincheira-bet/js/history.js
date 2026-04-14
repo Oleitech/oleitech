@@ -293,5 +293,24 @@ const History = {
       },
       "notes": "Primeiro dia de tracking. BTTS excelente (87.5%). Genk vs OH Leuven (conf. 64) foi o unico miss. Cantos: jogo da esquerda teve apenas 5 cantos vs target 10.5."
     });
+
+    // Day 2: 13/04/2026
+    this.addDay({
+      "date": "2026-04-13",
+      "btts": {
+        "tips": [
+          { "home": "FC Fredericia", "away": "Vejle", "league": "Superliga", "confidence": 80, "btts_sim": null, "result_home": 2, "result_away": 2, "btts_hit": true },
+          { "home": "Lanus", "away": "Banfield", "league": "Primera División", "confidence": 57, "btts_sim": 2.10, "result_home": 1, "result_away": 0, "btts_hit": false }
+        ],
+        "summary": { "total": 2, "green": 1, "red": 1, "hit_rate": 50.0 }
+      },
+      "corners": {
+        "tips": [
+          { "home": "IF Brommapojkarna", "away": "AIK Stockholm", "league": "Allsvenskan", "market": "+10.5 cantos", "total_corners": 12, "hit": true }
+        ],
+        "summary": { "total": 1, "green": 1, "red": 0, "hit_rate": 100.0 }
+      },
+      "notes": "Dia com poucas tips. Fredericia vs Vejle (conf. 80) acertou. Lanus vs Banfield (conf. 57) falhou - confianca baixa confirmou-se como risco."
+    });
   }
 };

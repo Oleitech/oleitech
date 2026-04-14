@@ -207,6 +207,14 @@ const Corners = {
       score += 4;
     }
 
+    // === Factor 9: Learning from historical results ===
+    let learningFactors = [];
+    if (typeof Learning !== 'undefined' && Learning.ready) {
+      const adj = Learning.getCornersAdjustment();
+      score += adj.delta;
+      learningFactors = adj.factors;
+    }
+
     // Cap at 100
     score = Math.min(100, Math.max(0, score));
 
@@ -225,6 +233,7 @@ const Corners = {
       score,
       confidence,
       factors,
+      learningFactors,
       estimatedCorners: parseFloat(estimatedCorners),
       leagueAvg,
       stats: {
@@ -504,9 +513,21 @@ const Corners = {
       ${corners.factors.length > 0 ? `
         <div class="corners-card__factors">
           ${corners.factors.map(f => {
-            const isWarning = f.startsWith('⚠');
+            const isWarning = f.startsWith('\u26A0');
             return `<div class="corners-card__factor ${isWarning ? 'corners-card__factor--warning' : ''}">
               ${isWarning ? '' : '&#10003; '}${f}
+            </div>`;
+          }).join('')}
+        </div>
+      ` : ''}
+
+      ${(corners.learningFactors && corners.learningFactors.length > 0) ? `
+        <div class="corners-card__learning">
+          <div class="corners-card__learning-title">&#9889; Aprendizagem</div>
+          ${corners.learningFactors.map(f => {
+            const isWarning = f.startsWith('\u26A0');
+            return `<div class="corners-card__learning-item ${isWarning ? 'corners-card__learning-item--warning' : 'corners-card__learning-item--boost'}">
+              ${f}
             </div>`;
           }).join('')}
         </div>

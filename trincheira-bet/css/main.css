@@ -1148,6 +1148,63 @@ body {
   color: var(--amber);
 }
 
+/* Learning Section */
+.btts-card__learning,
+.corners-card__learning {
+  border-top: 1px dashed var(--purple);
+  padding-top: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.btts-card__learning-title,
+.corners-card__learning-title {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--purple);
+  margin-bottom: 4px;
+}
+
+.btts-card__learning-item,
+.corners-card__learning-item {
+  font-size: var(--fs-xs);
+  line-height: 1.4;
+  padding: 1px 0;
+}
+
+.btts-card__learning-item--boost,
+.corners-card__learning-item--boost {
+  color: var(--blue);
+}
+
+.btts-card__learning-item--warning,
+.corners-card__learning-item--warning {
+  color: var(--amber);
+}
+
+.btts-card__risk {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.btts-card__risk--high {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--red);
+}
+
+.btts-card__risk--medium {
+  background: rgba(251, 191, 36, 0.15);
+  color: var(--amber);
+}
+
+.btts-card__risk--low {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--green);
+}
+
 /* Actions */
 .btts-card__actions {
   margin-top: auto;

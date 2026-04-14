@@ -1,0 +1,57 @@
+{
+  "date": "2026-04-13",
+  "btts": {
+    "tips": [
+      {
+        "home": "FC Fredericia",
+        "away": "Vejle",
+        "league": "Superliga",
+        "country": "DK",
+        "kickoff": "18:00",
+        "confidence": 80,
+        "btts_sim": null,
+        "result_home": 2,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "Lanus",
+        "away": "Banfield",
+        "league": "Primera División",
+        "country": "AR",
+        "kickoff": "23:00",
+        "confidence": 57,
+        "btts_sim": 2.10,
+        "result_home": 1,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0
+    }
+  },
+  "corners": {
+    "tips": [
+      {
+        "home": "IF Brommapojkarna",
+        "away": "AIK Stockholm",
+        "league": "Allsvenskan",
+        "country": "SE",
+        "market": "+10.5 cantos",
+        "total_corners": 12,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "notes": "Dia com poucas tips. BTTS: Fredericia vs Vejle (conf. 80) acertou com 2-2. Lanus vs Banfield (conf. 57) falhou - apenas 1-0, confianca baixa confirmou-se como risco. Cantos: Brommapojkarna vs AIK teve 12 cantos, passando o Over 10.5."
+}

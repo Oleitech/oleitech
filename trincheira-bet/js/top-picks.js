@@ -356,11 +356,28 @@ const TopPicks = {
       ${btts.factors.length > 0 ? `
         <div class="btts-card__factors">
           ${btts.factors.map(f => {
-            const isWarning = f.startsWith('⚠');
+            const isWarning = f.startsWith('\u26A0');
             return `<div class="btts-card__factor ${isWarning ? 'btts-card__factor--warning' : ''}">
               ${isWarning ? '' : '&#10003; '}${f}
             </div>`;
           }).join('')}
+        </div>
+      ` : ''}
+
+      ${(btts.learningFactors && btts.learningFactors.length > 0) || btts.risk ? `
+        <div class="btts-card__learning">
+          <div class="btts-card__learning-title">&#9889; Aprendizagem</div>
+          ${(btts.learningFactors || []).map(f => {
+            const isWarning = f.startsWith('\u26A0');
+            return `<div class="btts-card__learning-item ${isWarning ? 'btts-card__learning-item--warning' : 'btts-card__learning-item--boost'}">
+              ${f}
+            </div>`;
+          }).join('')}
+          ${btts.risk ? `
+            <div class="btts-card__risk btts-card__risk--${btts.risk.level}">
+              ${btts.risk.label}
+            </div>
+          ` : ''}
         </div>
       ` : ''}
 

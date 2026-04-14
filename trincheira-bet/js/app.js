@@ -9,6 +9,9 @@ const App = {
     // Update request counter
     UI.updateRequestCounter();
 
+    // Initialize learning engine (must load before scanners use it)
+    await Learning.init();
+
     // Initialize picks
     Picks.init();
 

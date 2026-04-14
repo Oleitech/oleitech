@@ -159,6 +159,15 @@ const Analysis = {
       factors.push('Jogo equilibrado (bom para BTTS)');
     }
 
+    // === Factor 9: Learning from historical results ===
+    let learningFactors = [];
+    if (typeof Learning !== 'undefined' && Learning.ready) {
+      const leagueName = leagueData?.name || '';
+      const adj = Learning.getBTTSAdjustment(score, leagueName);
+      score += adj.delta;
+      learningFactors = adj.factors;
+    }
+
     // === Calculate confidence ===
     // Cap at 100
     score = Math.min(100, Math.max(0, score));
@@ -189,7 +198,9 @@ const Analysis = {
         homeForm: homeForm.str,
         awayForm: awayForm.str
       },
-      detail: factors.filter(f => !f.startsWith('⚠')).slice(0, 2).join(' · ')
+      detail: factors.filter(f => !f.startsWith('⚠')).slice(0, 2).join(' · '),
+      learningFactors,
+      risk: (typeof Learning !== 'undefined' && Learning.ready) ? Learning.getBTTSRisk(score) : null
     };
   },
 
