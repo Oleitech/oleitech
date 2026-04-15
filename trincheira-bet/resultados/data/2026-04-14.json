@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-14",
+  "btts": {
+    "tips": [
+      {
+        "home": "Aris",
+        "away": "Pafos",
+        "league": "First Division",
+        "country": "CY",
+        "kickoff": "15:00",
+        "confidence": 62,
+        "btts_sim": null,
+        "result_home": 1,
+        "result_away": 1,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "corners": {
+    "tips": [
+      {
+        "home": "Atletico Madrid",
+        "away": "Barcelona",
+        "league": "Champions League",
+        "country": "EU",
+        "market": "+10.5 cantos",
+        "confidence": 80,
+        "odd": 1.77,
+        "total_corners": 6,
+        "hit": false
+      },
+      {
+        "home": "Liverpool",
+        "away": "Paris Saint Germain",
+        "league": "Champions League",
+        "country": "EU",
+        "market": "+10.5 cantos",
+        "confidence": 62,
+        "odd": 1.95,
+        "total_corners": 10,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 0,
+      "red": 2,
+      "hit_rate": 0.0
+    }
+  },
+  "notes": "Dia RED nos cantos. BTTS: Aris vs Pafos (conf. 62) acertou com 1-1. Cantos: Atletico Madrid vs Barcelona teve apenas 6 cantos (conf. 80 - falha grave), Liverpool vs PSG teve 10 cantos (perto mas nao chegou, conf. 62). Champions League decepcionou nos cantos."
+}

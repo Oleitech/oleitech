@@ -1,3 +1,6 @@
 .DS_Store
 *.DS_Store
 Thumbs.db
+
+# Trincheira Bet - fotos de resultados (pesadas, desnecessarias no deploy)
+trincheira-bet/resultados/dia-*/
