@@ -12,6 +12,13 @@ const LEAGUES = {
   103: { name: 'Eliteserien', country: 'Norway', flag: 'NO', priority: 1, bttsRate: 60, avgCorners: 9.5 },
   78:  { name: 'Bundesliga', country: 'Germany', flag: 'DE', priority: 1, bttsRate: 60, avgCorners: 9.5 },
   119: { name: 'Superliga', country: 'Denmark', flag: 'DK', priority: 1, bttsRate: 59, avgCorners: 9.4 },
+  164: { name: 'Úrvalsdeild', country: 'Iceland', flag: 'IS', priority: 1, bttsRate: 78, avgCorners: 9.2 },
+  262: { name: 'Liga MX', country: 'Mexico', flag: 'MX', priority: 1, bttsRate: 66, avgCorners: 9.8 },
+  80:  { name: '3. Liga', country: 'Germany', flag: 'DE', priority: 1, bttsRate: 66, avgCorners: 9.4 },
+  307: { name: 'Pro League', country: 'Saudi Arabia', flag: 'SA', priority: 1, bttsRate: 64, avgCorners: 9.2 },
+  114: { name: 'Superettan', country: 'Sweden', flag: 'SE', priority: 1, bttsRate: 64, avgCorners: 9.0 },
+  104: { name: '1. Division', country: 'Norway', flag: 'NO', priority: 1, bttsRate: 62, avgCorners: 9.0 },
+  245: { name: 'Ykkönen', country: 'Finland', flag: 'FI', priority: 1, bttsRate: 64, avgCorners: 8.8 },
 
   // === TIER 2: Very Strong BTTS Leagues (54-60%) ===
   79:  { name: '2. Bundesliga', country: 'Germany', flag: 'DE', priority: 2, bttsRate: 57, avgCorners: 9.3 },
