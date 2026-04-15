@@ -32,6 +32,11 @@ const LEAGUES = {
   253: { name: 'MLS', country: 'USA', flag: 'US', priority: 2, bttsRate: 55, avgCorners: 9.5 },
   61:  { name: 'Ligue 1', country: 'France', flag: 'FR', priority: 2, bttsRate: 54, avgCorners: 9.0 },
   203: { name: 'Süper Lig', country: 'Turkey', flag: 'TR', priority: 2, bttsRate: 54, avgCorners: 9.8 },
+  89:  { name: 'Eerste Divisie', country: 'Netherlands', flag: 'NL', priority: 2, bttsRate: 54, avgCorners: 10.0 },
+  145: { name: 'Challenger Pro League', country: 'Belgium', flag: 'BE', priority: 2, bttsRate: 54, avgCorners: 9.5 },
+  208: { name: 'Challenge League', country: 'Switzerland', flag: 'CH', priority: 2, bttsRate: 56, avgCorners: 9.3 },
+  120: { name: '1. Division', country: 'Denmark', flag: 'DK', priority: 2, bttsRate: 54, avgCorners: 9.1 },
+  239: { name: 'Primera A', country: 'Colombia', flag: 'CO', priority: 2, bttsRate: 54, avgCorners: 9.0 },
 
   // === TIER 3: Solid BTTS Leagues (50-55%) ===
   39:  { name: 'Premier League', country: 'England', flag: 'GB', priority: 3, bttsRate: 53, avgCorners: 9.2 },
