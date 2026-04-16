@@ -331,5 +331,23 @@ const History = {
       },
       "notes": "Dia RED nos cantos. BTTS acertou (Aris vs Pafos 1-1). Cantos: Barcelona teve apenas 6, PSG ficou perto com 10 mas nao chegou ao 10.5."
     });
+
+    // Day 4: 15/04/2026
+    this.addDay({
+      "date": "2026-04-15",
+      "btts": {
+        "tips": [
+          { "home": "Al-Nassr", "away": "Al-Ettifaq", "league": "Pro League", "confidence": 55, "btts_sim": 1.57, "result_home": 1, "result_away": 0, "btts_hit": false }
+        ],
+        "summary": { "total": 1, "green": 0, "red": 1, "hit_rate": 0.0 }
+      },
+      "corners": {
+        "tips": [
+          { "home": "Bayern München", "away": "Real Madrid", "league": "Champions League", "market": "+9.5 cantos", "confidence": 60, "total_corners": 12, "hit": true }
+        ],
+        "summary": { "total": 1, "green": 1, "red": 0, "hit_rate": 100.0 }
+      },
+      "notes": "BTTS: Al-Nassr vs Al-Ettifaq (conf. 55) falhou - 1-0, jogo desequilibrado. Cantos: Bayern vs Real Madrid 12 cantos (4-3), Over 9.5 GREEN."
+    });
   }
 };

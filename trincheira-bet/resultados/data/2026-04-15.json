@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-15",
+  "btts": {
+    "tips": [
+      {
+        "home": "Al-Nassr",
+        "away": "Al-Ettifaq",
+        "league": "Pro League",
+        "country": "SA",
+        "kickoff": "19:00",
+        "confidence": 55,
+        "btts_sim": 1.57,
+        "result_home": 1,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0
+    }
+  },
+  "corners": {
+    "tips": [
+      {
+        "home": "Bayern München",
+        "away": "Real Madrid",
+        "league": "Champions League",
+        "country": "EU",
+        "market": "+9.5 cantos",
+        "confidence": 60,
+        "odd": 1.70,
+        "total_corners": 12,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "notes": "BTTS: Al-Nassr vs Al-Ettifaq (conf. 55, mínimo) falhou - 1-0, jogo muito desequilibrado como o modelo avisou. Cantos: Bayern vs Real Madrid teve 12 cantos (4-3, jogo aberto), Over 9.5 GREEN. Champions League redimiu-se nos cantos com jogo de fase eliminatória mas muito aberto."
+}
