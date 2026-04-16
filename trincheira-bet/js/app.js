@@ -21,6 +21,11 @@ const App = {
     // Initialize corners scanner
     Corners.init();
 
+    // Initialize new scanners
+    Cards.init();
+    Over15.init();
+    Over25Scanner.init();
+
     // Initialize history (seed data + render)
     History.seedData();
     History.init();
@@ -106,6 +111,9 @@ const App = {
     // Show scanner sections with fixture data
     TopPicks.show(Fixtures.fixturesData);
     Corners.show(Fixtures.fixturesData);
+    Cards.show(Fixtures.fixturesData);
+    Over15.show(Fixtures.fixturesData);
+    Over25Scanner.show(Fixtures.fixturesData);
   }
 };
 

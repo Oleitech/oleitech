@@ -250,6 +250,488 @@ const Analysis = {
     };
   },
 
+  // ===================== CARDS DEEP ANALYSIS =====================
+  // Multi-factor scoring for Over/Under Cards prediction
+
+  analyzeCards(prediction, fixture) {
+    if (!prediction) return null;
+
+    const teams = prediction.teams;
+    const comp = this.getComparison(prediction);
+    const h2h = prediction.h2h || [];
+    const leagueId = fixture?.league?.id || prediction.league?.id;
+    const leagueData = LEAGUES[leagueId];
+
+    const homeGoalsFor = parseFloat(teams?.home?.league?.goals?.for?.average?.total || 0);
+    const homeGoalsAgainst = parseFloat(teams?.home?.league?.goals?.against?.average?.total || 0);
+    const awayGoalsFor = parseFloat(teams?.away?.league?.goals?.for?.average?.total || 0);
+    const awayGoalsAgainst = parseFloat(teams?.away?.league?.goals?.against?.average?.total || 0);
+
+    let score = 0;
+    const factors = [];
+
+    // === Factor 1: League average cards ===
+    const leagueAvgCards = leagueData?.avgCards || 4.0;
+    if (leagueAvgCards >= 5.0) {
+      score += 20;
+      factors.push(`Liga alta em cartões (${leagueAvgCards}/jogo)`);
+    } else if (leagueAvgCards >= 4.5) {
+      score += 15;
+      factors.push(`Liga acima da média em cartões (${leagueAvgCards}/jogo)`);
+    } else if (leagueAvgCards >= 4.0) {
+      score += 10;
+      factors.push(`Liga média em cartões (${leagueAvgCards}/jogo)`);
+    } else if (leagueAvgCards >= 3.5) {
+      score += 5;
+    } else {
+      score -= 3;
+    }
+
+    // === Factor 2: Match competitiveness (close matches = more fouls = more cards) ===
+    const totalDiff = Math.abs(comp.homeTotal - comp.awayTotal);
+    if (totalDiff < 10) {
+      score += 15;
+      factors.push('Jogo muito equilibrado (mais disputas = mais cartões)');
+    } else if (totalDiff < 20) {
+      score += 10;
+      factors.push('Jogo competitivo');
+    } else if (totalDiff < 30) {
+      score += 5;
+    } else if (totalDiff > 35) {
+      score -= 3;
+    }
+
+    // === Factor 3: Defensive intensity (teams that concede = pressure = fouls) ===
+    const combinedConceded = (homeGoalsAgainst + awayGoalsAgainst) / 2;
+    if (combinedConceded >= 1.5) {
+      score += 12;
+      factors.push(`Defesas pressionadas (${combinedConceded.toFixed(1)} sofridos/jogo)`);
+    } else if (combinedConceded >= 1.0) {
+      score += 8;
+    } else if (combinedConceded >= 0.8) {
+      score += 4;
+    }
+
+    // === Factor 4: Both teams attack well (attacking play = tactical fouls) ===
+    const combinedAttack = (homeGoalsFor + awayGoalsFor) / 2;
+    if (combinedAttack >= 1.6) {
+      score += 12;
+      factors.push(`Ambas ofensivas (${combinedAttack.toFixed(1)} golos/jogo)`);
+    } else if (combinedAttack >= 1.2) {
+      score += 8;
+    } else if (combinedAttack >= 0.9) {
+      score += 4;
+    }
+
+    // === Factor 5: Form — teams losing = frustrated = more fouls ===
+    const homeForm = this.parseForm(teams?.home?.league?.form);
+    const awayForm = this.parseForm(teams?.away?.league?.form);
+
+    if (homeForm.losses >= 2 || awayForm.losses >= 2) {
+      score += 10;
+      factors.push('Equipas com derrotas recentes (frustração = faltas)');
+    }
+    if (homeForm.losses >= 3 && awayForm.losses >= 3) {
+      score += 5;
+    }
+
+    // === Factor 6: Derby / rivalry indicator (high-scoring H2H with close results) ===
+    if (h2h.length >= 3) {
+      const h2hGoals = this.calculateH2HGoals(h2h);
+      const h2hClose = h2h.slice(0, 5).filter(m => Math.abs((m.goals.home || 0) - (m.goals.away || 0)) <= 1).length;
+      if (h2hClose >= 3) {
+        score += 12;
+        factors.push(`H2H disputado: ${h2hClose}/${Math.min(h2h.length, 5)} jogos decididos por ≤1 golo`);
+      } else if (h2hClose >= 2) {
+        score += 5;
+      }
+      if (h2hGoals.avgGoals >= 3.0) {
+        score += 8;
+        factors.push(`H2H intenso: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      } else if (h2hGoals.avgGoals >= 2.0) {
+        score += 3;
+      }
+    }
+
+    // === Factor 7: Both defenses strong in comparison (tight marking = more fouls) ===
+    if (comp.homeDef >= 50 && comp.awayDef >= 50) {
+      score += 10;
+      factors.push('Ambas equipas defensivamente sólidas (marcação apertada)');
+    } else if (comp.homeDef >= 45 || comp.awayDef >= 45) {
+      score += 5;
+    }
+
+    // === Factor 8: South American / Mediterranean leagues bonus ===
+    const hotLeagues = ['AR', 'BR', 'CO', 'MX', 'TR', 'PT', 'ES', 'IT', 'GR', 'CY', 'SA'];
+    if (hotLeagues.includes(leagueData?.flag)) {
+      score += 8;
+      factors.push('Liga com histórico alto de cartões');
+    }
+
+    // === Factor 9: Learning ===
+    let learningFactors = [];
+    if (typeof Learning !== 'undefined' && Learning.ready) {
+      const adj = Learning.getCardsAdjustment();
+      score += adj.delta;
+      learningFactors = adj.factors;
+    }
+
+    score = Math.min(100, Math.max(0, score));
+    if (score < THRESHOLDS.CARDS_MEDIUM) return null;
+
+    const confidence = score >= THRESHOLDS.CARDS_FIRE ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.CARDS_HIGH ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.CARDS_MEDIUM ? CONFIDENCE.MEDIUM : CONFIDENCE.LOW;
+
+    const cardBonus = (combinedAttack - 1.2) * 0.5 + (totalDiff < 15 ? 0.5 : 0);
+    const estimatedCards = Math.max(2.5, leagueAvgCards + cardBonus).toFixed(1);
+
+    return {
+      score,
+      confidence,
+      factors,
+      learningFactors,
+      estimatedCards: parseFloat(estimatedCards),
+      leagueAvgCards,
+      stats: {
+        homeGoalsFor,
+        homeGoalsAgainst,
+        awayGoalsFor,
+        awayGoalsAgainst,
+        combinedAttack: combinedAttack.toFixed(1),
+        combinedConceded: combinedConceded.toFixed(1),
+        homeForm: homeForm.str,
+        awayForm: awayForm.str,
+        totalDiff
+      }
+    };
+  },
+
+  // ===================== OVER 1.5 GOALS DEEP ANALYSIS =====================
+
+  analyzeOver15(prediction) {
+    if (!prediction) return null;
+
+    const teams = prediction.teams;
+    const comp = this.getComparison(prediction);
+    const h2h = prediction.h2h || [];
+    const leagueId = prediction.league?.id;
+    const leagueData = LEAGUES[leagueId];
+
+    const homeGoalsFor = parseFloat(teams?.home?.league?.goals?.for?.average?.total || 0);
+    const homeGoalsAgainst = parseFloat(teams?.home?.league?.goals?.against?.average?.total || 0);
+    const awayGoalsFor = parseFloat(teams?.away?.league?.goals?.for?.average?.total || 0);
+    const awayGoalsAgainst = parseFloat(teams?.away?.league?.goals?.against?.average?.total || 0);
+
+    const totalExpected = homeGoalsFor + awayGoalsFor;
+    const avgGoals = (homeGoalsFor + homeGoalsAgainst + awayGoalsFor + awayGoalsAgainst) / 2;
+
+    let score = 0;
+    const factors = [];
+
+    // === Factor 1: Combined goals expected ===
+    if (totalExpected >= 3.5) {
+      score += 20;
+      factors.push(`Golos combinados esperados: ${totalExpected.toFixed(1)}`);
+    } else if (totalExpected >= 2.8) {
+      score += 16;
+      factors.push(`Golos combinados: ${totalExpected.toFixed(1)}`);
+    } else if (totalExpected >= 2.2) {
+      score += 12;
+      factors.push(`Golos combinados: ${totalExpected.toFixed(1)}`);
+    } else if (totalExpected >= 1.8) {
+      score += 6;
+    } else {
+      score -= 8;
+    }
+
+    // === Factor 2: Both teams score regularly (even one scoring is enough for O1.5) ===
+    if (homeGoalsFor >= 1.5 && awayGoalsFor >= 1.0) {
+      score += 15;
+      factors.push(`Casa marca ${homeGoalsFor}/jogo + fora contribui`);
+    } else if (homeGoalsFor >= 1.0 && awayGoalsFor >= 1.5) {
+      score += 15;
+      factors.push(`Fora marca ${awayGoalsFor}/jogo + casa contribui`);
+    } else if (homeGoalsFor >= 1.2 || awayGoalsFor >= 1.2) {
+      score += 10;
+    } else if (homeGoalsFor >= 0.9 || awayGoalsFor >= 0.9) {
+      score += 5;
+    }
+
+    // === Factor 3: Leaky defenses (goals will happen) ===
+    if (homeGoalsAgainst >= 1.3 && awayGoalsAgainst >= 1.3) {
+      score += 15;
+      factors.push(`Defesas permeáveis (${homeGoalsAgainst}/${awayGoalsAgainst} sofridos)`);
+    } else if (homeGoalsAgainst >= 1.0 && awayGoalsAgainst >= 1.0) {
+      score += 10;
+    } else if (homeGoalsAgainst >= 1.0 || awayGoalsAgainst >= 1.0) {
+      score += 6;
+    }
+
+    // Penalty: both teams are very defensive
+    if (homeGoalsFor < 0.7 && awayGoalsFor < 0.7) {
+      score -= 15;
+      factors.push('⚠ Ambas equipas marcam muito pouco');
+    }
+
+    // === Factor 4: H2H goals ===
+    if (h2h.length >= 3) {
+      const h2hGoals = this.calculateH2HGoals(h2h);
+      if (h2hGoals.avgGoals >= 3.0) {
+        score += 12;
+        factors.push(`H2H: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      } else if (h2hGoals.avgGoals >= 2.0) {
+        score += 8;
+        factors.push(`H2H: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      } else if (h2hGoals.avgGoals < 1.5) {
+        score -= 5;
+        factors.push(`⚠ H2H baixo: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      }
+    }
+
+    // === Factor 5: Form — scoring form ===
+    const homeForm = this.parseForm(teams?.home?.league?.form);
+    const awayForm = this.parseForm(teams?.away?.league?.form);
+    if (homeForm.wins >= 3 || awayForm.wins >= 3) {
+      score += 10;
+      factors.push('Equipa em boa forma ofensiva');
+    } else if (homeForm.wins >= 2 || awayForm.wins >= 2) {
+      score += 5;
+    }
+
+    // === Factor 6: Attack comparison ===
+    if (comp.homeAtt >= 50 && comp.awayAtt >= 50) {
+      score += 10;
+      factors.push('Ambos ataques acima da média');
+    } else if (comp.homeAtt >= 55 || comp.awayAtt >= 55) {
+      score += 7;
+    } else if (comp.homeAtt >= 45 || comp.awayAtt >= 45) {
+      score += 3;
+    }
+
+    // === Factor 7: League general goalscoring ===
+    if (leagueData?.bttsRate >= 58) {
+      score += 8;
+      factors.push(`Liga ofensiva (BTTS ${leagueData.bttsRate}%)`);
+    } else if (leagueData?.bttsRate >= 52) {
+      score += 4;
+    }
+
+    // === Factor 8: Learning ===
+    let learningFactors = [];
+    if (typeof Learning !== 'undefined' && Learning.ready) {
+      const adj = Learning.getOver15Adjustment();
+      score += adj.delta;
+      learningFactors = adj.factors;
+    }
+
+    score = Math.min(100, Math.max(0, score));
+    if (score < THRESHOLDS.OVER15_MEDIUM) return null;
+
+    const confidence = score >= THRESHOLDS.OVER15_FIRE ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.OVER15_HIGH ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.OVER15_MEDIUM ? CONFIDENCE.MEDIUM : CONFIDENCE.LOW;
+
+    return {
+      key: PATTERNS.OVER15.key,
+      label: PATTERNS.OVER15.label,
+      shortLabel: PATTERNS.OVER15.shortLabel,
+      confidence,
+      confidencePercent: score + '%',
+      score,
+      factors,
+      learningFactors,
+      estimatedGoals: avgGoals.toFixed(1),
+      stats: {
+        homeGoalsFor,
+        homeGoalsAgainst,
+        awayGoalsFor,
+        awayGoalsAgainst,
+        totalExpected: totalExpected.toFixed(1),
+        homeForm: homeForm.str,
+        awayForm: awayForm.str
+      }
+    };
+  },
+
+  // ===================== OVER 2.5 GOALS DEEP ANALYSIS =====================
+
+  analyzeOver25Deep(prediction) {
+    if (!prediction) return null;
+
+    const teams = prediction.teams;
+    const comp = this.getComparison(prediction);
+    const h2h = prediction.h2h || [];
+    const leagueId = prediction.league?.id;
+    const leagueData = LEAGUES[leagueId];
+
+    const homeGoalsFor = parseFloat(teams?.home?.league?.goals?.for?.average?.total || 0);
+    const homeGoalsAgainst = parseFloat(teams?.home?.league?.goals?.against?.average?.total || 0);
+    const awayGoalsFor = parseFloat(teams?.away?.league?.goals?.for?.average?.total || 0);
+    const awayGoalsAgainst = parseFloat(teams?.away?.league?.goals?.against?.average?.total || 0);
+
+    const avgGoals = (homeGoalsFor + homeGoalsAgainst + awayGoalsFor + awayGoalsAgainst) / 2;
+    const totalExpected = homeGoalsFor + awayGoalsFor;
+
+    let score = 0;
+    const factors = [];
+
+    // === Factor 1: Average goals per game ===
+    if (avgGoals >= 3.5) {
+      score += 20;
+      factors.push(`Média combinada: ${avgGoals.toFixed(1)} golos/jogo`);
+    } else if (avgGoals >= 3.0) {
+      score += 16;
+      factors.push(`Média combinada: ${avgGoals.toFixed(1)} golos/jogo`);
+    } else if (avgGoals >= 2.5) {
+      score += 12;
+      factors.push(`Média combinada: ${avgGoals.toFixed(1)} golos/jogo`);
+    } else if (avgGoals >= 2.0) {
+      score += 5;
+    } else {
+      score -= 8;
+      factors.push('⚠ Média de golos muito baixa');
+    }
+
+    // === Factor 2: Both teams score well ===
+    if (homeGoalsFor >= 1.8 && awayGoalsFor >= 1.5) {
+      score += 15;
+      factors.push(`Casa: ${homeGoalsFor}/jogo, Fora: ${awayGoalsFor}/jogo`);
+    } else if (homeGoalsFor >= 1.5 && awayGoalsFor >= 1.2) {
+      score += 12;
+      factors.push(`Casa: ${homeGoalsFor}/jogo, Fora: ${awayGoalsFor}/jogo`);
+    } else if (homeGoalsFor >= 1.2 && awayGoalsFor >= 1.0) {
+      score += 8;
+    } else if (homeGoalsFor >= 1.0 || awayGoalsFor >= 1.0) {
+      score += 4;
+    }
+
+    // === Factor 3: Both defenses leak ===
+    if (homeGoalsAgainst >= 1.5 && awayGoalsAgainst >= 1.5) {
+      score += 15;
+      factors.push(`Ambos sofrem bastante (${homeGoalsAgainst}/${awayGoalsAgainst})`);
+    } else if (homeGoalsAgainst >= 1.2 && awayGoalsAgainst >= 1.2) {
+      score += 10;
+    } else if (homeGoalsAgainst >= 1.0 && awayGoalsAgainst >= 1.0) {
+      score += 6;
+    } else if (homeGoalsAgainst >= 1.0 || awayGoalsAgainst >= 1.0) {
+      score += 3;
+    }
+
+    // Penalty: one team barely concedes
+    if (homeGoalsAgainst < 0.7 || awayGoalsAgainst < 0.7) {
+      score -= 6;
+      factors.push('⚠ Uma equipa muito sólida defensivamente');
+    }
+
+    // === Factor 4: H2H ===
+    if (h2h.length >= 3) {
+      const h2hGoals = this.calculateH2HGoals(h2h);
+      if (h2hGoals.avgGoals >= 3.5) {
+        score += 12;
+        factors.push(`H2H alto: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo (${h2hGoals.total} jogos)`);
+      } else if (h2hGoals.avgGoals >= 2.5) {
+        score += 8;
+        factors.push(`H2H: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      } else if (h2hGoals.avgGoals < 2.0) {
+        score -= 5;
+        factors.push(`⚠ H2H baixo: ${h2hGoals.avgGoals.toFixed(1)} golos/jogo`);
+      }
+    }
+
+    // === Factor 5: Attack comparison ===
+    if (comp.homeAtt >= 55 && comp.awayAtt >= 55) {
+      score += 10;
+      factors.push('Ambos ataques fortes na comparação');
+    } else if (comp.homeAtt >= 50 || comp.awayAtt >= 50) {
+      score += 5;
+    }
+    if (comp.homeGoals > 55 || comp.awayGoals > 55) {
+      score += 5;
+    }
+
+    // === Factor 6: Form ===
+    const homeForm = this.parseForm(teams?.home?.league?.form);
+    const awayForm = this.parseForm(teams?.away?.league?.form);
+    if (homeForm.wins >= 3 && awayForm.wins >= 3) {
+      score += 10;
+      factors.push('Ambas equipas em boa forma');
+    } else if (homeForm.wins >= 3 || awayForm.wins >= 3) {
+      score += 5;
+    } else if (homeForm.wins >= 2 || awayForm.wins >= 2) {
+      score += 3;
+    }
+
+    // === Factor 7: League factor ===
+    if (leagueData?.bttsRate >= 60) {
+      score += 8;
+      factors.push(`Liga ofensiva (BTTS ${leagueData.bttsRate}%)`);
+    } else if (leagueData?.bttsRate >= 53) {
+      score += 4;
+    }
+
+    // === Factor 8: Not too one-sided ===
+    const totalDiff = Math.abs(comp.homeTotal - comp.awayTotal);
+    if (totalDiff < 15) {
+      score += 8;
+      factors.push('Jogo equilibrado');
+    } else if (totalDiff < 25) {
+      score += 4;
+    } else if (totalDiff > 35) {
+      score -= 3;
+    }
+
+    // === Factor 9: Learning ===
+    let learningFactors = [];
+    if (typeof Learning !== 'undefined' && Learning.ready) {
+      const adj = Learning.getOver25Adjustment();
+      score += adj.delta;
+      learningFactors = adj.factors;
+    }
+
+    score = Math.min(100, Math.max(0, score));
+    if (score < THRESHOLDS.OVER25_DEEP_MEDIUM) return null;
+
+    const confidence = score >= THRESHOLDS.OVER25_DEEP_FIRE ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.OVER25_DEEP_HIGH ? CONFIDENCE.HIGH :
+                       score >= THRESHOLDS.OVER25_DEEP_MEDIUM ? CONFIDENCE.MEDIUM : CONFIDENCE.LOW;
+
+    return {
+      key: PATTERNS.OVER25_DEEP.key,
+      label: PATTERNS.OVER25_DEEP.label,
+      shortLabel: PATTERNS.OVER25_DEEP.shortLabel,
+      confidence,
+      confidencePercent: score + '%',
+      score,
+      factors,
+      learningFactors,
+      estimatedGoals: avgGoals.toFixed(1),
+      stats: {
+        homeGoalsFor,
+        homeGoalsAgainst,
+        awayGoalsFor,
+        awayGoalsAgainst,
+        totalExpected: totalExpected.toFixed(1),
+        avgGoals: avgGoals.toFixed(1),
+        homeForm: homeForm.str,
+        awayForm: awayForm.str,
+        totalDiff
+      }
+    };
+  },
+
+  calculateH2HGoals(h2hMatches) {
+    const relevant = h2hMatches.slice(0, 6);
+    let totalGoals = 0;
+    relevant.forEach(m => {
+      totalGoals += (m.goals.home || 0) + (m.goals.away || 0);
+    });
+    return {
+      avgGoals: totalGoals / relevant.length,
+      total: relevant.length
+    };
+  },
+
   // ===================== ORIGINAL PATTERN DETECTORS =====================
   // Kept for the main fixtures analysis
 

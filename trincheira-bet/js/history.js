@@ -47,6 +47,9 @@ const History = {
   getOverallStats() {
     let bttsTotal = 0, bttsGreen = 0;
     let cornersTotal = 0, cornersGreen = 0;
+    let cardsTotal = 0, cardsGreen = 0;
+    let over15Total = 0, over15Green = 0;
+    let over25Total = 0, over25Green = 0;
     let days = this.data.length;
     let streak = 0;
     let bestDay = null;
@@ -60,6 +63,18 @@ const History = {
         cornersTotal += day.corners.summary.total;
         cornersGreen += day.corners.summary.green;
       }
+      if (day.cards?.summary) {
+        cardsTotal += day.cards.summary.total;
+        cardsGreen += day.cards.summary.green;
+      }
+      if (day.over15?.summary) {
+        over15Total += day.over15.summary.total;
+        over15Green += day.over15.summary.green;
+      }
+      if (day.over25?.summary) {
+        over25Total += day.over25.summary.total;
+        over25Green += day.over25.summary.green;
+      }
 
       const dayRate = day.btts?.summary ? day.btts.summary.hit_rate : 0;
       if (!bestDay || dayRate > bestDay.rate) {
@@ -67,7 +82,6 @@ const History = {
       }
     }
 
-    // Calculate current green streak (consecutive profitable days)
     const sorted = [...this.data].sort((a, b) => b.date.localeCompare(a.date));
     for (const day of sorted) {
       const rate = day.btts?.summary?.hit_rate || 0;
@@ -79,6 +93,9 @@ const History = {
       days,
       btts: { total: bttsTotal, green: bttsGreen, rate: bttsTotal ? ((bttsGreen / bttsTotal) * 100).toFixed(1) : 0 },
       corners: { total: cornersTotal, green: cornersGreen, rate: cornersTotal ? ((cornersGreen / cornersTotal) * 100).toFixed(1) : 0 },
+      cards: { total: cardsTotal, green: cardsGreen, rate: cardsTotal ? ((cardsGreen / cardsTotal) * 100).toFixed(1) : 0 },
+      over15: { total: over15Total, green: over15Green, rate: over15Total ? ((over15Green / over15Total) * 100).toFixed(1) : 0 },
+      over25: { total: over25Total, green: over25Green, rate: over25Total ? ((over25Green / over25Total) * 100).toFixed(1) : 0 },
       streak,
       bestDay
     };
@@ -104,26 +121,44 @@ const History = {
     const stats = this.getOverallStats();
 
     // Stats cards
-    const statsHtml = `
-      <div class="history__stats">
-        <div class="history__stat-card">
-          <div class="history__stat-value">${stats.days}</div>
-          <div class="history__stat-label">Dias</div>
-        </div>
-        <div class="history__stat-card history__stat-card--btts">
-          <div class="history__stat-value">${stats.btts.rate}%</div>
-          <div class="history__stat-label">BTTS (${stats.btts.green}/${stats.btts.total})</div>
-        </div>
-        <div class="history__stat-card history__stat-card--corners">
-          <div class="history__stat-value">${stats.corners.rate}%</div>
-          <div class="history__stat-label">Cantos (${stats.corners.green}/${stats.corners.total})</div>
-        </div>
-        <div class="history__stat-card history__stat-card--streak">
-          <div class="history__stat-value">${stats.streak}</div>
-          <div class="history__stat-label">Streak</div>
-        </div>
-      </div>
-    `;
+    const statCards = [
+      `<div class="history__stat-card">
+        <div class="history__stat-value">${stats.days}</div>
+        <div class="history__stat-label">Dias</div>
+      </div>`,
+      `<div class="history__stat-card history__stat-card--btts">
+        <div class="history__stat-value">${stats.btts.rate}%</div>
+        <div class="history__stat-label">BTTS (${stats.btts.green}/${stats.btts.total})</div>
+      </div>`,
+      `<div class="history__stat-card history__stat-card--corners">
+        <div class="history__stat-value">${stats.corners.rate}%</div>
+        <div class="history__stat-label">Cantos (${stats.corners.green}/${stats.corners.total})</div>
+      </div>`
+    ];
+    if (stats.cards.total > 0) {
+      statCards.push(`<div class="history__stat-card history__stat-card--cards">
+        <div class="history__stat-value">${stats.cards.rate}%</div>
+        <div class="history__stat-label">Cartões (${stats.cards.green}/${stats.cards.total})</div>
+      </div>`);
+    }
+    if (stats.over15.total > 0) {
+      statCards.push(`<div class="history__stat-card history__stat-card--over15">
+        <div class="history__stat-value">${stats.over15.rate}%</div>
+        <div class="history__stat-label">O1.5 (${stats.over15.green}/${stats.over15.total})</div>
+      </div>`);
+    }
+    if (stats.over25.total > 0) {
+      statCards.push(`<div class="history__stat-card history__stat-card--over25">
+        <div class="history__stat-value">${stats.over25.rate}%</div>
+        <div class="history__stat-label">O2.5 (${stats.over25.green}/${stats.over25.total})</div>
+      </div>`);
+    }
+    statCards.push(`<div class="history__stat-card history__stat-card--streak">
+      <div class="history__stat-value">${stats.streak}</div>
+      <div class="history__stat-label">Streak</div>
+    </div>`);
+
+    const statsHtml = `<div class="history__stats">${statCards.join('')}</div>`;
 
     // Chart - daily hit rate bars
     const chartHtml = this.renderChart();
@@ -204,55 +239,93 @@ const History = {
   renderDay(day) {
     const btts = day.btts?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const corners = day.corners?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
+    const cards = day.cards?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
+    const over15 = day.over15?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
+    const over25 = day.over25?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const isGood = btts.hit_rate >= 50;
 
-    const bttsDetails = (day.btts?.tips || []).map(tip => {
-      const icon = tip.btts_hit ? '&#10003;' : '&#10007;';
-      const cls = tip.btts_hit ? 'green' : 'red';
-      const score = (tip.result_home !== null && tip.result_home !== undefined)
-        ? `${tip.result_home}-${tip.result_away}` : '—';
-      return `
-        <div class="history__tip ${cls}">
-          <span class="history__tip-icon">${icon}</span>
-          <span class="history__tip-teams">${tip.home} vs ${tip.away}</span>
-          <span class="history__tip-score">${score}</span>
-          <span class="history__tip-conf">${tip.confidence || '—'}</span>
-        </div>
-      `;
-    }).join('');
+    const renderTipsList = (tips, type) => {
+      return tips.map(tip => {
+        let icon, cls, scoreText, confText;
+        if (type === 'btts') {
+          icon = tip.btts_hit ? '&#10003;' : '&#10007;';
+          cls = tip.btts_hit ? 'green' : 'red';
+          scoreText = (tip.result_home !== null && tip.result_home !== undefined)
+            ? `${tip.result_home}-${tip.result_away}` : '—';
+          confText = tip.confidence || '—';
+        } else if (type === 'corners') {
+          icon = tip.hit ? '&#10003;' : '&#10007;';
+          cls = tip.hit ? 'green' : 'red';
+          scoreText = `${tip.total_corners} cantos`;
+          confText = tip.market;
+        } else if (type === 'cards') {
+          icon = tip.hit ? '&#10003;' : '&#10007;';
+          cls = tip.hit ? 'green' : 'red';
+          scoreText = `${tip.total_cards} cartões`;
+          confText = tip.market;
+        } else if (type === 'over15' || type === 'over25') {
+          icon = tip.hit ? '&#10003;' : '&#10007;';
+          cls = tip.hit ? 'green' : 'red';
+          scoreText = (tip.result_home !== null && tip.result_home !== undefined)
+            ? `${tip.result_home}-${tip.result_away}` : '—';
+          confText = tip.confidence || '—';
+        }
+        return `
+          <div class="history__tip ${cls}">
+            <span class="history__tip-icon">${icon}</span>
+            <span class="history__tip-teams">${tip.home} vs ${tip.away}</span>
+            <span class="history__tip-score">${scoreText}</span>
+            <span class="history__tip-conf">${confText}</span>
+          </div>
+        `;
+      }).join('');
+    };
 
-    const cornersDetails = (day.corners?.tips || []).map(tip => {
-      const icon = tip.hit ? '&#10003;' : '&#10007;';
-      const cls = tip.hit ? 'green' : 'red';
-      return `
-        <div class="history__tip ${cls}">
-          <span class="history__tip-icon">${icon}</span>
-          <span class="history__tip-teams">${tip.home} vs ${tip.away}</span>
-          <span class="history__tip-score">${tip.total_corners} cantos</span>
-          <span class="history__tip-conf">${tip.market}</span>
-        </div>
-      `;
-    }).join('');
+    const bttsDetails = renderTipsList(day.btts?.tips || [], 'btts');
+    const cornersDetails = renderTipsList(day.corners?.tips || [], 'corners');
+    const cardsDetails = renderTipsList(day.cards?.tips || [], 'cards');
+    const over15Details = renderTipsList(day.over15?.tips || [], 'over15');
+    const over25Details = renderTipsList(day.over25?.tips || [], 'over25');
+
+    // Build badges
+    let badges = `
+      <span class="history__badge ${isGood ? 'green' : 'red'}">
+        BTTS ${btts.green}/${btts.total}
+      </span>`;
+    if (corners.total > 0) {
+      badges += `<span class="history__badge ${corners.hit_rate >= 50 ? 'green' : 'red'}">
+        Cantos ${corners.green}/${corners.total}
+      </span>`;
+    }
+    if (cards.total > 0) {
+      badges += `<span class="history__badge ${cards.hit_rate >= 50 ? 'green' : 'red'}">
+        Cartões ${cards.green}/${cards.total}
+      </span>`;
+    }
+    if (over15.total > 0) {
+      badges += `<span class="history__badge ${over15.hit_rate >= 50 ? 'green' : 'red'}">
+        O1.5 ${over15.green}/${over15.total}
+      </span>`;
+    }
+    if (over25.total > 0) {
+      badges += `<span class="history__badge ${over25.hit_rate >= 50 ? 'green' : 'red'}">
+        O2.5 ${over25.green}/${over25.total}
+      </span>`;
+    }
 
     return `
       <div class="history__day">
         <div class="history__day-header">
           <div class="history__day-date">${this.formatDate(day.date)}</div>
-          <div class="history__day-badges">
-            <span class="history__badge ${isGood ? 'green' : 'red'}">
-              BTTS ${btts.green}/${btts.total}
-            </span>
-            ${corners.total > 0 ? `
-              <span class="history__badge ${corners.hit_rate >= 50 ? 'green' : 'red'}">
-                Cantos ${corners.green}/${corners.total}
-              </span>
-            ` : ''}
-          </div>
+          <div class="history__day-badges">${badges}</div>
           <span class="history__day-arrow">&#9660;</span>
         </div>
         <div class="history__day-detail">
           ${bttsDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">BTTS</div>${bttsDetails}</div>` : ''}
           ${cornersDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">Cantos</div>${cornersDetails}</div>` : ''}
+          ${cardsDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">Cartões</div>${cardsDetails}</div>` : ''}
+          ${over15Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 1.5</div>${over15Details}</div>` : ''}
+          ${over25Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 2.5</div>${over25Details}</div>` : ''}
           ${day.notes ? `<div class="history__notes">${day.notes}</div>` : ''}
         </div>
       </div>

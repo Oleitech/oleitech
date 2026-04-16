@@ -108,21 +108,33 @@
   }
 
   .btts-card__stats-grid,
-  .corners-card__stats-grid {
+  .corners-card__stats-grid,
+  .cards-card__stats-grid,
+  .over15-card__stats-grid,
+  .over25s-card__stats-grid {
     grid-template-columns: 1fr 1fr;
     gap: 2px;
   }
 
-  .corners-grid {
+  .corners-grid,
+  .cards-grid,
+  .over15-grid,
+  .over25-grid {
     grid-template-columns: 1fr;
   }
 
-  .corners-section__header {
+  .corners-section__header,
+  .cards-section__header,
+  .over15-section__header,
+  .over25-section__header {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .corners-section__analyze-btn {
+  .corners-section__analyze-btn,
+  .cards-section__analyze-btn,
+  .over15-section__analyze-btn,
+  .over25-section__analyze-btn {
     width: 100%;
     text-align: center;
   }

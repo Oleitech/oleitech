@@ -39,17 +39,11 @@
         <div class="header__brand">
           <div>
             <div class="header__logo">&#9917; Trincheira <span>Bet</span></div>
-            <div class="header__subtitle">Especialista BTTS</div>
+            <div class="header__subtitle">Análise Multi-Mercado</div>
           </div>
         </div>
 
         <div class="header__controls">
-          <div class="date-tabs">
-            <button class="date-tab" data-offset="-1">Ontem</button>
-            <button class="date-tab active" data-offset="0">Hoje</button>
-            <button class="date-tab" data-offset="1">Amanhã</button>
-          </div>
-
           <div class="header__counter" id="request-counter">
             <span>API:</span>
             <span class="header__counter-value">100</span>
@@ -61,20 +55,9 @@
       </div>
     </header>
 
-    <!-- Date Display & Filters -->
+    <!-- Date Display -->
     <div class="filters">
       <span id="date-display" style="font-weight:600;margin-right:auto;font-size:var(--fs-sm)"></span>
-
-      <select class="filter-select" id="league-filter">
-        <option value="">Todas as Ligas</option>
-      </select>
-
-      <button class="filter-chip" data-pattern="btts">BTTS</button>
-      <button class="filter-chip" data-pattern="over25">O2.5</button>
-      <button class="filter-chip" data-pattern="handicap">HC-1</button>
-      <button class="filter-chip" data-pattern="firsthalf">V1P</button>
-      <button class="filter-chip" data-pattern="homewin">1</button>
-      <button class="filter-chip" data-pattern="awaywin">2</button>
     </div>
 
     <!-- BTTS Scanner Section -->
@@ -121,12 +104,78 @@
       </div>
     </section>
 
+    <!-- Cards Scanner Section -->
+    <section class="cards-section" id="cards-section" style="display:none">
+      <div class="cards-section__inner">
+        <div class="cards-section__header">
+          <div class="cards-section__title">&#127183; Cards Scanner</div>
+          <div class="cards-section__subtitle">Over/Under Cartões — análise por liga e intensidade</div>
+          <button class="cards-section__analyze-btn" id="btn-cards">
+            Analisar Cartões <span id="cards-cost"></span>
+          </button>
+        </div>
+        <div class="cards-grid" id="cards-grid">
+          <!-- Cards cards load here -->
+        </div>
+        <div class="cards-section__loading" id="cards-loading" style="display:none">
+          <div class="cards-section__progress">
+            <div class="cards-section__progress-bar" id="cards-progress-bar"></div>
+          </div>
+          <span class="cards-section__progress-text" id="cards-progress-text">A analisar...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Over 1.5 Goals Scanner Section -->
+    <section class="over15-section" id="over15-section" style="display:none">
+      <div class="over15-section__inner">
+        <div class="over15-section__header">
+          <div class="over15-section__title">&#9917; Over 1.5 Scanner</div>
+          <div class="over15-section__subtitle">Over 1.5 Golos — alta probabilidade, acumuladores seguros</div>
+          <button class="over15-section__analyze-btn" id="btn-over15">
+            Analisar O1.5 <span id="over15-cost"></span>
+          </button>
+        </div>
+        <div class="over15-grid" id="over15-grid">
+          <!-- Over 1.5 cards load here -->
+        </div>
+        <div class="over15-section__loading" id="over15-loading" style="display:none">
+          <div class="over15-section__progress">
+            <div class="over15-section__progress-bar" id="over15-progress-bar"></div>
+          </div>
+          <span class="over15-section__progress-text" id="over15-progress-text">A analisar...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Over 2.5 Goals Scanner Section -->
+    <section class="over25-section" id="over25-section" style="display:none">
+      <div class="over25-section__inner">
+        <div class="over25-section__header">
+          <div class="over25-section__title">&#9918; Over 2.5 Scanner</div>
+          <div class="over25-section__subtitle">Over 2.5 Golos — análise profunda multi-fator</div>
+          <button class="over25-section__analyze-btn" id="btn-over25">
+            Analisar O2.5 <span id="over25-cost"></span>
+          </button>
+        </div>
+        <div class="over25-grid" id="over25-grid">
+          <!-- Over 2.5 cards load here -->
+        </div>
+        <div class="over25-section__loading" id="over25-loading" style="display:none">
+          <div class="over25-section__progress">
+            <div class="over25-section__progress-bar" id="over25-progress-bar"></div>
+          </div>
+          <span class="over25-section__progress-text" id="over25-progress-text">A analisar...</span>
+        </div>
+      </div>
+    </section>
+
     <!-- History / Results Section -->
     <section class="history-section" id="history-section" style="display:none">
       <div class="history__inner">
         <div class="history__header">
           <div class="history__title">&#128202; Historico de Resultados</div>
-          <div class="history__subtitle">Performance diaria — BTTS & Cantos</div>
+          <div class="history__subtitle">Performance diária — BTTS, Cantos, Cartões, O1.5 & O2.5</div>
         </div>
         <div id="history-content"></div>
       </div>
@@ -170,11 +219,15 @@
   <script src="js/ui.js"></script>
   <script src="js/api.js"></script>
   <script src="js/learning.js"></script>
+  <script src="js/bankroll.js"></script>
   <script src="js/analysis.js"></script>
   <script src="js/picks.js"></script>
   <script src="js/fixtures.js"></script>
   <script src="js/top-picks.js"></script>
   <script src="js/corners.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/over15.js"></script>
+  <script src="js/over25-scanner.js"></script>
   <script src="js/history.js"></script>
   <script src="js/app.js"></script>
 </body>

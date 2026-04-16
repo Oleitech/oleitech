@@ -8,13 +8,25 @@ const Learning = {
 
   insights: {
     btts: {
-      byBracket: {},    // "70-79": { total, green, rate }
-      byLeague: {},     // "Eredivisie": { total, green, rate }
+      byBracket: {},
+      byLeague: {},
       overallRate: 0,
       totalTips: 0,
       totalDays: 0
     },
     corners: {
+      overallRate: 0,
+      totalTips: 0
+    },
+    cards: {
+      overallRate: 0,
+      totalTips: 0
+    },
+    over15: {
+      overallRate: 0,
+      totalTips: 0
+    },
+    over25: {
       overallRate: 0,
       totalTips: 0
     }
@@ -99,6 +111,45 @@ const Learning = {
     this.insights.corners = {
       overallRate: totalCorners > 0 ? Math.round((greenCorners / totalCorners) * 100) : 0,
       totalTips: totalCorners
+    };
+
+    // Cards
+    let totalCards = 0, greenCards = 0;
+    for (const day of this.data) {
+      for (const tip of (day.cards?.tips || [])) {
+        totalCards++;
+        if (tip.hit) greenCards++;
+      }
+    }
+    this.insights.cards = {
+      overallRate: totalCards > 0 ? Math.round((greenCards / totalCards) * 100) : 0,
+      totalTips: totalCards
+    };
+
+    // Over 1.5
+    let totalOver15 = 0, greenOver15 = 0;
+    for (const day of this.data) {
+      for (const tip of (day.over15?.tips || [])) {
+        totalOver15++;
+        if (tip.hit) greenOver15++;
+      }
+    }
+    this.insights.over15 = {
+      overallRate: totalOver15 > 0 ? Math.round((greenOver15 / totalOver15) * 100) : 0,
+      totalTips: totalOver15
+    };
+
+    // Over 2.5
+    let totalOver25 = 0, greenOver25 = 0;
+    for (const day of this.data) {
+      for (const tip of (day.over25?.tips || [])) {
+        totalOver25++;
+        if (tip.hit) greenOver25++;
+      }
+    }
+    this.insights.over25 = {
+      overallRate: totalOver25 > 0 ? Math.round((greenOver25 / totalOver25) * 100) : 0,
+      totalTips: totalOver25
     };
   },
 
@@ -204,6 +255,66 @@ const Learning = {
     return { delta, factors };
   },
 
+  // ===================== CARDS ADJUSTMENTS =====================
+
+  getCardsAdjustment() {
+    if (!this.ready || this.insights.cards.totalTips < 3) return { delta: 0, factors: [] };
+
+    const rate = this.insights.cards.overallRate;
+    const factors = [];
+    let delta = 0;
+
+    if (rate >= 75) {
+      delta = 2;
+      factors.push(`Cartões histórico: ${rate}% acerto`);
+    } else if (rate <= 40) {
+      delta = -2;
+      factors.push(`\u26A0 Cartões histórico: ${rate}% acerto`);
+    }
+
+    return { delta, factors };
+  },
+
+  // ===================== OVER 1.5 ADJUSTMENTS =====================
+
+  getOver15Adjustment() {
+    if (!this.ready || this.insights.over15.totalTips < 3) return { delta: 0, factors: [] };
+
+    const rate = this.insights.over15.overallRate;
+    const factors = [];
+    let delta = 0;
+
+    if (rate >= 80) {
+      delta = 3;
+      factors.push(`Over 1.5 histórico: ${rate}% acerto`);
+    } else if (rate <= 50) {
+      delta = -2;
+      factors.push(`\u26A0 Over 1.5 histórico: ${rate}% acerto`);
+    }
+
+    return { delta, factors };
+  },
+
+  // ===================== OVER 2.5 ADJUSTMENTS =====================
+
+  getOver25Adjustment() {
+    if (!this.ready || this.insights.over25.totalTips < 3) return { delta: 0, factors: [] };
+
+    const rate = this.insights.over25.overallRate;
+    const factors = [];
+    let delta = 0;
+
+    if (rate >= 75) {
+      delta = 2;
+      factors.push(`Over 2.5 histórico: ${rate}% acerto`);
+    } else if (rate <= 40) {
+      delta = -2;
+      factors.push(`\u26A0 Over 2.5 histórico: ${rate}% acerto`);
+    }
+
+    return { delta, factors };
+  },
+
   // ===================== UI HELPERS =====================
 
   // Get a summary line for display in the app header or history
@@ -212,9 +323,15 @@ const Learning = {
 
     const b = this.insights.btts;
     const c = this.insights.corners;
+    const cr = this.insights.cards;
+    const o15 = this.insights.over15;
+    const o25 = this.insights.over25;
     const parts = [`${b.totalDays} dias`];
     if (b.totalTips > 0) parts.push(`BTTS ${b.overallRate}%`);
     if (c.totalTips > 0) parts.push(`Cantos ${c.overallRate}%`);
+    if (cr.totalTips > 0) parts.push(`Cartões ${cr.overallRate}%`);
+    if (o15.totalTips > 0) parts.push(`O1.5 ${o15.overallRate}%`);
+    if (o25.totalTips > 0) parts.push(`O2.5 ${o25.overallRate}%`);
     return parts.join(' \u00B7 ');
   }
 };

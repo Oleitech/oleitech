@@ -533,32 +533,8 @@ const Corners = {
         </div>
       ` : ''}
 
-      <div class="corners-card__actions">
-        <button class="corners-card__pick-btn ${Picks.isPicked(fixture.fixture.id, 'corners') ? 'picked' : ''}"
-                data-fixture="${fixture.fixture.id}"
-                data-home="${home.name}"
-                data-away="${away.name}"
-                data-confidence="${corners.score}%">
-          ${Picks.isPicked(fixture.fixture.id, 'corners') ? '&#10003; Adicionado' : '+ Adicionar Pick'}
-        </button>
-      </div>
+      ${Bankroll.renderBadge(Bankroll.getCornersStake(corners.score))}
     `;
-
-    card.querySelector('.corners-card__pick-btn').addEventListener('click', (e) => {
-      e.stopPropagation();
-      const btn = e.currentTarget;
-      const fId = parseInt(btn.dataset.fixture);
-      const added = Picks.add({
-        fixtureId: fId,
-        patternKey: 'corners',
-        patternLabel: `Cantos ${suggestedLine}`,
-        confidencePercent: btn.dataset.confidence,
-        homeTeam: btn.dataset.home,
-        awayTeam: btn.dataset.away
-      });
-      btn.classList.toggle('picked', added);
-      btn.innerHTML = added ? '&#10003; Adicionado' : '+ Adicionar Pick';
-    });
 
     return card;
   },

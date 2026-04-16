@@ -381,33 +381,8 @@ const TopPicks = {
         </div>
       ` : ''}
 
-      <div class="btts-card__actions">
-        <button class="btts-card__pick-btn ${Picks.isPicked(fixture.fixture.id, 'btts') ? 'picked' : ''}"
-                data-fixture="${fixture.fixture.id}"
-                data-home="${home.name}"
-                data-away="${away.name}"
-                data-confidence="${btts.confidencePercent}">
-          ${Picks.isPicked(fixture.fixture.id, 'btts') ? '&#10003; Adicionado' : '+ Adicionar Pick'}
-        </button>
-      </div>
+      ${Bankroll.renderBadge(Bankroll.getBTTSStake(btts.score))}
     `;
-
-    // Pick button click
-    card.querySelector('.btts-card__pick-btn').addEventListener('click', (e) => {
-      e.stopPropagation();
-      const btn = e.currentTarget;
-      const fId = parseInt(btn.dataset.fixture);
-      const added = Picks.add({
-        fixtureId: fId,
-        patternKey: 'btts',
-        patternLabel: 'Ambas Marcam',
-        confidencePercent: btn.dataset.confidence,
-        homeTeam: btn.dataset.home,
-        awayTeam: btn.dataset.away
-      });
-      btn.classList.toggle('picked', added);
-      btn.innerHTML = added ? '&#10003; Adicionado' : '+ Adicionar Pick';
-    });
 
     return card;
   },
