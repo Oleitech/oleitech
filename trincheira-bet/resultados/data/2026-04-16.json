@@ -1,0 +1,267 @@
+{
+  "date": "2026-04-16",
+  "btts": {
+    "tips": [
+      {
+        "home": "AZ Alkmaar",
+        "away": "Shakhtar Donetsk",
+        "league": "Conference League",
+        "country": "EU",
+        "kickoff": "17:45",
+        "confidence": null,
+        "btts_sim": 1.61,
+        "result_home": 2,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "Septemvri Sofia",
+        "away": "Spartak Varna",
+        "league": "Liga Parva",
+        "country": "BG",
+        "kickoff": "15:00",
+        "confidence": null,
+        "btts_sim": 1.73,
+        "result_home": 0,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0
+    }
+  },
+  "cards": {
+    "tips": [
+      {
+        "home": "Real Betis",
+        "away": "SC Braga",
+        "league": "Europa League",
+        "market": "+3.5 cartões",
+        "total_cards": 7,
+        "hit": true
+      },
+      {
+        "home": "Nottingham Forest",
+        "away": "Porto",
+        "league": "Europa League",
+        "market": "+3.5 cartões",
+        "total_cards": 4,
+        "hit": true
+      },
+      {
+        "home": "Celta Vigo",
+        "away": "Freiburg",
+        "league": "Europa League",
+        "market": "+3.5 cartões",
+        "total_cards": 6,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 3,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "over25": {
+    "tips": [
+      {
+        "home": "AEK Atenas",
+        "away": "Rayo Vallecano",
+        "league": "Conference League",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "Nottingham Forest",
+        "away": "Porto",
+        "league": "Europa League",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 0,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0
+    }
+  },
+  "over15": {
+    "tips": [
+      {
+        "home": "Aston Villa",
+        "away": "Bologna",
+        "league": "Europa League",
+        "confidence": null,
+        "result_home": 4,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "AEK Atenas",
+        "away": "Rayo Vallecano",
+        "league": "Conference League",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "Strasbourg",
+        "away": "Mainz",
+        "league": "Conference League",
+        "confidence": null,
+        "result_home": 4,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "Nottingham Forest",
+        "away": "Porto",
+        "league": "Europa League",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 0,
+        "hit": false
+      },
+      {
+        "home": "Fiorentina",
+        "away": "Crystal Palace",
+        "league": "Conference League",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "AZ Alkmaar",
+        "away": "Shakhtar Donetsk",
+        "league": "Conference League",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 2,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "green": 5,
+      "red": 1,
+      "hit_rate": 83.3
+    }
+  },
+  "stakes": {
+    "bets": [
+      {
+        "type": "acumulador",
+        "market": "Over 1.5",
+        "matches": "Nott. Forest vs Porto + Fiorentina vs Crystal Palace",
+        "odds": 1.895,
+        "stake": 10,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "simples",
+        "market": "Over 3.5 cartões",
+        "matches": "Real Betis vs SC Braga",
+        "odds": 1.53,
+        "stake": 5,
+        "result": "win",
+        "return": 7.65
+      },
+      {
+        "type": "simples",
+        "market": "Over 3.5 cartões",
+        "matches": "Nott. Forest vs Porto",
+        "odds": 1.58,
+        "stake": 5,
+        "result": "win",
+        "return": 7.90
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "AEK Atenas vs Rayo Vallecano",
+        "odds": 1.842,
+        "stake": 10,
+        "result": "win",
+        "return": 18.42
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Nott. Forest vs Porto",
+        "odds": 2.32,
+        "stake": 10,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "simples",
+        "market": "Over 2",
+        "matches": "AZ Alkmaar vs Shakhtar Donetsk",
+        "odds": 1.715,
+        "stake": 15,
+        "result": "win",
+        "return": 25.73
+      },
+      {
+        "type": "acumulador",
+        "market": "Over 1.5",
+        "matches": "Aston Villa vs Bologna + AEK vs Rayo + Strasbourg vs Mainz",
+        "odds": 1.801,
+        "stake": 10,
+        "result": "win",
+        "return": 18.01
+      },
+      {
+        "type": "simples",
+        "market": "Over 3.5 cartões",
+        "matches": "Celta Vigo vs Freiburg",
+        "odds": 1.84,
+        "stake": 5,
+        "result": "win",
+        "return": 9.20
+      },
+      {
+        "type": "simples",
+        "market": "BTTS",
+        "matches": "AZ Alkmaar vs Shakhtar Donetsk",
+        "odds": 1.61,
+        "stake": 10,
+        "result": "win",
+        "return": 16.10
+      },
+      {
+        "type": "simples",
+        "market": "BTTS",
+        "matches": "Septemvri Sofia vs Spartak Varna",
+        "odds": 1.73,
+        "stake": 10,
+        "result": "loss",
+        "return": 0
+      }
+    ],
+    "summary": {
+      "total_staked": 90,
+      "total_return": 103.01,
+      "profit": 13.01,
+      "total_bets": 10,
+      "wins": 7,
+      "losses": 3,
+      "roi": 14.5
+    }
+  },
+  "notes": "Dia europeu com Europa League e Conference League. BTTS: 1/2 (Alkmaar 2-2 GREEN, Septemvri Sofia 0-0 RED). Cartões: 3/3 perfeito (Betis-Braga 7, Forest-Porto 4, Celta-Freiburg 6). Over 1.5: 5/6 (Forest-Porto 1-0 único miss). Over 2.5: 1/2 (AEK 3-1 GREEN, Forest 1-0 RED). Stakes: +13.01€ lucro em 90€ apostados (ROI 14.5%)."
+}

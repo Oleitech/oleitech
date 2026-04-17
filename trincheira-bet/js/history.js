@@ -50,6 +50,7 @@ const History = {
     let cardsTotal = 0, cardsGreen = 0;
     let over15Total = 0, over15Green = 0;
     let over25Total = 0, over25Green = 0;
+    let totalStaked = 0, totalReturn = 0, totalBets = 0, totalWins = 0;
     let days = this.data.length;
     let streak = 0;
     let bestDay = null;
@@ -75,6 +76,12 @@ const History = {
         over25Total += day.over25.summary.total;
         over25Green += day.over25.summary.green;
       }
+      if (day.stakes?.summary) {
+        totalStaked += day.stakes.summary.total_staked;
+        totalReturn += day.stakes.summary.total_return;
+        totalBets += day.stakes.summary.total_bets;
+        totalWins += day.stakes.summary.wins;
+      }
 
       const dayRate = day.btts?.summary ? day.btts.summary.hit_rate : 0;
       if (!bestDay || dayRate > bestDay.rate) {
@@ -89,6 +96,7 @@ const History = {
       else break;
     }
 
+    const totalProfit = totalReturn - totalStaked;
     return {
       days,
       btts: { total: bttsTotal, green: bttsGreen, rate: bttsTotal ? ((bttsGreen / bttsTotal) * 100).toFixed(1) : 0 },
@@ -96,6 +104,7 @@ const History = {
       cards: { total: cardsTotal, green: cardsGreen, rate: cardsTotal ? ((cardsGreen / cardsTotal) * 100).toFixed(1) : 0 },
       over15: { total: over15Total, green: over15Green, rate: over15Total ? ((over15Green / over15Total) * 100).toFixed(1) : 0 },
       over25: { total: over25Total, green: over25Green, rate: over25Total ? ((over25Green / over25Total) * 100).toFixed(1) : 0 },
+      stakes: { staked: totalStaked, returned: totalReturn, profit: totalProfit, bets: totalBets, wins: totalWins },
       streak,
       bestDay
     };
@@ -153,10 +162,14 @@ const History = {
         <div class="history__stat-label">O2.5 (${stats.over25.green}/${stats.over25.total})</div>
       </div>`);
     }
-    statCards.push(`<div class="history__stat-card history__stat-card--streak">
-      <div class="history__stat-value">${stats.streak}</div>
-      <div class="history__stat-label">Streak</div>
-    </div>`);
+    if (stats.stakes.bets > 0) {
+      const profitClass = stats.stakes.profit >= 0 ? 'history__stat-card--profit' : 'history__stat-card--loss';
+      const sign = stats.stakes.profit >= 0 ? '+' : '';
+      statCards.push(`<div class="history__stat-card ${profitClass}">
+        <div class="history__stat-value">${sign}${stats.stakes.profit.toFixed(0)}&euro;</div>
+        <div class="history__stat-label">P/L (${stats.stakes.bets} apostas)</div>
+      </div>`);
+    }
 
     const statsHtml = `<div class="history__stats">${statCards.join('')}</div>`;
 
@@ -312,6 +325,14 @@ const History = {
         O2.5 ${over25.green}/${over25.total}
       </span>`;
     }
+    if (day.stakes?.summary) {
+      const sp = day.stakes.summary;
+      const profitCls = sp.profit >= 0 ? 'green' : 'red';
+      const sign = sp.profit >= 0 ? '+' : '';
+      badges += `<span class="history__badge ${profitCls}">
+        ${sign}${sp.profit.toFixed(0)}&euro;
+      </span>`;
+    }
 
     return `
       <div class="history__day">
@@ -326,7 +347,53 @@ const History = {
           ${cardsDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">Cartões</div>${cardsDetails}</div>` : ''}
           ${over15Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 1.5</div>${over15Details}</div>` : ''}
           ${over25Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 2.5</div>${over25Details}</div>` : ''}
+          ${day.stakes ? this.renderStakes(day.stakes) : ''}
           ${day.notes ? `<div class="history__notes">${day.notes}</div>` : ''}
+        </div>
+      </div>
+    `;
+  },
+
+  renderStakes(stakes) {
+    if (!stakes || !stakes.bets || stakes.bets.length === 0) return '';
+
+    const s = stakes.summary;
+    const isProfit = s.profit >= 0;
+    const profitClass = isProfit ? 'green' : 'red';
+    const profitSign = isProfit ? '+' : '';
+
+    const betsHtml = stakes.bets.map(bet => {
+      const cls = bet.result === 'win' ? 'green' : 'red';
+      const icon = bet.result === 'win' ? '&#10003;' : '&#10007;';
+      const typeLabel = bet.type === 'acumulador' ? 'Acum.' : '';
+      return `
+        <div class="history__stake-bet ${cls}">
+          <span class="history__tip-icon">${icon}</span>
+          <span class="history__stake-match">${bet.matches}</span>
+          <span class="history__stake-market">${typeLabel} ${bet.market}</span>
+          <span class="history__stake-odds">${bet.odds}</span>
+          <span class="history__stake-amount">${bet.stake}&euro;</span>
+          <span class="history__stake-return ${cls}">${bet.result === 'win' ? '+' + bet.return.toFixed(2) + '&euro;' : '0&euro;'}</span>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <div class="history__stakes-section">
+        <div class="history__stakes-header">
+          <div class="history__tip-section-title">Apostas Reais</div>
+          <div class="history__stakes-summary">
+            <span class="history__stakes-stat">Apostado: <strong>${s.total_staked}&euro;</strong></span>
+            <span class="history__stakes-stat">Retorno: <strong>${s.total_return.toFixed(2)}&euro;</strong></span>
+            <span class="history__stakes-stat history__stakes-profit ${profitClass}">
+              P/L: <strong>${profitSign}${s.profit.toFixed(2)}&euro;</strong>
+            </span>
+            <span class="history__stakes-stat">ROI: <strong>${s.roi}%</strong></span>
+            <span class="history__stakes-stat">${s.wins}W / ${s.losses}L</span>
+          </div>
+        </div>
+        <div class="history__stakes-bets">
+          ${betsHtml}
         </div>
       </div>
     `;
@@ -421,6 +488,60 @@ const History = {
         "summary": { "total": 1, "green": 1, "red": 0, "hit_rate": 100.0 }
       },
       "notes": "BTTS: Al-Nassr vs Al-Ettifaq (conf. 55) falhou - 1-0, jogo desequilibrado. Cantos: Bayern vs Real Madrid 12 cantos (4-3), Over 9.5 GREEN."
+    });
+
+    // Day 5: 16/04/2026
+    this.addDay({
+      "date": "2026-04-16",
+      "btts": {
+        "tips": [
+          { "home": "AZ Alkmaar", "away": "Shakhtar Donetsk", "league": "Conference League", "confidence": null, "btts_sim": 1.61, "result_home": 2, "result_away": 2, "btts_hit": true },
+          { "home": "Septemvri Sofia", "away": "Spartak Varna", "league": "Liga Parva", "confidence": null, "btts_sim": 1.73, "result_home": 0, "result_away": 0, "btts_hit": false }
+        ],
+        "summary": { "total": 2, "green": 1, "red": 1, "hit_rate": 50.0 }
+      },
+      "cards": {
+        "tips": [
+          { "home": "Real Betis", "away": "SC Braga", "league": "Europa League", "market": "+3.5 cartões", "total_cards": 7, "hit": true },
+          { "home": "Nottingham Forest", "away": "Porto", "league": "Europa League", "market": "+3.5 cartões", "total_cards": 4, "hit": true },
+          { "home": "Celta Vigo", "away": "Freiburg", "league": "Europa League", "market": "+3.5 cartões", "total_cards": 6, "hit": true }
+        ],
+        "summary": { "total": 3, "green": 3, "red": 0, "hit_rate": 100.0 }
+      },
+      "over25": {
+        "tips": [
+          { "home": "AEK Atenas", "away": "Rayo Vallecano", "league": "Conference League", "confidence": null, "result_home": 3, "result_away": 1, "hit": true },
+          { "home": "Nottingham Forest", "away": "Porto", "league": "Europa League", "confidence": null, "result_home": 1, "result_away": 0, "hit": false }
+        ],
+        "summary": { "total": 2, "green": 1, "red": 1, "hit_rate": 50.0 }
+      },
+      "over15": {
+        "tips": [
+          { "home": "Aston Villa", "away": "Bologna", "league": "Europa League", "confidence": null, "result_home": 4, "result_away": 0, "hit": true },
+          { "home": "AEK Atenas", "away": "Rayo Vallecano", "league": "Conference League", "confidence": null, "result_home": 3, "result_away": 1, "hit": true },
+          { "home": "Strasbourg", "away": "Mainz", "league": "Conference League", "confidence": null, "result_home": 4, "result_away": 0, "hit": true },
+          { "home": "Nottingham Forest", "away": "Porto", "league": "Europa League", "confidence": null, "result_home": 1, "result_away": 0, "hit": false },
+          { "home": "Fiorentina", "away": "Crystal Palace", "league": "Conference League", "confidence": null, "result_home": 2, "result_away": 1, "hit": true },
+          { "home": "AZ Alkmaar", "away": "Shakhtar Donetsk", "league": "Conference League", "confidence": null, "result_home": 2, "result_away": 2, "hit": true }
+        ],
+        "summary": { "total": 6, "green": 5, "red": 1, "hit_rate": 83.3 }
+      },
+      "stakes": {
+        "bets": [
+          { "type": "acumulador", "market": "Over 1.5", "matches": "Nott. Forest vs Porto + Fiorentina vs Crystal Palace", "odds": 1.895, "stake": 10, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 3.5 cartões", "matches": "Real Betis vs SC Braga", "odds": 1.53, "stake": 5, "result": "win", "return": 7.65 },
+          { "type": "simples", "market": "Over 3.5 cartões", "matches": "Nott. Forest vs Porto", "odds": 1.58, "stake": 5, "result": "win", "return": 7.90 },
+          { "type": "simples", "market": "Over 2.5", "matches": "AEK Atenas vs Rayo Vallecano", "odds": 1.842, "stake": 10, "result": "win", "return": 18.42 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Nott. Forest vs Porto", "odds": 2.32, "stake": 10, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2", "matches": "AZ Alkmaar vs Shakhtar Donetsk", "odds": 1.715, "stake": 15, "result": "win", "return": 25.73 },
+          { "type": "acumulador", "market": "Over 1.5", "matches": "Aston Villa + AEK + Strasbourg", "odds": 1.801, "stake": 10, "result": "win", "return": 18.01 },
+          { "type": "simples", "market": "Over 3.5 cartões", "matches": "Celta Vigo vs Freiburg", "odds": 1.84, "stake": 5, "result": "win", "return": 9.20 },
+          { "type": "simples", "market": "BTTS", "matches": "AZ Alkmaar vs Shakhtar Donetsk", "odds": 1.61, "stake": 10, "result": "win", "return": 16.10 },
+          { "type": "simples", "market": "BTTS", "matches": "Septemvri Sofia vs Spartak Varna", "odds": 1.73, "stake": 10, "result": "loss", "return": 0 }
+        ],
+        "summary": { "total_staked": 90, "total_return": 103.01, "profit": 13.01, "total_bets": 10, "wins": 7, "losses": 3, "roi": 14.5 }
+      },
+      "notes": "Dia europeu. BTTS: 1/2. Cartões: 3/3 perfeito. Over 1.5: 5/6. Over 2.5: 1/2. Stakes: +13.01€ lucro (ROI 14.5%)."
     });
   }
 };
