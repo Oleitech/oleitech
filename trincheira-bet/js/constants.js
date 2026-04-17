@@ -117,12 +117,6 @@ const PATTERNS = {
     shortLabel: 'CRT',
     color: 'red'
   },
-  OVER15: {
-    key: 'over15',
-    label: 'Over 1.5',
-    shortLabel: 'O1.5',
-    color: 'blue'
-  },
   OVER25_DEEP: {
     key: 'over25deep',
     label: 'Over 2.5',

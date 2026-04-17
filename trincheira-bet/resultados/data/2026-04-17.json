@@ -1,0 +1,376 @@
+{
+  "date": "2026-04-17",
+  "btts": {
+    "tips": [
+      {
+        "home": "Fram",
+        "away": "Keflavik",
+        "league": "Urvalsdeild",
+        "country": "IS",
+        "kickoff": "19:00",
+        "confidence": null,
+        "btts_sim": 1.615,
+        "result_home": 3,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Breidablik",
+        "away": "IA Akranes",
+        "league": "Urvalsdeild",
+        "country": "IS",
+        "kickoff": "19:00",
+        "confidence": null,
+        "btts_sim": 1.53,
+        "result_home": 1,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0
+    }
+  },
+  "cards": {
+    "tips": [
+      {
+        "home": "Fenerbahce",
+        "away": "Çaykur Rizespor",
+        "league": "Superliga Turquia",
+        "market": "+4.5 cartões",
+        "total_cards": 7,
+        "hit": true
+      },
+      {
+        "home": "Antalyaspor",
+        "away": "Konyaspor",
+        "league": "Superliga Turquia",
+        "market": "+4.5 cartões",
+        "total_cards": 8,
+        "hit": true
+      },
+      {
+        "home": "Melbourne Victory",
+        "away": "Newcastle Jets",
+        "league": "A-League",
+        "market": "+3.5 cartões",
+        "total_cards": 4,
+        "hit": true
+      },
+      {
+        "home": "Rio Ave",
+        "away": "Aves",
+        "league": "Liga Portugal",
+        "market": "+4.5 cartões",
+        "total_cards": null,
+        "hit": null,
+        "pending": true
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 3,
+      "red": 0,
+      "hit_rate": 100.0,
+      "pending": 1
+    }
+  },
+  "over25": {
+    "tips": [
+      {
+        "home": "Fenerbahce",
+        "away": "Çaykur Rizespor",
+        "league": "Superliga Turquia",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Oss",
+        "away": "Den Bosch",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Holstein Kiel",
+        "away": "Kaiserslautern",
+        "league": "2. Bundesliga",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "Regensburg",
+        "away": "Aachen",
+        "league": "3. Liga",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 3,
+        "hit": true
+      },
+      {
+        "home": "ADO Den Haag",
+        "away": "Waalwijk",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 5,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "B.93",
+        "away": "HB Køge",
+        "league": "1. Division",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Helmond Sport",
+        "away": "VVV-Venlo",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 0,
+        "hit": false
+      },
+      {
+        "home": "Katowice",
+        "away": "Motor Lublin",
+        "league": "Ekstraklasa",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Esbjerg",
+        "away": "Hillerod",
+        "league": "1. Division",
+        "confidence": null,
+        "result_home": 0,
+        "result_away": 0,
+        "hit": false
+      },
+      {
+        "home": "Jong Utrecht",
+        "away": "Eindhoven",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "De Graafschap",
+        "away": "Cambuur",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 1,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 11,
+      "green": 9,
+      "red": 2,
+      "hit_rate": 81.8
+    }
+  },
+  "corners": {
+    "tips": [
+      {
+        "home": "Melbourne Victory",
+        "away": "Newcastle Jets",
+        "league": "A-League",
+        "market": "+10.5 cantos",
+        "total_corners": 10,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0
+    }
+  },
+  "stakes": {
+    "bets": [
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Fenerbahce vs Çaykur Rizespor",
+        "odds": 1.41,
+        "stake": 15,
+        "result": "win",
+        "return": 21.15
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Oss vs Den Bosch",
+        "odds": 1.44,
+        "stake": 15,
+        "result": "win",
+        "return": 21.60
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Holstein Kiel vs Kaiserslautern",
+        "odds": 1.65,
+        "stake": 15,
+        "result": "win",
+        "return": 24.75
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Regensburg vs Aachen",
+        "odds": 1.55,
+        "stake": 15,
+        "result": "win",
+        "return": 23.25
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "ADO Den Haag vs Waalwijk",
+        "odds": 1.48,
+        "stake": 15,
+        "result": "win",
+        "return": 22.20
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "B.93 vs HB Køge",
+        "odds": 1.58,
+        "stake": 15,
+        "result": "win",
+        "return": 23.70
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Helmond vs VVV-Venlo",
+        "odds": 1.54,
+        "stake": 15,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Katowice vs Motor Lublin",
+        "odds": 1.666,
+        "stake": 15,
+        "result": "win",
+        "return": 24.99
+      },
+      {
+        "type": "simples",
+        "market": "Over 2.5",
+        "matches": "Esbjerg vs Hillerod",
+        "odds": 1.88,
+        "stake": 15,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "acumulador",
+        "market": "Over 2.5",
+        "matches": "Jong Utrecht vs Eindhoven + Graafschap vs Cambuur",
+        "odds": 1.999,
+        "stake": 5,
+        "result": "win",
+        "return": 10.00
+      },
+      {
+        "type": "simples",
+        "market": "Over 4.5 cartões",
+        "matches": "Fenerbahce vs Çaykur Rizespor",
+        "odds": 1.9,
+        "stake": 15,
+        "result": "win",
+        "return": 28.50
+      },
+      {
+        "type": "simples",
+        "market": "Over 4.5 cartões",
+        "matches": "Antalyaspor vs Konyaspor",
+        "odds": 1.92,
+        "stake": 20,
+        "result": "win",
+        "return": 38.40
+      },
+      {
+        "type": "simples",
+        "market": "BTTS + Over 2.5",
+        "matches": "Fram vs Keflavik",
+        "odds": 1.615,
+        "stake": 15,
+        "result": "win",
+        "return": 24.23
+      },
+      {
+        "type": "simples",
+        "market": "Over 3.5 cartões",
+        "matches": "Melbourne Victory vs Newcastle Jets",
+        "odds": 2.28,
+        "stake": 10,
+        "result": "win",
+        "return": 22.80
+      },
+      {
+        "type": "simples",
+        "market": "Over 10.5 cantos",
+        "matches": "Melbourne Victory vs Newcastle Jets",
+        "odds": 1.7,
+        "stake": 15,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "simples",
+        "market": "BTTS + Over 2.5",
+        "matches": "Breidablik vs IA Akranes",
+        "odds": 1.53,
+        "stake": 10,
+        "result": "loss",
+        "return": 0
+      },
+      {
+        "type": "simples",
+        "market": "Over 4.5 cartões",
+        "matches": "Rio Ave vs Aves",
+        "odds": 1.65,
+        "stake": 10,
+        "result": "pending",
+        "return": 0
+      }
+    ],
+    "summary": {
+      "total_staked": 230,
+      "total_return": 285.57,
+      "profit": 55.57,
+      "total_bets": 16,
+      "wins": 12,
+      "losses": 4,
+      "pending": 1,
+      "roi": 24.2
+    }
+  },
+  "notes": "Grande dia! Over 2.5: 9/11 (81.8%) — Eerste Divisie holandesa e 2.Bundesliga/3.Liga alemã excelentes. Cartões: 3/3 perfeito (Turquia + Austrália). Cantos: 0/1 (Melbourne Victory 10, faltou 1 para Over 10.5). BTTS: 1/2 (Fram 3-1 GREEN, Breidablik 1-0 RED). Stakes: +55.57€ lucro em 230€ (ROI 24.2%). Rio Ave vs Aves pendente (Over 4.5 cartões)."
+}

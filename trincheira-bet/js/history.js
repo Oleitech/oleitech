@@ -48,7 +48,6 @@ const History = {
     let bttsTotal = 0, bttsGreen = 0;
     let cornersTotal = 0, cornersGreen = 0;
     let cardsTotal = 0, cardsGreen = 0;
-    let over15Total = 0, over15Green = 0;
     let over25Total = 0, over25Green = 0;
     let totalStaked = 0, totalReturn = 0, totalBets = 0, totalWins = 0;
     let days = this.data.length;
@@ -67,10 +66,6 @@ const History = {
       if (day.cards?.summary) {
         cardsTotal += day.cards.summary.total;
         cardsGreen += day.cards.summary.green;
-      }
-      if (day.over15?.summary) {
-        over15Total += day.over15.summary.total;
-        over15Green += day.over15.summary.green;
       }
       if (day.over25?.summary) {
         over25Total += day.over25.summary.total;
@@ -102,7 +97,6 @@ const History = {
       btts: { total: bttsTotal, green: bttsGreen, rate: bttsTotal ? ((bttsGreen / bttsTotal) * 100).toFixed(1) : 0 },
       corners: { total: cornersTotal, green: cornersGreen, rate: cornersTotal ? ((cornersGreen / cornersTotal) * 100).toFixed(1) : 0 },
       cards: { total: cardsTotal, green: cardsGreen, rate: cardsTotal ? ((cardsGreen / cardsTotal) * 100).toFixed(1) : 0 },
-      over15: { total: over15Total, green: over15Green, rate: over15Total ? ((over15Green / over15Total) * 100).toFixed(1) : 0 },
       over25: { total: over25Total, green: over25Green, rate: over25Total ? ((over25Green / over25Total) * 100).toFixed(1) : 0 },
       stakes: { staked: totalStaked, returned: totalReturn, profit: totalProfit, bets: totalBets, wins: totalWins },
       streak,
@@ -148,12 +142,6 @@ const History = {
       statCards.push(`<div class="history__stat-card history__stat-card--cards">
         <div class="history__stat-value">${stats.cards.rate}%</div>
         <div class="history__stat-label">Cartões (${stats.cards.green}/${stats.cards.total})</div>
-      </div>`);
-    }
-    if (stats.over15.total > 0) {
-      statCards.push(`<div class="history__stat-card history__stat-card--over15">
-        <div class="history__stat-value">${stats.over15.rate}%</div>
-        <div class="history__stat-label">O1.5 (${stats.over15.green}/${stats.over15.total})</div>
       </div>`);
     }
     if (stats.over25.total > 0) {
@@ -253,52 +241,8 @@ const History = {
     const btts = day.btts?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const corners = day.corners?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const cards = day.cards?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
-    const over15 = day.over15?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const over25 = day.over25?.summary || { total: 0, green: 0, red: 0, hit_rate: 0 };
     const isGood = btts.hit_rate >= 50;
-
-    const renderTipsList = (tips, type) => {
-      return tips.map(tip => {
-        let icon, cls, scoreText, confText;
-        if (type === 'btts') {
-          icon = tip.btts_hit ? '&#10003;' : '&#10007;';
-          cls = tip.btts_hit ? 'green' : 'red';
-          scoreText = (tip.result_home !== null && tip.result_home !== undefined)
-            ? `${tip.result_home}-${tip.result_away}` : '—';
-          confText = tip.confidence || '—';
-        } else if (type === 'corners') {
-          icon = tip.hit ? '&#10003;' : '&#10007;';
-          cls = tip.hit ? 'green' : 'red';
-          scoreText = `${tip.total_corners} cantos`;
-          confText = tip.market;
-        } else if (type === 'cards') {
-          icon = tip.hit ? '&#10003;' : '&#10007;';
-          cls = tip.hit ? 'green' : 'red';
-          scoreText = `${tip.total_cards} cartões`;
-          confText = tip.market;
-        } else if (type === 'over15' || type === 'over25') {
-          icon = tip.hit ? '&#10003;' : '&#10007;';
-          cls = tip.hit ? 'green' : 'red';
-          scoreText = (tip.result_home !== null && tip.result_home !== undefined)
-            ? `${tip.result_home}-${tip.result_away}` : '—';
-          confText = tip.confidence || '—';
-        }
-        return `
-          <div class="history__tip ${cls}">
-            <span class="history__tip-icon">${icon}</span>
-            <span class="history__tip-teams">${tip.home} vs ${tip.away}</span>
-            <span class="history__tip-score">${scoreText}</span>
-            <span class="history__tip-conf">${confText}</span>
-          </div>
-        `;
-      }).join('');
-    };
-
-    const bttsDetails = renderTipsList(day.btts?.tips || [], 'btts');
-    const cornersDetails = renderTipsList(day.corners?.tips || [], 'corners');
-    const cardsDetails = renderTipsList(day.cards?.tips || [], 'cards');
-    const over15Details = renderTipsList(day.over15?.tips || [], 'over15');
-    const over25Details = renderTipsList(day.over25?.tips || [], 'over25');
 
     // Build badges
     let badges = `
@@ -313,11 +257,6 @@ const History = {
     if (cards.total > 0) {
       badges += `<span class="history__badge ${cards.hit_rate >= 50 ? 'green' : 'red'}">
         Cartões ${cards.green}/${cards.total}
-      </span>`;
-    }
-    if (over15.total > 0) {
-      badges += `<span class="history__badge ${over15.hit_rate >= 50 ? 'green' : 'red'}">
-        O1.5 ${over15.green}/${over15.total}
       </span>`;
     }
     if (over25.total > 0) {
@@ -342,11 +281,6 @@ const History = {
           <span class="history__day-arrow">&#9660;</span>
         </div>
         <div class="history__day-detail">
-          ${bttsDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">BTTS</div>${bttsDetails}</div>` : ''}
-          ${cornersDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">Cantos</div>${cornersDetails}</div>` : ''}
-          ${cardsDetails ? `<div class="history__tip-section"><div class="history__tip-section-title">Cartões</div>${cardsDetails}</div>` : ''}
-          ${over15Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 1.5</div>${over15Details}</div>` : ''}
-          ${over25Details ? `<div class="history__tip-section"><div class="history__tip-section-title">Over 2.5</div>${over25Details}</div>` : ''}
           ${day.stakes ? this.renderStakes(day.stakes) : ''}
           ${day.notes ? `<div class="history__notes">${day.notes}</div>` : ''}
         </div>
@@ -363,8 +297,20 @@ const History = {
     const profitSign = isProfit ? '+' : '';
 
     const betsHtml = stakes.bets.map(bet => {
-      const cls = bet.result === 'win' ? 'green' : 'red';
-      const icon = bet.result === 'win' ? '&#10003;' : '&#10007;';
+      let cls, icon, returnText;
+      if (bet.result === 'win') {
+        cls = 'green';
+        icon = '&#10003;';
+        returnText = '+' + bet.return.toFixed(2) + '&euro;';
+      } else if (bet.result === 'pending') {
+        cls = 'pending';
+        icon = '&#8987;';
+        returnText = '...';
+      } else {
+        cls = 'red';
+        icon = '&#10007;';
+        returnText = '-' + bet.stake.toFixed(2) + '&euro;';
+      }
       const typeLabel = bet.type === 'acumulador' ? 'Acum.' : '';
       return `
         <div class="history__stake-bet ${cls}">
@@ -373,7 +319,7 @@ const History = {
           <span class="history__stake-market">${typeLabel} ${bet.market}</span>
           <span class="history__stake-odds">${bet.odds}</span>
           <span class="history__stake-amount">${bet.stake}&euro;</span>
-          <span class="history__stake-return ${cls}">${bet.result === 'win' ? '+' + bet.return.toFixed(2) + '&euro;' : '0&euro;'}</span>
+          <span class="history__stake-return ${cls}">${returnText}</span>
         </div>
       `;
     }).join('');
@@ -542,6 +488,72 @@ const History = {
         "summary": { "total_staked": 90, "total_return": 103.01, "profit": 13.01, "total_bets": 10, "wins": 7, "losses": 3, "roi": 14.5 }
       },
       "notes": "Dia europeu. BTTS: 1/2. Cartões: 3/3 perfeito. Over 1.5: 5/6. Over 2.5: 1/2. Stakes: +13.01€ lucro (ROI 14.5%)."
+    });
+
+    // Day 6: 17/04/2026
+    this.addDay({
+      "date": "2026-04-17",
+      "btts": {
+        "tips": [
+          { "home": "Fram", "away": "Keflavik", "league": "Urvalsdeild", "confidence": null, "btts_sim": 1.615, "result_home": 3, "result_away": 1, "btts_hit": true },
+          { "home": "Breidablik", "away": "IA Akranes", "league": "Urvalsdeild", "confidence": null, "btts_sim": 1.53, "result_home": 1, "result_away": 0, "btts_hit": false }
+        ],
+        "summary": { "total": 2, "green": 1, "red": 1, "hit_rate": 50.0 }
+      },
+      "cards": {
+        "tips": [
+          { "home": "Fenerbahce", "away": "Çaykur Rizespor", "league": "Superliga Turquia", "market": "+4.5 cartões", "total_cards": 7, "hit": true },
+          { "home": "Antalyaspor", "away": "Konyaspor", "league": "Superliga Turquia", "market": "+4.5 cartões", "total_cards": 8, "hit": true },
+          { "home": "Melbourne Victory", "away": "Newcastle Jets", "league": "A-League", "market": "+3.5 cartões", "total_cards": 4, "hit": true },
+          { "home": "Rio Ave", "away": "Aves", "league": "Liga Portugal", "market": "+4.5 cartões", "total_cards": null, "hit": null, "pending": true }
+        ],
+        "summary": { "total": 3, "green": 3, "red": 0, "hit_rate": 100.0, "pending": 1 }
+      },
+      "over25": {
+        "tips": [
+          { "home": "Fenerbahce", "away": "Çaykur Rizespor", "league": "Superliga Turquia", "confidence": null, "result_home": 2, "result_away": 2, "hit": true },
+          { "home": "Oss", "away": "Den Bosch", "league": "Eerste Divisie", "confidence": null, "result_home": 3, "result_away": 2, "hit": true },
+          { "home": "Holstein Kiel", "away": "Kaiserslautern", "league": "2. Bundesliga", "confidence": null, "result_home": 3, "result_away": 0, "hit": true },
+          { "home": "Regensburg", "away": "Aachen", "league": "3. Liga", "confidence": null, "result_home": 1, "result_away": 3, "hit": true },
+          { "home": "ADO Den Haag", "away": "Waalwijk", "league": "Eerste Divisie", "confidence": null, "result_home": 5, "result_away": 1, "hit": true },
+          { "home": "B.93", "away": "HB Køge", "league": "1. Division", "confidence": null, "result_home": 1, "result_away": 2, "hit": true },
+          { "home": "Helmond Sport", "away": "VVV-Venlo", "league": "Eerste Divisie", "confidence": null, "result_home": 2, "result_away": 0, "hit": false },
+          { "home": "Katowice", "away": "Motor Lublin", "league": "Ekstraklasa", "confidence": null, "result_home": 3, "result_away": 2, "hit": true },
+          { "home": "Esbjerg", "away": "Hillerod", "league": "1. Division", "confidence": null, "result_home": 0, "result_away": 0, "hit": false },
+          { "home": "Jong Utrecht", "away": "Eindhoven", "league": "Eerste Divisie", "confidence": null, "result_home": 3, "result_away": 0, "hit": true },
+          { "home": "De Graafschap", "away": "Cambuur", "league": "Eerste Divisie", "confidence": null, "result_home": 3, "result_away": 1, "hit": true }
+        ],
+        "summary": { "total": 11, "green": 9, "red": 2, "hit_rate": 81.8 }
+      },
+      "corners": {
+        "tips": [
+          { "home": "Melbourne Victory", "away": "Newcastle Jets", "league": "A-League", "market": "+10.5 cantos", "total_corners": 10, "hit": false }
+        ],
+        "summary": { "total": 1, "green": 0, "red": 1, "hit_rate": 0.0 }
+      },
+      "stakes": {
+        "bets": [
+          { "type": "simples", "market": "Over 2.5", "matches": "Fenerbahce vs Rizespor", "odds": 1.41, "stake": 15, "result": "win", "return": 21.15 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Oss vs Den Bosch", "odds": 1.44, "stake": 15, "result": "win", "return": 21.60 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Kiel vs Kaiserslautern", "odds": 1.65, "stake": 15, "result": "win", "return": 24.75 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Regensburg vs Aachen", "odds": 1.55, "stake": 15, "result": "win", "return": 23.25 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Den Haag vs Waalwijk", "odds": 1.48, "stake": 15, "result": "win", "return": 22.20 },
+          { "type": "simples", "market": "Over 2.5", "matches": "B.93 vs Køge", "odds": 1.58, "stake": 15, "result": "win", "return": 23.70 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Helmond vs VVV-Venlo", "odds": 1.54, "stake": 15, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Katowice vs Motor Lublin", "odds": 1.666, "stake": 15, "result": "win", "return": 24.99 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Esbjerg vs Hillerod", "odds": 1.88, "stake": 15, "result": "loss", "return": 0 },
+          { "type": "acumulador", "market": "Over 2.5", "matches": "Jong Utrecht + Graafschap", "odds": 1.999, "stake": 5, "result": "win", "return": 10.00 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Fenerbahce vs Rizespor", "odds": 1.9, "stake": 15, "result": "win", "return": 28.50 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Antalyaspor vs Konyaspor", "odds": 1.92, "stake": 20, "result": "win", "return": 38.40 },
+          { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Fram vs Keflavik", "odds": 1.615, "stake": 15, "result": "win", "return": 24.23 },
+          { "type": "simples", "market": "Over 3.5 cartões", "matches": "Melbourne Victory vs Newcastle Jets", "odds": 2.28, "stake": 10, "result": "win", "return": 22.80 },
+          { "type": "simples", "market": "Over 10.5 cantos", "matches": "Melbourne Victory vs Newcastle Jets", "odds": 1.7, "stake": 15, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Breidablik vs IA Akranes", "odds": 1.53, "stake": 10, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Rio Ave vs Aves", "odds": 1.65, "stake": 10, "result": "pending", "return": 0 }
+        ],
+        "summary": { "total_staked": 230, "total_return": 285.57, "profit": 55.57, "total_bets": 16, "wins": 12, "losses": 4, "pending": 1, "roi": 24.2 }
+      },
+      "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/3 perfeito. Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ (ROI 24.2%). Rio Ave pendente."
     });
   }
 };

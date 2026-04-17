@@ -23,7 +23,6 @@ const App = {
 
     // Initialize new scanners
     Cards.init();
-    Over15.init();
     Over25Scanner.init();
 
     // Initialize history (seed data + render)
@@ -112,7 +111,6 @@ const App = {
     TopPicks.show(Fixtures.fixturesData);
     Corners.show(Fixtures.fixturesData);
     Cards.show(Fixtures.fixturesData);
-    Over15.show(Fixtures.fixturesData);
     Over25Scanner.show(Fixtures.fixturesData);
   }
 };
