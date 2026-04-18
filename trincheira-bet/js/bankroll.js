@@ -3,7 +3,13 @@
 // Base stake: €10 (configurable)
 
 const Bankroll = {
-  baseStake: 10, // €10
+  bankroll: 262,  // Total available bankroll in €
+  maxExposure: 250, // Max € to risk per day
+
+  // Base stake = ~4% of bankroll (~10€ with 262€ bankroll)
+  get baseStake() {
+    return Math.round(this.bankroll * 0.04);
+  },
 
   // Returns stake recommendation based on score/confidence
   getStake(score, thresholds) {
@@ -19,7 +25,7 @@ const Bankroll = {
     if (score >= HIGH) {
       return { multiplier: 1.5, label: '1.5x', level: 'medium-high', emoji: '&#11088;' };
     }
-    if (score >= MEDIUM + 10) {
+    if (score >= MEDIUM + 5) {
       return { multiplier: 1, label: '1x', level: 'medium', emoji: '&#9898;' };
     }
     // Just above threshold — conservative
@@ -50,15 +56,6 @@ const Bankroll = {
       FIRE: THRESHOLDS.CARDS_FIRE,
       HIGH: THRESHOLDS.CARDS_HIGH,
       MEDIUM: THRESHOLDS.CARDS_MEDIUM
-    });
-  },
-
-  // Get Over 1.5 stake
-  getOver15Stake(score) {
-    return this.getStake(score, {
-      FIRE: THRESHOLDS.OVER15_FIRE,
-      HIGH: THRESHOLDS.OVER15_HIGH,
-      MEDIUM: THRESHOLDS.OVER15_MEDIUM
     });
   },
 
@@ -98,5 +95,15 @@ const Bankroll = {
         <span class="stake-badge__amount">${amount}&euro;</span>
       </div>
     `;
+  },
+
+  // Get max daily budget
+  getMaxDaily() {
+    return this.maxExposure;
+  },
+
+  // Update bankroll (call after daily P/L)
+  updateBankroll(newAmount) {
+    this.bankroll = newAmount;
   }
 };

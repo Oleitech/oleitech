@@ -505,9 +505,9 @@ const History = {
           { "home": "Fenerbahce", "away": "Çaykur Rizespor", "league": "Superliga Turquia", "market": "+4.5 cartões", "total_cards": 7, "hit": true },
           { "home": "Antalyaspor", "away": "Konyaspor", "league": "Superliga Turquia", "market": "+4.5 cartões", "total_cards": 8, "hit": true },
           { "home": "Melbourne Victory", "away": "Newcastle Jets", "league": "A-League", "market": "+3.5 cartões", "total_cards": 4, "hit": true },
-          { "home": "Rio Ave", "away": "Aves", "league": "Liga Portugal", "market": "+4.5 cartões", "total_cards": null, "hit": null, "pending": true }
+          { "home": "Rio Ave", "away": "Aves", "league": "Liga Portugal", "market": "+4.5 cartões", "total_cards": 3, "hit": false }
         ],
-        "summary": { "total": 3, "green": 3, "red": 0, "hit_rate": 100.0, "pending": 1 }
+        "summary": { "total": 4, "green": 3, "red": 1, "hit_rate": 75.0 }
       },
       "over25": {
         "tips": [
@@ -549,11 +549,11 @@ const History = {
           { "type": "simples", "market": "Over 3.5 cartões", "matches": "Melbourne Victory vs Newcastle Jets", "odds": 2.28, "stake": 10, "result": "win", "return": 22.80 },
           { "type": "simples", "market": "Over 10.5 cantos", "matches": "Melbourne Victory vs Newcastle Jets", "odds": 1.7, "stake": 15, "result": "loss", "return": 0 },
           { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Breidablik vs IA Akranes", "odds": 1.53, "stake": 10, "result": "loss", "return": 0 },
-          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Rio Ave vs Aves", "odds": 1.65, "stake": 10, "result": "pending", "return": 0 }
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Rio Ave vs Aves", "odds": 1.65, "stake": 10, "result": "loss", "return": 0 }
         ],
-        "summary": { "total_staked": 230, "total_return": 285.57, "profit": 55.57, "total_bets": 16, "wins": 12, "losses": 4, "pending": 1, "roi": 24.2 }
+        "summary": { "total_staked": 230, "total_return": 285.57, "profit": 55.57, "total_bets": 17, "wins": 12, "losses": 5, "roi": 24.2 }
       },
-      "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/3 perfeito. Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ (ROI 24.2%). Rio Ave pendente."
+      "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/4 (Rio Ave 3 cartões, RED). Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ (ROI 24.2%)."
     });
   }
 };

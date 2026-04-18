@@ -134,34 +134,28 @@ const CONFIDENCE = {
 const THRESHOLDS = {
   // BTTS thresholds (enhanced)
   BTTS_FIRE: 82,         // 🔥 Top tier
-  BTTS_HIGH: 70,
-  BTTS_MEDIUM: 55,
+  BTTS_HIGH: 75,
+  BTTS_MEDIUM: 70,
   BTTS_MIN_ODDS: 1.40,   // Minimum BTTS odds to show
 
   // Corners thresholds
   CORNERS_FIRE: 82,
-  CORNERS_HIGH: 68,
-  CORNERS_MEDIUM: 55,
+  CORNERS_HIGH: 75,
+  CORNERS_MEDIUM: 70,
   CORNERS_MIN_ODDS: 1.40,
   CORNERS_DEFAULT_LINE: 9.5,  // Standard over/under line
 
   // Cards thresholds
-  CARDS_FIRE: 75,
-  CARDS_HIGH: 60,
-  CARDS_MEDIUM: 45,
+  CARDS_FIRE: 80,
+  CARDS_HIGH: 72,
+  CARDS_MEDIUM: 65,
   CARDS_MIN_ODDS: 1.40,
   CARDS_DEFAULT_LINE: 3.5,
 
-  // Over 1.5 Goals thresholds
-  OVER15_FIRE: 78,
-  OVER15_HIGH: 62,
-  OVER15_MEDIUM: 42,
-  OVER15_MIN_ODDS: 1.10,
-
   // Over 2.5 Goals Deep Scanner thresholds
-  OVER25_DEEP_FIRE: 78,
-  OVER25_DEEP_HIGH: 62,
-  OVER25_DEEP_MEDIUM: 45,
+  OVER25_DEEP_FIRE: 80,
+  OVER25_DEEP_HIGH: 72,
+  OVER25_DEEP_MEDIUM: 65,
   OVER25_DEEP_MIN_ODDS: 1.40,
 
   // Other pattern thresholds

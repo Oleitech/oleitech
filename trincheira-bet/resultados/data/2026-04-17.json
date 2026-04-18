@@ -65,17 +65,15 @@
         "away": "Aves",
         "league": "Liga Portugal",
         "market": "+4.5 cartões",
-        "total_cards": null,
-        "hit": null,
-        "pending": true
+        "total_cards": 3,
+        "hit": false
       }
     ],
     "summary": {
-      "total": 3,
+      "total": 4,
       "green": 3,
-      "red": 0,
-      "hit_rate": 100.0,
-      "pending": 1
+      "red": 1,
+      "hit_rate": 75.0
     }
   },
   "over25": {
@@ -357,7 +355,7 @@
         "matches": "Rio Ave vs Aves",
         "odds": 1.65,
         "stake": 10,
-        "result": "pending",
+        "result": "loss",
         "return": 0
       }
     ],
@@ -365,12 +363,11 @@
       "total_staked": 230,
       "total_return": 285.57,
       "profit": 55.57,
-      "total_bets": 16,
+      "total_bets": 17,
       "wins": 12,
-      "losses": 4,
-      "pending": 1,
+      "losses": 5,
       "roi": 24.2
     }
   },
-  "notes": "Grande dia! Over 2.5: 9/11 (81.8%) — Eerste Divisie holandesa e 2.Bundesliga/3.Liga alemã excelentes. Cartões: 3/3 perfeito (Turquia + Austrália). Cantos: 0/1 (Melbourne Victory 10, faltou 1 para Over 10.5). BTTS: 1/2 (Fram 3-1 GREEN, Breidablik 1-0 RED). Stakes: +55.57€ lucro em 230€ (ROI 24.2%). Rio Ave vs Aves pendente (Over 4.5 cartões)."
+  "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/4 (Rio Ave apenas 3 cartões, RED). Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ lucro em 230€ (ROI 24.2%)."
 }
