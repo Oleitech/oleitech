@@ -555,5 +555,67 @@ const History = {
       },
       "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/4 (Rio Ave 3 cartões, RED). Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ (ROI 24.2%)."
     });
+
+    // Day 7: 18/04/2026
+    this.addDay({
+      "date": "2026-04-18",
+      "btts": {
+        "tips": [
+          { "home": "SSV Ulm 1846", "away": "Havelse", "league": "3. Liga", "confidence": null, "btts_sim": 1.48, "result_home": 2, "result_away": 1, "btts_hit": true },
+          { "home": "MSV Duisburg", "away": "Hoffenheim II", "league": "3. Liga", "confidence": null, "btts_sim": 1.52, "result_home": 3, "result_away": 1, "btts_hit": true },
+          { "home": "Verl", "away": "Viktoria Köln", "league": "3. Liga", "confidence": null, "btts_sim": 1.60, "result_home": 2, "result_away": 0, "btts_hit": false }
+        ],
+        "summary": { "total": 3, "green": 2, "red": 1, "hit_rate": 66.7 }
+      },
+      "cards": {
+        "tips": [
+          { "home": "OFI Crete", "away": "Levadiakos", "league": "Super League Grécia", "market": "+4.5 cartões", "total_cards": null, "hit": true },
+          { "home": "Napoli", "away": "Lazio", "league": "Serie A", "market": "+3.5 cartões", "total_cards": null, "hit": true },
+          { "home": "Kocaelispor", "away": "Goztepe", "league": "Süper Lig", "market": "+4.5 cartões", "total_cards": null, "hit": true },
+          { "home": "Genclerbirligi", "away": "Galatasaray", "league": "Süper Lig", "market": "+4.5 cartões", "total_cards": null, "hit": false },
+          { "home": "Kifisias", "away": "Asteras Tripolis", "league": "Super League Grécia", "market": "+4.5 cartões", "total_cards": null, "hit": false },
+          { "home": "Cruz Azul", "away": "Tijuana", "league": "Liga MX", "market": "+4.5 cartões", "total_cards": null, "hit": false },
+          { "home": "Necaxa", "away": "Tigres UANL", "league": "Liga MX", "market": "+5.5 cartões", "total_cards": null, "hit": false }
+        ],
+        "summary": { "total": 7, "green": 3, "red": 4, "hit_rate": 42.9 }
+      },
+      "over25": {
+        "tips": [
+          { "home": "MSV Duisburg", "away": "Hoffenheim II", "league": "3. Liga", "confidence": null, "result_home": 3, "result_away": 1, "hit": true },
+          { "home": "Thun", "away": "Basel", "league": "Super League Suíça", "confidence": null, "result_home": 3, "result_away": 1, "hit": true },
+          { "home": "Verl", "away": "Viktoria Köln", "league": "3. Liga", "confidence": null, "result_home": 2, "result_away": 0, "hit": false },
+          { "home": "Keski-Uusimaa", "away": "RoPS", "league": "Ykkönen", "confidence": null, "result_home": 0, "result_away": 2, "hit": false },
+          { "home": "Wolfsberger AC", "away": "BW Linz", "league": "Bundesliga Áustria", "confidence": null, "result_home": 0, "result_away": 0, "hit": false },
+          { "home": "Cruz Azul", "away": "Tijuana", "league": "Liga MX", "confidence": null, "result_home": 1, "result_away": 1, "hit": false }
+        ],
+        "summary": { "total": 6, "green": 2, "red": 4, "hit_rate": 33.3 }
+      },
+      "corners": {
+        "tips": [],
+        "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+      },
+      "stakes": {
+        "bets": [
+          { "type": "simples", "market": "BTTS", "matches": "SSV Ulm vs Havelse", "odds": 1.48, "stake": 5, "result": "win", "return": 7.40 },
+          { "type": "simples", "market": "BTTS", "matches": "MSV Duisburg vs Hoffenheim II", "odds": 1.52, "stake": 15, "result": "win", "return": 22.80 },
+          { "type": "simples", "market": "BTTS", "matches": "Verl vs Viktoria Köln", "odds": 1.60, "stake": 20, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "OFI Crete vs Levadiakos", "odds": 1.50, "stake": 30, "result": "win", "return": 45.00 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Kifisias vs Asteras Tripolis", "odds": 1.53, "stake": 30, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 3.5 cartões", "matches": "Napoli vs Lazio", "odds": 2.875, "stake": 26, "result": "win", "return": 74.75 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Keski-Uusimaa vs RoPS", "odds": 1.38, "stake": 20, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Verl vs Viktoria Köln", "odds": 1.55, "stake": 20, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Thun vs Basel", "odds": 1.36, "stake": 20, "result": "win", "return": 27.20 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Wolfsberger vs BW Linz", "odds": 1.92, "stake": 20, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2.5", "matches": "MSV Duisburg vs Hoffenheim II", "odds": 1.49, "stake": 15, "result": "win", "return": 22.35 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Kocaelispor vs Goztepe", "odds": 2.10, "stake": 20, "result": "win", "return": 42.00 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Genclerbirligi vs Galatasaray", "odds": 2.22, "stake": 20, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 5.5 cartões", "matches": "Necaxa vs Tigres UANL", "odds": 2.10, "stake": 15, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 4.5 cartões", "matches": "Cruz Azul vs Tijuana", "odds": 1.667, "stake": 30, "result": "loss", "return": 0 },
+          { "type": "simples", "market": "Over 2.5", "matches": "Cruz Azul vs Tijuana", "odds": 1.39, "stake": 15, "result": "loss", "return": 0 }
+        ],
+        "summary": { "total_staked": 341, "total_return": 241.50, "profit": -99.50, "total_bets": 16, "wins": 7, "losses": 9, "roi": -29.2 }
+      },
+      "notes": "Dia RED. Over 2.5: 2/6 (33.3%). Cartões: 3/7 (42.9%) - Liga MX e Grécia falharam. BTTS: 2/3 (66.7%). Stakes: -99.50€ (ROI -29.2%). Excesso de exposição (341€ vs max ~196€)."
+    });
   }
 };

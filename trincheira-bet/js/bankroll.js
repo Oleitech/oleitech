@@ -3,12 +3,12 @@
 // Base stake: €10 (configurable)
 
 const Bankroll = {
-  bankroll: 262,  // Total available bankroll in €
-  maxExposure: 250, // Max € to risk per day
+  bankroll: 218,  // Total available bankroll in €
+  maxExposure: 0.75, // Max % of bankroll to risk per day (75%)
 
-  // Base stake = ~4% of bankroll (~10€ with 262€ bankroll)
+  // Base stake = 2% of bankroll (industry standard 1-3%)
   get baseStake() {
-    return Math.round(this.bankroll * 0.04);
+    return Math.round(this.bankroll * 0.02);
   },
 
   // Returns stake recommendation based on score/confidence
@@ -99,7 +99,7 @@ const Bankroll = {
 
   // Get max daily budget
   getMaxDaily() {
-    return this.maxExposure;
+    return Math.round(this.bankroll * this.maxExposure);
   },
 
   // Update bankroll (call after daily P/L)
