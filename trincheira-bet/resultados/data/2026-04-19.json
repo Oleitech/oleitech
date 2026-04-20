@@ -1,0 +1,300 @@
+{
+  "date": "2026-04-19",
+  "btts": {
+    "tips": [
+      {
+        "home": "VfB Stuttgart II",
+        "away": "Erzgebirge Aue",
+        "league": "3. Liga",
+        "country": "DE",
+        "kickoff": "12:00",
+        "confidence": null,
+        "btts_sim": 1.44,
+        "result_home": 2,
+        "result_away": 2,
+        "btts_hit": true
+      },
+      {
+        "home": "Santos Laguna",
+        "away": "Atlas Guadalajara",
+        "league": "Liga MX",
+        "country": "MX",
+        "kickoff": "22:00",
+        "confidence": null,
+        "btts_sim": 1.57,
+        "result_home": 0,
+        "result_away": 1,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0
+    }
+  },
+  "cards": {
+    "tips": [
+      {
+        "home": "Arouca",
+        "away": "Estrela da Amadora",
+        "league": "Liga Portugal",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Braga",
+        "away": "Famalicao",
+        "league": "Liga Portugal",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Santos Laguna",
+        "away": "Atlas Guadalajara",
+        "league": "Liga MX",
+        "market": "+5.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Sporting CP",
+        "away": "Benfica",
+        "league": "Liga Portugal",
+        "market": "+5.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Rosario Central",
+        "away": "Sarmiento Junin",
+        "league": "Liga Argentina",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "green": 3,
+      "red": 2,
+      "hit_rate": 60.0
+    }
+  },
+  "over25": {
+    "tips": [
+      {
+        "home": "Energie Cottbus",
+        "away": "Rot-Weiss Essen",
+        "league": "3. Liga",
+        "confidence": null,
+        "result_home": 5,
+        "result_away": 3,
+        "hit": true
+      },
+      {
+        "home": "Wehen Wiesbaden",
+        "away": "Waldhof Mannheim",
+        "league": "3. Liga",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 3,
+        "hit": true
+      },
+      {
+        "home": "Freiburg",
+        "away": "1. FC Heidenheim",
+        "league": "Bundesliga",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "Bayern Munchen",
+        "away": "VfB Stuttgart",
+        "league": "Bundesliga",
+        "confidence": null,
+        "market": "Over 3.5",
+        "result_home": 4,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Silkeborg",
+        "away": "Fredericia",
+        "league": "Superliga DK",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Austria Wien",
+        "away": "Salzburg",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 3,
+        "hit": true
+      },
+      {
+        "home": "Odense",
+        "away": "Randers",
+        "league": "Superliga DK",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 1,
+        "hit": true
+      },
+      {
+        "home": "HamKam",
+        "away": "KFUM Oslo",
+        "league": "Eliteserien",
+        "confidence": null,
+        "result_home": 4,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "VfB Stuttgart II",
+        "away": "Erzgebirge Aue",
+        "league": "3. Liga",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Asane",
+        "away": "Strommen",
+        "league": "OBOS-ligaen",
+        "confidence": null,
+        "result_home": 4,
+        "result_away": 5,
+        "hit": true
+      },
+      {
+        "home": "Santos Laguna",
+        "away": "Atlas Guadalajara",
+        "league": "Liga MX",
+        "confidence": null,
+        "result_home": 0,
+        "result_away": 1,
+        "hit": false
+      },
+      {
+        "home": "Borussia Monchengladbach",
+        "away": "1. FSV Mainz 05",
+        "league": "Bundesliga",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 1,
+        "hit": false
+      },
+      {
+        "home": "LASK Linz",
+        "away": "Sturm Graz",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 1,
+        "hit": false
+      },
+      {
+        "home": "Gent",
+        "away": "Sint-Truidense",
+        "league": "Pro League",
+        "confidence": null,
+        "result_home": 0,
+        "result_away": 0,
+        "hit": false
+      },
+      {
+        "home": "Kristiansund",
+        "away": "Fredrikstad",
+        "league": "Eliteserien",
+        "confidence": null,
+        "result_home": 2,
+        "result_away": 0,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 15,
+      "green": 10,
+      "red": 5,
+      "hit_rate": 66.7
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "VfB Stuttgart II vs Erzgebirge Aue", "odds": 1.44, "stake": 6, "result": "win", "return": 8.64 },
+      { "type": "simples", "market": "BTTS", "matches": "Santos Laguna vs Atlas", "odds": 1.57, "stake": 2, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Energie Cottbus vs RW Essen", "odds": 1.46, "stake": 8, "result": "win", "return": 11.68 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Wehen Wiesbaden vs Waldhof Mannheim", "odds": 1.57, "stake": 6, "result": "win", "return": 9.42 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Freiburg vs 1. Heidenheim", "odds": 1.671, "stake": 8, "result": "win", "return": 13.37 },
+      { "type": "simples", "market": "Over 3.5", "matches": "Bayern Munchen vs VfB Stuttgart", "odds": 1.69, "stake": 6, "result": "win", "return": 10.14 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Santos Laguna vs Atlas", "odds": 1.73, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "B. Monchengladbach vs Mainz", "odds": 1.877, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Silkeborg vs Fredericia", "odds": 1.42, "stake": 6, "result": "win", "return": 8.52 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Austria Wien vs Salzburg", "odds": 1.66, "stake": 4, "result": "win", "return": 6.64 },
+      { "type": "simples", "market": "Over 2.5", "matches": "LASK Linz vs Sturm Graz", "odds": 1.59, "stake": 4, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Gent vs Sint-Truidense", "odds": 1.885, "stake": 2, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Odense vs Randers", "odds": 1.75, "stake": 4, "result": "win", "return": 7.00 },
+      { "type": "simples", "market": "Over 2.5", "matches": "HamKam vs KFUM", "odds": 1.856, "stake": 2, "result": "win", "return": 3.71 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Kristiansund vs Fredrikstad", "odds": 1.682, "stake": 2, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "VfB Stuttgart II vs Erzgebirge Aue", "odds": 1.42, "stake": 2, "result": "win", "return": 2.84 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Asane vs Strommen", "odds": 1.77, "stake": 2, "result": "win", "return": 3.54 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Braga vs Famalicao", "odds": 2.06, "stake": 12, "result": "win", "return": 24.72 },
+      { "type": "simples", "market": "Over 5.5 cartoes", "matches": "Santos Laguna vs Atlas", "odds": 1.80, "stake": 8, "result": "win", "return": 14.40 },
+      { "type": "simples", "market": "Over 5.5 cartoes", "matches": "Sporting CP vs Benfica", "odds": 1.65, "stake": 4, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Rosario Central vs Sarmiento", "odds": 1.48, "stake": 8, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Arouca vs Estrela da Amadora", "odds": 1.56, "stake": 12, "result": "win", "return": 18.72 },
+      { "type": "simples", "market": "Over 6.5 cartoes", "matches": "Sporting CP vs Benfica", "odds": 2.22, "stake": 5, "result": "loss", "return": 0, "source": "personal" },
+      { "type": "simples", "market": "Over 5.5 cartoes", "matches": "Sporting CP vs Benfica", "odds": 1.57, "stake": 5, "result": "loss", "return": 0, "source": "personal" },
+      { "type": "simples", "market": "Over 1.5 cartoes Benfica 1a parte", "matches": "Sporting CP vs Benfica", "odds": 2.02, "stake": 5, "result": "loss", "return": 0, "source": "personal" },
+      { "type": "simples", "market": "Geny Catamo marcar golo", "matches": "Sporting CP vs Benfica", "odds": 4.33, "stake": 5, "result": "loss", "return": 0, "source": "personal" }
+    ],
+    "summary": {
+      "total_staked": 140,
+      "total_return": 143.34,
+      "profit": 3.34,
+      "total_bets": 26,
+      "wins": 14,
+      "losses": 12,
+      "roi": 2.4,
+      "model_only": {
+        "total_staked": 120,
+        "total_return": 143.34,
+        "profit": 23.34,
+        "total_bets": 22,
+        "wins": 14,
+        "losses": 8,
+        "roi": 19.5
+      },
+      "personal": {
+        "total_staked": 20,
+        "total_return": 0,
+        "profit": -20,
+        "total_bets": 4,
+        "wins": 0,
+        "losses": 4
+      }
+    },
+    "balance": 186.65
+  },
+  "notes": "Dia positivo no modelo (+23.34€, ROI 19.5%), mas 4 apostas pessoais no Sporting-Benfica (cartoes + goleador) falharam todas (-20€). Over 2.5: 10/15 (66.7%) - 3. Liga DE excelente (3/3). Cartoes: 3/5 (60%). BTTS: 1/2 (50%). Bayern 4-2 Stuttgart Over 3.5 GREEN. Banca final: 186.65€."
+}
