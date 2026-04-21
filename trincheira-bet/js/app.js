@@ -378,7 +378,10 @@ const App = {
         await Corners.analyze(cornersFixtures);
       }
 
-      // Step 6: Finalize
+      // Step 6: Save pre-match data for live engine
+      this.savePreMatchDataForLive();
+
+      // Step 7: Finalize
       this.updateScanProgress('Completo!', 100);
       this.updateCounts();
       this.saveTipsToCache();
@@ -397,6 +400,38 @@ const App = {
     }
 
     this.scanning = false;
+  },
+
+  /** Save pre-match analysis data for the live engine to use */
+  savePreMatchDataForLive() {
+    const map = {};
+
+    // BTTS scores
+    if (TopPicks.analyzed && TopPicks.analyzed.length) {
+      TopPicks.analyzed.forEach(r => {
+        const fid = r.fixture.fixture.id;
+        if (!map[fid]) map[fid] = {};
+        map[fid].bttsScore = r.btts?.score || 0;
+      });
+    }
+
+    // Over 2.5 scores
+    if (typeof Over25Scanner !== 'undefined' && Over25Scanner.analyzed && Over25Scanner.analyzed.length) {
+      Over25Scanner.analyzed.forEach(r => {
+        const fid = r.fixture.fixture.id;
+        if (!map[fid]) map[fid] = {};
+        map[fid].over25Score = r.over25?.score || r.analysis?.score || 0;
+      });
+    }
+
+    if (Object.keys(map).length > 0) {
+      // Expire at end of today
+      const now = new Date();
+      const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+      const ttl = midnight - now;
+      Cache.set('prematch_live', map, ttl);
+      console.log('[TB] Pre-match data saved for live engine:', Object.keys(map).length, 'fixtures');
+    }
   }
 };
 

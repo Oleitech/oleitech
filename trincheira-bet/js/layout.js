@@ -10,6 +10,7 @@ const Layout = {
     bolt: '<path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" stroke-width="0" fill="currentColor"/>',
     filter: '<path d="M3 5h18M6 12h12M10 19h4" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round"/>',
     trend: '<path d="M3 17l6-6 4 4 8-8M15 7h6v6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
+    live: '<circle cx="12" cy="12" r="4" fill="currentColor"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="1" opacity="0.25"/>',
   },
 
   icon(name, cls) {
@@ -46,6 +47,9 @@ const Layout = {
         <a href="index.html" class="nav-item ${activePage === 'tips' ? 'is-active' : ''}">
           ${this.icon('bolt', 'icon')}Tips
         </a>
+        <a href="live.html" class="nav-item ${activePage === 'live' ? 'is-active' : ''}">
+          ${this.icon('live', 'icon')}Ao Vivo
+        </a>
         <a href="resultados.html" class="nav-item ${activePage === 'results' ? 'is-active' : ''}">
           ${this.icon('results', 'icon')}Resultados
         </a>
@@ -71,6 +75,9 @@ const Layout = {
       <div class="tabbar-inner">
         <a href="index.html" class="tab ${activePage === 'tips' ? 'is-active' : ''}">
           ${this.icon('bolt', 'icon')}<span>Tips</span>
+        </a>
+        <a href="live.html" class="tab ${activePage === 'live' ? 'is-active' : ''}">
+          ${this.icon('live', 'icon')}<span>Ao Vivo</span>
         </a>
         <a href="resultados.html" class="tab ${activePage === 'results' ? 'is-active' : ''}">
           ${this.icon('results', 'icon')}<span>Resultados</span>

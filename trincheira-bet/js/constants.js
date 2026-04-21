@@ -192,3 +192,33 @@ const STATUS_MAP = {
 
 const LIVE_STATUSES = ['1H', 'HT', '2H', 'ET', 'BT', 'P', 'LIVE'];
 const FINISHED_STATUSES = ['FT', 'AET', 'PEN'];
+
+// ===================== LIVE BETTING THRESHOLDS =====================
+const LIVE_THRESHOLDS = {
+  // Strategy 1: Goals in 0-0 at HT
+  GOALS_00_MIN_CONFIDENCE: 65,
+  GOALS_00_MIN_SHOTS: 8,
+  GOALS_00_MIN_SOT: 4,
+
+  // Strategy 2: Late Corners
+  CORNERS_MIN_CONFIDENCE: 60,
+  CORNERS_MIN_ELAPSED: 70,
+  CORNERS_MAX_GAP: 3,
+
+  // Strategy 3: Red Card Momentum
+  RED_CARD_MIN_CONFIDENCE: 60,
+  RED_CARD_WINDOW_MIN: 15,
+
+  // Strategy 4: BTTS Completion
+  BTTS_COMP_MIN_CONFIDENCE: 65,
+  BTTS_COMP_MIN_PREMATCH: 70,
+
+  // Strategy 5: HT Draw Swing
+  HT_SWING_MIN_CONFIDENCE: 60,
+  HT_SWING_FAVORITE_MAX_ODDS: 1.60,
+
+  // Polling & general
+  POLL_INTERVAL: 45000,
+  ALERT_EXPIRY_BUFFER: 300000,
+  MAX_DETAIL_FETCHES: 10,
+};

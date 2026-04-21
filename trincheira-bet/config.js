@@ -1,7 +1,8 @@
 const CONFIG = {
   API_KEY: '39b7cc96eec7d93794bce93477cfab56',
   API_HOST: 'v3.football.api-sports.io',
-  DAILY_LIMIT: 100,
+  WORKER_URL: 'https://trincheira-live.rodrigo-fcp1997.workers.dev',
+  DAILY_LIMIT: 7500,
   CACHE_TTL_FIXTURES: 4 * 60 * 60 * 1000,
   CACHE_TTL_PREDICTIONS: 12 * 60 * 60 * 1000,
   CACHE_TTL_ODDS: 6 * 60 * 60 * 1000,
