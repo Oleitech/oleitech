@@ -1,0 +1,234 @@
+{
+  "date": "2026-04-20",
+  "btts": {
+    "tips": [
+      {
+        "home": "Lechia Gdansk",
+        "away": "Piast Gliwice",
+        "league": "Primeira Liga",
+        "country": "PL",
+        "kickoff": null,
+        "confidence": null,
+        "btts_sim": 1.56,
+        "result_home": 1,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Midtjylland",
+        "away": "AGF Aarhus",
+        "league": "Superliga",
+        "country": "DK",
+        "kickoff": null,
+        "confidence": null,
+        "btts_sim": 1.68,
+        "result_home": 2,
+        "result_away": 1,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 2,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "cards": {
+    "tips": [
+      {
+        "home": "Midtjylland",
+        "away": "AGF Aarhus",
+        "league": "Superliga DK",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Den Bosch",
+        "away": "Jong Utrecht",
+        "league": "Eerste Divisie",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Lecce",
+        "away": "Fiorentina",
+        "league": "Serie A",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Central Cordoba de Santiago",
+        "away": "Platense",
+        "league": "Liga Argentina",
+        "market": "+5.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Lechia Gdansk",
+        "away": "Piast Gliwice",
+        "league": "Primeira Liga PL",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Barracas Central",
+        "away": "Belgrano",
+        "league": "Liga Argentina",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Gaziantep",
+        "away": "Kayserispor",
+        "league": "Superliga TR",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Banfield",
+        "away": "Independiente Rivadavia",
+        "league": "Liga Argentina",
+        "market": "+5.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Moreirense",
+        "away": "Estoril",
+        "league": "Liga Portugal",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 9,
+      "green": 5,
+      "red": 4,
+      "hit_rate": 55.6
+    }
+  },
+  "over25": {
+    "tips": [
+      {
+        "home": "Oddevold",
+        "away": "Osters",
+        "league": "Superettan",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Gaziantep",
+        "away": "Kayserispor",
+        "league": "Superliga TR",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 0,
+        "hit": true
+      },
+      {
+        "home": "Sundsvall",
+        "away": "Brage",
+        "league": "Superettan",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 2,
+        "hit": true
+      },
+      {
+        "home": "Lyn Fotball",
+        "away": "Sandnes Ulf",
+        "league": "Segunda Liga",
+        "confidence": null,
+        "result_home": 0,
+        "result_away": 2,
+        "hit": false
+      },
+      {
+        "home": "Moreirense",
+        "away": "Estoril",
+        "league": "Liga Portugal",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 0,
+        "hit": false
+      },
+      {
+        "home": "Den Bosch",
+        "away": "Jong Utrecht",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 1,
+        "hit": false
+      },
+      {
+        "home": "Lechia Gdansk",
+        "away": "Piast Gliwice",
+        "league": "Primeira Liga PL",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 1,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 7,
+      "green": 3,
+      "red": 4,
+      "hit_rate": 42.9
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "Over 2.5", "matches": "Lyn Fotball vs Sandnes Ulf", "odds": 1.44, "stake": 2, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Oddevold vs Osters", "odds": 1.77, "stake": 2, "result": "win", "return": 3.54 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Gaziantep vs Kayserispor", "odds": 1.781, "stake": 2, "result": "win", "return": 3.56 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Sundsvall vs Brage", "odds": 1.83, "stake": 2, "result": "win", "return": 3.66 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Moreirense vs Estoril", "odds": 1.875, "stake": 4, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Den Bosch vs Jong Utrecht", "odds": 1.44, "stake": 4, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Lechia Gdansk vs Piast Gliwice", "odds": 1.68, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Midtjylland vs AGF Aarhus", "odds": 1.78, "stake": 2, "result": "win", "return": 3.56 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Den Bosch vs Jong Utrecht", "odds": 2.01, "stake": 6, "result": "win", "return": 12.06 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Lecce vs Fiorentina", "odds": 1.7, "stake": 6, "result": "win", "return": 10.2 },
+      { "type": "simples", "market": "Over 5.5 cartoes", "matches": "Central Cordoba vs Platense", "odds": 1.615, "stake": 4, "result": "win", "return": 6.46 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Lechia Gdansk vs Piast Gliwice", "odds": 1.8, "stake": 5, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Barracas Central vs Belgrano", "odds": 1.667, "stake": 8, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Gaziantep vs Kayserispor", "odds": 1.59, "stake": 8, "result": "win", "return": 12.72 },
+      { "type": "simples", "market": "Over 5.5 cartoes", "matches": "Banfield vs Ind. Rivadavia", "odds": 2.0, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Moreirense vs Estoril", "odds": 2.15, "stake": 12, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "BTTS", "matches": "Lechia Gdansk vs Piast Gliwice", "odds": 1.56, "stake": 2, "result": "win", "return": 3.12 },
+      { "type": "simples", "market": "BTTS", "matches": "Midtjylland vs AGF Aarhus", "odds": 1.68, "stake": 6, "result": "win", "return": 10.08 }
+    ],
+    "summary": {
+      "total_staked": 87,
+      "total_return": 68.96,
+      "profit": -18.04,
+      "total_bets": 18,
+      "wins": 10,
+      "losses": 8,
+      "roi": -20.7
+    },
+    "balance": 168.61
+  },
+  "notes": "Dia negativo (-18.04€, ROI -20.7%). Over 2.5 muito fraco: 3/7 (42.9%) - muitos jogos com poucos golos. BTTS perfeito: 2/2 (100%). Cartoes: 5/9 (55.6%) - Argentina muito mista (Barracas Central 0-0, Banfield 0-0 = RED, mas Central Cordoba 4-3 = GREEN). Moreirense vs Estoril foi o jogo mais caro que falhou (12€ em cartoes + 4€ Over 2.5 = 16€ perdidos num jogo 1-0). Banca final: 168.61€."
+}
