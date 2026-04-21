@@ -22,35 +22,22 @@ const TopPicks = {
   },
 
   show(fixtures) {
-    const section = document.getElementById('top-picks-section');
     const grid = document.getElementById('top-picks-grid');
-    const btn = document.getElementById('btn-analyze');
-    const costSpan = document.getElementById('analyze-cost');
+    if (!grid) return;
 
     const bttsFixtures = this.getBTTSFixtures(fixtures);
-    if (bttsFixtures.length === 0) {
-      section.style.display = 'none';
-      return;
-    }
+    if (bttsFixtures.length === 0) return;
 
-    section.style.display = '';
-
-    const toFetch = Math.min(bttsFixtures.length, this.MAX_ANALYZE);
-    let cached = 0;
-    bttsFixtures.slice(0, toFetch).forEach(f => {
-      const qs = new URLSearchParams({ fixture: f.fixture.id }).toString();
-      if (Cache.get(`predictions_${qs}`)) cached++;
-    });
-    const cost = toFetch - cached;
-
-    costSpan.textContent = cost > 0 ? `(${cost} requests)` : '(em cache)';
-    btn.style.display = '';
     grid.innerHTML = '';
     this.analyzed = [];
 
-    // Show cached results immediately
-    if (cached > 0) {
-      this.showCachedResults(bttsFixtures.slice(0, toFetch));
+    // Analyze from cache first, then fetch missing
+    const toFetch = Math.min(bttsFixtures.length, this.MAX_ANALYZE);
+    this.showCachedResults(bttsFixtures.slice(0, toFetch));
+
+    // Auto-analyze if no cached results
+    if (this.analyzed.length === 0) {
+      this.analyze(bttsFixtures);
     }
   },
 
@@ -93,30 +80,26 @@ const TopPicks = {
     this.isAnalyzing = true;
 
     const grid = document.getElementById('top-picks-grid');
-    const loading = document.getElementById('top-picks-loading');
-    const progressBar = document.getElementById('top-picks-progress-bar');
-    const progressText = document.getElementById('top-picks-progress-text');
-    const btn = document.getElementById('btn-analyze');
+    if (grid) grid.innerHTML = '';
 
     const bttsFixtures = this.getBTTSFixtures(fixtures);
     const toAnalyze = bttsFixtures.slice(0, this.MAX_ANALYZE);
 
-    btn.style.display = 'none';
-    loading.style.display = 'flex';
-    grid.innerHTML = '';
+    // Update progress via App if available
+    const updateProgress = (text) => {
+      if (typeof App !== 'undefined' && App.updateScanProgress) App.updateScanProgress(text);
+    };
 
     const results = [];
     let done = 0;
 
-    // Phase 1: Fetch predictions for all fixtures
     for (const f of toAnalyze) {
       if (Cache.getRemainingRequests() <= 5) {
         UI.showToast('A guardar requests — análise parcial', 'info');
         break;
       }
 
-      progressBar.style.width = `${(done / toAnalyze.length) * 100}%`;
-      progressText.textContent = `A analisar ${done + 1}/${toAnalyze.length}...`;
+      updateProgress(`BTTS ${done + 1}/${toAnalyze.length}`);
 
       const data = await API.getPrediction(f.fixture.id);
       done++;
@@ -124,41 +107,25 @@ const TopPicks = {
       if (data && data.length > 0) {
         const bttsAnalysis = Analysis.analyzeBTTS(data[0]);
         if (bttsAnalysis && bttsAnalysis.score >= THRESHOLDS.BTTS_MEDIUM) {
-          results.push({
-            fixture: f,
-            prediction: data[0],
-            btts: bttsAnalysis,
-            bttsOdds: null
-          });
+          results.push({ fixture: f, prediction: data[0], btts: bttsAnalysis, bttsOdds: null });
         }
       }
 
       await new Promise(r => setTimeout(r, 120));
     }
 
-    // Phase 2: Fetch odds for top BTTS candidates (max 10 to save API calls)
-    const topCandidates = results
-      .sort((a, b) => b.btts.score - a.btts.score)
-      .slice(0, 10);
-
+    const topCandidates = results.sort((a, b) => b.btts.score - a.btts.score).slice(0, 10);
     let oddsCount = 0;
     for (const r of topCandidates) {
       if (Cache.getRemainingRequests() <= 3) break;
-
-      progressText.textContent = `A buscar odds ${oddsCount + 1}/${topCandidates.length}...`;
+      updateProgress(`BTTS odds ${oddsCount + 1}/${topCandidates.length}`);
       const oddsData = await API.getOdds(r.fixture.fixture.id);
       oddsCount++;
-
-      if (oddsData) {
-        r.bttsOdds = this.extractBTTSOdds(oddsData);
-      }
-
+      if (oddsData) r.bttsOdds = this.extractBTTSOdds(oddsData);
       await new Promise(r => setTimeout(r, 120));
     }
 
-    // Sort by BTTS score, filter out low odds
     results.sort((a, b) => {
-      // Prioritize matches with confirmed good odds
       const aHasOdds = a.bttsOdds && a.bttsOdds.yes >= THRESHOLDS.BTTS_MIN_ODDS;
       const bHasOdds = b.bttsOdds && b.bttsOdds.yes >= THRESHOLDS.BTTS_MIN_ODDS;
       if (aHasOdds && !bHasOdds) return -1;
@@ -167,19 +134,7 @@ const TopPicks = {
     });
 
     this.analyzed = results;
-
-    loading.style.display = 'none';
-    progressBar.style.width = '100%';
-
-    if (results.length === 0) {
-      grid.innerHTML = `
-        <div class="top-picks__empty">
-          Sem jogos com padrão BTTS forte identificado hoje
-        </div>`;
-    } else {
-      this.renderResults(results);
-    }
-
+    if (results.length > 0) this.renderResults(results);
     this.isAnalyzing = false;
   },
 
@@ -242,149 +197,19 @@ const TopPicks = {
     const time = new Date(fixture.fixture.date).toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
     const leagueInfo = LEAGUES[fixture.league.id];
     const leagueName = leagueInfo?.name || fixture.league.name;
+    const odds = bttsOdds?.yes || null;
+    const stake = Bankroll.getBTTSStake(btts.score);
 
-    // Form strings
-    const homeForm = prediction.teams?.home?.league?.form?.slice(-5) || '';
-    const awayForm = prediction.teams?.away?.league?.form?.slice(-5) || '';
-
-    const card = UI.el('div', 'btts-card');
-    card.dataset.fixtureId = fixture.fixture.id;
-
-    // Tier based on BTTS score
-    const tier = btts.score >= THRESHOLDS.BTTS_FIRE ? 'fire' :
-                 btts.score >= THRESHOLDS.BTTS_HIGH ? 'hot' : 'warm';
-
-    // BTTS score color
-    const scoreColor = btts.score >= THRESHOLDS.BTTS_FIRE ? 'var(--green)' :
-                       btts.score >= THRESHOLDS.BTTS_HIGH ? 'var(--amber)' : 'var(--blue)';
-
-    // Odds display
-    let oddsHtml = '';
-    if (bttsOdds && bttsOdds.yes > 0) {
-      const oddsClass = bttsOdds.yes >= 1.70 ? 'btts-odds--value' :
-                        bttsOdds.yes >= 1.50 ? 'btts-odds--fair' : 'btts-odds--low';
-      oddsHtml = `
-        <div class="btts-card__odds ${oddsClass}">
-          <span class="btts-card__odds-label">BTTS Sim</span>
-          <span class="btts-card__odds-value">${bttsOdds.yes.toFixed(2)}</span>
-        </div>`;
-    }
-
-    // H2H BTTS display
-    let h2hHtml = '';
-    if (btts.stats.h2hBtts) {
-      const h = btts.stats.h2hBtts;
-      const h2hColor = h.rate >= 60 ? 'var(--green)' : h.rate >= 40 ? 'var(--amber)' : 'var(--red)';
-      h2hHtml = `
-        <div class="btts-card__h2h">
-          <span class="btts-card__stat-label">H2H BTTS</span>
-          <span style="color:${h2hColor};font-weight:700">${h.count}/${h.total} (${h.rate}%)</span>
-        </div>`;
-    }
-
-    // League BTTS rate
-    let leagueBttsHtml = '';
-    if (btts.stats.leagueBttsRate) {
-      leagueBttsHtml = `
-        <div class="btts-card__league-btts">
-          <span class="btts-card__stat-label">Liga BTTS</span>
-          <span>${btts.stats.leagueBttsRate}%</span>
-        </div>`;
-    }
-
-    card.innerHTML = `
-      <div class="btts-card__header">
-        <div class="btts-card__rank">#${rank}</div>
-        <div class="btts-card__tier btts-card__tier--${tier}">
-          ${tier === 'fire' ? '&#128293;' : tier === 'hot' ? '&#11088;' : '&#9898;'}
-        </div>
-        <div class="btts-card__score-ring" style="--score-color:${scoreColor}">
-          <span class="btts-card__score-value">${btts.score}</span>
-          <span class="btts-card__score-label">BTTS</span>
-        </div>
-      </div>
-
-      <div class="btts-card__league">${leagueName} &middot; ${time}</div>
-
-      <div class="btts-card__matchup">
-        <div class="btts-card__team">
-          <img src="${home.logo}" alt="" class="btts-card__team-logo" onerror="this.style.display='none'">
-          <span>${home.name}</span>
-        </div>
-        <span class="btts-card__vs">vs</span>
-        <div class="btts-card__team">
-          <img src="${away.logo}" alt="" class="btts-card__team-logo" onerror="this.style.display='none'">
-          <span>${away.name}</span>
-        </div>
-      </div>
-
-      ${oddsHtml}
-
-      <div class="btts-card__stats-grid">
-        <div class="btts-card__stat">
-          <span class="btts-card__stat-label">Casa marca</span>
-          <span class="btts-card__stat-value">${btts.stats.homeGoalsFor}/jogo</span>
-        </div>
-        <div class="btts-card__stat">
-          <span class="btts-card__stat-label">Casa sofre</span>
-          <span class="btts-card__stat-value">${btts.stats.homeGoalsAgainst}/jogo</span>
-        </div>
-        <div class="btts-card__stat">
-          <span class="btts-card__stat-label">Fora marca</span>
-          <span class="btts-card__stat-value">${btts.stats.awayGoalsFor}/jogo</span>
-        </div>
-        <div class="btts-card__stat">
-          <span class="btts-card__stat-label">Fora sofre</span>
-          <span class="btts-card__stat-value">${btts.stats.awayGoalsAgainst}/jogo</span>
-        </div>
-      </div>
-
-      ${h2hHtml}
-      ${leagueBttsHtml}
-
-      <div class="btts-card__form">
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${home.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(homeForm)}</div>
-        </div>
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${away.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(awayForm)}</div>
-        </div>
-      </div>
-
-      ${btts.factors.length > 0 ? `
-        <div class="btts-card__factors">
-          ${btts.factors.map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="btts-card__factor ${isWarning ? 'btts-card__factor--warning' : ''}">
-              ${isWarning ? '' : '&#10003; '}${f}
-            </div>`;
-          }).join('')}
-        </div>
-      ` : ''}
-
-      ${(btts.learningFactors && btts.learningFactors.length > 0) || btts.risk ? `
-        <div class="btts-card__learning">
-          <div class="btts-card__learning-title">&#9889; Aprendizagem</div>
-          ${(btts.learningFactors || []).map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="btts-card__learning-item ${isWarning ? 'btts-card__learning-item--warning' : 'btts-card__learning-item--boost'}">
-              ${f}
-            </div>`;
-          }).join('')}
-          ${btts.risk ? `
-            <div class="btts-card__risk btts-card__risk--${btts.risk.level}">
-              ${btts.risk.label}
-            </div>
-          ` : ''}
-        </div>
-      ` : ''}
-
-      ${Bankroll.renderBadge(Bankroll.getBTTSStake(btts.score))}
-    `;
-
-    return card;
+    return UI.renderTipCard({
+      home: home.name, away: away.name,
+      homeLogo: home.logo, awayLogo: away.logo,
+      league: leagueName, time,
+      marketKey: 'btts', pick: 'Sim',
+      odds, score: btts.score,
+      factors: btts.factors,
+      learningFactors: btts.learningFactors,
+      stake
+    });
   },
 
   init() {

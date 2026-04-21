@@ -229,120 +229,19 @@ const Over15 = {
     const time = new Date(fixture.fixture.date).toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
     const leagueInfo = LEAGUES[fixture.league.id];
     const leagueName = leagueInfo?.name || fixture.league.name;
+    const odds = goalsOdds?.over || null;
+    const stake = Bankroll.getOver15Stake(over15.score);
 
-    const homeForm = prediction.teams?.home?.league?.form?.slice(-5) || '';
-    const awayForm = prediction.teams?.away?.league?.form?.slice(-5) || '';
-
-    const card = UI.el('div', 'over15-card');
-    card.dataset.fixtureId = fixture.fixture.id;
-
-    const tier = over15.score >= THRESHOLDS.OVER15_FIRE ? 'fire' :
-                 over15.score >= THRESHOLDS.OVER15_HIGH ? 'hot' : 'warm';
-
-    const scoreColor = over15.score >= THRESHOLDS.OVER15_FIRE ? 'var(--blue)' :
-                       over15.score >= THRESHOLDS.OVER15_HIGH ? 'var(--green)' : 'var(--amber)';
-
-    let oddsHtml = '';
-    if (goalsOdds && goalsOdds.over > 0) {
-      const oddsClass = goalsOdds.over >= 1.30 ? 'over15-odds--value' :
-                        goalsOdds.over >= 1.15 ? 'over15-odds--fair' : 'over15-odds--low';
-      oddsHtml = `
-        <div class="over15-card__odds ${oddsClass}">
-          <span class="over15-card__odds-label">Over 1.5 Golos</span>
-          <span class="over15-card__odds-value">${goalsOdds.over.toFixed(2)}</span>
-        </div>`;
-    }
-
-    card.innerHTML = `
-      <div class="over15-card__header">
-        <div class="over15-card__rank">#${rank}</div>
-        <div class="over15-card__tier">
-          ${tier === 'fire' ? '&#128293;' : tier === 'hot' ? '&#11088;' : '&#9898;'}
-        </div>
-        <div class="over15-card__score-ring" style="--score-color:${scoreColor}">
-          <span class="over15-card__score-value">${over15.score}</span>
-          <span class="over15-card__score-label">O1.5</span>
-        </div>
-      </div>
-
-      <div class="over15-card__league">${leagueName} &middot; ${time}</div>
-
-      <div class="over15-card__matchup">
-        <div class="over15-card__team">
-          <img src="${home.logo}" alt="" class="over15-card__team-logo" onerror="this.style.display='none'">
-          <span>${home.name}</span>
-        </div>
-        <span class="over15-card__vs">vs</span>
-        <div class="over15-card__team">
-          <img src="${away.logo}" alt="" class="over15-card__team-logo" onerror="this.style.display='none'">
-          <span>${away.name}</span>
-        </div>
-      </div>
-
-      ${oddsHtml}
-
-      <div class="over15-card__stats-grid">
-        <div class="over15-card__stat">
-          <span class="over15-card__stat-label">Casa marca</span>
-          <span class="over15-card__stat-value">${over15.stats.homeGoalsFor}/jogo</span>
-        </div>
-        <div class="over15-card__stat">
-          <span class="over15-card__stat-label">Casa sofre</span>
-          <span class="over15-card__stat-value">${over15.stats.homeGoalsAgainst}/jogo</span>
-        </div>
-        <div class="over15-card__stat">
-          <span class="over15-card__stat-label">Fora marca</span>
-          <span class="over15-card__stat-value">${over15.stats.awayGoalsFor}/jogo</span>
-        </div>
-        <div class="over15-card__stat">
-          <span class="over15-card__stat-label">Fora sofre</span>
-          <span class="over15-card__stat-value">${over15.stats.awayGoalsAgainst}/jogo</span>
-        </div>
-      </div>
-
-      <div class="over15-card__expected">
-        <span class="over15-card__stat-label">Golos esperados</span>
-        <span class="over15-card__expected-value">${over15.stats.totalExpected}</span>
-      </div>
-
-      <div class="over15-card__form">
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${home.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(homeForm)}</div>
-        </div>
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${away.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(awayForm)}</div>
-        </div>
-      </div>
-
-      ${over15.factors.length > 0 ? `
-        <div class="over15-card__factors">
-          ${over15.factors.map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="over15-card__factor ${isWarning ? 'over15-card__factor--warning' : ''}">
-              ${isWarning ? '' : '&#10003; '}${f}
-            </div>`;
-          }).join('')}
-        </div>
-      ` : ''}
-
-      ${(over15.learningFactors && over15.learningFactors.length > 0) ? `
-        <div class="over15-card__learning">
-          <div class="over15-card__learning-title">&#9889; Aprendizagem</div>
-          ${over15.learningFactors.map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="over15-card__learning-item ${isWarning ? 'over15-card__learning-item--warning' : 'over15-card__learning-item--boost'}">
-              ${f}
-            </div>`;
-          }).join('')}
-        </div>
-      ` : ''}
-
-      ${Bankroll.renderBadge(Bankroll.getOver15Stake(over15.score))}
-    `;
-
-    return card;
+    return UI.renderTipCard({
+      home: home.name, away: away.name,
+      homeLogo: home.logo, awayLogo: away.logo,
+      league: leagueName, time,
+      marketKey: 'over25', marketLabel: 'Over 1.5 golos', pick: 'Over 1.5',
+      odds, score: over15.score,
+      factors: over15.factors,
+      learningFactors: over15.learningFactors,
+      stake
+    });
   },
 
   // ===================== ACCUMULATOR BUILDER =====================

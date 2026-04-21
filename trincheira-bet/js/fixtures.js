@@ -4,23 +4,20 @@ const Fixtures = {
 
   async load(date) {
     this.currentDate = date;
-    const container = document.getElementById('fixtures-container');
-    if (!container) return;
-
-    UI.showLoading(container);
     const data = await API.getFixtures(date);
 
     if (!data || data.length === 0) {
-      container.innerHTML = `
-        <div class="empty-state">
-          <div class="empty-state__icon">&#9917;</div>
-          <div class="empty-state__text">Sem jogos para este dia</div>
-        </div>`;
+      this.fixturesData = [];
       return;
     }
 
     this.fixturesData = data;
-    this.render(data);
+
+    // Only render to old container if it exists
+    const container = document.getElementById('fixtures-container');
+    if (container) {
+      this.render(data);
+    }
   },
 
   groupByLeague(fixtures) {

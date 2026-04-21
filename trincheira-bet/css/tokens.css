@@ -1,0 +1,190 @@
+/* Trincheira Bet — Design tokens */
+:root {
+  /* Canvas / surfaces */
+  --bg: #0A0B0D;
+  --bg-elev-1: #111317;
+  --bg-elev-2: #16181D;
+  --bg-elev-3: #1C1F25;
+  --bg-inset: #0D0E11;
+
+  /* Borders + dividers */
+  --border: rgba(255,255,255,0.06);
+  --border-strong: rgba(255,255,255,0.10);
+  --border-accent: rgba(255,107,53,0.35);
+
+  /* Text */
+  --text: #F5F5F2;
+  --text-2: #B5B7BD;
+  --text-3: #6B6F78;
+  --text-4: #44474E;
+
+  /* Accent (blue) */
+  --accent: #3B82F6;
+  --accent-hover: #60A5FA;
+  --accent-soft: rgba(59,130,246,0.14);
+  --accent-softer: rgba(59,130,246,0.08);
+  --accent-ring: rgba(255,107,53,0.30);
+
+  /* Semantic */
+  --green: #22C55E;
+  --green-soft: rgba(34,197,94,0.14);
+  --green-dim: #166534;
+  /* "Miss" indicator — blue instead of red per request */
+  --red: #3B82F6;
+  --red-soft: rgba(59,130,246,0.14);
+  --red-dim: #1E3A8A;
+  --amber: #F59E0B;
+  --amber-soft: rgba(245,158,11,0.14);
+  --blue: #60A5FA;
+  --blue-soft: rgba(96,165,250,0.14);
+  --violet: #A78BFA;
+  --violet-soft: rgba(167,139,250,0.14);
+
+  /* Market colors */
+  --m-btts: #60A5FA;      /* blue */
+  --m-over: #A78BFA;      /* violet */
+  --m-cards: #F59E0B;     /* amber */
+  --m-corners: #22D3EE;   /* cyan */
+
+  /* Radii */
+  --r-1: 6px;
+  --r-2: 10px;
+  --r-3: 14px;
+  --r-4: 20px;
+  --r-pill: 999px;
+
+  /* Shadows (dark-mode elevation via glow, not drop shadow) */
+  --shadow-1: 0 1px 0 rgba(255,255,255,0.03) inset, 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-2: 0 1px 0 rgba(255,255,255,0.04) inset, 0 8px 24px rgba(0,0,0,0.5);
+  --shadow-pop: 0 0 0 1px rgba(255,107,53,0.35), 0 8px 32px rgba(255,107,53,0.12);
+
+  /* Spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-7: 32px;
+  --sp-8: 48px;
+
+  /* Type */
+  --font-sans: "Geist", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+
+  /* Layout */
+  --nav-rail: 240px;
+  --nav-rail-collapsed: 72px;
+  --tabbar-h: 64px;
+  --topbar-h: 56px;
+  --content-max: 1280px;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "ss02", "cv11";
+}
+body { min-height: 100vh; }
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2A2D33; border-radius: 10px; border: 2px solid var(--bg); }
+::-webkit-scrollbar-thumb:hover { background: #3A3D43; }
+
+/* Utility */
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+.mono { font-family: var(--font-mono); }
+.caps { text-transform: uppercase; letter-spacing: 0.08em; font-size: 11px; font-weight: 600; color: var(--text-3); }
+.hr { height: 1px; background: var(--border); border: 0; margin: 0; }
+.dot { width: 4px; height: 4px; border-radius: 50%; background: var(--text-4); display: inline-block; vertical-align: middle; }
+
+/* Focus */
+:focus-visible { outline: 2px solid var(--accent-ring); outline-offset: 2px; border-radius: 6px; }
+
+/* Layout scaffold */
+.app {
+  display: grid;
+  grid-template-columns: var(--nav-rail) 1fr;
+  min-height: 100vh;
+}
+.app-main {
+  min-width: 0;
+  padding: var(--sp-6) var(--sp-7) calc(var(--tabbar-h) + var(--sp-7));
+}
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; }
+  .app-main { padding: var(--sp-3) var(--sp-4) calc(var(--tabbar-h) + var(--sp-6)); }
+}
+
+/* Badge */
+.badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 3px 8px; border-radius: var(--r-pill);
+  background: var(--bg-elev-3); border: 1px solid var(--border);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--text-2);
+}
+.badge--green { background: var(--green-soft); color: var(--green); border-color: transparent; }
+.badge--red { background: var(--red-soft); color: var(--red); border-color: transparent; }
+.badge--amber { background: var(--amber-soft); color: var(--amber); border-color: transparent; }
+.badge--blue { background: var(--blue-soft); color: var(--blue); border-color: transparent; }
+.badge--violet { background: var(--violet-soft); color: var(--violet); border-color: transparent; }
+.badge--accent { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+
+/* Button */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 14px; border-radius: var(--r-2);
+  background: var(--bg-elev-2); border: 1px solid var(--border);
+  color: var(--text); font-weight: 500; font-size: 14px;
+  transition: background .15s ease, border-color .15s ease, transform .1s ease;
+}
+.btn:hover { background: var(--bg-elev-3); border-color: var(--border-strong); }
+.btn:active { transform: translateY(1px); }
+.btn--primary {
+  background: var(--accent); color: #0A0B0D; border-color: transparent;
+}
+.btn--primary:hover { background: var(--accent-hover); }
+.btn--ghost { background: transparent; }
+.btn--sm { padding: 6px 10px; font-size: 13px; border-radius: var(--r-1); }
+.btn--icon { padding: 8px; width: 36px; height: 36px; justify-content: center; }
+
+/* Card */
+.card {
+  background: var(--bg-elev-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-3);
+  overflow: hidden;
+}
+.card-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--sp-4) var(--sp-5);
+  border-bottom: 1px solid var(--border);
+}
+.card-body { padding: var(--sp-5); }
+
+/* Chip */
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 10px; border-radius: var(--r-pill);
+  background: var(--bg-elev-2); border: 1px solid var(--border);
+  font-size: 13px; color: var(--text-2);
+  transition: all .15s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip:hover { color: var(--text); border-color: var(--border-strong); }
+.chip.is-active { background: var(--accent); color: #0A0B0D; border-color: transparent; font-weight: 600; }
+.chip--sm { padding: 4px 8px; font-size: 12px; }

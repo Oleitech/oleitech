@@ -120,5 +120,76 @@ const UI = {
     const d = new Date();
     d.setDate(d.getDate() + offset);
     return d.toISOString().slice(0, 10);
+  },
+
+  // New design: render a tip card
+  renderTipCard({ home, away, homeLogo, awayLogo, league, time, marketKey, marketLabel, pick, odds, score, factors, learningFactors, stake }) {
+    const MARKET_COLORS = {
+      btts: 'var(--m-btts)', over25: 'var(--m-over)', cards: 'var(--m-cards)', corners: 'var(--m-corners)'
+    };
+    const MARKET_LABELS = {
+      btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões', corners: 'Cantos'
+    };
+    const color = MARKET_COLORS[marketKey] || 'var(--accent)';
+    const label = marketLabel || MARKET_LABELS[marketKey] || marketKey;
+    const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
+    const homeShort = (home || '').slice(0, 3).toUpperCase();
+    const awayShort = (away || '').slice(0, 3).toUpperCase();
+
+    // Build reasons list from factors
+    const allFactors = [...(factors || []), ...(learningFactors || [])];
+    const reasonsHtml = allFactors.length > 0 ? `
+      <ul class="reasoning">
+        ${allFactors.slice(0, 4).map(f => `<li>${f.replace(/^[✓⚠️🔥⚡✔️⭐●◯\u26A0\u2713\u2714\u2B50\u26BD\u2615\u2757]/g, '').trim()}</li>`).join('')}
+      </ul>` : '';
+
+    const card = this.el('article', 'tip');
+    card.innerHTML = `
+      <div class="tip-top">
+        <div class="tip-league">
+          <span class="flag" style="background:${color};opacity:0.6"></span>
+          <span>${league || ''}</span>
+        </div>
+        <div class="tip-time">${time || ''}</div>
+      </div>
+      <div class="tip-fixture">
+        <div class="team team--home">
+          ${homeLogo ? `<img src="${homeLogo}" alt="" style="width:32px;height:32px;border-radius:50%;background:var(--bg-elev-3);object-fit:contain" onerror="this.outerHTML='<div class=\\'crest\\'>${homeShort}</div>'">` : `<div class="crest">${homeShort}</div>`}
+          <div class="team-name">${home || ''}</div>
+        </div>
+        <div class="tip-vs">VS</div>
+        <div class="team team--away">
+          ${awayLogo ? `<img src="${awayLogo}" alt="" style="width:32px;height:32px;border-radius:50%;background:var(--bg-elev-3);object-fit:contain" onerror="this.outerHTML='<div class=\\'crest\\'>${awayShort}</div>'">` : `<div class="crest">${awayShort}</div>`}
+          <div class="team-name">${away || ''}</div>
+        </div>
+      </div>
+      <div class="tip-market">
+        <div class="market-label">
+          <span class="market-dot" style="background:${color}"></span>
+          <span class="market-name">${label}</span>
+        </div>
+        <div class="market-pick">${pick || ''}</div>
+      </div>
+      ${reasonsHtml}
+      <div class="tip-meta-row">
+        <div class="odds">
+          <span class="label">Odds</span>
+          <span class="value num">${odds ? odds.toFixed(2) : '—'}</span>
+        </div>
+        <div class="stake">
+          <span class="label">Stake</span>
+          <span class="value num">${stake ? (typeof stake === 'object' ? (stake.multiplier * (typeof Bankroll !== 'undefined' ? Bankroll.baseStake : 4)).toFixed(0) + '€' : stake + '€') : '—'}</span>
+        </div>
+        <div></div>
+        <div class="conf">
+          <div class="conf-text">
+            <span class="label">Confiança</span>
+            <span class="value">${confLevel}</span>
+          </div>
+          ${Layout.renderConfRing(score)}
+        </div>
+      </div>
+    `;
+    return card;
   }
 };

@@ -20,34 +20,20 @@ const Corners = {
   },
 
   show(fixtures) {
-    const section = document.getElementById('corners-section');
     const grid = document.getElementById('corners-grid');
-    const btn = document.getElementById('btn-corners');
-    const costSpan = document.getElementById('corners-cost');
+    if (!grid) return;
 
     const cornersFixtures = this.getCornersFixtures(fixtures);
-    if (cornersFixtures.length === 0) {
-      section.style.display = 'none';
-      return;
-    }
+    if (cornersFixtures.length === 0) return;
 
-    section.style.display = '';
-
-    const toFetch = Math.min(cornersFixtures.length, this.MAX_ANALYZE);
-    let cached = 0;
-    cornersFixtures.slice(0, toFetch).forEach(f => {
-      const qs = new URLSearchParams({ fixture: f.fixture.id }).toString();
-      if (Cache.get(`predictions_${qs}`)) cached++;
-    });
-    const cost = toFetch - cached;
-
-    costSpan.textContent = cost > 0 ? `(${cost} requests)` : '(em cache)';
-    btn.style.display = '';
     grid.innerHTML = '';
     this.analyzed = [];
 
-    if (cached > 0) {
-      this.showCachedResults(cornersFixtures.slice(0, toFetch));
+    const toFetch = Math.min(cornersFixtures.length, this.MAX_ANALYZE);
+    this.showCachedResults(cornersFixtures.slice(0, toFetch));
+
+    if (this.analyzed.length === 0) {
+      this.analyze(cornersFixtures);
     }
   },
 
@@ -303,79 +289,49 @@ const Corners = {
     this.isAnalyzing = true;
 
     const grid = document.getElementById('corners-grid');
-    const loading = document.getElementById('corners-loading');
-    const progressBar = document.getElementById('corners-progress-bar');
-    const progressText = document.getElementById('corners-progress-text');
-    const btn = document.getElementById('btn-corners');
+    if (grid) grid.innerHTML = '';
+
+    const updateProgress = (text) => {
+      if (typeof App !== 'undefined' && App.updateScanProgress) App.updateScanProgress(text);
+    };
 
     const cornersFixtures = this.getCornersFixtures(fixtures);
     const toAnalyze = cornersFixtures.slice(0, this.MAX_ANALYZE);
 
-    btn.style.display = 'none';
-    loading.style.display = 'flex';
-    grid.innerHTML = '';
-
     const results = [];
     let done = 0;
 
-    // Phase 1: Fetch predictions
     for (const f of toAnalyze) {
       if (Cache.getRemainingRequests() <= 5) {
         UI.showToast('A guardar requests — análise parcial', 'info');
         break;
       }
-
-      progressBar.style.width = `${(done / toAnalyze.length) * 100}%`;
-      progressText.textContent = `A analisar ${done + 1}/${toAnalyze.length}...`;
-
+      updateProgress(`Cantos ${done + 1}/${toAnalyze.length}`);
       const data = await API.getPrediction(f.fixture.id);
       done++;
-
       if (data && data.length > 0) {
         const analysis = this.analyzeCorners(data[0], f);
         if (analysis && analysis.score >= THRESHOLDS.CORNERS_MEDIUM) {
           results.push({ fixture: f, prediction: data[0], corners: analysis, cornersOdds: null });
         }
       }
-
       await new Promise(r => setTimeout(r, 120));
     }
 
-    // Phase 2: Fetch odds for top candidates
-    const topCandidates = results
-      .sort((a, b) => b.corners.score - a.corners.score)
-      .slice(0, 8);
-
+    const topCandidates = results.sort((a, b) => b.corners.score - a.corners.score).slice(0, 8);
     let oddsCount = 0;
     for (const r of topCandidates) {
       if (Cache.getRemainingRequests() <= 3) break;
-
-      progressText.textContent = `A buscar odds ${oddsCount + 1}/${topCandidates.length}...`;
+      updateProgress(`Cantos odds ${oddsCount + 1}/${topCandidates.length}`);
       const oddsData = await API.getOdds(r.fixture.fixture.id);
       oddsCount++;
-
-      if (oddsData) {
-        r.cornersOdds = this.extractCornersOdds(oddsData);
-      }
-
+      if (oddsData) r.cornersOdds = this.extractCornersOdds(oddsData);
       await new Promise(r => setTimeout(r, 120));
     }
 
     results.sort((a, b) => b.corners.score - a.corners.score);
     this.analyzed = results;
-
-    loading.style.display = 'none';
-    progressBar.style.width = '100%';
-
-    if (results.length === 0) {
-      grid.innerHTML = `
-        <div class="corners-empty">
-          Sem jogos com padrão forte de cantos identificado hoje
-        </div>`;
-    } else {
-      this.renderResults(results);
-    }
-
+    if (results.length > 0) this.renderResults(results);
     this.isAnalyzing = false;
   },
 
@@ -411,132 +367,22 @@ const Corners = {
     const time = new Date(fixture.fixture.date).toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
     const leagueInfo = LEAGUES[fixture.league.id];
     const leagueName = leagueInfo?.name || fixture.league.name;
-
-    const homeForm = prediction.teams?.home?.league?.form?.slice(-5) || '';
-    const awayForm = prediction.teams?.away?.league?.form?.slice(-5) || '';
-
-    const card = UI.el('div', 'corners-card');
-    card.dataset.fixtureId = fixture.fixture.id;
-
-    const tier = corners.score >= THRESHOLDS.CORNERS_FIRE ? 'fire' :
-                 corners.score >= THRESHOLDS.CORNERS_HIGH ? 'hot' : 'warm';
-
-    const scoreColor = corners.score >= THRESHOLDS.CORNERS_FIRE ? 'var(--amber)' :
-                       corners.score >= THRESHOLDS.CORNERS_HIGH ? 'var(--blue)' : 'var(--purple)';
-
-    // Suggested bet line
+    const odds = cornersOdds?.over || null;
     const suggestedLine = corners.estimatedCorners >= 11 ? 'Over 10.5' :
                           corners.estimatedCorners >= 10 ? 'Over 9.5' :
                           corners.estimatedCorners >= 9 ? 'Over 8.5' : 'Over 7.5';
+    const stake = Bankroll.getCornersStake(corners.score);
 
-    // Odds display
-    let oddsHtml = '';
-    if (cornersOdds && cornersOdds.over > 0) {
-      const oddsClass = cornersOdds.over >= 1.70 ? 'corners-odds--value' :
-                        cornersOdds.over >= 1.50 ? 'corners-odds--fair' : 'corners-odds--low';
-      oddsHtml = `
-        <div class="corners-card__odds ${oddsClass}">
-          <span class="corners-card__odds-label">Over ${cornersOdds.line} Cantos</span>
-          <span class="corners-card__odds-value">${cornersOdds.over.toFixed(2)}</span>
-        </div>`;
-    }
-
-    card.innerHTML = `
-      <div class="corners-card__header">
-        <div class="corners-card__rank">#${rank}</div>
-        <div class="corners-card__tier">
-          ${tier === 'fire' ? '&#128293;' : tier === 'hot' ? '&#11088;' : '&#9898;'}
-        </div>
-        <div class="corners-card__score-ring" style="--score-color:${scoreColor}">
-          <span class="corners-card__score-value">${corners.score}</span>
-          <span class="corners-card__score-label">CRN</span>
-        </div>
-      </div>
-
-      <div class="corners-card__league">${leagueName} &middot; ${time}</div>
-
-      <div class="corners-card__matchup">
-        <div class="corners-card__team">
-          <img src="${home.logo}" alt="" class="corners-card__team-logo" onerror="this.style.display='none'">
-          <span>${home.name}</span>
-        </div>
-        <span class="corners-card__vs">vs</span>
-        <div class="corners-card__team">
-          <img src="${away.logo}" alt="" class="corners-card__team-logo" onerror="this.style.display='none'">
-          <span>${away.name}</span>
-        </div>
-      </div>
-
-      ${oddsHtml}
-
-      <div class="corners-card__estimate">
-        <div class="corners-card__estimate-bar">
-          <div class="corners-card__estimate-fill" style="width:${Math.min(100, (corners.estimatedCorners / 14) * 100)}%"></div>
-          <span class="corners-card__estimate-value">${corners.estimatedCorners}</span>
-        </div>
-        <div class="corners-card__estimate-labels">
-          <span>Cantos estimados</span>
-          <span class="corners-card__suggestion">${suggestedLine}</span>
-        </div>
-      </div>
-
-      <div class="corners-card__stats-grid">
-        <div class="corners-card__stat">
-          <span class="corners-card__stat-label">Liga média</span>
-          <span class="corners-card__stat-value">${corners.leagueAvg}/jogo</span>
-        </div>
-        <div class="corners-card__stat">
-          <span class="corners-card__stat-label">Ataque comb.</span>
-          <span class="corners-card__stat-value">${corners.stats.combinedAttack} golos</span>
-        </div>
-        <div class="corners-card__stat">
-          <span class="corners-card__stat-label">Def. fraca</span>
-          <span class="corners-card__stat-value">${corners.stats.combinedConceded} sofr.</span>
-        </div>
-        <div class="corners-card__stat">
-          <span class="corners-card__stat-label">Equilíbrio</span>
-          <span class="corners-card__stat-value">${corners.stats.totalDiff < 15 ? '&#10003; Sim' : '&#10007; Não'}</span>
-        </div>
-      </div>
-
-      <div class="corners-card__form">
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${home.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(homeForm)}</div>
-        </div>
-        <div class="form-row">
-          <span class="form-row__label" style="min-width:auto;max-width:60px">${away.name.split(' ')[0]}</span>
-          <div class="form-badges">${UI.renderFormBadges(awayForm)}</div>
-        </div>
-      </div>
-
-      ${corners.factors.length > 0 ? `
-        <div class="corners-card__factors">
-          ${corners.factors.map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="corners-card__factor ${isWarning ? 'corners-card__factor--warning' : ''}">
-              ${isWarning ? '' : '&#10003; '}${f}
-            </div>`;
-          }).join('')}
-        </div>
-      ` : ''}
-
-      ${(corners.learningFactors && corners.learningFactors.length > 0) ? `
-        <div class="corners-card__learning">
-          <div class="corners-card__learning-title">&#9889; Aprendizagem</div>
-          ${corners.learningFactors.map(f => {
-            const isWarning = f.startsWith('\u26A0');
-            return `<div class="corners-card__learning-item ${isWarning ? 'corners-card__learning-item--warning' : 'corners-card__learning-item--boost'}">
-              ${f}
-            </div>`;
-          }).join('')}
-        </div>
-      ` : ''}
-
-      ${Bankroll.renderBadge(Bankroll.getCornersStake(corners.score))}
-    `;
-
-    return card;
+    return UI.renderTipCard({
+      home: home.name, away: away.name,
+      homeLogo: home.logo, awayLogo: away.logo,
+      league: leagueName, time,
+      marketKey: 'corners', pick: suggestedLine,
+      odds, score: corners.score,
+      factors: corners.factors,
+      learningFactors: corners.learningFactors,
+      stake
+    });
   },
 
   init() {
