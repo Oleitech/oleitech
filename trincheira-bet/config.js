@@ -11,3 +11,4 @@ const CONFIG = {
   // Champions League, Europa League
   PRIORITY_LEAGUES: [88, 218, 144, 207, 103, 78, 119, 79, 179, 345, 113, 244, 106, 98, 292, 253, 61, 203, 2, 3]
 };
+// v2.1
