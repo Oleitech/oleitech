@@ -30,6 +30,10 @@ const App = {
       cards: document.getElementById('cards-grid'),
       corners: document.getElementById('corners-grid'),
     };
+    // Don't cache if no tips were generated
+    const totalCards = Object.values(grids).reduce((sum, g) => sum + (g ? g.children.length : 0), 0);
+    if (totalCards === 0) return;
+
     const cached = { markets: {}, fixtureCount: 0, expiresAt: 0 };
     Object.entries(grids).forEach(([key, grid]) => {
       cached.markets[key] = grid ? grid.innerHTML : '';
@@ -46,6 +50,12 @@ const App = {
   },
 
   restoreFromCache(cached) {
+    // Check if cache has actual content (not empty grids from failed scan)
+    const hasContent = Object.values(cached.markets).some(html => html && html.trim().length > 10);
+    if (!hasContent) {
+      localStorage.removeItem(this.getCacheKey());
+      return;
+    }
     Object.entries(cached.markets).forEach(([key, html]) => {
       const grid = document.getElementById(key === 'btts' ? 'top-picks-grid' : key + '-grid');
       if (grid && html) grid.innerHTML = html;
