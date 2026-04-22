@@ -619,6 +619,7 @@ const History = {
     });
 
     // Day 8: 19/04/2026
+    // (Note: Day 8 data loaded from JSON file)
     this.addDay({
       "date": "2026-04-19",
       "btts": {

@@ -198,7 +198,6 @@ const TopPicks = {
     const leagueInfo = LEAGUES[fixture.league.id];
     const leagueName = leagueInfo?.name || fixture.league.name;
     const odds = bttsOdds?.yes || null;
-    const stake = Bankroll.getBTTSStake(btts.score);
 
     return UI.renderTipCard({
       home: home.name, away: away.name,
@@ -207,8 +206,7 @@ const TopPicks = {
       marketKey: 'btts', pick: 'Sim',
       odds, score: btts.score,
       factors: btts.factors,
-      learningFactors: btts.learningFactors,
-      stake
+      learningFactors: btts.learningFactors
     });
   },
 

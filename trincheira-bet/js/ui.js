@@ -178,7 +178,7 @@ const UI = {
         </div>
         <div class="stake">
           <span class="label">Stake</span>
-          <span class="value num">${stake ? (typeof stake === 'object' ? (stake.multiplier * (typeof Bankroll !== 'undefined' ? Bankroll.baseStake : 4)).toFixed(0) + '€' : stake + '€') : '—'}</span>
+          <span class="value num">1 stake</span>
         </div>
         <div></div>
         <div class="conf">

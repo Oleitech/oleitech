@@ -1,6 +1,5 @@
 const App = {
   selectedDate: 0,
-  activeMarketFilter: 'all',
   scanning: false,
   scannersReady: false,
 
@@ -26,9 +25,6 @@ const App = {
   saveTipsToCache() {
     const grids = {
       btts: document.getElementById('top-picks-grid'),
-      over25: document.getElementById('over25-grid'),
-      cards: document.getElementById('cards-grid'),
-      corners: document.getElementById('corners-grid'),
     };
     // Don't cache if no tips were generated
     const totalCards = Object.values(grids).reduce((sum, g) => sum + (g ? g.children.length : 0), 0);
@@ -78,7 +74,7 @@ const App = {
     }
     const title = document.querySelector('.scanner-title');
     if (title) {
-      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; 4 mercados';
+      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS';
     }
   },
 
@@ -108,12 +104,9 @@ const App = {
       await Learning.init();
       console.log('[TB] Learning ready');
 
-      // Init scanners — these just attach event listeners to (now non-existent) old buttons, safe to call
+      // Init BTTS scanner
       try { Picks.init(); } catch(e) { console.warn('[TB] Picks.init:', e); }
       try { TopPicks.init(); } catch(e) { console.warn('[TB] TopPicks.init:', e); }
-      try { Corners.init(); } catch(e) { console.warn('[TB] Corners.init:', e); }
-      try { Cards.init(); } catch(e) { console.warn('[TB] Cards.init:', e); }
-      try { Over25Scanner.init(); } catch(e) { console.warn('[TB] Over25Scanner.init:', e); }
 
       this.scannersReady = true;
       console.log('[TB] Scanners ready');
@@ -171,7 +164,7 @@ const App = {
           <div style="width:100%">
             <div class="scanner-title">
               <span class="pulse"></span>
-              Scanner pronto &middot; 4 mercados unificados
+              Scanner pronto &middot; BTTS (Ambas Marcam)
             </div>
             <div class="scanner-stats" style="margin-top:8px">
               <span><span class="k">Jogos analisados</span><span class="v num" id="stat-fixtures">—</span></span>
@@ -189,95 +182,25 @@ const App = {
         </div>
       </div>
 
-      <div class="filters" id="market-filters">
-        <button class="chip is-active" data-filter="all">Todos os mercados</button>
-        <button class="chip" data-filter="btts">BTTS <span class="num" style="opacity:0.7;margin-left:4px" id="count-btts">0</span></button>
-        <button class="chip" data-filter="over25">Over 2.5 <span class="num" style="opacity:0.7;margin-left:4px" id="count-over25">0</span></button>
-        <button class="chip" data-filter="cards">Cartões <span class="num" style="opacity:0.7;margin-left:4px" id="count-cards">0</span></button>
-        <button class="chip" data-filter="corners">Cantos <span class="num" style="opacity:0.7;margin-left:4px" id="count-corners">0</span></button>
-      </div>
-
-      <section id="section-btts" style="display:none">
+      <section id="section-btts">
         <div class="section-head">
-          <div class="title"><span class="swatch" style="background:var(--m-btts)"></span> Ambas marcam <span class="badge" id="badge-btts">0</span></div>
+          <div class="title"><span class="swatch" style="background:var(--m-btts)"></span> Ambas marcam (BTTS) <span class="badge" id="badge-btts">0</span></div>
         </div>
         <div class="tips-grid" id="top-picks-grid"></div>
       </section>
-
-      <section id="section-over25" style="display:none">
-        <div class="section-head">
-          <div class="title"><span class="swatch" style="background:var(--m-over)"></span> Mais de 2.5 golos <span class="badge" id="badge-over25">0</span></div>
-        </div>
-        <div class="tips-grid" id="over25-grid"></div>
-      </section>
-
-      <section id="section-cards" style="display:none">
-        <div class="section-head">
-          <div class="title"><span class="swatch" style="background:var(--m-cards)"></span> Cartões <span class="badge" id="badge-cards">0</span></div>
-        </div>
-        <div class="tips-grid" id="cards-grid"></div>
-      </section>
-
-      <section id="section-corners" style="display:none">
-        <div class="section-head">
-          <div class="title"><span class="swatch" style="background:var(--m-corners)"></span> Cantos <span class="badge" id="badge-corners">0</span></div>
-        </div>
-        <div class="tips-grid" id="corners-grid"></div>
-      </section>
     `;
 
-    // Setup filter chips
-    document.querySelectorAll('#market-filters .chip').forEach(chip => {
-      chip.addEventListener('click', () => {
-        document.querySelectorAll('#market-filters .chip').forEach(c => c.classList.remove('is-active'));
-        chip.classList.add('is-active');
-        this.activeMarketFilter = chip.dataset.filter;
-        this.applyMarketFilter();
-      });
-    });
-  },
-
-  applyMarketFilter() {
-    const f = this.activeMarketFilter;
-    ['btts', 'over25', 'cards', 'corners'].forEach(s => {
-      const el = document.getElementById('section-' + s);
-      if (!el) return;
-      const grid = el.querySelector('.tips-grid');
-      const hasCards = grid && grid.children.length > 0;
-      if (f === 'all') {
-        el.style.display = hasCards ? '' : 'none';
-      } else {
-        el.style.display = (s === f && hasCards) ? '' : 'none';
-      }
-    });
   },
 
   updateCounts() {
-    const grids = {
-      btts: document.getElementById('top-picks-grid'),
-      over25: document.getElementById('over25-grid'),
-      cards: document.getElementById('cards-grid'),
-      corners: document.getElementById('corners-grid'),
-    };
-    let total = 0;
-    Object.entries(grids).forEach(([key, grid]) => {
-      const count = grid ? grid.children.length : 0;
-      total += count;
-      const countEl = document.getElementById('count-' + key);
-      const badgeEl = document.getElementById('badge-' + key);
-      if (countEl) countEl.textContent = count;
-      if (badgeEl) badgeEl.textContent = count;
-      const section = document.getElementById('section-' + key);
-      if (section) {
-        if (this.activeMarketFilter === 'all') {
-          section.style.display = count > 0 ? '' : 'none';
-        } else {
-          section.style.display = (key === this.activeMarketFilter && count > 0) ? '' : 'none';
-        }
-      }
-    });
+    const grid = document.getElementById('top-picks-grid');
+    const count = grid ? grid.children.length : 0;
+    const badgeEl = document.getElementById('badge-btts');
+    if (badgeEl) badgeEl.textContent = count;
+    const section = document.getElementById('section-btts');
+    if (section) section.style.display = count > 0 ? '' : 'none';
     const statTips = document.getElementById('stat-tips');
-    if (statTips) statTips.textContent = total;
+    if (statTips) statTips.textContent = count;
   },
 
   updateScanProgress(text, pct) {
@@ -336,47 +259,7 @@ const App = {
         await TopPicks.analyze(bttsFixtures);
       }
       this.updateCounts();
-      this.updateScanProgress('BTTS completo', 30);
-
-      // Step 3: Over 2.5
-      this.updateScanProgress('A analisar Over 2.5...', 35);
-      const o25Fixtures = Over25Scanner.getFixtures(fixtures);
-      console.log('[TB] Over 2.5 fixtures:', o25Fixtures.length);
-      if (o25Fixtures.length > 0) {
-        const grid = document.getElementById('over25-grid');
-        if (grid) grid.innerHTML = '';
-        Over25Scanner.analyzed = [];
-        Over25Scanner.isAnalyzing = false;
-        await Over25Scanner.analyze(o25Fixtures);
-      }
-      this.updateCounts();
-      this.updateScanProgress('Over 2.5 completo', 55);
-
-      // Step 4: Cards
-      this.updateScanProgress('A analisar Cartões...', 60);
-      const cardsFixtures = Cards.getCardsFixtures(fixtures);
-      console.log('[TB] Cards fixtures:', cardsFixtures.length);
-      if (cardsFixtures.length > 0) {
-        const grid = document.getElementById('cards-grid');
-        if (grid) grid.innerHTML = '';
-        Cards.analyzed = [];
-        Cards.isAnalyzing = false;
-        await Cards.analyze(cardsFixtures);
-      }
-      this.updateCounts();
-      this.updateScanProgress('Cartões completo', 80);
-
-      // Step 5: Corners
-      this.updateScanProgress('A analisar Cantos...', 85);
-      const cornersFixtures = Corners.getCornersFixtures(fixtures);
-      console.log('[TB] Corners fixtures:', cornersFixtures.length);
-      if (cornersFixtures.length > 0) {
-        const grid = document.getElementById('corners-grid');
-        if (grid) grid.innerHTML = '';
-        Corners.analyzed = [];
-        Corners.isAnalyzing = false;
-        await Corners.analyze(cornersFixtures);
-      }
+      this.updateScanProgress('BTTS completo', 90);
 
       // Step 6: Save pre-match data for live engine
       this.savePreMatchDataForLive();
@@ -412,15 +295,6 @@ const App = {
         const fid = r.fixture.fixture.id;
         if (!map[fid]) map[fid] = {};
         map[fid].bttsScore = r.btts?.score || 0;
-      });
-    }
-
-    // Over 2.5 scores
-    if (typeof Over25Scanner !== 'undefined' && Over25Scanner.analyzed && Over25Scanner.analyzed.length) {
-      Over25Scanner.analyzed.forEach(r => {
-        const fid = r.fixture.fixture.id;
-        if (!map[fid]) map[fid] = {};
-        map[fid].over25Score = r.over25?.score || r.analysis?.score || 0;
       });
     }
 

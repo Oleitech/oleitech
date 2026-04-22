@@ -1,0 +1,219 @@
+{
+  "date": "2026-04-21",
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [
+      {
+        "home": "Girona",
+        "away": "Real Betis",
+        "league": "LaLiga",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Ath. Bilbao",
+        "away": "Osasuna",
+        "league": "LaLiga",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Mallorca",
+        "away": "Valencia",
+        "league": "LaLiga",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Real Madrid",
+        "away": "Dep. Alaves",
+        "league": "LaLiga",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Tianjin Tiger",
+        "away": "Shandong Taishan",
+        "league": "Superliga CN",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Jeonbuk",
+        "away": "Incheon",
+        "league": "K League 1",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Shenzhen Peng City",
+        "away": "Beijing Guoan",
+        "league": "Superliga CN",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "BW Linz",
+        "away": "Wolfsberger",
+        "league": "Bundesliga AT",
+        "market": "+4.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Standard Liege",
+        "away": "Royal Antwerp",
+        "league": "Pro League",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Ried",
+        "away": "Grazer AK",
+        "league": "Bundesliga AT",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Altach",
+        "away": "WSG Tirol",
+        "league": "Bundesliga AT",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": true
+      },
+      {
+        "home": "Genk",
+        "away": "Charleroi",
+        "league": "Pro League",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      },
+      {
+        "home": "Lok. Zagreb",
+        "away": "Slaven Belupo",
+        "league": "Primeira Liga HR",
+        "market": "+3.5 cartoes",
+        "total_cards": null,
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 13,
+      "green": 6,
+      "red": 7,
+      "hit_rate": 46.2
+    }
+  },
+  "over25": {
+    "tips": [
+      {
+        "home": "Genk",
+        "away": "Charleroi",
+        "league": "Pro League",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 1,
+        "hit": false
+      },
+      {
+        "home": "Hillerod",
+        "away": "Lyngby",
+        "league": "1. Division DK",
+        "confidence": null,
+        "result_home": 1,
+        "result_away": 3,
+        "hit": true
+      },
+      {
+        "home": "Brighton",
+        "away": "Chelsea",
+        "league": "Premier League",
+        "confidence": null,
+        "result_home": 3,
+        "result_away": 0,
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 2,
+      "red": 1,
+      "hit_rate": 66.7
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Girona vs Real Betis", "odds": 2.29, "stake": 12, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Ath. Bilbao vs Osasuna", "odds": 2.75, "stake": 12, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Mallorca vs Valencia", "odds": 1.98, "stake": 12, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "Real Madrid vs Dep. Alaves", "odds": 2.875, "stake": 8, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Tianjin Tiger vs Shandong Taishan", "odds": 1.52, "stake": 2, "result": "win", "return": 3.04 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Jeonbuk vs Incheon", "odds": 1.53, "stake": 2, "result": "win", "return": 3.06 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Shenzhen vs Beijing Guoan", "odds": 1.94, "stake": 2, "result": "win", "return": 3.88 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Genk vs Charleroi", "odds": 1.915, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Hillerod vs Lyngby", "odds": 1.97, "stake": 2, "result": "win", "return": 3.94 },
+      { "type": "simples", "market": "Over 2.5", "matches": "Brighton vs Chelsea", "odds": 1.701, "stake": 2, "result": "win", "return": 3.40 },
+      { "type": "simples", "market": "Over 4.5 cartoes", "matches": "BW Linz vs Wolfsberger", "odds": 1.8, "stake": 8, "result": "win", "return": 14.40 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Standard Liege vs Royal Antwerp", "odds": 1.56, "stake": 6, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Ried vs Grazer AK", "odds": 1.56, "stake": 4, "result": "win", "return": 6.24 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Altach vs WSG Tirol", "odds": 1.56, "stake": 2, "result": "win", "return": 3.12 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Genk vs Charleroi", "odds": 2.17, "stake": 2, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Lok. Zagreb vs Slaven Belupo", "odds": 1.504, "stake": 8, "result": "loss", "return": 0 },
+      { "type": "simples", "market": "BTTS", "matches": "Real Madrid vs Dep. Alaves", "odds": 1.995, "stake": 2.5, "result": "win", "return": 4.99, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Rubio Nu vs Libertad", "odds": 1.79, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Botafogo RJ vs Chapecoense", "odds": 1.81, "stake": 2.5, "result": "win", "return": 4.53, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Botafogo RJ vs Chapecoense", "odds": 2.305, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2", "matches": "Libertad Loja vs Guayaquil City", "odds": 2.025, "stake": 2.5, "result": "win", "return": 5.06, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Libertad Loja vs Guayaquil City", "odds": 2.265, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Sao Paulo vs Juventude", "odds": 2.896, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Gremio Win + Over 1.5", "matches": "Gremio vs Confianca", "odds": 1.73, "stake": 2.5, "result": "win", "return": 4.33, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 110,
+      "total_return": 59.99,
+      "profit": -50.01,
+      "total_bets": 24,
+      "wins": 12,
+      "losses": 12,
+      "roi": -45.5,
+      "model_staked": 90,
+      "model_return": 41.08,
+      "model_profit": -48.92,
+      "model_roi": -54.4,
+      "live_staked": 20,
+      "live_return": 18.91,
+      "live_profit": -1.09,
+      "live_roi": -5.5
+    },
+    "balance": 118.60
+  },
+  "notes": "Dia muito negativo (-50.01€, ROI -45.5%). Cartoes LaLiga catastrofe: 0/4 em Over 4.5 (Girona, Bilbao, Mallorca, Real Madrid) = -44€ nesses 4 jogos. Asia salvou cartoes (3/3 China+Coreia). Over 2.5: 2/3 (66.7%). Sem BTTS modelo. 8 apostas live do bot Telegram a 2.5€ cada: 4W/4L (-1.09€, quase break-even). Banca final: 118.60€."
+}
