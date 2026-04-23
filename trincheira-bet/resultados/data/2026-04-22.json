@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-22",
+  "btts": {
+    "tips": [
+      {
+        "home": "Vejle",
+        "away": "Silkeborg",
+        "league": "Superliga DK",
+        "confidence": null,
+        "btts_sim": 1.49,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Telstar",
+        "away": "Sparta Rotterdam",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "btts_sim": 1.46,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Sturm Graz",
+        "away": "LASK Linz",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "btts_sim": 1.54,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Columbus Crew",
+        "away": "Los Angeles Galaxy",
+        "league": "MLS",
+        "confidence": null,
+        "btts_sim": 1.49,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Copenhaga",
+        "away": "Odense FC",
+        "league": "Superliga DK",
+        "confidence": null,
+        "btts_sim": 1.54,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Bournemouth",
+        "away": "Leeds United",
+        "league": "Premier League",
+        "confidence": null,
+        "btts_sim": 1.55,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "green": 6,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Vejle vs Silkeborg", "odds": 1.49, "stake": 10, "result": "win", "return": 14.90, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Telstar vs Sparta Rotterdam", "odds": 1.46, "stake": 10, "result": "win", "return": 14.60, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Sturm Graz vs LASK Linz", "odds": 1.54, "stake": 10, "result": "win", "return": 15.40, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Columbus Crew vs Los Angeles Galaxy", "odds": 1.49, "stake": 10, "result": "win", "return": 14.90, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Copenhaga vs Odense FC", "odds": 1.54, "stake": 10, "result": "win", "return": 15.40, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Bournemouth vs Leeds United", "odds": 1.55, "stake": 10, "result": "win", "return": 15.50, "source": "pre-game" },
+      { "type": "simples", "market": "Total ind. 2 Over 0.5", "matches": "Qingdao West Coast vs Henan", "odds": 2.025, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Shanghai win + Over 1.5 (2H)", "matches": "Shanghai Shenhua vs Qingdao", "odds": 1.74, "stake": 2.5, "result": "win", "return": 4.35, "source": "live" },
+      { "type": "simples", "market": "Total ind. 2 Over 0.5", "matches": "Liaoning Tieren vs Dalian Yingbo", "odds": 2.175, "stake": 2.5, "result": "win", "return": 5.44, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Qingdao West Coast vs Henan", "odds": 1.89, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Panserraikos vs Atromitos", "odds": 1.52, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Bahia vs Clube do Remo", "odds": 1.94, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Bahia vs Clube do Remo", "odds": 1.82, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Barcelona SC vs Mushuc Runa", "odds": 1.46, "stake": 2.5, "result": "win", "return": 3.65, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Santos vs Coritiba", "odds": 2.66, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1", "matches": "Boca Juniors II vs River Plate II", "odds": 1.74, "stake": 2.5, "result": "win", "return": 4.35, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Cusco vs Cajamarca", "odds": 1.66, "stake": 2.5, "result": "win", "return": 4.15, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Santos vs Coritiba", "odds": 2.32, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Independiente Medellin vs Boyaca Chico", "odds": 2.525, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Fortaleza EC vs CRB Maceio", "odds": 1.512, "stake": 2.5, "result": "win", "return": 3.78, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "New York Red Bulls vs D.C. United", "odds": 1.52, "stake": 2.5, "result": "win", "return": 3.80, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 97.50,
+      "total_return": 120.22,
+      "profit": 22.72,
+      "total_bets": 21,
+      "wins": 13,
+      "losses": 8,
+      "roi": 23.3,
+      "model_staked": 60.00,
+      "model_return": 90.70,
+      "model_profit": 30.70,
+      "model_roi": 51.2,
+      "model_bets": 6,
+      "model_wins": 6,
+      "model_losses": 0,
+      "live_staked": 37.50,
+      "live_return": 29.52,
+      "live_profit": -7.98,
+      "live_roi": -21.3,
+      "live_bets": 15,
+      "live_wins": 7,
+      "live_losses": 8
+    },
+    "balance": 141.32
+  },
+  "notes": "Dia excelente (+22.72€, ROI +23.3%). BTTS pre-game perfeito: 6/6 a 10€ cada = +30.70€ lucro (ROI +51.2%). Ligas escolhidas foram solidas: Superliga DK (Vejle-Silkeborg, Copenhaga-Odense), MLS (Columbus-LA), Eerste Divisie (Telstar-Sparta), Bundesliga AT (Sturm-LASK), Premier League (Bournemouth-Leeds). Live bets do bot Telegram: 15 apostas a 2.5€ = 7W/8L = -7.98€ (ROI -21.3%). Asia China (Shanghai 2H, Liaoning) continuam fiaveis em live. BTTS live teve 3W/3L. Banca final: 141.32€ (subiu de 118.60€)."
+}

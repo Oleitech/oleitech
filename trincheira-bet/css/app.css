@@ -371,6 +371,49 @@
 .day-row .pl.pos { color: var(--green); }
 .day-row .pl.neg { color: var(--red); }
 
+/* Source badges (live vs pre-game) */
+.src-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+  line-height: 1;
+}
+.src-tag.src-live { background: rgba(255, 170, 0, 0.15); color: var(--amber, #ffaa00); border: 1px solid rgba(255, 170, 0, 0.3); }
+.src-tag.src-pre { background: rgba(120, 140, 220, 0.15); color: var(--accent, #8aa0ff); border: 1px solid rgba(120, 140, 220, 0.3); }
+
+/* Per-day source split summary */
+.src-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-2);
+  padding: var(--sp-3);
+  margin-bottom: var(--sp-2);
+  background: var(--bg-inset, rgba(255,255,255,0.03));
+  border-radius: var(--radius-sm, 6px);
+  border: 1px solid var(--border);
+}
+.src-split__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+.src-split__stat { color: var(--text-2); font-family: var(--font-mono); }
+.src-split__pl { font-weight: 600; font-family: var(--font-mono); }
+.src-split__pl.pos { color: var(--green); }
+.src-split__pl.neg { color: var(--red); }
+.src-split__roi { color: var(--text-3); font-family: var(--font-mono); font-size: 11px; }
+@media (max-width: 640px) {
+  .src-split { grid-template-columns: 1fr; }
+}
+
 /* ============ ANALYTICS ============ */
 .hero-metrics {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-3);

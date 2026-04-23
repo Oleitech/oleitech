@@ -76,6 +76,10 @@ const AnalyticsPage = {
       byLeague: {},
       byOddsTier: {},
       byStakeTier: {},
+      bySource: {
+        pre: { wins: 0, losses: 0, total: 0, staked: 0, returned: 0, pl: 0 },
+        live: { wins: 0, losses: 0, total: 0, staked: 0, returned: 0, pl: 0 }
+      },
       dailyPL: [],
       bestDay: { pl: -Infinity, date: '' },
       worstDay: { pl: Infinity, date: '' },
@@ -136,6 +140,16 @@ const AnalyticsPage = {
           if (isWin) result.byStakeTier[st.key].wins++;
           result.byStakeTier[st.key].pl += pl;
           result.byStakeTier[st.key].staked += bet.stake || 0;
+
+          // By source (live vs pre-game)
+          const srcKey = bet.source === 'live' ? 'live' : 'pre';
+          const src = result.bySource[srcKey];
+          src.total++;
+          src.staked += bet.stake || 0;
+          src.returned += bet.return || 0;
+          src.pl += pl;
+          if (isWin) src.wins++;
+          else src.losses++;
         }
       }
 
@@ -597,6 +611,62 @@ const AnalyticsPage = {
     </div>`;
   },
 
+  // ─── Render: Source Split (Live vs Pre-Game) ────────────────
+  renderSourceSplit(agg) {
+    const rows = [
+      { key: 'pre', label: 'Pre-game (modelo)', desc: 'Tips geradas pelo modelo', color: 'var(--accent)', tagClass: 'src-pre', data: agg.bySource.pre },
+      { key: 'live', label: 'Live (bot Telegram)', desc: 'Apostas durante o jogo', color: 'var(--amber)', tagClass: 'src-live', data: agg.bySource.live }
+    ];
+
+    const anyData = rows.some(r => r.data.total > 0);
+    if (!anyData) {
+      return `<div class="panel">
+        <div class="panel-head"><div><div class="panel-title">Live vs Pre-Game</div></div></div>
+        <div style="color:var(--text-3);font-size:13px;padding:var(--sp-3)">Sem dados neste mês</div>
+      </div>`;
+    }
+
+    let html = '';
+    for (const r of rows) {
+      const d = r.data;
+      if (d.total === 0) continue;
+      const hitPct = (d.wins / d.total * 100);
+      const roi = d.staked > 0 ? (d.pl / d.staked * 100) : 0;
+      const plColor = d.pl >= 0 ? 'var(--green)' : 'var(--accent)';
+
+      html += `<div style="display:grid;grid-template-columns:1fr auto;gap:var(--sp-3);align-items:start;padding:var(--sp-4) 0;border-bottom:1px solid var(--border)">
+        <div style="min-width:0">
+          <div style="display:flex;align-items:center;gap:var(--sp-2);margin-bottom:4px">
+            <span class="src-tag ${r.tagClass}">${r.key === 'live' ? 'LIVE' : 'PRE'}</span>
+            <span style="font-size:14px;font-weight:500">${r.label}</span>
+          </div>
+          <div style="font-size:11px;color:var(--text-3)">${r.desc}</div>
+          <div style="display:flex;align-items:center;gap:var(--sp-3);margin-top:8px">
+            <div style="flex:1;height:6px;background:var(--bg-inset);border-radius:3px;overflow:hidden">
+              <div style="width:${hitPct.toFixed(1)}%;height:100%;background:${r.color};border-radius:3px"></div>
+            </div>
+            <span class="num" style="font-size:12px;color:var(--text-2);min-width:80px;text-align:right">${hitPct.toFixed(1)}% · ${d.wins}/${d.total}</span>
+          </div>
+        </div>
+        <div style="text-align:right;font-family:var(--font-mono);font-size:12px;display:flex;flex-direction:column;gap:2px;min-width:110px">
+          <span style="color:${plColor};font-size:15px;font-weight:600">${this.fmtPL(d.pl)}</span>
+          <span style="color:var(--text-3)">ROI ${roi.toFixed(1)}%</span>
+          <span style="color:var(--text-3);font-size:10px">Stake €${d.staked.toFixed(0)}</span>
+        </div>
+      </div>`;
+    }
+
+    return `<div class="panel">
+      <div class="panel-head">
+        <div>
+          <div class="panel-title">Live vs Pre-Game</div>
+          <div class="panel-subtitle">Performance por origem da aposta</div>
+        </div>
+      </div>
+      <div>${html}</div>
+    </div>`;
+  },
+
   // ─── Render Full Page ───────────────────────────────────────
   renderPage() {
     this.filteredDays = this.filterByMonth(this.currentMonth.year, this.currentMonth.month);
@@ -610,10 +680,11 @@ const AnalyticsPage = {
         ${this.renderMarketBars(agg)}
       </div>
       <div class="panels-2">
+        ${this.renderSourceSplit(agg)}
         ${this.renderLeagueTable(agg)}
-        ${this.renderOddsTier(agg)}
       </div>
-      <div class="panels-1">
+      <div class="panels-2">
+        ${this.renderOddsTier(agg)}
         ${this.renderStakeTier(agg)}
       </div>
     `;

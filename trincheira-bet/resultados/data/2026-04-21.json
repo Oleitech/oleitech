@@ -208,10 +208,16 @@
       "model_return": 41.08,
       "model_profit": -48.92,
       "model_roi": -54.4,
+      "model_bets": 16,
+      "model_wins": 8,
+      "model_losses": 8,
       "live_staked": 20,
       "live_return": 18.91,
       "live_profit": -1.09,
-      "live_roi": -5.5
+      "live_roi": -5.5,
+      "live_bets": 8,
+      "live_wins": 4,
+      "live_losses": 4
     },
     "balance": 118.60
   },

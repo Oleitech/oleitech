@@ -374,6 +374,36 @@ const ResultsPage = {
 
     // Match tips with stakes bets for odds/P&L
     const stakeBets = day.stakes?.bets || [];
+    const sum = day.stakes?.summary || {};
+
+    // Source split summary (pre-game vs live)
+    const hasSplit = (sum.model_bets || sum.model_staked) && (sum.live_bets || sum.live_staked);
+    if (hasSplit) {
+      const modelBets = sum.model_bets ?? 0;
+      const modelWins = sum.model_wins ?? 0;
+      const modelProfit = sum.model_profit ?? 0;
+      const modelRoi = sum.model_roi ?? 0;
+      const liveBets = sum.live_bets ?? 0;
+      const liveWins = sum.live_wins ?? 0;
+      const liveProfit = sum.live_profit ?? 0;
+      const liveRoi = sum.live_roi ?? 0;
+      const split = UI.el('div', 'src-split');
+      split.innerHTML = `
+        <div class="src-split__item">
+          <span class="src-tag src-pre">PRE</span>
+          <span class="src-split__stat">${modelWins}/${modelBets}</span>
+          <span class="src-split__pl num ${modelProfit >= 0 ? 'pos' : 'neg'}">${this.formatPL(modelProfit)}</span>
+          <span class="src-split__roi num">ROI ${modelRoi.toFixed(1)}%</span>
+        </div>
+        <div class="src-split__item">
+          <span class="src-tag src-live">LIVE</span>
+          <span class="src-split__stat">${liveWins}/${liveBets}</span>
+          <span class="src-split__pl num ${liveProfit >= 0 ? 'pos' : 'neg'}">${this.formatPL(liveProfit)}</span>
+          <span class="src-split__roi num">ROI ${liveRoi.toFixed(1)}%</span>
+        </div>
+      `;
+      body.appendChild(split);
+    }
 
     // Build bet rows from stakes.bets (has odds, stake, P/L)
     if (stakeBets.length > 0) {
@@ -383,9 +413,13 @@ const ResultsPage = {
         const marketColor = this.marketColors[marketKey] || 'var(--text-3)';
         const isWin = bet.result === 'win';
         const betPL = isWin ? (bet.stake * bet.odds - bet.stake) : -bet.stake;
+        const isLive = bet.source === 'live';
+        const srcBadge = isLive
+          ? '<span class="src-tag src-live" title="Aposta live (bot Telegram)">LIVE</span>'
+          : '<span class="src-tag src-pre" title="Aposta pre-game (modelo)">PRE</span>';
 
         row.innerHTML = `
-          <span class="mkt" style="color:${marketColor}">${bet.market}</span>
+          <span class="mkt" style="color:${marketColor}">${srcBadge}${bet.market}</span>
           <span class="match">${bet.matches}</span>
           <span class="pick">${bet.type}</span>
           <span class="odd num">${bet.odds.toFixed(2)}</span>
