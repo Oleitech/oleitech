@@ -367,6 +367,7 @@
 .day-row .res { font-family: var(--font-mono); font-weight: 600; font-size: 11px; padding: 3px 8px; border-radius: 4px; }
 .day-row .res.green { background: var(--green-soft); color: var(--green); }
 .day-row .res.red { background: var(--red-soft); color: var(--red); }
+.day-row .res.push { background: rgba(150,150,150,0.15); color: var(--text-2); }
 .day-row .pl { font-family: var(--font-mono); font-weight: 600; text-align: right; min-width: 56px; }
 .day-row .pl.pos { color: var(--green); }
 .day-row .pl.neg { color: var(--red); }

@@ -412,19 +412,24 @@ const ResultsPage = {
         const marketKey = this.detectMarketKey(bet.market);
         const marketColor = this.marketColors[marketKey] || 'var(--text-3)';
         const isWin = bet.result === 'win';
-        const betPL = isWin ? (bet.stake * bet.odds - bet.stake) : -bet.stake;
+        const isPush = bet.result === 'push';
+        const betPL = isPush ? 0 : (isWin ? (bet.stake * bet.odds - bet.stake) : -bet.stake);
+        const resLabel = isPush ? 'PUSH' : (isWin ? 'GREEN' : 'RED');
+        const resClass = isPush ? 'push' : (isWin ? 'green' : 'red');
         const isLive = bet.source === 'live';
         const srcBadge = isLive
           ? '<span class="src-tag src-live" title="Aposta live (bot Telegram)">LIVE</span>'
           : '<span class="src-tag src-pre" title="Aposta pre-game (modelo)">PRE</span>';
+        const plClass = isPush ? '' : (betPL >= 0 ? 'pos' : 'neg');
+        const plText = isPush ? '€0.00' : ((betPL >= 0 ? '+' : '') + '€' + betPL.toFixed(2));
 
         row.innerHTML = `
           <span class="mkt" style="color:${marketColor}">${srcBadge}${bet.market}</span>
           <span class="match">${bet.matches}</span>
           <span class="pick">${bet.type}</span>
           <span class="odd num">${bet.odds.toFixed(2)}</span>
-          <span class="res ${isWin ? 'green' : 'red'}">${isWin ? 'GREEN' : 'RED'}</span>
-          <span class="pl num ${betPL >= 0 ? 'pos' : 'neg'}">${betPL >= 0 ? '+' : ''}€${betPL.toFixed(2)}</span>
+          <span class="res ${resClass}">${resLabel}</span>
+          <span class="pl num ${plClass}">${plText}</span>
         `;
         body.appendChild(row);
       });

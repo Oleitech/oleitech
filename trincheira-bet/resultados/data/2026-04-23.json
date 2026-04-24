@@ -1,0 +1,109 @@
+{
+  "date": "2026-04-23",
+  "btts": {
+    "tips": [
+      {
+        "home": "Go Ahead Eagles",
+        "away": "AZ Alkmaar",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.40,
+        "result_home": 0,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Go Ahead Eagles vs AZ Alkmaar", "odds": 1.40, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Astana II vs Akademiya Ontustyk", "odds": 2.60, "stake": 2.5, "result": "win", "return": 6.50, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (6)", "matches": "Arys vs Shakhter Karagandy", "odds": 1.96, "stake": 2.5, "result": "win", "return": 4.90, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Maleyat Kafr El Zayat vs Al Qanah", "odds": 1.73, "stake": 2.5, "result": "win", "return": 4.33, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Akron Tolyatti vs Dynamo Makhachkala", "odds": 1.53, "stake": 2.5, "result": "win", "return": 3.83, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (3)", "matches": "Dinamo Samarkand vs OKMK", "odds": 1.616, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "El Mokawloon vs Al Ittihad Alexandria", "odds": 1.73, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "El Mokawloon vs Al Ittihad Alexandria", "odds": 4.03, "stake": 1.25, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Al-Najma Unaizah vs Al-Taawon", "odds": 1.555, "stake": 2.5, "result": "win", "return": 3.89, "source": "live" },
+      { "type": "simples", "market": "1X2 V2", "matches": "Samsunspor vs Trabzonspor", "odds": 2.896, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Malmo vs Sirius", "odds": 1.50, "stake": 2.5, "result": "win", "return": 3.75, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Kalmar vs Goteborg", "odds": 1.504, "stake": 2.5, "result": "win", "return": 3.76, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Degerfors vs AIC Estocolmo", "odds": 1.504, "stake": 2.5, "result": "win", "return": 3.76, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Go Ahead Eagles vs AZ Alkmaar", "odds": 1.60, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Go Ahead Eagles vs AZ Alkmaar", "odds": 2.62, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Levante UD vs Sevilla", "odds": 1.81, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Akhmat vs Baltika Kaliningrad", "odds": 1.99, "stake": 2.5, "result": "win", "return": 4.97, "source": "live" },
+      { "type": "simples", "market": "BTTS 1H", "matches": "Spartak Subotica vs TSC Backa Topola", "odds": 1.79, "stake": 2.5, "result": "win", "return": 4.47, "source": "live" },
+      { "type": "simples", "market": "Over 12.5 cantos", "matches": "Go Ahead Eagles vs AZ Alkmaar", "odds": 1.97, "stake": 2.5, "result": "win", "return": 4.92, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Ghazl El Mahalla vs Petrojet", "odds": 1.504, "stake": 2.5, "result": "win", "return": 3.76, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (3)", "matches": "Spartak Subotica vs TSC Backa Topola", "odds": 1.42, "stake": 2.5, "result": "win", "return": 3.55, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Rayo Vallecano vs Espanyol", "odds": 2.11, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Mladost Lucani vs Radnicki 1923", "odds": 1.81, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Zamalek vs Pyramids", "odds": 1.60, "stake": 2.5, "result": "win", "return": 4.00, "source": "live" },
+      { "type": "simples", "market": "Over 11.5 cantos", "matches": "Sonderjyske vs Midtjylland", "odds": 1.97, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Sint-Truidense vs Anderlecht", "odds": 2.344, "stake": 2.5, "result": "win", "return": 5.86, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Sint-Truidense vs Anderlecht", "odds": 1.944, "stake": 2.5, "result": "win", "return": 4.86, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Estudiantes RC II vs IA Central Cordoba II", "odds": 4.06, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total ind. 1 Over 1", "matches": "VfB Stuttgart vs Freiburg", "odds": 1.00, "stake": 2.5, "result": "push", "return": 2.50, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Salford City vs Bromley", "odds": 2.01, "stake": 2.5, "result": "win", "return": 5.02, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Salford City vs Bromley", "odds": 2.58, "stake": 2.5, "result": "win", "return": 6.45, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "PSV vs PEC Zwolle", "odds": 1.62, "stake": 2.5, "result": "win", "return": 4.05, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "San Antonio Bulo Bulo vs Real Oruro", "odds": 1.456, "stake": 2.5, "result": "win", "return": 3.64, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Real Oviedo vs Villarreal", "odds": 1.845, "stake": 2.5, "result": "win", "return": 4.61, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Dep. Los Chankas vs Cienciano Cusco", "odds": 3.104, "stake": 2.5, "result": "win", "return": 7.76, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Dep. Los Chankas vs Cienciano Cusco", "odds": 2.21, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Primeira Eq.1 a 9 cantos", "matches": "Real Oviedo vs Villarreal", "odds": 3.25, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total ind. 1 Over 0.5", "matches": "Spanish Town Police vs Portmore United", "odds": 2.53, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Deportivo Pasto vs Santa Fe", "odds": 2.656, "stake": 2.5, "result": "win", "return": 6.64, "source": "live" },
+      { "type": "simples", "market": "Over 12.5 cantos", "matches": "Palmeiras vs Jacuipense", "odds": 2.03, "stake": 2.5, "result": "win", "return": 5.07, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (2)", "matches": "Defesa y Justicia vs Boca Juniors", "odds": 2.765, "stake": 2.5, "result": "win", "return": 6.91, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Defesa y Justicia vs Boca Juniors", "odds": 2.525, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Deportivo Pasto vs Santa Fe", "odds": 2.525, "stake": 2.5, "result": "win", "return": 6.31, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 113.75,
+      "total_return": 130.12,
+      "profit": 16.37,
+      "total_bets": 43,
+      "wins": 26,
+      "losses": 16,
+      "pushes": 1,
+      "roi": 14.4,
+      "model_staked": 10.00,
+      "model_return": 0.00,
+      "model_profit": -10.00,
+      "model_roi": -100.0,
+      "model_bets": 1,
+      "model_wins": 0,
+      "model_losses": 1,
+      "live_staked": 103.75,
+      "live_return": 130.12,
+      "live_profit": 26.37,
+      "live_roi": 25.4,
+      "live_bets": 42,
+      "live_wins": 26,
+      "live_losses": 15,
+      "live_pushes": 1
+    },
+    "balance": 157.69
+  },
+  "notes": "Dia positivo (+16.37EUR, ROI +14.4%). UNICO pre-game BTTS falhou: Go Ahead Eagles 0-0 AZ Alkmaar (Eredivisie) = -10EUR. Live compensou: 42 apostas 26W/15L/1 reembolso (Stuttgart-Freiburg), +26.37EUR (ROI +25.4%). Madrugada sul-americana (03:00+) forte: 6/8 wins (Dep. Los Chankas, San Antonio, Pasto x2, Palmeiras cantos, Defesa next goal). Suecia BTTS 3/3 (Malmo-Sirius, Kalmar, Degerfors). Eredivisie Go Ahead Eagles -3/3 (BTTS, Over 1.5, V1 todos loss, so cantos 12.5 salvou). Banca final: 157.69EUR (subiu de 141.32). API requests: upgrade de 7500->75000 necessario, dia 22 consumiu muito."
+}
