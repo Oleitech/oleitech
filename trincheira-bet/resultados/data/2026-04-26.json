@@ -1,0 +1,193 @@
+{
+  "date": "2026-04-26",
+  "btts": {
+    "tips": [
+      {
+        "home": "Knattspyrnufelag Akureyrar",
+        "away": "Knattspyrnudeild Keflavikur",
+        "league": "Urvalsdeild",
+        "confidence": null,
+        "btts_sim": 1.615,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Heracles Almelo",
+        "away": "Volendam",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.51,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Fredericia",
+        "away": "Odense FC",
+        "league": "Superliga DK",
+        "confidence": null,
+        "btts_sim": 1.66,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Viborg",
+        "away": "Nordsjaelland FC",
+        "league": "Superliga DK",
+        "confidence": null,
+        "btts_sim": 1.66,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Havelse",
+        "away": "VfB Stuttgart II",
+        "league": "3. Liga",
+        "confidence": null,
+        "btts_sim": 1.68,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Sturm Graz",
+        "away": "Austria Wien",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "btts_sim": 1.80,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Brage",
+        "away": "Varbergs BoIS",
+        "league": "Superettan",
+        "confidence": null,
+        "btts_sim": 1.59,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Basel",
+        "away": "Sion",
+        "league": "Super League",
+        "confidence": null,
+        "btts_sim": 1.59,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 8,
+      "green": 4,
+      "red": 4,
+      "hit_rate": 50.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Knattspyrnufelag Akureyrar vs Knattspyrnudeild Keflavikur", "odds": 1.615, "stake": 10, "result": "win", "return": 16.15, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Heracles Almelo vs Volendam", "odds": 1.51, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Fredericia vs Odense FC", "odds": 1.66, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Viborg vs Nordsjaelland FC", "odds": 1.66, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Havelse vs VfB Stuttgart II", "odds": 1.68, "stake": 10, "result": "win", "return": 16.80, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Sturm Graz vs Austria Wien", "odds": 1.80, "stake": 10, "result": "win", "return": 18.00, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Brage vs Varbergs BoIS", "odds": 1.59, "stake": 10, "result": "win", "return": 15.90, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Basel vs Sion", "odds": 1.59, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Fiorentina vs Sassuolo Calcio", "odds": 2.66, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 2.5", "matches": "VfL Bochum vs Greuther Furth", "odds": 1.735, "stake": 5, "result": "win", "return": 8.68, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (4)", "matches": "Geylang International vs Lion City Sailors", "odds": 1.69, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Cantos Dalian Yingbo vs Yunnan Yukun", "odds": 2.01, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Fredericia vs Odense FC", "odds": 1.66, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (1)", "matches": "Persiba Balikpapan FC vs PSS Sleman", "odds": 1.625, "stake": 5, "result": "win", "return": 8.13, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Silkeborg vs Randers", "odds": 1.675, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Djurgardens vs Hammarby", "odds": 1.69, "stake": 5, "result": "win", "return": 8.45, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Heracles Almelo vs Volendam", "odds": 2.06, "stake": 5, "result": "win", "return": 10.30, "source": "live" },
+      { "type": "simples", "market": "Over 3.5", "matches": "Molde vs Valerenga", "odds": 1.91, "stake": 5, "result": "win", "return": 9.55, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Rapid Wien vs Salzburgo", "odds": 2.155, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Henan vs Shanghai Shenhua", "odds": 2.41, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (2)", "matches": "ASD Monastir vs Nocerina", "odds": 2.645, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 13.5 cantos", "matches": "Cantos Henan vs Cantos Shanghai Shenhua", "odds": 1.89, "stake": 5, "result": "win", "return": 9.45, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Rapid Wien vs Salzburgo", "odds": 2.77, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Polokwane City vs Stellenbosch", "odds": 1.645, "stake": 5, "result": "win", "return": 8.22, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "BB Erzurumspor vs Bandirmaspor", "odds": 2.43, "stake": 5, "result": "win", "return": 12.15, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "OFK Beograd vs Radnik Surdulica", "odds": 2.24, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Widzew Lodz vs Motor Lublin", "odds": 2.008, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Dundee United vs Dundee", "odds": 2.288, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Lorient vs Strasbourg", "odds": 1.744, "stake": 5, "result": "win", "return": 8.72, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Pendikspor vs Boluspor", "odds": 2.01, "stake": 5, "result": "win", "return": 10.05, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "TS Galaxy vs Magesi", "odds": 1.81, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Sivasspor vs Igdir Alagoz Holding", "odds": 2.325, "stake": 5, "result": "win", "return": 11.63, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Kifisias vs Panetolikos", "odds": 1.81, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Cantos TS Galaxy vs Cantos Magesi", "odds": 2.395, "stake": 5, "result": "win", "return": 11.97, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (2)", "matches": "Sambiase vs Nissa", "odds": 2.10, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Cantos Lorient vs Cantos Strasbourg", "odds": 2.115, "stake": 5, "result": "win", "return": 10.58, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (4)", "matches": "Central Espanol FC vs C.A. Cerro", "odds": 3.73, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "VfB Stuttgart vs Werder Bremen", "odds": 1.77, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Orlando Pirates vs Kaizer Chiefs", "odds": 1.90, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (3)", "matches": "Malinas vs Sint-Truidense", "odds": 2.12, "stake": 5, "result": "win", "return": 10.60, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Rijeka vs Hajduk Split", "odds": 2.53, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Rijeka vs Hajduk Split", "odds": 2.59, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Krasnodar vs Dynamo Makhachkala", "odds": 1.496, "stake": 5, "result": "win", "return": 7.48, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Orlando Pirates vs Kaizer Chiefs", "odds": 2.112, "stake": 5, "result": "win", "return": 10.56, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Chelsea vs Leeds United AFC", "odds": 1.885, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "SonderjyskE vs Brondby", "odds": 1.595, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Young Boys vs St. Gallen", "odds": 1.625, "stake": 5, "result": "win", "return": 8.13, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Young Boys vs St. Gallen", "odds": 2.21, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Estoril vs FC Famalicao", "odds": 1.984, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Estoril vs FC Famalicao", "odds": 2.045, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "KFUM-Kameratene vs Sarpsborg 08", "odds": 1.875, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Sturm Graz vs Austria Wien", "odds": 2.605, "stake": 5, "result": "win", "return": 13.03, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Aalesunds vs Kristiansund BK", "odds": 1.94, "stake": 5, "result": "win", "return": 9.70, "source": "live" },
+      { "type": "simples", "market": "Over 13 cantos", "matches": "Cantos Atromitos vs Cantos Asteras Tripolis", "odds": 1.925, "stake": 5, "result": "win", "return": 9.63, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Aves vs Sporting Clube de Portugal", "odds": 1.59, "stake": 5, "result": "win", "return": 7.95, "source": "live" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Los Angeles Galaxy vs Real Salt Lake", "odds": 1.71, "stake": 5, "result": "win", "return": 8.55, "source": "live" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Los Angeles Galaxy vs Real Salt Lake", "odds": 1.71, "stake": 5, "result": "win", "return": 8.55, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 322.50,
+      "total_return": 288.91,
+      "profit": -33.59,
+      "total_bets": 57,
+      "wins": 27,
+      "losses": 30,
+      "pushes": 0,
+      "roi": -10.42,
+      "model_staked": 80.00,
+      "model_return": 66.85,
+      "model_profit": -13.15,
+      "model_roi": -16.44,
+      "model_bets": 8,
+      "model_wins": 4,
+      "model_losses": 4,
+      "live_staked": 242.50,
+      "live_return": 222.06,
+      "live_profit": -20.44,
+      "live_roi": -8.43,
+      "live_bets": 49,
+      "live_wins": 23,
+      "live_losses": 26,
+      "live_pushes": 0
+    },
+    "balance": 126.55
+  },
+  "notes": "Domingo pesado e negativo (-33.59EUR, ROI -10.42%). 57 apostas no total (recorde). Pre-game 4/8 (50% hit rate fraco): vitorias Knattspyrnu BTTS+O2.5 1.615, Havelse BTTS+O2.5 1.68, Sturm Graz BTTS 1.80, Brage BTTS 1.59. Falharam Heracles, Fredericia, Viborg, Basel. Live 49 apostas (23W/26L, ROI -8.43%): destaques BB Erzurumspor O1.5 2.43, Sturm Graz O1.5 2.605, Sivasspor next goal 2.325. Bagunca em jogos como Estoril-Famalicao 0-0 (BTTS+O1.5 ambas LOSS), Rijeka-Hajduk (BTTS+1X2 ambas LOSS), Rapid-Salzburg (2 tentativas Total 1.5 LOSS). MLS resgatou: LA Galaxy-Real Salt Lake BTTS+O2.5 1.71 (apostado 2x EUR 5). Banca: 160.14 -> 126.55 (~128.01 no app, drift ~1.5 de bets em gap 03:00-03:18 PM nao capturadas)."
+}

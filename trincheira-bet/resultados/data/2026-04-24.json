@@ -1,0 +1,112 @@
+{
+  "date": "2026-04-24",
+  "btts": {
+    "tips": [
+      {
+        "home": "Al-Fateh Al-Ahsa",
+        "away": "Al-Khaleej",
+        "league": "Saudi Pro League",
+        "confidence": null,
+        "btts_sim": 1.47,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Al Hazm Rass",
+        "away": "Al-Riyadh SC",
+        "league": "Saudi Pro League",
+        "confidence": null,
+        "btts_sim": 1.63,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Alemannia Aachen",
+        "away": "Meidericher Spielverein Duisburg",
+        "league": "3. Liga",
+        "confidence": null,
+        "btts_sim": 1.54,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Waalwijk",
+        "away": "PSV Eindhoven II",
+        "league": "Eerste Divisie",
+        "confidence": null,
+        "btts_sim": 1.52,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 3,
+      "red": 1,
+      "hit_rate": 75.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Al-Fateh Al-Ahsa vs Al-Khaleej", "odds": 1.47, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Al Hazm Rass vs Al-Riyadh SC", "odds": 1.63, "stake": 10, "result": "win", "return": 16.30, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Alemannia Aachen vs Meidericher Duisburg", "odds": 1.54, "stake": 10, "result": "win", "return": 15.40, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Waalwijk vs PSV Eindhoven II", "odds": 1.52, "stake": 10, "result": "win", "return": 15.20, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "North East United vs Goa", "odds": 2.025, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "PVF-CAND II vs Universidade Van Hien", "odds": 2.15, "stake": 5, "result": "win", "return": 10.75, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (5)", "matches": "Lokomotiv Moscovo Juvenis vs Rodina Juvenil", "odds": 2.44, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (2)", "matches": "Rajasthan United vs Sreenidi Deccan", "odds": 2.20, "stake": 5, "result": "win", "return": 11.00, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Rajasthan United vs Sreenidi Deccan", "odds": 1.485, "stake": 5, "result": "win", "return": 7.43, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (1)", "matches": "Pharco vs El Gouna", "odds": 2.15, "stake": 1.25, "result": "win", "return": 2.69, "source": "live" },
+      { "type": "simples", "market": "Total ind. 2 Over 1.5", "matches": "Pharco vs El Gouna", "odds": 4.35, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Hermannstadt vs Csikszereda Miercurea Ciuc", "odds": 1.82, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total ind. 1 Over 1.5", "matches": "Puebla Sub-21 vs Queretaro Sub-21", "odds": 2.26, "stake": 5, "result": "win", "return": 11.30, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Al-Fateh Al-Ahsa vs Al-Khaleej", "odds": 1.92, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Abo IFK vs EBK", "odds": 1.448, "stake": 5, "result": "win", "return": 7.24, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Real Betis vs Real Madrid", "odds": 2.55, "stake": 5, "result": "win", "return": 12.75, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 96.25,
+      "total_return": 110.06,
+      "profit": 13.81,
+      "total_bets": 16,
+      "wins": 10,
+      "losses": 6,
+      "pushes": 0,
+      "roi": 14.35,
+      "model_staked": 40.00,
+      "model_return": 46.90,
+      "model_profit": 6.90,
+      "model_roi": 17.25,
+      "model_bets": 4,
+      "model_wins": 3,
+      "model_losses": 1,
+      "live_staked": 56.25,
+      "live_return": 63.16,
+      "live_profit": 6.91,
+      "live_roi": 12.28,
+      "live_bets": 12,
+      "live_wins": 7,
+      "live_losses": 5,
+      "live_pushes": 0
+    },
+    "balance": 171.50
+  },
+  "notes": "Dia positivo (+13.81EUR, ROI +14.35%). Pre-game 3/4 (Al Hazm BTTS 1.63, Aachen BTTS 1.54, Waalwijk BTTS+O2.5 1.52); UNICO falhou Al-Fateh-Al-Khaleej BTTS 1.47 (que tambem perdeu live Total 1.5). Live 7W/5L: destaque Real Betis-Real Madrid BTTS 2.55 (Liga Espanha sabado), Puebla Sub-21 Total 1, Rajasthan United duplo (Eq.2 next + O1.5). Banca: 157.69 -> 171.50."
+}

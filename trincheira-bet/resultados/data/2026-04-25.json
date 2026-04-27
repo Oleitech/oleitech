@@ -1,0 +1,191 @@
+{
+  "date": "2026-04-25",
+  "btts": {
+    "tips": [
+      {
+        "home": "Augsburg",
+        "away": "Eintracht Frankfurt",
+        "league": "Bundesliga",
+        "confidence": null,
+        "btts_sim": 1.42,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Heerenveen",
+        "away": "Fortuna Sittard",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.47,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "1. Koln",
+        "away": "Bayer Leverkusen",
+        "league": "Bundesliga",
+        "confidence": null,
+        "btts_sim": 1.49,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "VfL Wolfsburg",
+        "away": "Borussia Monchengladbach",
+        "league": "Bundesliga",
+        "confidence": null,
+        "btts_sim": 1.51,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Pachuca",
+        "away": "Pumas UNAM",
+        "league": "Liga MX",
+        "confidence": null,
+        "btts_sim": 1.58,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Feyenoord",
+        "away": "Groningen",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.52,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Twente",
+        "away": "N.E.C.",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.444,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Erzgebirge Aue",
+        "away": "Wehen Wiesbaden",
+        "league": "3. Liga",
+        "confidence": null,
+        "btts_sim": 1.49,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "VfL Osnabruck",
+        "away": "Verl",
+        "league": "3. Liga",
+        "confidence": null,
+        "btts_sim": 1.56,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Grasshopper Club Zurich",
+        "away": "Luzern",
+        "league": "Super League",
+        "confidence": null,
+        "btts_sim": 1.47,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "WSG Tirol",
+        "away": "Ried",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "btts_sim": 1.74,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Wolfsberger AC",
+        "away": "Grazer AK",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "btts_sim": 1.72,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 12,
+      "green": 8,
+      "red": 4,
+      "hit_rate": 66.7
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Wolfsberger AC vs Grazer AK", "odds": 1.72, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "WSG Tirol vs Ried", "odds": 1.74, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Grasshopper Club Zurich vs Luzern", "odds": 1.47, "stake": 10, "result": "win", "return": 14.70, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "VfL Osnabruck vs Verl", "odds": 1.56, "stake": 10, "result": "win", "return": 15.60, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Erzgebirge Aue vs Wehen Wiesbaden", "odds": 1.49, "stake": 10, "result": "win", "return": 14.90, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Twente vs N.E.C.", "odds": 1.444, "stake": 10, "result": "win", "return": 14.44, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Feyenoord vs Groningen", "odds": 1.52, "stake": 10, "result": "win", "return": 15.20, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Pachuca vs Pumas UNAM", "odds": 1.58, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "VfL Wolfsburg vs Borussia Monchengladbach", "odds": 1.51, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "1. Koln vs Bayer Leverkusen", "odds": 1.49, "stake": 10, "result": "win", "return": 14.90, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Heerenveen vs Fortuna Sittard FC", "odds": 1.47, "stake": 10, "result": "win", "return": 14.70, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Augsburg vs Eintracht Frankfurt", "odds": 1.42, "stake": 5, "result": "win", "return": 7.10, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Augsburg vs Eintracht Frankfurt", "odds": 1.42, "stake": 5, "result": "win", "return": 7.10, "source": "pre-game" },
+      { "type": "simples", "market": "Total ind. 1 Over 0.5", "matches": "Western Sydney Wanderers vs Melbourne Victory", "odds": 2.41, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Estudiantes de La Plata vs Talleres de Cordoba", "odds": 2.395, "stake": 5, "result": "loss", "return": 0, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 130.00,
+      "total_return": 118.64,
+      "profit": -11.36,
+      "total_bets": 15,
+      "wins": 9,
+      "losses": 6,
+      "pushes": 0,
+      "roi": -8.74,
+      "model_staked": 120.00,
+      "model_return": 118.64,
+      "model_profit": -1.36,
+      "model_roi": -1.13,
+      "model_bets": 13,
+      "model_wins": 9,
+      "model_losses": 4,
+      "live_staked": 10.00,
+      "live_return": 0.00,
+      "live_profit": -10.00,
+      "live_roi": -100.0,
+      "live_bets": 2,
+      "live_wins": 0,
+      "live_losses": 2,
+      "live_pushes": 0
+    },
+    "balance": 160.14
+  },
+  "notes": "Dia ligeiramente negativo (-11.36EUR, ROI -8.74%). Sabado de bot heavy: 13 pre-game BTTS (9W/4L, ROI -1.13%). Vitorias: Augsburg-E.Frankfurt 1.42 (split em 2x EUR 5), Heerenveen-Fortuna 1.47, Koln-Bayer 1.49, Feyenoord-Groningen 1.52, Twente-N.E.C. 1.444, Erzgebirge-Wehen 1.49, Osnabruck-Verl 1.56, Grasshopper-Luzern 1.47. Derrotas: Wolfsberger-Grazer 1.72, WSG Tirol-Ried 1.74, Pachuca-Pumas 1.58, Wolfsburg-Mgladbach 1.51. Live so 2 apostas pequenas, ambas LOSS (Western Sydney A-League Total 1, Estudiantes 1X2). Banca: 171.50 -> 160.14."
+}
