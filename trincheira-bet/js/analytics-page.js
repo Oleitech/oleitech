@@ -55,12 +55,14 @@ const AnalyticsPage = {
     return { key: 'long', label: 'Longshot', range: '>2.10' };
   },
 
-  // ─── Stake Tier Classification ──────────────────────────────
+  // ─── Stake Tier Classification (in units, 1u = €10 pre-game) ─
+  STAKE_UNIT: 10,
   stakeTier(stake) {
-    if (stake <= 2) return { key: 's1', label: '€1–2', range: '≤€2' };
-    if (stake <= 4) return { key: 's2', label: '€3–4', range: '€3–4' };
-    if (stake <= 6) return { key: 's3', label: '€5–6', range: '€5–6' };
-    return { key: 's4', label: '€7+', range: '≥€7' };
+    const u = stake / this.STAKE_UNIT;
+    if (u <= 0.3) return { key: 's1', label: '0.25u', range: '≤€3' };
+    if (u <= 0.7) return { key: 's2', label: '0.5u (live)', range: '€4–€7' };
+    if (u <= 1.2) return { key: 's3', label: '1u (pre-game)', range: '€8–€12' };
+    return { key: 's4', label: '≥1.5u', range: '≥€13' };
   },
 
   // ─── Aggregation ────────────────────────────────────────────
@@ -572,7 +574,8 @@ const AnalyticsPage = {
       const maxBets = Math.max(...order.map(k => agg.byStakeTier[k]?.total || 0), 1);
       const volPct = (t.total / maxBets * 100);
 
-      rows += `<div style="display:grid;grid-template-columns:90px 1fr;gap:var(--sp-3);align-items:start;padding:var(--sp-3) 0;border-bottom:1px solid var(--border)">
+      const unitsStaked = t.staked / this.STAKE_UNIT;
+      rows += `<div style="display:grid;grid-template-columns:110px 1fr;gap:var(--sp-3);align-items:start;padding:var(--sp-3) 0;border-bottom:1px solid var(--border)">
         <div>
           <div style="font-size:13px;font-weight:500">${t.label}</div>
           <div style="font-size:11px;color:var(--text-3);font-family:var(--font-mono)">${t.range}</div>
@@ -590,9 +593,10 @@ const AnalyticsPage = {
             </div>
             <span class="num" style="font-size:11px;color:var(--text-3);min-width:44px;text-align:right">${t.total} bets</span>
           </div>
-          <div style="display:flex;gap:var(--sp-4);font-family:var(--font-mono);font-size:11px">
+          <div style="display:flex;gap:var(--sp-4);font-family:var(--font-mono);font-size:11px;flex-wrap:wrap">
             <span style="color:${t.pl >= 0 ? 'var(--green)' : 'var(--accent)'}">${this.fmtPL(t.pl)}</span>
             <span style="color:var(--text-3)">ROI ${roi.toFixed(1)}%</span>
+            <span style="color:var(--text-3)">${unitsStaked.toFixed(2)}u</span>
           </div>
         </div>
       </div>`;
@@ -603,8 +607,8 @@ const AnalyticsPage = {
     return `<div class="panel">
       <div class="panel-head">
         <div>
-          <div class="panel-title">Hit rate por stake</div>
-          <div class="panel-subtitle">Performance por montante apostado</div>
+          <div class="panel-title">Hit rate por unidade</div>
+          <div class="panel-subtitle">1u = €${this.STAKE_UNIT} (pre-game) · 0.5u = €${this.STAKE_UNIT/2} (live)</div>
         </div>
       </div>
       <div>${rows}</div>
@@ -651,7 +655,7 @@ const AnalyticsPage = {
         <div style="text-align:right;font-family:var(--font-mono);font-size:12px;display:flex;flex-direction:column;gap:2px;min-width:110px">
           <span style="color:${plColor};font-size:15px;font-weight:600">${this.fmtPL(d.pl)}</span>
           <span style="color:var(--text-3)">ROI ${roi.toFixed(1)}%</span>
-          <span style="color:var(--text-3);font-size:10px">Stake €${d.staked.toFixed(0)}</span>
+          <span style="color:var(--text-3);font-size:10px">${(d.staked / this.STAKE_UNIT).toFixed(1)}u · €${d.staked.toFixed(0)}</span>
         </div>
       </div>`;
     }

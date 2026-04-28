@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-27",
+  "btts": {
+    "tips": [
+      {
+        "home": "Knattspyrnufelagid Fram",
+        "away": "Iþrottabandalag Vestmannaeyja",
+        "league": "Urvalsdeild",
+        "confidence": null,
+        "btts_sim": 1.72,
+        "result_home": 5,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Manchester United",
+        "away": "Brentford",
+        "league": "Premier League",
+        "confidence": null,
+        "btts_sim": 1.55,
+        "result_home": 2,
+        "result_away": 1,
+        "btts_hit": true
+      },
+      {
+        "home": "Espanyol",
+        "away": "Levante UD",
+        "league": "LaLiga",
+        "confidence": null,
+        "btts_sim": 1.80,
+        "result_home": 0,
+        "result_away": 0,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 2,
+      "red": 1,
+      "hit_rate": 66.7
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Knattspyrnufelagid Fram vs Iþrottabandalag Vestmannaeyja", "odds": 1.72, "stake": 10, "result": "win", "return": 17.20, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Manchester United vs Brentford", "odds": 1.55, "stake": 10, "result": "win", "return": 15.50, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Espanyol vs Levante UD", "odds": 1.80, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (3)", "matches": "Persiku Kudus vs Deltras", "odds": 1.97, "stake": 5, "result": "win", "return": 9.85, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Zamalek vs ENPPI", "odds": 2.056, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Zamalek vs ENPPI", "odds": 2.365, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Smouha vs Al-Masry", "odds": 1.89, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Torpedo Moscovo vs Fakel Voronezh", "odds": 1.94, "stake": 5, "result": "win", "return": 9.70, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (1)", "matches": "Mashal Mubarek vs Buxoro", "odds": 2.36, "stake": 5, "result": "win", "return": 11.80, "source": "live" },
+      { "type": "simples", "market": "Over 15.5 cantos", "matches": "Cantos Alanyaspor vs Cantos Samsunspor", "odds": 1.86, "stake": 5, "result": "win", "return": 9.30, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Alanyaspor vs Samsunspor", "odds": 1.56, "stake": 5, "result": "win", "return": 7.80, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Al-Naft vs Zakho", "odds": 3.50, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "CS Metaloglobus Bucuresti vs Unirea Slobozia", "odds": 2.34, "stake": 5, "result": "win", "return": 11.70, "source": "live" },
+      { "type": "simples", "market": "Handicap 1 -1.5 minuto 75", "matches": "Sabah Baku vs Karvan FK", "odds": 2.056, "stake": 5, "result": "win", "return": 10.28, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (2)", "matches": "Al Khalidiya vs Hidd SCC", "odds": 4.68, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Gorica vs NK Istra 1961", "odds": 2.32, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Molinos El Pirata vs Universidad Cesar Vallejo", "odds": 2.075, "stake": 5, "result": "win", "return": 10.38, "source": "live" },
+      { "type": "simples", "market": "Over 13.5 cantos", "matches": "Cantos Javor Ivanjica vs Cantos Napredak Krusevac", "odds": 2.285, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 15.5 cantos", "matches": "Cantos Gorica vs Cantos NK Istra 1961", "odds": 1.544, "stake": 5, "result": "win", "return": 7.72, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Al Sadd vs Al Shamal", "odds": 1.496, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (1)", "matches": "Beşiktaş vs Fatih Karagumruk", "odds": 1.61, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 1.5", "matches": "Beşiktaş vs Fatih Karagumruk", "odds": 2.41, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Kalmar vs Elfsborg", "odds": 2.704, "stake": 5, "result": "win", "return": 13.52, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "TSC Backa Topola vs Mladost Lucani", "odds": 1.744, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Orgryte vs Degerfors", "odds": 2.305, "stake": 5, "result": "win", "return": 11.53, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 0.5", "matches": "Orgryte vs Degerfors", "odds": 1.88, "stake": 5, "result": "win", "return": 9.40, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Baltika Kaliningrad FC vs Akron Tolyatti", "odds": 2.25, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Mjallby vs Halmstads", "odds": 2.21, "stake": 5, "result": "win", "return": 11.05, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Mjallby vs Halmstads", "odds": 1.832, "stake": 5, "result": "win", "return": 9.16, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Baltika Kaliningrad FC vs Akron Tolyatti", "odds": 1.635, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "AIC Estocolmo vs Malmo", "odds": 2.075, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 13.5 cantos", "matches": "Cantos Hacken vs Cantos Sirius", "odds": 1.97, "stake": 5, "result": "win", "return": 9.85, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Orgryte vs Degerfors", "odds": 2.704, "stake": 5, "result": "win", "return": 13.52, "source": "live" },
+      { "type": "simples", "market": "Over 11 cantos", "matches": "Cantos Pyramids vs Cantos Al Ahly Cairo", "odds": 1.925, "stake": 5, "result": "win", "return": 9.63, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Cantos Mjallby vs Cantos Halmstads", "odds": 1.544, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 14.5 cantos", "matches": "Cantos Copenhaga vs Cantos Vejle", "odds": 1.80, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Beerschot AC vs Patro Eisden Maasmechelen", "odds": 2.08, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V2", "matches": "Central Ballester vs Club El Porvenir Buenos Aires", "odds": 2.21, "stake": 5, "result": "win", "return": 11.05, "source": "live" },
+      { "type": "simples", "market": "Over 13.5 cantos", "matches": "Cantos Standard Liege vs Cantos Lommel SK", "odds": 2.22, "stake": 5, "result": "win", "return": 11.10, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Gil Vicente vs Casa Pia AC", "odds": 2.47, "stake": 5, "result": "win", "return": 12.35, "source": "live" },
+      { "type": "simples", "market": "Over 15.5 cantos", "matches": "Cantos Manchester United vs Cantos Brentford", "odds": 1.975, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "ADT Tarma vs Deportivo Los Chankas", "odds": 2.15, "stake": 5, "result": "win", "return": 10.75, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "ADT Tarma vs Deportivo Los Chankas", "odds": 2.50, "stake": 5, "result": "win", "return": 12.50, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (2)", "matches": "Manta vs Universidad Catolica Quito", "odds": 3.15, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Athletic Club MG vs Clube Nautico Capibaribe", "odds": 2.944, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 4.5", "matches": "Club Atletico Atenas vs Centro Atletico Fenix", "odds": 1.664, "stake": 5, "result": "win", "return": 8.32, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 242.50,
+      "total_return": 274.96,
+      "profit": 32.46,
+      "total_bets": 46,
+      "wins": 25,
+      "losses": 21,
+      "pushes": 0,
+      "roi": 13.39,
+      "model_staked": 30.00,
+      "model_return": 32.70,
+      "model_profit": 2.70,
+      "model_roi": 9.00,
+      "model_bets": 3,
+      "model_wins": 2,
+      "model_losses": 1,
+      "live_staked": 212.50,
+      "live_return": 242.26,
+      "live_profit": 29.76,
+      "live_roi": 14.00,
+      "live_bets": 43,
+      "live_wins": 23,
+      "live_losses": 20,
+      "live_pushes": 0
+    },
+    "balance": 159.01
+  },
+  "notes": "Domingo positivo (+32.46EUR, ROI +13.39%) que recuperou parte das perdas do fim de semana. 46 apostas no total. Pre-game 2/3 (66.7%): Fram-Vestmannaeyjar BTTS+O2.5 1.72 (5-1 WIN), Manchester Utd-Brentford BTTS 1.55 (2-1 WIN). Falhou Espanyol-Levante BTTS 1.8 (0-0). Live 43 apostas (23W/20L, +29.76EUR, ROI +14.00%): destaque AD Tarma 4-0 Los Chankas (1X2 + O1.5 ambas WIN), Mjallby 2-0 Halmstad (1X2 + O1.5 ambas WIN), Orgryte 1-1 Degerfors triple WIN (BTTS 2.704 + O1.5 + TI1 0.5), Kalmar 2-1 Elfsborg 2.704 odds. Cantos: 5/9 (Hacken-Sirius O13.5, Standard-Lommel O13.5, Pyramids-Al Ahly O11, Alanyaspor-Samsunspor O15.5, Gorica-Istra O15.5 todos WIN; Mjallby-Halmstad O14.5, Copenhaga-Vejle O14.5, Manchester Utd-Brentford O15.5, Javor-Napredak O13.5 todos LOSS). Misses tipicos: Besiktas-Karagumruk 0-0 (proximo golo + TI1.5 ambas LOSS), Zamalek-ENPPI 0-0 (1X2 + O1.5 ambas LOSS), Baltika-Akron 0-1 (1X2 + BTTS ambas LOSS). Banca: 126.55 -> 159.01 (recupera para perto de 160)."
+}

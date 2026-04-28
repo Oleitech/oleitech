@@ -91,12 +91,23 @@ const Layout = {
 
   // Render mobile brand bar
   renderMobileBrand() {
+    const b = this._bankroll;
+    const p = this._totalPL;
+    const bankrollHtml = b != null ? `
+      <div class="mobile-bankroll">
+        <div class="mb-label">Bankroll</div>
+        <div class="mb-row">
+          <span class="mb-value num">€${b.toFixed(2)}</span>
+          ${p != null ? `<span class="mb-delta num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${p >= 0 ? '+' : ''}€${p.toFixed(2)}</span>` : ''}
+        </div>
+      </div>` : '';
     return `<div class="mobile-brand">
       ${this.logoMark(28)}
       <div class="brand-text">
         <span class="t1" style="font-size:13px">Trincheira</span>
         <span class="t2">BET</span>
       </div>
+      ${bankrollHtml}
     </div>`;
   },
 
@@ -120,6 +131,8 @@ const Layout = {
 
   // Initialize layout for a page
   init(activePage, bankroll, totalPL) {
+    this._bankroll = bankroll;
+    this._totalPL = totalPL;
     const root = document.getElementById('app-root');
     if (!root) return;
     root.className = 'app';
@@ -133,14 +146,23 @@ const Layout = {
     return document.getElementById('app-main');
   },
 
-  // Update bankroll in sidebar
+  // Update bankroll in sidebar (and mobile)
   updateBankroll(bankroll, totalPL) {
+    this._bankroll = bankroll;
+    this._totalPL = totalPL;
     const val = document.querySelector('.bankroll .value');
     const delta = document.querySelector('.bankroll .delta');
     if (val && bankroll != null) val.textContent = '€' + bankroll.toFixed(2);
     if (delta && totalPL != null) {
       delta.textContent = (totalPL >= 0 ? '+' : '') + '€' + totalPL.toFixed(2) + ' total';
       delta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
+    }
+    const mbVal = document.querySelector('.mobile-bankroll .mb-value');
+    const mbDelta = document.querySelector('.mobile-bankroll .mb-delta');
+    if (mbVal && bankroll != null) mbVal.textContent = '€' + bankroll.toFixed(2);
+    if (mbDelta && totalPL != null) {
+      mbDelta.textContent = (totalPL >= 0 ? '+' : '') + '€' + totalPL.toFixed(2);
+      mbDelta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
     }
   },
 
