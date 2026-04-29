@@ -1,0 +1,76 @@
+{
+  "date": "2026-04-28",
+  "btts": {
+    "tips": [
+      {
+        "home": "Al Shabab Riyadh",
+        "away": "Al-Fateh Al-Ahsa",
+        "league": "Saudi Pro League",
+        "confidence": null,
+        "btts_sim": 1.46,
+        "result_home": 1,
+        "result_away": 1,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Al Shabab Riyadh vs Al-Fateh Al-Ahsa", "odds": 1.46, "stake": 10, "result": "win", "return": 14.60, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Al Shabab Riyadh vs Al-Fateh Al-Ahsa", "odds": 1.727, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 1.0", "matches": "Al Shabab Riyadh vs Al-Fateh Al-Ahsa", "odds": 1.00, "stake": 5, "result": "push", "return": 5.00, "source": "live" },
+      { "type": "simples", "market": "Handicap 2 (-8.5)", "matches": "Toolon Taisto vs JaPS", "odds": 2.175, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.2 (2)", "matches": "Al-Zulfi vs Al-Tai'ee", "odds": 3.01, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 3.5 cartoes", "matches": "Santa Clara U23 vs Sporting CP U23", "odds": 2.195, "stake": 5, "result": "win", "return": 10.97, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (2)", "matches": "Hednesford Town vs Stockton Town", "odds": 1.585, "stake": 5, "result": "win", "return": 7.92, "source": "live" },
+      { "type": "simples", "market": "Over 0.5", "matches": "Peterborough United vs Mansfield Town", "odds": 1.53, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Over 1.5", "matches": "Hednesford Town vs Stockton Town", "odds": 1.54, "stake": 5, "result": "win", "return": 7.70, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 50.00,
+      "total_return": 46.19,
+      "profit": -3.81,
+      "total_bets": 9,
+      "wins": 4,
+      "losses": 4,
+      "pushes": 1,
+      "roi": -7.62,
+      "model_staked": 10.00,
+      "model_return": 14.60,
+      "model_profit": 4.60,
+      "model_roi": 46.00,
+      "model_bets": 1,
+      "model_wins": 1,
+      "model_losses": 0,
+      "model_pushes": 0,
+      "live_staked": 40.00,
+      "live_return": 31.59,
+      "live_profit": -8.41,
+      "live_roi": -21.03,
+      "live_bets": 8,
+      "live_wins": 3,
+      "live_losses": 4,
+      "live_pushes": 1
+    },
+    "balance": 155.20
+  },
+  "notes": "Terca-feira negativa (-3.81EUR, ROI -7.62%) com volume reduzido (9 apostas vs 46 no domingo). Pre-game 1/1 (100%): Al Shabab Riyadh-Al Fateh Al-Ahsa BTTS 1.46 stake 10EUR (1-1 WIN +4.60EUR) - mantem o pre-game BTTS forte. Live 8 apostas (3W/4L/1 push, -8.41EUR, ROI -21.03%). WINs live: Santa Clara U23-Sporting CP U23 Over 3.5 cartoes 2.195 (3-0 com cartao vermelho a Sporting), Hednesford-Stockton Proximo golo Eq.1 1.585 e Over 1.5 1.54 (Hednesford 2-0 com cartao vermelho a Stockton - jogo aberto NPL playoff). LOSSes live: Toolon-JaPS Handicap 2 (-8.5) 2.175 (Taca Finlandia 1-9, JaPS ganhou por 8 - falhou por meio gol), Al Zulfi-Al Tai'ee Proximo golo Eq.2(2) 3.01 (1-2 - Al-Tai'ee ganhou mas bet falhou por timing), Peterborough-Mansfield Over 0.5 1.53 (0-0 toxico em Liga 1 inglesa), Al Shabab-Al Fateh BTTS+O2.5 1.727 (1-1 - BTTS sim mas total < 2.5). Push: Total individual 1 over 1.0 Al Shabab (marcou exatamente 1 golo = reembolso 5EUR). Banca: 159.01 -> 155.20. Nota: 3 bets madrugada (Atenas-Fenix, Athletic MG-Nautico, Manta-U.Catolica) timestamp 28/04 mas atribuidos ao dia 27 (jogos sul-americanos de domingo a noite)."
+}
