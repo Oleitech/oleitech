@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-29",
+  "btts": {
+    "tips": [
+      {
+        "home": "Al-Taawon",
+        "away": "Al-Ittihad Jeddah",
+        "league": "Saudi Pro League",
+        "confidence": null,
+        "btts_sim": 1.615,
+        "result_home": 0,
+        "result_away": 2,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Al-Taawon vs Al-Ittihad Jeddah", "odds": 1.615, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "Total individual 1 Over 1.5", "matches": "MAS Fez vs Hassania Agadir", "odds": 1.79, "stake": 5, "result": "win", "return": 8.95, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (2)", "matches": "MAS Fez vs Hassania Agadir", "odds": 2.055, "stake": 5, "result": "win", "return": 10.28, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Juvenes-Dogana vs Libertas", "odds": 1.984, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Handicap 1 (-1.5)", "matches": "Sporting CP vs Tondela", "odds": 2.056, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Envigado vs Tigres FC", "odds": 1.89, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Siwelele vs Kaizer Chiefs", "odds": 1.845, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total Over 4.5", "matches": "Al-Ahli Manama vs Riffa", "odds": 1.97, "stake": 5, "result": "win", "return": 9.85, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (5)", "matches": "Al-Ahli Manama vs Riffa", "odds": 3.41, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Al-Taawon vs Al-Ittihad Jeddah", "odds": 1.59, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (1)", "matches": "Qizilqum Zarafshon vs Xorazm Urganch", "odds": 2.264, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 0.5", "matches": "Qizilqum Zarafshon vs Xorazm Urganch", "odds": 2.125, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (5)", "matches": "Neftchi Fergana vs Kokand 1912", "odds": 1.44, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (4)", "matches": "Neftchi Fergana vs Kokand 1912", "odds": 1.4, "stake": 10, "result": "win", "return": 14.00, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 1.5", "matches": "Llapi Podujeve vs KF Prishtina E Re", "odds": 1.67, "stake": 5, "result": "win", "return": 8.35, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (2)", "matches": "Llapi Podujeve vs KF Prishtina E Re", "odds": 1.92, "stake": 5, "result": "win", "return": 9.60, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (3)", "matches": "Ganzhou Ruishi vs Xiamen Feilu", "odds": 4.39, "stake": 2.5, "result": "win", "return": 10.97, "source": "live" },
+      { "type": "simples", "market": "Total Over 2.5", "matches": "Ganzhou Ruishi vs Xiamen Feilu", "odds": 2.656, "stake": 5, "result": "win", "return": 13.28, "source": "live" },
+      { "type": "simples", "market": "Total Over 16.5 cantos", "matches": "Mito HollyHock vs Machida Zelvia", "odds": 1.536, "stake": 5, "result": "loss", "return": 0, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 102.50,
+      "total_return": 85.28,
+      "profit": -17.22,
+      "total_bets": 19,
+      "wins": 8,
+      "losses": 11,
+      "pushes": 0,
+      "roi": -16.80,
+      "model_staked": 10.00,
+      "model_return": 0.00,
+      "model_profit": -10.00,
+      "model_roi": -100.00,
+      "model_bets": 1,
+      "model_wins": 0,
+      "model_losses": 1,
+      "model_pushes": 0,
+      "live_staked": 92.50,
+      "live_return": 85.28,
+      "live_profit": -7.22,
+      "live_roi": -7.81,
+      "live_bets": 18,
+      "live_wins": 8,
+      "live_losses": 10,
+      "live_pushes": 0
+    },
+    "balance": 137.98
+  },
+  "notes": "Quarta-feira negativa (-17.22EUR, ROI -16.80%) com volume aumentado (19 apostas vs 9 ontem). Pre-game 0/1 (0%): Al-Taawon-Al-Ittihad Jeddah BTTS 1.615 stake 10EUR (0-2 LOSS) - Saudi Pro League falhou pela primeira vez em pre-game na semana. Live 18 apostas (8W/10L, -7.22EUR, ROI -7.81%). WINs live: MAS Fez-Agadir (4-0) Total individual 1 Over 1.5 1.79 e Proximo golo Eq.1 (2) 2.055 (Botola Pro MA tipo bola corrida); Al-Ahli Manama-Riffa (2-3, 5 golos) Total Over 4.5 1.97; Neftchi-Kokand (4-0) Proximo golo Eq.1 (4) 1.4 stake 10EUR; Llapi-Prishtina (4-0) Total individual 1 Over 1.5 1.67 e Proximo golo Eq.1 (2) 1.92 (Kosovo Superliga); Ganzhou-Xiamen (2-1) Proximo golo Eq.1 (3) 4.39 stake 2.5EUR e Total Over 2.5 2.656 (China League Two). LOSSes live: dois jogos uzbeques mortos (Qizilqum-Xorazm 0-0, Neftchi 5o golo nao saiu), Sporting-Tondela Handicap 1 -1.5 (2-2 - Liga Portugal Betclic toxica), Siwelele-Kaizer Chiefs BTTS (2-0 - SA Premier League), Al-Taawon-Jeddah BTTS live re-bet 1.59 (0-2 - foi cabeca a cabeça com pre-game), Juvenes-Dogana-Libertas Proximo 3 (1-1 San Marino playoff), Envigado-Tigres Proximo 3 (2-0 Colombia Apertura), Al-Ahli Manama Proximo 5 (jogo terminou no 5 golo mas foi do adversario), Mito-Machida cantos Over 16.5 1.536 (jogo decidido em pen 2-3, cantos abaixo do target). Banca: 155.20 -> 137.98. Insight: dia muito 'Proximo golo' centrico (10/19 bets), com mix de hits altos (Ganzhou 4.39, Neftchi 1.4) e misses recorrentes em ligas asiaticas mortas. Saudi BTTS pre-game perdeu pela primeira vez na sequencia recente."
+}
