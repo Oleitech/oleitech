@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-02",
+  "btts": {
+    "tips": [
+      {
+        "home": "Grazer AK",
+        "away": "WSG Tirol",
+        "league": "Bundesliga AT",
+        "confidence": null,
+        "btts_sim": 1.95,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "R. Charleroi",
+        "away": "Genk",
+        "league": "Pro League BE",
+        "confidence": null,
+        "btts_sim": 1.56,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      },
+      {
+        "home": "Verl",
+        "away": "Havelse",
+        "league": "3. Liga DE",
+        "confidence": null,
+        "btts_sim": 1.54,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": false
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 0,
+      "red": 3,
+      "hit_rate": 0.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS", "matches": "Verl vs Havelse", "odds": 1.54, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "N.E.C. vs Telstar", "odds": 1.64, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Alemannia Aachen vs Hansa Rostock", "odds": 1.65, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Almere City vs Den Bosch", "odds": 1.6, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Jyvaskyla vs RoPS", "odds": 1.64, "stake": 10, "result": "win", "return": 16.40, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Knattspyrnufelagid Valur vs Knattspyrnufelag Reykjavikur", "odds": 1.53, "stake": 10, "result": "win", "return": 15.30, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "R. Charleroi vs Genk", "odds": 1.56, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Grazer AK vs WSG Tirol", "odds": 1.95, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" }
+    ],
+    "summary": {
+      "total_staked": 80.00,
+      "total_return": 31.70,
+      "profit": -48.30,
+      "total_bets": 8,
+      "wins": 2,
+      "losses": 6,
+      "pushes": 0,
+      "roi": -60.38,
+      "model_staked": 80.00,
+      "model_return": 31.70,
+      "model_profit": -48.30,
+      "model_roi": -60.38,
+      "model_bets": 8,
+      "model_wins": 2,
+      "model_losses": 6,
+      "model_pushes": 0,
+      "live_staked": 0.00,
+      "live_return": 0.00,
+      "live_profit": 0.00,
+      "live_roi": 0.00,
+      "live_bets": 0,
+      "live_wins": 0,
+      "live_losses": 0,
+      "live_pushes": 0
+    },
+    "balance": 91.56
+  },
+  "notes": "Sexta-feira muito negativa (-48.30EUR, ROI -60.38%). So pre-game (8 apostas em batch matinal 08:13-08:20), zero live. 2W/6L: WINs Valur-Reykjavikur BTTS+O2.5 1.53 (Iceland) e Jyvaskyla-RoPS BTTS+O2.5 1.64 (Finland Veikkausliiga). LOSSes Grazer AK-WSG Tirol BTTS 1.95, Charleroi-Genk BTTS 1.56 (Pro League BE), Verl-Havelse BTTS 1.54 (3. Liga DE), Almere-Den Bosch BTTS+O2.5 1.6 (Eredivisie), Alemannia-Hansa BTTS+O2.5 1.65 (3. Liga DE), N.E.C.-Telstar BTTS+O2.5 1.64. Banca: 139.86 -> 91.56. Insight: BTTS-only pre-game 0/3 (catastrofe, ligas problematicas - Bundesliga AT, Pro League BE, 3. Liga DE). BTTS+O2.5 2/5 (40%). Possivel sinal de que Eredivisie + 3. Liga DE estao mais fechadas neste fim de epoca. Sem live bets este dia (Telegram bot off ou modo conservador apos LOSS streak)."
+}

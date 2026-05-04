@@ -1,0 +1,127 @@
+{
+  "date": "2026-05-03",
+  "btts": {
+    "tips": [
+      {
+        "home": "Karlsruher",
+        "away": "Darmstadt 98",
+        "league": "2. Bundesliga",
+        "confidence": null,
+        "btts_sim": 1.77,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Malmo",
+        "away": "Mjallby",
+        "league": "Allsvenskan",
+        "confidence": null,
+        "btts_sim": 1.76,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Olimpia",
+        "away": "Sportivo Ameliano",
+        "league": "Paraguay Primera",
+        "confidence": null,
+        "btts_sim": 1.47,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      },
+      {
+        "home": "Fortuna Sittard",
+        "away": "Feyenoord",
+        "league": "Eredivisie",
+        "confidence": null,
+        "btts_sim": 1.432,
+        "result_home": null,
+        "result_away": null,
+        "btts_hit": true
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 4,
+      "red": 0,
+      "hit_rate": 100.0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "over25": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "corners": {
+    "tips": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+  },
+  "stakes": {
+    "bets": [
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "MSV Duisburg vs Energie Cottbus", "odds": 1.75, "stake": 10, "result": "win", "return": 17.50, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Kristiansund BK vs HamKam", "odds": 1.86, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "PEC Zwolle vs Heracles Almelo", "odds": 1.8, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "Freiburg vs VfL Wolfsburg", "odds": 1.93, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS + Over 2.5", "matches": "St. Gallen vs Sion", "odds": 1.79, "stake": 10, "result": "loss", "return": 0, "source": "pre-game" },
+      { "type": "simples", "market": "Total Over 0.5", "matches": "Dong Thap vs PVF-CAND II", "odds": 2.16, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 1.5", "matches": "Torrent vs Barcelona II", "odds": 1.65, "stake": 5, "result": "win", "return": 8.25, "source": "live" },
+      { "type": "simples", "market": "Total Over 3.5", "matches": "Torrent vs Barcelona II", "odds": 1.625, "stake": 5, "result": "win", "return": 8.13, "source": "live" },
+      { "type": "simples", "market": "Total Over 2", "matches": "Marbelli vs Granada II", "odds": 1.67, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "1X2 V2", "matches": "Nordsjaelland (Feminino) vs HB Koge (Feminino)", "odds": 6.73, "stake": 2.5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total Over 0.5", "matches": "Bologna 1909 vs Cagliari Calcio", "odds": 1.575, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total Over 1", "matches": "Bologna 1909 vs Cagliari Calcio", "odds": 2.345, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Resultado 2 + Total Over 1.5 (2a parte)", "matches": "Hibernian vs Celtic", "odds": 1.7, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 3.5", "matches": "III. Keruleti TUE UPE vs Honved II", "odds": 1.735, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Karlsruher vs Darmstadt 98", "odds": 1.77, "stake": 10, "result": "win", "return": 17.70, "source": "pre-game" },
+      { "type": "simples", "market": "Total individual 2 Over 0.5", "matches": "Randers vs Vejle", "odds": 1.65, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Malmo vs Mjallby", "odds": 1.76, "stake": 10, "result": "win", "return": 17.60, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "St. Gallen vs Sion", "odds": 1.51, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Celta vs Elche", "odds": 1.865, "stake": 5, "result": "win", "return": 9.32, "source": "live" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Racing de Santander vs Huesca", "odds": 1.664, "stake": 3.5, "result": "win", "return": 5.82, "source": "live" },
+      { "type": "simples", "market": "Total Over 0.5", "matches": "Randers vs Vejle", "odds": 1.464, "stake": 5, "result": "win", "return": 7.32, "source": "live" },
+      { "type": "simples", "market": "Total individual 1 Over 1.5", "matches": "Deportivo Recoleta vs Cerro Porteno", "odds": 1.825, "stake": 5, "result": "win", "return": 9.13, "source": "live" },
+      { "type": "simples", "market": "Total Over 3.5", "matches": "Odense FC vs Silkeborg", "odds": 1.66, "stake": 5, "result": "win", "return": 8.30, "source": "live" },
+      { "type": "simples", "market": "Total no minuto Over 2.5 (m85)", "matches": "Viettel vs Ninh Binh", "odds": 1.62, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Proximo golo Eq.1 (6)", "matches": "Racing de Santander vs Huesca", "odds": 1.94, "stake": 5, "result": "win", "return": 9.70, "source": "live" },
+      { "type": "simples", "market": "BTTS", "matches": "Olimpia vs Sportivo Ameliano", "odds": 1.47, "stake": 10, "result": "win", "return": 14.70, "source": "pre-game" },
+      { "type": "simples", "market": "BTTS", "matches": "Fortuna Sittard vs Feyenoord", "odds": 1.432, "stake": 10, "result": "win", "return": 14.32, "source": "pre-game" },
+      { "type": "simples", "market": "1X2 V1", "matches": "Lille OSC vs Le Havre", "odds": 1.635, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total Over 1", "matches": "Virtus vs Juvenes-Dogana", "odds": 1.53, "stake": 5, "result": "loss", "return": 0, "source": "live" },
+      { "type": "simples", "market": "Total Over 0.5", "matches": "Haras El Hodoud vs Talaea El-Gaish", "odds": 2.195, "stake": 10, "result": "loss", "return": 0, "source": "live" }
+    ],
+    "summary": {
+      "total_staked": 196.00,
+      "total_return": 147.79,
+      "profit": -48.21,
+      "total_bets": 30,
+      "wins": 13,
+      "losses": 17,
+      "pushes": 0,
+      "roi": -24.60,
+      "model_staked": 90.00,
+      "model_return": 81.82,
+      "model_profit": -8.18,
+      "model_roi": -9.09,
+      "model_bets": 9,
+      "model_wins": 5,
+      "model_losses": 4,
+      "model_pushes": 0,
+      "live_staked": 106.00,
+      "live_return": 65.97,
+      "live_profit": -40.03,
+      "live_roi": -37.76,
+      "live_bets": 21,
+      "live_wins": 8,
+      "live_losses": 13,
+      "live_pushes": 0
+    },
+    "balance": 43.35
+  },
+  "notes": "Sabado fortemente negativo (-48.21EUR, ROI -24.60%) com 30 apostas. Pre-game 5W/4L (-8.18EUR, ROI -9.09%): batch BTTS+O2.5 matinal (10:22-10:28) so 1/5 - WIN MSV Duisburg-Cottbus 1.75, LOSSes Kristiansund-HamKam, PEC-Heracles, Freiburg-Wolfsburg, St. Gallen-Sion (4 LOSS em fila). Mas BTTS-only pre-game perfeito 4/4: Karlsruher-Darmstadt 1.77, Malmo-Mjallby 1.76, Olimpia-Sportivo Ameliano 1.47 (Paraguay), Fortuna Sittard-Feyenoord 1.432 (jogo classico holandes 4-1+). Live 8W/13L (-40.03EUR, ROI -37.76% catastrofe): WINs notaveis Torrent-Barcelona II dupla (1.65 + 1.625), Racing Santander-Huesca dupla (1X2 1.664 + Proximo 6 1.94), Celta-Elche BTTS 1.865, Deportivo Recoleta-Cerro Porteno Total Eq1 Over 1.5, Odense-Silkeborg Over 3.5 1.66. LOSSes pesados: Bologna-Cagliari dupla (Over 0.5 + Over 1 - jogo 0-0?), Hibernian-Celtic Resultado+Total 2H, Andorra Fem (1X2 V2 6.73 stake EUR 2.5), Lille-Le Havre 1X2, Virtus-Juvenes-Dogana, Haras El Hodoud-Talaea Total 0.5 stake 10 EUR (jogo 0-0?). Banca: 91.56 -> 43.35. Insight: dia muito ruim apesar de BTTS-only pre-game 4/4 perfeito. BTTS+O2.5 batch matinal continua a falhar (1/5 em sabado, padrao do 02/05 onde 0/3). Live com volume baixo (21 vs 39 dia anterior) mas hit rate fraco 38%."
+}

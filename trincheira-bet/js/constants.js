@@ -68,6 +68,17 @@ const BTTS_LEAGUE_IDS = Object.entries(LEAGUES)
   .sort((a, b) => b[1].bttsRate - a[1].bttsRate)
   .map(([id]) => parseInt(id));
 
+// Pre-game blacklist — leagues to skip in BTTS / Over 2.5 scanners.
+// Calibrated from cumulative results 12/04 → 03/05/2026: these leagues had
+// ≥0/3 hit rate in recent BTTS+O2.5 weekend rounds (end-of-season fatigue,
+// dead games, low-stakes matches). Re-evaluate after 30 days of new data.
+const LEAGUE_PREGAME_BLACKLIST = new Set([
+  88,  // Eredivisie (Netherlands)
+  218, // Bundesliga (Austria)
+  144, // Pro League (Belgium)
+  80,  // 3. Liga (Germany)
+]);
+
 const PATTERNS = {
   BTTS: {
     key: 'btts',

@@ -8,6 +8,7 @@ const Over25Scanner = {
       .filter(f => {
         const status = f.fixture.status.short;
         if (status !== 'NS' && status !== 'TBD') return false;
+        if (LEAGUE_PREGAME_BLACKLIST.has(f.league.id)) return false;
         const league = LEAGUES[f.league.id];
         return league && league.priority <= 3;
       })

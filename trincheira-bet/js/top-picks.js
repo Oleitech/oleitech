@@ -9,6 +9,7 @@ const TopPicks = {
       .filter(f => {
         const status = f.fixture.status.short;
         if (status !== 'NS' && status !== 'TBD') return false;
+        if (LEAGUE_PREGAME_BLACKLIST.has(f.league.id)) return false;
         // Accept all known leagues (priority 1-3) for BTTS scanning
         const league = LEAGUES[f.league.id];
         return league && league.priority <= 3;
