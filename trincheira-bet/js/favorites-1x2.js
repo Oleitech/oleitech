@@ -5,7 +5,6 @@
 
 const Favorites1x2 = {
   MAX_ANALYZE: 35,
-  MIN_FAV_PCT: 60,        // pre-game predictions percent for the favorite
   MIN_ODDS: 1.55,
   MAX_ODDS: 2.00,
   MIN_SCORE: 70,
@@ -39,52 +38,47 @@ const Favorites1x2 = {
       if (typeof App !== 'undefined' && App.updateScanProgress) App.updateScanProgress(text);
     };
 
+    // Step 1: pull odds first — odds tell us who the market thinks is favorite,
+    // which is a much more reliable signal than predictions.percent (often
+    // capped near 50% in API-Sports even for clear favorites).
     const candidates = [];
     let done = 0;
-
-    // Step 1: predictions to find favorites
     for (const f of toAnalyze) {
       if (Cache.getRemainingRequests() <= 5) {
         UI.showToast('Limite API perto — Favoritos parcial', 'info');
         break;
       }
-      updateProgress(`Favoritos ${done + 1}/${toAnalyze.length}`);
-      const data = await API.getPrediction(f.fixture.id);
+      updateProgress(`Favoritos odds ${done + 1}/${toAnalyze.length}`);
+      const oddsData = await API.getOdds(f.fixture.id);
       done++;
-      if (data && data.length > 0) {
-        const fav = this.detectFavorite(data[0]);
-        if (fav) candidates.push({ fixture: f, prediction: data[0], fav });
+      const odds1x2 = this.extract1X2Odds(oddsData);
+      if (odds1x2) {
+        const fav = this.detectFavoriteFromOdds(odds1x2);
+        if (fav) candidates.push({ fixture: f, odds: odds1x2, fav });
       }
       await new Promise(r => setTimeout(r, 120));
     }
 
-    // Step 2: odds for top candidates (sorted by favorite percent)
-    candidates.sort((a, b) => b.fav.pct - a.fav.pct);
-    const top = candidates.slice(0, 20);
-    let oddsCount = 0;
+    // Step 2: predictions for top candidates to score conviction
     const results = [];
-    for (const c of top) {
+    let predCount = 0;
+    for (const c of candidates) {
       if (Cache.getRemainingRequests() <= 3) break;
-      updateProgress(`Odds favoritos ${oddsCount + 1}/${top.length}`);
-      const oddsData = await API.getOdds(c.fixture.fixture.id);
-      oddsCount++;
-      const odds1x2 = this.extract1X2Odds(oddsData);
-      if (odds1x2) {
-        const favOdd = c.fav.isHome ? odds1x2.home : odds1x2.away;
-        if (favOdd >= this.MIN_ODDS && favOdd <= this.MAX_ODDS) {
-          const score = this.scoreFavorite(c.prediction, c.fav, favOdd);
-          if (score >= this.MIN_SCORE) {
-            results.push({
-              fixture: c.fixture,
-              prediction: c.prediction,
-              fav: c.fav,
-              odds: odds1x2,
-              favOdd,
-              score,
-              factors: this.buildFactors(c.prediction, c.fav, favOdd),
-            });
-          }
-        }
+      updateProgress(`Favoritos pred ${predCount + 1}/${candidates.length}`);
+      const predData = await API.getPrediction(c.fixture.fixture.id);
+      predCount++;
+      const prediction = predData?.[0] || null;
+      const score = this.scoreFavorite(prediction, c.fav);
+      if (score >= this.MIN_SCORE) {
+        results.push({
+          fixture: c.fixture,
+          prediction,
+          fav: c.fav,
+          odds: c.odds,
+          favOdd: c.fav.odd,
+          score,
+          factors: this.buildFactors(prediction, c.fav),
+        });
       }
       await new Promise(r => setTimeout(r, 120));
     }
@@ -95,18 +89,22 @@ const Favorites1x2 = {
     this.isAnalyzing = false;
   },
 
-  detectFavorite(prediction) {
-    const homePct = parseInt(prediction.predictions?.percent?.home) || 0;
-    const awayPct = parseInt(prediction.predictions?.percent?.away) || 0;
-    const winnerId = prediction.predictions?.winner?.id;
+  // Identify favorite from 1X2 odds: the lowest odd in the value range, with
+  // a meaningful gap over the next-lowest odd to confirm a clear favorite.
+  detectFavoriteFromOdds(odds1x2) {
+    const homeOdd = odds1x2.home;
+    const awayOdd = odds1x2.away;
+    if (!homeOdd || !awayOdd) return null;
 
-    let isHome = null;
-    if (homePct >= this.MIN_FAV_PCT && homePct >= awayPct + 10) isHome = true;
-    else if (awayPct >= this.MIN_FAV_PCT && awayPct >= homePct + 10) isHome = false;
-    if (isHome === null) return null;
+    const homeIsLower = homeOdd < awayOdd;
+    const favOdd = homeIsLower ? homeOdd : awayOdd;
+    const dogOdd = homeIsLower ? awayOdd : homeOdd;
 
-    const pct = isHome ? homePct : awayPct;
-    return { isHome, pct, winnerId };
+    if (favOdd < this.MIN_ODDS || favOdd > this.MAX_ODDS) return null;
+    // Require a clear gap: dog odd must be >= fav + 0.50 (else the game is too tight)
+    if (dogOdd < favOdd + 0.50) return null;
+
+    return { isHome: homeIsLower, odd: favOdd, dogOdd, draw: odds1x2.draw };
   },
 
   extract1X2Odds(oddsData) {
@@ -135,58 +133,90 @@ const Favorites1x2 = {
     return null;
   },
 
-  // Score 0-100. Confidence in the favorite winning.
-  scoreFavorite(prediction, fav, favOdd) {
-    let score = 50;
-    // Pre-game probability is the strongest signal
-    if (fav.pct >= 75) score += 20;
-    else if (fav.pct >= 70) score += 14;
-    else if (fav.pct >= 65) score += 8;
-    else score += 3;
+  // Score 0-100. Confidence in the favorite winning. fav comes from odds; we
+  // use predictions to add conviction (form, goal averages, agreement with
+  // predictions.winner) but not as the primary gate.
+  scoreFavorite(prediction, fav) {
+    let score = 55;
 
-    // Odds value: sweet spot ~1.65-1.85 (between 60-66% implied probability)
-    const implied = 1 / favOdd;
-    const edge = (fav.pct / 100) - implied;
-    if (edge >= 0.10) score += 15;
-    else if (edge >= 0.05) score += 8;
-    else if (edge >= 0.02) score += 3;
+    // Odd-implied probability anchor: a 1.55 odd means ~64% implied. A clear
+    // favorite at this price is already meaningful.
+    const implied = 1 / fav.odd;
+    if (implied >= 0.62) score += 8;     // ≤1.61
+    else if (implied >= 0.55) score += 5; // 1.62-1.81
+    else score += 2;                      // 1.82-2.00
+
+    // Gap over the underdog: bigger gap = less competitive game
+    const gap = fav.dogOdd - fav.odd;
+    if (gap >= 1.50) score += 10;
+    else if (gap >= 1.00) score += 6;
+    else if (gap >= 0.70) score += 3;
 
     // Home favorite small boost (home advantage)
     if (fav.isHome) score += 5;
 
-    // Form check: predictions.h2h or comparison fields when present
-    const cmp = prediction.comparison || {};
-    const formCmp = parseInt(fav.isHome ? cmp.form?.home : cmp.form?.away) || 0;
-    if (formCmp >= 60) score += 5;
-    else if (formCmp <= 40) score -= 5;
+    if (prediction) {
+      const homePct = parseInt(prediction.predictions?.percent?.home) || 0;
+      const awayPct = parseInt(prediction.predictions?.percent?.away) || 0;
+      const favPct = fav.isHome ? homePct : awayPct;
+      const dogPct = fav.isHome ? awayPct : homePct;
 
-    // Goal-scoring difference (favorite expected to score)
-    const homeAvgFor = parseFloat(prediction.teams?.home?.league?.goals?.for?.average?.total || 0);
-    const awayAvgFor = parseFloat(prediction.teams?.away?.league?.goals?.for?.average?.total || 0);
-    const homeAvgAg = parseFloat(prediction.teams?.home?.league?.goals?.against?.average?.total || 0);
-    const awayAvgAg = parseFloat(prediction.teams?.away?.league?.goals?.against?.average?.total || 0);
-    const favFor = fav.isHome ? homeAvgFor : awayAvgFor;
-    const oppAg = fav.isHome ? awayAvgAg : homeAvgAg;
-    if (favFor >= 1.8 && oppAg >= 1.3) score += 6;
-    else if (favFor >= 1.5 && oppAg >= 1.2) score += 3;
+      // Predictions agreeing with odds = bonus; disagreeing = penalty
+      if (favPct >= dogPct + 20) score += 12;
+      else if (favPct >= dogPct + 10) score += 8;
+      else if (favPct >= dogPct) score += 3;
+      else if (dogPct > favPct + 10) score -= 10; // model disagrees → red flag
+
+      // Winner.id agreement
+      const winnerId = prediction.predictions?.winner?.id;
+      const favTeamId = fav.isHome
+        ? prediction.teams?.home?.id
+        : prediction.teams?.away?.id;
+      if (winnerId && favTeamId && winnerId === favTeamId) score += 5;
+
+      // Form comparison
+      const cmp = prediction.comparison || {};
+      const formCmp = parseInt(fav.isHome ? cmp.form?.home : cmp.form?.away) || 0;
+      if (formCmp >= 60) score += 5;
+      else if (formCmp <= 40) score -= 3;
+
+      // Goal-scoring profile (favorite expected to score, opponent leaks)
+      const homeAvgFor = parseFloat(prediction.teams?.home?.league?.goals?.for?.average?.total || 0);
+      const awayAvgFor = parseFloat(prediction.teams?.away?.league?.goals?.for?.average?.total || 0);
+      const homeAvgAg = parseFloat(prediction.teams?.home?.league?.goals?.against?.average?.total || 0);
+      const awayAvgAg = parseFloat(prediction.teams?.away?.league?.goals?.against?.average?.total || 0);
+      const favFor = fav.isHome ? homeAvgFor : awayAvgFor;
+      const oppAg = fav.isHome ? awayAvgAg : homeAvgAg;
+      if (favFor >= 1.8 && oppAg >= 1.3) score += 6;
+      else if (favFor >= 1.5 && oppAg >= 1.2) score += 3;
+    }
 
     return Math.max(0, Math.min(95, score));
   },
 
-  buildFactors(prediction, fav, favOdd) {
-    const factors = [`Favorito pré-jogo ${fav.pct}%`];
-    const implied = (1 / favOdd * 100).toFixed(1);
-    factors.push(`Odd ${favOdd.toFixed(2)} (implícito ${implied}%, edge ${(fav.pct - parseFloat(implied)).toFixed(1)}pp)`);
+  buildFactors(prediction, fav) {
+    const factors = [];
+    const implied = (1 / fav.odd * 100).toFixed(1);
+    factors.push(`Odd ${fav.odd.toFixed(2)} (implícito ${implied}%)`);
+    factors.push(`Adversário ${fav.dogOdd.toFixed(2)} (gap ${(fav.dogOdd - fav.odd).toFixed(2)})`);
     if (fav.isHome) factors.push('Vantagem casa');
 
-    const cmp = prediction.comparison || {};
-    const formCmp = parseInt(fav.isHome ? cmp.form?.home : cmp.form?.away) || 0;
-    if (formCmp >= 60) factors.push(`Forma comparada: ${formCmp}%`);
+    if (prediction) {
+      const homePct = parseInt(prediction.predictions?.percent?.home) || 0;
+      const awayPct = parseInt(prediction.predictions?.percent?.away) || 0;
+      const favPct = fav.isHome ? homePct : awayPct;
+      const dogPct = fav.isHome ? awayPct : homePct;
+      if (favPct > 0) factors.push(`Modelo ${favPct}% vs ${dogPct}%`);
 
-    const oppAg = fav.isHome
-      ? parseFloat(prediction.teams?.away?.league?.goals?.against?.average?.total || 0)
-      : parseFloat(prediction.teams?.home?.league?.goals?.against?.average?.total || 0);
-    if (oppAg >= 1.4) factors.push(`Oponente concede ${oppAg.toFixed(2)}/jogo`);
+      const cmp = prediction.comparison || {};
+      const formCmp = parseInt(fav.isHome ? cmp.form?.home : cmp.form?.away) || 0;
+      if (formCmp >= 60) factors.push(`Forma comparada ${formCmp}%`);
+
+      const oppAg = fav.isHome
+        ? parseFloat(prediction.teams?.away?.league?.goals?.against?.average?.total || 0)
+        : parseFloat(prediction.teams?.home?.league?.goals?.against?.average?.total || 0);
+      if (oppAg >= 1.4) factors.push(`Oponente concede ${oppAg.toFixed(2)}/jogo`);
+    }
 
     return factors;
   },

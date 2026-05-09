@@ -9,16 +9,17 @@ const Scorers = {
   // 39 Premier League, 140 La Liga, 78 Bundesliga, 135 Serie A, 61 Ligue 1,
   // 94 Liga Portugal, 88 Eredivisie, 144 Pro League BE
   SEASON: 2025, // 2025/26 European season; bump in Aug each year
-  MIN_GOALS_PER_GAME: 0.40,
-  MIN_MINUTES_PCT: 60,    // Must have played at least 60% of available minutes
-  MIN_GAMES: 8,           // Sample-size guard
+  MIN_GOALS_PER_GAME: 0.30,
+  MIN_MINUTES_PCT: 55,    // Must have played at least 55% of available minutes
+  MIN_GAMES: 12,          // Sample-size guard (across competitions, summed)
   MIN_ODDS: 1.80,
   MAX_ODDS: 3.50,
-  MIN_SCORE: 70,
-  MAX_PER_FIXTURE: 1,     // Top 1 candidate per fixture
+  MIN_SCORE: 65,
+  MAX_PER_FIXTURE: 2,     // Top 2 candidates per fixture
   STAKE_LABEL: '0.5 stake (€5)',
   analyzed: [],
   isAnalyzing: false,
+  PLAYER_PAGES: 4,        // /players paginates ~20 per page; 4 covers most squads
 
   getEligibleFixtures(fixtures) {
     return fixtures.filter(f => {
@@ -71,10 +72,10 @@ const Scorers = {
     const homeId = fixture.teams.home.id;
     const awayId = fixture.teams.away.id;
 
-    // Pull players + odds + predictions in parallel (cacheable)
+    // Pull players (paginated, all pages) + odds + predictions in parallel
     const [homePlayers, awayPlayers, oddsData, predictionData] = await Promise.all([
-      API.getPlayers(homeId, this.SEASON),
-      API.getPlayers(awayId, this.SEASON),
+      this.fetchAllTeamPlayers(homeId),
+      this.fetchAllTeamPlayers(awayId),
       API.getOdds(fixture.fixture.id),
       API.getPrediction(fixture.fixture.id),
     ]);
@@ -108,20 +109,47 @@ const Scorers = {
     return candidates.slice(0, this.MAX_PER_FIXTURE);
   },
 
+  // /players?team=X&season=Y is paginated; we need to fetch all pages to see
+  // a full squad. Each player can also have multiple `statistics` entries
+  // (one per competition) — those must be summed for a full season picture.
+  async fetchAllTeamPlayers(teamId) {
+    const all = [];
+    for (let p = 1; p <= this.PLAYER_PAGES; p++) {
+      if (Cache.getRemainingRequests() <= 2) break;
+      const resp = await API.fetch('players', { team: teamId, season: this.SEASON, page: p });
+      if (!Array.isArray(resp) || resp.length === 0) break;
+      all.push(...resp);
+      // If page returned fewer than 20 items, we've hit the last page
+      if (resp.length < 20) break;
+    }
+    return all;
+  },
+
+  // Sum a player's stats across ALL competitions in the season
+  summarizePlayer(entry) {
+    const stats = entry.statistics || [];
+    let goals = 0, games = 0, minutes = 0, lineups = 0;
+    let position = '';
+    for (const s of stats) {
+      goals += s.goals?.total || 0;
+      games += s.games?.appearences || 0;
+      minutes += s.games?.minutes || 0;
+      lineups += s.games?.lineups || 0;
+      if (!position && s.games?.position) position = s.games.position;
+    }
+    return { goals, games, minutes, lineups, position };
+  },
+
   evaluateTeamPlayers(playersResp, team, scorerOddsMap, fixture) {
     const out = [];
     for (const entry of playersResp) {
       const player = entry.player;
-      const stats = (entry.statistics || [])[0];
-      if (!player || !stats) continue;
+      if (!player) continue;
 
-      const position = stats.games?.position;
+      const summary = this.summarizePlayer(entry);
+      const { goals, games, minutes, lineups, position } = summary;
+
       if (position !== 'Attacker' && position !== 'Midfielder') continue;
-
-      const goals = stats.goals?.total || 0;
-      const games = stats.games?.appearences || 0;
-      const minutes = stats.games?.minutes || 0;
-      const lineups = stats.games?.lineups || 0;
 
       if (games < this.MIN_GAMES) continue;
       const goalsPerGame = goals / games;
@@ -214,30 +242,35 @@ const Scorers = {
     return null;
   },
 
+  // API-Sports bet IDs for goal-scorer markets:
+  //   92  → "Anytime Goal Scorer" (combined home + away)
+  //   231 → "Home Anytime Goal Scorer"
+  //   218 → "Away Anytime Goal Scorer"
+  // Different bookmakers expose different IDs; we accept all three.
   extractAnytimeScorerOdds(oddsData) {
     if (!oddsData || !Array.isArray(oddsData)) return null;
-    const all = [];
     for (const oddsEntry of oddsData) {
       const bookmakers = oddsEntry?.bookmakers || [];
       for (const bk of bookmakers) {
-        const bet = bk.bets?.find(b =>
-          b.id === 36 || b.id === 38 ||
-          /anytime\s+(goal)?scorer/i.test(b.name || '') ||
+        const matchedBets = (bk.bets || []).filter(b =>
+          b.id === 92 || b.id === 231 || b.id === 218 ||
+          /anytime\s+(goal\s+)?scorer/i.test(b.name || '') ||
           (b.name || '').toLowerCase() === 'goalscorer'
         );
-        if (bet && bet.values) {
-          for (const v of bet.values) {
+        if (matchedBets.length === 0) continue;
+        const collected = [];
+        for (const bet of matchedBets) {
+          for (const v of (bet.values || [])) {
             const odd = parseFloat(v.odd);
             if (odd > 1.05) {
-              all.push({ player: v.value, odd, bookmaker: bk.name || 'Unknown' });
+              collected.push({ player: v.value, odd, bookmaker: bk.name || 'Unknown' });
             }
           }
-          // Use first bookmaker that has the market (skip duplicates from others)
-          if (all.length > 0) return all;
         }
+        if (collected.length > 0) return collected;
       }
     }
-    return all.length > 0 ? all : null;
+    return null;
   },
 
   buildFactors(player, gpg, position, team, odd) {
