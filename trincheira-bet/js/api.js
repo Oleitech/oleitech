@@ -34,6 +34,7 @@ const API = {
       let ttl = CONFIG.CACHE_TTL_FIXTURES;
       if (endpoint === 'predictions') ttl = CONFIG.CACHE_TTL_PREDICTIONS;
       if (endpoint === 'odds') ttl = CONFIG.CACHE_TTL_ODDS;
+      if (endpoint === 'players') ttl = CONFIG.CACHE_TTL_PLAYERS;
 
       // Cache the response
       if (json.response && json.response.length > 0) {
@@ -62,5 +63,10 @@ const API = {
 
   async getH2H(team1Id, team2Id, last = 10) {
     return this.fetch('fixtures/headtohead', { h2h: `${team1Id}-${team2Id}`, last });
+  },
+
+  // Players + season stats. Cached aggressively (changes only after each match day).
+  async getPlayers(teamId, season) {
+    return this.fetch('players', { team: teamId, season });
   }
 };

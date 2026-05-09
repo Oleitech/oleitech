@@ -25,6 +25,8 @@ const App = {
   saveTipsToCache() {
     const grids = {
       btts: document.getElementById('top-picks-grid'),
+      favorites: document.getElementById('favorites-grid'),
+      scorers: document.getElementById('scorers-grid'),
     };
     // Don't cache if no tips were generated
     const totalCards = Object.values(grids).reduce((sum, g) => sum + (g ? g.children.length : 0), 0);
@@ -53,7 +55,8 @@ const App = {
       return;
     }
     Object.entries(cached.markets).forEach(([key, html]) => {
-      const grid = document.getElementById(key === 'btts' ? 'top-picks-grid' : key + '-grid');
+      const gridId = key === 'btts' ? 'top-picks-grid' : key + '-grid';
+      const grid = document.getElementById(gridId);
       if (grid && html) grid.innerHTML = html;
     });
     const statFixtures = document.getElementById('stat-fixtures');
@@ -74,7 +77,7 @@ const App = {
     }
     const title = document.querySelector('.scanner-title');
     if (title) {
-      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS';
+      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS + Favoritos + Marcadores';
     }
   },
 
@@ -107,6 +110,8 @@ const App = {
       // Init BTTS scanner
       try { Picks.init(); } catch(e) { console.warn('[TB] Picks.init:', e); }
       try { TopPicks.init(); } catch(e) { console.warn('[TB] TopPicks.init:', e); }
+      try { Favorites1x2.init(); } catch(e) { console.warn('[TB] Favorites1x2.init:', e); }
+      try { Scorers.init(); } catch(e) { console.warn('[TB] Scorers.init:', e); }
 
       this.scannersReady = true;
       console.log('[TB] Scanners ready');
@@ -164,7 +169,7 @@ const App = {
           <div style="width:100%">
             <div class="scanner-title">
               <span class="pulse"></span>
-              Scanner pronto &middot; BTTS (Ambas Marcam)
+              Scanner pronto &middot; BTTS + Favoritos 1X2 + Marcadores
             </div>
             <div class="scanner-stats" style="margin-top:8px">
               <span><span class="k">Jogos analisados</span><span class="v num" id="stat-fixtures">—</span></span>
@@ -188,19 +193,42 @@ const App = {
         </div>
         <div class="tips-grid" id="top-picks-grid"></div>
       </section>
+
+      <section id="section-favorites" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--accent)"></span> Favoritos 1X2 (odds 1.55–2.00) <span class="badge" id="badge-favorites">0</span></div>
+        </div>
+        <div class="tips-grid" id="favorites-grid"></div>
+      </section>
+
+      <section id="section-scorers" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--amber)"></span> Marcadores (Anytime Scorer) <span class="badge" id="badge-scorers">0</span></div>
+        </div>
+        <div class="tips-grid" id="scorers-grid"></div>
+      </section>
     `;
 
   },
 
   updateCounts() {
-    const grid = document.getElementById('top-picks-grid');
-    const count = grid ? grid.children.length : 0;
-    const badgeEl = document.getElementById('badge-btts');
-    if (badgeEl) badgeEl.textContent = count;
-    const section = document.getElementById('section-btts');
-    if (section) section.style.display = count > 0 ? '' : 'none';
+    const buckets = [
+      { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
+      { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
+      { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
+    ];
+    let total = 0;
+    for (const b of buckets) {
+      const grid = document.getElementById(b.gridId);
+      const n = grid ? grid.children.length : 0;
+      total += n;
+      const badge = document.getElementById(b.badgeId);
+      if (badge) badge.textContent = n;
+      const section = document.getElementById(b.sectionId);
+      if (section) section.style.display = n > 0 ? '' : 'none';
+    }
     const statTips = document.getElementById('stat-tips');
-    if (statTips) statTips.textContent = count;
+    if (statTips) statTips.textContent = total;
   },
 
   updateScanProgress(text, pct) {
@@ -259,7 +287,23 @@ const App = {
         await TopPicks.analyze(bttsFixtures);
       }
       this.updateCounts();
-      this.updateScanProgress('BTTS completo', 90);
+      this.updateScanProgress('BTTS completo', 40);
+
+      // Step 3: Favoritos 1X2
+      this.updateScanProgress('A analisar Favoritos 1X2...', 45);
+      Favorites1x2.analyzed = [];
+      Favorites1x2.isAnalyzing = false;
+      await Favorites1x2.analyze(fixtures);
+      this.updateCounts();
+      this.updateScanProgress('Favoritos completo', 70);
+
+      // Step 4: Marcadores (only top-5 + PT/NL/BE)
+      this.updateScanProgress('A analisar Marcadores...', 75);
+      Scorers.analyzed = [];
+      Scorers.isAnalyzing = false;
+      await Scorers.analyze(fixtures);
+      this.updateCounts();
+      this.updateScanProgress('Marcadores completo', 90);
 
       // Step 6: Save pre-match data for live engine
       this.savePreMatchDataForLive();

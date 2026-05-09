@@ -6,6 +6,7 @@ const CONFIG = {
   CACHE_TTL_FIXTURES: 4 * 60 * 60 * 1000,
   CACHE_TTL_PREDICTIONS: 12 * 60 * 60 * 1000,
   CACHE_TTL_ODDS: 6 * 60 * 60 * 1000,
+  CACHE_TTL_PLAYERS: 24 * 60 * 60 * 1000, // Player season stats refresh once per day
   // BTTS-focused leagues: Eredivisie, Austria, Belgium, Switzerland, Norway, Germany, Denmark,
   // 2.Bundesliga, Scotland, Czech, Sweden, Finland, Poland, Japan, Korea, MLS, France, Turkey,
   // Champions League, Europa League

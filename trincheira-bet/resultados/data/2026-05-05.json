@@ -1,0 +1,208 @@
+{
+  "date": "2026-05-05",
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "FC Seoul vs FC Anyang",
+        "league": "K League 1 (South-Korea)",
+        "elapsed": 83,
+        "score_at_alert": "0-0",
+        "conf": 85,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "📊 FAVORITO 2H",
+        "market": "Qingdao Youth Island vence 2ª Parte",
+        "match": "Qingdao Youth Island vs Tianjin Teda",
+        "league": "Super League (China)",
+        "elapsed": 55,
+        "score_at_alert": "1-1",
+        "conf": 80,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Pusamania Borneo vs Persita",
+        "league": "Liga 1 (Indonesia)",
+        "elapsed": 60,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "2-0",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Shenyang Urban vs Chengdu Better City",
+        "league": "Super League (China)",
+        "elapsed": 87,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "0-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "FC Stăuceni vs Floreşti",
+        "league": "Super Liga (Moldova)",
+        "elapsed": 84,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Sitra vs Al Ahli",
+        "league": "Premier League (Bahrain)",
+        "elapsed": 57,
+        "score_at_alert": "0-1",
+        "conf": 80,
+        "final_score": "0-2",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Waalwijk vs Willem II",
+        "league": "Eredivisie (Netherlands)",
+        "elapsed": 61,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "0-1",
+        "final_corners": null,
+        "result": "GREEN_OVER",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Tajikistan U17 vs Thailand U17",
+        "league": "AFC U17 Asian Cup (World)",
+        "elapsed": 60,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "2-0",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Quilmes 2 vs Defensa y Justicia Res.",
+        "league": "Reserve League (Argentina)",
+        "elapsed": 77,
+        "score_at_alert": "2-1",
+        "conf": 85,
+        "final_score": "2-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "⚽ GOLOS 0-0",
+        "market": "Over 1.5 Golos",
+        "match": "Rosario Central vs Libertad Asuncion",
+        "league": "CONMEBOL Libertadores (World)",
+        "elapsed": 45,
+        "score_at_alert": "0-0",
+        "conf": 90,
+        "final_score": null,
+        "final_corners": null,
+        "result": "PENDING",
+        "hit": null
+      }
+    ],
+    "summary": {
+      "total": 10,
+      "green": 4,
+      "red": 4,
+      "green_over": 1,
+      "pending": 1,
+      "hit_rate": 55.6,
+      "by_strategy": {
+        "🟥 CARTÃO VERMELHO": {
+          "total": 8,
+          "green": 4,
+          "red": 3,
+          "green_over": 1,
+          "pending": 0,
+          "hit_rate": 62.5
+        },
+        "📊 FAVORITO 2H": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 0
+        },
+        "⚽ GOLOS 0-0": {
+          "total": 1,
+          "green": 0,
+          "red": 0,
+          "green_over": 0,
+          "pending": 1,
+          "hit_rate": 0
+        }
+      }
+    }
+  },
+  "notes": "Segunda fraca em volume (sem tracking de stakes). 10 alertas worker, 5G/4R/1 pendente, hit 55.6%. Cartão Vermelho 5/8 (62.5%) — Pusamania (2-0), Shenyang-Chengdu (0-1), Sitra-Al Ahli (0-2), Waalwijk-Willem II (0-1 GREEN_OVER), Tajikistan U17-Thailand U17 (2-0); REDs Seoul-Anyang (0-0), Stăuceni-Floreşti (0-0), Quilmes 2-Defensa Res (2-1 sem golo apos vermelho). Favorito 2H 0/1 (Qingdao falhou, ficou 1-1). 1 alerta Golos 0-0 (Rosario-Libertad Asuncion) pendente — não resolvido pelo worker."
+}

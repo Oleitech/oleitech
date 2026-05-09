@@ -1,0 +1,325 @@
+{
+  "date": "2026-05-06",
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Kashima vs Mito Hollyhock",
+        "league": "J1 League (Japan)",
+        "elapsed": 45,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "3-0",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "⚽ GOLOS 0-0",
+        "market": "Over 1.5 Golos",
+        "match": "Kashima vs Mito Hollyhock",
+        "league": "J1 League (Japan)",
+        "elapsed": 52,
+        "score_at_alert": "0-0",
+        "conf": 88,
+        "final_score": "3-0",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Beijing Guoan vs Dalian Zhixing",
+        "league": "Super League (China)",
+        "elapsed": 45,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "3-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "⚽ GOLOS 0-0",
+        "market": "Over 1.5 Golos",
+        "match": "Beijing Guoan vs Dalian Zhixing",
+        "league": "Super League (China)",
+        "elapsed": 50,
+        "score_at_alert": "0-0",
+        "conf": 88,
+        "final_score": "3-0",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Prishtina e Re vs Prishtina",
+        "league": "Superliga (Kosovo)",
+        "elapsed": 78,
+        "score_at_alert": "3-2",
+        "conf": 80,
+        "final_score": "3-2",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Kaisar vs Kairat Almaty",
+        "league": "Premier League (Kazakhstan)",
+        "elapsed": 80,
+        "score_at_alert": "1-1",
+        "conf": 85,
+        "final_score": "1-2",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Tirana vs Vllaznia Shkodër",
+        "league": "Superliga (Albania)",
+        "elapsed": 86,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "1-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Al-Qasim vs Al Minaa Basra",
+        "league": "Iraqi League (Iraq)",
+        "elapsed": 85,
+        "score_at_alert": "3-3",
+        "conf": 80,
+        "final_score": "3-3",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Marseille W vs Dijon W",
+        "league": "Feminine Division 1 (France)",
+        "elapsed": 78,
+        "score_at_alert": "0-1",
+        "conf": 80,
+        "final_score": "0-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Saint-Étienne W vs FC Fleury 91 W",
+        "league": "Feminine Division 1 (France)",
+        "elapsed": 83,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Kladno vs Petřín Plzeň",
+        "league": "3. liga - CFL A (Czech-Republic)",
+        "elapsed": 74,
+        "score_at_alert": "2-1",
+        "conf": 85,
+        "final_score": "5-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Sioni vs Gori",
+        "league": "Erovnuli Liga 2 (Georgia)",
+        "elapsed": 50,
+        "score_at_alert": "1-0",
+        "conf": 80,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "⚽ GOLOS 0-0",
+        "market": "Over 1.5 Golos",
+        "match": "Richards Bay vs Polokwane City",
+        "league": "Premier Soccer League (South-Africa)",
+        "elapsed": 55,
+        "score_at_alert": "0-0",
+        "conf": 85,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Mamelodi Sundowns vs Kaizer Chiefs",
+        "league": "Premier Soccer League (South-Africa)",
+        "elapsed": 51,
+        "score_at_alert": "0-1",
+        "conf": 82,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Marumo Gallants vs TS Galaxy",
+        "league": "Premier Soccer League (South-Africa)",
+        "elapsed": 70,
+        "score_at_alert": "1-1",
+        "conf": 80,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Tubarao vs Jaraguá",
+        "league": "Catarinense - 2 (Brazil)",
+        "elapsed": 51,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Audax Rio vs América RJ",
+        "league": "Carioca A2 (Brazil)",
+        "elapsed": 67,
+        "score_at_alert": "0-1",
+        "conf": 80,
+        "final_score": "0-3",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Dungannon Swifts vs Carrick Rangers",
+        "league": "Premiership (Northern-Ireland)",
+        "elapsed": 45,
+        "score_at_alert": "1-1",
+        "conf": 80,
+        "final_score": "3-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Athletico PR U20 vs Criciuma U20",
+        "league": "Brasileiro U20 A (Brazil)",
+        "elapsed": 85,
+        "score_at_alert": "1-1",
+        "conf": 85,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 19,
+      "green": 7,
+      "red": 12,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 36.8,
+      "by_strategy": {
+        "🟥 CARTÃO VERMELHO": {
+          "total": 15,
+          "green": 4,
+          "red": 11,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 26.7
+        },
+        "⚽ GOLOS 0-0": {
+          "total": 3,
+          "green": 2,
+          "red": 1,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 66.7
+        },
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      }
+    }
+  },
+  "notes": "Terça MAU dia worker (sem stakes). 19 alertas, 7G/12R, hit 36.8% — pior dos 5 dias. Cartão Vermelho desastroso 4/15 (26.7%) — strategy a re-avaliar: 11 REDs apesar de superioridade numérica + odds favoráveis. Padrão claro: cartão tardio (78'-86') com score já fechado falha quase sempre (Tirana-Vllaznia 1-0, Marseille W 0-1, Saint-Etienne W 1-1, Athletico U20 1-1, Audax Rio 0-1 mas FOI GREEN com 0-3 final). Cantos 0/0, mas Golos 0-0 2/3 (Kashima-Mito 0-0→3-0, Beijing-Dalian 0-0→3-0, RED Richards Bay 0-0). BTTS LIVE 1/1 (Mamelodi-Kaizer)."
+}

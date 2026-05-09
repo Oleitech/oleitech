@@ -1,0 +1,190 @@
+{
+  "date": "2026-05-07",
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Lokomotivi Tbilisi vs Betlemi",
+        "league": "Liga 3 (Georgia)",
+        "elapsed": 64,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "final_score": "1-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Nizhny Novgorod U19 vs Rodina Moscow U19",
+        "league": "Youth Championship (Russia)",
+        "elapsed": 45,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Difaa EL Jadida vs Hassania Agadir",
+        "league": "Botola Pro (Morocco)",
+        "elapsed": 45,
+        "score_at_alert": "1-1",
+        "conf": 80,
+        "final_score": "2-2",
+        "final_corners": null,
+        "result": "GREEN_OVER",
+        "hit": true
+      },
+      {
+        "strategy": "📊 FAVORITO 2H",
+        "market": "National Bank of Egypt vence 2ª Parte",
+        "match": "National Bank of Egypt vs Ismaily SC",
+        "league": "Premier League (Egypt)",
+        "elapsed": 45,
+        "score_at_alert": "0-0",
+        "conf": 80,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "⚽ GOLOS 0-0",
+        "market": "Over 1.5 Golos",
+        "match": "National Bank of Egypt vs Ismaily SC",
+        "league": "Premier League (Egypt)",
+        "elapsed": 54,
+        "score_at_alert": "0-0",
+        "conf": 88,
+        "final_score": "0-0",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 18.5 Cantos",
+        "match": "Haras El Hodood vs Masr",
+        "league": "Premier League (Egypt)",
+        "elapsed": 70,
+        "score_at_alert": "1-2",
+        "conf": 90,
+        "final_score": "1-2",
+        "final_corners": 19,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Independiente Riva. Res. vs Deportivo Riestra Res.",
+        "league": "Reserve League (Argentina)",
+        "elapsed": 70,
+        "score_at_alert": "2-2",
+        "conf": 85,
+        "final_score": "2-3",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      },
+      {
+        "strategy": "🟥 CARTÃO VERMELHO",
+        "market": "Próximo Golo / Over",
+        "match": "Ind. Juniors vs Gualaceo SC",
+        "league": "Liga Pro Serie B (Ecuador)",
+        "elapsed": 86,
+        "score_at_alert": "1-1",
+        "conf": 85,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "RED",
+        "hit": false
+      }
+    ],
+    "summary": {
+      "total": 8,
+      "green": 1,
+      "red": 6,
+      "green_over": 1,
+      "pending": 0,
+      "hit_rate": 25,
+      "by_strategy": {
+        "🟥 CARTÃO VERMELHO": {
+          "total": 5,
+          "green": 0,
+          "red": 4,
+          "green_over": 1,
+          "pending": 0,
+          "hit_rate": 20
+        },
+        "📊 FAVORITO 2H": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 0
+        },
+        "⚽ GOLOS 0-0": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 0
+        },
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      }
+    }
+  },
+  "notes": "Quarta MUITO MÁ (sem stakes). Apenas 8 alertas, 2G/6R, hit 25% — pior dos 5 dias. Cartão Vermelho 1/5 (20% — só 1 GREEN_OVER Difaa-Hassania 2-2). Único destaque Cantos Tardios Haras-Masr Over 18.5 (19 cantos, GREEN). Favorito 2H + Golos 0-0 ambos no jogo National Bank-Ismaily 0-0 = 2 REDs no mesmo fixture (jogo bloqueado). Volume baixo confirma tendência: meio da semana pouca atividade live."
+}
