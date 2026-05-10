@@ -27,6 +27,7 @@ const App = {
       btts: document.getElementById('top-picks-grid'),
       favorites: document.getElementById('favorites-grid'),
       scorers: document.getElementById('scorers-grid'),
+      corners: document.getElementById('corners-grid'),
     };
     // Don't cache if no tips were generated
     const totalCards = Object.values(grids).reduce((sum, g) => sum + (g ? g.children.length : 0), 0);
@@ -59,6 +60,8 @@ const App = {
       const grid = document.getElementById(gridId);
       if (grid && html) grid.innerHTML = html;
     });
+    // Old caches (pre-corners) won't have a corners section — leave the grid empty.
+    // updateCounts() will hide the section since its child count is 0.
     const statFixtures = document.getElementById('stat-fixtures');
     if (statFixtures && cached.fixtureCount) statFixtures.textContent = cached.fixtureCount;
     this.updateCounts();
@@ -77,7 +80,7 @@ const App = {
     }
     const title = document.querySelector('.scanner-title');
     if (title) {
-      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS + Favoritos + Marcadores';
+      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS + Favoritos + Marcadores + Cantos';
     }
   },
 
@@ -112,6 +115,7 @@ const App = {
       try { TopPicks.init(); } catch(e) { console.warn('[TB] TopPicks.init:', e); }
       try { Favorites1x2.init(); } catch(e) { console.warn('[TB] Favorites1x2.init:', e); }
       try { Scorers.init(); } catch(e) { console.warn('[TB] Scorers.init:', e); }
+      try { Corners.init(); } catch(e) { console.warn('[TB] Corners.init:', e); }
 
       this.scannersReady = true;
       console.log('[TB] Scanners ready');
@@ -207,6 +211,13 @@ const App = {
         </div>
         <div class="tips-grid" id="scorers-grid"></div>
       </section>
+
+      <section id="section-corners" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--m-corners)"></span> Cantos (Pré-jogo) <span class="badge" id="badge-corners">0</span></div>
+        </div>
+        <div class="tips-grid" id="corners-grid"></div>
+      </section>
     `;
 
   },
@@ -216,6 +227,7 @@ const App = {
       { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
       { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
       { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
+      { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
     ];
     let total = 0;
     for (const b of buckets) {
@@ -287,23 +299,31 @@ const App = {
         await TopPicks.analyze(bttsFixtures);
       }
       this.updateCounts();
-      this.updateScanProgress('BTTS completo', 40);
+      this.updateScanProgress('BTTS completo', 30);
 
       // Step 3: Favoritos 1X2
-      this.updateScanProgress('A analisar Favoritos 1X2...', 45);
+      this.updateScanProgress('A analisar Favoritos 1X2...', 35);
       Favorites1x2.analyzed = [];
       Favorites1x2.isAnalyzing = false;
       await Favorites1x2.analyze(fixtures);
       this.updateCounts();
-      this.updateScanProgress('Favoritos completo', 70);
+      this.updateScanProgress('Favoritos completo', 55);
 
       // Step 4: Marcadores (only top-5 + PT/NL/BE)
-      this.updateScanProgress('A analisar Marcadores...', 75);
+      this.updateScanProgress('A analisar Marcadores...', 60);
       Scorers.analyzed = [];
       Scorers.isAnalyzing = false;
       await Scorers.analyze(fixtures);
       this.updateCounts();
-      this.updateScanProgress('Marcadores completo', 90);
+      this.updateScanProgress('Marcadores completo', 80);
+
+      // Step 5: Cantos pré-jogo (Betclic só oferece este mercado pré-match)
+      this.updateScanProgress('A analisar Cantos...', 82);
+      Corners.analyzed = [];
+      Corners.isAnalyzing = false;
+      await Corners.analyze(fixtures);
+      this.updateCounts();
+      this.updateScanProgress('Cantos completo', 92);
 
       // Step 6: Save pre-match data for live engine
       this.savePreMatchDataForLive();
