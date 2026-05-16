@@ -123,12 +123,14 @@ const UI = {
   },
 
   // New design: render a tip card
-  renderTipCard({ home, away, homeLogo, awayLogo, league, time, marketKey, marketLabel, pick, odds, score, factors, learningFactors, stake }) {
+  renderTipCard({ home, away, homeLogo, awayLogo, league, time, marketKey, marketLabel, pick, odds, score, factors, learningFactors, stake, tese, sources }) {
     const MARKET_COLORS = {
-      btts: 'var(--m-btts)', over25: 'var(--m-over)', cards: 'var(--m-cards)', corners: 'var(--m-corners)'
+      btts: 'var(--m-btts)', over25: 'var(--m-over)', cards: 'var(--m-cards)',
+      corners: 'var(--m-corners)', favorites: 'var(--accent)', scorers: 'var(--amber)'
     };
     const MARKET_LABELS = {
-      btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões', corners: 'Cantos'
+      btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões',
+      corners: 'Cantos', favorites: 'Favorito 1X2', scorers: 'Marcador'
     };
     const color = MARKET_COLORS[marketKey] || 'var(--accent)';
     const label = marketLabel || MARKET_LABELS[marketKey] || marketKey;
@@ -142,6 +144,18 @@ const UI = {
       <ul class="reasoning">
         ${allFactors.slice(0, 4).map(f => `<li>${f.replace(/^[✓⚠️🔥⚡✔️⭐●◯\u26A0\u2713\u2714\u2B50\u26BD\u2615\u2757]/g, '').trim()}</li>`).join('')}
       </ul>` : '';
+
+    const teseHtml = tese ? `
+      <div class="tip-tese">
+        <div class="tip-tese__label">Tese</div>
+        <p class="tip-tese__body">${tese}</p>
+      </div>` : '';
+
+    const sourcesHtml = sources && sources.length > 0 ? `
+      <div class="tip-sources">
+        <span class="tip-sources__label">Fontes</span>
+        <span class="tip-sources__list">${sources.join(' · ')}</span>
+      </div>` : '';
 
     const card = this.el('article', 'tip');
     card.innerHTML = `
@@ -170,7 +184,9 @@ const UI = {
         </div>
         <div class="market-pick">${pick || ''}</div>
       </div>
+      ${teseHtml}
       ${reasonsHtml}
+      ${sourcesHtml}
       <div class="tip-meta-row">
         <div class="odds">
           <span class="label">Odds</span>

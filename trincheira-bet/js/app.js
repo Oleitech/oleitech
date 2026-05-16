@@ -1,97 +1,13 @@
 const App = {
-  selectedDate: 0,
-  scanning: false,
-  scannersReady: false,
-
-  getCacheKey() {
-    return 'tb_tips_' + UI.getDateStr(0);
+  GRIDS: {
+    btts: { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
+    favorites: { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
+    scorers: { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
+    corners: { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
   },
 
-  getCachedTips() {
-    try {
-      const raw = localStorage.getItem(this.getCacheKey());
-      if (!raw) return null;
-      const data = JSON.parse(raw);
-      if (data.expiresAt && Date.now() > data.expiresAt) {
-        localStorage.removeItem(this.getCacheKey());
-        return null;
-      }
-      return data;
-    } catch (e) {
-      return null;
-    }
-  },
-
-  saveTipsToCache() {
-    const grids = {
-      btts: document.getElementById('top-picks-grid'),
-      favorites: document.getElementById('favorites-grid'),
-      scorers: document.getElementById('scorers-grid'),
-      corners: document.getElementById('corners-grid'),
-    };
-    // Don't cache if no tips were generated
-    const totalCards = Object.values(grids).reduce((sum, g) => sum + (g ? g.children.length : 0), 0);
-    if (totalCards === 0) return;
-
-    const cached = { markets: {}, fixtureCount: 0, expiresAt: 0 };
-    Object.entries(grids).forEach(([key, grid]) => {
-      cached.markets[key] = grid ? grid.innerHTML : '';
-    });
-    const statFixtures = document.getElementById('stat-fixtures');
-    cached.fixtureCount = statFixtures ? parseInt(statFixtures.textContent) || 0 : 0;
-    const now = new Date();
-    cached.expiresAt = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0).getTime();
-    try {
-      localStorage.setItem(this.getCacheKey(), JSON.stringify(cached));
-    } catch (e) {
-      console.warn('Failed to save tips cache:', e);
-    }
-  },
-
-  restoreFromCache(cached) {
-    // Check if cache has actual content (not empty grids from failed scan)
-    const hasContent = Object.values(cached.markets).some(html => html && html.trim().length > 10);
-    if (!hasContent) {
-      localStorage.removeItem(this.getCacheKey());
-      return;
-    }
-    Object.entries(cached.markets).forEach(([key, html]) => {
-      const gridId = key === 'btts' ? 'top-picks-grid' : key + '-grid';
-      const grid = document.getElementById(gridId);
-      if (grid && html) grid.innerHTML = html;
-    });
-    // Old caches (pre-corners) won't have a corners section — leave the grid empty.
-    // updateCounts() will hide the section since its child count is 0.
-    const statFixtures = document.getElementById('stat-fixtures');
-    if (statFixtures && cached.fixtureCount) statFixtures.textContent = cached.fixtureCount;
-    this.updateCounts();
-    this.setButtonAnalyzed();
-  },
-
-  setButtonAnalyzed() {
-    const btn = document.getElementById('btn-scan-all');
-    if (btn) {
-      btn.innerHTML = Layout.icon('bolt') + ' Analisado';
-      btn.classList.remove('btn--primary');
-      btn.classList.add('btn--ghost');
-      btn.style.borderColor = 'var(--green)';
-      btn.style.color = 'var(--green)';
-      btn.disabled = false;
-    }
-    const title = document.querySelector('.scanner-title');
-    if (title) {
-      title.innerHTML = '<span class="pulse" style="background:var(--green)"></span> Análise completa &middot; BTTS + Favoritos + Marcadores + Cantos';
-    }
-  },
-
-  purgeOldTipsCache() {
-    const todayKey = this.getCacheKey();
-    const toRemove = [];
-    for (let i = 0; i < localStorage.length; i++) {
-      const key = localStorage.key(i);
-      if (key && key.startsWith('tb_tips_') && key !== todayKey) toRemove.push(key);
-    }
-    toRemove.forEach(k => localStorage.removeItem(k));
+  getTodayPath() {
+    return `tips/${UI.getDateStr(0)}.json`;
   },
 
   async init() {
@@ -102,51 +18,12 @@ const App = {
       if (!main) { console.error('[TB] Layout.init failed'); return; }
 
       this.buildTipsPage(main);
-      this.attachScanButton();
-
       Cache.purge();
-      this.purgeOldTipsCache();
 
-      await Learning.init();
-      console.log('[TB] Learning ready');
-
-      // Init BTTS scanner
-      try { Picks.init(); } catch(e) { console.warn('[TB] Picks.init:', e); }
-      try { TopPicks.init(); } catch(e) { console.warn('[TB] TopPicks.init:', e); }
-      try { Favorites1x2.init(); } catch(e) { console.warn('[TB] Favorites1x2.init:', e); }
-      try { Scorers.init(); } catch(e) { console.warn('[TB] Scorers.init:', e); }
-      try { Corners.init(); } catch(e) { console.warn('[TB] Corners.init:', e); }
-
-      this.scannersReady = true;
-      console.log('[TB] Scanners ready');
-
-      // Restore cached tips if available
-      const cached = this.getCachedTips();
-      if (cached) {
-        console.log('[TB] Restoring from cache');
-        this.restoreFromCache(cached);
-      } else {
-        console.log('[TB] No cache — waiting for user to click Scan');
-      }
+      await this.loadCuratedTips();
     } catch (e) {
       console.error('[TB] Init failed:', e);
     }
-  },
-
-  // Attach scan button separately to guarantee it works
-  attachScanButton() {
-    const btn = document.getElementById('btn-scan-all');
-    if (!btn) { console.error('[TB] btn-scan-all not found!'); return; }
-    btn.addEventListener('click', async () => {
-      console.log('[TB] Scan button clicked, scanning:', this.scanning, 'ready:', this.scannersReady);
-      if (this.scanning) return;
-      if (!this.scannersReady) {
-        console.warn('[TB] Scanners not ready yet');
-        return;
-      }
-      await this.runScan();
-    });
-    console.log('[TB] Scan button attached');
   },
 
   buildTipsPage(main) {
@@ -161,37 +38,22 @@ const App = {
           <h1>Tips de hoje</h1>
           <div class="subtitle" id="tips-subtitle">${dateStr}</div>
         </div>
-        <div class="topbar-actions">
-          <button class="btn btn--primary" id="btn-scan-all">
-            ${Layout.icon('bolt')} Scan hoje
-          </button>
-        </div>
       </header>
 
-      <div class="scanner" id="scanner-card">
+      <div id="tips-status" class="scanner" style="display:none">
         <div class="scanner-row">
           <div style="width:100%">
-            <div class="scanner-title">
-              <span class="pulse"></span>
-              Scanner pronto &middot; BTTS + Favoritos 1X2 + Marcadores
-            </div>
+            <div class="scanner-title" id="tips-status-title"></div>
             <div class="scanner-stats" style="margin-top:8px">
-              <span><span class="k">Jogos analisados</span><span class="v num" id="stat-fixtures">—</span></span>
-              <span><span class="k">Tips geradas</span><span class="v num" id="stat-tips">0</span></span>
+              <span><span class="k">Tips publicadas</span><span class="v num" id="stat-tips">0</span></span>
+              <span><span class="k">Atualizado</span><span class="v" id="stat-updated">—</span></span>
             </div>
-            <div id="scan-progress-wrap" style="display:none;margin-top:12px">
-              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
-                <span style="font-size:12px;color:var(--text-2)" id="scan-progress-text">A iniciar...</span>
-              </div>
-              <div style="height:4px;background:var(--bg-inset);border-radius:2px;overflow:hidden">
-                <div id="scan-progress-fill" style="height:100%;background:var(--accent);border-radius:2px;width:0%;transition:width 0.3s ease"></div>
-              </div>
-            </div>
+            <div id="tips-notes" style="margin-top:10px;font-size:13px;color:var(--text-2);line-height:1.5;display:none"></div>
           </div>
         </div>
       </div>
 
-      <section id="section-btts">
+      <section id="section-btts" style="display:none">
         <div class="section-head">
           <div class="title"><span class="swatch" style="background:var(--m-btts)"></span> Ambas marcam (BTTS) <span class="badge" id="badge-btts">0</span></div>
         </div>
@@ -200,7 +62,7 @@ const App = {
 
       <section id="section-favorites" style="display:none">
         <div class="section-head">
-          <div class="title"><span class="swatch" style="background:var(--accent)"></span> Favoritos 1X2 (odds 1.55–2.00) <span class="badge" id="badge-favorites">0</span></div>
+          <div class="title"><span class="swatch" style="background:var(--accent)"></span> Favoritos 1X2 <span class="badge" id="badge-favorites">0</span></div>
         </div>
         <div class="tips-grid" id="favorites-grid"></div>
       </section>
@@ -219,158 +81,129 @@ const App = {
         <div class="tips-grid" id="corners-grid"></div>
       </section>
     `;
+  },
 
+  async loadCuratedTips() {
+    this.showStatus('A carregar tips curadas...', 'loading');
+    let payload;
+    try {
+      const res = await fetch(this.getTodayPath(), { cache: 'no-store' });
+      if (res.status === 404) {
+        this.showStatus('Ainda sem tips publicadas para hoje.', 'empty');
+        return;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      payload = await res.json();
+    } catch (e) {
+      console.warn('[TB] Failed to load curated tips:', e);
+      this.showStatus('Sem tips publicadas para hoje.', 'empty');
+      return;
+    }
+
+    const tips = Array.isArray(payload?.tips) ? payload.tips : [];
+    if (tips.length === 0) {
+      this.showStatus('Dia sem tips — nenhum jogo cumpriu os critérios.', 'empty');
+      return;
+    }
+
+    this.renderTips(tips);
+    this.savePreMatchDataForLive(tips);
+    this.updateMeta(payload, tips.length);
+  },
+
+  showStatus(text, kind) {
+    const wrap = document.getElementById('tips-status');
+    const title = document.getElementById('tips-status-title');
+    if (!wrap || !title) return;
+    wrap.style.display = '';
+    const dotColor = kind === 'empty' ? 'var(--text-4)' : kind === 'loading' ? 'var(--amber)' : 'var(--green)';
+    title.innerHTML = `<span class="pulse" style="background:${dotColor}"></span> ${text}`;
+  },
+
+  renderTips(tips) {
+    Object.values(this.GRIDS).forEach(g => {
+      const grid = document.getElementById(g.gridId);
+      if (grid) grid.innerHTML = '';
+    });
+
+    tips.forEach(tip => {
+      const cfg = this.GRIDS[tip.market];
+      if (!cfg) {
+        console.warn('[TB] Unknown market in tip:', tip.market);
+        return;
+      }
+      const grid = document.getElementById(cfg.gridId);
+      if (!grid) return;
+      const card = this.buildCard(tip);
+      if (card) grid.appendChild(card);
+    });
+
+    this.updateCounts();
+  },
+
+  buildCard(tip) {
+    const kickoff = tip.kickoff ? new Date(tip.kickoff) : null;
+    const time = kickoff ? kickoff.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' }) : '';
+    return UI.renderTipCard({
+      home: tip.home?.name,
+      away: tip.away?.name,
+      homeLogo: tip.home?.logo,
+      awayLogo: tip.away?.logo,
+      league: tip.league,
+      time,
+      marketKey: tip.market,
+      pick: tip.pick,
+      odds: typeof tip.odds === 'number' ? tip.odds : null,
+      score: typeof tip.score === 'number' ? tip.score : 70,
+      factors: tip.factors || [],
+      stake: tip.stake,
+      tese: tip.tese,
+      sources: tip.sources || [],
+    });
   },
 
   updateCounts() {
-    const buckets = [
-      { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
-      { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
-      { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
-      { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
-    ];
     let total = 0;
-    for (const b of buckets) {
-      const grid = document.getElementById(b.gridId);
+    Object.values(this.GRIDS).forEach(cfg => {
+      const grid = document.getElementById(cfg.gridId);
       const n = grid ? grid.children.length : 0;
       total += n;
-      const badge = document.getElementById(b.badgeId);
+      const badge = document.getElementById(cfg.badgeId);
       if (badge) badge.textContent = n;
-      const section = document.getElementById(b.sectionId);
+      const section = document.getElementById(cfg.sectionId);
       if (section) section.style.display = n > 0 ? '' : 'none';
-    }
+    });
     const statTips = document.getElementById('stat-tips');
     if (statTips) statTips.textContent = total;
   },
 
-  updateScanProgress(text, pct) {
-    const textEl = document.getElementById('scan-progress-text');
-    const fillEl = document.getElementById('scan-progress-fill');
-    if (textEl) textEl.textContent = text;
-    if (fillEl && pct != null) fillEl.style.width = pct + '%';
+  updateMeta(payload, count) {
+    this.showStatus(`Tips publicadas · ${count} ${count === 1 ? 'aposta' : 'apostas'}`, 'ready');
+    const statUpdated = document.getElementById('stat-updated');
+    if (statUpdated && payload.generated_at) {
+      const d = new Date(payload.generated_at);
+      statUpdated.textContent = isNaN(d) ? payload.generated_at : d.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
+    }
+    const notes = document.getElementById('tips-notes');
+    if (notes && payload.notes) {
+      notes.style.display = '';
+      notes.textContent = payload.notes;
+    }
   },
 
-  async runScan() {
-    this.scanning = true;
-    console.log('[TB] runScan started');
-
-    const btn = document.getElementById('btn-scan-all');
-    if (btn) {
-      btn.innerHTML = Layout.icon('refresh') + ' A analisar...';
-      btn.classList.add('btn--primary');
-      btn.classList.remove('btn--ghost');
-      btn.style.borderColor = '';
-      btn.style.color = '';
-      btn.disabled = true;
-    }
-
-    // Show progress
-    const progressWrap = document.getElementById('scan-progress-wrap');
-    if (progressWrap) progressWrap.style.display = '';
-    this.updateScanProgress('A carregar jogos...', 5);
-
-    try {
-      // Step 1: Load fixtures
-      const dateStr = UI.getDateStr(0);
-      await Fixtures.load(dateStr);
-
-      const fixtures = Fixtures.fixturesData;
-      const statFixtures = document.getElementById('stat-fixtures');
-      if (statFixtures) statFixtures.textContent = fixtures ? fixtures.length : 0;
-
-      if (!fixtures || fixtures.length === 0) {
-        this.updateScanProgress('Sem jogos disponíveis hoje', 100);
-        this.scanning = false;
-        if (btn) { btn.innerHTML = Layout.icon('bolt') + ' Scan hoje'; btn.disabled = false; }
-        return;
-      }
-
-      console.log('[TB] Fixtures loaded:', fixtures.length);
-
-      // Step 2: BTTS
-      this.updateScanProgress('A analisar BTTS...', 10);
-      const bttsFixtures = TopPicks.getBTTSFixtures(fixtures);
-      console.log('[TB] BTTS fixtures:', bttsFixtures.length);
-      if (bttsFixtures.length > 0) {
-        const grid = document.getElementById('top-picks-grid');
-        if (grid) grid.innerHTML = '';
-        TopPicks.analyzed = [];
-        TopPicks.isAnalyzing = false;
-        await TopPicks.analyze(bttsFixtures);
-      }
-      this.updateCounts();
-      this.updateScanProgress('BTTS completo', 30);
-
-      // Step 3: Favoritos 1X2
-      this.updateScanProgress('A analisar Favoritos 1X2...', 35);
-      Favorites1x2.analyzed = [];
-      Favorites1x2.isAnalyzing = false;
-      await Favorites1x2.analyze(fixtures);
-      this.updateCounts();
-      this.updateScanProgress('Favoritos completo', 55);
-
-      // Step 4: Marcadores (only top-5 + PT/NL/BE)
-      this.updateScanProgress('A analisar Marcadores...', 60);
-      Scorers.analyzed = [];
-      Scorers.isAnalyzing = false;
-      await Scorers.analyze(fixtures);
-      this.updateCounts();
-      this.updateScanProgress('Marcadores completo', 80);
-
-      // Step 5: Cantos pré-jogo (Betclic só oferece este mercado pré-match)
-      this.updateScanProgress('A analisar Cantos...', 82);
-      Corners.analyzed = [];
-      Corners.isAnalyzing = false;
-      await Corners.analyze(fixtures);
-      this.updateCounts();
-      this.updateScanProgress('Cantos completo', 92);
-
-      // Step 6: Save pre-match data for live engine
-      this.savePreMatchDataForLive();
-
-      // Step 7: Finalize
-      this.updateScanProgress('Completo!', 100);
-      this.updateCounts();
-      this.saveTipsToCache();
-      this.setButtonAnalyzed();
-      console.log('[TB] Scan complete');
-
-      // Hide progress after a moment
-      setTimeout(() => {
-        if (progressWrap) progressWrap.style.display = 'none';
-      }, 1500);
-
-    } catch (e) {
-      console.error('[TB] Scan failed:', e);
-      this.updateScanProgress('Erro: ' + e.message, 0);
-      if (btn) { btn.innerHTML = Layout.icon('bolt') + ' Scan hoje'; btn.disabled = false; }
-    }
-
-    this.scanning = false;
-  },
-
-  /** Save pre-match analysis data for the live engine to use */
-  savePreMatchDataForLive() {
+  /** Save pre-match analysis data for the live engine */
+  savePreMatchDataForLive(tips) {
     const map = {};
-
-    // BTTS scores
-    if (TopPicks.analyzed && TopPicks.analyzed.length) {
-      TopPicks.analyzed.forEach(r => {
-        const fid = r.fixture.fixture.id;
-        if (!map[fid]) map[fid] = {};
-        map[fid].bttsScore = r.btts?.score || 0;
-      });
-    }
-
-    if (Object.keys(map).length > 0) {
-      // Expire at end of today
-      const now = new Date();
-      const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-      const ttl = midnight - now;
-      Cache.set('prematch_live', map, ttl);
-      console.log('[TB] Pre-match data saved for live engine:', Object.keys(map).length, 'fixtures');
-    }
-  }
+    tips.forEach(t => {
+      if (t.market !== 'btts' || !t.fixtureId) return;
+      map[t.fixtureId] = { bttsScore: typeof t.score === 'number' ? t.score : 0 };
+    });
+    if (Object.keys(map).length === 0) return;
+    const now = new Date();
+    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+    Cache.set('prematch_live', map, midnight - now);
+    console.log('[TB] Pre-match data saved for live engine:', Object.keys(map).length, 'fixtures');
+  },
 };
 
 document.addEventListener('DOMContentLoaded', () => {

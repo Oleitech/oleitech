@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T11:30:00+01:00",
+  "notes": "Exemplo de ficheiro — copia para YYYY-MM-DD.json no dia da aposta.",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim",
+      "fixtureId": 1234567,
+      "home": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png" },
+      "away": { "name": "Arsenal",   "logo": "https://media.api-sports.io/football/teams/42.png" },
+      "league": "Premier League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
+      "kickoff": "2026-05-16T17:30:00Z",
+      "odds": 1.72,
+      "bookmaker": "Betclic",
+      "score": 78,
+      "stake": 10,
+      "tese": "Liverpool atravessa um momento ofensivo dominante em Anfield (média 2.6 golos marcados nos últimos 6 jogos em casa) e o Arsenal, apesar da boa fase, mantém um padrão de fragilidade defensiva fora — sem clean sheet em deslocação há 12 jornadas. Sem ausências de peso na frente de ataque dos dois lados (Salah e Saka ambos confirmados nos onzes prováveis publicados pelo Sky Sports), o cenário aponta para um jogo aberto com golos dos dois lados.",
+      "factors": [
+        "H2H: 6/6 últimos com ambas a marcar",
+        "Liverpool 9/10 em casa com BTTS",
+        "Arsenal sem clean sheet fora há 12 jogos",
+        "Salah e Saka ambos confirmados no onze"
+      ],
+      "sources": [
+        "Sky Sports — onze 11h00",
+        "API-Football H2H + form",
+        "Sofascore stats"
+      ]
+    },
+    {
+      "market": "scorers",
+      "pick": "Saka marca",
+      "fixtureId": 1234567,
+      "home": { "name": "Liverpool", "logo": "https://media.api-sports.io/football/teams/40.png" },
+      "away": { "name": "Arsenal",   "logo": "https://media.api-sports.io/football/teams/42.png" },
+      "league": "Premier League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
+      "kickoff": "2026-05-16T17:30:00Z",
+      "odds": 2.40,
+      "bookmaker": "Betclic",
+      "score": 72,
+      "stake": 5,
+      "tese": "Saka tem golo em 7 dos últimos 10 jogos do Arsenal e o Liverpool concedeu pelo menos 1 golo em 8/10 últimos em casa. O lado direito do ataque do Arsenal vai encontrar o lateral esquerdo do Liverpool (Tsimikas, mais ofensivo) — um confronto direto favorável a Saka.",
+      "factors": [
+        "Saka: 7/10 jogos com golo",
+        "Tsimikas no lado esquerdo (mais ofensivo)",
+        "Liverpool concedeu em 8/10 em casa"
+      ],
+      "sources": [
+        "Sky Sports — onze 11h00",
+        "Understat xG by player"
+      ]
+    }
+  ]
+}

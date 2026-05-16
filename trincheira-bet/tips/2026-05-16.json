@@ -1,0 +1,154 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T12:00:00+01:00",
+  "notes": "Sábado de jornada cheia: última jornada Bundesliga (CL + relegação por decidir), final FA Cup, decisor do título Premiership escocês, jornada 34 Liga Portugal. 5 tips curadas após análise matemática (API-Football), pesquisa qualitativa (notícias/onzes/lesões) e cross-check cego com 7+ sites de tipsters. Sistema de stakes B (bandas por score).",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim + Mais de 2.5 golos",
+      "fixtureId": 1388608,
+      "home": { "name": "Eintracht Frankfurt", "logo": "https://media.api-sports.io/football/teams/169.png" },
+      "away": { "name": "VfB Stuttgart", "logo": "https://media.api-sports.io/football/teams/172.png" },
+      "league": "Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-05-16T14:30:00+01:00",
+      "odds": 1.44,
+      "bookmaker": "Bet365",
+      "score": 85,
+      "stake": 10,
+      "tese": "Os últimos 7 jogos do Frankfurt na Bundesliga TODOS com BTTS. Frankfurt BTTS-rate 73%, Stuttgart 61%. Stuttgart nunca falhou marcar fora esta época (0/17 FTS) e arma 3-4-1-2 com três avançados (Undav + Demirovic + Nartey) porque PRECISA pontuar para garantir Champions — empatado com Hoffenheim, +5 saldo. Frankfurt joga sem Collins na defesa central, sem Hojlund e Batshuayi. H2H 4/6 BTTS e média 3.7 golos. A combinação BTTS + Over 2.5 captura a tese completa com odd muito mais atrativa que BTTS isolado (1.44 vs 1.30).",
+      "factors": [
+        "Frankfurt 7/7 últimos jogos com BTTS",
+        "Stuttgart FTS away = 0/17 esta época",
+        "Stuttgart luta o 4º lugar (CL push) com 3-4-1-2 ofensivo",
+        "Frankfurt sem Collins (defesa central)",
+        "H2H 4/6 BTTS, média 3.7 golos",
+        "Consenso de 7/7 tipsters em BTTS ou Over 2.5"
+      ],
+      "sources": [
+        "Footballwhispers",
+        "Sportsgambler",
+        "Tips.GG",
+        "SportingLife final-day",
+        "API-Football H2H + form"
+      ]
+    },
+    {
+      "market": "favorites",
+      "pick": "Vitória Manchester City",
+      "fixtureId": 1542889,
+      "home": { "name": "Chelsea", "logo": "https://media.api-sports.io/football/teams/49.png" },
+      "away": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png" },
+      "league": "FA Cup — Final",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/45.png",
+      "kickoff": "2026-05-16T15:00:00+01:00",
+      "odds": 1.73,
+      "bookmaker": "Bet365",
+      "score": 83,
+      "stake": 7,
+      "tese": "City em caça ao treble doméstico após League Cup, invicto há 13 jogos vs Chelsea (10 vitórias). Venceu 8 dos últimos 9 em todas as competições. Chelsea perdeu 6 jogos seguidos na PL antes do empate com Liverpool, marcando só 1 golo — está em queda livre. Em 12/04 perderam 0-3 em Stamford Bridge. Doku incandescente (4 golos em 4 jogos), Haaland a fechar época em modo pichichi. Maresca arma 4-2-3-1 reativo mas a diferença de qualidade é enorme. H2H média 2.8 golos/jogo a favor de City nos últimos 10. Consenso unânime de 7+ tipsters (Lineups, William Hill, Goal, Ladbrokes, Betfred).",
+      "factors": [
+        "City invicto há 13 jogos vs Chelsea (10V/3E)",
+        "Última PL Chelsea 0-3 Manchester City (12/04/26)",
+        "City a perseguir treble doméstico",
+        "Chelsea perdeu 6/7 PL antes do empate com Liverpool",
+        "Doku 4 golos em 4 jogos",
+        "Consenso unânime de tipsters"
+      ],
+      "sources": [
+        "Lineups.com",
+        "William Hill",
+        "Goal.com",
+        "Ladbrokes",
+        "Al Jazeera",
+        "ESPN"
+      ]
+    },
+    {
+      "market": "scorers",
+      "pick": "Serhou Guirassy marca",
+      "fixtureId": 1388613,
+      "home": { "name": "Werder Bremen", "logo": "https://media.api-sports.io/football/teams/162.png" },
+      "away": { "name": "Borussia Dortmund", "logo": "https://media.api-sports.io/football/teams/165.png" },
+      "league": "Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-05-16T14:30:00+01:00",
+      "odds": 1.73,
+      "bookmaker": "Bet365",
+      "score": 83,
+      "stake": 7,
+      "tese": "Pick consensual de 7/7 tipsters. Guirassy soma 16 golos na Bundesliga (21 em todas comp), marcou na jornada passada vs Frankfurt e marcou ao Bremen no 3-0 em Dortmund na 1ª volta. Bremen entra com a defesa fraturada: 6 ausências confirmadas (guarda-redes Hein out, suspenso Sugawara, defesas Wober/Malatini/Topp/Weiser). Dortmund (3º garantido) leva onze cheio: Bellingham + Brandt + Sabitzer + Inácio + Guirassy. Bremen concede 1.8/jogo em casa, agora com peças centrais ausentes. Betway oferece o mesmo pick @ 1.90, ou seja a nossa odd 1.73 ainda tem boa margem.",
+      "factors": [
+        "Guirassy 16 golos BL na época",
+        "Marcou ao Bremen no 3-0 da 1ª volta",
+        "Marcou ao Frankfurt na jornada passada",
+        "Bremen com 6 ausências (GR + suspenso + 4 defesas)",
+        "Dortmund onze tipo confirmado",
+        "Bremen concede 1.8 golos/jogo em casa"
+      ],
+      "sources": [
+        "Goal.com",
+        "Sportsgambler",
+        "Sports Mole",
+        "Dailysports",
+        "Tribuna squad confirmation",
+        "TheScore"
+      ]
+    },
+    {
+      "market": "favorites",
+      "pick": "Vitória Celtic",
+      "fixtureId": 1540032,
+      "home": { "name": "Celtic", "logo": "https://media.api-sports.io/football/teams/247.png" },
+      "away": { "name": "Heart Of Midlothian", "logo": "https://media.api-sports.io/football/teams/254.png" },
+      "league": "Scottish Premiership",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/179.png",
+      "kickoff": "2026-05-16T12:30:00+01:00",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 7,
+      "tese": "Decisor de título escocês: Celtic precisa de vencer Hearts na última jornada para ser campeão. Casa do Celtic Park com motivação máxima — 9 clean sheets em 17 jogos em casa, 2.2 golos marcados/jogo e apenas 0.8 sofridos. Hearts é o 2º melhor escocês mas Celtic é claramente superior em qualidade e em momento crítico raramente falha (último título perdido na última jornada foi há muitos anos). H2H 5/6 BTTS = sinal que o jogo será aberto, mas a vitória pertence ao mais forte. Betfred destaca-o no acca do dia.",
+      "factors": [
+        "Decisor de título — Celtic precisa vencer",
+        "Celtic Park: 9 CS em 17 jogos, 2.2 golos marcados/jogo",
+        "Celtic concede só 0.8/jogo em casa",
+        "Forma 54% vs Hearts 46%",
+        "Betfred picks Celtic no acca de sábado"
+      ],
+      "sources": [
+        "Betfred Saturday acca",
+        "API-Football team stats",
+        "Sofascore"
+      ]
+    },
+    {
+      "market": "favorites",
+      "pick": "Vitória Heidenheim",
+      "fixtureId": 1388610,
+      "home": { "name": "1. FC Heidenheim", "logo": "https://media.api-sports.io/football/teams/180.png" },
+      "away": { "name": "FSV Mainz 05", "logo": "https://media.api-sports.io/football/teams/164.png" },
+      "league": "Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-05-16T14:30:00+01:00",
+      "odds": 1.83,
+      "bookmaker": "Bet365",
+      "score": 73,
+      "stake": 5,
+      "tese": "Última jornada com Heidenheim no 17º lugar empatado com St.Pauli e Wolfsburg em 26 pontos — TEM de vencer para evitar relegação automática. Forma recente do Heidenheim em casa é forte: 71% de forma (3 vitórias nos últimos 5), enquanto Mainz só venceu 1 dos últimos 6 jogos e está em fim de época descomprometido. Mainz com 4 ausências importantes: Silas (tíbia partida), Dal, Hollerbach, Leitsch. Heidenheim concede 2.2 em casa (defesa fraca) mas com Mainz em modo passivo a probabilidade de marcar 2+ existe. Racing Post (Dan Childs) e Betfred ambos no Heidenheim.",
+      "factors": [
+        "Heidenheim 17º, TEM de vencer para evitar relegação",
+        "Heidenheim 71% forma (3V/5)",
+        "Mainz 1 vitória em 6 jogos (fim de época)",
+        "Mainz com 4 lesionados (Silas, Dal, Hollerbach, Leitsch)",
+        "Racing Post + Betfred consensus pick"
+      ],
+      "sources": [
+        "Racing Post (Dan Childs)",
+        "Betfred Saturday acca",
+        "SportingLife Bundesliga final-day",
+        "Dailysports"
+      ]
+    }
+  ]
+}

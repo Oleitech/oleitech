@@ -297,6 +297,50 @@
   background: var(--text-4); margin-top: 8px; flex-shrink: 0;
 }
 
+/* Tese block (curated tips) */
+.tip-tese {
+  background: var(--bg-inset);
+  border-left: 2px solid var(--accent);
+  border-radius: 4px;
+  padding: 10px 12px;
+  margin-top: 4px;
+}
+.tip-tese__label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-3);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.tip-tese__body {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-1);
+  line-height: 1.5;
+}
+
+/* Sources block */
+.tip-sources {
+  display: flex; gap: 8px; align-items: baseline;
+  font-size: 11px;
+  color: var(--text-3);
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+  margin-top: 2px;
+}
+.tip-sources__label {
+  font-family: var(--font-mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-4);
+  flex-shrink: 0;
+}
+.tip-sources__list {
+  color: var(--text-2);
+  line-height: 1.4;
+}
+
 /* ============ RESULTS ============ */
 .month {
   margin-bottom: var(--sp-5);
