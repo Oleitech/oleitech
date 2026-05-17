@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T12:30:00+01:00",
+  "notes": "Último dia de Premier League / Serie A / La Liga / Ligue 1 — slate massivo. 4 tips curadas, todas em jogos com KO ≥ 14:00 (tips iniciais para Pisa-Napoli e Roma-Lazio das 11:00 ficaram fora da janela de aposta). Foco: equipas favoritas em casa com motivação contextual (CL race / recorde) e adversário descomprometido ou em forma fraca. Sistema de stakes B (bandas por score).",
+  "tips": [
+    {
+      "market": "favorites",
+      "pick": "Inter vence + Mais de 2.5 golos",
+      "fixtureId": 1378228,
+      "home": { "name": "Inter", "logo": "https://media.api-sports.io/football/teams/505.png" },
+      "away": { "name": "Hellas Verona", "logo": "https://media.api-sports.io/football/teams/504.png" },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-05-17T14:00:00+01:00",
+      "odds": 1.94,
+      "bookmaker": "Bet365",
+      "score": 82,
+      "stake": 7,
+      "tese": "Inter campeão da Serie A há uma semana, última jornada em San Siro com cerimónia de troféu. Casa absolutamente intransponível: 14V/2E/2D, média 2.7 golos marcados e só 0.8 sofridos, 1 único FTS na época em casa. Verona penúltima (20pts, despromovida há semanas) com forma horrenda — apenas 2 vitórias em 18 jogos fora, 0.7 GF / 1.8 GA, FTS em 9/18 fora. Inter pode rodar pré-final UCL (30/05) mas mesmo equipa B é favorita absoluta neste contexto. O 'Over 2.5' captura o ataque do Inter (85 golos marcados na época) contra a pior defesa fora da liga, transformando a baixa odd do Inter solo (1.27) numa combinada com valor (1.94).",
+      "factors": [
+        "Inter em casa 14V/2E/2D, 2.7 GF / 0.8 GA",
+        "Inter campeão — última em casa com festa do troféu",
+        "Verona 2V em 18 jogos fora (D/L recorrente)",
+        "Verona FTS em 9/18 fora",
+        "Inter pode rodar (final UCL 30/05) mas equipa B chega",
+        "Tipster pick (Racing Post Sunday acca)"
+      ],
+      "sources": [
+        "Racing Post (Tom McGarry fourfold)",
+        "API-Football team stats Inter & Verona",
+        "Sofascore form"
+      ]
+    },
+    {
+      "market": "favorites",
+      "pick": "Vitória Atlético Madrid",
+      "fixtureId": 1391180,
+      "home": { "name": "Atletico Madrid", "logo": "https://media.api-sports.io/football/teams/530.png" },
+      "away": { "name": "Girona", "logo": "https://media.api-sports.io/football/teams/547.png" },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-05-17T18:00:00+01:00",
+      "odds": 1.43,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "Atlético Madrid 4º (66pts) com Champions League já garantida, última jornada em casa no Metropolitano. Em casa, recorde brutal nesta época: 14V/1E/3D, 2.1 GF / 0.9 GA, 7 clean sheets em 18 jogos. Girona 15º (40pts) está matematicamente safe (Oviedo 20º com 29 = 11pts de margem), sem qualquer motivação para o que sobra. Girona fora 3V/8E/7L, 1.0 GF / 1.5 GA. Atlético é especialista a despachar adversários de meio-tabela em casa quando ainda há algo simbólico (despedida da temporada) em jogo. Odd 1.43 reflecte favoritismo claro.",
+      "factors": [
+        "Atlético casa 14V/1E/3D, 2.1 GF / 0.9 GA",
+        "Atlético com CL garantida, motivado a fechar bem em casa",
+        "Girona 15º descomprometido (11pts safe)",
+        "Girona fora 3V em 18, média 1.5 GA",
+        "Última jornada La Liga"
+      ],
+      "sources": [
+        "API-Football team stats Atlético & Girona",
+        "La Liga standings",
+        "Sofascore form"
+      ]
+    },
+    {
+      "market": "favorites",
+      "pick": "Vitória Lille",
+      "fixtureId": 1387996,
+      "home": { "name": "Lille", "logo": "https://media.api-sports.io/football/teams/79.png" },
+      "away": { "name": "Auxerre", "logo": "https://media.api-sports.io/football/teams/108.png" },
+      "league": "Ligue 1",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/61.png",
+      "kickoff": "2026-05-17T20:00:00+01:00",
+      "odds": 1.42,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "Última jornada Ligue 1 com Lille 3º (61pts) na luta directa pela Champions League: Lyon (60), Rennes (59), Marseille (56) e Monaco (54) todos pressionam por trás. Lille TEM de vencer para garantir o pódio. Em casa nesta época: 8V/5E/3D, 1.5 GF / 0.9 GA, 6 clean sheets. Auxerre 15º (31pts) é o adversário-tipo descomprometido — fora **apenas 1 vitória em 16 jogos** (1V/6E/9D), média 0.9 GF / 1.7 GA, falhou marcar em 8/16 deslocações. Auxerre safe matematicamente (Nantes 17º a 8pts), sem motivação alguma.",
+      "factors": [
+        "Lille 3º na luta CL — vitória obrigatória",
+        "Lille casa 8V/5E/3D, 1.5 GF / 0.9 GA",
+        "Auxerre fora 1V em 16 jogos, FTS 8/16",
+        "Auxerre descomprometido (15º, safe)",
+        "Última jornada Ligue 1"
+      ],
+      "sources": [
+        "API-Football team stats Lille & Auxerre",
+        "Ligue 1 standings"
+      ]
+    },
+    {
+      "market": "btts",
+      "pick": "Vitória Barcelona + Ambas Marcam Sim",
+      "fixtureId": 1391181,
+      "home": { "name": "Barcelona", "logo": "https://media.api-sports.io/football/teams/529.png" },
+      "away": { "name": "Real Betis", "logo": "https://media.api-sports.io/football/teams/543.png" },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-05-17T20:15:00+01:00",
+      "odds": 2.30,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "Barcelona (campeã, 91pts) joga a última em casa com despedida pública de Robert Lewandowski. Recorde histórico possível: se ganhar hoje torna-se a primeira equipa em 40 anos a fazer uma época completa em casa sem perder pontos (e a primeira de sempre num formato a 20 equipas). Motivação contextual e mediática máxima. Real Betis 5º (57pts) garantiu Champions League pela primeira vez em 20 anos — chega com zero pressão de resultado e mentalidade ofensiva (5-3 a favor do Barça na 1ª volta foi o histórico recente). O combo 'Barça + BTTS' transforma a odd magra do Barça solo (1.33) em valor decente (2.30), capturando o sinal claro de que o Betis irá marcar nesta festa.",
+      "factors": [
+        "Barça última em casa, despedida Lewandowski",
+        "Recorde 40 anos: zero pontos perdidos em casa",
+        "Betis 5º com CL garantida, sem pressão",
+        "Reverse fixture 5-3 Barça (jogo aberto)",
+        "Consenso tipsters: Barça win + goleada"
+      ],
+      "sources": [
+        "Yahoo Sports / OneFootball preview",
+        "Sportsgambler",
+        "Sportskeeda",
+        "Sportytrader",
+        "API-Football team stats"
+      ]
+    }
+  ]
+}
