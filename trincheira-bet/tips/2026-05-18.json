@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18T13:30:00+01:00",
+  "notes": "Slate fim-de-época muito fino. Premier League last GW antes do final (Arsenal-Burnley) mas mercados eficientemente preçados. Único tip de valor: Djurgården-Sirius (Allsvenskan), com Sirius líder em forma absurda fora. Sistema de stakes B.",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1494170,
+      "home": { "name": "Djurgardens IF", "logo": "https://media.api-sports.io/football/teams/377.png" },
+      "away": { "name": "IK Sirius", "logo": "https://media.api-sports.io/football/teams/2244.png" },
+      "league": "Allsvenskan",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/113.png",
+      "kickoff": "2026-05-18T18:00:00+01:00",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "Sirius lidera o Allsvenskan e chega ao 3Arena em forma de cavalo — WWWWDWW fora, 2.7 GF / 1.3 GA, e o número-chave: 0 jogos FTS fora na época (marca sempre que viaja). Djurgården (4º) joga em casa com 2.5 GF / 1.0 GA, apenas 1 FTS na época. Defensor central Castegren suspenso para Sirius — abre ainda mais o jogo defensivamente. Soma das médias dá expected goals ~3.7. H2H histórico vai para Djurgården (16-6-3) mas é amostra antiga; este Sirius 2026 é a melhor versão do clube em décadas. Odd 1.65 = implícita 61%, modelo+forma sugerem ~73% — value de ~12pp.",
+      "factors": [
+        "Sirius líder do Allsvenskan, forma WWWWDWW fora",
+        "Sirius 2.7 GF / 1.3 GA fora; 0 FTS em jogos fora",
+        "Djurgården 2.5 GF / 1.0 GA em casa; 1 FTS na época",
+        "Castegren (defensor central Sirius) suspenso",
+        "Expected total goals ~3.7"
+      ],
+      "sources": [
+        "API-Football team stats",
+        "Sofascore form",
+        "Tribuna preview"
+      ]
+    }
+  ]
+}
