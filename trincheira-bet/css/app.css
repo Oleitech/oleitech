@@ -319,6 +319,31 @@
   color: var(--text-1);
   line-height: 1.5;
 }
+.tip-tese__body p { margin: 0 0 8px; }
+.tip-tese__body p:last-child { margin-bottom: 0; }
+.tip-tese__body ul {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.tip-tese__body li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 12.5px;
+  color: var(--text-2);
+}
+.tip-tese__body li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 8px;
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.tip-tese__body strong { color: var(--text-1); font-weight: 600; }
 
 /* Sources block */
 .tip-sources {

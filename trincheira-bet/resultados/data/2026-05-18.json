@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-18",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Mais de 2.5 golos",
+        "fixtureId": 1494170,
+        "home": "Djurgardens IF",
+        "away": "IK Sirius",
+        "league": "Allsvenskan",
+        "kickoff": "2026-05-18T18:00:00+01:00",
+        "odds": 1.65,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "2-3",
+        "halftime_score": "1-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 11.55,
+        "pnl": 4.55,
+        "note": "5 golos (2-3) · Sirius (líder) mantém forma fora com 3 golos"
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0,
+      "total_stake": 7,
+      "total_return": 11.55,
+      "pnl": 4.55,
+      "roi_pct": 65.0
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "notes": "Slate domingo fim-de-época. Pre-game 1/1 = 100% (Djurgarden-Sirius Over 2.5 GREEN, +4.55€). Live worker: 0 alertas — primeira vez desde threshold ≥90 (17/05) que um dia não fechou qualquer das 3 estratégias (Favorito a Perder, BTTS Live, Over 1.5 HT). Slate magro de domingo + sem cantos = volume zero esperado em dias light."
+}

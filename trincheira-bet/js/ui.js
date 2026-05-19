@@ -148,7 +148,7 @@ const UI = {
     const teseHtml = tese ? `
       <div class="tip-tese">
         <div class="tip-tese__label">Tese</div>
-        <p class="tip-tese__body">${tese}</p>
+        <div class="tip-tese__body">${tese}</div>
       </div>` : '';
 
     const sourcesHtml = sources && sources.length > 0 ? `
