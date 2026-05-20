@@ -250,6 +250,43 @@ Espera validação humana antes de gravar.
 Depois de validado, escreve `tips/YYYY-MM-DD.json` (schema em `tips/README.md`).
 Confirma o `fixtureId` (do API-Football) — é o que liga ao `live-engine`.
 
+## Passo 7.5 — Manutenção automática da star list (lineup-edge scanner)
+
+Como side-effect da pesquisa que já fizeste nos Passos 1–4, **actualizar a star list global**
+sem perguntar ao utilizador:
+
+1. Buscar estado actual: `curl -s https://trincheira-live.rodrigo-fcp1997.workers.dev/stars`
+2. Decidir mudanças:
+   - **Adicionar**: novo top-scorer que apareceu na pesquisa (ex: jovem em break-out >5g em 5 jogos),
+     ou jogador transferido para clube de uma liga-foco
+   - **Remover**: transferido para fora das Top-5/Liga PT/UEFA, lesão longa (>3 meses), reformado
+   - **Actualizar role**: se um jogador mudou de posição (raro)
+3. Se houver mudanças → fazer `POST /stars` com a lista completa actualizada
+   (substitui tudo de uma vez — manter sempre os ~40-60 nomes nucleares)
+
+```bash
+curl -X POST "https://trincheira-live.rodrigo-fcp1997.workers.dev/stars" \
+  -H "Content-Type: application/json" \
+  -H "X-Admin-Token: lineuptoken" \
+  -d '[<lista completa actualizada>]'
+```
+
+**Schema por jogador:**
+```json
+{ "name": "Watkins", "team_id": 66, "team_name": "Aston Villa", "role": "striker" }
+```
+
+**Roles válidos** (mapeados para mercado heurístico no worker):
+- `striker`, `winger`, `playmaker` → Under 2.5 (perda ofensiva)
+- `anchor_mid`, `top_cb`, `top_gk` → Over 2.5 / BTTS Yes (defesa exposta)
+
+**Não perguntar ao utilizador.** Apenas reportar em 1 linha no fim das tips: "Star list:
++2/-1 mudanças aplicadas (X, Y adicionados; Z removido — motivo)."
+
+Se a lista ficar com >70 nomes ou <30, sinalizar para revisão.
+
+---
+
 ## Passo 8 — Reportar ao utilizador
 
 Resumo final: ficheiro escrito + 1 linha por tip + lembrete de que a página
