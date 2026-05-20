@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-19",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Vitória Manchester City + Ambas Marcam Sim",
+        "fixtureId": 1379331,
+        "home": "Bournemouth",
+        "away": "Manchester City",
+        "league": "Premier League",
+        "kickoff": "2026-05-19T19:30:00+01:00",
+        "odds": 2.75,
+        "bookmaker": "Bet365",
+        "score_confidence": 80,
+        "stake": 7,
+        "final_score": "1-1",
+        "halftime_score": "1-0",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Empate 1-1. Tese base errada: assumi Rodri OUT (WebSearch consolidado) mas Rodri foi titular após regresso de LCA na FA Cup. Sem o factor 'defesa enfraquecida' a tip perde metade da fundamentação. City não venceu, Arsenal campeão matematicamente."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0,
+      "total_stake": 7,
+      "total_return": 0.0,
+      "pnl": -7.0,
+      "roi_pct": -100.0
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "notes": "Segunda fim-de-época. Tip única Bournemouth-City RED (-7€). Erro de análise: assumi Rodri OUT a partir de resumo stale do WebSearch; era falso (Rodri titular pós-regresso LCA). Live worker: a confirmar archive — provavelmente 0 alertas."
+}
