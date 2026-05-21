@@ -49,7 +49,13 @@ Procedimento: depois de filtrar fixtures pelas ligas core, faz uma segunda passa
 
 **Skip:**
 - Ligas fora do `LEAGUES` map
-- Ligas no `LEAGUE_PREGAME_BLACKLIST` (Eredivisie, Bundesliga Austria, Pro League BE, 3.Liga DE — calibração fim-de-época)
+- Ligas no `LEAGUE_PREGAME_BLACKLIST` — **TEMPORÁRIO até arranque da época 2026/27 (Aug 2026)**:
+  - **Eredivisie** (NL) — BTTS-strong 60%+, voltar em Agosto
+  - **Bundesliga Austria** — volátil, voltar em Julho/Agosto
+  - **Pro League BE** — playoffs caóticos, voltar em Agosto
+  - **3.Liga DE** — sample pequena, voltar em Agosto
+
+Razão do blacklist: final de época nestes campeonatos = rotação massiva, equipas safe relaxam, promovidos/despromoção distorcem motivações, jovens da formação a estrear. O ruído supera qualquer análise pré-jogo. Em Setembro-Abril estes campeonatos voltam a ser candidatos válidos.
 
 ## Passo 3 — Análise matemática (API-Football, por fixture candidata)
 
@@ -105,6 +111,10 @@ curl -s -H "x-apisports-key: $API_KEY" \
 | **Bundesliga** | Kicker, Bild, Sport1, WAZ (Schalke/Dortmund) |
 | **Ligue 1** | L'Équipe, Le Parisien (PSG), RMC Sport, La Provence (OM) |
 | **Liga Portugal** | A Bola, Record, O Jogo, Maisfutebol, ZeroZero |
+| **Eredivisie (NL)** _(em Aug 2026)_ | De Telegraaf (telesport), AD.nl, Voetbal International (vi.nl), ESPN.nl, 1908.nl (Ajax), Eindhovens Dagblad (PSV), Rijnmond.nl (Feyenoord) |
+| **Pro League BE** _(em Aug 2026)_ | Het Laatste Nieuws (HLN), Sporza.be, La Dernière Heure (DH), Walfoot.be, Nieuwsblad |
+| **Bundesliga AT** _(em Jul/Aug 2026)_ | Krone.at, Laola1.at, Sky Sport Austria, Salzburger Nachrichten (Salzburg), Kleine Zeitung (Sturm Graz) |
+| **3.Liga DE** _(em Aug 2026)_ | Kicker, Sport1, jornais locais por clube (WAZ, Express, etc.) |
 | **UEFA (CL/EL/UECL)** | UEFA.com + jornais dos dois países dos clubes |
 
 ### Sites estatísticos cross-liga (sempre úteis)
