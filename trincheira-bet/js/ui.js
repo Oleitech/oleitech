@@ -127,16 +127,18 @@ const UI = {
     const MARKET_COLORS = {
       btts: 'var(--m-btts)', over25: 'var(--m-over)', cards: 'var(--m-cards)',
       corners: 'var(--m-corners)', favorites: 'var(--accent)', scorers: 'var(--amber)',
-      nba_total: 'var(--amber)', nba_spread: 'var(--accent)', nba_moneyline: 'var(--m-btts)', nba_prop: 'var(--m-corners)'
+      nba_total: 'var(--amber)', nba_spread: 'var(--accent)', nba_moneyline: 'var(--m-btts)', nba_prop: 'var(--m-corners)',
+      tennis_match: 'var(--accent)', tennis_games_total: 'var(--amber)', tennis_set_winner: 'var(--m-btts)', tennis_handicap: 'var(--m-corners)'
     };
     const MARKET_LABELS = {
       btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões',
       corners: 'Cantos', favorites: 'Favorito 1X2', scorers: 'Marcador',
-      nba_total: 'Total pontos', nba_spread: 'Spread', nba_moneyline: 'Moneyline', nba_prop: 'Player Prop'
+      nba_total: 'Total pontos', nba_spread: 'Spread', nba_moneyline: 'Moneyline', nba_prop: 'Player Prop',
+      tennis_match: 'Match Winner', tennis_games_total: 'Total Games', tennis_set_winner: 'Set Winner', tennis_handicap: 'Games Handicap'
     };
     const color = MARKET_COLORS[marketKey] || 'var(--accent)';
     const label = marketLabel || MARKET_LABELS[marketKey] || marketKey;
-    const sportBadge = sport === 'nba' ? '🏀' : '⚽';
+    const sportBadge = sport === 'nba' ? '🏀' : sport === 'tennis' ? '🎾' : '⚽';
     const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
     const homeShort = (home || '').slice(0, 3).toUpperCase();
     const awayShort = (away || '').slice(0, 3).toUpperCase();
@@ -165,7 +167,7 @@ const UI = {
       <div class="tip-top">
         <div class="tip-league">
           <span class="flag" style="background:${color};opacity:0.6"></span>
-          <span class="sport-badge" title="${sport === 'nba' ? 'NBA' : 'Futebol'}">${sportBadge}</span>
+          <span class="sport-badge" title="${sport === 'nba' ? 'NBA' : sport === 'tennis' ? 'Tennis' : 'Futebol'}">${sportBadge}</span>
           <span>${league || ''}</span>
         </div>
         <div class="tip-time">${time || ''}</div>

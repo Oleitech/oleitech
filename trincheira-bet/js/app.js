@@ -5,6 +5,7 @@ const App = {
     scorers: { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
     corners: { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
     nba: { gridId: 'nba-grid', badgeId: 'badge-nba', sectionId: 'section-nba' },
+    tennis: { gridId: 'tennis-grid', badgeId: 'badge-tennis', sectionId: 'section-tennis' },
   },
 
   getTodayPath() {
@@ -88,6 +89,13 @@ const App = {
         </div>
         <div class="tips-grid" id="nba-grid"></div>
       </section>
+
+      <section id="section-tennis" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--m-cards)"></span> Tennis &middot; Match / Games <span class="badge" id="badge-tennis">0</span></div>
+        </div>
+        <div class="tips-grid" id="tennis-grid"></div>
+      </section>
     `;
   },
 
@@ -135,9 +143,11 @@ const App = {
     });
 
     tips.forEach(tip => {
-      // Sport-based routing: NBA tips all go to the NBA grid regardless of
-      // market sub-type (total/spread/moneyline/prop). Football routes by market.
-      const cfgKey = tip.sport === 'nba' ? 'nba' : tip.market;
+      // Sport-based routing: NBA/Tennis tips go to their sport grid regardless
+      // of market sub-type. Football routes by market sub-type (btts/favs/etc).
+      const cfgKey = tip.sport === 'nba' ? 'nba'
+        : tip.sport === 'tennis' ? 'tennis'
+        : tip.market;
       const cfg = this.GRIDS[cfgKey];
       if (!cfg) {
         console.warn('[TB] Unknown market/sport in tip:', tip.sport, tip.market);
