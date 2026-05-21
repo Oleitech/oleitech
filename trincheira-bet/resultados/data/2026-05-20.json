@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-20",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "scorers",
+        "pick": "Ollie Watkins marca",
+        "fixtureId": 1544596,
+        "home": "SC Freiburg",
+        "away": "Aston Villa",
+        "league": "UEFA Europa League — Final",
+        "kickoff": "2026-05-20T20:00:00+01:00",
+        "odds": 2.38,
+        "bookmaker": "Bet365",
+        "score_confidence": 80,
+        "stake": 7,
+        "final_score": "0-3",
+        "halftime_score": "0-2",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Watkins titular 90' mas sem golo. Trio Tielemans (41'), Buendía (45'), Rogers (58') resolveu o jogo. Variância — tese sólida, execução do XI deu noutro lado."
+      },
+      {
+        "market": "btts",
+        "pick": "Vitória Aston Villa + Ambas Marcam Sim",
+        "fixtureId": 1544596,
+        "home": "SC Freiburg",
+        "away": "Aston Villa",
+        "league": "UEFA Europa League — Final",
+        "kickoff": "2026-05-20T20:00:00+01:00",
+        "odds": 4.00,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "0-3",
+        "halftime_score": "0-2",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Villa venceu confortavelmente mas Freiburg em branco (2-0 já ao intervalo, jogo morto). Primeira final da história congelou-os. Faltava só o golo de honra que nunca chegou."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 0,
+      "red": 2,
+      "hit_rate": 0.0,
+      "total_stake": 14,
+      "total_return": 0.0,
+      "pnl": -14.0,
+      "roi_pct": -100.0
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Lillestrom vs Kristiansund BK",
+        "league": "Eliteserien (Norway)",
+        "elapsed": 51,
+        "score_at_alert": "0-1",
+        "conf": 90,
+        "final_score": "1-2",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Aalesund vs Brann",
+        "league": "Eliteserien (Norway)",
+        "elapsed": 53,
+        "score_at_alert": "1-0",
+        "conf": 90,
+        "final_score": "2-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 2,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 100.0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": { "total": 2, "green": 2, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+      }
+    }
+  },
+  "notes": "EL Final demoliu as duas tips (Freiburg 0-3 Villa: Watkins sem golo, Freiburg em branco). Live worker SUPERSTAR: 2/2 alertas (100%), Eliteserien Norway. Star scanner foi deployado ontem — 0 alertas no EL Final (todos os 5 stars vigiados titulares, comportamento correto)."
+}
