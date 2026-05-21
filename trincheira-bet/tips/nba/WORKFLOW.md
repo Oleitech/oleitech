@@ -32,11 +32,20 @@ curl -s "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard
 - Filtrar por playoff status: durante Finals / Conf Finals, geralmente 1-2 jogos/noite.
 - Para regular season, podem ser 8-12 jogos — seleccionar **máximo 2-3 focais** (jogos com mais narrativa, maior audiência, equipas top).
 
-## Passo 2 — Janela de tempo Lisboa
+## Passo 2 — Data de arquivo (CRÍTICO para UX)
 
-Maioria dos jogos NBA: ~20-22:00 ET = 01-03 Lisboa do dia seguinte.
-- **A tip é arquivada na data Lisboa do KO**, não da pesquisa.
-- Ex: jogo Cavs@Knicks 21/05 20:00 ET → KO 22/05 01:00 Lisboa → ficheiro `tips/2026-05-22.json`.
+Maioria dos jogos NBA: ~20-22:00 ET = 01-08 Lisboa do dia seguinte. O user está a dormir nessa janela — tem de ver a tip **na noite ANTERIOR** para apostar antes de ir para a cama.
+
+**Regra:** usar `getBettingDate` semantics — KO menos 3h, depois pegar a data Lisboa.
+
+- KO entre **00:00-08:00 Lisboa** → ficheiro fica no dia ANTERIOR
+- KO entre **08:00-23:59 Lisboa** → ficheiro fica no dia do KO
+
+**Exemplos:**
+- Jogo Cavs@Knicks: KO 22/05 01:00 Lisboa → `tips/2026-05-21.json` ✅ (user vê na quinta à noite)
+- Jogo NBA hipotético 22/05 19:00 Lisboa (raro) → `tips/2026-05-22.json`
+
+**Mesma regra para tracking:** resultado vai em `resultados/data/2026-05-21.json` (mesma data do tip), não em 22/05. Tip e resultado sempre alinhados.
 
 ## Passo 3 — Pesquisa qualitativa (WebSearch)
 
