@@ -1,7 +1,7 @@
 {
   "date": "2026-05-21",
-  "generated_at": "2026-05-21T15:30:00+01:00",
-  "notes": "Dia com 2 tips: Brondby-Copenhagen (futebol, 17:30 Lisboa) + Cavs@Knicks ECF Game 2 (NBA, 01:00 madrugada — visível hoje para apostares antes de dormir).",
+  "generated_at": "2026-05-21T16:30:00+01:00",
+  "notes": "Dia com 3 tips em 3 desportos: Brondby-Copenhagen (futebol, 17:30), Ruud-Popyrin Geneva QF (tennis, 17:00 — primeira tip tennis do sistema), Cavs@Knicks ECF Game 2 (NBA, 01:00 madrugada).",
   "tips": [
     {
       "market": "btts",
@@ -29,6 +29,35 @@
         "WinDrawWin",
         "Wincomparator",
         "API-Football"
+      ]
+    },
+    {
+      "market": "tennis_set_winner",
+      "sport": "tennis",
+      "pick": "Casper Ruud vence 2 sets a 0",
+      "fixtureId": "geneva-qf-ruud-popyrin",
+      "home": { "name": "Casper Ruud", "logo": "" },
+      "away": { "name": "Alexei Popyrin", "logo": "" },
+      "league": "ATP 250 Geneva — Quarterfinal",
+      "leagueLogo": "",
+      "kickoff": "2026-05-21T17:00:00+01:00",
+      "odds": 1.75,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "<p>Ruud em peak form pré-Roland Garros, sem ceder um único set neste torneio. Match winner sai a 1.27 (zero value); o ângulo 2-0 captura o cenário base do 'Ruud easy' com odd decente.</p><ul><li><strong>Ruud 0 sets perdidos no torneio Geneva</strong> — domínio total na clay</li><li><strong>Modelo dá 74% Ruud ML</strong> — domínio claro do favorito</li><li><strong>H2H mais recente:</strong> Ruud 6-3 6-4 vs Popyrin em Monte Carlo (Abr 2026), também 2-0 e na clay</li><li><strong>Tennis Tonic explícito:</strong> 'Ruud winning in 2 sets'</li><li><strong>Specialista de clay vs hard-court guy:</strong> Popyrin acordou recente com upset Fritz mas Geneva clay é território Ruud</li><li><strong>Pre-RG peak:</strong> Ruud a afinar para o Grand Slam que ama mais</li><li><strong>⚠️ Match às 17:00 Lisboa</strong> — sessão noturna Geneva</li></ul>",
+      "factors": [
+        "Ruud 0 sets perdidos no torneio",
+        "H2H mais recente 6-3 6-4 (clay, 2-0)",
+        "Especialista clay vs hard-court",
+        "Modelo 74% ML Ruud",
+        "Pre-RG peak form"
+      ],
+      "sources": [
+        "Tennis Tonic",
+        "Last Word on Sports",
+        "Stats Insider",
+        "Bets.com.au"
       ]
     },
     {
