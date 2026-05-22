@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-21",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Mais de 2.5 Golos",
+        "fixtureId": 1545410,
+        "home": "Brøndby",
+        "away": "FC Copenhagen",
+        "league": "Superliga (Dinamarca)",
+        "kickoff": "2026-05-21T17:30:00+01:00",
+        "odds": 1.85,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "1-1 (90'), 1-3 AET",
+        "halftime_score": "0-0",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Apostas Over 2.5 settlam em 90 min regulamentares APENAS. Ficou 1-1 ao 90' (apenas 2 golos = UNDER). Foi para extra time onde Copenhagen marcou mais 2 e fechou 1-3 AET, mas isso não conta para o mercado. Lição: confirmar sempre que o jogo é regulamentar antes de apostar Over/Under em playoffs."
+      },
+      {
+        "market": "tennis_set_winner",
+        "sport": "tennis",
+        "pick": "Casper Ruud vence 2 sets a 0",
+        "fixtureId": "geneva-qf-ruud-popyrin",
+        "home": "Casper Ruud",
+        "away": "Alexei Popyrin",
+        "league": "ATP 250 Geneva — Quarterfinal",
+        "kickoff": "2026-05-21T17:00:00+01:00",
+        "odds": 1.75,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "6-4 6-3 (Ruud)",
+        "result": "GREEN",
+        "hit": true,
+        "return": 12.25,
+        "pnl": 5.25,
+        "note": "Ruud demoliu Popyrin em 72 min — 6-4 6-3, 25/28 pts no 1º serviço, 16ª vitória em Geneva (iguala Wilander). Tese 'Ruud peak pré-RG' confirmada totalmente."
+      },
+      {
+        "market": "nba_total",
+        "sport": "nba",
+        "pick": "Under 214.5 Pontos",
+        "fixtureId": 401873342,
+        "home": "New York Knicks",
+        "away": "Cleveland Cavaliers",
+        "league": "NBA · Eastern Conference Finals — Game 2",
+        "kickoff": "2026-05-22T01:00:00+01:00",
+        "odds": 1.90,
+        "bookmaker": "Bet365",
+        "score_confidence": 75,
+        "stake": 7,
+        "final_score": "Knicks 109 - 93 Cavs",
+        "result": "GREEN",
+        "hit": true,
+        "return": 13.30,
+        "pnl": 6.30,
+        "note": "202 pontos total (12.5pts abaixo da linha). Knicks lead serie 2-0. Cavs em colapso emocional pós comeback Game 1. Tese 'defenses tightenem em Game 2' confirmada."
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 2,
+      "red": 1,
+      "hit_rate": 66.7,
+      "total_stake": 21,
+      "total_return": 25.55,
+      "pnl": 4.55,
+      "roi_pct": 21.7
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Panetolikos vs Asteras Tripolis",
+        "league": "Super League 1 (Greece)",
+        "elapsed": 68,
+        "score_at_alert": "0-1",
+        "conf": 91,
+        "final_score": "1-2",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "NEOM vs Al-Ettifaq",
+        "league": "Pro League (Saudi-Arabia)",
+        "elapsed": 68,
+        "score_at_alert": "0-1",
+        "conf": 90,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 2,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 100.0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": { "total": 2, "green": 2, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+      }
+    }
+  },
+  "notes": "Pre-game 2/3 GREEN (Ruud + Cavs OK; Brondby parecia GREEN no agregado AET 1-3 mas o mercado Over 2.5 settla em 90' = 1-1 = RED). Stakes liquidas +4.55€ ROI 21.7%. Live worker 2/2 GREEN. NBA scanner 0 alertas (jogo equilibrado + bug detectado no parse das linescores ESPN — corrigido em 22/05 via worker 170e9542)."
+}

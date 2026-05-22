@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T12:00:00+01:00",
+  "notes": "Dia com 4 tips em 3 desportos: Coupe de France Final (Lens-Nice), 2 SFs tennis (Ruud-Navone Geneva + de Minaur-Paul Hamburg), WCF Game 3 NBA (Spurs-Thunder madrugada). NBA scanner re-deployado com bug fix nas linescores ESPN.",
+  "tips": [
+    {
+      "market": "favorites",
+      "pick": "Vitória Lens",
+      "fixtureId": 1542551,
+      "home": { "name": "Lens", "logo": "https://media.api-sports.io/football/teams/116.png" },
+      "away": { "name": "Nice", "logo": "https://media.api-sports.io/football/teams/84.png" },
+      "league": "Coupe de France — Final",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/66.png",
+      "kickoff": "2026-05-22T20:00:00+01:00",
+      "odds": 1.48,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 5,
+      "tese": "<p>Final da Coupe de France no Stade de France. Lens favorito absoluto vs Nice em colapso brutal de forma. Banker pequeno de cup final com tese sólida em todos os ângulos.</p><ul><li><strong>Nice em colapso:</strong> 0 vitórias nos últimos 8 jogos da Ligue 1, terminou 16º</li><li><strong>Lens em fogo:</strong> 4-0 ao Lyon na última jornada Ligue 1</li><li><strong>Tipster consensus:</strong> 'Lens look the more cohesive, fresher, and balanced side' (Sofascore)</li><li><strong>Nice tem 4 lesionados</strong> (Abdelmonem, Bombito + 2)</li><li><strong>Odds shortened:</strong> mercado moveu de 7/10 para 12/25, sinal de smart money em Lens</li><li><strong>⚠️ Odd 1.48 ligeiramente abaixo do filtro 1.50</strong> — excepção justificada por contexto cup final + favoritismo absoluto + tipsters unânimes</li></ul>",
+      "factors": [
+        "Nice 0V em 8 finais Ligue 1, 16º",
+        "Lens 4-0 Lyon na última jornada",
+        "Nice 4 lesionados defesivos",
+        "Tipsters unânimes em Lens",
+        "Mercado moveu para Lens (smart money)"
+      ],
+      "sources": [
+        "Sofascore",
+        "Sports Mole",
+        "LiveScore",
+        "Mighty Tips",
+        "Dailysports"
+      ]
+    },
+    {
+      "market": "tennis_set_winner",
+      "sport": "tennis",
+      "pick": "Casper Ruud vence 2 sets a 0",
+      "fixtureId": "geneva-sf-ruud-navone",
+      "home": { "name": "Casper Ruud", "logo": "" },
+      "away": { "name": "Mariano Navone", "logo": "" },
+      "league": "ATP 250 Geneva — Semifinal",
+      "leagueLogo": "",
+      "kickoff": "2026-05-22T11:00:00+01:00",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "<p>Ruud é o REI de Geneva (16-1 lifetime, 3 títulos = recorde) e ainda não cedeu um único set este ano. Match winner a 1.23 não tem juice; o 2-0 sets captura cenário base com edge.</p><ul><li><strong>Ruud 16-1 lifetime em Geneva</strong> — 3 títulos (recordista absoluto do torneio)</li><li><strong>0 sets perdidos no torneio 2026</strong> — peak form pré-Roland Garros</li><li><strong>Dimers dá 81% Ruud ML</strong> + Tennis Tonic prediz 'Ruud in 2 sets' explicitamente</li><li><strong>Navone (#42) jogou 4 sets ontem</strong> vs Munar (Ruud só 2 em 72 min) → desvantagem física</li><li><strong>H2H favorável:</strong> Navone never beat top-20 em superfície indoor/clay</li><li><strong>Value:</strong> ML 1.23 = 81% implied; 2-0 sets ~1.65 dá implied 60% vs real ~58% — value real</li></ul>",
+      "factors": [
+        "Ruud 16-1 lifetime Geneva (3 títulos)",
+        "0 sets perdidos no torneio",
+        "Dimers 81% Ruud ML",
+        "Navone gastou 4 sets ontem",
+        "Tennis Tonic: '2 sets'"
+      ],
+      "sources": [
+        "Tennis Tonic",
+        "Last Word on Sports",
+        "Dimers",
+        "Bleacher Nation",
+        "The Stats Zone"
+      ]
+    },
+    {
+      "market": "tennis_games_total",
+      "sport": "tennis",
+      "pick": "Mais de 22.5 Games (Total)",
+      "fixtureId": "hamburg-sf-deminaur-paul",
+      "home": { "name": "Alex de Minaur", "logo": "" },
+      "away": { "name": "Tommy Paul", "logo": "" },
+      "league": "ATP 500 Hamburg — Semifinal",
+      "leagueLogo": "",
+      "kickoff": "2026-05-22T17:30:00+01:00",
+      "odds": 1.85,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "<p>SF entre dois top-10 com H2H em clay perfeitamente equilibrado (1-1). Consenso unânime de tipsters: 3-setter inevitável. Linha 22.5 conservadora para o cenário previsto.</p><ul><li><strong>Tipster consensus unânime: 3 sets</strong> (Tennis Tonic, Last Word on Sports, Bets.com.au, The Stats Zone)</li><li><strong>H2H em clay = 1-1</strong> (overall 5-1 de Minaur mas em clay equilibrado)</li><li><strong>de Minaur procura 1ª clay final ATP da carreira</strong> — motivação máxima</li><li><strong>Paul é warrior em clay,</strong> não cede facilmente, gosta de trocas longas</li><li><strong>3-setter ATP típico tem 28-35 games</strong> — linha 22.5 fica 5-12 games abaixo do esperado</li><li><strong>Value:</strong> 1.85 = implied 54%; 3-set prob real ~70% → edge ~16pp</li></ul>",
+      "factors": [
+        "Consenso tipsters: 3-setter",
+        "H2H clay 1-1 (perfeitamente equilibrado)",
+        "de Minaur procura 1ª clay final",
+        "Paul especialista em clay/longos rallies",
+        "Line 22.5 conservadora para 3 sets"
+      ],
+      "sources": [
+        "Tennis Tonic",
+        "Last Word on Sports",
+        "Bets.com.au",
+        "The Stats Zone",
+        "TennGrand"
+      ]
+    },
+    {
+      "market": "nba_total",
+      "sport": "nba",
+      "pick": "Under 217.5 Pontos",
+      "fixtureId": 401873199,
+      "home": { "name": "San Antonio Spurs", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png" },
+      "away": { "name": "Oklahoma City Thunder", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/okc.png" },
+      "league": "NBA · Western Conference Finals — Game 3",
+      "leagueLogo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "kickoff": "2026-05-23T01:30:00+01:00",
+      "odds": 1.90,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "<p>Game 3 da WCF em San Antonio (Spurs casa). Thunder entram fragilizados ofensivamente com Jalen Williams OUT (hamstring re-injury) — perda crítica do #2 scorer Thunder. Spurs com Wembanyama em casa = defensive showcase típico.</p><ul><li><strong>Jalen Williams OUT confirmado</strong> — hamstring re-injury, ~16-18 pts/jogo de Williams desaparecem</li><li><strong>Ajay Mitchell (substituto)</strong> é guard menor — sem o mid-air playmaking de Williams</li><li><strong>Spurs casa com Wembanyama:</strong> defensive paint dominance, jogos historicamente low-scoring</li><li><strong>SportsLine Projection Model: UNDER 217.5</strong> explicitamente</li><li><strong>Spurs season hit Under 57%</strong> (35/82 hit Over)</li><li><strong>Game 3 série 1-1 = urgência defensiva máxima</strong></li><li><strong>Linha 217.5 sobe vs ECF 214.5</strong> mas com Williams out parece exagerada</li><li><strong>⚠️ KO 01:30 Lisboa madrugada 23/05</strong> — aposta antes de dormir</li></ul>",
+      "factors": [
+        "Jalen Williams OUT (hamstring)",
+        "Spurs Wembanyama = defensive showcase",
+        "SportsLine model: UNDER 217.5",
+        "Spurs 57% Under hit rate season",
+        "Série tied 1-1 = urgência D"
+      ],
+      "sources": [
+        "OddsShark",
+        "SportsLine model",
+        "BetMGM blog",
+        "Lineups.com",
+        "Offshore Sportsbooks"
+      ]
+    }
+  ]
+}
