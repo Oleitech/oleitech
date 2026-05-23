@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-22",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "favorites",
+        "pick": "Vitória Lens",
+        "fixtureId": 1542551,
+        "home": "Lens",
+        "away": "Nice",
+        "league": "Coupe de France — Final",
+        "kickoff": "2026-05-22T20:00:00+01:00",
+        "odds": 1.48,
+        "bookmaker": "Bet365",
+        "score_confidence": 75,
+        "stake": 5,
+        "final_score": "3-1",
+        "halftime_score": null,
+        "result": "GREEN",
+        "hit": true,
+        "return": 7.40,
+        "pnl": 2.40,
+        "note": "Lens histórico — primeira Coupe de France do clube. Thauvin, Édouard e Sima marcaram. Nice sem reação (16º Ligue 1, 0 vitórias em 8). Tese de colapso de Nice completamente confirmada. Odd 1.48 era ligeiramente abaixo do filtro 1.50 mas excepção justificada."
+      },
+      {
+        "market": "tennis_set_winner",
+        "sport": "tennis",
+        "pick": "Casper Ruud vence 2 sets a 0",
+        "fixtureId": "geneva-sf-ruud-navone",
+        "home": "Casper Ruud",
+        "away": "Mariano Navone",
+        "league": "ATP 250 Geneva — Semifinal",
+        "kickoff": "2026-05-22T11:00:00+01:00",
+        "odds": 1.65,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "Navone 7-5 6-2 (Ruud eliminado)",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Upset absoluto — Navone demoliu Ruud 7-5 6-2, 27 winners. O 'rei de Geneva' (16-1 lifetime) perdeu em casa. Lição: historial impressivo não protege de dias de nível excepcional do adversário. Navone chegou à final vs Tien."
+      },
+      {
+        "market": "tennis_games_total",
+        "sport": "tennis",
+        "pick": "Mais de 22.5 Games (Total)",
+        "fixtureId": "hamburg-sf-deminaur-paul",
+        "home": "Alex de Minaur",
+        "away": "Tommy Paul",
+        "league": "ATP 500 Hamburg — Semifinal",
+        "kickoff": "2026-05-22T17:30:00+01:00",
+        "odds": 1.85,
+        "bookmaker": "Bet365",
+        "score_confidence": 76,
+        "stake": 7,
+        "final_score": "Paul 2-6 6-3 6-3 (26 games total)",
+        "result": "GREEN",
+        "hit": true,
+        "return": 12.95,
+        "pnl": 5.95,
+        "note": "3-setter confirmado: 8+9+9=26 jogos, bem acima da linha 22.5. Paul epic comeback — perdeu 0-3 no 2º set e venceu 9 jogos seguidos. de Minaur fica sem a primeira clay final da carreira. Consenso tipsters acertou em cheio."
+      },
+      {
+        "market": "nba_total",
+        "sport": "nba",
+        "pick": "Under 217.5 Pontos",
+        "fixtureId": 401873199,
+        "home": "San Antonio Spurs",
+        "away": "Oklahoma City Thunder",
+        "league": "NBA · Western Conference Finals — Game 3",
+        "kickoff": "2026-05-23T01:30:00+01:00",
+        "odds": 1.90,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "Thunder 123 - Spurs 108 (231 pts)",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "231 pontos (13.5 acima da linha). Thunder bench explosivo — 76-23 em pontos do banco, recorde franchise em playoffs desde 2009. SGA 26pts+12ast, Wembanyama 26pts. Mesmo sem Jalen Williams o Thunder atacou bem. Tese defensiva foi ilusória."
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "hit_rate": 50.0,
+      "total_stake": 26,
+      "total_return": 20.35,
+      "pnl": -5.65,
+      "roi_pct": -21.7
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Fiorentina vs Atalanta",
+        "league": "Serie A (Italy)",
+        "elapsed": 52,
+        "score_at_alert": "1-0",
+        "conf": 92,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "FK Crvena Zvezda vs OFK Beograd",
+        "league": "Super Liga (Serbia)",
+        "elapsed": 50,
+        "score_at_alert": "0-1",
+        "conf": 90,
+        "final_score": "1-2",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 2,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 100.0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": { "total": 2, "green": 2, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+      }
+    }
+  },
+  "notes": "Dia misto pré-jogo (2/4, -5.65€ ROI -21.7%): Lens histórico GREEN (3-1 Nice, primeira Coupe de France), de Minaur-Paul Over 22.5 games GREEN (26 jogos, epic comeback Paul); Ruud eliminado em upset brutal por Navone (7-5 6-2); Thunder-Spurs 231pts = OVER (bench OKC explodiu, SGA+Wemby 26pts cada). Live worker 2/2 GREEN (Fiorentina-Atalanta 1-0→1-1; Estrela Vermelha-OFK 0-1→1-2)."
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T11:00:00+01:00",
+  "notes": "Dia com 1 tip: DFB Pokal Final (Bayern-Stuttgart BTTS). Tennis cancelado — Hamburg Over 22.5 descartado (Buse mais cansado que Paul: 6 partidas desde qualifiers vs 4 de Paul; cenário de sets diretos mais provável). Geneva descartado (Navone ML 1.77 = edge 1.5pp, insuficiente). La Liga/Serie A sem sinal forte: Barça roda mas XI ainda sólido (Araújo, Lewandowski, Olmo, Raphinha), Real Madrid vs Athletic ambos sem objetivos. NBA Game 4 só amanhã (24/05).",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam - Sim",
+      "fixtureId": 1542721,
+      "home": { "name": "Bayern München", "logo": "https://media.api-sports.io/football/teams/157.png" },
+      "away": { "name": "VfB Stuttgart", "logo": "https://media.api-sports.io/football/teams/172.png" },
+      "league": "DFB Pokal — Final",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/81.png",
+      "kickoff": "2026-05-23T19:00:00+01:00",
+      "odds": 1.57,
+      "bookmaker": "Betclic",
+      "score": 80,
+      "stake": 7,
+      "tese": "<p>Final da DFB Pokal em Berlim (campo neutro). Bayern não fez um único clean sheet nos <strong>5 jogos desta Pokal</strong> — sofreram sempre. Stuttgart são os campeões em título, terminaram a época em WWWWW e os últimos <strong>6 jogos competitivos</strong> tiveram todos BTTS. O H2H mais recente foi 4-2 (Bundesliga, Abril) = BTTS. Com Kane, Olise e Musiala lá cima para Bayern, e Undav e Fuhrich para Stuttgart, a probabilidade de um dos lados ficar a zero é mínima.</p><ul><li><strong>Bayern 0 clean sheets em 5 jogos da Pokal 2025/26</strong> — sofreram golos em todas as rondas</li><li><strong>Stuttgart últimos 6 jogos competitivos = 6/6 BTTS</strong></li><li><strong>H2H: 5/8 = 62.5% BTTS</strong> (último 4-2 em Abril = BTTS)</li><li><strong>Stuttgart campeões em título</strong> — motivação máxima em campo neutro</li><li><strong>Wincomparator modelo: 80.42% probabilidade BTTS Yes</strong></li><li><strong>Stuttgart avg 2.1 golos/jogo</strong> na Bundesliga; Bayern sem Davies e possivelmente sem Neuer</li></ul>",
+      "factors": [
+        "Bayern 0 clean sheets em 5 jogos da Pokal",
+        "Stuttgart 6/6 BTTS nos últimos 6 jogos",
+        "H2H 5/8 = 62.5% BTTS (último: 4-2)",
+        "Stuttgart campeões em título — máxima motivação",
+        "Modelo Wincomparator: 80.42% BTTS"
+      ],
+      "sources": [
+        "Sportytrader expert pick",
+        "Wincomparator modelo",
+        "Livescore stats",
+        "API-Football H2H",
+        "Dailysports lineup"
+      ]
+    }
+  ]
+}
