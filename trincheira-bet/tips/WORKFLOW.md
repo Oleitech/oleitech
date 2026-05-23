@@ -234,6 +234,148 @@ Aplica esta tabela a cada tip aprovada (definida 2026-05-16):
 - Total diário sugerido: até **40€** por dia em apostas (≈4 tips médias). Se 5 tips com 2+ em banda alta, podes ultrapassar — é decisão consciente.
 - Stakes em euros (€), não em unidades, para alinhar com o tracking actual.
 
+## Passo 5.6 — Construir Acumulador(es)
+
+Depois de aprovadas as tips e calculadas as stakes (Passo 5.5), constrói acumuladores em **duas fases**:
+
+1. **Fase A — Acumuladores Standard** (pool restrito, tips aprovadas)
+2. **Fase B — Acumuladores Curtos** (pool alargado, odds baixas, 3 pernas)
+
+**Objectivo de cada acumulador:** odd combinada entre **2.0 e 3.0**. Acima de 3.0 é demasiado arriscado; abaixo de 2.0 não vale a pena compor.
+
+**Sem limite fixo de acumuladores** — o total depende de quantas pernas elegíveis existem no dia. Com N pernas na shortlist curta, geras ⌊N/3⌋ acumuladores curtos independentes.
+
+---
+
+### Regras de ouro (aplicam-se a TODOS os acumuladores)
+
+**R1 — Nenhuma perna se repete entre acumuladores**
+Se a perna A entra no Acumulador 1, não pode entrar no Acumulador 2. Partilhar uma perna significa que, se ela cair, perdemos os dois — anula o propósito de ter acumuladores independentes.
+
+**R2 — Dentro do mesmo acumulador, nunca duas seleções do mesmo jogo**
+BTTS + Over 2.5 no mesmo jogo são eventos altamente correlacionados. Dois mercados do mesmo fixture num acumulador é proibido.
+
+**R3 — Preferir ligas/desportos diferentes entre pernas do mesmo acumulador**
+Dois jogos da mesma liga no mesmo dia têm correlação escondida (clima, árbitros, calendário). Misturar Premier League + Serie A, ou futebol + NBA, é superior a dois jogos da Premier League.
+
+**R5 — Máximo 3 pernas por acumulador**
+Com 4+ pernas a margem composta da casa torna o acumulador matematicamente desfavorável mesmo com boas seleções.
+
+---
+
+### Fase A — Acumuladores Standard
+
+**Pool:** todas as tips aprovadas do dia (qualquer desporto), ordenadas por score (maior primeiro).
+
+**Regra extra (standard):**
+**R4 — Cada perna tem de valer isolada**
+Só entra uma tip que já passou os critérios individuais do Passo 5 (≥4 dimensões ✅). Nunca adicionar uma seleção fraca apenas para atingir a odd alvo.
+
+**Algoritmo:**
+1. Pool = tips aprovadas do dia, por ordem de score
+2. Gera todos os **pares** (2 pernas) e **trios** (3 pernas) com produto ∈ [2.0, 3.0] e jogos diferentes
+3. Filtra por R2/R3; ordena por score mínimo (maior primeiro)
+4. Selecciona até 2 acumuladores (A = maior score; B = próximo sem partilhar perna com A via R1)
+5. Se nenhum candidato em [2.0, 3.0] → Fase A não produz nenhum; avança para Fase B
+
+**Score:** score mínimo das pernas incluídas
+**Stake:** bandas Sistema B sobre o score mínimo (≥85→10€ · 75–84→7€ · 65–74→5€ · <65→não incluir)
+**Label no JSON:** `"label": "standard"` (ou omitir — é o default)
+
+---
+
+### Fase B — Acumuladores Curtos (pool alargado)
+
+**Racional:** 1.30 × 1.30 × 1.30 = 2.197 — três odds de 1.3 já fazem um acumulador acima de 2.0. Para odds assim baixas não é necessário o processo completo de curadoria individual.
+
+O processo tem **dois sub-passos**: primeiro constrói a lista de pernas elegíveis, depois combina-as em trios.
+
+---
+
+#### Sub-passo B1 — Shortlist de pernas elegíveis
+
+Varre todos os fixtures do dia (não só as ligas core — **sem qualquer restrição de liga ou país**; o blacklist de pré-jogo NÃO se aplica aqui) e identifica pernas candidatas com:
+
+- **Odds: > 1.25 e ≤ 1.55** (estritamente acima de 1.25; abaixo é sem valor; acima de 1.55 vai para pool Standard)
+- **Mercados elegíveis:** BTTS Sim, 1X2 favorito claro (probabilidade implícita >65%), Over 1.5 golos, DNB (empate devolve), handicap asiático 0, double chance
+- **Filtro mínimo por candidata** (sem este filtro, não entra na shortlist):
+  - H2H últimos 5 jogos alinhado com o pick (≥3/5 resultados favoráveis)
+  - Forma recente alinhada (≥3/5 dos últimos jogos favoráveis)
+  - Sem red flag evidente (lesão de GR / toda a defesa ausente para BTTS; rival em grande forma para 1X2)
+- NÃO é necessário: pesquisa qualitativa completa, onze provável, tipsters cross-check
+
+Apresenta a shortlist ao utilizador **antes** de montar os acumuladores:
+```
+📋 Shortlist de pernas curtas (odds 1.25–1.55):
+  P1 — Celta Vigo -0.5 handicap @ 1.28  (H2H 4/5 ✅, forma 4/5 ✅)
+  P2 — Betis BTTS Sim @ 1.35  (H2H 3/5 ✅, forma 5/5 ✅)
+  P3 — Lazio Over 1.5 @ 1.30  (H2H 5/5 ✅, forma 4/5 ✅)
+  P4 — Porto vitória @ 1.32  (H2H 4/5 ✅, forma 3/5 ✅)
+  P5 — Marselha BTTS Sim @ 1.38  (H2H 3/5 ✅, forma 4/5 ✅)
+  P6 — Udinese Over 1.5 @ 1.28  (H2H 4/5 ✅, forma 3/5 ✅)
+  → 6 pernas elegíveis → 2 acumuladores independentes possíveis
+```
+
+---
+
+#### Sub-passo B2 — Combinações 3 a 3
+
+Com a shortlist de N pernas elegíveis, constrói **o máximo de acumuladores independentes** possível:
+
+1. Agrupa as pernas em trios sem repetição, de jogos e ligas preferencialmente diferentes (R2/R3)
+2. Cada trio deve ter produto ∈ [2.0, 3.0] — com odds 1.26–1.55 isto é garantido quase sempre (1.26³ = 2.00; 1.55³ = 3.72 — se ultrapassar 3.0, trocar uma perna por outra mais baixa)
+3. **Sem limite de número** — se a shortlist tiver 9 pernas, geras 3 acumuladores (P1+P2+P3, P4+P5+P6, P7+P8+P9); se tiver 6, geras 2; se tiver 3, geras 1
+4. Nenhuma perna se repete entre acumuladores Curtos (R1), nem entre Curtos e Standard (R1)
+5. Ordena os trios pela força média das pernas (H2H + forma mais alinhados primeiro)
+
+**Score do Acumulador Curto:** fixo em **65** (score base para selecções sem curadoria completa)
+**Stake:** **3€** fixo por acumulador curto
+**Label no JSON:** `"label": "curto"`
+
+---
+
+### Exemplo completo (1 tip aprovada, 6 pernas na shortlist)
+
+```
+Tips aprovadas: A (Bayern BTTS, score 80, odd 1.57)
+Fase A: só 1 tip → impossível par/trio → 0 Standard
+
+Shortlist Fase B (6 pernas):
+  P1 Celta -0.5 @ 1.28  P2 Betis BTTS @ 1.35  P3 Lazio Over 1.5 @ 1.30
+  P4 Porto 1X2 @ 1.32   P5 Marselha BTTS @ 1.38  P6 Udinese Over 1.5 @ 1.28
+
+Trios:
+  Curto 1: P1+P2+P3 → 1.28×1.35×1.30 = 2.247 ✅ (ligas: ESP, ESP, ITA — aceitar, sem alternativa)
+  Curto 2: P4+P5+P6 → 1.32×1.38×1.28 = 2.330 ✅ (ligas: PT, FRA, ITA — ótimo ✅)
+  → Sem sobreposição entre Curto 1 e Curto 2 ✅, nem com Standard (A não entra em curtos) ✅
+
+Resultado: 0 Standard + 2 Curtos = 2 acumuladores
+```
+
+---
+
+### Exemplo com Fase A a produzir acumuladores
+
+```
+Tips aprovadas: A (PL, score 82, odd 1.72), B (La Liga, score 78, odd 1.55), C (NBA, score 74, odd 1.45)
+
+Fase A:
+  Par A+B: 1.72×1.55 = 2.67 ✅  → Standard 1 (score mín 78, stake 7€)
+  Segundo Standard: Par A+C e B+C partilham pernas com Std1 → 0 candidatos → 1 Standard
+
+Shortlist Fase B: pernas que NÃO sejam A, B ou C (odds 1.26–1.55):
+  P1 Porto 1X2 @ 1.32  P2 Atalanta BTTS @ 1.38  P3 Lille Over 1.5 @ 1.29
+  P4 Villarreal DNB @ 1.40  P5 Wolfsburg BTTS @ 1.35  P6 Lens Over 1.5 @ 1.30
+
+Trios:
+  Curto 1: P1+P2+P3 → 1.32×1.38×1.29 = 2.350 ✅
+  Curto 2: P4+P5+P6 → 1.40×1.35×1.30 = 2.457 ✅
+
+Resultado: 1 Standard + 2 Curtos = 3 acumuladores
+```
+
+---
+
 ## Passo 6 — Rascunho no chat
 
 Antes de gravar, mostra ao utilizador um rascunho compacto:
@@ -251,6 +393,20 @@ Antes de gravar, mostra ao utilizador um rascunho compacto:
    - Salah e Saka no onze
 
    Fontes: Sky Sports onze 11h00 · API-Football H2H · Sofascore
+
+---
+---
+🔗 ACUMULADOR A · 2.67 combinada · Score mín: 78 · Stake: 7€
+   1. ⚽ BTTS Sim — Liverpool vs Arsenal (PL) @ 1.72
+   2. ⚽ Vitória Real Madrid — Real Madrid vs Sevilla (La Liga) @ 1.55
+   [pernas de ligas diferentes ✅, sem sobreposição com Acumulador B ✅]
+
+🔗 ACUMULADOR B · 2.28 combinada · Score mín: 74 · Stake: 5€
+   1. ⚽ BTTS Sim — Bayern vs Stuttgart (DFB Pokal) @ 1.57
+   2. 🏀 Over 218.5 — Celtics vs Cleveland (NBA) @ 1.45
+   [cross-sport ✅, nenhuma perna partilhada com Acumulador A ✅]
+
+   (ou "Sem acumulador hoje — nenhuma combinação cai entre 2.0 e 3.0.")
 ```
 
 Espera validação humana antes de gravar.

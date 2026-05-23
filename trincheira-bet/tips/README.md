@@ -20,6 +20,26 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
   "date": "2026-05-16",
   "generated_at": "2026-05-16T11:30:00+01:00",
   "notes": "Opcional — contexto geral do dia",
+  "accumulators": [
+    {
+      "selections": [
+        { "fixtureId": 1234567, "match": "Liverpool vs Arsenal", "pick": "BTTS Sim", "odds": 1.72, "sport": "football" },
+        { "fixtureId": 7654321, "match": "Real Madrid vs Sevilla", "pick": "Vitória Real Madrid", "odds": 1.45, "sport": "football" }
+      ],
+      "combined_odds": 2.49,
+      "score": 76,
+      "stake": 7
+    },
+    {
+      "selections": [
+        { "fixtureId": 1234567, "match": "Liverpool vs Arsenal", "pick": "BTTS Sim", "odds": 1.72, "sport": "football" },
+        { "fixtureId": 9999999, "match": "Boston Celtics vs Cleveland", "pick": "Over 218.5 pts", "odds": 1.85, "sport": "nba" }
+      ],
+      "combined_odds": 2.62,
+      "score": 74,
+      "stake": 5
+    }
+  ],
   "tips": [
     {
       "market": "btts",
@@ -55,6 +75,17 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | Campo          | Tipo            | Obrigatório | Notas |
 |----------------|-----------------|-------------|-------|
 | `date`         | string          | sim         | `YYYY-MM-DD` |
+| `accumulators` | array           | não         | Lista de acumuladores do dia (0+); array vazio se não foi possível construir nenhum. Standard: até 2. Curtos: ⌊N pernas shortlist / 3⌋ |
+| `accumulators[].label` | `"standard"` \| `"curto"` | não | `"standard"` = tips aprovadas pelo processo completo; `"curto"` = 3 pernas de odds baixas (1.15–1.45) de pool alargado (ligas secundárias permitidas). Omitir = standard. |
+| `accumulators[].selections` | array | sim       | 2–3 seleções (standard) ou exactamente 3 seleções (curto) |
+| `accumulators[].selections[].fixtureId` | number | não | API-Football fixture ID (ou outro ID de desporto) |
+| `accumulators[].selections[].match` | string | sim | "Home vs Away" ou nome do jogo |
+| `accumulators[].selections[].pick` | string | sim | Descrição da aposta |
+| `accumulators[].selections[].odds` | number | sim | Odd individual (Betclic PT) |
+| `accumulators[].selections[].sport` | string | não | `"football"`, `"nba"`, `"tennis"` |
+| `accumulators[].combined_odds` | number | sim       | Produto das odds — deve estar entre 2.0 e 3.0 |
+| `accumulators[].score` | number | sim            | Score mínimo das seleções incluídas |
+| `accumulators[].stake` | number | sim            | € calculado pelas bandas do Sistema B sobre o score mínimo |
 | `generated_at` | string ISO 8601 | sim         | timestamp da curadoria |
 | `notes`        | string          | não         | nota geral do dia (ex.: "Jornada europeia") |
 | `tips[].market`| `btts` \| `favorites` \| `scorers` \| `corners` | sim | mercado |

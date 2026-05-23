@@ -55,6 +55,13 @@ const App = {
         </div>
       </div>
 
+      <section id="section-acca" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--green)"></span> Acumulador do dia <span class="badge badge--green" id="badge-acca"></span></div>
+        </div>
+        <div id="acca-container"></div>
+      </section>
+
       <section id="section-btts" style="display:none">
         <div class="section-head">
           <div class="title"><span class="swatch" style="background:var(--m-btts)"></span> Ambas marcam (BTTS) <span class="badge" id="badge-btts">0</span></div>
@@ -123,6 +130,7 @@ const App = {
     }
 
     this.renderTips(tips);
+    this.renderAccumulators(payload.accumulators);
     this.savePreMatchDataForLive(tips);
     this.updateMeta(payload, tips.length);
   },
@@ -182,6 +190,28 @@ const App = {
       sources: tip.sources || [],
       sport: tip.sport,
     });
+  },
+
+  renderAccumulators(accumulators) {
+    const section = document.getElementById('section-acca');
+    const container = document.getElementById('acca-container');
+    const badge = document.getElementById('badge-acca');
+    if (!section || !container) return;
+
+    const list = Array.isArray(accumulators) ? accumulators.filter(a => Array.isArray(a.selections) && a.selections.length >= 2) : [];
+    if (list.length === 0) {
+      section.style.display = 'none';
+      return;
+    }
+
+    container.innerHTML = '';
+    list.forEach(acca => {
+      const card = UI.renderAccaCard(acca);
+      if (card) container.appendChild(card);
+    });
+
+    if (badge) badge.textContent = list.length > 1 ? `${list.length}` : `@ ${list[0].combined_odds?.toFixed(2) ?? '—'}`;
+    section.style.display = '';
   },
 
   updateCounts() {

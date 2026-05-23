@@ -2,6 +2,30 @@
   "date": "2026-05-23",
   "generated_at": "2026-05-23T11:00:00+01:00",
   "notes": "Dia com 1 tip: DFB Pokal Final (Bayern-Stuttgart BTTS). Tennis cancelado — Hamburg Over 22.5 descartado (Buse mais cansado que Paul: 6 partidas desde qualifiers vs 4 de Paul; cenário de sets diretos mais provável). Geneva descartado (Navone ML 1.77 = edge 1.5pp, insuficiente). La Liga/Serie A sem sinal forte: Barça roda mas XI ainda sólido (Araújo, Lewandowski, Olmo, Raphinha), Real Madrid vs Athletic ambos sem objetivos. NBA Game 4 só amanhã (24/05).",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "BTTS Sim", "odds": 1.52, "sport": "football" },
+        { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "BTTS Sim", "odds": 1.44, "sport": "football" },
+        { "fixtureId": 1391197, "match": "Valencia vs Barcelona", "pick": "Over 2.5 Golos", "odds": 1.47, "sport": "football" }
+      ],
+      "combined_odds": 3.22,
+      "score": 65,
+      "stake": 3
+    },
+    {
+      "label": "curto",
+      "selections": [
+        { "fixtureId": 1542721, "match": "Bayern München vs VfB Stuttgart", "pick": "Vitória Bayern", "odds": 1.42, "sport": "football" },
+        { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "DC Casa/Empate", "odds": 1.33, "sport": "football" },
+        { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "Over 2.5 Golos", "odds": 1.52, "sport": "football" }
+      ],
+      "combined_odds": 2.87,
+      "score": 65,
+      "stake": 3
+    }
+  ],
   "tips": [
     {
       "market": "btts",

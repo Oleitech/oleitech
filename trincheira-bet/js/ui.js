@@ -213,5 +213,60 @@ const UI = {
       </div>
     `;
     return card;
-  }
+  },
+
+  renderAccaCard({ selections, combined_odds, score, stake }) {
+    const SPORT_BADGE = { football: '⚽', nba: '🏀', tennis: '🎾' };
+    const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
+
+    const selectionsHtml = selections.map((s, i) => {
+      const badge = SPORT_BADGE[s.sport] || '⚽';
+      const isLast = i === selections.length - 1;
+      return `
+        <div class="acca-leg">
+          <div class="acca-leg__connector">${isLast ? '' : '<span class="acca-chain"></span>'}</div>
+          <div class="acca-leg__content">
+            <div class="acca-leg__match">
+              <span class="acca-leg__sport">${badge}</span>
+              <span class="acca-leg__name">${s.match || ''}</span>
+            </div>
+            <div class="acca-leg__pick">
+              <span class="acca-leg__pick-label">${s.pick || ''}</span>
+              <span class="acca-leg__pick-odds num">${typeof s.odds === 'number' ? s.odds.toFixed(2) : '—'}</span>
+            </div>
+          </div>
+        </div>`;
+    }).join('');
+
+    const card = this.el('article', 'acca-card');
+    card.innerHTML = `
+      <div class="acca-header">
+        <span class="acca-header__label">Acumulador · ${selections.length} seleções</span>
+        <span class="acca-header__hint">Betclic PT</span>
+      </div>
+      <div class="acca-legs">
+        ${selectionsHtml}
+      </div>
+      <div class="acca-footer">
+        <div class="acca-combined">
+          <span class="acca-combined__label">Odd combinada</span>
+          <span class="acca-combined__value num">${typeof combined_odds === 'number' ? combined_odds.toFixed(2) : '—'}</span>
+        </div>
+        <div class="acca-right">
+          <div class="stake">
+            <span class="label">Stake</span>
+            <span class="value num">${stake ? stake + '€' : '1 stake'}</span>
+          </div>
+          <div class="conf">
+            <div class="conf-text">
+              <span class="label">Confiança</span>
+              <span class="value">${confLevel}</span>
+            </div>
+            ${Layout.renderConfRing(score)}
+          </div>
+        </div>
+      </div>
+    `;
+    return card;
+  },
 };
