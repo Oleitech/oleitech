@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-23",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "fixtureId": 1542721,
+        "home": "Bayern München",
+        "away": "VfB Stuttgart",
+        "league": "DFB Pokal — Final",
+        "kickoff": "2026-05-23T19:00:00+01:00",
+        "odds": 1.57,
+        "bookmaker": "Betclic",
+        "score_confidence": 80,
+        "stake": 7,
+        "final_score": "3-0",
+        "halftime_score": "0-0",
+        "result": "RED",
+        "hit": false,
+        "return": 0.0,
+        "pnl": -7.0,
+        "note": "Bayern 3-0 Stuttgart. Primeiro tempo 0-0. Harry Kane hat-trick na 2ª parte (52', 62', 84'). Stuttgart ficou em branco — a tese 'Bayern 0 clean sheets na Pokal' derrubada mesmo na final. Lição: contexto de final + Stuttgart com objetivos zero pressão pode inverter padrões defensivos."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "BTTS Sim", "odds": 1.52, "final_score": "2-1", "result": "GREEN" },
+          { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "BTTS Sim", "odds": 1.44, "final_score": "1-2", "result": "GREEN" },
+          { "fixtureId": 1391197, "match": "Valencia vs Barcelona", "pick": "Over 2.5 Golos", "odds": 1.47, "final_score": "3-1", "result": "GREEN" }
+        ],
+        "combined_odds": 3.22,
+        "score": 65,
+        "stake": 3,
+        "result": "GREEN",
+        "return": 9.66,
+        "pnl": 6.66
+      },
+      {
+        "label": "curto",
+        "selections": [
+          { "fixtureId": 1542721, "match": "Bayern München vs VfB Stuttgart", "pick": "Vitória Bayern", "odds": 1.42, "final_score": "3-0", "result": "GREEN" },
+          { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "DC Casa/Empate", "odds": 1.33, "final_score": "2-1", "result": "GREEN" },
+          { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "Over 2.5 Golos", "odds": 1.52, "final_score": "1-2", "result": "GREEN" }
+        ],
+        "combined_odds": 2.87,
+        "score": 65,
+        "stake": 3,
+        "result": "GREEN",
+        "return": 8.61,
+        "pnl": 5.61
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0,
+      "total_stake": 7,
+      "total_return": 0.0,
+      "pnl": -7.0,
+      "roi_pct": -100.0,
+      "accumulators_total": 2,
+      "accumulators_green": 2,
+      "accumulators_red": 0,
+      "accumulators_stake": 6,
+      "accumulators_return": 18.27,
+      "accumulators_pnl": 12.27,
+      "combined_stake": 13,
+      "combined_return": 18.27,
+      "combined_pnl": 5.27,
+      "combined_roi_pct": 40.5
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Espanyol vs Real Sociedad",
+        "league": "La Liga (Spain)",
+        "elapsed": 61,
+        "score_at_alert": "0-1",
+        "conf": 91,
+        "final_score": "1-1",
+        "final_corners": null,
+        "result": "GREEN",
+        "hit": true
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 100.0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": { "total": 1, "green": 1, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+      }
+    }
+  },
+  "notes": "DFB Pokal Final: Bayern 3-0 Stuttgart — BTTS RED (primeiro tempo 0-0, Kane hat-trick 2ª parte; Stuttgart em branco). Acumuladores ambos GREEN: Curto 1 (Betis 2-1 Levante BTTS ✅ + Antwerp 1-2 Westerlo BTTS ✅ + Valencia 3-1 Barça Over 2.5 ✅) +6.66€; Curto 2 (Bayern Vitória ✅ + Betis DC Casa ✅ + Antwerp Over 2.5 ✅) +5.61€. Tip isolada -7€ compensada pelos acumuladores (+12.27€). Dia positivo: +5.27€ ROI +40.5%. Live worker 1/1 GREEN (Espanyol 0-1 Sociedad min.61 → 1-1 BTTS, conf 91)."
+}
