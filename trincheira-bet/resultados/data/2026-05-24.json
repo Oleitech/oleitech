@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-24",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "fixtureId": 1378235,
+        "home": "Cremonese",
+        "away": "Como",
+        "league": "Serie A — GW38",
+        "kickoff": "2026-05-24T19:45:00+01:00",
+        "odds": 1.75,
+        "bookmaker": "Bet365",
+        "score_confidence": 78,
+        "stake": 7,
+        "final_score": "1-4",
+        "result": "GREEN",
+        "hit": true,
+        "return": 12.25,
+        "pnl": 5.25,
+        "note": "Cremonese 1-4 Como. BTTS confirmado (Cremonese marcou 1). Dupla motivação cumpriu — Como garantiu vaga europeia, Cremonese lutou até ao fim."
+      },
+      {
+        "market": "favorites",
+        "pick": "Vitória AS Roma",
+        "fixtureId": 1378243,
+        "home": "Hellas Verona",
+        "away": "AS Roma",
+        "league": "Serie A — GW38",
+        "kickoff": "2026-05-24T19:45:00+01:00",
+        "odds": 1.36,
+        "bookmaker": "Bet365",
+        "score_confidence": 70,
+        "stake": 5,
+        "final_score": "0-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 6.80,
+        "pnl": 1.80,
+        "note": "Verona 0-2 Roma. Verona já relegado apresentou equipa B. Roma garantiu a vaga na Champions League conforme esperado."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "selections": [
+          { "fixtureId": 1378235, "match": "Cremonese vs Como", "pick": "BTTS Sim", "odds": 1.75, "final_score": "1-4", "result": "GREEN" },
+          { "fixtureId": 1378243, "match": "Hellas Verona vs AS Roma", "pick": "Vitória Roma", "odds": 1.36, "final_score": "0-2", "result": "GREEN" }
+        ],
+        "combined_odds": 2.38,
+        "score": 70,
+        "stake": 5,
+        "result": "GREEN",
+        "return": 11.90,
+        "pnl": 6.90
+      },
+      {
+        "label": "curto",
+        "selections": [
+          { "fixtureId": 1379344, "match": "Manchester City vs Aston Villa", "pick": "Over 2.5 Golos", "odds": 1.30, "final_score": "1-2", "result": "GREEN" },
+          { "fixtureId": 1379343, "match": "Liverpool vs Brentford", "pick": "Over 2.5 Golos", "odds": 1.50, "final_score": "1-1", "result": "RED" },
+          { "fixtureId": 1379347, "match": "Tottenham vs Everton", "pick": "Over 1.5 Golos", "odds": 1.27, "final_score": "1-0", "result": "RED" }
+        ],
+        "combined_odds": 2.48,
+        "score": 65,
+        "stake": 3,
+        "result": "RED",
+        "return": 0.0,
+        "pnl": -3.0,
+        "note": "Liverpool 1-1 (2 golos = under 2.5) e Tottenham 1-0 (1 golo = under 1.5) derrubaram o acumulador."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 2,
+      "red": 0,
+      "hit_rate": 100.0,
+      "total_stake": 12,
+      "total_return": 19.05,
+      "pnl": 7.05,
+      "roi_pct": 58.75,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 8,
+      "accumulators_return": 11.90,
+      "accumulators_pnl": 3.90,
+      "combined_stake": 20,
+      "combined_return": 30.95,
+      "combined_pnl": 10.95,
+      "combined_roi_pct": 54.75
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "fixtureId": 1523169,
+        "match": "Hangzhou Greentown vs Shenyang Urban",
+        "league": "Super League (China)",
+        "elapsed": 52,
+        "score_at_alert": "0-2",
+        "conf": 95,
+        "final_score": "0-5",
+        "result": "RED",
+        "hit": false,
+        "note": "Alert com 0-2 min.52 (Hangzhou tinha 3 SoT, 10 remates, 61% posse). Hangzhou nunca marcou — Shenyang ganhou 5-0."
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "fixtureId": 1392209,
+        "match": "Malaga vs Racing Santander",
+        "league": "Segunda División (Spain)",
+        "elapsed": 53,
+        "score_at_alert": "1-0",
+        "conf": 91,
+        "final_score": "1-1",
+        "result": "GREEN",
+        "hit": true,
+        "note": "Alert com 1-0 min.53 (Racing ainda não marcara, 4 SoT). Racing empatou — BTTS confirmado."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 50.0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": { "total": 2, "green": 1, "red": 1, "green_over": 0, "pending": 0, "hit_rate": 50.0 }
+      }
+    }
+  },
+  "notes": "Serie A última jornada: 2/2 tips GREEN (Cremonese 1-4 Como BTTS ✅ + Verona 0-2 Roma Vitória ✅). Acumulador standard GREEN (+6.90€). Acumulador curto PL RED — Liverpool 1-1 Brentford (2 golos = under 2.5) e Tottenham 1-0 Everton (under 1.5) derrubaram. Live worker 1/2 (Málaga 1-1 Racing ✅ / Hangzhou 0-5 Shenyang ❌). Dia positivo: +10.95€ ROI +54.75%."
+}
