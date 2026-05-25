@@ -143,6 +143,65 @@ Para cada jogo candidato, recolher:
 
 **Para tennis, `home`/`away` são os 2 jogadores.** "home" = primeiro nome listado no order of play / quem serve primeiro (convenção).
 
+## Passo 6.5 — Acumuladores de Tennis
+
+### Regra de ouro: tips singulares nunca entram em acumuladores
+
+**Qualquer tip que vá para o array `tips[]` como pick singular está automaticamente excluída de todos os acumuladores** — tennis, futebol ou mistos. O objetivo é evitar que uma seleção já arriscada por si só "estrague" também o acumulador. As duas apostas funcionam de forma completamente independente.
+
+Isto aplica-se mesmo que a tip singular tenha odds muito atrativas — se está em `tips[]`, fica fora de qualquer `accumulators[]`.
+
+---
+
+### Modo 1 — Curto de Grand Slam (pool exclusivo, odds 1.26–1.55)
+
+Usado em dias de Grand Slam com slate grande (R1/R2). Varre matches da **tarde e night session** (não os da manhã — podem já ter começado) em busca de seeds com odds nessa janela contra oponentes visivelmente inferiores.
+
+**Filtro mínimo por perna (sem isto não entra):**
+- Seed claramente superior na superfície (ex: clay specialist num confronto em Roland Garros vs qualificador sem historial em terra)
+- Forma recente positiva (≥3/5 vitórias nos últimos jogos disputados)
+- Sem red flag: sem lesão confirmada, sem relato de fadiga extrema, sem retirada recente
+
+**Não é necessário:** pesquisa qualitativa completa, tipsters cross-check, tese elaborada.
+
+**Algoritmo:**
+1. Identificar 3+ pernas elegíveis nos matches da tarde/noite
+2. Agrupar em trios sem partilha de perna entre acumuladores (R1 global)
+3. Produto por trio deve cair entre 2.0 e 3.0 (com odds 1.26–1.55 isto é quase garantido)
+4. Nenhuma perna pode ser uma tip singular do dia
+
+**Score:** fixo em 65 · **Stake:** 3€ fixo · **Label JSON:** `"label": "curto-tennis"`
+
+**Apresentar shortlist ao utilizador antes de montar:**
+```
+📋 Shortlist curto tennis (odds 1.26–1.55):
+  T1 — Ruud vence Safiullin @ 1.30  (clay specialist ✅, forma 4/5 ✅)
+  T2 — Shelton vence Merida @ 1.28  (ranking gap ✅, forma 3/5 ✅)
+  T3 — Cobolli vence Pellegrino @ 1.35  (forma 5/5 ✅, clay ✅)
+  → 3 pernas elegíveis → 1 acumulador curto
+```
+
+---
+
+### Modo 2 — Standard de upset (odds ≥1.55, pool de matches não-singulares)
+
+Quando há 2+ picks com odds ≥1.55 que **não foram usados como tip singular**. Combina 2 a 3 pernas para produto entre 2.0 e 3.0.
+
+Exemplo: dois upsets com narrativa clara a 1.75 e 1.80 = 3.15 (3 pernas necessário para baixar — adicionar uma perna curta, ou selecionar upsets com odds mais contidas 1.60–1.70).
+
+**Stake:** Sistema B pelo score mínimo das pernas · **Label JSON:** `"label": "standard-tennis"`
+
+---
+
+### Acumuladores mistos (tennis + futebol + NBA)
+
+Os acumuladores mistos (Fase A e Fase B do WORKFLOW principal) podem incluir pernas de tennis **desde que**:
+- A perna de tennis **não seja uma tip singular do dia**
+- Odds dentro da janela aplicável (≥1.55 para standard, 1.26–1.55 para curto)
+- Não partilhar perna com nenhum acumulador tennis já gerado (R1 global)
+
+---
+
 ## Passo 7 — Merge
 
 Mesma regra do NBA: se ficheiro do dia já existe, MERGE em vez de overwrite.

@@ -1,7 +1,7 @@
 {
   "date": "2026-05-25",
   "generated_at": "2026-05-25T11:00:00+01:00",
-  "notes": "Jornada sem Big-5 (finais de taça jogadas no fim de semana). Destaque para o playoff de acesso Bundesliga (Paderborn vs Wolfsburg). 6 jogos Eliteserien.",
+  "notes": "Jornada sem Big-5 (finais de taça jogadas no fim de semana). Destaque para o playoff de acesso Bundesliga (Paderborn vs Wolfsburg). 6 jogos Eliteserien. Roland Garros Dia 2: tip de tennis adicionada em update — Monfils despede-se de Paris na night session.",
   "accumulators": [
     {
       "label": "curto",
@@ -42,6 +42,36 @@
         "API-Football — H2H, statistics, injuries",
         "MightyTips — predicted lineup 25/05",
         "DailySports — team news"
+      ]
+    },
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Gael Monfils vence",
+      "fixtureId": "rg-2026-sm093",
+      "home": { "name": "Hugo Gaston", "logo": "" },
+      "away": { "name": "Gael Monfils", "logo": "" },
+      "league": "Roland Garros 2026 — 1ª Ronda (ATP)",
+      "leagueLogo": "",
+      "kickoff": "2026-05-25T18:15:00Z",
+      "odds": 1.88,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 5,
+      "tese": "Despedida de Monfils em Roland Garros — o veterano de 39 anos joga pela última vez no Grand Slam da sua vida, no Chatrier à frente de um público que o venera há 20 anos. Gaston, apesar de ser especialista de terra batida, chega em colapso de forma total: 2 vitórias em 9 jogos recentes. É o primeiro confronto de sempre entre os dois. Monfils tem tudo a ganhar motivacionalmente, Gaston não tem a forma para resistir ao ambiente e à experiência de grandes momentos do adversário. As odds a 1.85-1.91 contra um jogador em queda livre são value real.",
+      "factors": [
+        "Gaston em forma catastrófica: 2/9 vitórias nos últimos 9 jogos",
+        "Monfils: última aparição em Roland Garros — motivação máxima, nada a perder",
+        "Chatrier night session: público de Paris 100% do lado de Monfils, pressão invertida",
+        "Primeiro H2H entre os dois — sem dados de confronto direto, sem edge para Gaston",
+        "Odds ~1.88 para jogador com experiência de Grande Slam incomparável vs oponente em crise"
+      ],
+      "sources": [
+        "Racing Post — Day 2 tips (10-11 Monfils)",
+        "Vsin — French Open picks Monday (Monfils -106)",
+        "Roland Garros official — order of play, night session Chatrier",
+        "ATP Tour H2H — primeiro confronto",
+        "Sofascore — Gaston recent form"
       ]
     }
   ]

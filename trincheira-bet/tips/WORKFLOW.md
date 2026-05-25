@@ -8,12 +8,35 @@ Podes (e deves) demorar o tempo que for preciso. Volume-alvo: **1–3 tips/dia**
 
 ---
 
+## Passo 0 — Verificação obrigatória de Grand Slams / torneios major
+
+**ANTES de qualquer outra coisa**, verifica se hoje cai dentro de um Grand Slam de tennis ou torneio NBA em playoff:
+
+| Torneio | Período aproximado | Acção |
+|---|---|---|
+| Australian Open (ATP+WTA) | Jan 13–26 | **Tennis OBRIGATÓRIO** |
+| Roland Garros (ATP+WTA) | 24 Mai–7 Jun | **Tennis OBRIGATÓRIO** |
+| Wimbledon (ATP+WTA) | 30 Jun–13 Jul | **Tennis OBRIGATÓRIO** |
+| US Open (ATP+WTA) | 25 Ago–7 Set | **Tennis OBRIGATÓRIO** |
+| NBA Playoffs | Abr–Jun | **NBA OBRIGATÓRIO** |
+
+Se a data-alvo cair dentro de um Grand Slam:
+1. Corre `tips/tennis/WORKFLOW.md` **em paralelo** com o futebol (não opcional, não esquecível)
+2. Usa WebSearch para obter o order of play do dia: `"Roland Garros [data] order of play"`
+3. Identifica matches do dia por sessão (manhã / tarde / night session)
+4. Dá prioridade a night session e afternoon matches — são os que ainda têm odds abertas quando as tips são geradas de manhã
+5. Não gerar tips de tennis para matches já em curso ou terminados
+
+**Nota:** Em Grand Slams a 1ª semana tem slate massivo (40-60 jogos/dia). Não tentar cobrir tudo — foca nos 3-5 jogos com mais angle claro (upset narrative, forma extremamente díspar, motivação especial).
+
+---
+
 ## Passo 1 — Carregar contexto
 
 1. Lê `config.js` para a `API_KEY` e `API_HOST` (`v3.football.api-sports.io`)
 2. Lê `js/constants.js` para o `LEAGUES` map (id → name, country, flag, bttsRate, avgCorners, avgCards)
 3. Determina a data-alvo (default: hoje em PT timezone) e calcula `YYYY-MM-DD`
-4. Confirma que `tips/YYYY-MM-DD.json` ainda não existe (se existir, pergunta ao utilizador se quer substituir)
+4. Confirma que `tips/YYYY-MM-DD.json` ainda não existe (se existir, pergunta ao utilizador se quer substituir — se existir e for um update de tennis/NBA, fazer MERGE em vez de substituir)
 
 ## Passo 2 — Fixtures do dia (API-Football)
 
