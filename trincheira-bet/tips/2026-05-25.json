@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T11:00:00+01:00",
+  "notes": "Jornada sem Big-5 (finais de taça jogadas no fim de semana). Destaque para o playoff de acesso Bundesliga (Paderborn vs Wolfsburg). 6 jogos Eliteserien.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        { "fixtureId": 1545235, "match": "ST Mirren vs Partick", "pick": "Over 1.5 golos", "odds": 1.30, "sport": "football" },
+        { "fixtureId": 1545665, "match": "Rapid Vienna vs Ried", "pick": "Over 1.5 golos", "odds": 1.30, "sport": "football" },
+        { "fixtureId": 1494673, "match": "Sarpsborg 08 vs Molde", "pick": "BTTS Sim", "odds": 1.44, "sport": "football" }
+      ],
+      "combined_odds": 2.43,
+      "score": 65,
+      "stake": 3
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim",
+      "fixtureId": 1545418,
+      "home": { "name": "SC Paderborn 07", "logo": "https://media.api-sports.io/football/teams/185.png" },
+      "away": { "name": "VfL Wolfsburg",   "logo": "https://media.api-sports.io/football/teams/161.png" },
+      "league": "Bundesliga — Playoff de Acesso",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-05-25T18:30:00Z",
+      "odds": 1.75,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 5,
+      "tese": "Paderborn em casa precisa de marcar para avançar no playoff após 0-0 na 1ª mão — atitude ofensiva garantida. O Wolfsburg tem a pior defesa da Bundesliga nesta época (apenas 3 clean sheets em 35 jogos, 69 golos sofridos) e chega com 7 lesionados incluindo Wind e Arnold. Se o Paderborn abre o marcador, o Wolfsburg é forçado a responder — dinâmica de BTTS auto-alimentada. H2H histórico: 5/6 = 83% com ambas a marcar.",
+      "factors": [
+        "H2H 5/6 = 83% BTTS nos últimos 6 encontros",
+        "Wolfsburg: 3 clean sheets em 35 jogos — pior defesa da época",
+        "Paderborn em casa: 2 CS em 15 jogos (87% sofre pelo menos 1 golo)",
+        "7 lesionados no Wolfsburg (Wind, Arnold, Fischer, Rogerio, Seelt, Wimmer, Dardai)",
+        "Sticker suspenso no Paderborn — onze ofensivo com Bilbija, Marino, Bätzner"
+      ],
+      "sources": [
+        "Bet365 odds",
+        "API-Football — H2H, statistics, injuries",
+        "MightyTips — predicted lineup 25/05",
+        "DailySports — team news"
+      ]
+    }
+  ]
+}
