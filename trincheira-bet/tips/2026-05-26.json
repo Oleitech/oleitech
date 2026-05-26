@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T11:00:00+01:00",
+  "notes": "Dia escasso em futebol europeu (fim de época). Destaque para o playoff de acesso à 2. Bundesliga (Fürth vs Essen — 2ª mão) e o barrage Ligue 1/Ligue 2 (ASSE vs Nice — 1ª mão). Roland Garros Day 3: Sinner e Tsitsipas são demasiado curtos para tip individual. Sem curto hoje — shortlist de pernas <1.55 insuficiente para 3 pernas validadas (mercado europeu encerrado).",
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        { "fixtureId": 1545406, "match": "Fürth vs Rot-Weiss Essen", "pick": "Vitória Fürth", "odds": 1.75, "sport": "football" },
+        { "fixtureId": 1545408, "match": "Saint Etienne vs Nice", "pick": "Ambas Marcam - Sim", "odds": 1.62, "sport": "football" }
+      ],
+      "combined_odds": 2.84,
+      "score": 75,
+      "stake": 7
+    }
+  ],
+  "tips": [
+    {
+      "market": "favorites",
+      "pick": "Vitória Fürth",
+      "fixtureId": 1545406,
+      "home": { "name": "SpVgg Greuther Fürth", "logo": "https://media.api-sports.io/football/teams/178.png" },
+      "away": { "name": "Rot-Weiss Essen", "logo": "https://media.api-sports.io/football/teams/1621.png" },
+      "league": "2. Bundesliga — Playoff de Acesso (2ª mão)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/79.png",
+      "kickoff": "2026-05-26T18:30:00Z",
+      "odds": 1.75,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 7,
+      "tese": "<p>Fürth recebe o Essen no <strong>Ronhof cheio</strong> a perder 0-1 no agregado, com stakes históricas: a cair da 2ª divisão pela primeira vez desde 1997. O Essen chega com 3 jogadores chave ausentes (Gjasula — pivot defensivo, Bouebari, Mause) e com um <strong>registo terrível fora de casa — 14 golos sofridos nos últimos 5 jogos fora (2.8/jogo)</strong>. Fürth em casa em 2026: 7 vitórias em 9 (77.8%). O treinador Vogel garantiu que o estádio vai ser um \"superpower\" e a equipa está preparada para uma noite de tudo ou nada.</p><ul><li><strong>Fürth home form 2026: 7/9 vitórias (77.8%)</strong></li><li>Essen concedeu 14 golos nos últimos 5 jogos fora — 2.8/jogo</li><li>Essen sem Gjasula (anchor mid), Bouebari e Mause</li><li>MUST-WIN: stakes históricas, fora das top-2 divisões pela 1ª vez desde 1997</li><li>Consenso tipsters: MightyTips, PredictZ, Dailysports, WinDrawWin, Bet-Experts — todos Fürth</li></ul>",
+      "factors": [
+        "Fürth home form 2026: 7/9 vitórias (77.8%)",
+        "Essen concedeu 14 golos em 5 jogos fora (2.8/jogo)",
+        "Essen sem Gjasula (pivot defensivo), Bouebari e Mause",
+        "Must-win: risco de cair das top-2 divisões pela 1ª vez desde 1997",
+        "Consenso 5+ tipsters: vitória Fürth"
+      ],
+      "sources": [
+        "bulinews.com — second leg preview",
+        "bundesliga.com — official team news",
+        "API-Football — team statistics, season 2025",
+        "MightyTips, WinDrawWin, PredictZ — prediction consensus"
+      ]
+    },
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam - Sim",
+      "fixtureId": 1545408,
+      "home": { "name": "Saint Etienne", "logo": "https://media.api-sports.io/football/teams/1063.png" },
+      "away": { "name": "Nice", "logo": "https://media.api-sports.io/football/teams/84.png" },
+      "league": "Ligue 1 — Barrage (1ª mão)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/61.png",
+      "kickoff": "2026-05-26T18:45:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 7,
+      "tese": "<p>O Chaudron vai estar em peso para este jogo histórico de regresso à Ligue 1. A ASSE tem dianteiros em forma (Stassin, Cardona, Othman, Davitashvili) e a motivação de um estádio inteiro atrás. Do outro lado, o Nice chega <strong>destroçado</strong>: perdeu a final da Coupe de France 3-1 contra o Lens há apenas 3 dias, sem o seu melhor marcador Elye Wahi (<strong>7 golos, suspenso</strong>), e com Ndayishimiye e Bombito lesionados. A defesa do Nice é uma das mais porosas da Ligue 1 — <strong>apenas 6 clean sheets em 34 jogos (17.6%)</strong>. H2H: BTTS em 5 dos últimos 8 jogos competitivos (62.5%).</p><ul><li><strong>Nice: 1 dos piores registos defensivos da Ligue 1</strong> — 6 CS em 34 jogos (17.6%)</li><li>Wahi suspenso — melhor marcador do Nice com 7 golos</li><li>Nice exausta: final da Coupe de France há 3 dias (3-1 Lens)</li><li>ASSE home, Chaudron cheio — Stassin, Cardona, Othman no ataque</li><li>H2H: BTTS em 5/8 jogos competitivos (62.5%)</li><li>Consenso: Sportytrader, MightyTips, Betfred, Goal.com, Dailysports — todos BTTS</li></ul>",
+      "factors": [
+        "H2H BTTS 5/8 jogos competitivos (62.5%)",
+        "Nice: apenas 6 clean sheets em 34 jogos da Ligue 1 (17.6%)",
+        "Wahi suspenso (7 golos) + Ndayishimiye e Bombito lesionados",
+        "Nice exausta: final Coupe de France há 3 dias (3-1 Lens)",
+        "ASSE home, Chaudron cheio — ataque com Stassin, Cardona, Othman",
+        "Consenso 5+ tipsters: BTTS confirmado"
+      ],
+      "sources": [
+        "sportsmole.co.uk — team news e lineups",
+        "dailysports.net — preview ASSE vs Nice",
+        "API-Football — H2H, Nice season statistics",
+        "Sportytrader, MightyTips, Betfred — tipster consensus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-05-25",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "fixtureId": 1545418,
+        "home": "SC Paderborn 07",
+        "away": "VfL Wolfsburg",
+        "league": "Bundesliga — Playoff de Acesso",
+        "kickoff": "2026-05-25T18:30:00Z",
+        "odds": 1.75,
+        "bookmaker": "Bet365",
+        "score_confidence": 68,
+        "stake": 5,
+        "final_score": "1-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 8.75,
+        "pnl": 3.75,
+        "note": "Paderborn 1-1 Wolfsburg. BTTS confirmado — Paderborn abriu o marcador em casa e o Wolfsburg empatou. Dinâmica de playoff auto-alimentou os dois golos exactamente como antecipado."
+      },
+      {
+        "market": "tennis_match",
+        "sport": "tennis",
+        "pick": "Gael Monfils vence",
+        "fixtureId": "rg-2026-sm093",
+        "home": "Hugo Gaston",
+        "away": "Gael Monfils",
+        "league": "Roland Garros 2026 — 1ª Ronda (ATP)",
+        "kickoff": "2026-05-25T18:15:00Z",
+        "odds": 1.88,
+        "bookmaker": "Bet365",
+        "score_confidence": 70,
+        "stake": 5,
+        "final_score": "6-2, 6-3, 3-6, 2-6, 6-0 (Gaston)",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5,
+        "note": "Hugo Gaston venceu 6-2, 6-3, 3-6, 2-6, 6-0 em 5 sets. Monfils chegou a empatar em sets (2-2) mas o 5.º set foi dominado por Gaston (6-0). A narrativa emocional de despedida não foi suficiente — o colapso de forma de Gaston que esperávamos não se materializou na fase decisiva."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          { "fixtureId": 1545235, "match": "ST Mirren vs Partick", "pick": "Over 1.5 Golos", "odds": 1.30, "final_score": "1-0", "result": "RED" },
+          { "fixtureId": 1545665, "match": "Rapid Vienna vs Ried", "pick": "Over 1.5 Golos", "odds": 1.30, "final_score": "3-0", "result": "GREEN" },
+          { "fixtureId": 1494673, "match": "Sarpsborg 08 vs Molde", "pick": "BTTS Sim", "odds": 1.44, "final_score": "2-1", "result": "GREEN" }
+        ],
+        "combined_odds": 2.43,
+        "score": 65,
+        "stake": 3,
+        "result": "RED",
+        "return": 0,
+        "pnl": -3,
+        "note": "ST Mirren 1-0 Partick — apenas 1 golo, Over 1.5 falhou. As outras duas pernas passaram (Rapid 3-0, Sarpsborg 2-1 BTTS)."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0,
+      "total_stake": 10,
+      "total_return": 8.75,
+      "pnl": -1.25,
+      "roi_pct": -12.5,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 3,
+      "accumulators_return": 0,
+      "accumulators_pnl": -3,
+      "combined_stake": 13,
+      "combined_return": 8.75,
+      "combined_pnl": -4.25,
+      "combined_roi_pct": -32.69
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 149.11,
+  "notes": "Dia sem Big-5, destaque para o playoff Bundesliga. Paderborn 1-1 Wolfsburg BTTS ✅ (+3.75€). Monfils ❌ derrota surpreendente em 5 sets para Gaston (-5€). Acumulador curto RED — ST Mirren 1-0 Partick afundou (Rapid 3-0 ✅ e Sarpsborg 2-1 BTTS ✅ passaram) (-3€). Sem alertas live. Dia negativo: -4.25€ ROI -32.69%. Banca: 153.36€ → 149.11€."
+}
