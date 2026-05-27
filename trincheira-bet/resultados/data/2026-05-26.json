@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-26",
+  "curated_tips": {
+    "tips": [
+      {
+        "fixtureId": 1545406,
+        "match": "Furth vs Rot-Weiss Essen",
+        "league": "2. Bundesliga - Playoff de Acesso (2a mao)",
+        "market": "favorites",
+        "pick": "Vitoria Furth",
+        "odds": 1.75,
+        "stake": 7,
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "2-0",
+        "return": 12.25,
+        "pnl": 5.25,
+        "note": "Furth venceu em casa por 2-0, apurando-se para a 2a Bundesliga. Vitoria convincente com golo de Futkeu (29) e segundo golo na 2a parte. Essen sem resistir no Ronhof cheio."
+      },
+      {
+        "fixtureId": 1545408,
+        "match": "Saint Etienne vs Nice",
+        "league": "Ligue 1 - Barrage (1a mao)",
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "odds": 1.62,
+        "stake": 7,
+        "result": "RED",
+        "hit": false,
+        "final_score": "0-0",
+        "return": 0,
+        "pnl": -7.0,
+        "note": "Jogo extremamente cauteloso no Stade Geoffroy-Guichard - 0-0 no final. Nenhuma das equipas marcou, apesar do Chaudron cheio. Penalti anulado pela VAR ao ASSE aos 36. Tudo em aberto para a 2a mao."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "combined_odds": 2.84,
+        "stake": 7,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -7.0,
+        "selections": [
+          {
+            "fixtureId": 1545406,
+            "match": "Furth vs Rot-Weiss Essen",
+            "pick": "Vitoria Furth",
+            "odds": 1.75,
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "fixtureId": 1545408,
+            "match": "Saint Etienne vs Nice",
+            "pick": "Ambas Marcam - Sim",
+            "odds": 1.62,
+            "result": "RED",
+            "final_score": "0-0"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 0.5,
+      "total_stake": 14,
+      "total_return": 12.25,
+      "pnl": -1.75,
+      "roi_pct": -12.5,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 7,
+      "accumulators_return": 0,
+      "accumulators_pnl": -7.0,
+      "combined_stake": 21,
+      "combined_return": 12.25,
+      "combined_pnl": -8.75,
+      "combined_roi_pct": -41.67
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0.0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 140.36,
+  "notes": "Dia misto - Furth dominou e ganhou 2-0 ao Essen (GREEN, +5.25 euros), mas o ASSE/Nice dececionou com 0-0 e penalti anulado pela VAR (RED, -7 euros). Acumulador tambem RED. Sem alertas live. Saldo do dia: -8.75 euros. Novo bankroll: 140.36 euros."
+}

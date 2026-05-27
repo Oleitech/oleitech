@@ -1,0 +1,74 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T09:45:00+01:00",
+  "notes": "Quarta de Final Europeia: apenas a UECL Final Crystal Palace vs Rayo Vallecano (Leipzig) a nivel de futebol de elite. Roland Garros 2a ronda obrigatorio. Sem NBA hoje. DFB-Pokal Final foi a 23/05. Final de epoca — scarcity total. Ruud excluido: golpe de calor grave em 26/05.",
+  "accumulators": [
+    {
+      "label": "curto-tennis",
+      "selections": [
+        {
+          "fixtureId": "rg2026-r2-bencic-mcnally",
+          "match": "Belinda Bencic vs Caty McNally",
+          "pick": "Bencic vence",
+          "odds": 1.29,
+          "sport": "tennis"
+        },
+        {
+          "fixtureId": "rg2026-r2-deminaur-blockx",
+          "match": "Alex de Minaur vs Alexander Blockx",
+          "pick": "de Minaur vence",
+          "odds": 1.5,
+          "sport": "tennis"
+        },
+        {
+          "fixtureId": "rg2026-r2-paolini-sierra",
+          "match": "Jasmine Paolini vs Solana Sierra",
+          "pick": "Paolini vence",
+          "odds": 1.49,
+          "sport": "tennis"
+        }
+      ],
+      "combined_odds": 2.88,
+      "score": 65,
+      "stake": 3
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam - Sim",
+      "fixtureId": 1544608,
+      "home": {
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png"
+      },
+      "away": {
+        "name": "Rayo Vallecano",
+        "logo": "https://media.api-sports.io/football/teams/728.png"
+      },
+      "league": "UEFA Conference League - Final (Leipzig)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-05-27T19:00:00+00:00",
+      "odds": 1.91,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 5,
+      "tese": "<p>A Final da UEFA Conference League reune as <strong>duas equipas mais pontuadoras do torneio</strong>: Crystal Palace 25 golos em 16 jogos e Rayo Vallecano 27 em 14.</p><ul><li><strong>Rayo marcou em todos os ultimos 10 jogos</strong> — consistencia ofensiva excecional.</li><li><strong>Rayo sem clean sheet em deslocamento: CS Away @ 4.00 (25% probabilidade de nao sofrer)</strong> — Palace tem Sarr (9 golos), Eze e Mateta.</li><li><strong>Ultimos 4 jogos Rayo: BTTS em 3/4 (75%)</strong>.</li><li><strong>Wharton e Richards regressaram ao treino</strong> — Glasner confirma onze completo.</li><li>Mercado dividido (Sim @ 1.91 vs Nao @ 1.80) mas probabilidade real 55%+ gera edge positivo.</li></ul>",
+      "factors": [
+        "Rayo marcou em 10/10 dos ultimos jogos",
+        "Palace top scorer UECL: 25 golos em 16 — Sarr com 9",
+        "Rayo CS Away = 4.00 — apenas 25% probabilidade clean sheet",
+        "Ultimos 4 jogos Rayo: BTTS 3/4 (75%)",
+        "Palace onze completo: Wharton e Richards no treino",
+        "Primeira Final europeia para ambos — motivacao maxima"
+      ],
+      "sources": [
+        "uefa.com — previa oficial UECL Final, onzes e lesoes",
+        "sportsmole.co.uk — double boost: Wharton Richards regressam ao treino",
+        "bet365 via API-Football fixture 1544608 — BTTS Sim 1.91 No 1.80 CS Away 4.00",
+        "dailysports.net — estatisticas UECL Crystal Palace e Rayo 2025/26",
+        "betting.betfair.com — tip editorial: BTTS e Over 2.5 golos na Final"
+      ]
+    }
+  ]
+}
