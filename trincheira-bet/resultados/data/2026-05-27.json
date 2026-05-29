@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-27",
+  "curated_tips": {
+    "tips": [
+      {
+        "fixtureId": 1544608,
+        "match": "Crystal Palace vs Rayo Vallecano",
+        "league": "UEFA Conference League - Final (Leipzig)",
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "odds": 1.91,
+        "stake": 5,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5,
+        "final_score": "1-0",
+        "note": "Crystal Palace venceu a Final da UECL 1-0. Rayo Vallecano nao marcou durante os 90 minutos. BTTS falhou."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto-tennis",
+        "combined_odds": 2.88,
+        "stake": 3,
+        "result": "RED",
+        "return": 0,
+        "pnl": -3,
+        "selections": [
+          {
+            "fixtureId": "rg2026-r2-bencic-mcnally",
+            "match": "Belinda Bencic vs Caty McNally",
+            "pick": "Bencic vence",
+            "odds": 1.29,
+            "sport": "tennis",
+            "result": "GREEN",
+            "final_score": "6-4, 6-0",
+            "note": "Bencic dominante: venceu 6-4, 6-0."
+          },
+          {
+            "fixtureId": "rg2026-r2-deminaur-blockx",
+            "match": "Alex de Minaur vs Alexander Blockx",
+            "pick": "de Minaur vence",
+            "odds": 1.5,
+            "sport": "tennis",
+            "result": "GREEN",
+            "final_score": "W/O",
+            "note": "Blockx retirou-se com lesao no tornozelo direito. De Minaur avancou por walkover para a 3a ronda."
+          },
+          {
+            "fixtureId": "rg2026-r2-paolini-sierra",
+            "match": "Jasmine Paolini vs Solana Sierra",
+            "pick": "Paolini vence",
+            "odds": 1.49,
+            "sport": "tennis",
+            "result": "RED",
+            "final_score": "6-3, 4-6, 6-3 (Sierra)",
+            "note": "Sierra eliminou Paolini em 3 sets (6-3, 4-6, 6-3). Derrota da cabeca de serie. Acumulador derrubado."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0.0,
+      "total_stake": 5,
+      "total_return": 0,
+      "pnl": -5,
+      "roi_pct": -100.0,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 3,
+      "accumulators_return": 0,
+      "accumulators_pnl": -3,
+      "combined_stake": 8,
+      "combined_return": 0,
+      "combined_pnl": -8,
+      "combined_roi_pct": -100.0
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0.0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 132.36,
+  "notes": "Dia negativo na Final da UECL e Roland Garros 2a ronda. Crystal Palace venceu o Rayo Vallecano 1-0 - BTTS falhou com Rayo sem marcar. No acumulador de tenis, Bencic ganhou (6-4, 6-0) e de Minaur avancou por W/O (Blockx lesionado), mas Paolini foi eliminada pela argentina Sierra (6-3, 4-6, 6-3), derrubando o acumulador. Sem alertas live. Dia a -8 euros. Bankroll: 140.36 -> 132.36."
+}
