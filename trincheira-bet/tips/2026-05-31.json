@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T15:35:00+01:00",
+  "notes": "Domingo de escassez no futebol — todas as Top-5 ligas europeias e a Liga Portugal já terminaram a época. O slate de futebol resume-se ao Brasileirão (Bragantino-Internacional e Vasco-Atlético MG são coin-flips de baixo golo; Palmeiras-Chapecoense tem Palmeiras como favorito claro mas a 1.33, abaixo do floor de value de 1.55 para single) e à Segunda Espanhola em fim de época/playoffs (ruído alto — descartada). Pro League BE (Gent-Genk) blacklisted. Sem jogo de NBA hoje (intervalo entre as finais de conferência e as Finals, que arrancam em Junho). FOCO: Roland Garros Day 8 (oitavos-de-final), tennis OBRIGATÓRIO em Grand Slam. Os jogos da manhã (Swiatek-Kostyuk 11h, Svitolina-Bencic) já estavam ao vivo à hora da geração e foram excluídos (só pré-jogo). Selecionada 1 tip: Ruud vs Fonseca na night session. Sem acumulador: impossível montar trio limpo — só o Palmeiras qualificava como perna curta (1.33) e as restantes legs de futebol são coin-flips; favoritos de tennis das tardes demasiado curtos (Zverev ~1.10, Andreeva ~1.15). Star list: sem mudanças (pesquisa centrada em tennis/RG e Brasileirão; sem novos avançados ou transferências a registar).",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Casper Ruud vence (Match Winner)",
+      "fixtureId": "rg-2026-r4-ruud-fonseca",
+      "home": { "name": "Casper Ruud", "logo": "" },
+      "away": { "name": "Joao Fonseca", "logo": "" },
+      "league": "Roland Garros 2026 — Oitavos-de-final (ATP) · Night Session (Court Philippe-Chatrier)",
+      "leagueLogo": "",
+      "kickoff": "2026-05-31T18:15:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "<p>Night session no Chatrier, primeiro confronto de sempre. <strong>Ruud é o jogador de terra batida mais credenciado deste lado do quadro</strong> — bifinalista de Roland Garros (2022, 2023), 17-5 em terra esta época, com um Dominance Ratio de 1.31, 34.4% de break rate e um hold de saque de 87.7%. Os números do Fonseca em terra são pedestres por comparação (DR 1.10, break rate 21.1%, hold 79.4%), e o jogo de alto risco do brasileiro gera muitos erros sob pressão sustentada.</p><ul><li><strong>Fator decisivo — desgaste:</strong> Fonseca vem da maior vitória da carreira mas também a mais drenante — uma epopeia de 5 sets (4-6 4-6 6-3 7-5 7-5) sobre Djokovic, com a ressaca física e emocional inevitável de quem virou dois sets a um 24x campeão do Grand Slam.</li><li><strong>Modelos alinhados:</strong> Dimers dá 61% ao Ruud, outro modelo 58.2% — odd justa ~1.64; a Bet365 a 1.62 oferece ligeiro value.</li><li><strong>Consenso de tipsters:</strong> Last Word on Sports, Tennis Tonic (Ruud em 5) e Action Network inclinam todos para o norueguês.</li><li><strong>⚠️ Risco real:</strong> Fonseca é explosivo e estará apoiado pelo público noturno; além disso o próprio Ruud também gastou 5 sets na ronda anterior (vs Paul). Em BO5 a variância é alta — daí stake média (7€), não máxima.</li><li><strong>⚠️ KO 20:15 CET / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Ruud bifinalista RG (2022, 2023) e 17-5 em terra esta época (DR 1.31, break 34.4%, hold 87.7%)",
+        "Fonseca com números pedestres em terra (DR 1.10, break 21.1%, hold 79.4%)",
+        "Fonseca vem de epopeia de 5 sets vs Djokovic — desgaste físico e ressaca emocional",
+        "Modelos alinhados: Dimers 61% / outro 58.2% — odd justa ~1.64 vs 1.62 oferecida",
+        "Consenso de tipsters (LWOS, Tennis Tonic, Action Network) inclina para Ruud",
+        "⚠️ Fonseca explosivo + público noturno; Ruud também gastou 5 sets vs Paul — variância de BO5, stake contido"
+      ],
+      "sources": [
+        "dimers.com — Ruud vs Fonseca prediction (Ruud 61% win prob)",
+        "lastwordonsports.com — French Open Day 8 predictions & best bets (Ruud lean, DR/hold stats)",
+        "news.bet365.com — Ruud vs Fonseca pick & odds (Ruud @ 1.62, Fonseca @ 2.34)",
+        "tennistonic.com — Ruud vs Fonseca H2H & pick (Ruud em 5 sets)",
+        "actionnetwork.com — Ruud vs Fonseca prediction (modelo 58.2%, hold rate 87.7% vs 79.4%)",
+        "rolandgarros.com — order of play Sunday 31 May (night session Chatrier 20:15 CET)"
+      ]
+    }
+  ]
+}
