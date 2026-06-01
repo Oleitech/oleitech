@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T09:15:00+01:00",
+  "notes": "Segunda-feira de escassez total no futebol — todas as Top-5 ligas europeias e a Liga Portugal já terminaram a época. O slate (109 jogos) resume-se a amigáveis internacionais de preparação para o Mundial (Noruega-Suécia, Áustria-Tunísia, Eslováquia-Malta, Turquia-Macedónia) — ruído altíssimo, descartados por princípio — e ligas menores/escalões de formação fora do scope. Os dois únicos jogos de ligas-foco (Brasileirão: Cruzeiro-Fluminense e Remo-São Paulo) já tinham terminado à hora da geração. Sem jogo de NBA hoje (Finals Knicks-Spurs só arrancam a 3 de Junho). FOCO: Roland Garros Day 9 (oitavos-de-final, 2ª metade do quadro) — tennis OBRIGATÓRIO em Grand Slam. Jogos da manhã/tarde com pré-jogo aberto analisados; selecionadas 2 tips ATP (Berrettini e Auger-Aliassime). Cobolli (favorito claro vs Svajda) descartado — odd 1.175 abaixo do floor de value (1.50) e até do floor de perna curta (1.25). Tiafoe-Arnaldi é coin-flip (modelo 56%, H2H 1-1) — sem edge suficiente. Sabalenka-Osaka: ML demasiado curta (~1.20) e handicap -4.5 games (1.81) volátil dado o histórico de 3 sets entre as duas — descartado. Sem acumulador: ambas as tips são singulares (regra: singulares nunca entram em acumuladores) e não há pernas elegíveis na janela 1.26-1.55. Star list: sem mudanças (pesquisa 100% tennis/RG, sem novos avançados ou transferências de futebol a registar).",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Matteo Berrettini vence (Match Winner)",
+      "fixtureId": "rg-2026-r4-berrettini-cerundolo",
+      "home": { "name": "Matteo Berrettini", "logo": "" },
+      "away": { "name": "Juan Manuel Cerundolo", "logo": "" },
+      "league": "Roland Garros 2026 — Oitavos-de-final (ATP) · Court Suzanne-Lenglen",
+      "leagueLogo": "",
+      "kickoff": "2026-06-01T09:00:00Z",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 7,
+      "tese": "<p>Confronto de oitavos no Lenglen com um <strong>diferencial de frescura decisivo</strong>. Berrettini chegou aqui gastando apenas 8 sets em 3 rondas (demolição em 3 sets do Rinderknech 6-4 6-4 6-4 e uma batalha de 5 sets ganha ao Comesaña); Cerundolo disputou 13 sets, incluindo dois cinco-setes consecutivos — entre eles uma remontada épica de 2 sets e 5-1 abaixo frente ao Sinner. Em BO5 de terra, 5 sets de diferença pesam nas pernas.</p><ul><li><strong>Saque de elite:</strong> Berrettini somou 82-85% de pontos ganhos no 1º serviço nas últimas rondas e 20 aces frente ao Comesaña — a sua arma número um mantém-se afiada.</li><li><strong>Fator decisivo — fadiga do adversário:</strong> a percentagem de pontos ganhos no 2º serviço do Cerundolo está em queda livre ao longo do torneio (70% → 62% → 51%), red flag clássico de pernas a apagar — exatamente o ponto onde o argentino é mais explorável.</li><li><strong>Consenso de tipsters:</strong> Tennis Tonic (Berrettini em 5), SI Betting e Bets.com.au inclinam todos para o italiano; Polymarket dá-lhe 59% (odd justa ~1.69 vs 1.65 oferecida → ligeiro value).</li><li><strong>⚠️ Risco real:</strong> Cerundolo é o melhor jogador de terra dos dois no papel (20-10 em terra em 2026) e acabou de eliminar o nº1 mundial — é gritty e perigoso. Espera-se jogo longo (várias fontes apontam 5 sets), daí stake média (7€), não máxima. Berrettini regressa de historial de lesões, embora fisicamente bem este torneio.</li><li><strong>⚠️ KO ~11:00 CEST / 10:00 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Frescura: Berrettini gastou 8 sets em 3 rondas vs 13 sets do Cerundolo (dois 5-setes seguidos)",
+        "Saque de elite: 82-85% de pontos ganhos no 1º serviço, 20 aces vs Comesaña",
+        "Red flag de fadiga no Cerundolo: 2º serviço em queda (70% → 62% → 51%) ao longo do torneio",
+        "Consenso de tipsters (Tennis Tonic, SI, Bets.com.au) + Polymarket 59% (justo ~1.69 vs 1.65)",
+        "⚠️ Cerundolo é melhor em terra no papel (20-10 em 2026) e eliminou o Sinner — jogo longo esperado, stake contido",
+        "⚠️ Berrettini regressa de historial de lesões, mas fisicamente bem neste RG"
+      ],
+      "sources": [
+        "si.com — Cerundolo vs Berrettini prediction & odds (Berrettini 1.65, Cerundolo 2.23)",
+        "tennistonic.com — Cerundolo vs Berrettini H2H & pick (Berrettini em 5 sets)",
+        "sportsbettingdime.com — French Open picks June 1 (Berrettini lean, serve & freshness edge)",
+        "bets.com.au — French Open Day 9 tips (Berrettini favoured vs Cerundolo)",
+        "freetips.com — Cerundolo vs Berrettini betting tips (5-set thriller expected)",
+        "rolandgarros.com — order of play Monday 1 June (Day 9 R16 schedule)"
+      ]
+    },
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Felix Auger-Aliassime vence (Match Winner)",
+      "fixtureId": "rg-2026-r4-auger-tabilo",
+      "home": { "name": "Felix Auger-Aliassime", "logo": "" },
+      "away": { "name": "Alejandro Tabilo", "logo": "" },
+      "league": "Roland Garros 2026 — Oitavos-de-final (ATP) · Court Philippe-Chatrier",
+      "leagueLogo": "",
+      "kickoff": "2026-06-01T13:30:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 73,
+      "stake": 5,
+      "tese": "<p>O 4º cabeça-de-série defronta o canhoto chileno Alejandro Tabilo num oitavos no Chatrier (não antes das 15:30 CEST). <strong>Os modelos estão alinhados a favor do canadiano</strong> — Stats Insider 62%, Dimers 64%, Wincomparator 58.8% — uma convergência rara que dá conforto ao pick.</p><ul><li><strong>H2H favorável:</strong> Auger-Aliassime venceu o único encontro entre ambos (Masters 1000 Xangai, 6-3 6-3), e chega em forma sólida ao seu melhor RG de sempre.</li><li><strong>Adversário irregular:</strong> Tabilo beneficiou de um walkover na 2ª ronda e bateu Moise Kouame na 3ª — caminho de baixa resistência, mas é um jogador volátil que oscila muito entre torneios.</li><li><strong>Consenso + value de mercado:</strong> Racing Post, Bets.com.au e SportsBettingDime recomendam todos FAA, com vários a apontarem value extra no handicap FAA -3.5 games — sinal de que o mercado o vê a vencer com margem.</li><li><strong>⚠️ Risco real:</strong> Auger-Aliassime nunca passou os oitavos em Roland Garros — barreira mental/histórica real — e o canhoto Tabilo pode ser desconfortável em terra com pernas frescas. Odd 1.57 oferece value fino sobre a probabilidade implícita; daí stake média (5€).</li><li><strong>⚠️ KO não antes das 15:30 CEST / 14:30 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Modelos convergentes a favor de FAA: Stats Insider 62%, Dimers 64%, Wincomparator 58.8%",
+        "H2H 1-0 para FAA (Xangai M1000, 6-3 6-3) e o seu melhor RG de sempre",
+        "Tabilo com caminho fácil (walkover na R2) e perfil irregular torneio-a-torneio",
+        "Consenso de tipsters (Racing Post, Bets.com.au, SportsBettingDime) + value flagado no -3.5 games",
+        "⚠️ FAA nunca passou os oitavos em RG — barreira histórica; Tabilo canhoto e fresco em terra",
+        "⚠️ Odd 1.57 = value fino; stake média (5€)"
+      ],
+      "sources": [
+        "si.com — Auger-Aliassime vs Tabilo prediction & odds (FAA -176 favorito)",
+        "statsinsider.com.au — Auger-Aliassime vs Tabilo prediction (FAA 62%)",
+        "dimers.com — Auger-Aliassime vs Tabilo prediction (FAA 64%)",
+        "racingpost.com — French Open Day 9 predictions & acca tips (FAA to continue charge)",
+        "bets.com.au — French Open Day 9 tips (FAA -3.5 game spread value)",
+        "rolandgarros.com — order of play Monday 1 June (Chatrier, FAA vs Tabilo not before 3:30pm)"
+      ]
+    }
+  ]
+}
