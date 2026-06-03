@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T10:40:00+01:00",
+  "notes": "Quarta-feira de off-season no futebol — as 170 fixtures do dia são amigáveis de preparação pré-Mundial (World | Friendlies: Holanda-Argélia, Polónia-Nigéria, Luxemburgo-Itália, Congo DR-Dinamarca, Albânia-Israel), Tournoi Maurice Revello e escalões de formação/ligas menores; ZERO jogos de ligas-foco. Amigáveis pré-Mundial = onzes experimentais e motivação variável, descartados por princípio (ruído > análise). DOIS desportos obrigatórios hoje: (1) Roland Garros Day 11 — quartos-de-final, tennis OBRIGATÓRIO em Grand Slam; (2) NBA Finals Game 1 Knicks @ Spurs (tip-off 01:30 Lisboa de 4 Jun → arquivada em 03 Jun pela regra getBettingDate KO-3h). Slate RG de 4 QF: Kalinskaya-Chwalinska (W, 11:00), Sabalenka-Shnaider (W), Auger-Aliassime-Cobolli (M) e Berrettini-Arnaldi (M, night session all-italiano). Selecionadas 2 tips com edge claro. DESCARTADOS: (1) Sabalenka-Shnaider — Sabalenka @ ~1.15 (-649), muito abaixo da regra absoluta de odds >=1.50, sem mercado secundário com value; (2) Auger-Aliassime-Cobolli — coin-flip puro de mercado (-107/-113), Cobolli 3-0 no H2H e mais fresco mas FAA com serviço em fogo (48 aces) — sem lado defensável, ML descartada; (3) Kalinskaya-Chwalinska — quase pick'em (-118/-105), sem favorito claro nem edge no games total; (4) NBA Over 218.5 — apesar das tendências recentes pro-Over (Knicks O 4-1 em 5, Spurs O 10-2 em 12), o jogo foi tipado no lado Under (ver tip). Sem acumulador: ambas as tips são singulares (regra absoluta — singulares nunca entram em acumuladores) e não existem 3 pernas curtas elegíveis (1.26-1.55) limpas fora delas (Sabalenka @1.15 abaixo da janela; restantes QF coin-flips; amigáveis = ruído). Star list: sem mudanças (pesquisa 100% tennis/RG + NBA, sem novos avançados ou transferências de futebol a registar).",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Matteo Berrettini vence Matteo Arnaldi",
+      "fixtureId": "rg-2026-qf-berrettini-arnaldi",
+      "home": { "name": "Matteo Berrettini", "logo": "" },
+      "away": { "name": "Matteo Arnaldi", "logo": "" },
+      "league": "Roland Garros 2026 — Quartos-de-final (ATP) · Court Philippe-Chatrier (night session)",
+      "leagueLogo": "",
+      "kickoff": "2026-06-03T18:15:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 77,
+      "stake": 7,
+      "tese": "<p>Derby italiano nos quartos-de-final com um <strong>fosso de frescura potencialmente decisivo num best-of-5</strong>. Berrettini chega a este QF sem desgaste — fechou os oitavos em sets corridos sobre Cerundolo — enquanto Arnaldi atravessou um inferno físico: passou <strong>17h42m em court</strong> para chegar aos quartos, o maior tempo de qualquer jogador a alcançar os QF de um Grand Slam desde que há registos (1991). Em terra batida e ao melhor de cinco, esse acumular de fadiga tende a pesar mais e mais à medida que o jogo se prolonga.</p><ul><li><strong>Modelos e mercado alinhados:</strong> Berrettini ~62-66% de probabilidade de vitória; bet365 abriu-o a -188 (~1.53), com outras casas entre 1.55 e 1.61 — favoritismo claro, não coin-flip.</li><li><strong>Classe e serviço superiores:</strong> Berrettini é ex-finalista de major e ex-top-10, com um dos maiores serviços do circuito; mesmo em piso lento, os pontos rápidos de saque poupam-lhe energia — exatamente o recurso que falta a um Arnaldi gasto.</li><li><strong>Saúde confirmada:</strong> múltiplas fontes (SI, Sportskeeda) confirmam que Berrettini chega sem queixas físicas — o foco do preview é a fadiga de Arnaldi, não a condição de Berrettini.</li><li><strong>Consenso de tipsters:</strong> SI, Action Network e SportsBettingDime apontam Berrettini ML como a leitura mais sólida do jogo.</li><li><strong>⚠️ Risco real:</strong> Arnaldi é mais especialista de terra (cresceu no piso) e, se o jogo encurtar, a fadiga pesa menos; um Arnaldi inspirado nos primeiros sets pode complicar. Daí stake média (7€), não máxima.</li><li><strong>⚠️ KO night session ~20:15 CEST / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Arnaldi com 17h42m em court — recorde de tempo para chegar aos QF de um Grand Slam desde 1991 (fadiga enorme em BO5)",
+        "Berrettini fresco — fechou os oitavos em sets corridos sobre Cerundolo",
+        "Modelos e mercado alinhados: Berrettini ~62-66% de vitória, ML 1.53-1.61",
+        "Classe e serviço superiores (ex-finalista de major, ex-top-10) poupam energia mesmo em terra",
+        "Saúde confirmada (SI, Sportskeeda) — sem queixas físicas de Berrettini",
+        "Consenso de tipsters (SI, Action Network, SportsBettingDime) em Berrettini ML",
+        "⚠️ Arnaldi mais especialista de terra; jogo curto reduz o fator fadiga — stake média (7€)"
+      ],
+      "sources": [
+        "si.com — Berrettini vs Arnaldi prediction & odds (Berrettini favorito, sem injury concerns)",
+        "sportskeeda.com — Berrettini vs Arnaldi preview & H2H (Berrettini fit, Arnaldi fatigue)",
+        "actionnetwork.com — Berrettini vs Arnaldi prediction (Berrettini ML mathematically sound)",
+        "sportsbettingdime.com — Berrettini vs Arnaldi best odds (Arnaldi 17h42m court time record)",
+        "rolandgarros.com / puntodebreak.com — order of play Wednesday 3 June (Berrettini-Arnaldi night session)"
+      ]
+    },
+    {
+      "market": "nba_total",
+      "sport": "nba",
+      "pick": "Menos de 218.5 Pontos (Under 218.5)",
+      "fixtureId": 401859963,
+      "home": { "name": "San Antonio Spurs", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png" },
+      "away": { "name": "New York Knicks", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png" },
+      "league": "NBA · Finals — Game 1 (Frost Bank Center, San Antonio)",
+      "leagueLogo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+      "kickoff": "2026-06-04T00:30:00Z",
+      "odds": 1.90,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 5,
+      "tese": "<p>Game 1 das Finais NBA com várias forças a empurrar para baixo da linha de 218.5. Historicamente, os <strong>Game 1 de Finais são jogos travados</strong> — nervosismo, intensidade defensiva no máximo e ataques que ainda procuram ritmo na primeira leitura do adversário. Os Knicks chegam com a <strong>melhor defesa dos playoffs</strong> (net rating defensivo 104.3, apenas 100.6 pontos cedidos por jogo), perfil que comprime o total mesmo contra um ataque eficiente como o de San Antonio.</p><ul><li><strong>Ferrugem dos Knicks:</strong> 9 dias sem jogar até ao tip-off — descanso é bom para as pernas mas costuma traduzir-se em ataque irregular e desperdício no arranque, exatamente o que ajuda o Under num Game 1.</li><li><strong>Defesa de elite no palco maior:</strong> o ritmo controlado de Nova Iorque na meia-cancha e a #1 defesa dos playoffs tendem a arrastar o jogo para um registo mais físico.</li><li><strong>Tendência de Finais:</strong> a média histórica de Game 1 de Finais fica abaixo da linha de regular season; os books já baixaram para 218.5 (vs ~235 de média nos confrontos da época regular), mas o fator Game 1 + defesa Knicks ainda deixa valor no Under.</li><li><strong>⚠️ Contra-argumento honesto (anti-viés):</strong> as tendências recentes apontam Over — Knicks O 4-1 nos últimos 5, Spurs O 10-2 nos últimos 12 e os 3 duelos da época regular médiaram 235.3 pontos. Sinal genuinamente dividido entre tipsters — daí score médio e stake conservadora (5€).</li><li><strong>⚠️ Tip-off 20:30 ET / 01:30 Lisboa (madrugada de 4 Jun)</strong> — apostar antes de ir dormir.</li></ul>",
+      "factors": [
+        "Game 1 de Finais tende a ser travado — nervosismo + intensidade defensiva máxima",
+        "Knicks com a #1 defesa dos playoffs (net rating def. 104.3, 100.6 pts cedidos/jogo)",
+        "Ferrugem dos Knicks (9 dias sem jogar) costuma gerar ataque irregular no arranque",
+        "Books já baixaram para 218.5 vs ~235 de média na época regular — fator Game 1 + defesa deixa valor no Under",
+        "⚠️ Anti-viés: tendências recentes pro-Over (Knicks O 4-1/5, Spurs O 10-2/12, 235.3 média nos duelos da época) — sinal dividido, stake 5€",
+        "⚠️ Tip-off 01:30 Lisboa (madrugada 4 Jun) — apostar na noite anterior"
+      ],
+      "sources": [
+        "cbssports.com — 2026 NBA Finals odds & Game 1 picks (total 218.5, Spurs -4.5)",
+        "nbcsports.com — Knicks vs Spurs Game 1 predictions, trends & best bets",
+        "fanduel.com — Spurs vs Knicks NBA Finals prediction June 3 (Knicks #1 playoff defense 104.3)",
+        "covers.com — Knicks vs Spurs Game 1 prediction & best bets (Knicks 9 days rest)",
+        "espn.com — NBA scoreboard (event 401859963, tip-off 2026-06-04T00:30Z)"
+      ]
+    }
+  ]
+}
