@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-04",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0.0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0.0,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 0,
+      "combined_return": 0,
+      "combined_pnl": 0,
+      "combined_roi_pct": 0.0
+    }
+  },
+  "btts":    { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards":   { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25":  { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0.0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 140.36,
+  "notes": "Sem actividade a 04/06/2026 — não foram geradas tips pré-jogo e o worker não disparou alertas live (alert-archive vazio). P&L do dia: €0,00. Saldo mantém-se em €140,36."
+}

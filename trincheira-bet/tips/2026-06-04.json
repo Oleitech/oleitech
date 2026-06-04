@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T10:30:00+01:00",
+  "notes": "Quinta-feira de off-season no futebol — as 180 fixtures do dia são amigáveis internacionais (World | Friendlies), escalões de formação sul-americanos (vários U17/U20 do Brasil), ligas menores (Botola Pro Marrocos, Ligue 1 Argélia/Senegal, V.League 2 Vietname) e taças regionais; ZERO jogos de ligas-foco e ZERO finais/meias de taça das competições core. NBA: Finals Knicks-Spurs SEM jogo hoje (Game 1 foi 3 Jun, Game 2 é 5 Jun) — nada a tipar. Desporto obrigatório do dia: Roland Garros — meias-finais femininas (WTA) no Court Philippe-Chatrier: (1) Mirra Andreeva vs Marta Kostyuk (NB 15:00 CEST) e (2) Diana Shnaider vs Maja Chwalinska (a seguir, após cerimónia de homenagem a Caroline Garcia). Selecionadas 2 tips, ambas com odds >=1.50 (regra absoluta de tennis cumprida). Sem acumulador: ambas as tips são singulares (regra absoluta — singulares nunca entram em acumuladores) e não existe pool de pernas curtas (1.26-1.55) fora delas (só há 2 jogos hoje, ambos tipados; futebol = amigáveis/formação, ruído por princípio). Star list: sem mudanças (pesquisa 100% tennis/Roland Garros, sem avançados novos ou transferências de futebol a registar).",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Marta Kostyuk vence Mirra Andreeva",
+      "fixtureId": "rg-2026-sf-andreeva-kostyuk",
+      "home": {
+        "name": "Mirra Andreeva",
+        "logo": ""
+      },
+      "away": {
+        "name": "Marta Kostyuk",
+        "logo": ""
+      },
+      "league": "Roland Garros 2026 — Meias-finais (WTA) · Court Philippe-Chatrier",
+      "leagueLogo": "",
+      "kickoff": "2026-06-04T13:00:00Z",
+      "odds": 1.73,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "<p>Meia-final feminina em que a favorita de mercado é, simultaneamente, a aposta de <strong>maior valor</strong>. Kostyuk chega com uma <strong>época de terra batida perfeita: 16-0 em 2026</strong>, incluindo vitórias sobre top-rankeadas como Swiatek, e — o dado decisivo — um <strong>2-0 no H2H frente a Andreeva esta mesma temporada, ambos em sets corridos</strong>: final de Madrid (6-3, 7-5) e quartos de Brisbane (7-6, 6-3). É um padrão de domínio recente, na mesma superfície, contra a mesma adversária.</p><ul><li><strong>Kryptonite confirmada:</strong> Andreeva não levou um único set a Kostyuk em 2026; a ucraniana leu-lhe o jogo nas duas ocasiões e geriu melhor os momentos de tensão (sobretudo em Madrid).</li><li><strong>Forma de terra esmagadora:</strong> 16-0 na superfície em 2026 — não é um pico isolado, é a base de toda a época de Kostyuk.</li><li><strong>Mercado alinhado e com value:</strong> Kostyuk a -136 (~1.73, ~57% implícita) — favoritismo claro mas longe de ser óbvio; a maioria das previsões aponta-a como vencedora, várias a três sets.</li><li><strong>⚠️ Risco real (anti-viés):</strong> é a <strong>primeira meia-final de Grand Slam da carreira de Kostyuk</strong> — nervos do palco maior são fator genuíno; Andreeva tem mais experiência neste ponto (16-3 em carreira em Roland Garros) e alguns tipsters (RotoWire, SportsBettingDime) escolhem a russa precisamente por isso. Daí stake média (7€), não máxima.</li><li><strong>⚠️ KO NB 15:00 CEST / 14:00 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Kostyuk 16-0 em terra batida em 2026 (inclui vitória sobre Swiatek)",
+        "H2H 2-0 vs Andreeva nesta época, ambos em sets corridos (Madrid 6-3 7-5, Brisbane 7-6 6-3)",
+        "Andreeva não levou um set a Kostyuk em 2026 — kryptonite confirmada na mesma superfície",
+        "Mercado alinhado com value: Kostyuk -136 (~1.73), maioria das previsões aponta-a vencedora",
+        "⚠️ Anti-viés: primeira meia-final de GS de Kostyuk (nervos) + Andreeva 16-3 em RG e alguns tipsters na russa — stake média 7€",
+        "⚠️ KO NB 15:00 CEST / 14:00 Lisboa — apostar antes do início"
+      ],
+      "sources": [
+        "sportskeeda.com — Andreeva vs Kostyuk SF preview, H2H 2-0 Kostyuk, odds",
+        "bets.com.au — Kostyuk to extend clay unbeaten streak (16-0) into RG final",
+        "dimers.com — Kostyuk vs Andreeva prediction & odds (Kostyuk -136 favorite)",
+        "lastwordonsports.com — French Open SF prediction Kostyuk vs Andreeva",
+        "rotowire.com — Thursday women's SF betting tips (anti-viés: Andreeva pick por nervos de Kostyuk)",
+        "rolandgarros.com / puntodebreak.com — order of play Thursday 4 June (Andreeva-Kostyuk NB 15:00)"
+      ]
+    },
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Diana Shnaider vence Maja Chwalinska",
+      "fixtureId": "rg-2026-sf-shnaider-chwalinska",
+      "home": {
+        "name": "Diana Shnaider",
+        "logo": ""
+      },
+      "away": {
+        "name": "Maja Chwalinska",
+        "logo": ""
+      },
+      "league": "Roland Garros 2026 — Meias-finais (WTA) · Court Philippe-Chatrier",
+      "leagueLogo": "",
+      "kickoff": "2026-06-04T15:00:00Z",
+      "odds": 1.55,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 5,
+      "tese": "<p>Meia-final de contrastes: <strong>Shnaider (#23 do mundo)</strong> chega lançada após uma reviravolta brutal sobre a então nº1 Aryna Sabalenka nos quartos (3-6, 7-5, 6-0, <strong>ganhou os últimos 10 jogos do encontro</strong>), enquanto <strong>Chwalinska (#114)</strong> protagoniza um Cinderella run desde o qualifying. O fosso de nível, potência e experiência é evidente — e o duelo de canhotas favorece a russa, cuja maior potência neutraliza os padrões \"crafty\" da polaca.</p><ul><li><strong>Forma de elite:</strong> bater a nº1 do mundo a fechar com um 6-0 é o tipo de momentum que se transporta para a meia-final.</li><li><strong>Fosso de ranking real:</strong> #23 (1.796 pts) vs #114 (693 pts) — Shnaider tem armas de outro patamar em terra.</li><li><strong>Consenso total de tipsters:</strong> todas as previsões consultadas apontam Shnaider vencedora; Chwalinska tem as odds de título mais baixas das jogadoras restantes.</li><li><strong>Odd >=1.50 cumprida:</strong> Shnaider a ~1.55 (-175/-190) — favorita pesada, mas dentro da regra absoluta do tennis.</li><li><strong>⚠️ Risco real (anti-viés):</strong> Chwalinska não é um acaso — já despachou Mertens e Kalinskaya (cabeças-de-série) e na terra batida, num palco onde nada tem a perder, uma canhota inspirada pode roubar um set (a RotoWire chega a prever Shnaider a perder o 1º set antes de fechar). Variância de qualifier em meia de GS é o motivo do stake conservador (5€).</li><li><strong>⚠️ KO a seguir à 1ª meia-final (após cerimónia Garcia)</strong> — apostar antes do início.</li></ul>",
+      "factors": [
+        "Shnaider eliminou a nº1 Sabalenka nos QF (3-6 7-5 6-0, ganhou os últimos 10 jogos)",
+        "Fosso de ranking e potência: #23 (1.796 pts) vs #114 (693 pts)",
+        "Duelo de canhotas favorece a potência de Shnaider sobre o jogo crafty de Chwalinska",
+        "Consenso total de tipsters em Shnaider; Chwalinska com as odds de título mais baixas das restantes",
+        "Odd ~1.55 (-175/-190) — cumpre a regra absoluta de tennis (>=1.50)",
+        "⚠️ Anti-viés: Chwalinska bateu Mertens e Kalinskaya, Cinderella em terra pode roubar um set (RotoWire vê Shnaider a perder o 1º set) — stake conservador 5€"
+      ],
+      "sources": [
+        "rotowire.com — Thursday women's SF betting tips (Shnaider -190, pick Shnaider 3-6 6-4 6-1)",
+        "sportsbettingdime.com — Shnaider vs Chwalinska predictions & lines",
+        "scmp.com — Sabalenka knocked out by Shnaider, Cinderella Chwalinska keeps going",
+        "si.com — Shnaider vs Chwalinska prediction & odds for RG semifinals",
+        "sportskeeda.com — Shnaider vs Chwalinska SF preview, head-to-head, odds",
+        "rolandgarros.com / puntodebreak.com — order of play Thursday 4 June (Shnaider-Chwalinska a seguir)"
+      ]
+    }
+  ]
+}
