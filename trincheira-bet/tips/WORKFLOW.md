@@ -38,14 +38,50 @@ Se a data-alvo cair dentro de um Grand Slam:
 3. Determina a data-alvo (default: hoje em PT timezone) e calcula `YYYY-MM-DD`
 4. Confirma que `tips/YYYY-MM-DD.json` ainda não existe (se existir, pergunta ao utilizador se quer substituir — se existir e for um update de tennis/NBA, fazer MERGE em vez de substituir)
 
-## Passo 2 — Fixtures do dia (API-Football)
+## ⚙️ Protocolo de fetch da API (POUPAR TOKENS — obrigatório)
+
+**Regra de ouro: NUNCA leias o JSON cru da API para o contexto.** As respostas da API-Football são enormes (o `/fixtures` de um dia traz *todos os jogos do mundo*; o `/odds` traz *todos os mercados*). Em vez disso:
+
+1. Grava sempre a resposta num ficheiro de scratch.
+2. Filtra/extrai só os campos necessários com `jq`.
+3. Só o output do `jq` entra no teu contexto — o ficheiro cru fica em disco e nunca é lido inteiro.
+
+Define o scratch dir uma vez no início (`DATE` = TARGET_DATE):
 
 ```bash
-curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/fixtures?date=YYYY-MM-DD&timezone=Europe/Lisbon"
+SCRATCH="/Users/oleitech/Desktop/generic_site_builder/projects/trincheira-bet/.cache/$DATE"
+mkdir -p "$SCRATCH"
 ```
 
-Filtra pelas **ligas-foco**, por esta ordem de prioridade:
+> Os `</dev/null` evitam o aviso `no stdin data received in 3s`. Se aparecer, é inofensivo — continua.
+
+---
+
+## Passo 2 — Fixtures do dia (API-Football)
+
+Grava a resposta crua e extrai só as fixtures das ligas-foco (jamais leias `fixtures-raw.json` inteiro):
+
+```bash
+# IDs das ligas-foco (core + taças + tier 2 — ajusta conforme a lista abaixo)
+LEAGUE_IDS="39,140,135,78,61,94,2,3,848,45,143,137,66,81,96,531,5,307,253,71,262,144,79,218,207,103,119"
+
+curl -s -H "x-apisports-key: $API_KEY" \
+  "https://v3.football.api-sports.io/fixtures?date=$DATE&timezone=Europe/Lisbon" </dev/null \
+  > "$SCRATCH/fixtures-raw.json"
+
+jq -c --argjson ids "[$LEAGUE_IDS]" '
+  [ .response[]
+    | select(.league.id as $l | $ids | index($l))
+    | { fixtureId: .fixture.id, kickoff: .fixture.date, status: .fixture.status.short,
+        leagueId: .league.id, league: .league.name, country: .league.country,
+        homeId: .teams.home.id, home: .teams.home.name,
+        awayId: .teams.away.id, away: .teams.away.name } ]
+' "$SCRATCH/fixtures-raw.json" > "$SCRATCH/fixtures.json"
+
+cat "$SCRATCH/fixtures.json"   # ← só ISTO entra no contexto (lista curta e limpa)
+```
+
+A lista de prioridade das ligas (para escolheres quais analisar a fundo):
 
 **Core (sempre olhar):**
 - 39 Premier League · 140 La Liga · 135 Serie A · 78 Bundesliga · 61 Ligue 1
@@ -82,33 +118,54 @@ Razão do blacklist: final de época nestes campeonatos = rotação massiva, equ
 
 ## Passo 3 — Análise matemática (API-Football, por fixture candidata)
 
-Para cada fixture nas ligas-foco, recolhe via API:
+Para cada fixture nas ligas-foco, recolhe via API. **Mesma regra: gravar cru → `jq` → só o `jq` entra no contexto.** Trabalha por fixture (`F=$FIXTURE_ID`):
 
 ```bash
-# Predictions (model do API-Football)
+# --- Predictions (model do API-Football) ---
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/predictions?fixture=$FIXTURE_ID"
+  "https://v3.football.api-sports.io/predictions?fixture=$F" </dev/null > "$SCRATCH/pred-$F.json"
+jq -c '.response[0] | {
+  percent: .predictions.percent, advice: .predictions.advice,
+  winner: .predictions.winner.name, under_over: .predictions.under_over,
+  goals: .predictions.goals, comparison: .comparison,
+  homeForm: .teams.home.last_5, awayForm: .teams.away.last_5,
+  homeGoals: .teams.home.league.goals, awayGoals: .teams.away.league.goals
+}' "$SCRATCH/pred-$F.json"
 
-# H2H entre as duas equipas
+# --- H2H (só golos + BTTS por jogo) ---
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/fixtures/headtohead?h2h=$HOME_ID-$AWAY_ID&last=10"
+  "https://v3.football.api-sports.io/fixtures/headtohead?h2h=$HOME_ID-$AWAY_ID&last=10" </dev/null > "$SCRATCH/h2h-$F.json"
+jq -c '[.response[] | {date: .fixture.date, home: .teams.home.name, away: .teams.away.name,
+  g: "\(.goals.home)-\(.goals.away)", btts: (.goals.home>0 and .goals.away>0)}]' "$SCRATCH/h2h-$F.json"
 
-# Estatísticas de equipa na época
+# --- Estatísticas de equipa (só médias relevantes) --- repete para HOME e AWAY
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/teams/statistics?team=$TEAM_ID&season=$SEASON&league=$LEAGUE_ID"
+  "https://v3.football.api-sports.io/teams/statistics?team=$TEAM_ID&season=$SEASON&league=$LEAGUE_ID" </dev/null > "$SCRATCH/stats-$TEAM_ID.json"
+jq -c '.response | {team: .team.name, form: .form,
+  gf: .goals.for.average, ga: .goals.against.average,
+  cleanSheet: .clean_sheet, failedToScore: .failed_to_score,
+  btts_pct: (.goals.for.average.total)}' "$SCRATCH/stats-$TEAM_ID.json"
 
-# Lesões e suspensões
+# --- Lesões/suspensões (só nome + razão) ---
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/injuries?fixture=$FIXTURE_ID"
+  "https://v3.football.api-sports.io/injuries?fixture=$F" </dev/null > "$SCRATCH/inj-$F.json"
+jq -c '[.response[] | {team: .team.name, player: .player.name, type: .player.type, reason: .player.reason}]' "$SCRATCH/inj-$F.json"
 
-# Onzes (só disponível ~30-60 min antes)
+# --- Onzes (só disponível ~30-60 min antes) ---
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/fixtures/lineups?fixture=$FIXTURE_ID"
+  "https://v3.football.api-sports.io/fixtures/lineups?fixture=$F" </dev/null > "$SCRATCH/lineup-$F.json"
+jq -c '[.response[] | {team: .team.name, formation: .formation, xi: [.startXI[].player.name]}]' "$SCRATCH/lineup-$F.json"
 
-# Odds (preferir Betclic = bookmaker id 27; senão Bet365 = 8, Pinnacle = 4)
+# --- Odds: o /odds é ENORME. Extrair SÓ os 3 mercados úteis do bookmaker preferido ---
+# Betclic = 27; fallback Bet365 = 8, Pinnacle = 4
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/odds?fixture=$FIXTURE_ID&bookmaker=27"
+  "https://v3.football.api-sports.io/odds?fixture=$F&bookmaker=27" </dev/null > "$SCRATCH/odds-$F.json"
+jq -c '.response[0].bookmakers[0].bets[]
+  | select(.name=="Match Winner" or .name=="Both Teams Score" or .name=="Goals Over/Under")
+  | {market: .name, values: .values}' "$SCRATCH/odds-$F.json"
 ```
+
+> Se um `jq` vier vazio (campo ausente nessa resposta), inspeciona o ficheiro cru com um `jq` mais específico — mas nunca faças `cat` ao ficheiro cru inteiro para o contexto.
 
 **Sinais matemáticos a extrair:**
 - **BTTS rate** das duas equipas (casa/fora separadamente) — alvo: ambas ≥ 60%
