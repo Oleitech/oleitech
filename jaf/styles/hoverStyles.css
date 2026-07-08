@@ -1,0 +1,972 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+} */
+
+.container_hover {
+  display: flex;
+  flex: 1;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  overflow: clip;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 0.5em;
+  height: 100%;
+  flex: 1 1 1%;
+  position: relative;
+  opacity: 1;
+  transition: flex 600ms cubic-bezier(0.25, 1, 0.5, 1), opacity 250ms ease;
+}
+
+.card.is-active {
+  flex-basis: 45%;
+}
+
+.btn-atualidade{
+  width: 40px;
+  height: auto;
+}
+
+.atualidadeCardsRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Desktop hover effects */
+@media (min-width: 1025px) {
+  .card:hover {
+    flex-basis: 45%;
+  }
+}
+.card__inner {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card picture {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Desktop only - padding for aspect ratio */
+@media (min-width: 1025px) {
+  .card picture {
+    padding-bottom: 600px;
+  }
+}
+.card picture img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card.is-active {
+  opacity: 1;
+}
+
+/* Desktop hover effects */
+@media (min-width: 1025px) {
+  .card:hover {
+    opacity: 1;
+  }
+}
+/* .card:nth-child(2), .card:nth-child(5), .card:nth-child(9) {
+  margin-top: 0;
+}
+.card:nth-child(2), .card:nth-child(4), .card:nth-child(6), .card:nth-child(8), .card:nth-child(10) {
+  margin-top: 2.5%;
+}
+.card:nth-child(3), .card:nth-child(7) {
+  margin-top: 5%;
+} */
+
+.is-inactive{
+  background-color: #3C1C0F;
+}
+
+.is-inactive img{
+  display: none;
+}
+
+/* Card Content Overlay */
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px 40px 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.card__number {
+  font-family: 'Piazzolla', serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 76px;
+  color: #E7FF7E;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.card.is-active .card__number {
+  color: #3C1C0F;
+}
+
+/* Desktop hover effects */
+@media (min-width: 1025px) {
+  .card:hover .card__number {
+    color: #3C1C0F;
+  }
+}
+
+.card__title {
+  font-family: 'Piazzolla', serif;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 76px;
+  margin: 0;
+}
+
+
+.card__title--vertical {
+  color: #E7FF7E;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  height: 550px;
+  text-align: left;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease, visibility 0s linear 0.2s;
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+}
+
+.card__title--horizontal {
+  color: #3C1C0F;
+  position: absolute;
+  left: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0s linear 0.2s;
+}
+
+.card__description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 27px;
+  color: #E7FF7E;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  max-width: 550px;
+  position: absolute;
+  bottom: 120px;
+  left: 50px;
+}
+
+.pontFlorHover{
+  display: none ;
+}
+
+
+.card__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E7FF7E;
+    border: 1px solid #E7FF7E;
+    border-radius: 15px;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #E7FF7E;
+    text-decoration: none;
+    width: fit-content;
+    pointer-events: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.card__button:hover {
+  background-color: transparent;
+  border: 1px solid #E7FF7E;
+  color: #E7FF7E;
+}
+
+.card__button:hover span{
+  color: #E7FF7E;
+}
+
+.card__button:hover .pontFlorHover{
+  display: block;
+}
+
+.card__button:hover .pontCastHover{
+  display: none ;
+}
+
+
+
+.card__button span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #3C1C0F;
+  padding-right: 20px;
+}
+
+.card__button img {
+  width: 6px;
+  height: 6px;
+  /* display: block ; */
+}
+
+/* Show/hide title versions based on state */
+.card.is-active .card__title--vertical {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card.is-active .card__title--horizontal {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease 0.5s, visibility 0s linear 0s;
+}
+
+/* Show description and button on active state */
+.card.is-active .card__description {
+  opacity: 1;
+  transition: opacity 0.3s ease 0.5s;
+}
+
+.card.is-active .card__button {
+  opacity: 1;
+  transition: opacity 0.3s ease 0.5s;
+}
+
+/* Desktop hover effects */
+@media (min-width: 1025px) {
+  .card:hover .card__title--vertical {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .card:hover .card__title--horizontal {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease 0.5s, visibility 0s linear 0s;
+  }
+
+  .card:hover .card__description {
+    opacity: 1;
+    transition: opacity 0.3s ease 0.5s;
+  }
+
+  .card:hover .card__button {
+    opacity: 1;
+    transition: opacity 0.3s ease 0.5s;
+  }
+}
+
+/* Mobile & Tablet Styles - Vertical Layout with Scroll Animations */
+@media (max-width: 1024px) {
+  .container_hover {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    overflow: visible;
+  }
+
+  .card {
+    margin: 0;
+    flex: 0 0 auto;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    opacity: 1;
+    transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+                max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card__inner {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  /* Keep brown background */
+  .card.is-inactive,
+  .card {
+    background-color: #3C1C0F;
+  }
+
+  /* Inactive cards - collapsed state */
+  .card.is-inactive picture {
+    display: none !important;
+  }
+
+  .card.is-inactive img {
+    display: none !important;
+  }
+
+  /* Active card - expanded state */
+  .card.is-active {
+    height: 500px !important;
+    min-height: 500px !important;
+    max-height: 500px !important;
+  }
+
+  .card.is-active .card__inner {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+
+  .card.is-active picture {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .card.is-active picture img {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    z-index: 1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    max-width: 100% !important;
+    transition: opacity 0.3s ease;
+  }
+
+  .card.is-active .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+
+
+  /* Hide vertical title on mobile */
+  .card__title--vertical {
+    display: none;
+  }
+
+  /* Inactive cards - hide horizontal title, description, button */
+  .card.is-inactive .card__title--horizontal-mobile-first {
+    opacity: 1;
+    visibility: visible;
+    color: #E7FF7E;
+    margin-top: -65px !important;
+    line-height: 50px !important;
+    margin-left: 70px !important;
+  }
+
+    .card.is-inactive .card__title--horizontal {
+    opacity: 1;
+    visibility: visible;
+    color: #E7FF7E;
+    margin-top: -65px;
+    line-height: 80px;
+    margin-left: 75px;
+  }
+
+  .card.is-inactive .card__description {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.2s ease,
+                visibility 0s linear 0.2s;
+  }
+
+  .card.is-inactive .card__button {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease,
+                visibility 0s linear 0.2s;
+  }
+
+  .card.is-inactive .card__number {
+    color: #E7FF7E;
+    font-size: 46px;
+  }
+
+  /* Active card - show everything */
+  .card.is-active .card__title--horizontal {
+    opacity: 1;
+    visibility: visible;
+    color: #3C1C0F;
+    transition: opacity 0.4s ease 0.2s,
+                color 0.3s ease,
+                visibility 0s linear 0s;
+    margin-top: 0;
+    line-height: 45px;
+  }
+
+  .card.is-active .card__description {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    transition: opacity 0.4s ease 0.3s,
+                visibility 0s linear 0s;
+  }
+
+  .card.is-active .card__button {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    pointer-events: auto;
+    transition: opacity 0.4s ease 0.4s,
+                visibility 0s linear 0s;
+  }
+
+  .card.is-active .card__number {
+    color: #3C1C0F;
+    transition: color 0.3s ease 0.3s;
+    font-size: 46px;
+  }
+
+  /* Adjust content padding for mobile */
+  .card__content {
+    padding: 40px 30px 30px 30px;
+  }
+
+  .card.is-inactive .card__content {
+    padding: 30px 30px 30px 30px;
+  }
+
+  /* Ensure card inner takes full height */
+  .card__inner {
+    height: 100%;
+    position: relative;
+  }
+
+  .card picture {
+    padding-bottom: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+  }
+
+  /* Force remove all padding from picture elements */
+  .card.is-active picture,
+  .card.is-inactive picture,
+  .card picture {
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure inactive cards hide picture completely */
+  .card.is-inactive .card__inner picture {
+    display: none !important;
+  }
+
+  .card__title{
+    font-size: 46px;
+  }
+
+  .card__number{
+    line-height: 46px;
+  }
+}
+
+/* Mobile-Specific Optimizations (≤768px) */
+@media (max-width: 768px) {
+  /* Remove transitions on mobile for instant display */
+  .card,
+  .card *,
+  .card.is-active,
+  .card.is-active *,
+  .card.is-inactive,
+  .card.is-inactive * {
+    transition: none !important;
+  }
+
+  /* Ensure active cards display all content on mobile */
+  .card.is-active {
+    height: 500px !important;
+    min-height: 500px !important;
+    max-height: 500px !important;
+  }
+
+  .card.is-active .card__inner {
+    display: block !important;
+    width: 100% !important;
+    height: 500px !important;
+    overflow: hidden !important;
+  }
+
+  .card.is-active picture {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+  }
+
+  .card.is-active picture img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 1 !important;
+  }
+
+  .card.is-active .card__content {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 2 !important;
+    padding: 40px 30px !important;
+  }
+
+  .card.is-active .card__number {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #3C1C0F !important;
+    font-size: 46px !important;
+  }
+
+  .card.is-active .card__title--horizontal {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #3C1C0F !important;
+    font-size: 46px !important;
+  }
+
+  .card.is-active .card__description {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    color: #E7FF7E !important;
+  }
+
+  .card.is-active .card__button {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+  }
+
+  /* Ensure inactive cards hide everything properly */
+  .card.is-inactive picture {
+    display: none !important;
+  }
+
+  .card.is-inactive picture img {
+    display: none !important;
+  }
+
+}
+
+/* Tablet-Specific Optimizations (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Ensure cards use full width during scroll transitions */
+  .card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .card.is-inactive {
+    height: 150px !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+  }
+
+  .card__inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Ensure active card content and images fill the entire card */
+  .card.is-active {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 550px !important;
+    min-height: 550px !important;
+    max-height: 550px !important;
+  }
+
+  .card.is-active .card__inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 550px !important;
+    display: block !important;
+    position: relative !important;
+  }
+
+  .card.is-active picture {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+  }
+
+  .card.is-active picture img {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    object-fit: cover !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+  }
+
+  .card.is-active .card__content {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    box-sizing: border-box;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+  }
+
+  /* Adjust content padding for tablets */
+  .card__content {
+    padding: 50px 40px 40px 40px;
+  }
+
+  .card.is-inactive .card__content {
+    padding: 40px 40px 40px 40px;
+  }
+
+  /* Optimize typography for tablets */
+  .card__title {
+    font-size: 52px;
+  }
+
+  .card__number {
+    font-size: 52px;
+  }
+
+  .card.is-active .card__title--horizontal {
+    line-height: 55px;
+  }
+
+  /* Disable hover effects on tablet - maintain current state */
+  .card.is-inactive:hover {
+    height: 150px !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+    flex-basis: auto !important;
+  }
+
+  .card.is-active:hover {
+    height: 550px !important;
+    min-height: 550px !important;
+    max-height: 550px !important;
+    flex-basis: auto !important;
+  }
+
+  /* Prevent hover from overriding is-active/is-inactive states */
+  .card.is-inactive:hover .card__number {
+    color: #E7FF7E !important;
+  }
+
+  .card.is-active:hover .card__number {
+    color: #3C1C0F !important;
+  }
+
+  .card.is-inactive:hover .card__title--horizontal {
+    color: #E7FF7E !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .card.is-active:hover .card__title--horizontal {
+    color: #3C1C0F !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .card.is-inactive:hover .card__description,
+  .card.is-inactive:hover .card__button {
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+
+  .card.is-active:hover .card__description,
+  .card.is-active:hover .card__button {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  .card.is-inactive:hover picture,
+  .card.is-inactive:hover picture img {
+    display: none !important;
+  }
+
+  .card.is-active:hover picture,
+  .card.is-active:hover picture img {
+    display: block !important;
+  }
+}
+
+/* ============================================
+   Mobile Phone Fixes (≤767px)
+   — Fix title word-breaking on inactive cards
+   — Fix content sizing on active cards
+   ============================================ */
+@media (max-width: 767px) {
+  /* --- Inactive cards: smaller titles to prevent word-break --- */
+  .card__title {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+
+  .card.is-inactive .card__title--horizontal,
+  .card.is-inactive .card__title--horizontal-mobile-first {
+    font-size: 28px !important;
+    line-height: 36px !important;
+    margin-left: 20px !important;
+    margin-top: -46px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 80px);
+  }
+
+  .card.is-inactive .card__content {
+    padding: 20px !important;
+  }
+
+  .card.is-inactive .card__number {
+    font-size: 36px !important;
+    line-height: 36px !important;
+  }
+
+  /* Card collapsed height — slightly taller for readability */
+  .card {
+    height: 130px !important;
+    min-height: 130px !important;
+    max-height: 130px !important;
+  }
+
+  /* --- Active card: better content layout --- */
+  .card.is-active {
+    height: 480px !important;
+    min-height: 480px !important;
+    max-height: 480px !important;
+  }
+
+  .card.is-active .card__inner {
+    height: 480px !important;
+  }
+
+  .card.is-active .card__title--horizontal {
+    font-size: 32px !important;
+    line-height: 38px !important;
+    position: relative !important;
+    left: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .card.is-active .card__number {
+    font-size: 32px !important;
+    line-height: 32px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .card.is-active .card__content {
+    padding: 24px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+
+  .card.is-active .card__description {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    max-width: 100% !important;
+    margin-bottom: 12px !important;
+    max-height: 120px;
+    overflow: hidden;
+  }
+
+  .card.is-active .card__button {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    margin-top: auto !important;
+    font-size: 12px !important;
+    padding: 0.6rem 1rem !important;
+  }
+}
+
+/* ============================================
+   Small Mobile (≤400px) — Galaxy S8, iPhone SE
+   ============================================ */
+@media (max-width: 400px) {
+  .card__title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .card.is-inactive .card__title--horizontal,
+  .card.is-inactive .card__title--horizontal-mobile-first {
+    font-size: 24px !important;
+    line-height: 30px !important;
+    margin-left: 16px !important;
+    margin-top: -40px !important;
+  }
+
+  .card {
+    height: 110px !important;
+    min-height: 110px !important;
+    max-height: 110px !important;
+  }
+
+  .card.is-inactive .card__number {
+    font-size: 28px !important;
+    line-height: 28px !important;
+  }
+
+  .card.is-inactive .card__content {
+    padding: 16px !important;
+  }
+
+  .card.is-active {
+    height: 440px !important;
+    min-height: 440px !important;
+    max-height: 440px !important;
+  }
+
+  .card.is-active .card__inner {
+    height: 440px !important;
+  }
+
+  .card.is-active .card__title--horizontal {
+    font-size: 28px !important;
+    line-height: 34px !important;
+  }
+
+  .card.is-active .card__number {
+    font-size: 28px !important;
+  }
+
+  .card.is-active .card__description {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    max-height: 100px;
+  }
+}

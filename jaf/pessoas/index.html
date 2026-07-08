@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAF - José Afonso & Filhos</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:wght@300;400;700&family=Piazzolla:wght@100;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+     <!-- Hover Cards CSS -->
+    <link rel="stylesheet" href="../styles/hoverStyles.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" href="../styles/menuStyles.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="../">
+                    <img src="../assets/logo_coress_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <div class=" justify-content-end" id="navbarNav">
+                    <button class="btn_transparent">
+                        <span>contacte-nos</span>
+                        <img src="../assets/ponto_verde.svg" alt="">
+                    </button>
+                     <button class="btn_verde">
+                         <img src="../assets/3pontos.svg" alt="">
+                     </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-container">
+            <!-- Header with Logo and Close Button -->
+            <div class="menu-header">
+                <a href="../" class="menu-logo">
+                    <img src="../assets/logo_jaf_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <button class="menu-close" id="menuClose">
+                    <img src="../assets/menu-close.svg" alt="Close">
+                </button>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="menu-content">
+                <!-- Main Menu Items (Left Side) -->
+                <nav class="menu-main">
+                    <ul class="menu-list">
+                        <li class="menu-item" data-menu="empresa">
+                            <span>Empresa</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="areas">
+                            <span>Áreas de atuação</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="sustentabilidade">
+                            <span>Sustentabilidade</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="contactos">
+                            <span>Contactos</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Underline for active menu item -->
+                    <div class="menu-underline" id="menuUnderline"></div>
+                </nav>
+
+                <!-- Submenu Content (Right Side) -->
+                <div class="menu-submenu">
+                    <!-- Empresa Submenu -->
+                    <div class="submenu-content" id="submenu-empresa">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../grupo-jaf/">grupo JAF</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">jaf madeiras</a></li>
+                                <li><a href="#">nova lenha</a></li>
+                                <li><a href="#">ESA</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../historia/">história</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../investimentos/">investimento</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/">Pessoas</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/">RECRUTAMENTO</a></h3>
+                        </div>
+                    </div>
+
+                    <!-- Áreas de Atuação Submenu -->
+                    <div class="submenu-content" id="submenu-areas">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../servicos/">serviços</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">exploração florestal</a></li>
+                                <li><a href="#">serração</a></li>
+                                <li><a href="#">biomassa</a></li>
+                                <li><a href="#">transportes</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../produtos/">produtos</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">madeira serrada</a></li>
+                                <li><a href="#">briquete</a></li>
+                                <li><a href="#">pellets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sustentabilidade Submenu -->
+                    <div class="submenu-content" id="submenu-sustentabilidade">
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../certificados/">certificação</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">compromisso</h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">economia circular</h3>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title">energias renovaveis</h3>
+                        </div>
+                    </div>
+
+                    <!-- Contactos Submenu -->
+                    <div class="submenu-content" id="submenu-contactos">
+                    </div>
+                </div>
+
+                <!-- Image Section (Right Side) -->
+                <div class="menu-images">
+                    <img src="../assets/menu-img-1.png" alt="" class="menu-image" data-menu-image="empresa">
+                    <img src="../assets/menu-img-2.png" alt="" class="menu-image" data-menu-image="areas">
+                    <img src="../assets/menu-img-3.png" alt="" class="menu-image" data-menu-image="sustentabilidade">
+                    <img src="../assets/menu-img-4.png" alt="" class="menu-image" data-menu-image="contactos">
+                    <img src="../assets/menu-img-5.png" alt="" class="menu-image" data-menu-image="extra">
+                </div>
+            </div>
+
+            <!-- Menu Footer -->
+            <div class="menu-footer">
+                <a href="#">política de privacidade</a>
+                <a href="#">política de cookies</a>
+                <a href="#">termos e condições</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+     <section class="hero-section hero-section-grupo-jaf">
+        <div class="row g-0 container-fluid px-4">
+            <div class="col-md-12 p-0 imageHeroCol6">
+                <img src="../assets/pessoas_banner.png" alt="Madeira cortada com plantas" class="hero-img">
+            </div>
+        </div>
+     </section>
+
+    <!-- Pessoas Valores Section -->
+    <section class=" pessoas_valores" id="sobre">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <h4 class="section-label">As nossas pessoas</h4>
+                </div>
+                <div class="col-lg-12 col-12">
+                      <h2 class="mission-title">
+                        <span class="">Na JAF, acreditamos que o nosso</span><br>
+                        <span class="">valor está nas pessoas!</span>
+                    </h2>
+            <div class="row  g-4">
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card firstRespCard">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="../assets/diversidade.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Diversidade</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            Valorizamos a riqueza de experiências, culturas e perspetivas diferentes. Cada colaborador contribui de forma única para um ambiente inclusivo e inovador.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="../assets/igualdade.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Igualdade</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            Garantimos oportunidades justas para todos, promovendo um espaço de trabalho onde mérito e talento são reconhecidos sem preconceitos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="../assets/seguranca.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Segurança</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            A proteção e o bem-estar da nossa equipa são prioridades. Mantemos práticas rigorosas para assegurar um ambiente de trabalho seguro e saudável.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cadidaturas Section -->
+    <section class="candidaturas-section" id="candidaturas">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                       <h2 class="mission-title">
+                        <span class="">Vagas disponíveis</span>
+                    </h2>
+                </div>
+                <div class="col-lg-9 col-12" style="display: none;">
+                    <div class="vagas-accordion">
+                        <!-- Accordion Item 1 -->
+                        <div class="vagas-accordion__item">
+                            <div class="vagas-accordion__header">
+                                <span class="vagas-accordion__title">OPERADOR DE MÁQUINAS</span>
+                                <img class="vagas-accordion__icon vagas-accordion__icon--dot" src="../assets/ponto_floreshente.svg" alt="">
+                                <img class="vagas-accordion__icon vagas-accordion__icon--cross" src="../assets/cross_accordion.png" alt="">
+                            </div>
+                            <div class="vagas-accordion__content">
+                                <div class="vagas-accordion__body">
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE VALORIZAMOS?</p>
+                                        <p class="vagas-accordion__text">Valorizamos a capacidade de organização e a versatilidade, aliadas à facilidade de comunicação e à proatividade na resolução de problemas. Destacam-se também o sentido crítico e analítico, o sentido de responsabilidade e a aptidão para o trabalho em equipa.</p>
+                                    </div>
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE PRECISAMOS?</p>
+                                        <ul class="vagas-accordion__list">
+                                            <li>Formação de base na área de xxx ou áreas similares</li>
+                                            <li>Experiência (min. x anos) na área comercial</li>
+                                            <li>Conhecimentos de software de gestão (preferencial)</li>
+                                            <li>Domínio de outras ferramentas digitais, Excel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 2 -->
+                        <div class="vagas-accordion__item">
+                            <div class="vagas-accordion__header">
+                                <span class="vagas-accordion__title">CONTABILISTA</span>
+                                <img class="vagas-accordion__icon vagas-accordion__icon--dot" src="../assets/ponto_floreshente.svg" alt="">
+                                <img class="vagas-accordion__icon vagas-accordion__icon--cross" src="../assets/cross_accordion.png" alt="">
+                            </div>
+                            <div class="vagas-accordion__content">
+                                <div class="vagas-accordion__body">
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE VALORIZAMOS?</p>
+                                        <p class="vagas-accordion__text">Valorizamos a capacidade de organização e a versatilidade, aliadas à facilidade de comunicação e à proatividade na resolução de problemas. Destacam-se também o sentido crítico e analítico, o sentido de responsabilidade e a aptidão para o trabalho em equipa.</p>
+                                    </div>
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE PRECISAMOS?</p>
+                                        <ul class="vagas-accordion__list">
+                                            <li>Formação de base na área de xxx ou áreas similares</li>
+                                            <li>Experiência (min. x anos) na área comercial</li>
+                                            <li>Conhecimentos de software de gestão (preferencial)</li>
+                                            <li>Domínio de outras ferramentas digitais, Excel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 3 -->
+                        <div class="vagas-accordion__item">
+                            <div class="vagas-accordion__header">
+                                <span class="vagas-accordion__title">COMERCIAL</span>
+                                <img class="vagas-accordion__icon vagas-accordion__icon--dot" src="../assets/ponto_floreshente.svg" alt="">
+                                <img class="vagas-accordion__icon vagas-accordion__icon--cross" src="../assets/cross_accordion.png" alt="">
+                            </div>
+                            <div class="vagas-accordion__content">
+                                <div class="vagas-accordion__body">
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE VALORIZAMOS?</p>
+                                        <p class="vagas-accordion__text">Valorizamos a capacidade de organização e a versatilidade, aliadas à facilidade de comunicação e à proatividade na resolução de problemas. Destacam-se também o sentido crítico e analítico, o sentido de responsabilidade e a aptidão para o trabalho em equipa.</p>
+                                    </div>
+                                    <div class="vagas-accordion__col">
+                                        <p class="vagas-accordion__label">O QUE PRECISAMOS?</p>
+                                        <ul class="vagas-accordion__list">
+                                            <li>Formação de base na área de xxx ou áreas similares</li>
+                                            <li>Experiência (min. x anos) na área comercial</li>
+                                            <li>Conhecimentos de software de gestão (preferencial)</li>
+                                            <li>Domínio de outras ferramentas digitais, Excel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- No jobs available message -->
+                <div class="col-lg-9 col-12">
+                    <div class="vagas-empty">
+                        <div class="vagas-empty__dots">•••</div>
+                        <p class="vagas-empty__text">De momento não se encontram vagas em aberto.<br>Preencha o <a href="#candidatura" class="vagas-empty__link">campo a baixo</a> para deixar a sua candidatura.<br>Será contactado logo que haja novas vagas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Candidatura Form Section -->
+    <section class="candidatura-form-section" id="candidatura">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-12">
+                    <h2 class="candidatura-form__title">Gostavas de fazer<br>parte da JAF?</h2>
+                    <p class="candidatura-form__text">
+                        Reconhecemos que são os nossos colaboradores que impulsionam a inovação, a eficiência e o crescimento sustentável da empresa. Focamo-nos em atrair e reter talento qualificado, motivar equipas para os desafios do setor, desenvolver competências que promovam a versatilidade e reforçar uma cultura de desempenho assente no mérito e na melhoria contínua.
+                    </p>
+                </div>
+                <div class="col-lg-7 col-12">
+                    <form class="candidatura-form">
+                        <div class="candidatura-form__row">
+                            <div class="candidatura-form__field">
+                                <input type="text" placeholder="Nome*" required>
+                            </div>
+                            <div class="candidatura-form__field">
+                                <input type="text" placeholder="Apelido*" required>
+                            </div>
+                        </div>
+                        <div class="candidatura-form__row">
+                            <div class="candidatura-form__field">
+                                <input type="email" placeholder="Email*" required>
+                            </div>
+                            <div class="candidatura-form__field">
+                                <input type="text" placeholder="Vaga ↳">
+                            </div>
+                        </div>
+                        <div class="candidatura-form__row candidatura-form__row--full">
+                            <div class="candidatura-form__field">
+                                <textarea placeholder="Mensagem*" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        <div class="candidatura-form__actions">
+                            <label class="candidatura-form__file">
+                                <input type="file" accept=".pdf,.doc,.docx" hidden>
+                                <span class="candidatura-form__file-btn">
+                                    <div class="icon_plus_curriculum">
+                                        <img src="../assets/attach_icon.png" alt="" class="candidatura-form__attach-icon">
+                                        <span>Currículo*</span>
+                                    </div>
+                                    <img src="../assets/btn_curriculum.png" alt="" class="candidatura-form__file-dot curriculo_cizento">
+                                    <img src="../assets/ponto_floreshente.svg" alt="" class="candidatura-form__file-dot curriculo_floreshente">
+                                </span>
+                            </label>
+                            <button class="btn btn-cta-submit" type="submit">
+                                <span>Submeter</span>
+                                <img class="ponto_btns_verde" src="../assets/ponto_castanho.png" alt="">
+                                <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer py-5" id="contato">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12 footer-logo-col">
+                    <img src="../assets/logo-white.svg" alt="JAF Logo" class="footer-logo mb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <ul class="footer-nav-links">
+                        <li><a href="#sobre">Quem somos</a></li>
+                        <li><a href="#areas">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Recrutamento</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="footer-legal-links">
+                        <li><a href="#">POLÍTICA DE COOKIES</a></li>
+                        <li><a href="#">TERMOS E CONDIÇÕES</a></li>
+                        <li><a href="#">LIVRO DE RECLAMAÇÕES</a></li>
+                        <li><a href="#">CANAL DE DENUNCIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <h5 class="footer-company-name">José Afonso e Filhos, Lda</h5>
+                    <p class="footer-address">
+                        Zona Industrial de Açude Pinto<br>
+                        6160-301 Oleiros - PORTUGAL
+                    </p>
+                    <button class="btn btn-footer-contact">
+                        <span>CONTACTE-NOS</span>
+                        <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                        <!-- <img src="../assets/ponto_castanho.png" alt=""> -->
+                    </button>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">CERTIFICAÇÃO</a></li>
+                        <li><a href="#">LINKED IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

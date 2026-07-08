@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAF - José Afonso & Filhos</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:wght@300;400;700&family=Piazzolla:wght@100;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+     <!-- Hover Cards CSS -->
+    <link rel="stylesheet" href="../styles/hoverStyles.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" href="../styles/menuStyles.css">
+    <!-- Historia Timeline CSS -->
+    <link rel="stylesheet" href="../styles/historiaStyles.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="../">
+                    <img src="../assets/logo_coress_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <div class=" justify-content-end" id="navbarNav">
+                    <button class="btn_transparent">
+                        <span>contacte-nos</span>
+                        <img src="../assets/ponto_verde.svg" alt="">
+                    </button>
+                     <button class="btn_verde">
+                         <img src="../assets/3pontos.svg" alt="">
+                     </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-container">
+            <!-- Header with Logo and Close Button -->
+            <div class="menu-header">
+                <a href="../" class="menu-logo">
+                    <img src="../assets/logo_jaf_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <button class="menu-close" id="menuClose">
+                    <img src="../assets/menu-close.svg" alt="Close">
+                </button>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="menu-content">
+                <!-- Main Menu Items (Left Side) -->
+                <nav class="menu-main">
+                    <ul class="menu-list">
+                        <li class="menu-item" data-menu="empresa">
+                            <span>Empresa</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="areas">
+                            <span>Áreas de atuação</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="sustentabilidade">
+                            <span>Sustentabilidade</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="contactos">
+                            <span>Contactos</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Underline for active menu item -->
+                    <div class="menu-underline" id="menuUnderline"></div>
+                </nav>
+
+                <!-- Submenu Content (Right Side) -->
+                <div class="menu-submenu">
+                    <!-- Empresa Submenu -->
+                    <div class="submenu-content" id="submenu-empresa">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../grupo-jaf/">grupo JAF</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">jaf madeiras</a></li>
+                                <li><a href="#">nova lenha</a></li>
+                                <li><a href="#">ESA</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../historia/">história</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../investimentos/">investimento</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/">Pessoas</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/#candidaturas">RECRUTAMENTO</a></h3>
+                        </div>
+                    </div>
+
+                    <!-- Áreas de Atuação Submenu -->
+                    <div class="submenu-content" id="submenu-areas">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../servicos/">serviços</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">exploração florestal</a></li>
+                                <li><a href="#">serração</a></li>
+                                <li><a href="#">biomassa</a></li>
+                                <li><a href="#">transportes</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../produtos/">produtos</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">madeira serrada</a></li>
+                                <li><a href="#">briquete</a></li>
+                                <li><a href="#">pellets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sustentabilidade Submenu -->
+                    <div class="submenu-content" id="submenu-sustentabilidade">
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../certificados/">certificação</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">compromisso</h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">economia circular</h3>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title">energias renovaveis</h3>
+                        </div>
+                    </div>
+
+                    <!-- Contactos Submenu -->
+                    <div class="submenu-content" id="submenu-contactos">
+                    </div>
+                </div>
+
+                <!-- Image Section (Right Side) -->
+                <div class="menu-images">
+                    <img src="../assets/menu-img-1.png" alt="" class="menu-image" data-menu-image="empresa">
+                    <img src="../assets/menu-img-2.png" alt="" class="menu-image" data-menu-image="areas">
+                    <img src="../assets/menu-img-3.png" alt="" class="menu-image" data-menu-image="sustentabilidade">
+                    <img src="../assets/menu-img-4.png" alt="" class="menu-image" data-menu-image="contactos">
+                    <img src="../assets/menu-img-5.png" alt="" class="menu-image" data-menu-image="extra">
+                </div>
+            </div>
+
+            <!-- Menu Footer -->
+            <div class="menu-footer">
+                <a href="#">política de privacidade</a>
+                <a href="#">política de cookies</a>
+                <a href="#">termos e condições</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+     <section class="hero-section-hist">
+        <div class="row g-0 container-fluid px-4 row-title-invest historyContainer">
+            <h4 class="section-label">A nossa história</h4>
+           <h2 class="historyHero-title ">De onde viemos <br/>determina para <br/>onde vamos.</h2>
+            <p class="about-text-history">
+                A história do Grupo JAF, uma trajectória<br/> construída com propósito e dedicação.
+            </p>
+        </div>
+     </section>
+
+
+    <!-- History scroll Section -->
+    <section class="history-scroll-section">
+        <div class="timeline-container">
+            <!-- Timeline progress line -->
+            <div class="timeline-progress-line"></div>
+
+            <!-- Timeline Entry 1 -->
+            <div class="timeline-entry" data-animation="fade-in-left">
+                <div class="timeline-year left">1990<br/>Criação
+                <p>A José Afonso & Filhos, S.A foi criada em 1990, sendo nessa altura uma pequena serração de madeiras, situada no interior da povoação de Oleiros. A empresa era gerida pelo Sr. José Afonso, com a colaboração dos seus dois filhos, que com o seu falecimento prematura, juntos continuaram a atividade da família - exploração florestal e serração de madeiras. A Estação de Serviço Alvelos inicia a comercialização de combustível pouco tempo depois.</p>
+                </div>
+                
+                <div class="timeline-content">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/1990_1.png" alt="História 1990" class="timeline-img-main">
+                        <img src="../assets/1990_2.png" alt="História 1990" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 2 -->
+            <div class="timeline-entry" data-animation="fade-in-right">
+                <div class="timeline-year right">1992 - 1996<br/>Crescimento significativo
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="timeline-content reverse">
+                    <div class="timeline-images three-images">
+                        <img src="../assets/1992_1.png" alt="História 1992" class="timeline-img-top">
+                        <img src="../assets/1992_2.png" alt="História 1992" class="timeline-img-bottom-left">
+                        <img src="../assets/1992_3.png" alt="História 1992" class="timeline-img-bottom-right">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 3 -->
+            <div class="timeline-entry" data-animation="fade-in-left">
+                <div class="timeline-year left">1997
+                <h3>Zona Industrial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel e accumsan et iusto odio dignissim qui.</p>
+                </div>
+                
+                <div class="timeline-content">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/1997_1.png" alt="Zona Industrial 1997" class="timeline-img-main">
+                        <img src="../assets/1997_2.png" alt="Zona Industrial 1997" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 4 -->
+            <div class="timeline-entry" data-animation="fade-in-right">
+                <div class="timeline-year right">2000 - 2007
+                <h3>Consolidação</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="timeline-content reverse">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/2000_1.png" alt="Consolidação 2000" class="timeline-img-main">
+                        <img src="../assets/2000_2.png" alt="Consolidação 2000" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 5 -->
+            <div class="timeline-entry" data-animation="fade-in-left">
+                <div class="timeline-year left">2008
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.</p>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/2008_1.png" alt="História 2008" class="timeline-img-main">
+                        <img src="../assets/2008_2.png" alt="História 2008" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 6 -->
+            <div class="timeline-entry" data-animation="fade-in-right">
+                <div class="timeline-year right">2010
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <div class="timeline-content reverse">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/2010_1.png" alt="História 2010" class="timeline-img-main">
+                        <img src="../assets/2010_2.png" alt="História 2010" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 7 -->
+            <div class="timeline-entry" data-animation="fade-in-left">
+                <div class="timeline-year left">2017
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel e accumsan et iusto odio dignissim qui.</p>
+                </div>
+                
+                <div class="timeline-content">
+                    <div class="timeline-images two-images-overlap">
+                        <img src="../assets/2017_1.png" alt="História 2017" class="timeline-img-main">
+                        <img src="../assets/2017_2.png" alt="História 2017" class="timeline-img-secondary">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Entry 8 -->
+            <div class="timeline-entry" data-animation="fade-in-right">
+                <div class="timeline-year right">2025
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <div class="timeline-content reverse">
+                    <div class="timeline-images single-image">
+                        <img src="../assets/2025_1.png" alt="História 2025" class="timeline-img-main">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h2 class="cta-title">O futuro da JAF<br>começa contigo!</h2>
+                </div>
+                <div class="col-lg-6 col-md-4 col-12 text-end">
+                    <button class="btn btn-cta">
+                        <span>CANDIDATURAS</span>
+                        <img class="ponto_btns_verde" src="../assets/dot-olive.svg" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer py-5" id="contato">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12 footer-logo-col">
+                    <img src="../assets/logo-white.svg" alt="JAF Logo" class="footer-logo mb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <ul class="footer-nav-links">
+                        <li><a href="#sobre">Quem somos</a></li>
+                        <li><a href="#areas">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Recrutamento</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="footer-legal-links">
+                        <li><a href="#">POLÍTICA DE COOKIES</a></li>
+                        <li><a href="#">TERMOS E CONDIÇÕES</a></li>
+                        <li><a href="#">LIVRO DE RECLAMAÇÕES</a></li>
+                        <li><a href="#">CANAL DE DENUNCIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <h5 class="footer-company-name">José Afonso e Filhos, Lda</h5>
+                    <p class="footer-address">
+                        Zona Industrial de Açude Pinto<br>
+                        6160-301 Oleiros - PORTUGAL
+                    </p>
+                    <button class="btn btn-footer-contact">
+                        <span>CONTACTE-NOS</span>
+                        <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                        <!-- <img src="../assets/ponto_castanho.png" alt=""> -->
+                    </button>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">CERTIFICAÇÃO</a></li>
+                        <li><a href="#">LINKED IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../scripts/script.js"></script>
+    <!-- Historia Timeline JS -->
+    <script src="../scripts/historiaScript.js"></script>
+</body>
+</html>

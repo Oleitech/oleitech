@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAF - José Afonso & Filhos</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:wght@300;400;700&family=Piazzolla:wght@100;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+     <!-- Hover Cards CSS -->
+    <link rel="stylesheet" href="styles/hoverStyles.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" href="styles/menuStyles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="./">
+                    <img src="assets/logo_coress_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <div class=" justify-content-end" id="navbarNav">
+                    <button class="btn_transparent">
+                        <span>contacte-nos</span>
+                        <img src="assets/ponto_verde.svg" alt="">
+                    </button>
+                     <button class="btn_verde">
+                         <img src="assets/3pontos.svg" alt="">
+                     </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-container">
+            <!-- Header with Logo and Close Button -->
+            <div class="menu-header">
+                <a href="./" class="menu-logo">
+                    <img src="assets/logo_jaf_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <button class="menu-close" id="menuClose">
+                    <img src="assets/menu-close.svg" alt="Close">
+                </button>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="menu-content">
+                <!-- Main Menu Items (Left Side) -->
+                <nav class="menu-main">
+                    <ul class="menu-list">
+                        <li class="menu-item" data-menu="empresa">
+                            <span>Empresa</span>
+                            <div class="menu-item-indicator">
+                                <img src="assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="areas">
+                            <span>Áreas de atuação</span>
+                            <div class="menu-item-indicator">
+                                <img src="assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="sustentabilidade">
+                            <span>Sustentabilidade</span>
+                            <div class="menu-item-indicator">
+                                <img src="assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="contactos">
+                            <span>Contactos</span>
+                            <div class="menu-item-indicator">
+                                <img src="assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Underline for active menu item -->
+                    <div class="menu-underline" id="menuUnderline"></div>
+                </nav>
+
+                <!-- Submenu Content (Right Side) -->
+                <div class="menu-submenu">
+                    <!-- Empresa Submenu -->
+                    <div class="submenu-content" id="submenu-empresa">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="grupo-jaf/">grupo JAF</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">jaf madeiras</a></li>
+                                <li><a href="#">nova lenha</a></li>
+                                <li><a href="#">ESA</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="historia/">história</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="investimentos/">investimento</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="pessoas/">Pessoas</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="pessoas/#candidaturas">RECRUTAMENTO</a></h3>
+                        </div>
+                    </div>
+
+                    <!-- Áreas de Atuação Submenu -->
+                    <div class="submenu-content" id="submenu-areas">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="servicos/">serviços</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">exploração florestal</a></li>
+                                <li><a href="#">serração</a></li>
+                                <li><a href="#">biomassa</a></li>
+                                <li><a href="#">transportes</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="produtos/">produtos</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">madeira serrada</a></li>
+                                <li><a href="#">briquete</a></li>
+                                <li><a href="#">pellets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sustentabilidade Submenu -->
+                    <div class="submenu-content" id="submenu-sustentabilidade">
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="certificados/">certificação</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">compromisso</h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">economia circular</h3>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title">energias renovaveis</h3>
+                        </div>
+                    </div>
+
+                    <!-- Contactos Submenu -->
+                    <div class="submenu-content" id="submenu-contactos">
+                    </div>
+                </div>
+
+                <!-- Image Section (Right Side) -->
+                <div class="menu-images">
+                    <img src="assets/menu-img-1.png" alt="" class="menu-image" data-menu-image="empresa">
+                    <img src="assets/menu-img-2.png" alt="" class="menu-image" data-menu-image="areas">
+                    <img src="assets/menu-img-3.png" alt="" class="menu-image" data-menu-image="sustentabilidade">
+                    <img src="assets/menu-img-4.png" alt="" class="menu-image" data-menu-image="contactos">
+                    <img src="assets/menu-img-5.png" alt="" class="menu-image" data-menu-image="extra">
+                </div>
+            </div>
+
+            <!-- Menu Footer -->
+            <div class="menu-footer">
+                <a href="#">política de privacidade</a>
+                <a href="#">política de cookies</a>
+                <a href="#">termos e condições</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+     <section class="hero-section">
+        <div class="row g-0 container-fluid px-4">
+            <div class="col-md-6 p-0 imageHeroCol6">
+                <img src="assets/image1.png" alt="Madeira cortada com plantas" class="hero-img">
+                <div class="hero_text">
+                    <p>Qualidade, Confiança<br>e Tradição em Cada Corte.</p>
+                    <h1>Para além da madeira</h1>
+                </div>
+            </div>
+            <div class="col-md-6 p-0">
+                <video src="assets/teste1.mp4" class="hero-img" id="hero-video" autoplay loop muted playsinline></video>
+                <!-- <img src="assets/image2.svg" alt="Madeira cortada com plantas" class="hero-img"> -->
+                   <button class="btn-outline-about-section">
+                        <span>os nossos serviços</span>
+                        <img class="ponto_btns_castanho" src="assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="assets/ponto_floreshente.svg" alt="">
+                    </button>
+            </div>
+        </div>
+     </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5" id="sobre">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class="section-label">A nossa história</h4>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <p class="about-text">
+                        Criada em 1990, JAF é uma empresa familiar dedicada à exploração florestal, serração de madeiras, produção  de pellets e briquetes, e transporte de matérias primas e produtos acabados necessários ao processos. Garantindo qualidade e sustentabilidade em cada etapa. 
+                    </p>
+                    <p class="about-small-text">
+                        A José Afonso & Filhos, S.A. consolidou-se ao longo das décadas como referência nacional e internacional na produção e exportação de madeira serrada, pellets e briquetes. Com sede em Oleiros, a empresa cresceu de forma sustentável, mantendo relações comerciais de confiança com clientes há mais de 20 anos. A aposta contínua em qualidade, inovação e certificações internacionais garante produtos de excelência e competitivos nos mercados mais exigentes. 
+                    </p>
+                    <button class="btn btn-outline-about-section">
+                        <span>Saiba mais</span>
+                        <img class="ponto_btns_castanho" src="assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="assets/ponto_floreshente.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Services Grid Section -->
+    <section class="services-section py-5" id="areas">
+ <div class="container_hover ">
+    <div class="card is-inactive">
+        <div class="card__inner">
+            <picture>
+                <img src="assets/hover1.png" alt="">
+            </picture>
+            <div class="card__content">
+                <!-- <p class="card__number">01.</p> -->
+                <h2 class="card__title card__title--vertical">Exploração Florestal</h2>
+                <h2 class="card__title card__title--horizontal card__title--horizontal-mobile-first">Exploração<br/> Florestal</h2>
+                <p class="card__description">A JAF dedica-se à gestão e exploração sustentável de recursos florestais, garantindo o fornecimento de madeira de pinho e eucalipto de alta qualidade. Privilegia práticas responsáveis e certificadas, assegurando a preservação das florestas e a valorização de matérias-primas locais.</p>
+                <button class="card__button">
+                    <span>SAIBA MAIS</span>
+                    <img class="pontFlorHover" src="assets/ponto_floreshente.svg" alt="">
+                    <img class="pontCastHover" src="assets/ponto_castanho.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card is-inactive">
+        <div class="card__inner">
+            <picture>
+                <img src="assets/industria_png2.png" alt="">
+            </picture>
+            <div class="card__content">
+                <!-- <p class="card__number">02.</p> -->
+               <h2 class="card__title card__title--vertical">Industria</h2>
+                <h2 class="card__title card__title--horizontal">Industria</h2>
+                <p class="card__description">Com unidades produtivas modernas e eficientes, a JAF transforma a madeira em produtos de excelência como madeira serrada, pellets e briquetes. Todo o processo é otimizado para aproveitar integralmente a matéria-prima, convertendo subprodutos em novas oportunidades de negócio e acrescentando valor em cada etapa de produção.</p>
+                <button class="card__button">
+                    <span>SAIBA MAIS</span>
+                    <img class="pontFlorHover" src="assets/ponto_floreshente.svg" alt="">
+                    <img class="pontCastHover" src="assets/ponto_castanho.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card is-inactive">
+        <div class="card__inner">
+            <picture>
+                <img src="assets/hover3.png" alt="">
+            </picture>
+             <div class="card__content">
+                <!-- <p class="card__number">03.</p> -->
+                <h2 class="card__title card__title--vertical">Transportes</h2>
+                <h2 class="card__title card__title--horizontal">Transportes</h2>
+                <p class="card__description">A empresa dispõe de uma frota própria de camiões, garantindo a entrega rápida e segura das matérias-primas e produtos acabados. Além de servir as necessidades internas, a JAF presta serviços de transporte de mercadorias a terceiros, aproveitando rotas para otimizar custos e tornar a frota mais sutentável.</p>
+                <button class="card__button">
+                    <span>SAIBA MAIS</span>
+                    <img class="pontFlorHover" src="assets/ponto_floreshente.svg" alt="">
+                    <img class="pontCastHover" src="assets/ponto_castanho.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card is-inactive">
+        <div class="card__inner">
+            <picture>
+                <img src="assets/hover4.png" alt="">
+            </picture>
+             <div class="card__content">
+                <!-- <p class="card__number">04.</p> -->
+                <h2 class="card__title card__title--vertical">Energia</h2>
+                <h2 class="card__title card__title--horizontal">Energia</h2>
+                <p class="card__description">A JAF aposta na produção de energia limpa a partir de duas centrais de produção fotovoltaicas. Esta energia é utilizada para autoconsumo, tornando a produção industrial mais sustentável e contribuindo para a redução da pegada de carbono. Estamos a trabalhar para que no futuro a produção de energia venha ser produzida através da biomassa.</p>
+                <button class="card__button">
+                    <span>SAIBA MAIS</span>
+                    <img class="pontFlorHover" src="assets/ponto_floreshente.svg" alt="">
+                    <img class="pontCastHover" src="assets/ponto_castanho.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card is-inactive">
+        <div class="card__inner">
+            <picture>
+                <img src="assets/combustiveis.png" alt="">
+            </picture>
+             <div class="card__content">
+                <!-- <p class="card__number">05.</p> -->
+                <h2 class="card__title card__title--vertical">Combustíveis</h2>
+                <h2 class="card__title card__title--horizontal">Combustíveis</h2>
+                <p class="card__description">A JAF integra um negócio dedicado à comercialização de combustíveis, assegurando o fornecimento eficiente e fiável a clientes particulares e empresariais. Com um serviço orientado para a proximidade, a qualidade e a segurança, esta área complementa a atividade do grupo, garantindo soluções energéticas essenciais ao dia a dia da região.</p>
+                <button class="card__button">
+                    <span>SAIBA MAIS</span>
+                    <img class="pontFlorHover" src="assets/ponto_floreshente.svg" alt="">
+                    <img class="pontCastHover" src="assets/ponto_castanho.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+    <!-- Quality Section -->
+    <section class="quality-section py-5">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-3" style="padding-right: 0;">
+                   <!--  <p class="section-label">Descobre mais sobre<br>os nossos produtos</p> -->
+                    <h4 class="section-label quality-label piquenos-label">Descobre mais sobre<br>os nossos produtos</h4>
+                </div>
+                
+                <div class="col-lg-9">
+                    <p class="quality-text">
+                        Na JAF, cada produto é resultado de um processo rigoroso que alia experiência, inovação e respeito pelo meio ambiente. Desde a madeira serrada aos pellets e briquetes, garantimos qualidade certificada, eficiência e sustentabilidade. 
+                    </p>
+                    <div class="quality-buttons quality-products quality-products--home">
+                        <div class="quality-card">
+                            <div class="quality-card__image">
+                                <img src="assets/madeiraserrada.png" alt="Madeira Serrada">
+                            </div>
+                            <div class="quality-card__footer">
+                                <span>MADEIRA SERRADA</span>
+                                <img src="assets/hover_arrow_btn.svg" alt="" class="quality-card__icon quality-card__icon--arrow">
+                            </div>
+                        </div>
+                        <div class="quality-card">
+                            <div class="quality-card__image">
+                                <img src="assets/pelles.png" alt="Pellets">
+                            </div>
+                            <div class="quality-card__footer">
+                                <span>PELLETS</span>
+                                <img src="assets/hover_arrow_btn.svg" alt="" class="quality-card__icon quality-card__icon--arrow">
+                            </div>
+                        </div>
+                        <div class="quality-card">
+                            <div class="quality-card__image">
+                                <img src="assets/packaging_briquetes.png" alt="Briquetes">
+                            </div>
+                            <div class="quality-card__footer">
+                                <span>BRIQUETES</span>
+                                <img src="assets/hover_arrow_btn.svg" alt="" class="quality-card__icon quality-card__icon--arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commitment Section -->
+    <section class="commitment-section" id="compromisso">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="commitment-title">O compromisso com a floresta,<br>responsabilidade no futuro</h2>
+                </div>
+            </div>
+            <div class="row  g-4">
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card firstRespCard">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="assets/sustentabilidade_yellow.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Responsabilidade</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            Assumimos uma gestão florestal responsável, garantindo que cada intervenção respeita o equilíbrio dos ecossistemas e contribui para a preservação das florestas para as gerações futuras.
+                        </p>
+                        <button class="btn btn-outline-brown">
+                            <span>Saiba mais</span>
+                            <img src="assets/ponto_floreshente.svg" alt="">
+                        </button> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="assets/circular_yellow.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Economia Circular</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            Do corte da madeira à produção de energia, aproveitamos cada etapa para criar valor e reduzir desperdícios.  Este ciclo fechado garante um aproveitamento integral da matéria-prima e reforça o nosso compromisso com a sustentabilidade.
+                        </p>
+                        <button class="btn btn-outline-brown">
+                            <span>Saiba mais</span>
+                            <img src="assets/ponto_floreshente.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="commitment-card">
+                        <div class="titlePlusTitle">
+                            <div class="commitment-icon">
+                                <img src="assets/certificacao_yellow.png" alt="">
+                            </div>
+                            <h4 class="commitment-card-title">Certificação</h4>
+                        </div>
+                        <p class="commitment-card-text">
+                            Com certificações como ENplus-A1, FSC® e PEFC, asseguramos não apenas a qualidade dos nossos produtos, mas também a conformidade com as mais rigorosas normas de gestão florestal e responsabilidade ambiental.
+                        </p>
+                        <button class="btn btn-outline-brown">
+                            <span>Saiba mais</span>
+                            <img src="assets/ponto_floreshente.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section py-5" id="sustentabilidade">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="mission-title">
+                        <span class="mission-line">Unimos tradição, inovação e respeito pela</span><br>
+                        <span class="mission-line">natureza para levar qualidade ao mundo.</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <p class="section-label piquenos-label">Atualidade</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-12">
+                    <div class="gallery-card">
+                        <img src="assets/atualidade-img-1.png" alt="Floresta" class="gallery-img image1with-filter">
+                        <img src="assets/atualidade-img-1-no-filter.png" alt="Floresta" class="gallery-img image1without-filter">
+                        <div class="gallery-overlay">
+                            <div class="atualidadeCardsRow gallery-badge">
+                                <span class="">12 setembro 2024</span>
+                                <img src="assets/btn-atualidade.png" class="btn-atualidade" alt="">
+                            </div>
+                            <h4 class="gallery-title">O compromisso<br>com a floresta,<br>responsabilidade<br>no futuro.</h4>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-12">
+                    <div class="gallery-card">
+                        <img src="assets/atualidade-img-2-filter.png" alt="Floresta" class="gallery-img image1with-filter">
+                        <img src="assets/atualidade-img-2.png" alt="Floresta" class="gallery-img image1without-filter">
+                        <div class="gallery-overlay">
+                            <div class="atualidadeCardsRow gallery-badge">
+                                <span class="">12 setembro 2024</span>
+                                <img src="assets/btn-atualidade.png" class="btn-atualidade" alt="">
+                            </div>
+                            <h4 class="gallery-title">O compromisso<br>com a floresta,<br>responsabilidade<br>no futuro.</h4>
+                        </div>
+                    </div>
+                </div>
+                   <div class="col-lg-4 col-12">
+                    <div class="gallery-card">
+                        <img src="assets/atualidade-img-3-filter.png" alt="Floresta" class="gallery-img image1with-filter">
+                        <img src="assets/atualidade-img-3.png" alt="Floresta" class="gallery-img image1without-filter">
+                        <div class="gallery-overlay">
+                            <div class="atualidadeCardsRow gallery-badge">
+                                <span class="">12 setembro 2024</span>
+                                <img src="assets/btn-atualidade.png" class="btn-atualidade" alt="">
+                            </div>
+                            <h4 class="gallery-title">O compromisso<br>com a floresta,<br>responsabilidade<br>no futuro.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h2 class="cta-title">O futuro da JAF<br>começa contigo!</h2>
+                </div>
+                <div class="col-lg-6 col-md-4 col-12 text-end">
+                    <button class="btn btn-cta">
+                        <span>CANDIDATURAS</span>
+                        <img class="ponto_btns_verde" src="assets/dot-olive.svg" alt="">
+                        <img class="ponto_btns_flurescente" src="assets/ponto_floreshente.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5" id="contato">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12 footer-logo-col">
+                    <img src="assets/logo-white.svg" alt="JAF Logo" class="footer-logo mb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <ul class="footer-nav-links">
+                        <li><a href="#sobre">Quem somos</a></li>
+                        <li><a href="#areas">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Recrutamento</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="footer-legal-links">
+                        <li><a href="#">POLÍTICA DE COOKIES</a></li>
+                        <li><a href="#">TERMOS E CONDIÇÕES</a></li>
+                        <li><a href="#">LIVRO DE RECLAMAÇÕES</a></li>
+                        <li><a href="#">CANAL DE DENUNCIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <h5 class="footer-company-name">José Afonso e Filhos, Lda</h5>
+                    <p class="footer-address">
+                        Zona Industrial de Açude Pinto<br>
+                        6160-301 Oleiros - PORTUGAL
+                    </p>
+                    <button class="btn btn-footer-contact">
+                        <span>CONTACTE-NOS</span>
+                        <img class="ponto_btns_castanho" src="assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="assets/ponto_floreshente.svg" alt="">
+                        <!-- <img src="assets/ponto_castanho.png" alt=""> -->
+                    </button>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">CERTIFICAÇÃO</a></li>
+                        <li><a href="#">LINKED IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>

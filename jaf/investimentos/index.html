@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAF - José Afonso & Filhos</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Lato:wght@300;400;700&family=Piazzolla:wght@100;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+     <!-- Hover Cards CSS -->
+    <link rel="stylesheet" href="../styles/hoverStyles.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" href="../styles/menuStyles.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="../">
+                    <img src="../assets/logo_coress_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <div class=" justify-content-end" id="navbarNav">
+                    <button class="btn_transparent">
+                        <span>contacte-nos</span>
+                        <img src="../assets/ponto_verde.svg" alt="">
+                    </button>
+                     <button class="btn_verde">
+                         <img src="../assets/3pontos.svg" alt="">
+                     </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-container">
+            <!-- Header with Logo and Close Button -->
+            <div class="menu-header">
+                <a href="../" class="menu-logo">
+                    <img src="../assets/logo_jaf_v2.webp" alt="JAF Logo" class="logo">
+                </a>
+                <button class="menu-close" id="menuClose">
+                    <img src="../assets/menu-close.svg" alt="Close">
+                </button>
+            </div>
+
+            <!-- Menu Content -->
+            <div class="menu-content">
+                <!-- Main Menu Items (Left Side) -->
+                <nav class="menu-main">
+                    <ul class="menu-list">
+                        <li class="menu-item" data-menu="empresa">
+                            <span>Empresa</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="areas">
+                            <span>Áreas de atuação</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="sustentabilidade">
+                            <span>Sustentabilidade</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                        <li class="menu-item" data-menu="contactos">
+                            <span>Contactos</span>
+                            <div class="menu-item-indicator">
+                                <img src="../assets/ponto_amarelo.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Underline for active menu item -->
+                    <div class="menu-underline" id="menuUnderline"></div>
+                </nav>
+
+                <!-- Submenu Content (Right Side) -->
+                <div class="menu-submenu">
+                    <!-- Empresa Submenu -->
+                    <div class="submenu-content" id="submenu-empresa">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../grupo-jaf/">grupo JAF</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">jaf madeiras</a></li>
+                                <li><a href="#">nova lenha</a></li>
+                                <li><a href="#">ESA</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../historia/">história</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../investimentos/">investimento</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/">Pessoas</a></h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin"><a href="../pessoas/#candidaturas">RECRUTAMENTO</a></h3>
+                        </div>
+                    </div>
+
+                    <!-- Áreas de Atuação Submenu -->
+                    <div class="submenu-content" id="submenu-areas">
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../servicos/">serviços</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">exploração florestal</a></li>
+                                <li><a href="#">serração</a></li>
+                                <li><a href="#">biomassa</a></li>
+                                <li><a href="#">transportes</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title"><a href="../produtos/">produtos</a></h3>
+                            <ul class="submenu-list">
+                                <li><a href="#">madeira serrada</a></li>
+                                <li><a href="#">briquete</a></li>
+                                <li><a href="#">pellets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Sustentabilidade Submenu -->
+                    <div class="submenu-content" id="submenu-sustentabilidade">
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">certificação</h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">compromisso</h3>
+                        </div>
+                        <div class="submenu-section mauMargin">
+                            <h3 class="submenu-title mauMargin">economia circular</h3>
+                        </div>
+                        <div class="submenu-section">
+                            <h3 class="submenu-title">energias renovaveis</h3>
+                        </div>
+                    </div>
+
+                    <!-- Contactos Submenu -->
+                    <div class="submenu-content" id="submenu-contactos">
+                    </div>
+                </div>
+
+                <!-- Image Section (Right Side) -->
+                <div class="menu-images">
+                    <img src="../assets/menu-img-1.png" alt="" class="menu-image" data-menu-image="empresa">
+                    <img src="../assets/menu-img-2.png" alt="" class="menu-image" data-menu-image="areas">
+                    <img src="../assets/menu-img-3.png" alt="" class="menu-image" data-menu-image="sustentabilidade">
+                    <img src="../assets/menu-img-4.png" alt="" class="menu-image" data-menu-image="contactos">
+                    <img src="../assets/menu-img-5.png" alt="" class="menu-image" data-menu-image="extra">
+                </div>
+            </div>
+
+            <!-- Menu Footer -->
+            <div class="menu-footer">
+                <a href="#">política de privacidade</a>
+                <a href="#">política de cookies</a>
+                <a href="#">termos e condições</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- Hero Section -->
+     <section class="hero-section">
+        <div class="row g-0 container-fluid px-4 row-title-invest">
+           <h2 class="growingCards-title-invest ">Investimos hoje para<br/> garantir um amanhã<br/> mais eficiente!</h2>
+             <button class="btn btn-outline-investment-section">
+                        <span>CONHECE A NOSSA HISTÓRIA</span>
+                        <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+            </button>
+        </div>
+     </section>
+
+        <!-- Stacked Cards Section -->
+    <section class="stacked-cards-section">
+        <div class="cards-container">
+            <div class="card-stack-wrapper">
+                <div class="stack-card" data-card="1">
+                    <div class="stack-card-inner">
+                        <div class="stack-card-image">
+                            <img src="../assets/cards_pile_1.png" alt="Imagem do projeto">
+                            <button class="card-nav-btn card-nav-prev" aria-label="Previous card">
+                                <img src="../assets/arrow_left.png" alt="">
+                            </button>
+                            <button class="card-nav-btn card-nav-next" aria-label="Next card">
+                                <img src="../assets/arrow_right.png" alt="">
+                            </button>
+                        </div>
+                        <div class="stack-card-content">
+                            <div class="card-dots-indicator">
+                                <span class="card-dot active" data-dot="1"></span>
+                                <span class="card-dot" data-dot="2"></span>
+                                <span class="card-dot" data-dot="3"></span>
+                            </div>
+                            <h4 class="section-label-pile">inovação produtiva</h4>
+                            <h3 class="stack-card-title">Eco-Madeira: Serração e<br/> transformação de madeira<br/> com valorização dos<br/> subprodutos através de inovação</h3>
+                            <h4 class="section-label-pile-v2">Programa de incentivo: PT2020</h4>
+                            <h4 class="section-label-pile-v3"><b>500 000€, 2021</b></h4>
+                            <br/>
+                            <p class="stack-card-description">
+                                Este projeto tem com objetivo aumentar a capacidade produtiva de pellets, briquetes e madeira serrada, traduzindo-se num crescimento de cerca de 20% do volume de negócios.<br/>
+                                O investimento contempla novos equipamentos tecnológicos, ações de marketing e vendas e a construção de um armazém de 4.000 m² para produtos acabados, sobretudo os de queima.<br/>
+                                Com esta expansão, a empresa reforça a qualidade dos seus produtos e a capacidade de resposta às exigências dos clientes.
+                            </p>
+                            <br/>
+                            <div class="stack-card-footer">
+                                <p class="stack-card-description">Confinanciado por:</p>
+                                <div class="stack-card-authors">
+                                    <img src="../assets/p2020.png" alt="Autor 1" class="author-avatar">
+                                </div>
+                                <button class="btn btn-pile-cards">
+                                    <span>SAIBA MAIS</span>
+                                    <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                                    <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="greeShadow">
+                        <div class="greeShadowInner"></div>
+                    </div>
+                </div>
+
+                <div class="stack-card" data-card="2">
+                    <div class="stack-card-inner">
+                        <div class="stack-card-image">
+                            <img src="../assets/cards_pile_2.png" alt="Imagem do projeto">
+                            <button class="card-nav-btn card-nav-prev" aria-label="Previous card">
+                                <img src="../assets/arrow_left.png" alt="">
+                            </button>
+                            <button class="card-nav-btn card-nav-next" aria-label="Next card">
+                                <img src="../assets/arrow_right.png" alt="">
+                            </button>
+                        </div>
+                        <div class="stack-card-content">
+                            <div class="card-dots-indicator">
+                                <span class="card-dot" data-dot="1"></span>
+                                <span class="card-dot active" data-dot="2"></span>
+                                <span class="card-dot" data-dot="3"></span>
+                            </div>
+                            <h4 class="section-label-pile">ENERGIAS RENOVÁVEIS</h4>
+                            <h3 class="stack-card-title">Eco-Madeira: Serração e<br/> transformação de madeira<br/> com valorização dos<br/> subprodutos através de<br/> inovação</h3>
+                            <p class="stack-card-description">
+                                A JAF tem apostado fortemente em inovação e sustentabilidade através de investimentos estratégicos. Entre os projetos mais significativos destaca-se a construção de dois parques de painéis fotovoltaicos, que permitem gerar cerca de 2MWh de energia limpa destinada ao autoconsumo na serração de madeiras e na Nova Lenha.<br/>
+                                Esta energia permite suportar parte das operações diárias, reduz a dependência de fontes externas e reforça o compromisso ambiental. <br/>
+                                Este investimento reflete a visão de futuro da empresa, que alia crescimento económico à responsabilidade ambiental, garantindo operações mais eficientes e sustentáveis
+                            </p>
+                            <div class="stack-card-footer">
+                                <p class="stack-card-description">Confinanciado por:</p>
+                                <div class="stack-card-authors">
+                                    <img src="../assets/p2020.png" alt="Autor 1" class="author-avatar">
+                                </div>
+                                <button class="btn btn-pile-cards">
+                                    <span>SAIBA MAIS</span>
+                                    <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                                    <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="greeShadow">
+                        <div class="greeShadowInner"></div>
+                    </div>
+                </div>
+
+                <div class="stack-card" data-card="3">
+                    <div class="stack-card-inner">
+                        <div class="stack-card-image">
+                            <img src="../assets/cards_pile_3.png" alt="Imagem do projeto">
+                            <button class="card-nav-btn card-nav-prev" aria-label="Previous card">
+                                <img src="../assets/arrow_left.png" alt="">
+                            </button>
+                            <button class="card-nav-btn card-nav-next" aria-label="Next card">
+                                <img src="../assets/arrow_right.png" alt="">
+                            </button>
+                        </div>
+                        <div class="stack-card-content">
+                            <div class="card-dots-indicator">
+                                <span class="card-dot" data-dot="1"></span>
+                                <span class="card-dot" data-dot="2"></span>
+                                <span class="card-dot active" data-dot="3"></span>
+                            </div>
+                            <h4 class="section-label-pile">Cogeração a Biomassa Florestal</h4>
+                            <h3 class="stack-card-title">Implementação de uma<br/> Central de Cogeração a<br/> Biomassa Florestal. </h3>
+                            <p class="stack-card-description">
+                                O projeto consiste na instalação de uma central de cogeração a biomassa florestal, contribuindo para a descarbonização da atividade, e tornando a produção de pellets e briquetes energeticamente mais eficiente. Permite ainda o aumento da resiliência e a redução da dependência da empresa, reforça a economia circular, e aumenta a competitividade e a redução da pegada de carbono, em alinhamento com as políticas climáticas nacionais e europeias. Com este investimento, a empresa aumenta também a sua autonomia estratégica e reduz a exposição a riscos associados às cadeias de valor.
+                            </p>
+                            <div class="stack-card-footer">
+                                <p class="stack-card-description">Confinanciado por:</p>
+                                <div class="stack-card-authors">
+                                    <img src="../assets/p2020.png" alt="Autor 1" class="author-avatar">
+                                </div>
+                                <button class="btn btn-pile-cards">
+                                    <span>SAIBA MAIS</span>
+                                    <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                                    <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="greeShadow">
+                        <div class="greeShadowInner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta-section-invst">
+        <div class="container-fluid">
+            <div class="row align-items-center ">
+                <div class="col-lg-12 col-md-6 col-12">
+                    <h4 class="section-label-grupo-jaf">Objetivos JAF</h4>
+                </div>
+                <div class="col-md-12">
+                    <p class="about-text-invest">
+                        Garantir uma gestão florestal sustentável, inovação  nos processos<br/> de transformação da madeira e promover a economia circular em<br/> todas as suas operações.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <p class="about-small-text">
+                        Procura também fortalecer a sua presença no setor industrial e de transportes, assegurando eficiência e qualidade em cada etapa, ao<br/> mesmo tempo que mantém um compromisso firme com a responsabilidade ambiental e social. O objetivo final é crescer de forma<br/> sustentável, oferecendo produtos de excelência e contribuindo para um futuro mais verde e consciente.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                     <button class="btn btn-cta">
+                        <span>CANDIDATURAS</span>
+                        <img class="ponto_btns_verde" src="../assets/dot-olive.svg" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer py-5" id="contato">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-12 footer-logo-col">
+                    <img src="../assets/logo-white.svg" alt="JAF Logo" class="footer-logo mb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <ul class="footer-nav-links">
+                        <li><a href="#sobre">Quem somos</a></li>
+                        <li><a href="#areas">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Recrutamento</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                    <ul class="footer-legal-links">
+                        <li><a href="#">POLÍTICA DE COOKIES</a></li>
+                        <li><a href="#">TERMOS E CONDIÇÕES</a></li>
+                        <li><a href="#">LIVRO DE RECLAMAÇÕES</a></li>
+                        <li><a href="#">CANAL DE DENUNCIAS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <h5 class="footer-company-name">José Afonso e Filhos, Lda</h5>
+                    <p class="footer-address">
+                        Zona Industrial de Açude Pinto<br>
+                        6160-301 Oleiros - PORTUGAL
+                    </p>
+                    <button class="btn btn-footer-contact">
+                        <span>CONTACTE-NOS</span>
+                        <img class="ponto_btns_castanho" src="../assets/ponto_castanho.png" alt="">
+                        <img class="ponto_btns_flurescente" src="../assets/ponto_floreshente.svg" alt="">
+                        <!-- <img src="../assets/ponto_castanho.png" alt=""> -->
+                    </button>
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">CERTIFICAÇÃO</a></li>
+                        <li><a href="#">LINKED IN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
