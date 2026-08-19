@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T10:20:00+01:00",
+  "notes": "Quarta-feira com a outra metade do play-off da Champions (4 jogos, 20:00) e o arranque da La Liga com um único jogo. Analisadas 6 candidatas, aprovadas 2. REJEITADAS: (a) Celtic–LASK Ambas Marcam Sim @1.83 — exige que o LASK marque em Celtic Park, e o Celtic leva 10 golos marcados e apenas 1 sofrido em 3 jogos oficiais, com o LASK a arrastar uma série má fora na Europa; a perna do visitante é frágil de mais para o preço. (b) Slovan Bratislava–Celje Ambas Marcam Sim @1.80 — a tese parecia boa (Slovan 3,33 golos/jogo em casa) mas o H2H desmente-a: 6-1 no agregado do ano passado significa que o Celje marcou 1 golo em 2 jogos contra este adversário. (c) NEC–Bodo/Glimt Mais de 3.5 @1.91 — os números apontam para ~4 golos esperados, mesmo em cima da linha; a estatística forte do Bodo (over 2.5 em 15 dos últimos 16 jogos europeus) sustenta o Over 2.5, não o Over 3.5, e a diferença entre 3,3 e 3,8 golos esperados vira o valor ao contrário. NOTA: a tip do NEC começou como Ambas Marcam simples a 1.36 (curta demais) e foi convertida em combinada do mesmo jogo — Ambas Marcam Sim + Mais de 2.65 golos a 1.615 na Betclic, que foi o que o utilizador apostou. A conversão abdica apenas do 1-1 (13,1% dos casos BTTS, limiar de indiferença 15,8%), logo compensa por pouco; a odd justa seria 1.695. ODDS: Betclic PT não expõe odds na API — valores Bet365, confirmar antes de apostar.",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam Sim + Mais de 2.65 golos",
+      "fixtureId": 1622624,
+      "home": {
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png"
+      },
+      "away": {
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png"
+      },
+      "league": "UEFA Champions League — Play-off, 1ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-08-19T19:00:00Z",
+      "odds": 1.615,
+      "bookmaker": "Betclic",
+      "score": 75,
+      "stake": 5,
+      "tese": "<p>É o jogo do dia com o perfil de golos mais bem documentado. O Bodø/Glimt <strong>marcou pelo menos 2 golos nos últimos 7 jogos oficiais fora</strong>, leva 13 jogos sem perder e viu <strong>Mais de 2.5 golos em 15 dos últimos 16 jogos europeus</strong> — não é uma equipa que saiba fechar jogos, é uma equipa que os ganha aos tiros. Do outro lado, o NEC <strong>não fez uma única baliza a zero nos últimos 6 jogos</strong> e vem de um 4-1 ao Willem II. O modelo da API confirma o desenho: Bodø com 3,0 golos marcados e 2,5 sofridos por jogo, contra um NEC que marca 1,0 em casa. As odds de 1x2 (2.55–3.60–2.38) mostram que as casas não separam as equipas, o que costuma produzir jogo aberto.</p><p><strong>Porquê a combinada e não o Ambas Marcam simples:</strong> a 1.36 o mercado tinha comido quase toda a margem. Ao juntar o Over, abdica-se de um único resultado — o <strong>1-1</strong> — em troca de subir a odd para 1.615. Pelo mercado de resultado exacto do Bet365, já limpo da margem de 40,7%, o 1-1 vale <strong>13,1% dos casos em que ambas marcam</strong>, contra um limiar de indiferença de 15,8% (1.36 ÷ 1.615). Fica do lado bom, por dois pontos e meio.</p><p><strong>Ressalva honesta, sir:</strong> a odd justa da combinada seria 1.695 e a casa oferece 1.615 — a correlação entre os dois mercados já está no preço, portanto isto não é valor extra, é compensação pelo risco do 1-1 e ligeiramente abaixo do justo. O que muda é o perfil: menos vezes a ganhar, mais prémio quando ganha.</p>",
+      "factors": [
+        "Bodø/Glimt marcou 2+ golos nos últimos 7 jogos oficiais fora",
+        "Mais de 2.5 golos em 15 dos últimos 16 jogos europeus do Bodø/Glimt",
+        "NEC sem qualquer baliza a zero nos últimos 6 jogos",
+        "Modelo API: Bodø 3,0 marcados / 2,5 sofridos por jogo; NEC 1,0 marcado",
+        "Combinada abdica só do 1-1: 13,1% dos casos BTTS, contra limiar de 15,8%",
+        "Contra: odd justa seria 1.695 — a casa fica com a diferença"
+      ],
+      "sources": [
+        "Sofascore — NEC vs Bodø/Glimt Champions League playoff preview",
+        "Sportskeeda — NEC Nijmegen vs Bodo/Glimt preview (19/08/2026)",
+        "Dailysports — 'Open football could cost the hosts dearly'",
+        "API-Football — predictions e odds Bet365, fixture 1622624"
+      ]
+    },
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Não",
+      "fixtureId": 1570334,
+      "home": {
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "away": {
+        "name": "Malaga",
+        "logo": "https://media.api-sports.io/football/teams/535.png"
+      },
+      "league": "La Liga — Jornada 1",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-08-19T19:00:00Z",
+      "odds": 1.75,
+      "bookmaker": "Bet365 (ref.)",
+      "score": 71,
+      "stake": 5,
+      "tese": "<p>O Málaga regressa à Primeira Divisão <strong>oito anos depois</strong>, via play-off de subida com o Almería, e estreia-se fora, no Metropolitano, na primeira jornada. O onze provável andaluz está cheio de nomes sem rodagem no escalão (Chupe, Joaquín Muñoz, Izan Merino), contra uma defesa do Atlético com Oblak, Le Normand, Cuti Romero e Grimaldo. A aposta não é no Atlético golear — é em o Málaga <strong>não marcar</strong>, que é coisa bem diferente e bastante mais provável.</p><p>Os 1.75 implicam 57%. Somando a hipótese de o Málaga ficar em branco com a hipótese remota de o próprio Atlético não marcar, chego a algo na casa dos 65%. É aí que está a margem.</p><p><strong>Risco assumido, sir:</strong> o Atlético teve uma pré-época irregular — duas vitórias com Getafe e Marselha, duas derrotas com os dois de Manchester — e primeiras jornadas são notoriamente imprevisíveis. Um Málaga eufórico a marcar cedo mata esta tip. Daí os 5€.</p>",
+      "factors": [
+        "Málaga promovido após 8 anos, estreia fora e na 1ª jornada",
+        "Defesa do Atlético com Oblak, Le Normand, Cuti Romero e Grimaldo",
+        "Onze do Málaga com vários jogadores sem rodagem na Primeira Divisão",
+        "1.75 implica 57%; estimo ~65% somando as duas vias de baliza a zero",
+        "Contra: pré-época irregular do Atlético e imprevisibilidade da 1ª jornada"
+      ],
+      "sources": [
+        "SI.com — Atlético de Madrid vs Málaga: previa, predicciones y alineaciones",
+        "FútbolFantasy — alineaciones probables Atlético–Málaga",
+        "365scores — horário e prováveis onzes",
+        "API-Football — odds Bet365, fixture 1570334"
+      ]
+    }
+  ]
+}

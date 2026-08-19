@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-18",
+  "balance": 139.36,
+  "notes": "Regresso após pausa de 06/06 a 18/08 (subscrição API-Football expirada, bot live parado). Terça sem ligas-foco: o slate útil eram os 3 play-offs de acesso à Champions. 2 tips aprovadas de 5 analisadas. Levski 0-0 AEK confirmou a tese defensiva (Levski somou a 4ª baliza a zero consecutiva e o AEK, sem futebol competitivo no verão, não marcou). Dinamo-Viking falhou de forma clara: 2-2 AO INTERVALO, o Viking marcou 2 golos fora ao Maksimir contra uma equipa que levava 13 jogos em casa sem perder e 13-1 nos últimos 4. A tese do favorito em casa era sólida no papel e o jogo desmentiu-a na primeira parte. LIVE: ZERO alertas — não por falta de jogos, mas porque a quota diária da API esgotou por volta das 21h (relay a consumir 140 chamadas por execução com 45 jogos 'interessantes' em plena noite europeia, contra os ~20 estimados). O corte de emergência desligou as 'predictions', de que as 3 estratégias activas dependem, precisamente na janela dos 50-70' da Champions. Falha de dimensionamento, não de infraestrutura.",
+  "curated_tips": {
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50.0,
+      "total_stake": 10,
+      "total_return": 9.0,
+      "pnl": -1.0,
+      "roi_pct": -10.0,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 10,
+      "combined_return": 9.0,
+      "combined_pnl": -1.0,
+      "combined_roi_pct": -10.0
+    },
+    "accumulators": [],
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Não",
+        "fixtureId": 1622622,
+        "home": "Levski Sofia",
+        "away": "AEK Athens FC",
+        "league": "UEFA Champions League — Play-off, 1ª mão",
+        "kickoff": "2026-08-18T19:00:00Z",
+        "odds": 1.8,
+        "bookmaker": "Bet365 (ref.)",
+        "score_confidence": 74,
+        "stake": 5,
+        "final_score": "0-0",
+        "result": "GREEN",
+        "hit": true,
+        "return": 9.0,
+        "pnl": 4.0,
+        "note": "Tese confirmada por inteiro. O Levski somou a 4ª baliza a zero consecutiva e mantém 0 golos sofridos em casa na qualificação (agregado 6-0 em 4 receções). O AEK, sem futebol competitivo no verão — liga grega por começar, só amigáveis e a Supertaça de 12/08 — não conseguiu marcar em Sofia. A falta de ritmo do visitante pesou como previsto."
+      },
+      {
+        "market": "favorites",
+        "pick": "Vitória Dinamo Zagreb",
+        "fixtureId": 1622620,
+        "home": "Dinamo Zagreb",
+        "away": "Viking",
+        "league": "UEFA Champions League — Play-off, 1ª mão",
+        "kickoff": "2026-08-18T19:00:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365 (ref.)",
+        "score_confidence": 72,
+        "stake": 5,
+        "final_score": "2-2",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5.0,
+        "note": "Falhou e o sinal de alarme foi cedo: 2-2 AO INTERVALO. O Viking marcou 2 golos no Maksimir a uma equipa com 13 jogos em casa sem perder e 13-1 no agregado dos últimos 4. Lição: o risco que assinalei foi o errado — escrevi que o perigo era o Viking fechar-se para levar o empate, e o que aconteceu foi exactamente o contrário, um jogo aberto de transições. A defesa do Dinamo, que os números faziam parecer sólida, não resistiu a um adversário a meio da época norueguesa e em pleno ritmo competitivo, contra um Dinamo em arranque. O 'match fitness' do visitante estava subvalorizado na minha análise."
+      }
+    ]
+  },
+  "btts": { "tips": [] },
+  "over25": { "tips": [] },
+  "cards": { "tips": [] },
+  "corners": { "tips": [] },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0.0,
+      "by_strategy": {}
+    }
+  }
+}
