@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T10:40:00+01:00",
+  "notes": "Quinta-feira cheia: play-off de acesso à Liga Europa e à Conferência, mais de 30 jogos europeus entre as 16h e as 20h. Analisadas 8 candidatas, aprovadas 2, ambas em Ambas Marcam Sim. REJEITADAS: (a) Benfica–Aarhus — o Benfica vem de 5-0, 6-1 e 7-0 e o Aarhus ainda não venceu na Superliga, mas isso já está todo no preço (1.17 para a vitória, 1.33 para o Over 2.5); o Ambas Marcam Não a 1.83 exigiria baliza a zero e o Benfica sofreu 1 golo nos últimos 3 jogos — margem fina de mais. (b) SC Braga–Austria Vienna — o Braga leva 0,0 golos sofridos por jogo, o que aponta para Ambas Marcam Não, mas a Austria Vienna traz 2,3 marcados e forma de 83%; sinais contraditórios, sem tese limpa. (c) Rayo Vallecano–Alavés — o modelo dá 'Winner: Alavés' com forma de 100% e 0 sofridos, tentador, mas são 3 jogos de amostra numa La Liga a arrancar. ACUMULADOR: as duas tips combinam em 2.92, dentro da banda [2.0, 3.0]. Ambas são da Conferência e da mesma ronda, o que a R3 desaconselha — mas a correlação aqui é positiva e no mesmo sentido (as duas são apostas em golos), o que joga a favor e não contra. Incluído com stake da banda do score mínimo. ODDS: Betclic não expõe odds na API — valores Bet365, confirmar antes de apostar.",
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        { "fixtureId": 1623405, "match": "FC Sion vs Ajax", "pick": "Ambas Marcam - Sim", "odds": 1.62, "sport": "football" },
+        { "fixtureId": 1623402, "match": "PAOK vs Brann", "pick": "Ambas Marcam - Sim", "odds": 1.8, "sport": "football" }
+      ],
+      "combined_odds": 2.92,
+      "score": 72,
+      "stake": 5
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Sim",
+      "fixtureId": 1623405,
+      "home": { "name": "FC Sion", "logo": "https://media.api-sports.io/football/teams/630.png" },
+      "away": { "name": "Ajax", "logo": "https://media.api-sports.io/football/teams/194.png" },
+      "league": "UEFA Conference League — Play-off, 1ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-08-20T18:15:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365 (ref.)",
+      "score": 78,
+      "stake": 7,
+      "tese": "<p>A estatística que fecha o caso: <strong>cada um dos últimos 7 jogos do Sion e 7 dos últimos 8 do Ajax terminaram com 3 golos ou mais</strong>. Não é uma equipa que arrasta a outra para o caos — são as duas a fazê-lo há meses. O modelo confirma: Sion com 2,3 marcados e 1,0 sofrido, Ajax com 3,3 marcados e 1,3 sofrido. O Sion está invicto há 6 jogos, com 5 vitórias, e o Boteli leva 3 golos em 4 jogos na qualificação.</p><p><strong>O ângulo que inclina a balança:</strong> o Ajax chega com cinco ausências — Blind, Sutalo, Bounida, Van Axel Dongen e Kaplan — e <strong>três delas são defesas centrais ou laterais</strong>. Uma defesa remendada em Tourbillon, contra um Sion que marca em casa com regularidade, é precisamente o cenário que sustenta a perna mais duvidosa desta aposta, que é o Sion marcar.</p><p><strong>Risco assumido, sir:</strong> o Ajax é claro favorito (1.75) e pode simplesmente controlar o jogo. Se o Michel optar por um bloco baixo para gerir a eliminatória, o Sion pode não furar.</p>",
+      "factors": [
+        "Últimos 7 jogos do Sion, todos com 3+ golos",
+        "7 dos últimos 8 jogos do Ajax com 3+ golos",
+        "Ajax sem Blind, Sutalo e Kaplan — três defesas de fora",
+        "Modelo: Sion 2,3 marcados / 1,0 sofrido; Ajax 3,3 / 1,3",
+        "Sion invicto há 6 jogos (5 vitórias); Boteli com 3 golos em 4 na qualificação",
+        "Contra: Ajax é favorito e pode gerir a eliminatória num bloco baixo"
+      ],
+      "sources": [
+        "Sports Mole — Sion vs Ajax preview, team news, lineups",
+        "Footballwhispers — Sion vs Ajax prediction (20/08/2026)",
+        "Dailysports — UEFA Conference League playoffs: Sion versus Ajax",
+        "API-Football — predictions e odds Bet365, fixture 1623405"
+      ]
+    },
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Sim",
+      "fixtureId": 1623402,
+      "home": { "name": "PAOK", "logo": "https://media.api-sports.io/football/teams/619.png" },
+      "away": { "name": "Brann", "logo": "https://media.api-sports.io/football/teams/319.png" },
+      "league": "UEFA Conference League — Play-off, 1ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-08-20T17:45:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365 (ref.)",
+      "score": 72,
+      "stake": 5,
+      "tese": "<p><strong>17 dos últimos 18 jogos do Brann em todas as competições terminaram com Mais de 2.5 golos.</strong> É um número quase absurdo, e não vem de sorte: os noruegueses fazem 13,8 remates por jogo, 5,3 à baliza, e vêm de um 3-0 ao HamKam com três marcadores diferentes. Do lado do PAOK, dez dos últimos catorze também passaram a linha dos 2.5.</p><p>A odd de 1.80 está acima do consenso dos tipsters, que preçam esta aposta perto de 1.68 — ou seja, estamos a apanhar valor face ao mercado que segue o mesmo raciocínio.</p><p><strong>Risco assumido, sir:</strong> há um contra sério e não o quero esconder. O PAOK <strong>não marcou em casa frente ao Anderlecht</strong> na ronda anterior, perdendo 0-1 em Toumba. A perna do PAOK marcar não é automática, e é por isso que esta leva 5€ e não 7€.</p>",
+      "factors": [
+        "17 dos últimos 18 jogos do Brann com Mais de 2.5 golos",
+        "Brann com 13,8 remates e 5,3 à baliza por jogo; 3-0 ao HamKam com 3 marcadores",
+        "10 dos últimos 14 jogos do PAOK acima dos 2.5 golos",
+        "1.80 está acima do consenso dos tipsters (~1.68)",
+        "Contra: o PAOK não marcou em casa frente ao Anderlecht (0-1) na ronda anterior"
+      ],
+      "sources": [
+        "Dailysports — PAOK vs Brann: Greek passion faces Scandinavian character",
+        "Sportsgambler — PAOK vs Brann prediction, lineups & odds",
+        "Ratingbet — PAOK vs Brann expert analysis",
+        "API-Football — odds Bet365, fixture 1623402"
+      ]
+    }
+  ]
+}
