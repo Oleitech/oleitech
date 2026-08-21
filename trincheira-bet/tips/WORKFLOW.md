@@ -316,10 +316,16 @@ Aplica esta tabela a cada tip aprovada (definida 2026-05-16):
 
 ## Passo 5.6 — Construir Acumulador(es)
 
-Depois de aprovadas as tips e calculadas as stakes (Passo 5.5), constrói acumuladores em **duas fases**:
+Depois de aprovadas as tips e calculadas as stakes (Passo 5.5), constrói acumuladores em **três fases**:
 
 1. **Fase A — Acumuladores Standard** (pool restrito, tips aprovadas)
 2. **Fase B — Acumuladores Curtos** (pool alargado, odds baixas, 3 pernas)
+3. **Fase C — Acumulador Corvo** (2 pernas, Resultado + Total, combinada 1.7–2.2)
+
+As Fases A e B partilham a regra R1 (nenhuma perna se repete entre acumuladores).
+**A Fase C está fora dessa regra**: pode reutilizar um jogo já usado, desde que o
+mercado seja outro — decisão tomada a 21/08/2026, com a contrapartida de a
+sobreposição ter de ser declarada nas `notes` do dia.
 
 **Objectivo de cada acumulador:** odd combinada entre **2.0 e 3.0**. Acima de 3.0 é demasiado arriscado; abaixo de 2.0 não vale a pena compor.
 
@@ -456,6 +462,69 @@ Resultado: 1 Standard + 2 Curtos = 3 acumuladores
 
 ---
 
+---
+
+### Fase C — Acumulador Corvo (2 pernas, Resultado + Total)
+
+Modelo adoptado a 21/08/2026, a partir dos boletins em `exemplos/corvo_bets/`.
+Corre **em paralelo** com as tips curadas e com as Fases A e B — não as substitui.
+**No máximo 1 por dia**, e dias sem combinação válida ficam sem ele.
+
+#### A ideia
+
+Nas 19 pernas analisadas, o "Total" quase nunca é o risco — é o **amplificador de
+preço**. O Arsenal–Coventry pagava 1.20 na vitória simples; `V1 e TAb(5.5)` pagava
+**1.31**. Aceita-se o risco minúsculo de uma goleada de 6+ golos para ganhar 9
+pontos de odd. O núcleo é sempre um favorito claro ou uma dupla hipótese barata,
+empurrada para cima por uma condição de golos que quase sempre se verifica.
+
+Combinadas observadas nos boletins originais: 1.69, 1.72, 1.77, 1.78, 1.78, 1.80,
+1.83, 1.92 — todas na metade de baixo da banda.
+
+#### Mercados utilizáveis
+
+Bookmaker de referência: **Marathonbet** (id 2 na API). Fallback: Superbet →
+Betfair → 10Bet. **O Bet365 não serve** — só expõe a linha 2.5 do mercado
+Resultado + Total.
+
+| Mercado API | id | Uso |
+|---|---|---|
+| `Result/Total Goals` | 25 | Núcleo. `Home/Under 4.5`, `Home/Under 5.5`, `Away/Under 5.5`, `Home/Over 1.5` |
+| `Total Goals/Both Teams To Score` | 49 | `o/yes 2.5` = ambas marcam + mais de 2,5 |
+| `Double Chance` | 12 | Dupla hipótese simples |
+| `Goals Over/Under` | 5 | Total simples |
+| `Total - Home` / `Total - Away` | 16 / 17 | A equipa X marca (Over 0.5) |
+
+**NÃO existe na API:** dupla hipótese **combinada** com total (`2X e TAb(4.5)`,
+`1X e TAc(1.5)`). Verificado nos 14 bookmakers a 21/08/2026 — nenhum a expõe,
+apesar de ser o grosso dos boletins originais. Se a vires no teu bookmaker e a
+quiseres usar, a odd entra **à mão**; caso contrário fica de fora.
+
+#### Regras
+
+1. **Exactamente 2 pernas**, de **jogos diferentes**.
+2. Cada perna entre **1.25 e 1.55**.
+3. Combinada entre **1.70 e 2.20**. Fora disto **não se publica** — não esticar
+   a banda para arranjar aposta.
+4. Ligas: o mesmo country gate das restantes tips.
+5. **Sobreposição permitida**: uma perna pode usar um jogo que já está numa tip
+   curada **desde que o mercado seja diferente** (ex.: BTTS na tip, `V1 e TAb`
+   no corvo). Quando acontecer, a `notes` do dia **tem de o declarar** — a
+   exposição fica correlacionada e o registo não pode esconder isso.
+6. **Curadoria intermédia** por perna: H2H (≥3/5 alinhado), forma recente
+   (≥3/5) e **lesões/onze provável**. Este último não é opcional: `V1` exige
+   que o favorito ganhe mesmo, e um titular ausente muda isso.
+7. **Stake: 5 € fixos.** `score` = mínimo das duas pernas.
+8. `label: "corvo"` no JSON. O `js/ui.js` mostra "Acumulador Corvo" e a casa
+   de referência a partir daí.
+
+#### Como escolher
+
+Procurar favoritos claros (probabilidade implícita ≥65%) em que o mercado 25
+ofereça `Under 4.5`/`Under 5.5` na banda 1.25–1.55. Um favorito a 1.20–1.35 na
+vitória simples costuma dar exactamente isso. Evitar jogos de eliminatória com
+segunda mão, onde o favorito pode gerir o resultado.
+
 ## Passo 6 — Rascunho no chat
 
 Antes de gravar, mostra ao utilizador um rascunho compacto:
@@ -485,6 +554,11 @@ Antes de gravar, mostra ao utilizador um rascunho compacto:
    1. ⚽ BTTS Sim — Bayern vs Stuttgart (DFB Pokal) @ 1.57
    2. 🏀 Over 218.5 — Celtics vs Cleveland (NBA) @ 1.45
    [cross-sport ✅, nenhuma perna partilhada com Acumulador A ✅]
+
+🐦 ACUMULADOR CORVO · 1.83 combinada · Score mín: 71 · Stake: 5€  [Marathonbet]
+   1. ⚽ Porto e Menos de 5.5 golos — Rio Ave vs Porto (Liga PT) @ 1.49
+   2. ⚽ PSV e Mais de 1.5 golos — Excelsior vs PSV (Eredivisie) @ 1.23
+   [jogos diferentes ✅, combinada dentro de 1.7–2.2 ✅]
 
    (ou "Sem acumulador hoje — nenhuma combinação cai entre 2.0 e 3.0.")
 ```

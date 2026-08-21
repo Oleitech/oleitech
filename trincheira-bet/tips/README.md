@@ -75,17 +75,17 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | Campo          | Tipo            | Obrigatório | Notas |
 |----------------|-----------------|-------------|-------|
 | `date`         | string          | sim         | `YYYY-MM-DD` |
-| `accumulators` | array           | não         | Lista de acumuladores do dia (0+); array vazio se não foi possível construir nenhum. Standard: até 2. Curtos: ⌊N pernas shortlist / 3⌋ |
-| `accumulators[].label` | `"standard"` \| `"curto"` | não | `"standard"` = tips aprovadas pelo processo completo; `"curto"` = 3 pernas de odds baixas (1.15–1.45) de pool alargado (ligas secundárias permitidas). Omitir = standard. |
-| `accumulators[].selections` | array | sim       | 2–3 seleções (standard) ou exactamente 3 seleções (curto) |
+| `accumulators` | array           | não         | Lista de acumuladores do dia (0+); array vazio se não foi possível construir nenhum. Standard: até 2. Curtos: ⌊N pernas shortlist / 3⌋. Corvo: no máximo 1 por dia |
+| `accumulators[].label` | `"standard"` \| `"curto"` \| `"corvo"` | não | `"standard"` = tips aprovadas pelo processo completo; `"curto"` = 3 pernas de odds baixas (1.15–1.45) de pool alargado (ligas secundárias permitidas); `"corvo"` = 2 pernas no mercado Resultado + Total (ver Fase C do WORKFLOW). Omitir = standard. O `js/ui.js` usa este campo para a etiqueta e a casa de referência no cartão. |
+| `accumulators[].selections` | array | sim       | 2–3 seleções (standard), exactamente 3 (curto), exactamente 2 (corvo) |
 | `accumulators[].selections[].fixtureId` | number | não | API-Football fixture ID (ou outro ID de desporto) |
 | `accumulators[].selections[].match` | string | sim | "Home vs Away" ou nome do jogo |
 | `accumulators[].selections[].pick` | string | sim | Descrição da aposta |
-| `accumulators[].selections[].odds` | number | sim | Odd individual (Betclic PT) |
+| `accumulators[].selections[].odds` | number | sim | Odd individual. Betclic PT nos standard e curtos; **Marathonbet** nos corvo — o Bet365 só expõe a linha 2.5 do mercado Resultado + Total e não serve. Fallback: Superbet → Betfair → 10Bet. |
 | `accumulators[].selections[].sport` | string | não | `"football"`, `"nba"`, `"tennis"` |
-| `accumulators[].combined_odds` | number | sim       | Produto das odds — deve estar entre 2.0 e 3.0 |
+| `accumulators[].combined_odds` | number | sim       | Produto das odds. Intervalo válido **depende do label**: 2.0–3.0 (standard e curto), **1.7–2.2 (corvo)**. Fora do intervalo, não se publica. |
 | `accumulators[].score` | number | sim            | Score mínimo das seleções incluídas |
-| `accumulators[].stake` | number | sim            | € calculado pelas bandas do Sistema B sobre o score mínimo |
+| `accumulators[].stake` | number | sim            | € pelas bandas do Sistema B sobre o score mínimo (standard); 3 € fixos (curto); **5 € fixos (corvo)** |
 | `generated_at` | string ISO 8601 | sim         | timestamp da curadoria |
 | `notes`        | string          | não         | nota geral do dia (ex.: "Jornada europeia") |
 | `tips[].market`| `btts` \| `favorites` \| `scorers` \| `corners` | sim | mercado |

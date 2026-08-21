@@ -215,8 +215,16 @@ const UI = {
     return card;
   },
 
-  renderAccaCard({ selections, combined_odds, score, stake }) {
+  renderAccaCard({ selections, combined_odds, score, stake, label }) {
     const SPORT_BADGE = { football: '⚽', nba: '🏀', tennis: '🎾' };
+    // Os três modelos têm regras e casa de referência diferentes, mas o cartão
+    // mostrava-os todos como "Acumulador" — no site ficavam indistinguíveis.
+    const ACCA_TYPES = {
+      standard: { name: 'Acumulador', book: 'Betclic PT' },
+      curto: { name: 'Acumulador Curto', book: 'Betclic PT' },
+      corvo: { name: 'Acumulador Corvo', book: 'Marathonbet (ref.)' },
+    };
+    const type = ACCA_TYPES[label] || ACCA_TYPES.standard;
     const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
 
     const selectionsHtml = selections.map((s, i) => {
@@ -241,8 +249,8 @@ const UI = {
     const card = this.el('article', 'acca-card');
     card.innerHTML = `
       <div class="acca-header">
-        <span class="acca-header__label">Acumulador · ${selections.length} seleções</span>
-        <span class="acca-header__hint">Betclic PT</span>
+        <span class="acca-header__label">${type.name} · ${selections.length} seleções</span>
+        <span class="acca-header__hint">${type.book}</span>
       </div>
       <div class="acca-legs">
         ${selectionsHtml}

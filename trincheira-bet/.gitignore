@@ -1,0 +1,28 @@
+# Respostas cruas da API-Football guardadas pelos workflows de tips/resultados.
+# São dumps de trabalho (11 MB e a crescer), reconstruíveis a qualquer momento.
+.cache/
+tips/_scratch_*.json
+tips/_pred_*.json
+tips/_odds_*.json
+tips/_fixtures*.json
+
+# Fotos dos boletins e resultados (49 MB de PNG). Sao a fonte em disco e o
+# deploy.md ja as exclui do site. Binarios em git nunca mais saem do historico
+# sem o reescrever, por isso ficam fora dele desde o inicio.
+resultados/dia-*/
+resultados/fim-de-semana-*/
+
+# Segredos: chave da API-Football e ADMIN_TOKEN do worker.
+relay/relay.env
+
+# Cópias de rollback locais. A partir do momento em que o worker e o relay estão
+# sob git, o git É o rollback — manter .bak versionados só duplica ruído.
+*.bak
+*.bak[0-9]
+*.bak-*
+
+# Logs do relay (o runtime escreve em ~/Library/Application Support, mas evita
+# apanhar qualquer log que apareça aqui).
+*.log
+
+.DS_Store

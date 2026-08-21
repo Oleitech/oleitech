@@ -1,16 +1,46 @@
 {
   "date": "2026-08-21",
   "generated_at": "2026-08-21T12:10:00+01:00",
-  "notes": "Sexta de arranque: 13 jogos nas ligas-foco, quase todos em estreia de época. Analisadas 8 candidatas, aprovadas 2, ambas em Ambas Marcam Sim. AVISO METODOLÓGICO: o modelo da API-Football está praticamente cego hoje — Betis, Real Sociedad, Marselha e Strasbourg vêm todos com played:0 e percentagens 33/33/33, porque a jornada 1 foi adiada pelo Mundial. O peso da decisão foi qualitativo, não estatístico. REJEITADAS: (a) Real Betis–Real Sociedad (BTTS 1.75) — é a estreia oficial das duas equipas, zero jogos de amostra; pior do que os 3 jogos que fizeram rejeitar o Rayo–Alavés ontem. (b) Marseille–Strasbourg — o 5-4 do Strasbourg ao Mónaco é tentador, mas o BTTS está a 1.53, abaixo do mínimo de 1.55, e o Strasbourg perdeu o Panichelli para cirurgia ao joelho, que é precisamente quem faria a perna deles; dois treinadores novos na jornada inaugural é ruído a mais. (c) Arsenal–Coventry — 1.20 no Arsenal, sem valor. ACUMULADOR: nenhum. As duas tips combinam em 3.51, fora da banda [2.0, 3.0], portanto a Fase A não produz nada. Na Fase B as únicas pernas na banda 1.25–1.55 eram Over 2.5 nestes mesmos dois jogos, o que empilhava exposição correlacionada com os singles — um 1-0 no Rostock–Stuttgart matava a tip e a perna do acumulador ao mesmo tempo. ONZES: não publicados à hora da geração (faltavam 5h para o primeiro jogo); as ausências do Al-Nassr vêm de reporting e têm de ser cruzadas com o onze real antes de apostar, pela regra fixada após o caso Rodri. ODDS: Betclic não expõe odds na API — valores Bet365, confirmar antes de apostar.",
-  "accumulators": [],
+  "notes": "Sexta de arranque: 13 jogos nas ligas-foco, quase todos em estreia de época. Analisadas 8 candidatas, aprovadas 2, ambas em Ambas Marcam Sim. AVISO METODOLÓGICO: o modelo da API-Football está praticamente cego hoje — Betis, Real Sociedad, Marselha e Strasbourg vêm todos com played:0 e percentagens 33/33/33, porque a jornada 1 foi adiada pelo Mundial. O peso da decisão foi qualitativo, não estatístico. REJEITADAS: (a) Real Betis–Real Sociedad (BTTS 1.75) — é a estreia oficial das duas equipas, zero jogos de amostra; pior do que os 3 jogos que fizeram rejeitar o Rayo–Alavés ontem. (b) Marseille–Strasbourg — o 5-4 do Strasbourg ao Mónaco é tentador, mas o BTTS está a 1.53, abaixo do mínimo de 1.55, e o Strasbourg perdeu o Panichelli para cirurgia ao joelho, que é precisamente quem faria a perna deles; dois treinadores novos na jornada inaugural é ruído a mais. (c) Arsenal–Coventry — 1.20 no Arsenal, sem valor. ACUMULADOR: nenhum. As duas tips combinam em 3.51, fora da banda [2.0, 3.0], portanto a Fase A não produz nada. Na Fase B as únicas pernas na banda 1.25–1.55 eram Over 2.5 nestes mesmos dois jogos, o que empilhava exposição correlacionada com os singles — um 1-0 no Rostock–Stuttgart matava a tip e a perna do acumulador ao mesmo tempo. ONZES: não publicados à hora da geração (faltavam 5h para o primeiro jogo); as ausências do Al-Nassr vêm de reporting e têm de ser cruzadas com o onze real antes de apostar, pela regra fixada após o caso Rodri. ODDS: Betclic não expõe odds na API — valores Bet365, confirmar antes de apostar. ACUMULADOR CORVO (estreia do modelo, Fase C do WORKFLOW): Arsenal e Menos de 4.5 @ 1.55 + Stuttgart e Mais de 1.5 @ 1.35 = 2.09 combinada, 5 EUR, odds Marathonbet (o Bet365 so expoe a linha 2.5 deste mercado). ATENCAO A SOBREPOSICAO: a perna do Stuttgart e sobre o mesmo jogo da tip BTTS de hoje, em mercado diferente - a exposicao no Rostock-Stuttgart e correlacionada, nao independente. Marselha e Betis nao tinham nenhuma linha na banda 1.25-1.55, e a perna do Al-Nassr caiu pelo relogio.",
+  "accumulators": [
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1557367,
+          "match": "Arsenal vs Coventry",
+          "pick": "Arsenal e Menos de 4.5 golos",
+          "odds": 1.55,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1550685,
+          "match": "Hansa Rostock vs VfB Stuttgart",
+          "pick": "Stuttgart e Mais de 1.5 golos",
+          "odds": 1.35,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.09,
+      "score": 70,
+      "stake": 5,
+      "note": "Estreia do modelo corvo (Fase C). A perna do Arsenal e o modelo na forma pura: 1.20 na vitoria simples, empurrado para 1.55 pela linha Under 4.5, ao custo de excluir so um 5-0. O Coventry nao tem o Haji Wright (17 golos no Championship na epoca passada, lesao no quadriceps), o que baixa o total esperado e sobe a probabilidade de vitoria ao mesmo tempo. SOBREPOSICAO DECLARADA: a perna do Stuttgart usa o mesmo jogo da tip BTTS de hoje, em mercado diferente. E permitido pela regra 5 da Fase C, mas a correlacao e forte e no mesmo sentido - um 2-1 ganha as duas, um 1-0 mata as duas. Nao sao apostas independentes. RESERVA: a perna do Stuttgart e a fraca das duas (falha num 1-0, e o Rostock esta invicto em 12 dos ultimos 15 em casa). O Al Riyadh-Al Nassr, que dava a segunda perna melhor (Away/Under 5.5 @ 1.50), ficou de fora por o rascunho so ter fechado a 7 minutos do apito."
+    }
+  ],
   "tips": [
     {
       "market": "btts",
       "sport": "football",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1602982,
-      "home": { "name": "Al Riyadh", "logo": "https://media.api-sports.io/football/teams/10511.png" },
-      "away": { "name": "Al-Nassr", "logo": "https://media.api-sports.io/football/teams/2939.png" },
+      "home": {
+        "name": "Al Riyadh",
+        "logo": "https://media.api-sports.io/football/teams/10511.png"
+      },
+      "away": {
+        "name": "Al-Nassr",
+        "logo": "https://media.api-sports.io/football/teams/2939.png"
+      },
       "league": "Saudi Pro League — Jornada 2",
       "leagueLogo": "https://media.api-sports.io/football/leagues/307.png",
       "kickoff": "2026-08-21T16:00:00Z",
@@ -39,8 +69,14 @@
       "sport": "football",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1550685,
-      "home": { "name": "Hansa Rostock", "logo": "https://media.api-sports.io/football/teams/1321.png" },
-      "away": { "name": "VfB Stuttgart", "logo": "https://media.api-sports.io/football/teams/172.png" },
+      "home": {
+        "name": "Hansa Rostock",
+        "logo": "https://media.api-sports.io/football/teams/1321.png"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
       "league": "DFB Pokal — 1ª eliminatória",
       "leagueLogo": "https://media.api-sports.io/football/leagues/81.png",
       "kickoff": "2026-08-21T18:45:00Z",
