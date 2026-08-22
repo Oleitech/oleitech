@@ -1,0 +1,164 @@
+{
+  "date": "2026-08-21",
+  "balance": 159.58,
+  "notes": "Dia com uma ironia que vale a pena registar: as duas tips BTTS morreram exactamente da mesma forma — o favorito manteve a baliza a zero e goleou (Al Riyadh 0-4, Rostock 0-4) — enquanto o acumulador corvo, que na estreia apostou A FAVOR dos favoritos, ganhou as duas pernas. O modelo novo salvou o dia: sem ele o prejuízo era de 10€, com ele fica em 4,55€. LIÇÃO SOBRE A CORRELAÇÃO QUE ASSINALEI: avisei que a perna do Stuttgart no corvo se sobrepunha à tip BTTS do mesmo jogo e que 'um 2-1 ganha as duas, um 1-0 mata as duas'. A análise estava incompleta — não considerei o caso 0-N, que foi precisamente o que aconteceu: 0-4 deu GREEN ao corvo (Stuttgart ganhou com 4 golos) e RED ao BTTS (Rostock não marcou). As duas apostas eram menos correlacionadas do que eu julgava, e no sentido oposto ao que temia. BOT LIVE DE VOLTA: primeiro alerta desde 06/06, e o fix do limiar validou-se da forma mais nítida possível — o Vitesse-Almere disparou a conf 86, que com o limiar antigo de 90 era matematicamente impossível (contexto neutro, sem favorito claro nem defesas frágeis, tecto 89). A banda de stake nova validou-se nas DUAS fronteiras no mesmo dia: 86 -> 5€ e 90 -> 7€. As odds live foram capturadas num dos dois alertas (1.444 no Dundalk); a Eerste Divisie não está no feed de odds, que cobre ~93% dos jogos ao vivo. Nota: para um RED as odds são irrelevantes, o retorno é zero de qualquer forma — a lacuna só custa quando o alerta ganha, por isso o P&L de ontem está completo. A banca continua a contar apenas as tips curadas; as stakes dos alertas live são nocionais, para medir ROI, e não representam apostas confirmadas.",
+  "curated_tips": {
+    "summary": {
+      "total": 2,
+      "green": 0,
+      "red": 2,
+      "hit_rate": 0.0,
+      "total_stake": 10,
+      "total_return": 0,
+      "pnl": -10,
+      "roi_pct": -100.0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 5,
+      "accumulators_return": 10.45,
+      "accumulators_pnl": 5.45,
+      "combined_stake": 15,
+      "combined_return": 10.45,
+      "combined_pnl": -4.55,
+      "combined_roi_pct": -30.33
+    },
+    "accumulators": [
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1557367,
+            "match": "Arsenal vs Coventry",
+            "pick": "Arsenal e Menos de 4.5 golos",
+            "odds": 1.55,
+            "final_score": "3-0",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1550685,
+            "match": "Hansa Rostock vs VfB Stuttgart",
+            "pick": "Stuttgart e Mais de 1.5 golos",
+            "odds": 1.35,
+            "final_score": "0-4",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.09,
+        "score": 70,
+        "stake": 5,
+        "result": "GREEN",
+        "return": 10.45,
+        "pnl": 5.45,
+        "note": "Estreia do modelo corvo, e entrou com folga nas duas pernas. O Arsenal fez 3-0 — vitória confirmada e 3 golos bem abaixo da linha dos 4.5; o risco real desta perna era uma goleada de 5+, que nunca esteve perto. O Stuttgart, que eu tinha assinalado como a perna fraca por causa do risco de 1-0 e do Rostock estar invicto em 12 dos últimos 15 em casa, resolveu com um 4-0 sem história. A reserva estava certa em identificar onde estava o risco, mas errada na dimensão dele."
+      }
+    ],
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "fixtureId": 1602982,
+        "home": "Al Riyadh",
+        "away": "Al-Nassr",
+        "league": "Saudi Pro League — Jornada 2",
+        "kickoff": "2026-08-21T16:00:00Z",
+        "odds": 1.8,
+        "bookmaker": "Bet365 (ref.)",
+        "score_confidence": 72,
+        "stake": 5,
+        "final_score": "0-4",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5,
+        "note": "O contra que registei na tese era exactamente este e concretizou-se: o Al Riyadh estava sem ganhar há 8 confrontos e com 3 balizas a zero nos últimos 5, e o Al-Nassr tinha qualidade para fechar o jogo. Fechou — 0-4, com o Al Riyadh a nem incomodar. O ângulo das seis ausências do Al-Nassr (Simakan, Samu Costa) não pesou nada: eram por gestão de fadiga, não por lesão, e a equipa tinha profundidade para os cobrir. Aprendizagem: ausências por rotação num plantel fundo não são sinal de fragilidade defensiva."
+      },
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "fixtureId": 1550685,
+        "home": "Hansa Rostock",
+        "away": "VfB Stuttgart",
+        "league": "DFB Pokal — 1ª eliminatória",
+        "kickoff": "2026-08-21T18:45:00Z",
+        "odds": 1.95,
+        "bookmaker": "Bet365 (ref.)",
+        "score_confidence": 70,
+        "stake": 5,
+        "final_score": "0-4",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5,
+        "note": "O risco que assinalei — 'o Stuttgart está a 1.22 e tem qualidade para resolver com um 3-0 limpo' — foi ao que aconteceu, e com um golo a mais. O registo caseiro do Rostock (invicto em 12 dos últimos 15) e o 3-2 na estreia da 3. Liga não valeram nada contra um finalista da prova. A tese apoiava-se em o Rostock marcar, e a odd de 1.95 estava a pagar precisamente essa dúvida: o mercado tinha razão."
+      }
+    ]
+  },
+  "btts": { "tips": [] },
+  "over25": { "tips": [] },
+  "cards": { "tips": [] },
+  "corners": { "tips": [] },
+  "live_alerts": {
+    "alerts": [
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "fixtureId": 1613327,
+        "match": "Vitesse vs Almere City FC",
+        "league": "Eerste Divisie (Netherlands)",
+        "elapsed": 61,
+        "score_at_alert": "0-1",
+        "conf": 86,
+        "stake": 5,
+        "odds": null,
+        "final_score": "0-3",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -5,
+        "note": "Primeiro alerta desde 06/06 e a validação directa do fix do limiar: conf 86 (60 base +14 SoT +6 remates +3 posse +3 casa), sem bónus de favorito nem de defesas frágeis. Com o limiar antigo de 90 este alerta era matematicamente impossível. O Vitesse tinha 5 SoT e 14 remates aos 61' e mesmo assim nunca marcou — o Almere ainda fez mais dois. Sem odds registadas: a Eerste Divisie não está no feed /odds/live. Irrelevante neste caso, porque num RED o retorno é zero de qualquer forma."
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "fixtureId": 1492753,
+        "match": "Dundalk vs Galway United",
+        "league": "Premier Division (Ireland)",
+        "elapsed": 52,
+        "score_at_alert": "0-1",
+        "conf": 90,
+        "stake": 7,
+        "odds": 1.444,
+        "final_score": "1-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 10.11,
+        "pnl": 3.11,
+        "note": "O Dundalk empatou e o BTTS confirmou-se. Primeiro alerta de sempre com odds registadas no arquivo — 1.444 apanhada no momento do disparo, o que torna o ROI calculável pela primeira vez. Também validou a fronteira superior da banda de stake nova: conf 90 caiu em 90-94 e gravou 7€, não 5€."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "green_over": 0,
+      "pending": 0,
+      "hit_rate": 50.0,
+      "stake_total": 12,
+      "return_total": 10.11,
+      "pnl": -1.89,
+      "roi_pct": -15.75,
+      "odds_registadas": 1,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 50.0
+        }
+      }
+    }
+  }
+}
