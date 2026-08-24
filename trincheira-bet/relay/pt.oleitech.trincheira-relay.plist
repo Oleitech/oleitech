@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>pt.oleitech.trincheira-relay</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/oleitech/Library/Application Support/trincheira-relay/run.sh</string>
+	</array>
+
+	<!-- Every 60s, matching the worker's own peak cadence. RunAtLoad means a
+	     reboot resumes the loop with no manual step. -->
+	<key>StartInterval</key>
+	<integer>60</integer>
+	<key>RunAtLoad</key>
+	<true/>
+
+	<key>StandardOutPath</key>
+	<string>/Users/oleitech/Library/Application Support/trincheira-relay/relay.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/oleitech/Library/Application Support/trincheira-relay/relay.err.log</string>
+</dict>
+</plist>

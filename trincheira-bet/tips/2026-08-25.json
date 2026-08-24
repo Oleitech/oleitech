@@ -1,0 +1,170 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-24T22:45:04+01:00",
+  "notes": "Terça-feira de meia-semana: 2ª mão dos play-offs da Champions, 2ª ronda da Taça da Liga inglesa (17 jogos) e a jornada 3 da Saudi Pro League. A La Liga tem um único jogo (Valencia-Betis) e foi descartado — o consenso divide-se entre Under 2.5 e Ambas Marcam, sinais contraditórios e sem mercado que exprima uma tese própria. TENNIS: o Passo 0 obriga a verificar Grand Slams, e a 25/08 cai dentro da janela do US Open — mas o quadro principal só arranca a 30/08. O dia 25 é apenas Dia 2 do qualifying (LTA e Tennis Majors confirmam), sem cobertura de odds fiável nem dados que sustentem o filtro de 1.50. Sem tips de tennis hoje, por ausência de jogos elegíveis e não por omissão. FASE B SEM ACUMULADORES CURTOS: as únicas pernas que passaram o filtro (Ipswich vitória 1.50, Cardiff 1X 1.50, Blackburn 1X 1.50) estão todas a 1.50 e todas na mesma prova — o produto dá 3.375, fora da banda 2.0-3.0, e baixar a odd exigiria uma perna não verificada. Três candidatas caíram na verificação: o Nottingham Forest 1X porque o Leeds lhe ganhou no City Ground há três dias, o FC Seoul porque o Bucheon está invicto e a golear, e o Orlando Pirates porque o Sekhukhune venceu as duas últimas visitas a Joanesburgo. SOBREPOSIÇÃO DECLARADA (regra 5 da Fase C): a perna do Al-Nassr no Acumulador Corvo usa o mesmo jogo da tip individual, em mercado diferente (Resultado+Total vs Total da Equipa). A exposição fica correlacionada no mesmo sentido — um 0-3 ganha as duas, um 0-1 mata a tip e salva o corvo. Não são apostas independentes. MERCADOS: os totais de golos do jogo (Over/Under 2.5) continuam desactivados por decisão de Abril/2026, por isso as duas teses de golos foram expressas em Total da Equipa (ids 16/17) — que além de respeitarem a regra, pagam melhor: o Bodo a marcar 3+ vale 2.00 contra 1.83 do Mais de 3.5 do jogo. ADENDA (revisão pós-geração): o Acumulador Standard foi refeito. Saiu a perna do Al-Nassr 3+ (1.80), entrou Ipswich vence (1.50), e a combinada desce de 2.75 para 2.29. O motivo foi de exposição, levantado pelo utilizador: o Al-Nassr aparecia em três dos cinco bilhetes do dia e concentrava 58% da banca exposta num só jogo. Passa a 36%. A alternativa aritmética mais óbvia — LASK BTTS x Bodo 3+ — foi rejeitada por falhar duas regras ao mesmo tempo: 3.06 estoura a banda 2.0-3.0 e os dois jogos são play-offs da mesma prova, o que viola R3. FALHA DE PROCESSO REGISTADA: este dia foi gerado sem o passo das antevisões do Flashscore. O workflow manda correr a análise primeiro e depois pedir ao utilizador screenshots de uma shortlist de 5-8 jogos; a análise correu, o pedido nunca foi feito, e as previews usadas vieram de pesquisa web — a mesma fonte que hoje trouxe as divisões erradas de Ipswich e Leicester e teve de ser corrigida contra a API. A perna do Ipswich que aqui entra é precisamente de um jogo que a shortlist teria coberto.",
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        {
+          "fixtureId": 1610924,
+          "match": "LASK vs Celtic",
+          "pick": "Ambas Marcam - Sim",
+          "odds": 1.53,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623088,
+          "match": "Ipswich vs Leicester",
+          "pick": "Ipswich vence",
+          "odds": 1.5,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.29,
+      "score": 72,
+      "stake": 7,
+      "note": "Fase A. VERSÃO REVISTA a pedido do utilizador. A composição original era LASK BTTS + Al-Nassr 3+ a 2.75, e foi trocada por razão de concentração, não de qualidade das pernas: com o Al-Nassr presente na tip individual (7€), neste acumulador (7€) e ainda no corvo (5€), 19€ dos 33€ do dia — 58% — dependiam de um único jogo em Riade. A troca baixa essa exposição para 12€ (36%). Custa retorno: 16,07€ em vez de 19,25€ sobre os mesmos 7€. Champions League x Taça da Liga inglesa satisfaz a regra R3 das provas diferentes. NOTA SOBRE O SCORE: a perna do Ipswich não tem score individual — era candidata da Fase B, verificada para o filtro dos acumuladores curtos mas nunca curada como tip própria. O 72 é o 76 da perna do LASK descontado por ter um parceiro sem score, a mesma convenção usada no corvo (70 com o Southampton por avaliar). RESERVA ASSUMIDA: 2ª ronda de taça, ambas as equipas rodam o plantel, e a vantagem que sustenta a perna é estrutural (Ipswich na Premier League, Leicester na League One) e não de forma. Foi escolhida entre as três candidatas de 1.50 por ser a única vitória simples em vez de dupla hipótese e a única com diferença de divisão a favor. Escolha feita SEM antevisão do Flashscore — o passo de shortlist não chegou a ser executado na geração deste dia."
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1602994,
+          "match": "Al-Ettifaq vs Al-Nassr",
+          "pick": "Al-Nassr e Mais de 1.5 golos",
+          "odds": 1.36,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623090,
+          "match": "Southampton vs West Ham",
+          "pick": "Southampton Dupla Hipótese (1X)",
+          "odds": 1.51,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.05,
+      "score": 70,
+      "stake": 5,
+      "note": "Fase C, odds Marathonbet (o Bet365 não expõe o mercado Resultado+Total fora da linha 2.5). O núcleo é o modelo na forma pura: o Al-Nassr paga 1.27 na vitória simples e sobe a 1.36 ao juntar-se a linha de Mais de 1.5 golos — uma condição que se verificou em todos os jogos competitivos das duas equipas esta época. SOBREPOSIÇÃO DECLARADA: mesmo jogo da tip individual do Al-Nassr, mercado diferente, permitido pela regra 5 mas correlacionado. A perna do Southampton é a mais fraca das duas e é uma escolha de contexto, não de forma: invictos há 14 jogos em St Mary's (11 vitórias), contra um West Ham sem vitórias no arranque do Championship, com o Souček de fora e Álvarez, Diouf e Magassa indisponíveis por estarem de saída. Reserva assumida: é uma 2ª ronda de taça, ambos rodam o plantel, e a Dupla Hipótese protege o empate mas não os 90 minutos de um jogo que pode ir a penáltis."
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Sim",
+      "marketLabel": "Ambas Marcam",
+      "fixtureId": 1610924,
+      "home": {
+        "name": "LASK",
+        "logo": "https://media.api-sports.io/football/teams/1026.png"
+      },
+      "away": {
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png"
+      },
+      "league": "UEFA Champions League — Play-off, 2ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-08-25T19:00:00Z",
+      "odds": 1.53,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "<p>O <strong>Celtic ganhou a 1ª mão por 3-0</strong> e o resultado esconde o que realmente aconteceu em Glasgow: <strong>o LASK rematou 20 vezes, criou duas ocasiões flagrantes, teve dois golos anulados por fora-de-jogo e fechou com mais xG que o Celtic (1.58 contra 0.93)</strong>. Foi um 3-0 de eficácia, não de domínio. A equipa austríaca não foi superada — foi punida.</p><p>O contexto de jogo faz o resto do trabalho. <strong>O LASK precisa de três golos só para forçar prolongamento</strong>, o que elimina qualquer hipótese de gestão: têm de atacar desde o primeiro minuto, com Adeniran e Usor na frente. E marcam — <strong>4, 2, 3 e 7 golos nos últimos quatro jogos competitivos</strong>, e estão invictos há oito jogos em casa.</p><p>Do outro lado, o Celtic <strong>não vai rodar</strong>: o Scotsman e o Sports Mole apontam ambos para o mesmo onze da 1ª mão, com apenas Alistair Johnston de fora. E os jogos europeus do Celtic são invariavelmente abertos — <strong>apenas 1 dos últimos 9 teve menos de três golos, e 6 dos 9 tiveram golos dos dois lados</strong>.</p><p><strong>Nota sobre o mercado:</strong> os totais Over/Under 2.5 do jogo continuam desactivados desde Abril, por isso a tese vai a Ambas Marcam — que é, aliás, a formulação mais honesta. O que se está a comprar é o LASK a marcar, porque o Celtic marcar fora já é quase dado adquirido.</p><p><strong>Risco assumido, sir:</strong> o LASK está sem vencer há cinco jogos europeus em casa, e um Celtic confortável a 3-0 pode simplesmente controlar a bola e matar o jogo a 0-0 ou 0-1.</p>",
+      "factors": [
+        "LASK com mais xG que o Celtic na 1ª mão (1.58 vs 0.93), 20 remates e 2 golos anulados",
+        "LASK precisa de 3 golos para forçar prolongamento — obrigado a atacar",
+        "LASK marcou 4, 2, 3 e 7 golos nos últimos 4 jogos competitivos",
+        "LASK invicto há 8 jogos em casa em todas as provas",
+        "Celtic sem rotação pesada — mesmo onze da 1ª mão, só Johnston de fora",
+        "Só 1 dos últimos 9 jogos europeus do Celtic teve menos de 3 golos; 6 dos 9 com ambas a marcar",
+        "Contra: LASK sem vencer há 5 jogos europeus em casa"
+      ],
+      "sources": [
+        "The Scotsman — LASK vs Celtic injury news, onze de Martin O'Neill",
+        "Sports Mole — preview LASK Linz vs Celtic, onzes prováveis",
+        "FreeTips — LASK vs Celtic, golos recomendados",
+        "API-Football — H2H 1ª mão, últimos 8 jogos de ambas, odds Bet365 fixture 1610924"
+      ]
+    },
+    {
+      "market": "favorites",
+      "sport": "football",
+      "pick": "Al-Nassr marca mais de 2.5 golos",
+      "marketLabel": "Total da equipa",
+      "fixtureId": 1602994,
+      "home": {
+        "name": "Al-Ettifaq",
+        "logo": "https://media.api-sports.io/football/teams/2934.png"
+      },
+      "away": {
+        "name": "Al-Nassr",
+        "logo": "https://media.api-sports.io/football/teams/2939.png"
+      },
+      "league": "Saudi Pro League — Jornada 3",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/307.png",
+      "kickoff": "2026-08-25T18:00:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 7,
+      "tese": "<p><strong>O Al-Nassr marcou três ou mais golos em todos os jogos competitivos desta época</strong>: 3-0 no Al Fateh, 4-1 no Al Diriyah e 4-0 no Al Riyadh. Onze golos em três jogos, apenas um sofrido. E os dois últimos foram <strong>fora de casa, ambos com quatro golos</strong>.</p><p>O que dá corpo a isto é o onze. O <strong>Cristiano Ronaldo faz o primeiro onze da época</strong> — confirmado por duas fontes independentes, o Okaz Sports e o Sports Mole, depois de 30 minutos e um golo como suplente frente ao Al Riyadh, com Postecoglou a gerir-lhe a carga de propósito. <strong>O João Félix leva 8 golos em 8 jogos</strong>, marcou nos três jogos da época incluindo um bis. Com Mané e Coman nas alas, é uma frente de ataque que não tem paralelo na liga. Só o lateral Al Ghannam está de fora.</p><p>O adversário encaixa. <strong>O Al-Ettifaq sofreu 2 golos em casa frente ao Al Riyadh</strong> — a mesma equipa que o Al-Nassr foi golear por 4-0 três dias depois. Vêm de ser eliminados da Taça do Rei pelo Al Jabalain, um jogo que perderam por 1-0.</p><p><strong>Nota sobre o mercado:</strong> a tese é sobre o ataque do Al-Nassr, não sobre o total do jogo. O Total da Equipa exprime isso exactamente e paga 1.80 — enquanto a vitória simples, que ganharia num 1-0 que a tese não prevê, paga apenas 1.27.</p><p><strong>Risco assumido, sir:</strong> o histórico caseiro do Al-Ettifaq contra o Al-Nassr é sólido — <strong>três empates e uma vitória nas últimas cinco recepções</strong>. E três jogos são uma amostra pequena para fechar um juízo sobre um ataque.</p>",
+      "factors": [
+        "Al-Nassr com 3+ golos em todos os 3 jogos competitivos da época (3-0, 4-1, 4-0)",
+        "Os dois últimos foram fora e ambos com 4 golos marcados",
+        "Ronaldo faz o primeiro onze da época — confirmado por Okaz Sports e Sports Mole",
+        "João Félix com 8 golos em 8 jogos, marcou nos 3 jogos da época",
+        "Mané e Coman nas alas; só Al Ghannam (lateral) indisponível",
+        "Al-Ettifaq sofreu 2 golos em casa ao Al Riyadh, que o Al-Nassr goleou 4-0",
+        "Al-Ettifaq eliminado da Taça do Rei pelo Al Jabalain (0-1)",
+        "Contra: Al-Ettifaq com 3 empates e 1 vitória nas últimas 5 recepções ao Al-Nassr"
+      ],
+      "sources": [
+        "World Soccer Talk / Okaz Sports — Ronaldo confirmado no onze inicial",
+        "Sports Mole — Al-Ettifaq vs Al-Nassr, onzes prováveis e team news",
+        "Dailysports — preview, Al-Nassr favorito em jogo de muitos golos",
+        "API-Football — últimos 6 jogos de ambas, odds Bet365 Total Away fixture 1602994"
+      ]
+    },
+    {
+      "market": "favorites",
+      "sport": "football",
+      "pick": "Bodo/Glimt marca mais de 2.5 golos",
+      "marketLabel": "Total da equipa",
+      "fixtureId": 1622627,
+      "home": {
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png"
+      },
+      "away": {
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png"
+      },
+      "league": "UEFA Champions League — Play-off, 2ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-08-25T19:00:00Z",
+      "odds": 2.0,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 7,
+      "tese": "<p><strong>O Bodo/Glimt marcou três ou mais golos em seis dos últimos oito jogos</strong> — 3 em Nijmegen, 3 ao Union Saint-Gilloise, 3 em Bruxelas, 4 ao Lillestrom, 3 ao Sandefjord, 3 ao Ham-Kam. Não é um pico de forma, é o que a equipa faz. Nos <strong>três jogos desta eliminatória da Champions a média é de 5.0 golos por jogo</strong>.</p><p>A defesa que os espera está desfeita. O <strong>NEC não tem Perr Schuurs, Philippe Sandler nem Ahmetcan Kaplan</strong> — o eixo defensivo inteiro — a que se juntam Ouaissa e Ogawa, com Fonville em dúvida depois de sair lesionado na 1ª mão. Seis ausências, e as três que mais pesam são todas centrais.</p><p>E o estado da eliminatória empurra o jogo na direcção certa: <strong>o NEC perde por 3-1 e tem de marcar dois golos em Aspmyra</strong>. Não podem fechar-se. Vão subir linhas contra a equipa que na época passada eliminou Manchester City, Atlético e Inter precisamente a explorar espaços nas costas da defesa.</p><p><strong>Nota sobre o mercado:</strong> o Mais de 3.5 golos do jogo paga 1.83, mas exige que o NEC colabore no marcador. O Total da Equipa isola a parte da tese em que há convicção real — o Bodo a marcar — e paga <strong>2.00</strong>, mais 9%. Os totais do jogo continuam desactivados desde Abril, o que aqui até calhou bem.</p><p><strong>Risco assumido, sir:</strong> é o risco óbvio de uma 2ª mão com dois golos de vantagem — o Bodo pode fazer 1-0 aos vinte minutos, perceber que a eliminatória está fechada e desligar. Em casa marcaram 3+ em três dos últimos quatro, mas o quarto foi um 1-0.</p>",
+      "factors": [
+        "Bodo/Glimt com 3+ golos marcados em 6 dos últimos 8 jogos",
+        "Média de 5.0 golos por jogo nos 3 jogos desta eliminatória da Champions",
+        "NEC sem Schuurs, Sandler e Kaplan — o eixo defensivo completo",
+        "Seis ausências no NEC ao todo; Fonville em dúvida após lesão na 1ª mão",
+        "NEC perde 3-1 e tem de marcar 2 golos fora — obrigado a subir linhas",
+        "Bodo eliminou Man City, Atlético e Inter na época passada a explorar espaços",
+        "Contra: vantagem de 2 golos pode levar o Bodo a gerir depois do 1-0"
+      ],
+      "sources": [
+        "Dailysports — preview Bodo/Glimt vs NEC, ausências e leitura táctica",
+        "Sports Mole — NEC vs Bodo/Glimt, team news da 1ª mão",
+        "API-Football — últimos 8 jogos do Bodo/Glimt, lesões fixture 1622627",
+        "API-Football — odds Bet365 Total Home fixture 1622627"
+      ]
+    }
+  ]
+}
