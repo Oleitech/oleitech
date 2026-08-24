@@ -293,6 +293,64 @@ Sem esta separação, o cross-check vira **rubber-stamp** das escolhas já feita
 - **Steam contra a nossa tip nas últimas 12h** → adiar e re-verificar lineups, lesões de última hora
 - **Nunca apostar só porque o consenso é forte** — o value pode já não existir; a tese matemática + qualitativa tem de continuar a fazer sentido
 
+## Passo 4.6 — Antevisões Flashscore (obrigatório desde 25/08/2026)
+
+O utilizador fornece screenshots das antevisões do Flashscore. **Não substituem
+a análise dos Passos 2 a 4.5 — somam-se a ela.** As duas vias cobrem coisas
+diferentes e é a combinação que decide.
+
+### Porque foi adoptado
+
+A 24/08/2026 a API estava cega — `played: 0` e percentagens 33/33/33 ou 50/50/0
+em todas as ligas, porque era o arranque da época. Com esses dados eu tinha
+declarado dia sem tips. Os screenshots do Flashscore levaram a cinco tips, uma
+das quais num jogo que a análise normal nem tinha listado.
+
+### O que o Flashscore dá e a API não
+
+| Dado | API-Football | Flashscore |
+|---|---|---|
+| Séries de balizas a zero ("últimas 7 vitórias em casa sem sofrer") | ✗ | ✓ |
+| Splits casa/fora de BTTS ("2 dos últimos 9 caseiros com ambas a marcar") | ✗ | ✓ |
+| Padrões ao intervalo ("liderou ao intervalo 1× em 5") | ✗ | ✓ |
+| Win probability | percentagens cruas, cegas no arranque | Opta by StatsPerform |
+| Contexto de mudança de treinador | ✗ | ✓ |
+| Ausências com nome e razão | parcial | ✓ |
+| Mercado sugerido pelo autor | ✗ | ✓ (cross-check, não decisão) |
+
+### ORDEM CORRECTA — corre a análise ANTES de pedir screenshots
+
+**O utilizador não cobre todos os jogos: tirar screenshots dá trabalho a sério.**
+Por isso a sequência importa e é esta:
+
+1. Corre os Passos 2 a 4.5 normalmente, sobre **todos** os fixtures das
+   ligas-foco. Isto dá amplitude.
+2. Reduz a uma **shortlist de 5-8 jogos** com sinal potencial — inclui os que
+   parecem marginais, porque é exactamente aí que o Flashscore desempata.
+3. **Apresenta a shortlist ao utilizador e pede os screenshots só desses.**
+4. Recebidos, cruza com a análise da fase 1 e decide.
+
+Pedir screenshots de tudo é desperdiçar o tempo dele; pedir só do que já está
+decidido não acrescenta nada. A shortlist é o ponto certo.
+
+### Regras de leitura
+
+- **Nunca tratar ausência de screenshot como ausência de valor.** Um jogo sem
+  antevisão continua elegível pela análise normal.
+- **A recomendação do autor do Flashscore é cross-check, não decisão.** A 24/08
+  a antevisão do Osasuna-Levante sugeria dupla hipótese ao Levante e a tip que
+  saiu foi Osasuna a marcar 2+ — sinal contrário, tese própria.
+- **Verificar o tamanho da amostra em cada número.** "Melhor da liga em remates
+  à baliza" à 3ª jornada são dois jogos e não vale quase nada. As séries longas
+  ("últimas 7 vitórias caseiras", "11 jogos sem sofrer") é que têm corpo.
+- **Cuidado com estatísticas de n pequeno bem redigidas.** "Alonso venceu o
+  primeiro jogo sem sofrer nos dois últimos clubes" é n=2 e foi motivo para
+  rejeitar o Chelsea a 24/08, apesar do preço atraente.
+- **Ler o que a estatística diz, não o que sugere.** "9 dos últimos 10 golos do
+  Palmer antes dos 60 minutos" é sobre QUANDO marca, não SE marca — não sustenta
+  marcador a qualquer momento.
+
+---
 ## Passo 5 — Cruzar e decidir
 
 Para cada candidato, monta uma **tabela de decisão** mental:
