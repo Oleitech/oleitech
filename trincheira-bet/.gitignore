@@ -12,6 +12,11 @@ tips/_fixtures*.json
 resultados/dia-*/
 resultados/fim-de-semana-*/
 
+# Screenshots de referência de terceiros (Flashscore, boletins alheios). São
+# material de consulta local, não do produto — e binários em git não saem mais.
+analises-flashscore/
+exemplos/
+
 # Segredos: chave da API-Football e ADMIN_TOKEN do worker.
 relay/relay.env
 
