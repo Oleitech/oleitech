@@ -1,37 +1,44 @@
 {
   "date": "2026-08-24",
-  "generated_at": "2026-08-24T14:30:00+01:00",
-  "notes": "REVISÃO DO DIA. Este ficheiro estava gravado como dia sem tips e foi reescrito depois de analisar 28 antevisões do Flashscore fornecidas pelo utilizador. A correcção é metodológica e vale a pena registar: na primeira passagem avaliei sete candidatas só pelo lado Ambas Marcam SIM, olhando para as taxas de BTTS no H2H. Vi o Roma-Fiorentina com 5/8 em ambas marcam, classifiquei como sinal moderado e rejeitei — sem nunca perguntar se o lado oposto tinha valor. Esse mesmo 5/8 é 3/8 SEM ambas a marcar, e é aí que está o preço. O workflow sempre permitiu Ambas Marcam Não (usado a 19/08 no Atlético-Málaga); o enviesamento foi meu, não do processo. O QUE OS DADOS DO FLASHSCORE ACRESCENTAM face à API: séries de balizas a zero, splits casa/fora de BTTS, win probability da Opta by StatsPerform, e o contexto das mudanças de treinador. Com played:0 em todas as ligas desde o arranque da época, isto contorna exactamente a cegueira que limitou as últimas sessões. PADRÃO DO DIA: cinco dos sete jogos analisados têm sinais fortes de poucos golos — é um dia de unders, e eu tinha-o lido ao contrário. REJEITADAS: (a) Fulham-Chelsea, Ambas Marcam Não a 2.20, preço bom mas dois treinadores novos na estreia e a própria antevisão abre com 'paira uma enorme incerteza'; (b) Málaga-Deportivo a 1.70, o Deportivo pode marcar em 6 jogos seguidos e tem o Aubameyang em forma, e o Menos de 2,5 a 1.53 fica abaixo do mínimo de 1.55; (c) Osasuna-Levante, sinais contraditórios — o Levante sofre 2+ golos em 5 dos últimos 6 fora, mas os últimos 3 jogos do Osasuna no El Sadar foram todos 2-1. ACUMULADORES: standard nenhum, 1.91 x 1.80 = 3.44 fora da banda [2.0, 3.0]; corvo nenhum, as únicas pernas do mercado Resultado + Total na banda 1.25-1.55 eram três jogos da mesma ronda da Taça da Alemanha, correlação que a R3 desaconselha e que já motivou a mesma rejeição no sábado. ONZES: não publicados à hora da geração; cruzar antes de apostar. ODDS: Bet365.",
+  "generated_at": "2026-08-24T15:10:00+01:00",
+  "notes": "REVISÃO PROFUNDA DO DIA — mudança de método, não só de tips. Este ficheiro foi escrito três vezes hoje: primeiro como dia sem tips, depois com duas tips de Ambas Marcam Não, e agora com quatro tips em três mercados. A razão da terceira versão é uma observação do utilizador que se confirmou correcta: o modelo tinha colapsado em BTTS. AS ÚLTIMAS 14 TIPS FORAM TODAS 'AMBAS MARCAM', apesar de o Passo 5 do workflow dizer textualmente 'evita concentrar tips no mesmo mercado se houver alternativas equivalentes' e de o schema aceitar btts, favorites, scorers e corners. O histórico mostra favorites usado 11 vezes e scorers 2. Foi deriva na execução, não regra. O CASO QUE PROVA O CUSTO: a tip da Roma estava publicada como Ambas Marcam Não a 1.91. A tese escrita era 'a Roma fez 11 jogos em casa sem sofrer, mais do que qualquer equipa das 5 grandes ligas, e as últimas 7 vitórias caseiras foram sem sofrer'. Isso descreve o mercado Clean Sheet, que paga 2.20 — mais 15%. Pior: o Ambas Marcam Não também ganha se a Fiorentina vencer 1-0, que é o cenário contrário ao argumento. Estava a ser pago menos por um bilhete que incluía o oposto da tese. Corrigido. O Osasuna-Levante tinha sido rejeitado por 'sinais contraditórios' — não eram contraditórios, eram BTTS-contraditórios. 'O Levante sofre 2+ golos em 5 dos últimos 6 fora' não é ambíguo; só não é uma frase sobre ambas marcarem. É uma frase sobre o Osasuna marcar duas vezes, e paga 2.00. O Málaga-Deportivo tinha sido rejeitado por completo, quando tinha dois números independentes a apontar ao empate ao intervalo. CORRECÇÃO À MINHA PRÓPRIA PROPOSTA: sugeri o Málaga em Empate/Empate a 4.50, que exige empate ao intervalo E ao final. Os dados só sustentam o intervalo, por isso ficou o Empate ao Intervalo a 2.00 — odd mais baixa, mas a aposta que corresponde à tese. Teria sido repetir exactamente o erro que acabei de identificar na Roma. MERCADOS REACTIVADOS: favorites e scorers, que o utilizador acrescentou a 09/05/2026 e que continuam no schema. Cartões, cantos e over/under 2.5 permanecem desactivados por decisão de Abril, tomada depois de -44€ nos cartões da LaLiga. FONTE: 28 antevisões do Flashscore fornecidas pelo utilizador, com séries de balizas a zero, splits casa/fora de BTTS, win probability da Opta by StatsPerform e contexto das mudanças de treinador — tudo aquilo que a API não dá com played:0 em todas as ligas no arranque da época. ACUMULADORES: nenhum. Todas as combinações de pares ficam acima de 3.0 (a mais baixa é 1.80 x 2.00 = 3.60), e as únicas pernas de corvo em banda eram três jogos da mesma ronda da Taça da Alemanha. ONZES: não publicados à hora da geração; cruzar antes de apostar.",
   "accumulators": [],
   "tips": [
     {
-      "market": "btts",
+      "market": "favorites",
       "sport": "football",
-      "pick": "Ambas Marcam - Não",
+      "pick": "Roma não sofre golos (Clean Sheet)",
+      "marketLabel": "Baliza a zero",
       "fixtureId": 1550087,
-      "home": { "name": "AS Roma", "logo": "https://media.api-sports.io/football/teams/497.png" },
-      "away": { "name": "Fiorentina", "logo": "https://media.api-sports.io/football/teams/502.png" },
+      "home": {
+        "name": "AS Roma",
+        "logo": "https://media.api-sports.io/football/teams/497.png"
+      },
+      "away": {
+        "name": "Fiorentina",
+        "logo": "https://media.api-sports.io/football/teams/502.png"
+      },
       "league": "Serie A — Jornada 1",
       "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
       "kickoff": "2026-08-24T18:45:00Z",
-      "odds": 1.91,
+      "odds": 2.2,
       "bookmaker": "Bet365 (ref.)",
       "score": 82,
       "stake": 7,
-      "tese": "<p>O mercado está a preçar isto a <strong>50/50</strong> — 1.91 dos dois lados — e as evidências não são 50/50.</p><p><strong>Nenhuma equipa das cinco principais ligas europeias terminou mais jogos em casa sem sofrer golos do que a Roma (11)</strong> na época passada. E não é um número solto: <strong>cada uma das últimas sete vitórias caseiras da Roma na liga foi conseguida sem sofrer</strong>. Do outro lado, <strong>apenas 1 dos últimos 5 jogos fora da Fiorentina teve golos de ambas as equipas</strong>, e a equipa perdeu 6 dos 8 encontros com adversários que terminaram no top-4 (V1, E1).</p><p>Junta-se o contexto: a Roma está invicta em casa há 12 jogos (V9, E3), venceu os últimos cinco jogos caseiros da liga à segunda-feira, e a Opta dá-lhe 57% contra 18%. A própria Flashscore recomenda apostar em vitória da casa sem sofrer golos.</p><p><strong>Risco assumido, sir:</strong> o <strong>Moise Kean marcou 4 golos à Roma na Serie A</strong> — só a duas equipas marcou mais. O contrapeso é que soma <strong>538 minutos no Estádio Olímpico sem marcar</strong>, mais do que em qualquer outro estádio onde nunca marcou. Acresce que a Fiorentina gastou mais de 120M€ no verão e estreia treinador novo: equipas reconstruídas são imprevisíveis na primeira jornada.</p>",
+      "tese": "<p><strong>Nenhuma equipa das cinco principais ligas europeias terminou mais jogos em casa sem sofrer golos do que a Roma (11)</strong> na época passada. E não é um número solto: <strong>cada uma das últimas sete vitórias caseiras da Roma na liga foi conseguida sem sofrer</strong>. Do outro lado, <strong>apenas 1 dos últimos 5 jogos fora da Fiorentina teve golos de ambas as equipas</strong>, e a equipa perdeu 6 dos 8 encontros com adversários do top-4 (V1, E1).</p><p>A Roma está invicta em casa há 12 jogos (V9, E3), venceu os últimos cinco caseiros à segunda-feira, e a Opta dá-lhe 57% contra 18%. A Flashscore recomenda explicitamente vitória da casa sem sofrer golos.</p><p><strong>Nota sobre o mercado escolhido:</strong> esta tip esteve publicada como Ambas Marcam Não a 1.91 e foi corrigida. A tese é sobre a Roma não sofrer — e o Ambas Marcam Não, além de pagar menos, também ganhava com a Fiorentina a vencer 1-0, que é o cenário oposto ao argumento. O Clean Sheet paga 2.20 e só ganha no cenário que a tese descreve.</p><p><strong>Risco assumido, sir:</strong> o <strong>Moise Kean marcou 4 golos à Roma na Serie A</strong> — só a duas equipas marcou mais. O contrapeso é que soma 538 minutos no Olímpico sem marcar, mais do que em qualquer outro estádio onde nunca marcou.</p>",
       "factors": [
-        "Roma teve 11 jogos em casa sem sofrer — mais do que qualquer equipa das 5 grandes ligas",
-        "As últimas 7 vitórias caseiras da Roma na liga foram todas sem sofrer golos",
+        "Roma com 11 jogos em casa sem sofrer — mais do que qualquer equipa das 5 grandes ligas",
+        "As últimas 7 vitórias caseiras da Roma foram todas sem sofrer golos",
         "Só 1 dos últimos 5 jogos fora da Fiorentina teve ambas as equipas a marcar",
         "Fiorentina perdeu 6 dos 8 jogos com equipas do top-4 (V1, E1)",
         "Roma invicta em casa há 12 jogos; venceu os últimos 5 caseiros à segunda-feira",
         "Win probability Opta: Roma 57% — Fiorentina 18%",
-        "Contra: Moise Kean tem 4 golos à Roma na Serie A (mas 538 min no Olímpico sem marcar)"
+        "Contra: Moise Kean tem 4 golos à Roma (mas 538 min no Olímpico sem marcar)"
       ],
       "sources": [
-        "Flashscore — Antevisão AS Roma vs Fiorentina, 24/08/2026 (autor Matthew Billon)",
+        "Flashscore — Antevisão AS Roma vs Fiorentina, 24/08/2026 (Matthew Billon)",
         "Opta by StatsPerform — Win Probability",
-        "API-Football — H2H últimos 8, odds Bet365, fixture 1550087"
+        "API-Football — odds Bet365 Clean Sheet Home, fixture 1550087"
       ]
     },
     {
@@ -39,8 +46,14 @@
       "sport": "football",
       "pick": "Ambas Marcam - Não",
       "fixtureId": 1550089,
-      "home": { "name": "Bologna", "logo": "https://media.api-sports.io/football/teams/500.png" },
-      "away": { "name": "Lazio", "logo": "https://media.api-sports.io/football/teams/487.png" },
+      "home": {
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "away": {
+        "name": "Lazio",
+        "logo": "https://media.api-sports.io/football/teams/487.png"
+      },
       "league": "Serie A — Jornada 1",
       "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
       "kickoff": "2026-08-24T16:30:00Z",
@@ -48,20 +61,91 @@
       "bookmaker": "Bet365 (ref.)",
       "score": 80,
       "stake": 7,
-      "tese": "<p>Três sinais independentes apontam todos ao mesmo lado. <strong>Só 2 dos últimos 9 jogos caseiros do Bologna na liga tiveram golos de ambas as equipas.</strong> <strong>A Lazio não marcou em 4 dos últimos 5 jogos oficiais.</strong> E <strong>apenas 3 jogos fora da Lazio na época passada tiveram mais de 2,5 golos — o número mais baixo de toda a liga.</strong></p><p>O estado da Lazio reforça: chega de uma derrota caseira por <strong>0-2 frente ao Mantova, da Serie B</strong>, na Taça de Itália, com o Gattuso a estrear-se da pior forma, e sem Isaksen, Romagnoli e Cataldi. A Flashscore classifica o Menos de 2,5 golos como <em>opção forte</em>.</p><p><strong>Risco assumido, sir, e é sério:</strong> o Bologna tinha mantido a baliza inviolada nos <strong>cinco</strong> encontros caseiros anteriores contra a Lazio — <strong>mas essa série quebrou-se no jogo mais recente, um 0-2 para a Lazio neste mesmo estádio, em Março</strong>. O sinal mais bonito da tese é também o que foi desmentido mais recentemente. Acresce que o Bologna fez menos 12 pontos em casa do que fora na época passada, a maior diferença desse tipo nas cinco grandes ligas.</p>",
+      "tese": "<p>Três sinais independentes apontam ao mesmo lado. <strong>Só 2 dos últimos 9 jogos caseiros do Bologna na liga tiveram golos de ambas as equipas.</strong> <strong>A Lazio não marcou em 4 dos últimos 5 jogos oficiais.</strong> E <strong>apenas 3 jogos fora da Lazio na época passada tiveram mais de 2,5 golos — o número mais baixo de toda a liga.</strong></p><p>A Lazio chega de uma derrota caseira por <strong>0-2 frente ao Mantova, da Serie B</strong>, na Taça de Itália, e sem Isaksen, Romagnoli e Cataldi. A Flashscore classifica o Menos de 2,5 golos como opção forte.</p><p><strong>Risco assumido, sir, e é sério:</strong> o Bologna tinha a baliza inviolada nos cinco encontros caseiros anteriores contra a Lazio — <strong>mas a série quebrou-se no jogo mais recente, um 0-2 para a Lazio neste mesmo estádio, em Março</strong>. O sinal mais bonito da tese é o mais recentemente desmentido.</p>",
       "factors": [
-        "Só 2 dos últimos 9 jogos caseiros do Bologna na liga tiveram ambas a marcar",
+        "Só 2 dos últimos 9 jogos caseiros do Bologna com ambas a marcar",
         "Lazio não marcou em 4 dos últimos 5 jogos oficiais",
-        "Só 3 jogos fora da Lazio na época passada passaram os 2,5 golos — o mínimo da liga",
+        "Só 3 jogos fora da Lazio na época passada acima de 2,5 golos — o mínimo da liga",
         "Lazio vem de 0-2 caseiro com o Mantova (Serie B) na Taça",
         "Lazio sem Isaksen, Romagnoli e Cataldi",
-        "Contra: a Lazio venceu 0-2 neste estádio em Março, quebrando 5 balizas a zero seguidas do Bologna",
-        "Contra: Bologna fez menos 12 pontos em casa do que fora — maior diferença das 5 grandes ligas"
+        "Contra: a Lazio venceu 0-2 neste estádio em Março, quebrando 5 balizas a zero seguidas"
       ],
       "sources": [
-        "Flashscore — Antevisão Bologna vs Lazio, 24/08/2026 (autor Tomáš Vlasák)",
+        "Flashscore — Antevisão Bologna vs Lazio, 24/08/2026 (Tomáš Vlasák)",
         "Opta by StatsPerform — Win Probability 44% — 28%",
-        "API-Football — H2H últimos 7, odds Bet365, fixture 1550089"
+        "API-Football — odds Bet365, fixture 1550089"
+      ]
+    },
+    {
+      "market": "favorites",
+      "sport": "football",
+      "pick": "Osasuna marca mais de 1.5 golos",
+      "marketLabel": "Total da equipa",
+      "fixtureId": 1570350,
+      "home": {
+        "name": "Osasuna",
+        "logo": "https://media.api-sports.io/football/teams/727.png"
+      },
+      "away": {
+        "name": "Levante",
+        "logo": "https://media.api-sports.io/football/teams/539.png"
+      },
+      "league": "La Liga — Jornada 2",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-08-24T17:30:00Z",
+      "odds": 2.0,
+      "bookmaker": "Bet365 (ref.)",
+      "score": 72,
+      "stake": 5,
+      "tese": "<p><strong>O Levante sofreu dois ou mais golos em cinco dos últimos seis jogos da liga fora de casa</strong>, e <strong>perdeu 11 dos 12 jogos fora em que sofreu o primeiro golo</strong> na época passada. Chegam de uma goleada por 3-0 do Espanhol em que não fizeram um único remate enquadrado, e somam duas derrotas seguidas — tantas como nos 12 encontros anteriores.</p><p>Do lado do Osasuna, o <strong>Budimir soma quatro participações em golos nos últimos cinco jogos contra o Levante</strong> (3 golos, 1 assistência), e as últimas cinco partidas em que marcou terminaram todas com mais de 2,5 golos. A Opta dá 51% ao Osasuna contra 23%.</p><p><strong>Risco assumido, sir, e é o que trava o score:</strong> os <strong>últimos três jogos do Osasuna no El Sadar terminaram todos em derrotas por 2-1</strong> — ou seja, o Osasuna marcou apenas UM golo em cada um deles, e esta aposta teria falhado nas três. É um contra-sinal directo e por isso a tip leva 72 e 5€, não mais.</p>",
+      "factors": [
+        "Levante sofreu 2+ golos em 5 dos últimos 6 jogos fora",
+        "Levante perdeu 11 dos 12 jogos fora em que sofreu primeiro",
+        "Levante levou 3-0 do Espanhol sem um único remate enquadrado",
+        "Budimir com 4 participações em golos nos últimos 5 contra o Levante",
+        "Win probability Opta: Osasuna 51% — Levante 23%",
+        "Contra: os últimos 3 jogos do Osasuna no El Sadar foram derrotas por 2-1 — só um golo marcado em cada"
+      ],
+      "sources": [
+        "Flashscore — Antevisão Osasuna vs Levante, 24/08/2026 (Ryan Fisher)",
+        "Opta by StatsPerform — Win Probability",
+        "API-Football — odds Bet365 Total-Home Over 1.5, fixture 1570350"
+      ]
+    },
+    {
+      "market": "favorites",
+      "sport": "football",
+      "pick": "Empate ao intervalo",
+      "marketLabel": "1ª Parte",
+      "fixtureId": 1570349,
+      "home": {
+        "name": "Malaga",
+        "logo": "https://media.api-sports.io/football/teams/535.png"
+      },
+      "away": {
+        "name": "Deportivo La Coruna",
+        "logo": "https://media.api-sports.io/football/teams/544.png"
+      },
+      "league": "La Liga — Jornada 2",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-08-24T19:30:00Z",
+      "odds": 2.0,
+      "bookmaker": "William Hill (ref.)",
+      "score": 74,
+      "stake": 5,
+      "tese": "<p>Dois números independentes apontam ao mesmo resultado ao intervalo. <strong>O Málaga esteve em vantagem ao intervalo em apenas um dos últimos cinco jogos caseiros da liga.</strong> E <strong>cinco dos últimos sete jogos fora do Deportivo chegaram empatados ao intervalo.</strong> Não é o mesmo sinal contado duas vezes — é o padrão de uma equipa que não arranca em casa a cruzar-se com outra que fecha a primeira parte.</p><p>O contexto reforça: são dois recém-promovidos, ambos ainda sem vitória, e <strong>seis dos últimos sete jogos do Málaga na liga tiveram menos de 2,5 golos</strong>. A Opta dá 39% contra 31%, o jogo mais equilibrado do dia.</p><p><strong>Nota sobre a odd:</strong> propus inicialmente o Empate/Empate a 4.50, que exige empate ao intervalo E ao final. Os dados só sustentam o intervalo, por isso a aposta correcta é o empate à meia-hora e meia — paga menos (2.00) mas é a que corresponde à tese.</p><p><strong>Risco assumido, sir:</strong> o empate ao intervalo é um mercado ruidoso por natureza, e duas amostras de cinco e sete jogos não são muitas. É sinal limpo, não é sinal robusto.</p>",
+      "factors": [
+        "Málaga liderou ao intervalo em apenas 1 dos últimos 5 jogos caseiros",
+        "5 dos últimos 7 jogos fora do Deportivo chegaram empatados ao intervalo",
+        "6 dos últimos 7 jogos do Málaga na liga com menos de 2,5 golos",
+        "Dois recém-promovidos, ambos ainda sem vencer na época",
+        "Win probability Opta: 39% — 31%, o jogo mais equilibrado do dia",
+        "Contra: empate ao intervalo é mercado ruidoso; amostras de 5 e 7 jogos são curtas"
+      ],
+      "sources": [
+        "Flashscore — Antevisão Málaga vs Deportivo, 24/08/2026 (Aaron Murphy)",
+        "Opta by StatsPerform — Win Probability",
+        "API-Football — odds William Hill First Half Winner, fixture 1570349"
       ]
     }
   ]

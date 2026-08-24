@@ -297,6 +297,42 @@ Para cada candidato, monta uma **tabela de decisão** mental:
 
 **Equilíbrio de mercados:** evita concentrar tips no mesmo mercado se houver alternativas equivalentes. **Scorers é dos mercados mais difíceis** — limita a no máximo 1–2 picks de scorer por dia, e só quando o contexto é excecional (defesa adversária fraturada + jogador em forma + onze confirmado).
 
+### Escolher o mercado que corresponde à tese (adicionado 24/08/2026)
+
+**O BTTS não é o mercado por omissão.** A 24/08 as últimas 14 tips eram todas
+"Ambas Marcam", por deriva na execução — não por regra. Custou dinheiro e
+oportunidades:
+
+- **Preço pior pela mesma tese.** A tip da Roma foi publicada em Ambas Marcam Não
+  a 1.91, quando a tese escrita era "a Roma não sofre em casa". Esse é o mercado
+  `Clean Sheet`, que pagava **2.20** — mais 15%.
+- **Bilhetes que incluem o contrário da tese.** Esse mesmo Ambas Marcam Não também
+  ganhava com a Fiorentina a vencer 1-0, o cenário oposto ao argumento.
+- **Jogos deitados fora.** O Osasuna-Levante foi rejeitado por "sinais
+  contraditórios". Não eram — eram BTTS-contraditórios. "O Levante sofre 2+ golos
+  em 5 dos últimos 6 fora" é uma frase sobre o Osasuna marcar duas vezes, não
+  sobre ambas marcarem. O Málaga-Deportivo tinha dois números independentes a
+  apontar ao empate ao intervalo e não chegou a ser considerado.
+
+**Procedimento:** depois de formar a tese, escreve-a numa frase e pergunta qual o
+mercado que a exprime **exactamente**. Se o bilhete ganha em cenários que a tese
+não prevê, é o bilhete errado — mesmo que a odd pareça atraente.
+
+Mercados úteis para além do 1X2, todos disponíveis na API:
+
+| Tese | Mercado | id |
+|---|---|---|
+| "X não sofre" | Clean Sheet - Home/Away | — |
+| "X vence sem sofrer" | Win to Nil - Home/Away | — |
+| "X marca N+ golos" | Total - Home / Total - Away | 16 / 17 |
+| "a 1ª parte fica equilibrada" | First Half Winner | — |
+| "o favorito não perde" | Double Chance | 12 |
+| "jogador marca" | Anytime Goal Scorer | 36 / 38 |
+
+**Continuam desactivados por decisão do utilizador (Abril/2026):** cartões,
+cantos e over/under 2.5, retirados depois de -44€ nos cartões da LaLiga. Não
+reabrir sem pedido explícito.
+
 ## Passo 5.5 — Cálculo de stake (Sistema B — bandas por score)
 
 Aplica esta tabela a cada tip aprovada (definida 2026-05-16):
