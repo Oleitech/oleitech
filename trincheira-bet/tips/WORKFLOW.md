@@ -63,7 +63,7 @@ Grava a resposta crua e extrai só as fixtures das ligas-foco (jamais leias `fix
 
 ```bash
 # IDs das ligas-foco (core + taças + tier 2 — ajusta conforme a lista abaixo)
-LEAGUE_IDS="39,140,135,78,61,94,2,3,848,45,143,137,66,81,96,531,5,307,253,71,262,144,79,218,207,103,119"
+LEAGUE_IDS="39,140,135,78,61,94,95,2,3,848,45,143,137,66,81,96,531,5,307,253,71,262,144,79,218,207,103,119"
 
 curl -s -H "x-apisports-key: $API_KEY" \
   "https://v3.football.api-sports.io/fixtures?date=$DATE&timezone=Europe/Lisbon" </dev/null \
@@ -85,7 +85,22 @@ A lista de prioridade das ligas (para escolheres quais analisar a fundo):
 
 **Core (sempre olhar):**
 - 39 Premier League · 140 La Liga · 135 Serie A · 78 Bundesliga · 61 Ligue 1
-- 94 Liga Portugal
+- 94 Liga Portugal · **95 Liga Portugal 2**
+
+  > A Liga 2 foi acrescentada a 24/08/2026. Estava a ser saltada porque não
+  > constava das ligas-foco nem do `LEAGUES` map — mas **Portugal está no country
+  > gate do worker**, ou seja o bot live já cobria estes jogos e as tips pré-jogo
+  > nem os viam. Eram dois universos diferentes no mesmo produto.
+  >
+  > **Não foi acrescentada ao `LEAGUES` map do `js/constants.js`**, e é de
+  > propósito: esse map alimenta o `live-engine.js:349`, que dá +5 de confiança a
+  > ligas com `bttsRate >= 55`. Não existe taxa de BTTS medida para a Liga 2, e
+  > inventar uma inflacionaria alertas live a partir de um número fabricado. Se
+  > algum dia se medir a taxa real, aí sim entra no map.
+  >
+  > **Cuidado com as amostras:** no arranque da época a Liga 2 vive de 2-3 jogos
+  > por equipa. Números como "melhor da liga em remates à baliza" valem pouco
+  > nessas condições — o H2H é o único sinal com corpo.
 - 2 Champions League · 3 Europa League · 848 Conference League
 
 **Tier 2 (olhar só se houver sinal forte na investigação):**

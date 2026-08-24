@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
   "generated_at": "2026-08-24T15:10:00+01:00",
-  "notes": "REVISÃO PROFUNDA DO DIA — mudança de método, não só de tips. Este ficheiro foi escrito três vezes hoje: primeiro como dia sem tips, depois com duas tips de Ambas Marcam Não, e agora com quatro tips em três mercados. A razão da terceira versão é uma observação do utilizador que se confirmou correcta: o modelo tinha colapsado em BTTS. AS ÚLTIMAS 14 TIPS FORAM TODAS 'AMBAS MARCAM', apesar de o Passo 5 do workflow dizer textualmente 'evita concentrar tips no mesmo mercado se houver alternativas equivalentes' e de o schema aceitar btts, favorites, scorers e corners. O histórico mostra favorites usado 11 vezes e scorers 2. Foi deriva na execução, não regra. O CASO QUE PROVA O CUSTO: a tip da Roma estava publicada como Ambas Marcam Não a 1.91. A tese escrita era 'a Roma fez 11 jogos em casa sem sofrer, mais do que qualquer equipa das 5 grandes ligas, e as últimas 7 vitórias caseiras foram sem sofrer'. Isso descreve o mercado Clean Sheet, que paga 2.20 — mais 15%. Pior: o Ambas Marcam Não também ganha se a Fiorentina vencer 1-0, que é o cenário contrário ao argumento. Estava a ser pago menos por um bilhete que incluía o oposto da tese. Corrigido. O Osasuna-Levante tinha sido rejeitado por 'sinais contraditórios' — não eram contraditórios, eram BTTS-contraditórios. 'O Levante sofre 2+ golos em 5 dos últimos 6 fora' não é ambíguo; só não é uma frase sobre ambas marcarem. É uma frase sobre o Osasuna marcar duas vezes, e paga 2.00. O Málaga-Deportivo tinha sido rejeitado por completo, quando tinha dois números independentes a apontar ao empate ao intervalo. CORRECÇÃO À MINHA PRÓPRIA PROPOSTA: sugeri o Málaga em Empate/Empate a 4.50, que exige empate ao intervalo E ao final. Os dados só sustentam o intervalo, por isso ficou o Empate ao Intervalo a 2.00 — odd mais baixa, mas a aposta que corresponde à tese. Teria sido repetir exactamente o erro que acabei de identificar na Roma. MERCADOS REACTIVADOS: favorites e scorers, que o utilizador acrescentou a 09/05/2026 e que continuam no schema. Cartões, cantos e over/under 2.5 permanecem desactivados por decisão de Abril, tomada depois de -44€ nos cartões da LaLiga. FONTE: 28 antevisões do Flashscore fornecidas pelo utilizador, com séries de balizas a zero, splits casa/fora de BTTS, win probability da Opta by StatsPerform e contexto das mudanças de treinador — tudo aquilo que a API não dá com played:0 em todas as ligas no arranque da época. ACUMULADORES: nenhum. Todas as combinações de pares ficam acima de 3.0 (a mais baixa é 1.80 x 2.00 = 3.60), e as únicas pernas de corvo em banda eram três jogos da mesma ronda da Taça da Alemanha. ONZES: não publicados à hora da geração; cruzar antes de apostar.",
+  "notes": "REVISÃO PROFUNDA DO DIA — mudança de método, não só de tips. Este ficheiro foi escrito três vezes hoje: primeiro como dia sem tips, depois com duas tips de Ambas Marcam Não, e agora com quatro tips em três mercados. A razão da terceira versão é uma observação do utilizador que se confirmou correcta: o modelo tinha colapsado em BTTS. AS ÚLTIMAS 14 TIPS FORAM TODAS 'AMBAS MARCAM', apesar de o Passo 5 do workflow dizer textualmente 'evita concentrar tips no mesmo mercado se houver alternativas equivalentes' e de o schema aceitar btts, favorites, scorers e corners. O histórico mostra favorites usado 11 vezes e scorers 2. Foi deriva na execução, não regra. O CASO QUE PROVA O CUSTO: a tip da Roma estava publicada como Ambas Marcam Não a 1.91. A tese escrita era 'a Roma fez 11 jogos em casa sem sofrer, mais do que qualquer equipa das 5 grandes ligas, e as últimas 7 vitórias caseiras foram sem sofrer'. Isso descreve o mercado Clean Sheet, que paga 2.20 — mais 15%. Pior: o Ambas Marcam Não também ganha se a Fiorentina vencer 1-0, que é o cenário contrário ao argumento. Estava a ser pago menos por um bilhete que incluía o oposto da tese. Corrigido. O Osasuna-Levante tinha sido rejeitado por 'sinais contraditórios' — não eram contraditórios, eram BTTS-contraditórios. 'O Levante sofre 2+ golos em 5 dos últimos 6 fora' não é ambíguo; só não é uma frase sobre ambas marcarem. É uma frase sobre o Osasuna marcar duas vezes, e paga 2.00. O Málaga-Deportivo tinha sido rejeitado por completo, quando tinha dois números independentes a apontar ao empate ao intervalo. CORRECÇÃO À MINHA PRÓPRIA PROPOSTA: sugeri o Málaga em Empate/Empate a 4.50, que exige empate ao intervalo E ao final. Os dados só sustentam o intervalo, por isso ficou o Empate ao Intervalo a 2.00 — odd mais baixa, mas a aposta que corresponde à tese. Teria sido repetir exactamente o erro que acabei de identificar na Roma. MERCADOS REACTIVADOS: favorites e scorers, que o utilizador acrescentou a 09/05/2026 e que continuam no schema. Cartões, cantos e over/under 2.5 permanecem desactivados por decisão de Abril, tomada depois de -44€ nos cartões da LaLiga. FONTE: 28 antevisões do Flashscore fornecidas pelo utilizador, com séries de balizas a zero, splits casa/fora de BTTS, win probability da Opta by StatsPerform e contexto das mudanças de treinador — tudo aquilo que a API não dá com played:0 em todas as ligas no arranque da época. ACUMULADORES: nenhum. Todas as combinações de pares ficam acima de 3.0 (a mais baixa é 1.80 x 2.00 = 3.60), e as únicas pernas de corvo em banda eram três jogos da mesma ronda da Taça da Alemanha. ONZES: não publicados à hora da geração; cruzar antes de apostar. ADENDA (4ª versão do dia): acrescentado Farense-Felgueiras, Ambas Marcam Não a 1.80. O utilizador perguntou porque não havia nada na Liga Portugal 2 — e a resposta expôs uma inconsistência estrutural: a Liga 2 é a liga 95, o filtro de ligas-foco das tips tem a 94 (Primeira) mas não a 95, e o LEAGUES map do cliente também não a inclui. Mas Portugal ESTÁ no country gate do worker, ou seja o bot live cobre estes jogos e as tips pré-jogo nem os viam. Dois universos diferentes no mesmo produto. Corrigido no WORKFLOW, acrescentando a 95 às ligas-foco. NÃO foi acrescentada ao LEAGUES map do constants.js de propósito: esse map alimenta o live-engine, que dá +5 de confiança a ligas com bttsRate >= 55, e não existe taxa medida para a Liga 2 — inventar uma inflacionaria alertas live a partir de um número fabricado. TAMBÉM REJEITADOS nesta passagem: Feirense-FC Porto B, porque o Porto B concede o maior número de remates à baliza da liga (8,0/jogo) mas o Feirense tem a 2ª pior precisão de remate (19% contra 33% da média) — os sinais anulam-se; e Fulham-Chelsea outra vez, agora com razão precisa em vez de 'incerteza': o Chelsea Clean Sheet paga 3.00 e o Win to Nil 3.48, preços apetecíveis, mas os factos que os sustentariam não aguentam — 'Alonso venceu o primeiro jogo sem sofrer nos dois últimos clubes' é n=2, e '9 dos últimos 10 golos do Palmer antes dos 60 minutos' é sobre QUANDO marca, não SE marca, pelo que não justifica o marcador a qualquer momento a 2.25. Os contra têm amostra maior: só 2 dos últimos 8 treinadores do Chelsea venceram o jogo de estreia, não venceram nenhuma das últimas 3 jornadas inaugurais, e o Fofana está suspenso.",
   "accumulators": [],
   "tips": [
     {
@@ -146,6 +146,40 @@
         "Flashscore — Antevisão Málaga vs Deportivo, 24/08/2026 (Aaron Murphy)",
         "Opta by StatsPerform — Win Probability",
         "API-Football — odds William Hill First Half Winner, fixture 1570349"
+      ]
+    },
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Não",
+      "fixtureId": 1576464,
+      "home": {
+        "name": "Farense",
+        "logo": "https://media.api-sports.io/football/teams/231.png"
+      },
+      "away": {
+        "name": "Felgueiras 1932",
+        "logo": "https://media.api-sports.io/football/teams/4744.png"
+      },
+      "league": "Liga Portugal 2 — Jornada 3",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/95.png",
+      "kickoff": "2026-08-24T17:00:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365 (ref.)",
+      "score": 70,
+      "stake": 5,
+      "tese": "<p><strong>Os últimos cinco confrontos entre estas equipas produziram uma média de 1,0 golos por jogo, e ambas marcaram em apenas um deles.</strong> Três empates e duas vitórias do Felgueiras, todos em jogos fechados. É um padrão de confronto, não um acaso de uma época.</p><p>Do lado do Felgueiras, o número que sustenta a tese é defensivo: <strong>concedem 2,0 remates à baliza por jogo, o 3.º melhor registo da liga</strong> (média 3,9). E somam dois empates em dois jogos, sem grande produção ofensiva.</p><p><strong>Risco assumido, sir, e é o que trava o score em 70:</strong> o Farense faz <strong>8,0 remates à baliza por jogo, o melhor da liga</strong> e mais do dobro da média — mas isso são <strong>dois jogos de amostra</strong>, é a 3.ª jornada. Vencerem os dois, incluindo um 3-1 fora no FC Porto B, mostra que estão a marcar. Se o H2H não segurar, esta cai. Tirando o histórico directo, tudo o resto neste jogo assenta em amostras minúsculas.</p><p><em>Nota: este jogo não teria sido analisado nas versões anteriores do dia — a Liga Portugal 2 não estava nas ligas-foco das tips, apesar de Portugal estar no country gate do bot live. A lacuna foi corrigida no workflow.</em></p>",
+      "factors": [
+        "H2H: média de 1,0 golos por jogo nos últimos 5 confrontos",
+        "Ambas as equipas marcaram em apenas 1 dos últimos 5 confrontos",
+        "Felgueiras concede 2,0 remates à baliza por jogo — 3.º melhor da liga (média 3,9)",
+        "Felgueiras com dois empates em dois jogos, pouca produção ofensiva",
+        "Contra: Farense com 8,0 remates à baliza por jogo, o melhor da liga — mas só 2 jogos de amostra",
+        "Contra: Farense venceu os dois jogos da época, incluindo 3-1 fora no FC Porto B"
+      ],
+      "sources": [
+        "Flashscore — Antevisão Farense vs FC Felgueiras, 24/08/2026",
+        "API-Football — odds Bet365, fixture 1576464"
       ]
     }
   ]
