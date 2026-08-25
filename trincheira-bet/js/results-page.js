@@ -123,6 +123,19 @@ const ResultsPage = {
       });
     }
 
+    // Schema novo (>=16/05/2026): tips curadas em curated_tips.tips
+    if (day.curated_tips?.tips) {
+      day.curated_tips.tips.forEach(t => {
+        tips.push({
+          market: t.market,
+          home: t.home,
+          away: t.away,
+          pick: t.pick,
+          hit: t.hit === true,
+        });
+      });
+    }
+
     return tips;
   },
 
@@ -145,8 +158,8 @@ const ResultsPage = {
       totalTips += tips.length;
       totalHits += tips.filter(t => t.hit).length;
 
-      const profit = day.stakes?.summary?.profit || 0;
-      const staked = day.stakes?.summary?.total_staked || 0;
+      const profit = Layout.dayStakes(day)?.summary?.profit || 0;
+      const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
       totalPL += profit;
       totalStaked += staked;
 
@@ -165,7 +178,7 @@ const ResultsPage = {
     // Current streak (from most recent day backwards)
     streak = 0;
     for (let i = 0; i < this.days.length; i++) {
-      const profit = this.days[i].stakes?.summary?.profit || 0;
+      const profit = Layout.dayStakes(this.days[i])?.summary?.profit || 0;
       if (profit >= 0) streak++;
       else break;
     }
@@ -199,8 +212,8 @@ const ResultsPage = {
       const tips = this.flattenTips(day);
       totalTips += tips.length;
       totalHits += tips.filter(t => t.hit).length;
-      totalPL += day.stakes?.summary?.profit || 0;
-      totalStaked += day.stakes?.summary?.total_staked || 0;
+      totalPL += Layout.dayStakes(day)?.summary?.profit || 0;
+      totalStaked += Layout.dayStakes(day)?.summary?.total_staked || 0;
     });
 
     const hitRate = totalTips > 0 ? (totalHits / totalTips * 100) : 0;
@@ -326,9 +339,9 @@ const ResultsPage = {
     const winPct = tips.length > 0 ? (hits / tips.length * 100) : 0;
     const lossPct = 100 - winPct;
 
-    const profit = day.stakes?.summary?.profit || 0;
-    const staked = day.stakes?.summary?.total_staked || 0;
-    const bankroll = day.stakes?.balance;
+    const profit = Layout.dayStakes(day)?.summary?.profit || 0;
+    const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
+    const bankroll = Layout.dayStakes(day)?.balance;
 
     const dateParts = this.parseDateParts(day.date);
 
@@ -373,8 +386,8 @@ const ResultsPage = {
     const body = UI.el('div', 'day-body');
 
     // Match tips with stakes bets for odds/P&L
-    const stakeBets = day.stakes?.bets || [];
-    const sum = day.stakes?.summary || {};
+    const stakeBets = Layout.dayStakes(day)?.bets || [];
+    const sum = Layout.dayStakes(day)?.summary || {};
 
     // Source split summary (pre-game vs live)
     const hasSplit = (sum.model_bets || sum.model_staked) && (sum.live_bets || sum.live_staked);

@@ -116,6 +116,16 @@ const UI = {
     });
   },
 
+  // Stake em unidades: banda minima (5 EUR) = 1 stake. 10->2, 7->1.4, 5->1
+  STAKE_UNIT: 5,
+
+  formatStake(stake) {
+    if (stake == null || !isFinite(stake)) return '1 stake';
+    const units = stake / this.STAKE_UNIT;
+    const label = Number.isInteger(units) ? String(units) : units.toFixed(1);
+    return `${label} ${units === 1 ? 'stake' : 'stakes'}`;
+  },
+
   getDateStr(offset = 0) {
     const d = new Date();
     d.setDate(d.getDate() + offset);
@@ -200,7 +210,7 @@ const UI = {
         </div>
         <div class="stake">
           <span class="label">Stake</span>
-          <span class="value num">1 stake</span>
+          <span class="value num">${UI.formatStake(stake)}</span>
         </div>
         <div></div>
         <div class="conf">

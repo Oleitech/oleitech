@@ -166,6 +166,48 @@ const Layout = {
     }
   },
 
+  // Adaptador de schema: os ficheiros de resultados ate 03/05/2026 usam
+  // `stakes.{balance,summary,bets}`; a partir de 16/05 passaram a
+  // `curated_tips.{summary,tips,accumulators}` + `balance` no topo.
+  // Devolve sempre a forma antiga para o resto do codigo nao mudar.
+  dayStakes(day) {
+    if (!day) return null;
+    if (day.stakes?.summary) return day.stakes;
+
+    const ct = day.curated_tips;
+    if (!ct?.summary) return day.stakes || null;
+    const sum = ct.summary;
+
+    // Nomes de campo iguais aos do schema antigo (matches/type/result:'win'),
+    // que e o contrato que results-page.js ja consome.
+    const bets = (ct.tips || []).map(t => ({
+      market: t.marketLabel || t.market,
+      matches: `${t.home} vs ${t.away}`,
+      type: t.pick,
+      odds: t.odds,
+      stake: t.stake,
+      result: t.hit === true ? 'win' : 'loss',
+      source: 'pre',
+    })).concat((ct.accumulators || []).map(a => ({
+      market: 'Acumulador',
+      matches: (a.selections || []).map(x => x.match).join(' + '),
+      type: (a.selections || []).map(x => x.pick).join(' + '),
+      odds: a.combined_odds,
+      stake: a.stake,
+      result: a.result === 'GREEN' ? 'win' : 'loss',
+      source: 'pre',
+    })));
+
+    return {
+      balance: day.balance ?? null,
+      summary: {
+        profit: sum.combined_pnl ?? sum.pnl ?? 0,
+        total_staked: sum.combined_stake ?? sum.total_stake ?? 0,
+      },
+      bets,
+    };
+  },
+
   // Shared: load bankroll data from latest JSON
   async loadBankrollData() {
     try {
@@ -177,7 +219,7 @@ const Layout = {
       const dayRes = await fetch('resultados/data/' + lastFile);
       if (!dayRes.ok) return { bankroll: null, totalPL: null };
       const day = await dayRes.json();
-      const bankroll = day.stakes?.balance || null;
+      const bankroll = this.dayStakes(day)?.balance ?? null;
       // Calculate total P/L: sum all days' stakes.summary.profit
       let totalPL = 0;
       for (const f of index.files) {
@@ -185,7 +227,8 @@ const Layout = {
           const r = await fetch('resultados/data/' + f);
           if (r.ok) {
             const d = await r.json();
-            if (d.stakes?.summary?.profit != null) totalPL += d.stakes.summary.profit;
+            const st = this.dayStakes(d);
+            if (st?.summary?.profit != null) totalPL += st.summary.profit;
           }
         } catch (e) { /* skip */ }
       }
