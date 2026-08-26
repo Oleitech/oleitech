@@ -4,7 +4,6 @@ const Layout = {
   icons: {
     tips: '<path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" stroke-width="0" fill="currentColor"/>',
     results: '<rect x="3" y="4" width="18" height="16" rx="2" stroke-width="1.5" stroke="currentColor" fill="none"/><path d="M3 9h18M8 4v16" stroke-width="1.5" stroke="currentColor"/>',
-    analytics: '<path d="M3 20h18M6 16V8M11 16V4M16 16v-6M21 16v-3" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round"/>',
     chev: '<path d="M9 6l6 6-6 6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
     refresh: '<path d="M21 12a9 9 0 11-3-6.7L21 8m0-5v5h-5" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
     bolt: '<path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" stroke-width="0" fill="currentColor"/>',
@@ -53,16 +52,13 @@ const Layout = {
         <a href="resultados.html" class="nav-item ${activePage === 'results' ? 'is-active' : ''}">
           ${this.icon('results', 'icon')}Resultados
         </a>
-        <a href="analytics.html" class="nav-item ${activePage === 'analytics' ? 'is-active' : ''}">
-          ${this.icon('analytics', 'icon')}Analytics
-        </a>
       </nav>
       <div class="sidebar-footer">
         <div class="bankroll">
           <div class="label">Bankroll</div>
-          <div class="value num">${bankroll != null ? '€' + bankroll.toFixed(2) : '—'}</div>
+          <div class="value num">${this.units(bankroll)}</div>
           ${totalPL != null ? `<div class="delta" style="color:${totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">
-            ${totalPL >= 0 ? '+' : ''}€${totalPL.toFixed(2)} total
+            ${this.units(totalPL, { signed: true })} total
           </div>` : ''}
         </div>
       </div>
@@ -82,9 +78,6 @@ const Layout = {
         <a href="resultados.html" class="tab ${activePage === 'results' ? 'is-active' : ''}">
           ${this.icon('results', 'icon')}<span>Resultados</span>
         </a>
-        <a href="analytics.html" class="tab ${activePage === 'analytics' ? 'is-active' : ''}">
-          ${this.icon('analytics', 'icon')}<span>Analytics</span>
-        </a>
       </div>
     </nav>`;
   },
@@ -97,8 +90,8 @@ const Layout = {
       <div class="mobile-bankroll">
         <div class="mb-label">Bankroll</div>
         <div class="mb-row">
-          <span class="mb-value num">€${b.toFixed(2)}</span>
-          ${p != null ? `<span class="mb-delta num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${p >= 0 ? '+' : ''}€${p.toFixed(2)}</span>` : ''}
+          <span class="mb-value num">${this.units(b)}</span>
+          ${p != null ? `<span class="mb-delta num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(p, { signed: true })}</span>` : ''}
         </div>
       </div>` : '';
     return `<div class="mobile-brand">
@@ -152,16 +145,16 @@ const Layout = {
     this._totalPL = totalPL;
     const val = document.querySelector('.bankroll .value');
     const delta = document.querySelector('.bankroll .delta');
-    if (val && bankroll != null) val.textContent = '€' + bankroll.toFixed(2);
+    if (val && bankroll != null) val.textContent = this.units(bankroll);
     if (delta && totalPL != null) {
-      delta.textContent = (totalPL >= 0 ? '+' : '') + '€' + totalPL.toFixed(2) + ' total';
+      delta.textContent = this.units(totalPL, { signed: true }) + ' total';
       delta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
     }
     const mbVal = document.querySelector('.mobile-bankroll .mb-value');
     const mbDelta = document.querySelector('.mobile-bankroll .mb-delta');
-    if (mbVal && bankroll != null) mbVal.textContent = '€' + bankroll.toFixed(2);
+    if (mbVal && bankroll != null) mbVal.textContent = this.units(bankroll);
     if (mbDelta && totalPL != null) {
-      mbDelta.textContent = (totalPL >= 0 ? '+' : '') + '€' + totalPL.toFixed(2);
+      mbDelta.textContent = this.units(totalPL, { signed: true });
       mbDelta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
     }
   },
@@ -170,6 +163,17 @@ const Layout = {
   // `stakes.{balance,summary,bets}`; a partir de 16/05 passaram a
   // `curated_tips.{summary,tips,accumulators}` + `balance` no topo.
   // Devolve sempre a forma antiga para o resto do codigo nao mudar.
+  // Toda a UI mostra stakes, nunca euros. Base igual a UI.STAKE_UNIT (5 EUR),
+  // duplicada aqui de proposito: layout.js carrega antes de ui.js.
+  STAKE_UNIT: 5,
+
+  units(val, { signed = false } = {}) {
+    if (val == null || !isFinite(val)) return '—';
+    const u = val / this.STAKE_UNIT;
+    const sign = signed && u >= 0 ? '+' : '';
+    return sign + u.toFixed(2) + ' stakes';
+  },
+
   dayStakes(day) {
     if (!day) return null;
     if (day.stakes?.summary) return day.stakes;
@@ -198,11 +202,49 @@ const Layout = {
       source: 'pre',
     })));
 
+    // Alertas live do bot. Sao NOCIONAIS: entram nas linhas do dia e no split
+    // PRE/LIVE, mas nunca em profit/total_staked, que sao o que alimenta a
+    // banca (loadBankrollData) e o analytics-page.
+    const la = day.live_alerts;
+    const liveAlerts = (la?.alerts || []).filter(a => a.result === 'GREEN' || a.result === 'RED');
+    const liveSum = la?.summary || {};
+
+    liveAlerts.forEach(a => {
+      bets.push({
+        market: a.strategy || a.market || 'Live',
+        matches: a.match,
+        type: `${a.market}${a.elapsed != null ? ` · ${a.elapsed}'` : ''}${a.score ? ` (${a.score})` : ''}`,
+        odds: a.odds,
+        stake: a.stake,
+        result: a.result === 'GREEN' ? 'win' : 'loss',
+        source: 'live',
+      });
+    });
+
+    const preBets = bets.filter(b => b.source === 'pre');
+    const preWins = preBets.filter(b => b.result === 'win').length;
+    const preProfit = sum.combined_pnl ?? sum.pnl ?? 0;
+    const preStaked = sum.combined_stake ?? sum.total_stake ?? 0;
+
+    const liveStaked = liveSum.stake_mensuravel ?? liveSum.stake_total ?? 0;
+    const liveProfit = liveSum.pnl_mensuravel ?? 0;
+
     return {
       balance: day.balance ?? null,
       summary: {
-        profit: sum.combined_pnl ?? sum.pnl ?? 0,
-        total_staked: sum.combined_stake ?? sum.total_stake ?? 0,
+        profit: preProfit,
+        total_staked: preStaked,
+        // Campos do split PRE/LIVE que results-page.js ja sabia consumir.
+        model_bets: preBets.length,
+        model_wins: preWins,
+        model_staked: preStaked,
+        model_profit: preProfit,
+        model_roi: preStaked > 0 ? (preProfit / preStaked * 100) : 0,
+        live_bets: liveAlerts.length,
+        live_wins: liveAlerts.filter(a => a.result === 'GREEN').length,
+        live_staked: liveStaked,
+        live_profit: liveProfit,
+        live_roi: liveSum.roi_pct_mensuravel ?? (liveStaked > 0 ? (liveProfit / liveStaked * 100) : 0),
       },
       bets,
     };

@@ -273,7 +273,7 @@ const UI = {
         <div class="acca-right">
           <div class="stake">
             <span class="label">Stake</span>
-            <span class="value num">${stake ? stake + '€' : '1 stake'}</span>
+            <span class="value num">${UI.formatStake(stake)}</span>
           </div>
           <div class="conf">
             <div class="conf-text">

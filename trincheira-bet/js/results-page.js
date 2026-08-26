@@ -139,6 +139,19 @@ const ResultsPage = {
     return tips;
   },
 
+  // Contagem acertos/total do dia a partir da MESMA fonte que rende as linhas
+  // expandidas (tips + acumuladores + alertas live). O flattenTips sozinho so
+  // ve tips individuais, e por isso a barra dizia 3/3 num dia de 4/5.
+  dayCounts(day) {
+    const bets = Layout.dayStakes(day)?.bets || [];
+    if (bets.length > 0) {
+      const scored = bets.filter(b => b.result === 'win' || b.result === 'loss');
+      return { total: scored.length, hits: scored.filter(b => b.result === 'win').length };
+    }
+    const tips = this.flattenTips(day);
+    return { total: tips.length, hits: tips.filter(t => t.hit).length };
+  },
+
   // Compute global stats across all days
   computeStats() {
     let totalTips = 0;
@@ -154,9 +167,9 @@ const ResultsPage = {
     const chronological = [...this.days].reverse();
 
     chronological.forEach(day => {
-      const tips = this.flattenTips(day);
-      totalTips += tips.length;
-      totalHits += tips.filter(t => t.hit).length;
+      const counts = this.dayCounts(day);
+      totalTips += counts.total;
+      totalHits += counts.hits;
 
       const profit = Layout.dayStakes(day)?.summary?.profit || 0;
       const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
@@ -209,9 +222,9 @@ const ResultsPage = {
     let totalStaked = 0;
 
     days.forEach(day => {
-      const tips = this.flattenTips(day);
-      totalTips += tips.length;
-      totalHits += tips.filter(t => t.hit).length;
+      const counts = this.dayCounts(day);
+      totalTips += counts.total;
+      totalHits += counts.hits;
       totalPL += Layout.dayStakes(day)?.summary?.profit || 0;
       totalStaked += Layout.dayStakes(day)?.summary?.total_staked || 0;
     });
@@ -233,17 +246,29 @@ const ResultsPage = {
     };
   },
 
-  formatPL(val) {
+  // P/L em stakes (base UI.STAKE_UNIT: 5 EUR = 1 stake), nunca em euros.
+  // compact=true para as colunas estreitas das linhas de aposta.
+  formatPL(val, compact = false) {
     if (val == null) return '—';
-    const sign = val >= 0 ? '+' : '';
-    return sign + '€' + val.toFixed(2);
+    const units = val / UI.STAKE_UNIT;
+    const sign = units >= 0 ? '+' : '';
+    return sign + units.toFixed(2) + (compact ? ' st' : ' stakes');
+  },
+
+  // Valor absoluto em stakes (stake arriscada, banca), sem sinal.
+  formatUnits(val, compact = false) {
+    if (val == null) return '—';
+    const units = val / UI.STAKE_UNIT;
+    const label = Number.isInteger(units) ? String(units) : units.toFixed(2);
+    return label + (compact ? ' st' : ' stakes');
   },
 
   render(main) {
     const stats = this.computeStats();
     const months = this.groupByMonth();
 
-    const subtitleText = `${stats.totalTips} tips &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`;
+    // "apostas" e nao "tips": a contagem inclui acumuladores e alertas live.
+    const subtitleText = `${stats.totalTips} apostas &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`;
 
     main.innerHTML = '';
     // Re-add mobile brand
@@ -258,33 +283,6 @@ const ResultsPage = {
       </div>
     `;
     main.appendChild(topbar);
-
-    // Hero metrics
-    const heroGrid = UI.el('div', 'hero-metrics');
-    heroGrid.innerHTML = `
-      <div class="metric is-hero">
-        <div class="label">Total P/L</div>
-        <div class="value num" style="color:${stats.totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">
-          ${this.formatPL(stats.totalPL)}
-        </div>
-      </div>
-      <div class="metric is-hero">
-        <div class="label">Hit Rate</div>
-        <div class="value num">${stats.hitRate.toFixed(1)}%</div>
-        <div class="delta ${stats.hitRate >= 55 ? 'pos' : ''}">${stats.totalHits}/${stats.totalTips} tips</div>
-      </div>
-      <div class="metric is-hero">
-        <div class="label">Streak</div>
-        <div class="value num" style="color:var(--green)">${stats.streak}</div>
-        <div class="delta">dias consecutivos</div>
-      </div>
-      <div class="metric is-hero">
-        <div class="label">Melhor Dia</div>
-        <div class="value num" style="color:var(--green)">${stats.bestDay.profit > -Infinity ? this.formatPL(stats.bestDay.profit) : '—'}</div>
-        <div class="delta">${stats.bestDay.date ? this.formatShortDate(stats.bestDay.date) : ''}</div>
-      </div>
-    `;
-    main.appendChild(heroGrid);
 
     // Month groups
     const container = UI.el('div', 'results-months');
@@ -306,7 +304,7 @@ const ResultsPage = {
           <span class="badge">${monthStats.dayCount} dias</span>
         </div>
         <div class="month-summary">
-          <div class="m"><span class="label">Tips</span><span class="value num">${monthStats.totalTips}</span></div>
+          <div class="m"><span class="label">Apostas</span><span class="value num">${monthStats.totalTips}</span></div>
           <div class="m"><span class="label">Hit%</span><span class="value num">${monthStats.hitRate.toFixed(1)}%</span></div>
           <div class="m"><span class="label">ROI</span><span class="value num" style="color:${monthStats.roi >= 0 ? 'var(--green)' : 'var(--red)'}">${monthStats.roi.toFixed(1)}%</span></div>
           <div class="m"><span class="label">P/L</span><span class="value num" style="color:${monthStats.totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.formatPL(monthStats.totalPL)}</span></div>
@@ -333,10 +331,10 @@ const ResultsPage = {
 
   renderDay(day) {
     const tips = this.flattenTips(day);
-    const hits = tips.filter(t => t.hit).length;
-    const misses = tips.length - hits;
-    const hitRate = tips.length > 0 ? (hits / tips.length * 100) : 0;
-    const winPct = tips.length > 0 ? (hits / tips.length * 100) : 0;
+    const counts = this.dayCounts(day);
+    const hits = counts.hits;
+    const hitRate = counts.total > 0 ? (hits / counts.total * 100) : 0;
+    const winPct = hitRate;
     const lossPct = 100 - winPct;
 
     const profit = Layout.dayStakes(day)?.summary?.profit || 0;
@@ -359,7 +357,7 @@ const ResultsPage = {
           <div class="win" style="width:${winPct}%"></div>
           <div class="loss" style="width:${lossPct}%"></div>
         </div>
-        <span class="num" style="font-size:12px;color:var(--text-2)">${hits}/${tips.length}</span>
+        <span class="num" style="font-size:12px;color:var(--text-2)">${hits}/${counts.total}</span>
       </div>
       <div class="day-metric">
         <span class="label">Hit%</span>
@@ -367,15 +365,15 @@ const ResultsPage = {
       </div>
       <div class="day-metric">
         <span class="label">Stake</span>
-        <span class="value num">€${staked.toFixed(0)}</span>
+        <span class="value num">${this.formatUnits(staked, true)}</span>
       </div>
       <div class="day-metric">
         <span class="label">P/L</span>
-        <span class="value num day-pl ${profit >= 0 ? 'pos' : 'neg'}">${this.formatPL(profit)}</span>
+        <span class="value num day-pl ${profit >= 0 ? 'pos' : 'neg'}">${this.formatPL(profit, true)}</span>
       </div>
       <div class="day-metric">
         <span class="label">Banca</span>
-        <span class="value num">${bankroll != null ? '€' + bankroll.toFixed(2) : '—'}</span>
+        <span class="value num">${this.formatUnits(bankroll, true)}</span>
       </div>
       ${this.chevSVG}
     `;
@@ -408,11 +406,12 @@ const ResultsPage = {
           <span class="src-split__pl num ${modelProfit >= 0 ? 'pos' : 'neg'}">${this.formatPL(modelProfit)}</span>
           <span class="src-split__roi num">ROI ${modelRoi.toFixed(1)}%</span>
         </div>
-        <div class="src-split__item">
+        <div class="src-split__item is-notional" title="Alertas do bot live. Nocional: nao entra na banca.">
           <span class="src-tag src-live">LIVE</span>
           <span class="src-split__stat">${liveWins}/${liveBets}</span>
           <span class="src-split__pl num ${liveProfit >= 0 ? 'pos' : 'neg'}">${this.formatPL(liveProfit)}</span>
           <span class="src-split__roi num">ROI ${liveRoi.toFixed(1)}%</span>
+          <span class="src-split__note">nocional</span>
         </div>
       `;
       body.appendChild(split);
@@ -421,26 +420,29 @@ const ResultsPage = {
     // Build bet rows from stakes.bets (has odds, stake, P/L)
     if (stakeBets.length > 0) {
       stakeBets.forEach(bet => {
-        const row = UI.el('div', 'day-row');
+        const row = UI.el('div', 'day-row' + (bet.source === 'live' ? ' is-live' : ''));
         const marketKey = this.detectMarketKey(bet.market);
         const marketColor = this.marketColors[marketKey] || 'var(--text-3)';
         const isWin = bet.result === 'win';
         const isPush = bet.result === 'push';
-        const betPL = isPush ? 0 : (isWin ? (bet.stake * bet.odds - bet.stake) : -bet.stake);
+        // Alertas live nem sempre tem odd registada; nesses casos o P/L nao e
+        // mensuravel e a linha mostra "—" em vez de um numero inventado.
+        const hasOdds = typeof bet.odds === 'number' && isFinite(bet.odds);
+        const betPL = !hasOdds ? null : (isPush ? 0 : (isWin ? (bet.stake * bet.odds - bet.stake) : -bet.stake));
         const resLabel = isPush ? 'PUSH' : (isWin ? 'GREEN' : 'RED');
         const resClass = isPush ? 'push' : (isWin ? 'green' : 'red');
         const isLive = bet.source === 'live';
         const srcBadge = isLive
           ? '<span class="src-tag src-live" title="Aposta live (bot Telegram)">LIVE</span>'
           : '<span class="src-tag src-pre" title="Aposta pre-game (modelo)">PRE</span>';
-        const plClass = isPush ? '' : (betPL >= 0 ? 'pos' : 'neg');
-        const plText = isPush ? '€0.00' : ((betPL >= 0 ? '+' : '') + '€' + betPL.toFixed(2));
+        const plClass = (betPL == null || isPush) ? '' : (betPL >= 0 ? 'pos' : 'neg');
+        const plText = betPL == null ? '—' : (isPush ? '0 st' : this.formatPL(betPL, true));
 
         row.innerHTML = `
           <span class="mkt" style="color:${marketColor}">${srcBadge}${bet.market}</span>
           <span class="match">${bet.matches}</span>
           <span class="pick">${bet.type}</span>
-          <span class="odd num">${bet.odds.toFixed(2)}</span>
+          <span class="odd num">${hasOdds ? bet.odds.toFixed(2) : '—'}</span>
           <span class="res ${resClass}">${resLabel}</span>
           <span class="pl num ${plClass}">${plText}</span>
         `;

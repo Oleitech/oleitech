@@ -180,7 +180,7 @@ function isInteresting(f) {
   const hg = f.goals.home ?? 0;
   const ag = f.goals.away ?? 0;
 
-  // OVER 1.5 HT — goalless at the break or anywhere in the second half
+  // OVER xG 0-0 — goalless at the break or anywhere in the second half
   if (hg === 0 && ag === 0 && (status === 'HT' || status === '2H')) return true;
   // 1-1 at the break or early in the second half
   if (hg === 1 && ag === 1 && (status === 'HT' || (status === '2H' && elapsed <= 55))) return true;
@@ -237,8 +237,10 @@ function triggerPriority(f) {
 
   // BTTS LIVE — one side scored, 2H 50-70'
   if (asymmetric && status === '2H' && elapsed >= 50 && elapsed <= 70) return 0;
-  // OVER 1.5 HT — goalless at the break or early in the second half
-  if (hg === 0 && ag === 0 && (status === 'HT' || (status === '2H' && elapsed <= 50))) return 1;
+  // OVER xG 0-0 — goalless at the break or early in the second half. A janela
+  // subiu de 50 para 55 a 26/08/2026 para acompanhar o worker; sem isto os
+  // jogos aos 51-55' caiam para o fundo da fila e o cap de 60 podia corta-los.
+  if (hg === 0 && ag === 0 && (status === 'HT' || (status === '2H' && elapsed <= 55))) return 1;
   // FAVORITO A PERDER — a one-goal deficit inside the comeback window. The worker
   // only requires the gap to be one goal, so 1-2 and 2-1 rank here too; gating this
   // on `asymmetric` used to push them to the bottom and drop them under the cap.
