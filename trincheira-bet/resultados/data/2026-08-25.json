@@ -1,0 +1,294 @@
+{
+  "date": "2026-08-25",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam - Sim",
+        "marketLabel": "Ambas Marcam",
+        "fixtureId": 1610924,
+        "home": "LASK",
+        "away": "Celtic",
+        "league": "UEFA Champions League — Play-off, 2ª mão",
+        "kickoff": "2026-08-25T19:00:00Z",
+        "odds": 1.53,
+        "bookmaker": "Bet365",
+        "score_confidence": 76,
+        "stake": 7,
+        "final_score": "4-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 10.71,
+        "pnl": 3.71,
+        "note": "Jogo doido em Linz. 1-1 ao intervalo com o Celtic a abrir por McGregor aos 21' e o LASK a responder aos 32' — a partir daí a tip estava resolvida. Os austríacos ainda fizeram 4-1 nos 90 minutos e 5-1 no prolongamento, mas o mercado liquidou-se antes da meia hora. Foi a perna mais segura do dia e a mais barata (1.53), e cumpriu exactamente como a tese previa: duas equipas obrigadas a atacar numa segunda mão de play-off."
+      },
+      {
+        "market": "favorites",
+        "pick": "Al-Nassr marca mais de 2.5 golos",
+        "marketLabel": "Total da equipa",
+        "fixtureId": 1602994,
+        "home": "Al-Ettifaq",
+        "away": "Al-Nassr",
+        "league": "Saudi Pro League — Jornada 3",
+        "kickoff": "2026-08-25T18:00:00Z",
+        "odds": 1.8,
+        "bookmaker": "Bet365",
+        "score_confidence": 76,
+        "stake": 7,
+        "final_score": "2-3",
+        "result": "GREEN",
+        "hit": true,
+        "return": 12.6,
+        "pnl": 5.6,
+        "note": "A tip que parecia perdida ao intervalo. Al-Ettifaq 2-0 em cima, o Al-Nassr precisava de três golos só para pagar a aposta — e marcou os três na segunda parte para virar o jogo. Total de equipa acima de 2.5 é o mercado mais exigente que jogámos e desta vez o cenário extremo caiu do lado certo. Note-se que este jogo também disparou um alerta BTTS LIVE aos 57' (2-0), que igualmente fechou GREEN: o mesmo jogo pagou duas vezes."
+      },
+      {
+        "market": "favorites",
+        "pick": "Bodo/Glimt marca mais de 2.5 golos",
+        "marketLabel": "Total da equipa",
+        "fixtureId": 1622627,
+        "home": "Bodo/Glimt",
+        "away": "NEC Nijmegen",
+        "league": "UEFA Champions League — Play-off, 2ª mão",
+        "kickoff": "2026-08-25T19:00:00Z",
+        "odds": 2.0,
+        "bookmaker": "Bet365",
+        "score_confidence": 75,
+        "stake": 7,
+        "final_score": "3-0",
+        "result": "GREEN",
+        "hit": true,
+        "return": 14.0,
+        "pnl": 7.0,
+        "note": "Ganha exactamente na linha. Bodo/Glimt precisava de 3 golos para bater o mais de 2.5 da equipa e fez precisamente 3, com 2-0 já ao intervalo. Sem golos do NEC, o resultado foi limpo mas sem margem — mais um golo sofrido não afectava a tip, um golo a menos marcado matava-a. O 2.00 pagou pelo risco assumido."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "selections": [
+          {
+            "fixtureId": 1610924,
+            "match": "LASK vs Celtic",
+            "pick": "Ambas Marcam - Sim",
+            "odds": 1.53,
+            "final_score": "4-1",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1623088,
+            "match": "Ipswich vs Leicester",
+            "pick": "Ipswich vence",
+            "odds": 1.5,
+            "final_score": "3-1",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.29,
+        "score": 72,
+        "stake": 7,
+        "result": "GREEN",
+        "return": 16.03,
+        "pnl": 9.03,
+        "note": "Acumulador limpo. A perna do LASK-Celtic resolveu-se aos 32 minutos com o empate 1-1, e o Ipswich despachou o Leicester por 3-1 na Taça da Liga depois de um 0-0 ao intervalo — os três golos chegaram todos na segunda parte. Combinada de 2.29 com duas pernas curtas (1.53 e 1.50), que é o perfil que a Fase A procura: nada de odds altas, apenas duas convicções sólidas multiplicadas."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1602994,
+            "match": "Al-Ettifaq vs Al-Nassr",
+            "pick": "Al-Nassr e Mais de 1.5 golos",
+            "odds": 1.36,
+            "final_score": "2-3",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1623090,
+            "match": "Southampton vs West Ham",
+            "pick": "Southampton Dupla Hipótese (1X)",
+            "odds": 1.51,
+            "final_score": "1-4",
+            "result": "RED"
+          }
+        ],
+        "combined_odds": 2.05,
+        "score": 70,
+        "stake": 5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -5.0,
+        "note": "Falhou na perna que eu tinha por mais segura. O Al-Nassr fez o seu trabalho da forma mais difícil possível — virou um 0-2 em 3-2 fora de casa, garantindo vitória e o mais de 1.5 golos com folga. O Southampton, a jogar em casa e com dupla hipótese a cobrir vitória e empate, levou 1-4 do West Ham. Ao intervalo estava 1-1 e a perna estava viva; a segunda parte foi um colapso de três golos. Terceira vez este mês que a perna de 'segurança' do corvo é a que parte."
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 3,
+      "red": 0,
+      "hit_rate": 100.0,
+      "total_stake": 21,
+      "total_return": 37.31,
+      "pnl": 16.31,
+      "roi_pct": 77.7,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 12,
+      "accumulators_return": 16.03,
+      "accumulators_pnl": 4.03,
+      "combined_stake": 33,
+      "combined_return": 53.34,
+      "combined_pnl": 20.34,
+      "combined_roi_pct": 61.6
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1602994,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Al-Ettifaq vs Al-Nassr",
+        "league": "Pro League (Saudi-Arabia)",
+        "elapsed": 57,
+        "score": "2-0",
+        "conf": 89,
+        "factors": [
+          "Al-Nassr ainda não marcou",
+          "4 SoT · 7 remates · 40% posse",
+          "Favorito a sofrer",
+          "Liga BTTS 64%",
+          "Janela de valor"
+        ],
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1787685649669,
+        "deliveries": 6,
+        "odds": 1.666,
+        "stake": 5,
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
+        "finalCorners": null,
+        "resolvedAt": 1787688168846
+      },
+      {
+        "fixtureId": 1623099,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Watford vs Peterborough",
+        "league": "League Cup (England)",
+        "elapsed": 50,
+        "score": "0-2",
+        "conf": 90,
+        "factors": [
+          "Watford ainda não marcou",
+          "3 SoT · 11 remates · 63% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Janela de valor"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "sentAt": 1787687815297,
+        "deliveries": 6,
+        "odds": 1.333,
+        "stake": 7,
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 5,
+        "finalCorners": null,
+        "resolvedAt": 1787690535639
+      },
+      {
+        "fixtureId": 1623088,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Ipswich vs Leicester",
+        "league": "League Cup (England)",
+        "elapsed": 65,
+        "score": "1-0",
+        "conf": 89,
+        "factors": [
+          "Leicester ainda não marcou",
+          "6 SoT · 14 remates · 59% posse",
+          "Favorito a sofrer",
+          "Janela de valor"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1787688647507,
+        "deliveries": 6,
+        "odds": 2.625,
+        "stake": 5,
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1787690661197
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 3,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 100.0,
+      "hit_rate_por_jogo": 100.0,
+      "jogos_distintos": 3,
+      "stake_total": 15,
+      "stake_mensuravel": 15,
+      "return_mensuravel": 28.12,
+      "pnl_mensuravel": 13.12,
+      "roi_pct_mensuravel": 87.5,
+      "odds_registadas": 3,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 3,
+          "green": 3,
+          "red": 0,
+          "pending": 0,
+          "hit_rate": 100.0
+        }
+      }
+    }
+  },
+  "balance": 169.92,
+  "notes": "O melhor dia da série de Agosto. Três tips singulares, três GREEN, e o acumulador da Fase A também entrou — 33€ arriscados devolveram 53.34€, um lucro de +20.34€ e ROI de +61.6%. A banca sobe de 149,58€ para 169,92€, máximo da série. O QUE FUNCIONOU: a política de diversificar mercados, iniciada a 24/08, teve o seu segundo dia e voltou a pagar. Dois dos três singles foram Total da Equipa (Al-Nassr +2.5, Bodo/Glimt +2.5) a 1.80 e 2.00 — o mesmo mercado que ontem produziu a RED mais dura (Osasuna 0-0). Isto é o retrato honesto de um mercado de variância alta: exige que a tese esteja certa em cheio, e quando está, paga o dobro do BTTS. Dois dias, três apostas nesse mercado, duas GREEN. Amostra pequena demais para concluir seja o que for. O AL-NASSR: a tip do dia, e por pouco. 2-0 a perder ao intervalo, precisava de três golos do Al-Nassr só para pagar, e fez os três na segunda parte. Foi sorte ou foi tese? A tese dizia que o Al-Nassr marca em catadupa e o Al-Ettifaq concede — a segunda parte confirmou ambas as metades. A primeira parte contradisse ambas. Registo o ganho sem fingir que o controlei. O BODO/GLIMT ganhou exactamente na linha: 3 golos para um mais de 2.5. Um golo a menos e era RED. O CORVO FALHOU, outra vez pela perna errada. Al-Nassr (a perna que eu considerava arriscada) entrou; Southampton com dupla hipótese em casa (a perna de segurança) levou 1-4 do West Ham depois de estar 1-1 ao intervalo. É a terceira vez este mês que a minha ordenação de risco dentro do corvo sai invertida — sinal de que não estou a avaliar bem as pernas 'seguras', ou de que dupla hipótese a 1.51 não é a rede de segurança que aparenta. BOT LIVE: 3 alertas, 3 GREEN, e desta vez com odds decentes — 1.666, 1.333 e 2.625. P&L nocional de +13.12€ sobre 15€ (ROI +87.5%), o inverso exacto de ontem, quando 2 GREEN em 3 deram prejuízo por causa de odds de 1.16. Confirma o diagnóstico de ontem: o problema do bot nunca foi a taxa de acerto, é o preço a que entra. O alerta do Ipswich-Leicester a 2.625 vale mais do que cinco alertas a 1.17. Nota: o Al-Ettifaq-Al-Nassr apareceu nas duas frentes — tip pré-jogo e alerta live aos 57' — e ambas fecharam GREEN. FECHO: ficheiro escrito às 22:55 WEST. Os jogos da madrugada sul-americana ainda não correram; alertas posteriores a esta hora não estão contabilizados. Stakes do live continuam nocionais e fora da banca."
+}

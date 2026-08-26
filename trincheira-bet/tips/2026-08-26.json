@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-25T23:40:00+01:00",
+  "notes": "Dia curto e conservador: 2 tips individuais, 1 acumulador Standard, 1 Curto e ZERO corvo. Exposicao total 22 EUR (7+5 nas tips, 7 no Standard, 3 no Curto), bem abaixo do tecto de ~40 EUR/dia. ||| ANTEVISOES FLASHSCORE (registo novo, pedido do utilizador): 1 tip COM antevisao (Viking-Dinamo) e 1 tip SEM (Rapid-Hearts). Cada tip leva agora o campo flashscore_preview. Foram lidas as 16 imagens em analises-flashscore/ (IMG_5012 a IMG_5027) e cobriam 4 jogos: Viking-Dinamo (5012-5015), Real Madrid-Real Sociedad (5016-5019), AEK-Levski (5020-5023) e Lyon-Fenerbahce (5024-5027). O Passo 4.6 deixou de ser bloqueante e o ficheiro foi fechado com o que havia. Onde faltou antevisao E a tese assenta em forma recente, o stake desceu uma banda: o Rapid tem score 78 (banda dos 7 EUR pelo Sistema B) mas leva 5 EUR. O score fica registado honesto, para que daqui a algumas semanas se possa comparar tips com e sem antevisao sem o ajuste de stake contaminar a leitura. ||| FASE C - CORVO NAO PUBLICADO, e a razao importa. O pedido era ver se a Fase C aguentava uma perna de seguranca escolhida com mais criterio, depois de a dupla hipotese ~1.50 ter rebentado tres vezes este mes. A resposta de hoje e que a melhoria nao veio de escolher melhor a dupla hipotese - veio de recusar o boletim. No Marathonbet, o mercado Resultado+Total so oferecia QUATRO pernas dentro da banda 1.25-1.55 em toda a grelha do dia, e todas na forma Casa/Mais de 1.5. As formas em que o total e praticamente gratis, que sao o nucleo do modelo original (Casa/Menos de 4.5 ou 5.5), estavam a 1.67 (Tottenham), 1.79 (Newcastle), 1.84 (Real Madrid) e 1.98 (Rapid) - todas fora da banda. Das quatro pernas elegiveis: TOTTENHAM 1.37 cortado (perdeu 3-0 em Brentford a 22/08, 2a ronda de taca com rotacao garantida, e o Charlton chega com tres vitorias competitivas seguidas incluindo 2-1 em casa do West Ham); SUNDOWNS 1.48 cortado (perdeu 0-1 EM CASA com os Golden Arrows a 23/08, tres dias antes, e o AmaZulu nao sofreu um unico golo nos tres ultimos jogos fora - 1-0, 1-0 e 0-0 - o que fecha a pergunta que ficou em aberto sobre os numeros do AmaZulu fora: matam a perna); NEWCASTLE 1.51 cortado (o West Brom vem de 3-1 ao Burnley, 2-1 em Norwich e 4-1 em Rotherham, enquanto o Newcastle so tem um jogo competitivo, o 2-2 com o Liverpool, depois de uma pre-epoca ma). Sobrou o Real Madrid a 1.44 - e um corvo precisa de duas pernas. A regra 3 da Fase C diz que a banda 1.70-2.20 nao se estica para arranjar aposta, e o proprio modelo prevê dias sem corvo. Fica sem. ||| SOBREPOSICAO: nao existe nenhuma hoje. O Real Madrid-Real Sociedad aparece so numa perna do acumulador Curto (vitoria simples a 1.30) e em mais lado nenhum. A tip individual que estava em cima da mesa era 'Real Madrid marca mais de 2.5' a 2.00 no Bet365 - ou seja, Madrid a marcar 3+ - e foi cortada, mas nao por causa da sobreposicao: a antevisao do Flashscore traz a estatistica de que o Real Sociedad sofreu EXACTAMENTE UM golo em cada um dos ultimos quatro jogos fora na La Liga, e o proprio Madrid ganhou apenas 2-1 em Espanhol na jornada 1. Comprar tres golos do Madrid contra isso nao se sustenta. ||| JOGOS COM ANTEVISAO QUE MESMO ASSIM FICARAM DE FORA: AEK-Levski, porque a antevisao contradiz-se a si propria - o autor (Peter Stavrinou) recomenda Ambas Marcam, mas as estatisticas que ele proprio publica dizem o contrario (em NENHUM dos ultimos seis jogos do Levski ambas as equipas marcaram, o Levski so sofreu 2+ num dos ultimos oito jogos fora, cinco balizas invioladas em sete jogos de qualificacao e 0-0 na primeira mao). Pelo WORKFLOW a recomendacao do autor e cross-check e nao decisao; a tese defensavel seria o oposto (jogo fechado), mas o mercado que a exprimia bem era o Menos de 2.5 do jogo, desactivado desde Abril. Sem mercado que case com a tese, nao ha tip. LYON-FENERBAHCE, pela mesma razao: o autor (Chris Wilson) recomenda Menos de 2.5, mercado desactivado, e o resto e contraditorio (cinco dos ultimos seis jogos europeus do Lyon em casa decididos por 2+ golos de margem, contra um Fenerbahce que sofreu 2+ em apenas 1 dos ultimos 14 jogos europeus). ||| VERIFICACAO DE LINEUPS E DADOS: depois do erro de ontem, em que a WebSearch trouxe divisoes erradas do Ipswich e do Leicester, todos os factos de forma e resultado usados neste ficheiro foram tirados directamente do endpoint /fixtures da API-Football (ultimos 7-8 jogos de cada equipa) e nao de resumos de pesquisa. Foi assim que se confirmou que o Charlton joga no Championship e venceu 2-1 em casa do West Ham, que o Sundowns perdeu em casa a 23/08 e que o West Brom bateu o Burnley por 3-1. As ausencias citadas vêm das antevisoes do Flashscore, que sao fonte primaria. ||| NOTA TECNICA: o endpoint /predictions continua a devolver placeholders (45/45/10, 33/33/33, played=null) por estarmos no arranque das epocas - a mesma falha de 24/08. Toda a analise assenta em H2H, forma real, odds e antevisoes."
+  ,
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        {
+          "fixtureId": 1622631,
+          "match": "Viking vs Dinamo Zagreb",
+          "pick": "Ambas Marcam - Sim",
+          "odds": 1.5,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623429,
+          "match": "Rapid Viena vs Hearts",
+          "pick": "Rapid Viena marca mais de 1.5 golos",
+          "odds": 1.57,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.35,
+      "score": 78,
+      "stake": 7,
+      "note": "Fase A. As duas unicas tips aprovadas do dia, produto 2.35, dentro da banda 2.0-3.0. Score = minimo das pernas (78, do Rapid). CORRELACAO DECLARADA: as duas pernas partilham a mesma tese estrutural - eliminatoria empatada apos 2-2 na primeira mao, portanto obrigacao de atacar dos dois lados. Se essa leitura estiver errada, caem as duas juntas. A regra R3 (preferir provas diferentes) esta formalmente cumprida - Champions League e Conference League sao competicoes distintas - mas seria desonesto apresentar isto como duas exposicoes independentes. Com apenas duas tips aprovadas nao havia alternativa: ou este acumulador, ou nenhum Standard."
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1570340,
+          "match": "Real Madrid vs Real Sociedad",
+          "pick": "Real Madrid vence",
+          "odds": 1.3,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1622628,
+          "match": "Celje vs Slovan Bratislava",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623101,
+          "match": "Preston vs Everton",
+          "pick": "Everton vence",
+          "odds": 1.53,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.64,
+      "score": 65,
+      "stake": 3,
+      "note": "Fase B. Tres provas diferentes (La Liga, Champions League, Taca da Liga inglesa), sem sobreposicao com o Standard. Filtro por perna: REAL MADRID VENCE - venceu os seis ultimos duelos diretos, perdeu apenas um dos ultimos 19 jogos caseiros da La Liga com o Sociedad (V15, E3), e o Sociedad esta sem ganhar ha sete jogos fora no campeonato e sem ganhar de todo desde Abril; escolhida a vitoria simples em vez do 'Madrid marca 2+' precisamente por causa da estatistica dos quatro jogos fora do Sociedad a sofrer exactamente um golo, que ataca o mercado de golos mas nao o de resultado. CELJE-SLOVAN MAIS DE 1.5 - os tres duelos diretos tiveram 2, 5 e 2 golos, e os jogos recentes das duas equipas passam a fasquia em 5 de 6 (Celje) e 6 de 6 (Slovan), com o Slovan a marcar 2+ em cinco dos ultimos seis; eliminatoria empatada a 1-1 obriga ao jogo aberto. EVERTON VENCE - o Everton abriu a Premier League com 2-0 ao Crystal Palace, enquanto o Preston vem de 1-3 com o Wolves, 1-2 em Bolton e 1-1 com o Huddersfield; os dois unicos encontros historicos deram vitorias do Everton sem sofrer. Reserva assumida na perna do Everton: 2a ronda de taca, ambas rodam, e a odd de 1.53 num favorito visitante ja e o mercado a descontar isso. Nenhuma destas pernas tem antevisao do Flashscore - e o motivo de a Fase B ter score fixo em 65 e stake de 3 EUR e exactamente esse, sao pernas verificadas mas nao curadas."
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "sport": "football",
+      "pick": "Ambas Marcam - Sim",
+      "marketLabel": "Ambas Marcam",
+      "fixtureId": 1622631,
+      "home": {
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png"
+      },
+      "away": {
+        "name": "Dinamo Zagreb",
+        "logo": "https://media.api-sports.io/football/teams/620.png"
+      },
+      "league": "UEFA Champions League — Play-off, 2ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-08-26T19:00:00Z",
+      "odds": 1.5,
+      "bookmaker": "Bet365",
+      "score": 82,
+      "stake": 7,
+      "flashscore_preview": true,
+      "tese": "<p>A eliminatória está <strong>empatada a 2-2</strong> depois da primeira mão em Maksimir. Não há vantagem para gerir, não há resultado para segurar: quem não marcar em Stavanger vai a prolongamento ou fica pelo caminho. É o contexto que mais fiavelmente produz golos dos dois lados.</p><p>E as duas equipas já vinham a marcar de qualquer maneira. <strong>Tanto o Viking como o Dinamo marcaram em cada um dos seus últimos oito jogos</strong>. A antevisão do Flashscore acrescenta o resto: <strong>em 11 dos últimos 15 jogos europeus do Dinamo ambas as equipas marcaram</strong>, e <strong>o Dinamo só manteve uma baliza inviolada nos últimos sete jogos fora de casa</strong>. Do lado norueguês, <strong>o Viking marcou primeiro em seis dos últimos sete jogos em casa</strong> e <strong>oito dos seus últimos 11 jogos europeus passaram os 2,5 golos</strong>.</p><p>Há ainda um pormenor de história que empurra na mesma direcção: <strong>o Dinamo nunca venceu na Noruega</strong> (E3, D2). Não é uma equipa que costume ir a este país fechar o jogo a zero — vai discuti-lo.</p><p>O autor da antevisão, Ben Olawumi, vai mais longe do que nós e recomenda ambas as equipas a marcar <em>em cada uma das partes</em>. Ficamo-nos pela versão simples do mesmo raciocínio, que paga 1.50 e não exige que os golos apareçam no momento certo.</p><p><strong>Risco assumido, sir:</strong> o Dinamo é claramente a melhor equipa e manteve a baliza a zero nos 4-0 ao Rudes e 2-0 ao Slaven Belupo. O Viking joga sem Baertelsen, Berisha e Cosic, enquanto o Dinamo se apresenta sem problemas físicos — se os croatas marcarem cedo e controlarem, um 0-2 ou 0-3 mata a tip.</p>",
+      "factors": [
+        "Eliminatória empatada a 2-2 — nenhuma das equipas pode gerir resultado",
+        "Viking e Dinamo marcaram os dois em cada um dos últimos 8 jogos",
+        "11 dos últimos 15 jogos europeus do Dinamo com golos dos dois lados",
+        "Dinamo com apenas 1 baliza inviolada nos últimos 7 jogos fora",
+        "Viking marcou primeiro em 6 dos últimos 7 jogos em casa",
+        "8 dos últimos 11 jogos europeus do Viking com mais de 2,5 golos",
+        "Dinamo nunca venceu na Noruega (E3, D2)",
+        "Contra: Viking sem Baertelsen, Berisha e Cosic; Dinamo sem problemas físicos e com 2 balizas invioladas nos últimos 4 jogos internos"
+      ],
+      "sources": [
+        "Flashscore — antevisão Viking vs Dinamo Zagreb, autor Ben Olawumi (IMG_5012 a IMG_5015)",
+        "API-Football — últimos 8 jogos de Viking (759) e Dinamo Zagreb (620), primeira mão 2-2",
+        "API-Football — odds Bet365 fixture 1622631, Ambas Marcam Sim 1.50 / Não 2.50"
+      ]
+    },
+    {
+      "market": "favorites",
+      "sport": "football",
+      "pick": "Rapid Viena marca mais de 1.5 golos",
+      "marketLabel": "Total da equipa",
+      "fixtureId": 1623429,
+      "home": {
+        "name": "Rapid Viena",
+        "logo": "https://media.api-sports.io/football/teams/781.png"
+      },
+      "away": {
+        "name": "Hearts",
+        "logo": "https://media.api-sports.io/football/teams/254.png"
+      },
+      "league": "UEFA Europa Conference League — Play-off, 2ª mão",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-08-26T16:45:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 5,
+      "flashscore_preview": false,
+      "tese": "<p>Mesmo desenho estrutural da tip anterior, mercado diferente. <strong>2-2 em Tynecastle</strong>, eliminatória empatada, e o Rapid recebe a segunda mão sabendo que um 0-0 ou um 1-1 o atira para prolongamento. Tem de ganhar em casa.</p><p>A diferença é que aqui não se compra o jogo aberto — compra-se o ataque de uma equipa específica. <strong>O Rapid marcou dois ou mais golos em sete dos seus últimos oito jogos</strong>: 2-2 em Edimburgo, <strong>8-0 ao Grazer AK</strong>, 2-0 ao Paide, 2-1 em Ried, 4-1 em Paide, 6-2 ao Santa Coloma e 3-0 em Wienerberg. A única excepção foi o 1-0 ao Altach. Em casa, marcou 8, 2, 1 e 6 nos últimos quatro.</p><p>Do outro lado está a defesa certa para isso. <strong>O Hearts sofreu dois ou mais golos em cinco dos últimos oito jogos</strong>, incluindo os 2 encaixados na primeira mão desta eliminatória e o <strong>1-6 em Lisboa com o Benfica</strong>. É uma equipa que marca muito e sofre na mesma proporção.</p><p><strong>Nota de processo:</strong> este jogo não teve antevisão do Flashscore. A tese assenta em forma recente, que é precisamente o tipo de tese que uma antevisão serviria para validar ou desmontar. Pela regra nova, o score fica registado a 78 mas <strong>o stake desce uma banda, de 7€ para 5€</strong>.</p><p><strong>Risco assumido, sir:</strong> sem antevisão não temos leitura fiável do onze do Rapid nem das ausências do Hearts, e o Hearts já mostrou em Tynecastle que consegue segurar o Rapid a dois golos. Se os escoceses entrarem a fechar e a eliminatória arrastar-se para um 1-0 austríaco, a tip cai apesar de o resultado do jogo estar certo.</p>",
+      "factors": [
+        "Eliminatória empatada a 2-2 — o Rapid tem de vencer em casa para evitar prolongamento",
+        "Rapid marcou 2+ golos em 7 dos últimos 8 jogos (única excepção: 1-0 ao Altach)",
+        "Rapid marcou 8, 2, 1 e 6 golos nos últimos 4 jogos em casa",
+        "Hearts sofreu 2+ golos em 5 dos últimos 8 jogos, incluindo 1-6 com o Benfica",
+        "Hearts já sofreu 2 na primeira mão desta mesma eliminatória",
+        "Contra: sem antevisão do Flashscore — sem leitura de onze provável nem de ausências",
+        "Contra: stake reduzido de 7€ para 5€ por falta de antevisão numa tese de forma recente"
+      ],
+      "sources": [
+        "API-Football — últimos 8 jogos de Rapid Viena (781) e Hearts (254), primeira mão 2-2",
+        "API-Football — odds Bet365 fixture 1623429, Total da Casa Mais de 1.5 a 1.57",
+        "Sem antevisão Flashscore disponível para este jogo"
+      ]
+    }
+  ]
+}
