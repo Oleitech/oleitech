@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T10:40:00+01:00",
+  "notes": "Dia dominado pelas segundas maos dos play-offs europeus: 23 jogos da Conference League e 12 da Liga Europa. Fora dessa moldura so ha dois jogos da La Liga (Celta-Osasuna e Barcelona-Athletic) e dois da Taca da Liga inglesa. Uma unica tip curada. BOOKMAKER: a Betclic (id 27) nao devolveu odds na API para nenhum jogo do dia; simples e acumuladores curtos ficam com preco Bet365 (fallback previsto no Passo 3) e a Fase C foi avaliada com Marathonbet. CONTEXT_DEPTH: 1 full, 0 partial. FASE A: nao produziu acumulador standard - com uma unica tip aprovada e impossivel formar par ou trio. FASE B: 7 pernas elegiveis na shortlist, 6 usadas em 2 curtos independentes (R1 respeitada entre si e face a tip). FASE C: sem acumulador corvo. Das pernas do mercado Resultado+Total dentro da banda 1.25-1.55 na Marathonbet, so Barcelona (Vitoria e +1.5 @1.39), Chelsea (Vitoria e +1.5 @1.27; Vitoria e -5.5 @1.36) e Fulham (Vitoria e +1.5 @1.31) vinham de jogos de mao unica - as restantes sao eliminatorias com segunda mao, onde o favorito pode gerir o resultado. O Chelsea foi rejeitado por rotacao massiva (Xabi Alonso, cinco estreias absolutas e guarda-redes estreante na Taca da Liga) e as outras duas davam EV negativo contra o preco da vitoria simples; nao se esticou a banda para arranjar aposta. SOBREPOSICAO: nenhuma - nenhum jogo aparece na tip e num acumulador ao mesmo tempo. Blacklist de ligas levantado a 26/08; nenhuma das quatro ligas reabertas (Eredivisie, Bundesliga AT, Pro League BE, 3.Liga DE) tinha jogos hoje - o Ajax joga pela Conference, nao pela Eredivisie. SEM TENNIS: a 27/08 o US Open ainda esta na final da qualificacao, o quadro principal nao arrancou. | QA 27/08: removido um factor sem proveniencia declarada (Pavlidis, \"ultimos 10\" sem competicao nem amostra) — o Benfica so tem 8 jogos oficiais em 2026/27, logo a janela alcancava jogos de pre-epoca. Regra do Passo 4.6: numero sem proveniencia descarta-se. Tese, pick, odd, score e stake inalterados.",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim",
+      "fixtureId": 1623441,
+      "home": {
+        "name": "Aarhus",
+        "logo": "https://media.api-sports.io/football/teams/406.png"
+      },
+      "away": {
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png"
+      },
+      "league": "UEFA Europa League — Play-off (2.ª mão)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-08-27T18:00:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 82,
+      "stake": 1.5,
+      "context_depth": "full",
+      "tese": "O AGF perde 1-3 da primeira mão e precisa de dois golos para forçar prolongamento, o que retira do jogo a hipótese de a casa se fechar: quem tem de abrir é o Aarhus. Os números sustentam os dois lados da aposta em separado — o AGF não falhou o golo em nenhum dos últimos 10 jogos oficiais (0% de failed-to-score, 0% também no split em casa) e leva 80% de ambas-marcam; o Benfica também tem 0% de jogos sem marcar em 10 e traz 3,00 golos marcados por jogo fora, com apenas 25% de balizas a zero fora. As ausências, confirmadas por duas fontes independentes de cada lado, não tocam no ataque de nenhuma das equipas: no Benfica falham Aursnes (entorse no tornozelo direito, nem viajou), Banjaqui (lesão muscular na coxa) e Umeh, com Pavlidis, Rafa Silva, Sudakov e Prestianni disponíveis e o onze provável a repetir o da primeira mão; no AGF os desfalques nomeados são Tingager e Yakob, ambos fora do sector ofensivo, mantendo-se Bech, Bogere e Sebastian Jørgensen — o marcador da primeira mão — no onze provável. Nenhuma das retaguardas dá garantias: o AGF concede 1,60 golos por jogo em casa (xGA 1,21) e o Benfica sofreu golo em cinco dos últimos oito jogos oficiais. O preço fecha o argumento: 1.67 paga 59,9%, contra os 70% estimados pela SportsGambler e os 75% do painel do FootyStats. Risco assumido e declarado: se o Benfica optar por gerir cedo o resultado e o AGF desmoralizar, o jogo pode fechar-se — foi o que ditou stake e meia e não duas.",
+      "factors": [
+        "AGF: ambas marcam em 80% dos últimos 10 jogos (Superliga DK + qualificação da Liga Europa), 80% também no split de casa — FootyStats",
+        "AGF: 0% de jogos sem marcar em casa e apenas 20% de balizas a zero em casa na mesma amostra de 10; xG 1,94 e xGA 1,21 em casa — FootyStats",
+        "AGF: ambas marcaram em 6 jogos consecutivos e em 17 dos últimos 20 — SportsGambler (últimos 10/20, liga + qualificação da Liga Europa)",
+        "Benfica: 0% de jogos sem marcar em 10, 3,00 golos marcados e 1,00 sofrido por jogo fora, 25% de balizas a zero fora (últimos 10, Liga Portugal + Liga Europa) — FootyStats",
+        "Benfica: ambas marcam em 75% no split de fora nos últimos 10 — FootyStats; 9 em 10 no mesmo split — SportsGambler",
+        "Benfica sofreu golo em 5 dos últimos 8 jogos oficiais de 2026/27 (Liga Europa + Liga Portugal) — API-Football",
+        "1.ª mão a 20/08: Benfica 3-1 AGF. O AGF precisa de 2 golos para forçar prolongamento — API-Football",
+        "Ausências Benfica (2 fontes concordantes): Aursnes (entorse tornozelo direito, não viajou), Banjaqui (lesão muscular na coxa), Umeh (recuperação desde a pré-época), Palhinha ainda não elegível — Record + Maisfutebol/A Bola",
+        "Ausências AGF (2 fontes concordantes): Tingager (lesionado desde o jogo com o Sabah), Yakob (joelho, desde o Lech Poznan), plantel descrito como muito fustigado — stiften.dk/tipsbladet.dk + bold.dk",
+        "Preço: 1.67 na Bet365 = 59,9% implícitos, contra 70% estimados pela SportsGambler e 75% no painel do FootyStats",
+        "Painel FootyStats para este jogo: 75% ambas marcam, 85% mais de 2,5 golos, 4 golos por jogo (média da competição: 41% e 2,65)"
+      ],
+      "sources": [
+        "SportsGambler — antevisão AGF vs Benfica de 27/08: onzes prováveis, forma dos últimos 10 (liga + qualificação da Liga Europa) e pick principal Ambas Marcam Sim @1.63",
+        "FootyStats — página H2H AGF vs Benfica: splits casa/fora de ambas-marcam, balizas a zero, failed-to-score, xG e xGA; amostra de 10 jogos com competições declaradas",
+        "Record (record.pt) — 'Aursnes falha o Aarhus-Benfica; Durán e Circati nos convocados' [ausências Benfica, fonte 1]",
+        "Maisfutebol / A Bola — 'Durán no ginásio e Banjaqui em treino individual na véspera do Aarhus'; onze provável repete o da 1.ª mão [ausências Benfica, fonte 2, concordante]",
+        "stiften.dk / tipsbladet.dk — Tingager lesionado desde o Sabah, Yakob com lesão no joelho desde o Lech Poznan; lista da comitiva do AGF [ausências AGF, fonte 1]",
+        "bold.dk — AGF 'hårdt ramt' por lesões, seis ausentes; onze utilizado na 1.ª mão [ausências AGF, fonte 2, concordante]",
+        "API-Football — resultado da 1.ª mão, últimos 8 jogos oficiais de cada equipa com competição declarada, endpoint de lesões (sem registos para este jogo) e odds Bet365"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1623409,
+          "match": "Ajax vs FC Sion",
+          "pick": "Vitória Ajax",
+          "odds": 1.38,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623425,
+          "match": "FK Partizan vs Getafe",
+          "pick": "Dupla hipótese Getafe (X2)",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623428,
+          "match": "HNK Rijeka vs FC Midtjylland",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.44,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1623442,
+          "match": "Anderlecht vs Kairat Almaty",
+          "pick": "Vitória Anderlecht",
+          "odds": 1.38,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623417,
+          "match": "Hradec Králové vs Panathinaikos",
+          "pick": "Dupla hipótese Panathinaikos (X2)",
+          "odds": 1.3,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1623427,
+          "match": "Raków Częstochowa vs HNK Hajduk Split",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.3,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.33,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

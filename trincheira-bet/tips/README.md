@@ -51,7 +51,7 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
       "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
       "kickoff": "2026-05-16T17:30:00Z",
       "odds": 1.72,
-      "bookmaker": "Betclic",
+      "bookmaker": "Bet365",
       "score": 78,
       "stake": 10,
       "tese": "Texto da análise (3–6 frases): onze provável, lesões, contexto, motivação, factor decisivo.",
@@ -81,11 +81,11 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | `accumulators[].selections[].fixtureId` | number | não | API-Football fixture ID (ou outro ID de desporto) |
 | `accumulators[].selections[].match` | string | sim | "Home vs Away" ou nome do jogo |
 | `accumulators[].selections[].pick` | string | sim | Descrição da aposta |
-| `accumulators[].selections[].odds` | number | sim | Odd individual. Betclic PT nos standard e curtos; **Marathonbet** nos corvo — o Bet365 só expõe a linha 2.5 do mercado Resultado + Total e não serve. Fallback: Superbet → Betfair → 10Bet. |
+| `accumulators[].selections[].odds` | number | sim | Odd individual. **Bet365** nos standard e curtos; **Marathonbet** nos corvo (o Bet365 nao expoe esse mercado). |
 | `accumulators[].selections[].sport` | string | não | `"football"`, `"nba"`, `"tennis"` |
 | `accumulators[].combined_odds` | number | sim       | Produto das odds. Intervalo válido **depende do label**: 2.0–3.0 (standard e curto), **1.7–2.2 (corvo)**. Fora do intervalo, não se publica. |
 | `accumulators[].score` | number | sim            | Score mínimo das seleções incluídas |
-| `accumulators[].stake` | number | sim            | € pelas bandas do Sistema B sobre o score mínimo (standard); 3 € fixos (curto); **5 € fixos (corvo)** |
+| `accumulators[].stake` | number | sim | **Em STAKES, nao euros.** Standard: pelo score minimo das pernas. Curto: `0.5` fixo. Corvo: `1` fixo. Ver Passo 5.5 do WORKFLOW. |
 | `generated_at` | string ISO 8601 | sim         | timestamp da curadoria |
 | `notes`        | string          | não         | nota geral do dia (ex.: "Jornada europeia") |
 | `tips[].market`| `btts` \| `favorites` \| `scorers` \| `corners` | sim | mercado |
@@ -94,10 +94,10 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | `tips[].home/away` | `{name, logo}` | sim     | nome e logo das equipas |
 | `tips[].league/leagueLogo` | string | sim    | competição |
 | `tips[].kickoff` | string ISO 8601 | sim       | hora de início UTC |
-| `tips[].odds`  | number          | sim         | odd da casa (Betclic PT) |
-| `tips[].bookmaker` | string      | não         | default: Betclic |
+| `tips[].odds` | number | sim | odd da casa de referencia (**Bet365**) |
+| `tips[].bookmaker` | string | nao | default: **Bet365**. Excepcao: acumulador corvo usa **Marathonbet**, porque o Bet365 nao expoe esse mercado. |
 | `tips[].score` | number 0–100    | sim         | confiança da curadoria |
-| `tips[].stake` | number          | não         | € (informativo no card) |
+| `tips[].stake` | number | nao | **Em STAKES, nao euros.** So `0.5`, `1`, `1.5` ou `2`. Duas stakes so com score >=85. | | `tips[].context_depth` | `"full"` ou `"partial"` | **sim** (desde 27/08/2026) | Profundidade da investigacao do Passo 4.6. `partial` desce o stake uma unidade e **nunca** mexe no score. Substitui o antigo `context_depth (ver Passo 4.6; substituiu o flashscore_preview)`. |
 | `tips[].tese`  | string          | sim         | parágrafo de análise; aparece em destaque no card |
 | `tips[].factors` | string[]      | não         | bullet points objetivos (estatísticas, H2H) |
 | `tips[].sources` | string[]      | não         | nome das fontes usadas (mostradas no card) |

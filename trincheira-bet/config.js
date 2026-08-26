@@ -1,6 +1,9 @@
+// NAO por segredos aqui: este ficheiro e servido tal e qual no GitHub Pages e
+// e legivel por qualquer pessoa. A chave da API-Football esteve aqui ate
+// 26/08/2026 sem ser usada por nada no cliente — todas as chamadas passam pelo
+// worker, que le a chave do env do Cloudflare. Removida; falta ROTACIONAR, que
+// o historico publico do git continua a te-la.
 const CONFIG = {
-  API_KEY: '39b7cc96eec7d93794bce93477cfab56',
-  API_HOST: 'v3.football.api-sports.io',
   WORKER_URL: 'https://trincheira-live.rodrigo-fcp1997.workers.dev',
   DAILY_LIMIT: 7500,
   CACHE_TTL_FIXTURES: 4 * 60 * 60 * 1000,
