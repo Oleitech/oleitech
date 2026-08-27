@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T09:20:00+01:00",
+  "notes": "Sexta-feira de arranque de jornada nas cinco grandes ligas: 34 jogos nas ligas-foco, com Bayern-Stuttgart (abertura da Bundesliga), Lille-PSG, Crystal Palace-Man City, Milan-Venezia, Rio Ave-Sporting e Alaves-Villarreal. UMA unica tip curada. O travao do dia foi a amostra: a 2.a/3.a jornada as estatisticas de epoca corrente valem n=0 a n=3, e o /predictions da API devolve percentagens degeneradas (0%/50%/50%) para metade dos jogos. Todos os splits usados foram recalculados a mao a partir do /fixtures por equipa, epoca 2025/26, liga declarada e com o lado casa/fora separado — e nao dos painteis 'ultimos 10' dos sites, que nesta altura do calendario misturam amigaveis de pre-epoca com jogos oficiais (o 'ultimos 8' do Lille traz 5 amigaveis; o do Villarreal traz 5 amigaveis e a Como Cup). BOOKMAKER: Bet365 (id 8), casa de referencia desde 27/08. CONTEXT_DEPTH: 1 full, 0 partial. FASE A: nao produziu acumulador standard — com uma unica tip aprovada e impossivel formar par ou trio. FASE B: 5 pernas testadas contra o filtro minimo, so 2 passaram (Sporting vitoria @1.33 e Jong Ajax-Helmond ambas marcam @1.44); com 2 pernas nao ha trio, logo 0 curtos. Reprovadas: Milan vitoria @1.36 (H2H 4/4 mas forma 2V-3D nos ultimos 5 oficiais — o Milan fechou 2025/26 com 3 derrotas em 4 em casa), Genk vitoria @1.45 (1V-1E-1D em 3 jogos da Pro League, sofreu 4-2-2), FC OSS-Jong Utrecht ambas marcam @1.50 (o OSS nao marcou em 2 dos 3 jogos). FASE C: sem acumulador corvo. A unica dupla dentro da banda era Al-Hilal (Vitoria e +1.5 @1.34) x Sporting (Vitoria e +1.5 @1.49) = 1.997, e a perna do Al-Hilal caiu na curadoria: o Al Khaleej empatou os tres jogos da Pro League por 0-0, 0-0 e 1-1, ou seja o 'Mais de 1.5 golos' teria falhado em 2 dos 3, e nao foi possivel confirmar a baixa de Salem Al-Dawsari com duas fontes concordantes (uma unica fonte, e os dois agregadores saudis dao formas contraditorias entre si por misturarem amigaveis). Nao se esticou a banda para arranjar aposta. SOBREPOSICAO: nenhuma — nao ha acumuladores. EXPOSICAO: 1 stake. SEM TENNIS: a 28/08 o US Open esta na sexta-feira da qualificacao; o quadro principal so arranca a 30/08 (Passo 0, ponto 6 — verificado o estado real, nao a tabela). SEM NBA: fora de epoca. STAR LIST: +0/-0 nomes, 1 actualizacao de clube — Ferran Torres passa de Barcelona (529) para Paris Saint Germain (85), confirmado por tres fontes independentes na pesquisa do Lille-PSG (bis na estreia oficial pelo PSG contra o Rennes); lista mantem 51 nomes, POST verificado.",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim",
+      "fixtureId": 1570353,
+      "home": {
+        "name": "Alaves",
+        "logo": "https://media.api-sports.io/football/teams/542.png"
+      },
+      "away": {
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "league": "La Liga — Jornada 3",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-08-28T19:30:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O argumento nao e que estas duas equipas marquem muito — e que nenhuma das duas sabe manter a baliza a zero no lado do campo em que vai jogar. Recalculados a partir do /fixtures da API, com La Liga 2025/26 e o split ja separado, o Alaves em casa (n=19) guardou apenas 3 balizas a zero e falhou o golo apenas 3 vezes; o Villarreal fora (n=19) guardou tambem apenas 3 balizas a zero e falhou o golo 4 vezes. Sao dois registos de 16-em-19 dos dois lados: o Alaves marcou em 84% dos jogos em casa e sofreu em 84%; o Villarreal marcou em 79% dos jogos fora e sofreu em 84%. O produto directo (84% x 79%) da 66%, e a taxa observada de ambas-marcam nos proprios splits — 74% em casa do Alaves, 63% fora do Villarreal — cerca o mesmo intervalo. O historico confirma em vez de contrariar: 78% de ambas marcam em 18 confrontos (FootyStats) e os dois encontros de 2025/26 ambos com golos dos dois lados. O contexto de 2026/27 aponta na mesma direccao, com a ressalva de n=2 por equipa: o Villarreal jogou os dois jogos fora e empatou os dois a 2-2, marcando e sofrendo dois em cada; o Alaves marcou nos dois. As ausencias nao tocam no argumento e foram cruzadas com tres fontes: o Alaves nao tem lesionados nem castigados, e no Villarreal falha apenas Diego Conde, guarda-redes suplente, com Luiz Junior — titular nos dois jogos e apontado como estando sob pressao apos duas exibicoes fracas — confirmado na baliza por duas fontes espanholas independentes. O preco fecha o caso: 1.67 paga 59,9% implicitos contra uma estimativa de 65-68%. Risco assumido: o Alaves guardou a baliza a zero na jornada 1 em casa (3-0 ao Getafe) e Quique Sanchez Flores alinha com cinco defesas — foi isso que ditou uma stake e nao stake e meia.",
+      "factors": [
+        "Alaves em casa, La Liga 2025/26 (n=19, API-Football): marcou em 16 jogos (84%), sofreu em 16 (84%), ambas marcam em 14 (74%), apenas 3 balizas a zero e 3 jogos sem marcar; 25 golos marcados e 25 sofridos",
+        "Villarreal fora, La Liga 2025/26 (n=19, API-Football): marcou em 15 jogos (79%), sofreu em 16 (84%), ambas marcam em 12 (63%), apenas 3 balizas a zero e 4 jogos sem marcar; 24 golos marcados e 27 sofridos",
+        "Produto directo dos dois splits: 84% x 79% = 66% de probabilidade de ambas marcarem, contra 59,9% implicitos na odd de 1.67",
+        "H2H: ambas marcam em 78% dos 18 confrontos (14 em 18) e media de 3,11 golos por jogo — FootyStats, todos em La Liga",
+        "H2H recente (API-Football, ultimos 5, todos La Liga): 3 em 5 com golos dos dois lados, incluindo os dois encontros de 2025/26 (1-1 em Mendizorroza e 3-1 em Villarreal)",
+        "La Liga 2026/27, n=2 por equipa (amostra pequena, declarada): Villarreal jogou os dois jogos fora e empatou ambos 2-2 (Racing Santander e Atletico Madrid), marcando e sofrendo 2 em cada; Alaves marcou nos dois (3-0 ao Getafe em casa, 1-1 no Rayo)",
+        "xG/xGA por split, La Liga (FootyStats): Alaves em casa 1,78 xG contra 1,05 xGA; Villarreal fora 1,37 xG contra 1,42 xGA — o Villarreal e a unica das duas com xGA superior ao xG no split relevante",
+        "Ausencias Alaves (2 fontes concordantes): nenhum lesionado nem castigado — SportsGambler e futbolfantasy, ambas sem registos",
+        "Ausencias Villarreal (2 fontes concordantes): apenas Diego Conde (guarda-redes suplente, lesao no ombro, regresso previsto a 4 de Setembro); Luiz Junior confirmado como titular na baliza por futbolfantasy e jornadaperfecta",
+        "Treinadores confirmados por duas fontes: Quique Sanchez Flores no Alaves (5-3-2) e Inigo Perez no Villarreal, este ultimo em estreia de epoca com dois empates a 2-2 em dois jogos",
+        "Onzes provaveis com o ataque intacto dos dois lados: Alaves com Boye, Toni Martinez e Mariano (2 golos e 2 assistencias em 2 jornadas); Villarreal com Mikautadze, Pepe, Moleiro e Gerard Moreno/Ayoze",
+        "Consenso de terceiros: pick de ambas marcam em Dailysports e no apanhado da FreeBets ('goals at both ends'); Sports Mole e outro painel apontam 2-2. A SportsGambler diverge para Alaves handicap asiatico +0.25 @1.90, que nao contradiz o pick"
+      ],
+      "sources": [
+        "API-Football /fixtures?team=542&season=2025&league=140 e ?team=533 — jogos de La Liga 2025/26 com competicao declarada, filtrados por lado (casa para o Alaves, fora para o Villarreal) para calcular os splits de 19 jogos; e /fixtures/headtohead=542-533 para o H2H recente",
+        "API-Football /odds?fixture=1570353&bookmaker=8 — Bet365: Ambas Marcam Sim 1.67 / Nao 2.10; 1X2 3.10-3.50-2.25",
+        "FootyStats — pagina H2H Alaves vs Villarreal: 78% de ambas marcam em 18 confrontos, media de 3,11 golos, splits de balizas a zero e failed-to-score, xG e xGA separados por casa/fora",
+        "SportsGambler — antevisao Alaves vs Villarreal de 28/08: onzes provaveis, lista de lesoes e castigos (Alaves sem registos; Villarreal com Diego Conde), forma dos ultimos 10 na liga e pick Alaves AH +0.25 @1.90 [ausencias, fonte 1]",
+        "futbolfantasy.com/partidos/22444-alaves-villarreal — onzes provaveis da jornada 3 de 2026/27, treinadores (Quique Sanchez / Inigo Perez), sem lesionados nem castigados listados para o Alaves, Luiz Junior titular na baliza do Villarreal [ausencias, fonte 2, concordante]",
+        "jornadaperfecta.com — antevisao da jornada 3 de 2026/27: onze do Alaves sem alteracoes, Luiz Junior sob pressao apos duas exibicoes fracas com Gulasci como alternativa, Mariano com 2 golos e 2 assistencias em 2 jornadas [ausencias, fonte 3, concordante]",
+        "Dailysports e FreeBets — picks de ambas marcam para este jogo, recolhidas na volta cega da Fase A do Passo 4.5 antes de qualquer analise matematica"
+      ]
+    }
+  ],
+  "accumulators": []
+}

@@ -3,7 +3,7 @@
 // Base stake: €10 (configurable)
 
 const Bankroll = {
-  bankroll: 166.34,  // Total available bankroll in €
+  bankroll: 172.20,  // Total available bankroll in €
   maxExposure: 0.75, // Max % of bankroll to risk per day (75%)
 
   // Base stake = 2% of bankroll (industry standard 1-3%)

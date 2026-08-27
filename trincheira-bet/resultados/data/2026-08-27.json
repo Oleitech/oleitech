@@ -1,0 +1,185 @@
+{
+  "date": "2026-08-27",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Sim",
+        "marketLabel": "Ambas Marcam",
+        "fixtureId": 1623441,
+        "home": "Aarhus",
+        "away": "Benfica",
+        "league": "UEFA Europa League — Play-off (2.ª mão)",
+        "kickoff": "2026-08-27T18:00:00Z",
+        "odds": 1.67,
+        "bookmaker": "Bet365",
+        "score_confidence": 82,
+        "stake_units": 1.5,
+        "stake": 7.5,
+        "final_score": "1-3",
+        "result": "GREEN",
+        "hit": true,
+        "return": 12.53,
+        "pnl": 5.03,
+        "note": "Aarhus (AGF) precisava de 2 golos para forçar prolongamento depois de perder a 1.ª mão 1-3, e o jogo abriu-se como previsto: 1-3 no final (FT, 90 min), ambas as equipas marcaram. Benfica seguiu para a fase seguinte pelo agregado 2-6."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1623409,
+            "match": "Ajax vs FC Sion",
+            "pick": "Vitória Ajax",
+            "odds": 1.38,
+            "final_score": "5-3",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1623425,
+            "match": "FK Partizan vs Getafe",
+            "pick": "Dupla hipótese Getafe (X2)",
+            "odds": 1.33,
+            "final_score": "2-1",
+            "result": "RED"
+          },
+          {
+            "fixtureId": 1623428,
+            "match": "HNK Rijeka vs FC Midtjylland",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "final_score": "1-4",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.44,
+        "score": 65,
+        "stake_units": 0.5,
+        "stake": 2.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -2.5,
+        "note": "Ajax (5-3 ao FC Sion) e o over 1.5 do Rijeka-Midtjylland (1-4) cumpriram sem drama, mas o Partizan venceu o Getafe por 2-1 em casa — a dupla hipótese X2 falha por essa perna e a combinada cai."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1623442,
+            "match": "Anderlecht vs Kairat Almaty",
+            "pick": "Vitória Anderlecht",
+            "odds": 1.38,
+            "final_score": "3-0",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1623417,
+            "match": "Hradec Králové vs Panathinaikos",
+            "pick": "Dupla hipótese Panathinaikos (X2)",
+            "odds": 1.3,
+            "final_score": "1-1 (90min); 1-2 ao fim do prolongamento",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1623427,
+            "match": "Raków Częstochowa vs HNK Hajduk Split",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.3,
+            "final_score": "2-2 (90min); 2-3 ao fim do prolongamento",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.33,
+        "score": 65,
+        "stake_units": 0.5,
+        "stake": 2.5,
+        "result": "GREEN",
+        "return": 5.83,
+        "pnl": 3.33,
+        "note": "Três pernas limpas: Anderlecht resolveu cedo (3-0 ao Kairat Almaty), o Hradec Králové-Panathinaikos já estava empatado 1-1 nos 90 minutos regulamentares — suficiente para a dupla hipótese X2, independentemente do 1-2 no prolongamento — e Raków-Hajduk já ia em 2-2 no fim dos 90 minutos, cobrindo o 'mais de 1.5' mesmo antes do prolongamento (terminou 2-3). Combinada de 2.33 paga integralmente."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100.0,
+      "total_stake": 7.5,
+      "total_return": 12.53,
+      "pnl": 5.03,
+      "roi_pct": 67.07,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 5.0,
+      "accumulators_return": 5.83,
+      "accumulators_pnl": 0.83,
+      "combined_stake": 12.5,
+      "combined_return": 18.36,
+      "combined_pnl": 5.86,
+      "combined_roi_pct": 46.88
+    }
+  },
+  "btts":    { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards":   { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25":  { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1570335,
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 17 Cantos",
+        "match": "Barcelona vs Athletic Club",
+        "league": "La Liga (Spain)",
+        "elapsed": 69,
+        "score": "1-0",
+        "conf": 89,
+        "factors": [
+          "13 cantos aos 69' (17.0/jogo de ritmo)",
+          "Faltam 4 para a linha 17",
+          "P 70% · preço 4.50 · justo 1.43",
+          "Margem +48 pontos sobre o preço de mercado"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1787862986955,
+        "deliveries": 6,
+        "odds": 4.5,
+        "stake": 5,
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "finalCorners": 16,
+        "resolvedAt": 1787864649880
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "pending": 0,
+      "hit_rate": 0.0,
+      "hit_rate_por_jogo": 0.0,
+      "jogos_distintos": 1,
+      "stake_total": 5,
+      "stake_mensuravel": 5,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": -5,
+      "roi_pct_mensuravel": -100.0,
+      "odds_registadas": 1,
+      "by_strategy": {
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "pending": 0,
+          "hit_rate": 0.0
+        }
+      }
+    }
+  },
+  "balance": 172.2,
+  "notes": "Uma única tip curada (BTTS Aarhus-Benfica, GREEN) e dois acumuladores curtos Fase B — um RED (Partizan venceu o Getafe, quebrando a dupla hipótese X2), outro GREEN (Anderlecht, Panathinaikos e Raków-Hajduk cumpriram, os dois últimos decididos em prolongamento mas já resolvidos nos 90 minutos regulamentares para os mercados apostados). P&L do dia +5,86 €, banca sobe de 166,34 € para 172,20 €. Um alerta live do dia (CANTOS TARDIOS, Barcelona-Athletic Club, RED, resolvido pelo worker) — tracking informativo, não entra na banca. NOTA DE CONVERSÃO: tips/2026-08-27.json já usa o novo sistema de unidades (stake em 0.5/1/1.5/2, não em euros) adoptado a 26/08/2026; para preservar a aritmética em euros de update-results e dos 47 dias de histórico anteriores, converti à razão documentada 1 stake = 5 €. Isto diverge da nota de memória que dizia que o campo `stake` continuaria em euros — a tips agent aparentemente já escreveu unidades puras. Fica sinalizado para arbitragem, ver issues do run."
+}
