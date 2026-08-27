@@ -116,14 +116,27 @@ const UI = {
     });
   },
 
-  // Stake em unidades: banda minima (5 EUR) = 1 stake. 10->2, 7->1.4, 5->1
+  // Desde 27/08/2026 o campo `stake` dos ficheiros de tips ja vem EM STAKES
+  // (0.5, 1, 1.5, 2). Antes vinha em euros (5, 7, 10) e era preciso dividir.
+  //
+  // Como nenhuma stake valida passa de 2, o valor discrimina-se sozinho e os
+  // ficheiros antigos continuam a mostrar bem. Dividir sempre por 5 era o bug
+  // que punha "0.3 stakes" onde devia estar "stake e meia".
+  //
+  // NAO copiar esta logica para o layout.js nem para o results-page.js: esses
+  // leem P&L e banca dos resultados, que continuam em euros de proposito.
   STAKE_UNIT: 5,
 
   formatStake(stake) {
     if (stake == null || !isFinite(stake)) return '1 stake';
-    const units = stake / this.STAKE_UNIT;
+    const units = stake > 2 ? stake / this.STAKE_UNIT : stake;
+
+    // Nomes por extenso para os quatro valores do sistema.
+    const nomes = { 0.5: 'meia stake', 1: '1 stake', 1.5: 'stake e meia', 2: '2 stakes' };
+    if (nomes[units]) return nomes[units];
+
     const label = Number.isInteger(units) ? String(units) : units.toFixed(1);
-    return `${label} ${units === 1 ? 'stake' : 'stakes'}`;
+    return `${label} stakes`;
   },
 
   getDateStr(offset = 0) {
