@@ -31,3 +31,10 @@ relay/relay.env
 *.log
 
 .DS_Store
+
+# Master Trincheira — bot privado de Telegram
+master/master.env
+master/.offset
+master/.lock
+master/.session.json
+master/jobs/
