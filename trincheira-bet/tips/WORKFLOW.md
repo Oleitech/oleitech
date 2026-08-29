@@ -17,8 +17,14 @@ Podes (e deves) demorar o tempo que for preciso. Volume-alvo: **1–3 tips/dia**
 | Australian Open (ATP+WTA) | Jan 13–26 | **Tennis OBRIGATÓRIO** |
 | Roland Garros (ATP+WTA) | 24 Mai–7 Jun | **Tennis OBRIGATÓRIO** |
 | Wimbledon (ATP+WTA) | 30 Jun–13 Jul | **Tennis OBRIGATÓRIO** |
-| US Open (ATP+WTA) | 25 Ago–7 Set | **Tennis OBRIGATÓRIO** |
+| US Open (ATP+WTA) | **31 Ago–13 Set** (quadro principal) | **Tennis OBRIGATÓRIO** |
 | NBA Playoffs | Abr–Jun | **NBA OBRIGATÓRIO** |
+
+> ⚠️ **As três primeiras linhas nunca foram confirmadas.** A do US Open estava
+> errada nas duas pontas — começava durante a qualificação e acabava seis dias
+> antes da final, deixando a segunda semana inteira fora do gatilho. Corrigida a
+> 27/08/2026. Por isso é que o ponto 6 abaixo manda verificar o `round` real em
+> vez de confiar nesta tabela.
 
 Se a data-alvo cair dentro de um Grand Slam:
 1. Corre `tips/tennis/WORKFLOW.md` **em paralelo** com o futebol (não opcional, não esquecível)
@@ -26,6 +32,15 @@ Se a data-alvo cair dentro de um Grand Slam:
 3. Identifica matches do dia por sessão (manhã / tarde / night session)
 4. Dá prioridade a night session e afternoon matches — são os que ainda têm odds abertas quando as tips são geradas de manhã
 5. Não gerar tips de tennis para matches já em curso ou terminados
+6. **Confirma que o torneio está no QUADRO PRINCIPAL, não na qualificação.** As
+   datas da tabela acima são aproximadas e incluem a qualificação — o ESPN traz
+   `round` em cada jogo (`"Qualifying Final"` vs rondas do quadro principal).
+   **Só se geram tips a partir do quadro principal:** a qualificação é jogada por
+   tenistas fora do ranking relevante, com amostras curtas e odds finas.
+
+   > Apanhado no primeiro ciclo a sério (27/08/2026): a tabela dava o US Open
+   > como a decorrer desde 25/08, mas nesse dia estava na final da qualificação.
+   > Datas aproximadas numa tabela não substituem verificar o estado real.
 
 **Nota:** Em Grand Slams a 1ª semana tem slate massivo (40-60 jogos/dia). Não tentar cobrir tudo — foca nos 3-5 jogos com mais angle claro (upset narrative, forma extremamente díspar, motivação especial).
 
@@ -36,7 +51,10 @@ Se a data-alvo cair dentro de um Grand Slam:
 1. Lê `config.js` para a `API_KEY` e `API_HOST` (`v3.football.api-sports.io`)
 2. Lê `js/constants.js` para o `LEAGUES` map (id → name, country, flag, bttsRate, avgCorners, avgCards)
 3. Determina a data-alvo (default: hoje em PT timezone) e calcula `YYYY-MM-DD`
-4. Confirma que `tips/YYYY-MM-DD.json` ainda não existe (se existir, pergunta ao utilizador se quer substituir — se existir e for um update de tennis/NBA, fazer MERGE em vez de substituir)
+4. Verifica se `tips/YYYY-MM-DD.json` já existe. **Resolve por regra, sem perguntar:**
+   - Update de tennis/NBA sobre um ficheiro de futebol → **MERGE** (nunca substituir)
+   - O ciclo diário pediu geração para esta data → **substitui**, e regista nas `notes` que foi regenerado
+   - Invocação avulsa e o ficheiro já existe → **não mexas**; reporta o que lá está e pára
 
 ## ⚙️ Protocolo de fetch da API (POUPAR TOKENS — obrigatório)
 
@@ -123,13 +141,17 @@ Procedimento: depois de filtrar fixtures pelas ligas core, faz uma segunda passa
 
 **Skip:**
 - Ligas fora do `LEAGUES` map
-- Ligas no `LEAGUE_PREGAME_BLACKLIST` — **TEMPORÁRIO até arranque da época 2026/27 (Aug 2026)**:
-  - **Eredivisie** (NL) — BTTS-strong 60%+, voltar em Agosto
-  - **Bundesliga Austria** — volátil, voltar em Julho/Agosto
-  - **Pro League BE** — playoffs caóticos, voltar em Agosto
-  - **3.Liga DE** — sample pequena, voltar em Agosto
+- ~~Ligas no `LEAGUE_PREGAME_BLACKLIST`~~ — **blacklist EXPIRADO e levantado a 2026-08-26.**
 
-Razão do blacklist: final de época nestes campeonatos = rotação massiva, equipas safe relaxam, promovidos/despromoção distorcem motivações, jovens da formação a estrear. O ruído supera qualquer análise pré-jogo. Em Setembro-Abril estes campeonatos voltam a ser candidatos válidos.
+> O blacklist era explicitamente temporário, "até ao arranque da época 2026/27
+> (Aug 2026)", e cobria Eredivisie, Bundesliga Austria, Pro League BE e 3.Liga DE.
+> A razão era final de época: rotação massiva, equipas safe a relaxar, motivações
+> distorcidas por promoção/despromoção. **Essa razão desapareceu** — as épocas
+> arrancaram. As quatro voltam a ser candidatas normais.
+>
+> Ficou meses a mais em vigor porque não tinha data a sério, só a palavra
+> "Agosto". Qualquer exclusão temporária que se acrescente aqui no futuro **leva
+> data de fim explícita**, senão vira permanente por esquecimento.
 
 ## Passo 3 — Análise matemática (API-Football, por fixture candidata)
 
@@ -172,9 +194,22 @@ curl -s -H "x-apisports-key: $API_KEY" \
 jq -c '[.response[] | {team: .team.name, formation: .formation, xi: [.startXI[].player.name]}]' "$SCRATCH/lineup-$F.json"
 
 # --- Odds: o /odds é ENORME. Extrair SÓ os 3 mercados úteis do bookmaker preferido ---
-# Betclic = 27; fallback Bet365 = 8, Pinnacle = 4
+# Bet365 = 8 (casa de referencia desde 27/08/2026). Fallback: Pinnacle = 4.
+#
+# ATENCAO: o id 27 NAO e a Betclic — e a NordicBet. A API-Football expoe 33
+# casas (`/odds/bookmakers`) e a Betclic NAO esta entre elas. Nunca esteve.
+# O 'fallback' de anos foi sempre a unica opcao real. Como o utilizador aposta
+# na Betclic PT e ela nao existe nesta API, os precos publicados sao
+# indicativos do Bet365. Descoberto pelo QA no primeiro ciclo, 27/08/2026.
+#
+# O que se julgava ser a Betclic (27) devolveu
+# results=0 em todos os 22 jogos e ja vinha a ser substituida na pratica ha
+# semanas. Decisao do utilizador: fica o Bet365, que serve melhor.
+#
+# EXCEPCAO — Fase C (corvo): continua obrigatoriamente na MARATHONBET (id 2),
+# porque o Bet365 nao expoe o mercado Resultado + Total combinado. Nao trocar.
 curl -s -H "x-apisports-key: $API_KEY" \
-  "https://v3.football.api-sports.io/odds?fixture=$F&bookmaker=27" </dev/null > "$SCRATCH/odds-$F.json"
+  "https://v3.football.api-sports.io/odds?fixture=$F&bookmaker=8" </dev/null > "$SCRATCH/odds-$F.json"
 jq -c '.response[0].bookmakers[0].bets[]
   | select(.name=="Match Winner" or .name=="Both Teams Score" or .name=="Goals Over/Under")
   | {market: .name, values: .values}' "$SCRATCH/odds-$F.json"
@@ -191,6 +226,29 @@ jq -c '.response[0].bookmakers[0].bets[]
 - **Cantos médios** por equipa vs. média da liga (para mercado de cantos)
 - **xG / xGA** se disponível em `predictions`
 - **Probabilidades implícitas** das odds (1/odd) e juicy de margem
+
+### Factos de forma vêm da API, nunca de resumos de pesquisa
+
+**Obrigatório desde 2026-08-26.** Todos os factos de forma e resultados recentes
+saem do endpoint `/fixtures` (últimos 7-8 jogos de cada equipa), não de resumos
+de WebSearch.
+
+```bash
+curl -s -H "x-apisports-key: $API_KEY" \
+  "https://v3.football.api-sports.io/fixtures?team=$TEAM&last=8" </dev/null > "$SCRATCH/form-$TEAM.json"
+jq -c '[.response[] | {d:.fixture.date, lg:.league.name,
+        h:.teams.home.name, a:.teams.away.name,
+        gh:.goals.home, ga:.goals.away}]' "$SCRATCH/form-$TEAM.json"
+```
+
+**Porquê:** a 25/08 a WebSearch trouxe as divisões erradas do Ipswich e do
+Leicester e as tips saíram com factos falsos. A pesquisa serve para contexto
+(lesões, motivação, declarações); **números vêm da API**.
+
+O `.league.name` no output acima não é decoração — é o que permite cumprir a
+regra da proveniência do Passo 4.6 e separar jogos oficiais de amigáveis.
+
+---
 
 ## Passo 4 — Pesquisa qualitativa (notícias, onzes, lesões)
 
@@ -293,63 +351,125 @@ Sem esta separação, o cross-check vira **rubber-stamp** das escolhas já feita
 - **Steam contra a nossa tip nas últimas 12h** → adiar e re-verificar lineups, lesões de última hora
 - **Nunca apostar só porque o consenso é forte** — o value pode já não existir; a tese matemática + qualitativa tem de continuar a fazer sentido
 
-## Passo 4.6 — Antevisões Flashscore (obrigatório desde 25/08/2026)
+## Passo 4.6 — Investigação de contexto (obrigatória)
 
-O utilizador fornece screenshots das antevisões do Flashscore. **Não substituem
-a análise dos Passos 2 a 4.5 — somam-se a ela.** As duas vias cobrem coisas
-diferentes e é a combinação que decide.
+**Os screenshots do Flashscore acabaram** (decisão do utilizador, 2026-08-26).
+O que eles davam passa a vir de pesquisa, e a pesquisa é **obrigatória**, não
+opcional. Testado a 26/08 sobre Celta Vigo vs Osasuna antes de se decidir.
 
-### Porque foi adoptado
+### Os sete pontos a cobrir
 
-A 24/08/2026 a API estava cega — `played: 0` e percentagens 33/33/33 ou 50/50/0
-em todas as ligas, porque era o arranque da época. Com esses dados eu tinha
-declarado dia sem tips. Os screenshots do Flashscore levaram a cinco tips, uma
-das quais num jogo que a análise normal nem tinha listado.
+A API-Football não dá nenhum destes. Cada tip precisa deles.
 
-### O que o Flashscore dá e a API não
-
-| Dado | API-Football | Flashscore |
+| Ponto | Onde ir buscar | Estado do teste |
 |---|---|---|
-| Séries de balizas a zero ("últimas 7 vitórias em casa sem sofrer") | ✗ | ✓ |
-| Splits casa/fora de BTTS ("2 dos últimos 9 caseiros com ambas a marcar") | ✗ | ✓ |
-| Padrões ao intervalo ("liderou ao intervalo 1× em 5") | ✗ | ✓ |
-| Win probability | percentagens cruas, cegas no arranque | Opta by StatsPerform |
-| Contexto de mudança de treinador | ✗ | ✓ |
-| Ausências com nome e razão | parcial | ✓ |
-| Mercado sugerido pelo autor | ✗ | ✓ (cross-check, não decisão) |
+| Splits casa/fora de BTTS | FootyStats (página H2H do jogo) | ✅ exacto |
+| Séries de balizas a zero | FootyStats (% casa/fora) + lista de resultados | ✅ |
+| Probabilidade de vitória | Dimers, Forebet, implícita das odds | ✅ **melhor** — três modelos, não um |
+| Mudança de treinador | jornal do país do clube | ✅ |
+| Ausências com nome e razão | SportsGambler + jornal do país | ✅ (ver regra 2) |
+| Mercado sugerido por terceiros | SportsGambler, Forebet, Dimers | ✅ **melhor** — três, não um |
+| **Padrões ao intervalo** | — | ❌ **indisponível** |
 
-### ORDEM CORRECTA — corre a análise ANTES de pedir screenshots
+Bónus que os screenshots não davam: **xG e xGA separados por casa/fora**. No
+teste, o Celta concedia 1,71 xGA fora contra 1,27 em casa, e o Osasuna produzia
+1,82 xG em casa contra 1,16 fora. É sinal aproveitável — usar.
 
-**O utilizador não cobre todos os jogos: tirar screenshots dá trabalho a sério.**
-Por isso a sequência importa e é esta:
+**Sofascore e FotMob não servem por pesquisa:** as APIs públicas devolvem 403 e
+HTML. Não perder tempo a tentar.
 
-1. Corre os Passos 2 a 4.5 normalmente, sobre **todos** os fixtures das
-   ligas-foco. Isto dá amplitude.
-2. Reduz a uma **shortlist de 5-8 jogos** com sinal potencial — inclui os que
-   parecem marginais, porque é exactamente aí que o Flashscore desempata.
-3. **Apresenta a shortlist ao utilizador e pede os screenshots só desses.**
-4. Recebidos, cruza com a análise da fase 1 e decide.
+**A lacuna dos padrões ao intervalo é aceitável** porque nenhum mercado activo
+depende deles: o over/under 2.5 está desactivado desde Abril e o Over 1.5 HT foi
+substituído pela estratégia OVER xG no bot live. **Se algum dia se reabrir um
+mercado de intervalo, este passo tem de ser reavaliado.**
 
-Pedir screenshots de tudo é desperdiçar o tempo dele; pedir só do que já está
-decidido não acrescenta nada. A shortlist é o ponto certo.
+### Protocolo de recolha — por esta ordem, sem improvisar
 
-### Regras de leitura
+**Não andes à pesca em pesquisa aberta.** Já se sabe quais são os sites que têm
+estes dados; ir directo a eles é o que torna este passo viável em tempo. Pesquisa
+aberta é o **último** recurso, não o primeiro.
 
-- **Nunca tratar ausência de screenshot como ausência de valor.** Um jogo sem
-  antevisão continua elegível pela análise normal.
-- **A recomendação do autor do Flashscore é cross-check, não decisão.** A 24/08
-  a antevisão do Osasuna-Levante sugeria dupla hipótese ao Levante e a tip que
-  saiu foi Osasuna a marcar 2+ — sinal contrário, tese própria.
+**A — SportsGambler, por endereço directo (sem pesquisa).**
+O endereço é previsível. O slug é o nome da equipa **tal como vem da
+API-Football**, em minúsculas e com hífenes no lugar dos espaços:
+
+```
+https://www.sportsgambler.com/betting-tips/football/{casa}-vs-{fora}-prediction-lineups-odds-{YYYY-MM-DD}/
+```
+
+Exemplos verificados a 26/08/2026: `celta-vigo-vs-osasuna-...`,
+`barcelona-vs-athletic-club-...` (repara: `athletic-club`, não
+`athletic-club-bilbao` — é o nome curto da API, não o oficial).
+
+Dá numa só página: **onzes prováveis, ausências com razão e data de regresso,
+forma dos últimos 10 em casa/fora, pick recomendada e probabilidades implícitas.**
+
+**B — Uma pesquisa restrita aos três domínios de dados.**
+
+```
+WebSearch("{Casa} {Fora} H2H stats BTTS clean sheet xG",
+          allowed_domains=["footystats.org", "forebet.com", "dimers.com"])
+```
+
+Uma só chamada cobre os três. Devolve o endereço da página H2H do FootyStats
+(que **não** é previsível — usa nomes oficiais longos, `fc-barcelona-vs-athletic-club-bilbao`)
+e já traz H2H, média de golos, taxa de BTTS e as probabilidades dos modelos.
+
+**C — WebFetch à página H2H do FootyStats** que o passo B devolveu.
+É onde estão as tabelas por equipa com **splits casa/fora de BTTS, balizas a
+zero, failed-to-score, xG e xGA**. O resumo do passo B não os traz completos.
+
+**D — Só o que ainda faltar.** Tipicamente mudança de treinador e confirmação de
+ausências. Aí sim, pesquisa aberta e jornal do país do clube (lista no Passo 4).
+
+Três a quatro chamadas por jogo, contra pesquisa aberta indefinida.
+
+> **Se um site mudar de estrutura ou deixar de responder, regista-o nas `notes`
+> do dia** e passa ao seguinte. Não insistir: o Sofascore e o FotMob já foram
+> testados e recusam (403 e HTML) — não voltar a tentá-los.
+
+### Duas regras obrigatórias
+
+Sem elas a pesquisa é *pior* que o screenshot era. Ambas saíram do teste.
+
+1. **Proveniência declarada.** Cada estatística entra com **competição e
+   tamanho de amostra explícitos**. No teste, o "últimos 10" do FootyStats para o
+   Celta incluía quatro **amigáveis de pré-época** (Napoli, Sassuolo, Académico
+   Viseu, Sporting Gijón) misturados com jogos oficiais. Um screenshot vinha
+   filtrado por competição; a pesquisa não vem. **Número sem proveniência
+   descarta-se** — não se usa com ressalva.
+
+2. **Ausências exigem duas fontes concordantes.** No teste, uma fonte dava o
+   plantel do Celta completo e outra dava dois lesionados. É a regra que nasceu
+   do caso Rodri; passar a depender de pesquisa torna-a mais necessária, não
+   menos.
+
+### Registo por tip
+
+Campo **`context_depth`** em cada tip:
+
+- `"full"` — os sete pontos aplicáveis foram obtidos com proveniência declarada
+- `"partial"` — faltou algum, ou algum veio sem competição/amostra
+
+**`partial` desce o stake uma unidade** (stake e meia → uma; uma → meia), e
+**nunca mexe no score** — para não contaminar a medição que este campo existe
+para permitir. Regista a contagem nas `notes` do dia.
+
+> Substitui o antigo campo `flashscore_preview`, que era booleano e media outra
+> coisa. Ficheiros anteriores a 27/08/2026 mantêm-no; não converter.
+
+### Regras de leitura (valem para pesquisa tal como valiam para os screenshots)
+
+- **Nunca tratar ausência de dados como ausência de valor.**
+- **Recomendação de terceiros é cross-check, não decisão.**
 - **Verificar o tamanho da amostra em cada número.** "Melhor da liga em remates
-  à baliza" à 3ª jornada são dois jogos e não vale quase nada. As séries longas
-  ("últimas 7 vitórias caseiras", "11 jogos sem sofrer") é que têm corpo.
+  à baliza" à 3ª jornada são dois jogos e não vale quase nada.
 - **Cuidado com estatísticas de n pequeno bem redigidas.** "Alonso venceu o
   primeiro jogo sem sofrer nos dois últimos clubes" é n=2 e foi motivo para
   rejeitar o Chelsea a 24/08, apesar do preço atraente.
 - **Ler o que a estatística diz, não o que sugere.** "9 dos últimos 10 golos do
   Palmer antes dos 60 minutos" é sobre QUANDO marca, não SE marca — não sustenta
   marcador a qualquer momento.
-
 ---
 ## Passo 5 — Cruzar e decidir
 
@@ -406,22 +526,34 @@ Mercados úteis para além do 1X2, todos disponíveis na API:
 cantos e over/under 2.5, retirados depois de -44€ nos cartões da LaLiga. Não
 reabrir sem pedido explícito.
 
-## Passo 5.5 — Cálculo de stake (Sistema B — bandas por score)
+## Passo 5.5 — Cálculo de stake (unidades)
 
-Aplica esta tabela a cada tip aprovada (definida 2026-05-16):
+**A unidade de conta deste projecto é a STAKE. Nunca escrever euros.**
+(Decisão do utilizador, 2026-08-26: *"não quero ligar os € a este projeto, quero
+só ter stakes, eu faço a gestão a partir daí"*.)
 
-| Banda | Score | Stake |
+**Só existem quatro valores:**
+
+| Stake | Valor no campo `stake` | Quando |
 |---|---|---|
-| Alta confiança | **≥85** | **10€** |
-| Média-alta | **75–84** | **7€** |
-| Média | **65–74** | **5€** |
-| Baixa | **<65** | **não apostar** |
+| meia stake | `0.5` | tese válida mas com uma perna fraca |
+| uma stake | `1` | o caso normal |
+| stake e meia | `1.5` | tese forte, várias dimensões em ✅ |
+| duas stakes | `2` | **excepcional** — só com score ≥85 e confiança muito alta |
+
+Não existem valores intermédios. O sistema anterior tinha uma banda que dava
+**1,4 stakes**, o que não é um valor de nenhum sistema de unidades — foi isso que
+motivou a mudança.
 
 **Regras adicionais:**
 - O score sai da tabela de 6 dimensões (Passo 5). Não inflar scores para aumentar stake.
-- Tipo de mercado **não** influencia stake (scorers, favorites, btts e corners usam as mesmas bandas) — o que diferencia é a robustez da tese, capturada no score.
-- Total diário sugerido: até **40€** por dia em apostas (≈4 tips médias). Se 5 tips com 2+ em banda alta, podes ultrapassar — é decisão consciente.
-- Stakes em euros (€), não em unidades, para alinhar com o tracking actual.
+- Tipo de mercado **não** influencia stake — o que diferencia é a robustez da tese, capturada no score.
+- Score `<65` não se aposta, ponto.
+- Exposição diária: até **8 stakes**. Acima disso é decisão consciente e fica registada nas `notes`.
+- **Duas stakes é para ser raro.** Se aparecerem duas por semana, o critério está frouxo.
+
+Validado por `scripts/qa/validate-tips.mjs` — um valor fora destes quatro faz o
+QA bloquear o deploy.
 
 ## Passo 5.6 — Construir Acumulador(es)
 
@@ -474,7 +606,7 @@ Só entra uma tip que já passou os critérios individuais do Passo 5 (≥4 dime
 5. Se nenhum candidato em [2.0, 3.0] → Fase A não produz nenhum; avança para Fase B
 
 **Score:** score mínimo das pernas incluídas
-**Stake:** bandas Sistema B sobre o score mínimo (≥85→10€ · 75–84→7€ · 65–74→5€ · <65→não incluir)
+**Stake:** unidades sobre o score mínimo das pernas (≥85→`1.5` · 75–84→`1` · 65–74→`0.5` · <65→não incluir). Ver Passo 5.5.
 **Label no JSON:** `"label": "standard"` (ou omitir — é o default)
 
 ---
@@ -497,9 +629,21 @@ Varre todos os fixtures do dia (não só as ligas core — **sem qualquer restri
   - H2H últimos 5 jogos alinhado com o pick (≥3/5 resultados favoráveis)
   - Forma recente alinhada (≥3/5 dos últimos jogos favoráveis)
   - Sem red flag evidente (lesão de GR / toda a defesa ausente para BTTS; rival em grande forma para 1X2)
+
+    > **Arranque de época — proveniência, não recência.** Quando a época corrente
+    > ainda não tem 5 jogos oficiais, a janela **recua para a época anterior**, com
+    > a liga e o lado (casa/fora) declarados. É exactamente a exigência de
+    > proveniência do Passo 4.6 que já se aplica à tip individual. O que **nunca**
+    > é aceite é misturar amigáveis de pré-época para encher os cinco.
+    >
+    > Uniformizado a 28/08/2026. Até aí a regra era lida como exigindo época
+    > corrente, e nesse dia rejeitou a perna do Bayern por "sem forma de época
+    > corrente" no mesmo ficheiro em que a tip publicada assentava em n=19 da La
+    > Liga 2025/26 — o mesmo problema resolvido de duas maneiras opostas. O
+    > critério defensável nunca foi recência.
 - NÃO é necessário: pesquisa qualitativa completa, onze provável, tipsters cross-check
 
-Apresenta a shortlist ao utilizador **antes** de montar os acumuladores:
+Regista a shortlist (no chat se estiveres a correr à mão, em `runs/YYYY-MM-DD/tips.json` se estiveres no ciclo diário) e **segue em frente sem esperar**:
 ```
 📋 Shortlist de pernas curtas (odds 1.25–1.55):
   P1 — Celta Vigo -0.5 handicap @ 1.28  (H2H 4/5 ✅, forma 4/5 ✅)
@@ -524,7 +668,7 @@ Com a shortlist de N pernas elegíveis, constrói **o máximo de acumuladores in
 5. Ordena os trios pela força média das pernas (H2H + forma mais alinhados primeiro)
 
 **Score do Acumulador Curto:** fixo em **65** (score base para selecções sem curadoria completa)
-**Stake:** **3€** fixo por acumulador curto
+**Stake:** **meia stake** (`0.5`) fixa por acumulador curto
 **Label no JSON:** `"label": "curto"`
 
 ---
@@ -555,7 +699,7 @@ Resultado: 0 Standard + 2 Curtos = 2 acumuladores
 Tips aprovadas: A (PL, score 82, odd 1.72), B (La Liga, score 78, odd 1.55), C (NBA, score 74, odd 1.45)
 
 Fase A:
-  Par A+B: 1.72×1.55 = 2.67 ✅  → Standard 1 (score mín 78, stake 7€)
+  Par A+B: 1.72×1.55 = 2.67 ✅  → Standard 1 (score mín 78, stake 1)
   Segundo Standard: Par A+C e B+C partilham pernas com Std1 → 0 candidatos → 1 Standard
 
 Shortlist Fase B: pernas que NÃO sejam A, B ou C (odds 1.26–1.55):
@@ -623,7 +767,19 @@ quiseres usar, a odd entra **à mão**; caso contrário fica de fora.
 6. **Curadoria intermédia** por perna: H2H (≥3/5 alinhado), forma recente
    (≥3/5) e **lesões/onze provável**. Este último não é opcional: `V1` exige
    que o favorito ganhe mesmo, e um titular ausente muda isso.
-7. **Stake: 5 € fixos.** `score` = mínimo das duas pernas.
+
+   > **Arranque de época — proveniência, não recência.** Quando a época corrente
+   > ainda não tem 5 jogos oficiais, a janela **recua para a época anterior**, com
+   > a liga e o lado (casa/fora) declarados. É exactamente a exigência de
+   > proveniência do Passo 4.6 que já se aplica à tip individual. O que **nunca**
+   > é aceite é misturar amigáveis de pré-época para encher os cinco.
+   >
+   > Uniformizado a 28/08/2026. Até aí a regra era lida como exigindo época
+   > corrente, e nesse dia rejeitou a perna do Bayern por "sem forma de época
+   > corrente" no mesmo ficheiro em que a tip publicada assentava em n=19 da La
+   > Liga 2025/26 — o mesmo problema resolvido de duas maneiras opostas. O
+   > critério defensável nunca foi recência.
+7. **Stake: uma stake (`1`) fixa.** `score` = mínimo das duas pernas.
 8. `label: "corvo"` no JSON. O `js/ui.js` mostra "Acumulador Corvo" e a casa
    de referência a partir daí.
 
@@ -634,13 +790,18 @@ ofereça `Under 4.5`/`Under 5.5` na banda 1.25–1.55. Um favorito a 1.20–1.35
 vitória simples costuma dar exactamente isso. Evitar jogos de eliminatória com
 segunda mão, onde o favorito pode gerir o resultado.
 
-## Passo 6 — Rascunho no chat
+## Passo 6 — Rascunho
 
-Antes de gravar, mostra ao utilizador um rascunho compacto:
+Monta o rascunho compacto abaixo. **Não bloqueia.** Quando corres dentro do
+ciclo diário, escreve-o em `runs/YYYY-MM-DD/tips.json` e segue para o Passo 7 —
+a revisão humana acontece uma só vez, no resumo final antes do deploy, e o QA
+corre entretanto sobre o ficheiro gravado. Quando corres à mão, mostra-o no chat.
+
+Formato:
 
 ```
 🟢 BTTS — Liverpool vs Arsenal (PL, 17:30)
-   Pick: Sim @ 1.72 (Betclic) · Score 78 · Stake 10€
+   Pick: Sim @ 1.72 (Bet365) · Score 78 · Stake: uma stake
 
    Tese: [4-6 frases com onze, lesões, contexto, factor decisivo]
 
@@ -654,17 +815,17 @@ Antes de gravar, mostra ao utilizador um rascunho compacto:
 
 ---
 ---
-🔗 ACUMULADOR A · 2.67 combinada · Score mín: 78 · Stake: 7€
+🔗 ACUMULADOR A · 2.67 combinada · Score mín: 78 · Stake: uma stake
    1. ⚽ BTTS Sim — Liverpool vs Arsenal (PL) @ 1.72
    2. ⚽ Vitória Real Madrid — Real Madrid vs Sevilla (La Liga) @ 1.55
    [pernas de ligas diferentes ✅, sem sobreposição com Acumulador B ✅]
 
-🔗 ACUMULADOR B · 2.28 combinada · Score mín: 74 · Stake: 5€
+🔗 ACUMULADOR B · 2.28 combinada · Score mín: 74 · Stake: meia stake
    1. ⚽ BTTS Sim — Bayern vs Stuttgart (DFB Pokal) @ 1.57
    2. 🏀 Over 218.5 — Celtics vs Cleveland (NBA) @ 1.45
    [cross-sport ✅, nenhuma perna partilhada com Acumulador A ✅]
 
-🐦 ACUMULADOR CORVO · 1.83 combinada · Score mín: 71 · Stake: 5€  [Marathonbet]
+🐦 ACUMULADOR CORVO · 1.83 combinada · Score mín: 71 · Stake: uma stake  [Marathonbet]
    1. ⚽ Porto e Menos de 5.5 golos — Rio Ave vs Porto (Liga PT) @ 1.49
    2. ⚽ PSV e Mais de 1.5 golos — Excelsior vs PSV (Eredivisie) @ 1.23
    [jogos diferentes ✅, combinada dentro de 1.7–2.2 ✅]
@@ -672,7 +833,10 @@ Antes de gravar, mostra ao utilizador um rascunho compacto:
    (ou "Sem acumulador hoje — nenhuma combinação cai entre 2.0 e 3.0.")
 ```
 
-Espera validação humana antes de gravar.
+Não esperar por validação para gravar. O portão é o resumo final antes do
+deploy, não este passo. (Alterado a 2026-08-26: enquanto era um humano a executar
+o workflow, parar aqui fazia sentido; com um agente a executá-lo, oito paragens
+tornavam o ciclo impossível de correr sozinho.)
 
 ## Passo 7 — Gravar JSON
 

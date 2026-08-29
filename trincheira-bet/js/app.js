@@ -8,8 +8,18 @@ const App = {
     tennis: { gridId: 'tennis-grid', badgeId: 'badge-tennis', sectionId: 'section-tennis' },
   },
 
+  // Data local, nao UTC: UI.getDateStr usa toISOString, por isso entre a
+  // meia-noite e a 1h (WEST) devolvia ontem e pediamos as tips erradas.
+  getLocalDateStr(offset = 0) {
+    const d = new Date();
+    d.setDate(d.getDate() + offset);
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    return `${d.getFullYear()}-${mm}-${dd}`;
+  },
+
   getTodayPath() {
-    return `tips/${UI.getDateStr(0)}.json`;
+    return `tips/${this.getLocalDateStr(0)}.json`;
   },
 
   async init() {
@@ -124,15 +134,15 @@ const App = {
     }
 
     const tips = Array.isArray(payload?.tips) ? payload.tips : [];
-    if (tips.length === 0) {
+    const accas = Array.isArray(payload?.accumulators) ? payload.accumulators : [];
+    if (tips.length === 0 && accas.length === 0) {
       this.showStatus('Dia sem tips — nenhum jogo cumpriu os critérios.', 'empty');
       return;
     }
-
     this.renderTips(tips);
-    this.renderAccumulators(payload.accumulators);
+    this.renderAccumulators(accas);
     this.savePreMatchDataForLive(tips);
-    this.updateMeta(payload, tips.length);
+    this.updateMeta(payload, tips.length, accas.length);
   },
 
   showStatus(text, kind) {
@@ -229,8 +239,12 @@ const App = {
     if (statTips) statTips.textContent = total;
   },
 
-  updateMeta(payload, count) {
-    this.showStatus(`Tips publicadas · ${count} ${count === 1 ? 'aposta' : 'apostas'}`, 'ready');
+  updateMeta(payload, count, accaCount = 0) {
+    const parts = [];
+    if (count > 0) parts.push(`${count} ${count === 1 ? 'aposta' : 'apostas'}`);
+    if (accaCount > 0) parts.push(`${accaCount} ${accaCount === 1 ? 'acumulador' : 'acumuladores'}`);
+    const label = parts.length ? parts.join(' · ') : 'sem apostas';
+    this.showStatus(`Tips publicadas · ${label}`, 'ready');
     const statUpdated = document.getElementById('stat-updated');
     if (statUpdated && payload.generated_at) {
       const d = new Date(payload.generated_at);
