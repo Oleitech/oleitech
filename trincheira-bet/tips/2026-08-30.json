@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T02:40:00+01:00",
+  "notes": "Domingo de arranque nas ligas grandes: Premier League, La Liga, Serie A e Ligue 1 na 2.a jornada, Bundesliga na 1.a e Jupiler Pro League com 2-3 jogos. As amostras de epoca corrente nesses campeonatos sao de 1 a 3 jogos, e os ultimos-10 dos agregadores vem contaminados com amigaveis de pre-epoca: foram descartados, nao usados com ressalva. O peso da analise foi por isso para os campeonatos nordicos, que vao a meio da epoca 2026 e dao 8-9 jogos por lado com proveniencia limpa. SOBREPOSICAO: nenhuma. Os seis jogos usados (Bodo/Glimt-Rosenborg na tip; Cagliari-Inter, Salzburg-Austria Viena e Silkeborg-Midtjylland no curto; Real Madrid-Malaga e Feyenoord-ADO no corvo) sao todos distintos, nenhum aparece em mais do que um bilhete. Fase A nao produziu nada: com uma so tip aprovada nao ha par nem trio possivel dentro de 2.0-3.0. Tennis: US Open confirmado no QUADRO PRINCIPAL (o ESPN devolve round Round-1 nos 39 jogos de singulares de hoje, nao qualificacao); workflow de tennis corrido e zero tips, por falta de preco verificavel ao nivel do jogo. NBA fora de epoca. context_depth: 1 full, 0 partial. Exposicao total 2.0 stakes.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1550099,
+          "match": "Cagliari vs Inter",
+          "pick": "Vitoria Inter",
+          "odds": 1.42,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1561923,
+          "match": "Red Bull Salzburg vs Austria Vienna",
+          "pick": "Vitoria Salzburg",
+          "odds": 1.38,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1549004,
+          "match": "Silkeborg vs FC Midtjylland",
+          "pick": "Vitoria Midtjylland",
+          "odds": 1.5,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.94,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1570360,
+          "match": "Real Madrid vs Malaga",
+          "pick": "Real Madrid e Menos de 5.5 golos",
+          "odds": 1.38,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552149,
+          "match": "Feyenoord vs ADO Den Haag",
+          "pick": "Feyenoord e Menos de 5.5 golos",
+          "odds": 1.48,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.04,
+      "score": 70,
+      "stake": 1
+    }
+  ],
+  "tips": [
+    {
+      "market": "favorites",
+      "pick": "Bodo/Glimt vence sem sofrer",
+      "fixtureId": 1494740,
+      "home": {
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png"
+      },
+      "away": {
+        "name": "Rosenborg",
+        "logo": "https://media.api-sports.io/football/teams/331.png"
+      },
+      "league": "Eliteserien",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
+      "kickoff": "2026-08-30T12:30:00Z",
+      "odds": 2.75,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 0.5,
+      "context_depth": "full",
+      "tese": "Num domingo em que quase toda a Europa esta a 1.a ou 2.a jornada, o Eliteserien vai na 18.a e permite trabalhar com amostras a serio. O Bodo/Glimt em casa esta a 3,0 golos marcados e 0,3 sofridos por jogo em 8 jogos de Eliteserien 2026, com 6 balizas a zero nesses 8. O Rosenborg fora, na mesma prova e na mesma epoca, marca 0,9 golos por jogo e falhou o golo em 5 das 8 deslocacoes: e exactamente a metade do jogo de que este mercado precisa. O onze provavel do Bodo tem a linha defensiva toda de pe (Haikin; Sjovold, Bjortuft, Aleesami, Dybvik Maatta) e as ausencias confirmadas por duas fontes concordantes sao Evjen (joelho), Mikkelsen (virilha) e Sjong, todas do meio-campo para a frente, pelo que nao tocam na tese defensiva; do lado do Rosenborg falta Islamovic, avancado. O ponto contra, e nao e pequeno: o H2H diz que este jogo costuma ter golos dos dois lados (81,8 por cento de BTTS em 11 encontros de Eliteserien, media de 3,55 golos) e em Bodo o Bodo/Glimt so guardou uma baliza a zero nos ultimos 5 recebimentos ao Rosenborg. Sao porem jogos de 16/05/2021 a 29/05/2026, e o unico de 2026 (2-2) foi fora, onde o Bodo concede 1,1 golos por jogo e nao os 0,3 de casa; com um Rosenborg que entao lutava pelo titulo e nao este, que perdeu 7 dos ultimos 10 fora. A segunda reserva e o calendario: o Bodo jogou o playoff da Champions a 25/08 e a Taca a 26/08, e este e o terceiro jogo em cinco dias. Com 2.75 (implicita 36 por cento) num evento que estimo em 40-45 por cento, ha margem para pagar as duas reservas, mas nao para subir de meia stake.",
+      "factors": [
+        "Bodo/Glimt em casa, Eliteserien 2026 (n=8 jogos de liga): 3,0 golos marcados e 0,3 sofridos por jogo; 6 balizas a zero em 8. Fonte: API-Football teams/statistics",
+        "Rosenborg fora, Eliteserien 2026 (n=8 jogos de liga): 0,9 golos marcados por jogo e falhou o golo em 5 dos 8. Fonte: API-Football teams/statistics",
+        "Rosenborg fora, ultimos 10 (SportsGambler, pagina de 30/08/2026): 2V-1E-7D, 0,90 golos marcados e 1,70 sofridos por jogo",
+        "Bodo/Glimt sem derrota ha 10 jogos (9V-1E), 2,90 marcados e 0,50 sofridos: amostra do SportsGambler que MISTURA Eliteserien, Champions e Taca, por isso entra como contexto e nao como base da tese",
+        "CONTRA. H2H oficial (API-Football, 11 encontros de Eliteserien entre 16/05/2021 e 29/05/2026): BTTS em 81,8 por cento (9 em 11) e media de 3,55 golos; em Bodo apenas 1 baliza a zero nos ultimos 5 recebimentos. E o argumento mais forte contra a tese. Ressalva: o unico encontro de 2026 (2-2) foi FORA, onde o Bodo concede 1,1 golos por jogo e nao os 0,3 de casa",
+        "CONTRA. Congestionamento: Bodo/Glimt jogou o playoff da Champions a 25/08 e a Taca a 26/08; hoje e o terceiro jogo em 5 dias",
+        "Ausencias Bodo/Glimt, duas fontes concordantes: Evjen (joelho), Mikkelsen (virilha) e Sjong, todas do meio-campo para a frente; guarda-redes e os quatro defesas do onze provavel disponiveis",
+        "Ausencia Rosenborg, duas fontes concordantes: Islamovic (perna), avancado. Fossum (coxa) com regresso previsto para hoje",
+        "Preco: Bet365 mercado 36 Win To Nil Home a 2.75 (implicita 36,4 por cento) contra estimativa propria de 40-45 por cento",
+        "Cross-check de terceiros: SportsGambler recomenda Bodo/Glimt Handicap Asiatico -1.5 a 1.90 com cerca de 60 por cento, alinhado na direccao mas em mercado diferente do nosso"
+      ],
+      "sources": [
+        "API-Football teams/statistics: Eliteserien 2026, splits casa/fora de Bodo/Glimt (327) e Rosenborg (331), competicao e amostra declaradas",
+        "API-Football fixtures/headtohead 327-331 (last=12): competicao declarada jogo a jogo, so os encontros de Eliteserien foram usados",
+        "API-Football injuries fixture 1494740: primeira fonte de ausencias (Evjen, Mikkelsen, Sjong, Bro Hansen, Gundersen, Riisnaes, Islamovic)",
+        "SportsGambler, pagina do jogo publicada a 30/08/2026 e data verificada na propria pagina: segunda fonte de ausencias, concordante com a API, mais onze provavel e datas de regresso",
+        "FootyStats via pesquisa restrita a footystats/forebet/dimers: H2H de 21 encontros de TODAS as provas (liga, taca e amigaveis), BTTS 71 por cento e media 3,24 golos. Amostra contaminada por competicao, NAO usada na tese nem em factor nenhum; fica registada so para mostrar que foi vista e descartada",
+        "API-Football odds bookmaker 8 (Bet365), mercado 36 Win To Nil: recolhido e reconfirmado sem alteracao as 02h20 de 30/08, sempre 2.75"
+      ]
+    }
+  ]
+}
