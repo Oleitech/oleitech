@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T01:02:49+01:00",
+  "notes": "Segunda-feira de arranque: Premier League e Serie A na 2.a jornada, La Liga na 3.a, Liga Portugal na 4.a. CORRECCAO POS-QA (31/08 as 01:0x Europe/Lisbon): o ficheiro foi revisto depois do veredicto FAIL do QA. Saiu a tip da Roma, o corvo recebeu a curadoria que lhe faltava, e os carimbos de tempo passaram a ser medidos em vez de escritos a mao. TIP DA ROMA REMOVIDA (fixture 1550103, baliza a zero da AS Roma em Lecce, 1,83, meia stake). Sai por dois motivos independentes. PRIMEIRO, falha a regra de admissao do Passo 5, que foi reconfirmada no WORKFLOW.md e diz o seguinte: uma tip vai ao ficheiro apenas com 4 dimensoes ou mais em OK, ou com 3 em OK mais ZERO em NAO mais contexto excepcional. O consenso de mercado esta em NAO (Sportskeeda preve 2-1, ou seja o Lecce a marcar, e o SportsGambler recomenda Lecce mais 1.25), o contexto motivacional nunca chegou a ser argumentado e a dimensao matematica e ambigua porque a propria tese declarava a taxa de baliza a zero da Roma fora como perna fraca. Ficam 3 em OK com 1 em NAO: fora das duas portas. SEGUNDO, e independentemente da regra, a margem nao existe, e agora esta quantificada em vez de assumida. Poisson com a Serie A 2025/26 (media de 1,276 golos da equipa da casa em 380 jogos, standings da API-Football), ataque do Lecce em casa 13 golos em 19 jogos e defesa da Roma fora 21 golos sofridos em 19 jogos, da lambda 0,593 para o Lecce e P(Roma nao sofre) igual a 55,3 por cento, contra 54,6 por cento implicitos na odd de 1,83. Sete decimos de ponto percentual, antes de qualquer margem da casa, nao e margem. A estimativa foi calculada e nao inventada, e nao salva a tip: por isso a tip saiu em vez de ser reescrita. Cai com ela o aviso de concentracao de mercado, que apontava as duas tips serem ambas baliza a zero ao mesmo preco de 1,83. CORVO MANTIDO, COM A CURADORIA DA REGRA 6 FEITA E A INCOERENCIA RECONCILIADA. A perna Benfica e Mais de 1.5 golos (1,27) estava publicada sem H2H, sem forma e sem onze provavel, o que a regra 6 da Fase C torna obrigatorio. Ficou registada perna a perna no proprio acumulador, nos campos curadoria_h2h, curadoria_forma e curadoria_onze. Resumo do Benfica: H2H 5/5 alinhado com o pick nos ultimos 5 encontros oficiais e 3/3 na Luz; forma 3/5 nos ultimos 5 oficiais, no limite do filtro, com o 2-2 caseiro com o Academico Viseu declarado como sinal contra; splits da Primeira Liga 2025/26 com lado e n declarados (Benfica casa n=17, 11V-6E-0D, 2,41 golos marcados e 0,76 sofridos; Estoril fora n=17, 4V-4E-9D, 1,47 e 1,82); Estoril e 17.o classificado com 1 ponto e 1 golo marcado em 3 jogos. A INCOERENCIA que o QA apanhou tinha razao de ser e resolve-se assim. O livro de bordo rejeitou o Benfica como tip individual (Benfica marca 3+ a 1,73) invocando rotacao provavel depois do playoff da Liga Europa de quinta-feira, e a seguir justificou a passagem ao corvo com um mercado que nao depende do numero de golos do Benfica. Estava errado duas vezes. Primeiro porque Benfica e Mais de 1.5 golos exige que o Benfica VENCA e que o total seja 2 ou mais, logo depende do Benfica tanto ou mais do que o mercado de onde foi excluido. Segundo porque a premissa da rotacao nao sobreviveu a verificacao: sao 4 dias de descanso (quinta 27/08 para segunda 31/08), a eliminatoria ja estava resolvida antes do jogo (6-2 no agregado, 3-1 em cada mao), o /fixtures da API-Football mostra que o jogo seguinte e so a 05/09 e o proximo europeu a 16/09, e a conferencia de imprensa de Marco Silva de 30/08 (Observador e RTP) nao menciona qualquer poupanca, com o onze provavel da antevisao zerozero/SAPO das 23:15 de 30/08 a apresentar equipa completa (Samuel Soares; Bah, Tomas Araujo, Lenglet, Dahl; Barreiro, Barrenechea; Prestianni, Rafa, Schjelderup; Pavlidis). O argumento da rotacao e portanto RETIRADO, e nao transportado de um sitio para o outro: nao serve para excluir e servir de ressalva ao mesmo tempo. A unica baixa do Benfica e Aursnes (entorse do tornozelo direito), cruzada em duas fontes concordantes, A Bola de 28/08 e a antevisao de 30/08. PRECO DA PERNA DO BENFICA, DECLARADO SEM MAQUILHAGEM. O mesmo Poisson, com a Primeira Liga 2025/26 (media de 1,497 golos da casa em 306 jogos), da lambda 2,94 para o Benfica e 0,75 para o Estoril, e P(Benfica vence e total maior ou igual a 2) entre 74 e 80 por cento consoante se use o Estoril da epoca passada ou o desta epoca, contra 78,7 por cento implicitos em 1,27. Nao ha margem: a perna esta aproximadamente ao preco justo. A Fase C nao exige margem - a regra 6 exige curadoria e a regra 3 exige a combinada na banda 1.70-2.20, e 1,27 x 1,52 da 1,93. Fica escrito para que o auditor nao leia isto como duplo criterio: a tip individual sai por falhar o Passo 5, que e a norma das tips curadas; a perna de corvo cumpre as regras proprias da Fase C, que sao outras e nunca foram de procura de valor. PERNA DO COPENHAGA, curadoria tambem completada porque a regra 6 e por perna: H2H 3/5, forma 3/5 e lesoes cruzadas em duas fontes concordantes, o /injuries da API-Football para a fixture 1549007 e a imprensa dinamarquesa (bold.dk e Tipsbladet). O FCK joga sem o guarda-redes Kotarski e sem Sarapata, Huescas, Nemeth e Mattsson - cinco baixas, o ponto fraco declarado desta perna, compensado por um Sonderjyske que chega de 0-3 caseiro com o Nordsjaelland e 2-3 em Brondby. NAO se substituiu nenhuma perna: a alternativa era o Barcelona Casa/Mais 2.5 a 1.38, que daria 2,10 dentro da banda, mas correlaciona com a tip do Barcelona e a regra 5 so o permite com declaracao expressa; preferiu-se nao criar exposicao correlacionada. PROVENIENCIA - as amostras de epoca corrente nas ligas grandes sao de 1 a 3 jogos, por isso todos os numeros das teses recuam a epoca 2025/26 com liga, lado (casa/fora) e n declarados, como manda o Passo 4.6. Foram DESCARTADOS, nao usados com ressalva, os ultimos 5/7/10 do FootyStats para Barcelona, Rayo, Lecce e Roma: cruzados com o /fixtures da API-Football, misturavam amigaveis de pre-epoca com jogos oficiais. Na revisao pos-QA foram descartadas tambem duas antevisoes de Benfica-Estoril que a pesquisa devolveu com ar de actuais e eram de 03/01/2026 e do fecho de 2025/26 (zerozero /noticias/1018142 e O Jogo 18084837, esta ultima ainda com Otamendi e Mourinho); ficaram de fora e nao entraram na curadoria. FASE A - nao produziu nada. Antes da correccao o par das duas tips dava 3,35, fora da banda 2.0-3.0; depois da saida da Roma fica uma unica tip aprovada e nao ha par nem trio possivel. FASE B - 6 pernas avaliadas na banda 1,25-1,55, 3 aprovadas e 3 rejeitadas, o que da 1 acumulador curto. Shortlist completa no livro de bordo .runs-local/2026-08-31/tips.json. FASE C - o mercado Resultado+Total (id 25) so estava exposto na Marathonbet em tres jogos do dia (Benfica, Barcelona e FC Copenhagen), depois de verificados 15 jogos. SOBREPOSICAO: NENHUMA. Os seis jogos usados (Barcelona-Rayo na tip; Hajduk-Lokomotiva, Dijon-Saint Etienne e Atalanta-Bologna no curto; Benfica-Estoril e Copenhaga-Sonderjyske no corvo) sao todos distintos e nenhum aparece em mais do que um bilhete. TENNIS - US Open confirmado no QUADRO PRINCIPAL: o ESPN devolve o campo round como Round 1 nos 22 jogos de singulares masculinos e 26 de femininos agendados para hoje, e o torneio abriu a 30/08, nao ha qualificacao em curso. Workflow de tennis corrido e zero tips. O jogo com mais angle, Fils-Tsitsipas, tem o favorito a 1,235 (-425), abaixo do minimo absoluto de 1,50, e o underdog a 3,90 sem tese que o sustente (Fils lidera o H2H 5-0 e chega campeao de Cincinnati); Dimitrov-Popyrin esta equilibrado e sem edge; os mercados secundarios nao tinham preco verificavel ao nivel do jogo. NBA fora de epoca. FONTES QUE RECUSARAM: marca.com, as.com, mundodeportivo.com, sport.es e relevo.com estao bloqueados ao user-agent; windrawwin.com, goal.com, a pagina de jogo do forebet.com e lastwordonsports.com devolveram 403. Na revisao pos-QA juntaram-se o observador.pt (402) e o insights.betfred.com (403), e a pagina de lineups do SportsGambler ainda nao publicava onzes para Benfica-Estoril nem para Copenhaga-Sonderjyske. Contornado com pesquisa aberta e imprensa nacional. Sofascore e FotMob nao foram tentados, como manda o workflow. STAR LIST: mudanca IDENTIFICADA MAS NAO APLICADA. Watkins devia sair (transferencia para o Al-Hilal concluida, confirmada por Sky Sports, Goal e Yahoo, logo fora das ligas-foco) e Nicolas Jackson devia entrar no lugar dele no Aston Villa, mas o POST /stars devolveu 403 com os dois tokens disponiveis. A lista continua com 51 nomes e com o Watkins la dentro, pelo que o lineup-edge scanner vai disparar falsos alertas sobre ele. Fica para o Master resolver. context_depth: 1 full, 0 partial. Exposicao total 3,0 stakes (1,5 na tip do Barcelona, 0,5 no curto, 1 no corvo), contra 3,5 antes da correccao.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1548519,
+          "match": "HNK Hajduk Split vs NK Lokomotiva Zagreb",
+          "pick": "Vitoria Hajduk Split",
+          "odds": 1.42,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552452,
+          "match": "Dijon vs Saint Etienne",
+          "pick": "Saint Etienne empate anula (DNB)",
+          "odds": 1.36,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1550098,
+          "match": "Atalanta vs Bologna",
+          "pick": "Atalanta empate anula (DNB)",
+          "odds": 1.4,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.7,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1575476,
+          "match": "Benfica vs Estoril",
+          "pick": "Benfica e Mais de 1.5 golos",
+          "odds": 1.27,
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "curadoria_h2h": "5/5 alinhados com o pick nos ultimos 5 encontros oficiais (API-Football /fixtures/headtohead), todos de Primeira Liga: Estoril 1-3 Benfica 16/05/2026, Benfica 3-1 Estoril 03/01/2026, Estoril 1-2 Benfica 03/05/2025, Benfica 3-0 Estoril 23/12/2024, Benfica 3-1 Estoril 10/03/2024. Na Luz 3/3.",
+          "curadoria_forma": "3/5 alinhados nos ultimos 5 oficiais, amigaveis excluidos: V 3-1 em Aarhus (UEL 27/08), V 3-1 ao Aarhus na Luz (UEL 20/08), V 7-0 no Casa Pia (Liga 17/08), E 1-1 em Hearts (UEL 13/08), E 2-2 caseiro com o Academico Viseu (Liga 09/08). No limite do filtro; o 2-2 com o Viseu e o sinal contra, declarado. Splits Primeira Liga 2025/26: Benfica casa n=17, 11V-6E-0D, 2,41 golos marcados e 0,76 sofridos por jogo; Estoril fora n=17, 4V-4E-9D, 1,47 marcados e 1,82 sofridos. Epoca corrente: Estoril e 17.o com 1 ponto e 1 golo marcado em 3 jogos.",
+          "curadoria_onze": "Duas fontes concordantes. Antevisao zerozero/SAPO de 30/08 as 23:15 e A Bola de 28/08: a unica baixa do Benfica e Aursnes (capitao, entorse do tornozelo direito sofrida com o Aarhus). Conferencia de Marco Silva de 30/08 (Observador e RTP): Palhinha nos convocados, Barrenechea mantem o lugar, zero mencao a poupanca. Onze provavel: Samuel Soares; Bah, Tomas Araujo, Lenglet, Dahl; Barreiro, Barrenechea; Prestianni, Rafa, Schjelderup; Pavlidis, ou seja equipa completa. Estoril: Salazar lesionado e Sintes indisponivel, Andreou e Holsgrove aptos (conflito menor de fontes declarado, uma delas da o Estoril sem lesionados). ROTACAO AVALIADA E DESCARTADA: 4 dias de descanso (quinta 27/08 para segunda 31/08), eliminatoria ja resolvida (6-2 no agregado) e o /fixtures da API-Football mostra o jogo seguinte so a 05/09 e o proximo europeu a 16/09."
+        },
+        {
+          "fixtureId": 1549007,
+          "match": "FC Copenhagen vs Sonderjyske",
+          "pick": "FC Copenhagen e Mais de 1.5 golos",
+          "odds": 1.52,
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "curadoria_h2h": "3/5 alinhados: V 2-1, V 2-0, V 2-1 (taca), E 1-1, D 0-2.",
+          "curadoria_forma": "3/5 nos ultimos 5 oficiais: V 4-1 ao Inter Turku (UECL 27/08), D 0-4 em Viborg (23/08), E 0-0, V 4-0, V 5-1. O Sonderjyske chega de 0-3 caseiro com o Nordsjaelland e 2-3 em Brondby.",
+          "curadoria_onze": "Duas fontes concordantes: /injuries da API-Football para a fixture 1549007 e imprensa dinamarquesa (bold.dk e Tipsbladet). FCK sem o guarda-redes Kotarski e sem Sarapata, Huescas, Nemeth e Mattsson; Sonderjyske sem M. Olesen. Cinco baixas sao o ponto fraco declarado desta perna."
+        }
+      ],
+      "combined_odds": 1.93,
+      "score": 70,
+      "stake": 1,
+      "curadoria_nota": "Regra 6 da Fase C cumprida nas duas pernas na correccao pos-QA de 31/08 01:0x. Odds reconfirmadas na Marathonbet (bookmaker 2, mercado Result/Total Goals id 25) pelo /odds da API-Football: Benfica Home/Over 1.5 a 1.27 e FC Copenhagen Home/Over 1.5 a 1.52; combinada 1,93, dentro da banda 1.70-2.20."
+    }
+  ],
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Baliza a zero",
+      "pick": "Barcelona nao sofre golos (Clean Sheet Casa)",
+      "fixtureId": 1570354,
+      "home": {
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png"
+      },
+      "away": {
+        "name": "Rayo Vallecano",
+        "logo": "https://media.api-sports.io/football/teams/728.png"
+      },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-08-31T19:30:00Z",
+      "odds": 1.83,
+      "bookmaker": "Bet365",
+      "score": 82,
+      "stake": 1.5,
+      "context_depth": "full",
+      "tese": "A tese numa frase: o Rayo Vallecano nao marca no Camp Nou. O mercado que a exprime exactamente e a baliza a zero do Barcelona, e nao o Ambas Marcam Nao - este bilhete so ganha se o Rayo ficar a zero, enquanto o Ambas Marcam Nao tambem ganharia num cenario de falha do ataque do Barcelona, que a tese nao preve, e ainda paga menos (1,80 contra 1,83). Numeros com proveniencia declarada: na La Liga 2025/26, em 19 jogos em casa, o Barcelona sofreu 0,5 golos por jogo e guardou 10 balizas a zero (52,6 por cento); na La Liga 2026/27 leva 2 jogos e 2 balizas a zero (2-0 ao Athletic Club em casa e 5-0 no Elche). Do outro lado, na La Liga 2025/26 o Rayo marcou 0,9 golos por jogo fora e falhou o golo em 9 das 19 deslocacoes (47,4 por cento). O H2H no Camp Nou e ainda mais duro para o visitante: 1-0, 1-0, 3-0 e 0-0 nas ultimas quatro visitas, ou seja o Rayo nao marca em Barcelona desde Agosto de 2022. As ausencias fecham a tese e foram cruzadas em tres fontes concordantes: Isi Palazon, criador e principal referencia ofensiva do Rayo, esta fora com lesao muscular ate 26/09, e caem tambem Luiz Felipe (isquiotibiais) e o guarda-redes Augusto Batalla. Acresce a mudanca de treinador, com Benat San Jose a substituir Inigo Perez, que levou o Rayo a final da Conference e saiu para o Villarreal em Junho de 2026, e a crise de estadio que ja obrigou o clube a disputar um jogo caseiro fora de Vallecas. O Barcelona chega sem qualquer ausencia defensiva: onze provavel com Joan Garcia; Kounde, Cubarsi, Gerard Martin e Cancelo, sendo as baixas (Gavi, De Jong e Bardghji) todas de meio-campo, e persegue a 21.a vitoria caseira consecutiva na liga. O contra, e existe: sem Gavi e sem De Jong o controlo do meio-campo baixa, e o Rayo marcou ao Barcelona na epoca passada em Vallecas (1-1). A odd de 1,83 implica 54,6 por cento; o Poisson com estes splits da 60 a 67 por cento e ficamos com 60 por prudencia. A margem esta la, mas nao e enorme, e por isso stake e meia e nao duas.",
+      "factors": [
+        "Barcelona em casa, La Liga 2025/26 (n=19): 0,5 golos sofridos por jogo e 10 balizas a zero, 52,6 por cento - API-Football, competicao e lado declarados",
+        "Barcelona, La Liga 2026/27 (n=2): 2 balizas a zero em 2 jogos (2-0 ao Athletic Club em casa, 5-0 no Elche)",
+        "Rayo Vallecano fora, La Liga 2025/26 (n=19): 0,9 golos marcados por jogo e 9 jogos sem marcar, 47,4 por cento",
+        "H2H no Camp Nou, ultimas 4 visitas do Rayo: 1-0, 1-0, 3-0 e 0-0 - zero golos do Rayo em Barcelona desde Ago/2022",
+        "Rayo sem Isi Palazon (lesao muscular, regresso 26/09), sem Luiz Felipe (isquiotibiais) e sem o GR Batalla - tres fontes concordantes: API-Football /injuries, SportsGambler e Sports Mole",
+        "Barcelona sem baixas defensivas: Joan Garcia, Kounde, Cubarsi e Gerard Martin disponiveis; as ausencias (Gavi, De Jong, Bardghji) sao todas de meio-campo",
+        "Mudanca de treinador no Rayo: Benat San Jose entrou no lugar de Inigo Perez, que saiu para o Villarreal em Jun/2026; 1 ponto em 2 jornadas e crise de estadio",
+        "Terceiros alinhados: Forebet preve 4-0 com Ambas Marcam Nao; FootyStats da a mesma prediction; SportsGambler recomenda handicap asiatico do Rayo mais 2.25, ou seja espera margem larga"
+      ],
+      "sources": [
+        "API-Football /teams/statistics - La Liga 2025/26 (n=19 por lado) e 2026/27 (n=2), splits casa/fora com competicao declarada",
+        "API-Football /injuries fixture 1570354 - 1.a fonte de ausencias (Palazon, Luiz Felipe, Batalla, Gavi, De Jong, Bardghji)",
+        "SportsGambler barcelona-vs-rayo-vallecano 31/08/2026 - 2.a fonte de ausencias, com razao e data de regresso, e onzes provaveis dos dois lados",
+        "Sports Mole preview 31/08/2026 - 3.a fonte de ausencias e team news, confirma Palazon, Batalla e Luiz Felipe fora",
+        "Forebet - modelo de probabilidade do jogo (4-0, Ambas Marcam Nao)",
+        "FootyStats H2H fc-barcelona-vs-rayo-vallecano - H2H e prediction; os ultimos 5/7 foram descartados por conterem amigaveis de pre-epoca",
+        "ESPN, theScore e Soccerway - confirmacao da mudanca de treinador do Rayo em Jun/2026"
+      ]
+    }
+  ]
+}

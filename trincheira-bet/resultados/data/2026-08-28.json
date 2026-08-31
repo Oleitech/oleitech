@@ -77,10 +77,42 @@
       "combined_roi_pct": 1.5
     }
   },
-  "btts":    { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards":   { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25":  { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [
       {
@@ -163,34 +195,46 @@
         "deliveries": 6,
         "odds": 1.444,
         "stake": 7,
-        "result": "PENDING",
-        "finalHome": null,
-        "finalAway": null,
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
         "finalCorners": null,
-        "resolvedAt": null,
-        "note": "Alerta disparado depois do apuramento do dia. Às 23:15 UTC o jogo ia 2-2 aos 74 minutos — a casa marcou os dois golos que faltavam e o mercado já está satisfeito, mas o worker só resolve ao apito final. Fica PENDING para ser fechado no ciclo seguinte."
+        "resolvedAt": 1788134992875,
+        "note": "Fechado a posteriori em 31/08/2026 (correcção QA LIVE_ALERT_PENDING_28_08): ficou aberto 3 ciclos porque o worker nunca resolveu ao apito final. Resultado final confirmado directamente na API-Football (fixture 1549468, status FT 90+9', https://v3.football.api-sports.io/fixtures?id=1549468): Comerciantes Unidos 2-3 FC Cajamarca. Ambas as equipas marcaram — mercado 'Ambas Marcam - Sim' cumprido. GREEN. Não altera a banca: alertas live são informativos e não entram no P&L do dia."
       }
     ],
     "summary": {
       "total": 4,
-      "green": 0,
+      "green": 1,
       "red": 3,
-      "pending": 1,
-      "hit_rate": 0.0,
-      "hit_rate_por_jogo": 0.0,
+      "pending": 0,
+      "hit_rate": 25.0,
+      "hit_rate_por_jogo": 33.3,
       "jogos_distintos": 3,
       "stake_total": 24,
-      "stake_mensuravel": 17,
-      "return_mensuravel": 0,
-      "pnl_mensuravel": -17,
-      "roi_pct_mensuravel": -100.0,
+      "stake_mensuravel": 24,
+      "return_mensuravel": 10.11,
+      "pnl_mensuravel": -13.89,
+      "roi_pct_mensuravel": -57.88,
       "odds_registadas": 4,
       "by_strategy": {
-        "🎯 BTTS LIVE": { "total": 3, "green": 0, "red": 2, "pending": 1, "hit_rate": 0.0 },
-        "🔥 FAVORITO A PERDER": { "total": 1, "green": 0, "red": 1, "pending": 0, "hit_rate": 0.0 }
+        "🎯 BTTS LIVE": {
+          "total": 3,
+          "green": 1,
+          "red": 2,
+          "pending": 0,
+          "hit_rate": 33.3
+        },
+        "🔥 FAVORITO A PERDER": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "pending": 0,
+          "hit_rate": 0.0
+        }
       }
     }
   },
   "balance": 172.35,
-  "notes": "Uma tip curada (BTTS Alavés-Villarreal, RED — o jogo acabou 1-0) e um acumulador Fase C corvo (GREEN a 2.03: Bayern 5-1 Stuttgart e Rio Ave 0-4 Sporting). P&L do dia +0,15 €, banca sobe de 172,20 € para 172,35 €. Fase A e Fase B não produziram acumulador: a Fase A por só haver uma tip aprovada, e a Fase B foi construída e retirada por decisão do utilizador, por concentrar cerca de 60% da exposição nos mesmos dois jogos do corvo. Exposição do dia: 2 stakes contra o tecto de 8. TRACKING LIVE: 4 alertas do worker — três RED (BTTS LIVE no Laval-Grenoble, final 0-3; FAVORITO A PERDER e BTTS LIVE no St Patrick's-Waterford, final 0-2) e um PENDING (BTTS LIVE no Comerciantes Unidos-Cajamarca, no Peru, disparado aos 51' com 0-2 e a ir 2-2 aos 74'; o worker fecha-o ao apito final). Informativo, não entra na banca. Estes três alertas quebraram o silêncio de 2 dias da BTTS LIVE que o health-bot vinha a assinalar; o diagnóstico feito nessa noite confirmou que o silêncio era falta de cobertura de estatísticas e não avaria — às 19h50 só 5 de 34 jogos ao vivo na janela tinham estatísticas, e todos os assimétricos eram de 3.º ou 4.º escalão. CONVERSÃO: tips/2026-08-28.json usa unidades puras (stake 1 = uma stake); convertido a 1 stake = 5 € para preservar a aritmética em euros do histórico, a mesma razão usada a 27/08."
+  "notes": "Uma tip curada (BTTS Alavés-Villarreal, RED — o jogo acabou 1-0) e um acumulador Fase C corvo (GREEN a 2.03: Bayern 5-1 Stuttgart e Rio Ave 0-4 Sporting). P&L do dia +0,15 €, banca sobe de 172,20 € para 172,35 €. Fase A e Fase B não produziram acumulador: a Fase A por só haver uma tip aprovada, e a Fase B foi construída e retirada por decisão do utilizador, por concentrar cerca de 60% da exposição nos mesmos dois jogos do corvo. Exposição do dia: 2 stakes contra o tecto de 8. TRACKING LIVE: 4 alertas do worker — três RED (BTTS LIVE no Laval-Grenoble, final 0-3; FAVORITO A PERDER e BTTS LIVE no St Patrick's-Waterford, final 0-2) e um GREEN (BTTS LIVE no Comerciantes Unidos-Cajamarca, no Peru, disparado aos 51' com 0-2, final 2-3 — fechado a posteriori em 31/08/2026 via API-Football depois de ter ficado 3 ciclos em PENDING por falha do worker em resolver ao apito final; ver nota do próprio alerta). Informativo, não entra na banca. Estes três alertas quebraram o silêncio de 2 dias da BTTS LIVE que o health-bot vinha a assinalar; o diagnóstico feito nessa noite confirmou que o silêncio era falta de cobertura de estatísticas e não avaria — às 19h50 só 5 de 34 jogos ao vivo na janela tinham estatísticas, e todos os assimétricos eram de 3.º ou 4.º escalão. CONVERSÃO: tips/2026-08-28.json usa unidades puras (stake 1 = uma stake); convertido a 1 stake = 5 € para preservar a aritmética em euros do histórico, a mesma razão usada a 27/08."
 }
