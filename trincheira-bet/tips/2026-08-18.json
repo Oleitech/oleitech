@@ -9,16 +9,22 @@
       "sport": "football",
       "pick": "Ambas Marcam - Não",
       "fixtureId": 1622622,
-      "home": { "name": "Levski Sofia", "logo": "https://media.api-sports.io/football/teams/646.png" },
-      "away": { "name": "AEK Athens FC", "logo": "https://media.api-sports.io/football/teams/575.png" },
+      "home": {
+        "name": "Levski Sofia",
+        "logo": "https://media.api-sports.io/football/teams/646.png"
+      },
+      "away": {
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png"
+      },
       "league": "UEFA Champions League — Play-off, 1ª mão",
       "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
       "kickoff": "2026-08-18T19:00:00Z",
       "odds": 1.8,
       "bookmaker": "Bet365 (ref.)",
       "score": 74,
-      "stake": 5,
-      "tese": "<p>O Levski chegou a este play-off sem perder um único jogo em três eliminatórias (Borac, Craiova, Kairat) e, sobretudo, <strong>sem sofrer em casa</strong>: as três receções na Champions terminaram com um agregado de 6-0. São quatro balizas a zero consecutivas e apenas três golos sofridos em seis jogos de qualificação. Do outro lado, o AEK chega <strong>sem ritmo competitivo nenhum</strong> — o campeonato grego ainda não arrancou, não disputaram nenhuma eliminatória europeia este verão e a única partida a sério foi a Supertaça de 12/08, perdida nos penáltis com o OFI. Somando o contexto — primeira mão de play-off, em que ambas as equipas gerem o resultado e ninguém se quer expor antes da segunda mão em Atenas — a probabilidade de uma das balizas ficar limpa parece-me acima dos 55,6% que a odd de 1.80 implica.</p><p><strong>Risco assumido, sir:</strong> o Levski tem três ausências de peso (Sangare, Kamdem e Bouras) e parte dos tipsters vai precisamente ao contrário, na Ambas Marcam Sim a 1.83, com o argumento de que o AEK falhou a baliza a zero em quatro dos últimos seis. É um mercado genuinamente dividido — daí o stake de 5€ e não mais.</p>",
+      "stake": 1,
+      "tese": "<p>O Levski chegou a este play-off sem perder um único jogo em três eliminatórias (Borac, Craiova, Kairat) e, sobretudo, <strong>sem sofrer em casa</strong>: as três receções na Champions terminaram com um agregado de 6-0. São quatro balizas a zero consecutivas e apenas três golos sofridos em seis jogos de qualificação. Do outro lado, o AEK chega <strong>sem ritmo competitivo nenhum</strong> — o campeonato grego ainda não arrancou, não disputaram nenhuma eliminatória europeia este verão e a única partida a sério foi a Supertaça de 12/08, perdida nos penáltis com o OFI. Somando o contexto — primeira mão de play-off, em que ambas as equipas gerem o resultado e ninguém se quer expor antes da segunda mão em Atenas — a probabilidade de uma das balizas ficar limpa parece-me acima dos 55,6% que a odd de 1.80 implica.</p><p><strong>Risco assumido, sir:</strong> o Levski tem três ausências de peso (Sangare, Kamdem e Bouras) e parte dos tipsters vai precisamente ao contrário, na Ambas Marcam Sim a 1.83, com o argumento de que o AEK falhou a baliza a zero em quatro dos últimos seis. É um mercado genuinamente dividido — daí o stake de uma stake e não mais.</p>",
       "factors": [
         "Levski com 3 receções na qualificação da Champions e agregado de 6-0 — zero golos sofridos em casa",
         "Quatro jogos seguidos sem sofrer; apenas 3 golos sofridos em 6 jogos de qualificação",
@@ -39,16 +45,22 @@
       "sport": "football",
       "pick": "Vitória Dinamo Zagreb",
       "fixtureId": 1622620,
-      "home": { "name": "Dinamo Zagreb", "logo": "https://media.api-sports.io/football/teams/620.png" },
-      "away": { "name": "Viking", "logo": "https://media.api-sports.io/football/teams/759.png" },
+      "home": {
+        "name": "Dinamo Zagreb",
+        "logo": "https://media.api-sports.io/football/teams/620.png"
+      },
+      "away": {
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png"
+      },
       "league": "UEFA Champions League — Play-off, 1ª mão",
       "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
       "kickoff": "2026-08-18T19:00:00Z",
       "odds": 1.62,
       "bookmaker": "Bet365 (ref.)",
       "score": 72,
-      "stake": 5,
-      "tese": "<p>O Maksimir é, neste momento, um dos sítios mais difíceis da Europa para uma equipa nórdica em agosto. O Dinamo leva <strong>24 jogos sem perder</strong> em todas as competições e <strong>13 jogos oficiais em casa sem derrota</strong> (11 vitórias, 2 empates) desde a derrota com o Genk em fevereiro. A forma recente é brutal: quatro vitórias seguidas com 13-1 no agregado, incluindo a eliminatória difícil com o Thun, o Zalgiris despachado e um 4-0 ao Rudes no campeonato. Dion Drena Beljo leva cinco golos nos últimos cinco jogos e é o jogador mais perigoso das duas equipas.</p><p>O Viking regressa à Champions pela primeira vez desde 1991 e vem de uma derrota por 2-1 com o Rosenborg na sexta-feira. Estão em plena forma de Eliteserien, é verdade, mas o salto de contexto é enorme e a odd de 1.62 cai no centro da banda-alvo do mercado de favoritos (1.55–2.00).</p><p><strong>Risco assumido, sir:</strong> é uma primeira mão e o Viking pode simplesmente fechar-se para levar o empate a Stavanger. Se acontecer, esta cai. É o cenário que justifica o stake de 5€.</p>",
+      "stake": 1,
+      "tese": "<p>O Maksimir é, neste momento, um dos sítios mais difíceis da Europa para uma equipa nórdica em agosto. O Dinamo leva <strong>24 jogos sem perder</strong> em todas as competições e <strong>13 jogos oficiais em casa sem derrota</strong> (11 vitórias, 2 empates) desde a derrota com o Genk em fevereiro. A forma recente é brutal: quatro vitórias seguidas com 13-1 no agregado, incluindo a eliminatória difícil com o Thun, o Zalgiris despachado e um 4-0 ao Rudes no campeonato. Dion Drena Beljo leva cinco golos nos últimos cinco jogos e é o jogador mais perigoso das duas equipas.</p><p>O Viking regressa à Champions pela primeira vez desde 1991 e vem de uma derrota por 2-1 com o Rosenborg na sexta-feira. Estão em plena forma de Eliteserien, é verdade, mas o salto de contexto é enorme e a odd de 1.62 cai no centro da banda-alvo do mercado de favoritos (1.55–2.00).</p><p><strong>Risco assumido, sir:</strong> é uma primeira mão e o Viking pode simplesmente fechar-se para levar o empate a Stavanger. Se acontecer, esta cai. É o cenário que justifica o stake de uma stake.</p>",
       "factors": [
         "Dinamo Zagreb invicto há 24 jogos em todas as competições",
         "13 jogos oficiais em casa sem derrota (11V, 2E) desde fevereiro",
@@ -65,5 +77,6 @@
         "API-Football — odds Bet365/Betano, fixture 1622620"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

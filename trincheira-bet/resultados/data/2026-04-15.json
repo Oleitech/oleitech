@@ -19,7 +19,7 @@
       "total": 1,
       "green": 0,
       "red": 1,
-      "hit_rate": 0.0
+      "hit_rate": 0
     }
   },
   "corners": {
@@ -31,7 +31,7 @@
         "country": "EU",
         "market": "+9.5 cantos",
         "confidence": 60,
-        "odd": 1.70,
+        "odd": 1.7,
         "total_corners": 12,
         "hit": true
       }
@@ -40,8 +40,9 @@
       "total": 1,
       "green": 1,
       "red": 0,
-      "hit_rate": 100.0
+      "hit_rate": 100
     }
   },
-  "notes": "BTTS: Al-Nassr vs Al-Ettifaq (conf. 55, mínimo) falhou - 1-0, jogo muito desequilibrado como o modelo avisou. Cantos: Bayern vs Real Madrid teve 12 cantos (4-3, jogo aberto), Over 9.5 GREEN. Champions League redimiu-se nos cantos com jogo de fase eliminatória mas muito aberto."
+  "notes": "BTTS: Al-Nassr vs Al-Ettifaq (conf. 55, mínimo) falhou - 1-0, jogo muito desequilibrado como o modelo avisou. Cantos: Bayern vs Real Madrid teve 12 cantos (4-3, jogo aberto), Over 9.5 GREEN. Champions League redimiu-se nos cantos com jogo de fase eliminatória mas muito aberto.",
+  "units": "stakes"
 }

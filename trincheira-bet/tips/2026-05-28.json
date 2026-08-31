@@ -23,7 +23,7 @@
       ],
       "combined_odds": 2.75,
       "score": 75,
-      "stake": 7
+      "stake": 1.4
     },
     {
       "label": "curto-tennis",
@@ -52,7 +52,7 @@
       ],
       "combined_odds": 2.83,
       "score": 65,
-      "stake": 3
+      "stake": 0.6
     }
   ],
   "tips": [
@@ -74,7 +74,7 @@
       "odds": 1.62,
       "bookmaker": "Bet365",
       "score": 75,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Segunda mão da eliminatória de manutenção/promoção. A <strong>primeira mão terminou 0-0</strong> em Torres Vedras. Casa Pia precisa de não perder para se manter; Torreense precisa de marcar para subir.</p><ul><li><strong>Casa Pia: 0.9 golos/jogo na Liga Portugal esta época</strong> (31 golos em 35 jogos). Falhou o golo em 7 dos últimos 17 jogos em casa.</li><li><strong>Torreense: 0 golos fora nesta eliminatória</strong> — 0-0 na 1.ª mão.</li><li><strong>Pedro Rosas suspenso</strong> (vermelho na 1.ª mão).</li><li><strong>Contexto playoff de tudo ou nada</strong> — ambas jogarão ao contra-ataque, prioridade defensiva.</li><li><strong>API-Football: 45% Casa Pia, 45% empate, 10% Torreense</strong> — BTTS Não a 1.62 tem edge real (~24% vs implícita 38%).</li><li>Múltiplos analistas apontam match fechado com poucos golos.</li></ul>",
       "factors": [
         "Primeira mão 0-0 — padrão defensivo confirmado",
@@ -110,7 +110,7 @@
       "odds": 2.2,
       "bookmaker": "Bet365",
       "score": 70,
-      "stake": 5,
+      "stake": 1,
       "tese": "<p>Último jogo do Grupo F da Copa Libertadores. Palmeiras precisa de <strong>vencer para garantir qualificação</strong>, mas o historial desta época aponta para jogos muito controlados.</p><ul><li><strong>Palmeiras: Under 2.5 em TODOS os 5 jogos da Libertadores 2026</strong>.</li><li><strong>Junior Barranquilla: 0 golos em 2 deslocamentos na Libertadores</strong> — incapaz de criar fora de casa.</li><li><strong>H2H abril 2026:</strong> Junior 1-1 Palmeiras — apenas 2 golos. 2/3 últimos H2H com Under 2.5.</li><li><strong>Múltiplos lesionados Palmeiras:</strong> Benedetti, Bruno Fuchs, Piquerez, Ramon Sosa.</li><li><strong>Odds 2.20 = implied 45.5%</strong> vs probabilidade histórica ~60% → edge positivo ~14pp.</li></ul>",
       "factors": [
         "Palmeiras Under 2.5 em 5/5 jogos Libertadores 2026 (100%)",
@@ -147,7 +147,7 @@
       "odds": 1.7,
       "bookmaker": "Bet365",
       "score": 77,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Game 6 das WCF em San Antonio — <strong>Spurs em casa com eliminação em jogo</strong>. Série 3-2 Thunder, mas Spurs favoritos no Frost Bank Center (-3.5 pts).</p><ul><li><strong>Padrão Wembanyama:</strong> após ≤15 tentativas de campo (sem lesão), média de 28pts no jogo seguinte — 9/21 vezes ultrapassou 30. Game 5 foi um desses jogos discretos.</li><li><strong>Eliminação em casa na NBA:</strong> taxa histórica ~60-65% de vitória para a equipa anfitriã.</li><li><strong>Handicap -3.5pts Spurs</strong> — mercado confia na vantagem de casa.</li><li><strong>Consenso triplo:</strong> FanDuel Research, BetMGM e Bleacher Nation apontam Spurs no G6.</li><li><strong>⚠️ KO 01:30 Lisboa madrugada 29/05</strong> — apostar antes de dormir.</li></ul>",
       "factors": [
         "Wembanyama bounceback: após ≤15 FGAs, média 28pts no jogo seguinte",
@@ -165,5 +165,6 @@
         "CBS Sports — 2026 NBA WCF schedule and odds"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

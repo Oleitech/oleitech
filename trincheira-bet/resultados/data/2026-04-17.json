@@ -31,7 +31,7 @@
       "total": 2,
       "green": 1,
       "red": 1,
-      "hit_rate": 50.0
+      "hit_rate": 50
     }
   },
   "cards": {
@@ -73,7 +73,7 @@
       "total": 4,
       "green": 3,
       "red": 1,
-      "hit_rate": 75.0
+      "hit_rate": 75
     }
   },
   "over25": {
@@ -200,7 +200,7 @@
       "total": 1,
       "green": 0,
       "red": 1,
-      "hit_rate": 0.0
+      "hit_rate": 0
     }
   },
   "stakes": {
@@ -210,61 +210,61 @@
         "market": "Over 2.5",
         "matches": "Fenerbahce vs Çaykur Rizespor",
         "odds": 1.41,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 21.15
+        "return": 4.23
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Oss vs Den Bosch",
         "odds": 1.44,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 21.60
+        "return": 4.32
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Holstein Kiel vs Kaiserslautern",
         "odds": 1.65,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 24.75
+        "return": 4.95
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Regensburg vs Aachen",
         "odds": 1.55,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 23.25
+        "return": 4.65
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "ADO Den Haag vs Waalwijk",
         "odds": 1.48,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 22.20
+        "return": 4.44
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "B.93 vs HB Køge",
         "odds": 1.58,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 23.70
+        "return": 4.74
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Helmond vs VVV-Venlo",
         "odds": 1.54,
-        "stake": 15,
+        "stake": 3,
         "result": "loss",
         "return": 0
       },
@@ -273,16 +273,16 @@
         "market": "Over 2.5",
         "matches": "Katowice vs Motor Lublin",
         "odds": 1.666,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 24.99
+        "return": 5
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Esbjerg vs Hillerod",
         "odds": 1.88,
-        "stake": 15,
+        "stake": 3,
         "result": "loss",
         "return": 0
       },
@@ -291,52 +291,52 @@
         "market": "Over 2.5",
         "matches": "Jong Utrecht vs Eindhoven + Graafschap vs Cambuur",
         "odds": 1.999,
-        "stake": 5,
+        "stake": 1,
         "result": "win",
-        "return": 10.00
+        "return": 2
       },
       {
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "Fenerbahce vs Çaykur Rizespor",
         "odds": 1.9,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 28.50
+        "return": 5.7
       },
       {
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "Antalyaspor vs Konyaspor",
         "odds": 1.92,
-        "stake": 20,
+        "stake": 4,
         "result": "win",
-        "return": 38.40
+        "return": 7.68
       },
       {
         "type": "simples",
         "market": "BTTS + Over 2.5",
         "matches": "Fram vs Keflavik",
         "odds": 1.615,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 24.23
+        "return": 4.85
       },
       {
         "type": "simples",
         "market": "Over 3.5 cartões",
         "matches": "Melbourne Victory vs Newcastle Jets",
         "odds": 2.28,
-        "stake": 10,
+        "stake": 2,
         "result": "win",
-        "return": 22.80
+        "return": 4.56
       },
       {
         "type": "simples",
         "market": "Over 10.5 cantos",
         "matches": "Melbourne Victory vs Newcastle Jets",
         "odds": 1.7,
-        "stake": 15,
+        "stake": 3,
         "result": "loss",
         "return": 0
       },
@@ -345,7 +345,7 @@
         "market": "BTTS + Over 2.5",
         "matches": "Breidablik vs IA Akranes",
         "odds": 1.53,
-        "stake": 10,
+        "stake": 2,
         "result": "loss",
         "return": 0
       },
@@ -354,20 +354,21 @@
         "market": "Over 4.5 cartões",
         "matches": "Rio Ave vs Aves",
         "odds": 1.65,
-        "stake": 10,
+        "stake": 2,
         "result": "loss",
         "return": 0
       }
     ],
     "summary": {
-      "total_staked": 230,
-      "total_return": 285.57,
-      "profit": 55.57,
+      "total_staked": 46,
+      "total_return": 57.11,
+      "profit": 11.11,
       "total_bets": 17,
       "wins": 12,
       "losses": 5,
       "roi": 24.2
     }
   },
-  "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/4 (Rio Ave apenas 3 cartões, RED). Cantos: 0/1. BTTS: 1/2. Stakes: +55.57€ lucro em 230€ (ROI 24.2%)."
+  "notes": "Grande dia! Over 2.5: 9/11 (81.8%). Cartões: 3/4 (Rio Ave apenas 3 cartões, RED). Cantos: 0/1. BTTS: 1/2. Stakes: +11,11 stakes lucro em 46 stakes (ROI 24.2%).",
+  "units": "stakes"
 }

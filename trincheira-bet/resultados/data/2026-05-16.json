@@ -13,13 +13,13 @@
         "odds": 1.44,
         "bookmaker": "Bet365",
         "score_confidence": 85,
-        "stake": 10,
+        "stake": 2,
         "final_score": "2-2",
         "halftime_score": "0-2",
         "result": "GREEN",
         "hit": true,
-        "return": 14.4,
-        "pnl": 4.4,
+        "return": 2.88,
+        "pnl": 0.88,
         "note": "BTTS=sim · Over2.5=sim (4 golos)"
       },
       {
@@ -33,13 +33,13 @@
         "odds": 1.73,
         "bookmaker": "Bet365",
         "score_confidence": 83,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "0-1",
         "halftime_score": "0-0",
         "result": "GREEN",
         "hit": true,
-        "return": 12.11,
-        "pnl": 5.11,
+        "return": 2.42,
+        "pnl": 1.02,
         "note": "Resultado 0-1 (away win)"
       },
       {
@@ -53,13 +53,13 @@
         "odds": 1.73,
         "bookmaker": "Bet365",
         "score_confidence": 83,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "0-2",
         "halftime_score": "0-0",
         "result": "GREEN",
         "hit": true,
-        "return": 12.11,
-        "pnl": 5.11,
+        "return": 2.42,
+        "pnl": 1.02,
         "note": "Guirassy marcou: True · Resultado 0-2"
       },
       {
@@ -73,13 +73,13 @@
         "odds": 1.62,
         "bookmaker": "Bet365",
         "score_confidence": 75,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "3-1",
         "halftime_score": "1-1",
         "result": "GREEN",
         "hit": true,
-        "return": 11.34,
-        "pnl": 4.34,
+        "return": 2.27,
+        "pnl": 0.87,
         "note": "Resultado 3-1 (home win)"
       },
       {
@@ -93,13 +93,13 @@
         "odds": 1.83,
         "bookmaker": "Bet365",
         "score_confidence": 73,
-        "stake": 5,
+        "stake": 1,
         "final_score": "0-2",
         "halftime_score": "0-2",
         "result": "RED",
         "hit": false,
-        "return": 0.0,
-        "pnl": -5.0,
+        "return": 0,
+        "pnl": -1,
         "note": "Resultado 0-2 (away win)"
       }
     ],
@@ -107,10 +107,10 @@
       "total": 5,
       "green": 4,
       "red": 1,
-      "hit_rate": 80.0,
-      "total_stake": 36,
-      "total_return": 49.96,
-      "pnl": 13.96,
+      "hit_rate": 80,
+      "total_stake": 7.2,
+      "total_return": 9.99,
+      "pnl": 2.79,
       "roi_pct": 38.8
     }
   },
@@ -421,5 +421,6 @@
         }
       }
     }
-  }
+  },
+  "units": "stakes"
 }

@@ -9,16 +9,22 @@
       "sport": "tennis",
       "pick": "Casper Ruud vence (Match Winner)",
       "fixtureId": "rg-2026-r4-ruud-fonseca",
-      "home": { "name": "Casper Ruud", "logo": "" },
-      "away": { "name": "Joao Fonseca", "logo": "" },
+      "home": {
+        "name": "Casper Ruud",
+        "logo": ""
+      },
+      "away": {
+        "name": "Joao Fonseca",
+        "logo": ""
+      },
       "league": "Roland Garros 2026 — Oitavos-de-final (ATP) · Night Session (Court Philippe-Chatrier)",
       "leagueLogo": "",
       "kickoff": "2026-05-31T18:15:00Z",
       "odds": 1.62,
       "bookmaker": "Bet365",
       "score": 76,
-      "stake": 7,
-      "tese": "<p>Night session no Chatrier, primeiro confronto de sempre. <strong>Ruud é o jogador de terra batida mais credenciado deste lado do quadro</strong> — bifinalista de Roland Garros (2022, 2023), 17-5 em terra esta época, com um Dominance Ratio de 1.31, 34.4% de break rate e um hold de saque de 87.7%. Os números do Fonseca em terra são pedestres por comparação (DR 1.10, break rate 21.1%, hold 79.4%), e o jogo de alto risco do brasileiro gera muitos erros sob pressão sustentada.</p><ul><li><strong>Fator decisivo — desgaste:</strong> Fonseca vem da maior vitória da carreira mas também a mais drenante — uma epopeia de 5 sets (4-6 4-6 6-3 7-5 7-5) sobre Djokovic, com a ressaca física e emocional inevitável de quem virou dois sets a um 24x campeão do Grand Slam.</li><li><strong>Modelos alinhados:</strong> Dimers dá 61% ao Ruud, outro modelo 58.2% — odd justa ~1.64; a Bet365 a 1.62 oferece ligeiro value.</li><li><strong>Consenso de tipsters:</strong> Last Word on Sports, Tennis Tonic (Ruud em 5) e Action Network inclinam todos para o norueguês.</li><li><strong>⚠️ Risco real:</strong> Fonseca é explosivo e estará apoiado pelo público noturno; além disso o próprio Ruud também gastou 5 sets na ronda anterior (vs Paul). Em BO5 a variância é alta — daí stake média (7€), não máxima.</li><li><strong>⚠️ KO 20:15 CET / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "stake": 1.4,
+      "tese": "<p>Night session no Chatrier, primeiro confronto de sempre. <strong>Ruud é o jogador de terra batida mais credenciado deste lado do quadro</strong> — bifinalista de Roland Garros (2022, 2023), 17-5 em terra esta época, com um Dominance Ratio de 1.31, 34.4% de break rate e um hold de saque de 87.7%. Os números do Fonseca em terra são pedestres por comparação (DR 1.10, break rate 21.1%, hold 79.4%), e o jogo de alto risco do brasileiro gera muitos erros sob pressão sustentada.</p><ul><li><strong>Fator decisivo — desgaste:</strong> Fonseca vem da maior vitória da carreira mas também a mais drenante — uma epopeia de 5 sets (4-6 4-6 6-3 7-5 7-5) sobre Djokovic, com a ressaca física e emocional inevitável de quem virou dois sets a um 24x campeão do Grand Slam.</li><li><strong>Modelos alinhados:</strong> Dimers dá 61% ao Ruud, outro modelo 58.2% — odd justa ~1.64; a Bet365 a 1.62 oferece ligeiro value.</li><li><strong>Consenso de tipsters:</strong> Last Word on Sports, Tennis Tonic (Ruud em 5) e Action Network inclinam todos para o norueguês.</li><li><strong>⚠️ Risco real:</strong> Fonseca é explosivo e estará apoiado pelo público noturno; além disso o próprio Ruud também gastou 5 sets na ronda anterior (vs Paul). Em BO5 a variância é alta — daí stake média (1,4 stakes), não máxima.</li><li><strong>⚠️ KO 20:15 CET / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
       "factors": [
         "Ruud bifinalista RG (2022, 2023) e 17-5 em terra esta época (DR 1.31, break 34.4%, hold 87.7%)",
         "Fonseca com números pedestres em terra (DR 1.10, break 21.1%, hold 79.4%)",
@@ -36,5 +42,6 @@
         "rolandgarros.com — order of play Sunday 31 May (night session Chatrier 20:15 CET)"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

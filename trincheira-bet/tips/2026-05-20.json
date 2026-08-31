@@ -7,15 +7,21 @@
       "market": "scorers",
       "pick": "Ollie Watkins marca",
       "fixtureId": 1544596,
-      "home": { "name": "SC Freiburg", "logo": "https://media.api-sports.io/football/teams/160.png" },
-      "away": { "name": "Aston Villa", "logo": "https://media.api-sports.io/football/teams/66.png" },
+      "home": {
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png"
+      },
       "league": "UEFA Europa League — Final",
       "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
       "kickoff": "2026-05-20T20:00:00+01:00",
       "odds": 2.38,
       "bookmaker": "Bet365",
       "score": 80,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Final da Europa League em Istambul. Watkins entra como ponta-de-lança titular do Villa em momento explosivo — em busca do 6º golo da competição, depois de marcar 4 nos últimos 3 jogos.</p><ul><li><strong>Forma assassina:</strong> 4 golos em 3 jogos, top shots on target de toda a equipa Villa na EL</li><li><strong>Lineup confirmado:</strong> titular no 4-2-3-1 (Yahoo Sports, sem dúvidas físicas)</li><li><strong>Freiburg sem Suzuki:</strong> perderam a peça criativa principal (+3 outros lesionados) — defesa menos protegida</li><li><strong>Defesa vulnerável:</strong> Freiburg só fez 5 clean sheets em 38 jogos da Bundesliga (13% rate)</li><li><strong>Value:</strong> odd 2.38 = implícita 42%; rate per-90 do Watkins (~0.55) × momentum × Freiburg fragilizado → real prob ~50-55%</li></ul>",
       "factors": [
         "Watkins 4g em 3 jogos (red-hot)",
@@ -36,15 +42,21 @@
       "market": "btts",
       "pick": "Vitória Aston Villa + Ambas Marcam Sim",
       "fixtureId": 1544596,
-      "home": { "name": "SC Freiburg", "logo": "https://media.api-sports.io/football/teams/160.png" },
-      "away": { "name": "Aston Villa", "logo": "https://media.api-sports.io/football/teams/66.png" },
+      "home": {
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "away": {
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png"
+      },
       "league": "UEFA Europa League — Final",
       "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
       "kickoff": "2026-05-20T20:00:00+01:00",
-      "odds": 4.00,
+      "odds": 4,
       "bookmaker": "Bet365",
       "score": 78,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Cenário-padrão 2-1 ou 3-2 a favor do Villa: experiência de Emery + ataque arrasador, mas Freiburg consegue um golo de honra na primeira final da sua história.</p><ul><li><strong>Emery é o REI da Europa League:</strong> 4 títulos (Sevilla 3x, Villarreal 1x), tenta o 5º recorde</li><li><strong>Villa em fogo:</strong> 9V em 10 PL, 12V em 14 EL, 28 golos marcados (recorde do torneio)</li><li><strong>Matanović killer:</strong> 11g na Bundesliga — capaz de finalizar contra um Villa que tem Lindelof + Onana em dúvida</li><li><strong>Defesa Villa principal intacta:</strong> Cash-Konsa-Torres-Digne (Kamara out, mas mid)</li><li><strong>Racing Post pick específico:</strong> \"Aston Villa to win & both teams to score\" @ 3.90 (Coral)</li><li><strong>Value:</strong> odd 4.00 = implícita 25%; real ~30% via P(Villa win 60%) × P(BTTS condicional ~50%)</li></ul>",
       "factors": [
         "Emery 4x EL champion",
@@ -61,5 +73,6 @@
         "API-Football"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

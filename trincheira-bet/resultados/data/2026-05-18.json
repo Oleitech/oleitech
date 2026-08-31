@@ -13,13 +13,13 @@
         "odds": 1.65,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "2-3",
         "halftime_score": "1-2",
         "result": "GREEN",
         "hit": true,
-        "return": 11.55,
-        "pnl": 4.55,
+        "return": 2.31,
+        "pnl": 0.91,
         "note": "5 golos (2-3) · Sirius (líder) mantém forma fora com 3 golos"
       }
     ],
@@ -27,17 +27,49 @@
       "total": 1,
       "green": 1,
       "red": 0,
-      "hit_rate": 100.0,
-      "total_stake": 7,
-      "total_return": 11.55,
-      "pnl": 4.55,
-      "roi_pct": 65.0
+      "hit_rate": 100,
+      "total_stake": 1.4,
+      "total_return": 2.31,
+      "pnl": 0.91,
+      "roi_pct": 65
     }
   },
-  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [],
     "summary": {
@@ -50,5 +82,6 @@
       "by_strategy": {}
     }
   },
-  "notes": "Slate domingo fim-de-época. Pre-game 1/1 = 100% (Djurgarden-Sirius Over 2.5 GREEN, +4.55€). Live worker: 0 alertas — primeira vez desde threshold ≥90 (17/05) que um dia não fechou qualquer das 3 estratégias (Favorito a Perder, BTTS Live, Over 1.5 HT). Slate magro de domingo + sem cantos = volume zero esperado em dias light."
+  "notes": "Slate domingo fim-de-época. Pre-game 1/1 = 100% (Djurgarden-Sirius Over 2.5 GREEN, +0,91 stakes). Live worker: 0 alertas — primeira vez desde threshold ≥90 (17/05) que um dia não fechou qualquer das 3 estratégias (Favorito a Perder, BTTS Live, Over 1.5 HT). Slate magro de domingo + sem cantos = volume zero esperado em dias light.",
+  "units": "stakes"
 }

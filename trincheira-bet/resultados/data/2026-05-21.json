@@ -13,13 +13,13 @@
         "odds": 1.85,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "1-1 (90'), 1-3 AET",
         "halftime_score": "0-0",
         "result": "RED",
         "hit": false,
-        "return": 0.0,
-        "pnl": -7.0,
+        "return": 0,
+        "pnl": -1.4,
         "note": "Apostas Over 2.5 settlam em 90 min regulamentares APENAS. Ficou 1-1 ao 90' (apenas 2 golos = UNDER). Foi para extra time onde Copenhagen marcou mais 2 e fechou 1-3 AET, mas isso não conta para o mercado. Lição: confirmar sempre que o jogo é regulamentar antes de apostar Over/Under em playoffs."
       },
       {
@@ -34,12 +34,12 @@
         "odds": 1.75,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "6-4 6-3 (Ruud)",
         "result": "GREEN",
         "hit": true,
-        "return": 12.25,
-        "pnl": 5.25,
+        "return": 2.45,
+        "pnl": 1.05,
         "note": "Ruud demoliu Popyrin em 72 min — 6-4 6-3, 25/28 pts no 1º serviço, 16ª vitória em Geneva (iguala Wilander). Tese 'Ruud peak pré-RG' confirmada totalmente."
       },
       {
@@ -51,15 +51,15 @@
         "away": "Cleveland Cavaliers",
         "league": "NBA · Eastern Conference Finals — Game 2",
         "kickoff": "2026-05-22T01:00:00+01:00",
-        "odds": 1.90,
+        "odds": 1.9,
         "bookmaker": "Bet365",
         "score_confidence": 75,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "Knicks 109 - 93 Cavs",
         "result": "GREEN",
         "hit": true,
-        "return": 13.30,
-        "pnl": 6.30,
+        "return": 2.66,
+        "pnl": 1.26,
         "note": "202 pontos total (12.5pts abaixo da linha). Knicks lead serie 2-0. Cavs em colapso emocional pós comeback Game 1. Tese 'defenses tightenem em Game 2' confirmada."
       }
     ],
@@ -68,16 +68,48 @@
       "green": 2,
       "red": 1,
       "hit_rate": 66.7,
-      "total_stake": 21,
-      "total_return": 25.55,
-      "pnl": 4.55,
+      "total_stake": 4.2,
+      "total_return": 5.11,
+      "pnl": 0.91,
       "roi_pct": 21.7
     }
   },
-  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [
       {
@@ -113,11 +145,19 @@
       "red": 0,
       "green_over": 0,
       "pending": 0,
-      "hit_rate": 100.0,
+      "hit_rate": 100,
       "by_strategy": {
-        "🎯 BTTS LIVE": { "total": 2, "green": 2, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+        "🎯 BTTS LIVE": {
+          "total": 2,
+          "green": 2,
+          "red": 0,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
       }
     }
   },
-  "notes": "Pre-game 2/3 GREEN (Ruud + Cavs OK; Brondby parecia GREEN no agregado AET 1-3 mas o mercado Over 2.5 settla em 90' = 1-1 = RED). Stakes liquidas +4.55€ ROI 21.7%. Live worker 2/2 GREEN. NBA scanner 0 alertas (jogo equilibrado + bug detectado no parse das linescores ESPN — corrigido em 22/05 via worker 170e9542)."
+  "notes": "Pre-game 2/3 GREEN (Ruud + Cavs OK; Brondby parecia GREEN no agregado AET 1-3 mas o mercado Over 2.5 settla em 90' = 1-1 = RED). Stakes liquidas +0,91 stakes ROI 21.7%. Live worker 2/2 GREEN. NBA scanner 0 alertas (jogo equilibrado + bug detectado no parse das linescores ESPN — corrigido em 22/05 via worker 170e9542).",
+  "units": "stakes"
 }

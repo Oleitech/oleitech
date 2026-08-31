@@ -108,9 +108,9 @@ Para cada jogo candidato, recolher:
 
 | Banda | Score | Stake |
 |---|---|---|
-| Alta | ≥85 | 10€ |
-| Média-alta | 75-84 | 7€ |
-| Média | 65-74 | 5€ |
+| Alta | ≥85 | 2 stakes |
+| Média-alta | 75-84 | stake e meia |
+| Média | 65-74 | 1 stake |
 | Baixa | <65 | skip |
 
 ## Passo 6 — Schema JSON
@@ -170,7 +170,7 @@ Usado em dias de Grand Slam com slate grande (R1/R2). Varre matches da **tarde e
 3. Produto por trio deve cair entre 2.0 e 3.0 (com odds 1.26–1.55 isto é quase garantido)
 4. Nenhuma perna pode ser uma tip singular do dia
 
-**Score:** fixo em 65 · **Stake:** 3€ fixo · **Label JSON:** `"label": "curto-tennis"`
+**Score:** fixo em 65 · **Stake:** meia stake fixa · **Label JSON:** `"label": "curto-tennis"`
 
 **Apresentar shortlist ao utilizador antes de montar:**
 ```

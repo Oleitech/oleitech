@@ -22,8 +22,8 @@ const ResultsPage = {
 
   async init() {
     // Load bankroll data and init layout
-    const { bankroll, totalPL } = await Layout.loadBankrollData();
-    const main = Layout.init('results', bankroll, totalPL);
+    const totalPL = await Layout.loadTotalPL();
+    const main = Layout.init('results', totalPL);
     if (!main) return;
 
     // Show loading state
@@ -46,7 +46,12 @@ const ResultsPage = {
 
   async loadData() {
     try {
-      const res = await fetch('resultados/data/index.json');
+      // `no-store` como no app.js. Sem isto o browser servia ficheiros da sua
+      // cache e o dia publicado so aparecia horas depois; desde a migracao
+      // para stakes (31/08/2026) o efeito e pior, porque uma cache morna
+      // mistura ficheiros novos (stakes) com antigos (euros) e o total do topo
+      // fica sem sentido.
+      const res = await fetch('resultados/data/index.json', { cache: 'no-store' });
       if (!res.ok) return;
       const index = await res.json();
       if (!index.files || !index.files.length) return;
@@ -54,7 +59,7 @@ const ResultsPage = {
       // Load all day files in parallel
       const promises = index.files.map(async (f) => {
         try {
-          const r = await fetch('resultados/data/' + f);
+          const r = await fetch('resultados/data/' + f, { cache: 'no-store' });
           if (!r.ok) return null;
           return await r.json();
         } catch (e) { return null; }
@@ -246,20 +251,18 @@ const ResultsPage = {
     };
   },
 
-  // P/L em stakes (base UI.STAKE_UNIT: 5 EUR = 1 stake), nunca em euros.
-  // compact=true para as colunas estreitas das linhas de aposta.
+  // Os ficheiros de resultados ja guardam stakes desde 31/08/2026, por isso
+  // aqui so se formata. compact=true para as colunas estreitas das linhas.
   formatPL(val, compact = false) {
     if (val == null) return '—';
-    const units = val / UI.STAKE_UNIT;
-    const sign = units >= 0 ? '+' : '';
-    return sign + units.toFixed(2) + (compact ? ' st' : ' stakes');
+    const sign = val >= 0 ? '+' : '';
+    return sign + val.toFixed(2) + (compact ? ' st' : ' stakes');
   },
 
-  // Valor absoluto em stakes (stake arriscada, banca), sem sinal.
+  // Valor absoluto em stakes (stake arriscada), sem sinal.
   formatUnits(val, compact = false) {
     if (val == null) return '—';
-    const units = val / UI.STAKE_UNIT;
-    const label = Number.isInteger(units) ? String(units) : units.toFixed(2);
+    const label = Number.isInteger(val) ? String(val) : val.toFixed(2);
     return label + (compact ? ' st' : ' stakes');
   },
 
@@ -339,7 +342,6 @@ const ResultsPage = {
 
     const profit = Layout.dayStakes(day)?.summary?.profit || 0;
     const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
-    const bankroll = Layout.dayStakes(day)?.balance;
 
     const dateParts = this.parseDateParts(day.date);
 
@@ -370,10 +372,6 @@ const ResultsPage = {
       <div class="day-metric">
         <span class="label">P/L</span>
         <span class="value num day-pl ${profit >= 0 ? 'pos' : 'neg'}">${this.formatPL(profit, true)}</span>
-      </div>
-      <div class="day-metric">
-        <span class="label">Banca</span>
-        <span class="value num">${this.formatUnits(bankroll, true)}</span>
       </div>
       ${this.chevSVG}
     `;

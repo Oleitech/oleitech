@@ -21,7 +21,7 @@
         "country": "BE",
         "kickoff": "18:15",
         "confidence": 70,
-        "btts_sim": 1.70,
+        "btts_sim": 1.7,
         "result_home": 1,
         "result_away": 2,
         "btts_hit": true
@@ -69,7 +69,7 @@
         "country": "CH",
         "kickoff": "15:30",
         "confidence": 85,
-        "btts_sim": 1.40,
+        "btts_sim": 1.4,
         "result_home": 2,
         "result_away": 2,
         "btts_hit": true
@@ -140,5 +140,6 @@
       "hit_rate": 66.7
     }
   },
-  "notes": "Cantos tip details incomplete - HEIC image not readable. User confirmed: 3 tips all +10.5 corners, left game had 5 (RED), middle had 11 (GREEN), right had 12 (GREEN). Genk vs OH Leuven was the only BTTS miss - 0-0 draw with lowest confidence score (64)."
+  "notes": "Cantos tip details incomplete - HEIC image not readable. User confirmed: 3 tips all +10.5 corners, left game had 5 (RED), middle had 11 (GREEN), right had 12 (GREEN). Genk vs OH Leuven was the only BTTS miss - 0-0 draw with lowest confidence score (64).",
+  "units": "stakes"
 }

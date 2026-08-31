@@ -6,24 +6,60 @@
     {
       "label": "curto",
       "selections": [
-        { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "BTTS Sim", "odds": 1.52, "sport": "football" },
-        { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "BTTS Sim", "odds": 1.44, "sport": "football" },
-        { "fixtureId": 1391197, "match": "Valencia vs Barcelona", "pick": "Over 2.5 Golos", "odds": 1.47, "sport": "football" }
+        {
+          "fixtureId": 1391190,
+          "match": "Real Betis vs Levante",
+          "pick": "BTTS Sim",
+          "odds": 1.52,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1536965,
+          "match": "Antwerp vs KVC Westerlo",
+          "pick": "BTTS Sim",
+          "odds": 1.44,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1391197,
+          "match": "Valencia vs Barcelona",
+          "pick": "Over 2.5 Golos",
+          "odds": 1.47,
+          "sport": "football"
+        }
       ],
       "combined_odds": 3.22,
       "score": 65,
-      "stake": 3
+      "stake": 0.6
     },
     {
       "label": "curto",
       "selections": [
-        { "fixtureId": 1542721, "match": "Bayern München vs VfB Stuttgart", "pick": "Vitória Bayern", "odds": 1.42, "sport": "football" },
-        { "fixtureId": 1391190, "match": "Real Betis vs Levante", "pick": "DC Casa/Empate", "odds": 1.33, "sport": "football" },
-        { "fixtureId": 1536965, "match": "Antwerp vs KVC Westerlo", "pick": "Over 2.5 Golos", "odds": 1.52, "sport": "football" }
+        {
+          "fixtureId": 1542721,
+          "match": "Bayern München vs VfB Stuttgart",
+          "pick": "Vitória Bayern",
+          "odds": 1.42,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1391190,
+          "match": "Real Betis vs Levante",
+          "pick": "DC Casa/Empate",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1536965,
+          "match": "Antwerp vs KVC Westerlo",
+          "pick": "Over 2.5 Golos",
+          "odds": 1.52,
+          "sport": "football"
+        }
       ],
       "combined_odds": 2.87,
       "score": 65,
-      "stake": 3
+      "stake": 0.6
     }
   ],
   "tips": [
@@ -31,15 +67,21 @@
       "market": "btts",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1542721,
-      "home": { "name": "Bayern München", "logo": "https://media.api-sports.io/football/teams/157.png" },
-      "away": { "name": "VfB Stuttgart", "logo": "https://media.api-sports.io/football/teams/172.png" },
+      "home": {
+        "name": "Bayern München",
+        "logo": "https://media.api-sports.io/football/teams/157.png"
+      },
+      "away": {
+        "name": "VfB Stuttgart",
+        "logo": "https://media.api-sports.io/football/teams/172.png"
+      },
       "league": "DFB Pokal — Final",
       "leagueLogo": "https://media.api-sports.io/football/leagues/81.png",
       "kickoff": "2026-05-23T19:00:00+01:00",
       "odds": 1.57,
       "bookmaker": "Betclic",
       "score": 80,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Final da DFB Pokal em Berlim (campo neutro). Bayern não fez um único clean sheet nos <strong>5 jogos desta Pokal</strong> — sofreram sempre. Stuttgart são os campeões em título, terminaram a época em WWWWW e os últimos <strong>6 jogos competitivos</strong> tiveram todos BTTS. O H2H mais recente foi 4-2 (Bundesliga, Abril) = BTTS. Com Kane, Olise e Musiala lá cima para Bayern, e Undav e Fuhrich para Stuttgart, a probabilidade de um dos lados ficar a zero é mínima.</p><ul><li><strong>Bayern 0 clean sheets em 5 jogos da Pokal 2025/26</strong> — sofreram golos em todas as rondas</li><li><strong>Stuttgart últimos 6 jogos competitivos = 6/6 BTTS</strong></li><li><strong>H2H: 5/8 = 62.5% BTTS</strong> (último 4-2 em Abril = BTTS)</li><li><strong>Stuttgart campeões em título</strong> — motivação máxima em campo neutro</li><li><strong>Wincomparator modelo: 80.42% probabilidade BTTS Yes</strong></li><li><strong>Stuttgart avg 2.1 golos/jogo</strong> na Bundesliga; Bayern sem Davies e possivelmente sem Neuer</li></ul>",
       "factors": [
         "Bayern 0 clean sheets em 5 jogos da Pokal",
@@ -56,5 +98,6 @@
         "Dailysports lineup"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

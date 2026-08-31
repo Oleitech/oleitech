@@ -57,5 +57,6 @@
       "stake": 1,
       "bookmaker": "Marathonbet"
     }
-  ]
+  ],
+  "units": "stakes"
 }

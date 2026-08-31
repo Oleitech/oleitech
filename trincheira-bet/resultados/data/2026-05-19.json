@@ -13,13 +13,13 @@
         "odds": 2.75,
         "bookmaker": "Bet365",
         "score_confidence": 80,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "1-1",
         "halftime_score": "1-0",
         "result": "RED",
         "hit": false,
-        "return": 0.0,
-        "pnl": -7.0,
+        "return": 0,
+        "pnl": -1.4,
         "note": "Empate 1-1. Tese base errada: assumi Rodri OUT (WebSearch consolidado) mas Rodri foi titular após regresso de LCA na FA Cup. Sem o factor 'defesa enfraquecida' a tip perde metade da fundamentação. City não venceu, Arsenal campeão matematicamente."
       }
     ],
@@ -27,17 +27,49 @@
       "total": 1,
       "green": 0,
       "red": 1,
-      "hit_rate": 0.0,
-      "total_stake": 7,
-      "total_return": 0.0,
-      "pnl": -7.0,
-      "roi_pct": -100.0
+      "hit_rate": 0,
+      "total_stake": 1.4,
+      "total_return": 0,
+      "pnl": -1.4,
+      "roi_pct": -100
     }
   },
-  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [],
     "summary": {
@@ -50,5 +82,6 @@
       "by_strategy": {}
     }
   },
-  "notes": "Segunda fim-de-época. Tip única Bournemouth-City RED (-7€). Erro de análise: assumi Rodri OUT a partir de resumo stale do WebSearch; era falso (Rodri titular pós-regresso LCA). Live worker: a confirmar archive — provavelmente 0 alertas."
+  "notes": "Segunda fim-de-época. Tip única Bournemouth-City RED (-1,4 stakes). Erro de análise: assumi Rodri OUT a partir de resumo stale do WebSearch; era falso (Rodri titular pós-regresso LCA). Live worker: a confirmar archive — provavelmente 0 alertas.",
+  "units": "stakes"
 }

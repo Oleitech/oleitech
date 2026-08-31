@@ -32,7 +32,7 @@ const Layout = {
   },
 
   // Render sidebar (desktop)
-  renderSidebar(activePage, bankroll, totalPL) {
+  renderSidebar(activePage, totalPL) {
     return `<aside class="sidebar">
       <div class="sidebar-brand">
         ${this.logoMark(36)}
@@ -54,13 +54,10 @@ const Layout = {
         </a>
       </nav>
       <div class="sidebar-footer">
-        <div class="bankroll">
-          <div class="label">Bankroll</div>
-          <div class="value num">${this.units(bankroll)}</div>
-          ${totalPL != null ? `<div class="delta" style="color:${totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">
-            ${this.units(totalPL, { signed: true })} total
-          </div>` : ''}
-        </div>
+        ${totalPL != null ? `<div class="bankroll">
+          <div class="label">P/L acumulado</div>
+          <div class="value num" style="color:${totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(totalPL, { signed: true })}</div>
+        </div>` : ''}
       </div>
     </aside>`;
   },
@@ -84,14 +81,12 @@ const Layout = {
 
   // Render mobile brand bar
   renderMobileBrand() {
-    const b = this._bankroll;
     const p = this._totalPL;
-    const bankrollHtml = b != null ? `
+    const plHtml = p != null ? `
       <div class="mobile-bankroll">
-        <div class="mb-label">Bankroll</div>
+        <div class="mb-label">P/L acumulado</div>
         <div class="mb-row">
-          <span class="mb-value num">${this.units(b)}</span>
-          ${p != null ? `<span class="mb-delta num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(p, { signed: true })}</span>` : ''}
+          <span class="mb-value num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(p, { signed: true })}</span>
         </div>
       </div>` : '';
     return `<div class="mobile-brand">
@@ -100,7 +95,7 @@ const Layout = {
         <span class="t1" style="font-size:13px">Trincheira</span>
         <span class="t2">BET</span>
       </div>
-      ${bankrollHtml}
+      ${plHtml}
     </div>`;
   },
 
@@ -123,14 +118,13 @@ const Layout = {
   },
 
   // Initialize layout for a page
-  init(activePage, bankroll, totalPL) {
-    this._bankroll = bankroll;
+  init(activePage, totalPL) {
     this._totalPL = totalPL;
     const root = document.getElementById('app-root');
     if (!root) return;
     root.className = 'app';
     root.innerHTML = `
-      ${this.renderSidebar(activePage, bankroll, totalPL)}
+      ${this.renderSidebar(activePage, totalPL)}
       <main class="app-main" id="app-main">
         ${this.renderMobileBrand()}
       </main>
@@ -139,43 +133,84 @@ const Layout = {
     return document.getElementById('app-main');
   },
 
-  // Update bankroll in sidebar (and mobile)
-  updateBankroll(bankroll, totalPL) {
-    this._bankroll = bankroll;
+  // Update the accumulated P/L in sidebar (and mobile)
+  updateTotalPL(totalPL) {
     this._totalPL = totalPL;
-    const val = document.querySelector('.bankroll .value');
-    const delta = document.querySelector('.bankroll .delta');
-    if (val && bankroll != null) val.textContent = this.units(bankroll);
-    if (delta && totalPL != null) {
-      delta.textContent = this.units(totalPL, { signed: true }) + ' total';
-      delta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
+    if (totalPL == null) return;
+    const color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
+    for (const sel of ['.bankroll .value', '.mobile-bankroll .mb-value']) {
+      const el = document.querySelector(sel);
+      if (!el) continue;
+      el.textContent = this.units(totalPL, { signed: true });
+      el.style.color = color;
     }
-    const mbVal = document.querySelector('.mobile-bankroll .mb-value');
-    const mbDelta = document.querySelector('.mobile-bankroll .mb-delta');
-    if (mbVal && bankroll != null) mbVal.textContent = this.units(bankroll);
-    if (mbDelta && totalPL != null) {
-      mbDelta.textContent = this.units(totalPL, { signed: true });
-      mbDelta.style.color = totalPL >= 0 ? 'var(--green)' : 'var(--red)';
-    }
+  },
+
+  // Desde 31/08/2026 os ficheiros de resultados ja guardam STAKES, nao euros
+  // (ver scripts/migrate-eur-to-stakes.mjs). Nao ha nada a converter aqui: o
+  // valor guardado e o valor que se mostra.
+  units(val, { signed = false } = {}) {
+    if (val == null || !isFinite(val)) return '—';
+    const sign = signed && val >= 0 ? '+' : '';
+    return sign + val.toFixed(2) + ' stakes';
   },
 
   // Adaptador de schema: os ficheiros de resultados ate 03/05/2026 usam
   // `stakes.{balance,summary,bets}`; a partir de 16/05 passaram a
   // `curated_tips.{summary,tips,accumulators}` + `balance` no topo.
   // Devolve sempre a forma antiga para o resto do codigo nao mudar.
-  // Toda a UI mostra stakes, nunca euros. Base igual a UI.STAKE_UNIT (5 EUR),
-  // duplicada aqui de proposito: layout.js carrega antes de ui.js.
-  STAKE_UNIT: 5,
 
-  units(val, { signed = false } = {}) {
-    if (val == null || !isFinite(val)) return '—';
-    const u = val / this.STAKE_UNIT;
-    const sign = signed && u >= 0 ? '+' : '';
-    return sign + u.toFixed(2) + ' stakes';
+  // Rede de seguranca para ficheiros anteriores a migracao de 31/08/2026, que
+  // guardavam euros. O marcador `units` e explicito -- nao se adivinha pela
+  // grandeza do numero. Serve sobretudo contra caches mornas (browser ou CDN),
+  // onde misturar um ficheiro em euros com outro em stakes daria um total sem
+  // significado nenhum. Converte uma vez e marca; chamar de novo nao repete.
+  LEGACY_EUR_PER_STAKE: 5,
+
+  normalizeUnits(day) {
+    if (!day || day.units === 'stakes') return day;
+    const k = this.LEGACY_EUR_PER_STAKE;
+    const div = (obj, keys) => {
+      if (!obj) return;
+      for (const key of keys) {
+        if (typeof obj[key] === 'number') obj[key] = Math.round(obj[key] / k * 100) / 100;
+      }
+    };
+
+    div(day, ['balance']);
+
+    const ct = day.curated_tips;
+    if (ct) {
+      div(ct.summary, ['pnl', 'total_stake', 'total_return', 'combined_pnl',
+        'combined_stake', 'combined_return', 'accumulators_pnl',
+        'accumulators_stake', 'accumulators_return']);
+      (ct.tips || []).forEach(t => div(t, ['stake', 'pnl', 'return']));
+      (ct.accumulators || []).forEach(a => div(a, ['stake', 'pnl', 'return']));
+    }
+
+    const la = day.live_alerts;
+    if (la) {
+      div(la.summary, ['stake_total', 'stake_mensuravel', 'return_mensuravel',
+        'pnl_mensuravel', 'pnl', 'return_total']);
+      (la.alerts || []).forEach(a => div(a, ['stake', 'pnl', 'return']));
+    }
+
+    const st = day.stakes;
+    if (st) {
+      div(st, ['balance']);
+      div(st.summary, ['profit', 'total_staked', 'total_return',
+        'model_profit', 'model_staked', 'model_return',
+        'live_profit', 'live_staked', 'live_return']);
+      (st.bets || []).forEach(b => div(b, ['stake', 'return']));
+    }
+
+    day.units = 'stakes';
+    return day;
   },
 
   dayStakes(day) {
     if (!day) return null;
+    this.normalizeUnits(day);
     if (day.stakes?.summary) return day.stakes;
 
     const ct = day.curated_tips;
@@ -204,7 +239,7 @@ const Layout = {
 
     // Alertas live do bot. Sao NOCIONAIS: entram nas linhas do dia e no split
     // PRE/LIVE, mas nunca em profit/total_staked, que sao o que alimenta a
-    // banca (loadBankrollData) e o analytics-page.
+    // banca (loadTotalPL) e o analytics-page.
     const la = day.live_alerts;
     const liveAlerts = (la?.alerts || []).filter(a => a.result === 'GREEN' || a.result === 'RED');
     const liveSum = la?.summary || {};
@@ -250,33 +285,28 @@ const Layout = {
     };
   },
 
-  // Shared: load bankroll data from latest JSON
-  async loadBankrollData() {
+  // Shared: soma o P/L de todos os dias. Devolve stakes, ou null se falhar.
+  async loadTotalPL() {
     try {
-      const res = await fetch('resultados/data/index.json');
-      if (!res.ok) return { bankroll: null, totalPL: null };
+      const res = await fetch('resultados/data/index.json', { cache: 'no-store' });
+      if (!res.ok) return null;
       const index = await res.json();
-      if (!index.files.length) return { bankroll: null, totalPL: null };
-      const lastFile = index.files[index.files.length - 1];
-      const dayRes = await fetch('resultados/data/' + lastFile);
-      if (!dayRes.ok) return { bankroll: null, totalPL: null };
-      const day = await dayRes.json();
-      const bankroll = this.dayStakes(day)?.balance ?? null;
-      // Calculate total P/L: sum all days' stakes.summary.profit
-      let totalPL = 0;
-      for (const f of index.files) {
+      if (!index.files?.length) return null;
+      const days = await Promise.all(index.files.map(async (f) => {
         try {
-          const r = await fetch('resultados/data/' + f);
-          if (r.ok) {
-            const d = await r.json();
-            const st = this.dayStakes(d);
-            if (st?.summary?.profit != null) totalPL += st.summary.profit;
-          }
-        } catch (e) { /* skip */ }
+          const r = await fetch('resultados/data/' + f, { cache: 'no-store' });
+          return r.ok ? await r.json() : null;
+        } catch (e) { return null; }
+      }));
+      let totalPL = 0;
+      for (const d of days) {
+        if (!d) continue;
+        const profit = this.dayStakes(d)?.summary?.profit;
+        if (profit != null) totalPL += profit;
       }
-      return { bankroll, totalPL };
+      return Math.round(totalPL * 100) / 100;
     } catch (e) {
-      return { bankroll: null, totalPL: null };
+      return null;
     }
   }
 };

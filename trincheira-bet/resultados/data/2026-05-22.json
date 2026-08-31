@@ -13,13 +13,13 @@
         "odds": 1.48,
         "bookmaker": "Bet365",
         "score_confidence": 75,
-        "stake": 5,
+        "stake": 1,
         "final_score": "3-1",
         "halftime_score": null,
         "result": "GREEN",
         "hit": true,
-        "return": 7.40,
-        "pnl": 2.40,
+        "return": 1.48,
+        "pnl": 0.48,
         "note": "Lens histórico — primeira Coupe de France do clube. Thauvin, Édouard e Sima marcaram. Nice sem reação (16º Ligue 1, 0 vitórias em 8). Tese de colapso de Nice completamente confirmada. Odd 1.48 era ligeiramente abaixo do filtro 1.50 mas excepção justificada."
       },
       {
@@ -34,12 +34,12 @@
         "odds": 1.65,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "Navone 7-5 6-2 (Ruud eliminado)",
         "result": "RED",
         "hit": false,
-        "return": 0.0,
-        "pnl": -7.0,
+        "return": 0,
+        "pnl": -1.4,
         "note": "Upset absoluto — Navone demoliu Ruud 7-5 6-2, 27 winners. O 'rei de Geneva' (16-1 lifetime) perdeu em casa. Lição: historial impressivo não protege de dias de nível excepcional do adversário. Navone chegou à final vs Tien."
       },
       {
@@ -54,12 +54,12 @@
         "odds": 1.85,
         "bookmaker": "Bet365",
         "score_confidence": 76,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "Paul 2-6 6-3 6-3 (26 games total)",
         "result": "GREEN",
         "hit": true,
-        "return": 12.95,
-        "pnl": 5.95,
+        "return": 2.59,
+        "pnl": 1.19,
         "note": "3-setter confirmado: 8+9+9=26 jogos, bem acima da linha 22.5. Paul epic comeback — perdeu 0-3 no 2º set e venceu 9 jogos seguidos. de Minaur fica sem a primeira clay final da carreira. Consenso tipsters acertou em cheio."
       },
       {
@@ -71,15 +71,15 @@
         "away": "Oklahoma City Thunder",
         "league": "NBA · Western Conference Finals — Game 3",
         "kickoff": "2026-05-23T01:30:00+01:00",
-        "odds": 1.90,
+        "odds": 1.9,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "Thunder 123 - Spurs 108 (231 pts)",
         "result": "RED",
         "hit": false,
-        "return": 0.0,
-        "pnl": -7.0,
+        "return": 0,
+        "pnl": -1.4,
         "note": "231 pontos (13.5 acima da linha). Thunder bench explosivo — 76-23 em pontos do banco, recorde franchise em playoffs desde 2009. SGA 26pts+12ast, Wembanyama 26pts. Mesmo sem Jalen Williams o Thunder atacou bem. Tese defensiva foi ilusória."
       }
     ],
@@ -87,17 +87,49 @@
       "total": 4,
       "green": 2,
       "red": 2,
-      "hit_rate": 50.0,
-      "total_stake": 26,
-      "total_return": 20.35,
-      "pnl": -5.65,
+      "hit_rate": 50,
+      "total_stake": 5.2,
+      "total_return": 4.07,
+      "pnl": -1.13,
       "roi_pct": -21.7
     }
   },
-  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [
       {
@@ -133,11 +165,19 @@
       "red": 0,
       "green_over": 0,
       "pending": 0,
-      "hit_rate": 100.0,
+      "hit_rate": 100,
       "by_strategy": {
-        "🎯 BTTS LIVE": { "total": 2, "green": 2, "red": 0, "green_over": 0, "pending": 0, "hit_rate": 100.0 }
+        "🎯 BTTS LIVE": {
+          "total": 2,
+          "green": 2,
+          "red": 0,
+          "green_over": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
       }
     }
   },
-  "notes": "Dia misto pré-jogo (2/4, -5.65€ ROI -21.7%): Lens histórico GREEN (3-1 Nice, primeira Coupe de France), de Minaur-Paul Over 22.5 games GREEN (26 jogos, epic comeback Paul); Ruud eliminado em upset brutal por Navone (7-5 6-2); Thunder-Spurs 231pts = OVER (bench OKC explodiu, SGA+Wemby 26pts cada). Live worker 2/2 GREEN (Fiorentina-Atalanta 1-0→1-1; Estrela Vermelha-OFK 0-1→1-2)."
+  "notes": "Dia misto pré-jogo (2/4, -1,13 stakes ROI -21.7%): Lens histórico GREEN (3-1 Nice, primeira Coupe de France), de Minaur-Paul Over 22.5 games GREEN (26 jogos, epic comeback Paul); Ruud eliminado em upset brutal por Navone (7-5 6-2); Thunder-Spurs 231pts = OVER (bench OKC explodiu, SGA+Wemby 26pts cada). Live worker 2/2 GREEN (Fiorentina-Atalanta 1-0→1-1; Estrela Vermelha-OFK 0-1→1-2).",
+  "units": "stakes"
 }

@@ -321,5 +321,6 @@
       }
     }
   },
-  "notes": "Terça MAU dia worker (sem stakes). 19 alertas, 7G/12R, hit 36.8% — pior dos 5 dias. Cartão Vermelho desastroso 4/15 (26.7%) — strategy a re-avaliar: 11 REDs apesar de superioridade numérica + odds favoráveis. Padrão claro: cartão tardio (78'-86') com score já fechado falha quase sempre (Tirana-Vllaznia 1-0, Marseille W 0-1, Saint-Etienne W 1-1, Athletico U20 1-1, Audax Rio 0-1 mas FOI GREEN com 0-3 final). Cantos 0/0, mas Golos 0-0 2/3 (Kashima-Mito 0-0→3-0, Beijing-Dalian 0-0→3-0, RED Richards Bay 0-0). BTTS LIVE 1/1 (Mamelodi-Kaizer)."
+  "notes": "Terça MAU dia worker (sem stakes). 19 alertas, 7G/12R, hit 36.8% — pior dos 5 dias. Cartão Vermelho desastroso 4/15 (26.7%) — strategy a re-avaliar: 11 REDs apesar de superioridade numérica + odds favoráveis. Padrão claro: cartão tardio (78'-86') com score já fechado falha quase sempre (Tirana-Vllaznia 1-0, Marseille W 0-1, Saint-Etienne W 1-1, Athletico U20 1-1, Audax Rio 0-1 mas FOI GREEN com 0-3 final). Cantos 0/0, mas Golos 0-0 2/3 (Kashima-Mito 0-0→3-0, Beijing-Dalian 0-0→3-0, RED Richards Bay 0-0). BTTS LIVE 1/1 (Mamelodi-Kaizer).",
+  "units": "stakes"
 }

@@ -96,9 +96,9 @@ Mercados ordenados por preferência (MVP):
 
 | Banda | Score | Stake |
 |---|---|---|
-| Alta | ≥85 | 10€ |
-| Média-alta | 75-84 | 7€ |
-| Média | 65-74 | 5€ |
+| Alta | ≥85 | 2 stakes |
+| Média-alta | 75-84 | stake e meia |
+| Média | 65-74 | 1 stake |
 | Baixa | <65 | skip |
 
 ## Passo 6 — Schema JSON

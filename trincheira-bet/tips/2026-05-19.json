@@ -7,15 +7,21 @@
       "market": "btts",
       "pick": "Vitória Manchester City + Ambas Marcam Sim",
       "fixtureId": 1379331,
-      "home": { "name": "Bournemouth", "logo": "https://media.api-sports.io/football/teams/35.png" },
-      "away": { "name": "Manchester City", "logo": "https://media.api-sports.io/football/teams/50.png" },
+      "home": {
+        "name": "Bournemouth",
+        "logo": "https://media.api-sports.io/football/teams/35.png"
+      },
+      "away": {
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
       "league": "Premier League",
       "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
       "kickoff": "2026-05-19T19:30:00+01:00",
       "odds": 2.75,
       "bookmaker": "Bet365",
       "score": 80,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>O City entra obrigado a vencer para manter chances matemáticas no título — o Arsenal ganhou 1-0 ontem ao Burnley e lidera 82-77 com 2 GW para jogar. Pressão máxima sobre Pep e a equipa.</p><ul><li><strong>Defesa City vulnerável:</strong> Rodri OUT, peça central do meio-campo defensivo</li><li><strong>Bournemouth ofensivo:</strong> 16 jogos invicto na PL, 6º em luta por Europa, marca em 78% dos jogos em casa</li><li><strong>Ataque City obrigatório:</strong> Haaland 26 golos (golden boot), City sem clean sheet em 11/18 jogos fora</li><li><strong>Consenso tipsters:</strong> 2-1 City (Sportsgambler, Dimers, 7msport)</li><li><strong>Value:</strong> mercado dá 36% ao combo, modelo decompõe ~45% (City win 56% × BTTS condicional 80%)</li></ul>",
       "factors": [
         "Rodri OUT (defesa City enfraquecida)",
@@ -31,5 +37,6 @@
         "API-Football stats"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

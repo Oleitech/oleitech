@@ -204,5 +204,6 @@
       }
     }
   },
-  "notes": "Segunda fraca em volume (sem tracking de stakes). 10 alertas worker, 5G/4R/1 pendente, hit 55.6%. Cartão Vermelho 5/8 (62.5%) — Pusamania (2-0), Shenyang-Chengdu (0-1), Sitra-Al Ahli (0-2), Waalwijk-Willem II (0-1 GREEN_OVER), Tajikistan U17-Thailand U17 (2-0); REDs Seoul-Anyang (0-0), Stăuceni-Floreşti (0-0), Quilmes 2-Defensa Res (2-1 sem golo apos vermelho). Favorito 2H 0/1 (Qingdao falhou, ficou 1-1). 1 alerta Golos 0-0 (Rosario-Libertad Asuncion) pendente — não resolvido pelo worker."
+  "notes": "Segunda fraca em volume (sem tracking de stakes). 10 alertas worker, 5G/4R/1 pendente, hit 55.6%. Cartão Vermelho 5/8 (62.5%) — Pusamania (2-0), Shenyang-Chengdu (0-1), Sitra-Al Ahli (0-2), Waalwijk-Willem II (0-1 GREEN_OVER), Tajikistan U17-Thailand U17 (2-0); REDs Seoul-Anyang (0-0), Stăuceni-Floreşti (0-0), Quilmes 2-Defensa Res (2-1 sem golo apos vermelho). Favorito 2H 0/1 (Qingdao falhou, ficou 1-1). 1 alerta Golos 0-0 (Rosario-Libertad Asuncion) pendente — não resolvido pelo worker.",
+  "units": "stakes"
 }

@@ -14,12 +14,12 @@
         "odds": 1.5,
         "bookmaker": "Bet365",
         "score_confidence": 82,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "3-1",
         "result": "GREEN",
         "hit": true,
-        "return": 10.5,
-        "pnl": 3.5,
+        "return": 2.1,
+        "pnl": 0.7,
         "note": "Viking bateu o Dinamo Zagreb por 3-1 em casa (FT, 90 min) e ambas as equipas marcaram sem drama — tip resolvida com folga."
       },
       {
@@ -34,12 +34,12 @@
         "odds": 1.57,
         "bookmaker": "Bet365",
         "score_confidence": 78,
-        "stake": 5,
+        "stake": 1,
         "final_score": "1-1 (90min); 2-2 ao fim do prolongamento, Hearts venceu por grandes penalidades (4-3)",
         "result": "RED",
         "hit": false,
         "return": 0,
-        "pnl": -5,
+        "pnl": -1,
         "note": "Eliminatória empatada até ao fim: Rapid Viena marcou só 1 golo nos 90 minutos regulamentares (1-1), insuficiente para o 'mais de 1.5' do total da equipa. Fez o segundo já no prolongamento (2-2 aos 120'), mas os mercados de total de golos/equipa liquidam-se pela regra padrão das casas de apostas (Bet365 incluído) ao fim dos 90 minutos + descontos, sem contar prolongamento nem grandes penalidades — foi essa a leitura aplicada aqui. Hearts avançou de eliminatória ao ganhar o desempate por 4-3 nos pénaltis, o que é irrelevante para este mercado de golos."
       }
     ],
@@ -66,10 +66,10 @@
         ],
         "combined_odds": 2.35,
         "score": 78,
-        "stake": 7,
+        "stake": 1.4,
         "result": "RED",
         "return": 0,
-        "pnl": -7,
+        "pnl": -1.4,
         "note": "Perna do Viking-Dinamo cumpriu (3-1, ambas marcaram), mas o Rapid Viena só fez 1 golo nos 90 minutos frente ao Hearts — não chegou ao 'mais de 1.5' da equipa. Acumulador cai nessa perna apesar de o Rapid ter forçado o prolongamento no jogo."
       },
       {
@@ -102,10 +102,10 @@
         ],
         "combined_odds": 2.64,
         "score": 65,
-        "stake": 3,
+        "stake": 0.6,
         "result": "GREEN",
-        "return": 7.92,
-        "pnl": 4.92,
+        "return": 1.58,
+        "pnl": 0.98,
         "note": "Três pernas limpas. Real Madrid resolveu cedo (4-1 à Real Sociedad), Celje-Slovan já tinha 2 golos nos 90 minutos regulamentares (1-1), o suficiente para o 'mais de 1.5' independentemente do prolongamento que se seguiu, e o Everton passeou-se em Preston (0-4). Combinada de 2.64 paga integralmente."
       }
     ],
@@ -113,27 +113,59 @@
       "total": 2,
       "green": 1,
       "red": 1,
-      "hit_rate": 50.0,
-      "total_stake": 12,
-      "total_return": 10.5,
-      "pnl": -1.5,
+      "hit_rate": 50,
+      "total_stake": 2.4,
+      "total_return": 2.1,
+      "pnl": -0.3,
       "roi_pct": -12.5,
       "accumulators_total": 2,
       "accumulators_green": 1,
       "accumulators_red": 1,
-      "accumulators_stake": 10,
-      "accumulators_return": 7.92,
-      "accumulators_pnl": -2.08,
-      "combined_stake": 22,
-      "combined_return": 18.42,
-      "combined_pnl": -3.58,
+      "accumulators_stake": 2,
+      "accumulators_return": 1.58,
+      "accumulators_pnl": -0.42,
+      "combined_stake": 4.4,
+      "combined_return": 3.68,
+      "combined_pnl": -0.72,
       "combined_roi_pct": -16.27
     }
   },
-  "btts":    { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "cards":   { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "over25":  { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
-  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
   "live_alerts": {
     "alerts": [
       {
@@ -156,7 +188,7 @@
         "sentAt": 1787774940452,
         "deliveries": 6,
         "odds": 4,
-        "stake": 5,
+        "stake": 1,
         "result": "GREEN",
         "finalHome": 0,
         "finalAway": 0,
@@ -169,14 +201,14 @@
       "green": 1,
       "red": 0,
       "pending": 0,
-      "hit_rate": 100.0,
-      "hit_rate_por_jogo": 100.0,
+      "hit_rate": 100,
+      "hit_rate_por_jogo": 100,
       "jogos_distintos": 1,
-      "stake_total": 5,
-      "stake_mensuravel": 5,
-      "return_mensuravel": 20,
-      "pnl_mensuravel": 15,
-      "roi_pct_mensuravel": 300.0,
+      "stake_total": 1,
+      "stake_mensuravel": 1,
+      "return_mensuravel": 4,
+      "pnl_mensuravel": 3,
+      "roi_pct_mensuravel": 300,
       "odds_registadas": 1,
       "by_strategy": {
         "🔄 CANTOS TARDIOS": {
@@ -184,11 +216,12 @@
           "green": 1,
           "red": 0,
           "pending": 0,
-          "hit_rate": 100.0
+          "hit_rate": 100
         }
       }
     }
   },
-  "balance": 166.34,
-  "notes": "Dia curto (2 tips + 2 acumuladores, sem corvo). Viking-Dinamo GREEN (3-1, BTTS certo). Rapid Viena-Hearts RED no mercado de golos da equipa: o Rapid só marcou 1 golo nos 90 minutos regulamentares, foi a 1-1 para prolongamento, chegou a 2-2 aos 120' e caiu nos pénaltis (4-3 Hearts) — mas o mercado de total de golos liquida-se pelas regras padrão de 90 minutos, por isso ficou RED apesar do golo extra no prolongamento (ver issues do run). Acumulador standard RED por causa dessa perna; acumulador curto GREEN (Real Madrid 4-1, Celje-Slovan 2 golos nos 90 min, Everton 0-4 fora). P&L do dia -3,58€, banca desce de 169,92€ para 166,34€. Live: 1 alerta CANTOS TARDIOS, GREEN (Bradford-Burnley, 19 cantos finais)."
+  "balance": 33.27,
+  "notes": "Dia curto (2 tips + 2 acumuladores, sem corvo). Viking-Dinamo GREEN (3-1, BTTS certo). Rapid Viena-Hearts RED no mercado de golos da equipa: o Rapid só marcou 1 golo nos 90 minutos regulamentares, foi a 1-1 para prolongamento, chegou a 2-2 aos 120' e caiu nos pénaltis (4-3 Hearts) — mas o mercado de total de golos liquida-se pelas regras padrão de 90 minutos, por isso ficou RED apesar do golo extra no prolongamento (ver issues do run). Acumulador standard RED por causa dessa perna; acumulador curto GREEN (Real Madrid 4-1, Celje-Slovan 2 golos nos 90 min, Everton 0-4 fora). P&L do dia -0,72 stakes, banca desce de 33,98 stakes para 33,27 stakes. Live: 1 alerta CANTOS TARDIOS, GREEN (Bradford-Burnley, 19 cantos finais).",
+  "units": "stakes"
 }

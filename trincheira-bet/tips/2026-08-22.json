@@ -6,12 +6,24 @@
     {
       "label": "corvo",
       "selections": [
-        { "fixtureId": 1550092, "match": "Inter vs Monza", "pick": "Inter e Menos de 4.5 golos", "odds": 1.55, "sport": "football" },
-        { "fixtureId": 1575471, "match": "Sporting CP vs Alverca", "pick": "Sporting e Mais de 1.5 golos", "odds": 1.33, "sport": "football" }
+        {
+          "fixtureId": 1550092,
+          "match": "Inter vs Monza",
+          "pick": "Inter e Menos de 4.5 golos",
+          "odds": 1.55,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1575471,
+          "match": "Sporting CP vs Alverca",
+          "pick": "Sporting e Mais de 1.5 golos",
+          "odds": 1.33,
+          "sport": "football"
+        }
       ],
       "combined_odds": 2.06,
       "score": 74,
-      "stake": 5,
+      "stake": 1,
       "note": "Segundo dia do modelo. A perna do Inter é a expressão pura: 1.18 na vitória simples, empurrada para 1.55 pela linha Under 4.5, e o Inter chega invicto há 15 jogos e sem uma única lesão, contra um promovido que perdeu o Pessina por 4 meses. A perna do Sporting é a mais frágil das duas — falha num 1-0 — mas o Alverca leva 4 derrotas seguidas fora, uma vitória em 12 na estrada, e chega sem Meupiyou, Martínez e Abdulai, com o Chiquinho suspenso. Sem sobreposição com as tips curadas hoje."
     }
   ],
@@ -21,15 +33,21 @@
       "sport": "football",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1550091,
-      "home": { "name": "Genoa", "logo": "https://media.api-sports.io/football/teams/495.png" },
-      "away": { "name": "Napoli", "logo": "https://media.api-sports.io/football/teams/492.png" },
+      "home": {
+        "name": "Genoa",
+        "logo": "https://media.api-sports.io/football/teams/495.png"
+      },
+      "away": {
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
       "league": "Serie A — Jornada 1",
       "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
       "kickoff": "2026-08-22T18:45:00Z",
-      "odds": 2.0,
+      "odds": 2,
       "bookmaker": "Bet365 (ref.)",
       "score": 79,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p><strong>Sete dos últimos oito confrontos terminaram com ambas a marcar</strong>, e sete de oito passaram os 2,5 golos: 2-3, 2-1, 2-2, 1-2, 1-1, 2-2. Não é uma equipa a arrastar a outra para o caos — é o padrão deste confronto há anos, e não depende de nenhuma estatística desta época, que ainda não existe.</p><p><strong>O ângulo que inclina a balança:</strong> o Napoli chega com <strong>três centrais de fora — Beukema, Buongiorno e Marianucci</strong> — mais o Neres. Uma defesa remendada em Marassi, com o Allegri ainda a ajustar a equipa depois da saída do Conte, é exactamente o cenário que sustenta a perna mais duvidosa desta aposta, que é o Genoa marcar. Do outro lado, o Napoli marcar é quase um dado: são favoritos a 1.85.</p><p><strong>Risco assumido, sir:</strong> o Napoli está invicto há 8 jogos de liga contra o Genoa, e o Genoa não vence em casa contra eles há 4. Se o Allegri optar por gerir o resultado, sai um 0-1 seco. A odd de 2.00 está a pagar precisamente essa dúvida — e é por isso que há valor.</p>",
       "factors": [
         "7 dos últimos 8 confrontos com ambas a marcar",
@@ -50,15 +68,21 @@
       "sport": "football",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1557369,
-      "home": { "name": "Everton", "logo": "https://media.api-sports.io/football/teams/45.png" },
-      "away": { "name": "Crystal Palace", "logo": "https://media.api-sports.io/football/teams/52.png" },
+      "home": {
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png"
+      },
+      "away": {
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png"
+      },
       "league": "Premier League — Jornada 1",
       "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
       "kickoff": "2026-08-22T14:00:00Z",
       "odds": 1.75,
       "bookmaker": "Bet365 (ref.)",
       "score": 75,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p><strong>Ambas marcaram em cada um dos últimos seis encontros da Premier League</strong> entre estas equipas, 6 em 8 contando tudo. O consenso dos analistas aponta para 2-1 ao Everton — que é ambas marcam por definição.</p><p>O Everton chega de um 3-1 ao Newcastle a 12 de Agosto e estreia-se em casa nova, no Hill Dickinson. O Palace vem em transição, com o McNeil a chegar no negócio que levou o Brennan Johnson ao Everton — que joga contra o antigo clube.</p><p><strong>Risco assumido, sir:</strong> a perna frágil é o Palace marcar, e não a escondo. Foram batidos por 3-0 pelo Freiburg no último ensaio, <strong>perderam o Wharton</strong> por lesão no tornozelo, e têm dúvidas sobre McNeil e Doucouré. É uma equipa a reconstruir-se a atacar fora. Daí 75 e não mais.</p>",
       "factors": [
         "Ambas marcaram nos últimos 6 encontros da Premier League",
@@ -74,5 +98,6 @@
         "API-Football — H2H últimos 8, odds Bet365, fixture 1557369"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

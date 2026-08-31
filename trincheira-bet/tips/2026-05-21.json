@@ -7,15 +7,21 @@
       "market": "btts",
       "pick": "Mais de 2.5 Golos",
       "fixtureId": 1545410,
-      "home": { "name": "Brøndby", "logo": "https://media.api-sports.io/football/teams/400.png" },
-      "away": { "name": "FC Copenhagen", "logo": "https://media.api-sports.io/football/teams/406.png" },
+      "home": {
+        "name": "Brøndby",
+        "logo": "https://media.api-sports.io/football/teams/400.png"
+      },
+      "away": {
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/406.png"
+      },
       "league": "Superliga (Dinamarca)",
       "leagueLogo": "https://media.api-sports.io/football/leagues/119.png",
       "kickoff": "2026-05-21T17:30:00+01:00",
       "odds": 1.85,
       "bookmaker": "Bet365",
       "score": 78,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Derby de Copenhaga no playoff europeu da Superliga, ambos os clubes a lutar por vaga UEFA. Cenário ofensivo claro: Copenhagen em forma assassina fora + Brondby instável em casa.</p><ul><li><strong>Copenhagen em fogo fora:</strong> WWWWWDWW (7V/1E em 8 jogos), 5-0 na última jornada vs Randers</li><li><strong>Jordan Larsson red-hot:</strong> 4 golos + 3 assists nos últimos 5 jogos para o Copenhagen</li><li><strong>Brondby vulnerável:</strong> LLWWLDLW em casa, 1.3 GA, sem clean sheet recente</li><li><strong>Expected goals altíssimo:</strong> Brondby home 1.7 GF + Copenhagen away 2.1 GF / 1.6 GA → total esperado ~3.8</li><li><strong>Value:</strong> odd 1.85 = implícita 54%; modelo (Poisson com λ=3.8) sugere ~65% real → edge ~11pp</li><li><strong>Contexto:</strong> playoff europeu, ambos motivados a atacar para garantir vaga UEFA</li></ul>",
       "factors": [
         "Copenhagen 7V/1E em 8 jogos fora",
@@ -36,15 +42,21 @@
       "sport": "tennis",
       "pick": "Casper Ruud vence 2 sets a 0",
       "fixtureId": "geneva-qf-ruud-popyrin",
-      "home": { "name": "Casper Ruud", "logo": "" },
-      "away": { "name": "Alexei Popyrin", "logo": "" },
+      "home": {
+        "name": "Casper Ruud",
+        "logo": ""
+      },
+      "away": {
+        "name": "Alexei Popyrin",
+        "logo": ""
+      },
       "league": "ATP 250 Geneva — Quarterfinal",
       "leagueLogo": "",
       "kickoff": "2026-05-21T17:00:00+01:00",
       "odds": 1.75,
       "bookmaker": "Bet365",
       "score": 78,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Ruud em peak form pré-Roland Garros, sem ceder um único set neste torneio. Match winner sai a 1.27 (zero value); o ângulo 2-0 captura o cenário base do 'Ruud easy' com odd decente.</p><ul><li><strong>Ruud 0 sets perdidos no torneio Geneva</strong> — domínio total na clay</li><li><strong>Modelo dá 74% Ruud ML</strong> — domínio claro do favorito</li><li><strong>H2H mais recente:</strong> Ruud 6-3 6-4 vs Popyrin em Monte Carlo (Abr 2026), também 2-0 e na clay</li><li><strong>Tennis Tonic explícito:</strong> 'Ruud winning in 2 sets'</li><li><strong>Specialista de clay vs hard-court guy:</strong> Popyrin acordou recente com upset Fritz mas Geneva clay é território Ruud</li><li><strong>Pre-RG peak:</strong> Ruud a afinar para o Grand Slam que ama mais</li><li><strong>⚠️ Match às 17:00 Lisboa</strong> — sessão noturna Geneva</li></ul>",
       "factors": [
         "Ruud 0 sets perdidos no torneio",
@@ -65,15 +77,21 @@
       "sport": "nba",
       "pick": "Under 214.5 Pontos",
       "fixtureId": 401873342,
-      "home": { "name": "New York Knicks", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/nyk.png" },
-      "away": { "name": "Cleveland Cavaliers", "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png" },
+      "home": {
+        "name": "New York Knicks",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/nyk.png"
+      },
+      "away": {
+        "name": "Cleveland Cavaliers",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+      },
       "league": "NBA · Eastern Conference Finals — Game 2",
       "leagueLogo": "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
       "kickoff": "2026-05-22T01:00:00+01:00",
-      "odds": 1.90,
+      "odds": 1.9,
       "bookmaker": "Bet365",
       "score": 75,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Game 2 do ECF em MSG, após uma das maiores comebacks da história NBA dos Knicks. Setup defensivo claro: Cavs vão entrar disciplinados (lideravam 22pts no 4Q do Game 1 antes do colapso), Knicks com confiança defensiva pós lock-in do 4Q.</p><ul><li><strong>Game 1 em tempo regulamentar = 102-102 (204pts).</strong> Os 219 finais incluíram OT</li><li><strong>Cavs em revenge mode:</strong> jogavam com 99.9% win prob (ESPN Analytics) antes do colapso. Vão entrar conservadores, controlar ritmo, evitar contra-ataque NYK</li><li><strong>Knicks D elite no 4Q Game 1:</strong> Cavs 29.4% FG no quarto, 1/7 em OT. Padrão a manter</li><li><strong>Consenso modelos:</strong> NBC Sports lean UNDER 215.5; OddsShark UNDER em props</li><li><strong>Sem injuries dos dois lados</strong> — rotações tight, top-8 minutes</li><li><strong>Tendência playoff:</strong> totais playoff vão Under ~53% históricamente, defesas tightenem na 2ª mão</li><li><strong>⚠️ KO 01:00 Lisboa</strong> — aposta antes de dormir</li></ul>",
       "factors": [
         "Game 1 regulamentar = 204pts (10pts abaixo da linha)",
@@ -90,5 +108,6 @@
         "ESPN Game 1 recap"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

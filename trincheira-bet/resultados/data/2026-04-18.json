@@ -33,7 +33,7 @@
         "country": "DE",
         "kickoff": "14:00",
         "confidence": null,
-        "btts_sim": 1.60,
+        "btts_sim": 1.6,
         "result_home": 2,
         "result_away": 0,
         "btts_hit": false
@@ -192,25 +192,25 @@
         "market": "BTTS",
         "matches": "SSV Ulm vs Havelse",
         "odds": 1.48,
-        "stake": 5,
+        "stake": 1,
         "result": "win",
-        "return": 7.40
+        "return": 1.48
       },
       {
         "type": "simples",
         "market": "BTTS",
         "matches": "MSV Duisburg vs Hoffenheim II",
         "odds": 1.52,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 22.80
+        "return": 4.56
       },
       {
         "type": "simples",
         "market": "BTTS",
         "matches": "Verl vs Viktoria Köln",
-        "odds": 1.60,
-        "stake": 20,
+        "odds": 1.6,
+        "stake": 4,
         "result": "loss",
         "return": 0
       },
@@ -218,17 +218,17 @@
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "OFI Crete vs Levadiakos",
-        "odds": 1.50,
-        "stake": 30,
+        "odds": 1.5,
+        "stake": 6,
         "result": "win",
-        "return": 45.00
+        "return": 9
       },
       {
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "Kifisias vs Asteras Tripolis",
         "odds": 1.53,
-        "stake": 30,
+        "stake": 6,
         "result": "loss",
         "return": 0
       },
@@ -237,16 +237,16 @@
         "market": "Over 3.5 cartões",
         "matches": "Napoli vs Lazio",
         "odds": 2.875,
-        "stake": 26,
+        "stake": 5.2,
         "result": "win",
-        "return": 74.75
+        "return": 14.95
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Keski-Uusimaa vs RoPS",
         "odds": 1.38,
-        "stake": 20,
+        "stake": 4,
         "result": "loss",
         "return": 0
       },
@@ -255,7 +255,7 @@
         "market": "Over 2.5",
         "matches": "Verl vs Viktoria Köln",
         "odds": 1.55,
-        "stake": 20,
+        "stake": 4,
         "result": "loss",
         "return": 0
       },
@@ -264,16 +264,16 @@
         "market": "Over 2.5",
         "matches": "Thun vs Basel",
         "odds": 1.36,
-        "stake": 20,
+        "stake": 4,
         "result": "win",
-        "return": 27.20
+        "return": 5.44
       },
       {
         "type": "simples",
         "market": "Over 2.5",
         "matches": "Wolfsberger vs BW Linz",
         "odds": 1.92,
-        "stake": 20,
+        "stake": 4,
         "result": "loss",
         "return": 0
       },
@@ -282,25 +282,25 @@
         "market": "Over 2.5",
         "matches": "MSV Duisburg vs Hoffenheim II",
         "odds": 1.49,
-        "stake": 15,
+        "stake": 3,
         "result": "win",
-        "return": 22.35
+        "return": 4.47
       },
       {
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "Kocaelispor vs Goztepe",
-        "odds": 2.10,
-        "stake": 20,
+        "odds": 2.1,
+        "stake": 4,
         "result": "win",
-        "return": 42.00
+        "return": 8.4
       },
       {
         "type": "simples",
         "market": "Over 4.5 cartões",
         "matches": "Genclerbirligi vs Galatasaray",
         "odds": 2.22,
-        "stake": 20,
+        "stake": 4,
         "result": "loss",
         "return": 0
       },
@@ -308,8 +308,8 @@
         "type": "simples",
         "market": "Over 5.5 cartões",
         "matches": "Necaxa vs Tigres UANL",
-        "odds": 2.10,
-        "stake": 15,
+        "odds": 2.1,
+        "stake": 3,
         "result": "loss",
         "return": 0
       },
@@ -318,7 +318,7 @@
         "market": "Over 4.5 cartões",
         "matches": "Cruz Azul vs Tijuana",
         "odds": 1.667,
-        "stake": 30,
+        "stake": 6,
         "result": "loss",
         "return": 0
       },
@@ -327,20 +327,21 @@
         "market": "Over 2.5",
         "matches": "Cruz Azul vs Tijuana",
         "odds": 1.39,
-        "stake": 15,
+        "stake": 3,
         "result": "loss",
         "return": 0
       }
     ],
     "summary": {
-      "total_staked": 341,
-      "total_return": 241.50,
-      "profit": -99.50,
+      "total_staked": 68.2,
+      "total_return": 48.3,
+      "profit": -19.9,
       "total_bets": 16,
       "wins": 7,
       "losses": 9,
       "roi": -29.2
     }
   },
-  "notes": "Dia RED. Over 2.5: 2/6 (33.3%) - Wolfsberger 0-0, Keski-Uusimaa 0-2, Verl 2-0. Cartões: 3/7 (42.9%) - Liga MX e Grécia falharam. BTTS: 2/3 (66.7%). Stakes: -99.50€ prejuízo em 341€ (ROI -29.2%). Excesso de exposição (341€ vs max ~196€)."
+  "notes": "Dia RED. Over 2.5: 2/6 (33.3%) - Wolfsberger 0-0, Keski-Uusimaa 0-2, Verl 2-0. Cartões: 3/7 (42.9%) - Liga MX e Grécia falharam. BTTS: 2/3 (66.7%). Stakes: -19,9 stakes prejuízo em 68,2 stakes (ROI -29.2%). Excesso de exposição (68,2 stakes vs max ~39,2 stakes).",
+  "units": "stakes"
 }

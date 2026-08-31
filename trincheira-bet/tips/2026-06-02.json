@@ -9,23 +9,29 @@
       "sport": "tennis",
       "pick": "Alexander Zverev -1.5 sets (vence 3-0 ou 3-1)",
       "fixtureId": "rg-2026-qf-jodar-zverev",
-      "home": { "name": "Rafael Jodar", "logo": "" },
-      "away": { "name": "Alexander Zverev", "logo": "" },
+      "home": {
+        "name": "Rafael Jodar",
+        "logo": ""
+      },
+      "away": {
+        "name": "Alexander Zverev",
+        "logo": ""
+      },
       "league": "Roland Garros 2026 — Quartos-de-final (ATP) · Court Philippe-Chatrier",
       "leagueLogo": "",
       "kickoff": "2026-06-02T11:20:00Z",
       "odds": 1.61,
       "bookmaker": "Bet365",
       "score": 77,
-      "stake": 7,
-      "tese": "<p>Quarto-de-final com um <strong>fosso de classe e experiência enorme</strong>. Zverev é o nº3 do mundo, favorito a +120 para erguer o título (o mais curto do quadro após a debandada de Sinner e Djokovic) e chega a estes QF sem ter cedido um único susto — percurso limpo. Do outro lado, Rafael Jodar é um teenager espanhol a disputar o primeiro QF de Grand Slam da carreira, sobre-rendimento bonito mas sem rodagem neste palco.</p><ul><li><strong>Probabilidades dos modelos convergentes:</strong> SI/Dimers/Stats Insider dão a Zverev 72-74% de vitória no jogo e 66% de ganhar o 1º set — números de domínio, não de coin-flip.</li><li><strong>Fator decisivo — a linha cobre 3-0 E 3-1:</strong> o -1.5 sets (@1.61) só falha se Jodar vencer o jogo (~26-28%) ou levá-lo a um 5º set (3-2 / 2-3). Zverev pode até perder UM set e a aposta continua viva — margem de segurança rara para esta odd.</li><li><strong>Clay-competente e calejado:</strong> Zverev é finalista/semifinalista habitual em terra e em BO5; a probabilidade de fechar em 3 ou 4 sets contra um estreante é alta.</li><li><strong>Consenso de mercado:</strong> múltiplos analistas (SI, Last Word on Tennis) flagam value em Zverev a cobrir o handicap (-1.5 sets / -4.5 games @1.80 bet365). ⚠️ Nota anti-viés: um analista isolado sugere o upset Jodar ML — minoria contrária, sem suporte dos modelos.</li><li><strong>⚠️ Risco real:</strong> Jodar é destemido e joga em terra, a sua superfície; um 5º set surpresa (3-2) anula a aposta. Daí stake média (7€), não máxima.</li><li><strong>⚠️ KO 13:20 CEST / 12:20 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "stake": 1.4,
+      "tese": "<p>Quarto-de-final com um <strong>fosso de classe e experiência enorme</strong>. Zverev é o nº3 do mundo, favorito a +120 para erguer o título (o mais curto do quadro após a debandada de Sinner e Djokovic) e chega a estes QF sem ter cedido um único susto — percurso limpo. Do outro lado, Rafael Jodar é um teenager espanhol a disputar o primeiro QF de Grand Slam da carreira, sobre-rendimento bonito mas sem rodagem neste palco.</p><ul><li><strong>Probabilidades dos modelos convergentes:</strong> SI/Dimers/Stats Insider dão a Zverev 72-74% de vitória no jogo e 66% de ganhar o 1º set — números de domínio, não de coin-flip.</li><li><strong>Fator decisivo — a linha cobre 3-0 E 3-1:</strong> o -1.5 sets (@1.61) só falha se Jodar vencer o jogo (~26-28%) ou levá-lo a um 5º set (3-2 / 2-3). Zverev pode até perder UM set e a aposta continua viva — margem de segurança rara para esta odd.</li><li><strong>Clay-competente e calejado:</strong> Zverev é finalista/semifinalista habitual em terra e em BO5; a probabilidade de fechar em 3 ou 4 sets contra um estreante é alta.</li><li><strong>Consenso de mercado:</strong> múltiplos analistas (SI, Last Word on Tennis) flagam value em Zverev a cobrir o handicap (-1.5 sets / -4.5 games @1.80 bet365). ⚠️ Nota anti-viés: um analista isolado sugere o upset Jodar ML — minoria contrária, sem suporte dos modelos.</li><li><strong>⚠️ Risco real:</strong> Jodar é destemido e joga em terra, a sua superfície; um 5º set surpresa (3-2) anula a aposta. Daí stake média (1,4 stakes), não máxima.</li><li><strong>⚠️ KO 13:20 CEST / 12:20 Lisboa</strong> — apostar antes do início.</li></ul>",
       "factors": [
         "Zverev nº3 mundial, +120 favorito ao título, percurso sem sustos vs teenager no 1º QF de Grand Slam",
         "Modelos convergentes: Zverev 72-74% de vitória, 66% de ganhar o 1º set",
         "Handicap -1.5 sets cobre 3-0 E 3-1 — Zverev pode ceder 1 set e a aposta mantém-se viva",
         "Zverev calejado em terra e em BO5; estreante sem rodagem no palco",
         "Consenso de tipsters (SI, Last Word on Tennis) flaga value no handicap de Zverev",
-        "⚠️ Jodar destemido em terra; um 5º set surpresa (3-2) anula — stake média (7€)"
+        "⚠️ Jodar destemido em terra; um 5º set surpresa (3-2) anula — stake média (1,4 stakes)"
       ],
       "sources": [
         "si.com — Rafael Jodar vs Alexander Zverev prediction & odds (Zverev favorito, -1.5 set spread @ -165)",
@@ -41,23 +47,29 @@
       "sport": "tennis",
       "pick": "Mais de 38.5 games no total do jogo (Over 38.5)",
       "fixtureId": "rg-2026-qf-mensik-fonseca",
-      "home": { "name": "Joao Fonseca", "logo": "" },
-      "away": { "name": "Jakub Mensik", "logo": "" },
+      "home": {
+        "name": "Joao Fonseca",
+        "logo": ""
+      },
+      "away": {
+        "name": "Jakub Mensik",
+        "logo": ""
+      },
       "league": "Roland Garros 2026 — Quartos-de-final (ATP) · Court Philippe-Chatrier (night session)",
       "leagueLogo": "",
       "kickoff": "2026-06-02T18:15:00Z",
-      "odds": 1.90,
+      "odds": 1.9,
       "bookmaker": "Bet365",
       "score": 75,
-      "stake": 7,
-      "tese": "<p>Quarto-de-final estelar da night session entre dois dos maiores talentos da nova geração — e um confronto desenhado para <strong>acumular games</strong>. Fonseca chega lançadíssimo (eliminou Djokovic recuperando de 0-2 sets, 4-6 4-6 6-3 7-5 7-5, e depois Ruud) e Mensik traz um dos melhores serviços do circuito. Dois grandes sacadores num BO5 = muitos jogos de serviço seguros, sets longos e probabilidade alta de tie-breaks.</p><ul><li><strong>Histórico de game-count alto nos dois:</strong> Mensik produziu 27-47-31-49 games por jogo neste RG (média 38.5); Fonseca 31-43-53-45 (média 43.0). A linha de 38.5 está exatamente na média do MENOR dos dois e abaixo da do Fonseca.</li><li><strong>H2H sugere guerra:</strong> o único encontro (Next Gen Finals 2024) foi uma maratona aos 5 sets (Fonseca 3-2) — sinal de paridade e de jogos compridos entre ambos.</li><li><strong>Paridade real apesar do favoritismo:</strong> Fonseca é favorito curto (~1.48-1.52 ML), mas o Racing Post avisa que está 'demasiado curto' frente a um Mensik 'composto' — quanto mais equilibrado o jogo, mais sets e mais games, exatamente o que o Over precisa.</li><li><strong>Consenso de mercado:</strong> SI e SportsBettingDime recomendam ambos o Over 38.5 games como a melhor leitura do jogo.</li><li><strong>⚠️ Risco real:</strong> o único cenário que mata o Over é um 3-0 expresso com sets curtos (ex.: 6-3 6-4 6-4 = 29 games). Dada a paridade e o serviço de Mensik, é o resultado menos provável — mas existe. Daí stake média (7€).</li><li><strong>⚠️ KO 20:15 CEST / 19:15 Lisboa (night session)</strong> — apostar antes do início.</li></ul>",
+      "stake": 1.4,
+      "tese": "<p>Quarto-de-final estelar da night session entre dois dos maiores talentos da nova geração — e um confronto desenhado para <strong>acumular games</strong>. Fonseca chega lançadíssimo (eliminou Djokovic recuperando de 0-2 sets, 4-6 4-6 6-3 7-5 7-5, e depois Ruud) e Mensik traz um dos melhores serviços do circuito. Dois grandes sacadores num BO5 = muitos jogos de serviço seguros, sets longos e probabilidade alta de tie-breaks.</p><ul><li><strong>Histórico de game-count alto nos dois:</strong> Mensik produziu 27-47-31-49 games por jogo neste RG (média 38.5); Fonseca 31-43-53-45 (média 43.0). A linha de 38.5 está exatamente na média do MENOR dos dois e abaixo da do Fonseca.</li><li><strong>H2H sugere guerra:</strong> o único encontro (Next Gen Finals 2024) foi uma maratona aos 5 sets (Fonseca 3-2) — sinal de paridade e de jogos compridos entre ambos.</li><li><strong>Paridade real apesar do favoritismo:</strong> Fonseca é favorito curto (~1.48-1.52 ML), mas o Racing Post avisa que está 'demasiado curto' frente a um Mensik 'composto' — quanto mais equilibrado o jogo, mais sets e mais games, exatamente o que o Over precisa.</li><li><strong>Consenso de mercado:</strong> SI e SportsBettingDime recomendam ambos o Over 38.5 games como a melhor leitura do jogo.</li><li><strong>⚠️ Risco real:</strong> o único cenário que mata o Over é um 3-0 expresso com sets curtos (ex.: 6-3 6-4 6-4 = 29 games). Dada a paridade e o serviço de Mensik, é o resultado menos provável — mas existe. Daí stake média (1,4 stakes).</li><li><strong>⚠️ KO 20:15 CEST / 19:15 Lisboa (night session)</strong> — apostar antes do início.</li></ul>",
       "factors": [
         "Dois grandes sacadores em BO5 → muitos holds, sets longos e tie-breaks prováveis",
         "Game-count alto neste RG: Mensik média 38.5, Fonseca média 43.0 — linha na média do menor dos dois",
         "H2H único foi maratona de 5 sets (Next Gen Finals 2024) — paridade = jogos longos",
         "Fonseca favorito curto mas Racing Post vê-o 'demasiado curto' vs Mensik composto → jogo equilibrado",
         "Consenso de tipsters (SI, SportsBettingDime) recomenda Over 38.5 games",
-        "⚠️ Só um 3-0 expresso com sets curtos mata o Over — cenário menos provável; stake média (7€)"
+        "⚠️ Só um 3-0 expresso com sets curtos mata o Over — cenário menos provável; stake média (1,4 stakes)"
       ],
       "sources": [
         "si.com — Mensik vs Fonseca prediction & odds (Over 38.5 games recomendado)",
@@ -68,5 +80,6 @@
         "rolandgarros.com / puntodebreak.com — order of play Tuesday 2 June (Fonseca-Mensik night 20:15)"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

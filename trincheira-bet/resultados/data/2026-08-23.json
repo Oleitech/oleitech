@@ -1,7 +1,7 @@
 {
   "date": "2026-08-23",
-  "balance": 140.58,
-  "notes": "Domingo sem tips pré-jogo — não houve sessão de curadoria, portanto a banca fica inalterada. O dia é só do bot live, e é o melhor até agora: 11 alertas, 7 GREEN e 4 RED, com retorno de 62,42€ sobre 57€ de stake — +5,42€, ROI +9,5%. MARCO: é o primeiro dia em que o P&L dos alertas live é TOTALMENTE mensurável. Todos os GREEN tinham odds registadas; o único alerta sem preço (Chapecoense) foi RED, e num RED o retorno é zero de qualquer forma. É exactamente para isto que as odds foram acrescentadas ao arquivo a 21/08 — até aqui só se sabia a taxa de acerto, nunca se dava lucro. Nota sobre a composição: sete dos onze alertas vieram da América do Sul e do Leste europeu, ligas onde a cobertura do feed de odds se mostrou boa. Sem empilhamento hoje — onze alertas em onze jogos distintos, ao contrário de sábado. As stakes continuam nocionais e fora da banca; servem para medir ROI, não representam apostas confirmadas.",
+  "balance": 28.12,
+  "notes": "Domingo sem tips pré-jogo — não houve sessão de curadoria, portanto a banca fica inalterada. O dia é só do bot live, e é o melhor até agora: 11 alertas, 7 GREEN e 4 RED, com retorno de 12,48 stakes sobre 11,4 stakes de stake — +1,08 stakes, ROI +9,5%. MARCO: é o primeiro dia em que o P&L dos alertas live é TOTALMENTE mensurável. Todos os GREEN tinham odds registadas; o único alerta sem preço (Chapecoense) foi RED, e num RED o retorno é zero de qualquer forma. É exactamente para isto que as odds foram acrescentadas ao arquivo a 21/08 — até aqui só se sabia a taxa de acerto, nunca se dava lucro. Nota sobre a composição: sete dos onze alertas vieram da América do Sul e do Leste europeu, ligas onde a cobertura do feed de odds se mostrou boa. Sem empilhamento hoje — onze alertas em onze jogos distintos, ao contrário de sábado. As stakes continuam nocionais e fora da banca; servem para medir ROI, não representam apostas confirmadas.",
   "curated_tips": {
     "summary": {
       "total": 0,
@@ -26,23 +26,197 @@
     "accumulators": [],
     "tips": []
   },
-  "btts": { "tips": [] },
-  "over25": { "tips": [] },
-  "cards": { "tips": [] },
-  "corners": { "tips": [] },
+  "btts": {
+    "tips": []
+  },
+  "over25": {
+    "tips": []
+  },
+  "cards": {
+    "tips": []
+  },
+  "corners": {
+    "tips": []
+  },
   "live_alerts": {
     "alerts": [
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Lommel United vs KVC Westerlo", "league": "Jupiler Pro League (Belgium)", "elapsed": 50, "score_at_alert": "2-0", "conf": 87, "stake": 5, "odds": 1.444, "final_score": "4-0", "result": "RED", "hit": false, "return": 0, "pnl": -5 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "AC Horsens vs Lyngby", "league": "Superliga (Denmark)", "elapsed": 63, "score_at_alert": "1-0", "conf": 85, "stake": 5, "odds": 1.8, "final_score": "2-1", "result": "GREEN", "hit": true, "return": 9.0, "pnl": 4.0 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Pisa vs Padova", "league": "Serie B (Italy)", "elapsed": 70, "score_at_alert": "0-1", "conf": 86, "stake": 5, "odds": 2.1, "final_score": "0-1", "result": "RED", "hit": false, "return": 0, "pnl": -5 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Panetolikos vs Asteras Tripolis", "league": "Super League 1 (Greece)", "elapsed": 65, "score_at_alert": "2-0", "conf": 89, "stake": 5, "odds": 2.25, "final_score": "3-1", "result": "GREEN", "hit": true, "return": 11.25, "pnl": 6.25 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Rennes vs Paris Saint Germain", "league": "Ligue 1 (France)", "elapsed": 60, "score_at_alert": "2-0", "conf": 87, "stake": 5, "odds": 1.4, "final_score": "2-2", "result": "GREEN", "hit": true, "return": 7.0, "pnl": 2.0 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Göztepe vs Gençlerbirliği S.K.", "league": "Süper Lig (Turkey)", "elapsed": 69, "score_at_alert": "0-1", "conf": 86, "stake": 5, "odds": 2.0, "final_score": "0-1", "result": "RED", "hit": false, "return": 0, "pnl": -5 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Mladost Lucani vs FK Partizan", "league": "Super Liga (Serbia)", "elapsed": 55, "score_at_alert": "0-1", "conf": 89, "stake": 5, "odds": 1.444, "final_score": "3-1", "result": "GREEN", "hit": true, "return": 7.22, "pnl": 2.22 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Fortaleza FC vs Atletico Nacional", "league": "Primera A (Colombia)", "elapsed": 55, "score_at_alert": "0-1", "conf": 87, "stake": 5, "odds": 2.0, "final_score": "1-2", "result": "GREEN", "hit": true, "return": 10.0, "pnl": 5.0 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Belgrano Cordoba vs Defensa Y Justicia", "league": "Liga Profesional (Argentina)", "elapsed": 55, "score_at_alert": "0-1", "conf": 90, "stake": 7, "odds": 1.533, "final_score": "1-2", "result": "GREEN", "hit": true, "return": 10.73, "pnl": 3.73 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Santos vs Mirassol", "league": "Serie A (Brazil)", "elapsed": 55, "score_at_alert": "0-1", "conf": 89, "stake": 5, "odds": 1.444, "final_score": "1-1", "result": "GREEN", "hit": true, "return": 7.22, "pnl": 2.22 },
-      { "strategy": "🎯 BTTS LIVE", "market": "Ambas Marcam - Sim", "match": "Chapecoense-sc vs Sao Paulo", "league": "Serie B (Brazil)", "elapsed": 55, "score_at_alert": "1-0", "conf": 87, "stake": 5, "odds": null, "final_score": "1-0", "result": "RED", "hit": false, "return": 0, "pnl": -5, "note": "Sem preço registado, mas irrelevante para o P&L: num RED o retorno é zero independentemente da odd." }
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Lommel United vs KVC Westerlo",
+        "league": "Jupiler Pro League (Belgium)",
+        "elapsed": 50,
+        "score_at_alert": "2-0",
+        "conf": 87,
+        "stake": 1,
+        "odds": 1.444,
+        "final_score": "4-0",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "AC Horsens vs Lyngby",
+        "league": "Superliga (Denmark)",
+        "elapsed": 63,
+        "score_at_alert": "1-0",
+        "conf": 85,
+        "stake": 1,
+        "odds": 1.8,
+        "final_score": "2-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.8,
+        "pnl": 0.8
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Pisa vs Padova",
+        "league": "Serie B (Italy)",
+        "elapsed": 70,
+        "score_at_alert": "0-1",
+        "conf": 86,
+        "stake": 1,
+        "odds": 2.1,
+        "final_score": "0-1",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Panetolikos vs Asteras Tripolis",
+        "league": "Super League 1 (Greece)",
+        "elapsed": 65,
+        "score_at_alert": "2-0",
+        "conf": 89,
+        "stake": 1,
+        "odds": 2.25,
+        "final_score": "3-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 2.25,
+        "pnl": 1.25
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Rennes vs Paris Saint Germain",
+        "league": "Ligue 1 (France)",
+        "elapsed": 60,
+        "score_at_alert": "2-0",
+        "conf": 87,
+        "stake": 1,
+        "odds": 1.4,
+        "final_score": "2-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.4,
+        "pnl": 0.4
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Göztepe vs Gençlerbirliği S.K.",
+        "league": "Süper Lig (Turkey)",
+        "elapsed": 69,
+        "score_at_alert": "0-1",
+        "conf": 86,
+        "stake": 1,
+        "odds": 2,
+        "final_score": "0-1",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Mladost Lucani vs FK Partizan",
+        "league": "Super Liga (Serbia)",
+        "elapsed": 55,
+        "score_at_alert": "0-1",
+        "conf": 89,
+        "stake": 1,
+        "odds": 1.444,
+        "final_score": "3-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.44,
+        "pnl": 0.44
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Fortaleza FC vs Atletico Nacional",
+        "league": "Primera A (Colombia)",
+        "elapsed": 55,
+        "score_at_alert": "0-1",
+        "conf": 87,
+        "stake": 1,
+        "odds": 2,
+        "final_score": "1-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 2,
+        "pnl": 1
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Belgrano Cordoba vs Defensa Y Justicia",
+        "league": "Liga Profesional (Argentina)",
+        "elapsed": 55,
+        "score_at_alert": "0-1",
+        "conf": 90,
+        "stake": 1.4,
+        "odds": 1.533,
+        "final_score": "1-2",
+        "result": "GREEN",
+        "hit": true,
+        "return": 2.15,
+        "pnl": 0.75
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Santos vs Mirassol",
+        "league": "Serie A (Brazil)",
+        "elapsed": 55,
+        "score_at_alert": "0-1",
+        "conf": 89,
+        "stake": 1,
+        "odds": 1.444,
+        "final_score": "1-1",
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.44,
+        "pnl": 0.44
+      },
+      {
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Chapecoense-sc vs Sao Paulo",
+        "league": "Serie B (Brazil)",
+        "elapsed": 55,
+        "score_at_alert": "1-0",
+        "conf": 87,
+        "stake": 1,
+        "odds": null,
+        "final_score": "1-0",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1,
+        "note": "Sem preço registado, mas irrelevante para o P&L: num RED o retorno é zero independentemente da odd."
+      }
     ],
     "summary": {
       "total": 11,
@@ -52,15 +226,23 @@
       "hit_rate": 63.6,
       "hit_rate_por_jogo": 63.6,
       "jogos_distintos": 11,
-      "stake_total": 57,
-      "stake_mensuravel": 57,
-      "return_mensuravel": 62.42,
-      "pnl_mensuravel": 5.42,
-      "roi_pct_mensuravel": 9.5,
+      "stake_total": 11.4,
+      "stake_mensuravel": 10.4,
+      "return_mensuravel": 12.48,
+      "pnl_mensuravel": 2.08,
+      "roi_pct_mensuravel": 20,
       "odds_registadas": 10,
       "by_strategy": {
-        "🎯 BTTS LIVE": { "total": 11, "green": 7, "red": 4, "pending": 0, "hit_rate": 63.6 }
-      }
+        "🎯 BTTS LIVE": {
+          "total": 11,
+          "green": 7,
+          "red": 4,
+          "pending": 0,
+          "hit_rate": 63.6
+        }
+      },
+      "nota_mensuravel": "Resumo recalculado em 31/08/2026 pelo criterio documentado em 29/08: entram apenas os alertas com odd registada (GREEN/RED/PUSH). O calculo original contava o alerta sem preco na stake mas nunca no retorno, o que o lancava como perda certa."
     }
-  }
+  },
+  "units": "stakes"
 }

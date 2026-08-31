@@ -7,11 +7,11 @@
       "total": 0,
       "green": 0,
       "red": 0,
-      "hit_rate": 0.0,
+      "hit_rate": 0,
       "total_stake": 0,
       "total_return": 0,
       "pnl": 0,
-      "roi_pct": 0.0,
+      "roi_pct": 0,
       "accumulators_total": 0,
       "accumulators_green": 0,
       "accumulators_red": 0,
@@ -21,7 +21,7 @@
       "combined_stake": 0,
       "combined_return": 0,
       "combined_pnl": 0,
-      "combined_roi_pct": 0.0
+      "combined_roi_pct": 0
     }
   },
   "btts": {
@@ -67,10 +67,11 @@
       "green": 0,
       "red": 0,
       "pending": 0,
-      "hit_rate": 0.0,
+      "hit_rate": 0,
       "by_strategy": {}
     }
   },
-  "balance": 140.36,
-  "notes": "Dia 29/05/2026 sem tips pre-jogo geradas e sem alertas live do worker. Sem actividade registada. Bankroll mantem-se em 140.36 EUR."
+  "balance": 28.07,
+  "notes": "Dia 29/05/2026 sem tips pre-jogo geradas e sem alertas live do worker. Sem actividade registada. Bankroll mantem-se em 28,07 stakes.",
+  "units": "stakes"
 }

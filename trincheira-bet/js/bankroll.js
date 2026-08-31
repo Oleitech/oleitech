@@ -1,14 +1,17 @@
 // ===================== BANKROLL MANAGEMENT =====================
-// Stake recommendations based on confidence level
-// Base stake: €10 (configurable)
+// Recomendacao de stake por nivel de confianca.
+//
+// Tudo aqui esta EM STAKES, nunca em euros (migracao de 31/08/2026,
+// scripts/migrate-eur-to-stakes.mjs). A banca deixou de ser mostrada no site;
+// este registo fica porque o ciclo diario o actualiza.
 
 const Bankroll = {
-  bankroll: 171.18,  // Total available bankroll in €
-  maxExposure: 0.75, // Max % of bankroll to risk per day (75%)
+  bankroll: 34.24,   // Banca total, em stakes
+  maxExposure: 0.75, // Fraccao maxima da banca a arriscar num dia (75%)
 
-  // Base stake = 2% of bankroll (industry standard 1-3%)
+  // Stake base = 2% da banca (padrao da industria: 1-3%)
   get baseStake() {
-    return Math.round(this.bankroll * 0.02);
+    return Math.round(this.bankroll * 0.02 * 100) / 100;
   },
 
   // Returns stake recommendation based on score/confidence
@@ -70,7 +73,7 @@ const Bankroll = {
 
   // Render the stake badge HTML
   renderBadge(stake) {
-    const amount = (stake.multiplier * this.baseStake).toFixed(0);
+    const amount = UI.formatStake(stake.multiplier);
     const colorMap = {
       'max': 'var(--green)',
       'high': 'var(--amber)',
@@ -92,14 +95,14 @@ const Bankroll = {
       <div class="stake-badge" style="background:${bg};color:${color}">
         <span class="stake-badge__emoji">${stake.emoji}</span>
         <span class="stake-badge__label">Stake ${stake.label}</span>
-        <span class="stake-badge__amount">${amount}&euro;</span>
+        <span class="stake-badge__amount">${amount}</span>
       </div>
     `;
   },
 
-  // Get max daily budget
+  // Exposicao maxima do dia, em stakes
   getMaxDaily() {
-    return Math.round(this.bankroll * this.maxExposure);
+    return Math.round(this.bankroll * this.maxExposure * 100) / 100;
   },
 
   // Update bankroll (call after daily P/L)

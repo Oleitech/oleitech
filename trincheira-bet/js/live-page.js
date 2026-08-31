@@ -12,11 +12,10 @@ const LivePage = {
   activeFilter: 'all',
 
   async init() {
-    // Load bankroll data
-    const { bankroll, totalPL } = await Layout.loadBankrollData();
+    const totalPL = await Layout.loadTotalPL();
 
     // Build layout
-    const main = Layout.init('live', bankroll, totalPL);
+    const main = Layout.init('live', totalPL);
     if (!main) return;
 
     // Build page structure

@@ -9,11 +9,11 @@
         "market": "btts",
         "pick": "Ambas Marcam - Sim",
         "odds": 1.91,
-        "stake": 5,
+        "stake": 1,
         "result": "RED",
         "hit": false,
         "return": 0,
-        "pnl": -5,
+        "pnl": -1,
         "final_score": "1-0",
         "note": "Crystal Palace venceu a Final da UECL 1-0. Rayo Vallecano nao marcou durante os 90 minutos. BTTS falhou."
       }
@@ -22,10 +22,10 @@
       {
         "label": "curto-tennis",
         "combined_odds": 2.88,
-        "stake": 3,
+        "stake": 0.6,
         "result": "RED",
         "return": 0,
-        "pnl": -3,
+        "pnl": -0.6,
         "selections": [
           {
             "fixtureId": "rg2026-r2-bencic-mcnally",
@@ -64,21 +64,21 @@
       "total": 1,
       "green": 0,
       "red": 1,
-      "hit_rate": 0.0,
-      "total_stake": 5,
+      "hit_rate": 0,
+      "total_stake": 1,
       "total_return": 0,
-      "pnl": -5,
-      "roi_pct": -100.0,
+      "pnl": -1,
+      "roi_pct": -100,
       "accumulators_total": 1,
       "accumulators_green": 0,
       "accumulators_red": 1,
-      "accumulators_stake": 3,
+      "accumulators_stake": 0.6,
       "accumulators_return": 0,
-      "accumulators_pnl": -3,
-      "combined_stake": 8,
+      "accumulators_pnl": -0.6,
+      "combined_stake": 1.6,
       "combined_return": 0,
-      "combined_pnl": -8,
-      "combined_roi_pct": -100.0
+      "combined_pnl": -1.6,
+      "combined_roi_pct": -100
     }
   },
   "btts": {
@@ -124,10 +124,11 @@
       "green": 0,
       "red": 0,
       "pending": 0,
-      "hit_rate": 0.0,
+      "hit_rate": 0,
       "by_strategy": {}
     }
   },
-  "balance": 132.36,
-  "notes": "Dia negativo na Final da UECL e Roland Garros 2a ronda. Crystal Palace venceu o Rayo Vallecano 1-0 - BTTS falhou com Rayo sem marcar. No acumulador de tenis, Bencic ganhou (6-4, 6-0) e de Minaur avancou por W/O (Blockx lesionado), mas Paolini foi eliminada pela argentina Sierra (6-3, 4-6, 6-3), derrubando o acumulador. Sem alertas live. Dia a -8 euros. Bankroll: 140.36 -> 132.36."
+  "balance": 26.47,
+  "notes": "Dia negativo na Final da UECL e Roland Garros 2a ronda. Crystal Palace venceu o Rayo Vallecano 1-0 - BTTS falhou com Rayo sem marcar. No acumulador de tenis, Bencic ganhou (6-4, 6-0) e de Minaur avancou por W/O (Blockx lesionado), mas Paolini foi eliminada pela argentina Sierra (6-3, 4-6, 6-3), derrubando o acumulador. Sem alertas live. Dia a -1,6 stakes. Bankroll: 28,07 -> 26,47 stakes.",
+  "units": "stakes"
 }

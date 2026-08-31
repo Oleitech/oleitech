@@ -6,23 +6,53 @@
     {
       "label": "standard",
       "selections": [
-        { "fixtureId": 1378235, "match": "Cremonese vs Como", "pick": "BTTS Sim", "odds": 1.75, "sport": "football" },
-        { "fixtureId": 1378243, "match": "Hellas Verona vs AS Roma", "pick": "Vitória Roma", "odds": 1.36, "sport": "football" }
+        {
+          "fixtureId": 1378235,
+          "match": "Cremonese vs Como",
+          "pick": "BTTS Sim",
+          "odds": 1.75,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1378243,
+          "match": "Hellas Verona vs AS Roma",
+          "pick": "Vitória Roma",
+          "odds": 1.36,
+          "sport": "football"
+        }
       ],
       "combined_odds": 2.38,
       "score": 70,
-      "stake": 5
+      "stake": 1
     },
     {
       "label": "curto",
       "selections": [
-        { "fixtureId": 1379344, "match": "Manchester City vs Aston Villa", "pick": "Over 2.5 Golos", "odds": 1.30, "sport": "football" },
-        { "fixtureId": 1379343, "match": "Liverpool vs Brentford", "pick": "Over 2.5 Golos", "odds": 1.50, "sport": "football" },
-        { "fixtureId": 1379347, "match": "Tottenham vs Everton", "pick": "Over 1.5 Golos", "odds": 1.27, "sport": "football" }
+        {
+          "fixtureId": 1379344,
+          "match": "Manchester City vs Aston Villa",
+          "pick": "Over 2.5 Golos",
+          "odds": 1.3,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1379343,
+          "match": "Liverpool vs Brentford",
+          "pick": "Over 2.5 Golos",
+          "odds": 1.5,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1379347,
+          "match": "Tottenham vs Everton",
+          "pick": "Over 1.5 Golos",
+          "odds": 1.27,
+          "sport": "football"
+        }
       ],
       "combined_odds": 2.48,
       "score": 65,
-      "stake": 3
+      "stake": 0.6
     }
   ],
   "tips": [
@@ -30,15 +60,21 @@
       "market": "btts",
       "pick": "Ambas Marcam - Sim",
       "fixtureId": 1378235,
-      "home": { "name": "Cremonese", "logo": "https://media.api-sports.io/football/teams/520.png" },
-      "away": { "name": "Como", "logo": "https://media.api-sports.io/football/teams/895.png" },
+      "home": {
+        "name": "Cremonese",
+        "logo": "https://media.api-sports.io/football/teams/520.png"
+      },
+      "away": {
+        "name": "Como",
+        "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
       "league": "Serie A — GW38",
       "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
       "kickoff": "2026-05-24T19:45:00+01:00",
       "odds": 1.75,
       "bookmaker": "Bet365",
       "score": 78,
-      "stake": 7,
+      "stake": 1.4,
       "tese": "<p>Final de jornada com <strong>dupla motivação máxima</strong>. Cremonese em 18.º lugar (34 pts), precisa vencer para fugir à relegação; Como em 5.º com 68 pts, empatado com a Juventus, a precisar de vitória para garantir vaga europeia (CL ou EL). H2H fortíssimo: <strong>BTTS em 6 dos últimos 7 encontros</strong>, e o Cremonese marcou em <strong>7 jogos consecutivos</strong> contra o Como. Nenhuma equipa pode defender à cautela — ambas obrigadas a ir ao ataque.</p><ul><li><strong>H2H 6/7 BTTS</strong> nos últimos encontros, incluindo 3/4 Over 2.5</li><li><strong>Cremonese marcou em 7 H2H consecutivos</strong> vs Como</li><li>Cremonese 18.º (relegação eminente) — obrigatório atacar</li><li>Como 5.º (68 pts) — precisa vencer para CL/Europa League</li><li>Contexto final de época = jogo completamente aberto, linhas adiantadas</li><li>Consenso tipsters: Dailysports, Footballwhispers, SportingLife, FootballPredictions</li></ul>",
       "factors": [
         "H2H 6/7 BTTS nos últimos encontros",
@@ -59,15 +95,21 @@
       "market": "favorites",
       "pick": "Vitória AS Roma",
       "fixtureId": 1378243,
-      "home": { "name": "Hellas Verona", "logo": "https://media.api-sports.io/football/teams/504.png" },
-      "away": { "name": "AS Roma", "logo": "https://media.api-sports.io/football/teams/497.png" },
+      "home": {
+        "name": "Hellas Verona",
+        "logo": "https://media.api-sports.io/football/teams/504.png"
+      },
+      "away": {
+        "name": "AS Roma",
+        "logo": "https://media.api-sports.io/football/teams/497.png"
+      },
       "league": "Serie A — GW38",
       "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
       "kickoff": "2026-05-24T19:45:00+01:00",
       "odds": 1.36,
       "bookmaker": "Bet365",
       "score": 70,
-      "stake": 5,
+      "stake": 1,
       "tese": "<p>Roma luta pela <strong>Champions League na última jornada</strong> — 70 pts, empatada com o Milan (3.º/4.º a decidir hoje). Precisa obrigatoriamente de vencer. O Hellas Verona foi já <strong>matematicamente relegado</strong> para a Serie B — motivação zero, poupança de jogadores titulares esperada. Roma: <strong>4 vitórias nos últimos 5 jogos</strong> (WWWWD). H2H: 3 vitórias Roma nos últimos 5 duelos.</p><ul><li><strong>Roma: «vencer ou perder a CL»</strong> — pressão máxima</li><li><strong>Verona: já relegado</strong> — motivação e intensidade zero</li><li>Forma Roma: <strong>WWWWD</strong> (últimos 5 — inc. vitórias vs Lazio e Roma)</li><li>H2H: 3/5 vitórias Roma ✅</li><li>Odd 1.36 reflecte ~74% probabilidade implícita — contexto justifica</li></ul>",
       "factors": [
         "Roma: «vencer ou perder CL» — motivação máxima",
@@ -83,5 +125,6 @@
         "Napoli CL secured context (Washington Times)"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

@@ -30,7 +30,7 @@
       ],
       "combined_odds": 2.88,
       "score": 65,
-      "stake": 3
+      "stake": 0.6
     }
   ],
   "tips": [
@@ -52,7 +52,7 @@
       "odds": 1.91,
       "bookmaker": "Bet365",
       "score": 70,
-      "stake": 5,
+      "stake": 1,
       "tese": "<p>A Final da UEFA Conference League reune as <strong>duas equipas mais pontuadoras do torneio</strong>: Crystal Palace 25 golos em 16 jogos e Rayo Vallecano 27 em 14.</p><ul><li><strong>Rayo marcou em todos os ultimos 10 jogos</strong> — consistencia ofensiva excecional.</li><li><strong>Rayo sem clean sheet em deslocamento: CS Away @ 4.00 (25% probabilidade de nao sofrer)</strong> — Palace tem Sarr (9 golos), Eze e Mateta.</li><li><strong>Ultimos 4 jogos Rayo: BTTS em 3/4 (75%)</strong>.</li><li><strong>Wharton e Richards regressaram ao treino</strong> — Glasner confirma onze completo.</li><li>Mercado dividido (Sim @ 1.91 vs Nao @ 1.80) mas probabilidade real 55%+ gera edge positivo.</li></ul>",
       "factors": [
         "Rayo marcou em 10/10 dos ultimos jogos",
@@ -70,5 +70,6 @@
         "betting.betfair.com — tip editorial: BTTS e Over 2.5 golos na Final"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

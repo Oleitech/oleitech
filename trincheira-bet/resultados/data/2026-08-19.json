@@ -1,16 +1,16 @@
 {
   "date": "2026-08-19",
-  "balance": 146.19,
-  "notes": "Dia perfeito nas tips pré-jogo: 2/2. O Atlético cumpriu a tese sem sobressaltos — 2-0 com o Málaga a não marcar na estreia na Primeira Divisão oito anos depois, exactamente o cenário previsto (a aposta era no Málaga ficar em branco, não no Atlético golear). O NEC-Bodo/Glimt terminou 1-3: ambas marcaram e 4 golos totais, portanto a combinada Ambas Marcam Sim + Mais de 2.65 entrou com folga. A conversão da odd de 1.36 para 1.615 valeu 1,28€ extra face à tip original. LIVE: zero alertas outra vez, e desta vez a causa é diferente da de 18/08 — a quota reiniciou o contador às ~19h50 mas o bloqueio diário da API só levantou horas depois, pelo que a janela dos jogos (20h-22h) apanhou o motor ainda barrado. Confirmado com 3 amostras: 'BLOQUEADO' com o contador parado em 7499 (as recusas não descontam).",
+  "balance": 29.24,
+  "notes": "Dia perfeito nas tips pré-jogo: 2/2. O Atlético cumpriu a tese sem sobressaltos — 2-0 com o Málaga a não marcar na estreia na Primeira Divisão oito anos depois, exactamente o cenário previsto (a aposta era no Málaga ficar em branco, não no Atlético golear). O NEC-Bodo/Glimt terminou 1-3: ambas marcaram e 4 golos totais, portanto a combinada Ambas Marcam Sim + Mais de 2.65 entrou com folga. A conversão da odd de 1.36 para 1.615 valeu 0,26 stakes extra face à tip original. LIVE: zero alertas outra vez, e desta vez a causa é diferente da de 18/08 — a quota reiniciou o contador às ~19h50 mas o bloqueio diário da API só levantou horas depois, pelo que a janela dos jogos (20h-22h) apanhou o motor ainda barrado. Confirmado com 3 amostras: 'BLOQUEADO' com o contador parado em 7499 (as recusas não descontam).",
   "curated_tips": {
     "summary": {
       "total": 2,
       "green": 2,
       "red": 0,
-      "hit_rate": 100.0,
-      "total_stake": 10,
-      "total_return": 16.83,
-      "pnl": 6.83,
+      "hit_rate": 100,
+      "total_stake": 2,
+      "total_return": 3.37,
+      "pnl": 1.37,
       "roi_pct": 68.3,
       "accumulators_total": 0,
       "accumulators_green": 0,
@@ -18,9 +18,9 @@
       "accumulators_stake": 0,
       "accumulators_return": 0,
       "accumulators_pnl": 0,
-      "combined_stake": 10,
-      "combined_return": 16.83,
-      "combined_pnl": 6.83,
+      "combined_stake": 2,
+      "combined_return": 3.37,
+      "combined_pnl": 1.37,
       "combined_roi_pct": 68.3
     },
     "accumulators": [],
@@ -36,13 +36,13 @@
         "odds": 1.615,
         "bookmaker": "Betclic",
         "score_confidence": 75,
-        "stake": 5,
+        "stake": 1,
         "final_score": "1-3",
         "result": "GREEN",
         "hit": true,
-        "return": 8.08,
-        "pnl": 3.08,
-        "note": "Tese confirmada em cheio. O Bodo/Glimt marcou 3 fora, mantendo a série de 2+ golos em jogos oficiais fora, e o NEC voltou a não fazer baliza a zero — sétimo jogo seguido. Os 4 golos totais deixaram a linha dos 2.65 para trás sem discussão e o 1-1, único resultado que a combinada abdicava, nunca esteve em causa. A conversão de Ambas Marcam simples (1.36) para a combinada (1.615) rendeu +1,28€ face à tip original."
+        "return": 1.62,
+        "pnl": 0.62,
+        "note": "Tese confirmada em cheio. O Bodo/Glimt marcou 3 fora, mantendo a série de 2+ golos em jogos oficiais fora, e o NEC voltou a não fazer baliza a zero — sétimo jogo seguido. Os 4 golos totais deixaram a linha dos 2.65 para trás sem discussão e o 1-1, único resultado que a combinada abdicava, nunca esteve em causa. A conversão de Ambas Marcam simples (1.36) para a combinada (1.615) rendeu +0,26 stakes face à tip original."
       },
       {
         "market": "btts",
@@ -55,22 +55,38 @@
         "odds": 1.75,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 71,
-        "stake": 5,
+        "stake": 1,
         "final_score": "2-0",
         "result": "GREEN",
         "hit": true,
-        "return": 8.75,
-        "pnl": 3.75,
+        "return": 1.75,
+        "pnl": 0.75,
         "note": "Exactamente o cenário desenhado: o Málaga, promovido oito anos depois e a estrear-se fora na 1ª jornada, não conseguiu marcar no Metropolitano. A aposta nunca foi no Atlético golear — era no visitante ficar em branco, e o 2-0 confirma que a leitura do risco estava certa. A pré-época irregular do Atlético, que assinalei como contra, não chegou a pesar."
       }
     ]
   },
-  "btts": { "tips": [] },
-  "over25": { "tips": [] },
-  "cards": { "tips": [] },
-  "corners": { "tips": [] },
+  "btts": {
+    "tips": []
+  },
+  "over25": {
+    "tips": []
+  },
+  "cards": {
+    "tips": []
+  },
+  "corners": {
+    "tips": []
+  },
   "live_alerts": {
     "alerts": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "pending": 0, "hit_rate": 0.0, "by_strategy": {} }
-  }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "units": "stakes"
 }

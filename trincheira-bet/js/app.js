@@ -25,8 +25,8 @@ const App = {
   async init() {
     try {
       console.log('[TB] Initializing...');
-      const { bankroll, totalPL } = await Layout.loadBankrollData();
-      const main = Layout.init('tips', bankroll, totalPL);
+      const totalPL = await Layout.loadTotalPL();
+      const main = Layout.init('tips', totalPL);
       if (!main) { console.error('[TB] Layout.init failed'); return; }
 
       this.buildTipsPage(main);

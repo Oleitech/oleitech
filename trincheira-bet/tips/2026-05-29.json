@@ -9,16 +9,22 @@
       "sport": "tennis",
       "pick": "Alexander Zverev -7.5 jogos (handicap de games)",
       "fixtureId": "rg-2026-r3-zverev-halys",
-      "home": { "name": "Alexander Zverev", "logo": "" },
-      "away": { "name": "Quentin Halys", "logo": "" },
+      "home": {
+        "name": "Alexander Zverev",
+        "logo": ""
+      },
+      "away": {
+        "name": "Quentin Halys",
+        "logo": ""
+      },
       "league": "Roland Garros 2026 — 3ª Ronda (ATP) · Night Session",
       "leagueLogo": "",
       "kickoff": "2026-05-29T18:15:00Z",
       "odds": 2.02,
       "bookmaker": "Bet365",
       "score": 67,
-      "stake": 5,
-      "tese": "<p>Night session no Chatrier. <strong>Zverev (nº2) chega em forma esmagadora</strong> — bateu Machac 6-4 6-2 6-2 (margem de +8 jogos) e passou as duas primeiras rondas em sets corridos. É um dos jogadores mais fiáveis em Paris: meias-finais em 4 das últimas 5 edições e finalista em 2024.</p><ul><li><strong>Modelo SI/mercado:</strong> Zverev -7.5 jogos a +102 (~2.02) com 61.6% de probabilidade e edge estimado de 12.1%.</li><li><strong>Halys</strong> surpreendeu Humbert na 2ª ronda mas está um patamar abaixo do alemão em terra batida.</li><li>Em terra, Zverev impõe trocas longas e quebra com regularidade — o registo recente aponta para 6-3/6-4 por set.</li><li><strong>⚠️ Risco real:</strong> público francês na night session pode empurrar Halys; se este roubar um set, a margem de -7.5 fica em perigo. Daí o stake contido (5€).</li><li><strong>⚠️ KO 20:15 CET / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
+      "stake": 1,
+      "tese": "<p>Night session no Chatrier. <strong>Zverev (nº2) chega em forma esmagadora</strong> — bateu Machac 6-4 6-2 6-2 (margem de +8 jogos) e passou as duas primeiras rondas em sets corridos. É um dos jogadores mais fiáveis em Paris: meias-finais em 4 das últimas 5 edições e finalista em 2024.</p><ul><li><strong>Modelo SI/mercado:</strong> Zverev -7.5 jogos a +102 (~2.02) com 61.6% de probabilidade e edge estimado de 12.1%.</li><li><strong>Halys</strong> surpreendeu Humbert na 2ª ronda mas está um patamar abaixo do alemão em terra batida.</li><li>Em terra, Zverev impõe trocas longas e quebra com regularidade — o registo recente aponta para 6-3/6-4 por set.</li><li><strong>⚠️ Risco real:</strong> público francês na night session pode empurrar Halys; se este roubar um set, a margem de -7.5 fica em perigo. Daí o stake contido (uma stake).</li><li><strong>⚠️ KO 20:15 CET / 19:15 Lisboa</strong> — apostar antes do início.</li></ul>",
       "factors": [
         "Zverev em forma dominante — venceu Machac por +8 jogos, sets corridos nas 2 rondas",
         "RG: meias-finais em 4 das últimas 5 edições, finalista 2024",
@@ -50,10 +56,10 @@
       "league": "Eliteserien (Noruega) — Jornada 11",
       "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
       "kickoff": "2026-05-29T17:00:00Z",
-      "odds": 1.50,
+      "odds": 1.5,
       "bookmaker": "Bet365",
       "score": 66,
-      "stake": 5,
+      "stake": 1,
       "tese": "<p>Brann recebe o Sarpsborg no Brann Stadion num jogo com forte histórico de golos. <strong>O Brann teve Over 2.5 em 8 dos últimos 9 jogos</strong> e o H2H com o Sarpsborg viu golos de ambos os lados em quase todos os encontros.</p><ul><li><strong>Defesa do Brann vulnerável:</strong> sofreu 3 golos na derrota 3-1 em Bodø na última jornada; o GR titular <strong>Dyngeland está lesionado</strong> (hamstring).</li><li><strong>Sarpsborg vem de marcar:</strong> venceu o Molde 2-1 na última jornada — capacidade ofensiva demonstrada.</li><li><strong>Ataque do Brann ainda produtivo</strong> em casa (média 2.1 golos/jogo, att 100% na forma recente) apesar das baixas (Castro, Boakye, Magnússon fora).</li><li><strong>API-Football:</strong> Brann 45% / empate 45% / Sarpsborg 10%; cenário de jogo aberto.</li><li><strong>⚠️ Risco:</strong> Sarpsborg perdeu os últimos 4 jogos fora e marca pouco em deslocação (1.1 golos/jogo) — é o lado mais frágil para o BTTS. Daí stake contido.</li></ul>",
       "factors": [
         "Brann com Over 2.5 em 8 dos últimos 9 jogos",
@@ -71,5 +77,6 @@
         "mightytips.com — Brann vs Sarpsborg prediction 29/05/2026"
       ]
     }
-  ]
+  ],
+  "units": "stakes"
 }

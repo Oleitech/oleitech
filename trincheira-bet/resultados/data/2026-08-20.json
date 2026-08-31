@@ -1,26 +1,26 @@
 {
   "date": "2026-08-20",
-  "balance": 164.13,
-  "notes": "Dia cheio: 2/2 nas tips e o acumulador também entrou, o melhor retorno desde o regresso. O Sion-Ajax fez 2-4 e validou a tese central — as duas equipas vinham de séries longas de jogos com 3+ golos e mantiveram-nas; a defesa remendada do Ajax (Blind, Sutalo e Kaplan de fora) foi mesmo o ponto de entrada, com o Sion a marcar duas vezes. O PAOK-Brann fez 1-1 e foi a perna que assumi como mais frágil: o PAOK não marcava em casa desde o 0-1 com o Anderlecht, e só resolveu aos 80' pelo Baba, depois de o Brann abrir aos 57'. Ficou GREEN, mas o 5€ em vez de 7€ estava certo — esteve 23 minutos a caminho de RED. LIVE: zero alertas outra vez, e desta vez a causa está apurada em definitivo e NÃO é avaria. Reconstruí os dois jogos contra a fórmula do motor: no PAOK a API devolveu 33%/33%/33% sem winner, o que desliga por completo o FAVORITO A PERDER (exige favorito definido) e anula o bónus 'Favorito a sofrer' no BTTS — tecto de confiança 83, com o limiar em 90. No Sion-Ajax o modelo dava o Sion como favorito, não o Ajax, o que também fecha o FAVORITO, e o BTTS ficou num tecto de 86 usando as estatísticas finais como limite superior. Ou seja: os dois jogos eram matematicamente incapazes de disparar. Descoberta estrutural do dia: com liga de taxa BTTS neutra e sem favorito claro nem defesas ambas frágeis, o tecto do BTTS LIVE é 89 em casa e 86 fora — um ponto abaixo do limiar. A estratégia depende dos bónus de contexto pré-jogo, não da pressão ao vivo isolada. Nos play-offs UEFA, onde as previsões da API saem achatadas, é terreno morto por construção.",
+  "balance": 32.83,
+  "notes": "Dia cheio: 2/2 nas tips e o acumulador também entrou, o melhor retorno desde o regresso. O Sion-Ajax fez 2-4 e validou a tese central — as duas equipas vinham de séries longas de jogos com 3+ golos e mantiveram-nas; a defesa remendada do Ajax (Blind, Sutalo e Kaplan de fora) foi mesmo o ponto de entrada, com o Sion a marcar duas vezes. O PAOK-Brann fez 1-1 e foi a perna que assumi como mais frágil: o PAOK não marcava em casa desde o 0-1 com o Anderlecht, e só resolveu aos 80' pelo Baba, depois de o Brann abrir aos 57'. Ficou GREEN, mas a stake de 1 em vez de 1,4 estava certa — esteve 23 minutos a caminho de RED. LIVE: zero alertas outra vez, e desta vez a causa está apurada em definitivo e NÃO é avaria. Reconstruí os dois jogos contra a fórmula do motor: no PAOK a API devolveu 33%/33%/33% sem winner, o que desliga por completo o FAVORITO A PERDER (exige favorito definido) e anula o bónus 'Favorito a sofrer' no BTTS — tecto de confiança 83, com o limiar em 90. No Sion-Ajax o modelo dava o Sion como favorito, não o Ajax, o que também fecha o FAVORITO, e o BTTS ficou num tecto de 86 usando as estatísticas finais como limite superior. Ou seja: os dois jogos eram matematicamente incapazes de disparar. Descoberta estrutural do dia: com liga de taxa BTTS neutra e sem favorito claro nem defesas ambas frágeis, o tecto do BTTS LIVE é 89 em casa e 86 fora — um ponto abaixo do limiar. A estratégia depende dos bónus de contexto pré-jogo, não da pressão ao vivo isolada. Nos play-offs UEFA, onde as previsões da API saem achatadas, é terreno morto por construção.",
   "curated_tips": {
     "summary": {
       "total": 2,
       "green": 2,
       "red": 0,
-      "hit_rate": 100.0,
-      "total_stake": 12,
-      "total_return": 20.34,
-      "pnl": 8.34,
+      "hit_rate": 100,
+      "total_stake": 2.4,
+      "total_return": 4.07,
+      "pnl": 1.67,
       "roi_pct": 69.5,
       "accumulators_total": 1,
       "accumulators_green": 1,
       "accumulators_red": 0,
-      "accumulators_stake": 5,
-      "accumulators_return": 14.6,
-      "accumulators_pnl": 9.6,
-      "combined_stake": 17,
-      "combined_return": 34.94,
-      "combined_pnl": 17.94,
+      "accumulators_stake": 1,
+      "accumulators_return": 2.92,
+      "accumulators_pnl": 1.92,
+      "combined_stake": 3.4,
+      "combined_return": 6.99,
+      "combined_pnl": 3.59,
       "combined_roi_pct": 105.53
     },
     "accumulators": [
@@ -46,10 +46,10 @@
         ],
         "combined_odds": 2.92,
         "score": 72,
-        "stake": 5,
+        "stake": 1,
         "result": "GREEN",
-        "return": 14.6,
-        "pnl": 9.6,
+        "return": 2.92,
+        "pnl": 1.92,
         "note": "As duas pernas eram do mesmo mercado e da mesma ronda, o que a R3 desaconselha. Assumi a correlação como positiva — as duas eram apostas em golos, no mesmo sentido — e desta vez confirmou-se. Continua a ser o tipo de acumulador que só justifica stake da banda mínima."
       }
     ],
@@ -65,12 +65,12 @@
         "odds": 1.62,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 78,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "2-4",
         "result": "GREEN",
         "hit": true,
-        "return": 11.34,
-        "pnl": 4.34,
+        "return": 2.27,
+        "pnl": 0.87,
         "note": "Seis golos, exactamente o registo que sustentava a tese: as séries de 3+ golos das duas equipas mantiveram-se. O Sion abriu aos 34' por Surdez e voltou a marcar de penálti aos 72', o que resolveu cedo a perna mais duvidosa da aposta. O ângulo das ausências defensivas do Ajax funcionou como esperado — o bloco baixo que assinalei como risco nunca apareceu, o Michel foi ao jogo e a eliminatória abriu-se."
       },
       {
@@ -84,22 +84,38 @@
         "odds": 1.8,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 72,
-        "stake": 5,
+        "stake": 1,
         "final_score": "1-1",
         "result": "GREEN",
         "hit": true,
-        "return": 9.0,
-        "pnl": 4.0,
-        "note": "GREEN, mas pelo fio. O Brann marcou aos 57' por Eriksen e o PAOK só igualou aos 80' com o Baba — 23 minutos em que a aposta estava a perder. O contra que registei na tese (o PAOK sem marcar em casa frente ao Anderlecht) esteve prestes a repetir-se, e o desconto de 7€ para 5€ foi a decisão certa. O PAOK rematou 23 vezes contra 6 do Brann: mereceu, mas mereceu tarde."
+        "return": 1.8,
+        "pnl": 0.8,
+        "note": "GREEN, mas pelo fio. O Brann marcou aos 57' por Eriksen e o PAOK só igualou aos 80' com o Baba — 23 minutos em que a aposta estava a perder. O contra que registei na tese (o PAOK sem marcar em casa frente ao Anderlecht) esteve prestes a repetir-se, e o desconto de 1,4 stakes para uma stake foi a decisão certa. O PAOK rematou 23 vezes contra 6 do Brann: mereceu, mas mereceu tarde."
       }
     ]
   },
-  "btts": { "tips": [] },
-  "over25": { "tips": [] },
-  "cards": { "tips": [] },
-  "corners": { "tips": [] },
+  "btts": {
+    "tips": []
+  },
+  "over25": {
+    "tips": []
+  },
+  "cards": {
+    "tips": []
+  },
+  "corners": {
+    "tips": []
+  },
   "live_alerts": {
     "alerts": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "pending": 0, "hit_rate": 0.0, "by_strategy": {} }
-  }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "units": "stakes"
 }

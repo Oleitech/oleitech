@@ -1,27 +1,27 @@
 {
   "date": "2026-08-24",
-  "balance": 149.58,
-  "notes": "Primeiro dia da nova política de mercados — e valeu a pena. Depois de 14 tips seguidas em Ambas Marcam, hoje saíram cinco tips em três mercados distintos (baliza a zero, total de equipa, resultado ao intervalo, BTTS Não). Resultado: 3 GREEN em 5, mas +9,00€ sobre 29€ de stake (ROI +31%), porque as GREEN vieram a 2.20, 1.80 e 2.00 e as RED custaram 5€ cada. É exactamente o argumento que justificou a mudança: a taxa de acerto desceu face aos dias só-BTTS, o lucro subiu. O CASO ROMA: a tip estava publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 antes do fecho, com o argumento de que a tese escrita ('11 jogos em casa sem sofrer') descrevia o clean sheet e não o BTTS Não. Roma 4-0. As duas versões ganhavam, mas a corrigida pagou mais 15% — 15,40€ em vez de 13,37€. A correcção valeu 2,03€ neste jogo. AS DUAS RED: Osasuna-Levante 0-0 é a falha mais dura, porque a tese era ofensiva ('o Levante sofre 2+ golos') e o jogo acabou sem qualquer golo — o mercado de total de equipa não tem rede de segurança, ou a equipa marca duas ou perde-se tudo. Farense-Felgueiras 1-1 foi a tip acrescentada em cima da hora, a 4ª versão do ficheiro, depois de o utilizador perguntar porque não havia nada na Liga Portugal 2; a liga entrou nas ligas-foco do WORKFLOW mas a primeira tip que produziu foi RED. Não invalida a correcção estrutural (o bot live já cobria Portugal, as tips pré-jogo não viam a liga), mas convém não confundir corrigir a cobertura com ter edge nessa cobertura. BOT LIVE: dia fraquíssimo em volume — só 3 alertas, todos BTTS LIVE, contra 11 ontem. Dois GREEN e um RED, mas o P&L é negativo (-3,26€) porque os dois GREEN foram a 1.166 e 1.181: ganhar 66% dos alertas a odds destas não paga um RED a 5€. É o inverso do problema das tips pré-jogo, e o mesmo aprendizado — acertar não é lucrar. Vale a pena avaliar um filtro de odds mínimas no worker; abaixo de ~1.30 o alerta precisa de ~77% de acerto só para empatar. FECHO: ficheiro escrito às 22:30 WEST. Os jogos da madrugada sul-americana ainda não tinham corrido, portanto alertas posteriores a esta hora não estão contabilizados. Stakes do live continuam nocionais e fora da banca.",
+  "balance": 29.92,
+  "notes": "Primeiro dia da nova política de mercados — e valeu a pena. Depois de 14 tips seguidas em Ambas Marcam, hoje saíram cinco tips em três mercados distintos (baliza a zero, total de equipa, resultado ao intervalo, BTTS Não). Resultado: 3 GREEN em 5, mas +1,8 stakes sobre 5,8 stakes de stake (ROI +31%), porque as GREEN vieram a 2.20, 1.80 e 2.00 e as RED custaram uma stake cada. É exactamente o argumento que justificou a mudança: a taxa de acerto desceu face aos dias só-BTTS, o lucro subiu. O CASO ROMA: a tip estava publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 antes do fecho, com o argumento de que a tese escrita ('11 jogos em casa sem sofrer') descrevia o clean sheet e não o BTTS Não. Roma 4-0. As duas versões ganhavam, mas a corrigida pagou mais 15% — 3,08 stakes em vez de 2,67 stakes. A correcção valeu 0,41 stakes neste jogo. AS DUAS RED: Osasuna-Levante 0-0 é a falha mais dura, porque a tese era ofensiva ('o Levante sofre 2+ golos') e o jogo acabou sem qualquer golo — o mercado de total de equipa não tem rede de segurança, ou a equipa marca duas ou perde-se tudo. Farense-Felgueiras 1-1 foi a tip acrescentada em cima da hora, a 4ª versão do ficheiro, depois de o utilizador perguntar porque não havia nada na Liga Portugal 2; a liga entrou nas ligas-foco do WORKFLOW mas a primeira tip que produziu foi RED. Não invalida a correcção estrutural (o bot live já cobria Portugal, as tips pré-jogo não viam a liga), mas convém não confundir corrigir a cobertura com ter edge nessa cobertura. BOT LIVE: dia fraquíssimo em volume — só 3 alertas, todos BTTS LIVE, contra 11 ontem. Dois GREEN e um RED, mas o P&L é negativo (-0,65 stakes) porque os dois GREEN foram a 1.166 e 1.181: ganhar 66% dos alertas a odds destas não paga um RED a uma stake. É o inverso do problema das tips pré-jogo, e o mesmo aprendizado — acertar não é lucrar. Vale a pena avaliar um filtro de odds mínimas no worker; abaixo de ~1.30 o alerta precisa de ~77% de acerto só para empatar. FECHO: ficheiro escrito às 22:30 WEST. Os jogos da madrugada sul-americana ainda não tinham corrido, portanto alertas posteriores a esta hora não estão contabilizados. Stakes do live continuam nocionais e fora da banca.",
   "curated_tips": {
     "summary": {
       "total": 5,
       "green": 3,
       "red": 2,
-      "hit_rate": 60.0,
-      "total_stake": 29,
-      "total_return": 38.0,
-      "pnl": 9.0,
-      "roi_pct": 31.0,
+      "hit_rate": 60,
+      "total_stake": 5.8,
+      "total_return": 7.6,
+      "pnl": 1.8,
+      "roi_pct": 31,
       "accumulators_total": 0,
       "accumulators_green": 0,
       "accumulators_red": 0,
       "accumulators_stake": 0,
       "accumulators_return": 0,
       "accumulators_pnl": 0,
-      "combined_stake": 29,
-      "combined_return": 38.0,
-      "combined_pnl": 9.0,
-      "combined_roi_pct": 31.0
+      "combined_stake": 5.8,
+      "combined_return": 7.6,
+      "combined_pnl": 1.8,
+      "combined_roi_pct": 31
     },
     "accumulators": [],
     "tips": [
@@ -37,13 +37,13 @@
         "odds": 2.2,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 82,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "4-0",
         "result": "GREEN",
         "hit": true,
-        "return": 15.4,
-        "pnl": 8.4,
-        "note": "A tese cumpriu-se na letra: baliza a zero em casa, a 12ª vez em 13 jogos. E o mercado escolhido foi o certo — esta tip esteve publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 porque o argumento era sobre a defesa da Roma, não sobre o jogo ser fechado. Ambas as versões ganhavam com 4-0, mas a corrigida rendeu mais 2,03€."
+        "return": 3.08,
+        "pnl": 1.68,
+        "note": "A tese cumpriu-se na letra: baliza a zero em casa, a 12ª vez em 13 jogos. E o mercado escolhido foi o certo — esta tip esteve publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 porque o argumento era sobre a defesa da Roma, não sobre o jogo ser fechado. Ambas as versões ganhavam com 4-0, mas a corrigida rendeu mais 0,41 stakes."
       },
       {
         "market": "btts",
@@ -56,12 +56,12 @@
         "odds": 1.8,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 80,
-        "stake": 7,
+        "stake": 1.4,
         "final_score": "0-1",
         "result": "GREEN",
         "hit": true,
-        "return": 12.6,
-        "pnl": 5.6,
+        "return": 2.52,
+        "pnl": 1.12,
         "note": "0-0 ao intervalo e um único golo no jogo inteiro. Jornada 1 de Serie A com duas equipas ainda a afinar — o padrão de arranque de época conservador voltou a pagar."
       },
       {
@@ -73,15 +73,15 @@
         "away": "Levante",
         "league": "La Liga — Jornada 2",
         "kickoff": "2026-08-24T17:30:00Z",
-        "odds": 2.0,
+        "odds": 2,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 72,
-        "stake": 5,
+        "stake": 1,
         "final_score": "0-0",
         "result": "RED",
         "hit": false,
         "return": 0,
-        "pnl": -5,
+        "pnl": -1,
         "note": "A pior forma de perder: a tese era que o Levante sofre 2+ golos com regularidade, e o jogo acabou 0-0. Não foi por pouco — o Osasuna não marcou de todo. Lição sobre o mercado: total de equipa acima de 1.5 não tem consolação, ao contrário de um 1X2 ou de um over do jogo. Exige que a tese esteja certa em cheio."
       },
       {
@@ -93,15 +93,15 @@
         "away": "Deportivo La Coruna",
         "league": "La Liga — Jornada 2",
         "kickoff": "2026-08-24T19:30:00Z",
-        "odds": 2.0,
+        "odds": 2,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 74,
-        "stake": 5,
+        "stake": 1,
         "final_score": "1-1",
         "result": "GREEN",
         "hit": true,
-        "return": 10.0,
-        "pnl": 5.0,
+        "return": 2,
+        "pnl": 1,
         "note": "1-1 ao intervalo e 1-1 no final. O mercado de intervalo resolveu-se aos 45 minutos e a segunda parte foi irrelevante para a aposta — precisamente a vantagem deste mercado a 2.00 num jogo equilibrado de Segunda Divisão."
       },
       {
@@ -115,20 +115,28 @@
         "odds": 1.8,
         "bookmaker": "Bet365 (ref.)",
         "score_confidence": 70,
-        "stake": 5,
+        "stake": 1,
         "final_score": "1-1",
         "result": "RED",
         "hit": false,
         "return": 0,
-        "pnl": -5,
+        "pnl": -1,
         "note": "Tip da 4ª versão do ficheiro, acrescentada depois de o utilizador perguntar porque não havia nada na Liga Portugal 2 — pergunta que expôs a liga 95 estar fora das ligas-foco enquanto Portugal já estava no country gate do bot live. A correcção estrutural mantém-se válida; a primeira tip que produziu é que foi RED. Felgueiras marcou primeiro, Farense empatou."
       }
     ]
   },
-  "btts": { "tips": [] },
-  "over25": { "tips": [] },
-  "cards": { "tips": [] },
-  "corners": { "tips": [] },
+  "btts": {
+    "tips": []
+  },
+  "over25": {
+    "tips": []
+  },
+  "cards": {
+    "tips": []
+  },
+  "corners": {
+    "tips": []
+  },
   "live_alerts": {
     "alerts": [
       {
@@ -140,14 +148,14 @@
         "elapsed": 50,
         "score_at_alert": "1-0",
         "conf": 86,
-        "stake": 5,
+        "stake": 1,
         "odds": 1.166,
         "final_score": "3-3",
         "result": "GREEN",
         "hit": true,
-        "return": 5.83,
-        "pnl": 0.83,
-        "note": "Acertou o jogo (3-3) mas o preço era 1.166 — 0,83€ de lucro num alerta com 86 de confiança. Ganhar assim não compensa um RED de 5€."
+        "return": 1.17,
+        "pnl": 0.17,
+        "note": "Acertou o jogo (3-3) mas o preço era 1.166 — 0,17 stakes de lucro num alerta com 86 de confiança. Ganhar assim não compensa um RED de uma stake."
       },
       {
         "fixtureId": 1602990,
@@ -158,13 +166,13 @@
         "elapsed": 56,
         "score_at_alert": "0-1",
         "conf": 87,
-        "stake": 5,
+        "stake": 1,
         "odds": null,
         "final_score": "0-2",
         "result": "RED",
         "hit": false,
         "return": 0,
-        "pnl": -5,
+        "pnl": -1,
         "note": "Sem preço registado, irrelevante para o P&L: num RED o retorno é zero de qualquer forma. O NEOM tinha 3 SoT e 10 remates e nunca marcou."
       },
       {
@@ -176,13 +184,13 @@
         "elapsed": 51,
         "score_at_alert": "1-0",
         "conf": 86,
-        "stake": 5,
+        "stake": 1,
         "odds": 1.181,
         "final_score": "2-5",
         "result": "GREEN",
         "hit": true,
-        "return": 5.91,
-        "pnl": 0.91,
+        "return": 1.18,
+        "pnl": 0.18,
         "note": "Sete golos depois do alerta. Mesmo problema de preço do outro jogo da Taça da Alemanha: 82% de posse do Schalke já estava no preço, sobrou 1.181."
       }
     ],
@@ -194,15 +202,23 @@
       "hit_rate": 66.7,
       "hit_rate_por_jogo": 66.7,
       "jogos_distintos": 3,
-      "stake_total": 15,
-      "stake_mensuravel": 15,
-      "return_mensuravel": 11.74,
-      "pnl_mensuravel": -3.26,
-      "roi_pct_mensuravel": -21.7,
+      "stake_total": 3,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 2.35,
+      "pnl_mensuravel": 0.35,
+      "roi_pct_mensuravel": 17.5,
       "odds_registadas": 2,
       "by_strategy": {
-        "🎯 BTTS LIVE": { "total": 3, "green": 2, "red": 1, "pending": 0, "hit_rate": 66.7 }
-      }
+        "🎯 BTTS LIVE": {
+          "total": 3,
+          "green": 2,
+          "red": 1,
+          "pending": 0,
+          "hit_rate": 66.7
+        }
+      },
+      "nota_mensuravel": "Resumo recalculado em 31/08/2026 pelo criterio documentado em 29/08: entram apenas os alertas com odd registada (GREEN/RED/PUSH). O calculo original contava o alerta sem preco na stake mas nunca no retorno, o que o lancava como perda certa."
     }
-  }
+  },
+  "units": "stakes"
 }
