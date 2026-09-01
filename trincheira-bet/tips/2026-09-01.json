@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-01",
+  "units": "stakes",
+  "generated_at": "2026-09-01T10:05:00+01:00",
+  "notes": "Terca-feira magra, vespera de paragem para selecoes: so 7 jogos das ligas-foco (2 da Coppa Italia, DFB Pokal, Bundesliga AT, Super League CH, Saudi Pro League). ZERO tips individuais — os tres candidatos serios cairam todos no gate do Passo 5 depois da investigacao de contexto, e nenhum por falta de dados: (1) LASK a 1.55 em Wolfsberg — o H2H de sede mata a tese, o LASK nao ganha no Lavanttal ha 3 visitas (1-0, 2-1, 2-1 para o WAC) e o mercado esta eficiente (13 casas entre 1.50 e 1.70, Pinnacle 1.56); (2) Al-Hilal vs Al-Ahli Ambas Marcam a 1.57 — o H2H puxa para cima (7/8 com ambas a marcar, 72% em 29 encontros) mas as taxas-base puxam para baixo (Al-Hilal 9 balizas a zero em 17 jogos em casa na Saudi Pro League 2025/26; Al-Ahli 10 em 17 fora), o preco de 1.57 fica exactamente entre as duas leituras e nao ha margem; (3) Zurique vs Young Boys — a tese e forte mas os mercados que a exprimem nao geram tip: a vitoria a 1.60 esta ao preco de mercado (Pinnacle 1.61) e o Young Boys marca 2 ou mais paga 1.36. O Ambas Marcam Sim a 1.40 e um mercado diferente, que exige tambem golo do Zurique, e entrou como perna de Fase B pela sua propria justificacao (H2H 3/5, forma 4/5 e 4/5). TENNIS: US Open confirmado no quadro principal (1a ronda, dia 2) via ESPN, avaliado e sem tips — Bencic-Putintseva tem angulo mas o Dimers da 81.3% a Bencic (vitoria simples abaixo do piso absoluto de 1.50) e o mercado 2-0 a 1.62 esta ao justo; Badosa-Kasatkina sem probabilidades de modelo. As duas fontes de tipsters de tennis recusaram leitura (Last Word on Sports 403, Sportskeeda 405) e a regra da casa proibe decidir por resumo de pesquisa. FASE A: 0 acumuladores standard — sem tips aprovadas nao ha pool. FASE B: 5 pernas elegiveis, 1 acumulador curto de 3 pernas em 3 paises. FASE C: sem corvo. Varri as 11 paginas do mercado Resultado+Total da Marathonbet para a data inteira: so dois jogos tinham pernas dentro de 1.25-1.55 em paises do country gate — HEBC-Dortmund e Beijing Guoan-Rizhao Yuqi (Taca da China). A segunda nao passa a curadoria intermedia da regra 6 (equipas de escaloes diferentes, sem H2H possivel, sem noticia de onze para um jogo as 12:35 numa prova onde a rotacao e a norma), logo nao existe par valido e nao se estica a banda. SEM SOBREPOSICAO entre fases. Fontes com problemas, para registo: SportsGambler so respondeu no slug curto (wolfsberger-vs-lask); os slugs de Zurique-Young Boys e Al-Hilal-Al-Ahli devolveram a pagina indice em todas as variantes tentadas. Forebet devolveu 403. O FootyStats para Al-Hilal e Al-Ahli anuncia amostra de 10 jogos da epoca corrente quando as equipas so tem 4 e 5 jogos oficiais — mistura amigaveis de pre-epoca, e os splits casa/fora dele foram descartados por falta de proveniencia (regra 1 do Passo 4.6); os splits usados vieram do endpoint teams/statistics com liga e epoca declaradas. O proleaguefootballsaudi.com deu forma recente frontalmente contradita pela API (dava 1V-1E-3D ao Al-Hilal, que tem 4 vitorias em 4) — fonte descartada. Aviso de infraestrutura, nao tratado aqui por instrucao: o scanner de lineup-edge ainda tem o Watkins associado ao clube anterior e o endpoint de admin devolve 403; a antevisao de hoje ja o poe no onze do Al-Hilal.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1555377,
+          "match": "FC Zurich vs BSC Young Boys",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.4,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1628894,
+          "match": "Torino vs Monza",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1563730,
+          "match": "Tranmere vs Rotherham",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.53,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "tips": []
+}

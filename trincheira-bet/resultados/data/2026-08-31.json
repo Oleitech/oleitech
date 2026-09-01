@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-31",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "favorites",
+        "marketLabel": "Baliza a zero",
+        "pick": "Barcelona nao sofre golos (Clean Sheet Casa)",
+        "fixtureId": 1570354,
+        "home": "Barcelona",
+        "away": "Rayo Vallecano",
+        "league": "La Liga",
+        "kickoff": "2026-08-31T19:30:00Z",
+        "odds": 1.83,
+        "bookmaker": "Bet365",
+        "score_confidence": 82,
+        "stake_units": 1.5,
+        "stake": 1.5,
+        "final_score": "5-2",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1.5,
+        "note": "Barcelona venceu 5-2 ao Rayo Vallecano, mas sofreu dois golos (ambos do Rayo), o que invalida o mercado Baliza a Zero / Clean Sheet Casa. A tese defensiva (0,5 golos sofridos por jogo em casa na epoca anterior) falhou no dia: o Rayo, sem Isi Palazon, Luiz Felipe e Batalla, ainda assim marcou duas vezes no Camp Nou."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1548519,
+            "match": "HNK Hajduk Split vs NK Lokomotiva Zagreb",
+            "pick": "Vitoria Hajduk Split",
+            "odds": 1.42,
+            "final_score": "2-0",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1552452,
+            "match": "Dijon vs Saint Etienne",
+            "pick": "Saint Etienne empate anula (DNB)",
+            "odds": 1.36,
+            "final_score": "2-3",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1550098,
+            "match": "Atalanta vs Bologna",
+            "pick": "Atalanta empate anula (DNB)",
+            "odds": 1.4,
+            "final_score": "1-0",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.7,
+        "score": 65,
+        "bookmaker": "Bet365",
+        "stake_units": 0.5,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.35,
+        "pnl": 0.85,
+        "note": "As tres pernas cumpriram: o Hajduk Split venceu 2-0 ao Lokomotiva Zagreb, o Saint Etienne ganhou a titulo pleno por 3-2 em Dijon (cobre o DNB com folga) e o Atalanta bateu o Bologna por 1-0. GREEN a 2.70."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1575476,
+            "match": "Benfica vs Estoril",
+            "pick": "Benfica e Mais de 1.5 golos",
+            "odds": 1.27,
+            "final_score": "2-1",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1549007,
+            "match": "FC Copenhagen vs Sonderjyske",
+            "pick": "FC Copenhagen e Mais de 1.5 golos",
+            "odds": 1.52,
+            "final_score": "3-1",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 1.93,
+        "score": 70,
+        "bookmaker": "Marathonbet",
+        "stake_units": 1,
+        "stake": 1,
+        "result": "GREEN",
+        "return": 1.93,
+        "pnl": 0.93,
+        "note": "As duas pernas cumpriram: o Benfica venceu o Estoril por 2-1 (vitoria e total de 3 golos, acima de 1.5) e o FC Copenhagen venceu o Sonderjyske por 3-1 (vitoria e total de 4 golos, acima de 1.5). GREEN a 1.93."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0,
+      "total_stake": 1.5,
+      "total_return": 0,
+      "pnl": -1.5,
+      "roi_pct": -100,
+      "accumulators_total": 2,
+      "accumulators_green": 2,
+      "accumulators_red": 0,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 3.28,
+      "accumulators_pnl": 1.78,
+      "combined_stake": 3,
+      "combined_return": 3.28,
+      "combined_pnl": 0.28,
+      "combined_roi_pct": 9.33
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "balance": 34.52,
+  "notes": "Dia positivo apesar de a tip individual falhar: Barcelona bateu o Rayo Vallecano por 5-2 mas sofreu dois golos, invalidando a Baliza a Zero (1,83, 1,5 stakes) - RED, -1,5. Os dois acumuladores cumpriram-se: o curto (Fase B, 2,70, 0,5 stakes) fechou GREEN com Hajduk Split 2-0, Saint Etienne 3-2 fora em Dijon e Atalanta 1-0 ao Bologna; o corvo (Fase C, 1,93, 1 stake, Marathonbet) fechou GREEN com Benfica 2-1 ao Estoril e FC Copenhagen 3-1 ao Sonderjyske, ambas as pernas Resultado+Mais de 1.5 confirmadas na API-Football. Os tres desfechos foram verificados directamente na API-Football (fixtures 1570354, 1548519, 1552452, 1550098, 1575476, 1549007) e coincidem com o que tinha sido reportado antes desta verificacao - sem divergencias a assinalar. P&L do dia +0,28 stakes, banca sobe de 34,24 para 34,52 stakes. TRACKING LIVE: zero alertas do worker em 31/08, confirmado directamente no /alert-archive (retornou alerts: []), alinhado com o que o health-bot tinha indicado.",
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "units": "stakes"
+}
