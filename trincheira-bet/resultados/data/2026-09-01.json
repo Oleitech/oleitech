@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-01",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1555377,
+            "match": "FC Zurich vs BSC Young Boys",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.4,
+            "sport": "football",
+            "result": "GREEN",
+            "final_score": "2-4",
+            "note": "Ambas as equipas marcaram: Zurique 2, Young Boys 4."
+          },
+          {
+            "fixtureId": 1628894,
+            "match": "Torino vs Monza",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.36,
+            "sport": "football",
+            "result": "RED",
+            "final_score": "0-1",
+            "note": "Apenas 1 golo no jogo, abaixo da linha de 1.5."
+          },
+          {
+            "fixtureId": 1563730,
+            "match": "Tranmere vs Rotherham",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "sport": "football",
+            "result": "GREEN",
+            "final_score": "2-2",
+            "note": "4 golos no jogo, acima da linha de 1.5."
+          }
+        ],
+        "combined_odds": 2.53,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Torino-Monza falhou a linha de 1.5 golos (0-1); as outras duas pernas acertaram, mas o acumulador precisa das tres."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 0.5,
+      "combined_return": 0,
+      "combined_pnl": -0.5,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    },
+    "shadow_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 34.02,
+  "notes": "Terca-feira sem tips individuais (todos os candidatos caidos no gate de preco). O unico acumulador do dia, o curto de Fase B (Zurique-Young Boys BTTS Sim, Torino-Monza Mais 1.5, Tranmere-Rotherham Mais 1.5, odds combinadas 2.53), fechou RED: Zurique 2-4 Young Boys e Tranmere 2-2 Rotherham acertaram, mas Torino 0-1 Monza ficou abaixo da linha de 1.5 golos. Zero alertas live arquivados pelo worker nesta data (segundo dia seguido a zero). P&L do dia -0,5 stakes, banca 34,52 -> 34,02."
+}

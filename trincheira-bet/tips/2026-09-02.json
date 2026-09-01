@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-02",
+  "units": "stakes",
+  "generated_at": "2026-09-01T22:40:00+01:00",
+  "notes": "Segundo ciclo do dia, autorizado pelo dono. Semana de paragem parcial: nenhuma das cinco grandes ligas nem prova UEFA de clubes joga a 02/09 — o cartaz de futebol e Championship/League One (jornada 4), Premiership escocesa (jornada 5), Coppa Italia R32, DFB Pokal R64, Austria/Suica/Dinamarca/Belgica/Chequia e J1. US Open no quadro principal (2a ronda, dia 4 — arranque do quadro a 30/08 confirmado pelo ESPN, nao e qualificacao). Sem NBA (off-season). 1 tip aprovada. ZERO acumuladores nas tres fases, por falta de pernas elegiveis e nao por opcao: Fase A impossivel (a unica tip aprovada e um single de tennis, que a regra de ouro do tips/tennis/WORKFLOW.md exclui de qualquer acumulador); Fase B com 1 perna aprovada em 4 rastreadas (precisa de 3); Fase C com apenas 1 perna a passar a curadoria (precisa de exactamente 2). Sem sobreposicao a declarar. Exposicao do dia: 1 stake sobre banca de 34.02 stakes (2.9%).",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "sport": "tennis",
+      "pick": "Brandon Nakashima vence",
+      "fixtureId": "usopen-2026-r2-nakashima-michelsen",
+      "home": {
+        "name": "Brandon Nakashima",
+        "logo": ""
+      },
+      "away": {
+        "name": "Alex Michelsen",
+        "logo": ""
+      },
+      "league": "US Open — 2a ronda (quadro principal, masculinos)",
+      "leagueLogo": "",
+      "kickoff": "2026-09-02T15:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 80,
+      "stake": 1,
+      "context_depth": "partial",
+      "tese": "Nakashima chega a este derby americano no melhor momento da carreira e Michelsen e exactamente o tipo de adversario contra quem esse momento se traduz em vitoria. Na digressao americana de piso rapido de 2026 Nakashima fez meia-final em Washington (com vitoria sobre De Minaur), final em Toronto/Montreal (perdida com Shelton) e meia-final em Cincinnati, onde salvou tres match points a Medvedev e bateu Taylor Fritz nos quartos — tres torneios grandes seguidos, todos no mesmo piso e nas mesmas condicoes de Flushing Meadows, que o levaram ao maximo de carreira de No. 16 do mundo. Michelsen, aos 22 anos, e um jogador em construcao mas com 1-9 frente a top-20 em 2026 e ainda sem titulo ATP; a vitoria fluida da 1a ronda (6-4 6-1 6-0 sobre Federico Cina, No. 181) diz pouco sobre o que o espera. Em cinco sets a diferenca de patamar tende a impor-se e o cabeca-de-serie 16 tem o servico e a consistencia do fundo para controlar as trocas longas que Michelsen vai procurar. O unico sinal de alerta e a carga: tres provas grandes consecutivas sem descanso antes do Grand Slam, o que pesa mais na 2a semana do que numa 2a ronda, mas justifica nao subir a stake. A 1.62 (consenso de mercado -151, ou seja 1.66 decimal) o preco paga 61.7% para um jogo em que o modelo de forma o coloca acima de 70%.",
+      "factors": [
+        "Nakashima 13 vitorias nos ultimos 16 encontros (amostra: circuito ATP, digressao americana de piso rapido 2026 — via freetips/OddsChecker, corroborado pelo ATP Tour)",
+        "Nakashima meia-final em Washington, final em Toronto/Montreal e meia-final em Cincinnati na mesma digressao de 2026 (fonte: Last Word on Sports dia 4 + noticias oficiais do ATP Tour)",
+        "Vitorias sobre Fritz (7-6(9) 4-6 6-3, quartos de Cincinnati) e Medvedev (salvando 3 match points, R32 de Cincinnati) — ambas confirmadas em artigos do ATPTour.com, nao por resumo de pesquisa",
+        "Maximo de carreira: No. 16 do ranking live apos Cincinnati (fonte: ATP Tour)",
+        "Michelsen 1-9 frente a top-20 em 2026 e sem titulo ATP na carreira (amostra: epoca 2026 completa ate 01/09)",
+        "Michelsen venceu a 1a ronda 6-4 6-1 6-0 sobre Federico Cina, No. 181 do mundo — adversario 165 lugares abaixo do proximo",
+        "Consenso de terceiros: os tres analistas do painel do Last Word on Sports (Zain, Jim, Steen) escolhem Nakashima; Jim escreve que uma derrota para Michelsen 'seria uma surpresa'; freetips recomenda Nakashima -1.5 sets",
+        "Preco cruzado em duas fontes independentes (OddsChecker e freetips) a -151 = 1.66 decimal; publicado a 1.62 por conservadorismo, para nao anunciar um preco melhor do que o que se apanha na casa",
+        "Sinal contrario registado: carga de tres torneios grandes consecutivos sem semana de descanso — motivo de nao subir a stake"
+      ],
+      "sources": [
+        "ESPN (site.web.api) — quadro do US Open: confirma 2a ronda do QUADRO PRINCIPAL (nao qualificacao), ambos os jogadores com estado 'pre', jogo agendado para 02/09",
+        "Last Word on Sports — 'US Open Day 4 Predictions Including Bublik vs Mannarino' (01/09/2026), painel de 3 analistas; recolhido com user-agent de Chrome (com o UA por omissao do curl devolve 403)",
+        "ATPTour.com — reportagens dos jogos de Cincinnati 2026 vs Fritz (quartos) e vs Medvedev (R32): verificacao independente dos resultados citados pelo Last Word",
+        "freetips.com — pagina do Nakashima vs Michelsen (2a ronda), forma 13-16, registo de Michelsen frente a top-20 e preco -151",
+        "OddsChecker (agregador) — cruzamento de preco -151/+125, segunda fonte independente do mesmo numero",
+        "AUSENCIAS/DISPONIBILIDADE — duas fontes concordantes: (1) ESPN, ambos os jogadores inscritos na 2a ronda com estado 'pre' depois de vencerem a 1a ronda; (2) Last Word on Sports dia 4 e freetips, ambos a previsualizar o encontro sem qualquer registo de lesao, desistencia ou queixa fisica de nenhum dos dois. Nenhuma fonte reporta ausencia ou walkover.",
+        "NAO USADO — H2H Nakashima vs Michelsen: a pesquisa devolveu um numero incoerente (31-17) que nao corresponde a este confronto; descartado por falta de proveniencia em vez de usado com ressalva. E o que faz o context_depth ser 'partial'."
+      ]
+    }
+  ]
+}
