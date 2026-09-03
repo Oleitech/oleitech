@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-02",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "tennis_match",
+        "sport": "tennis",
+        "fixtureId": "usopen-2026-r2-nakashima-michelsen",
+        "match": "Brandon Nakashima vs Alex Michelsen",
+        "league": "US Open — 2a ronda (quadro principal, masculinos)",
+        "pick": "Brandon Nakashima vence",
+        "odds": 1.62,
+        "stake": 1,
+        "score": 80,
+        "result": "RED",
+        "final_score": "6-3, 6-4, 6-4 (Michelsen)",
+        "return": 0,
+        "pnl": -1,
+        "note": "Michelsen bateu Nakashima em sets seguidos, 6-3 6-4 6-4, e nao chegou a estar em causa. Primeira 3a ronda de Grand Slam do jogador de 22 anos. A tese assentava na forma de Nakashima na digressao americana (meia-final em Washington, final em Toronto/Montreal, meia-final em Cincinnati) e no registo de 1-9 de Michelsen frente ao top-20; o argumento de carga acumulada, registado na altura como sinal contrario e motivo para nao subir a stake, foi o que se confirmou."
+      }
+    ],
+    "accumulators": [],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0,
+      "total_stake": 1,
+      "total_return": 0,
+      "pnl": -1,
+      "roi_pct": -100,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 1,
+      "combined_return": 0,
+      "combined_pnl": -1,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1556049,
+        "strategy": "⚽ OVER xG 0-0",
+        "market": "Mais de 0.5 Golos",
+        "match": "V-varen Nagasaki vs Gamba Osaka",
+        "league": "J1 League (Japan)",
+        "elapsed": 48,
+        "score": "0-0",
+        "conf": 86,
+        "factors": [
+          "xG estimado: 2.12 (1.92 - 0.20)",
+          "19 remates, 8 enquadrados",
+          "Golos esperados no restante: 1.74",
+          "Odd justa — +0.5: 1.21 (82%) · +1.5: 1.93 (52%) · +2.5: 3.96 (25%)",
+          "Jogo desequilibrado (uma equipa a criar tudo)"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1788347330183,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788350341164
+      },
+      {
+        "fixtureId": 1555378,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Grasshoppers vs FC ST. Gallen",
+        "league": "Super League (Switzerland)",
+        "elapsed": 51,
+        "score": "1-0",
+        "conf": 95,
+        "factors": [
+          "FC ST. Gallen ainda não marcou",
+          "3 SoT · 11 remates · 57% posse",
+          "Favorito a sofrer",
+          "Defesas frágeis",
+          "Liga BTTS 60%",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788377832515,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1788380461162
+      },
+      {
+        "fixtureId": 1555379,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "FC Luzern vs FC Vaduz",
+        "league": "Super League (Switzerland)",
+        "elapsed": 50,
+        "score": "0-1",
+        "conf": 87,
+        "factors": [
+          "FC Luzern ainda não marcou",
+          "2 SoT · 9 remates · 46% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Defesas frágeis",
+          "Liga BTTS 60%",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788377909347,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788380662258
+      },
+      {
+        "fixtureId": 1555380,
+        "strategy": "⚽ OVER xG 0-0",
+        "market": "Mais de 0.5 Golos",
+        "match": "FC Thun vs Lausanne",
+        "league": "Super League (Switzerland)",
+        "elapsed": 52,
+        "score": "0-0",
+        "conf": 86,
+        "factors": [
+          "xG estimado: 2.03 (1.48 - 0.56)",
+          "18 remates, 6 enquadrados",
+          "Golos esperados no restante: 1.46",
+          "Odd justa — +0.5: 1.30 (77%) · +1.5: 2.33 (43%) · +2.5: 5.50 (18%)",
+          "Jogo desequilibrado (uma equipa a criar tudo)"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1788378042775,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1788380662365
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "by_strategy": {},
+      "nota_mensuravel": "Nenhum alerta enviado nem apostado nesta data: os 4 arquivados sao todos de sombra e estao fora do dinheiro e da taxa de acerto."
+    },
+    "shadow_summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "stake_nocional": 4,
+      "by_strategy": {
+        "⚽ OVER xG 0-0": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        },
+        "🎯 BTTS LIVE": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        }
+      }
+    }
+  },
+  "balance": 33.02,
+  "notes": "Quarta-feira de uma tip so, o single de tennis da 2a ronda do US Open: Nakashima vence a 1.62, 1 stake, fechou RED com Michelsen a ganhar 6-3 6-4 6-4. Sem acumuladores em nenhuma das tres fases (nao havia pernas elegiveis). P&L do dia -1 stake, banca 34,02 -> 33,02. O bot live arquivou 4 alertas, todos em sombra e nenhum entregue: 2 de OVER xG 0-0 (estrategia em avaliacao) e 2 de BTTS LIVE que cairam em sombra por nao haver preco no mercado no momento da decisao. Terceiro dia seguido sem um unico alerta entregue no Telegram — 31/08 e 01/09 nao geraram sequer alertas. Ficam fora do P&L e da taxa de acerto, medidos a parte no shadow_summary: 2 GREEN e 2 RED."
+}
