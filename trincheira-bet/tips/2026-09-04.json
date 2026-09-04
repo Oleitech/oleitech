@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-04",
+  "units": "stakes",
+  "generated_at": "2026-09-04T10:55:00+01:00",
+  "notes": "Sexta-feira de paragem de seleccoes com cartaz maior do que o esperado: 450 jogos no mundo e cerca de 40 nas ligas-foco, incluindo Ipswich-Liverpool, Betis-Real Madrid, PSG-Monaco, Stuttgart-Koln, Genoa-Como e Porto-Moreirense. O problema do dia nao foi falta de jogos, foi falta de AMOSTRA: as cinco grandes ligas europeias e a Liga Portugal levam entre 1 e 4 jornadas, e a regra 1 do Passo 4.6 manda descartar numero sem proveniencia em vez de o usar com ressalva. Por isso a tip do dia veio de uma liga que ja vai a meio, a Eliteserien, com 18 jogos por equipa. UMA tip: Ambas Marcam Sim no Aalesund-Start, meia stake. CANDIDATOS REJEITADOS COM ANALISE COMPLETA FEITA: (1) Shamrock Rovers-Shelbourne, Ambas Marcam Sim a 1.80 — foi o candidato mais perto de passar e tem amostra a serio (28 e 27 jogos da Premier Division irlandesa), com o Shamrock a marcar em 13/13 em casa e o Shelbourne a marcar em 11/13 fora, mas cai em duas dimensoes: a defesa do Shamrock em casa NAO e vulneravel (0.85 golos sofridos por jogo e 38 por cento de balizas a zero, n=13) e o consenso de terceiros vai contra (o SportsGambler recomenda MENOS de 2.5 golos e vitoria do Shamrock, e o numero de longo prazo do FootyStats sobre os 24 encontros historicos da 50 por cento de ambas marcam e media de 2.17 golos, ABAIXO do implicito de 55.6 por cento da odd). Tres dimensoes em positivo com duas em negativo nao chega ao criterio do Passo 5. As ausencias tambem nao fechavam: o SportsGambler da Gaffney e o guarda-redes Kearns; a pesquisa devolve McEneff e Thomas em duvida mais McManus, McSweeney e Hawkins de fora — duas listas sem um unico nome em comum. (2) FC Porto-Moreirense, Baliza a Zero do Porto a 1.53 — a tese esta certa (o Porto leva 4 jornadas da Liga Portugal 2026/27 sem sofrer e 6 jogos oficiais seguidos com a baliza a zero contando a Supertaca) e o mercado seria mesmo o Clean Sheet e nao o 1X2, mas a amostra e n=4 do lado do Porto e n=2 do lado do Moreirense fora, exactamente o caso do n pequeno bem redigido; a 1.53 o preco esta perto do justo estimado (62-68 por cento) e nao ha margem que pague o risco de amostra. O Porto fica como perna de acumulador, onde a barra e de curadoria intermedia, e nao como tip. (3) Sandefjord-Viking, Ambas Marcam a 1.50 — o H2H e excelente (7 de 8 com ambas a marcar, todos da Eliteserien) mas o Sandefjord falhou o golo em 4 dos ultimos 7 jogos de liga e em 3 das 4 ultimas recepcoes; a perna fraca e precisamente a que a tese precisa. (4) CFR Cluj-Farul, Ambas Marcam a 1.73 — o CFR leva 2 jogos em casa na Liga I 2026/27 e nos dois nao sofreu; amostra de 2 nao sustenta nada. (5) Sparta Rotterdam-PEC Zwolle, Ambas Marcam a 1.44 — H2H de 2 em 5 na Eredivisie, filtro minimo falhado. FASES DE ACUMULADORES. FASE A: ZERO acumuladores standard, por impossibilidade aritmetica e nao por opcao — com uma unica tip aprovada nao existe par nem trio possivel. FASE B: 4 pernas elegiveis na shortlist (odds acima de 1.25 e ate 1.55, com H2H e forma alinhados em pelo menos 3 de 5), logo 1 acumulador curto de 3 pernas de tres paises diferentes (Noruega, Arabia Saudita, Turquia) a 2.60 combinada, meia stake. A quarta perna elegivel, o Porto a marcar 2 ou mais golos a 1.30, ficou de fora do curto porque o jogo foi usado no corvo. FASE C: corvo publicado — FC Porto vence e menos de 4.5 golos a 1.46 mais Al-Hilal vence e mais de 1.5 golos a 1.35, combinada 1.97, dentro da banda 1.70-2.20, odds da Marathonbet, uma stake. SOBREPOSICAO DECLARADA, como a regra 5 da Fase C exige: o jogo Al Shabab-Al-Hilal aparece nas duas fases — no curto como Al-Hilal marca mais de 1.5 golos (mercado Total - Away) e no corvo como Al-Hilal vence e mais de 1.5 golos (mercado Result/Total Goals). Sao mercados diferentes mas o jogo e o mesmo e a exposicao fica correlacionada: um desaire do Al-Hilal em Riade custa as duas apostas. A alternativa sem sobreposicao nenhuma nao existia hoje, porque so quatro pernas passaram o filtro e o unico par de corvo dentro da banda que evitava o Al-Hilal era Porto mais Bodo/Glimt, que da 2.23 e cai fora dos 2.20. REGRA 6 DO CORVO: aplicada sem excepcoes, como manda a decisao adiada para 30/09/2026. As pernas rejeitadas por ela estao registadas em runs/2026-09-04/tips.json no campo fase_c_rejeicoes, com o par regra_que_falhou e divisoes_diferentes por entrada. EXPOSICAO TOTAL: 2.0 stakes (0.5 na tip, 0.5 no curto, 1 no corvo), bem abaixo do tecto diario de 8. CONTEXT DEPTH: 1 partial, 0 full. FORMATO DOS CAMPOS home E away: gravados como OBJECTO {name, logo}, que e o que o js/app.js linha 187 le (tip.home?.name) e o formato usado desde 28/08. Um aviso anterior nesta nota dizia o contrario e estava errado; foi corrigido pelo Master antes do deploy. No ficheiro de RESULTADOS o contrato e o inverso — strings — porque o js/layout.js linha 224 monta o campo matches com ${t.home} vs ${t.away}. A conversao faz-se a jusante, no passo dos resultados.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1494750,
+          "match": "Fredrikstad vs Bodo/Glimt",
+          "pick": "Vitoria Bodo/Glimt",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1603013,
+          "match": "Al Shabab vs Al-Hilal Saudi FC",
+          "pick": "Al-Hilal marca mais de 1.5 golos",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1584394,
+          "match": "Basaksehir vs Galatasaray",
+          "pick": "Galatasaray marca mais de 1.5 golos",
+          "odds": 1.53,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "fixtureId": 1575485,
+          "match": "FC Porto vs Moreirense",
+          "pick": "FC Porto vence e menos de 4.5 golos",
+          "odds": 1.46,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1603013,
+          "match": "Al Shabab vs Al-Hilal Saudi FC",
+          "pick": "Al-Hilal vence e mais de 1.5 golos",
+          "odds": 1.35,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 1.97,
+      "score": 70,
+      "stake": 1
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas Marcam",
+      "pick": "Ambas Marcam Sim",
+      "fixtureId": 1494748,
+      "home": {
+        "name": "Aalesund",
+        "logo": "https://media.api-sports.io/football/teams/757.png"
+      },
+      "away": {
+        "name": "Start",
+        "logo": "https://media.api-sports.io/football/teams/334.png"
+      },
+      "league": "Eliteserien",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
+      "kickoff": "2026-09-04T17:00:00Z",
+      "odds": 1.44,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "sport": "football",
+      "tese": "A tese numa frase: o Aalesund nao consegue guardar a sua baliza e o Start nao consegue guardar a dele fora de casa. O mercado que exprime exactamente isso e o Ambas Marcam Sim a 1.44 — nao o Mais de 2.5 golos, desactivado por decisao do utilizador desde Abril/2026, e nao o Mais de 1.5, que ganharia com um 2-0 do Aalesund, cenario que esta tese nao preve. Numeros todos com competicao e amostra declaradas, e todos de jogos oficiais (zero amigaveis de pre-epoca na amostra). O Aalesund leva DEZ recepcoes nesta Eliteserien 2026 (n=10, so jogos de liga) sem uma unica baliza a zero E sem uma unica vez a falhar o golo: ambas marcaram em 10 de 10 jogos em casa. Media em casa de 2.00 marcados e 2.60 sofridos, com xG 1.91 e xGA 1.81 (FootyStats). Alargando a epoca inteira (n=18 Eliteserien), o Aalesund tem ZERO balizas a zero — nao e um padrao de casa, e o que a equipa e. Do lado do Start sao 9 deslocacoes de Eliteserien 2026 (n=9), tambem sem uma unica baliza a zero, 2.67 golos sofridos por jogo fora, e marcaram em 7 dessas 9 (78 por cento de ambas marcam fora). O H2H nao contradiz: os cinco ultimos encontros tiveram TODOS ambas a marcar (1-1, 3-1, 1-1, 3-1, 1-3) e o numero de longo prazo do FootyStats sobre os 23 encontros historicos e 70 por cento, ou seja acima do implicito da odd. Contexto: dois recem-promovidos na luta pela despromocao, o Aalesund de Kjetil Rekdal e o Start de Azar Karadas, nenhum dos dois com mudanca de treinador esta epoca, e nenhum dos dois em condicoes de fechar o jogo. Os contras sao dois e ficam a descoberto. Primeiro o preco: 1.44 implica 69.4 por cento e a estimativa desta analise fica em 75-78 por cento; ha margem, mas e fina, e a dimensao de valor do Passo 5 (odd maior ou igual a 1.55) fica por cumprir — esta e a unica dimensao em vermelho. Segundo, e e a razao do context_depth partial: o Aalesund perde o avancado Paul Ngongo Iversen (coxa, regresso previsto 19/09) e o medio Daniel Snaer Johannsson (suspenso por acumulacao de amarelos), ausencias que FECHAM em duas fontes concordantes (API-Football /injuries e SportsGambler), mas do lado do Start a lista NAO fecha: a API da Lien (pe), Tonnesen (perna) e ainda Norheim e Torkildsen como duvidas, e o SportsGambler so confirma Tonnesen. So o Tonnesen entra como facto — e e um defesa, ou seja empurra a favor da tese, nao contra. Alem disso o ponto dos padroes ao intervalo continua indisponivel (Passo 4.6). Por isso o context_depth e partial e a stake desce uma unidade, de uma para meia, sem tocar no score.",
+      "factors": [
+        "Aalesund em casa, Eliteserien 2026 (FootyStats splits + API-Football /teams/statistics?team=757&league=103&season=2026, n=10 jogos de liga): ambas marcaram em 10/10, 0 por cento de balizas a zero, 0 por cento de jogos sem marcar, 2.00 golos marcados e 2.60 sofridos por jogo",
+        "Aalesund na epoca inteira, Eliteserien 2026 (API-Football /teams/statistics, n=18): ZERO balizas a zero em 18 jogos, casa e fora somados",
+        "Aalesund em casa, xG 1.91 e xGA 1.81 (FootyStats, Eliteserien 2026) — o xGA acima de 1.8 diz que o golo sofrido nao e acidente de amostra",
+        "Start fora, Eliteserien 2026 (FootyStats splits + API-Football /teams/statistics?team=334, n=9 deslocacoes): 0 balizas a zero, 2.67 golos sofridos por jogo, marcou em 7/9 (78 por cento de ambas marcam fora), xG fora 1.31",
+        "Contra real, verificado: o Start ficou em branco em 5 dos 18 jogos da epoca — 3 em casa (0-1 Fredrikstad, 0-3 Viking, 0-3 Rosenborg) e 2 nas 9 deslocacoes (API-Football /teams/statistics?team=334&league=103&season=2026, failed_to_score home 3, away 2, total 5). E a perna fraca da tese e fica declarada: o Start pode ficar em branco fora, e ja o fez duas vezes. O 7/9 do factor anterior mantem-se correcto e e o mesmo numero visto do outro lado.",
+        "Aalesund, ultimos 7 jogos de Eliteserien (API-Football /fixtures?team=757&last=8, com .league.name verificado; excluido o 0-13 da NM Cupen ao Langevag): ambas marcaram em 7/7 (2-1, 5-5, 1-1, 2-6, 1-1, 6-1, 2-2)",
+        "H2H, ultimos 5 encontros (API-Football /fixtures/headtohead?h2h=757-334): 1-1, 3-1, 1-1, 3-1, 1-3 — ambas marcaram em 5/5. Proveniencia mista e declarada: 1 da Eliteserien 2026 e 4 da 1. Division 2024/25, quando ambos estavam no escalao abaixo",
+        "Contrafactual verificado, e vai a favor: o numero de longo prazo do FootyStats sobre os 23 encontros historicos da 70 por cento de ambas a marcar e media de 2.87 golos, ACIMA dos 69.4 por cento implicitos na odd de 1.44",
+        "Ausencias do Aalesund fechadas em DUAS fontes concordantes (API-Football /injuries?fixture=1494748 e SportsGambler Norway Eliteserien injuries): Paul Ngongo Iversen (avancado, coxa, regresso 19/09), Daniel Snaer Johannsson (medio, suspenso por amarelos, regresso 13/09), Aleksander Hammer Kjelsen (coxa), Janus Seehusen (medio) e Haakon Butli Hammer em duvida. As duas fontes dao a MESMA lista de cinco nomes",
+        "Ausencia do Start estabelecida em duas fontes: K. Tonnesen (defesa, lesao na perna, regresso 20/09). NAO estabelecidas: F. Lien (pe), J. Norheim e J. Torkildsen (duvidas) aparecem so na API-Football e o SportsGambler nao os lista — nao entram como facto e sao a causa do context_depth partial",
+        "Contexto: dois recem-promovidos na zona de despromocao, Aalesund treinado por Kjetil Rekdal e Start por Azar Karadas, sem mudanca de treinador esta epoca em nenhum dos dois",
+        "Terceiros alinhados (Passo 4.5, tres fontes): o FootyStats da ambas marcam como provavel a 1.40, o betimate/over25tips da 69 por cento de probabilidade de ambas marcarem com resultado esperado 2-1, e o todaymatchprediction descreve os dois como equipas com tendencia a marcar e a sofrer. Consenso a favor, sem divergencia encontrada",
+        "Contra assumido: a odd de 1.44 fica abaixo do piso de valor de 1.55 do Passo 5 e por isso a dimensao de valor conta como negativa. A tip passa por ter quatro dimensoes em positivo (matematico, defesas vulneraveis, contexto, consenso), nao por ter o preco a favor"
+      ],
+      "sources": [
+        "API-Football /fixtures?date=2026-09-04&timezone=Europe/Lisbon — cartaz do dia; fixtureId 1494748, Eliteserien, 18:00 de Lisboa",
+        "API-Football /teams/statistics?team=757&season=2026&league=103 — Aalesund: 18 jogos, 0 balizas a zero; em casa 10 jogos com 0 clean sheets e 0 failed-to-score, 2.0 marcados e 2.6 sofridos",
+        "API-Football /teams/statistics?team=334&season=2026&league=103 — Start: fora 9 jogos, 0 clean sheets, 2.67 sofridos, 2 jogos sem marcar",
+        "API-Football /fixtures?team=757&last=8 e /fixtures?team=334&last=8 — forma com .league.name por jogo, para separar Eliteserien de NM Cupen e de amigaveis",
+        "API-Football /fixtures/headtohead?h2h=757-334&last=8 — H2H com competicao declarada por jogo (1 Eliteserien 2026, 4 da 1. Division 2024/25)",
+        "API-Football /odds?fixture=1494748&bookmaker=8 — Bet365, Ambas Marcam Sim 1.44",
+        "API-Football /injuries?fixture=1494748 — 1.a FONTE DE AUSENCIAS: Aalesund (Johannsson amarelos, Kjelsen coxa, Ngongo cirurgia, Seehusen lesao, Hammer duvida); Start (Lien pe, Tonnesen perna, Norheim e Torkildsen duvidas)",
+        "SportsGambler, Norway Eliteserien injuries and suspensions, https://www.sportsgambler.com/injuries/football/norway-eliteserien/ — 2.a FONTE DE AUSENCIAS, com datas de regresso: concorda nos cinco nomes do Aalesund e so no Tonnesen do lado do Start. E este cruzamento que cumpre a regra das duas fontes concordantes",
+        "FootyStats H2H Aalesund vs Start, https://footystats.org/norway/aalesunds-fk-vs-ik-start-h2h-stats — splits casa/fora de ambas marcam, balizas a zero, xG e xGA, e o historico dos 23 encontros",
+        "Pesquisa restrita a footystats.org, forebet.com e dimers.com (Passo 4.6, passo B) — devolveu a pagina H2H do FootyStats e a leitura de 70 por cento de ambas marcam no historico",
+        "betimate, over25tips e todaymatchprediction via pesquisa — mercado sugerido por terceiros; os tres apontam ambas marcam ou resultado com golos dos dois lados",
+        "Wikipedia 2026 Aalesunds FK season e 2026 IK Start season — treinadores em funcoes (Kjetil Rekdal e Azar Karadas) e ausencia de mudanca de treinador esta epoca",
+        "SportsGambler pagina directa do jogo (aalesund-vs-start-prediction-lineups-odds-2026-09-04) — TENTADA e sem conteudo do jogo, so a lista de fixtures; a lacuna foi coberta pela pagina de lesoes da liga do mesmo site",
+        "protipster.com/betting-tips/ik-start-aalesunds-fk — TENTADA por WebFetch, HTTP 403; substituida pelas fontes acima em vez de saltar o passo"
+      ]
+    }
+  ]
+}

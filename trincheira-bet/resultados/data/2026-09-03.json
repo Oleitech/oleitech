@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-03",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas Marcam",
+        "sport": "football",
+        "fixtureId": 1556655,
+        "home": "Hibernian",
+        "away": "Heart Of Midlothian",
+        "match": "Hibernian vs Heart Of Midlothian",
+        "league": "Premiership",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/179.png",
+        "pick": "Ambas Marcam Sim",
+        "odds": 1.67,
+        "bookmaker": "Bet365",
+        "stake_units": 0.5,
+        "stake": 0.5,
+        "score": 78,
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "1-3",
+        "return": 0.84,
+        "pnl": 0.34,
+        "note": "Hearts venceu o derby de Edimburgo por 3-1, com o Hibernian reduzido a 10. James Wilson e Laurent Mendy puseram os visitantes 2-0 ao intervalo, Adam Mayor reduziu para o Hibernian e Josh McPake fechou a contagem. Ambas as equipas marcaram, confirmando a tese: o Hearts manteve a sequencia de marcar em todos os jogos oficiais e o Hibernian voltou a sofrer em casa."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1555382,
+            "match": "FC Lugano vs Servette FC",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.53,
+            "sport": "football",
+            "result": "RED",
+            "final_score": "1-0",
+            "note": "Lugano venceu 1-0 com golo de Ajeti aos 90+4; o Servette nao chegou a marcar."
+          },
+          {
+            "fixtureId": 1612224,
+            "match": "Al Ahly vs Smouha SC",
+            "pick": "Vitoria Al Ahly",
+            "odds": 1.3,
+            "sport": "football",
+            "result": "GREEN",
+            "final_score": "1-0",
+            "note": "Al Ahly venceu 1-0 com golo tardio de Yasser Ibrahim."
+          },
+          {
+            "fixtureId": 1549763,
+            "match": "America de Cali vs Alianza Valledupar",
+            "pick": "Vitoria America de Cali",
+            "odds": 1.33,
+            "sport": "football",
+            "result": "GREEN",
+            "final_score": "3-0",
+            "note": "America de Cali goleou 3-0, com golos de Tovar, Tomas Angel e Yeison Guzman (penalti)."
+          }
+        ],
+        "combined_odds": 2.65,
+        "score": 65,
+        "stake_units": 0.5,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "A primeira perna, Ambas Marcam Sim em Lugano-Servette, falhou logo no 1-0. Al Ahly e America de Cali cumpriram as vitorias secas, mas o acumulador precisa das tres."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 0.5,
+      "total_return": 0.84,
+      "pnl": 0.34,
+      "roi_pct": 68,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 1,
+      "combined_return": 0.84,
+      "combined_pnl": -0.16,
+      "combined_roi_pct": -16
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1555381,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "FC Basel 1893 vs FC Sion",
+        "league": "Super League (Switzerland)",
+        "elapsed": 51,
+        "score": "1-0",
+        "conf": 86,
+        "factors": [
+          "FC Sion ainda nao marcou",
+          "3 SoT · 10 remates · 49% posse",
+          "Defesas frageis",
+          "Liga BTTS 60%",
+          "Preco 1.61"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788464324043,
+        "deliveries": 0,
+        "odds": 1.615,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 86 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788466969953
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "by_strategy": {},
+      "nota_mensuravel": "Nenhum alerta enviado nem apostado nesta data: o unico arquivado e de sombra e fica fora do dinheiro e da taxa de acerto."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "stake_nocional": 1,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      }
+    }
+  },
+  "balance": 32.86,
+  "notes": "Quinta-feira de uma tip so, o BTTS do derby de Edimburgo: Ambas Marcam Sim a 1.67, meia stake, fechou GREEN com o Hearts a vencer 3-1 num Hibernian reduzido a 10. O acumulador curto (Fase B, 2.65, meia stake) falhou logo na primeira perna - Lugano-Servette so teve golo de um lado (1-0) - apesar de Al Ahly e America de Cali terem cumprido as vitorias secas. P&L do dia -0,16 stakes, banca 33,02 -> 32,86. O bot live arquivou um unico alerta, em sombra (confianca 86, abaixo do piso de 90 do BTTS LIVE): FC Basel-FC Sion fechou GREEN mas fica fora do P&L e da taxa de acerto, medido a parte no shadow_summary. Quarto dia consecutivo sem uma unica entrega."
+}
