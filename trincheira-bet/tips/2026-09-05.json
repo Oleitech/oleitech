@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T11:50:00+01:00",
+  "units": "stakes",
+  "notes": "Jornada cheia mas de arranque de epoca: Premier League/Serie A/Bundesliga/Ligue 1 na 2a-3a jornada, ou seja 1-2 jogos oficiais por equipa em 2026/27. Todos os numeros de forma usados vem da API-Football com competicao e amostra declaradas; onde a epoca corrente nao chega a 5 jogos recorreu-se a 2025/26 com liga e lado (casa/fora) declarados, como manda o Passo 4.6. Uma so tip individual: os restantes candidatos com preco acima de 1.55 foram rejeitados por modelo negativo ou por baixas confirmadas (detalhe em runs/2026-09-05/tips.json). Fase A nao produziu nada: com uma unica tip aprovada nao ha par nem trio possivel. Fase C sem sobreposicao com tips nem com a Fase B - o corvo usa Sporting-Nacional e Schalke-Bayern, que nao entram em mais nenhum boletim. Passo 0: US Open em quadro principal (3a ronda, 12 jogos de singulares); nenhum passou a regra absoluta das odds >=1.50 com margem defensavel (Osaka 1.31, Swiatek/Gauff/Andreeva/Rybakina abaixo do piso, Keys-Zheng modelada em 59/41 e portanto sem valor dos dois lados) - sem tip de tennis, verificado e nao omitido. Sofascore e FotMob nao foram tentados (403/HTML, ja verificado). context_depth: 1 full, 0 partial. Exposicao total 3.0 stakes sobre uma banca de 34.13 stakes. Registo do Passo 4.6 em falta, reposto apos o QA de 05/09: na perna Newcastle-Bournemouth do curto 1 a epoca corrente tem amostra insuficiente, e o recuo a 2025/26 (API-Football /teams/statistics, league=39, season=2025) da Newcastle a marcar em 18/19 em casa e a sofrer em 16/19, Bournemouth a marcar em 16/19 fora e a sofrer em 14/19 - aprox. 71% contra 66,7% implicitos a 1.50, logo o filtro B1 passa. Nas pernas Young Boys-Luzern e nas duas do corvo o recuo era inofensivo (4/4 e 3/3 na epoca corrente nao podem cair abaixo do minimo de 3/5).",
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam Sim",
+      "fixtureId": 1584397,
+      "home": {
+        "name": "Fenerbahce",
+        "logo": "https://media.api-sports.io/football/teams/611.png"
+      },
+      "away": {
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png"
+      },
+      "league": "Super Lig",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/203.png",
+      "kickoff": "2026-09-05T17:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 77,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "Derby de Istambul com os dois ataques inteiros e as duas defesas historicamente permeaveis. O numero que sustenta a tip e o do Fenerbahce em casa: na Super Lig 2025/26 (n=17 jogos em casa) nao falhou o golo uma unica vez - zero jogos sem marcar - e marcou 2,4 por jogo, mas so guardou a baliza a zero 4 vezes em 17 (24%), concedendo 1,1 por jogo. Do outro lado, o Besiktas marcou em 14 dos 17 jogos fora dessa mesma epoca (1,7 golos por jogo) e so manteve a baliza a zero 6 vezes (35%), com 1,2 sofridos por jogo. Cruzando os dois lados por Poisson (lambda 1,80 e 1,40) da 62,9% de probabilidade de ambas marcarem contra os 61,7% implicitos na odd de 1,62 - EV +1,9%, magro mas positivo; o cruzamento empirico das taxas de marcar/sofrer (aprox. 82% x 79%) da 65%, e e dai que vem a margem mais confortavel. O contexto de onze reforca a tese: dois onzes provaveis concordantes (SportsGambler e imprensa turca) poem Muriqi, Greenwood, Kante e Guendouzi no Fenerbahce e Vlahovic, Trossard, Cerny e Orkun Kokcu no Besiktas, com o Besiktas sem qualquer lesionado ou castigado - confirmado pelas duas fontes - e o Fenerbahce a perder apenas Asensio, que nao e titular em nenhum dos dois onzes. O Besiktas estreia-se num derby sob Vincenzo Italiano, treinador cujas equipas jogam abertas, e o proprio SportsGambler pica Mais de 2,5 golos a 1,66: a mesma leitura de jogo aberto, aqui expressa no mercado que corresponde exactamente a tese. O aviso honesto: nos ultimos cinco encontros directos ambas marcaram so 2 vezes, ainda que na serie longa do FootyStats (n=25) a taxa de BTTS seja de 64% e a media de golos 2,88 - foi por isso que a tip ficou numa stake e nao em mais.",
+      "factors": [
+        "Fenerbahce em casa, Super Lig 2025/26 (n=17): 0 jogos sem marcar, 2,4 golos marcados por jogo, so 4 balizas a zero (24%), 1,1 sofridos por jogo - API-Football /teams/statistics",
+        "Besiktas fora, Super Lig 2025/26 (n=17): marcou em 14/17 (1,7 golos por jogo), so 6 balizas a zero (35%), 1,2 sofridos por jogo - API-Football /teams/statistics",
+        "Modelo Poisson (lambda 1,80 Fenerbahce / 1,40 Besiktas): P(ambas marcam) = 62,9% contra 61,7% implicitos na odd 1,62 (EV +1,9%); o cruzamento empirico das taxas dos dois lados (aprox. 82% x 79%) da 65% - corrigido pelo QA a 05/09, o numero de 66% que aqui estava vinha do metodo empirico e nao do Poisson",
+        "H2H FootyStats (n=25 encontros): ambas marcaram em 64% e media de 2,88 golos por jogo",
+        "H2H API-Football, ultimos 8 (Super Lig + Turkiye Kupasi): ambas marcaram em 5, mas so em 2 dos ultimos 5 - o principal contra-sinal desta tip",
+        "Onzes provaveis concordantes em duas fontes: Fenerbahce com Muriqi, Greenwood, Kante e Guendouzi; Besiktas com Vlahovic, Trossard, Cerny e Kokcu",
+        "Ausencias verificadas em duas fontes concordantes: Besiktas sem lesionados nem castigados; Fenerbahce so com Asensio (lesao), fora dos dois onzes provaveis",
+        "Mudanca de treinador: Vincenzo Italiano estreia-se num derby pelo Besiktas; Ismail Kartal no Fenerbahce",
+        "Mercado sugerido por terceiros: SportsGambler pica Mais de 2,5 golos a 1,66 (probabilidade 65-70% contra 60,2% implicitos) - mesma leitura de jogo aberto"
+      ],
+      "sources": [
+        "API-Football /teams/statistics - Super Lig 2025/26, splits de casa (Fenerbahce, n=17) e de fora (Besiktas, n=17)",
+        "API-Football /fixtures/headtohead - ultimos 8 Fenerbahce-Besiktas, com competicao por jogo",
+        "API-Football /odds bookmaker=8 (Bet365) - Ambas Marcam Sim a 1.62",
+        "SportsGambler, pagina do jogo de 05/09/2026 - onzes provaveis, ausencias e pick de terceiros [FONTE 1 da verificacao de ausencias]",
+        "Imprensa turca (Turkiye Gazetesi, Milli Gazete, Haberturk - previews do derby de 05/09/2026) - onzes provaveis e lista de sakat/cezali [FONTE 2 da verificacao de ausencias: Besiktas sem baixas, Fenerbahce so Asensio]",
+        "FootyStats - pagina H2H Fenerbahce vs Besiktas (BTTS 64% em n=25, media 2,88 golos)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.79,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "fixtureId": 1575150,
+          "match": "1899 Hoffenheim vs Borussia Dortmund",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.4,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552154,
+          "match": "NEC Nijmegen vs Feyenoord",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1557395,
+          "match": "Newcastle vs Bournemouth",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.5,
+          "sport": "football"
+        }
+      ]
+    },
+    {
+      "label": "curto",
+      "combined_odds": 2.78,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "fixtureId": 1593309,
+          "match": "Volos NFC vs Olympiakos Piraeus",
+          "pick": "Vitoria Olympiakos",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1555384,
+          "match": "BSC Young Boys vs FC Luzern",
+          "pick": "Vitoria Young Boys",
+          "odds": 1.45,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552155,
+          "match": "Utrecht vs GO Ahead Eagles",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.5,
+          "sport": "football"
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.98,
+      "score": 72,
+      "stake": 1,
+      "selections": [
+        {
+          "fixtureId": 1575489,
+          "match": "Sporting CP vs Nacional",
+          "pick": "Sporting CP vence e Mais de 2.5 golos",
+          "odds": 1.49,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1575156,
+          "match": "FC Schalke 04 vs Bayern Munchen",
+          "pick": "Bayern Munchen vence e Mais de 1.5 golos",
+          "odds": 1.33,
+          "sport": "football"
+        }
+      ]
+    }
+  ]
+}
