@@ -241,7 +241,19 @@ const Layout = {
     // PRE/LIVE, mas nunca em profit/total_staked, que sao o que alimenta a
     // banca (loadTotalPL) e o analytics-page.
     const la = day.live_alerts;
-    const liveAlerts = (la?.alerts || []).filter(a => a.result === 'GREEN' || a.result === 'RED');
+    // Alertas em sombra (confianca abaixo do piso de 90) sao arquivados e
+    // resolvidos, mas nunca foram enviados nem apostados. A 03/09/2026 ficou
+    // decidido deixa-los aparecer; a 05/09 o dono reverteu, e com razao: no dia
+    // 04 a pagina mostrava 6 linhas de live quando so uma foi dinheiro, e a taxa
+    // de acerto do dia media apostas que ele nunca fez. O resumo do dia ja usava
+    // so os campos `_mensuravel` — as linhas e que estavam a contar tudo.
+    // O registo da sombra nao se perde: continua nos ficheiros de resultados, em
+    // `live_alerts.shadow_summary`, que e o que serve para julgar o piso de 90.
+    // `!== true` e deliberado: ficheiros anteriores a 31/08 nao tem o campo, e
+    // esses alertas foram todos reais.
+    const liveAlerts = (la?.alerts || [])
+      .filter(a => a.shadow !== true)
+      .filter(a => a.result === 'GREEN' || a.result === 'RED');
     const liveSum = la?.summary || {};
 
     liveAlerts.forEach(a => {
