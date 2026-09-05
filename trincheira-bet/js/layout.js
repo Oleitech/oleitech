@@ -291,11 +291,28 @@ const Layout = {
     const liveStaked = liveSum.stake_mensuravel ?? liveSum.stake_total ?? 0;
     const liveProfit = liveSum.pnl_mensuravel ?? 0;
 
+    // A 05/09/2026 o dono decidiu que os alertas live contam para a banca. Ate
+    // ai o `profit` era so pre-jogo e o dia 04/09 mostrava linhas a somar +2,37
+    // com um cabecalho a dizer +1,27 — a diferenca era o Stuttgart-Koln, que ele
+    // apostou e ganhou.
+    //
+    // Vale so de 31/08 em diante, e a data nao e arbitraria: foi quando comecou
+    // a sombra, e portanto quando o arquivo passou a distinguir um alerta que
+    // ele aposta de um que o bot so regista. Antes disso guardava-se tudo o que
+    // o bot disparava — a 29/08 foram 23 alertas, 26,4 stakes nocionais numa
+    // banca de 34. Contar esses como apostas inventava-lhe uma banca que nunca
+    // teve. Os ficheiros de Abril/Maio ficam de fora por outra razao: o esquema
+    // antigo sai mais acima, na linha 214, e o `profit` dele ja inclui o live.
+    const LIVE_CONTA_DESDE = '2026-08-31';
+    const liveConta = typeof day.date === 'string' && day.date >= LIVE_CONTA_DESDE;
+    const liveProfitBanca = liveConta ? liveProfit : 0;
+    const liveStakedBanca = liveConta ? liveStaked : 0;
+
     return {
       balance: day.balance ?? null,
       summary: {
-        profit: preProfit,
-        total_staked: preStaked,
+        profit: preProfit + liveProfitBanca,
+        total_staked: preStaked + liveStakedBanca,
         // Campos do split PRE/LIVE que results-page.js ja sabia consumir.
         model_bets: preBets.length,
         model_wins: preWins,

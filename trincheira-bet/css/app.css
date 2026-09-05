@@ -937,7 +937,9 @@
   .day-row .res { grid-area: res; justify-self: end; align-self: center; }
   .day-row .pl { grid-area: pl; align-self: center; }
   .acc-legs { padding-left: var(--sp-3); padding-right: var(--sp-3); }
-  .month-summary .m:nth-child(n+3) { display: none; }
+  /* Ordem do cabecalho do mes: Acertos, Apostado, P/L, ROI. So o ROI cai no
+     telemovel — as stakes ficam, que sao o que ele quer ver fechado. */
+  .month-summary .m:nth-child(n+4) { display: none; }
   .hero-metrics { grid-template-columns: 1fr 1fr; }
   .scanner-stats { flex-wrap: wrap; gap: var(--sp-2) var(--sp-4); }
   .tip-meta-row { grid-template-columns: auto auto 1fr auto; gap: var(--sp-2); }

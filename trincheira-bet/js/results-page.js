@@ -237,7 +237,7 @@ const ResultsPage = {
     const hitRate = totalTips > 0 ? (totalHits / totalTips * 100) : 0;
     const roi = totalStaked > 0 ? (totalPL / totalStaked * 100) : 0;
 
-    return { totalTips, totalHits, hitRate, totalPL, roi, dayCount: days.length };
+    return { totalTips, totalHits, hitRate, totalPL, totalStaked, roi, dayCount: days.length };
   },
 
   // Format date parts
@@ -307,10 +307,10 @@ const ResultsPage = {
           <span class="badge">${monthStats.dayCount} dias</span>
         </div>
         <div class="month-summary">
-          <div class="m"><span class="label">Apostas</span><span class="value num">${monthStats.totalTips}</span></div>
-          <div class="m"><span class="label">Hit%</span><span class="value num">${monthStats.hitRate.toFixed(1)}%</span></div>
+          <div class="m"><span class="label">Acertos</span><span class="value num">${monthStats.totalHits}/${monthStats.totalTips}</span></div>
+          <div class="m"><span class="label">Apostado</span><span class="value num">${this.formatUnits(monthStats.totalStaked, true)}</span></div>
+          <div class="m"><span class="label">P/L</span><span class="value num" style="color:${monthStats.totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.formatPL(monthStats.totalPL, true)}</span></div>
           <div class="m"><span class="label">ROI</span><span class="value num" style="color:${monthStats.roi >= 0 ? 'var(--green)' : 'var(--red)'}">${monthStats.roi.toFixed(1)}%</span></div>
-          <div class="m"><span class="label">P/L</span><span class="value num" style="color:${monthStats.totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.formatPL(monthStats.totalPL)}</span></div>
         </div>
       `;
       head.addEventListener('click', () => monthEl.classList.toggle('is-open'));
