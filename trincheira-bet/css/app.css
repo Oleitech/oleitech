@@ -570,6 +570,33 @@
 .day-row .pl.pos { color: var(--green); }
 .day-row .pl.neg { color: var(--red); }
 
+/* ============ RESUMO DA ANTEVISAO (topo das tips) ============ */
+/* Mesma mecanica dos dias e dos meses: fechado por omissao, abre a toque. */
+.preview {
+  background: var(--bg-elev-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-2);
+  overflow: hidden;
+  margin-bottom: var(--sp-4);
+}
+.preview-head {
+  display: flex; align-items: center; gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  cursor: pointer;
+  transition: background .12s ease;
+}
+.preview-head:hover { background: var(--bg-elev-3); }
+.preview-title {
+  flex: 1;
+  font-size: 13px; font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.preview-head .chev { transition: transform 0.18s ease; opacity: 0.5; flex: none; }
+.preview.is-open .preview-head .chev { transform: rotate(90deg); }
+.preview-body { display: none; border-top: 1px solid var(--border); padding: var(--sp-3) var(--sp-4) var(--sp-4); }
+.preview.is-open .preview-body { display: block; }
+.preview-body p { margin: 0; font-size: 13px; line-height: 1.65; color: var(--text-2); }
+
 /* ============ ACUMULADORES (linha que abre) ============ */
 /* A linha unica juntava tres jogos com ` + ` e no telemovel mostrava o nome do
    primeiro cortado a meio. As pernas ja existiam nos dados; agora abrem. */

@@ -60,9 +60,20 @@ const App = {
               <span><span class="k">Tips publicadas</span><span class="v num" id="stat-tips">0</span></span>
               <span><span class="k">Atualizado</span><span class="v" id="stat-updated">—</span></span>
             </div>
-            <div id="tips-notes" style="margin-top:10px;font-size:13px;color:var(--text-2);line-height:1.5;display:none"></div>
+
           </div>
         </div>
+      </div>
+
+      <!-- A antevisao do dia era um paragrafo solto no topo, aberto, com 300
+           palavras escritas para o QA auditar. Passa a fechar como os dias e os
+           meses da pagina de resultados: quem quer ler, abre. -->
+      <div id="tips-preview" class="preview" style="display:none">
+        <div class="preview-head" id="tips-preview-head">
+          <span class="preview-title">Resumo da Antevisão</span>
+          <svg class="chev" viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l6 6-6 6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="preview-body"><p id="tips-notes"></p></div>
       </div>
 
       <section id="section-acca" style="display:none">
@@ -251,9 +262,16 @@ const App = {
       statUpdated.textContent = isNaN(d) ? payload.generated_at : d.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
     }
     const notes = document.getElementById('tips-notes');
-    if (notes && payload.notes) {
-      notes.style.display = '';
+    const preview = document.getElementById('tips-preview');
+    if (notes && preview && payload.notes) {
       notes.textContent = payload.notes;
+      preview.style.display = '';
+      const head = document.getElementById('tips-preview-head');
+      // Fechado por omissao, como os dias. O toggle e ligado uma so vez.
+      if (head && !head.dataset.bound) {
+        head.dataset.bound = '1';
+        head.addEventListener('click', () => preview.classList.toggle('is-open'));
+      }
     }
   },
 
