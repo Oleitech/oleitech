@@ -36,13 +36,13 @@ const Learning = {
 
   async loadData() {
     try {
-      const res = await fetch('resultados/data/index.json');
+      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
       if (!res.ok) return;
       const index = await res.json();
 
       for (const file of index.files) {
         try {
-          const r = await fetch('resultados/data/' + file);
+          const r = await fetch(bustCache('resultados/data/' + file), { cache: 'no-store' });
           if (r.ok) this.data.push(await r.json());
         } catch { /* skip */ }
       }

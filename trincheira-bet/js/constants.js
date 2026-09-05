@@ -233,3 +233,18 @@ const LIVE_THRESHOLDS = {
   ALERT_EXPIRY_BUFFER: 300000,
   MAX_DETAIL_FETCHES: 10,
 };
+
+// O `cache: 'no-store'` do fetch so manda no browser. O nginx do oleitech.pt
+// serve a sua propria copia e ignora-o: a 05/09/2026 o index.json publicado as
+// 10:40 continuava a ser servido com o Last-Modified das 10:28 do dia anterior,
+// sem o dia 4 na lista — mas o MESMO url com `?cb=` devolvia o ficheiro certo,
+// porque a cache e por url completo. Resultado: a pagina de resultados ficou um
+// dia inteiro atras sem nada a assinalar, e uma verificacao feita com `?cb=`
+// passa ao lado do defeito. Nao confirmar cache com o url que a desliga.
+//
+// O balde de um minuto e deliberado: chega para um deploy aparecer quase de
+// imediato e evita que 57 ficheiros de dia percam a cache a cada carregamento.
+function bustCache(url) {
+  const bucket = Math.floor(Date.now() / 60000);
+  return url + (url.includes('?') ? '&' : '?') + 'cb=' + bucket;
+}

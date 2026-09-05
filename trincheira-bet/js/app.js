@@ -120,7 +120,7 @@ const App = {
     this.showStatus('A carregar tips curadas...', 'loading');
     let payload;
     try {
-      const res = await fetch(this.getTodayPath(), { cache: 'no-store' });
+      const res = await fetch(bustCache(this.getTodayPath()), { cache: 'no-store' });
       if (res.status === 404) {
         this.showStatus('Ainda sem tips publicadas para hoje.', 'empty');
         return;

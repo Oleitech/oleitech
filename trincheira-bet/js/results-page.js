@@ -51,7 +51,7 @@ const ResultsPage = {
       // para stakes (31/08/2026) o efeito e pior, porque uma cache morna
       // mistura ficheiros novos (stakes) com antigos (euros) e o total do topo
       // fica sem sentido.
-      const res = await fetch('resultados/data/index.json', { cache: 'no-store' });
+      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
       if (!res.ok) return;
       const index = await res.json();
       if (!index.files || !index.files.length) return;
@@ -59,7 +59,7 @@ const ResultsPage = {
       // Load all day files in parallel
       const promises = index.files.map(async (f) => {
         try {
-          const r = await fetch('resultados/data/' + f, { cache: 'no-store' });
+          const r = await fetch(bustCache('resultados/data/' + f), { cache: 'no-store' });
           if (!r.ok) return null;
           return await r.json();
         } catch (e) { return null; }

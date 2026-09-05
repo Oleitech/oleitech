@@ -288,13 +288,13 @@ const Layout = {
   // Shared: soma o P/L de todos os dias. Devolve stakes, ou null se falhar.
   async loadTotalPL() {
     try {
-      const res = await fetch('resultados/data/index.json', { cache: 'no-store' });
+      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
       if (!res.ok) return null;
       const index = await res.json();
       if (!index.files?.length) return null;
       const days = await Promise.all(index.files.map(async (f) => {
         try {
-          const r = await fetch('resultados/data/' + f, { cache: 'no-store' });
+          const r = await fetch(bustCache('resultados/data/' + f), { cache: 'no-store' });
           return r.ok ? await r.json() : null;
         } catch (e) { return null; }
       }));
