@@ -510,7 +510,7 @@
 }
 .day-head {
   display: grid;
-  grid-template-columns: auto 1fr repeat(3, auto) auto;
+  grid-template-columns: auto 1fr repeat(2, auto) auto;
   gap: var(--sp-4);
   align-items: center;
   padding: var(--sp-3) var(--sp-4);
@@ -897,8 +897,23 @@
 
 /* ============ RESPONSIVE EXTRAS ============ */
 @media (max-width: 600px) {
-  .day-head { grid-template-columns: auto 1fr auto auto; gap: var(--sp-2); }
-  .day-metric:nth-child(n+4) { display: none; }
+  /* Ate 05/09/2026 o telemovel escondia `.day-metric:nth-child(n+4)`, ou seja a
+     stake e o P/L: fechado so se via o Hit%. Agora sao duas alturas e mostra o
+     que interessa — quanto entrou e quanto rendeu, em stakes. */
+  .day-head {
+    grid-template-areas:
+      "date rate rate chev"
+      "date mstk mpl  chev";
+    grid-template-columns: auto auto 1fr auto;
+    gap: 6px var(--sp-3);
+    align-items: center;
+  }
+  .day-date { grid-area: date; }
+  .day-rate { grid-area: rate; }
+  .day-head .day-metric.is-staked { grid-area: mstk; }
+  .day-head .day-metric.is-pl { grid-area: mpl; }
+  .day-head .chev { grid-area: chev; }
+  .day-head .day-metric { flex-direction: row; align-items: baseline; gap: 5px; }
   /* Ate 05/09/2026 o telemovel escondia `.pick` e `.odd` e espremia o nome do
      jogo numa celula com ellipsis: sobrava meia palavra. Agora a linha tem tres
      alturas e mostra tudo. */

@@ -361,15 +361,14 @@ const ResultsPage = {
         </div>
         <span class="num" style="font-size:12px;color:var(--text-2)">${hits}/${counts.total}</span>
       </div>
-      <div class="day-metric">
-        <span class="label">Hit%</span>
-        <span class="value num">${hitRate.toFixed(0)}%</span>
-      </div>
-      <div class="day-metric">
-        <span class="label">Stake</span>
+      ${/* O Hit% saiu daqui a 05/09/2026: dizia o mesmo que a barra e o `2/3`
+             mesmo ao lado, e no telemovel era a UNICA metrica visivel — as
+             regras escondiam a stake e o P/L, que e o que ele quer ver fechado. */''}
+      <div class="day-metric is-staked">
+        <span class="label">Apostado</span>
         <span class="value num">${this.formatUnits(staked, true)}</span>
       </div>
-      <div class="day-metric">
+      <div class="day-metric is-pl">
         <span class="label">P/L</span>
         <span class="value num day-pl ${profit >= 0 ? 'pos' : 'neg'}">${this.formatPL(profit, true)}</span>
       </div>
