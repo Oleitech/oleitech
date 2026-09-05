@@ -570,6 +570,51 @@
 .day-row .pl.pos { color: var(--green); }
 .day-row .pl.neg { color: var(--red); }
 
+/* ============ ACUMULADORES (linha que abre) ============ */
+/* A linha unica juntava tres jogos com ` + ` e no telemovel mostrava o nome do
+   primeiro cortado a meio. As pernas ja existiam nos dados; agora abrem. */
+.acc { border-bottom: 1px solid rgba(255,255,255,0.03); }
+.acc:last-child { border-bottom: 0; }
+.acc .day-row { border-bottom: 0; cursor: pointer; }
+.acc .day-row:hover { background: rgba(255,255,255,0.02); }
+.acc .day-row .chev { transition: transform 0.18s ease; vertical-align: -5px; margin-left: 6px; opacity: 0.5; }
+.acc.is-open .day-row .chev { transform: rotate(90deg); }
+.acc .day-row .match { color: var(--text-2); }
+/* A juncao dos picks com ` + ` nao cabe em coluna nenhuma; as pernas dizem-no melhor. */
+.acc .day-row .pick { display: none; }
+
+.acc-legs { display: none; padding: 0 var(--sp-4) var(--sp-3) var(--sp-4); }
+.acc.is-open .acc-legs { display: block; }
+
+.acc-leg {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "match odd" "pick score";
+  gap: 2px var(--sp-3);
+  align-items: baseline;
+  padding: var(--sp-2) 0 var(--sp-2) var(--sp-3);
+  border-left: 2px solid var(--border);
+  margin-left: 4px;
+}
+.acc-leg + .acc-leg { margin-top: 2px; }
+.acc-leg.is-green { border-left-color: var(--green); }
+.acc-leg.is-red { border-left-color: var(--red); }
+.acc-leg .leg-match { grid-area: match; color: var(--text); font-size: 13px; line-height: 1.35; }
+.acc-leg .leg-odd { grid-area: odd; font-family: var(--font-mono); color: var(--text-2); font-size: 12px; }
+.acc-leg .leg-pick { grid-area: pick; color: var(--text-3); font-size: 11px; line-height: 1.35; }
+.acc-leg .leg-score { grid-area: score; font-family: var(--font-mono); color: var(--text-3); font-size: 11px; }
+.acc-leg.is-green .leg-score { color: var(--green); }
+.acc-leg.is-red .leg-score { color: var(--red); }
+
+.acc-note {
+  margin: var(--sp-2) 0 0 6px;
+  padding-left: var(--sp-3);
+  border-left: 2px solid var(--border);
+  color: var(--text-3);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
 /* Source badges (live vs pre-game) */
 .src-tag {
   display: inline-block;
@@ -854,8 +899,29 @@
 @media (max-width: 600px) {
   .day-head { grid-template-columns: auto 1fr auto auto; gap: var(--sp-2); }
   .day-metric:nth-child(n+4) { display: none; }
-  .day-row { grid-template-columns: 50px 1fr auto auto; gap: var(--sp-2); font-size: 12px; }
-  .day-row .pick, .day-row .odd { display: none; }
+  /* Ate 05/09/2026 o telemovel escondia `.pick` e `.odd` e espremia o nome do
+     jogo numa celula com ellipsis: sobrava meia palavra. Agora a linha tem tres
+     alturas e mostra tudo. */
+  .day-row {
+    grid-template-columns: 1fr auto auto;
+    grid-template-areas:
+      "mkt   res  pl"
+      "match match match"
+      "pick  pick odd";
+    gap: 4px var(--sp-2);
+    font-size: 12px;
+    padding: var(--sp-3);
+  }
+  .day-row .mkt { grid-area: mkt; align-self: center; }
+  .day-row .match {
+    grid-area: match;
+    white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.35;
+  }
+  .day-row .pick { grid-area: pick; display: block; font-size: 11px; line-height: 1.35; }
+  .day-row .odd { grid-area: odd; display: block; text-align: right; font-size: 11px; }
+  .day-row .res { grid-area: res; justify-self: end; align-self: center; }
+  .day-row .pl { grid-area: pl; align-self: center; }
+  .acc-legs { padding-left: var(--sp-3); padding-right: var(--sp-3); }
   .month-summary .m:nth-child(n+3) { display: none; }
   .hero-metrics { grid-template-columns: 1fr 1fr; }
   .scanner-stats { flex-wrap: wrap; gap: var(--sp-2) var(--sp-4); }

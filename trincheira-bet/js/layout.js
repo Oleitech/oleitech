@@ -235,6 +235,21 @@ const Layout = {
       stake: a.stake,
       result: a.result === 'GREEN' ? 'win' : 'loss',
       source: 'pre',
+      // As pernas seguem inteiras para a pagina poder abrir o acumulador. Os
+      // campos `matches`/`type` acima continuam a ser a juncao com ` + `, que
+      // no telemovel dava uma linha cortada a meio do nome do primeiro jogo e
+      // mais nada — sao mantidos so como recurso para quem nao saiba ler `legs`.
+      label: a.label || null,
+      bookmaker: a.bookmaker || null,
+      note: a.note || null,
+      legs: (a.selections || []).map(x => ({
+        match: x.match,
+        pick: x.pick,
+        odds: x.odds,
+        result: x.result || null,
+        final_score: x.final_score || null,
+        note: x.note || null,
+      })),
     })));
 
     // Alertas live do bot. Sao NOCIONAIS: entram nas linhas do dia e no split

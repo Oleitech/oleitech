@@ -436,6 +436,47 @@ const ResultsPage = {
         const plClass = (betPL == null || isPush) ? '' : (betPL >= 0 ? 'pos' : 'neg');
         const plText = betPL == null ? '—' : (isPush ? '0 st' : this.formatPL(betPL, true));
 
+        // Acumulador: o resumo numa linha, as pernas por baixo a pedido. No
+        // telemovel a linha unica mostrava `Fredrikstad vs Bodo/Gli…` e mais
+        // nada — o nome do primeiro jogo cortado a meio a fazer de resumo de
+        // tres apostas. As pernas ja vinham nos dados, so nao chegavam aqui.
+        const legs = Array.isArray(bet.legs) ? bet.legs : [];
+        if (legs.length > 0) {
+          const acc = UI.el('div', 'acc');
+          row.classList.add('is-acc');
+          const nome = bet.label ? `Acumulador ${bet.label}` : 'Acumulador';
+          const pernas = `${legs.length} pernas`;
+          row.innerHTML = `
+            <span class="mkt" style="color:var(--m-acc)">${srcBadge}${this.esc(nome)}</span>
+            <span class="match">${pernas}${bet.bookmaker ? ` · ${this.esc(bet.bookmaker)}` : ''}${this.chevSVG}</span>
+            <span class="pick">${this.esc(legs.map(l => l.pick).join(' + '))}</span>
+            <span class="odd num">${hasOdds ? bet.odds.toFixed(2) : '—'}</span>
+            <span class="res ${resClass}">${resLabel}</span>
+            <span class="pl num ${plClass}">${plText}</span>
+          `;
+          const legsEl = UI.el('div', 'acc-legs');
+          legsEl.innerHTML = legs.map(l => {
+            const lr = (l.result || '').toUpperCase();
+            const lc = lr === 'GREEN' ? 'green' : (lr === 'RED' ? 'red' : 'pending');
+            const lo = typeof l.odds === 'number' && isFinite(l.odds) ? l.odds.toFixed(2) : '—';
+            return `
+              <div class="acc-leg is-${lc}">
+                <span class="leg-match">${this.esc(l.match)}</span>
+                <span class="leg-odd num">${lo}</span>
+                <span class="leg-pick">${this.esc(l.pick)}</span>
+                <span class="leg-score num">${l.final_score ? this.esc(l.final_score) : ''}</span>
+              </div>`;
+          }).join('');
+          if (bet.note) {
+            legsEl.innerHTML += `<div class="acc-note">${this.esc(bet.note)}</div>`;
+          }
+          row.addEventListener('click', () => acc.classList.toggle('is-open'));
+          acc.appendChild(row);
+          acc.appendChild(legsEl);
+          body.appendChild(acc);
+          return;
+        }
+
         row.innerHTML = `
           <span class="mkt" style="color:${marketColor}">${srcBadge}${bet.market}</span>
           <span class="match">${bet.matches}</span>
@@ -465,6 +506,15 @@ const ResultsPage = {
 
     dayEl.appendChild(body);
     return dayEl;
+  },
+
+  // Os dados sao nossos, mas as notas dos acumuladores sao texto livre escrito
+  // por um agente e vao para innerHTML. Escapar e mais barato do que confiar.
+  esc(v) {
+    if (v == null) return '';
+    return String(v).replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[c]);
   },
 
   detectMarketKey(marketStr) {
