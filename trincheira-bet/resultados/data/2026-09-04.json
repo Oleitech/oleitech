@@ -382,7 +382,7 @@
       "push": 0,
       "pending": 0,
       "hit_rate": 20,
-      "stake_nocional": 1,
+      "stake_nocional": 5,
       "by_strategy": {
         "🎯 BTTS LIVE": {
           "total": 2,

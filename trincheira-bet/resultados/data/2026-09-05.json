@@ -1,0 +1,574 @@
+{
+  "date": "2026-09-05",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "pick": "Ambas Marcam Sim",
+        "fixtureId": 1584397,
+        "match": "Fenerbahce vs Besiktas",
+        "league": "Super Lig",
+        "odds": 1.62,
+        "stake": 1,
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.62,
+        "pnl": 0.62,
+        "final_score": "1-2",
+        "note": "Derby de Istambul acabou 1-2 para o Besiktas e as duas equipas marcaram, como a tese previa (Fenerbahce nao falhava o golo em casa ha 17 jogos). BTTS GREEN."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.79,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.4,
+        "pnl": 0.9,
+        "selections": [
+          {
+            "fixtureId": 1575150,
+            "match": "1899 Hoffenheim vs Borussia Dortmund",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.4,
+            "final_score": "2-3",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1552154,
+            "match": "NEC Nijmegen vs Feyenoord",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.33,
+            "final_score": "1-3",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1557395,
+            "match": "Newcastle vs Bournemouth",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.5,
+            "final_score": "2-2",
+            "result": "GREEN"
+          }
+        ]
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.78,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "selections": [
+          {
+            "fixtureId": 1593309,
+            "match": "Volos NFC vs Olympiakos Piraeus",
+            "pick": "Vitoria Olympiakos",
+            "odds": 1.28,
+            "final_score": "1-1",
+            "result": "RED"
+          },
+          {
+            "fixtureId": 1555384,
+            "match": "BSC Young Boys vs FC Luzern",
+            "pick": "Vitoria Young Boys",
+            "odds": 1.45,
+            "final_score": "3-3",
+            "result": "RED"
+          },
+          {
+            "fixtureId": 1552155,
+            "match": "Utrecht vs GO Ahead Eagles",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.5,
+            "final_score": "1-3 (INT, retomado a 8/09)",
+            "result": "PENDING",
+            "note": "Jogo interrompido aos 65min por pirotecnia das bancadas, 1-3 no momento da paragem; retoma a 8/09 as 14h sem publico. BTTS ja estava matematicamente cumprido (1-3), mas o jogo nao tem estado FT — fica registado como PENDING nesta perna. Nao afecta o resultado do acumulador: as outras duas pernas ja falharam (ambos empates), por isso o combinado fecha RED de qualquer forma."
+          }
+        ]
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.98,
+        "stake": 1,
+        "result": "RED",
+        "return": 0,
+        "pnl": -1,
+        "selections": [
+          {
+            "fixtureId": 1575489,
+            "match": "Sporting CP vs Nacional",
+            "pick": "Sporting CP vence e Mais de 2.5 golos",
+            "odds": 1.49,
+            "final_score": "2-0",
+            "result": "RED",
+            "note": "Sporting venceu mas o jogo teve so 2 golos, nao chegou aos 2.5."
+          },
+          {
+            "fixtureId": 1575156,
+            "match": "FC Schalke 04 vs Bayern Munchen",
+            "pick": "Bayern Munchen vence e Mais de 1.5 golos",
+            "odds": 1.33,
+            "final_score": "0-0",
+            "result": "RED",
+            "note": "Empate a zero: falhou a vitoria do Bayern e a linha de golos."
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 1,
+      "total_return": 1.62,
+      "pnl": 0.62,
+      "roi_pct": 62,
+      "accumulators_total": 3,
+      "accumulators_green": 1,
+      "accumulators_red": 2,
+      "accumulators_stake": 2,
+      "accumulators_return": 1.4,
+      "accumulators_pnl": -0.6,
+      "combined_stake": 3,
+      "combined_return": 3.02,
+      "combined_pnl": 0.02,
+      "combined_roi_pct": 0.67
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1523262,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Shandong Luneng vs Sichuan Jiuniu",
+        "league": "Super League (China)",
+        "elapsed": 56,
+        "score": "1-0",
+        "conf": 88,
+        "factors": [
+          "Sichuan Jiuniu ainda não marcou",
+          "5 SoT · 17 remates · 53% posse",
+          "Defesas frágeis",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788614339802,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788616732591
+      },
+      {
+        "fixtureId": 1556659,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Dundee Utd vs Falkirk",
+        "league": "Premiership (Scotland)",
+        "elapsed": 59,
+        "score": "0-1",
+        "conf": 91,
+        "factors": [
+          "Dundee Utd ainda não marcou",
+          "4 SoT · 13 remates · 58% posse",
+          "Casa a pressionar",
+          "Defesas frágeis",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788621554710,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788623714305
+      },
+      {
+        "fixtureId": 1563137,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "QPR vs Middlesbrough",
+        "league": "Championship (England)",
+        "elapsed": 59,
+        "score": "0-1",
+        "conf": 89,
+        "factors": [
+          "QPR ainda não marcou",
+          "5 SoT · 12 remates · 47% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788621655856,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788623940549
+      },
+      {
+        "fixtureId": 1560239,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "MTK Budapest vs Kisvarda FC",
+        "league": "NB I (Hungary)",
+        "elapsed": 61,
+        "score": "0-1",
+        "conf": 92,
+        "factors": [
+          "MTK Budapest ainda não marcou",
+          "3 SoT · 10 remates · 59% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Defesas frágeis",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788627051610,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788629221037
+      },
+      {
+        "fixtureId": 1549011,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Aarhus vs Silkeborg",
+        "league": "Superliga (Denmark)",
+        "elapsed": 58,
+        "score": "0-2",
+        "conf": 89,
+        "factors": [
+          "Aarhus ainda não marcou",
+          "3 SoT · 7 remates · 59% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Defesas frágeis",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "advIsHome": true,
+        "sentAt": 1788628760284,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788631023957
+      },
+      {
+        "fixtureId": 1555497,
+        "strategy": "🔥 FAVORITO A PERDER",
+        "market": "Empate Anula Aposta: Maccabi Petah Tikva",
+        "match": "Maccabi Petah Tikva vs Ironi Tiberias",
+        "league": "Ligat Ha'al (Israel)",
+        "elapsed": 50,
+        "score": "0-1",
+        "conf": 86,
+        "factors": [
+          "Maccabi Petah Tikva a perder 1-0 (favorito 45%)",
+          "4 SoT · 11 remates · 62% posse",
+          "Casa favorita",
+          "Janela comeback"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "favoriteIsHome": true,
+        "phase": "comeback",
+        "sentAt": 1788630883797,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788633762167
+      },
+      {
+        "fixtureId": 1555497,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Maccabi Petah Tikva vs Ironi Tiberias",
+        "league": "Ligat Ha'al (Israel)",
+        "elapsed": 56,
+        "score": "0-1",
+        "conf": 95,
+        "factors": [
+          "Maccabi Petah Tikva ainda não marcou",
+          "4 SoT · 15 remates · 64% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788631245477,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788633762253
+      },
+      {
+        "fixtureId": 1555385,
+        "strategy": "⚽ OVER xG 0-0",
+        "market": "Mais de 1.5 Golos",
+        "match": "Grasshoppers vs FC Zurich",
+        "league": "Super League (Switzerland)",
+        "elapsed": 45,
+        "score": "0-0",
+        "conf": 86,
+        "factors": [
+          "xG estimado: 2.17 (1.61 - 0.56)",
+          "18 remates, 5 enquadrados",
+          "Golos esperados no restante: 1.97",
+          "Odd justa — +0.5: 1.16 (86%) · +1.5: 1.71 (59%) · +2.5: 3.18 (31%)",
+          "Jogo desequilibrado (uma equipa a criar tudo)"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1788635931908,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1788639989390
+      },
+      {
+        "fixtureId": 1550107,
+        "strategy": "🔥 FAVORITO A PERDER",
+        "market": "Empate Anula Aposta: AS Roma",
+        "match": "AS Roma vs Atalanta",
+        "league": "Serie A (Italy)",
+        "elapsed": 55,
+        "score": "0-1",
+        "conf": 86,
+        "factors": [
+          "AS Roma a perder 1-0 (favorito 35%)",
+          "5 SoT · 19 remates · 64% posse",
+          "Casa favorita",
+          "Janela comeback"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "favoriteIsHome": true,
+        "phase": "comeback",
+        "sentAt": 1788638354254,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788640978524
+      },
+      {
+        "fixtureId": 1550107,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "AS Roma vs Atalanta",
+        "league": "Serie A (Italy)",
+        "elapsed": 58,
+        "score": "0-1",
+        "conf": 89,
+        "factors": [
+          "AS Roma ainda não marcou",
+          "5 SoT · 19 remates · 64% posse",
+          "Casa a pressionar",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788638557385,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788640978623
+      },
+      {
+        "fixtureId": 1549766,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Chico vs Once Caldas",
+        "league": "Primera A (Colombia)",
+        "elapsed": 56,
+        "score": "2-0",
+        "conf": 89,
+        "factors": [
+          "Once Caldas ainda não marcou",
+          "5 SoT · 9 remates · 67% posse",
+          "Favorito a sofrer",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788646618477,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1788649126855
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "by_strategy": {},
+      "nota_mensuravel": "Nenhum alerta apostado hoje: os 11 alertas do dia (BTTS LIVE, FAVORITO A PERDER, OVER xG 0-0) ficaram todos em sombra (sem preco no mercado ou estrategia em avaliacao) e ficam fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 11,
+      "green": 8,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 72.73,
+      "stake_nocional": 11,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 8,
+          "green": 6,
+          "red": 2,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 75
+        },
+        "🔥 FAVORITO A PERDER": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        },
+        "⚽ OVER xG 0-0": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      }
+    }
+  },
+  "balance": 35.25,
+  "notes": "Uma tip so no boletim, BTTS no derby de Istambul, fechou GREEN (Fenerbahce 1-2 Besiktas). O acumulador curto de BTTS (Hoffenheim-Dortmund, NEC-Feyenoord, Newcastle-Bournemouth) tambem fechou GREEN. O segundo curto e o corvo fecharam RED: no curto 2, Volos e Young Boys empataram contra o pick, e a terceira perna (Utrecht-GO Ahead Eagles) ficou tecnicamente PENDING porque o jogo foi interrompido aos 65 por pirotecnia nas bancadas (1-3 no momento, retoma a 8/09 sem publico) — nao mudou o resultado do acumulador, que ja tinha falhado nas outras duas pernas. No corvo, o Sporting venceu mas so com 2 golos (falhou o Mais de 2.5) e o Schalke-Bayern acabou 0-0 (falhou os dois lados da perna). Dia com P&L pre-jogo de +0,02 stakes. Ao vivo, os 11 alertas do worker ficaram todos em sombra (8 GREEN, 3 RED) e nao entraram na banca. Banca sobe de 35,23 para 35,25 stakes."
+}

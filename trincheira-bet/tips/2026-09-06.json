@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T07:29:25.752Z",
+  "units": "stakes",
+  "notes": "Domingo cheio e nada de pausa internacional: Premier League, La Liga, Serie A, Bundesliga, Ligue 1 e Liga Portugal jogaram todas, por isso houve muito por onde escolher.\n\nSairam duas tips e as duas sao Ambas Marcam Nao. Nao e vicio no mercado, e o que os jogos pedem. Em Guimaraes joga a unica equipa da Liga que ainda nao marcou um golo - a Casa Pia leva quatro jornadas a zero e 11 sofridos - e no historico entre eles so uma vez em nove e que as duas marcaram. Em Turim e a mesma historia por outro caminho: a Juventus e o Milan nao fazem um jogo de campeonato com golos dos dois lados desde 2023, e o Milan chega com o ataque desfeito, sem Leao, sem Pulisic e sem Gimenez.\n\nA mais arriscada e a de Turim. Paga melhor, mas a margem e mais magra, ha casas a picar o contrario e o historico longo do classico nao e tao fechado como o dos ultimos anos. Ficou numa stake so por isso.\n\nNao ha acumulador standard: as duas tips juntas dao 3,32 e isso ja sai fora da banda. Fica um curto de tres pernas, com o Barcelona em Mestalla, ambas a marcar em Basileia e o Hearts em casa. O corvo nao saiu, nao havia par que passasse a regua.\n\nNo tenis, os oitavos do US Open nao deram nada acima de 1.50 que se defenda.\n\nExposicao do dia: 3 stakes.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1570371,
+          "match": "Valencia vs Barcelona",
+          "pick": "Vitoria do Barcelona",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1555387,
+          "match": "FC Basel vs FC Lugano",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.5,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1556660,
+          "match": "Hearts vs Dundee",
+          "pick": "Vitoria do Hearts",
+          "odds": 1.5,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.88,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam Nao",
+      "fixtureId": 1575490,
+      "home": {
+        "name": "Vitoria SC",
+        "logo": "https://media.api-sports.io/football/teams/224.png"
+      },
+      "away": {
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png"
+      },
+      "league": "Primeira Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/94.png",
+      "kickoff": "2026-09-06T17:00:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 84,
+      "stake": 1.5,
+      "context_depth": "full",
+      "tese": "O Casa Pia e a unica equipa da Liga que ainda nao marcou: quatro jornadas, zero golos e 11 sofridos, o pior ataque e a pior defesa do campeonato ao mesmo tempo. Nas duas deslocacoes, a Gil Vicente e ao Maritimo, saiu de maos a abanar das duas vezes. Do outro lado o Vitoria tambem nao anda a rebentar redes, um golo em dois jogos em casa esta epoca, mas isso nao estraga a tip, porque o Ambas Marcam Nao tambem ganha se for a Casa Pia a marcar sozinha. E e ai que o historico manda: em nove encontros directos ambas marcaram uma unica vez, 11 por cento, com media de 0,89 golos por jogo, e o FootyStats confirma o mesmo numero. Repare-se no detalhe que costuma assustar quem olha para o resultado: a Casa Pia ganhou tres das cinco visitas a Guimaraes, mas foi sempre por 0-1 ou 0-2, ou seja o cenario que mete medo no 1X2 e exactamente o que faz esta tip ganhar. Cruzando os dois lados por Poisson, com lambda de 1,10 a 1,25 para o Vitoria em casa e de 0,50 a 0,70 para a Casa Pia fora, da entre 66 e 72 por cento de probabilidade de nao haver golos dos dois lados, contra os 58,8 por cento que a odd de 1.70 paga, e o modelo do FootyStats vai ainda mais longe e da 75. Nas ausencias nao ha nada que mexa com isto: a API-Football nao regista uma unica baixa para o jogo, a antevisao do SAPO nao aponta nenhuma e o Sports Mole so acrescenta o Gui Ribeiro, com rotura de ligamentos e guarda-redes suplente, e uma duvida fisica no Gustavo Silva; na Casa Pia saiu o Nsona para o Rodez e o ataque continua entregue ao Jatta ou ao Cassiano. O risco esta no unico caminho possivel: a Casa Pia desbloquear justamente hoje, com o Filipe Coelho a mexer no ataque a procura do primeiro golo da epoca.",
+      "factors": [
+        "Casa Pia, Primeira Liga 2026/27 (n=4 jogos oficiais, API-Football /fixtures): 0 golos marcados e 11 sofridos - 0-1 Moreirense (casa), 0-2 Gil Vicente (fora), 0-7 Benfica (casa), 0-1 Maritimo (fora)",
+        "Casa Pia fora, Primeira Liga 2026/27 (n=2): 0 golos marcados e 3 sofridos, falhou o golo nas duas deslocacoes (API-Football /teams/statistics)",
+        "Casa Pia fora, Primeira Liga 2025/26 (n=18): 13 golos, 0,7 por jogo, e 9 jogos sem marcar, 50 por cento (API-Football /teams/statistics)",
+        "Vitoria SC em casa, Primeira Liga 2026/27 (n=2): 1 golo marcado e 1 sofrido, uma baliza a zero - 1-0 ao Nacional e 0-1 com o Arouca (API-Football)",
+        "Vitoria SC em casa, Primeira Liga 2025/26 (n=17): 1,5 golos marcados por jogo, 1,1 sofridos, 5 balizas a zero (29 por cento) e 4 jogos sem marcar (24 por cento) (API-Football /teams/statistics)",
+        "H2H, ultimos 9 encontros oficiais (8 de Primeira Liga e 1 de Taca da Liga, API-Football): ambas marcaram 1 vez, 11 por cento, com media de 0,89 golos por jogo. O FootyStats da 14 por cento de BTTS no seu recorte de n=7",
+        "H2H, ultimos 5: 0-1, 0-0, 1-0, 1-1, 0-2 - uma unica vez com golos dos dois lados",
+        "As tres vitorias da Casa Pia em Guimaraes foram 0-1, 0-2 e 0-1: todas com Ambas Marcam Nao a ganhar",
+        "Poisson (lambda 1,10-1,25 Vitoria casa / 0,50-0,70 Casa Pia fora): 66 a 72 por cento para Ambas Marcam Nao, contra 58,8 por cento implicitos na odd de 1.70 - EV entre +12 e +22 por cento",
+        "Modelo de terceiros: FootyStats da Ambas Marcam Nao 75 por cento, Menos de 2,5 golos 80 por cento e Menos de 1,5 golos 50 por cento",
+        "Ausencias verificadas em tres fontes concordantes: API-Football /injuries sem qualquer registo para o jogo; antevisao do SAPO sem baixas apontadas; Sports Mole com Gui Ribeiro (rotura de ligamentos, guarda-redes suplente) e duvida fisica no Gustavo Silva. Na Casa Pia, Nsona transferido para o Rodez AF",
+        "Treinadores: Tiago Margarido no Vitoria SC e Filipe Coelho na Casa Pia, sem mudanca recente em nenhum dos bancos",
+        "Contexto de classificacao: Vitoria 12.o com 3 pontos em 4 jogos; Casa Pia ultima, com 0 pontos e 0 golos"
+      ],
+      "sources": [
+        "API-Football /teams/statistics - Primeira Liga, splits de casa do Vitoria SC (2026/27 n=2 e 2025/26 n=17) e de fora da Casa Pia (2026/27 n=2 e 2025/26 n=18)",
+        "API-Football /fixtures?team&last=8 - jogos oficiais das duas equipas com a competicao declarada; amigaveis de pre-epoca excluidos",
+        "API-Football /fixtures/headtohead - 9 encontros directos com competicao e resultado por jogo",
+        "API-Football /odds bookmaker=8 (Bet365) - Ambas Marcam Nao a 1.70",
+        "API-Football /injuries?fixture=1575490 - zero registos [FONTE 1 da verificacao de ausencias]",
+        "SAPO Desporto, antevisao Vitoria SC x Casa Pia AC de 06/09/2026 - onzes provaveis e ausencias, nenhuma apontada [FONTE 2 da verificacao de ausencias]",
+        "Sports Mole, preview Guimaraes vs Casa Pia de 06/09/2026 - team news com Gui Ribeiro lesionado, Gustavo Silva em duvida e Nsona transferido [FONTE 3 da verificacao de ausencias]",
+        "FootyStats - pagina H2H Vitoria Guimaraes vs Casa Pia e respectiva pagina de previsoes (Ambas Marcam Nao 75 por cento, Menos de 2,5 golos 80 por cento)",
+        "Mais Guimaraes - historico de confrontos e contexto da 5.a jornada"
+      ]
+    },
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam Nao",
+      "fixtureId": 1550114,
+      "home": {
+        "name": "Juventus",
+        "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "away": {
+        "name": "AC Milan",
+        "logo": "https://media.api-sports.io/football/teams/489.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-09-06T18:45:00Z",
+      "odds": 1.95,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "Este classico virou um pesadelo para quem aposta em golos. Nos ultimos oito encontros de Serie A nao houve um unico jogo com golos dos dois lados, o Milan nao marca a Juventus num jogo de campeonato desde Maio de 2023, e os dois duelos da epoca passada acabaram 0-0 ambos, com media de 0,75 golos nesses oito jogos. E nao e so historico. Na Serie A 2025/26 a Juventus concedeu 0,84 golos por jogo em casa, com oito balizas a zero em 19, e o Milan concedeu 0,74 fora, tambem com oito balizas a zero em 19: sao duas das melhores contas defensivas do campeonato a cruzarem-se. Este ano a Juventus do Spalletti leva duas jornadas e duas balizas a zero, e o Milan so sofreu um golo em dois jogos. Por cima disso o ataque do Milan esta em obras, mas aqui vale a pena ser honesto sobre o que se sabe e o que nao se sabe. Certo, certo, e so a saida do Leao para o Galatasaray. O Pulisic aparece lesionado numa unica preview e nao consta da lista de lesionados da propria ficha do jogo, e sobre o Gimenez as fontes nao se entendem, uma da-o fora por castigo e outra so em duvida por mazela. Se esses dois jogarem, o Milan e mais perigoso do que parece a primeira vista, e por isso convem dizer alto: a tese nao assenta nas ausencias, assenta nas contas defensivas dos dois lados. Do lado da Juventus faltam o Yildiz e o Khephren Thuram, o que tambem nao ajuda a abrir o jogo. O Poisson, com lambda entre 0,94 e 1,15 de cada lado, da 54 a 61 por cento para Ambas Marcam Nao contra os 51,3 por cento que a odd de 1.95 paga, e o FootyStats da 55. O aviso honesto: no historico longo dos 48 encontros a taxa de ambas marcarem e de 44 por cento, e ha casas a picar Ambas Marcam Sim a 1.83, portanto a margem existe mas nao e enorme, e foi por isso que ficou numa stake e nao em mais.",
+      "factors": [
+        "H2H, ultimos 8 encontros de Serie A entre 2022 e 2026 (API-Football): ZERO jogos com golos dos dois lados. Resultados 0-0, 0-0, 2-0, 0-0, 0-0, 0-1, 0-1 e 2-0, media de 0,75 golos por jogo",
+        "O Milan nao marca a Juventus num jogo de Serie A desde Maio de 2023 e a Juventus leva 5 balizas a zero consecutivas no classico de campeonato (The Football Faithful, batido com o H2H da API-Football)",
+        "Juventus em casa, Serie A 2025/26 (n=19, API-Football /teams/statistics): 0,84 golos sofridos por jogo, 8 balizas a zero e 1,84 marcados",
+        "AC Milan fora, Serie A 2025/26 (n=19, API-Football /teams/statistics): 0,74 golos sofridos por jogo, 8 balizas a zero, 1,47 marcados e 4 jogos sem marcar",
+        "Serie A 2026/27, jogos oficiais (n=2 por equipa): Juventus 1-0 em Frosinone e 2-0 ao Parma, duas balizas a zero; Milan 2-1 em Turim e 2-0 ao Venezia, um golo sofrido",
+        "Poisson (lambda 0,94-1,15 Juventus casa / 1,03-1,10 Milan fora): 54 a 61 por cento para Ambas Marcam Nao, contra 51,3 por cento implicitos na odd de 1.95 - EV entre +6 e +19 por cento",
+        "Modelo de terceiros: FootyStats da Ambas Marcam Nao 55 por cento, Menos de 2,5 golos 55 por cento e baliza a zero da equipa da casa 70 por cento",
+        "Ausencias do Milan com duas fontes concordantes: Gabbia (tornozelo) fora pela API-Football /injuries e pelo SportsGambler; Leao transferido para o Galatasaray, pelo The Football Faithful e pela star list em producao",
+        "Ausencias do Milan NAO confirmadas, declaradas aqui como incerteza e nao usadas no modelo: Pulisic dado como lesionado apenas pelo The Football Faithful e ausente da lista /injuries da fixture 1550114; Gimenez com duas fontes em conflito quanto ao estado, fora por castigo (SportsGambler) contra duvida por mazela (The Football Faithful). O lambda do Milan fora foi reconstruido dos splits (1,47 marcados, n=19) sem qualquer desconto por lesoes",
+        "Ausencias da Juventus verificadas em duas fontes concordantes: Khephren Thuram (joelho, regresso previsto Jan/2027), Yildiz (pe, Nov/2026) e Ekhator (isquiotibiais, Nov/2026), pela API-Football /injuries e pelo SportsGambler; a API acrescenta Cabal (coxa)",
+        "Treinador: Luciano Spalletti no comando da Juventus, com 2 balizas a zero em 2 jornadas",
+        "Contra-sinal declarado: no historico longo de 48 encontros o FootyStats da 44 por cento de BTTS e media de 2,23 golos, e ha casas a oferecer Ambas Marcam Sim a 1.83, ou seja o mercado nao esta unanime"
+      ],
+      "sources": [
+        "API-Football /teams/statistics - Serie A 2025/26, splits de casa da Juventus (n=19) e de fora do AC Milan (n=19)",
+        "API-Football /fixtures?team&last=8 - jogos oficiais de 2026/27 com competicao declarada; amigaveis de pre-epoca excluidos",
+        "API-Football /fixtures/headtohead - ultimos 10 Juventus-Milan com competicao por jogo, 8 deles de Serie A",
+        "API-Football /odds bookmaker=8 (Bet365) - Ambas Marcam Nao a 1.95",
+        "API-Football /injuries?fixture=1550114 - Juventus sem Cabal, Ekhator, Thuram e Yildiz; Milan sem Gabbia [FONTE 1 da verificacao de ausencias]",
+        "SportsGambler, pagina do jogo de 06/09/2026 - onzes provaveis, lesoes com data de regresso e castigo do Gimenez [FONTE 2 da verificacao de ausencias]",
+        "The Football Faithful, preview de 06/09/2026 - team news do Milan com Leao no Galatasaray, Pulisic lesionado e Gimenez em duvida, mais o H2H de golos [FONTE 3 da verificacao de ausencias]",
+        "FootyStats - pagina H2H Juventus vs AC Milan e pagina de previsoes (Ambas Marcam Nao 55 por cento, Menos de 2,5 golos 55 por cento)"
+      ]
+    }
+  ]
+}
