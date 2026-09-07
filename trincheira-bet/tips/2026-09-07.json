@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-07",
+  "units": "stakes",
+  "generated_at": "2026-09-07T07:29:17.132Z",
+  "notes": "Segunda-feira magra e sem paragem de seleccoes: as grandes ligas ja jogaram ao fim-de-semana e o que sobra sao restos de jornada. Serie A e La Liga com dois jogos cada, um da Liga Portugal, mais Suecia, Dinamarca e Turquia. Pouco material, e o pouco que ha vai na terceira ou quarta jornada — numeros que ainda nao dao para fiar.\n\nPor isso saiu uma tip so: Cagliari-Lecce em Ambas Marcam Nao a 1.70. A tese e directa. O Lecce foi o pior ataque de fora da Serie A no ano passado, ficou em branco em nove das dezanove deslocacoes, e ainda perde o Geubbels. O Cagliari em casa nao e melhor: falhou o golo em sete de dezanove. Os dois lados juntos dao mais de 60% de bilhete sem golos de ambos, e a casa paga como se fosse 55%.\n\nE tambem a mais arriscada do dia, por um motivo: os sites de palpites estao todos do lado contrario, com 1-1 na cabeca. So que os numeros que eles citam misturam jogos oficiais com amigaveis de pre-epoca — no Lecce sao quatro particulares em sete jogos. Nao contam.\n\nNos boletins: um curto de tres pernas a 2.45, com Udinese ou empate, mais de 1.5 golos no Rizespor-Alanyaspor e ambas marcam no Jong PSV. De corvo nao ha nada — nao se estica a banda para arranjar aposta.\n\nExposicao do dia: 1,5 stakes.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1550116,
+          "match": "Udinese vs Lazio",
+          "pick": "Udinese ou Empate",
+          "odds": 1.44,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1584401,
+          "match": "Rizespor vs Alanyaspor",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1551785,
+          "match": "Jong PSV vs Den Bosch",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.33,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.45,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Ambas Marcam Nao",
+      "fixtureId": 1550109,
+      "home": {
+        "name": "Cagliari",
+        "logo": "https://media.api-sports.io/football/teams/490.png"
+      },
+      "away": {
+        "name": "Lecce",
+        "logo": "https://media.api-sports.io/football/teams/867.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-09-07T16:30:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O argumento e o ataque do Lecce fora de casa, e nao ha nada de subtil nele: na Serie A 2025/26 (n=19 deslocacoes) o Lecce marcou 15 golos ao todo, 0,79 por jogo, e ficou em branco em nove desses dezanove jogos. Doze dessas dezanove deslocacoes acabaram sem ambas as equipas a marcar. Do outro lado o Cagliari em casa e igualmente pobre: 22 golos em 19 jogos caseiros na mesma epoca, sete deles sem marcar, e tambem doze de dezanove sem ambas a marcar. Cruzando os dois lados da cerca de 33% de probabilidade de os dois marcarem, ou seja perto de 67% para o Nao, contra os 55% que o preco de 1.70 implica depois de tirada a margem. A epoca corrente, com so dois jogos de campeonato para cada um, vai no mesmo sentido: sete jogos oficiais das duas equipas, so um com golos dos dois lados. O Lecce ainda perde Geubbels por lesao e entra com Stulic na frente, confirmado pelo onze provavel do SportsGambler e pela imprensa italiana. O sinal contrario e o historico do confronto — 57% de ambas marcam em catorze encontros — e o consenso dos sites de palpites, que apontam quase todos ao 1-1; so que as estatisticas em que se apoiam misturam jogos oficiais com amigaveis de pre-epoca (no Lecce, quatro particulares nos ultimos sete jogos), e por isso nao contam.",
+      "factors": [
+        "Lecce fora, Serie A 2025/26 (n=19): 0,79 golos marcados por jogo, sem marcar em 9 dos 19; ambas marcam em apenas 7 dos 19",
+        "Cagliari em casa, Serie A 2025/26 (n=19): 1,16 golos marcados por jogo, sem marcar em 7 dos 19; ambas marcam em apenas 7 dos 19",
+        "Epoca corrente 2026/27, jogos oficiais das duas equipas (n=7): Cagliari 1-2 Verona (Taca), 0-1 Inter, 0-1 em Parma, 1-0 Arezzo (Taca); Lecce 0-4 Roma, 0-2 no Venezia, 0-2 em Palermo (Taca) — ambas marcam em 1 dos 7 jogos oficiais listados",
+        "Ausencias confirmadas por duas fontes: Lecce sem Geubbels (lesao na perna), Cagliari sem Idrissi (ligamento cruzado, regresso previsto 31/12/2026) e Trepy; Mina em duvida",
+        "Onze provavel concordante (SportsGambler e imprensa italiana): Lecce entra com Stulic no lugar de Geubbels, Falcone na baliza",
+        "Preco: 1.70 no Bet365 (Sim a 2.05) da 54,6% justo depois da margem, contra ~67% estimado pelos splits por lado",
+        "Contra-sinal declarado: H2H de 14 encontros com 57% de ambas marcam (FootyStats) e consenso de terceiros no 1-1",
+        "Mercado tambem espera poucos golos: Menos de 2.5 a 1.57 e conselho do modelo da API-Football em -3.5 golos"
+      ],
+      "sources": [
+        "API-Football — splits casa/fora Serie A 2025/26 (n=19 por lado) e resultados oficiais 2026/27",
+        "API-Football /injuries (fixture 1550109) — Idrissi, Mina, Nzola, Trepy, Kevin, Sugawara (Cagliari); Geubbels (Lecce)",
+        "SportsGambler — onze provavel, ausencias com razao e data de regresso, pick e probabilidades implicitas [2a fonte de ausencias, concordante em Idrissi, Trepy e Geubbels]",
+        "Imprensa italiana (FantaMaster / Sky Sport / LecceOggi, probabili formazioni de 07/09) — onze provavel e boletim clinico [3a fonte: confirma Idrissi, Trepy, Geubbels; Mina em duvida; sem castigados no Lecce]",
+        "FootyStats — pagina H2H Cagliari vs Lecce (14 encontros, media 2.79 golos, 57% ambas marcam). Splits casa/fora desta pagina descartados: rotulados como epoca corrente com 7 e 6 jogos quando so ha 2-3 disputados",
+        "Footballwhispers e Forebet/Tips.gg — leitura de terceiros do jogo (contraria a esta tip, registada como tal)",
+        "Bet365 via API-Football /odds — Ambas Marcam Nao 1.70, Sim 2.05, Menos de 2.5 1.57"
+      ]
+    }
+  ]
+}
