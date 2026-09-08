@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-08",
+  "units": "stakes",
+  "generated_at": "2026-09-08T07:24:45.150Z",
+  "notes": "Dia cheio de bola e mesmo assim nao saiu nenhuma tip de futebol. A Champions arrancou com seis jogos e a tentacao era grande, mas a analise nao aguentou o cruzamento: no Dragao o mercado da o City a 1.67 e dois modelos independentes poem-no perto dos 40 por cento. A esse preco nao ha valor nenhum.\n\nNa AEK foi ao contrario. Os numeros caseiros da Enosis sao de sonho, treze golos em tres jogos em casa, so que o LASK vem de virar o Celtic com um 5-1 no prolongamento e leva cinco vitorias em cinco na Austria. Nao e o saco de pancada que a estatistica prometia.\n\nO Brugge-Villa tinha a historia mais bonita do dia — o Villa nao marca ha tres jogos — mas os numeros que a sustentavam vinham misturados com particulares de pre-epoca. Numero sem origem limpa nao se usa, mesmo quando da jeito.\n\nSobra o tenis. Nos quartos do US Open o Tiafoe leva 2-0 no directo com o Michelsen, as duas em tres sets, e acabou de despachar o Medvedev sem ceder um. E a aposta mais arriscada do dia e digo-o a serio: o Michelsen ja nos comeu uma stake na segunda ronda, quando bateu o Nakashima, e leva doze sets seguidos sem perder. Vai de uma stake, nem mais.\n\nNao fica boletim curto. O trio que estava montado levava o Utrecht-GO Ahead, e esse jogo nao e jogo novo: e a retoma do que foi interrompido no dia 5 aos 65 minutos, ja com 1-3 no marcador. O Ambas Marcam estava cumprido ha tres dias e a odd de 1.50 que aparecia era o retrato antigo, que ninguem refrescou. Tirada a perna, nao havia terceira legal para a substituir. Exposicao do dia: uma stake.",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "tennis_match",
+      "marketLabel": "Vencedor do encontro",
+      "sport": "tennis",
+      "pick": "Frances Tiafoe vence",
+      "fixtureId": "usopen-2026-qf-michelsen-tiafoe",
+      "home": {
+        "name": "Alex Michelsen",
+        "logo": ""
+      },
+      "away": {
+        "name": "Frances Tiafoe",
+        "logo": ""
+      },
+      "league": "US Open — Quartos-de-final (quadro principal, masculinos)",
+      "leagueLogo": "",
+      "kickoff": "2026-09-08T17:00:00Z",
+      "odds": 1.64,
+      "bookmaker": "Bet365",
+      "score": 75,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "Quarto-de-final americano em que o Tiafoe junta tres coisas que o Michelsen ainda nao tem: historico directo, historico no torneio e uma vitoria de peso nesta quinzena. O confronto directo esta 2-0 para o Tiafoe, as duas vitorias em tres sets (piso rapido em 2024, terra em 2025), e na quarta ronda deste US Open despachou o cabeca-de-serie 7, Daniil Medvedev, tambem sem ceder set. Em Flushing Meadows ja fez quatro quartos-de-final e duas meias-finais (2022 e 2024); o Michelsen, 46 do mundo e sem cabeca-de-serie, nunca tinha passado da terceira ronda de um Grand Slam. O sinal de alerta e real e nao o escondo: o Michelsen chegou aqui sem perder um set, doze seguidos, e por o cabeca-de-serie 16 Brandon Nakashima e o 27 Etcheverry pelo caminho — o Nakashima era exactamente a nossa tip de 2 de Setembro e custou-nos uma stake. Mesmo assim, o salto de patamar entre bater um 16 e bater um top-15 em forma num primeiro quarto-de-final de major e o que o preco nao esta a pagar: 1.64 paga 61 por cento e o modelo de forma mais confronto directo poe o Tiafoe entre 64 e 67. Ambos aptos: o Tiafoe operou um quisto no punho no inicio do verao mas chega sem limitacoes, e do Michelsen nao ha registo de queixa fisica. Aposta de uma stake, nao mais — a forma do adversario nao permite subir.",
+      "factors": [
+        "Confronto directo Tiafoe 2-0, ambas em tres sets — uma em piso rapido em 2024, outra em terra em 2025 (amostra: carreira completa, via Sports Illustrated Betting e The Grandstand)",
+        "Tiafoe eliminou o cabeca-de-serie 7 Daniil Medvedev na quarta ronda sem ceder set (amostra: US Open 2026, quadro principal masculino — confirmado no quadro do ESPN e no preview do SI)",
+        "Percurso do Tiafoe no torneio: cinco sets na primeira ronda com Damm Jr., depois tres vitorias seguidas em tres sets (amostra: US Open 2026, R1-R4)",
+        "Historico do Tiafoe em Flushing Meadows: quatro quartos-de-final e duas meias-finais (2022 e 2024) — amostra: US Open, ultimas cinco edicoes",
+        "Michelsen entra sem perder um set: doze sets seguidos, vitorias sobre Federico Cina, Daniel Merida, o cabeca-de-serie 16 Nakashima e o 27 Etcheverry (amostra: US Open 2026, R1-R4). E o terceiro nao-cabeca-de-serie deste seculo a chegar aos quartos de um major sem ceder set",
+        "SINAL CONTRARIO REGISTADO: o Nakashima que o Michelsen bateu em tres sets (6-3 6-4 6-4, 02/09) era tip publicada deste projecto e fechou RED, -1 stake. E a razao de nao subir a stake nem o score",
+        "Michelsen e 46 do mundo, sem cabeca-de-serie, e nunca tinha passado da terceira ronda de um Grand Slam; ainda nao defrontou um top-10 nesta quinzena (amostra: quadro do US Open 2026 + ranking a data)",
+        "Preco: -156 no consenso americano = 1.64 decimal, 61.0 por cento implicitos. Total do encontro fixado em 40.5 jogos (Over -115 / Under -130), ou seja mercado a contar com um jogo longo mas nao apertado",
+        "Consenso de terceiros alinhado em quatro sites: Sports Illustrated Betting recomenda Tiafoe na linha de vencedor; The Grandstand da Tiafoe em quatro sets com os dois analistas do painel de acordo; bets.com.au titula Tiafoe a chegar a terceira meia-final; Sportskeeda favorece Tiafoe"
+      ],
+      "sources": [
+        "ESPN (site.api, scoreboard ATP/WTA de 2026-09-08) — confirma que o jogo e QUARTO-DE-FINAL do quadro principal (round id 5, Quarterfinal) e nao qualificacao, agendado para 17:00 UTC, ambos com estado scheduled",
+        "Sports Illustrated Betting — Tiafoe vs Michelsen, quartos do US Open: preco -156/+127, total 40.5 jogos, confronto directo 2-0, percurso dos dois no quadro e recomendacao de Tiafoe na linha de vencedor",
+        "The Grandstand (tenngrand.com) — preview do quarto-de-final: percurso do Michelsen jogo a jogo, doze sets seguidos, e a nota clinica sobre o Tiafoe (cirurgia a quisto no punho no inicio do verao, apto)",
+        "Sportskeeda e bets.com.au — segundo e terceiro cross-check de mercado, ambos a favorecer o Tiafoe; Last Word on Sports com o painel de previsoes dos quartos",
+        "AUSENCIAS / APTIDAO FISICA — duas fontes concordantes: (1) Sports Illustrated Betting, preview completo do encontro sem qualquer registo de lesao, desistencia ou tempo medico de nenhum dos dois; (2) The Grandstand, que confirma expressamente que o Tiafoe operou um quisto no punho antes do torneio mas apresenta-se apto, e que nao ha preocupacao fisica do lado do Michelsen. Nenhuma fonte reporta walkover ou queixa.",
+        "resultados/data/2026-09-02.json (arquivo interno) — verificacao do resultado da tip anterior sobre este mesmo Michelsen: Nakashima RED, 6-3 6-4 6-4, -1 stake. Usado para travar a stake, nao para a justificar",
+        "FONTE QUE FALHOU E FOI SUBSTITUIDA: sportskeeda.com devolveu 405 ao WebFetch e lastwordonsports.com devolveu 403; a informacao clinica foi obtida em The Grandstand e o cross-check de mercado no SI, de modo que o passo de duas fontes nao ficou por cumprir"
+      ]
+    }
+  ]
+}
