@@ -1,0 +1,291 @@
+{
+  "date": "2026-09-08",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "tennis_match",
+        "sport": "tennis",
+        "fixtureId": "usopen-2026-qf-michelsen-tiafoe",
+        "match": "Alex Michelsen vs Frances Tiafoe",
+        "league": "US Open — Quartos-de-final (quadro principal, masculinos)",
+        "pick": "Frances Tiafoe vence",
+        "odds": 1.64,
+        "stake": 1,
+        "score": 75,
+        "result": "GREEN",
+        "final_score": "5-7, 3-6, 7-5, 6-3, 7-6(6) (Tiafoe)",
+        "return": 1.64,
+        "pnl": 0.64,
+        "note": "Tiafoe esteve 2 sets a zero em baixo e ainda perdeu a quebra no quinto, mas deu a volta e fechou no tie-break do decisivo. E a maior reviravolta da carreira dele num Grand Slam — a primeira vez desde o Federer-Monfils de 2014 que alguem recupera de 2 sets a zero num quarto-de-final do US Open. Passa as meias-finais pela primeira vez desde 2024.",
+        "home": "Alex Michelsen",
+        "away": "Frances Tiafoe"
+      }
+    ],
+    "accumulators": [],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 1,
+      "total_return": 1.64,
+      "pnl": 0.64,
+      "roi_pct": 64,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 1,
+      "combined_return": 1.64,
+      "combined_pnl": 0.64,
+      "combined_roi_pct": 64
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1638092,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "VPS vs AC Oulu",
+        "league": "Veikkausliiga (Finland)",
+        "elapsed": 59,
+        "score": "1-0",
+        "conf": 89,
+        "factors": [
+          "AC Oulu ainda não marcou",
+          "5 SoT · 10 remates · 57% posse",
+          "Favorito a sofrer",
+          "Sem preço live no momento do alerta"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788884294723,
+        "deliveries": 0,
+        "odds": null,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "sem preço no mercado",
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1788886482472,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1603020,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Al-Hazm vs Al Taawon",
+        "league": "Pro League (Saudi-Arabia)",
+        "elapsed": 51,
+        "score": "1-0",
+        "conf": 86,
+        "factors": [
+          "Al Taawon ainda não marcou",
+          "5 SoT · 14 remates · 41% posse",
+          "Liga BTTS 64%",
+          "Preço 1.44"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788887301793,
+        "deliveries": 0,
+        "odds": 1.444,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 86 < 90",
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1788890091161,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1563149,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Watford vs Preston",
+        "league": "Championship (England)",
+        "elapsed": 55,
+        "score": "0-1",
+        "conf": 85,
+        "factors": [
+          "Watford ainda não marcou",
+          "2 SoT · 10 remates · 62% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Preço 1.70"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1788897402419,
+        "deliveries": 0,
+        "odds": 1.7,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 85 < 90",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788899809145,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1635714,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Real Madrid vs Inter",
+        "league": "UEFA Champions League (World)",
+        "elapsed": 54,
+        "score": "2-0",
+        "conf": 86,
+        "factors": [
+          "Inter ainda não marcou",
+          "4 SoT · 14 remates · 70% posse",
+          "Preço 1.61"
+        ],
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1788898464454,
+        "deliveries": 0,
+        "odds": 1.615,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 86 < 90",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1788901003299,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1635566,
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 17 Cantos",
+        "match": "Millwall vs Newcastle",
+        "league": "League Cup (England)",
+        "elapsed": 72,
+        "score": "0-0",
+        "conf": 85,
+        "factors": [
+          "15 cantos aos 72' (18.8/jogo de ritmo)",
+          "Faltam 2 para a linha 17",
+          "P 83% · preço 1.53 · justo 1.21",
+          "Margem +17 pontos sobre o preço de mercado"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1788899332505,
+        "deliveries": 0,
+        "odds": 1.533,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "finalCorners": 16,
+        "resolvedAt": 1788900755031,
+        "return": 0,
+        "pnl": 0
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "by_strategy": {},
+      "nota_mensuravel": "Nenhum alerta apostado hoje: os 5 alertas do dia (4 BTTS LIVE, 1 CANTOS TARDIOS) ficaram todos em sombra (confianca abaixo de 90, sem preco no mercado, ou estrategia em avaliacao) e ficam fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 5,
+      "green": 2,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 40,
+      "stake_nocional": 5,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 4,
+          "green": 2,
+          "red": 2,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        },
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      }
+    }
+  },
+  "balance": 36.08,
+  "notes": "Dia sem tips de futebol, so uma tip de tenis: Tiafoe a vencer o Michelsen nos quartos do US Open, e a odd de 1.64 pagou uma reviravolta historica — 2 sets a zero em baixo e fechou 5-7 3-6 7-5 6-3 7-6(6). GREEN, +0,64 stakes. Live: 5 alertas do worker, todos em sombra (confianca baixa ou estrategia em avaliacao), 2 GREEN e 3 RED, fora da banca. Corrigido tambem um PENDING antigo de 5/09 (Utrecht-GO Ahead Eagles, jogo retomado hoje e fechou 3-3) sem alterar o resultado do acumulador, que ja fechava RED pelas outras duas pernas. Banca sobe de 35,44 para 36,08 stakes."
+}

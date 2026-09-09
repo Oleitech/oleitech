@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-09",
+  "units": "stakes",
+  "generated_at": "2026-09-09T08:55:00+01:00",
+  "notes": "Noite de estreia da Champions e o menu era grande, mas o preço já estava quase todo feito. Nos jogos gordos — Liverpool-Atlético, Napoli-Arsenal, Barcelona-Feyenoord — passei os números todos e não sobrou nada que pague o risco: o mercado tem-nos bem avaliados e não se força boletim só por ser dia de festa.\n\nSaiu uma tip: o Sporting em casa com o Galatasaray. Alvalade na estreia da fase de liga, os leões ganharam cinco dos seis jogos que fizeram em casa na prova na época passada, e os turcos venceram um em seis fora — levaram 5 em Frankfurt, 4 em Anfield e 2 em Manchester. Ainda por cima chegam sem o Osimhen, que rebentou o adutor no fim de semana e tem para três semanas, sem o Singo e sem o Lemina, e com meia dúzia de nomes que nem sequer estão inscritos para a UEFA. A 1.70 há margem — não é pechincha, mas há.\n\nO bilhete curto leva Celtic, Al Ahly e Rangers: três favoritos com o histórico e a forma do lado certo, nada de mirabolante.\n\nE há corvo. O Benfica é a perna mais chata do dia: não perde com o Moreirense desde 2018, mas já lá empatou 0-0 e 1-1 nas últimas visitas, por isso pedi-lhe só que ganhe e que o jogo tenha dois golos, e não mais do que isso.\n\nExposição do dia: duas stakes e meia.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1556645,
+          "match": "ST Johnstone vs Celtic",
+          "pick": "Vitória Celtic",
+          "odds": 1.45,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1612237,
+          "match": "El Mokawloon vs Al Ahly",
+          "pick": "Vitória Al Ahly",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1556644,
+          "match": "Rangers vs ST Mirren",
+          "pick": "Vitória Rangers",
+          "odds": 1.33,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.56,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1603025,
+          "match": "Al-Nassr vs Abha",
+          "pick": "Al-Nassr e Menos de 5.5 golos",
+          "odds": 1.44,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1575469,
+          "match": "Moreirense vs Benfica",
+          "pick": "Benfica e Mais de 1.5 golos",
+          "odds": 1.28,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 1.84,
+      "score": 72,
+      "stake": 1
+    }
+  ],
+  "tips": [
+    {
+      "market": "favorites",
+      "pick": "Vitória Sporting CP",
+      "fixtureId": 1635736,
+      "home": {
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png"
+      },
+      "away": {
+        "name": "Galatasaray",
+        "logo": "https://media.api-sports.io/football/teams/645.png"
+      },
+      "league": "UEFA Champions League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-09-09T19:00:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "A tese é de padrão de equipa, não de onze — é o que a torna dável a esta hora. O Sporting em Alvalade na Champions é um dado com corpo: 5 vitórias em 6 jogos em casa na prova em 2025/26 (bateu Kairat, Marselha, Brugge, PSG e Bodo/Glimt; só perdeu com o Arsenal), e nesta época leva 3 vitórias em 3 em casa na Liga Portugal. Do outro lado, o Galatasaray fora na Champions é o oposto: 1 vitória em 6 na época passada, com 5-1 em Frankfurt, 4-0 em Anfield, 2-0 em Manchester e 3-2 em Turim. Não é azar pontual, é um perfil de equipa que se desmancha quando viaja para casas grandes. E chegam desfalcados no sítio onde dói: Osimhen com rotura no adutor direito (saiu ao minuto 33 com o Basaksehir, três semanas de paragem), Singo com problema na coxa, Lemina e Güvenç com lesões musculares, mais seis nomes que não foram inscritos na lista UEFA. O Sporting não tem baixas na frente. O preço, limpo de margem, dá-lhes 55,8% e o modelo próprio põe isto nos 60-66% — a margem existe, mas é de trabalho, não de sorte. O risco assumido é o de sempre num jogo único de Champions: o Galatasaray ainda tem o Leão e o Sané registados e chega numa série de quatro jogos sem perder no campeonato turco.",
+      "factors": [
+        "Sporting: 5 vitórias em 6 jogos em casa na Champions 2025/26 (n=6, API-Football); marcou 2+ golos em 5 desses 6",
+        "Galatasaray: 1 vitória em 6 jogos fora na Champions 2025/26 (n=6, API-Football) — 1-5 Frankfurt, 0-1 Monaco, 0-2 Man City, 2-3 Juventus, 0-4 Liverpool; única vitória 3-0 em Amesterdão",
+        "Sporting nunca falhou em marcar em 17 jogos em casa na Liga Portugal 2025/26 (failed-to-score 0/17, média 3.0 golos) e leva média de 2.7 em 3 jogos em casa na Liga Portugal 2026/27",
+        "Sporting invicto em 5 jogos oficiais da Liga Portugal 2026/27 (4V 1E); 6 golos marcados e 0 sofridos nos dois últimos (2-0 Nacional, 0-4 Rio Ave)",
+        "Galatasaray sem Osimhen (rotura no adutor direito, cerca de 3 semanas), Singo (coxa), Lemina e Güvenç (musculares), mais 6 nomes fora da lista UEFA — duas fontes concordantes",
+        "Odd 1.70 (Bet365, overround 5.4%) = 55.8% de probabilidade limpa; modelo próprio dá 60-66%"
+      ],
+      "sources": [
+        "API-Football — fixtures liga 2 época 2025 (Sporting e Galatasaray), teams/statistics ligas 94 e 203, headtohead, odds bookmaker 8",
+        "AUSÊNCIAS fonte 1: API-Football /injuries?fixture=1635736 — Galatasaray: Osimhen (injury), Singo (thigh), Lemina (muscle), Güvenç (muscle) + Ayhan, Aydin, Karatas, Ünyay, Güner, Yilmaz (off the roster); Sporting: I. Ba, N. Santos, J. Simões",
+        "AUSÊNCIAS fonte 2: A Bola, 06/09/2026 — Confirmado: estrela do Galatasaray não joga com o Sporting (Osimhen, adutor direito, cerca de 3 semanas). Concordante com a fonte 1",
+        "AUSÊNCIAS fonte 3 (confirmação): antevisão UCL 09/09 (SoccerNews / Football Whispers) — mesma lista de lesionados e de inelegíveis do Galatasaray",
+        "DIVERGÊNCIA DECLARADA: a antevisão diz plantel do Sporting totalmente disponível, a API lista três ausências periféricas (I. Ba, N. Santos, J. Simões). Nenhum é titular ofensivo e a tese não depende do onze",
+        "Cross-check de mercado (3 fontes alinhadas): William Hill 09/09 (Sporting to win & BTTS, 9/4), SoccerNews/Football Whispers (Sporting 3-0), preview Forebet 09/09",
+        "Treinadores sem alteração: Rui Borges (Sporting) e Okan Buruk (Galatasaray)"
+      ]
+    }
+  ]
+}
