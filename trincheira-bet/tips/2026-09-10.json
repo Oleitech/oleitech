@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-10",
+  "units": "stakes",
+  "generated_at": "2026-09-10T08:50:00+01:00",
+  "notes": "Segunda noite da estreia da Champions e o preco ja vinha todo feito. Passei os seis jogos europeus um a um — Bayern, United, PSV, Fenerbahce — e em nenhum deles a casa deixa margem: onde eu poria 60 por cento, a casa pede 60. Nao se forca boletim por causa disso.\n\nO valor esta num jogo em atraso da Liga, o Estrela-Braga. E ha uma coisa que convem saber: nao se joga na Amadora. O Jose Gomes foi interditado por causa do relvado e a partida mudou para Alverca. Para a tese nao faz mal — o Estrela marca e sofre da mesma maneira em casa e fora — mas nao e o jogo do costume.\n\nA aposta e ambas marcam. O Estrela nao fez uma unica baliza a zero em quatro jornadas e tambem nunca ficou em branco; o Braga sofreu nas duas saidas que fez para a Liga. Os dois ultimos encontros acabaram 2-2 e 3-3, e os dois ja passaram por Alverca ha pouco tempo, com golos dos dois lados em ambas as visitas.\n\nO risco esta no ataque do Braga: o Niakate esta fora ha meses e o Ricardo Horta e duvida seria. Se o Vicens poupar meia equipa a pensar na Conferencia, a perna pode cair.\n\nHoje nao ha boletim. Tinha tres pernas de jeito para um curto, so que uma delas era o mais de 1,5 golos deste mesmo Estrela-Braga — e o jogo ja leva a tip do dia. Dobrar no mesmo jogo era pedi-lo duas vezes a mesma bola, e as outras duas sozinhas nao fazem trio. Fica so a tip. Exposicao do dia: uma stake.",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "btts",
+      "pick": "Sim",
+      "fixtureId": 1575465,
+      "home": {
+        "name": "Estrela",
+        "logo": "https://media.api-sports.io/football/teams/15130.png"
+      },
+      "away": {
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png"
+      },
+      "league": "Primeira Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/94.png",
+      "kickoff": "2026-09-10T19:15:00+00:00",
+      "odds": 1.95,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "Jogo em atraso da 3a jornada, mudado do Estadio Jose Gomes para o Estadio do FC Alverca depois de a Liga ter interditado o relvado da Amadora — facto confirmado pelo DN, pela RTP e pelo Maisfutebol a 08/09. A tese nao depende do onze nem do factor casa, e isso e de proposito: assenta em dois padroes de equipa com amostra e competicao declaradas. O Estrela leva quatro jornadas da Primeira Liga 2026/27 sem uma unica baliza a zero e sem um unico jogo em branco (9 marcados, 8 sofridos), com splits quase iguais em casa (2,0 golos marcados e 2,0 sofridos por jogo, n=2) e fora (2,5 e 2,0, n=2) — a troca de recinto nao morde numa equipa assim. Do outro lado, o Braga marcou nos tres jogos da Liga e sofreu nas duas deslocacoes que fez (4 marcados, 3 sofridos fora); a unica baliza a zero foi em casa. O historico acompanha: ambas marcaram em 4 dos 6 encontros oficiais desde 2023, e os dois ultimos foram 2-2 e 3-3. Detalhe util do recinto: o Estrela empatou 2-2 em Alverca a 15/08 e o Braga ganhou la 2-1 a 05/09 — golos dos dois lados nas duas visitas. O ponto fraco e o ataque do Braga: Sikou Niakate esta fora ha meses e Ricardo Horta e duvida, e se Carlos Vicens poupar a pensar na Conferencia perde-se peso ofensivo. A 1.95 o mercado pede 51 por cento; a leitura propria fica em 58 a 62.",
+      "factors": [
+        "Estrela — Primeira Liga 2026/27, n=4: 0 balizas a zero e 0 jogos sem marcar (9 marcados, 8 sofridos). Fonte: API-Football teams/statistics, liga 94, epoca 2026",
+        "Estrela — splits casa (n=2): 4 marcados / 4 sofridos; fora (n=2): 5 marcados / 4 sofridos. A mudanca de recinto para Alverca nao altera o perfil",
+        "SC Braga — Primeira Liga 2026/27, n=3: marcou nos 3, sofreu em 2. Fora (n=2): 4 marcados, 3 sofridos, zero balizas a zero. A unica baliza a zero foi em casa (1-0 ao Vitoria SC)",
+        "H2H oficial Primeira Liga, n=6 (2023-2026): ambas marcaram em 4. Os dois ultimos encontros foram 2-2 (16/05/2026) e 3-3 (03/01/2026). Media de 3,67 golos por jogo (bate com os 3,6 do FootyStats)",
+        "Recinto: Estrela 2-2 em Alverca a 15/08/2026 e Braga 2-1 em Alverca a 05/09/2026 — golos dos dois lados nas duas visitas mais recentes ao estadio onde se joga",
+        "Leandro Antonetti marcou nas quatro jornadas da Liga pelo Estrela e mantem o lugar de ponta de lanca (Sports Mole, 10/09)",
+        "Baixas do Braga: Sikou Niakate (rotura do tendao de Aquiles, operado em Abril, fora), Ricardo Horta (lesao muscular, duvida) e Gorby (duvida). Confirmado por Sports Mole (10/09) e por Carlos Vicens na Renascenca/RTP (09/09)",
+        "Baixas do Estrela: sem ausencias de peso — a BeSoccer so lista Jeremy Arevalo (costas); Sports Mole acrescenta Emerson Vanga em teste e Hoog Jansson em duvida. Nenhum e titular do ataque",
+        "Terceiros: Sports Mole preve 2-2 e Goal.mu preve 2-2; nenhum dos dois aponta baliza a zero. The Football Faithful vai de X2 @ 1.67, que nao contradiz o mercado escolhido",
+        "Preco: 1.95 na Bet365 = 51,3 por cento implicito. Leitura propria 58-62 por cento"
+      ],
+      "sources": [
+        "API-Football — teams/statistics (Primeira Liga 2026/27, Estrela 15130 e Braga 217), fixtures ultimos 10 por equipa com liga declarada, e headtohead n=6 oficiais",
+        "API-Football — odds Bet365 (bookmaker 8), consulta de 10/09/2026 de manha",
+        "Sports Mole — antevisao Estrela Amadora vs Braga de 10/09: ausencias nomeadas dos dois lados, onzes provaveis e previsao 2-2 (1a fonte de ausencias)",
+        "Renascenca e RTP — declaracoes de Carlos Vicens de 09/09: Niakate operado ao Aquiles, Horta, Gorby e Huseinbasic em fase final de recuperacao e sem risco de serem forcados (2a fonte de ausencias, concordante em Niakate e Horta)",
+        "The Football Faithful — antevisao de 10/09: Horta em duvida (3a fonte concordante) e pick X2 @ 1.67",
+        "BeSoccer — lista de lesionados e castigados do Estrela da Amadora: so Jeremy Arevalo (2a fonte do lado do Estrela)",
+        "Diario de Noticias, RTP, Maisfutebol e O Minho — mudanca do jogo para o Estadio do FC Alverca por interdicao do Jose Gomes, noticiada a 08/09",
+        "Goal.mu — previsao 2-2; FootyStats pagina H2H (media de 3,6 golos no historico, coerente com o calculo proprio)"
+      ]
+    }
+  ]
+}
