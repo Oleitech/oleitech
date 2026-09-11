@@ -5,7 +5,7 @@
   "notes": "Sexta-feira de calendário partido: a Liga não joga, as grandes ligas só têm jogos soltos e o Open dos Estados Unidos está nas meias-finais masculinas.\n\nHá uma tip, entrada à tarde: Esteban Lepaul a marcar no Rennes-Marselha, a 2.60, com uma stake. Fez 21 golos na Ligue 1 da época passada, já leva 3 em 3 jogos nesta e é ele quem bate os penáltis. O Marselha levou cinco nos últimos dois jogos. Se ele não for titular, a casa devolve a aposta.\n\nO Salzburg em Ried chegou a estar na lista, mas a 1.60 o preço não paga o risco: tirando a margem das casas, a vitória vale menos do que a odd pede. Ficou de fora. O Sevilha-Valência foi visto a fundo e também ficou de fora: o Valência está em crise, mas o historial não ajuda o Sevilha e o preço já conta com isso. Não se força boletim. No ténis, nem o Zverev nem o Shelton-Tiafoe dão preço com valor.\n\nAcumuladores: não há standard, porque só há uma tip. Há um curto de três pernas a 2.76, com meia stake: Bielefeld sem perder em Darmstadt, Torreense sem perder com o Leixões e mais de 1.5 golos no Sevilha-Valência. Há corvo a 2.10 na Marathonbet, com uma stake: o AZ ganha com menos de seis golos e o Copenhaga ganha com pelo menos dois golos no jogo.\n\nExposição total do dia: duas stakes e meia.",
   "tips": [
     {
-      "market": "marcadores",
+      "market": "scorers",
       "marketLabel": "Marcador",
       "pick": "Esteban Lepaul marca",
       "fixtureId": 1552763,
