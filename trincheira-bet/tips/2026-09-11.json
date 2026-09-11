@@ -2,7 +2,7 @@
   "date": "2026-09-11",
   "generated_at": "2026-09-11T07:33:35.583Z",
   "units": "stakes",
-  "notes": "Sexta-feira de calendário partido: a Liga não joga, as grandes ligas só têm jogos soltos e o Open dos Estados Unidos está nas meias-finais masculinas.\n\nHá uma tip, entrada à tarde: Esteban Lepaul a marcar no Rennes-Marselha, a 2.60, com meia stake. Fez 21 golos na Ligue 1 da época passada, já leva 3 em 3 jogos nesta e é ele quem bate os penáltis. O Marselha levou cinco nos últimos dois jogos. Se ele não for titular, a casa devolve a aposta.\n\nO Salzburg em Ried chegou a estar na lista, mas a 1.60 o preço não paga o risco: tirando a margem das casas, a vitória vale menos do que a odd pede. Ficou de fora. O Sevilha-Valência foi visto a fundo e também ficou de fora: o Valência está em crise, mas o historial não ajuda o Sevilha e o preço já conta com isso. Não se força boletim. No ténis, nem o Zverev nem o Shelton-Tiafoe dão preço com valor.\n\nAcumuladores: não há standard, porque só há uma tip. Há um curto de três pernas a 2.76, com meia stake: Bielefeld sem perder em Darmstadt, Torreense sem perder com o Leixões e mais de 1.5 golos no Sevilha-Valência. Há corvo a 2.10 na Marathonbet, com uma stake: o AZ ganha com menos de seis golos e o Copenhaga ganha com pelo menos dois golos no jogo.\n\nExposição total do dia: duas stakes.",
+  "notes": "Sexta-feira de calendário partido: a Liga não joga, as grandes ligas só têm jogos soltos e o Open dos Estados Unidos está nas meias-finais masculinas.\n\nHá uma tip, entrada à tarde: Esteban Lepaul a marcar no Rennes-Marselha, a 2.60, com uma stake. Fez 21 golos na Ligue 1 da época passada, já leva 3 em 3 jogos nesta e é ele quem bate os penáltis. O Marselha levou cinco nos últimos dois jogos. Se ele não for titular, a casa devolve a aposta.\n\nO Salzburg em Ried chegou a estar na lista, mas a 1.60 o preço não paga o risco: tirando a margem das casas, a vitória vale menos do que a odd pede. Ficou de fora. O Sevilha-Valência foi visto a fundo e também ficou de fora: o Valência está em crise, mas o historial não ajuda o Sevilha e o preço já conta com isso. Não se força boletim. No ténis, nem o Zverev nem o Shelton-Tiafoe dão preço com valor.\n\nAcumuladores: não há standard, porque só há uma tip. Há um curto de três pernas a 2.76, com meia stake: Bielefeld sem perder em Darmstadt, Torreense sem perder com o Leixões e mais de 1.5 golos no Sevilha-Valência. Há corvo a 2.10 na Marathonbet, com uma stake: o AZ ganha com menos de seis golos e o Copenhaga ganha com pelo menos dois golos no jogo.\n\nExposição total do dia: duas stakes e meia.",
   "tips": [
     {
       "market": "marcadores",
@@ -23,25 +23,40 @@
       "odds": 2.6,
       "bookmaker": "Betclic",
       "score": 72,
-      "stake": 0.5,
-      "context_depth": "partial",
-      "tese": "O Lepaul é o avançado e o marcador de penáltis de um Rennes que chega sem perder e joga em casa contra um Marselha que sofreu cinco golos nos últimos dois jogos. Pelo ritmo dele (0,71 golos por 90 minutos na Ligue 1 da época passada, 3 em 3 jogos nesta) e com cerca de 80 minutos esperados, a probabilidade de marcar fica entre 42 e 49 por cento, conforme se use o ritmo individual ou o peso dele nos golos do Rennes. A 2.60 a odd pede 38,5 por cento, portanto há valor mesmo pela estimativa mais prudente; a Bet365 paga 2.10 no mesmo mercado. O risco do onze está coberto, porque a casa devolve se ele não for titular. Risco declarado: o Marselha ganhou quatro dos últimos cinco confrontos. Meia stake: a estimativa tem um intervalo largo, e o contexto é parcial porque não se fez a pesquisa completa de notícias do Passo 4.6, o que desce uma unidade.",
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Lepaul é o avançado e o marcador de penáltis de um Rennes que chega sem perder e joga em casa contra um Marselha que sofreu cinco golos nos últimos dois jogos. Pelo ritmo dele (0,71 golos por 90 minutos na Ligue 1 da época passada, 3 em 3 jogos nesta) e com cerca de 80 minutos esperados, a probabilidade de marcar fica entre 42 e 49 por cento, conforme se use o ritmo individual ou o peso dele nos golos do Rennes. A 2.60 a odd pede 38,5 por cento, portanto há valor mesmo pela estimativa mais prudente; a Bet365 paga 2.10 no mesmo mercado. O risco do onze está coberto, porque a casa devolve se ele não for titular. Risco declarado: o Marselha ganhou quatro dos últimos cinco confrontos. Uma stake: o contexto ficou completo à tarde, com as ausências confirmadas por duas fontes e o Lepaul como avançado único em todos os onzes prováveis. Não passa de uma porque a estimativa tem um intervalo largo e porque a SportsGambler se inclina para o Marselha (+0.25 asiático).",
       "factors": [
         "Lepaul: 20 golos em 32 jogos da Ligue 1 2025-26 pelo Rennes (0,71 por 90 min), 3 de penálti — API-Football",
         "Lepaul: 3 golos em 3 jogos da Ligue 1 2026-27, 14 remates, 1 de penálti — API-Football",
         "Marselha: 0-2 no Mónaco e 2-3 com o Paris FC nos dois últimos jogos da liga — API-Football",
         "Rennes sem perder na liga: 2-2 com o PSG, 3-2 com o Le Mans, 2-1 em Angers — API-Football",
         "Ausências: Marselha sem Kondogbia e Nnadi; Rennes sem lesionados registados — API-Football",
-        "Preço: 2.60 pede 38,5%; estimativa entre 42% e 49%; Bet365 a 2.10 no mesmo mercado"
+        "Preço: 2.60 pede 38,5%; estimativa entre 42% e 49%; Bet365 a 2.10 no mesmo mercado",
+        "Ausências confirmadas por duas fontes (Sports Mole e ligue1.com): Marselha sem Kondogbia (coxa, até Outubro) e Nnadi (joelho); Rennes sem D. Cissé. A SportsGambler dá o Marselha completo, e nesse ponto está desactualizada",
+        "Lepaul como avançado único em todos os onzes prováveis: Sports Mole, SportsGambler, ligue1.com e French Football Weekly",
+        "Os dois treinadores são recentes: o Genesio chegou ao Marselha a 1 de Julho e leva três jogos da liga (uma vitória e duas derrotas); o Haise está no Rennes desde 18 de Fevereiro — Sports Mole, French Football Weekly e Wikipedia",
+        "Ligue 1 2025-26, 17 jogos em casa e 17 fora: o Rennes marcou 1,8 por jogo em casa; o Marselha sofreu 1,5 fora e só fez 4 jogos fora sem sofrer, mas estes números do Marselha são todos do treinador anterior e pesam pouco — API-Football",
+        "Penáltis: o Rennes marcou os 5 que teve na Ligue 1 2025-26 e o único de 2026-27 — API-Football",
+        "Modelos de vitória: Pinnacle sem margem dá 48% ao Rennes; o modelo da API dá 35/35/30; a SportsGambler dá 52% pelas odds",
+        "Terceiros: a SportsGambler recomenda Marselha +0.25 asiático e o Lepaul com mais de 1.5 remates à baliza; a Sports Mole prevê 3-1 para o Rennes; a Forebet espera mais de 2.5 golos"
       ],
       "sources": [
         "API-Football odds, fixture 1552763 (Bet365 Anytime Goal Scorer 2.10)",
         "API-Football players, Lepaul, Ligue 1 2025 e 2026",
         "API-Football predictions e injuries, fixture 1552763",
-        "Odd 2.60 e regra de devolução se não for titular: casa do dono, indicadas por ele"
+        "Odd 2.60 e regra de devolução se não for titular: casa do dono, indicadas por ele",
+        "API-Football teams/statistics, Ligue 1 2025 e 2026, equipas 94 e 81",
+        "https://www.sportsmole.co.uk/football/rennes/preview/rennes-vs-marseille-prediction-team-news-lineups_604753.html",
+        "https://www.sportsgambler.com/betting-tips/football/rennes-vs-marseille-prediction-lineups-odds-2026-09-11/",
+        "https://ligue1.com/fr/articles/l1_article_5704-les-compositions-probables-ligue-1-2026-2027",
+        "https://frenchfootballweekly.com/2026/09/11/rennes-om-the-probable-lineups/",
+        "https://www.forebet.com/en/football/matches/rennes-olympique-marseille-2495953 (403 na página; previsão lida pelo resumo da pesquisa)",
+        "FootyStats: 403 na página H2H; os splits casa/fora vieram da API-Football",
+        "https://en.wikipedia.org/wiki/Bruno_G%C3%A9n%C3%A9sio e https://en.wikipedia.org/wiki/Franck_Haise (datas de entrada dos treinadores)"
       ],
       "regra_devolucao": "Se o Lepaul não for titular, a casa devolve a aposta: avalia-se como reembolso (return = stake).",
-      "origem": "Sugestão do grupo corvo, analisada pelo Master e acrescentada por decisão do dono a 11/09 às 14:45; não passou pelo agente de tips. Meia stake pela regra do contexto parcial: o Master tinha sugerido uma e o QA (3.ª passagem) apanhou."
+      "origem": "Sugestão do grupo corvo, analisada pelo Master e acrescentada por decisão do dono a 11/09 às 14:45; não passou pelo agente de tips. Meia stake pela regra do contexto parcial: o Master tinha sugerido uma e o QA (3.ª passagem) apanhou. Às 15:51, a pedido do dono ('Sim'), o Master completou o Passo 4.6 (duas fontes para as ausências, onzes prováveis, treinadores, splits, modelos e terceiros); o contexto passou a full e a stake voltou a uma, como nos precedentes da semana para score 72, sem mexer no score. A 5.ª passagem do QA corrigiu a leitura dos treinadores: o Genesio chegou ao Marselha a 1 de Julho."
     }
   ],
   "accumulators": [
