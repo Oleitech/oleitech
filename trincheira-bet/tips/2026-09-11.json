@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T07:33:35.583Z",
+  "units": "stakes",
+  "notes": "Sexta-feira de calendário partido: a Liga não joga, as grandes ligas só têm jogos soltos e o Open dos Estados Unidos está nas meias-finais masculinas. Hoje não há tip individual.\n\nO Salzburg em Ried chegou a estar na lista, mas a 1.60 o preço não paga o risco: tirando a margem das casas, a vitória vale menos do que a odd pede. Ficou de fora. O Sevilha-Valência foi visto a fundo e também ficou de fora: o Valência está em crise, mas o historial não ajuda o Sevilha e o preço já conta com isso. Não se força boletim. No ténis, nem o Zverev nem o Shelton-Tiafoe dão preço com valor.\n\nAcumuladores: não há standard, porque não há tips. Há um curto de três pernas a 2.76, com meia stake: Bielefeld sem perder em Darmstadt, Torreense sem perder com o Leixões e mais de 1.5 golos no Sevilha-Valência. Há corvo a 2.10 na Marathonbet, com uma stake: o AZ ganha com menos de seis golos e o Copenhaga ganha com pelo menos dois golos no jogo.\n\nExposição total do dia: stake e meia.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1576172,
+          "match": "SV Darmstadt 98 vs Arminia Bielefeld",
+          "pick": "Dupla hipótese Empate ou Arminia Bielefeld",
+          "odds": 1.44,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1576493,
+          "match": "Torreense vs Leixões",
+          "pick": "Dupla hipótese Torreense ou Empate",
+          "odds": 1.33,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1570381,
+          "match": "Sevilla vs Valencia",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.44,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "fixtureId": 1552162,
+          "match": "AZ Alkmaar vs Willem II",
+          "pick": "AZ vence e menos de 5.5 golos",
+          "odds": 1.42,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1549016,
+          "match": "FC Copenhagen vs AC Horsens",
+          "pick": "FC Copenhagen vence e mais de 1.5 golos",
+          "odds": 1.48,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.1,
+      "score": 70,
+      "stake": 1
+    }
+  ]
+}
