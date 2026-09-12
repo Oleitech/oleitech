@@ -2,7 +2,7 @@
   "date": "2026-09-12",
   "generated_at": "2026-09-12T07:26:36.650Z",
   "units": "stakes",
-  "notes": "Sabado cheio de jogos e mesmo assim saiu uma tip so. Havia candidatos com preco acima de 1.55, mas o modelo nao lhes dava valor nenhum - ficavam todos em cima ou abaixo do preco justo - e nao se forca boletim.\n\nA que ficou e o Casa Pia-FC Porto, em Rio Maior. O Casa Pia leva cinco jornadas sem marcar um golo que seja e o Porto so sofreu um na liga inteira. O bilhete e o Porto a nao sofrer, a 1.67, e nao o Porto a ganhar, que ja esta a 1.25 e nao paga nada.\n\nE tambem a mais arriscada do dia, e nao escondemos porque: o Porto vai a jogo com o Nehuen Perez e o Prpic fora e o Zaidu lesionado, ou seja com a defesa remendada, e vem de levar dois do Manchester City a meio da semana. Por isso e meia stake e nem mais meio euro de conversa.\n\nNos acumuladores saiu um so, dos curtos: ambas marcam no GO Ahead-Groningen (dez jogos de liga entre as duas, dez com golos dos dois lados), Arsenal a ganhar em Sunderland e Ajax a ganhar em Sittard. Da 2.98 e leva meia stake.\n\nO corvo ficou em branco. Havia uma perna boa - o Porto a ganhar sem levar chuva de golos - mas nao apareceu segunda perna que aguentasse a analise. Quando nao ha par, nao ha boletim.\n\nExposicao do dia: uma stake redonda. Banca nos 35,90.",
+  "notes": "Sabado cheio de jogos e mesmo assim saiu uma tip so. Havia candidatos com preco acima de 1.55, mas o modelo nao lhes dava valor nenhum - ficavam todos em cima ou abaixo do preco justo - e nao se forca boletim.\n\nA que ficou e o Casa Pia-FC Porto, em Rio Maior. O Casa Pia leva cinco jornadas sem marcar um golo que seja e o Porto so sofreu um na liga inteira. O bilhete e o Porto a nao sofrer, a 1.67, e nao o Porto a ganhar, que ja esta a 1.25 e nao paga nada.\n\nE tambem a mais arriscada do dia, e nao escondemos porque: o Porto vai a jogo com o Nehuen Perez e o Prpic fora e o Zaidu lesionado, ou seja com a defesa remendada, e vem de levar dois do Manchester City a meio da semana. Por isso e meia stake e nem mais meio euro de conversa.\n\nNos acumuladores saiu um so, dos curtos: ambas marcam no GO Ahead-Groningen (dez jogos de liga entre as duas, dez com golos dos dois lados), Arsenal a ganhar em Sunderland e Ajax a ganhar em Sittard. Da 2.98 e leva meia stake.\n\nO corvo ficou em branco de manha e so apareceu a meio da tarde. Ja de manha havia uma perna boa - o Porto a ganhar sem levar chuva de golos - e o que faltava era o par. Apareceu no Bernabeu: Real Madrid a ganhar com mais de 2.5 golos, a 1.35, com o Porto a ganhar com mais de 1.5, a 1.38. Da 1.86 e leva uma stake.\n\nO Madrid fez 4-0 ao Malaga e 4-1 a Real Sociedad nos dois jogos que teve em casa, e o Rayo chega sem os dois extremos titulares - o Isi Palazon lesionado, o De Frutos castigado depois da expulsao com o Racing - e com o Balliu, o Kumbulla e o Luiz Felipe de fora atras. Fora de casa o Rayo ja levou cinco em Barcelona e dois em Sevilha. Do lado do Porto, nao houve um 1-0 na liga esta epoca: 2-0, 2-0, 2-1, 0-3 e 2-1, sempre dois golos ou mais no jogo.\n\nFica declarado, porque tem de ficar: a perna do Porto usa o mesmo jogo da tip do dia. Sao mercados diferentes - um e o Porto nao sofrer, o outro e o Porto ganhar - mas a tarde fica com stake e meia presa ao mesmo relvado de Rio Maior, e o registo nao esconde isso.\n\nExposicao do dia: duas stakes. Banca nos 35,90.",
   "tips": [
     {
       "market": "clean_sheet",
@@ -79,6 +79,29 @@
       "combined_odds": 2.98,
       "score": 65,
       "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "fixtureId": 1575495,
+          "match": "Casa Pia vs FC Porto",
+          "pick": "FC Porto vence e mais de 1.5 golos",
+          "odds": 1.38,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1570379,
+          "match": "Real Madrid vs Rayo Vallecano",
+          "pick": "Real Madrid vence e mais de 2.5 golos",
+          "odds": 1.35,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 1.86,
+      "score": 70,
+      "stake": 1
     }
   ]
 }
