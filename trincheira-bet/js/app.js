@@ -3,6 +3,7 @@ const App = {
     btts: { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
     favorites: { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
     scorers: { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
+    clean_sheet: { gridId: 'clean-sheet-grid', badgeId: 'badge-clean-sheet', sectionId: 'section-clean-sheet' },
     corners: { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
     nba: { gridId: 'nba-grid', badgeId: 'badge-nba', sectionId: 'section-nba' },
     tennis: { gridId: 'tennis-grid', badgeId: 'badge-tennis', sectionId: 'section-tennis' },
@@ -104,6 +105,13 @@ const App = {
         <div class="tips-grid" id="scorers-grid"></div>
       </section>
 
+      <section id="section-clean-sheet" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--m-btts)"></span> Não sofre (Clean Sheet) <span class="badge" id="badge-clean-sheet">0</span></div>
+        </div>
+        <div class="tips-grid" id="clean-sheet-grid"></div>
+      </section>
+
       <section id="section-corners" style="display:none">
         <div class="section-head">
           <div class="title"><span class="swatch" style="background:var(--m-corners)"></span> Cantos (Pré-jogo) <span class="badge" id="badge-corners">0</span></div>
@@ -202,6 +210,7 @@ const App = {
       league: tip.league,
       time,
       marketKey: tip.market,
+      marketLabel: tip.marketLabel,
       pick: tip.pick,
       odds: typeof tip.odds === 'number' ? tip.odds : null,
       score: typeof tip.score === 'number' ? tip.score : 70,

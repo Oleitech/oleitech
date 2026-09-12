@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T07:26:36.650Z",
+  "units": "stakes",
+  "notes": "Sabado cheio de jogos e mesmo assim saiu uma tip so. Havia candidatos com preco acima de 1.55, mas o modelo nao lhes dava valor nenhum - ficavam todos em cima ou abaixo do preco justo - e nao se forca boletim.\n\nA que ficou e o Casa Pia-FC Porto, em Rio Maior. O Casa Pia leva cinco jornadas sem marcar um golo que seja e o Porto so sofreu um na liga inteira. O bilhete e o Porto a nao sofrer, a 1.67, e nao o Porto a ganhar, que ja esta a 1.25 e nao paga nada.\n\nE tambem a mais arriscada do dia, e nao escondemos porque: o Porto vai a jogo com o Nehuen Perez e o Prpic fora e o Zaidu lesionado, ou seja com a defesa remendada, e vem de levar dois do Manchester City a meio da semana. Por isso e meia stake e nem mais meio euro de conversa.\n\nNos acumuladores saiu um so, dos curtos: ambas marcam no GO Ahead-Groningen (dez jogos de liga entre as duas, dez com golos dos dois lados), Arsenal a ganhar em Sunderland e Ajax a ganhar em Sittard. Da 2.98 e leva meia stake.\n\nO corvo ficou em branco. Havia uma perna boa - o Porto a ganhar sem levar chuva de golos - mas nao apareceu segunda perna que aguentasse a analise. Quando nao ha par, nao ha boletim.\n\nExposicao do dia: uma stake redonda. Banca nos 35,90.",
+  "tips": [
+    {
+      "market": "clean_sheet",
+      "marketLabel": "Nao sofre",
+      "pick": "FC Porto nao sofre golos",
+      "fixtureId": 1575495,
+      "home": {
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png"
+      },
+      "away": {
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png"
+      },
+      "league": "Primeira Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/94.png",
+      "kickoff": "2026-09-12T17:00:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "flashscore_preview": null,
+      "tese": "O Casa Pia nao marca ha cinco jornadas da Primeira Liga: 0-1 com o Maritimo, 0-7 com o Benfica, 0-2 no Gil Vicente, 0-1 com o Moreirense e 0-0 em Guimaraes. Zero golos em 450 minutos de liga, com onzes diferentes pelo meio - nao e azar de um jogo, e um problema de equipa. Do outro lado o Porto leva quatro balizas a zero em cinco jogos da liga (so sofreu ao Moreirense) e nas duas deslocacoes fez 0-2 no Rio Ave e 0-3 no Academico de Viseu, sem sofrer em nenhuma. O mercado que diz isto exactamente e o Porto nao sofrer, a 1.67; o Porto a ganhar esta a 1.25 e nao paga a tese. O que trava a mao e a defesa do Porto: Nehuen Perez e Dominik Prpic estao fora e o Zaidu esta lesionado, o eixo fica Kiwior-Bednarek com Alberto Costa e Francisco Moura nos lados, e a equipa vem de perder 0-2 em casa com o Manchester City na terca-feira. Do lado do Casa Pia so falta o guarda-redes Andre Gomes - o ataque esta inteiro, com Henrique Araujo na frente. Por isso meia stake e nao mais.",
+      "factors": [
+        "Casa Pia: 0 golos marcados em 5 jornadas da Primeira Liga 2026/27, 11 sofridos (API-Football /fixtures, so jogos oficiais)",
+        "Casa Pia em casa na Primeira Liga 2026/27 (n=2): 0-7 com o Benfica e 0-1 com o Moreirense - zero golos",
+        "FC Porto: 4 balizas a zero em 5 jornadas da Primeira Liga 2026/27, 1 golo sofrido (API-Football)",
+        "FC Porto fora na Primeira Liga 2026/27 (n=2): 0-2 no Rio Ave e 0-3 no Academico de Viseu, zero sofridos",
+        "H2H Primeira Liga, ultimos 5: o Casa Pia nao marcou em 3 (0-1, 0-2 e 0-4); marcou nos outros 2 (2-1 em 02/2026 e 1-2 em 04/2024) - API-Football",
+        "Ausencias do FC Porto com duas fontes concordantes: Nehuen Perez e Dominik Prpic fora, Zaidu (virilha) e Froholdt lesionados, Samu Aghehowa com cruzados ate 31/10 (SportsGambler 12/09 + antevisao ZeroZero/SAPO 11/09)",
+        "Ausencia do Casa Pia com duas fontes concordantes: Andre Gomes (guarda-redes) lesionado, estreia de Ivan Mandic na baliza (SportsGambler 12/09 + antevisao ZeroZero/SAPO 11/09)",
+        "Sem mudanca de treinador: Alvaro Pacheco no Casa Pia, Francesco Farioli no FC Porto (antevisao ZeroZero/SAPO)",
+        "Terceiros do mesmo lado: SportsGambler recomenda Porto handicap asiatico -1.75 @ 1.86 e resultado exacto 0-3",
+        "Probabilidade de vitoria do Porto, tirada a margem as odds Bet365 (1.25 / 6.00 / 10.00): 75%",
+        "Contexto: jogo no Estadio Municipal de Rio Maior; FC Porto joga 4 dias depois do 0-2 caseiro com o Manchester City na Liga dos Campeoes",
+        "Proveniencia: o \"ultimos 10\" do FootyStats/SportsGambler foi descartado por nao declarar competicao (mistura epocas); todos os numeros acima sao Primeira Liga 2026/27 pela API-Football"
+      ],
+      "sources": [
+        "API-Football - /fixtures (ultimos 10 por equipa, com competicao declarada), /predictions, /fixtures/headtohead, /odds bookmaker 8 (Bet365)",
+        "SportsGambler - antevisao Casa Pia vs Porto de 12/09/2026: onzes provaveis, lesoes e castigos com razao e data de regresso (1a fonte das ausencias)",
+        "ZeroZero / SAPO Desporto - \"Casa Pia AC x FC Porto: antevisao, ausencias e onzes provaveis\" (2a fonte das ausencias, concordante nos dois plantéis)",
+        "Maisfutebol e Record - boletim clinico do FC Porto (Zaidu de fora varias semanas, Froholdt sem data)",
+        "FootyStats - pagina H2H devolveu HTTP 403; splits de xG/xGA por casa/fora nao obtidos (lacuna que faz o context_depth ser partial)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1552164,
+          "match": "GO Ahead Eagles vs Groningen",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.4,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1557405,
+          "match": "Sunderland vs Arsenal",
+          "pick": "Vitoria Arsenal",
+          "odds": 1.48,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552165,
+          "match": "Fortuna Sittard vs Ajax",
+          "pick": "Vitoria Ajax",
+          "odds": 1.44,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.98,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

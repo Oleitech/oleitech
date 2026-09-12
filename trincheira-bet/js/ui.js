@@ -141,13 +141,13 @@ const UI = {
   renderTipCard({ home, away, homeLogo, awayLogo, league, time, marketKey, marketLabel, pick, odds, score, factors, learningFactors, stake, tese, sources, sport }) {
     const MARKET_COLORS = {
       btts: 'var(--m-btts)', over25: 'var(--m-over)', cards: 'var(--m-cards)',
-      corners: 'var(--m-corners)', favorites: 'var(--accent)', scorers: 'var(--amber)',
+      corners: 'var(--m-corners)', favorites: 'var(--accent)', scorers: 'var(--amber)', clean_sheet: 'var(--m-btts)',
       nba_total: 'var(--amber)', nba_spread: 'var(--accent)', nba_moneyline: 'var(--m-btts)', nba_prop: 'var(--m-corners)',
       tennis_match: 'var(--accent)', tennis_games_total: 'var(--amber)', tennis_set_winner: 'var(--m-btts)', tennis_handicap: 'var(--m-corners)'
     };
     const MARKET_LABELS = {
       btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões',
-      corners: 'Cantos', favorites: 'Favorito 1X2', scorers: 'Marcador',
+      corners: 'Cantos', favorites: 'Favorito 1X2', scorers: 'Marcador', clean_sheet: 'Não sofre',
       nba_total: 'Total pontos', nba_spread: 'Spread', nba_moneyline: 'Moneyline', nba_prop: 'Player Prop',
       tennis_match: 'Match Winner', tennis_games_total: 'Total Games', tennis_set_winner: 'Set Winner', tennis_handicap: 'Games Handicap'
     };

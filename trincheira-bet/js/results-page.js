@@ -16,6 +16,7 @@ const ResultsPage = {
     over25: 'Over 2.5',
     cards: 'Cartões',
     corners: 'Cantos',
+    clean_sheet: 'Não sofre',
   },
 
   chevSVG: '<svg class="chev" viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l6 6-6 6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
