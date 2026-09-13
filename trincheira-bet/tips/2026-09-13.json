@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T07:26:16.497Z",
+  "units": "stakes",
+  "notes": "Domingo cheio — o dérbi em Old Trafford, o Barça em Valência, o Sporting em Famalicão, Nápoles, PSG — e mesmo assim não saiu nenhuma tip individual. Não é falta de jogos, é falta de preço.\n\nFui atrás de três ou quatro teses a sério e morreram todas no mesmo sítio: quando fui ver a linha, o mercado já lá estava. O Sporting a 1.55 em Famalicão parece de graça com dez vitórias em dez no historial, só que a esse preço é preciso ganhar quase dois em cada três. Não dá. O ambas marcam no Brest-PSG tinha a defesa parisiense a sangrar por todos os lados, mas o Brest não faz um golo ao PSG há quatro jogos seguidos. Não se força boletim só por ser domingo.\n\nOnde há material é nos bilhetes. Sai um curto a 2.91 com o Feyenoord em Zwolle, ambas marcam no PSV e mais de 1.5 no Nápoles — três pernas com o historial todo do lado certo. E sai o corvo a 1.96: Benfica a ganhar com menos de 4.5 e o Barça a ganhar com mais de 1.5. Duas equipas que não perdem e duas condições de golos que quase nunca falham.\n\nO mais arriscado dos dois é o curto, e a perna que me tira o sono é o mais de 1.5 no Nápoles-Bolonha. O Nápoles perdeu os três últimos e o Bolonha faz um golo de dois em dois jogos; se aquilo fechar num 1-0, cai o bilhete todo.\n\nExposição do dia: uma stake e meia. Pouco, de propósito.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1552170,
+          "match": "PEC Zwolle vs Feyenoord",
+          "pick": "Vitoria Feyenoord",
+          "odds": 1.4,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1552169,
+          "match": "PSV Eindhoven vs Sparta Rotterdam",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.53,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1550123,
+          "match": "Napoli vs Bologna",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.91,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1575493,
+          "match": "Benfica vs Gil Vicente",
+          "pick": "Benfica e Menos de 4.5 golos",
+          "odds": 1.52,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1570376,
+          "match": "Levante vs Barcelona",
+          "pick": "Barcelona e Mais de 1.5 golos",
+          "odds": 1.29,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 1.96,
+      "score": 74,
+      "stake": 1,
+      "bookmaker": "Marathonbet"
+    }
+  ],
+  "tips": []
+}
