@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T07:25:43.983Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de restos. O grosso da jornada foi ao fim de semana e o que sobra é pouco: três jogos em Itália, um na Premier, um em Espanha e três em Portugal. Mesmo assim deu para tirar duas tips com preço a sério.\n\nA primeira é o Braga a não sofrer, a 2.10. O Braga leva quatro jogos em casa esta época sem levar um golo e o Estoril fez dois golos em cinco jornadas, sem ganhar na liga há treze jogos. Preferi este mercado ao ambas marcam não, que paga menos e ainda por cima ganha com um 0-1 do Estoril, que é o contrário do que estou a dizer.\n\nA segunda é o ambas marcam no Inter-Udinese, a 1.95. O Inter ganha tudo mas sofre: uma baliza a zero nos últimos seis jogos e golos sofridos nas duas recepções da liga. O Udinese marcou em todos os jogos oficiais da época.\n\nA mais arriscada é esta segunda, e o que me tira o sono é a enfermaria do Udinese: vão seis jogadores de fora, com o Zaniolo à cabeça. É por isso que não passa de uma stake.\n\nNos bilhetes sai um curto a 2.74, com a Roma em Turim e mais de 1.5 golos em dois jogos portugueses. O corvo fica em branco, que a única perna que passou a curadoria não tinha par dentro da banda, e não se estica a banda para arranjar aposta.\n\nExposição do dia: duas stakes e meia.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1550125,
+          "match": "Torino vs AS Roma",
+          "pick": "Vitoria AS Roma",
+          "odds": 1.53,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1575499,
+          "match": "Rio Ave vs Estrela",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1575497,
+          "match": "Moreirense vs Maritimo",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.74,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "tips": [
+    {
+      "market": "clean_sheet",
+      "marketLabel": "Nao sofre",
+      "pick": "SC Braga nao sofre golos",
+      "fixtureId": 1575494,
+      "home": {
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png"
+      },
+      "away": {
+        "name": "Estoril",
+        "logo": "https://media.api-sports.io/football/teams/230.png"
+      },
+      "league": "Primeira Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/94.png",
+      "kickoff": "2026-09-14T19:45:00Z",
+      "odds": 2.1,
+      "bookmaker": "Bet365",
+      "score": 80,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Braga leva quatro jogos em casa esta época e não sofreu um golo em nenhum: 1-0 ao Vitória de Guimarães na liga e 2-0, 1-0 e 4-0 nas eliminatórias da Conference. Oito marcados, zero sofridos. Do outro lado está um Estoril que fez dois golos em cinco jornadas, ficou em branco em três delas e não ganha na liga há treze jogos, já com o Vasco Matos ao leme desde Julho. O mercado que diz isto exactamente é o Braga não sofrer, a 2.10: o Braga a ganhar paga 1.42 e o ambas marcam não paga 1.91, e esse último ainda ganha com um 0-1 do Estoril, que é o oposto da tese. As baixas do Braga são todas do meio para a frente (Ricardo Horta, Gorby, Niakaté, Huseinbasic em dúvida) e o trio de trás, Barcia, Vasco Carvalho e Lagerbielke, está de pé nos onzes prováveis das duas fontes. O que trava a mão é o historial: nos quatro últimos jogos em Braga o Estoril marcou sempre (1-1, 2-2, 3-1 e 4-1). É esse o contra-argumento e é por isso que fica em uma stake e não mais. A tese não depende de um nome do onze, depende do padrão de equipa: Braga sólido em casa contra um ataque que não produz.",
+      "factors": [
+        "SC Braga em casa, 2026/27, jogos oficiais (n=4: 1 da Primeira Liga + 3 das eliminatórias da Conference League): 4 balizas a zero, 8 golos marcados, 0 sofridos. 1-0 Vitória SC, 2-0 Austria Viena, 1-0 Dinamo Minsk, 4-0 Zeleznicar Pancevo (API-Football /fixtures, competição declarada por jogo)",
+        "SC Braga em casa na Primeira Liga 2026/27 (n=1): 1-0 ao Vitória SC, 0 sofridos, 1 baliza a zero (API-Football /teams/statistics, liga 94, época 2026)",
+        "Estoril na Primeira Liga 2026/27 (n=5): 2 golos marcados, falhou marcar em 3 dos 5 jogos. 0-0 Arouca, 1-2 no Benfica, 0-2 Rio Ave, 0-2 no Nacional, 1-1 Famalicão (API-Football /fixtures + /teams/statistics)",
+        "Estoril fora na Primeira Liga 2026/27 (n=2): 0,5 golos marcados por jogo e 2,0 sofridos; falhou marcar em 1 dos 2 (API-Football /teams/statistics, liga 94, época 2026)",
+        "Estoril sem vencer há 13 jogos consecutivos da primeira divisão, 17.º classificado (Sports Mole 13/09 e The Football Faithful 14/09)",
+        "Contra-argumento declarado. H2H em Braga, últimos 4 encontros oficiais: o Estoril marcou em todos (1-1 em 05/2026, 2-2 em 12/2024, 3-1 em 12/2023, 4-1 em 04/2023). H2H alargado: 23 encontros, ambas marcaram em 48% (API-Football /fixtures/headtohead + FootyStats)",
+        "Ausências do SC Braga com duas fontes concordantes: Ricardo Horta (lesão muscular, capitão), Jean-Baptiste Gorby (lesão), Sikou Niakaté (tendão de Aquiles desde Abril), Bright Arrey-Mbi (lesão) e Denis Huseinbasic em dúvida. Sports Mole 13/09 + The Football Faithful 14/09, independentes uma da outra. A API-Football devolveu zero registos de lesões para esta fixture, lacuna registada",
+        "Ausências do Estoril com duas fontes concordantes: Xavi Sintes (joelho, ainda não jogou desde que chegou do Córdoba); três reforços de fecho de mercado (Roko Jurisic, Milan Robin, Nail Omerovic) podem estrear-se. Sports Mole 13/09 + The Football Faithful 14/09",
+        "Defesa do Braga intacta nos onzes prováveis das duas fontes: Bernardo; Barcia, Vasco Carvalho, Lagerbielke. As baixas são todas do meio-campo para a frente",
+        "Mudança de treinador: o Estoril trocou no Verão, Ian Cathro saiu para o Saint-Étienne em Junho e Vasco Matos assinou em Julho até 2027/28 (RTP, Observador, site oficial do Estoril). SC Braga sem mudança, Carlos Vicens desde Maio de 2025 (Record, scbraga.pt)",
+        "Probabilidade, três leituras: odds Bet365 sem margem dão cerca de 66% ao Braga (1.42 / 4.33 / 8.00); a tips.gg cota o Braga a cerca de 65%; a Sports Mole prevê 2-0. A odd de 2.10 no Braga não sofrer pede 47,6%",
+        "Terceiros do mesmo lado do mercado: MightyTips recomenda Ambas Marcam Não com o argumento de que o Estoril não marca; Sports Mole prevê 2-0; Dailysports titula a antevisão com o Braga a responder em casa",
+        "Proveniência: nenhum número acima vem de amigáveis. Os jogos de pré-época do Estoril (Belenenses, Torreense, Alverca, Atlético CP) e do Braga foram excluídos à mão pelo campo de competição da API-Football",
+        "Padrões ao intervalo: indisponíveis por pesquisa (lacuna conhecida do Passo 4.6); nenhum mercado activo depende deles"
+      ],
+      "sources": [
+        "API-Football: /fixtures (últimos 10 por equipa, com competição declarada por jogo), /teams/statistics (liga 94, época 2026, splits casa/fora), /fixtures/headtohead, /injuries, /odds bookmaker 8 (Bet365)",
+        "Sports Mole, antevisão Braga vs Estoril Praia de 13/09/2026: ausências com razão, onzes prováveis, registo caseiro do Braga (4 vitórias, 4 balizas a zero, 8 golos) e registo de golos do Estoril. Primeira fonte das ausências",
+        "The Football Faithful, antevisão Sporting Braga vs Estoril de 14/09/2026: confirma Ricardo Horta, Gorby, Niakaté e Arrey-Mbi fora e o Estoril em 17.º sem vencer há 13 jogos. Segunda fonte das ausências, independente da primeira",
+        "MightyTips, previsão de 14/09/2026: Ambas Marcam Não, com o Braga em 4 vitórias em casa sem sofrer e o Estoril sem marcar em 3 dos últimos 4 jogos da liga",
+        "RTP, Observador e site oficial do Estoril Praia para a troca de treinador (Cathro fora em Junho, Vasco Matos dentro em Julho); Record e scbraga.pt para a continuidade de Carlos Vicens",
+        "FootyStats, via resultado de pesquisa (a página H2H devolveu 403 ao acesso directo): H2H alargado Braga-Estoril, 23 encontros, 2,91 golos por jogo, ambas marcaram em 48%"
+      ]
+    },
+    {
+      "market": "btts",
+      "marketLabel": "Ambas Marcam",
+      "pick": "Ambas Marcam Sim",
+      "fixtureId": 1550120,
+      "home": {
+        "name": "Inter",
+        "logo": "https://media.api-sports.io/football/teams/505.png"
+      },
+      "away": {
+        "name": "Udinese",
+        "logo": "https://media.api-sports.io/football/teams/494.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-09-14T18:45:00Z",
+      "odds": 1.95,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Inter ganhou as três jornadas mas não é a muralha de outros anos: oito golos marcados e três sofridos na liga e apenas uma baliza a zero nos últimos seis jogos em todas as provas. Em San Siro sofreu nos dois jogos de liga que fez, 3-2 ao Nápoles e 4-1 ao Monza. Do outro lado, o Udinese marcou em todos os jogos oficiais desta época, cinco em cinco, e na única deslocação fez três golos em Monza. O historial recente também ajuda: ambas marcaram em três dos últimos cinco e o Udinese foi ganhar a San Siro na época passada. A 1.95 a odd pede 51,3%; pelos splits fica mais perto dos 58 aos 60, e a SportsGambler, que recomenda o mesmo mercado, estima 55 a 60 contra 50,5 implícitos. O que tira força à tese é a enfermaria do Udinese: Zaniolo, Solet, Piotrowski, Palma, Arizala e Zanoli estão fora e o ataque fica entregue ao Keinan Davis, com o Ekkelenkamp e o Unai Gomez atrás dele. Mesmo assim a tese assenta em padrão de equipa e não em nomes: o Inter tem sofrido em casa e o Udinese não fica em branco. Uma stake.",
+      "factors": [
+        "Inter na Serie A 2026/27 (n=3): 8 golos marcados, 3 sofridos, 3 vitórias. 4-1 Monza em casa, 0-1 no Cagliari, 3-2 Nápoles em casa (API-Football /fixtures + /teams/statistics, liga 135, época 2026)",
+        "Inter em casa na Serie A 2026/27 (n=2): 3,5 golos marcados e 1,5 sofridos por jogo, ZERO balizas a zero, sofreu nos dois jogos (API-Football /teams/statistics, splits casa/fora)",
+        "Inter com apenas 1 baliza a zero nos últimos 6 jogos em todas as provas (The Hard Tackle, antevisão de 13/09/2026)",
+        "Inter nos últimos 10 jogos em casa, todas as provas: 3,0 golos marcados e 1,1 sofridos por jogo; ambas marcaram em 7 dos 10 e nos 3 últimos seguidos (SportsGambler, antevisão de 14/09/2026)",
+        "Udinese marcou em TODOS os jogos oficiais de 2026/27 (n=5): 1-1 Como, 1-0 Padova na Taça, 2-3 no Monza, 2-1 Venezia na Taça, 1-2 Lazio (API-Football /fixtures, competição declarada por jogo). Confirmado pela The Hard Tackle",
+        "Udinese fora na Serie A 2026/27 (n=1, amostra pequena e declarada): 3 golos marcados em Monza (API-Football /teams/statistics)",
+        "Udinese: ambas marcaram nos 3 últimos jogos seguidos e em 11 dos últimos 20 jogos fora (SportsGambler)",
+        "H2H, últimos 5 encontros oficiais: ambas marcaram em 3. Inter 1-2 Udinese em 08/2025, Inter 2-1 Udinese em 03/2025 e Udinese 2-3 Inter em 09/2024; não marcaram ambas em Udinese 0-1 Inter (01/2026) e Inter 2-0 Udinese (Taça, 12/2024). H2H alargado de 38 encontros: ambas marcaram em 53% (API-Football /fixtures/headtohead + FootyStats)",
+        "Ausências do Udinese, seis nomes confirmados pelas três fontes (API-Football /injuries + SportsGambler 14/09 + The Hard Tackle 13/09): Nicolò Zaniolo, Oumar Solet, Jakub Piotrowski, Matteo Palma, Juan Arizala e Alessandro Zanoli. As três concordam em QUEM falta; divergem no motivo e no grau em dois casos, e fica declarado: a API dá o Piotrowski fora por problemas cardíacos e a imprensa dá-o lesionado no jogo com a Lazio; a API classifica o Zanoli como em dúvida (joelho) e a imprensa dá-o indisponível, com regresso a 12/10 tal como o Zaniolo (coxa, na API; isquiotibiais, na imprensa) e o Palma",
+        "Ausências do Inter, com a discordância entre fontes declarada: a /injuries da API-Football (fixture 1550120, consultada e reconfirmada ao vivo a 14/09) devolve apenas dois nomes e nenhum deles como fora — Djed Spence em dúvida (lesão) e Federico Dimarco em dúvida (lesão no joelho). A SportsGambler e a The Hard Tackle dão o Spence indisponível e o Dimarco já recuperado e de volta às opções depois de falhar o Real Madrid, ou seja CONTRADIZEM a API no caso do Dimarco. O Valentin Carboni (cruzados até Outubro) aparece só na SportsGambler: nem a API-Football nem a The Hard Tackle o registam, logo é fonte única e não confirmada. O único ponto em que as fontes batem certo é o Spence fora ou em dúvida; o estado do Dimarco só fica resolvido com o onze oficial. Nada disto sustenta a tese, que assenta no padrão de golos sofridos em casa e não no plantel do Inter",
+        "Sem mudança de treinador dos dois lados: Cristian Chivu no Inter e Kosta Runjaic no Udinese (The Hard Tackle, 13/09/2026)",
+        "Probabilidade, três leituras: odds Bet365 sem margem dão cerca de 51,3% ao ambas marcam (1.95 / 1.80); a SportsGambler estima a probabilidade real em 55 a 60% contra 50,5% implícitos e recomenda o mercado a 1.98; um algoritmo citado nas antevisões coloca o mercado em 50/50, divergência registada",
+        "Terceiros do mesmo lado: SportsGambler recomenda Ambas Marcam Sim a 1.98; The Hard Tackle prevê 3-1 para o Inter; Sportskeeda e Football Whispers apontam ao mesmo mercado",
+        "Contexto: o Inter vem de perder 2-1 em Madrid na Liga dos Campeões a 08/09 e joga em casa seis dias depois, com o plantel inteiro; o Udinese ganhou a San Siro na época passada (1-2 em 08/2025)",
+        "Proveniência: nenhum número acima inclui amigáveis. Os jogos de pré-época do Inter (Betis, Juventus, Milan, Man City, Karlsruher) e do Udinese (Barcelona, Forest, Trabzonspor, Mainz, Shabab Al Ahli) foram excluídos à mão pelo campo de competição da API-Football",
+        "Padrões ao intervalo: indisponíveis por pesquisa (lacuna conhecida do Passo 4.6); nenhum mercado activo depende deles"
+      ],
+      "sources": [
+        "API-Football: /fixtures (últimos 10 por equipa, com competição declarada), /teams/statistics (liga 135, época 2026, splits casa/fora), /fixtures/headtohead, /injuries, /predictions, /odds bookmaker 8 (Bet365)",
+        "SportsGambler, antevisão Inter Milan vs Udinese de 14/09/2026: onzes prováveis, lista de ausências com razão e data de regresso, forma dos últimos 10 em casa e fora e probabilidade estimada. Primeira fonte das ausências",
+        "The Hard Tackle, antevisão de 13/09/2026: dá os treinadores (Chivu e Runjaic) e a série de balizas a zero do Inter, e confirma os seis ausentes do Udinese. Segunda fonte das ausências do Udinese. NÃO é fonte concordante para o Inter: dá o Dimarco recuperado, ao contrário da /injuries da API-Football, e não regista o Carboni",
+        "Sports Mole via Yahoo Sports, antevisão Inter Milan vs Udinese de 14/09/2026: terceira lista de ausências, concordante com as duas anteriores",
+        "Sportskeeda e Football Whispers, previsões de 14/09/2026 a apontar ao mesmo mercado (cross-check de consenso, não decisão)",
+        "FootyStats, via resultado de pesquisa (a página H2H devolveu 403 ao acesso directo): H2H alargado Inter-Udinese, 38 encontros, 2,95 golos por jogo, ambas marcaram em 53%"
+      ]
+    }
+  ]
+}
