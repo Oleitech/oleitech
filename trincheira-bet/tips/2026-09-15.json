@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T07:19:00.328Z",
+  "units": "stakes",
+  "notes": "Terça-feira de meio de semana: uma jornada de La Liga a meio da semana e a terceira eliminatória da Taça da Liga inglesa. O grosso do cartaz é taça — Liverpool-Tottenham, Ipswich-Arsenal, Reading-Brentford, West Ham-Fulham — e taça às oito da manhã é apostar às cegas: os treinadores mexem em meia equipa, ninguém sabe quem joga e a tese cai com o onze. Ficaram todos de fora.\n\nSaiu uma tip só, e é o Alavés não sofrer em Mendizorroza, a 2.10. O Valencia leva um golo em cinco jornadas, o pior arranque da história do clube, despediu o Corberán anteontem e chega com o Sadiq e o Canós na enfermaria. Nas três últimas visitas a Vitória ficou em branco. O que me trava a mão é o treinador interino — equipas acabadas de trocar de treinador costumam aparecer mais juntas — mas isso não é o que lhes põe golos no marcador. Preferi este mercado ao Alavés vencer, a 1.75, porque a tese é o Valencia não marcar e um 0-0 paga-me o bilhete na mesma.\n\nO boletim curto leva três pernas de países diferentes, a 2.61: o Middlesbrough, o total do Rayo-Espanyol e o Linfield em Portadown.\n\nNo corvo não houve nada. As duas únicas combinações que caíam dentro da banda estavam mal pagas e não se força boletim.\n\nExposição do dia: uma stake.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1563147,
+          "match": "Middlesbrough vs Millwall",
+          "pick": "Vitoria Middlesbrough",
+          "odds": 1.5,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1570391,
+          "match": "Rayo Vallecano vs Espanyol",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "sport": "football"
+        },
+        {
+          "fixtureId": 1562067,
+          "match": "Portadown vs Linfield",
+          "pick": "Vitoria Linfield",
+          "odds": 1.36,
+          "sport": "football"
+        }
+      ],
+      "combined_odds": 2.61,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "tips": [
+    {
+      "market": "clean_sheet",
+      "marketLabel": "Nao sofre",
+      "pick": "Alaves nao sofre golos",
+      "fixtureId": 1570383,
+      "home": {
+        "name": "Alaves",
+        "logo": "https://media.api-sports.io/football/teams/542.png"
+      },
+      "away": {
+        "name": "Valencia",
+        "logo": "https://media.api-sports.io/football/teams/532.png"
+      },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-09-15T18:00:00Z",
+      "odds": 2.1,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 0.5,
+      "context_depth": "full",
+      "tese": "O Valencia fez um golo em cinco jornadas da La Liga 2026/27 — o pior arranque da história do clube — e ficou em branco em quatro delas, incluindo as duas saídas (1-3 no Dep. La Coruña e 0-1 em Sevilha). Despediu o Corberán a 13 de Setembro e chega a Mendizorroza com o Óscar Sánchez interino, dois dias de trabalho e o ataque desfeito: o Sadiq está fora até Novembro, o Canós também não joga, e atrás faltam o Diakhaby, o Copete, o Tárrega e o Foulquier. Do outro lado, o Alavés ganhou os três jogos em casa nesta liga — 3-0 ao Getafe, 1-0 ao Villarreal e 5-2 ao Osasuna — com dois desses três sem sofrer. E há historial: nas três últimas visitas do Valencia a Mendizorroza o marcador deles ficou a zero, 0-0 em Outubro de 2025, 1-0 em Maio de 2025 e 1-0 em Setembro de 2023. O mercado que diz isto exactamente é o Alavés não sofrer, a 2.10: o Alavés a vencer paga 1.75 e perde-se num 0-0, que é precisamente o cenário que estou a comprar. Trava a mão a troca de treinador, que costuma dar uma equipa mais junta atrás na estreia, e a falta do Garcés no eixo da defesa do Alavés.",
+      "factors": [
+        "Valencia: 1 golo em 5 jornadas da La Liga 2026/27, sem marcar em 4 delas (API-Football, so jogos oficiais, n=5)",
+        "Valencia fora na La Liga 2026/27: 1 golo em 2 deslocacoes (1-3 no Dep. La Coruna, 0-1 em Sevilha), n=2",
+        "Alaves em casa na La Liga 2026/27: 3 vitorias em 3, 9 golos marcados e 2 sofridos, 2 jogos sem sofrer (n=3)",
+        "Alaves em casa na La Liga 2026/27: ambas marcaram em 1 dos 3 jogos; Valencia fora: ambas marcaram em 0 de 2 (n=3 e n=2)",
+        "H2H em Mendizorroza (La Liga, jogos oficiais): Valencia sem marcar nas 3 ultimas visitas — 0-0 em Out/2025, 1-0 em Mai/2025, 1-0 em Set/2023; nas ultimas 5 do confronto o Valencia falhou o golo em 3",
+        "Baixas do Valencia confirmadas por duas fontes concordantes (API-Football /injuries + SportsGambler): Sadiq (isquiotibiais, regresso Nov/2026), Diakhaby, Copete, Tarrega, Foulquier, Diego Lopez, Canos; SportsGambler acrescenta Rioja, Guido Rodriguez e Andre Almeida (castigo)",
+        "Baixas do Alaves nas mesmas duas fontes: Facundo Garces (central, fora) e Mikel Rodriguez (ligamentos cruzados, ate Abr/2027)",
+        "Mudanca de treinador: Corberan despedido a 13/09/2026 com o director-geral; Oscar Sanchez interino (Noticias de Alava + Zamin, duas fontes)",
+        "Tres modelos: Dimers da 50,7% ao Alaves, 25,6% ao empate e 23,7% ao Valencia, com ambas marcam a 48,9%; SportsGambler estima ~60% na vitoria do Alaves; modelo da API-Football aponta Alaves",
+        "Preco: 2.10 no Bet365 implica 47,6%; o Alaves a vencer paga 1.75 e o ambas marcam nao paga 1.75, ambos abaixo do valor deste"
+      ],
+      "sources": [
+        "API-Football — fixtures, H2H e /injuries (La Liga 2026/27, so jogos oficiais) — 1a fonte de ausencias",
+        "SportsGambler (pagina do jogo, 15/09/2026) — onzes provaveis e baixas com razao e data de regresso — 2a fonte de ausencias, concordante",
+        "Dimers — probabilidades do modelo (Alaves 50,7 / empate 25,6 / Valencia 23,7; ambas marcam 48,9)",
+        "Noticias de Alava (13/09/2026) — despedimento de Corberan e ambiente no Valencia",
+        "Zamin.uz (13/09/2026) — confirmacao do despedimento de Corberan e do director-geral",
+        "FootyStats — pagina H2H devolveu HTTP 403; splits casa/fora reconstruidos a partir dos resultados oficiais da API, com competicao e amostra declaradas"
+      ]
+    }
+  ]
+}
