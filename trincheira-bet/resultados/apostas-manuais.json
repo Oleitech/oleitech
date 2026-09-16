@@ -1,0 +1,4 @@
+{
+  "_nota": "Apostas live decididas no chat, fora do bot. Nao estao em telegram_pending_alerts nem no alert-archive do worker, por isso o ciclo diario nao as apanha sozinho. Injectar a mao em resultados/data/DATA.json, dentro de live_alerts.alerts, depois do ciclo escrever o ficheiro.",
+  "pendentes": []
+}

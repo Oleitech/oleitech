@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T08:55:00+01:00",
+  "units": "stakes",
+  "notes": "Meio da semana com a Liga Europa a abrir a fase de liga e a La Liga a meter a sexta jornada pelo meio. Parece muito jogo, mas quase tudo o que tinha preco jeitoso e estreia entre equipas que nunca se cruzaram — sem historial nao da para fiar nos numeros, e isso deitou fora a maior parte da lista.\n\nSai uma tip so: ambas marcam no Riazor, Depor-Sevilha. O Depor subiu e ainda nao fez um jogo sem que as duas equipas marcassem, cinco em cinco, e o Sevilha marcou em todas as jornadas e so travou o adversario uma vez. Ainda por cima o Sevilha vai sem o Sangante, central, que junta castigo e tornozelo. A 1.91 apanhamos o topo do mercado: quem da palpites anda todo no mesmo sitio, mas a 1.81 e 1.90.\n\nO que faz confusao e a amostra: sao cinco jornadas de epoca e o historial directo e de 2018, quando o Depor ainda era da primeira. E esse o risco, nao a tese.\n\nBoletins: hoje nao sai nenhum. O padrao precisava de duas tips e so ha uma, nos curtos so duas pernas passaram o crivo e sao precisas tres, e o corvo nao teve par que aguentasse. Nao se forca boletim.\n\nExposicao do dia: uma stake e meia.",
+  "accumulators": [],
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Sim",
+      "fixtureId": 1570387,
+      "home": {
+        "name": "Deportivo La Coruna",
+        "logo": "https://media.api-sports.io/football/teams/544.png"
+      },
+      "away": {
+        "name": "Sevilla",
+        "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-09-16T17:00:00Z",
+      "odds": 1.91,
+      "bookmaker": "Bet365",
+      "score": 83,
+      "stake": 1.5,
+      "context_depth": "full",
+      "flashscore_preview": false,
+      "tese": "O Depor subiu e ainda nao jogou um jogo sem que as duas equipas marcassem: cinco jornadas, cinco vezes ambas a marcar (1-1 com o Elche, 1-1 em Malaga, 3-1 ao Valencia, 3-2 em Vila-real, 1-1 em Getafe). Nove golos marcados, seis sofridos, zero jogos com a baliza a zero dos dois lados. Em casa sao dois em dois. Do outro lado o Sevilha marcou nas cinco jornadas e so conseguiu travar o adversario uma vez, no 1-0 ao Valencia; nas duas saidas, ambas marcaram nas duas (1-3 em Bilbau e 1-1 no Espanyol). Ha um pormenor que puxa ainda mais para este lado: o Sevilha vai sem o Sangante, central, que junta castigo do vermelho ao Espanyol com uma lesao no tornozelo, e sem o Vargas, que ainda nem se estreou esta epoca por causa do joelho. O Isaac Romero, que uma das fontes dava por castigado, esta convocado e vai jogar com o Stassin la a frente. O Depor so tem o Noe Carrillo em duvida e tem o Aubameyang com cinco golos em cinco jornadas. A 1.91 estamos a apanhar o topo do mercado num cenario em que as duas equipas marcam em praticamente todos os jogos que fazem. O que trava a mao e a amostra: sao cinco jornadas de epoca e o historial directo e de 2018, da ultima vez que o Depor foi da primeira divisao.",
+      "factors": [
+        "Deportivo na La Liga 2026/27: ambas marcaram em 5 de 5 jornadas (1-1 Elche, 1-1 Malaga, 3-1 Valencia, 2-3 Vila-real, 1-1 Getafe) — 9 golos marcados, 6 sofridos, n=5, so jogos oficiais (API-Football)",
+        "Deportivo em casa na La Liga 2026/27: ambas marcaram em 2 de 2 (1-1 Elche, 3-1 Valencia), n=2. SportsGambler alarga a serie a 7 jogos caseiros seguidos com ambas a marcar, mas essa contagem mistura La Liga 2026/27 com a Segunda 2025/26 — fica declarada como tal",
+        "Deportivo sem qualquer jogo com a baliza a zero na La Liga 2026/27 (0 clean sheets em 5, n=5)",
+        "Sevilha na La Liga 2026/27: marcou em 5 de 5 jornadas; ambas marcaram em 4 de 5 (unica excepcao o 1-0 ao Valencia), n=5",
+        "Sevilha fora na La Liga 2026/27: ambas marcaram em 2 de 2 (1-3 no Athletic Club, 1-1 no Espanyol), n=2. SportsGambler da 1.70 golos sofridos por jogo nos ultimos 10 jogos fora (mistura La Liga 2026/27 e 2025/26 — declarado)",
+        "Baixas do Sevilha confirmadas por tres fontes concordantes (API-Football /injuries fixture=1570387, lista oficial de 24 convocados via Vamos Mi Sevilla, e o apanhado de baixas da jornada 6 do soccerway/JornadaPerfecta): Arouna Sangante, central, castigo + tornozelo; Ruben Vargas, joelho, ainda sem se estrear na epoca",
+        "CORRECCAO DE FONTE: o SportsGambler dava o Isaac Romero fora por vermelho. As outras duas fontes poem-no na lista de convocados e no onze provavel ao lado do Stassin — a informacao do SportsGambler foi descartada, nao usada com ressalva",
+        "Deportivo sem baixas confirmadas; Noe Carrillo em duvida (tornozelo, API-Football /injuries). Aubameyang com 5 golos em 5 jornadas",
+        "H2H: 3 de 5 com ambas a marcar (La Liga, 2015-2018, n=5) — amostra antiga, da ultima passagem do Deportivo pela primeira divisao; entra como sinal fraco, nao como pilar",
+        "Consenso de mercado alinhado em 3+ fontes: SportsGambler da Ambas Marcam Sim como pick principal a 1.81, Sportskeeda a 1.90 e o TelecomAsia a 1.92 — a Bet365 esta a 1.91, o topo do intervalo",
+        "Treinadores estaveis dos dois lados: Antonio Hidalgo no Deportivo e Matias Almeyda no Sevilha, sem mudanca recente",
+        "Probabilidade implicita do mercado: 52.4% a 1.91. Modelo proprio da ~0.85 x ~0.82 = ~0.70, o que deixa margem confortavel mesmo com a amostra curta"
+      ],
+      "sources": [
+        "API-Football /fixtures (forma por competicao declarada, n=5 La Liga 2026/27 por equipa)",
+        "API-Football /fixtures/headtohead (H2H 544-536, n=10)",
+        "API-Football /injuries fixture=1570387 — Sangante e Vargas fora, Noe Carrillo em duvida (fonte 1 das baixas)",
+        "Vamos Mi Sevilla — lista oficial de 24 convocados para Riazor, com Isaac Romero incluido (fonte 2 das baixas)",
+        "JornadaPerfecta / soccerway — duvidas e baixas da jornada 6 da La Liga: Sangante e Vargas (fonte 3 das baixas)",
+        "SportsGambler — onzes provaveis, forma casa/fora dos ultimos 10 e pick Ambas Marcam Sim a 1.81 (info de ausencias descartada por contradicao)",
+        "Sportskeeda e TelecomAsia — previews com Ambas Marcam Sim como aposta principal (1.90 e 1.92)",
+        "Infobae / El Desmarque — antevisao e declaracoes do Antonio Hidalgo, confirmacao de treinadores",
+        "Odds Bet365 via API-Football /odds fixture=1570387 bookmaker=8"
+      ]
+    }
+  ]
+}
