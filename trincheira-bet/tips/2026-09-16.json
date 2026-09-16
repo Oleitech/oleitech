@@ -2,7 +2,7 @@
   "date": "2026-09-16",
   "generated_at": "2026-09-16T08:55:00+01:00",
   "units": "stakes",
-  "notes": "Meio da semana com a Liga Europa a abrir a fase de liga e a La Liga a meter a sexta jornada pelo meio. Parece muito jogo, mas quase tudo o que tinha preco jeitoso e estreia entre equipas que nunca se cruzaram — sem historial nao da para fiar nos numeros, e isso deitou fora a maior parte da lista.\n\nSai uma tip so: ambas marcam no Riazor, Depor-Sevilha. O Depor subiu e ainda nao fez um jogo sem que as duas equipas marcassem, cinco em cinco, e o Sevilha marcou em todas as jornadas e so travou o adversario uma vez. Ainda por cima o Sevilha vai sem o Sangante, central, que junta castigo e tornozelo. A 1.91 apanhamos o topo do mercado: quem da palpites anda todo no mesmo sitio, mas a 1.81 e 1.90.\n\nO que faz confusao e a amostra: sao cinco jornadas de epoca e o historial directo e de 2018, quando o Depor ainda era da primeira. E esse o risco, nao a tese.\n\nBoletins: hoje nao sai nenhum. O padrao precisava de duas tips e so ha uma, nos curtos so duas pernas passaram o crivo e sao precisas tres, e o corvo nao teve par que aguentasse. Nao se forca boletim.\n\nExposicao do dia: uma stake e meia.",
+  "notes": "Meio da semana com a Liga Europa a abrir a fase de liga e a La Liga a meter a sexta jornada pelo meio. Parece muito jogo, mas quase tudo o que tinha preco jeitoso e estreia entre equipas que nunca se cruzaram — sem historial nao da para fiar nos numeros, e isso deitou fora a maior parte da lista.\n\nSai uma tip so: ambas marcam no Riazor, Depor-Sevilha. O Depor subiu e ainda nao fez um jogo sem que as duas equipas marcassem, cinco em cinco, e o Sevilha marcou em todas as jornadas e so travou o adversario uma vez. Ainda por cima o Sevilha vai sem o Sangante, central, que junta castigo e tornozelo. A 1.91 apanhamos o topo do mercado: quem da palpites anda todo no mesmo sitio, mas a 1.81 e 1.90.\n\nO que faz confusao e a amostra: sao cinco jornadas de epoca e o historial directo e de 2018, quando o Depor ainda era da primeira. E esse o risco, nao a tese.\n\nBoletins: hoje nao sai nenhum. O padrao precisava de duas tips e so ha uma, nos curtos so duas pernas passaram o crivo e sao precisas tres, e o corvo nao teve par que aguentasse. Nao se forca boletim.\n\nExposicao do dia: uma stake e meia.\n\nADENDA DA TARDE: entrou uma segunda tip fora do ciclo da manha, decidida no chat as 17h00. Lepaul a marcar em Graz, meia stake a 2.42. Nao e uma leitura de jogo, e uma leitura de preco: o Bet365 esta a 2.00 e a Betano a 1.93 no mesmo mercado, e o 22Bet ficou 20 por cento acima das duas. Foi feita antes de os onzes sairem, com o risco de rotacao coberto so pelo historial de titularidades do jogador — por isso meia stake e nao mais.\n\nExposicao do dia revista: duas stakes.",
   "accumulators": [],
   "tips": [
     {
@@ -53,6 +53,45 @@
         "Infobae / El Desmarque — antevisao e declaracoes do Antonio Hidalgo, confirmacao de treinadores",
         "Odds Bet365 via API-Football /odds fixture=1570387 bookmaker=8"
       ]
+    },
+    {
+      "market": "scorers",
+      "marketLabel": "Marcador",
+      "pick": "Esteban Lepaul marca",
+      "fixtureId": 1636341,
+      "home": {
+        "name": "Sturm Graz",
+        "logo": "https://media.api-sports.io/football/teams/637.png"
+      },
+      "away": {
+        "name": "Rennes",
+        "logo": "https://media.api-sports.io/football/teams/94.png"
+      },
+      "league": "UEFA Europa League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-09-16T19:00:00Z",
+      "odds": 2.42,
+      "bookmaker": "22Bet",
+      "score": 66,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "flashscore_preview": false,
+      "tese": "O Lepaul e o ponta de lanca titular de um Rennes que vai a Graz como favorito, a 1.80 no vencedor e com o mercado a pedir mais de 2.5 golos a 1.53. Pelo ritmo dele — 20 golos em 32 jornadas da Ligue 1 na epoca passada e 3 em 4 nesta, uns 0,75 golos por 90 minutos — e contando com os 80 minutos que costuma fazer, a probabilidade de marcar da 43 por cento. A 2.42 a odd pede 41,3 por cento, portanto sobra pouco, mas sobra.\n\nO que faz esta aposta nao e o jogador, e o preco. O Bet365 paga 2.00 no mesmo mercado e a Betano 1.93 — duas casas grandes de acordo uma com a outra — e o 22Bet esta 20 por cento acima das duas. E nos marcadores que as casas fracas se enganam, e esta enganou-se para o nosso lado.\n\nRisco declarado: os onzes so saem as 19h00 e a aposta foi feita as 17h00, as cegas. O que cobre e o historial de titularidades, nao uma confirmacao: o Lepaul comecou os 4 jogos desta epoca e 31 dos 32 da epoca passada. Ainda assim e uma saida europeia a meio da semana com campeonato ao fim-de-semana, e o Rennes pode poupa-lo. Meia stake precisamente por isso — 4 por cento de margem nao paga mais do que meia.",
+      "factors": [
+        "Lepaul: 20 golos em 32 jogos da Ligue 1 2025-26 pelo Rennes (0,71 por 90 min) — API-Football",
+        "Lepaul: 3 golos em 4 jogos da Ligue 1 2026-27, 16 remates e 8 a baliza em 347 minutos, titular nos 4 — API-Football",
+        "Rennes favorito fora: 1.80 no vencedor, mais de 2.5 golos a 1.53, ambas marcam a 1.53 (Bet365)",
+        "Preco: 2.42 pede 41,3%; estimativa propria 43% (0,62 golos esperados em ~80 min). Bet365 a 2.00 e Betano a 1.93 no mesmo mercado",
+        "Rennes sem baixas reportadas. As sete ausencias do jogo sao todas do Sturm Graz (Grgic joelho, Soglo muscular, cinco fora da lista) — API-Football /injuries fixture=1636341",
+        "Onzes indisponiveis a hora da aposta: risco de rotacao coberto por historial de titularidades, nao por confirmacao — dai context_depth partial e meia stake"
+      ],
+      "sources": [
+        "API-Football /players id=163004, epocas 2025 e 2026",
+        "API-Football /fixtures id=1636341 e /injuries fixture=1636341",
+        "API-Football /odds fixture=1636341 — Anytime Goal Scorer: Bet365 2.00, Betano 1.93",
+        "Quota 2.42 no 22Bet, a casa onde a aposta foi colocada"
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-09-16T17:30:00+01:00"
 }
