@@ -146,7 +146,7 @@ const UI = {
       tennis_match: 'var(--accent)', tennis_games_total: 'var(--amber)', tennis_set_winner: 'var(--m-btts)', tennis_handicap: 'var(--m-corners)'
     };
     const MARKET_LABELS = {
-      btts: 'Ambas marcam', over25: 'Mais de 2.5 golos', cards: 'Cartões',
+      btts: 'Ambas marcam', over25: 'Mais/menos 2.5 golos', cards: 'Cartões',
       corners: 'Cantos', favorites: 'Favorito 1X2', scorers: 'Marcador', clean_sheet: 'Não sofre',
       nba_total: 'Total pontos', nba_spread: 'Spread', nba_moneyline: 'Moneyline', nba_prop: 'Player Prop',
       tennis_match: 'Match Winner', tennis_games_total: 'Total Games', tennis_set_winner: 'Set Winner', tennis_handicap: 'Games Handicap'

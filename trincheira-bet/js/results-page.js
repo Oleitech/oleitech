@@ -13,7 +13,7 @@ const ResultsPage = {
 
   marketLabels: {
     btts: 'BTTS',
-    over25: 'Over 2.5',
+    over25: 'Mais/menos 2.5',
     cards: 'Cartões',
     corners: 'Cantos',
     clean_sheet: 'Não sofre',
