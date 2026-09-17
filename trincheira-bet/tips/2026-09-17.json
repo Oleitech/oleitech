@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T07:26:23.800Z",
+  "units": "stakes",
+  "notes": "Quinta-feira de Liga Europa, primeira jornada da fase de liga: nove jogos europeus e duas partidas em Espanha. Sairam tres tips, mas duas vao com meia stake e ha uma razao para isso - as listas de baixas dos visitantes nao batem certo entre as fontes, e quando nao da para fiar nos numeros nao se forca o boletim.\n\nA mais solida e o Betis em casa com o Getafe. Ganharam cinco dos ultimos seis, ainda nao sofreram em casa esta epoca, e o Getafe perdeu as tres saidas com um golo marcado ao todo e sem tres dos homens da frente.\n\nAs outras duas sao jogos de estreia europeia, equipas que nunca se cruzaram, e entram mais leves. O Plzen nao fecha a baliza em casa desde que mudou de treinador - seis jogos, seis vezes ambas a marcar. E o Lech marca ha dez jogos seguidos contra um Palace com onze golos sofridos em cinco e sem o guarda-redes titular.\n\nA mais arriscada e o Plzen: o Union Saint-Gilloise e a melhor equipa em campo e pode ter meia duzia de ausencias que ninguem confirma.\n\nNos bilhetes saiu um duplo com o Betis e o Lech e um curto de tres pernas com o Estrela Vermelha, o Pyramids e o Vejle a marcar. O corvo ficou de fora - as pernas com preco bom eram todas de jogos sem historico entre as equipas.\n\nNota de metodo: a pesquisa esteve em baixo o dia todo, por isso a volta cega pelos sites de tipsters nao se fez e os numeros vieram todos da API, jogo a jogo e com a prova declarada. O unico olhar de fora foi o SportsGambler, e esse ja chegou com a analise feita - vale como confirmacao, nao como contraditorio.\n\nExposicao do dia: 3,5 stakes.",
+  "accumulators": [
+    {
+      "label": "standard",
+      "combined_odds": 2.71,
+      "score": 76,
+      "stake": 1,
+      "selections": [
+        {
+          "match": "Real Betis vs Getafe",
+          "fixtureId": 1570386,
+          "league": "La Liga",
+          "pick": "Vitoria Real Betis",
+          "odds": 1.67,
+          "bookmaker": "Bet365"
+        },
+        {
+          "match": "Crystal Palace vs Lech Poznan",
+          "fixtureId": 1636251,
+          "league": "Liga Europa",
+          "pick": "Lech Poznan marca (mais de 0.5)",
+          "odds": 1.62,
+          "bookmaker": "Bet365"
+        }
+      ],
+      "nota": "Duas provas diferentes (La Liga e Liga Europa). Sem perna partilhada com o bilhete curto."
+    },
+    {
+      "label": "curto",
+      "combined_odds": 2.83,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "match": "Zeleznicar Pancevo vs FK Crvena Zvezda",
+          "fixtureId": 1553841,
+          "league": "Super Liga (Servia)",
+          "pick": "Vitoria Crvena Zvezda",
+          "odds": 1.44,
+          "bookmaker": "Bet365"
+        },
+        {
+          "match": "Enppi vs Pyramids FC",
+          "fixtureId": 1612247,
+          "league": "Premier League (Egipto)",
+          "pick": "Vitoria Pyramids",
+          "odds": 1.48,
+          "bookmaker": "Bet365"
+        },
+        {
+          "match": "Vejle vs Brondby",
+          "fixtureId": 1636681,
+          "league": "Taca da Dinamarca",
+          "pick": "Vejle marca (mais de 0.5)",
+          "odds": 1.33,
+          "bookmaker": "Bet365"
+        }
+      ],
+      "nota": "Tres paises diferentes. Nenhuma das pernas esta numa tip nem no bilhete standard."
+    }
+  ],
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vencedor",
+      "pick": "Vitoria Real Betis",
+      "fixtureId": 1570386,
+      "home": {
+        "name": "Real Betis",
+        "logo": "https://media.api-sports.io/football/teams/543.png"
+      },
+      "away": {
+        "name": "Getafe",
+        "logo": "https://media.api-sports.io/football/teams/546.png"
+      },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-09-17T17:00:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 80,
+      "stake": 1,
+      "context_depth": "full",
+      "flashscore_preview": false,
+      "tese": "O Betis esta numa fase em que ganha a toda a gente: cinco vitorias nos ultimos seis jogos oficiais, com o Real Madrid batido em casa por 1-0, o Villarreal em Vila-real por 2-1 e o Lille na Champions por 3-2. Em casa, na La Liga, sao dois jogos, duas vitorias e duas balizas a zero - poucos jogos, e certo, mas foram contra o campeao e contra a Real Sociedad, nao contra ninguem. Do outro lado vem um Getafe que perdeu as tres saidas da epoca, marcou um golo nessas tres e levou seis, e que chega sem o Uche, sem o Juanmi e sem o Kiko Femenia, tudo gente do lado de la do meio-campo. O historico tambem puxa para aqui: o Betis ganhou tres dos ultimos cinco encontros e no Villamarin nao perde com o Getafe desde 2023. A 1.67 o mercado da-lhe 60% e isso e pouco para uma equipa neste estado de forma contra um adversario que nao marca fora.",
+      "factors": [
+        "Betis nos ultimos 6 jogos oficiais (La Liga 2026/27 n=5 + Champions n=1, API-Football): 5 vitorias e 1 derrota - 2-1 em Vila-real, 3-2 em Lille, 1-0 ao Real Madrid, 2-5 em Levante, 1-0 em Valencia, 1-0 a Real Sociedad",
+        "Betis em casa na La Liga 2026/27: 2 jogos, 2 vitorias, 2 balizas a zero (1-0 Real Madrid, 1-0 Real Sociedad), n=2 - amostra curta, declarada como tal. O SportsGambler alarga a 10 jogos caseiros (7V-1E-2D, 1.4 marcados e 0.7 sofridos por jogo) mas essa contagem mistura 2026/27 com 2025/26",
+        "Getafe fora em 2026/27 (La Liga n=2 + Conference League n=1, API-Football): 3 derrotas em 3, 1 golo marcado e 6 sofridos - 0-1 em Osasuna, 1-2 com o Partizan, 0-3 em Vitoria. Falhou marcar em 2 dessas 3",
+        "Getafe na La Liga 2026/27 (n=5): 1 vitoria, 2 empates, 2 derrotas, 3 golos marcados em 5 jornadas",
+        "H2H La Liga 2021-2026 (n=10, API-Football): Betis venceu 3 dos ultimos 5 encontros. No Villamarin, nos ultimos 5 encontros caseiros: 3 vitorias, 1 empate e 1 derrota, e a derrota foi em 2023",
+        "Baixas confirmadas por duas fontes concordantes (API-Football /injuries fixture=1570386 + antevisao SportsGambler): Getafe sem Uche (joelho), Juanmi (muscular) e Kiko Femenia (isquiotibiais); Abqar em duvida. Betis sem Diego Llorente (nariz partido) e sem Ruibal (joelho)",
+        "DESCARTADO POR FONTE UNICA: o SportsGambler da tambem Satriano (acumulacao de amarelos) e Djene (vermelho directo) por castigados, mas a API-Football nao os lista e o proprio onze provavel do SportsGambler mete os dois a jogar. Contradicao interna - nao entra na tese",
+        "Treinadores estaveis (API-Football /coachs): Manuel Pellegrini no Betis desde Agosto de 2020, Jose Bordalas no Getafe desde Abril de 2023. Sem mudanca recente",
+        "Mercado sugerido por terceiros: SportsGambler da Vitoria do Betis a 1.66 como pick principal e modela a probabilidade real perto dos 70%; o modelo do API-Football aponta Betis ou empate com menos de 3.5 golos. Forebet e Dimers devolveram 403 e nao entraram",
+        "Probabilidade implicita a 1.67 = 59.9%. Estimativa propria entre 63% e 66%, com base na forma caseira do Betis e no zero de golos do Getafe fora"
+      ],
+      "sources": [
+        "API-Football /fixtures?team=543&last=10 e ?team=546&last=10 - forma com competicao declarada por jogo (La Liga 2026/27, Champions, Conference League)",
+        "API-Football /fixtures/headtohead?h2h=543-546&last=10 - H2H La Liga 2021-2026, n=10",
+        "API-Football /injuries?fixture=1570386 - fonte 1 das ausencias (Uche, Juanmi, Kiko Femenia, Llorente, Ruibal)",
+        "SportsGambler, antevisao Real Betis vs Getafe de 17/09/2026 - fonte 2 das ausencias, concordante nos mesmos nomes; da tambem onzes provaveis e forma casa/fora dos ultimos 10",
+        "API-Football /coachs?team=543 e ?team=546 - confirmacao de que nao houve mudanca de treinador",
+        "API-Football /odds?fixture=1570386&bookmaker=8 - preco Bet365",
+        "Forebet, Dimers e FootyStats devolveram 403 e a WebSearch esteve indisponivel; os splits casa/fora vieram do /fixtures da API com a competicao declarada por jogo"
+      ]
+    },
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Sim",
+      "fixtureId": 1636316,
+      "home": {
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png"
+      },
+      "away": {
+        "name": "Union St. Gilloise",
+        "logo": "https://media.api-sports.io/football/teams/1393.png"
+      },
+      "league": "Liga Europa",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-09-17T19:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "flashscore_preview": false,
+      "tese": "O Plzen mudou de treinador a 1 de Agosto - entrou o Radoslav Kovac - e desde ai nao fechou a baliza em casa uma unica vez. Seis jogos caseiros esta epoca, seis com ambas a marcar, treze golos marcados e onze sofridos: 2-3 com o Sigma, 1-1 com o Slovacko, 5-1 ao Estrela Vermelha, 3-2 ao Zlin, 1-1 com o Brno e 1-3 com o Liberec. Nao e uma serie de sorte, e o feitio da casa. Do outro lado, o Union Saint-Gilloise marcou nas cinco saidas oficiais da epoca - tres em Charleroi, tres em Sint-Truiden, dois em Bodo, cinco em Westerlo e um na Supertaca em Bruges - e sofreu em quatro dessas cinco. Fica o aviso que fez descer a aposta: as listas de baixas do Union nao batem certo entre as fontes, uma da nove ausentes e a outra da o plantel limpo, e sem isso resolvido vai meia stake em vez de uma. A 1.62 ha valor mesmo assim, porque isto so falha se uma das duas ficar em branco e nenhuma delas o tem feito.",
+      "factors": [
+        "Plzen em casa em 2026/27 (Czech Liga n=5 + Liga Europa n=1, API-Football): ambas marcaram em 6 de 6 - 2-3 Sigma Olomouc, 1-1 Slovacko, 5-1 Estrela Vermelha, 3-2 Zlin, 1-1 Zbrojovka Brno, 1-3 Slovan Liberec",
+        "Plzen sofreu golos nos 6 jogos caseiros (11 sofridos) e marcou nos 6 (13 marcados), n=6, so jogos oficiais",
+        "Union Saint-Gilloise fora em 2026/27 (Jupiler Pro League n=3 + qualificacao da Champions n=1 + Supertaca da Belgica n=1, API-Football): marcou em 5 de 5 saidas (3, 3, 2, 5 e 1 golos) e sofreu em 4 de 5. Ambas marcaram em 4 dessas 5",
+        "CONTRA-SINAL DECLARADO: o Union so sofreu em 1 dos ultimos 5 jogos de todas as provas (0.4 golos sofridos por jogo), mas 4 desses 5 foram em casa. Fora, o registo e o oposto",
+        "Mudanca de treinador no Plzen: Radoslav Kovac assumiu a 01/08/2026 (API-Football /coachs) - a defesa esta em reconstrucao e o registo caseiro e todo posterior a mudanca. David Hubert no Union desde Julho de 2025, sem alteracao",
+        "SEM H2H POSSIVEL: as duas equipas nunca se defrontaram (API-Football /fixtures/headtohead 567-1393, n=0). Jornada 1 da fase de liga da Liga Europa - o historico nao existe e nao entra na tese",
+        "AUSENCIAS SEM DUAS FONTES CONCORDANTES, e e por isto que o contexto e parcial: a API-Football /injuries lista 9 ausentes do Union (Florucz, Van De Perre e Zorgane por vermelho, Mac Allister no joelho, Sykes no ombro, mais quatro fora da lista UEFA) e tanto a antevisao do SportsGambler como a tabela de lesoes da Pro League do mesmo site dao o plantel sem qualquer ausente. O onze provavel do SportsGambler nao inclui nenhum dos nomes da API, o que e coerente, mas coerencia nao e concordancia. Nenhuma ausencia do Union foi usada como argumento",
+        "Ausencias do Plzen (fonte unica, API-Football /injuries fixture=1636316): Jemelka (joelho), Paluska (cirurgia), Spacil (tornozelo), Vydra (joelho), Tvrdon fora da lista. O SportsGambler da o plantel limpo - mesma contradicao, tambem nao usada",
+        "Mercado sugerido por terceiros: SportsGambler recomenda Mais de 2.5 golos a 1.84 (tese vizinha, mercado diferente); o modelo do API-Football nao produz aconselhamento para esta prova por ser jornada 1 da fase de liga. Forebet e Dimers em 403",
+        "Probabilidade implicita a 1.62 = 61.7%. Estimativa propria de cerca de 72%, do produto de o Plzen marcar em casa (6/6) pelo Union marcar fora (5/5), com desconto por correlacao e pela amostra curta"
+      ],
+      "sources": [
+        "API-Football /fixtures?team=567&last=10 e ?team=1393&last=10 - forma com a competicao declarada em cada jogo, o que permite separar oficiais de amigaveis",
+        "API-Football /fixtures/headtohead?h2h=567-1393 - confirmacao de que nao ha encontros anteriores (n=0)",
+        "API-Football /injuries?fixture=1636316 - fonte 1 das ausencias dos dois lados",
+        "SportsGambler, antevisao Viktoria Plzen vs Union Saint-Gilloise de 17/09/2026 - fonte 2: onzes provaveis, forma dos ultimos 5 e pick Mais de 2.5 a 1.84. CONTRADIZ a fonte 1 nas ausencias (da os dois plantéis sem baixas)",
+        "SportsGambler, tabela de lesoes da Belgium First Division A - terceira consulta ao Union, tambem sem qualquer ausente listado. A contradicao com a API ficou por resolver e e o motivo do context_depth parcial",
+        "API-Football /coachs?team=567 e ?team=1393 - mudanca de treinador no Plzen a 01/08/2026 (Radoslav Kovac)",
+        "API-Football /odds?fixture=1636316&bookmaker=8 - preco Bet365",
+        "Transfermarkt e BBC Sport bloqueados nesta sessao; FootyStats, Forebet e Dimers em 403; WebSearch indisponivel o dia todo. Sem quarta via para arbitrar as ausencias do Union"
+      ]
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Total da equipa",
+      "pick": "Lech Poznan marca (mais de 0.5)",
+      "fixtureId": 1636251,
+      "home": {
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png"
+      },
+      "away": {
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png"
+      },
+      "league": "Liga Europa",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-09-17T19:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "flashscore_preview": false,
+      "tese": "O Palace tem treinador novo desde Julho e uma defesa que ainda nao pegou: sofreu nas quatro jornadas da Premier League e leva onze golos em cinco jogos oficiais, quatro deles com o City e tres com o Ipswich, em casa. Por cima disso o Dean Henderson esta fora com uma lesao no pe e o Chadi Riad, central, esta fora ate ao proximo ano - o onze provavel mete o Benitez na baliza. Do outro lado, o Lech marcou nos dez ultimos jogos e nas cinco saidas oficiais da epoca marcou sempre, treze golos ao todo, com o Ishak, o Sayyadmanesh e o Walemark todos no onze provavel. Escolhemos de proposito o mercado que diz exactamente isto - o Lech marca - e nao o ambas marcam a 1.84: o Palace joga sem o Mateta, e a nossa tese nao cobre o ataque deles - nao vale a pena meter no bilhete uma coisa que a tese nao defende. A 1.62 pagamos 62% por um cenario que ronda os 72%. Vai com meia stake porque a lista de baixas do Lech so tem uma fonte a sustenta-la.",
+      "factors": [
+        "Crystal Palace em 2026/27 (Premier League n=4 + Taca da Liga n=1, API-Football): sofreu golos nas 4 jornadas da Premier League, 11 sofridos em 5 jogos oficiais - 2-3 Ipswich (casa), 3-0 Middlesbrough (taca, casa), 3-2 Fulham (fora), 1-4 Manchester City (casa), 0-2 Everton (fora)",
+        "Crystal Palace em casa em 2026/27 (n=3 oficiais): sofreu em 2 dos 3, 7 golos sofridos em 3 jogos",
+        "NUMERO DESCARTADO POR PROVENIENCIA: o SportsGambler da o Palace com 1V-2E-7D nos ultimos 10 e ambas a marcar em 4 jogos caseiros seguidos, mas essa contagem inclui amigaveis de pre-epoca (Freiburg, Fulham) e a Como Cup. Nao bate com os jogos oficiais da API e nao foi usada",
+        "Lech Poznan fora em 2026/27 (Ekstraklasa n=3 + qualificacao da Liga Europa n=2, API-Football): marcou nas 5 saidas, 13 golos - 1-2 Gornik Zabrze, 3-2 Widzew Lodz, 2-2 FC Thun, 5-0 KI Klaksvik, 2-1 Wieczysta Krakow",
+        "Lech marcou nos 10 ultimos jogos oficiais sem excepcao (1, 1, 2, 3, 2, 7, 5, 3, 1, 2 golos), n=10",
+        "Baixas defensivas do Palace com duas fontes concordantes (API-Football /injuries fixture=1636251 + antevisao SportsGambler): Chadi Riad, central, joelho, fora ate Junho de 2027; Jean-Philippe Mateta, isquiotibiais. A API acrescenta Dean Henderson, guarda-redes titular, com lesao no pe - fonte unica, mas aceite porque o onze provavel do SportsGambler poe o Benitez na baliza - o criterio e este: uma ausencia de fonte unica so entra na tese quando a outra fonte a confirma por substituicao no onze, nao por silencio",
+        "DESCARTADO POR FONTE UNICA: Nketiah e Ismaila Sarr aparecem como ausentes so no SportsGambler. Nao entram na tese - e tambem por isso se escolheu o mercado do Lech marcar em vez do ambas marcam, que dependeria do ataque do Palace",
+        "AUSENCIAS DO LECH SEM CONCORDANCIA: a API-Football lista Douglas (tornozelo), Gholizadeh (joelho), Kozubal e Hakans fora; o SportsGambler diz que o Lech nao tem lesoes. O onze provavel do SportsGambler nao inclui nenhum deles e mantem Ishak, Sayyadmanesh, Walemark e Rodriguez. E este ponto por fechar que faz o contexto parcial",
+        "Mudanca de treinador no Palace: P. Sage assumiu a 01/07/2026 (API-Football /coachs). Niels Frederiksen no Lech desde 2024, sem alteracao",
+        "SEM H2H POSSIVEL: nunca se defrontaram (API-Football /fixtures/headtohead 52-347, n=0), jornada 1 da fase de liga",
+        "Mercado sugerido por terceiros: SportsGambler recomenda Ambas Marcam Sim a 1.84; a nossa tese so cobre metade disso e por isso foi para o Total da equipa visitante. Forebet e Dimers em 403",
+        "Probabilidade implicita a 1.62 = 61.7%. Estimativa propria entre 70% e 74%, do cruzamento de o Lech marcar em 10 de 10 com o Palace sofrer em 4 das 4 jornadas da Premier League"
+      ],
+      "sources": [
+        "API-Football /fixtures?team=52&last=10 e ?team=347&last=10 - forma com competicao declarada por jogo; permitiu separar os oficiais dos amigaveis que o SportsGambler misturou",
+        "API-Football /fixtures/headtohead?h2h=52-347 - sem encontros anteriores (n=0)",
+        "API-Football /injuries?fixture=1636251 - fonte 1 das ausencias (Riad, Mateta, Henderson no Palace; Douglas, Gholizadeh, Kozubal, Hakans no Lech)",
+        "SportsGambler, antevisao Crystal Palace vs Lech Poznan de 17/09/2026 - fonte 2: concordante em Riad e Mateta, contradiz no Lech (da o plantel limpo); traz onzes provaveis e pick Ambas Marcam Sim a 1.84",
+        "API-Football /coachs?team=52 e ?team=347 - P. Sage no Palace desde 01/07/2026",
+        "API-Football /odds?fixture=1636251&bookmaker=8 - preco Bet365 do mercado Total - Away",
+        "FootyStats, Forebet e Dimers em 403; BBC Sport e Transfermarkt bloqueados; WebSearch indisponivel todo o dia"
+      ]
+    }
+  ]
+}

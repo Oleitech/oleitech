@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-16",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Sim",
+        "fixtureId": 1570387,
+        "home": {
+          "name": "Deportivo La Coruna",
+          "logo": "https://media.api-sports.io/football/teams/544.png"
+        },
+        "away": {
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "league": "La Liga",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+        "kickoff": "2026-09-16T17:00:00Z",
+        "odds": 1.91,
+        "bookmaker": "Bet365",
+        "stake": 1.5,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1.5,
+        "final_score": "0-1",
+        "note": "O Deportivo nao marcou em casa ao Sevilha (0-1); a serie de cinco jornadas com ambas a marcar quebrou-se justamente no jogo em que a apostamos."
+      },
+      {
+        "market": "scorers",
+        "marketLabel": "Marcador",
+        "pick": "Esteban Lepaul marca",
+        "fixtureId": 1636341,
+        "home": {
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png"
+        },
+        "away": {
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png"
+        },
+        "league": "UEFA Europa League",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+        "kickoff": "2026-09-16T19:00:00Z",
+        "odds": 2.42,
+        "bookmaker": "22Bet",
+        "stake": 0.5,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -0.5,
+        "final_score": "0-0",
+        "note": "Jogo terminou 0-0 (dois golos anulados pelo VAR, um de cada lado). O Lepaul so entrou aos 86 minutos e nunca teve hipotese de marcar - o risco de rotacao assinalado na tese concretizou-se."
+      }
+    ],
+    "accumulators": [],
+    "summary": {
+      "total": 2,
+      "green": 0,
+      "red": 2,
+      "hit_rate": 0,
+      "total_stake": 2,
+      "total_return": 0,
+      "pnl": -2,
+      "roi_pct": -100,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 2,
+      "combined_return": 0,
+      "combined_pnl": -2,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1583995,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Fortuna Koln vs SV Wehen",
+        "league": "3. Liga (Germany)",
+        "elapsed": 52,
+        "score": "0-2",
+        "conf": 85,
+        "factors": [
+          "Fortuna Koln ainda nao marcou",
+          "2 SoT . 6 remates . 61% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Liga BTTS 66%",
+          "Preco 1.73"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "advIsHome": true,
+        "sentAt": 1789582239540,
+        "deliveries": 0,
+        "odds": 1.727,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 85 < 90",
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1789584758241,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "date": "2026-09-16",
+        "fixtureId": 1636217,
+        "strategy": "CANTOS AO INTERVALO (chat)",
+        "market": "Total de cantos: Mais de 15.5",
+        "match": "Ararat-Armenia vs Sparta Praha",
+        "league": "UEFA Europa League",
+        "elapsed": 45,
+        "score": "0-2",
+        "odds": 2,
+        "stake": 0.5,
+        "shadow": false,
+        "manual": true,
+        "source": "chat - decisao do dono, 16/09/2026",
+        "factors": [
+          "10 cantos na 1a parte (Ararat 1, Sparta 9)",
+          "Linha 15.5 no total do jogo: faltam 6",
+          "Mercado ao vivo pagava 2.00 = 46% implicito; estimativa propria 55-85%",
+          "Contagem de cantos confirmada pelo dono na casa dele antes de apostar"
+        ],
+        "result": "RED",
+        "finalCorners": 15,
+        "finalHome": 1,
+        "finalAway": 4,
+        "finalScore": "1-4",
+        "return": 0,
+        "pnl": -0.5,
+        "nota": "Total de cantos ficou em 15 (Ararat-Armenia 2, Sparta Praha 13) - a linha 15.5 pedia 16 ou mais. Faltou um canto."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "CANTOS AO INTERVALO (chat)": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_total": 0.5,
+      "stake_mensuravel": 0.5,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": -0.5,
+      "roi_pct_mensuravel": -100,
+      "odds_registadas": 1,
+      "nota_mensuravel": "1 alerta apostado hoje, uma aposta manual decidida no chat fora do bot: Ararat-Armenia vs Sparta Praha (Total de cantos: Mais de 15.5) 0.5 stake a 2.00 RED, fechou em 15 cantos. O unico alerta do worker (Fortuna Koln vs SV Wehen, Ambas Marcam - Sim) ficou em sombra (confianca 85 < 90) e fica fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_nocional": 1
+    }
+  },
+  "balance": 33.92,
+  "notes": "Dia mau: as duas tips pre-jogo falharam (Depor-Sevilha nao marcou dos dois lados, 0-1; Lepaul entrou tarde demais em Graz, 0-0 sem golos) e a aposta manual de cantos no Ararat-Sparta ficou a um canto da linha (15 contra 15.5). P&L do dia -2,50 stakes. O unico alerta do bot ficou em sombra (confianca 85) e nao entrou na banca."
+}
