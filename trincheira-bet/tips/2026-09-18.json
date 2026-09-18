@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T07:40:00+01:00",
+  "units": "stakes",
+  "notes": "Sexta-feira com pouca coisa nas ligas grandes: Bundesliga, Premier, Ligue 1, Serie A e La Liga com um jogo cada, mais a segunda divisão espanhola e a belga.\n\nHoje não sai tip nenhuma a solo. O modelo de golos apontava a dois jogos e nenhum aguentou a investigação. No Gent–Standard o modelo queria menos de 2.5, mas o Gent tem enfiado quatro e cinco golos ao Standard em casa e o Standard está a levar quase três por jogo fora. Não dá para ir contra isso. No Albacete–Córdoba o mais de 2.5 até tinha preço, mas há informação cruzada sobre baixas no ataque do Albacete e a equipa só marca 0,6 por jogo. Com o onze da casa por esclarecer, não se força boletim.\n\nFicam dois bilhetes. O curto junta o ambas marcam do Brentford–Chelsea e do Monaco–Lens com a vitória da Polessya às 13:30. O corvo junta o Bayern a ganhar com menos de 6.5 golos e o Kasımpaşa a não perder em casa contra um Konyaspor que perdeu quatro dos últimos cinco. O mais arriscado é o corvo: a perna turca vive de um Kasımpaşa que empata muito, e a do Bayern só cai com uma goleada de sete, contra um Union com meia defesa de fora.\n\nExposição total: stake e meia (meia no curto, uma no corvo).",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1557408,
+          "match": "Brentford vs Chelsea",
+          "league": "Premier League",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-18T19:00:00Z"
+        },
+        {
+          "fixtureId": 1552769,
+          "match": "Monaco vs Lens",
+          "league": "Ligue 1",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.44,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-18T18:45:00Z"
+        },
+        {
+          "fixtureId": 1565487,
+          "match": "Polessya vs Kryvbas KR",
+          "league": "Premier League (Ucrania)",
+          "pick": "Vitoria Polessya",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-18T12:30:00Z"
+        }
+      ],
+      "combined_odds": 2.58,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1575167,
+          "match": "Bayern München vs Union Berlin",
+          "league": "Bundesliga",
+          "pick": "Bayern vence e Menos de 6.5 golos",
+          "odds": 1.37,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-18T18:30:00Z"
+        },
+        {
+          "fixtureId": 1584418,
+          "match": "Kasımpaşa vs Konyaspor",
+          "league": "Süper Lig",
+          "pick": "Dupla hipótese 1X (Kasımpaşa não perde)",
+          "odds": 1.38,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-18T17:00:00Z"
+        }
+      ],
+      "combined_odds": 1.89,
+      "score": 70,
+      "stake": 1
+    }
+  ]
+}

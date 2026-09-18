@@ -1,0 +1,316 @@
+{
+  "date": "2026-09-17",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "favorites",
+        "marketLabel": "Vencedor",
+        "pick": "Vitoria Real Betis",
+        "fixtureId": 1570386,
+        "home": {
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "away": {
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "league": "La Liga",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+        "kickoff": "2026-09-17T17:00:00Z",
+        "odds": 1.67,
+        "bookmaker": "Bet365",
+        "stake": 1,
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.67,
+        "pnl": 0.67,
+        "final_score": "1-0",
+        "note": "O Betis venceu o Getafe por 1-0 em casa, a sexta vitoria nos ultimos sete jogos oficiais - a tese cumpriu-se sem sustos."
+      },
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Sim",
+        "fixtureId": 1636316,
+        "home": {
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "away": {
+          "name": "Union St. Gilloise",
+          "logo": "https://media.api-sports.io/football/teams/1393.png"
+        },
+        "league": "Liga Europa",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+        "kickoff": "2026-09-17T19:00:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "stake": 0.5,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -0.5,
+        "final_score": "0-3",
+        "note": "O Plzen perdeu por 0-3 em casa com o Union Saint-Gilloise e nao marcou - quebrou-se ali a serie de seis jogos caseiros seguidos com ambas as equipas a marcar."
+      },
+      {
+        "market": "favorites",
+        "marketLabel": "Total da equipa",
+        "pick": "Lech Poznan marca (mais de 0.5)",
+        "fixtureId": 1636251,
+        "home": {
+          "name": "Crystal Palace",
+          "logo": "https://media.api-sports.io/football/teams/52.png"
+        },
+        "away": {
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "league": "Liga Europa",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+        "kickoff": "2026-09-17T19:00:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "stake": 0.5,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -0.5,
+        "final_score": "4-0",
+        "note": "O Crystal Palace goleou o Lech Poznan por 4-0 e os polacos nao marcaram, quebrando a serie de dez jogos seguidos a marcar - a defesa do Palace, que vinha a sofrer em todas as jornadas, apareceu justamente neste jogo."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "selections": [
+          {
+            "fixtureId": 1570386,
+            "match": "Real Betis vs Getafe",
+            "pick": "Vitoria Real Betis",
+            "odds": 1.67,
+            "sport": "football",
+            "final_score": "1-0",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1636251,
+            "match": "Crystal Palace vs Lech Poznan",
+            "pick": "Lech Poznan marca (mais de 0.5)",
+            "odds": 1.62,
+            "sport": "football",
+            "final_score": "4-0",
+            "result": "RED",
+            "note": "Crystal Palace goleou 4-0 e o Lech nao marcou."
+          }
+        ],
+        "combined_odds": 2.71,
+        "score": 76,
+        "stake": 1,
+        "result": "RED",
+        "return": 0,
+        "pnl": -1
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1553841,
+            "match": "Zeleznicar Pancevo vs FK Crvena Zvezda",
+            "pick": "Vitoria Crvena Zvezda",
+            "odds": 1.44,
+            "sport": "football",
+            "final_score": "1-2",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1612247,
+            "match": "Enppi vs Pyramids FC",
+            "pick": "Vitoria Pyramids",
+            "odds": 1.48,
+            "sport": "football",
+            "final_score": "1-2",
+            "result": "GREEN"
+          },
+          {
+            "fixtureId": 1636681,
+            "match": "Vejle vs Brondby",
+            "pick": "Vejle marca (mais de 0.5)",
+            "odds": 1.33,
+            "sport": "football",
+            "final_score": "1-2",
+            "result": "GREEN"
+          }
+        ],
+        "combined_odds": 2.83,
+        "score": 65,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.42,
+        "pnl": 0.92
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "green": 1,
+      "red": 2,
+      "hit_rate": 33.33,
+      "total_stake": 2,
+      "total_return": 1.67,
+      "pnl": -0.33,
+      "roi_pct": -16.5,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 1.42,
+      "accumulators_pnl": -0.08,
+      "combined_stake": 3.5,
+      "combined_return": 3.09,
+      "combined_pnl": -0.41,
+      "combined_roi_pct": -11.71
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1636304,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "OFI vs 1899 Hoffenheim",
+        "league": "UEFA Europa League (World)",
+        "elapsed": 58,
+        "score": "1-0",
+        "conf": 86,
+        "factors": [
+          "1899 Hoffenheim ainda nao marcou",
+          "4 SoT . 16 remates . 65% posse",
+          "Preco 1.25"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1789668054063,
+        "deliveries": 0,
+        "odds": 1.25,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 86 < 90",
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1789670310905,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1636287,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Lillestrom vs Torreense",
+        "league": "UEFA Europa League (World)",
+        "elapsed": 53,
+        "score": "0-2",
+        "conf": 89,
+        "factors": [
+          "Lillestrom ainda nao marcou",
+          "4 SoT . 10 remates . 63% posse",
+          "Casa a pressionar",
+          "Preco 1.44"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "advIsHome": true,
+        "sentAt": 1789675973117,
+        "deliveries": 0,
+        "odds": 1.444,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 89 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1789678578703,
+        "return": 0,
+        "pnl": 0
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem alertas apostados hoje - os 2 alertas do bot (OFI vs Hoffenheim, Lillestrom vs Torreense) ficaram em sombra por confianca abaixo de 90 e nao entram na banca."
+    },
+    "shadow_summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        }
+      },
+      "stake_nocional": 2
+    }
+  },
+  "balance": 33.51,
+  "notes": "Dia negativo: o Betis cumpriu (1-0 ao Getafe, GREEN), mas o Plzen nao fechou o BTTS ao perder 0-3 com o Union e o Lech nao marcou na goleada do Palace (4-0), o que arrastou o acumulador standard para RED. O curto de tres pernas (Crvena Zvezda, Pyramids, Vejle a marcar) saiu GREEN em cheio. P&L pre-jogo -0,41 stakes. No live, os dois alertas do bot (OFI-Hoffenheim RED, Lillestrom-Torreense GREEN) ficaram em sombra por confianca abaixo de 90 e nao entraram na banca. Banca fecha em 33,51 stakes."
+}
