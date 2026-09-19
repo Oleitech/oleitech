@@ -1,0 +1,359 @@
+{
+  "gerado": "2026-09-17T12:36:27.700Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1570386,
+      "data": "2026-09-17T17:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Real Betis - Getafe",
+      "amostra": {
+        "casa": 6,
+        "fora": 7,
+        "descartados": 7
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.6,
+          "previsao": 27,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": 2.5,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 2.8,
+            "minha_prob": 0.43,
+            "prob_da_casa": 0.324,
+            "edge": 20.4,
+            "margem": 10.3,
+            "teria_ganho": true,
+            "retorno": 1.8
+          },
+          "real": 30,
+          "quem_acertou": "modelo",
+          "erro_modelo": 3,
+          "erro_casa": 5.5
+        },
+        "baliza": {
+          "previsao_bruta": 9.1,
+          "previsao": 8.9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8,
+          "discordancia": 0.9,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 10,
+            "lado": "Over",
+            "odd": 3.92,
+            "minha_prob": 0.308,
+            "prob_da_casa": 0.239,
+            "edge": 20.6,
+            "margem": 6.8,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 10,
+          "quem_acertou": "modelo",
+          "erro_modelo": 1.1,
+          "erro_casa": 2
+        }
+      }
+    },
+    {
+      "fixture": 1570390,
+      "data": "2026-09-17T19:30:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Malaga - Villarreal",
+      "amostra": {
+        "casa": 5,
+        "fora": 6,
+        "descartados": 8
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.6,
+          "previsao": 27,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 25.5,
+          "discordancia": 1.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 25.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.568,
+            "prob_da_casa": 0.485,
+            "edge": 8.5,
+            "margem": 7.9,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 21,
+          "quem_acertou": "casa",
+          "erro_modelo": 6,
+          "erro_casa": 4.5
+        },
+        "baliza": {
+          "previsao_bruta": 9.2,
+          "previsao": 9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 13.5,
+            "lado": "Under",
+            "odd": 1.06,
+            "minha_prob": 0.946,
+            "prob_da_casa": 0.88,
+            "edge": 0.3,
+            "margem": 7.2,
+            "teria_ganho": true,
+            "retorno": 0.06
+          },
+          "real": 8,
+          "quem_acertou": "casa",
+          "erro_modelo": 1,
+          "erro_casa": 0.5
+        }
+      }
+    },
+    {
+      "fixture": 1552173,
+      "data": "2026-09-18T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Groningen - PEC Zwolle",
+      "amostra": {
+        "casa": 6,
+        "fora": 6,
+        "descartados": 8
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.3,
+          "previsao": 30.5,
+          "media_da_liga": 28.2,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 4,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 2.42,
+            "minha_prob": 0.604,
+            "prob_da_casa": 0.387,
+            "edge": 46.1,
+            "margem": 6.7
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 11.4,
+          "previsao": 11,
+          "media_da_liga": 10.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 1.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 2.35,
+            "minha_prob": 0.506,
+            "prob_da_casa": 0.397,
+            "edge": 18.9,
+            "margem": 7.1
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575167,
+      "data": "2026-09-18T18:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayern München - Union Berlin",
+      "amostra": {
+        "casa": 6,
+        "fora": 4,
+        "descartados": 10
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.5,
+          "previsao": 28.8,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 31.5,
+          "discordancia": -2.7,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 29.5,
+            "lado": "Under",
+            "odd": 2.25,
+            "minha_prob": 0.58,
+            "prob_da_casa": 0.416,
+            "edge": 30.5,
+            "margem": 6.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 11.9,
+          "previsao": 11,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 11.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 11.5,
+            "lado": "Under",
+            "odd": 2.12,
+            "minha_prob": 0.625,
+            "prob_da_casa": 0.441,
+            "edge": 32.5,
+            "margem": 7.1
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557408,
+      "data": "2026-09-18T19:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Brentford - Chelsea",
+      "amostra": {
+        "casa": 7,
+        "fora": 5,
+        "descartados": 8
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.5,
+          "previsao": 29.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 3.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.693,
+            "prob_da_casa": 0.485,
+            "edge": 32.4,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.9,
+          "previsao": 10,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.53,
+            "minha_prob": 0.627,
+            "prob_da_casa": 0.611,
+            "edge": -4.1,
+            "margem": 7
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570397,
+      "data": "2026-09-18T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Espanyol - Elche",
+      "amostra": {
+        "casa": 5,
+        "fora": 6,
+        "descartados": 9
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 24,
+          "previsao": 24.2,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": -0.3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 23.5,
+            "lado": "Under",
+            "odd": 2.12,
+            "minha_prob": 0.486,
+            "prob_da_casa": 0.441,
+            "edge": 3.1,
+            "margem": 7.1
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.1,
+          "previsao": 8.9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.4,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 7.5,
+            "lado": "Under",
+            "odd": 2.55,
+            "minha_prob": 0.383,
+            "prob_da_casa": 0.366,
+            "edge": -2.2,
+            "margem": 7.2
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ],
+  "avaliado_em": "2026-09-18T06:07:18.948Z",
+  "balanco": {
+    "quem_ficou_mais_perto": {
+      "modelo": 2,
+      "casa": 2,
+      "empate": 0
+    },
+    "por_mercado": {
+      "remates": {
+        "modelo": 1,
+        "casa": 1,
+        "empate": 0
+      },
+      "baliza": {
+        "modelo": 1,
+        "casa": 1,
+        "empate": 0
+      }
+    },
+    "se_tivesse_apostado": {
+      "linhas": 4,
+      "retorno_em_stakes": -0.14
+    }
+  }
+}

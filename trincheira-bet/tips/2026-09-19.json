@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T06:15:45.973Z",
+  "units": "stakes",
+  "notes": "Sábado cheio, mas de valor a sério há pouco. Saiu uma tip só, e é do mercado dos golos que está em teste: mais de 2.5 no Blackpool-Plymouth, a meia stake. As duas equipas marcam e sofrem com facilidade e o Blackpool joga sem os dois centrais. É a mais arriscada do dia: em casa do Blackpool e fora do Plymouth os números são mais curtos do que na época toda, e não houve forma de ir buscar os golos esperados por campo.\n\nO modelo de golos deu mais seis candidatos e caíram todos na investigação. O menos de 2.5 no Sevilla-Barcelona pagava 4.00, mas o Barça marcou cinco ou mais em quatro dos últimos seis jogos oficiais, não dá para fiar. Os outros tinham os números da época ao contrário do lado do modelo, ou não havia fontes para confirmar baixas.\n\nNão há acumulador normal com uma tip só. Saem dois curtos a meia stake cada, ambos a 2.76, com vitórias do Molde, Sion e Rosenborg e ambas marcam em três jogos de Alemanha e Holanda.\n\nO corvo junta o Sporting a ganhar com pelo menos dois golos no jogo e o Barcelona a ganhar em Sevilha com pelo menos três, 1.82 na Marathonbet, uma stake. O Ajax e o Molde ficaram de fora porque o histórico com estes adversários não ajuda.\n\nExposição total: 2.5 stakes.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1494766,
+          "match": "Molde vs Aalesund",
+          "league": "Eliteserien",
+          "pick": "Vitória Molde",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T16:00:00Z"
+        },
+        {
+          "fixtureId": 1555397,
+          "match": "FC Sion vs FC Zurich",
+          "league": "Super League (Suíça)",
+          "pick": "Vitória Sion",
+          "odds": 1.48,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T16:00:00Z"
+        },
+        {
+          "fixtureId": 1575170,
+          "match": "Eintracht Frankfurt vs SC Freiburg",
+          "league": "Bundesliga",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T13:30:00Z"
+        }
+      ],
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1576185,
+          "match": "Karlsruher SC vs 1. FC Nürnberg",
+          "league": "2. Bundesliga",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T11:00:00Z"
+        },
+        {
+          "fixtureId": 1494765,
+          "match": "Kristiansund BK vs Rosenborg",
+          "league": "Eliteserien",
+          "pick": "Vitória Rosenborg",
+          "odds": 1.48,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T14:00:00Z"
+        },
+        {
+          "fixtureId": 1552171,
+          "match": "Sparta Rotterdam vs Heerenveen",
+          "league": "Eredivisie",
+          "pick": "Ambas marcam - Sim",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-19T16:45:00Z"
+        }
+      ],
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1575507,
+          "match": "Sporting CP vs Arouca",
+          "league": "Primeira Liga",
+          "pick": "Sporting vence e Mais de 1.5 golos",
+          "odds": 1.27,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-19T19:30:00Z"
+        },
+        {
+          "fixtureId": 1570400,
+          "match": "Sevilla vs Barcelona",
+          "league": "La Liga",
+          "pick": "Barcelona vence e Mais de 2.5 golos",
+          "odds": 1.43,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-19T19:00:00Z"
+        }
+      ],
+      "combined_odds": 1.82,
+      "score": 70,
+      "stake": 1
+    }
+  ],
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1564309,
+      "home": {
+        "name": "Blackpool",
+        "logo": "https://media.api-sports.io/football/teams/1356.png"
+      },
+      "away": {
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png"
+      },
+      "league": "League One",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/41.png",
+      "kickoff": "2026-09-19T14:00:00Z",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 40.8,
+        "prob_modelo": 0.64,
+        "prob_mercado": 0.58,
+        "valor": 0.056
+      },
+      "tese": "Jogo de duas equipas que marcam e sofrem com facilidade na League One. O Blackpool marcou em todos os sete jogos oficiais da época e cinco dos seis jogos de campeonato passaram os dois golos e meio; o Plymouth chega com 1,7 golos marcados por jogo e três vitórias nos últimos quatro. As médias somadas das duas equipas no campeonato dão perto de três golos por jogo. O Blackpool joga sem os dois centrais mais experientes, Horsfall (tornozelo) e Ihiekwe (dedo do pé), baixa confirmada pelo jornal do clube e pela Sports Mole, o que deixa a defesa mais exposta a um Plymouth que marca fora. O risco está nos números por campo: em casa o Blackpool deu mais de 2.5 em dois de três jogos, e o Plymouth fora só num de três, amostras curtas que não chegam para contrariar a época inteira mas pesam. Meia stake, como todas as tips deste mercado enquanto está em teste.",
+      "factors": [
+        "Blackpool, League One 2026/27 (6 jogos, API-Football): 11 golos marcados, 9 sofridos; mais de 2.5 em 5/6 (2-2, 1-3, 1-2, 4-0, 2-1, 1-1)",
+        "Plymouth, League One 2026/27 (6 jogos, API-Football): 10 marcados, 8 sofridos; mais de 2.5 em 3/6",
+        "Blackpool marcou em 7/7 jogos oficiais da época (6 de League One + 1 de League Cup, API-Football; confirmado pela Sports Mole)",
+        "Splits por campo, League One 2026/27 (API-Football, n=3 cada): Blackpool em casa 2/3 acima de 2.5 (7-3 em golos); Plymouth fora 1/3 (4-5 em golos) - o ponto fraco da tese",
+        "H2H oficial (API-Football, League One): 0-4 a 14/02/2026 e 1-0 a 23/08/2025 - 1/2 acima de 2.5, amostra curta",
+        "Baixas Blackpool: Horsfall (tornozelo), Ihiekwe (dedo do pé), Dale Taylor (isquiotibiais) - Blackpool Gazette e Sports Mole concordam; SportsGambler dá plantel completo (discordante, ignorado)",
+        "Baixas Plymouth: Malachi Boateng e Michael Baidoo (lesionados desde Agosto) - Blackpool Gazette e Sports Mole concordam",
+        "Mercado: Bet365 1.65 no Mais de 2.5 (probabilidade implícita 58%); o modelo de golos dá 64%, valor 5.6% na Bet365 (Marathonbet 1.61, 3%)",
+        "Terceiros: Sports Mole prevê 1-2; SportsGambler dá o Mais de 2.5 a 1.64 como estatística do jogo mas a pick principal é Blackpool +0.25; API-Football aconselha dupla hipótese X2 sem linha de golos"
+      ],
+      "sources": [
+        "API-Football: /fixtures (forma e H2H com competição), /predictions (médias de golos da League One), /odds Bet365 e Marathonbet",
+        "Blackpool Gazette - squad news v Plymouth (Horsfall, Ihiekwe, Taylor fora; Boateng, Baidoo no Plymouth)",
+        "Sports Mole - preview Blackpool vs Plymouth (mesmas baixas; previsão 1-2)",
+        "SportsGambler - blackpool-vs-plymouth 2026-09-19 (forma, O2.5 @1.64; lista de baixas vazia, discordante)",
+        "golos/previsoes/2026-09-19.json - candidato do modelo, lado mais",
+        "FootyStats devolveu 403 no WebFetch; Forebet e Dimers sem página do jogo - sem xG por campo"
+      ]
+    }
+  ]
+}

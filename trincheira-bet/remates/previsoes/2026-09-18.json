@@ -1,0 +1,211 @@
+{
+  "gerado": "2026-09-18T06:07:14.947Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1552173,
+      "data": "2026-09-18T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Groningen - PEC Zwolle",
+      "amostra": {
+        "casa": 5,
+        "fora": 6,
+        "descartados": 9
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.2,
+          "previsao": 30.5,
+          "media_da_liga": 28.2,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 2.42,
+            "minha_prob": 0.602,
+            "prob_da_casa": 0.387,
+            "edge": 45.6,
+            "margem": 6.7,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 26,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.5,
+          "erro_casa": 1.5
+        },
+        "baliza": {
+          "previsao_bruta": 11,
+          "previsao": 10.8,
+          "media_da_liga": 10.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 1.3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 2.35,
+            "minha_prob": 0.471,
+            "prob_da_casa": 0.397,
+            "edge": 10.6,
+            "margem": 7.1,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 8,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.8,
+          "erro_casa": 1.5
+        }
+      }
+    },
+    {
+      "fixture": 1557408,
+      "data": "2026-09-18T19:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Brentford - Chelsea",
+      "amostra": {
+        "casa": 8,
+        "fora": 4,
+        "descartados": 8
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.1,
+          "previsao": 29.6,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 2.1,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 31.5,
+            "lado": "Over",
+            "odd": 3.9,
+            "minha_prob": 0.342,
+            "prob_da_casa": 0.24,
+            "edge": 33.5,
+            "margem": 6.9,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 25,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.6,
+          "erro_casa": 2.5
+        },
+        "baliza": {
+          "previsao_bruta": 11.3,
+          "previsao": 10.3,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.8,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.532,
+            "prob_da_casa": 0.485,
+            "edge": 1.7,
+            "margem": 7.9,
+            "teria_ganho": false,
+            "retorno": -1
+          },
+          "real": 8,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.3,
+          "erro_casa": 1.5
+        }
+      }
+    },
+    {
+      "fixture": 1570397,
+      "data": "2026-09-18T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Espanyol - Elche",
+      "amostra": {
+        "casa": 6,
+        "fora": 6,
+        "descartados": 8
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 25.1,
+          "previsao": 25.1,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": 0.6,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 24.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.504,
+            "prob_da_casa": 0.464,
+            "edge": 0.9,
+            "margem": 7.8,
+            "teria_ganho": true,
+            "retorno": 1
+          },
+          "real": 32,
+          "quem_acertou": "modelo",
+          "erro_modelo": 6.9,
+          "erro_casa": 7.5
+        },
+        "baliza": {
+          "previsao_bruta": 9,
+          "previsao": 8.9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.4,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 12.5,
+            "lado": "Under",
+            "odd": 1.1,
+            "minha_prob": 0.907,
+            "prob_da_casa": 0.851,
+            "edge": -0.3,
+            "margem": 6.8,
+            "teria_ganho": true,
+            "retorno": 0.1
+          },
+          "real": 10,
+          "quem_acertou": "modelo",
+          "erro_modelo": 1.1,
+          "erro_casa": 1.5
+        }
+      }
+    }
+  ],
+  "avaliado_em": "2026-09-19T06:08:33.707Z",
+  "balanco": {
+    "quem_ficou_mais_perto": {
+      "modelo": 2,
+      "casa": 4,
+      "empate": 0
+    },
+    "por_mercado": {
+      "remates": {
+        "modelo": 1,
+        "casa": 2,
+        "empate": 0
+      },
+      "baliza": {
+        "modelo": 1,
+        "casa": 2,
+        "empate": 0
+      }
+    },
+    "se_tivesse_apostado": {
+      "linhas": 6,
+      "retorno_em_stakes": -2.9
+    }
+  }
+}
