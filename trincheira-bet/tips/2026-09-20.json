@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T06:27:05.260Z",
+  "units": "stakes",
+  "notes": "Sábado com cartaz a sério — Porto-Benfica, o derby de Madrid, o clássico em Marselha — e mesmo assim só saiu uma tip. Não é falta de jogos, é falta de preço: nos grandes o mercado já tem tudo metido na conta e não sobra nada para nós.\n\nA única que passou é o menos de 2.5 na Juventus-Atalanta, e é do mercado dos golos que anda em teste, por isso vai a meia stake. A Juve chega sem o Yildiz, sem o Khéphren Thuram e sem o Locatelli, jogou quarta-feira na Europa, e os dois jogos que fez em casa neste campeonato ficaram os dois nos dois golos certos. A Atalanta também não anda a marcar: cinco golos em quatro jornadas. É a mais arriscada do dia e assumo — há sites a apontar para o contrário, para golos dos dois lados, e a minha própria conta dá uma vantagem magrinha. O modelo dá mais do que isso e é ele que manda neste mercado.\n\nDois boletins curtos, meia stake cada, com as pernas em ligas diferentes e favoritos de casa bem instalados. O acumulador grande não saiu — com uma tip só não há com que o compor — e o corvo ficou em branco: os núcleos que serviam caíram na verificação e os que sobraram não arranjavam par dentro da banda.\n\nExposição do dia: uma stake e meia.",
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Menos de 2.5 golos",
+      "fixtureId": 1550132,
+      "home": {
+        "name": "Juventus",
+        "logo": "https://media.api-sports.io/football/teams/496.png"
+      },
+      "away": {
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-09-20T16:00:00Z",
+      "odds": 1.91,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 41,
+        "prob_modelo": 0.556,
+        "prob_mercado": 0.497,
+        "valor": 0.062
+      },
+      "tese": "A Juventus recebe a Atalanta sem o Yildiz (pé, fora até Novembro), sem o Locatelli (joelho) e, segundo a imprensa italiana, também sem o Khéphren Thuram, o Cambiaso, o Boga e o Ekhator — ou seja, com o miolo criativo desfeito e o Kolo Muani sozinho lá à frente. Os dois jogos que a Juve fez em casa neste campeonato acabaram os dois exactamente em dois golos (1-1 com o Milan, 2-0 ao Parma) e a equipa jogou na quarta-feira na Liga Europa, com três dias para recuperar. Do outro lado, a Atalanta leva cinco golos marcados em quatro jornadas e perdeu o Sulemana e o Hien. Agora, honestamente: marcar pouco não quer dizer jogos secos, e os jogos dela têm tido golos na mesma — três dos quatro passaram os dois e meio. Nos últimos sete encontros oficiais entre as duas houve quatro abaixo dos dois golos e meio, com uma média de 2,43 golos por jogo. O mercado paga 1.91 num cenário que o modelo de golos põe em 55,6% — é aí que está o valor. O reparo honesto: a Atalanta não fez uma baliza a zero nos últimos cinco jogos fora na Serie A e há casas de palpites a apontar para golos dos dois lados, por isso vai a meia stake, como todas as tips deste mercado enquanto está em teste.",
+      "factors": [
+        "Juventus, Serie A 2026/27 (4 jogos, API-Football): 6 golos marcados, 4 sofridos; 2 balizas a zero; em casa 1-1 (Milan) e 2-0 (Parma), os dois jogos exactamente em 2 golos",
+        "Atalanta, Serie A 2026/27 (4 jogos, API-Football): 5 marcados, 5 sofridos, 1 baliza a zero; fora, 2-1 na Roma e 0-1 ao Hapoel na Conference",
+        "H2H oficial (API-Football, últimos 7 encontros Serie A + Taça, 2024-2026): totais 1, 3, 2, 4, 2, 1, 4 — 4 de 7 abaixo de 2.5, média 2,43 golos por jogo",
+        "H2H só Serie A (API-Football, últimos 5): 0-1, 1-1, 0-4, 1-1, 2-2 — 3 de 5 abaixo de 2.5",
+        "Baixas Juventus: Yildiz (pé, regresso Novembro), Locatelli (joelho, regresso Fevereiro) e Cabal (muscular) — SportsGambler, Football Whispers e imprensa italiana (Sky Sport / Il Sussidiario) concordam; a imprensa italiana acrescenta K. Thuram, Cambiaso, Boga, Ekhator e Grabara",
+        "Baixas Atalanta: Hien (coxa) e Sulemana (joelho) — SportsGambler, Football Whispers e imprensa italiana concordam. O Kossounou aparece lesionado só numa das fontes (na outra está no onze provável): não confirmado, não usado",
+        "Calendário: a Juventus jogou a 17/09 na Liga Europa (5-0 ao NEC); a Atalanta não joga desde 12/09 — vantagem de frescura para a visitante, é o principal contra-argumento",
+        "Contexto: nenhuma das duas venceu nos últimos dois jogos do campeonato (Football Whispers)",
+        "Mercado: Bet365 1.91 no Menos de 2.5 (implícita 52,4%), Marathonbet 1.92; o modelo de golos dá 55,6%, valor de 6,2% na Bet365 e 6,8% na Marathonbet",
+        "Terceiros divididos: Football Whispers dá Menos de 2.5 como provável (e empate como pick principal); SportsGambler dá vitória da Juventus a 1.67; Sportskeeda e outros apontam a mais de 2.5 / ambas marcam. Cálculo próprio de Poisson sobre as médias por campo dá só +1,4% — mais fraco que o modelo",
+        "Onzes não publicados à hora da análise (API-Football /lineups vazio às 07:15); a tese não depende do onze, assenta em padrões de equipa e em baixas de longa duração",
+        "Atalanta, Serie A 2026/27 (4 jogos, API-Football): totais 3, 1, 3, 3 — 3 de 4 acima de 2.5",
+        "Juventus, último jogo de liga: 3-2 em Sassuolo, 5 golos — o único dos 4 acima de 2.5"
+      ],
+      "sources": [
+        "API-Football: /fixtures (forma com competição declarada), /fixtures/headtohead, /predictions, /odds Bet365 (8) e Marathonbet (2), /fixtures/lineups (vazio às 07:15)",
+        "SportsGambler - juventus-vs-atalanta 2026-09-20: onzes prováveis, baixas (Locatelli, Cabal, Yildiz / Hien, Sulemana), forma 10 jogos, pick vitória Juventus @1.67",
+        "Football Whispers - preview Juventus vs Atalanta 20/09/2026: baixas (Yildiz, Locatelli / Hien, Sulemana), Atalanta sem baliza a zero nos últimos 5 fora na Serie A, ambas marcaram em 3 dos últimos 5 Serie A, tip Menos de 2.5 como provável",
+        "Sky Sport Italia / Il Sussidiario / TuttoAtalanta - probabili formazioni 20/09/2026: lista de indisponíveis da Juventus (Grabara, Locatelli, Yildiz, K. Thuram, Ekhator, Boga, Cabal, Cambiaso) e da Atalanta (Kossounou, Hien, Sulemana); Gaetano regressa de castigo, Scamacca à frente do Krstovic",
+        "FootyStats - página H2H Juventus vs Atalanta: 43 encontros, média 2,77 golos, ambas marcam 53% (o WebFetch devolveu 403; número obtido pelo resumo de pesquisa, usado só como contraponto)",
+        "golos/previsoes/2026-09-20.json - candidato do modelo, lado menos, valor 6,3% na Bet365 e 7,4% na Marathonbet à hora de geração"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1558640,
+          "match": "Antwerp vs Union St. Gilloise",
+          "league": "Jupiler Pro League",
+          "pick": "Vitória Union St. Gilloise",
+          "odds": 1.55,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T11:30:00Z"
+        },
+        {
+          "fixtureId": 1557413,
+          "match": "Manchester City vs Sunderland",
+          "league": "Premier League",
+          "pick": "Vitória Manchester City",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T13:00:00Z"
+        },
+        {
+          "fixtureId": 1552770,
+          "match": "Nice vs Lille",
+          "league": "Ligue 1",
+          "pick": "Dupla hipótese: Empate ou Lille",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T15:15:00Z"
+        }
+      ],
+      "combined_odds": 2.64,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1557407,
+          "match": "Bournemouth vs Liverpool",
+          "league": "Premier League",
+          "pick": "Dupla hipótese: Empate ou Liverpool",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T13:00:00Z"
+        },
+        {
+          "fixtureId": 1494771,
+          "match": "Viking vs Lillestrom",
+          "league": "Eliteserien",
+          "pick": "Vitória Viking",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T15:00:00Z"
+        },
+        {
+          "fixtureId": 1558642,
+          "match": "Club Brugge KV vs Genk",
+          "league": "Jupiler Pro League",
+          "pick": "Vitória Club Brugge",
+          "odds": 1.45,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-20T16:30:00Z"
+        }
+      ],
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}
