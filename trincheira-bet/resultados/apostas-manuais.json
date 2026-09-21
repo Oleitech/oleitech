@@ -1,4 +1,180 @@
 {
   "_nota": "Apostas live decididas no chat, fora do bot. Nao estao em telegram_pending_alerts nem no alert-archive do worker, por isso o ciclo diario nao as apanha sozinho. Injectar a mao em resultados/data/DATA.json, dentro de live_alerts.alerts, depois do ciclo escrever o ficheiro.",
-  "pendentes": []
+  "pendentes": [],
+  "resolvidas": [
+    {
+      "date": "2026-09-20",
+      "fixtureId": 1593320,
+      "strategy": "MODELO GOLOS (GAP)",
+      "market": "Mais de 2.5 golos",
+      "match": "Levadiakos vs Olympiakos Piraeus",
+      "league": "Super League 1 (Grecia)",
+      "kickoff": "2026-09-20T14:00:00+00:00",
+      "pre_jogo": true,
+      "odds": 1.86,
+      "bookmaker": "Bet365",
+      "stake": 0.5,
+      "shadow": false,
+      "manual": true,
+      "source": "chat - decisao do dono, 20/09/2026",
+      "factors": [
+        "Sinal do modelo GAP em golos/previsoes/2026-09-20.json: prob_modelo 55.7 por cento, prob_mercado 50.6 por cento, pressao no lado mais",
+        "Valor de 3.6 por cento a 1.86 - ABAIXO do piso de 5 por cento na Bet365/Marathonbet que a regra de 17/09 exige",
+        "Nao foi promovido a tip pelo ciclo das 07:00 exactamente por isso; ficou em em_sombra no tips.json",
+        "A favor: Olympiakos marca fora e o Levadiakos sofre; era a leitura mais confortavel das tres do dia",
+        "CONTRA: o modelo GAP leva ROI -17.8 por cento nas linhas da Bet365 (4 certas em 9 resolvidas)",
+        "A favor do lado escolhido: dentro desse registo os overs acertaram 4 de 5 e os unders 1 de 7 - amostra pequena"
+      ],
+      "aviso": "Abaixo do piso de valor de 5 por cento. O bot nao enviaria isto e o ciclo nao a promoveu; foi decisao do dono no chat, contra o meu conselho de ficar fora das tres.",
+      "resultado": {
+        "status": "RED",
+        "final_score": "0-1",
+        "finalHome": 0,
+        "finalAway": 1,
+        "return": 0,
+        "pnl": -0.5,
+        "resolvido_em": "2026-09-21",
+        "nota": "So um golo no jogo (0-1) - abaixo de 2.5. Fica registado em resultados/data/2026-09-20.json, live_alerts.alerts."
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "strategy": "TESTE ACUMULADOR OVER 1.5",
+      "market": "Acumulador 8 pernas - Mais de 1.5 golos",
+      "match": "8 jogos (ver pernas)",
+      "league": "varias",
+      "odds": 5.344,
+      "bookmaker": "Bet365",
+      "stake": 0.5,
+      "shadow": false,
+      "manual": true,
+      "teste": "acumulador over 1.5 - ideia do dono 20/09/2026",
+      "source": "chat - decisao do dono, 20/09/2026",
+      "pernas": [
+        {
+          "fixtureId": 1550137,
+          "match": "Hellas Verona vs Vicenza Virtus",
+          "kickoff": "2026-09-20T13:00:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": 1557411,
+          "match": "Leeds vs Crystal Palace",
+          "kickoff": "2026-09-20T13:00:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": null,
+          "match": "Helsingborg vs Norrby IF",
+          "kickoff": "2026-09-20T13:00:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": 1552772,
+          "match": "Auxerre vs Stade Brestois 29",
+          "kickoff": "2026-09-20T13:00:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": null,
+          "match": "AD Ceuta FC vs Valladolid",
+          "kickoff": "2026-09-20T14:15:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": null,
+          "match": "Lokomotiv Plovdiv vs CSKA Sofia",
+          "kickoff": "2026-09-20T14:45:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": null,
+          "match": "Arzignano Valchiampo vs Renate",
+          "kickoff": "2026-09-20T15:30:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        },
+        {
+          "fixtureId": null,
+          "match": "Mura vs Celje",
+          "kickoff": "2026-09-20T15:30:00+00:00",
+          "pick": "Mais de 1.5 golos"
+        }
+      ],
+      "factors": [
+        "Teste da ideia do dono: juntar muitas pernas de mais de 1.5 golos em favoritos",
+        "Pernas filtradas por margem da casa abaixo de 6.5 por cento e por 2+ golos em pelo menos 75 por cento dos ultimos 8 jogos de cada equipa",
+        "Odd combinada real fechada a 5.344; a minha estimativa pelas odds da API era 6.89 - a API estava desactualizada em varias pernas",
+        "Odd media real por perna 1.233 contra 1.273 estimada",
+        "Expectativa medida em 238858 jogos historicos: acumuladores de 8 pernas de mais de 1.5 dao ROI entre -16 e -35 por cento",
+        "O dono foi avisado do ROI negativo antes de apostar e decidiu testar na mesma"
+      ],
+      "aviso": "Aposta de teste. Medicao previa em 238858 jogos diz que a estrutura e negativa (-16 a -35 por cento de ROI em bilhetes de 8 pernas). Nao e uma aposta com valor; e uma experiencia autorizada pelo dono.",
+      "resultado": {
+        "status": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "resolvido_em": "2026-09-21",
+        "nota": "3 das 8 pernas ficaram abaixo de 1.5 golos (Leeds 0-0, Helsingborg 0-0, Mura 0-0). Fica registado em resultados/data/2026-09-20.json, live_alerts.alerts, incluindo as pernas individuais.",
+        "pernas_resolvidas": [
+          {
+            "match": "Hellas Verona vs Vicenza Virtus",
+            "fixtureIdOriginal": 1550137,
+            "fixtureIdCorrigido": 1601542,
+            "final_score": "2-1",
+            "result": "GREEN"
+          },
+          {
+            "match": "Leeds vs Crystal Palace",
+            "fixtureIdOriginal": 1557411,
+            "fixtureIdCorrigido": 1557412,
+            "final_score": "0-0",
+            "result": "RED"
+          },
+          {
+            "match": "Helsingborg vs Norrby IF",
+            "fixtureIdOriginal": null,
+            "fixtureIdCorrigido": 1497706,
+            "final_score": "0-0",
+            "result": "RED"
+          },
+          {
+            "match": "Auxerre vs Stade Brestois 29",
+            "fixtureIdOriginal": 1552772,
+            "fixtureIdCorrigido": 1552766,
+            "final_score": "2-1",
+            "result": "GREEN"
+          },
+          {
+            "match": "AD Ceuta FC vs Valladolid",
+            "fixtureIdOriginal": null,
+            "fixtureIdCorrigido": 1569931,
+            "final_score": "1-1",
+            "result": "GREEN"
+          },
+          {
+            "match": "Lokomotiv Plovdiv vs CSKA Sofia",
+            "fixtureIdOriginal": null,
+            "fixtureIdCorrigido": 1551113,
+            "final_score": "1-1",
+            "result": "GREEN"
+          },
+          {
+            "match": "Arzignano Valchiampo vs Renate",
+            "fixtureIdOriginal": null,
+            "fixtureIdCorrigido": 1608282,
+            "final_score": "2-1",
+            "result": "GREEN"
+          },
+          {
+            "match": "Mura vs Celje",
+            "fixtureIdOriginal": null,
+            "fixtureIdCorrigido": 1558018,
+            "final_score": "0-0",
+            "result": "RED"
+          }
+        ],
+        "aviso_fixtureId": "Os fixtureId registados no chat para as pernas 1, 2 e 4 nao correspondiam ao jogo certo (apontavam para outros jogos na API). Resolvidos por nome de equipa + data 2026-09-20."
+      }
+    }
+  ]
 }

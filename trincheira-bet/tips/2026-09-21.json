@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T06:25:13.077Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de fim de ciclo e vê-se logo no cartaz: não joga nenhuma das cinco grandes. O que sobra é a Roménia, a Argentina, a Série B brasileira e uma enfiada de terceiros escalões. Dia magro a sério, e isso é o que é.\n\nAndei o tempo todo atrás de preço e não apareceu nenhum. Os dois jogos que prometiam eram o Spezia a receber o último classificado do grupo e o Petrolul a receber um Csikszereda com um ponto em nove jornadas. Equipas certas, leitura certa — só que não há valor nenhum: o mercado já meteu tudo isso na conta e as linhas estão todas piores do que o justo. Fui confirmar noutras casas e nenhuma das duas aguentou. Por isso o dia fica sem tip, e fica bem assim. Não se força boletim.\n\nO acumulador grande nem se põe, que sem tips aprovadas não há com que o compor. O corvo também ficou em branco: o único núcleo que caía dentro da banda era o do Spezia, e estas duas equipas nunca se defrontaram em jogo a sério — não dá para fiar nos números. Os outros favoritos do dia têm o mercado do corvo a preços fora da banda.\n\nSobra um boletim curto, meia stake, com três favoritos de casa em três países diferentes: Colômbia, Dinamarca e Brasil. Exposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1549641,
+          "match": "Real Cundinamarca vs Quindio",
+          "league": "Primera B (Colômbia)",
+          "pick": "Dupla hipótese: Real Cundinamarca ou empate",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-21T22:00:00Z"
+        },
+        {
+          "fixtureId": 1551345,
+          "match": "HB Koge vs Hobro",
+          "league": "1. Division (Dinamarca)",
+          "pick": "Dupla hipótese: HB Koge ou empate",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-21T17:00:00Z"
+        },
+        {
+          "fixtureId": 1520882,
+          "match": "Criciuma vs Operario-PR",
+          "league": "Série B (Brasil)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-21T22:30:00Z"
+        }
+      ],
+      "combined_odds": 2.61,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}
