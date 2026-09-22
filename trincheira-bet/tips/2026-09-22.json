@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T06:16:00.584Z",
+  "units": "stakes",
+  "notes": "Dia de pausa das selecções e isso vê-se logo na grelha: as vinte e uma grandes ligas europeias estão todas paradas. O que sobra é a Taça de Inglaterra nas rondas de qualificação, o EFL Trophy, a Taça da Escócia e a primeira eliminatória da taça holandesa entre equipas amadoras.\n\nNão há um único jogo que aguente uma tip individual. Para publicar uma aposta a solo é preciso fechar o contexto todo — ausências confirmadas por duas fontes e um onze que não seja adivinhação — e em provas destas isso não existe. Fica zero tips, e é a leitura certa: não se força boletim.\n\nOnde ainda havia matéria foi no acumulador curto. Saíram três pernas de mais de 1,5 golos, todas com histórico directo e forma a apontar ao mesmo lado: Gillingham-Cambridge e Tranmere-Shrewsbury no EFL Trophy, e Puerto Montt-Ñublense na Taça do Chile. Dá 2,26 de combinada, a meia stake.\n\nA perna mais frágil é a chilena: é a primeira mão de uma eliminatória e as duas equipas andam em maré má, o que às vezes dá jogos fechados. Mesmo assim, nos cinco encontros directos houve sempre dois golos ou mais, e as duas mãos que jogaram na Taça em 2024 acabaram ambas em 1-1.\n\nO acumulador corvo fica de fora. As únicas pernas com preço na banda eram jogos entre escalões diferentes, sem histórico que se possa usar.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1588899,
+          "match": "Gillingham vs Cambridge United",
+          "league": "EFL Trophy",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-22T18:00:00Z"
+        },
+        {
+          "fixtureId": 1588843,
+          "match": "Tranmere vs Shrewsbury",
+          "league": "EFL Trophy",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-22T18:00:00Z"
+        },
+        {
+          "fixtureId": 1638380,
+          "match": "D. Puerto Montt vs Nublense",
+          "league": "Copa Chile",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-22T21:00:00Z"
+        }
+      ],
+      "combined_odds": 2.26,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

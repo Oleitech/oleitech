@@ -1,0 +1,13 @@
+{
+  "gerado": "2026-09-22T06:06:22.615Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": []
+}
