@@ -3,6 +3,7 @@ const App = {
     btts: { gridId: 'top-picks-grid', badgeId: 'badge-btts', sectionId: 'section-btts' },
     favorites: { gridId: 'favorites-grid', badgeId: 'badge-favorites', sectionId: 'section-favorites' },
     over25: { gridId: 'over25-grid', badgeId: 'badge-over25', sectionId: 'section-over25' },
+    over15: { gridId: 'over15-grid', badgeId: 'badge-over15', sectionId: 'section-over15' },
     scorers: { gridId: 'scorers-grid', badgeId: 'badge-scorers', sectionId: 'section-scorers' },
     clean_sheet: { gridId: 'clean-sheet-grid', badgeId: 'badge-clean-sheet', sectionId: 'section-clean-sheet' },
     corners: { gridId: 'corners-grid', badgeId: 'badge-corners', sectionId: 'section-corners' },
@@ -104,6 +105,13 @@ const App = {
           <div class="title"><span class="swatch" style="background:var(--m-over)"></span> Golos · Mais/menos 2.5 <span class="badge" id="badge-over25">0</span></div>
         </div>
         <div class="tips-grid" id="over25-grid"></div>
+      </section>
+
+      <section id="section-over15" style="display:none">
+        <div class="section-head">
+          <div class="title"><span class="swatch" style="background:var(--m-over)"></span> Golos &middot; Mais/menos 1.5 <span class="badge" id="badge-over15">0</span></div>
+        </div>
+        <div class="tips-grid" id="over15-grid"></div>
       </section>
 
       <section id="section-scorers" style="display:none">

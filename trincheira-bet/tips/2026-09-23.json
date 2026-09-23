@@ -2,7 +2,56 @@
   "date": "2026-09-23",
   "generated_at": "2026-09-23T06:13:03.276Z",
   "units": "stakes",
-  "notes": "Meio de semana e a grelha não tem nada de jeito. As vinte e uma ligas grandes não jogam nenhuma e não há prova europeia. Ao contrário do que a semana prometia, também não há Carabao Cup nem taça italiana, alemã ou francesa — essas só entram mais para a frente. Sobra a Taça do Imperador no Japão, a taça checa, a holandesa entre amadores e o arranque da Taça do Golfo.\n\nNão sai nenhuma tip e não sai nenhum bilhete. Não é falta de vontade, é falta de matéria.\n\nO que tinha preço interessante era a Taça do Imperador: o Vissel Kobe em casa com o Sagan Tosu a 1,45 e o Machida a 1,33. O problema é o mesmo nos dois — é ronda de taça, os onzes só saem uma hora antes do apito e o Vissel jogou a Champions asiática no dia 16 e o campeonato no dia 20. Com três jogos em sete dias entra meia equipa em campo. Tese que depende do onze não se joga às sete da manhã.\n\nO Boston River, mais de 1,5 golos a 1,40, parecia o óbvio até se ir ver os números: as duas equipas fizeram sete golos nos últimos cinco jogos cada uma. A 1,40 não há gordura nenhuma.\n\nO corvo também fica em branco. As três pernas que caíam na banda são jogos entre escalões diferentes ou selecções que mal se defrontaram — sem histórico não se assina.\n\nExposição do dia: zero stakes.",
-  "tips": [],
+  "notes": "Meio de semana e a grelha não tem nada de jeito. As vinte e uma ligas grandes não jogam nenhuma e não há prova europeia. Ao contrário do que a semana prometia, também não há Carabao Cup nem taça italiana, alemã ou francesa — essas só entram mais para a frente. Sobra a Taça do Imperador no Japão, a taça checa, a holandesa entre amadores e o arranque da Taça do Golfo.\n\nO que tinha preço interessante era a Taça do Imperador: o Vissel Kobe em casa com o Sagan Tosu a 1,45 e o Machida a 1,33. O problema é o mesmo nos dois — é ronda de taça, os onzes só saem uma hora antes do apito e o Vissel jogou a Champions asiática no dia 16 e o campeonato no dia 20. Com três jogos em sete dias entra meia equipa em campo. Tese que depende do onze não se joga às sete da manhã.\n\nO Boston River, mais de 1,5 golos a 1,40, parecia o óbvio até se ir ver os números: as duas equipas fizeram sete golos nos últimos cinco jogos cada uma. A 1,40 não há gordura nenhuma. O corvo também fica em branco: as pernas que caíam na banda são jogos entre escalões diferentes ou selecções que mal se defrontaram — sem histórico não se assina.\n\nSai uma tip, e sai com aviso. O Madureira-Sampaio, mais de 1,5 golos a 1,50, foi o único preço do dia que ainda paga alguma coisa neste mercado. Só que a Pinnacle paga o mesmo, e quando a Pinnacle concorda com as casas moles é porque o preço está certo, não porque haja valor. Os números das duas equipas dão 67 por cento e a casa paga 66. Vai a meia stake porque foi pedida, não porque o ciclo da manhã a tenha aprovado — não a promoveu. E o controlo de qualidade chumbou-a por duas razões: score 58 quando o mínimo são 65, e odd 1.50 quando o piso de valor são 1.55. Fica publicada à mesma, por decisão, e com isto dito à frente. O número não foi arredondado para passar.\n\nExposição do dia: meia stake.",
+  "tips": [
+    {
+      "market": "over15",
+      "marketLabel": "Mais/menos 1.5 golos",
+      "pick": "Mais de 1.5 golos",
+      "fixtureId": 1638365,
+      "home": {
+        "name": "Madureira",
+        "logo": "https://media.api-sports.io/football/teams/7780.png"
+      },
+      "away": {
+        "name": "Sampaio Corrêa RJ",
+        "logo": "https://media.api-sports.io/football/teams/13115.png"
+      },
+      "league": "Copa Rio (Brasil) — jogo do 3.º lugar",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/1035.png",
+      "kickoff": "2026-09-23T17:45:00Z",
+      "odds": 1.5,
+      "bookmaker": "Marathonbet",
+      "score": 58,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "tese": "Dia sem nada, e este foi o único preço da grelha inteira que ainda paga alguma coisa num mais de 1,5: 1.50 na Marathonbet, na Betano e na 1xBet, 1.51 na Pinnacle. A Bet365 nem abre o mercado neste jogo. Agora a parte que interessa, e não é bonita: a Pinnacle a 1.51 está a dar 66 por cento de hipóteses de haver dois golos, quando um mais de 1,5 normal anda pelos 75. O preço não está alto porque haja gordura — está alto porque o mercado vê o jogo fechado. E os números dão-lhe razão. O Madureira leva 2, 0, 2, 2, 1 e 2 golos nos últimos seis; o Sampaio leva 2, 3, 2, 1, 0 e 2. Quatro em seis passaram o 1,5, dos dois lados. Dá 67 por cento, que é exactamente o que a casa está a pagar. Preço justo, valor zero. Junta-se a isto que é o jogo do 3.º lugar da Copa Rio, sem nada em jogo para ninguém, e que estas duas já se encontraram há uma semana e ficou 1-1. Vai ao site porque foi pedida, vai a meia stake e vai com o aviso à frente: não é uma tip com vantagem demonstrada, é um preço decente num dia em que não havia mais nada. Quem quiser ficar de fora, fica bem acompanhado.",
+      "factors": [
+        "Melhor preço de mais de 1,5 de toda a grelha do dia: 1.50 na Marathonbet, Betano e 1xBet; 1.51 na Pinnacle. Sem Bet365 neste mercado",
+        "Madureira, últimos 6 jogos (API-Football): totais 2, 0, 2, 2, 1, 2 — quatro em seis passaram o 1,5",
+        "Sampaio Corrêa RJ, últimos 6 jogos (API-Football): totais 2, 3, 2, 1, 0, 2 — quatro em seis passaram o 1,5",
+        "Os dois lados dão 67 por cento, contra os 66 por cento que a Pinnacle está a pagar — preço justo, sem vantagem",
+        "CONTRA: é o jogo do 3.º lugar da Copa Rio, sem nada em jogo para nenhuma das duas",
+        "CONTRA: encontraram-se a 16/09 e ficou 1-1, com o total a passar por pouco",
+        "CONTRA: o teste de acumulador de mais de 1,5 de 20/09 fechou RED, com três 0-0 em oito pernas",
+        "Preços confirmados por fixture às 09:40, não pelo endpoint por data — esse vinha inflado (o Dreams-Medeama dava 1.43 em cache e estava a 1.24 real)",
+        "Contra assumido: a tip falha dois portoes do QA - score 58 (piso 65) e odd 1.50 (piso de valor 1.55). Publicada por decisao do dono, com o override registado no proprio ficheiro"
+      ],
+      "sources": [
+        "API-Football: /fixtures por equipa (últimos 6 de cada), /odds por fixture com bet=5 (Marathonbet, Betano, 1xBet, Pinnacle, Betfair, BetVictor)",
+        "Registo interno: resultados/data/2026-09-20.json — teste de acumulador de mais de 1,5, oito pernas, RED"
+      ],
+      "aviso": "Tip sem vantagem demonstrada, publicada a pedido. A Pinnacle concorda com as casas moles, o que indica preço justo e não valor.",
+      "qa_override": {
+        "autorizado_por": "dono, no chat, 23/09/2026",
+        "gates_falhados": [
+          "TIP_SCORE_LOW: score 58 abaixo do piso de 65",
+          "TIP_ODDS_NO_VALUE: odd 1.50 abaixo do piso de valor de 1.55"
+        ],
+        "motivo": "Publicacao pedida pelo dono depois de a aposta ja estar feita. O score nao foi alterado para passar no portao - fica em 58, que e a leitura honesta do jogo.",
+        "precedente": "04/09/2026, Aalesund-Start a 1.44, tambem abaixo do piso de valor. Esta e a segunda excepcao em tres semanas; a regra informal e que tres na mesma semana ja seria deriva."
+      }
+    }
+  ],
   "accumulators": []
 }
