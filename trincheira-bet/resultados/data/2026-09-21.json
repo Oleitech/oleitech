@@ -34,17 +34,17 @@
             "pick": "Mais de 1.5 golos",
             "odds": 1.4,
             "bookmaker": "Bet365",
-            "result": null,
-            "final_score": null,
-            "note": "Jogo adiado por chuva forte em Santa Catarina (alerta do INMET); remarcado para terça-feira 22/09 às 19h30 BRT (22:30 UTC). Ainda não jogado à hora deste ciclo."
+            "result": "GREEN",
+            "final_score": "0-2",
+            "note": "Jogo adiado por chuva forte em Santa Catarina, disputado a 22/09 as 19h30 BRT. A API-Football nao reindexou o jogo na data nova - foi preciso ir buscar por fixtureId directo (1520882). Criciuma 0-2 Operario-PR, 2 golos no total: mais de 1.5 cumpre-se."
           }
         ],
         "combined_odds": 2.61,
         "stake": 0.5,
-        "result": "PENDING",
-        "return": null,
-        "pnl": null,
-        "note": "Duas pernas cumpridas sem drama — Real Cundinamarca venceu 3-1 e o HB Koge venceu 5-2, ambas cobertas pela dupla hipótese. A terceira perna, Criciúma-Operário-PR, foi adiada por causa da chuva em Santa Catarina e passou para hoje (22/09) às 19h30 local. O bilhete fica em PENDING até esse jogo acabar; resolve-se no próximo ciclo."
+        "result": "GREEN",
+        "return": 1.31,
+        "pnl": 0.81,
+        "note": "As tres pernas cumpriram-se: Real Cundinamarca venceu 3-1, HB Koge venceu 5-2, e o Criciuma-Operario-PR - adiado por chuva para 22/09 - acabou 0-2, cumprindo o mais de 1.5 golos. Bilhete resolvido a 23/09 (um dia de atraso por causa do adiamento); a banca de 21/09 foi reencadeada com este P&L."
       }
     ],
     "summary": {
@@ -57,16 +57,15 @@
       "pnl": 0,
       "roi_pct": 0,
       "accumulators_total": 1,
-      "accumulators_green": 0,
+      "accumulators_green": 1,
       "accumulators_red": 0,
-      "accumulators_pending": 1,
       "accumulators_stake": 0.5,
-      "accumulators_return": 0,
-      "accumulators_pnl": 0,
+      "accumulators_return": 1.31,
+      "accumulators_pnl": 0.81,
       "combined_stake": 0.5,
-      "combined_return": 0,
-      "combined_pnl": 0,
-      "combined_roi_pct": 0
+      "combined_return": 1.31,
+      "combined_pnl": 0.81,
+      "combined_roi_pct": 162
     }
   },
   "btts": {
@@ -216,6 +215,6 @@
       "stake_nocional": 2
     }
   },
-  "balance": 33.11,
-  "notes": "Domingo/segunda magros: sem tips individuais, só um acumulador curto de meia stake (Real Cundinamarca, HB Koge, Criciúma-Operário-PR mais de 1.5). As duas primeiras pernas cumpriram-se (3-1 e 5-2), mas o jogo do Criciúma foi adiado por chuva forte em Santa Catarina e passou para hoje à noite — o bilhete fica PENDING, por resolver no próximo ciclo. No live só dispararam 2 alertas o dia todo, os dois em sombra (1 GREEN, 1 RED); nada apostado. Banca sem alteração: fecha em 33,11 stakes, igual a ontem."
+  "balance": 33.92,
+  "notes": "Domingo/segunda magros: sem tips individuais, so um acumulador curto de meia stake (Real Cundinamarca, HB Koge, Criciuma-Operario-PR mais de 1.5). As duas primeiras pernas cumpriram-se logo no dia (3-1 e 5-2); a terceira - Criciuma-Operario-PR - foi adiada por chuva forte em Santa Catarina e so se jogou a 22/09 a noite, acabando 0-2. Bilhete GREEN nas tres pernas: combinada 2.61, retorno 1.31, PNL +0.81 stakes. Resolvido a 23/09 com um dia de atraso (a API nao reindexou o jogo na data nova, foi preciso ir por fixtureId). Banca de 21/09 corrigida para 33.92 stakes (era 33.11 com o bilhete em aberto). No live so dispararam 2 alertas o dia todo, os dois em sombra (1 GREEN, 1 RED); nada apostado."
 }
