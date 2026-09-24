@@ -1,0 +1,122 @@
+{
+  "gerado": "2026-09-24T06:05:36.617Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1569941,
+      "data": "2026-09-25T18:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Girona - Albacete",
+      "pressao": 35.3,
+      "prob_mais": 0.657,
+      "prob_mercado": 0.598,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.62,
+        "valor": 0.065
+      },
+      "marathonbet": {
+        "odd": 1.5,
+        "valor": -0.014
+      },
+      "bet365": {
+        "odd": 1.6,
+        "valor": 0.051
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556861,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "SC1",
+      "jogo": "Arbroath - Queen's Park",
+      "pressao": 24.4,
+      "prob_mais": 0.369,
+      "prob_mercado": 0.418,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.65,
+        "valor": 0.041
+      },
+      "marathonbet": {
+        "odd": 1.58,
+        "valor": -0.003
+      },
+      "bet365": {
+        "odd": 1.65,
+        "valor": 0.041
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556864,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "SC1",
+      "jogo": "Inverness CT - Morton",
+      "pressao": 28,
+      "prob_mais": 0.507,
+      "prob_mercado": 0.533,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 2.08,
+        "valor": 0.026
+      },
+      "marathonbet": {
+        "odd": 1.94,
+        "valor": -0.043
+      },
+      "bet365": {
+        "odd": 2.08,
+        "valor": 0.026
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556865,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "SC1",
+      "jogo": "Raith Rovers - Livingston",
+      "pressao": 25.1,
+      "prob_mais": 0.429,
+      "prob_mercado": 0.488,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.9,
+        "valor": 0.084
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": 0.022
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": 0.056
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

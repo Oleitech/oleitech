@@ -1,36 +1,6 @@
 {
   "_nota": "Apostas live decididas no chat, fora do bot. Nao estao em telegram_pending_alerts nem no alert-archive do worker, por isso o ciclo diario nao as apanha sozinho. Injectar a mao em resultados/data/DATA.json, dentro de live_alerts.alerts, depois do ciclo escrever o ficheiro.",
-  "pendentes": [
-    {
-      "date": "2026-09-23",
-      "fixtureId": 1638365,
-      "strategy": "OVER 1.5 SIMPLES",
-      "market": "Mais de 1.5 golos",
-      "match": "Madureira vs Sampaio Correa RJ",
-      "league": "Copa Rio (Brasil) - jogo do 3o lugar",
-      "kickoff": "2026-09-23T18:45:00+01:00",
-      "pre_jogo": true,
-      "odds": 1.5,
-      "bookmaker": "Marathonbet",
-      "stake": 0.5,
-      "shadow": false,
-      "manual": true,
-      "source": "chat - decisao do dono, 23/09/2026",
-      "factors": [
-        "Dia sem tips: o ciclo das 07:00 nao aprovou nada, exposicao prevista era zero stakes",
-        "Melhor preco de mais de 1.5 de toda a grelha do dia: 1.50 na Marathonbet/Betano/1xBet, 1.51 na Pinnacle",
-        "Precos confirmados por fixture as 09:40, nao pelo endpoint por data (que vinha inflado - o Dreams-Medeama dava 1.43 em cache e estava a 1.24 real)",
-        "CONTRA: a Pinnacle a 1.51 implica 66 por cento, contra os ~75 por cento tipicos de um mais de 1.5 - o preco esta alto porque o mercado ve o jogo fechado, nao por haver valor",
-        "CONTRA: e o jogo do 3o lugar da Copa Rio, sem nada em jogo",
-        "CONTRA: o teste de acumulador de mais de 1.5 de 20/09 fechou RED com tres 0-0 em oito pernas",
-        "Sem Bet365 neste mercado/jogo"
-      ],
-      "aviso": "Aposta sem vantagem demonstrada. A Pinnacle concorda com as casas moles, o que indica preco justo e nao valor. Decisao do dono no chat, com o aviso dado antes: o conselho do dia era ficar de fora.",
-      "confirmada_pelo_dono": "23/09/2026, no chat: aposta feita. Stake de meia unidade conforme o conselho dado; se o valor real tiver sido outro, corrigir aqui.",
-      "publicada_no_site": true,
-      "qa_override": "Publicada com TIP_SCORE_LOW (58 < 65) e TIP_ODDS_NO_VALUE (1.50 < 1.55) por autorizacao do dono."
-    }
-  ],
+  "pendentes": [],
   "resolvidas": [
     {
       "date": "2026-09-20",
@@ -204,6 +174,45 @@
           }
         ],
         "aviso_fixtureId": "Os fixtureId registados no chat para as pernas 1, 2 e 4 nao correspondiam ao jogo certo (apontavam para outros jogos na API). Resolvidos por nome de equipa + data 2026-09-20."
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "fixtureId": 1638365,
+      "strategy": "OVER 1.5 SIMPLES",
+      "market": "Mais de 1.5 golos",
+      "match": "Madureira vs Sampaio Correa RJ",
+      "league": "Copa Rio (Brasil) - jogo do 3o lugar",
+      "kickoff": "2026-09-23T18:45:00+01:00",
+      "pre_jogo": true,
+      "odds": 1.5,
+      "bookmaker": "Marathonbet",
+      "stake": 0.5,
+      "shadow": false,
+      "manual": true,
+      "source": "chat - decisao do dono, 23/09/2026",
+      "factors": [
+        "Dia sem tips: o ciclo das 07:00 nao aprovou nada, exposicao prevista era zero stakes",
+        "Melhor preco de mais de 1.5 de toda a grelha do dia: 1.50 na Marathonbet/Betano/1xBet, 1.51 na Pinnacle",
+        "Precos confirmados por fixture as 09:40, nao pelo endpoint por data (que vinha inflado - o Dreams-Medeama dava 1.43 em cache e estava a 1.24 real)",
+        "CONTRA: a Pinnacle a 1.51 implica 66 por cento, contra os ~75 por cento tipicos de um mais de 1.5 - o preco esta alto porque o mercado ve o jogo fechado, nao por haver valor",
+        "CONTRA: e o jogo do 3o lugar da Copa Rio, sem nada em jogo",
+        "CONTRA: o teste de acumulador de mais de 1.5 de 20/09 fechou RED com tres 0-0 em oito pernas",
+        "Sem Bet365 neste mercado/jogo"
+      ],
+      "aviso": "Aposta sem vantagem demonstrada. A Pinnacle concorda com as casas moles, o que indica preco justo e nao valor. Decisao do dono no chat, com o aviso dado antes: o conselho do dia era ficar de fora.",
+      "confirmada_pelo_dono": "23/09/2026, no chat: aposta feita. Stake de meia unidade conforme o conselho dado; se o valor real tiver sido outro, corrigir aqui.",
+      "publicada_no_site": true,
+      "qa_override": "Publicada com TIP_SCORE_LOW (58 < 65) e TIP_ODDS_NO_VALUE (1.50 < 1.55) por autorizacao do dono.",
+      "resultado": {
+        "status": "GREEN",
+        "final_score": "0-2",
+        "finalHome": 0,
+        "finalAway": 2,
+        "return": 0.75,
+        "pnl": 0.25,
+        "resolvido_em": "2026-09-23",
+        "nota": "Contabilizado uma so vez: esta mesma aposta foi tambem publicada como tip oficial em tips/2026-09-23.json (com qa_override, por decisao do dono) e o P&L entra na banca via resultados/data/2026-09-23.json -> curated_tips.tips[0], nao aqui, para nao duplicar o mesmo dinheiro real. FT Madureira 0-2 Sampaio Correa RJ, mais de 1.5 golos GREEN."
       }
     }
   ]

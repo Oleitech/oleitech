@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T06:13:23.285Z",
+  "units": "stakes",
+  "notes": "Quinta-feira de selecções: arranca a Liga das Nações, com o Portugal-País de Gales às 19:45, e os campeonatos de clubes estão quase todos parados.\n\nNão sai nenhuma tip individual. Os jogos de selecções nesta fase da prova não entram na nossa lista para apostas a solo, e o modelo dos golos só deu sinais para jogos de amanhã, que ficam para o boletim de sexta. Não se força boletim.\n\nSai um acumulador curto, a 2,44 e meia stake: ambas marcam no Holanda-Alemanha, mais de 1,5 golos no Catar-Bahrein da Taça do Golfo e mais de 1,5 no Torque-Atenas da Taça do Uruguai.\n\nA perna mais arriscada é a do Catar-Bahrein. É o jogo de abertura do torneio, e no histórico da Taça do Golfo estas duas nem chegam a golo e meio por jogo. O que a segura é o presente: os últimos cinco jogos oficiais do Catar tiveram todos dois ou mais golos e o Bahrein sofreu golos em quase todos os jogos desde o início de 2025. No Holanda-Alemanha estreiam-se dois seleccionadores, o Xavi e o Klopp, e a Holanda tem baixas na frente, mas quatro dos últimos cinco jogos oficiais entre as duas tiveram golos dos dois lados.\n\nO corvo fica de fora. Nenhum favorito com preço na banda passa no filtro da forma, nem Portugal, que só ganhou dois dos cinco jogos do Mundial.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528862,
+          "match": "Netherlands vs Germany",
+          "league": "UEFA Nations League A",
+          "pick": "Ambas Marcam Sim",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-24T18:45:00Z"
+        },
+        {
+          "fixtureId": 1637931,
+          "match": "Qatar vs Bahrain",
+          "league": "Gulf Cup of Nations",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-24T18:00:00Z"
+        },
+        {
+          "fixtureId": 1638265,
+          "match": "Atletico Torque vs Atenas",
+          "league": "Copa Uruguay",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-24T18:30:00Z"
+        }
+      ],
+      "combined_odds": 2.44,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}
