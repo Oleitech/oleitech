@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T06:14:51.286Z",
+  "units": "stakes",
+  "notes": "Sexta-feira de selecções: segunda ronda da Liga das Nações, com o Turquia-França e o Itália-Bélgica às 19:45, e poucos campeonatos de clubes a mexer.\n\nNão sai nenhuma tip individual. Os jogos de selecções nesta fase não entram para apostas a solo, e os dois sinais do modelo dos golos caíram depois de investigados. No Girona-Albacete (mais de 2,5) o Girona joga sem o melhor marcador, o Asprilla, e sem o Vanat, ambos nas selecções, e o Albacete vem sem meio ataque: o mais de 2,5 a 1,62 já não se aguenta. No Raith-Livingston (menos de 2,5) a odd caiu de 1,90 para 1,85 e o valor foi-se. Não se força boletim.\n\nSaem dois acumuladores curtos, a meia stake cada. O primeiro, a 2,68: Almere não perde em Dordrecht, mais de 1,5 golos no Luqueño-Guaraní e vitória do Roskilde. O segundo, a 2,53: mais de 1,5 no Nacional-Ameliano, vitória do Kooteepee e mais de 1,5 no Arbroath-Queen's Park.\n\nA perna mais arriscada é o Arbroath-Queen's Park: o Arbroath ficou em branco nos últimos dois jogos. Segura-se no histórico, com quatro dos últimos cinco confrontos a dar dois golos ou mais.\n\nO corvo fica de fora. Os favoritos com preço na banda falham na forma ou não têm histórico entre as duas equipas, e o único par que dava a conta não tinha as baixas do Almere confirmadas.\n\nExposição do dia: uma stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1551809,
+          "match": "Dordrecht vs Almere City FC",
+          "league": "Eerste Divisie",
+          "pick": "Dupla hipótese X2 (Almere não perde)",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T19:00:00Z"
+        },
+        {
+          "fixtureId": 1632018,
+          "match": "Sportivo Luqueno vs Club Guarani",
+          "league": "Paraguai — Clausura",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T19:30:00Z"
+        },
+        {
+          "fixtureId": 1575800,
+          "match": "HIK vs Roskilde",
+          "league": "Dinamarca — 2. Division",
+          "pick": "Vitória Roskilde",
+          "odds": 1.48,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.68,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1632015,
+          "match": "Nacional Asuncion vs Sportivo Ameliano",
+          "league": "Paraguai — Clausura",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T22:00:00Z"
+        },
+        {
+          "fixtureId": 1504312,
+          "match": "Kooteepee vs MP",
+          "league": "Finlândia — Ykkösliiga",
+          "pick": "Vitória Kooteepee",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T15:30:00Z"
+        },
+        {
+          "fixtureId": 1556861,
+          "match": "Arbroath vs Queen's Park",
+          "league": "Escócia — Championship",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-25T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.53,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

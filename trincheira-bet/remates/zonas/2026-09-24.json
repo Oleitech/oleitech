@@ -1,0 +1,308 @@
+{
+  "gerado": "2026-09-24T12:29:05.958Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1545601,
+      "data": "2026-09-24T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Andorra - Malta",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -2.056,
+      "def": 0.713,
+      "zona": null
+    },
+    {
+      "fixture": 1528862,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Netherlands - Germany",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.744,
+      "def": -1.687,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.26,
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.26
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.52,
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.52
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 12,
+        "cantos": 13
+      }
+    },
+    {
+      "fixture": 1528863,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Serbia - Greece",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.056,
+      "def": 0.113,
+      "zona": null
+    },
+    {
+      "fixture": 1528864,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Portugal - Wales",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.144,
+      "def": -1.687,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "ganhou": false,
+          "retorno": null
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.37,
+          "preferida": false,
+          "ganhou": false,
+          "retorno": -1
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 6,
+        "cantos": 12
+      }
+    },
+    {
+      "fixture": 1528865,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Norway - Denmark",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 3.344,
+      "def": -2.987,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.5,
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.5
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.8,
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.8
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 14,
+        "cantos": 12
+      }
+    },
+    {
+      "fixture": 1528878,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Austria - Israel",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.444,
+      "def": -1.887,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.39,
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.39
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.73,
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.73
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 10,
+        "cantos": 6
+      }
+    },
+    {
+      "fixture": 1528879,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Kosovo - Rep. Of Ireland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.244,
+      "def": -0.187,
+      "zona": null
+    },
+    {
+      "fixture": 1528880,
+      "data": "2026-09-24T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Liechtenstein - Lithuania",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.956,
+      "def": -0.487,
+      "zona": null
+    },
+    {
+      "fixture": 1528881,
+      "data": "2026-09-25T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Georgia - Northern Ireland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.644,
+      "def": -0.787,
+      "zona": null
+    },
+    {
+      "fixture": 1545602,
+      "data": "2026-09-25T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Armenia - Latvia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.456,
+      "def": -0.287,
+      "zona": null
+    },
+    {
+      "fixture": 1528882,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Türkiye - France",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.844,
+      "def": -1.687,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.27,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.5,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528883,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Italy - Belgium",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.144,
+      "def": -1.687,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.5,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.73,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528884,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Hungary - Ukraine",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.144,
+      "def": -1.387,
+      "zona": null
+    },
+    {
+      "fixture": 1528885,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Poland - Bosnia & Herzegovina",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.444,
+      "def": -0.387,
+      "zona": null
+    },
+    {
+      "fixture": 1528886,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Sweden - Romania",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.044,
+      "def": -1.587,
+      "zona": null
+    },
+    {
+      "fixture": 1528887,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Montenegro - Cyprus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.256,
+      "def": -0.587,
+      "zona": null
+    }
+  ]
+}

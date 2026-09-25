@@ -1,0 +1,127 @@
+{
+  "gerado": "2026-09-25T06:03:30.055Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1528881,
+      "data": "2026-09-25T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Georgia - Northern Ireland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.645,
+      "def": -0.79,
+      "zona": null
+    },
+    {
+      "fixture": 1545602,
+      "data": "2026-09-25T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Armenia - Latvia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.455,
+      "def": -0.29,
+      "zona": null
+    },
+    {
+      "fixture": 1528882,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Türkiye - France",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.845,
+      "def": -1.69,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.26,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.46,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528883,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Italy - Belgium",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.145,
+      "def": -1.69,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.5,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.73,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528884,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Hungary - Ukraine",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.145,
+      "def": -1.39,
+      "zona": null
+    },
+    {
+      "fixture": 1528885,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Poland - Bosnia & Herzegovina",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.445,
+      "def": -0.39,
+      "zona": null
+    },
+    {
+      "fixture": 1528886,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Sweden - Romania",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.045,
+      "def": -1.59,
+      "zona": null
+    },
+    {
+      "fixture": 1528887,
+      "data": "2026-09-25T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Montenegro - Cyprus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.255,
+      "def": -0.59,
+      "zona": null
+    }
+  ]
+}

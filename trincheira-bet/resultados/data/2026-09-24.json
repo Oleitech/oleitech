@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-24",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1528862,
+            "match": "Netherlands vs Germany",
+            "league": "UEFA Nations League A",
+            "pick": "Ambas Marcam Sim",
+            "odds": 1.4,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "1-1"
+          },
+          {
+            "fixtureId": 1637931,
+            "match": "Qatar vs Bahrain",
+            "league": "Gulf Cup of Nations",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.36,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "fixtureId": 1638265,
+            "match": "Atletico Torque vs Atenas",
+            "league": "Copa Uruguay",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "3-3"
+          }
+        ],
+        "combined_odds": 2.44,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.22,
+        "pnl": 0.72,
+        "note": "As tres pernas cumpriram-se: Holanda 1-1 Alemanha teve golos dos dois lados, Catar 2-0 Bahrein e Torque 3-3 Atenas ficaram bem acima de 1.5 golos."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.22,
+      "accumulators_pnl": 0.72,
+      "combined_stake": 0.5,
+      "combined_return": 1.22,
+      "combined_pnl": 0.72,
+      "combined_roi_pct": 144
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1528863,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Serbia vs Greece",
+        "league": "UEFA Nations League (World)",
+        "elapsed": 51,
+        "score": "1-0",
+        "conf": 86,
+        "factors": [
+          "Greece ainda não marcou",
+          "4 SoT · 17 remates · 64% posse",
+          "Preço 1.44"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1790279787002,
+        "deliveries": 0,
+        "odds": 1.444,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 86 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1790282558958
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem apostas live reais hoje. O unico alerta do worker (BTTS LIVE, Servia-Grecia) ficou em sombra por confianca 86 abaixo do piso de 90, stake 0, fora da banca."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 1
+    }
+  },
+  "balance": 34.39,
+  "notes": "Quinta-feira de seleccoes, sem tips a solo. Saiu so o acumulador curto a 2,44 e meia stake, e as tres pernas cumpriram-se: Holanda 1-1 Alemanha com golos dos dois lados, Catar 2-0 Bahrein e Torque 3-3 Atenas acima de 1.5 golos. P&L do dia +0,72 stakes. No live, o worker so registou um alerta (BTTS LIVE, Servia-Grecia) e ficou em sombra por confianca 86 abaixo do piso de 90 — nao apostado, fora da banca; teria fechado GREEN se tivesse saido (Servia 1-2 Grecia)."
+}
