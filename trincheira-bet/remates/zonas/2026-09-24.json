@@ -220,17 +220,25 @@
         "baliza_7_5": {
           "casa": "mediana de 1",
           "odd": 1.27,
-          "preferida": false
+          "preferida": false,
+          "ganhou": false,
+          "retorno": -1
         },
         "baliza_8_5": {
           "casa": "mediana de 2",
           "odd": 1.5,
-          "preferida": false
+          "preferida": false,
+          "ganhou": false,
+          "retorno": -1
         }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 7,
+        "cantos": 8
       }
     },
     {
@@ -247,17 +255,25 @@
         "baliza_7_5": {
           "casa": "mediana de 2",
           "odd": 1.5,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.5
         },
         "baliza_8_5": {
           "casa": "Bet365",
           "odd": 1.73,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.73
         }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 14,
+        "cantos": 12
       }
     },
     {

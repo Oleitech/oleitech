@@ -1,0 +1,165 @@
+{
+  "gerado": "2026-09-26T06:07:59.760Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1545658,
+      "data": "2026-09-26T13:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Slovenia - Scotland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.842,
+      "def": 0.883,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.14,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.31,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1528888,
+      "data": "2026-09-26T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "San Marino - Finland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.342,
+      "def": -1.717,
+      "zona": null
+    },
+    {
+      "fixture": 1528889,
+      "data": "2026-09-26T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Faroe Islands - Kazakhstan",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.642,
+      "def": 0.383,
+      "zona": null
+    },
+    {
+      "fixture": 1528890,
+      "data": "2026-09-26T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Iceland - Estonia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.142,
+      "def": -1.317,
+      "zona": null
+    },
+    {
+      "fixture": 1545603,
+      "data": "2026-09-26T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Bulgaria - Luxembourg",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.242,
+      "def": -0.017,
+      "zona": null
+    },
+    {
+      "fixture": 1528891,
+      "data": "2026-09-26T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "England - Spain",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.458,
+      "def": -0.217,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.4,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.62,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528892,
+      "data": "2026-09-26T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Czechia - Croatia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.758,
+      "def": -0.617,
+      "zona": null
+    },
+    {
+      "fixture": 1528893,
+      "data": "2026-09-26T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Albania - Belarus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.242,
+      "def": 0.983,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.15,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.34,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1528894,
+      "data": "2026-09-26T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Slovakia - Moldova",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.142,
+      "def": -0.617,
+      "zona": null
+    },
+    {
+      "fixture": 1545656,
+      "data": "2026-09-26T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "FYR Macedonia - Switzerland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.358,
+      "def": 0.383,
+      "zona": null
+    }
+  ]
+}

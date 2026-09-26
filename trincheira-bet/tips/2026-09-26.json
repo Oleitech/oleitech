@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T06:21:48.059Z",
+  "units": "stakes",
+  "notes": "Sábado com a Liga das Nações a arrancar a nova edição: dez jogos, com o Inglaterra-Espanha em Wembley à noite, e as segundas divisões de clubes a mexer.\n\nNão sai nenhuma tip individual. A mais séria era a vitória da Espanha em Wembley: a Inglaterra vem sem o Rice e o Mainoo e o campeão do mundo não perde há dez jogos oficiais. Só que a odd caiu de 2,30 para 2,15 e os mercados de previsão dão-lhe à volta de 41%, por isso o valor foi-se. O único sinal do modelo dos golos, mais de 2,5 no Ceuta-Real Sociedad B, só tinha valor na Pinnacle, que não é onde se aposta. Não se força boletim.\n\nSaem dois curtos a meia stake. O das selecções, a 2,57: a Suíça ganha na Macedónia do Norte mesmo sem o Xhaka e o Embolo, a Croácia não perde em Praga e a Espanha não perde em Wembley. O dos clubes, a 2,93: o Plymouth ganha ao Burton, ambas marcam no Volendam-VVV e há mais de 1,5 golos no Tenerife-Cádis.\n\nO corvo vai a 1,93 com uma stake: a Eslováquia ganha à Moldávia com dois ou mais golos no jogo, e a Finlândia ganha em San Marino sem passar dos quatro golos. É o bilhete mais arriscado do dia, porque nenhuma das duas selecções vem em boa forma. Aguenta-se no fosso de nível para os adversários e no que dizem as antevisões.\n\nExposição do dia: duas stakes.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1545656,
+          "match": "FYR Macedonia vs Switzerland",
+          "league": "Liga das Nações",
+          "pick": "Vitória Suíça",
+          "odds": 1.42,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528892,
+          "match": "Czechia vs Croatia",
+          "league": "Liga das Nações",
+          "pick": "Dupla hipótese X2 (Croácia não perde)",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528891,
+          "match": "England vs Spain",
+          "league": "Liga das Nações",
+          "pick": "Dupla hipótese X2 (Espanha não perde)",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.57,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1564327,
+          "match": "Plymouth vs Burton Albion",
+          "league": "League One",
+          "pick": "Vitória Plymouth",
+          "odds": 1.53,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T14:00:00Z"
+        },
+        {
+          "fixtureId": 1551812,
+          "match": "FC Volendam vs VVV Venlo",
+          "league": "Eerste Divisie",
+          "pick": "Ambas marcam — Sim",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T18:00:00Z"
+        },
+        {
+          "fixtureId": 1569946,
+          "match": "Tenerife vs Cadiz",
+          "league": "Segunda División",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.44,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-26T16:30:00Z"
+        }
+      ],
+      "combined_odds": 2.93,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1528894,
+          "match": "Slovakia vs Moldova",
+          "league": "Liga das Nações",
+          "pick": "Eslováquia vence e Mais de 1.5 golos",
+          "odds": 1.32,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-26T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528888,
+          "match": "San Marino vs Finland",
+          "league": "Liga das Nações",
+          "pick": "Finlândia vence e Menos de 4.5 golos",
+          "odds": 1.46,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-26T16:00:00Z"
+        }
+      ],
+      "combined_odds": 1.93,
+      "score": 65,
+      "stake": 1
+    }
+  ]
+}
