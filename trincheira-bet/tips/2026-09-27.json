@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-27",
+  "generated_at": "2026-09-27T06:23:10.312Z",
+  "units": "stakes",
+  "notes": "Domingo de selecções: oito jogos da Liga das Nações, com o Noruega-Portugal e o Alemanha-Grécia à noite, e as segundas divisões de clubes a mexer.\n\nNão sai nenhuma tip individual. A que esteve mais perto era ambas marcam no Alemanha-Grécia a 1,67, que os tipsters empurram porque a Alemanha sofreu nos últimos cinco jogos oficiais. Só que quatro desses foram no Mundial, em campo neutro: em casa a Alemanha não sofreu em seis dos últimos dez, e aí o preço deixa de ter valor. Os dois sinais do modelo de golos, mais de 2,5 no Valladolid-Córdoba e no Mallorca-Almería, tinham preço, mas a investigação foi contra: o Valladolid marcou um golo em casa a época toda e o Mallorca não sofre. Não se força boletim.\n\nSaem três curtos a meia stake. O das selecções, a 2,69: os Países Baixos ganham na Sérvia, que joga sem o Vlahović, e há pelo menos dois golos no Lituânia-Azerbaijão e no Israel-Irlanda. É o mais arriscado do dia por causa da perna da Lituânia: são dois ataques fracos e basta um 1-0 para a deitar abaixo. Os dois de clubes são de golos no Brasil, na Holanda, em Itália, no Uruguai e em Espanha, a 2,44 e 2,26.\n\nHoje não há corvo: nenhuma perna de Resultado mais Total caiu no intervalo de preço com números para a aguentar.\n\nExposição do dia: uma stake e meia.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528896,
+          "match": "Serbia vs Netherlands",
+          "league": "Liga das Nações",
+          "pick": "Vitória Países Baixos",
+          "odds": 1.38,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T16:00:00Z"
+        },
+        {
+          "fixtureId": 1528895,
+          "match": "Lithuania vs Azerbaijan",
+          "league": "Liga das Nações",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.5,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T13:00:00Z"
+        },
+        {
+          "fixtureId": 1528901,
+          "match": "Israel vs Rep. Of Ireland",
+          "league": "Liga das Nações",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.3,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.69,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1520892,
+          "match": "CRB vs Cuiaba",
+          "league": "Série B (Brasil)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T19:00:00Z"
+        },
+        {
+          "fixtureId": 1551816,
+          "match": "De Graafschap vs Den Bosch",
+          "league": "Eerste Divisie",
+          "pick": "Ambas marcam — Sim",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T12:30:00Z"
+        },
+        {
+          "fixtureId": 1609057,
+          "match": "Foggia vs Sorrento",
+          "league": "Serie C",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T18:30:00Z"
+        }
+      ],
+      "combined_odds": 2.44,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1520893,
+          "match": "Criciuma vs Avai",
+          "league": "Série B (Brasil)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.3,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T14:00:00Z"
+        },
+        {
+          "fixtureId": 1641141,
+          "match": "Defensor Sporting vs Danubio",
+          "league": "Primera División (Uruguai)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T21:00:00Z"
+        },
+        {
+          "fixtureId": 1569940,
+          "match": "Eibar vs Las Palmas",
+          "league": "Segunda División",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-27T16:30:00Z"
+        }
+      ],
+      "combined_odds": 2.26,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

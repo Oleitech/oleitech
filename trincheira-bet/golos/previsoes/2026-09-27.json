@@ -1,0 +1,176 @@
+{
+  "gerado": "2026-09-27T06:07:41.839Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1569947,
+      "data": "2026-09-27T12:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Valladolid - Cordoba",
+      "pressao": 35.8,
+      "prob_mais": 0.585,
+      "prob_mercado": 0.534,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.82,
+        "valor": 0.065
+      },
+      "marathonbet": {
+        "odd": 1.71,
+        "valor": 0.001
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": 0.053
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569944,
+      "data": "2026-09-27T14:15:00+00:00",
+      "liga": "SP2",
+      "jogo": "Mallorca - Almeria",
+      "pressao": 36,
+      "prob_mais": 0.547,
+      "prob_mercado": 0.501,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.98,
+        "valor": 0.083
+      },
+      "marathonbet": {
+        "odd": 1.83,
+        "valor": 0.001
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": 0.066
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569937,
+      "data": "2026-09-27T16:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Burgos - Eldense",
+      "pressao": 32.3,
+      "prob_mais": 0.465,
+      "prob_mercado": 0.448,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.18,
+        "valor": 0.014
+      },
+      "marathonbet": {
+        "odd": 2.01,
+        "valor": -0.065
+      },
+      "bet365": {
+        "odd": 2.15,
+        "valor": 0
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569940,
+      "data": "2026-09-27T16:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Eibar - Las Palmas",
+      "pressao": 32.9,
+      "prob_mais": 0.528,
+      "prob_mercado": 0.497,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.96,
+        "valor": 0.034
+      },
+      "marathonbet": {
+        "odd": 1.83,
+        "valor": -0.035
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": 0.029
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569945,
+      "data": "2026-09-27T19:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Oviedo - Sporting Gijon",
+      "pressao": 32.3,
+      "prob_mais": 0.396,
+      "prob_mercado": 0.392,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.55,
+        "valor": 0.01
+      },
+      "marathonbet": {
+        "odd": 2.31,
+        "valor": -0.085
+      },
+      "bet365": {
+        "odd": 2.4,
+        "valor": -0.05
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569943,
+      "data": "2026-09-28T18:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Leganes - Castellón",
+      "pressao": 36.3,
+      "prob_mais": 0.558,
+      "prob_mercado": 0.509,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.91,
+        "valor": 0.066
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": -0.001
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": 0.061
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

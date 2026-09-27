@@ -1,0 +1,377 @@
+{
+  "date": "2026-09-26",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1545656,
+            "match": "FYR Macedonia vs Switzerland",
+            "league": "Liga das Nações",
+            "pick": "Vitória Suíça",
+            "odds": 1.42,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "0-3"
+          },
+          {
+            "fixtureId": 1528892,
+            "match": "Czechia vs Croatia",
+            "league": "Liga das Nações",
+            "pick": "Dupla hipótese X2 (Croácia não perde)",
+            "odds": 1.33,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "1-2"
+          },
+          {
+            "fixtureId": 1528891,
+            "match": "England vs Spain",
+            "league": "Liga das Nações",
+            "pick": "Dupla hipótese X2 (Espanha não perde)",
+            "odds": 1.36,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-3"
+          }
+        ],
+        "combined_odds": 2.57,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.29,
+        "pnl": 0.79,
+        "note": "As tres pernas cumpriram: a Suica goleou a Macedonia do Norte 0-3, a Croacia venceu em Praga 1-2 e a Espanha venceu em Wembley 2-3 - a X2 de ambas aguentou porque ganharam a direito."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1564327,
+            "match": "Plymouth vs Burton Albion",
+            "league": "League One",
+            "pick": "Vitória Plymouth",
+            "odds": 1.53,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "fixtureId": 1551812,
+            "match": "FC Volendam vs VVV Venlo",
+            "league": "Eerste Divisie",
+            "pick": "Ambas marcam — Sim",
+            "odds": 1.33,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "3-2"
+          },
+          {
+            "fixtureId": 1569946,
+            "match": "Tenerife vs Cadiz",
+            "league": "Segunda División",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.44,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "1-1"
+          }
+        ],
+        "combined_odds": 2.93,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "O Volendam-VVV (3-2) cumpriu as ambas marcam e o Tenerife-Cadiz (1-1) teve os 1.5 golos, mas o Plymouth perdeu em casa ao Burton Albion (0-1) - a combinada cai por essa perna."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1528894,
+            "match": "Slovakia vs Moldova",
+            "league": "Liga das Nações",
+            "pick": "Eslováquia vence e Mais de 1.5 golos",
+            "odds": 1.32,
+            "bookmaker": "Marathonbet",
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "fixtureId": 1528888,
+            "match": "San Marino vs Finland",
+            "league": "Liga das Nações",
+            "pick": "Finlândia vence e Menos de 4.5 golos",
+            "odds": 1.46,
+            "bookmaker": "Marathonbet",
+            "result": "RED",
+            "final_score": "0-7"
+          }
+        ],
+        "combined_odds": 1.93,
+        "stake": 1,
+        "result": "RED",
+        "return": 0,
+        "pnl": -1,
+        "note": "A Eslovaquia cumpriu a sua perna (venceu a Moldavia 2-0 com dois golos no jogo), mas a Finlandia goleou San Marino 0-7 - muito acima do limite de 4.5 golos exigido na segunda perna, e o corvo falha."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 3,
+      "accumulators_green": 1,
+      "accumulators_red": 2,
+      "accumulators_stake": 2,
+      "accumulators_return": 1.29,
+      "accumulators_pnl": -0.71,
+      "combined_stake": 2,
+      "combined_return": 1.29,
+      "combined_pnl": -0.71,
+      "combined_roi_pct": -35.5
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1569939,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "AD Ceuta FC vs Real Sociedad II",
+        "league": "Segunda División (Spain)",
+        "elapsed": 57,
+        "score": "0-1",
+        "conf": 86,
+        "factors": [
+          "AD Ceuta FC ainda não marcou",
+          "4 SoT · 13 remates · 55% posse",
+          "Casa a pressionar",
+          "Preço 1.44"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1790428856426,
+        "deliveries": 0,
+        "odds": 1.444,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 86 < 90",
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1790431502678
+      },
+      {
+        "fixtureId": 1564320,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Cambridge United vs AFC Wimbledon",
+        "league": "League One (England)",
+        "elapsed": 53,
+        "score": "0-1",
+        "conf": 87,
+        "factors": [
+          "Cambridge United ainda não marcou",
+          "3 SoT · 7 remates · 63% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Preço 1.50"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1790435472451,
+        "deliveries": 0,
+        "odds": 1.5,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 87 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1790438225393
+      },
+      {
+        "fixtureId": 1551815,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Roda vs Waalwijk",
+        "league": "Eerste Divisie (Netherlands)",
+        "elapsed": 50,
+        "score": "1-0",
+        "conf": 86,
+        "factors": [
+          "Waalwijk ainda não marcou",
+          "4 SoT · 7 remates · 58% posse",
+          "Favorito a sofrer",
+          "Preço 1.73"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "advIsHome": false,
+        "sentAt": 1790449569257,
+        "deliveries": 0,
+        "odds": 1.727,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "liga em avaliação",
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "finalCorners": null,
+        "resolvedAt": 1790452383201
+      },
+      {
+        "fixtureId": 1551811,
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 15 Cantos",
+        "match": "Emmen vs FC OSS",
+        "league": "Eerste Divisie (Netherlands)",
+        "elapsed": 72,
+        "score": "1-0",
+        "conf": 85,
+        "factors": [
+          "13 cantos aos 72 (16.3/jogo de ritmo)",
+          "Faltam 2 para a linha 15",
+          "P 76% · preço 1.80 · justo 1.31",
+          "Margem +21 pontos sobre o preço de mercado"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1790450905947,
+        "deliveries": 0,
+        "odds": 1.8,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "PUSH",
+        "finalHome": 1,
+        "finalAway": 0,
+        "finalCorners": 15,
+        "resolvedAt": 1790452250409
+      },
+      {
+        "fixtureId": 1639946,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Saint Martin vs US Virgin Islands",
+        "league": "CONCACAF Nations League (World)",
+        "elapsed": 50,
+        "score": "0-1",
+        "conf": 89,
+        "factors": [
+          "Saint Martin ainda não marcou",
+          "4 SoT · 10 remates · 72% posse",
+          "Casa a pressionar",
+          "Preço 1.13"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1790456928444,
+        "deliveries": 0,
+        "odds": 1.125,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 89 < 90",
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1790459790426
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem apostas live reais hoje. Os 5 alertas do worker (Ceuta-Real Sociedad II BTTS, Cambridge-AFC Wimbledon BTTS, Roda-Waalwijk BTTS, Emmen-FC Oss CANTOS TARDIOS, Saint Martin-US Virgin Islands BTTS) ficaram todos em sombra - confianca abaixo do piso de 90, liga em avaliacao ou estrategia ainda em avaliacao - stake 0, fora da banca."
+    },
+    "shadow_summary": {
+      "total": 5,
+      "green": 2,
+      "red": 2,
+      "push": 1,
+      "pending": 0,
+      "hit_rate": 40,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 4,
+          "green": 2,
+          "red": 2,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 50
+        },
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 0,
+          "red": 0,
+          "push": 1,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_nocional": 1
+    }
+  },
+  "balance": 32.18,
+  "notes": "Sabado com a Liga das Nacoes a arrancar a nova edicao, sem tips a solo - sairam tres acumuladores. O das seleccoes (2,57, meia stake) passou a direito: a Suica goleou a Macedonia do Norte 0-3, a Croacia venceu em Praga 1-2 e a Espanha venceu em Wembley 2-3. O dos clubes (2,93, meia stake) caiu porque o Plymouth perdeu em casa ao Burton Albion (0-1), apesar de o Volendam-VVV (3-2) e o Tenerife-Cadiz (1-1) terem cumprido as suas pernas. O corvo (1,93, uma stake) tambem caiu: a Eslovaquia cumpriu (2-0 a Moldavia), mas a Finlandia goleou San Marino 0-7, muito acima do limite de 4.5 golos da segunda perna. P&L do dia -0,71 stakes. No live, o worker arquivou 5 alertas e todos ficaram em sombra (confianca abaixo do piso de 90, liga ou estrategia ainda em avaliacao) - 2 GREEN, 2 RED, 1 PUSH, stake 0, fora da banca. Banca fecha em 32,18 stakes."
+}
