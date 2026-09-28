@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-28",
+  "units": "stakes",
+  "generated_at": "2026-09-28T06:35:02.496Z",
+  "notes": "Segunda-feira de selecções: oito jogos da Liga das Nações, com o Bélgica-França e o Turquia-Itália à noite, e pouco futebol de clubes, só o Leganés-Castellón na Segunda espanhola e jogos soltos na América do Sul.\n\nNão sai nenhuma tip individual. O modelo de golos apontava mais de 2,5 no Leganés-Castellón a 1,90, mas os números vão todos para o outro lado: o Castellón sofreu dois golos em seis jogos, o Leganés só teve um jogo com três golos esta época e os quatro confrontos oficiais acabaram todos abaixo. Também se olhou para ambas marcam no Suécia-Polónia a 1,57, mas o Isak saiu da convocatória com uma mazela e as antevisões dividem-se. Não se força boletim.\n\nSaem dois curtos a meia stake. O das selecções, a 2,60: a Ucrânia não perde em Tbilisi, há pelo menos dois golos no Arménia-Montenegro e a Suécia não perde em casa com a Polónia. É o mais arriscado do dia por causa da perna da Ucrânia: a Geórgia estreia treinador, tem o Kvaratskhelia e o Mikautadze, e uma reacção à chicotada chega para a deitar abaixo. O de clubes, a 2,37, junta o Castellón a não perder em Butarque (lidera invicto, mesmo sem o Orozco) e golos no Paraguai e no Brasil.\n\nHoje não há corvo: nenhuma perna de Resultado mais Total aguentou a análise.\n\nExposição do dia: uma stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528902,
+          "match": "Georgia vs Ukraine",
+          "league": "Liga das Nações",
+          "pick": "Ucrânia ou empate (dupla hipótese X2)",
+          "odds": 1.44,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T16:00:00Z"
+        },
+        {
+          "fixtureId": 1528903,
+          "match": "Armenia vs Montenegro",
+          "league": "Liga das Nações",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T16:00:00Z"
+        },
+        {
+          "fixtureId": 1528907,
+          "match": "Sweden vs Poland",
+          "league": "Liga das Nações",
+          "pick": "Suécia ou empate (dupla hipótese 1X)",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1569943,
+          "match": "Leganes vs Castellón",
+          "league": "Segunda División",
+          "pick": "Castellón ou empate (dupla hipótese X2)",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T18:30:00Z"
+        },
+        {
+          "fixtureId": 1632017,
+          "match": "Club Sp. San Lorenzo vs Deportivo Recoleta",
+          "league": "Division Profesional (Paraguai)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T19:30:00Z"
+        },
+        {
+          "fixtureId": 1520890,
+          "match": "America Mineiro vs Juventude",
+          "league": "Serie B (Brasil)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-28T22:30:00Z"
+        }
+      ],
+      "combined_odds": 2.37,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}

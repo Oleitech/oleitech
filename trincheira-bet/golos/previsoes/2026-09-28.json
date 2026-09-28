@@ -1,0 +1,41 @@
+{
+  "gerado": "2026-09-28T06:18:54.233Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1569943,
+      "data": "2026-09-28T18:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Leganes - Castellón",
+      "pressao": 36.3,
+      "prob_mais": 0.56,
+      "prob_mercado": 0.511,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.93,
+        "valor": 0.08
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": 0.002
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": 0.063
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

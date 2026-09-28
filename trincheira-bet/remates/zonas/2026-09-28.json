@@ -1,0 +1,127 @@
+{
+  "gerado": "2026-09-28T06:18:16.838Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1528902,
+      "data": "2026-09-28T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Georgia - Ukraine",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.46,
+      "def": -1.421,
+      "zona": null
+    },
+    {
+      "fixture": 1528903,
+      "data": "2026-09-28T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Armenia - Montenegro",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.64,
+      "def": -1.421,
+      "zona": null
+    },
+    {
+      "fixture": 1545605,
+      "data": "2026-09-28T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Latvia - Cyprus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.84,
+      "def": 0.179,
+      "zona": null
+    },
+    {
+      "fixture": 1528904,
+      "data": "2026-09-28T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Belgium - France",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.36,
+      "def": -1.721,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.31,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.65,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528905,
+      "data": "2026-09-28T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Türkiye - Italy",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.56,
+      "def": -1.021,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.53,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.67,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528906,
+      "data": "2026-09-28T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Northern Ireland - Hungary",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.24,
+      "def": 0.179,
+      "zona": null
+    },
+    {
+      "fixture": 1528907,
+      "data": "2026-09-28T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Sweden - Poland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.66,
+      "def": -1.021,
+      "zona": null
+    },
+    {
+      "fixture": 1528908,
+      "data": "2026-09-28T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Romania - Bosnia & Herzegovina",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.56,
+      "def": -0.521,
+      "zona": null
+    }
+  ]
+}
