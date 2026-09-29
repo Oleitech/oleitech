@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-29",
+  "units": "stakes",
+  "generated_at": "2026-09-29T06:14:15.264Z",
+  "notes": "Terça-feira de selecções: dez jogos da Liga das Nações, com o Espanha-Croácia e o Chéquia-Inglaterra à noite, e a segunda jornada das qualificações africanas à tarde. Futebol de clubes quase não há, e o modelo de golos não tem jogos hoje.\n\nNão sai nenhuma tip individual. Olhou-se para ambas marcam no Chéquia-Inglaterra a 2,00, mas os checos chegam sem o Schick, que se retirou, e sem o Chory, o Provod e o Visinsky: sem ataque, não dá para fiar no golo deles. A vitória da Suíça em Hampden a 1,83 e os menos de 2,5 no Luxemburgo-Islândia também não aguentaram os números. Não se força boletim.\n\nSai um curto de selecções a meia stake, a 2,42: a Inglaterra ganha em Praga, as Ilhas Faroé não perdem na Moldávia e a Suíça ganha na Escócia, com o empate a devolver. A perna mais arriscada é a das Faroé: o mercado dá o jogo quase equilibrado e as Faroé marcam pouco, por isso uma vitória moldava deita o bilhete abaixo. A tese é que a Moldávia não ganha um jogo oficial há nove jogos, desde Novembro de 2024, e não fecha a baliza há dezasseis jogos.\n\nHá corvo, a 2,01 na Marathonbet: a Espanha ganha à Croácia com pelo menos dois golos no jogo, e a Eslováquia ganha ao Cazaquistão sem passar dos quatro golos. O perigo da Espanha é um 1-0 magro, como vários que fez no Mundial.\n\nExposição do dia: stake e meia.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528910,
+          "match": "Czechia vs England",
+          "league": "Liga das Nações",
+          "pick": "Inglaterra vence",
+          "odds": 1.3,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-29T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528914,
+          "match": "Moldova vs Faroe Islands",
+          "league": "Liga das Nações",
+          "pick": "Ilhas Faroé ou empate (dupla hipótese X2)",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-29T16:00:00Z"
+        },
+        {
+          "fixtureId": 1545651,
+          "match": "Scotland vs Switzerland",
+          "league": "Liga das Nações",
+          "pick": "Suíça vence, empate devolve (DNB)",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-29T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.42,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1528909,
+          "match": "Spain vs Croatia",
+          "league": "Liga das Nações",
+          "pick": "Espanha vence e Mais de 1.5 golos",
+          "odds": 1.34,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-29T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528913,
+          "match": "Slovakia vs Kazakhstan",
+          "league": "Liga das Nações",
+          "pick": "Eslováquia vence e Menos de 4.5 golos",
+          "odds": 1.5,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-09-29T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.01,
+      "score": 70,
+      "stake": 1
+    }
+  ]
+}

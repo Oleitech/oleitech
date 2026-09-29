@@ -1,0 +1,217 @@
+{
+  "date": "2026-09-28",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1528902,
+            "match": "Georgia vs Ukraine",
+            "league": "Liga das Nações",
+            "pick": "Ucrânia ou empate (dupla hipótese X2)",
+            "odds": 1.44,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "0-0"
+          },
+          {
+            "fixtureId": 1528903,
+            "match": "Armenia vs Montenegro",
+            "league": "Liga das Nações",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.36,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-3"
+          },
+          {
+            "fixtureId": 1528907,
+            "match": "Sweden vs Poland",
+            "league": "Liga das Nações",
+            "pick": "Suécia ou empate (dupla hipótese 1X)",
+            "odds": 1.33,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "3-1"
+          }
+        ],
+        "combined_odds": 2.6,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.3,
+        "pnl": 0.8,
+        "note": "As três pernas cumpriram: a Geórgia-Ucrânia ficou 0-0 e o empate cobre a X2, a Arménia-Montenegro teve cinco golos no 2-3 e a Suécia venceu a Polónia 3-1, cobrindo a 1X."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1569943,
+            "match": "Leganes vs Castellón",
+            "league": "Segunda División",
+            "pick": "Castellón ou empate (dupla hipótese X2)",
+            "odds": 1.36,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "0-2"
+          },
+          {
+            "fixtureId": 1632017,
+            "match": "Club Sp. San Lorenzo vs Deportivo Recoleta",
+            "league": "Division Profesional (Paraguai)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "0-0"
+          },
+          {
+            "fixtureId": 1520890,
+            "match": "America Mineiro vs Juventude",
+            "league": "Serie B (Brasil)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.36,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "0-1"
+          }
+        ],
+        "combined_odds": 2.37,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "O Leganés-Castellón cumpriu (Castellón venceu 0-2 fora, cobre a X2), mas o San Lorenzo-Recoleta ficou 0-0 sem golos e o América Mineiro-Juventude só teve um golo no 0-1 — nenhum chega aos 1.5 golos e a combinada cai."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1,
+      "accumulators_return": 1.3,
+      "accumulators_pnl": 0.3,
+      "combined_stake": 1,
+      "combined_return": 1.3,
+      "combined_pnl": 0.3,
+      "combined_roi_pct": 30
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1545605,
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 15 Cantos",
+        "match": "Latvia vs Cyprus",
+        "league": "UEFA Nations League (World)",
+        "elapsed": 72,
+        "score": "0-0",
+        "conf": 89,
+        "factors": [
+          "13 cantos aos 72' (16.3/jogo de ritmo)",
+          "Faltam 2 para a linha 15",
+          "P 76% · preço 3.75 · justo 1.31",
+          "Margem +50 pontos sobre o preço de mercado"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "sentAt": 1790616513389,
+        "deliveries": 0,
+        "odds": 3.75,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estratégia em avaliação",
+        "result": "PUSH",
+        "finalHome": 0,
+        "finalAway": 0,
+        "finalCorners": 15,
+        "resolvedAt": 1790617822472
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Nenhum alerta apostado hoje. O único alerta do dia (CANTOS TARDIOS no Latvia-Cyprus, Over 15 Cantos) ficou em sombra (estratégia em avaliação) e fechou PUSH (15 cantos, linha exacta) — fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 0,
+      "push": 1,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 0,
+          "red": 0,
+          "push": 1,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_nocional": 1
+    }
+  },
+  "balance": 31.33,
+  "notes": "Segunda-feira de selecções, sem tips individuais e sem corvo (nenhuma perna de Resultado+Total aguentou a análise). Dois curtos a meia stake: o das selecções (Geórgia-Ucrânia 0-0, Arménia-Montenegro 2-3, Suécia-Polónia 3-1) cumpriu as três pernas e fechou GREEN a 2.60, +0,80 stakes. O de clubes (Leganés-Castellón, San Lorenzo-Recoleta, América Mineiro-Juventude) só teve a perna do Leganés-Castellón (0-2) certa — as duas de mais de 1.5 golos ficaram no 0-0 e no 0-1 — e fechou RED, -0,50 stakes. P&L do dia +0,30 stakes. Único alerta live (CANTOS TARDIOS, Letónia-Chipre) ficou em sombra e fechou PUSH, fora da banca. Banca sobe de 31,03 para 31,33 stakes."
+}
