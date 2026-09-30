@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-30",
+  "units": "stakes",
+  "generated_at": "2026-09-30T06:13:14.939Z",
+  "notes": "Quarta-feira de ressaca da paragem de selecções: não há um único jogo das ligas grandes nem das provas europeias, e só três jogos oficiais de selecções em todo o dia. O cardápio é Taça do Uruguai, Taça do Paraguai, segunda divisão chilena, quinta divisão inglesa e a qualificação para a CAN.\n\nNão sai tip individual. Nenhum destes campeonatos está na nossa lista de ligas, e onde havia preço acima de 1.55 não havia tese que aguentasse — não se força boletim.\n\nSaem dois curtos a meia stake. O primeiro junta a África do Sul contra a Eritreia, no Cairo, o Southend com empate a devolver em Eastleigh e o Cerro Porteño ou empate na Taça do Paraguai. O segundo leva o San Luis ou empate em San Felipe, o Nacional com empate a devolver na Taça do Paraguai e mais de 1.5 golos no Cerro Largo-Rentistas.\n\nO segundo é o mais arriscado: o Nacional joga em casa de uma equipa da segunda divisão que vem em boa forma, e o Cerro Largo, que tem de ganhar para passar, não marca há três jogos no campeonato. Vale pelos números do confronto e pela forma, não pelo valor.\n\nSem corvo hoje: as pernas que davam par na Marathonbet eram de campeonatos sem uma única notícia de baixas ou onze provável, e a regra pede isso. Exposição total: uma stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1545847,
+          "match": "Eritrea vs South Africa",
+          "league": "Qualificação CAN 2027",
+          "pick": "África do Sul vence",
+          "odds": 1.27,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T16:00:00Z"
+        },
+        {
+          "fixtureId": 1585267,
+          "match": "Eastleigh vs Southend",
+          "league": "National League (Inglaterra)",
+          "pick": "Southend vence, empate devolve (DNB)",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T18:45:00Z"
+        },
+        {
+          "fixtureId": 1639310,
+          "match": "Cerro Porteno vs Rubio NU",
+          "league": "Taça do Paraguai",
+          "pick": "Cerro Porteño ou empate (dupla hipótese 1X)",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T22:30:00Z"
+        }
+      ],
+      "combined_odds": 2.21,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1638256,
+          "match": "Cerro Largo vs Rentistas",
+          "league": "Taça do Uruguai",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T19:00:00Z"
+        },
+        {
+          "fixtureId": 1639171,
+          "match": "Independiente F.b.c. vs Nacional Asuncion",
+          "league": "Taça do Paraguai",
+          "pick": "Nacional vence, empate devolve (DNB)",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T20:00:00Z"
+        },
+        {
+          "fixtureId": 1511688,
+          "match": "Union San Felipe vs San Luis",
+          "league": "Primera B (Chile)",
+          "pick": "San Luis ou empate (dupla hipótese X2)",
+          "odds": 1.3,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-09-30T21:00:00Z"
+        }
+      ],
+      "combined_odds": 2.3,
+      "score": 65,
+      "stake": 0.5
+    }
+  ]
+}
