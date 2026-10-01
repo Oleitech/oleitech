@@ -1,0 +1,41 @@
+{
+  "gerado": "2026-10-01T06:06:16.814Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1569953,
+      "data": "2026-10-02T18:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Eldense - Oviedo",
+      "pressao": 33.3,
+      "prob_mais": 0.42,
+      "prob_mercado": 0.408,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.45,
+        "valor": 0.029
+      },
+      "marathonbet": {
+        "odd": 2.19,
+        "valor": -0.08
+      },
+      "bet365": {
+        "odd": 2.35,
+        "valor": -0.013
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-01",
+  "units": "stakes",
+  "generated_at": "2026-10-01T06:17:11.535Z",
+  "notes": "Dia de selecções: oito jogos da Liga das Nações, mais umas sobras pelo mundo fora. Não saiu nenhuma tip individual. Os preços acima de 1.55 nos jogos grandes, Portugal a 2.00 em Copenhaga e os Países Baixos a 2.00 em Salónica, são preços justos, não há valor que se veja, e o modelo dos golos não deu sinal nenhum hoje. Não se força boletim.\n\nComo é semana de selecções, há aposta de selecções. O curto junta a Noruega em Cardiff, contra um País de Gales sem golos em dois jogos e com sete baixas, e duas duplas hipóteses: Portugal ou empate frente a uma Dinamarca cheia de lesionados, e os Países Baixos ou empate em casa da Grécia. Dá 2.41, a meia stake.\n\nO corvo vai pela Marathonbet: Alemanha vence e menos de 5.5 contra uma Sérvia que perdeu os últimos quatro, e Malta vence e menos de 4.5 contra Gibraltar, que não marca há quatro jogos oficiais. Dá 2.10, uma stake. A perna que pede mais fé é a da Alemanha: o Klopp ainda não ganhou, perdeu em casa com a Grécia e está sem o Musiala, o Havertz e o Schlotterbeck. O preço já conta com isso, e é por isso que paga.\n\nExposição do dia: stake e meia.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528920,
+          "match": "Wales vs Norway",
+          "league": "Liga das Nações (Liga A, Grupo 4)",
+          "pick": "Noruega vence",
+          "odds": 1.45,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-01T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528919,
+          "match": "Denmark vs Portugal",
+          "league": "Liga das Nações (Liga A, Grupo 4)",
+          "pick": "Portugal ou empate (dupla hipótese X2)",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-01T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528918,
+          "match": "Greece vs Netherlands",
+          "league": "Liga das Nações (Liga A, Grupo 2)",
+          "pick": "Países Baixos ou empate (dupla hipótese X2)",
+          "odds": 1.3,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-01T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.41,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1528917,
+          "match": "Germany vs Serbia",
+          "league": "Liga das Nações (Liga A, Grupo 2)",
+          "pick": "Alemanha vence e Menos de 5.5 golos",
+          "odds": 1.44,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-10-01T18:45:00Z"
+        },
+        {
+          "fixtureId": 1545607,
+          "match": "Malta vs Gibraltar",
+          "league": "Liga das Nações (Liga D, Grupo 1)",
+          "pick": "Malta vence e Menos de 4.5 golos",
+          "odds": 1.46,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-10-01T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.1,
+      "score": 68,
+      "stake": 1
+    }
+  ]
+}

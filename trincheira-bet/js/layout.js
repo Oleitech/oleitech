@@ -231,9 +231,11 @@ const Layout = {
       market: 'Acumulador',
       matches: (a.selections || []).map(x => x.match).join(' + '),
       type: (a.selections || []).map(x => x.pick).join(' + '),
-      odds: a.combined_odds,
+      // Perna devolvida (DNB empatada) paga a 1.00: o bilhete paga a odd
+      // das restantes, guardada em `effective_odds`.
+      odds: a.effective_odds ?? a.combined_odds,
       stake: a.stake,
-      result: a.result === 'GREEN' ? 'win' : 'loss',
+      result: a.result === 'GREEN' ? 'win' : (a.result === 'PUSH' || a.result === 'VOID') ? 'push' : 'loss',
       source: 'pre',
       // As pernas seguem inteiras para a pagina poder abrir o acumulador. Os
       // campos `matches`/`type` acima continuam a ser a juncao com ` + `, que
