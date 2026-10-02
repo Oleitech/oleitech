@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-01",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1528920,
+            "match": "Wales vs Norway",
+            "league": "Liga das Nacoes (Liga A, Grupo 4)",
+            "pick": "Noruega vence",
+            "odds": 1.45,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "2-1"
+          },
+          {
+            "fixtureId": 1528919,
+            "match": "Denmark vs Portugal",
+            "league": "Liga das Nacoes (Liga A, Grupo 4)",
+            "pick": "Portugal ou empate (dupla hipotese X2)",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-4"
+          },
+          {
+            "fixtureId": 1528918,
+            "match": "Greece vs Netherlands",
+            "league": "Liga das Nacoes (Liga A, Grupo 2)",
+            "pick": "Paises Baixos ou empate (dupla hipotese X2)",
+            "odds": 1.3,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-2"
+          }
+        ],
+        "combined_odds": 2.41,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "O Pais de Gales venceu a Noruega 2-1 em casa, a primeira perna falha e o bilhete fica RED logo ai. Portugal venceu na Dinamarca 4-2 (cumpre o X2) e a Grecia-Paises Baixos acabou 2-2 (cumpre o X2), mas isso nao chega para salvar o bilhete."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1528917,
+            "match": "Germany vs Serbia",
+            "league": "Liga das Nacoes (Liga A, Grupo 2)",
+            "pick": "Alemanha vence e Menos de 5.5 golos",
+            "odds": 1.44,
+            "bookmaker": "Marathonbet",
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "fixtureId": 1545607,
+            "match": "Malta vs Gibraltar",
+            "league": "Liga das Nacoes (Liga D, Grupo 1)",
+            "pick": "Malta vence e Menos de 4.5 golos",
+            "odds": 1.46,
+            "bookmaker": "Marathonbet",
+            "result": "RED",
+            "final_score": "1-1"
+          }
+        ],
+        "combined_odds": 2.1,
+        "score": 68,
+        "stake": 1,
+        "result": "RED",
+        "return": 0,
+        "pnl": -1,
+        "note": "A Alemanha venceu a Servia 2-0, perna cumprida. Malta nao passou do 1-1 em casa com Gibraltar, nao venceu (nao e mercado DNB, e resultado seco) e esse RED arrasta o bilhete inteiro."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1.5,
+      "combined_stake": 1.5,
+      "combined_return": 0,
+      "combined_pnl": -1.5,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    },
+    "shadow_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "stake_nocional": 0,
+      "return_nocional": 0,
+      "pnl_nocional": 0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 31.36,
+  "notes": "Dia de seleccoes sem tips individuais, so dois acumuladores. O curto (Noruega em Cardiff, Portugal X2 na Dinamarca, Paises Baixos X2 na Grecia) fechou RED: o Pais de Gales venceu em casa 2-1 e a Noruega perdeu a primeira perna, apesar de Portugal ter goleado 4-2 fora e a Grecia-Paises Baixos ter ficado 2-2, as duas a cumprir o X2. O corvo (Alemanha vence e menos de 5.5 contra a Servia, Malta vence e menos de 4.5 contra Gibraltar) tambem fechou RED: a Alemanha venceu 2-0 e cumpriu a sua perna, mas Malta nao foi alem do 1-1 em casa com Gibraltar, nao venceu e arrastou o bilhete. Sem alertas live no worker neste dia. Dia de pre-jogo a -1,5 stakes. Banca fecha em 31,36 stakes, vinda de 32,86."
+}

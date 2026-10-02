@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T06:19:42.720Z",
+  "units": "stakes",
+  "notes": "Sexta de selecções: dez jogos da Liga das Nações e quase nada nos clubes que valha a pena. Sai uma tip, e é de selecções.\n\nAmbas marcam no Polónia-Roménia, a 1.80, uma stake. A Polónia teve golos nas duas balizas em oito dos últimos dez jogos oficiais, e a Roménia sofre em todo o lado mas marca quase sempre. O Hagi recupera o filho, o Drăgușin, o Rațiu e o Man, que tinham ficado no banco contra a Bósnia. Do lado polaco cai o Kamiński; o Lewandowski deve jogar.\n\nO curto junta a França a ganhar à Itália em casa, mesmo sem o Mbappé, o Montenegro com o empate a devolver na Letónia, que não marca há três jogos, e o Cazaquistão também com o empate a devolver contra uma Moldávia que não ganha há dezassete. Dá 2.42, meia stake.\n\nO corvo vai pela Marathonbet com duas duplas hipóteses: Hungria ou empate contra uma Geórgia que não ganha um jogo oficial há seis, e Chipre ou empate contra uma Arménia cheia de lesionados. Dá 1.80, uma stake. Hoje a Marathonbet não tinha nenhuma vitória com golos a preço que servisse, por isso foram as duplas.\n\nA mais arriscada é a tip: o ambas marcam precisa que a Polónia, que só marcou um golo nos dois jogos desta prova, acorde em casa. O modelo dos golos não deu nada para hoje; os sinais que tem são todos de sábado.\n\nExposição do dia: duas stakes e meia.",
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "fixtureId": 1528924,
+          "match": "France vs Italy",
+          "league": "Liga das Nações (Liga A)",
+          "pick": "França vence",
+          "odds": 1.42,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-02T18:45:00Z"
+        },
+        {
+          "fixtureId": 1545608,
+          "match": "Latvia vs Montenegro",
+          "league": "Liga das Nações (Liga C, Grupo 2)",
+          "pick": "Montenegro vence, empate devolve (DNB)",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-02T16:00:00Z"
+        },
+        {
+          "fixtureId": 1528923,
+          "match": "Kazakhstan vs Moldova",
+          "league": "Liga das Nações (Liga C, Grupo 3)",
+          "pick": "Cazaquistão vence, empate devolve (DNB)",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "kickoff": "2026-10-02T14:00:00Z"
+        }
+      ],
+      "combined_odds": 2.42,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "fixtureId": 1528926,
+          "match": "Hungary vs Georgia",
+          "league": "Liga das Nações (Liga B, Grupo 2)",
+          "pick": "Hungria ou empate (dupla hipótese 1X)",
+          "odds": 1.32,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-10-02T18:45:00Z"
+        },
+        {
+          "fixtureId": 1528930,
+          "match": "Cyprus vs Armenia",
+          "league": "Liga das Nações (Liga C, Grupo 2)",
+          "pick": "Chipre ou empate (dupla hipótese 1X)",
+          "odds": 1.36,
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "kickoff": "2026-10-02T16:00:00Z"
+        }
+      ],
+      "combined_odds": 1.8,
+      "score": 66,
+      "stake": 1
+    }
+  ],
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Sim",
+      "fixtureId": 1528928,
+      "home": {
+        "name": "Poland",
+        "logo": "https://media.api-sports.io/football/teams/24.png"
+      },
+      "away": {
+        "name": "Romania",
+        "logo": "https://media.api-sports.io/football/teams/774.png"
+      },
+      "league": "Liga das Nações (Liga B)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-10-02T18:45:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 1,
+      "context_depth": "full",
+      "selecao": true,
+      "tese": "A Polónia não sabe jogar sem golos nas duas balizas: em dez jogos oficiais desde o ano passado, só dois acabaram sem as duas a marcar. A Roménia chega a Varsóvia a sofrer em todo o lado, seis golos nos dois jogos desta Liga das Nações e nenhuma baliza a zero nos últimos oito, mas marca quase sempre: fora de casa marcou em quatro das últimas cinco saídas oficiais. O Hagi volta a ter o filho, o Drăgușin, o Rațiu e o Man, que ficaram no banco contra a Bósnia, e perde só o Munteanu. Na Polónia cai o Kamiński e o Lewandowski deve jogar. Com as duas equipas aflitas na tabela e obrigadas a ganhar, o jogo tem tudo para ser aberto. O risco está do lado polaco: só marcou um golo nos dois jogos desta prova.",
+      "factors": [
+        "Polónia, jogos oficiais (qualificação do Mundial 2026 + Liga das Nações 2026/27, n=10, API-Football /fixtures, amigáveis excluídos): ambas marcaram em 8 de 10, a Polónia marcou em 9 de 10 e só ficou duas vezes sem sofrer",
+        "Polónia em casa, só oficiais (n=4, API): 0-0 Bósnia (LN), 2-1 Albânia, 1-1 Países Baixos, 3-1 Finlândia (qualif.) — ambas marcaram em 3 de 4",
+        "Roménia, jogos oficiais (qualificação do Mundial 2026 + Liga das Nações 2026/27, n=9, API): ambas marcaram em 6 de 9. Fora (n=5): 1-2 Suécia (LN), 0-1 Turquia, 1-3 Bósnia, 2-2 Chipre, 1-2 Áustria (qualif.) — sofreu nas 5, marcou em 4, ambas em 4 de 5",
+        "Roménia: 6 golos sofridos nos 2 jogos da LN (API: 1-2 Suécia, 2-4 Bósnia), sem baliza a zero há 8 jogos (Sports Mole e Toffeeweb, concordantes); o Hagi diz que a equipa marcou em todos os jogos com ele (Knews, 01/10)",
+        "Contra-sinal declarado: a Polónia marcou 1 golo nos 2 jogos desta LN (0-0 Bósnia em casa, 1-3 Suécia fora) e vem de cinco jogos sem ganhar (Sports Mole)",
+        "H2H (API, n=2, qualificação do Mundial 2018): 3-1 e 0-3 para a Polónia — fica como contexto; em jogos de selecções o H2H não trava (decisão do dono 25/09)",
+        "Ausências com duas fontes concordantes: Kamiński (Polónia, adutor, fora da janela inteira) — Eurosport PL, Goal.pl e Interia; Munteanu (Roménia, entorse no tornozelo, fora com Polónia e Suécia) — sport.ro e Knews",
+        "Regressos à convocatória romena (Ianis Hagi, Drăgușin, Rațiu, Man, Bancu, Răzvan Marin, banco contra a Bósnia) — ziare.com, sport.ro e onze provável do Sports Mole, concordantes. Saíram do grupo Burcă, Ilie, Eissat, Dragomir, Olaru, Opruț, D. Matei e Screciu por opção (sport.ro e Knews)",
+        "Contradições resolvidas e não usadas como argumento: um resumo de pesquisa dava sete titulares romenos indisponíveis (desmentido pela imprensa romena acima); o Toffeeweb dava o Bednarek castigado, o Goal.pl diz que está à condição (a um amarelo do castigo) e disponível",
+        "Lewandowski no onze provável: Sports Mole e SportsGambler, concordantes. Treinadores sem mudança nesta janela: Jan Urban (Polónia) e Gheorghe Hagi (Roménia)",
+        "Probabilidades: API-Football predictions 45/45/10 (conselho Polónia ou empate); implícitas Bet365 1.50/4.10/6.00. Ambas marcam Sim entre 1.75 e 1.87 em sete casas (Bet365 1.80, Marathonbet 1.84, Betfair 1.87), justo sem margem perto de 52%; leitura nossa perto de 60%",
+        "Terceiros alinhados (4): Racing Post Bet of the Day (ambas marcam a 10-11), SportsGambler (1-1), Sports Mole (2-1), Toffeeweb (ambas marcam como alternativa). A odd caiu de 10-11 (Coral) para 1.80 (Bet365) — movimento a favor",
+        "Não obtido: FootyStats e Forebet devolveram 403; o xG por lado do resumo do FootyStats veio sem amostra nem competição e foi descartado. Padrões ao intervalo indisponíveis (nenhum mercado depende deles)"
+      ],
+      "sources": [
+        "API-Football: /fixtures (forma oficial n=10 e n=9), /fixtures/headtohead 24-774, /predictions 1528928, /odds 1528928 (actualizadas 04:23Z)",
+        "Racing Post — Football Bet of the Day (James Milton), ambas marcam Polónia-Roménia",
+        "Sports Mole — antevisão Polónia-Roménia (onzes prováveis) e previsões de sexta",
+        "SportsGambler — Polónia vs Roménia, 02/10/2026",
+        "Eurosport PL, Goal.pl, Interia — lesão do Kamiński; Goal.pl — jogadores à condição",
+        "sport.ro, ziare.com, Knews — convocatória romena, Munteanu lesionado, regressos",
+        "Toffeeweb — antevisão (usado só para a série sem balizas a zero; o castigo do Bednarek foi descartado)"
+      ]
+    }
+  ]
+}

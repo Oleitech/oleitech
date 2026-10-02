@@ -1,0 +1,59 @@
+{
+  "gerado": "2026-10-02T06:06:02.403Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492318,
+      "data": "2026-10-02T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Sao Paulo - Santos",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 25.7,
+          "previsao": 25.8,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 25.5,
+          "discordancia": 0.3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 17.5,
+            "lado": "Over",
+            "odd": 1.04,
+            "minha_prob": 0.908,
+            "prob_da_casa": 0.901,
+            "edge": -5.5,
+            "margem": 6.7
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 7.4,
+          "previsao": 7.9,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": -0.6,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 4.5,
+            "lado": "Over",
+            "odd": 1.06,
+            "minha_prob": 0.823,
+            "prob_da_casa": 0.879,
+            "edge": -12.8,
+            "margem": 7.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}
