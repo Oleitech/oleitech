@@ -1,0 +1,154 @@
+{
+  "gerado": "2026-10-03T06:05:29.451Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492310,
+      "data": "2026-10-03T21:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Atletico-MG - RB Bragantino",
+      "jogos_tabela": 27,
+      "amostra_fraca": false,
+      "atq": -0.114,
+      "def": 0.449,
+      "zona": null
+    },
+    {
+      "fixture": 1528932,
+      "data": "2026-10-03T13:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Finland - Albania",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.054,
+      "def": 1.208,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.22,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.46,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1528933,
+      "data": "2026-10-03T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Croatia - England",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.546,
+      "def": -0.992,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.42,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.83,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528934,
+      "data": "2026-10-03T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Belarus - San Marino",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.554,
+      "def": -1.892,
+      "zona": null
+    },
+    {
+      "fixture": 1528935,
+      "data": "2026-10-03T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Iceland - Bulgaria",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.254,
+      "def": -1.392,
+      "zona": null
+    },
+    {
+      "fixture": 1545609,
+      "data": "2026-10-03T16:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Estonia - Luxembourg",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.154,
+      "def": 0.108,
+      "zona": null
+    },
+    {
+      "fixture": 1528936,
+      "data": "2026-10-03T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Spain - Czechia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.646,
+      "def": 0.208,
+      "zona": null
+    },
+    {
+      "fixture": 1545653,
+      "data": "2026-10-03T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Switzerland - Slovenia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.554,
+      "def": 1.408,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.18,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.4,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1545660,
+      "data": "2026-10-03T18:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "FYR Macedonia - Scotland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.046,
+      "def": -0.092,
+      "zona": null
+    }
+  ]
+}

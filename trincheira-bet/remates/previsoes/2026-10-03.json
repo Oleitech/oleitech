@@ -1,0 +1,59 @@
+{
+  "gerado": "2026-10-03T06:05:26.782Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492310,
+      "data": "2026-10-03T21:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Atletico-MG - RB Bragantino",
+      "amostra": {
+        "casa": 9,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 30.2,
+          "previsao": 29.2,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -0.3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 21.5,
+            "lado": "Over",
+            "odd": 1.06,
+            "minha_prob": 0.893,
+            "prob_da_casa": 0.883,
+            "edge": -5.3,
+            "margem": 6.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.7,
+          "previsao": 9.4,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.1,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 5.5,
+            "lado": "Over",
+            "odd": 1.09,
+            "minha_prob": 0.862,
+            "prob_da_casa": 0.858,
+            "edge": -6.1,
+            "margem": 6.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

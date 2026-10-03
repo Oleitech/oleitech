@@ -29,10 +29,14 @@
             "minha_prob": 0.908,
             "prob_da_casa": 0.901,
             "edge": -5.5,
-            "margem": 6.7
+            "margem": 6.7,
+            "teria_ganho": true,
+            "retorno": 0.04
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 29,
+          "quem_acertou": "modelo",
+          "erro_modelo": 3.2,
+          "erro_casa": 3.5
         },
         "baliza": {
           "previsao_bruta": 7.4,
@@ -48,12 +52,40 @@
             "minha_prob": 0.823,
             "prob_da_casa": 0.879,
             "edge": -12.8,
-            "margem": 7.3
+            "margem": 7.3,
+            "teria_ganho": true,
+            "retorno": 0.06
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 12,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.1,
+          "erro_casa": 3.5
         }
       }
     }
-  ]
+  ],
+  "avaliado_em": "2026-10-03T06:05:19.946Z",
+  "balanco": {
+    "quem_ficou_mais_perto": {
+      "modelo": 1,
+      "casa": 1,
+      "empate": 0
+    },
+    "por_mercado": {
+      "remates": {
+        "modelo": 1,
+        "casa": 0,
+        "empate": 0
+      },
+      "baliza": {
+        "modelo": 0,
+        "casa": 1,
+        "empate": 0
+      }
+    },
+    "se_tivesse_apostado": {
+      "linhas": 2,
+      "retorno_em_stakes": 0.1
+    }
+  }
 }

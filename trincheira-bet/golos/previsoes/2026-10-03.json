@@ -1,5 +1,5 @@
 {
-  "gerado": "2026-10-02T06:05:55.349Z",
+  "gerado": "2026-10-03T06:05:19.296Z",
   "aposta": false,
   "modelo": {
     "lambda": 0.2,
@@ -11,54 +11,27 @@
   "sem_par": [],
   "jogos": [
     {
-      "fixture": 1569953,
-      "data": "2026-10-02T18:30:00+00:00",
-      "liga": "SP2",
-      "jogo": "Eldense - Oviedo",
-      "pressao": 33.3,
-      "prob_mais": 0.401,
-      "prob_mercado": 0.392,
-      "casas": 7,
-      "lado": "mais",
-      "melhor_odd": {
-        "casa": "Pinnacle",
-        "odd": 2.53,
-        "valor": 0.014
-      },
-      "marathonbet": {
-        "odd": 2.31,
-        "valor": -0.074
-      },
-      "bet365": {
-        "odd": 2.5,
-        "valor": 0.002
-      },
-      "sinal": false,
-      "golos": 5,
-      "ganhou": true
-    },
-    {
       "fixture": 1563781,
       "data": "2026-10-03T11:30:00+00:00",
       "liga": "E3",
       "jogo": "Chesterfield - Tranmere",
       "pressao": 35.6,
-      "prob_mais": 0.573,
-      "prob_mercado": 0.559,
+      "prob_mais": 0.58,
+      "prob_mercado": 0.566,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Bet365",
+        "casa": "1xBet",
         "odd": 1.7,
-        "valor": -0.026
+        "valor": -0.014
       },
       "marathonbet": {
         "odd": 1.66,
-        "valor": -0.048
+        "valor": -0.037
       },
       "bet365": {
-        "odd": 1.7,
-        "valor": -0.026
+        "odd": 1.65,
+        "valor": -0.043
       },
       "sinal": false,
       "golos": null,
@@ -70,22 +43,22 @@
       "liga": "SP2",
       "jogo": "Albacete - Eibar",
       "pressao": 38.3,
-      "prob_mais": 0.555,
-      "prob_mercado": 0.499,
+      "prob_mais": 0.582,
+      "prob_mercado": 0.522,
       "casas": 8,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Bet365",
-        "odd": 1.95,
-        "valor": 0.082
+        "casa": "SBO",
+        "odd": 1.93,
+        "valor": 0.123
       },
       "marathonbet": {
-        "odd": 1.84,
-        "valor": 0.021
+        "odd": 1.73,
+        "valor": 0.007
       },
       "bet365": {
-        "odd": 1.95,
-        "valor": 0.082
+        "odd": 1.9,
+        "valor": 0.106
       },
       "sinal": true,
       "golos": null,
@@ -97,22 +70,22 @@
       "liga": "SC1",
       "jogo": "Livingston - Ayr Utd",
       "pressao": 25.5,
-      "prob_mais": 0.473,
-      "prob_mercado": 0.539,
+      "prob_mais": 0.483,
+      "prob_mercado": 0.553,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
-        "casa": "Betfair",
-        "odd": 2.1,
-        "valor": 0.106
+        "casa": "Pinnacle",
+        "odd": 2.16,
+        "valor": 0.116
       },
       "marathonbet": {
         "odd": 1.98,
-        "valor": 0.043
+        "valor": 0.023
       },
       "bet365": {
-        "odd": 2.08,
-        "valor": 0.096
+        "odd": 2.15,
+        "valor": 0.111
       },
       "sinal": true,
       "golos": null,
@@ -124,22 +97,22 @@
       "liga": "SC1",
       "jogo": "Morton - Raith Rovers",
       "pressao": 29,
-      "prob_mais": 0.475,
-      "prob_mercado": 0.469,
+      "prob_mais": 0.485,
+      "prob_mercado": 0.483,
       "casas": 8,
-      "lado": "mais",
+      "lado": "menos",
       "melhor_odd": {
-        "casa": "Pinnacle",
-        "odd": 2.09,
-        "valor": -0.007
+        "casa": "1xBet",
+        "odd": 1.9,
+        "valor": -0.021
       },
       "marathonbet": {
-        "odd": 1.99,
-        "valor": -0.055
+        "odd": 1.77,
+        "valor": -0.088
       },
       "bet365": {
-        "odd": 2,
-        "valor": -0.05
+        "odd": 1.85,
+        "valor": -0.047
       },
       "sinal": false,
       "golos": null,
@@ -151,24 +124,24 @@
       "liga": "SC1",
       "jogo": "Partick - Arbroath",
       "pressao": 27.1,
-      "prob_mais": 0.472,
-      "prob_mercado": 0.505,
+      "prob_mais": 0.499,
+      "prob_mercado": 0.542,
       "casas": 8,
       "lado": "menos",
       "melhor_odd": {
-        "casa": "Pinnacle",
-        "odd": 1.98,
-        "valor": 0.046
+        "casa": "Bet365",
+        "odd": 2.1,
+        "valor": 0.051
       },
       "marathonbet": {
-        "odd": 1.84,
-        "valor": -0.028
+        "odd": 1.99,
+        "valor": -0.004
       },
       "bet365": {
-        "odd": 1.95,
-        "valor": 0.03
+        "odd": 2.1,
+        "valor": 0.051
       },
-      "sinal": false,
+      "sinal": true,
       "golos": null,
       "ganhou": null
     },
@@ -178,22 +151,22 @@
       "liga": "SC2",
       "jogo": "Airdrie United - Montrose",
       "pressao": 31.9,
-      "prob_mais": 0.57,
-      "prob_mercado": 0.554,
+      "prob_mais": 0.547,
+      "prob_mercado": 0.533,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
         "casa": "Pinnacle",
-        "odd": 1.71,
-        "valor": -0.026
+        "odd": 1.8,
+        "valor": -0.015
       },
       "marathonbet": {
-        "odd": 1.64,
-        "valor": -0.066
+        "odd": 1.73,
+        "valor": -0.053
       },
       "bet365": {
-        "odd": 1.7,
-        "valor": -0.032
+        "odd": 1.75,
+        "valor": -0.042
       },
       "sinal": false,
       "golos": null,
@@ -205,22 +178,22 @@
       "liga": "SC2",
       "jogo": "Queen of the South - Cove Rangers",
       "pressao": 28.7,
-      "prob_mais": 0.551,
-      "prob_mercado": 0.543,
+      "prob_mais": 0.535,
+      "prob_mercado": 0.528,
       "casas": 7,
-      "lado": "menos",
+      "lado": "mais",
       "melhor_odd": {
-        "casa": "Bet365",
-        "odd": 2.2,
-        "valor": -0.011
+        "casa": "Pinnacle",
+        "odd": 1.81,
+        "valor": -0.032
       },
       "marathonbet": {
-        "odd": 1.95,
-        "valor": -0.124
+        "odd": 1.76,
+        "valor": -0.059
       },
       "bet365": {
-        "odd": 2.2,
-        "valor": -0.011
+        "odd": 1.8,
+        "valor": -0.037
       },
       "sinal": false,
       "golos": null,
@@ -232,22 +205,22 @@
       "liga": "SC3",
       "jogo": "Annan Athletic - Stirling Albion",
       "pressao": 32.7,
-      "prob_mais": 0.578,
-      "prob_mercado": 0.582,
+      "prob_mais": 0.581,
+      "prob_mercado": 0.588,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
         "casa": "Betfair",
-        "odd": 2.3,
-        "valor": -0.029
+        "odd": 2.38,
+        "valor": -0.002
       },
       "marathonbet": {
-        "odd": 2.15,
-        "valor": -0.093
+        "odd": 2.19,
+        "valor": -0.082
       },
       "bet365": {
-        "odd": 2.25,
-        "valor": -0.051
+        "odd": 2.3,
+        "valor": -0.036
       },
       "sinal": false,
       "golos": null,
@@ -259,22 +232,22 @@
       "liga": "SC3",
       "jogo": "Dumbarton - Forfar Athletic",
       "pressao": 28.4,
-      "prob_mais": 0.51,
-      "prob_mercado": 0.546,
+      "prob_mais": 0.513,
+      "prob_mercado": 0.554,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
-        "casa": "Bet365",
-        "odd": 2.1,
-        "valor": 0.029
+        "casa": "Betfair",
+        "odd": 2.15,
+        "valor": 0.046
       },
       "marathonbet": {
-        "odd": 2.01,
-        "valor": -0.015
+        "odd": 2.05,
+        "valor": -0.003
       },
       "bet365": {
         "odd": 2.1,
-        "valor": 0.029
+        "valor": 0.022
       },
       "sinal": false,
       "golos": null,
@@ -286,24 +259,24 @@
       "liga": "SC3",
       "jogo": "Elgin City - Clyde",
       "pressao": 31.6,
-      "prob_mais": 0.57,
-      "prob_mercado": 0.593,
+      "prob_mais": 0.564,
+      "prob_mercado": 0.578,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
         "casa": "Betfair",
-        "odd": 2.45,
-        "valor": 0.054
+        "odd": 2.3,
+        "valor": 0.004
       },
       "marathonbet": {
-        "odd": 2.22,
-        "valor": -0.045
+        "odd": 2.18,
+        "valor": -0.048
       },
       "bet365": {
-        "odd": 2.35,
-        "valor": 0.011
+        "odd": 2.25,
+        "valor": -0.018
       },
-      "sinal": true,
+      "sinal": false,
       "golos": null,
       "ganhou": null
     },
@@ -313,22 +286,22 @@
       "liga": "SC3",
       "jogo": "Spartans - Kelty Hearts",
       "pressao": 27.5,
-      "prob_mais": 0.531,
-      "prob_mercado": 0.618,
-      "casas": 6,
+      "prob_mais": 0.527,
+      "prob_mercado": 0.608,
+      "casas": 7,
       "lado": "menos",
       "melhor_odd": {
         "casa": "Betfair",
-        "odd": 2.55,
-        "valor": 0.196
+        "odd": 2.45,
+        "valor": 0.159
       },
       "marathonbet": {
-        "odd": 2.38,
-        "valor": 0.116
+        "odd": 2.33,
+        "valor": 0.102
       },
       "bet365": {
-        "odd": 2.38,
-        "valor": 0.116
+        "odd": 2.35,
+        "valor": 0.112
       },
       "sinal": true,
       "golos": null,
@@ -340,22 +313,22 @@
       "liga": "SC3",
       "jogo": "Stranraer - Edinburgh City",
       "pressao": 33.5,
-      "prob_mais": 0.575,
+      "prob_mais": 0.574,
       "prob_mercado": 0.551,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
         "casa": "1xBet",
-        "odd": 1.74,
-        "valor": 0
+        "odd": 1.76,
+        "valor": 0.011
       },
       "marathonbet": {
-        "odd": 1.68,
-        "valor": -0.034
+        "odd": 1.7,
+        "valor": -0.024
       },
       "bet365": {
         "odd": 1.7,
-        "valor": -0.023
+        "valor": -0.024
       },
       "sinal": false,
       "golos": null,
@@ -367,22 +340,22 @@
       "liga": "E3",
       "jogo": "Accrington ST - Cheltenham",
       "pressao": 33.8,
-      "prob_mais": 0.536,
+      "prob_mais": 0.537,
       "prob_mercado": 0.539,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
         "casa": "1xBet",
         "odd": 2.11,
-        "valor": -0.022
+        "valor": -0.023
       },
       "marathonbet": {
         "odd": 1.99,
-        "valor": -0.077
+        "valor": -0.079
       },
       "bet365": {
         "odd": 2.05,
-        "valor": -0.05
+        "valor": -0.051
       },
       "sinal": false,
       "golos": null,
@@ -394,22 +367,22 @@
       "liga": "E3",
       "jogo": "Crewe - Bristol Rovers",
       "pressao": 35.8,
-      "prob_mais": 0.535,
-      "prob_mercado": 0.521,
+      "prob_mais": 0.531,
+      "prob_mercado": 0.517,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
         "casa": "Pinnacle",
-        "odd": 1.85,
-        "valor": -0.01
+        "odd": 1.88,
+        "valor": -0.002
       },
       "marathonbet": {
         "odd": 1.81,
-        "valor": -0.031
+        "valor": -0.039
       },
       "bet365": {
-        "odd": 1.8,
-        "valor": -0.037
+        "odd": 1.85,
+        "valor": -0.018
       },
       "sinal": false,
       "golos": null,
@@ -455,11 +428,11 @@
       "melhor_odd": {
         "casa": "Betano",
         "odd": 2,
-        "valor": -0.016
+        "valor": -0.017
       },
       "marathonbet": {
         "odd": 1.94,
-        "valor": -0.045
+        "valor": -0.046
       },
       "bet365": {
         "odd": 1.95,
@@ -475,22 +448,22 @@
       "liga": "E3",
       "jogo": "Grimsby - Shrewsbury",
       "pressao": 32.3,
-      "prob_mais": 0.517,
-      "prob_mercado": 0.534,
+      "prob_mais": 0.513,
+      "prob_mercado": 0.53,
       "casas": 7,
       "lado": "menos",
       "melhor_odd": {
         "casa": "1xBet",
         "odd": 2.06,
-        "valor": -0.006
+        "valor": 0.003
       },
       "marathonbet": {
         "odd": 1.98,
-        "valor": -0.044
+        "valor": -0.036
       },
       "bet365": {
-        "odd": 2.05,
-        "valor": -0.011
+        "odd": 2,
+        "valor": -0.026
       },
       "sinal": false,
       "golos": null,
@@ -509,11 +482,11 @@
       "melhor_odd": {
         "casa": "SBO",
         "odd": 1.83,
-        "valor": -0.007
+        "valor": -0.006
       },
       "marathonbet": {
         "odd": 1.76,
-        "valor": -0.045
+        "valor": -0.044
       },
       "bet365": {
         "odd": 1.8,
@@ -529,22 +502,22 @@
       "liga": "E3",
       "jogo": "Salford City - Fleetwood Town",
       "pressao": 38,
-      "prob_mais": 0.582,
-      "prob_mercado": 0.547,
+      "prob_mais": 0.61,
+      "prob_mercado": 0.574,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Betano",
-        "odd": 1.75,
-        "valor": 0.018
+        "casa": "Bet365",
+        "odd": 1.7,
+        "valor": 0.037
       },
       "marathonbet": {
-        "odd": 1.71,
-        "valor": -0.005
+        "odd": 1.62,
+        "valor": -0.012
       },
       "bet365": {
         "odd": 1.7,
-        "valor": -0.011
+        "valor": 0.037
       },
       "sinal": false,
       "golos": null,
@@ -556,22 +529,22 @@
       "liga": "E2",
       "jogo": "Burton Albion - Huddersfield",
       "pressao": 31.3,
-      "prob_mais": 0.508,
-      "prob_mercado": 0.518,
+      "prob_mais": 0.51,
+      "prob_mercado": 0.52,
       "casas": 8,
       "lado": "menos",
       "melhor_odd": {
-        "casa": "Betfair",
-        "odd": 2,
-        "valor": -0.015
+        "casa": "Pinnacle",
+        "odd": 2.02,
+        "valor": -0.01
       },
       "marathonbet": {
         "odd": 1.93,
-        "valor": -0.05
+        "valor": -0.054
       },
       "bet365": {
-        "odd": 1.95,
-        "valor": -0.04
+        "odd": 2,
+        "valor": -0.02
       },
       "sinal": false,
       "golos": null,
@@ -583,22 +556,22 @@
       "liga": "E2",
       "jogo": "Leyton Orient - Plymouth",
       "pressao": 38.3,
-      "prob_mais": 0.605,
-      "prob_mercado": 0.563,
+      "prob_mais": 0.626,
+      "prob_mercado": 0.582,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Pinnacle",
-        "odd": 1.7,
-        "valor": 0.029
+        "casa": "Betano",
+        "odd": 1.67,
+        "valor": 0.045
       },
       "marathonbet": {
-        "odd": 1.68,
-        "valor": 0.017
+        "odd": 1.6,
+        "valor": 0.002
       },
       "bet365": {
-        "odd": 1.67,
-        "valor": 0.011
+        "odd": 1.65,
+        "valor": 0.033
       },
       "sinal": false,
       "golos": null,
@@ -620,12 +593,12 @@
         "valor": -0.02
       },
       "marathonbet": {
-        "odd": 1.81,
-        "valor": -0.052
+        "odd": 1.82,
+        "valor": -0.046
       },
       "bet365": {
         "odd": 1.85,
-        "valor": -0.031
+        "valor": -0.03
       },
       "sinal": false,
       "golos": null,
@@ -637,24 +610,24 @@
       "liga": "SP2",
       "jogo": "Almeria - Burgos",
       "pressao": 34.4,
-      "prob_mais": 0.537,
-      "prob_mercado": 0.499,
+      "prob_mais": 0.536,
+      "prob_mercado": 0.498,
       "casas": 8,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Bet365",
-        "odd": 1.95,
-        "valor": 0.047
+        "casa": "Pinnacle",
+        "odd": 1.98,
+        "valor": 0.06
       },
       "marathonbet": {
-        "odd": 1.83,
-        "valor": -0.018
+        "odd": 1.81,
+        "valor": -0.031
       },
       "bet365": {
         "odd": 1.95,
-        "valor": 0.047
+        "valor": 0.044
       },
-      "sinal": false,
+      "sinal": true,
       "golos": null,
       "ganhou": null
     },
@@ -664,22 +637,22 @@
       "liga": "SC2",
       "jogo": "Hamilton Academical - Peterhead",
       "pressao": 28.7,
-      "prob_mais": 0.566,
-      "prob_mercado": 0.557,
+      "prob_mais": 0.56,
+      "prob_mercado": 0.551,
       "casas": 7,
       "lado": "mais",
       "melhor_odd": {
         "casa": "1xBet",
-        "odd": 1.73,
-        "valor": -0.02
+        "odd": 1.74,
+        "valor": -0.025
       },
       "marathonbet": {
-        "odd": 1.65,
-        "valor": -0.066
+        "odd": 1.67,
+        "valor": -0.065
       },
       "bet365": {
-        "odd": 1.67,
-        "valor": -0.054
+        "odd": 1.7,
+        "valor": -0.048
       },
       "sinal": false,
       "golos": null,
@@ -691,27 +664,161 @@
       "liga": "SP2",
       "jogo": "Cadiz - Leganes",
       "pressao": 34.8,
-      "prob_mais": 0.448,
-      "prob_mercado": 0.425,
-      "casas": 7,
+      "prob_mais": 0.444,
+      "prob_mercado": 0.422,
+      "casas": 8,
       "lado": "mais",
       "melhor_odd": {
-        "casa": "Betfair",
+        "casa": "Pinnacle",
         "odd": 2.38,
-        "valor": 0.065
+        "valor": 0.056
       },
       "marathonbet": {
         "odd": 2.08,
-        "valor": -0.069
+        "valor": -0.077
       },
       "bet365": {
-        "odd": 2.25,
-        "valor": 0.007
+        "odd": 2.3,
+        "valor": 0.021
       },
       "sinal": true,
       "golos": null,
       "ganhou": null
+    },
+    {
+      "fixture": 1569957,
+      "data": "2026-10-04T12:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Real Sociedad II - Granada CF",
+      "pressao": 36.4,
+      "prob_mais": 0.541,
+      "prob_mercado": 0.495,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.97,
+        "valor": 0.066
+      },
+      "marathonbet": {
+        "odd": 1.86,
+        "valor": 0.006
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": 0.055
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569954,
+      "data": "2026-10-04T14:15:00+00:00",
+      "liga": "SP2",
+      "jogo": "Sporting Gijon - Celta de Vigo II",
+      "pressao": 33.4,
+      "prob_mais": 0.586,
+      "prob_mercado": 0.544,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.79,
+        "valor": 0.049
+      },
+      "marathonbet": {
+        "odd": 1.69,
+        "valor": -0.01
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": 0.025
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569951,
+      "data": "2026-10-04T16:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Castellón - AD Ceuta FC",
+      "pressao": 34.2,
+      "prob_mais": 0.756,
+      "prob_mercado": 0.691,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.4,
+        "valor": 0.059
+      },
+      "marathonbet": {
+        "odd": 1.3,
+        "valor": -0.017
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": 0.059
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569956,
+      "data": "2026-10-04T16:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Las Palmas - Valladolid",
+      "pressao": 29,
+      "prob_mais": 0.478,
+      "prob_mercado": 0.471,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.07,
+        "valor": -0.011
+      },
+      "marathonbet": {
+        "odd": 1.93,
+        "valor": -0.078
+      },
+      "bet365": {
+        "odd": 2.05,
+        "valor": -0.021
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569955,
+      "data": "2026-10-04T19:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Girona - Mallorca",
+      "pressao": 31.8,
+      "prob_mais": 0.549,
+      "prob_mercado": 0.519,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": 0.027
+      },
+      "marathonbet": {
+        "odd": 1.75,
+        "valor": -0.039
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": 0.016
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
     }
-  ],
-  "avaliado_em": "2026-10-03T06:04:41.710Z"
+  ]
 }

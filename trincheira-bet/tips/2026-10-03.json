@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T06:22:35.001Z",
+  "units": "stakes",
+  "notes": "Sábado de selecções: oito jogos da Liga das Nações e, nos clubes, só divisões secundárias.\n\nA tip do dia é a Suíça não sofrer com a Eslovénia, a 1.62, uma stake. Sem o Šeško, a Eslovénia ficou em branco em seis dos últimos dez jogos oficiais, e nos dois jogos com a Suíça na qualificação não marcou. Vai no não sofre e não na vitória a zero, porque o 0-0 também paga.\n\nO curto junta a vitória do Hamilton, ambas marcam no Den Bosch-Dordrecht e o Luxemburgo ou empate na Estónia: 2.46, meia stake. O corvo vai pela Marathonbet com a Espanha a ganhar à Chéquia com menos de seis golos e a Bielorrússia a ganhar a San Marino com menos de cinco: 1.77, uma stake.\n\nO modelo dos golos tinha sinais para hoje, mas nenhum aguentou a pesquisa ou o preço da manhã, e não se força boletim.\n\nExposição do dia: duas stakes e meia.",
+  "tips": [
+    {
+      "market": "clean_sheet",
+      "marketLabel": "Não sofre",
+      "pick": "Suíça não sofre golos",
+      "fixtureId": 1545653,
+      "home": {
+        "name": "Switzerland",
+        "logo": "https://media.api-sports.io/football/teams/15.png"
+      },
+      "away": {
+        "name": "Slovenia",
+        "logo": "https://media.api-sports.io/football/teams/1091.png"
+      },
+      "league": "Liga das Nações (Liga B, Grupo 1)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-10-03T18:45:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 1,
+      "context_depth": "full",
+      "selecao": true,
+      "tese": "A Eslovénia chega à Suíça sem o Šeško, que saiu da convocatória com a lesão na canela, e sem ele quase não marca: nos últimos dez jogos oficiais ficou em branco em seis, e fora de casa fez três golos em sete jogos. A Suíça ainda não sofreu nesta Liga das Nações (3-0 na Macedónia do Norte e 3-0 na Escócia), e nos dois jogos da qualificação contra esta mesma Eslovénia também não sofreu (3-0 e 0-0). A tese é só uma: a Eslovénia não marca. Por isso vai no não sofre e não na vitória a zero, porque um 0-0, resultado que os eslovenos repetem muito (quatro nos últimos dez oficiais), também paga. O risco está do lado suíço: joga sem o Xhaka e sem o Embolo, e no Mundial ficou a zero menos vezes do que nesta prova.",
+      "factors": [
+        "Eslovénia, só jogos oficiais (qualificação do Mundial 2026 + Liga das Nações 2024/25 e 2026/27, n=10, API-Football /fixtures, amigáveis excluídos): em branco em 6 de 10; quatro 0-0 (Escócia, Suíça, Kosovo, Eslováquia)",
+        "Eslovénia fora, só oficiais (n=7, API): 1-1 Suécia, 0-0 Kosovo, 0-3 Suíça, 0-0 Eslováquia, 1-1 Áustria, 1-0 Cazaquistão, 0-3 Noruega: 3 golos marcados, em branco em 4 de 7",
+        "Suíça na Liga das Nações 2026/27 (n=2, API): 3-0 Macedónia do Norte (f) e 3-0 Escócia (f). Sem remates enquadrados sofridos nos dois jogos (Racing Post, fonte única, só contexto)",
+        "Suíça em casa, só oficiais (qualificação do Mundial 2026, n=3, API): 4-1 Suécia, 3-0 Eslovénia, 4-0 Kosovo: a zero em 2 de 3. Contra-sinal declarado: nos últimos 10 oficiais (Mundial incluído) só ficou a zero em 4",
+        "H2H oficial (API, n=2, qualificação do Mundial 2026): Suíça 3-0 Eslovénia e Eslovénia 0-0 Suíça. O FootyStats junta jogos de 2015 (n=4, a Eslovénia marcou em 2); um só remate enquadrado esloveno nos dois jogos de 2025 (Racing Post)",
+        "Ausências com fontes concordantes: Šeško (Eslovénia, canela, fora da convocatória) — Goal, Yahoo Sports, Sports Mole e Toffeeweb; Xhaka e Embolo (Suíça, não convocados) — Sports Mole e Toffeeweb",
+        "Não usado como argumento: Šporar e Verbič dados como lesionados só pelo Toffeeweb (o Šporar constava da convocatória de 15/09 publicada pelo siol.net); Janža dado como lesionado pelo Toffeeweb mas no onze provável do SportsGambler e da Sports Mole — contradição, ignorado",
+        "Treinadores: Boštjan Cesar na Eslovénia desde Janeiro de 2026 (Delo e RTV SLO), sem mudança recente; nenhuma mudança reportada na Suíça",
+        "Probabilidades: API-Football predictions 50/50/0 (conselho Suíça e mais de 1.5); Bet365 1X2 1.28/5.25/11.00; não sofre Sim 1.62 / Não 2.20 dá 57,6% justo sem margem; a nossa leitura anda perto de 63%. Marathonbet vitória a zero 1.79",
+        "Terceiros alinhados: Racing Post Bet of the Day (Suíça vence sem sofrer, 10-11), SportsGambler (1-0 e menos de 2.5), Toffeeweb (Suíça vence). Contra: Sports Mole prevê 3-1",
+        "Não obtido: o xG por lado do FootyStats veio sem amostra nem competição e foi descartado; padrões ao intervalo indisponíveis (nenhum mercado activo depende deles)"
+      ],
+      "sources": [
+        "API-Football: /fixtures (forma oficial n=10 e splits casa/fora), /fixtures/headtohead 15-1091, /predictions 1545653, /odds 1545653 Bet365 e Marathonbet (actualizadas 04:34Z)",
+        "Racing Post — Football Bet of the Day (James Milton), Suíça vence sem sofrer",
+        "Sports Mole — antevisão Suíça-Eslovénia (baixas, onzes prováveis, 3-1)",
+        "SportsGambler — switzerland-vs-slovenia 03/10/2026 (onzes, 1-0, menos de 2.5)",
+        "Toffeeweb — antevisão Suíça-Eslovénia (baixas dos dois lados)",
+        "Goal.com e Yahoo Sports — Šeško sai da convocatória com lesão na canela",
+        "siol.net (convocatória de 15/09), Delo e RTV SLO (Cesar selecionador)",
+        "FootyStats — página H2H Suíça-Eslovénia (só o H2H; xG descartado)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "fixtureId": 1557048,
+          "match": "Hamilton Academical vs Peterhead",
+          "league": "Scottish League One",
+          "pick": "Hamilton vence",
+          "odds": 1.33,
+          "kickoff": "2026-10-03T16:30:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "fixtureId": 1551822,
+          "match": "Den Bosch vs Dordrecht",
+          "league": "Eerste Divisie",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-03T18:00:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "fixtureId": 1545609,
+          "match": "Estonia vs Luxembourg",
+          "league": "Liga das Nações (Liga C)",
+          "pick": "Luxemburgo ou empate (dupla hipótese X2)",
+          "odds": 1.36,
+          "kickoff": "2026-10-03T16:00:00Z",
+          "selecao": true
+        }
+      ],
+      "combined_odds": 2.46,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528936,
+          "match": "Spain vs Czechia",
+          "league": "Liga das Nações (Liga A, Grupo 3)",
+          "pick": "Espanha vence e menos de 5.5 golos",
+          "odds": 1.31,
+          "kickoff": "2026-10-03T18:45:00Z"
+        },
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528934,
+          "match": "Belarus vs San Marino",
+          "league": "Liga das Nações (Liga C, Grupo 1)",
+          "pick": "Bielorrússia vence e menos de 4.5 golos",
+          "odds": 1.35,
+          "kickoff": "2026-10-03T16:00:00Z"
+        }
+      ],
+      "combined_odds": 1.77,
+      "score": 66,
+      "stake": 1
+    }
+  ]
+}

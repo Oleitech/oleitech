@@ -61,17 +61,25 @@
         "baliza_7_5": {
           "casa": "mediana de 1",
           "odd": 1.24,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.24
         },
         "baliza_8_5": {
           "casa": "Bet365",
           "odd": 1.67,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.67
         }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 10,
+        "cantos": 10
       }
     },
     {
@@ -88,17 +96,25 @@
         "baliza_7_5": {
           "casa": "mediana de 1",
           "odd": 1.29,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.29
         },
         "baliza_8_5": {
           "casa": "mediana de 2",
           "odd": 1.52,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.52
         }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 18,
+        "cantos": 7
       }
     },
     {
@@ -137,17 +153,25 @@
         "baliza_7_5": {
           "casa": "mediana de 2",
           "odd": 1.39,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.39
         },
         "baliza_8_5": {
           "casa": "Bet365",
           "odd": 1.67,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.67
         }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 12,
+        "cantos": 8
       }
     },
     {
@@ -175,17 +199,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.14,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.14
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.31,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.31
         }
       },
       "historico": {
         "cantos_6_5": 0.696,
         "cantos_7_5": 0.557
+      },
+      "real": {
+        "baliza": 10,
+        "cantos": 12
       }
     }
   ]

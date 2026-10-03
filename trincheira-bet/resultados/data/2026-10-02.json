@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-02",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Sim",
+        "fixtureId": 1528928,
+        "home": {
+          "name": "Poland",
+          "logo": "https://media.api-sports.io/football/teams/24.png"
+        },
+        "away": {
+          "name": "Romania",
+          "logo": "https://media.api-sports.io/football/teams/774.png"
+        },
+        "league": "Liga das Nacoes (Liga B)",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+        "kickoff": "2026-10-02T18:45:00Z",
+        "odds": 1.8,
+        "bookmaker": "Bet365",
+        "score": 74,
+        "stake": 1,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1,
+        "final_score": "6-0",
+        "note": "A Polonia goleou a Romenia por 6-0 em casa. O Lewandowski e companhia dispararam sem parar e a defesa romena desmoronou-se por completo, mas a Romenia nunca chegou a marcar — ambas marcam falha mesmo com seis golos no marcador."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1528924,
+            "match": "France vs Italy",
+            "league": "Liga das Nacoes (Liga A)",
+            "pick": "Franca vence",
+            "odds": 1.42,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "1-1"
+          },
+          {
+            "fixtureId": 1545608,
+            "match": "Latvia vs Montenegro",
+            "league": "Liga das Nacoes (Liga C, Grupo 2)",
+            "pick": "Montenegro vence, empate devolve (DNB)",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "1-2"
+          },
+          {
+            "fixtureId": 1528923,
+            "match": "Kazakhstan vs Moldova",
+            "league": "Liga das Nacoes (Liga C, Grupo 3)",
+            "pick": "Cazaquistao vence, empate devolve (DNB)",
+            "odds": 1.33,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "1-2"
+          }
+        ],
+        "combined_odds": 2.42,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "A Franca so empatou 1-1 em casa com a Italia, a primeira perna falha logo ali. O Montenegro venceu na Letonia (1-2, cumpre o DNB) mas o Cazaquistao perdeu em casa com a Moldavia (1-2), outra perna RED a direito — bilhete morto em duas das tres pernas."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "fixtureId": 1528926,
+            "match": "Hungary vs Georgia",
+            "league": "Liga das Nacoes (Liga B, Grupo 2)",
+            "pick": "Hungria ou empate (dupla hipotese 1X)",
+            "odds": 1.32,
+            "bookmaker": "Marathonbet",
+            "result": "GREEN",
+            "final_score": "1-0"
+          },
+          {
+            "fixtureId": 1528930,
+            "match": "Cyprus vs Armenia",
+            "league": "Liga das Nacoes (Liga C, Grupo 2)",
+            "pick": "Chipre ou empate (dupla hipotese 1X)",
+            "odds": 1.36,
+            "bookmaker": "Marathonbet",
+            "result": "GREEN",
+            "final_score": "2-0"
+          }
+        ],
+        "combined_odds": 1.8,
+        "score": 66,
+        "stake": 1,
+        "result": "GREEN",
+        "return": 1.8,
+        "pnl": 0.8,
+        "note": "A Hungria venceu a Geo­rgia 1-0 em casa e o Chipre venceu a Armenia 2-0 em casa, as duas duplas hipoteses cumprem-se sem sustos e o bilhete fecha GREEN."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0,
+      "total_stake": 1,
+      "total_return": 0,
+      "pnl": -1,
+      "roi_pct": -100,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 1.8,
+      "accumulators_pnl": 0.3,
+      "combined_stake": 2.5,
+      "combined_return": 1.8,
+      "combined_pnl": -0.7,
+      "combined_roi_pct": -28
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1528923,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Kazakhstan vs Moldova",
+        "league": "UEFA Nations League (World)",
+        "elapsed": 50,
+        "score": "0-1",
+        "conf": 87,
+        "factors": [
+          "Kazakhstan ainda nao marcou",
+          "2 SoT - 9 remates - 66% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Defesas frageis",
+          "Preco 1.57"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1790953706136,
+        "deliveries": 0,
+        "odds": 1.571,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 87 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": null,
+        "resolvedAt": 1790957453989
+      },
+      {
+        "fixtureId": 1528923,
+        "strategy": "🔄 CANTOS TARDIOS",
+        "market": "Over 15 Cantos",
+        "match": "Kazakhstan vs Moldova",
+        "league": "UEFA Nations League (World)",
+        "elapsed": 72,
+        "score": "1-2",
+        "conf": 85,
+        "factors": [
+          "13 cantos aos 72 (16.3/jogo de ritmo)",
+          "Faltam 2 para a linha 15",
+          "P 76% - preco 1.80 - justo 1.31",
+          "Margem +21 pontos sobre o preco de mercado"
+        ],
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 2,
+        "sentAt": 1790955058049,
+        "deliveries": 0,
+        "odds": 1.8,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estrategia em avaliacao",
+        "result": "PUSH",
+        "finalHome": 1,
+        "finalAway": 2,
+        "finalCorners": 15,
+        "resolvedAt": 1790957682437
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Nenhum alerta apostado hoje. Os dois alertas do dia (Kazaquistao-Moldavia) ficaram em sombra (confianca 87 e estrategia em avaliacao) — BTTS LIVE fechou GREEN e CANTOS TARDIOS fechou PUSH (15 cantos, linha exacta), fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 2,
+      "green": 1,
+      "red": 0,
+      "push": 1,
+      "pending": 0,
+      "hit_rate": 50,
+      "stake_nocional": 2,
+      "return_nocional": 2.57,
+      "pnl_nocional": 0.57,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        },
+        "🔄 CANTOS TARDIOS": {
+          "total": 1,
+          "green": 0,
+          "red": 0,
+          "push": 1,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      }
+    }
+  },
+  "balance": 30.66,
+  "notes": "Noite de selecoes europeias. A tip do dia, ambas marcam no Polonia-Romenia, falhou da pior maneira possivel: goleada polaca por 6-0, mas a Romenia nunca chegou a marcar. O curto tambem caiu, com a Franca so a empatar em casa com a Italia e o Cazaquistao a perder com a Moldavia. So o corvo salvou parte da noite, com a Hungria e o Chipre a vencerem em casa nas duas duplas hipoteses. Dia negativo: -0,70 stakes, banca desce de 31,36 para 30,66 stakes. Dois alertas live ficaram em sombra (sem dinheiro em jogo): um GREEN, um PUSH."
+}
