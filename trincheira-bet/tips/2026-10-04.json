@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T06:15:50.534Z",
+  "units": "stakes",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528941,
+          "match": "Portugal vs Norway",
+          "league": "Liga das Nações (Liga A, Grupo 4)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-04T18:45:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528943,
+          "match": "Rep. Of Ireland vs Israel",
+          "league": "Liga das Nações (Liga B, Grupo 3)",
+          "pick": "Irlanda ou empate (dupla hipótese 1X)",
+          "odds": 1.28,
+          "kickoff": "2026-10-04T18:45:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1639988,
+          "match": "Trinidad and Tobago vs Curaçao",
+          "league": "Liga das Nações CONCACAF (Liga A)",
+          "pick": "Curaçao vence",
+          "odds": 1.4,
+          "kickoff": "2026-10-04T22:00:00Z"
+        }
+      ],
+      "combined_odds": 2.58,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528940,
+          "match": "Netherlands vs Serbia",
+          "league": "Liga das Nações (Liga A, Grupo 2)",
+          "pick": "Países Baixos vencem e menos de 5.5 golos",
+          "odds": 1.37,
+          "kickoff": "2026-10-04T18:45:00Z"
+        },
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528943,
+          "match": "Rep. Of Ireland vs Israel",
+          "league": "Liga das Nações (Liga B, Grupo 3)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.32,
+          "kickoff": "2026-10-04T18:45:00Z"
+        }
+      ],
+      "combined_odds": 1.81,
+      "score": 68,
+      "stake": 1
+    }
+  ],
+  "notes": "Domingo de selecções, com oito jogos da Liga das Nações e pouca bola de clubes que preste. Não sai nenhuma tip a solo: não se encontrou valor que aguentasse a investigação, e não se força boletim.\n\nO modelo de golos tinha o mais de 2.5 no Real Sociedad B-Granada a 1.95 na Bet365, mas a pesquisa foi contra: a Real B em casa mal marca (um golo em três jogos) e os números de terceiros dão o mais de 2.5 abaixo dos 40%. Caiu. O Girona-Mallorca e o Gijón-Celta B nem chegaram a ter valor na Bet365 nem na Marathonbet.\n\nA vitória de Portugal sobre a Noruega paga 1.65, mas os modelos dão-lhe pouco mais de 50%, por isso fica só como perna: ambas marcam, com o Haaland a jogar e a Noruega a marcar em todos os jogos oficiais recentes.\n\nCurto de selecções a 2.58, meia stake: ambas marcam no Portugal-Noruega, Irlanda ou empate com Israel (ganharam-lhes 3-0 há uma semana) e Curaçao a ganhar em Trindade, que ainda não ganhou um jogo oficial este ano.\n\nCorvo a 1.81, uma stake: Países Baixos ganham à Sérvia e menos de 5.5, mais de 1.5 golos no Irlanda-Israel. Atenção que o Irlanda-Israel está nos dois bilhetes, em mercados diferentes: se a Irlanda tropeçar a zeros, caem os dois.\n\nExposição do dia: 1,5 stakes."
+}
