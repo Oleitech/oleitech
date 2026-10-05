@@ -71,7 +71,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "A tip com o score mais alto do dia, e a que falhou de forma mais limpa. A tese assentava em 7 dos últimos 8 confrontos com ambas a marcar e nos três centrais que faltavam ao Napoli — e o Napoli fez baliza a zero na mesma. O contra que registei (Napoli invicto há 8 jogos com o Genoa, que não vence em casa há 4) era o sinal mais fiável e eu dei-lhe menos peso do que ao H2H de golos."
+        "note": "A tip com o score mais alto do dia, e a que falhou de forma mais limpa. A tese assentava em 7 dos últimos 8 confrontos com ambas a marcar e nos três centrais que faltavam ao Napoli — e o Napoli fez baliza a zero na mesma. O contra que registei (Napoli invicto há 8 jogos com o Genoa, que não vence em casa há 4) era o sinal mais fiável e eu dei-lhe menos peso do que ao H2H de golos.",
+        "score": 79
       },
       {
         "market": "btts",
@@ -90,7 +91,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "Falhou exactamente onde eu disse que podia falhar: a perna do Palace marcar. Uma equipa em transição, sem o Wharton e com dúvidas sobre McNeil e Doucouré, não fez golo na estreia fora. A leitura do risco estava certa; o desconto no score (75) não chegou para compensar."
+        "note": "Falhou exactamente onde eu disse que podia falhar: a perna do Palace marcar. Uma equipa em transição, sem o Wharton e com dúvidas sobre McNeil e Doucouré, não fez golo na estreia fora. A leitura do risco estava certa; o desconto no score (75) não chegou para compensar.",
+        "score": 75
       }
     ]
   },

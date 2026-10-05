@@ -43,7 +43,8 @@
         "hit": true,
         "return": 3.08,
         "pnl": 1.68,
-        "note": "A tese cumpriu-se na letra: baliza a zero em casa, a 12ª vez em 13 jogos. E o mercado escolhido foi o certo — esta tip esteve publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 porque o argumento era sobre a defesa da Roma, não sobre o jogo ser fechado. Ambas as versões ganhavam com 4-0, mas a corrigida rendeu mais 0,41 stakes."
+        "note": "A tese cumpriu-se na letra: baliza a zero em casa, a 12ª vez em 13 jogos. E o mercado escolhido foi o certo — esta tip esteve publicada como Ambas Marcam Não a 1.91 e foi corrigida para Clean Sheet a 2.20 porque o argumento era sobre a defesa da Roma, não sobre o jogo ser fechado. Ambas as versões ganhavam com 4-0, mas a corrigida rendeu mais 0,41 stakes.",
+        "score": 82
       },
       {
         "market": "btts",
@@ -62,7 +63,8 @@
         "hit": true,
         "return": 2.52,
         "pnl": 1.12,
-        "note": "0-0 ao intervalo e um único golo no jogo inteiro. Jornada 1 de Serie A com duas equipas ainda a afinar — o padrão de arranque de época conservador voltou a pagar."
+        "note": "0-0 ao intervalo e um único golo no jogo inteiro. Jornada 1 de Serie A com duas equipas ainda a afinar — o padrão de arranque de época conservador voltou a pagar.",
+        "score": 80
       },
       {
         "market": "favorites",
@@ -82,7 +84,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "A pior forma de perder: a tese era que o Levante sofre 2+ golos com regularidade, e o jogo acabou 0-0. Não foi por pouco — o Osasuna não marcou de todo. Lição sobre o mercado: total de equipa acima de 1.5 não tem consolação, ao contrário de um 1X2 ou de um over do jogo. Exige que a tese esteja certa em cheio."
+        "note": "A pior forma de perder: a tese era que o Levante sofre 2+ golos com regularidade, e o jogo acabou 0-0. Não foi por pouco — o Osasuna não marcou de todo. Lição sobre o mercado: total de equipa acima de 1.5 não tem consolação, ao contrário de um 1X2 ou de um over do jogo. Exige que a tese esteja certa em cheio.",
+        "score": 72
       },
       {
         "market": "favorites",
@@ -102,7 +105,8 @@
         "hit": true,
         "return": 2,
         "pnl": 1,
-        "note": "1-1 ao intervalo e 1-1 no final. O mercado de intervalo resolveu-se aos 45 minutos e a segunda parte foi irrelevante para a aposta — precisamente a vantagem deste mercado a 2.00 num jogo equilibrado de Segunda Divisão."
+        "note": "1-1 ao intervalo e 1-1 no final. O mercado de intervalo resolveu-se aos 45 minutos e a segunda parte foi irrelevante para a aposta — precisamente a vantagem deste mercado a 2.00 num jogo equilibrado de Segunda Divisão.",
+        "score": 74
       },
       {
         "market": "btts",
@@ -121,7 +125,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "Tip da 4ª versão do ficheiro, acrescentada depois de o utilizador perguntar porque não havia nada na Liga Portugal 2 — pergunta que expôs a liga 95 estar fora das ligas-foco enquanto Portugal já estava no country gate do bot live. A correcção estrutural mantém-se válida; a primeira tip que produziu é que foi RED. Felgueiras marcou primeiro, Farense empatou."
+        "note": "Tip da 4ª versão do ficheiro, acrescentada depois de o utilizador perguntar porque não havia nada na Liga Portugal 2 — pergunta que expôs a liga 95 estar fora das ligas-foco enquanto Portugal já estava no country gate do bot live. A correcção estrutural mantém-se válida; a primeira tip que produziu é que foi RED. Felgueiras marcou primeiro, Farense empatou.",
+        "score": 70
       }
     ]
   },

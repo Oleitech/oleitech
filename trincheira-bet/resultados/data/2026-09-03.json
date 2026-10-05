@@ -24,7 +24,8 @@
         "final_score": "1-3",
         "return": 0.84,
         "pnl": 0.34,
-        "note": "Hearts venceu o derby de Edimburgo por 3-1, com o Hibernian reduzido a 10. James Wilson e Laurent Mendy puseram os visitantes 2-0 ao intervalo, Adam Mayor reduziu para o Hibernian e Josh McPake fechou a contagem. Ambas as equipas marcaram, confirmando a tese: o Hearts manteve a sequencia de marcar em todos os jogos oficiais e o Hibernian voltou a sofrer em casa."
+        "note": "Hearts venceu o derby de Edimburgo por 3-1, com o Hibernian reduzido a 10. James Wilson e Laurent Mendy puseram os visitantes 2-0 ao intervalo, Adam Mayor reduziu para o Hibernian e Josh McPake fechou a contagem. Ambas as equipas marcaram, confirmando a tese: o Hearts manteve a sequencia de marcar em todos os jogos oficiais e o Hibernian voltou a sofrer em casa.",
+        "context_depth": "partial"
       }
     ],
     "accumulators": [

@@ -28,7 +28,15 @@
         "return": 0.96,
         "pnl": 0.46,
         "final_score": "2-0",
-        "note": "A Juventus venceu por 2-0 com o jogo a ficar abaixo dos 2.5 golos - a tese das baixas no meio-campo (Yildiz, Locatelli, K. Thuram) e da Atalanta pouco eficaz confirmou-se, apesar do aviso de que a Atalanta nao costuma deixar a baliza a zero fora."
+        "note": "A Juventus venceu por 2-0 com o jogo a ficar abaixo dos 2.5 golos - a tese das baixas no meio-campo (Yildiz, Locatelli, K. Thuram) e da Atalanta pouco eficaz confirmou-se, apesar do aviso de que a Atalanta nao costuma deixar a baliza a zero fora.",
+        "score": 70,
+        "context_depth": "partial",
+        "gap": {
+          "pressao": 41,
+          "prob_modelo": 0.556,
+          "prob_mercado": 0.497,
+          "valor": 0.062
+        }
       }
     ],
     "accumulators": [

@@ -17,7 +17,8 @@
         "pnl": 1.05,
         "note": "Furth venceu em casa por 2-0, apurando-se para a 2a Bundesliga. Vitoria convincente com golo de Futkeu (29) e segundo golo na 2a parte. Essen sem resistir no Ronhof cheio.",
         "home": "Furth",
-        "away": "Rot-Weiss Essen"
+        "away": "Rot-Weiss Essen",
+        "score": 78
       },
       {
         "fixtureId": 1545408,
@@ -34,7 +35,8 @@
         "pnl": -1.4,
         "note": "Jogo extremamente cauteloso no Stade Geoffroy-Guichard - 0-0 no final. Nenhuma das equipas marcou, apesar do Chaudron cheio. Penalti anulado pela VAR ao ASSE aos 36. Tudo em aberto para a 2a mao.",
         "home": "Saint Etienne",
-        "away": "Nice"
+        "away": "Nice",
+        "score": 75
       }
     ],
     "accumulators": [

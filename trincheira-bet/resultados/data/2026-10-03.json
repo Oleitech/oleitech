@@ -26,7 +26,9 @@
         "return": 0,
         "pnl": -1,
         "final_score": "2-1",
-        "note": "A Suica venceu 2-1 mas sofreu um golo da Eslovenia — o nao sofre falha mesmo com a vitoria confirmada."
+        "note": "A Suica venceu 2-1 mas sofreu um golo da Eslovenia — o nao sofre falha mesmo com a vitoria confirmada.",
+        "score": 74,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

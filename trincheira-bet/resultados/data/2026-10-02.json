@@ -28,7 +28,8 @@
         "return": 0,
         "pnl": -1,
         "final_score": "6-0",
-        "note": "A Polonia goleou a Romenia por 6-0 em casa. O Lewandowski e companhia dispararam sem parar e a defesa romena desmoronou-se por completo, mas a Romenia nunca chegou a marcar — ambas marcam falha mesmo com seis golos no marcador."
+        "note": "A Polonia goleou a Romenia por 6-0 em casa. O Lewandowski e companhia dispararam sem parar e a defesa romena desmoronou-se por completo, mas a Romenia nunca chegou a marcar — ambas marcam falha mesmo com seis golos no marcador.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [

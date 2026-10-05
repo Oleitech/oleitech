@@ -27,7 +27,9 @@
         "return": 1.67,
         "pnl": 0.67,
         "final_score": "1-0",
-        "note": "O Betis venceu o Getafe por 1-0 em casa, a sexta vitoria nos ultimos sete jogos oficiais - a tese cumpriu-se sem sustos."
+        "note": "O Betis venceu o Getafe por 1-0 em casa, a sexta vitoria nos ultimos sete jogos oficiais - a tese cumpriu-se sem sustos.",
+        "score": 80,
+        "context_depth": "full"
       },
       {
         "market": "btts",
@@ -53,7 +55,9 @@
         "return": 0,
         "pnl": -0.5,
         "final_score": "0-3",
-        "note": "O Plzen perdeu por 0-3 em casa com o Union Saint-Gilloise e nao marcou - quebrou-se ali a serie de seis jogos caseiros seguidos com ambas as equipas a marcar."
+        "note": "O Plzen perdeu por 0-3 em casa com o Union Saint-Gilloise e nao marcou - quebrou-se ali a serie de seis jogos caseiros seguidos com ambas as equipas a marcar.",
+        "score": 76,
+        "context_depth": "partial"
       },
       {
         "market": "favorites",
@@ -79,7 +83,9 @@
         "return": 0,
         "pnl": -0.5,
         "final_score": "4-0",
-        "note": "O Crystal Palace goleou o Lech Poznan por 4-0 e os polacos nao marcaram, quebrando a serie de dez jogos seguidos a marcar - a defesa do Palace, que vinha a sofrer em todas as jornadas, apareceu justamente neste jogo."
+        "note": "O Crystal Palace goleou o Lech Poznan por 4-0 e os polacos nao marcaram, quebrando a serie de dez jogos seguidos a marcar - a defesa do Palace, que vinha a sofrer em todas as jornadas, apareceu justamente neste jogo.",
+        "score": 76,
+        "context_depth": "partial"
       }
     ],
     "accumulators": [

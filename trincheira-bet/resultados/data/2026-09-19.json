@@ -27,7 +27,16 @@
         "return": 0.83,
         "pnl": 0.33,
         "final_score": "2-4",
-        "note": "O Blackpool venceu por 2-4 num jogo com seis golos - a tese do mercado dos golos cumpriu-se com folga, apesar de a defesa sem os dois centrais ter custado mais do que o previsto."
+        "note": "O Blackpool venceu por 2-4 num jogo com seis golos - a tese do mercado dos golos cumpriu-se com folga, apesar de a defesa sem os dois centrais ter custado mais do que o previsto.",
+        "score": 68,
+        "context_depth": "partial",
+        "modelo": "gap",
+        "gap": {
+          "pressao": 40.8,
+          "prob_modelo": 0.64,
+          "prob_mercado": 0.58,
+          "valor": 0.056
+        }
       }
     ],
     "accumulators": [

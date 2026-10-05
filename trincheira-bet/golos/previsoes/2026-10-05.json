@@ -1,0 +1,41 @@
+{
+  "gerado": "2026-10-05T06:09:06.800Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1569952,
+      "data": "2026-10-05T18:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Cordoba - Tenerife",
+      "pressao": 33.4,
+      "prob_mais": 0.543,
+      "prob_mercado": 0.508,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.95,
+        "valor": 0.06
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": -0.027
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": 0.032
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

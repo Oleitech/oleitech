@@ -21,7 +21,9 @@
         "hit": false,
         "return": 0,
         "pnl": -1.5,
-        "note": "Barcelona venceu 5-2 ao Rayo Vallecano, mas sofreu dois golos (ambos do Rayo), o que invalida o mercado Baliza a Zero / Clean Sheet Casa. A tese defensiva (0,5 golos sofridos por jogo em casa na epoca anterior) falhou no dia: o Rayo, sem Isi Palazon, Luiz Felipe e Batalla, ainda assim marcou duas vezes no Camp Nou."
+        "note": "Barcelona venceu 5-2 ao Rayo Vallecano, mas sofreu dois golos (ambos do Rayo), o que invalida o mercado Baliza a Zero / Clean Sheet Casa. A tese defensiva (0,5 golos sofridos por jogo em casa na epoca anterior) falhou no dia: o Rayo, sem Isi Palazon, Luiz Felipe e Batalla, ainda assim marcou duas vezes no Camp Nou.",
+        "score": 82,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

@@ -24,7 +24,8 @@
         "final_score": "2-0",
         "return": 0,
         "pnl": -0.5,
-        "note": "O Aalesund venceu 2-0 sobre o Start e a baliza visitante ficou a zero, falhando a tese de Ambas Marcam apesar da amostra forte (10/10 jogos em casa com ambas a marcar nesta Eliteserien). O proprio contra assumido da analise - preco abaixo do piso de valor de 1.55 - nao chegou a ser o problema; foi simplesmente o Start a nao marcar."
+        "note": "O Aalesund venceu 2-0 sobre o Start e a baliza visitante ficou a zero, falhando a tese de Ambas Marcam apesar da amostra forte (10/10 jogos em casa com ambas a marcar nesta Eliteserien). O proprio contra assumido da analise - preco abaixo do piso de valor de 1.55 - nao chegou a ser o problema; foi simplesmente o Start a nao marcar.",
+        "context_depth": "partial"
       }
     ],
     "accumulators": [

@@ -21,7 +21,8 @@
         "final_score": "3-1",
         "return": 1.7,
         "pnl": 0.7,
-        "note": "Sporting confirmou a tese em Alvalade: venceu o Galatasaray por 3-1 na estreia da fase de liga, aproveitando um Galatasaray desfalcado (sem Osimhen, Singo e Lemina) e sem pontaria fora de casa na Champions."
+        "note": "Sporting confirmou a tese em Alvalade: venceu o Galatasaray por 3-1 na estreia da fase de liga, aproveitando um Galatasaray desfalcado (sem Osimhen, Singo e Lemina) e sem pontaria fora de casa na Champions.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [

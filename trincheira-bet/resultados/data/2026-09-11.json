@@ -21,7 +21,8 @@
         "final_score": "1-0",
         "return": 0,
         "pnl": -1,
-        "note": "O Lepaul foi titular (confirmado pelos onzes da API-Football, regra de devolução não se aplica), mas não marcou: o único golo do jogo foi de Adrien Thomasson, aos 52 minutos. Rennes venceu por 1-0."
+        "note": "O Lepaul foi titular (confirmado pelos onzes da API-Football, regra de devolução não se aplica), mas não marcou: o único golo do jogo foi de Adrien Thomasson, aos 52 minutos. Rennes venceu por 1-0.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [
@@ -113,19 +114,39 @@
   },
   "btts": {
     "tips": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
   },
   "cards": {
     "tips": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
   },
   "over25": {
     "tips": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
   },
   "corners": {
     "tips": [],
-    "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 }
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
   },
   "live_alerts": {
     "alerts": [

@@ -27,7 +27,9 @@
         "return": 0,
         "pnl": -1.5,
         "final_score": "0-1",
-        "note": "O Deportivo nao marcou em casa ao Sevilha (0-1); a serie de cinco jornadas com ambas a marcar quebrou-se justamente no jogo em que a apostamos."
+        "note": "O Deportivo nao marcou em casa ao Sevilha (0-1); a serie de cinco jornadas com ambas a marcar quebrou-se justamente no jogo em que a apostamos.",
+        "score": 83,
+        "context_depth": "full"
       },
       {
         "market": "scorers",
@@ -53,7 +55,9 @@
         "return": 0,
         "pnl": -0.5,
         "final_score": "0-0",
-        "note": "Jogo terminou 0-0 (dois golos anulados pelo VAR, um de cada lado). O Lepaul so entrou aos 86 minutos e nunca teve hipotese de marcar - o risco de rotacao assinalado na tese concretizou-se."
+        "note": "Jogo terminou 0-0 (dois golos anulados pelo VAR, um de cada lado). O Lepaul so entrou aos 86 minutos e nunca teve hipotese de marcar - o risco de rotacao assinalado na tese concretizou-se.",
+        "score": 66,
+        "context_depth": "partial"
       }
     ],
     "accumulators": [],

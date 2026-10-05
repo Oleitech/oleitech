@@ -16,7 +16,9 @@
         "return": 1.62,
         "pnl": 0.62,
         "final_score": "1-2",
-        "note": "Derby de Istambul acabou 1-2 para o Besiktas e as duas equipas marcaram, como a tese previa (Fenerbahce nao falhava o golo em casa ha 17 jogos). BTTS GREEN."
+        "note": "Derby de Istambul acabou 1-2 para o Besiktas e as duas equipas marcaram, como a tese previa (Fenerbahce nao falhava o golo em casa ha 17 jogos). BTTS GREEN.",
+        "score": 77,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

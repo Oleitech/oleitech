@@ -20,7 +20,8 @@
         "hit": true,
         "return": 1.48,
         "pnl": 0.48,
-        "note": "Lens histórico — primeira Coupe de France do clube. Thauvin, Édouard e Sima marcaram. Nice sem reação (16º Ligue 1, 0 vitórias em 8). Tese de colapso de Nice completamente confirmada. Odd 1.48 era ligeiramente abaixo do filtro 1.50 mas excepção justificada."
+        "note": "Lens histórico — primeira Coupe de France do clube. Thauvin, Édouard e Sima marcaram. Nice sem reação (16º Ligue 1, 0 vitórias em 8). Tese de colapso de Nice completamente confirmada. Odd 1.48 era ligeiramente abaixo do filtro 1.50 mas excepção justificada.",
+        "score": 75
       },
       {
         "market": "tennis_set_winner",
@@ -40,7 +41,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "Upset absoluto — Navone demoliu Ruud 7-5 6-2, 27 winners. O 'rei de Geneva' (16-1 lifetime) perdeu em casa. Lição: historial impressivo não protege de dias de nível excepcional do adversário. Navone chegou à final vs Tien."
+        "note": "Upset absoluto — Navone demoliu Ruud 7-5 6-2, 27 winners. O 'rei de Geneva' (16-1 lifetime) perdeu em casa. Lição: historial impressivo não protege de dias de nível excepcional do adversário. Navone chegou à final vs Tien.",
+        "score": 78
       },
       {
         "market": "tennis_games_total",
@@ -60,7 +62,8 @@
         "hit": true,
         "return": 2.59,
         "pnl": 1.19,
-        "note": "3-setter confirmado: 8+9+9=26 jogos, bem acima da linha 22.5. Paul epic comeback — perdeu 0-3 no 2º set e venceu 9 jogos seguidos. de Minaur fica sem a primeira clay final da carreira. Consenso tipsters acertou em cheio."
+        "note": "3-setter confirmado: 8+9+9=26 jogos, bem acima da linha 22.5. Paul epic comeback — perdeu 0-3 no 2º set e venceu 9 jogos seguidos. de Minaur fica sem a primeira clay final da carreira. Consenso tipsters acertou em cheio.",
+        "score": 76
       },
       {
         "market": "nba_total",
@@ -80,7 +83,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "231 pontos (13.5 acima da linha). Thunder bench explosivo — 76-23 em pontos do banco, recorde franchise em playoffs desde 2009. SGA 26pts+12ast, Wembanyama 26pts. Mesmo sem Jalen Williams o Thunder atacou bem. Tese defensiva foi ilusória."
+        "note": "231 pontos (13.5 acima da linha). Thunder bench explosivo — 76-23 em pontos do banco, recorde franchise em playoffs desde 2009. SGA 26pts+12ast, Wembanyama 26pts. Mesmo sem Jalen Williams o Thunder atacou bem. Tese defensiva foi ilusória.",
+        "score": 78
       }
     ],
     "summary": {

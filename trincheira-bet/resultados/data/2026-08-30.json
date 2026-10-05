@@ -20,7 +20,9 @@
         "hit": false,
         "return": 0,
         "pnl": -0.5,
-        "note": "Bodo/Glimt venceu por 4-2, mas sofreu dois golos do Rosenborg, o que invalida o mercado Vitoria Sem Sofrer (Win to Nil). A tese defensiva (0,3 golos sofridos por jogo em casa) falhou justamente na reserva ja identificada na propria tese: o Bodo jogava o terceiro jogo em cinco dias apos Champions e Taca."
+        "note": "Bodo/Glimt venceu por 4-2, mas sofreu dois golos do Rosenborg, o que invalida o mercado Vitoria Sem Sofrer (Win to Nil). A tese defensiva (0,3 golos sofridos por jogo em casa) falhou justamente na reserva ja identificada na propria tese: o Bodo jogava o terceiro jogo em cinco dias apos Champions e Taca.",
+        "score": 74,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

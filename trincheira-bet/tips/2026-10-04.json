@@ -2,6 +2,37 @@
   "date": "2026-10-04",
   "generated_at": "2026-10-04T06:15:50.534Z",
   "units": "stakes",
+  "duplo_sombra": {
+    "selections": [
+      {
+        "fixtureId": 1528941,
+        "match": "Portugal vs Norway",
+        "league": "Liga das Nações (Liga A, Grupo 4)",
+        "kickoff": "2026-10-04T18:45:00Z",
+        "sport": "football",
+        "pick": "Ambas marcam: Sim",
+        "odds": 1.44,
+        "bookmaker": "Bet365",
+        "score": 78,
+        "tese": "A Noruega marcou em todos os oito jogos oficiais deste ano, Mundial incluído, e o Haaland está no onze. Do outro lado, o Portugal marcou nos três jogos da Liga das Nações e a Noruega sofreu dois em cada um deles. Golos dos dois lados é o guião mais provável."
+      },
+      {
+        "fixtureId": 1528943,
+        "match": "Rep. Of Ireland vs Israel",
+        "league": "Liga das Nações (Liga B, Grupo 3)",
+        "kickoff": "2026-10-04T18:45:00Z",
+        "sport": "football",
+        "pick": "Irlanda vence, empate devolve (DNB)",
+        "odds": 1.57,
+        "bookmaker": "Bet365",
+        "score": 77,
+        "tese": "A Irlanda ganhou 3-0 a Israel há uma semana e Israel só ganhou um dos últimos cinco oficiais, agora sem o guarda-redes titular. As três antevisões lidas dão vitória irlandesa e, se empatar, o dinheiro volta."
+      }
+    ],
+    "combined_odds": 2.26,
+    "stake": 0,
+    "shadow": true
+  },
   "tips": [],
   "accumulators": [
     {

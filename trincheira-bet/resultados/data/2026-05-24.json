@@ -19,7 +19,8 @@
         "hit": true,
         "return": 2.45,
         "pnl": 1.05,
-        "note": "Cremonese 1-4 Como. BTTS confirmado (Cremonese marcou 1). Dupla motivação cumpriu — Como garantiu vaga europeia, Cremonese lutou até ao fim."
+        "note": "Cremonese 1-4 Como. BTTS confirmado (Cremonese marcou 1). Dupla motivação cumpriu — Como garantiu vaga europeia, Cremonese lutou até ao fim.",
+        "score": 78
       },
       {
         "market": "favorites",
@@ -38,7 +39,8 @@
         "hit": true,
         "return": 1.36,
         "pnl": 0.36,
-        "note": "Verona 0-2 Roma. Verona já relegado apresentou equipa B. Roma garantiu a vaga na Champions League conforme esperado."
+        "note": "Verona 0-2 Roma. Verona já relegado apresentou equipa B. Roma garantiu a vaga na Champions League conforme esperado.",
+        "score": 70
       }
     ],
     "accumulators": [

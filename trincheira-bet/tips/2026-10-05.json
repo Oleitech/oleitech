@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T06:22:27.538Z",
+  "units": "stakes",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Não",
+      "fixtureId": 1528947,
+      "home": {
+        "name": "Northern Ireland",
+        "logo": "https://media.api-sports.io/football/teams/771.png"
+      },
+      "away": {
+        "name": "Georgia",
+        "logo": "https://media.api-sports.io/football/teams/1104.png"
+      },
+      "league": "Liga das Nações (Liga B, Grupo 2)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-10-05T18:45:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "selecao": true,
+      "tese": "A Geórgia ainda não marcou nesta Liga das Nações: 0-1 em casa com a Irlanda do Norte, 0-0 com a Ucrânia e 0-1 na Hungria, já com o novo selecionador, o Ramaz Svanadze, que entrou depois de o Sagnol ser despedido. Do outro lado está uma equipa que em casa quase não deixa marcar: nos seis últimos jogos oficiais em Belfast não houve um único em que marcassem as duas. A Irlanda do Norte lidera o grupo, leva três jogos seguidos sem sofrer e vive de ganhar por pouco. A tese é um jogo fechado em que pelo menos uma das equipas fica em branco, e por isso vai no ambas marcam não e não na vitória da casa, que paga mais mas perde num 0-0. O perigo tem nome: o Kvaratskhelia e o Mikautadze jogam, e basta um lance deles.",
+      "factors": [
+        "Irlanda do Norte em casa, só jogos oficiais (API-Football /fixtures, n=6: Liga das Nações 2026/27 e 2024/25, qualificação do Mundial 2026; amigáveis excluídos): 0-0 Hungria, 1-0 Luxemburgo, 0-1 Alemanha, 2-0 Eslováquia, 2-0 Bielorrússia, 5-0 Bulgária — ambas marcam Não em 6 de 6, sem sofrer em 5 de 6",
+        "Irlanda do Norte, últimos 10 oficiais (API, amigáveis excluídos): ambas marcam Não em 8 de 10; Liga das Nações 2026/27 (n=3): 1-0 na Geórgia, 0-0 Hungria, 3-0 na Ucrânia — três jogos sem sofrer",
+        "Geórgia, Liga das Nações 2026/27 (API, n=3): 0-1 Irlanda do Norte (c), 0-0 Ucrânia (c), 0-1 Hungria (f) — zero golos marcados. Últimos 10 oficiais (API, qualificação do Mundial 2026 incluída): ambas marcam Não em 6 de 10; fora de casa, só oficiais (n=6): ambas marcam Não em 3 de 6",
+        "Sports Mole: a Irlanda do Norte perdeu uma vez em casa desde Outubro de 2023, com 9 vitórias e 10 jogos sem sofrer nesse período; a Geórgia perdeu 4 dos últimos 5 fora (fonte única, só contexto)",
+        "Treinador: Geórgia com Ramaz Svanadze depois do despedimento de Willy Sagnol a seguir à derrota com a Irlanda do Norte (Sports Mole; o SportsGambler também dá o Svanadze como selecionador). Irlanda do Norte sem mudança reportada",
+        "Ausências com duas fontes: Irlanda do Norte sem Dan Ballard (isquiotibiais) — Sports Mole, e fora do onze provável do SportsGambler; Geórgia sem Kiteishvili — Sports Mole, e fora do onze do SportsGambler. Kvaratskhelia e Mikautadze titulares nos onzes prováveis do SportsGambler e da Sports Mole (concordantes). Nenhuma destas ausências sustenta a tese; o risco declarado é o ataque georgiano estar completo",
+        "Probabilidades: Bet365 ambas marcam Sim 2.10 / Não 1.67, 55,7% justo sem margem; Marathonbet Não 1.66 (odds por fixture, actualizadas 04:14Z). API-Football predictions: Irlanda do Norte e menos de 2.5 golos (50/50/0). SportsGambler estima 65-70% para o Não. A nossa leitura anda pelos 63%",
+        "Terceiros alinhados: SportsGambler (ambas marcam Não @1.72, 1-0), Football Whispers (menos de 2.5 e ambas marcam Não, 1-0), Sports Mole (2-0), API-Football (Irlanda do Norte e menos de 2.5). Nenhum contra",
+        "H2H (API, n=1, contexto em jogo de selecções): Geórgia 0-1 Irlanda do Norte a 25/09/2026, golo do Shea Charles aos 99 minutos (Football Whispers)",
+        "Não obtido: a página H2H do FootyStats só trouxe o H2H e percentagens de «últimos 10» sem competição declarada — descartadas; Forebet devolveu 403; padrões ao intervalo indisponíveis (nenhum mercado activo depende deles)"
+      ],
+      "sources": [
+        "API-Football: /fixtures team=771 e team=1104 last=20 (forma oficial e splits casa/fora), /fixtures/headtohead 771-1104, /predictions 1528947, /odds 1528947 Bet365 e Marathonbet",
+        "Sports Mole — antevisão Irlanda do Norte-Geórgia (baixas, onzes prováveis, 2-0, saída do Sagnol)",
+        "SportsGambler — northern-ireland-vs-georgia 05/10/2026 (onzes, ambas marcam Não, 1-0)",
+        "Football Whispers — antevisão Irlanda do Norte-Geórgia (menos de 2.5, ambas marcam Não)",
+        "FootyStats — página H2H Irlanda do Norte-Geórgia (só o H2H)"
+      ]
+    },
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1528949,
+      "home": {
+        "name": "Romania",
+        "logo": "https://media.api-sports.io/football/teams/774.png"
+      },
+      "away": {
+        "name": "Sweden",
+        "logo": "https://media.api-sports.io/football/teams/5.png"
+      },
+      "league": "Liga das Nações (Liga B, Grupo 4)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-10-05T18:45:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 77,
+      "stake": 1,
+      "context_depth": "full",
+      "selecao": true,
+      "tese": "A Suécia sofreu golos em todos os últimos dez jogos oficiais e marcou em nove: com o Potter ainda não acabou um jogo sem sofrer em treze. Chega a Bucareste sem o Isak e sem dois defesas, o Holm e o Starfelt. A Roménia está a afundar, com doze golos sofridos em três jornadas, mas em casa marcou nos três últimos jogos oficiais, e esta noite joga para não descer de divisão. Só que joga sem o Drăgușin, expulso em Varsóvia, e com a defesa remendada contra o Gyökeres, que marcou nos seis últimos jogos da Liga das Nações. A tese é golos dos dois lados. Não vai na vitória sueca porque fora de casa a Suécia ganhou só um dos últimos cinco oficiais. O risco é a Roménia ficar em branco, como no 0-6 da Polónia.",
+      "factors": [
+        "Suécia, últimos 10 oficiais (API-Football /fixtures: Liga das Nações 2026/27, Mundial 2026 e qualificação; amigáveis excluídos): sofreu em 10 de 10, marcou em 9 de 10, ambas marcam em 9 de 10",
+        "Suécia fora de casa, só oficiais (API, n=5, jogos do Mundial incluídos): 1-1 Bósnia, 0-3 França, 1-1 Japão, 1-5 Países Baixos, 3-1 Ucrânia — ambas marcam em 4 de 5, uma vitória",
+        "Roménia, últimos 8 oficiais (API: Liga das Nações 2026/27 e qualificação do Mundial 2026): ambas marcam em 5 de 8, sofreu em 7 de 8; na Liga das Nações (n=3) 1-2 Suécia, 2-4 Bósnia, 0-6 Polónia — 12 golos sofridos",
+        "Roménia em casa, só oficiais (API, n=3): 2-4 Bósnia, 7-1 San Marino, 1-0 Áustria — marcou nos três, ambas marcam em 2 de 3",
+        "H2H oficial (API, n=3, contexto em jogo de selecções): 2-1 Suécia a 25/09/2026, 0-2 e 2-1 Suécia na qualificação do Euro 2020 — ambas marcam em 2 de 3; o amigável de 2018 fica de fora",
+        "Ausências com duas fontes: Roménia sem Drăgușin (expulso contra a Polónia) — Sports Mole, e fora do onze do SportsGambler; Suécia sem Isak (lesão ligeira), Holm (coxa) e Starfelt (coxa) — Sports Mole, e nenhum dos três no onze provável do SportsGambler. Ghiță: a Sports Mole dá-o castigado e o SportsGambler põe-no no onze — contradição, não usado",
+        "Sports Mole: a Suécia não ficou a zero em 13 jogos com o Graham Potter; Gyökeres marcou nos 6 últimos jogos da Liga das Nações; a Roménia desce de divisão se perder (fonte única, só contexto — os golos sofridos batem com a API)",
+        "Treinadores: Gheorghe Hagi na Roménia e Graham Potter na Suécia (Sports Mole e SportsGambler); nenhuma mudança reportada",
+        "Probabilidades: Bet365 ambas marcam Sim 1.62 / Não 2.20, 57,6% justo sem margem; Marathonbet Sim 1.62 (odds por fixture, actualizadas 04:14Z). API-Football predictions: empate ou Suécia e mais de 1.5 golos. A nossa leitura anda pelos 63%",
+        "Terceiros: Sports Mole prevê 1-2, SportsGambler prevê 1-1 (aposta Roménia +0.75), Football Predictions 2-2 (via resumo de pesquisa); API mais de 1.5. Nenhuma das antevisões lidas dá um dos lados em branco",
+        "Não obtido: as percentagens do FootyStats (ambas marcam 75%) vêm de «últimos 10» sem competição declarada — descartadas; Forebet devolveu 403; padrões ao intervalo indisponíveis"
+      ],
+      "sources": [
+        "API-Football: /fixtures team=774 e team=5 last=12 (forma oficial e splits casa/fora), /fixtures/headtohead 774-5, /predictions 1528949, /odds 1528949 Bet365 e Marathonbet",
+        "Sports Mole — antevisão Roménia-Suécia (baixas dos dois lados, onzes prováveis, 1-2)",
+        "SportsGambler — romania-vs-sweden 05/10/2026 (onzes, 1-1, Roménia +0.75)",
+        "FootyStats — página H2H Suécia-Roménia (só o H2H)"
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Chipre vence",
+      "fixtureId": 1545611,
+      "home": {
+        "name": "Cyprus",
+        "logo": "https://media.api-sports.io/football/teams/1106.png"
+      },
+      "away": {
+        "name": "Latvia",
+        "logo": "https://media.api-sports.io/football/teams/1092.png"
+      },
+      "league": "Liga das Nações (Liga C, Grupo 2)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-10-05T16:00:00Z",
+      "odds": 1.65,
+      "bookmaker": "Marathonbet",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "selecao": true,
+      "tese": "A Letónia marcou um golo em três jogos desta Liga das Nações e em doze dos últimos treze oficiais fez no máximo um. O Chipre ganhou 2-0 à Arménia na última jornada e joga em casa. Fica em sombra porque o Chipre em casa ganhou só um dos últimos quatro oficiais e empatou 0-0 em Riga há uma semana.",
+      "factors": [
+        "Letónia, últimos 13 oficiais (API, Liga das Nações, Taça do Báltico e qualificação do Mundial 2026; amigáveis excluídos): marcou no máximo um golo em 12 de 13; Liga das Nações 2026/27: 0-2 Arménia, 0-0 Chipre, 1-2 Montenegro",
+        "Chipre em casa, só oficiais (API, n=4): 2-0 Arménia, 0-2 Áustria, 2-2 Bósnia, 2-2 Roménia — uma vitória",
+        "Terceiros: Racing Post (Chipre vence, no acumulador do dia), Freetips (Chipre vence @1.75), SportsGambler (menos de 2.5, 1-0 Chipre); API predictions 45/45/10",
+        "Ausências: nenhuma reportada pelo SportsGambler; sem segunda fonte — context_depth partial"
+      ],
+      "sources": [
+        "API-Football /fixtures, /predictions e /odds 1545611",
+        "SportsGambler cyprus-vs-latvia 05/10/2026",
+        "Racing Post acumulador de 05/10 e Freetips (via resumo de pesquisa)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528947,
+          "match": "Northern Ireland vs Georgia",
+          "league": "Liga das Nações (Liga B, Grupo 2)",
+          "pick": "Ambas marcam: Não",
+          "odds": 1.67,
+          "kickoff": "2026-10-05T18:45:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528949,
+          "match": "Romania vs Sweden",
+          "league": "Liga das Nações (Liga B, Grupo 4)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.62,
+          "kickoff": "2026-10-05T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.71,
+      "score": 77,
+      "stake": 1
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528945,
+          "match": "Italy vs Türkiye",
+          "league": "Liga das Nações (Liga A, Grupo 1)",
+          "pick": "Itália vence",
+          "odds": 1.42,
+          "kickoff": "2026-10-05T18:45:00Z"
+        },
+        {
+          "bookmaker": "Bet365",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528950,
+          "match": "Montenegro vs Armenia",
+          "league": "Liga das Nações (Liga C, Grupo 2)",
+          "pick": "Montenegro vence",
+          "odds": 1.53,
+          "kickoff": "2026-10-05T18:45:00Z"
+        },
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528948,
+          "match": "Bosnia & Herzegovina vs Poland",
+          "league": "Liga das Nações (Liga B, Grupo 4)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.26,
+          "kickoff": "2026-10-05T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.74,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528947,
+          "match": "Northern Ireland vs Georgia",
+          "league": "Liga das Nações (Liga B, Grupo 2)",
+          "pick": "Irlanda do Norte ou empate (dupla hipótese 1X)",
+          "odds": 1.36,
+          "kickoff": "2026-10-05T18:45:00Z"
+        },
+        {
+          "bookmaker": "Marathonbet",
+          "sport": "football",
+          "selecao": true,
+          "fixtureId": 1528945,
+          "match": "Italy vs Türkiye",
+          "league": "Liga das Nações (Liga A, Grupo 1)",
+          "pick": "Turquia marca no máximo 1 golo (menos de 1.5 golos da Turquia)",
+          "odds": 1.26,
+          "kickoff": "2026-10-05T18:45:00Z"
+        }
+      ],
+      "combined_odds": 1.71,
+      "score": 75,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna chegou a 75 dentro de 1.40-1.60 (Itália vence @1.42 na Bet365, score 76). As duas tips do dia estão acima da banda (1.67 e 1.62). Montenegro vence @1.53 ficou em 72: o selecionador avisou que o cansaço de quatro jogos em onze dias vai mexer no onze, as baixas arménias só têm uma fonte e o Montenegro sofreu em todos os jogos do grupo. França vence @1.48 ficou em 68: pesquisa dividida (SportsGambler Bélgica +1 e 2-2, Betfair Bélgica a pontuar, API 35/35/30) e só duas vitórias nos cinco últimos oficiais. Sem duas pernas de 75, não há duplo."
+  },
+  "notes": "Segunda-feira de selecções, com oito jogos da Liga das Nações e nada de clubes que preste. Saem duas tips, as duas no ambas marcam, uma para cada lado.\n\nEm Belfast vai o não: a Geórgia ainda não marcou nesta Liga das Nações e a Irlanda do Norte em casa não deixa marcar. Nos seis últimos jogos oficiais lá, nunca marcaram as duas. O perigo é o Kvaratskhelia, que joga.\n\nEm Bucareste vai o sim: a Suécia sofre sempre, dez em dez nos jogos a sério, e a Roménia, aflita para não descer, marcou nos três últimos em casa. As duas juntas dão um acumulador a 2.71, uma stake.\n\nO curto de selecções paga 2.74, meia stake: a Itália ganha a uma Turquia sem o Arda Güler e o Barış Alper, os dois castigados; o Montenegro ganha à Arménia; e mais de 1.5 golos no Bósnia-Polónia.\n\nO corvo, já a meia stake, paga 1.71: Irlanda do Norte ou empate, e a Turquia marca no máximo um golo. Atenção que o Irlanda do Norte-Geórgia está em três bilhetes e o Itália-Turquia em dois, sempre em mercados diferentes: um golo da Geórgia ou uma noite boa da Turquia mexe com mais de um boletim.\n\nO mais de 2.5 no Córdoba-Tenerife não tinha preço que chegasse na Bet365 nem na Marathonbet, e ficou de fora.\n\nExposição do dia: 4 stakes."
+}

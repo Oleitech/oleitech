@@ -21,7 +21,9 @@
         "hit": true,
         "return": 2.51,
         "pnl": 1.01,
-        "note": "Aarhus (AGF) precisava de 2 golos para forçar prolongamento depois de perder a 1.ª mão 1-3, e o jogo abriu-se como previsto: 1-3 no final (FT, 90 min), ambas as equipas marcaram. Benfica seguiu para a fase seguinte pelo agregado 2-6."
+        "note": "Aarhus (AGF) precisava de 2 golos para forçar prolongamento depois de perder a 1.ª mão 1-3, e o jogo abriu-se como previsto: 1-3 no final (FT, 90 min), ambas as equipas marcaram. Benfica seguiu para a fase seguinte pelo agregado 2-6.",
+        "score": 82,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

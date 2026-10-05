@@ -16,7 +16,9 @@
         "return": 1.7,
         "pnl": 0.7,
         "final_score": "1-0",
-        "note": "Cagliari venceu o Lecce 1-0 e o lado visitante voltou a ficar em branco fora, como ja tinha acontecido em 9 das 19 deslocacoes da epoca passada. GREEN."
+        "note": "Cagliari venceu o Lecce 1-0 e o lado visitante voltou a ficar em branco fora, como ja tinha acontecido em 9 das 19 deslocacoes da epoca passada. GREEN.",
+        "score": 74,
+        "context_depth": "full"
       }
     ],
     "accumulators": [

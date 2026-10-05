@@ -28,7 +28,8 @@
         "return": 0,
         "pnl": -0.5,
         "final_score": "0-1",
-        "note": "O Valencia, apesar do arranque de epoca desastroso e do treinador interino, marcou em Mendizorroza e o Alaves perdeu 0-1 em casa. A tese de nao sofrer caiu por completo."
+        "note": "O Valencia, apesar do arranque de epoca desastroso e do treinador interino, marcou em Mendizorroza e o Alaves perdeu 0-1 em casa. A tese de nao sofrer caiu por completo.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [

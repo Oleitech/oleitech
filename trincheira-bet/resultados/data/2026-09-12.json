@@ -21,7 +21,8 @@
         "final_score": "1-4",
         "return": 0,
         "pnl": -0.5,
-        "note": "Casa Pia marcou pela primeira vez em seis jornadas da Primeira Liga, e foi logo contra o Porto: 1-4 em Rio Maior. O Porto venceu com folga mas sofreu o golo, o que chumba a tese de nao sofrer."
+        "note": "Casa Pia marcou pela primeira vez em seis jornadas da Primeira Liga, e foi logo contra o Porto: 1-4 em Rio Maior. O Porto venceu com folga mas sofreu o golo, o que chumba a tese de nao sofrer.",
+        "context_depth": "partial"
       }
     ],
     "accumulators": [

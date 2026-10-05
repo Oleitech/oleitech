@@ -21,7 +21,8 @@
         "final_score": "2-1",
         "return": 1.95,
         "pnl": 0.95,
-        "note": "Estrela venceu o Braga por 2-1 no Estadio do FC Alverca. As duas equipas marcaram, confirmando a tese: o Estrela nao fica em branco ha quatro jornadas da Liga e o Braga voltou a sofrer fora de casa."
+        "note": "Estrela venceu o Braga por 2-1 no Estadio do FC Alverca. As duas equipas marcaram, confirmando a tese: o Estrela nao fica em branco ha quatro jornadas da Liga e o Braga voltou a sofrer fora de casa.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [],

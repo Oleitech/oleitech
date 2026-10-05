@@ -28,7 +28,8 @@
         "return": 2.1,
         "pnl": 1.1,
         "final_score": "1-0",
-        "note": "O Braga venceu o Estoril por 1-0 e manteve a baliza a zero, prolongando a serie de quatro jogos em casa sem sofrer."
+        "note": "O Braga venceu o Estoril por 1-0 e manteve a baliza a zero, prolongando a serie de quatro jogos em casa sem sofrer.",
+        "context_depth": "full"
       },
       {
         "market": "btts",
@@ -55,7 +56,8 @@
         "return": 1.95,
         "pnl": 0.95,
         "final_score": "5-3",
-        "note": "Jogo aberto em San Siro: o Inter venceu 5-3 mas voltou a sofrer, e o Udinese, mesmo desfalcado, marcou mais uma vez."
+        "note": "Jogo aberto em San Siro: o Inter venceu 5-3 mas voltou a sofrer, e o Udinese, mesmo desfalcado, marcou mais uma vez.",
+        "context_depth": "full"
       }
     ],
     "accumulators": [

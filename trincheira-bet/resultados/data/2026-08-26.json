@@ -20,7 +20,8 @@
         "hit": true,
         "return": 2.1,
         "pnl": 0.7,
-        "note": "Viking bateu o Dinamo Zagreb por 3-1 em casa (FT, 90 min) e ambas as equipas marcaram sem drama — tip resolvida com folga."
+        "note": "Viking bateu o Dinamo Zagreb por 3-1 em casa (FT, 90 min) e ambas as equipas marcaram sem drama — tip resolvida com folga.",
+        "score": 82
       },
       {
         "market": "favorites",
@@ -40,7 +41,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "Eliminatória empatada até ao fim: Rapid Viena marcou só 1 golo nos 90 minutos regulamentares (1-1), insuficiente para o 'mais de 1.5' do total da equipa. Fez o segundo já no prolongamento (2-2 aos 120'), mas os mercados de total de golos/equipa liquidam-se pela regra padrão das casas de apostas (Bet365 incluído) ao fim dos 90 minutos + descontos, sem contar prolongamento nem grandes penalidades — foi essa a leitura aplicada aqui. Hearts avançou de eliminatória ao ganhar o desempate por 4-3 nos pénaltis, o que é irrelevante para este mercado de golos."
+        "note": "Eliminatória empatada até ao fim: Rapid Viena marcou só 1 golo nos 90 minutos regulamentares (1-1), insuficiente para o 'mais de 1.5' do total da equipa. Fez o segundo já no prolongamento (2-2 aos 120'), mas os mercados de total de golos/equipa liquidam-se pela regra padrão das casas de apostas (Bet365 incluído) ao fim dos 90 minutos + descontos, sem contar prolongamento nem grandes penalidades — foi essa a leitura aplicada aqui. Hearts avançou de eliminatória ao ganhar o desempate por 4-3 nos pénaltis, o que é irrelevante para este mercado de golos.",
+        "score": 78
       }
     ],
     "accumulators": [

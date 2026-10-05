@@ -20,7 +20,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "Inter não venceu (1-1) e só 2 golos · falha dupla"
+        "note": "Inter não venceu (1-1) e só 2 golos · falha dupla",
+        "score": 82
       },
       {
         "market": "favorites",
@@ -40,7 +41,8 @@
         "hit": true,
         "return": 2,
         "pnl": 0.6,
-        "note": "Atlético 1-0 (home win) · clean sheet"
+        "note": "Atlético 1-0 (home win) · clean sheet",
+        "score": 78
       },
       {
         "market": "favorites",
@@ -60,7 +62,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1.4,
-        "note": "Surpresa fora: Auxerre 0-2 em Lille (era a 2ª pior fora da liga)"
+        "note": "Surpresa fora: Auxerre 0-2 em Lille (era a 2ª pior fora da liga)",
+        "score": 76
       },
       {
         "market": "btts",
@@ -80,7 +83,8 @@
         "hit": true,
         "return": 3.22,
         "pnl": 1.82,
-        "note": "Barça 3-1 · BTTS sim · despedida Lewandowski"
+        "note": "Barça 3-1 · BTTS sim · despedida Lewandowski",
+        "score": 78
       }
     ],
     "summary": {

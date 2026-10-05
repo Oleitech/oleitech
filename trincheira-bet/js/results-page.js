@@ -9,11 +9,13 @@ const ResultsPage = {
     over25: 'var(--m-over)',
     cards: 'var(--m-cards)',
     corners: 'var(--m-corners)',
+    baliza: 'var(--m-corners)',
   },
 
   marketLabels: {
     btts: 'BTTS',
     over25: 'Mais/menos 2.5',
+    baliza: 'Remates à baliza',
     cards: 'Cartões',
     corners: 'Cantos',
     clean_sheet: 'Não sofre',
@@ -521,6 +523,8 @@ const ResultsPage = {
     if (!marketStr) return '';
     const lower = marketStr.toLowerCase();
     if (lower.includes('btts') || lower.includes('ambas')) return 'btts';
+    // Antes do over: "Remates à baliza" nao e golos.
+    if (lower.includes('baliza')) return 'baliza';
     if (lower.includes('over 2.5') || lower.includes('over2.5')) return 'over25';
     if (lower.includes('cart') || lower.includes('card')) return 'cards';
     if (lower.includes('cant') || lower.includes('corner')) return 'corners';

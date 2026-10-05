@@ -19,7 +19,8 @@
         "hit": true,
         "return": 1.75,
         "pnl": 0.75,
-        "note": "Paderborn 1-1 Wolfsburg. BTTS confirmado — Paderborn abriu o marcador em casa e o Wolfsburg empatou. Dinâmica de playoff auto-alimentou os dois golos exactamente como antecipado."
+        "note": "Paderborn 1-1 Wolfsburg. BTTS confirmado — Paderborn abriu o marcador em casa e o Wolfsburg empatou. Dinâmica de playoff auto-alimentou os dois golos exactamente como antecipado.",
+        "score": 68
       },
       {
         "market": "tennis_match",
@@ -39,7 +40,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "Hugo Gaston venceu 6-2, 6-3, 3-6, 2-6, 6-0 em 5 sets. Monfils chegou a empatar em sets (2-2) mas o 5.º set foi dominado por Gaston (6-0). A narrativa emocional de despedida não foi suficiente — o colapso de forma de Gaston que esperávamos não se materializou na fase decisiva."
+        "note": "Hugo Gaston venceu 6-2, 6-3, 3-6, 2-6, 6-0 em 5 sets. Monfils chegou a empatar em sets (2-2) mas o 5.º set foi dominado por Gaston (6-0). A narrativa emocional de despedida não foi suficiente — o colapso de forma de Gaston que esperávamos não se materializou na fase decisiva.",
+        "score": 70
       }
     ],
     "accumulators": [

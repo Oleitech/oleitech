@@ -20,7 +20,8 @@
         "hit": true,
         "return": 2.88,
         "pnl": 0.88,
-        "note": "BTTS=sim · Over2.5=sim (4 golos)"
+        "note": "BTTS=sim · Over2.5=sim (4 golos)",
+        "score": 85
       },
       {
         "market": "favorites",
@@ -40,7 +41,8 @@
         "hit": true,
         "return": 2.42,
         "pnl": 1.02,
-        "note": "Resultado 0-1 (away win)"
+        "note": "Resultado 0-1 (away win)",
+        "score": 83
       },
       {
         "market": "scorers",
@@ -60,7 +62,8 @@
         "hit": true,
         "return": 2.42,
         "pnl": 1.02,
-        "note": "Guirassy marcou: True · Resultado 0-2"
+        "note": "Guirassy marcou: True · Resultado 0-2",
+        "score": 83
       },
       {
         "market": "favorites",
@@ -80,7 +83,8 @@
         "hit": true,
         "return": 2.27,
         "pnl": 0.87,
-        "note": "Resultado 3-1 (home win)"
+        "note": "Resultado 3-1 (home win)",
+        "score": 75
       },
       {
         "market": "favorites",
@@ -100,7 +104,8 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "Resultado 0-2 (away win)"
+        "note": "Resultado 0-2 (away win)",
+        "score": 73
       }
     ],
     "summary": {

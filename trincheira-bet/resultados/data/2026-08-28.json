@@ -21,7 +21,9 @@
         "hit": false,
         "return": 0,
         "pnl": -1,
-        "note": "O Alavés marcou na primeira parte e segurou o 1-0 até ao fim. O Villarreal criou mas não converteu. A tese era que nenhuma das duas equipas segurava a baliza a zero no lado do campo em que ia jogar; o Alavés em casa fez precisamente o contrário do histórico, que dava apenas 3 balizas a zero em 19 jogos em casa."
+        "note": "O Alavés marcou na primeira parte e segurou o 1-0 até ao fim. O Villarreal criou mas não converteu. A tese era que nenhuma das duas equipas segurava a baliza a zero no lado do campo em que ia jogar; o Alavés em casa fez precisamente o contrário do histórico, que dava apenas 3 balizas a zero em 19 jogos em casa.",
+        "score": 78,
+        "context_depth": "full"
       }
     ],
     "accumulators": [
