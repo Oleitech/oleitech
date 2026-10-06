@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T07:26:31.921Z",
+  "units": "stakes",
+  "notes": "Fecha hoje a jornada de selecções, com dez jogos da Liga das Nações e nenhum campeonato de clubes que interesse. Não sai tip individual: o único jogo com preço acima de 1.55 que aguentava uma tese era o menos de 2.5 golos no Escócia-Eslovénia, e esse mercado só se aposta quando vem do modelo de golos, que não cobre selecções. O resto ou pagava trocos ou tinha a pesquisa dividida, e não se força boletim.\n\nO dinheiro do dia vai todo para o corvo, a meia stake.\n\nO corvo é a Espanha a ganhar com pelo menos dois golos no jogo e a Suíça a ganhar à Macedónia do Norte sem chegar aos cinco golos. A Macedónia não marca desde Novembro do ano passado, e a Suíça ganhou lá 3-0 há dez dias.\n\nExposição total: meia stake.",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "selecao": true,
+          "kickoff": "2026-10-06T18:45:00Z",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1528952,
+          "match": "Croatia vs Spain",
+          "league": "Liga das Nações (Liga A)",
+          "pick": "Espanha vence e Mais de 1.5 golos",
+          "odds": 1.4,
+          "score": 76
+        },
+        {
+          "sport": "football",
+          "selecao": true,
+          "kickoff": "2026-10-06T18:45:00Z",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1545655,
+          "match": "Switzerland vs FYR Macedonia",
+          "league": "Liga das Nações (Liga B)",
+          "pick": "Suíça vence e Menos de 4.5 golos",
+          "odds": 1.5,
+          "score": 75
+        }
+      ],
+      "combined_odds": 2.1,
+      "score": 75,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [
+      {
+        "fixtureId": 1545655,
+        "match": "Switzerland vs FYR Macedonia",
+        "league": "Liga das Nações (Liga B)",
+        "pick": "Macedónia do Norte não marca (menos de 0.5 golos da Macedónia do Norte)",
+        "odds": 1.44,
+        "bookmaker": "Bet365",
+        "score": 78,
+        "kickoff": "2026-10-06T18:45:00Z",
+        "selecao": true,
+        "tese": "A Macedónia do Norte não marca há sete jogos (quatro oficiais em 2026 na API: 0-3 Suíça, 0-2 Eslovénia, 0-2 Escócia, 0-4 Dinamarca) e perdeu 0-3 com esta Suíça em casa há dez dias. Sem o Atanasov, castigado. A Suíça joga em casa sem o Xhaka, mas com a defesa inteira."
+      },
+      {
+        "fixtureId": 1528952,
+        "match": "Croatia vs Spain",
+        "league": "Liga das Nações (Liga A)",
+        "pick": "Espanha vence e Mais de 1.5 golos",
+        "odds": 1.4,
+        "bookmaker": "Marathonbet",
+        "score": 76,
+        "kickoff": "2026-10-06T18:45:00Z",
+        "selecao": true,
+        "tese": "A Espanha ganhou os oito últimos oficiais e em seis deles houve dois golos ou mais; ganha e fica com o apuramento para os quartos garantido. A Croácia vem de levar sete da Inglaterra em casa e está sem o Erlic e o Juranovic."
+      }
+    ],
+    "combined_odds": 2.02,
+    "stake": 0,
+    "shadow": true
+  }
+}

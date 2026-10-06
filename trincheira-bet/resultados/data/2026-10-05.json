@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-05",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Não",
+        "fixtureId": 1528947,
+        "home": {
+          "name": "Northern Ireland",
+          "logo": "https://media.api-sports.io/football/teams/771.png"
+        },
+        "away": {
+          "name": "Georgia",
+          "logo": "https://media.api-sports.io/football/teams/1104.png"
+        },
+        "league": "Liga das Nações (Liga B, Grupo 2)",
+        "kickoff": "2026-10-05T18:45:00Z",
+        "odds": 1.67,
+        "bookmaker": "Bet365",
+        "stake": 1,
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.67,
+        "pnl": 0.67,
+        "final_score": "0-0",
+        "note": "Irlanda do Norte e Geórgia não passaram do 0-0 — nenhuma das duas marcou, o ambas marcam não confirma-se em cheio.",
+        "score": 78,
+        "context_depth": "full"
+      },
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1528949,
+        "home": {
+          "name": "Romania",
+          "logo": "https://media.api-sports.io/football/teams/774.png"
+        },
+        "away": {
+          "name": "Sweden",
+          "logo": "https://media.api-sports.io/football/teams/5.png"
+        },
+        "league": "Liga das Nações (Liga B, Grupo 4)",
+        "kickoff": "2026-10-05T18:45:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "stake": 1,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1,
+        "final_score": "0-1",
+        "note": "A Roménia ficou em branco em casa (0-1) — falta o golo romeno para o ambas marcam sim, apesar da Suécia ter marcado como esperado.",
+        "score": 77,
+        "context_depth": "full"
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "selections": [
+          {
+            "bookmaker": "Bet365",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528947,
+            "match": "Northern Ireland vs Georgia",
+            "league": "Liga das Nações (Liga B, Grupo 2)",
+            "pick": "Ambas marcam: Não",
+            "odds": 1.67,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "GREEN",
+            "final_score": "0-0"
+          },
+          {
+            "bookmaker": "Bet365",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528949,
+            "match": "Romania vs Sweden",
+            "league": "Liga das Nações (Liga B, Grupo 4)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.62,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "RED",
+            "final_score": "0-1"
+          }
+        ],
+        "combined_odds": 2.71,
+        "stake": 1,
+        "result": "RED",
+        "return": 0,
+        "pnl": -1,
+        "note": "A perna da Roménia-Suécia falha (0-1, sem golo romeno) e arrasta o combinado para RED, apesar de a Irlanda do Norte-Geórgia confirmar o 0-0."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "bookmaker": "Bet365",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528945,
+            "match": "Italy vs Türkiye",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "Itália vence",
+            "odds": 1.42,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "GREEN",
+            "final_score": "3-1"
+          },
+          {
+            "bookmaker": "Bet365",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528950,
+            "match": "Montenegro vs Armenia",
+            "league": "Liga das Nações (Liga C, Grupo 2)",
+            "pick": "Montenegro vence",
+            "odds": 1.53,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "RED",
+            "final_score": "0-0"
+          },
+          {
+            "bookmaker": "Marathonbet",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528948,
+            "match": "Bosnia & Herzegovina vs Poland",
+            "league": "Liga das Nações (Liga B, Grupo 4)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.26,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "RED",
+            "final_score": "1-0"
+          }
+        ],
+        "combined_odds": 2.74,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "A Itália venceu a Turquia (3-1), mas o Montenegro não passou do 0-0 com a Arménia e o Bósnia-Polónia ficou em 1-0, abaixo da linha de 1.5 golos — duas pernas falham e o curto fecha RED."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "bookmaker": "Marathonbet",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528947,
+            "match": "Northern Ireland vs Georgia",
+            "league": "Liga das Nações (Liga B, Grupo 2)",
+            "pick": "Irlanda do Norte ou empate (dupla hipótese 1X)",
+            "odds": 1.36,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "GREEN",
+            "final_score": "0-0"
+          },
+          {
+            "bookmaker": "Marathonbet",
+            "sport": "football",
+            "selecao": true,
+            "fixtureId": 1528945,
+            "match": "Italy vs Türkiye",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "Turquia marca no máximo 1 golo (menos de 1.5 golos da Turquia)",
+            "odds": 1.26,
+            "kickoff": "2026-10-05T18:45:00Z",
+            "result": "GREEN",
+            "final_score": "3-1"
+          }
+        ],
+        "combined_odds": 1.71,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 0.86,
+        "pnl": 0.36,
+        "note": "O 0-0 em Belfast cobre o 1X e a Turquia ficou no único golo que a linha permitia (3-1 para a Itália) — as duas pernas acertam e o corvo fecha GREEN a 1.71."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50,
+      "total_stake": 2,
+      "total_return": 1.67,
+      "pnl": -0.33,
+      "roi_pct": -16.5,
+      "accumulators_total": 3,
+      "accumulators_green": 1,
+      "accumulators_red": 2,
+      "accumulators_stake": 2,
+      "accumulators_return": 0.86,
+      "accumulators_pnl": -1.14,
+      "combined_stake": 4,
+      "combined_return": 2.53,
+      "combined_pnl": -1.47,
+      "combined_roi_pct": -36.75
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Vitória",
+        "pick": "Chipre vence",
+        "fixtureId": 1545611,
+        "home": {
+          "name": "Cyprus",
+          "logo": "https://media.api-sports.io/football/teams/1106.png"
+        },
+        "away": {
+          "name": "Latvia",
+          "logo": "https://media.api-sports.io/football/teams/1092.png"
+        },
+        "league": "Liga das Nações (Liga C, Grupo 2)",
+        "kickoff": "2026-10-05T16:00:00Z",
+        "odds": 1.65,
+        "bookmaker": "Marathonbet",
+        "score": 68,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "2-1",
+        "note": "O Chipre confirmou a vitória em casa, 2-1 à Letónia — ficou em sombra por score 68 (abaixo do piso de 75), não entra na banca."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "pnl_se_apostadas": 0.65
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Só uma perna chegou a 75 dentro de 1.40-1.60 (Itália vence @1.42 na Bet365, score 76). As duas tips do dia estão acima da banda (1.67 e 1.62). Montenegro vence @1.53 ficou em 72: o selecionador avisou que o cansaço de quatro jogos em onze dias vai mexer no onze, as baixas arménias só têm uma fonte e o Montenegro sofreu em todos os jogos do grupo. França vence @1.48 ficou em 68: pesquisa dividida (SportsGambler Bélgica +1 e 2-2, Betfair Bélgica a pontuar, API 35/35/30) e só duas vitórias nos cinco últimos oficiais. Sem duas pernas de 75, não há duplo."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1545611,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Cyprus vs Latvia",
+        "league": "UEFA Nations League (World)",
+        "elapsed": 61,
+        "score": "0-1",
+        "conf": 85,
+        "factors": [
+          "Cyprus ainda não marcou",
+          "2 SoT · 12 remates · 61% posse",
+          "Casa a pressionar",
+          "Favorito a sofrer",
+          "Preço 1.53"
+        ],
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "advIsHome": true,
+        "sentAt": 1791220723110,
+        "deliveries": 0,
+        "odds": 1.533,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confiança 85 < 90",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "resolvedAt": 1791222880676,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "date": "2026-10-05",
+        "fixtureId": 1643813,
+        "strategy": "MANUAL CHAT",
+        "market": "Ambas marcam: Não",
+        "pick": "Não",
+        "match": "Japan vs New Zealand",
+        "league": "Kirin Cup (final)",
+        "kickoff": "2026-10-05T10:30:00+00:00",
+        "pre_jogo": true,
+        "odds": 1.8,
+        "bookmaker": "Betsnipe",
+        "stake": 0.5,
+        "shadow": false,
+        "manual": true,
+        "source": "chat - decisao do dono, 05/10/2026",
+        "factors": [
+          "Japão sem sofrer em 5 dos últimos 10",
+          "Nova Zelândia em branco com Inglaterra e Haiti",
+          "Onze mais forte do Japão confirmado",
+          "Chris Wood titular na Nova Zelândia"
+        ],
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalScore": "2-1",
+        "return": 0,
+        "pnl": -0.5,
+        "nota": "Japão venceu a Nova Zelândia 2-1 na final da Kirin Cup — as duas equipas marcaram (Chris Wood não evitou o golo japonês), o ambas marcam não falha."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "MANUAL CHAT": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_total": 0.5,
+      "stake_mensuravel": 0.5,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": -0.5,
+      "roi_pct_mensuravel": -100,
+      "odds_registadas": 1,
+      "nota_mensuravel": "Só a aposta manual do Japão-Nova Zelândia (ambas marcam não, meia stake) entra na banca. O alerta do worker (BTTS LIVE, Chipre-Letónia) ficou em sombra por confiança 85 < 90, stake 0, fora do P&L real."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 1.53,
+      "pnl_nocional": 0.53
+    }
+  },
+  "balance": 27.77,
+  "notes": "Segunda-feira de seleções. Das duas tips, a Irlanda do Norte-Geórgia confirmou o 0-0 (ambas marcam não, GREEN) mas a Roménia-Suécia ficou-se pelo 0-1 e falhou o ambas marcam sim (RED) — dia -0,33 stakes nas tips simples. Os três acumuladores também perderam dois de três: o standard e o curto caem por uma perna, só o corvo fecha GREEN a 1.71 (Irlanda do Norte ou empate, Turquia no máximo um golo). A aposta manual do Japão-Nova Zelândia (ambas marcam não, meia stake) falhou — as duas equipas marcaram no 2-1 do Japão. O alerta do worker (BTTS LIVE, Chipre-Letónia) ficou em sombra e teria sido GREEN se tivesse sido apostado. Na sombra das tips, o Chipre venceu a Letónia 2-1 e confirmou a vitória (score 68, fora da banca). Dia -1,97 stakes, banca cai de 29,74 para 27,77 stakes."
+}

@@ -214,6 +214,40 @@
         "resolvido_em": "2026-09-23",
         "nota": "Contabilizado uma so vez: esta mesma aposta foi tambem publicada como tip oficial em tips/2026-09-23.json (com qa_override, por decisao do dono) e o P&L entra na banca via resultados/data/2026-09-23.json -> curated_tips.tips[0], nao aqui, para nao duplicar o mesmo dinheiro real. FT Madureira 0-2 Sampaio Correa RJ, mais de 1.5 golos GREEN."
       }
+    },
+    {
+      "date": "2026-10-05",
+      "fixtureId": 1643813,
+      "strategy": "MANUAL CHAT",
+      "market": "Ambas marcam: Não",
+      "pick": "Não",
+      "match": "Japan vs New Zealand",
+      "league": "Kirin Cup (final)",
+      "kickoff": "2026-10-05T10:30:00+00:00",
+      "pre_jogo": true,
+      "odds": 1.8,
+      "bookmaker": "Betsnipe",
+      "stake": 0.5,
+      "shadow": false,
+      "manual": true,
+      "source": "chat - decisao do dono, 05/10/2026",
+      "factors": [
+        "Japão sem sofrer em 5 dos últimos 10",
+        "Nova Zelândia em branco com Inglaterra e Haiti",
+        "Onze mais forte do Japão confirmado",
+        "Chris Wood titular na Nova Zelândia"
+      ],
+      "nota": "Gravada pelo Master no ciclo de 06/10 (a escrita foi negada na sessão do Telegram de 05/10). Avalia-se aos 90 minutos.",
+      "resultado": {
+        "status": "RED",
+        "final_score": "2-1",
+        "finalHome": 2,
+        "finalAway": 1,
+        "return": 0,
+        "pnl": -0.5,
+        "resolvido_em": "2026-10-06",
+        "nota": "FT Japao 2-1 Nova Zelandia. As duas equipas marcaram, pelo que o Ambas marcam: Nao falha. Fica registado em resultados/data/2026-10-05.json, live_alerts.alerts."
+      }
     }
   ]
 }

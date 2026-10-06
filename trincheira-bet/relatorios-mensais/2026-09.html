@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trincheira BET — Relatório Mensal · Setembro 2026</title>
+<style>
+:root{
+  --bg:#0A0B0D; --bg-1:#111317; --bg-2:#16181D; --bg-3:#1C1F25;
+  --border:rgba(255,255,255,.07); --border-strong:rgba(255,255,255,.12);
+  --text:#F5F5F2; --text-2:#B5B7BD; --text-3:#6B6F78; --text-4:#44474E;
+  --accent:#FF6B35; --accent-soft:rgba(255,107,53,.14);
+  --blue:#3B82F6; --blue-soft:rgba(59,130,246,.14);
+  --green:#22C55E; --green-soft:rgba(34,197,94,.14);
+  --red:#EF4444; --red-soft:rgba(239,68,68,.14);
+  --amber:#F59E0B; --amber-soft:rgba(245,158,11,.14);
+  --violet:#A78BFA; --violet-soft:rgba(167,139,250,.14);
+  --r1:8px; --r2:12px; --r3:16px;
+  --font: "Geist","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono: "Geist Mono","JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:40px 24px 90px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+a{color:var(--accent)}
+
+/* header */
+.hero{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;
+  padding-bottom:28px;margin-bottom:28px;border-bottom:1px solid var(--border)}
+.hero .mark{display:flex;align-items:center;gap:12px}
+.hero .mark .box{width:40px;height:40px;border-radius:10px;background:linear-gradient(145deg,#FF6B35,#C2410C);
+  display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:700;color:#0A0B0D;
+  box-shadow:0 0 0 1px rgba(255,107,53,.35),0 8px 24px rgba(255,107,53,.18)}
+.hero h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.hero .sub{color:var(--text-3);font-size:13px;margin-top:2px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.hero .meta{color:var(--text-3);font-size:13px;text-align:right}
+
+/* section title */
+h2.sec{font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-3);
+  margin:48px 0 16px}
+h2.sec:first-of-type{margin-top:0}
+p.lede{color:var(--text-2);font-size:14px;max-width:780px;margin:-6px 0 20px}
+
+/* KPI grid */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.kpi{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r2);padding:16px 18px}
+.kpi .k{font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.kpi .v{font-family:var(--mono);font-size:26px;font-weight:600;margin-top:6px;letter-spacing:-.02em}
+.kpi .d{font-size:12px;color:var(--text-3);margin-top:4px;font-family:var(--mono)}
+.v.pos{color:var(--green)} .v.neg{color:var(--red)}
+
+/* cards */
+.card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r3);overflow:hidden;margin-bottom:12px}
+.card-h{padding:14px 18px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:8px}
+.card-h .t{font-weight:600;font-size:14px}
+.card-h .s{font-size:12px;color:var(--text-3)}
+.card-b{padding:18px}
+
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.stat-row{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--border);font-size:13px}
+.stat-row:last-child{border-bottom:0}
+.stat-row .l{color:var(--text-3)}
+.stat-row .r{font-family:var(--mono);font-weight:600}
+
+/* badges */
+.badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;
+  font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase}
+.badge--green{background:var(--green-soft);color:var(--green)}
+.badge--red{background:var(--red-soft);color:var(--red)}
+.badge--amber{background:var(--amber-soft);color:var(--amber)}
+.badge--blue{background:var(--blue-soft);color:var(--blue)}
+.badge--violet{background:var(--violet-soft);color:var(--violet)}
+
+/* tables */
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--text-3);font-weight:600;font-size:11px;text-transform:uppercase;
+  letter-spacing:.05em;padding:8px 10px;border-bottom:1px solid var(--border)}
+td{padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-family:var(--mono)}
+td.pos{color:var(--green)} td.neg{color:var(--red)}
+tbody tr:hover{background:var(--bg-3)}
+
+/* bar rows (diverging) */
+.barrow{display:grid;grid-template-columns:150px 1fr 80px;align-items:center;gap:10px;padding:7px 0;font-size:13px}
+.barrow .lbl{color:var(--text-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.barrow .track{position:relative;height:16px;background:var(--bg-3);border-radius:4px;overflow:hidden}
+.barrow .fill{position:absolute;top:0;bottom:0;border-radius:4px}
+.barrow .fill.pos{background:var(--green);left:50%}
+.barrow .fill.neg{background:var(--red);right:50%}
+.barrow .mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--border-strong)}
+.barrow .val{font-family:var(--mono);text-align:right;font-weight:600}
+.barrow .val.pos{color:var(--green)} .barrow .val.neg{color:var(--red)}
+
+/* charts */
+.chart-wrap{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--r3);padding:20px;margin-bottom:28px}
+.chart-wrap .cap{font-size:12px;color:var(--text-3);margin-bottom:14px}
+svg text{font-family:var(--mono);fill:var(--text-3)}
+.gridline{stroke:var(--border);stroke-width:1}
+.baseline{stroke:var(--text-4);stroke-width:1;stroke-dasharray:4 4}
+
+/* callouts */
+.callout{border-radius:var(--r2);padding:14px 16px;font-size:13px;line-height:1.55;margin-bottom:10px;border:1px solid var(--border)}
+.callout.good{background:var(--green-soft);border-color:rgba(34,197,94,.25)}
+.callout.bad{background:var(--red-soft);border-color:rgba(239,68,68,.25)}
+.callout.warn{background:var(--amber-soft);border-color:rgba(245,158,11,.25)}
+.callout b{color:var(--text)}
+
+/* recommendations */
+.reco{background:var(--bg-2);border:1px solid var(--border);border-left:3px solid var(--accent);
+  border-radius:0 var(--r2) var(--r2) 0;padding:14px 18px;margin-bottom:10px}
+.reco .n{font-family:var(--mono);color:var(--accent);font-size:12px;font-weight:700}
+.reco .title{font-weight:600;font-size:14px;margin:4px 0 6px}
+.reco .body{color:var(--text-2);font-size:13px;line-height:1.55}
+.reco .body code{background:var(--bg-3);padding:1px 5px;border-radius:4px;font-family:var(--mono);font-size:12px}
+
+footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--border);color:var(--text-4);font-size:12px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:760px){.cols2{grid-template-columns:1fr}.barrow{grid-template-columns:110px 1fr 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="mark">
+      <div class="box">TB</div>
+      <div>
+        <h1>Trincheira BET — Relatório Mensal</h1>
+        <div class="sub">Setembro 2026 · Resultados, bot live e banca</div>
+      </div>
+    </div>
+    <div class="meta">Gerado por Jarvis · 5 de outubro de 2026<br>Fonte: resultados/data/2026-09-*.json (30/30 dias)</div>
+  </div>
+
+  <h2 class="sec">Banca do mês</h2>
+  <div class="kpis" id="kpi-hero"></div>
+
+  <div class="chart-wrap">
+    <div class="cap">Evolução da banca, em stakes — 31/08 a 30/09</div>
+    <svg id="chart-balance" width="100%" viewBox="0 0 1000 260" preserveAspectRatio="none"></svg>
+  </div>
+
+  <div class="chart-wrap">
+    <div class="cap">P&amp;L diário combinado (pré-jogo + live apostado), em stakes</div>
+    <svg id="chart-daily" width="100%" viewBox="0 0 1000 220" preserveAspectRatio="none"></svg>
+  </div>
+
+  <h2 class="sec">Onde o dinheiro esteve em jogo</h2>
+  <p class="lede">Quatro blocos apostam dinheiro real; um quinto (sombra) só mede, sem arriscar. Tudo em stakes (1 stake = 5€).</p>
+  <div class="grid4" id="buckets"></div>
+
+  <h2 class="sec">Pré-jogo por mercado</h2>
+  <div id="market-table"></div>
+
+  <div class="cols2">
+    <div>
+      <h2 class="sec">Pré-jogo por liga <span style="font-size:11px;color:var(--text-4);text-transform:none;letter-spacing:0">(n≥2)</span></h2>
+      <div id="league-table"></div>
+    </div>
+    <div>
+      <h2 class="sec">Live apostado, por estratégia</h2>
+      <div id="strategy-bet-table"></div>
+    </div>
+  </div>
+
+  <h2 class="sec">Estratégias em sombra — o que teríamos ganho/perdido se apostássemos</h2>
+  <p class="lede">Alertas abaixo do limiar de envio (conf ≥ 90) não arriscam dinheiro, mas ficam registados. Simulação a stake fixa de 1 unidade por alerta.</p>
+  <div id="shadow-table"></div>
+  <div id="shadow-callouts" style="margin-top:14px"></div>
+
+  <h2 class="sec">Overrides manuais no chat</h2>
+  <p class="lede">Apostas decididas por ti em conversa, fora do ciclo automático do bot — normalmente contra o próprio aviso do sistema.</p>
+  <div id="manual-table"></div>
+
+  <h2 class="sec">Padrão por dia da semana</h2>
+  <p class="lede">Amostra pequena (4-5 dias por categoria) — padrão a vigiar, não a agir já.</p>
+  <div id="dow-table"></div>
+
+  <h2 class="sec">Melhor e pior dia</h2>
+  <div class="cols2" id="best-worst"></div>
+
+  <h2 class="sec">O que já sabíamos e o que fazer em outubro</h2>
+  <p class="lede">Cada recomendação liga-se a uma decisão já em aberto no sistema ou a um número medido este mês — nada inventado do zero.</p>
+  <div id="recommendations"></div>
+
+  <footer>
+    <span>Trincheira BET · relatório gerado automaticamente a partir dos dados de resultados de setembro de 2026</span>
+    <span>relatorios-mensais/2026-09.html</span>
+  </footer>
+</div>
+
+<script id="report-data" type="application/json">
+{
+"start_balance": 34.52,
+"end_balance": 32.86,
+"net_change": -1.66,
+"pct_change": -4.81,
+"combined": {
+"green": 52,
+"red": 53,
+"stake": 92.0,
+"pnl": -1.65,
+"hit_rate": 49.5,
+"roi_pct": -1.8
+},
+"pregame_agg": {
+"total": 23,
+"green": 13,
+"red": 10,
+"push": 0,
+"stake": 19.0,
+"ret": 20.26,
+"pnl": 1.26,
+"hit_rate": 56.5,
+"roi_pct": 6.6
+},
+"market_agg": {
+"tennis_match": {
+"total": 2,
+"green": 1,
+"red": 1,
+"push": 0,
+"stake": 2,
+"ret": 1.64,
+"pnl": -0.36,
+"hit_rate": 50.0,
+"roi_pct": -18.0
+},
+"btts": {
+"total": 10,
+"green": 6,
+"red": 4,
+"push": 0,
+"stake": 9.5,
+"ret": 10.61,
+"pnl": 1.11,
+"hit_rate": 60.0,
+"roi_pct": 11.7
+},
+"favorites": {
+"total": 3,
+"green": 2,
+"red": 1,
+"push": 0,
+"stake": 2.5,
+"ret": 3.37,
+"pnl": 0.87,
+"hit_rate": 66.7,
+"roi_pct": 34.8
+},
+"scorers": {
+"total": 2,
+"green": 0,
+"red": 2,
+"push": 0,
+"stake": 1.5,
+"ret": 0,
+"pnl": -1.5,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+},
+"clean_sheet": {
+"total": 3,
+"green": 1,
+"red": 2,
+"push": 0,
+"stake": 2.0,
+"ret": 2.1,
+"pnl": 0.1,
+"hit_rate": 33.3,
+"roi_pct": 5.0
+},
+"over25": {
+"total": 2,
+"green": 2,
+"red": 0,
+"push": 0,
+"stake": 1.0,
+"ret": 1.79,
+"pnl": 0.79,
+"hit_rate": 100.0,
+"roi_pct": 79.0
+},
+"over15": {
+"total": 1,
+"green": 1,
+"red": 0,
+"push": 0,
+"stake": 0.5,
+"ret": 0.75,
+"pnl": 0.25,
+"hit_rate": 100.0,
+"roi_pct": 50.0
+}
+},
+"league_agg": {
+"Primeira Liga": {
+"total": 4,
+"green": 3,
+"red": 1,
+"push": 0,
+"stake": 4.0,
+"ret": 6.6,
+"pnl": 2.6,
+"hit_rate": 75.0,
+"roi_pct": 65.0
+},
+"Serie A": {
+"total": 4,
+"green": 3,
+"red": 1,
+"push": 0,
+"stake": 3.5,
+"ret": 4.61,
+"pnl": 1.11,
+"hit_rate": 75.0,
+"roi_pct": 31.7
+},
+"La Liga": {
+"total": 3,
+"green": 1,
+"red": 2,
+"push": 0,
+"stake": 3.0,
+"ret": 1.67,
+"pnl": -1.33,
+"hit_rate": 33.3,
+"roi_pct": -44.3
+},
+"Liga Europa": {
+"total": 2,
+"green": 0,
+"red": 2,
+"push": 0,
+"stake": 1.0,
+"ret": 0,
+"pnl": -1.0,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+}
+},
+"acca_agg": {
+"total": 46,
+"green": 18,
+"red": 28,
+"push": 0,
+"stake": 28.5,
+"ret": 26.07,
+"pnl": -2.43,
+"hit_rate": 39.1,
+"roi_pct": -8.5
+},
+"acca_count": 46,
+"live_bet_agg": {
+"total": 36,
+"green": 21,
+"red": 15,
+"push": 0,
+"stake": 44.5,
+"ret": 44.02,
+"pnl": -0.48,
+"hit_rate": 58.3,
+"roi_pct": -1.1
+},
+"auto_live_agg": {
+"total": 31,
+"green": 20,
+"red": 11,
+"push": 0,
+"stake": 42,
+"ret": 43.04,
+"pnl": 1.04,
+"hit_rate": 64.5,
+"roi_pct": 2.5
+},
+"live_shadow_agg": {
+"total": 160,
+"green": 74,
+"red": 71,
+"push": 15,
+"stake": 0,
+"ret": 0,
+"pnl": 0,
+"hit_rate": 51.0,
+"roi_pct": 0
+},
+"manual_agg": {
+"total": 5,
+"green": 1,
+"red": 4,
+"push": 0,
+"stake": 2.5,
+"ret": 0.97,
+"pnl": -1.52,
+"hit_rate": 20.0,
+"roi_pct": -61.0
+},
+"manual_detail": [
+{
+"date": "2026-09-15",
+"match": "Al Ain vs Al-Nassr",
+"market": "Over 11.5 Cantos",
+"odds": 1.95,
+"stake": 0.5,
+"result": "GREEN",
+"pnl": 0.475,
+"aviso": "Estrategia em sombra desde 31/08 (16.7 por cento, ROI -25 por cento, modelo de ritmo optimista). O bot nao enviaria isto; foi decisao do dono no chat."
+},
+{
+"date": "2026-09-15",
+"match": "Rayo Vallecano vs Espanyol",
+"market": "Espanyol nao marca na 2a parte",
+"odds": 1.95,
+"stake": 0.5,
+"result": "RED",
+"pnl": -0.5,
+"aviso": ""
+},
+{
+"date": "2026-09-16",
+"match": "Ararat-Armenia vs Sparta Praha",
+"market": "Total de cantos: Mais de 15.5",
+"odds": 2,
+"stake": 0.5,
+"result": "RED",
+"pnl": -0.5,
+"aviso": ""
+},
+{
+"date": "2026-09-20",
+"match": "Levadiakos vs Olympiakos Piraeus",
+"market": "Mais de 2.5 golos",
+"odds": 1.86,
+"stake": 0.5,
+"result": "RED",
+"pnl": -0.5,
+"aviso": "So um golo no jogo (0-1) - o modelo GAP tinha vantagem de 3.6% mas abaixo do piso de 5%, exactamente o aviso dado antes da aposta."
+},
+{
+"date": "2026-09-20",
+"match": "8 jogos (ver pernas)",
+"market": "Acumulador 8 pernas - Mais de 1.5 golos",
+"odds": 5.344,
+"stake": 0.5,
+"result": "RED",
+"pnl": -0.5,
+"aviso": "3 das 8 pernas ficaram abaixo de 1.5 golos (Leeds 0-0, Helsingborg 0-0, Mura 0-0) - chega uma para o bilhete inteiro cair. Nota: 3 dos fixtureId registados no chat nao correspondiam ao jogo certo (apontavam para outros jogos); resolvidos pela API por nome de equipa e data. Confirma o aviso previo: estrutura de 8 pernas com ROI negativo medido em 238858 jogos."
+}
+],
+"strategy_bet_agg": {
+"🎯 BTTS LIVE": {
+"total": 30,
+"green": 20,
+"red": 10,
+"push": 0,
+"stake": 41,
+"ret": 43.04,
+"pnl": 2.04,
+"hit_rate": 66.7,
+"roi_pct": 5.0
+},
+"CANTOS TARDIOS": {
+"total": 1,
+"green": 1,
+"red": 0,
+"push": 0,
+"stake": 0.5,
+"ret": 0.97,
+"pnl": 0.47,
+"hit_rate": 100.0,
+"roi_pct": 95.0
+},
+"LEITURA NO CHAT": {
+"total": 1,
+"green": 0,
+"red": 1,
+"push": 0,
+"stake": 0.5,
+"ret": 0,
+"pnl": -0.5,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+},
+"CANTOS AO INTERVALO (chat)": {
+"total": 1,
+"green": 0,
+"red": 1,
+"push": 0,
+"stake": 0.5,
+"ret": 0,
+"pnl": -0.5,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+},
+"MODELO GOLOS (GAP)": {
+"total": 1,
+"green": 0,
+"red": 1,
+"push": 0,
+"stake": 0.5,
+"ret": 0,
+"pnl": -0.5,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+},
+"TESTE ACUMULADOR OVER 1.5": {
+"total": 1,
+"green": 0,
+"red": 1,
+"push": 0,
+"stake": 0.5,
+"ret": 0,
+"pnl": -0.5,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+},
+"🟨 CARTÕES LIVE": {
+"total": 1,
+"green": 0,
+"red": 1,
+"push": 0,
+"stake": 1,
+"ret": 0,
+"pnl": -1,
+"hit_rate": 0.0,
+"roi_pct": -100.0
+}
+},
+"strategy_shadow_agg": {
+"⚽ OVER xG 0-0": {
+"total": 10,
+"green": 6,
+"red": 4,
+"push": 0,
+"stake": 0,
+"ret": 0,
+"pnl": 0,
+"hit_rate": 60.0,
+"roi_pct": 0
+},
+"🎯 BTTS LIVE": {
+"total": 92,
+"green": 50,
+"red": 42,
+"push": 0,
+"stake": 0,
+"ret": 0,
+"pnl": 0,
+"hit_rate": 54.3,
+"roi_pct": 0
+},
+"🔄 CANTOS TARDIOS": {
+"total": 37,
+"green": 13,
+"red": 15,
+"push": 9,
+"stake": 0,
+"ret": 0,
+"pnl": 0,
+"hit_rate": 46.4,
+"roi_pct": 0
+},
+"🔥 FAVORITO A PERDER": {
+"total": 21,
+"green": 5,
+"red": 10,
+"push": 6,
+"stake": 0,
+"ret": 0,
+"pnl": 0,
+"hit_rate": 33.3,
+"roi_pct": 0
+}
+},
+"shadow_hypo": {
+"⚽ OVER xG 0-0": {
+"n": 10,
+"hypo_pnl": -2.65,
+"hypo_roi_pct": -26.5
+},
+"🎯 BTTS LIVE": {
+"n": 92,
+"hypo_pnl": -21.38,
+"hypo_roi_pct": -23.2
+},
+"🔄 CANTOS TARDIOS": {
+"n": 37,
+"hypo_pnl": 1.05,
+"hypo_roi_pct": 2.8
+},
+"🔥 FAVORITO A PERDER": {
+"n": 21,
+"hypo_pnl": -10.47,
+"hypo_roi_pct": -49.8
+}
+},
+"series": [
+{
+"date": "2026-09-01",
+"balance": 34.02,
+"day_pnl": -0.5,
+"notes": "Terca-feira sem tips individuais (todos os candidatos caidos no gate de preco). O unico acumulador do dia, o curto de Fase B (Zurique-Young Boys BTTS Sim, Torino-Monza Mais 1.5, Tranmere-Rotherham Mais 1.5, odds combinadas 2.53), fechou RED: Zurique 2-4 Young Boys e Tranmere 2-2 Rotherham acertaram, mas Torino 0-1 Monza ficou abaixo da linha de 1.5 golos. Zero alertas live arquivados pelo worker nesta data (segundo dia seguido a zero). P&L do dia -0,5 stakes, banca 34,52 -> 34,02."
+},
+{
+"date": "2026-09-02",
+"balance": 33.02,
+"day_pnl": -1,
+"notes": "Quarta-feira de uma tip so, o single de tennis da 2a ronda do US Open: Nakashima vence a 1.62, 1 stake, fechou RED com Michelsen a ganhar 6-3 6-4 6-4. Sem acumuladores em nenhuma das tres fases (nao havia pernas elegiveis). P&L do dia -1 stake, banca 34,02 -> 33,02. O bot live arquivou 4 alertas, todos em sombra e nenhum entregue: 2 de OVER xG 0-0 (estrategia em avaliacao) e 2 de BTTS LIVE que cairam em sombra por nao haver preco no mercado no momento da decisao. Terceiro dia seguido sem um unico alerta entregue no Telegram — 31/08 e 01/09 nao geraram sequer alertas. Ficam fora do P&L e da taxa de acerto, medidos a parte no shadow_summary: 2 GREEN e 2 RED."
+},
+{
+"date": "2026-09-03",
+"balance": 32.86,
+"day_pnl": -0.16,
+"notes": "Quinta-feira de uma tip so, o BTTS do derby de Edimburgo: Ambas Marcam Sim a 1.67, meia stake, fechou GREEN com o Hearts a vencer 3-1 num Hibernian reduzido a 10. O acumulador curto (Fase B, 2.65, meia stake) falhou logo na primeira perna - Lugano-Servette so teve golo de um lado (1-0) - apesar de Al Ahly e America de Cali terem cumprido as vitorias secas. P&L do dia -0,16 stakes, banca 33,02 -> 32,86. O bot live arquivou um unico alerta, em sombra (confianca 86, abaixo do piso de 90 do BTTS LIVE): FC Basel-FC Sion fechou GREEN mas fica fora do P&L e da taxa de acerto, medido a parte no shadow_summary. Quarto dia consecutivo sem uma unica entrega."
+},
+{
+"date": "2026-09-04",
+"balance": 35.23,
+"day_pnl": 2.37,
+"notes": "Sexta-feira com uma unica tip pre-jogo: Ambas Marcam Sim em Aalesund-Start a 1.44, meia stake, fechou RED - o Aalesund venceu 2-0 e o Start nao chegou a marcar, apesar da amostra forte a favor. Os dois acumuladores compensaram: o curto (Fase B, 3 pernas, 2.60, meia stake) fechou GREEN com Bodo/Glimt a vencer fora e Al-Hilal e Galatasaray a marcarem mais de 1.5 golos cada; o corvo (Fase C, 2 pernas, 1.97, uma stake, Marathonbet) tambem fechou GREEN com o FC Porto a vencer com jogo controlado e o Al-Hilal a vencer com mais de 1.5 golos - a sobreposicao declarada entre as duas fases (o jogo Al Shabab-Al-Hilal aparecia em ambas) nao penalizou desta vez. P&L do dia +2,37 stakes (pre-jogo +1,27 e live apostado +1,10), banca 32,86 -> 35,23. O bot live arquivou 6 alertas: 1 entregue e apostado (BTTS LIVE em Stuttgart-Koln, GREEN, odd 2.10, +1,10 stakes) e 5 em sombra (2 BTTS LIVE, 2 CANTOS TARDIOS, 1 OVER xG 0-0), destes so 1 fechou GREEN - ficam fora do P&L e da taxa de acerto, medidos a parte no shadow_summary. Desde 05/09/2026, por decisao do dono, os alertas live APOSTADOS contam para a banca (os de sombra continuam fora); e por isso que este dia fecha em +2,37 e nao em +1,27."
+},
+{
+"date": "2026-09-05",
+"balance": 35.25,
+"day_pnl": 0.02,
+"notes": "Uma tip so no boletim, BTTS no derby de Istambul, fechou GREEN (Fenerbahce 1-2 Besiktas). O acumulador curto de BTTS (Hoffenheim-Dortmund, NEC-Feyenoord, Newcastle-Bournemouth) tambem fechou GREEN. O segundo curto e o corvo fecharam RED: no curto 2, Volos e Young Boys empataram contra o pick, e a terceira perna (Utrecht-GO Ahead Eagles) ficou tecnicamente PENDING porque o jogo foi interrompido aos 65 por pirotecnia nas bancadas (1-3 no momento, retoma a 8/09 sem publico) — nao mudou o resultado do acumulador, que ja tinha falhado nas outras duas pernas. No corvo, o Sporting venceu mas so com 2 golos (falhou o Mais de 2.5) e o Schalke-Bayern acabou 0-0 (falhou os dois lados da perna). Dia com P&L pre-jogo de +0,02 stakes. Ao vivo, os 11 alertas do worker ficaram todos em sombra (8 GREEN, 3 RED) e nao entraram na banca. Banca sobe de 35,23 para 35,25 stakes."
+},
+{
+"date": "2026-09-06",
+"balance": 35.24,
+"day_pnl": -0.01,
+"notes": "Domingo cheio: 2 tips BTTS avaliadas (1 GREEN em Guimaraes 0-0, 1 RED no classico italiano 1-1) e o acumulador curto de 3 pernas passou em cheio (Barcelona goleou, Basel-Lugano com golos dos dois lados, Hearts venceu). P&L pre-jogo +0,99 stakes. Do lado live so um alerta foi apostado (BTTS Zalaegerszegi-Puskas, 1 stake a 1.50) e perdeu (RED), -1,00 stake; os outros 21 alertas do dia ficaram em sombra (10 GREEN, 9 RED, 2 PUSH). Banca: 35,25 -> 35.24 stakes."
+},
+{
+"date": "2026-09-07",
+"balance": 35.44,
+"day_pnl": 0.2,
+"notes": "Segunda-feira magra: a unica tip do dia, Cagliari-Lecce em Ambas Marcam Nao a 1.70, bateu certo (1-0), +0,70 stakes. O acumulador curto de tres pernas falhou (Udinese perdeu em casa, Rizespor-Alanyaspor ficou-se pelo Over 1.5), -0,50 stakes. P&L pre-jogo +0,20 stakes. Do lado live so tres alertas foram disparados, todos em sombra (CANTOS TARDIOS x2, BTTS LIVE x1) e nenhum apostado: 2 RED, 1 PUSH. Banca: de 35,24 para 35.44 stakes."
+},
+{
+"date": "2026-09-08",
+"balance": 36.08,
+"day_pnl": 0.64,
+"notes": "Dia sem tips de futebol, so uma tip de tenis: Tiafoe a vencer o Michelsen nos quartos do US Open, e a odd de 1.64 pagou uma reviravolta historica — 2 sets a zero em baixo e fechou 5-7 3-6 7-5 6-3 7-6(6). GREEN, +0,64 stakes. Live: 5 alertas do worker, todos em sombra (confianca baixa ou estrategia em avaliacao), 2 GREEN e 3 RED, fora da banca. Corrigido tambem um PENDING antigo de 5/09 (Utrecht-GO Ahead Eagles, jogo retomado hoje e fechou 3-3) sem alterar o resultado do acumulador, que ja fechava RED pelas outras duas pernas. Banca sobe de 35,44 para 36,08 stakes."
+},
+{
+"date": "2026-09-09",
+"balance": 37.12,
+"day_pnl": 1.04,
+"notes": "Estreia da Champions e so uma tip saiu do crivo: Sporting a vencer o Galatasaray em Alvalade, 3-1, GREEN a 1.70. O bilhete curto (Celtic, Al Ahly, Rangers) falhou por causa do Al Ahly, que so empatou 1-1 fora — RED. O corvo (Al-Nassr e menos de 5.5 golos + Benfica e mais de 1.5 golos) fechou GREEN, com o Benfica a resolver em Moreirense por 4-0. Live: 2 alertas do worker, ambos em sombra (estrategias ainda em avaliacao — OVER xG 0-0 e CANTOS TARDIOS), 1 GREEN e 1 RED, fora da banca. Banca sobe de 36,08 para 37,12 stakes."
+},
+{
+"date": "2026-09-10",
+"balance": 38.07,
+"day_pnl": 0.95,
+"notes": "So uma tip saiu do crivo: BTTS Sim no Estrela-Braga, jogo em atraso da 3a jornada mudado da Amadora para Alverca. Fechou 2-1, GREEN a 1.95. Sem acumuladores hoje (o curto foi descartado por depender do mesmo jogo). Live: 1 alerta do worker (BTTS LIVE no Varbergs-Norrkoping), em sombra por confianca 86 < 90, RED, fora da banca. Banca sobe de 37,12 para 38,07 stakes."
+},
+{
+"date": "2026-09-11",
+"balance": 35.9,
+"day_pnl": -2.17,
+"notes": "Dia mau no pré-jogo: a tip do Lepaul (fixture 1552763) foi titular confirmado, mas não marcou — quem fez o único golo do Rennes 1-0 Marselha foi o Thomasson, RED. Os dois acumuladores também caíram: o curto perdeu logo na primeira perna (Darmstadt venceu o Bielefeld em vez de empatar/perder) e o corvo perdeu na primeira perna (AZ empatou em vez de vencer). Combinado pré-jogo: -2,5 stakes. No live, 3 alertas apostados (todos BTTS LIVE): 2 GREEN (BK Hacken-Mjallby a 1.40, Union Berlin-Schalke a 1.53) e 1 RED (Rodez-Grenoble a 1.44), +0,33 stakes. P&L do dia: -2,17 stakes. Banca desce de 38,07 para 35,90 stakes."
+},
+{
+"date": "2026-09-12",
+"balance": 35.38,
+"day_pnl": -0.52,
+"notes": "Sabado com uma tip so e dois acumuladores. A tip do Porto nao sofrer falhou por pouco: 1-4 em Rio Maior, o Casa Pia acabou com o jejum de golos mas o Porto ja tinha o jogo resolvido (-0,5 stakes). O acumulador curto saiu certo nas tres pernas - GO Ahead-Groningen ambas marcam, Arsenal a ganhar em Sunderland, Ajax a ganhar em Sittard - e paga +0,99 stakes. O corvo falhou: a perna do Real Madrid-Rayo saiu GREEN (4-1, mais de 2.5 golos), mas a do Porto (vencer e menos de 4.5 golos) foi RED porque o jogo teve 5 golos ao todo apesar da vitoria (-1 stake). P&L pre-jogo -0,51 stakes. No live, 5 alertas apostados, todos BTTS LIVE (3 GREEN, 2 RED), quase empataram: +6,99 de retorno em 7 de stake, -0,01 stakes. Mais 14 alertas ficaram em sombra (9 BTTS LIVE, 3 CANTOS TARDIOS, 2 FAVORITO A PERDER), fora do P&L. Dia fecha em -0,52 stakes, banca 35,38 (era 35,90)."
+},
+{
+"date": "2026-09-13",
+"balance": 33.63,
+"day_pnl": -1.75,
+"notes": "Domingo sem tips individuais, so dois bilhetes. O curto (Feyenoord, PSV-BTTS, Napoli mais de 1.5) caiu no Napoli-Bologna que fechou 1-0: RED, -0.5 stakes. O corvo (Benfica menos de 4.5 e Barcelona mais de 1.5) bateu certo nos dois lados: GREEN, +0.96 stakes. Combinado pre-jogo: +0.46 stakes. No live saiu quatro apostas reais em BTTS LIVE, duas GREEN e duas RED, -2.21 stakes. Dia no vermelho: -1.75 stakes, banca em 33.63 (era 35.38)."
+},
+{
+"date": "2026-09-14",
+"balance": 36.55,
+"day_pnl": 2.92,
+"notes": "Segunda de descanso mas cheia de acerto: as duas tips avaliadas foram GREEN (Braga nao sofreu no 1-0 ao Estoril, Inter-Udinese acabou ambas marcam num 5-3) e o curto de tres pernas passou por inteiro (Roma venceu em Turim, os dois jogos portugueses tiveram mais de 1.5 golos). Nos alertas live so dois entraram a apostado: GREEN no Zemun-Radnik Surdulica e RED no Radomiak-Piast Gliwice, que se anularam em stakes. Dia fechou em +2,92 stakes de pre-jogo com o live a zero, banca sobe para 36,55 stakes."
+},
+{
+"date": "2026-09-15",
+"balance": 36.42,
+"day_pnl": -0.125,
+"notes": "Terca de meio de semana com pouca oferta pre-jogo: a unica tip, Alaves nao sofrer, caiu quando o Valencia marcou em Mendizorroza (0-1), e o curto de tres pernas ficou-se pelo Rayo-Espanyol (o Middlesbrough empatou 2-2 e o Linfield tambem nao passou de um empate). Pre-jogo fechou em -1,0 stake. Do lado live entraram quatro apostas medidas: GREEN no IFK Varnamo-Osters, GREEN no Middlesbrough-Millwall, e duas manuais decididas no chat fora do bot -- GREEN nos cantos do Al Ain-Al Nassr, RED na leitura do Espanyol nao marcar na 2a parte (sofreu aos 54 minutos). Live fechou em +0,875 stakes. Dia no total: -0,125 stakes, banca desce para 36,42 stakes."
+},
+{
+"date": "2026-09-16",
+"balance": 33.92,
+"day_pnl": -2.5,
+"notes": "Dia mau: as duas tips pre-jogo falharam (Depor-Sevilha nao marcou dos dois lados, 0-1; Lepaul entrou tarde demais em Graz, 0-0 sem golos) e a aposta manual de cantos no Ararat-Sparta ficou a um canto da linha (15 contra 15.5). P&L do dia -2,50 stakes. O unico alerta do bot ficou em sombra (confianca 85) e nao entrou na banca."
+},
+{
+"date": "2026-09-17",
+"balance": 33.51,
+"day_pnl": -0.41,
+"notes": "Dia negativo: o Betis cumpriu (1-0 ao Getafe, GREEN), mas o Plzen nao fechou o BTTS ao perder 0-3 com o Union e o Lech nao marcou na goleada do Palace (4-0), o que arrastou o acumulador standard para RED. O curto de tres pernas (Crvena Zvezda, Pyramids, Vejle a marcar) saiu GREEN em cheio. P&L pre-jogo -0,41 stakes. No live, os dois alertas do bot (OFI-Hoffenheim RED, Lillestrom-Torreense GREEN) ficaram em sombra por confianca abaixo de 90 e nao entraram na banca. Banca fecha em 33,51 stakes."
+},
+{
+"date": "2026-09-18",
+"balance": 32.01,
+"day_pnl": -1.5,
+"notes": "Sexta-feira sem tips a solo, so dois acumuladores, e os dois falharam. No curto (Brentford-Chelsea BTTS, Monaco-Lens BTTS, vitoria da Polessya) o Brentford goleou 3-0 e o Chelsea nao marcou, partindo a perna do BTTS - as outras duas cumpriram, mas o acumulador fecha RED. No corvo, o Kasimpasa segurou o empate 0-0 com o Konyaspor (perna GREEN), mas o Bayern goleou o Union por 7-0 - exactamente a goleada de sete que as proprias notas do dia apontavam como o unico cenario que partia a perna do menos de 6.5 golos. P&L pre-jogo -1,5 stakes. No live, os tres alertas do bot (cantos tardios em Uta Arad-Sepsi, BTTS em Monza-Sassuolo e Espanyol-Elche) sairam todos GREEN mas ficaram em sombra - 1 por estrategia ainda em avaliacao, 2 por confianca abaixo de 90 - e nao entraram na banca. Banca fecha em 32,01 stakes, a descer de 33,51."
+},
+{
+"date": "2026-09-19",
+"balance": 32.14,
+"day_pnl": 0.13,
+"notes": "Sabado cheio mas so uma tip a solo, no mercado dos golos em teste: o Blackpool-Plymouth fechou 2-4, mais de 2.5 sem sustos (meia stake, GREEN). Os dois acumuladores curtos falharam - no primeiro o Molde perdeu em casa e o Sion so empatou, mesmo com o Frankfurt-Freiburg a cumprir o BTTS; no segundo o Karlsruher nao marcou contra o Nurnberg e o Sparta Rotterdam ficou a zero na goleada sofrida do Heerenveen, apesar da vitoria do Rosenborg. O corvo tambem caiu: o Barcelona venceu em Sevilha com folga (perna GREEN), mas o Sporting so empatou 2-2 em casa com o Arouca e faltou a vitoria exigida. P&L pre-jogo -1,67 stakes. No live, 6 alertas apostados (todos BTTS LIVE): 5 GREEN e 1 RED (Alemannia Aachen-Fortuna Dusseldorf), P&L +1,80 stakes. Banca fecha em 32,14 stakes, a subir de 32,01."
+},
+{
+"date": "2026-09-20",
+"balance": 33.11,
+"day_pnl": 0.97,
+"notes": "Sabado de cartaz cheio (Porto-Benfica, derby de Madrid, classico em Marselha) mas so uma tip pre-jogo: menos de 2.5 na Juventus-Atalanta, GREEN (2-0). Dois acumuladores curtos: o primeiro caiu por causa do Nice-Lille (Nice venceu em casa, RED), o segundo passou as tres pernas (Liverpool, Viking, Club Brugge, GREEN). P&L pre-jogo +0,84 stakes. No live, 6 apostas do bot (4 GREEN, 2 RED) mais duas apostas manuais do dono fora do bot: mais de 2.5 golos no Levadiakos-Olympiakos (RED, so 1 golo no jogo) e o acumulador-teste de 8 pernas mais de 1.5 golos (RED, tres pernas ficaram a 0-0: Leeds-Crystal Palace, Helsingborg-Norrby e Mura-Celje). P&L live mensuravel +0,13 stakes. Banca fecha em 33.11 stakes, a subir de 32,14."
+},
+{
+"date": "2026-09-21",
+"balance": 33.92,
+"day_pnl": 0.81,
+"notes": "Domingo/segunda magros: sem tips individuais, so um acumulador curto de meia stake (Real Cundinamarca, HB Koge, Criciuma-Operario-PR mais de 1.5). As duas primeiras pernas cumpriram-se logo no dia (3-1 e 5-2); a terceira - Criciuma-Operario-PR - foi adiada por chuva forte em Santa Catarina e so se jogou a 22/09 a noite, acabando 0-2. Bilhete GREEN nas tres pernas: combinada 2.61, retorno 1.31, PNL +0.81 stakes. Resolvido a 23/09 com um dia de atraso (a API nao reindexou o jogo na data nova, foi preciso ir por fixtureId). Banca de 21/09 corrigida para 33.92 stakes (era 33.11 com o bilhete em aberto). No live so dispararam 2 alertas o dia todo, os dois em sombra (1 GREEN, 1 RED); nada apostado."
+},
+{
+"date": "2026-09-22",
+"balance": 33.42,
+"day_pnl": -0.5,
+"notes": "Dia de pausa das seleccoes, sem tips individuais - so um acumulador curto de meia stake com tres pernas de mais de 1.5 golos (Gillingham-Cambridge, Tranmere-Shrewsbury, Puerto Montt-Nublense). Gillingham-Cambridge acabou 1-4 e Puerto Montt-Nublense 2-0, ambos GREEN, mas Tranmere-Shrewsbury ficou-se por 1-0 e chumbou o bilhete inteiro: RED, PNL -0.5 stakes. No live so disparou 1 alerta, em sombra (confianca 86 < 90), GREEN mas sem dinheiro em jogo. Tambem se resolveu hoje o bilhete PENDING de 21/09: o Criciuma-Operario-PR, adiado por chuva, jogou-se ontem a noite e acabou 0-2 - GREEN, +0.81 stakes, ja reflectido na banca de 21/09 (33.92). Banca fecha em 33.42 stakes."
+},
+{
+"date": "2026-09-23",
+"balance": 33.67,
+"day_pnl": 0.25,
+"notes": "Meio de semana morto: so uma tip publicada, o mais de 1,5 golos no Madureira-Sampaio Correa (3o lugar da Copa Rio), a 1.50 na Marathonbet e meia stake. Saiu GREEN, 0-2, apesar de o proprio aviso dizer que era preco justo sem vantagem demonstrada e de ter chumbado dois portoes do QA (score 58, odd abaixo do piso de 1.55) — publicada por decisao do dono, que ja a tinha apostado manualmente no chat antes do ciclo da manha correr. E o mesmo dinheiro: fica contabilizada uma unica vez, via curated_tips, e a entrada em resultados/apostas-manuais.json passa de pendente a resolvida sem somar pnl outra vez. P&L do dia +0,25 stakes. No live, so um alerta do worker (CANTOS TARDIOS no mesmo jogo), em sombra, sem stake. Banca fecha em 33,67 stakes, a subir de 33,42."
+},
+{
+"date": "2026-09-24",
+"balance": 34.39,
+"day_pnl": 0.72,
+"notes": "Quinta-feira de seleccoes, sem tips a solo. Saiu so o acumulador curto a 2,44 e meia stake, e as tres pernas cumpriram-se: Holanda 1-1 Alemanha com golos dos dois lados, Catar 2-0 Bahrein e Torque 3-3 Atenas acima de 1.5 golos. P&L do dia +0,72 stakes. No live, o worker so registou um alerta (BTTS LIVE, Servia-Grecia) e ficou em sombra por confianca 86 abaixo do piso de 90 — nao apostado, fora da banca; teria fechado GREEN se tivesse saido (Servia 1-2 Grecia)."
+},
+{
+"date": "2026-09-25",
+"balance": 32.89,
+"day_pnl": -1.5,
+"notes": "Sexta-feira de seleccoes, sem tips a solo. Sairam tres acumuladores curtos a meia stake e os tres falharam. No primeiro (2,68), o Dordrecht bateu o Almere 3-2 e a X2 nao aguentou, o Luqueno-Guarani ficou-se por 0-1 sem os 1.5 golos e o HIK-Roskilde empatou 1-1 sem a vitoria do Roskilde. No segundo (2,53), o Nacional-Ameliano (1-1) e o Arbroath-Queens Park (2-1) cumpriram os 1.5 golos mas o Kooteepee empatou 1-1 com o MP e a combinada caiu por essa perna. No terceiro, o da tarde (2,45), a Franca venceu na Turquia (0-1) e a Suecia bateu a Romenia (2-1), mas o Polonia-Bosnia ficou 0-0 sem os 1.5 golos da terceira perna. P&L do dia -1,5 stakes. No live, o worker arquivou 4 alertas e todos ficaram em sombra (confianca abaixo do piso de 90, ou FAVORITO A PERDER ainda em avaliacao) — 3 RED e 1 GREEN, stake 0, fora da banca. Banca fecha em 32,89 stakes."
+},
+{
+"date": "2026-09-26",
+"balance": 32.18,
+"day_pnl": -0.71,
+"notes": "Sabado com a Liga das Nacoes a arrancar a nova edicao, sem tips a solo - sairam tres acumuladores. O das seleccoes (2,57, meia stake) passou a direito: a Suica goleou a Macedonia do Norte 0-3, a Croacia venceu em Praga 1-2 e a Espanha venceu em Wembley 2-3. O dos clubes (2,93, meia stake) caiu porque o Plymouth perdeu em casa ao Burton Albion (0-1), apesar de o Volendam-VVV (3-2) e o Tenerife-Cadiz (1-1) terem cumprido as suas pernas. O corvo (1,93, uma stake) tambem caiu: a Eslovaquia cumpriu (2-0 a Moldavia), mas a Finlandia goleou San Marino 0-7, muito acima do limite de 4.5 golos da segunda perna. P&L do dia -0,71 stakes. No live, o worker arquivou 5 alertas e todos ficaram em sombra (confianca abaixo do piso de 90, liga ou estrategia ainda em avaliacao) - 2 GREEN, 2 RED, 1 PUSH, stake 0, fora da banca. Banca fecha em 32,18 stakes."
+},
+{
+"date": "2026-09-27",
+"balance": 31.03,
+"day_pnl": -1.15,
+"notes": "Domingo de seleccoes na Liga das Nacoes, sem tips a solo - sairam tres acumuladores curtos a meia stake. O das seleccoes (2.69) passou a direito: os Paises Baixos venceram na Servia 1-2, a Lituania-Azerbaijao teve o 1-1 (1.5 golos) e o Israel goleou a Irlanda 0-3. O dos clubes a 2.44 caiu porque o De Graafschap bateu o Den Bosch 1-0 sem ambas marcarem, apesar do CRB-Cuiaba (3-0) e do Foggia-Sorrento (2-0) terem cumprido. O terceiro a 2.26 tambem caiu: o Defensor Sporting so fez 1-0 ao Danubio, abaixo dos 1.5 golos, apesar do Criciuma (3-0) e do Eibar-Las Palmas (3-2) terem passado. P&L pre-jogo -0.15 stakes. No live, o worker arquivou 3 alertas: 2 em sombra (CANTOS TARDIOS e BTTS LIVE), ambos RED, e 1 apostado - CARTOES LIVE no Austria-Kosovo (Over 4.5, 1 stake a 2.375) - tambem RED, o jogo fechou 3-1 sem chegar a linha. P&L live -1 stake. Banca fecha em 31.03 stakes (era 32.18)."
+},
+{
+"date": "2026-09-28",
+"balance": 31.33,
+"day_pnl": 0.3,
+"notes": "Segunda-feira de selecções, sem tips individuais e sem corvo (nenhuma perna de Resultado+Total aguentou a análise). Dois curtos a meia stake: o das selecções (Geórgia-Ucrânia 0-0, Arménia-Montenegro 2-3, Suécia-Polónia 3-1) cumpriu as três pernas e fechou GREEN a 2.60, +0,80 stakes. O de clubes (Leganés-Castellón, San Lorenzo-Recoleta, América Mineiro-Juventude) só teve a perna do Leganés-Castellón (0-2) certa — as duas de mais de 1.5 golos ficaram no 0-0 e no 0-1 — e fechou RED, -0,50 stakes. P&L do dia +0,30 stakes. Único alerta live (CANTOS TARDIOS, Letónia-Chipre) ficou em sombra e fechou PUSH, fora da banca. Banca sobe de 31,03 para 31,33 stakes."
+},
+{
+"date": "2026-09-29",
+"balance": 33.05,
+"day_pnl": 1.72,
+"notes": "Terca-feira de seleccoes, sem tips individuais e sem alertas live (bot mudo o dia inteiro, sem jogos no radar do relay). Os dois acumuladores da tarde saiiram os dois GREEN: o curto (Inglaterra vence na Chequia, Ilhas Faroe ou empate na Moldavia, Suica vence na Escocia) fechou a 2,42 e o corvo (Espanha vence e mais de 1,5 golos, Eslovaquia vence e menos de 4,5 golos) fechou a 2,01 na Marathonbet. PnL do dia +1,72 stakes, banca sobe de 31,33 para 33,05 stakes."
+},
+{
+"date": "2026-09-30",
+"balance": 32.86,
+"day_pnl": -0.19,
+"notes": "Quarta-feira de ressaca da paragem de seleccoes, sem jogos das ligas grandes - so dois curtos a meia stake, sem corvo. O primeiro (Africa do Sul, Southend DNB, Cerro Porteno 1X) fechou GREEN: a Africa do Sul goleou 0-5, o Cerro Porteno venceu 2-1 e o Southend empatou 1-1 em Eastleigh, perna devolvida que paga a 1.00 - o bilhete pagou a 1.63 em vez de 2.21. O segundo (Cerro Largo mais de 1.5, Nacional DNB, San Luis X2) foi RED: o Cerro Largo-Rentistas so teve um golo (1-0). Dia de pre-jogo a -0.19 stakes. No live so houve tres alertas, todos em sombra, sem dinheiro em jogo. Banca fecha em 32.86 stakes, vinda de 33.05."
+}
+],
+"dow_agg": {
+"Monday": {
+"n": 4,
+"total": 4.23,
+"avg": 1.058
+},
+"Tuesday": {
+"n": 5,
+"total": 1.23,
+"avg": 0.247
+},
+"Wednesday": {
+"n": 5,
+"total": -2.4,
+"avg": -0.48
+},
+"Thursday": {
+"n": 4,
+"total": 1.1,
+"avg": 0.275
+},
+"Friday": {
+"n": 4,
+"total": -2.8,
+"avg": -0.7
+},
+"Saturday": {
+"n": 4,
+"total": -1.08,
+"avg": -0.27
+},
+"Sunday": {
+"n": 4,
+"total": -1.94,
+"avg": -0.485
+}
+},
+"zero_tip_days": 12,
+"best_day": {
+"date": "2026-09-14",
+"balance": 36.55,
+"day_pnl": 2.92,
+"notes": "Segunda de descanso mas cheia de acerto: as duas tips avaliadas foram GREEN (Braga nao sofreu no 1-0 ao Estoril, Inter-Udinese acabou ambas marcam num 5-3) e o curto de tres pernas passou por inteiro (Roma venceu em Turim, os dois jogos portugueses tiveram mais de 1.5 golos). Nos alertas live so dois entraram a apostado: GREEN no Zemun-Radnik Surdulica e RED no Radomiak-Piast Gliwice, que se anularam em stakes. Dia fechou em +2,92 stakes de pre-jogo com o live a zero, banca sobe para 36,55 stakes."
+},
+"worst_day": {
+"date": "2026-09-16",
+"balance": 33.92,
+"day_pnl": -2.5,
+"notes": "Dia mau: as duas tips pre-jogo falharam (Depor-Sevilha nao marcou dos dois lados, 0-1; Lepaul entrou tarde demais em Graz, 0-0 sem golos) e a aposta manual de cantos no Ararat-Sparta ficou a um canto da linha (15 contra 15.5). P&L do dia -2,50 stakes. O unico alerta do bot ficou em sombra (confianca 85) e nao entrou na banca."
+},
+"total_days": 30
+}
+</script>
+<script>
+const D = JSON.parse(document.getElementById('report-data').textContent);
+const fmt = (n, d=2) => (n>=0?'+':'') + n.toFixed(d);
+const fmt0 = (n, d=2) => n.toFixed(d);
+const pct = (n) => (n>=0?'+':'') + n.toFixed(1) + '%';
+const sign = (n) => n>=0 ? 'pos' : 'neg';
+const esc = (s) => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+
+// ---------- KPI HERO ----------
+(function(){
+  const el = document.getElementById('kpi-hero');
+  const items = [
+    {k:'Banca inicial', v: D.start_balance.toFixed(2)+' stk'},
+    {k:'Banca final', v: D.end_balance.toFixed(2)+' stk'},
+    {k:'Variação', v: fmt(D.net_change)+' stk', cls: sign(D.net_change)},
+    {k:'Variação %', v: pct(D.pct_change), cls: sign(D.pct_change)},
+    {k:'Acerto global', v: D.combined.hit_rate.toFixed(1)+'%'},
+    {k:'ROI global (dinheiro em jogo)', v: pct(D.combined.roi_pct), cls: sign(D.combined.roi_pct)},
+  ];
+  el.innerHTML = items.map(i => `
+    <div class="kpi"><div class="k">${i.k}</div><div class="v num ${i.cls||''}">${i.v}</div></div>
+  `).join('');
+})();
+
+// ---------- BALANCE CHART ----------
+(function(){
+  const svg = document.getElementById('chart-balance');
+  const W = 1000, H = 260, PAD_L = 46, PAD_R = 16, PAD_T = 20, PAD_B = 26;
+  const pts = [{date:'31/08', balance: D.start_balance}, ...D.series.map(s => ({date: s.date.slice(8,10)+'/09', balance: s.balance}))];
+  const vals = pts.map(p=>p.balance);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const padV = Math.max(0.5, (max-min)*0.15);
+  const yMin = min - padV, yMax = max + padV;
+  const x = i => PAD_L + (i/(pts.length-1)) * (W-PAD_L-PAD_R);
+  const y = v => PAD_T + (1 - (v-yMin)/(yMax-yMin)) * (H-PAD_T-PAD_B);
+  const lineColor = D.net_change >= 0 ? 'var(--green)' : 'var(--red)';
+
+  let s = '';
+  // gridlines (4 horizontal)
+  for(let g=0; g<=3; g++){
+    const v = yMin + (yMax-yMin)*g/3;
+    s += `<line class="gridline" x1="${PAD_L}" x2="${W-PAD_R}" y1="${y(v)}" y2="${y(v)}"/>`;
+    s += `<text x="${PAD_L-8}" y="${y(v)+4}" font-size="11" text-anchor="end">${v.toFixed(1)}</text>`;
+  }
+  // baseline at start balance
+  s += `<line class="baseline" x1="${PAD_L}" x2="${W-PAD_R}" y1="${y(D.start_balance)}" y2="${y(D.start_balance)}"/>`;
+
+  // path
+  const path = pts.map((p,i) => `${i===0?'M':'L'}${x(i).toFixed(1)},${y(p.balance).toFixed(1)}`).join(' ');
+  s += `<path d="${path}" fill="none" stroke="${lineColor}" stroke-width="2"/>`;
+
+  // points with native tooltip
+  pts.forEach((p,i) => {
+    s += `<circle cx="${x(i).toFixed(1)}" cy="${y(p.balance).toFixed(1)}" r="3" fill="${lineColor}">
+      <title>${p.date}: ${p.balance.toFixed(2)} stakes</title></circle>`;
+  });
+
+  // x labels every 5
+  pts.forEach((p,i) => {
+    if(i % 5 === 0 || i === pts.length-1){
+      s += `<text x="${x(i).toFixed(1)}" y="${H-6}" font-size="11" text-anchor="middle">${p.date}</text>`;
+    }
+  });
+
+  // end label
+  s += `<text x="${W-PAD_R}" y="${y(pts[pts.length-1].balance)-10}" font-size="12" font-weight="700" text-anchor="end" fill="${lineColor}">${pts[pts.length-1].balance.toFixed(2)}</text>`;
+
+  svg.innerHTML = s;
+})();
+
+// ---------- DAILY PNL CHART ----------
+(function(){
+  const svg = document.getElementById('chart-daily');
+  const W = 1000, H = 220, PAD_L = 46, PAD_R = 16, PAD_T = 16, PAD_B = 26;
+  const pts = D.series.map(s => ({date: s.date.slice(8,10), pnl: s.day_pnl, notes: s.notes}));
+  const maxAbs = Math.max(...pts.map(p=>Math.abs(p.pnl)), 0.5);
+  const midY = PAD_T + (H-PAD_T-PAD_B)/2;
+  const scale = (H-PAD_T-PAD_B)/2 / (maxAbs*1.15);
+  const bw = (W-PAD_L-PAD_R)/pts.length;
+  let s = `<line class="baseline" x1="${PAD_L}" x2="${W-PAD_R}" y1="${midY}" y2="${midY}"/>`;
+  pts.forEach((p,i) => {
+    const bh = Math.abs(p.pnl)*scale;
+    const bx = PAD_L + i*bw + bw*0.18;
+    const by = p.pnl >= 0 ? midY - bh : midY;
+    const color = p.pnl >= 0 ? 'var(--green)' : 'var(--red)';
+    const note = esc(p.notes).slice(0,140).replace(/"/g,'&quot;');
+    s += `<rect x="${bx.toFixed(1)}" y="${by.toFixed(1)}" width="${(bw*0.64).toFixed(1)}" height="${Math.max(bh,1.5).toFixed(1)}" rx="2" fill="${color}">
+      <title>${p.date}/09: ${fmt(p.pnl,2)} stakes</title></rect>`;
+    if(i % 5 === 0 || i === pts.length-1){
+      s += `<text x="${(bx+bw*0.32).toFixed(1)}" y="${H-6}" font-size="11" text-anchor="middle">${p.date}</text>`;
+    }
+  });
+  svg.innerHTML = s;
+})();
+
+// ---------- BUCKETS ----------
+(function(){
+  const el = document.getElementById('buckets');
+  const b = (title, badge, agg, extra) => `
+    <div class="card">
+      <div class="card-h"><span class="t">${title}</span><span class="badge badge--${badge}">${agg.total} bilhetes</span></div>
+      <div class="card-b">
+        <div class="stat-row"><span class="l">Green / Red${agg.push?' / Push':''}</span><span class="r">${agg.green}G ${agg.red}R${agg.push?' '+agg.push+'P':''}</span></div>
+        <div class="stat-row"><span class="l">Acerto</span><span class="r">${agg.hit_rate.toFixed(1)}%</span></div>
+        <div class="stat-row"><span class="l">Stake total</span><span class="r">${agg.stake.toFixed(2)} stk</span></div>
+        <div class="stat-row"><span class="l">P&amp;L</span><span class="r num ${sign(agg.pnl)}">${fmt(agg.pnl)} stk</span></div>
+        <div class="stat-row"><span class="l">ROI</span><span class="r num ${sign(agg.roi_pct)}">${pct(agg.roi_pct)}</span></div>
+        ${extra||''}
+      </div>
+    </div>`;
+  el.innerHTML =
+    b('Pré-jogo (tips)', 'blue', D.pregame_agg) +
+    b('Acumuladores (corvo/curto)', 'violet', D.acca_agg) +
+    b('Live — bot automático', 'green', D.auto_live_agg) +
+    b('Overrides manuais (chat)', 'amber', D.manual_agg);
+})();
+
+// ---------- MARKET TABLE ----------
+(function(){
+  const labels = {btts:'BTTS', clean_sheet:'Não sofre', favorites:'Favoritos 1X2', scorers:'Marcadores',
+    over25:'Mais de 2.5', over15:'Mais de 1.5', tennis_match:'Ténis (vencedor)'};
+  const rows = Object.entries(D.market_agg).sort((a,b)=>b[1].total-a[1].total);
+  let html = '<table><thead><tr><th>Mercado</th><th class="num">N</th><th class="num">Acerto</th><th class="num">Stake</th><th class="num">P&amp;L</th><th class="num">ROI</th></tr></thead><tbody>';
+  rows.forEach(([k,v]) => {
+    html += `<tr><td>${labels[k]||k}</td><td class="num">${v.total}</td><td class="num">${v.hit_rate.toFixed(1)}%</td>
+      <td class="num">${v.stake.toFixed(2)}</td><td class="num ${sign(v.pnl)}">${fmt(v.pnl)}</td><td class="num ${sign(v.roi_pct)}">${pct(v.roi_pct)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('market-table').innerHTML = `<div class="card"><div class="card-b">${html}</div></div>`;
+})();
+
+// ---------- LEAGUE TABLE ----------
+(function(){
+  const rows = Object.entries(D.league_agg).sort((a,b)=>b[1].total-a[1].total);
+  let html = '<table><thead><tr><th>Liga</th><th class="num">N</th><th class="num">Acerto</th><th class="num">ROI</th></tr></thead><tbody>';
+  rows.forEach(([k,v]) => {
+    html += `<tr><td>${k}</td><td class="num">${v.total}</td><td class="num">${v.hit_rate.toFixed(1)}%</td><td class="num ${sign(v.roi_pct)}">${pct(v.roi_pct)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('league-table').innerHTML = `<div class="card"><div class="card-b">${html}</div></div>`;
+})();
+
+// ---------- STRATEGY BET TABLE ----------
+(function(){
+  const rows = Object.entries(D.strategy_bet_agg).sort((a,b)=>b[1].total-a[1].total);
+  let html = '<table><thead><tr><th>Estratégia</th><th class="num">N</th><th class="num">Acerto</th><th class="num">ROI</th></tr></thead><tbody>';
+  rows.forEach(([k,v]) => {
+    html += `<tr><td>${esc(k)}</td><td class="num">${v.total}</td><td class="num">${v.hit_rate.toFixed(1)}%</td><td class="num ${sign(v.roi_pct)}">${pct(v.roi_pct)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('strategy-bet-table').innerHTML = `<div class="card"><div class="card-b">${html}</div></div>`;
+})();
+
+// ---------- SHADOW TABLE ----------
+(function(){
+  const rows = Object.entries(D.strategy_shadow_agg).sort((a,b)=>b[1].total-a[1].total);
+  let html = '<table><thead><tr><th>Estratégia (sombra)</th><th class="num">N</th><th class="num">Acerto real</th><th class="num">ROI hipotético*</th></tr></thead><tbody>';
+  rows.forEach(([k,v]) => {
+    const h = D.shadow_hypo[k] || {hypo_roi_pct:0};
+    html += `<tr><td>${esc(k)}</td><td class="num">${v.total}</td><td class="num">${v.hit_rate.toFixed(1)}%</td><td class="num ${sign(h.hypo_roi_pct)}">${pct(h.hypo_roi_pct)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('shadow-table').innerHTML = `<div class="card"><div class="card-b">${html}
+    <div style="font-size:11px;color:var(--text-4);margin-top:10px">*Simulação a 1 stake fixa por alerta, usando as odds registadas no momento do alerta. Não é dinheiro real.</div></div></div>`;
+
+  document.getElementById('shadow-callouts').innerHTML = `
+    <div class="callout good"><b>O limiar de 90 continua certo.</b> O BTTS LIVE em sombra (92 alertas, conf 85-89) teria ROI hipotético de ${pct(D.shadow_hypo['🎯 BTTS LIVE'].hypo_roi_pct)} a stake fixa — exactamente a confirmação, com os dados de setembro, do que já tinha sido medido em agosto (60,9% contra 77,8%) quando o limiar passou de 85 para 90. Não mexer.</div>
+    <div class="callout warn"><b>Cantos Tardios em sombra inverteu de sinal.</b> 37 amostras, ROI hipotético de ${pct(D.shadow_hypo['🔄 CANTOS TARDIOS'].hypo_roi_pct)} — ainda não é "sim" para ir ao vivo, mas é a primeira leitura positiva depois do histórico de -25% medido até 31/08. Vale mais um mês de dados antes de decidir, não ainda.</div>
+    <div class="callout bad"><b>Favorito a Perder confirma-se fraco.</b> ROI hipotético de ${pct(D.shadow_hypo['🔥 FAVORITO A PERDER'].hypo_roi_pct)} em 21 amostras — continua correctamente de fora.</div>
+  `;
+})();
+
+// ---------- MANUAL TABLE ----------
+(function(){
+  let html = '<table><thead><tr><th>Data</th><th>Jogo / mercado</th><th class="num">Odd</th><th class="num">Stake</th><th>Resultado</th><th class="num">P&amp;L</th></tr></thead><tbody>';
+  D.manual_detail.forEach(m => {
+    html += `<tr><td class="num">${m.date.slice(8,10)}/09</td><td>${esc(m.match)}<br><span style="color:var(--text-3);font-size:12px">${esc(m.market)}</span></td>
+      <td class="num">${m.odds??'—'}</td><td class="num">${m.stake}</td>
+      <td><span class="badge badge--${m.result==='GREEN'?'green':'red'}">${m.result}</span></td>
+      <td class="num ${sign(m.pnl)}">${fmt(m.pnl,3)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  document.getElementById('manual-table').innerHTML = `<div class="card"><div class="card-b">${html}</div></div>
+    <div class="callout bad" style="margin-top:12px"><b>${D.manual_agg.total} overrides, ${D.manual_agg.green}G/${D.manual_agg.red}R (${D.manual_agg.hit_rate.toFixed(0)}% de acerto), ${fmt(D.manual_agg.pnl,2)} stakes.</b>
+    Quatro em cinco foram contra decisões do próprio sistema (sombra, piso de valor, ou ROI histórico negativo já documentado). O único GREEN (cantos do Al Ain-Al Nassr) confirma a excepção, não a regra.</div>`;
+})();
+
+// ---------- DOW TABLE ----------
+(function(){
+  const order = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+  const labels = {Monday:'Segunda',Tuesday:'Terça',Wednesday:'Quarta',Thursday:'Quinta',Friday:'Sexta',Saturday:'Sábado',Sunday:'Domingo'};
+  const maxAbs = Math.max(...Object.values(D.dow_agg).map(v=>Math.abs(v.avg)));
+  let html = '';
+  order.forEach(d => {
+    const v = D.dow_agg[d]; if(!v) return;
+    const w = Math.abs(v.avg)/maxAbs*50;
+    html += `<div class="barrow">
+      <span class="lbl">${labels[d]} (n=${v.n})</span>
+      <div class="track"><div class="mid"></div><div class="fill ${sign(v.avg)}" style="width:${w}%"></div></div>
+      <span class="val ${sign(v.avg)}">${fmt(v.avg,2)}</span>
+    </div>`;
+  });
+  document.getElementById('dow-table').innerHTML = `<div class="card"><div class="card-b">${html}</div></div>`;
+})();
+
+// ---------- BEST / WORST DAY ----------
+(function(){
+  const card = (label, d, cls) => `
+    <div class="card">
+      <div class="card-h"><span class="t">${label} — ${d.date.slice(8,10)}/09</span><span class="badge badge--${cls}">${fmt(d.day_pnl,2)} stk</span></div>
+      <div class="card-b" style="font-size:13px;color:var(--text-2);line-height:1.6">${esc(d.notes)}</div>
+    </div>`;
+  document.getElementById('best-worst').innerHTML =
+    card('Melhor dia', D.best_day, 'green') + card('Pior dia', D.worst_day, 'red');
+})();
+
+// ---------- RECOMMENDATIONS ----------
+(function(){
+  const items = [
+    {
+      title: 'Parar (ou travar a sério) os overrides manuais ao vivo no chat',
+      body: `${D.manual_agg.total} apostas manuais este mês, ${D.manual_agg.hit_rate.toFixed(0)}% de acerto, <b>${fmt(D.manual_agg.pnl,2)} stakes</b>. Quatro das cinco foram feitas contra um aviso explícito do próprio sistema (sombra, piso de valor não atingido, ou histórico negativo já documentado em <code>feedback-medir-antes-de-apertar-filtros</code>). O único GREEN (cantos Al Ain–Al Nassr) foi a excepção. Se a leitura no chat for mesmo melhor que o modelo, vale testar isso formalmente — não ao calor do jogo.`
+    },
+    {
+      title: 'Fechar a decisão da regra 6 do corvo (H2H) — já há dados de setembro',
+      body: `A decisão sobre a regra 6 da Fase C foi deliberadamente adiada a 02/09 "para juntar os dados do bot live" até ao fim de setembro (<code>trincheira-bet-regra6-corvo-review</code>). Esse fim chegou: os acumuladores fecharam o mês em ${D.acca_agg.hit_rate.toFixed(1)}% de acerto e <b>${pct(D.acca_agg.roi_pct)} ROI</b> — o pior bloco do mês. Falta ainda contar à mão quantas rejeições da Fase C foram só por divisões diferentes (o campo de log mudou de nome todos os dias e tem buracos em 29-31/08) — mas o prazo que o próprio dono fixou já passou.`
+    },
+    {
+      title: 'Não tocar no limiar de confiança ≥90 do BTTS LIVE',
+      body: `Confirmação, não novidade: o que fica em sombra por confiança 85-89 teria ROI hipotético de ${pct(D.shadow_hypo['🎯 BTTS LIVE'].hypo_roi_pct)} a stake fixa este mês — o mesmo padrão que já tinha justificado subir o limiar de 85 para 90 a 21/08. O que passa o limiar (30 apostas, ${D.strategy_bet_agg['🎯 BTTS LIVE'].hit_rate.toFixed(1)}% de acerto, ${pct(D.strategy_bet_agg['🎯 BTTS LIVE'].roi_pct)} ROI) é o único bloco de live consistentemente positivo. Medir antes de apertar — e desta vez a medição diz para não apertar mais.`
+    },
+    {
+      title: 'Dar mais um mês a "Cantos Tardios" em sombra antes de decidir',
+      body: `Inverteu de sinal: ROI hipotético de ${pct(D.shadow_hypo['🔄 CANTOS TARDIOS'].hypo_roi_pct)} em 37 amostras este mês, contra o -25% medido até 31/08 que ainda hoje é citado como aviso nas apostas manuais. Amostra pequena para decidir já, mas é o único candidato a sombra que está a melhorar. Voltar a olhar com os dados de outubro antes de promover ou descartar.`
+    },
+    {
+      title: 'Mercados "marcadores" e "não sofre" continuam com amostra pequena e fraca',
+      body: `Marcadores: 0% de acerto em 2 tips (-100% ROI). Não sofre: 33,3% em 3 tips. Ambos têm amostra demasiado pequena para cortar já (a mesma lição de <code>feedback-medir-antes-de-apertar-filtros</code> — duas de três regras "óbvias" de um dia mau estavam erradas quando medidas no mês inteiro), mas valem um olho em outubro antes de continuar a publicá-los com o mesmo peso que o BTTS.`
+    },
+    {
+      title: 'Padrão por dia da semana — vigiar, não agir',
+      body: `Segunda-feira foi a melhor (média ${fmt(D.dow_agg.Monday.avg,2)} stakes/dia, n=4) e Sexta a pior (${fmt(D.dow_agg.Friday.avg,2)}, n=4), com Quarta também negativa. Amostra de 4-5 dias por categoria é demasiado pequena para qualquer acção — regista-se como observação a confirmar com mais meses, não como filtro a aplicar.`
+    },
+    {
+      title: '12 de 30 dias sem nenhuma tip pré-jogo publicada',
+      body: `40% dos dias ficaram sem tips individuais (só acumuladores, ou nada). Isto é coerente com a disciplina de não forçar bilhete — mas vale confirmar em outubro se foi mesmo falta de oferta de jogos com vantagem, ou se o scanner está a perder candidatos que deviam ter passado o crivo.`
+    },
+  ];
+  document.getElementById('recommendations').innerHTML = items.map((it,i) => `
+    <div class="reco">
+      <div class="n">RECOMENDAÇÃO ${i+1}</div>
+      <div class="title">${it.title}</div>
+      <div class="body">${it.body}</div>
+    </div>`).join('');
+})();
+</script>
+</body>
+</html>
