@@ -2,10 +2,46 @@
   "date": "2026-10-07",
   "generated_at": "2026-10-07T06:16:20.737Z",
   "units": "stakes",
-  "notes": "Quarta-feira de calendário magro: as ligas grandes ainda estão a sair da paragem das selecções e o que há é Brasileirão, Série B, Taça do Japão, Taça do Chile e a fase final da liga finlandesa.\n\nNão sai tip individual. Os sites de prognósticos empurram as vitórias do Bragantino e do Internacional, mas as duas equipas vêm de séries muito más (o Bragantino ganhou um dos últimos dez de campeonato, o Inter está em zona de descida) e o preço não paga esse risco. O Coquimbo-Cobreloa tinha uma história, porque o Cobreloa manda os miúdos para a segunda mão, mas o Coquimbo só ganhou um dos últimos sete de campeonato e joga sem o avançado titular. Não se força boletim.\n\nAinda se olhou para um curto de três pernas de menos de 3.5 golos, mas esse mercado não entra nos curtos e ficou de fora. Corvo hoje também não há: não apareceu nenhuma vitória com total dentro do preço, e as pernas de golos que sobravam não tinham as baixas confirmadas por duas fontes.\n\nHoje não há boletim. Exposição: zero.",
+  "notes": "Quarta-feira de calendário magro: as ligas grandes ainda estão a sair da paragem das selecções e o que há é Brasileirão, Série B, Taça do Japão, Taça do Chile e a fase final da liga finlandesa.\n\nNão sai tip individual. Os sites de prognósticos empurram as vitórias do Bragantino e do Internacional, mas as duas equipas vêm de séries muito más (o Bragantino ganhou um dos últimos dez de campeonato, o Inter está em zona de descida) e o preço não paga esse risco. O Coquimbo-Cobreloa tinha uma história, porque o Cobreloa manda os miúdos para a segunda mão, mas o Coquimbo só ganhou um dos últimos sete de campeonato e joga sem o avançado titular. Não se força tip.\n\nSai um curto a meia stake, a 2,89: menos de 3,5 golos no Gnistan-Inter Turku, no Antofagasta-Universidad de Chile e no Bragantino-Mirassol. Nos últimos cinco jogos entre eles, o Gnistan-Inter Turku e o Bragantino-Mirassol nunca passaram dos três golos, e as duas equipas de cada jogo vêm de séries fechadas. Este mercado não costuma entrar nos curtos; entra hoje por escolha nossa.\n\nCorvo hoje não há: não apareceu nenhuma vitória com total dentro do preço, e as pernas de golos que sobravam não tinham as baixas confirmadas por duas fontes.\n\nExposição do dia: meia stake.",
   "tips": [],
   "sombra": [],
-  "accumulators": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1638101,
+          "match": "Gnistan vs Inter Turku",
+          "league": "Veikkausliiga (Finlândia, fase de campeão)",
+          "pick": "Menos de 3.5 golos",
+          "odds": 1.5,
+          "kickoff": "2026-10-07T16:00:00Z"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1643186,
+          "match": "Antofagasta vs Universidad de Chile",
+          "league": "Taça do Chile (quartos, 1.ª mão)",
+          "pick": "Menos de 3.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-07T22:00:00Z"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1492392,
+          "match": "RB Bragantino vs Mirassol",
+          "league": "Brasileirão Série A",
+          "pick": "Menos de 3.5 golos",
+          "odds": 1.45,
+          "kickoff": "2026-10-07T22:30:00Z"
+        }
+      ],
+      "combined_odds": 2.89,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
   "duplo_sombra": {
     "selections": [],
     "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a score 75 com investigação completa: as candidatas acima de 1.40 (vitórias do Bragantino, Internacional, Inter Turku e Coquimbo) caíram na investigação, e os menos de 3.5 a 1.40 são pernas de curto sem tese individual."
