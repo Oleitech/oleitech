@@ -1,0 +1,78 @@
+{
+  "gerado": "2026-10-07T06:06:46.161Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492392,
+      "data": "2026-10-07T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "RB Bragantino - Mirassol",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": -0.306,
+      "def": 0.326,
+      "zona": null
+    },
+    {
+      "fixture": 1492395,
+      "data": "2026-10-07T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Internacional - Corinthians",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": -0.556,
+      "def": 0.79,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.1,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.25,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1492397,
+      "data": "2026-10-07T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Remo - Gremio",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": -0.449,
+      "def": 0.076,
+      "zona": null
+    },
+    {
+      "fixture": 1492399,
+      "data": "2026-10-07T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vitoria - Chapecoense-sc",
+      "jogos_tabela": 27,
+      "amostra_fraca": false,
+      "atq": -0.589,
+      "def": -0.211,
+      "zona": null
+    },
+    {
+      "fixture": 1492391,
+      "data": "2026-10-07T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Botafogo - Vasco DA Gama",
+      "jogos_tabela": 27,
+      "amostra_fraca": false,
+      "atq": 0.06,
+      "def": -0.523,
+      "zona": null
+    }
+  ]
+}
