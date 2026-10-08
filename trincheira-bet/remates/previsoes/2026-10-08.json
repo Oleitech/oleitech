@@ -1,0 +1,111 @@
+{
+  "gerado": "2026-10-08T06:04:19.138Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492398,
+      "data": "2026-10-08T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Santos - Flamengo",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28.1,
+          "previsao": 27.6,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 0.1,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 30.5,
+            "lado": "Over",
+            "odd": 3.75,
+            "minha_prob": 0.282,
+            "prob_da_casa": 0.248,
+            "edge": 5.7,
+            "margem": 7.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.1,
+          "previsao": 9,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 5.5,
+            "lado": "Over",
+            "odd": 1.1,
+            "minha_prob": 0.83,
+            "prob_da_casa": 0.849,
+            "edge": -8.7,
+            "margem": 7
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492390,
+      "data": "2026-10-08T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Atletico Paranaense - Atletico-MG",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.3,
+          "previsao": 28.6,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 2.1,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 31.5,
+            "lado": "Over",
+            "odd": 5.4,
+            "minha_prob": 0.278,
+            "prob_da_casa": 0.173,
+            "edge": 49.9,
+            "margem": 7
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.7,
+          "previsao": 9.3,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.8,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 2.47,
+            "minha_prob": 0.416,
+            "prob_da_casa": 0.378,
+            "edge": 2.9,
+            "margem": 7.2
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

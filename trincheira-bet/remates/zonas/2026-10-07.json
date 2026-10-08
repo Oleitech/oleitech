@@ -28,17 +28,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.1,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.1
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.25,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.25
         }
       },
       "historico": {
         "cantos_6_5": 0.788,
         "cantos_7_5": 0.691
+      },
+      "real": {
+        "baliza": 14,
+        "cantos": 15
       }
     },
     {

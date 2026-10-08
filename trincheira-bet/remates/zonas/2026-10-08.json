@@ -1,0 +1,45 @@
+{
+  "gerado": "2026-10-08T06:04:27.298Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492398,
+      "data": "2026-10-08T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Santos - Flamengo",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": 0.837,
+      "def": -0.459,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.39,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.7,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1492390,
+      "data": "2026-10-08T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Atletico Paranaense - Atletico-MG",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": 0.194,
+      "def": 0.183,
+      "zona": null
+    }
+  ]
+}

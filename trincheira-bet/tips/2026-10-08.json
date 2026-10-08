@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T06:18:18.001Z",
+  "units": "stakes",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1642035,
+          "match": "Al Ansar vs Al Hikma",
+          "league": "Premier League (Líbano, 1.ª jornada)",
+          "pick": "Vitória Al Ansar",
+          "odds": 1.33,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-08T13:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1549505,
+          "match": "Atletico Grau vs Club Deportivo Los Chankas",
+          "league": "Liga 1 (Peru, Clausura)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-08T20:30:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1492398,
+          "match": "Santos vs Flamengo",
+          "league": "Brasileirão Série A",
+          "pick": "Santos ou Flamengo, sem empate (dupla hipótese 12)",
+          "odds": 1.28,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-08T22:30:00Z",
+          "score": 65
+        }
+      ],
+      "combined_odds": 2.18,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a score 75 com investigação completa. As que estavam na banda caíram antes: HJK (1.50) e KuPS (1.57) com duas vitórias nos últimos cinco jogos oficiais, Shamrock (1.40) com H2H 2/5 e baixas que não batem entre fontes, Ceará-Criciúma mais de 1.5 (1.40) com os dois ataques desfalcados, Al-Wasl (1.42) com H2H 1/5, Viettel (1.48) com forma 2/5, Politehnica Timisoara (1.50) sem H2H, Mornar (1.50) com forma 1/5. O Flamengo (1.80) fica fora da banda e sem valor (Pinnacle paga 1.85)."
+  },
+  "notes": "Quinta-feira de calendário fraco: a paragem das selecções acabou na terça, as ligas grandes só voltam amanhã e hoje há sobretudo Brasileirão, Série B, a fase final da liga finlandesa, o dérbi de Cluj e campeonatos de segunda linha.\n\nNão sai tip individual. O jogo grande é o Santos-Flamengo, e o Flamengo a 1.80 é a escolha óbvia dos sites de prognósticos, mas o preço não paga: a Pinnacle dá mais (1.85), o Santos vem de cinco vitórias seguidas no campeonato e o Flamengo joga sem o Arrascaeta e o Léo Ortiz, com o Fla-Flu no domingo e a meia-final da Libertadores na terça. O ambas marcam a 1.67 está no preço justo, não tem valor. Não se força tip.\n\nSai um curto a meia stake, a 2.18: vitória do Al Ansar no arranque da liga libanesa (ganhou os últimos seis ao Al Hikma), mais de 1.5 golos no Grau-Chankas (o Chankas sofreu 23 golos em dez jornadas do Clausura) e qualquer vencedor no Santos-Flamengo (os últimos cinco entre os dois acabaram todos com vencedor).\n\nCorvo hoje não há. O CFR Cluj tem seis jogadores com gripe para o dérbi, o Ceará-Criciúma perdeu avançados dos dois lados, e nos jogos da Finlândia e da Irlanda as baixas não se confirmam em duas fontes.\n\nExposição do dia: meia stake."
+}
