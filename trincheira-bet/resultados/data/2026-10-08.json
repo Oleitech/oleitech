@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-08",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "fixtureId": 1642035,
+            "match": "Al Ansar vs Al Hikma",
+            "league": "Premier League (Líbano, 1.ª jornada)",
+            "pick": "Vitória Al Ansar",
+            "odds": 1.33,
+            "bookmaker": "Bet365",
+            "result": "GREEN",
+            "final_score": "2-1"
+          },
+          {
+            "fixtureId": 1549505,
+            "match": "Atletico Grau vs Club Deportivo Los Chankas",
+            "league": "Liga 1 (Peru, Clausura)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "0-0"
+          },
+          {
+            "fixtureId": 1492398,
+            "match": "Santos vs Flamengo",
+            "league": "Brasileirão Série A",
+            "pick": "Santos ou Flamengo, sem empate (dupla hipótese 12)",
+            "odds": 1.28,
+            "bookmaker": "Bet365",
+            "result": "RED",
+            "final_score": "2-2"
+          }
+        ],
+        "combined_odds": 2.18,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "O Al Ansar venceu o Al Hikma 2-1 e cumpre a primeira perna, mas o Grau-Chankas fechou 0-0 (falha o mais de 1.5) e o Santos-Flamengo acabou empatado 2-2 (falha a dupla hipótese sem empate) — duas pernas RED arrastam o bilhete."
+      }
+    ],
+    "sombra": [],
+    "sombra_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pnl_se_apostadas": 0
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a score 75 com investigação completa. As que estavam na banda caíram antes: HJK (1.50) e KuPS (1.57) com duas vitórias nos últimos cinco jogos oficiais, Shamrock (1.40) com H2H 2/5 e baixas que não batem entre fontes, Ceará-Criciúma mais de 1.5 (1.40) com os dois ataques desfalcados, Al-Wasl (1.42) com H2H 1/5, Viettel (1.48) com forma 2/5, Politehnica Timisoara (1.50) sem H2H, Mornar (1.50) com forma 1/5. O Flamengo (1.80) fica fora da banda e sem valor (Pinnacle paga 1.85)."
+    },
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 0.5,
+      "combined_return": 0,
+      "combined_pnl": -0.5,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {}
+    }
+  },
+  "balance": 27.77,
+  "notes": "Quinta-feira de calendário fraco, sem tips individuais. Saiu só o curto a meia stake (2.18): Al Ansar venceu no Líbano (2-1, cumpre), mas o Grau-Chankas ficou em 0-0 (falha o mais de 1.5) e o Santos-Flamengo empatou 2-2 (falha a dupla hipótese sem empate) — bilhete RED, -0,5 stakes. Sem corvo (sem baixas confirmadas em duas fontes) e sem duplo em sombra (nenhuma perna 1.40-1.60 chegou a score 75). Zero alertas live. Banca fecha em 27,77 stakes (era 28,27)."
+}

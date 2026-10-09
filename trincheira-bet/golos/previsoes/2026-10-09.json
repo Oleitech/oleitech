@@ -1,0 +1,3308 @@
+{
+  "gerado": "2026-10-09T06:05:11.104Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1576189,
+      "data": "2026-10-09T16:30:00+00:00",
+      "liga": "D2",
+      "jogo": "Eintracht Braunschweig - Holstein Kiel",
+      "pressao": 38.8,
+      "prob_mais": 0.638,
+      "prob_mercado": 0.618,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.57,
+        "valor": 0.002
+      },
+      "marathonbet": {
+        "odd": 1.44,
+        "valor": -0.081
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.024
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1576191,
+      "data": "2026-10-09T16:30:00+00:00",
+      "liga": "D2",
+      "jogo": "1. FC Heidenheim - 1. FC Kaiserslautern",
+      "pressao": 38.8,
+      "prob_mais": 0.619,
+      "prob_mercado": 0.598,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.62,
+        "valor": 0.003
+      },
+      "marathonbet": {
+        "odd": 1.57,
+        "valor": -0.028
+      },
+      "bet365": {
+        "odd": 1.57,
+        "valor": -0.028
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1584424,
+      "data": "2026-10-09T17:00:00+00:00",
+      "liga": "T1",
+      "jogo": "Galatasaray - Kasımpaşa",
+      "pressao": 34.2,
+      "prob_mais": 0.686,
+      "prob_mercado": 0.652,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.5,
+        "valor": 0.029
+      },
+      "marathonbet": {
+        "odd": 1.42,
+        "valor": -0.026
+      },
+      "bet365": {
+        "odd": 1.44,
+        "valor": -0.012
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575516,
+      "data": "2026-10-09T17:45:00+00:00",
+      "liga": "P1",
+      "jogo": "Moreirense - GIL Vicente",
+      "pressao": 29.6,
+      "prob_mais": 0.438,
+      "prob_mercado": 0.425,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 2.29,
+        "valor": 0.002
+      },
+      "marathonbet": {
+        "odd": 2.21,
+        "valor": -0.033
+      },
+      "bet365": {
+        "odd": 2.2,
+        "valor": -0.037
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552180,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "N1",
+      "jogo": "PSV Eindhoven - Heerenveen",
+      "pressao": 42.3,
+      "prob_mais": 0.852,
+      "prob_mercado": 0.823,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.17,
+        "valor": -0.003
+      },
+      "marathonbet": {
+        "odd": 1.11,
+        "valor": -0.054
+      },
+      "bet365": {
+        "odd": 1.14,
+        "valor": -0.029
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552488,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Dunkerque - Annecy",
+      "pressao": 29.4,
+      "prob_mais": 0.524,
+      "prob_mercado": 0.527,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.05,
+        "valor": -0.023
+      },
+      "marathonbet": {
+        "odd": 1.97,
+        "valor": -0.061
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.047
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552489,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Montpellier - Grenoble",
+      "pressao": 34.2,
+      "prob_mais": 0.497,
+      "prob_mercado": 0.472,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.07,
+        "valor": 0.029
+      },
+      "marathonbet": {
+        "odd": 1.95,
+        "valor": -0.03
+      },
+      "bet365": {
+        "odd": 2.05,
+        "valor": 0.019
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552490,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Nancy - Guingamp",
+      "pressao": 34.3,
+      "prob_mais": 0.547,
+      "prob_mercado": 0.521,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.85,
+        "valor": 0.012
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": -0.02
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.015
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552492,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "PAU - Laval",
+      "pressao": 33.9,
+      "prob_mais": 0.515,
+      "prob_mercado": 0.491,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.02,
+        "valor": 0.04
+      },
+      "marathonbet": {
+        "odd": 1.9,
+        "valor": -0.022
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": 0.004
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552493,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Sochaux - Boulogne",
+      "pressao": 31.4,
+      "prob_mais": 0.433,
+      "prob_mercado": 0.425,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.32,
+        "valor": 0.003
+      },
+      "marathonbet": {
+        "odd": 2.17,
+        "valor": -0.061
+      },
+      "bet365": {
+        "odd": 2.3,
+        "valor": -0.005
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575176,
+      "data": "2026-10-09T18:30:00+00:00",
+      "liga": "D1",
+      "jogo": "Borussia Dortmund - Werder Bremen",
+      "pressao": 33.5,
+      "prob_mais": 0.733,
+      "prob_mercado": 0.68,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.42,
+        "valor": 0.04
+      },
+      "marathonbet": {
+        "odd": 1.37,
+        "valor": 0.004
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": 0.026
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601544,
+      "data": "2026-10-09T18:30:00+00:00",
+      "liga": "I2",
+      "jogo": "Avellino - Sampdoria",
+      "pressao": 32.7,
+      "prob_mais": 0.495,
+      "prob_mercado": 0.477,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.08,
+        "valor": 0.03
+      },
+      "marathonbet": {
+        "odd": 1.89,
+        "valor": -0.064
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.01
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552775,
+      "data": "2026-10-09T18:45:00+00:00",
+      "liga": "F1",
+      "jogo": "Lens - Lyon",
+      "pressao": 39.7,
+      "prob_mais": 0.641,
+      "prob_mercado": 0.624,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.54,
+        "valor": -0.012
+      },
+      "marathonbet": {
+        "odd": 1.49,
+        "valor": -0.044
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.019
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1558644,
+      "data": "2026-10-09T18:45:00+00:00",
+      "liga": "B1",
+      "jogo": "SK Beveren - Lommel United",
+      "pressao": 35.4,
+      "prob_mais": 0.575,
+      "prob_mercado": 0.573,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.3,
+        "valor": -0.023
+      },
+      "marathonbet": {
+        "odd": 2.17,
+        "valor": -0.078
+      },
+      "bet365": {
+        "odd": 2.2,
+        "valor": -0.065
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563190,
+      "data": "2026-10-09T19:00:00+00:00",
+      "liga": "E1",
+      "jogo": "West Ham - QPR",
+      "pressao": 38.5,
+      "prob_mais": 0.632,
+      "prob_mercado": 0.62,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.57,
+        "valor": -0.008
+      },
+      "marathonbet": {
+        "odd": 1.48,
+        "valor": -0.065
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.033
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570408,
+      "data": "2026-10-09T19:00:00+00:00",
+      "liga": "SP1",
+      "jogo": "Malaga - Espanyol",
+      "pressao": 33.2,
+      "prob_mais": 0.455,
+      "prob_mercado": 0.458,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.84,
+        "valor": 0.003
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": -0.024
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.057
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575512,
+      "data": "2026-10-09T19:15:00+00:00",
+      "liga": "P1",
+      "jogo": "SC Braga - Sporting CP",
+      "pressao": 30.2,
+      "prob_mais": 0.543,
+      "prob_mercado": 0.511,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 1.99,
+        "valor": 0.081
+      },
+      "marathonbet": {
+        "odd": 1.81,
+        "valor": -0.017
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": 0.005
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1584426,
+      "data": "2026-10-10T10:30:00+00:00",
+      "liga": "T1",
+      "jogo": "Gençlerbirliği S.K. - Amed",
+      "pressao": 35.4,
+      "prob_mais": 0.545,
+      "prob_mercado": 0.54,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.8,
+        "valor": -0.02
+      },
+      "marathonbet": {
+        "odd": 1.74,
+        "valor": -0.052
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": -0.047
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1576190,
+      "data": "2026-10-10T11:00:00+00:00",
+      "liga": "D2",
+      "jogo": "SV Darmstadt 98 - Energie Cottbus",
+      "pressao": 42.2,
+      "prob_mais": 0.691,
+      "prob_mercado": 0.677,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.45,
+        "valor": 0.002
+      },
+      "marathonbet": {
+        "odd": 1.35,
+        "valor": -0.067
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.033
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1576193,
+      "data": "2026-10-10T11:00:00+00:00",
+      "liga": "D2",
+      "jogo": "1. FC Magdeburg - Hannover 96",
+      "pressao": 40.4,
+      "prob_mais": 0.705,
+      "prob_mercado": 0.69,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.4,
+        "valor": -0.013
+      },
+      "marathonbet": {
+        "odd": 1.34,
+        "valor": -0.056
+      },
+      "bet365": {
+        "odd": 1.36,
+        "valor": -0.041
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1576196,
+      "data": "2026-10-10T11:00:00+00:00",
+      "liga": "D2",
+      "jogo": "VfL Osnabrück - Dynamo Dresden",
+      "pressao": 39.6,
+      "prob_mais": 0.632,
+      "prob_mercado": 0.613,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.57,
+        "valor": -0.007
+      },
+      "marathonbet": {
+        "odd": 1.49,
+        "valor": -0.058
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.033
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557417,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E0",
+      "jogo": "Arsenal - Leeds",
+      "pressao": 33.3,
+      "prob_mais": 0.519,
+      "prob_mercado": 0.522,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 2.09,
+        "valor": 0.006
+      },
+      "marathonbet": {
+        "odd": 1.99,
+        "valor": -0.043
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.038
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563181,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E1",
+      "jogo": "Charlton - Bristol City",
+      "pressao": 37.6,
+      "prob_mais": 0.451,
+      "prob_mercado": 0.456,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.78,
+        "valor": -0.023
+      },
+      "marathonbet": {
+        "odd": 1.73,
+        "valor": -0.05
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.05
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563187,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E1",
+      "jogo": "Swansea - Norwich",
+      "pressao": 33.3,
+      "prob_mais": 0.552,
+      "prob_mercado": 0.551,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.75,
+        "valor": -0.033
+      },
+      "marathonbet": {
+        "odd": 1.7,
+        "valor": -0.061
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.044
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563189,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E1",
+      "jogo": "West Brom - Birmingham",
+      "pressao": 32.4,
+      "prob_mais": 0.474,
+      "prob_mercado": 0.481,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 1.9,
+        "valor": -0.001
+      },
+      "marathonbet": {
+        "odd": 1.78,
+        "valor": -0.064
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.054
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563796,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E3",
+      "jogo": "Oldham - Accrington ST",
+      "pressao": 35.3,
+      "prob_mais": 0.541,
+      "prob_mercado": 0.531,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.81,
+        "valor": -0.021
+      },
+      "marathonbet": {
+        "odd": 1.77,
+        "valor": -0.043
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": -0.053
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563800,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E3",
+      "jogo": "Swindon Town - Crewe",
+      "pressao": 38.9,
+      "prob_mais": 0.584,
+      "prob_mercado": 0.542,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.75,
+        "valor": 0.022
+      },
+      "marathonbet": {
+        "odd": 1.72,
+        "valor": 0.004
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": 0.022
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564350,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E2",
+      "jogo": "Notts County - Oxford United",
+      "pressao": 38.6,
+      "prob_mais": 0.522,
+      "prob_mercado": 0.488,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2,
+        "valor": 0.043
+      },
+      "marathonbet": {
+        "odd": 1.93,
+        "valor": 0.007
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": 0.017
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564351,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "E2",
+      "jogo": "Plymouth - AFC Wimbledon",
+      "pressao": 38.4,
+      "prob_mais": 0.615,
+      "prob_mercado": 0.572,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.67,
+        "valor": 0.028
+      },
+      "marathonbet": {
+        "odd": 1.64,
+        "valor": 0.009
+      },
+      "bet365": {
+        "odd": 1.65,
+        "valor": 0.015
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552486,
+      "data": "2026-10-10T12:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Clermont Foot - RED Star FC 93",
+      "pressao": 32.3,
+      "prob_mais": 0.501,
+      "prob_mercado": 0.487,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.98,
+        "valor": -0.008
+      },
+      "marathonbet": {
+        "odd": 1.95,
+        "valor": -0.023
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": -0.023
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552491,
+      "data": "2026-10-10T12:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Nantes - Reims",
+      "pressao": 32.3,
+      "prob_mais": 0.519,
+      "prob_mercado": 0.505,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.9,
+        "valor": -0.013
+      },
+      "marathonbet": {
+        "odd": 1.85,
+        "valor": -0.039
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": -0.013
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570410,
+      "data": "2026-10-10T12:00:00+00:00",
+      "liga": "SP1",
+      "jogo": "Rayo Vallecano - Athletic Club",
+      "pressao": 38.2,
+      "prob_mais": 0.526,
+      "prob_mercado": 0.499,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.97,
+        "valor": 0.036
+      },
+      "marathonbet": {
+        "odd": 1.91,
+        "valor": 0.005
+      },
+      "bet365": {
+        "odd": 1.91,
+        "valor": 0.005
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1550140,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "I1",
+      "jogo": "Genoa - Fiorentina",
+      "pressao": 34.6,
+      "prob_mais": 0.454,
+      "prob_mercado": 0.466,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.87,
+        "valor": 0.02
+      },
+      "marathonbet": {
+        "odd": 1.81,
+        "valor": -0.012
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.056
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1584421,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "T1",
+      "jogo": "Alanyaspor - Erzurumspor FK",
+      "pressao": 30.2,
+      "prob_mais": 0.378,
+      "prob_mercado": 0.423,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.66,
+        "valor": 0.033
+      },
+      "marathonbet": {
+        "odd": 1.6,
+        "valor": -0.005
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": 0.008
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1584429,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "T1",
+      "jogo": "Samsunspor - Trabzonspor",
+      "pressao": 37.7,
+      "prob_mais": 0.585,
+      "prob_mercado": 0.566,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.72,
+        "valor": 0.006
+      },
+      "marathonbet": {
+        "odd": 1.66,
+        "valor": -0.029
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": -0.023
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601545,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Benevento - Cesena",
+      "pressao": 39.5,
+      "prob_mais": 0.489,
+      "prob_mercado": 0.524,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.05,
+        "valor": 0.047
+      },
+      "marathonbet": {
+        "odd": 1.98,
+        "valor": 0.011
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": -0.004
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601547,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Empoli - Palermo",
+      "pressao": 38,
+      "prob_mais": 0.515,
+      "prob_mercado": 0.538,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Marathonbet",
+        "odd": 2.11,
+        "valor": 0.024
+      },
+      "marathonbet": {
+        "odd": 2.11,
+        "valor": 0.024
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.029
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601548,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Virtus Entella - Juve Stabia",
+      "pressao": 32.2,
+      "prob_mais": 0.475,
+      "prob_mercado": 0.453,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.16,
+        "valor": 0.027
+      },
+      "marathonbet": {
+        "odd": 2.04,
+        "valor": -0.03
+      },
+      "bet365": {
+        "odd": 2.1,
+        "valor": -0.002
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601552,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Sudtirol - Ascoli",
+      "pressao": 31.5,
+      "prob_mais": 0.507,
+      "prob_mercado": 0.48,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.03,
+        "valor": 0.028
+      },
+      "marathonbet": {
+        "odd": 1.91,
+        "valor": -0.032
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": 0.013
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575178,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "D1",
+      "jogo": "1899 Hoffenheim - Hamburger SV",
+      "pressao": 39.2,
+      "prob_mais": 0.696,
+      "prob_mercado": 0.673,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.42,
+        "valor": -0.011
+      },
+      "marathonbet": {
+        "odd": 1.39,
+        "valor": -0.032
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.025
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575180,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "D1",
+      "jogo": "FC Augsburg - Bayern München",
+      "pressao": 39.9,
+      "prob_mais": 0.881,
+      "prob_mercado": 0.83,
+      "casas": 6,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.17,
+        "valor": 0.03
+      },
+      "marathonbet": {
+        "odd": 1.09,
+        "valor": -0.04
+      },
+      "bet365": {
+        "odd": 1.14,
+        "valor": 0.004
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575181,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "D1",
+      "jogo": "FSV Mainz 05 - Bayer Leverkusen",
+      "pressao": 40.3,
+      "prob_mais": 0.666,
+      "prob_mercado": 0.655,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.47,
+        "valor": -0.02
+      },
+      "marathonbet": {
+        "odd": 1.41,
+        "valor": -0.06
+      },
+      "bet365": {
+        "odd": 1.44,
+        "valor": -0.04
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575184,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "D1",
+      "jogo": "SC Paderborn 07 - VfB Stuttgart",
+      "pressao": 41.8,
+      "prob_mais": 0.706,
+      "prob_mercado": 0.69,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.39,
+        "valor": -0.019
+      },
+      "marathonbet": {
+        "odd": 1.34,
+        "valor": -0.054
+      },
+      "bet365": {
+        "odd": 1.36,
+        "valor": -0.04
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556671,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC0",
+      "jogo": "Dundee Utd - Hibernian",
+      "pressao": 41.7,
+      "prob_mais": 0.599,
+      "prob_mercado": 0.575,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.67,
+        "valor": 0.001
+      },
+      "marathonbet": {
+        "odd": 1.62,
+        "valor": -0.029
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": 0.001
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556672,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC0",
+      "jogo": "Falkirk - Dundee",
+      "pressao": 36,
+      "prob_mais": 0.555,
+      "prob_mercado": 0.542,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 1.76,
+        "valor": -0.024
+      },
+      "marathonbet": {
+        "odd": 1.73,
+        "valor": -0.04
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.04
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556673,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC0",
+      "jogo": "Heart Of Midlothian - ST Mirren",
+      "pressao": 34.7,
+      "prob_mais": 0.643,
+      "prob_mercado": 0.626,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.53,
+        "valor": -0.016
+      },
+      "marathonbet": {
+        "odd": 1.45,
+        "valor": -0.068
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.016
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556675,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC0",
+      "jogo": "Rangers - Kilmarnock",
+      "pressao": 39.3,
+      "prob_mais": 0.739,
+      "prob_mercado": 0.711,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.37,
+        "valor": 0.013
+      },
+      "marathonbet": {
+        "odd": 1.28,
+        "valor": -0.054
+      },
+      "bet365": {
+        "odd": 1.3,
+        "valor": -0.039
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556871,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC1",
+      "jogo": "Arbroath - Morton",
+      "pressao": 27.1,
+      "prob_mais": 0.431,
+      "prob_mercado": 0.45,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.73,
+        "valor": -0.015
+      },
+      "marathonbet": {
+        "odd": 1.67,
+        "valor": -0.049
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.032
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556872,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC1",
+      "jogo": "Ayr Utd - Dunfermline",
+      "pressao": 25.5,
+      "prob_mais": 0.421,
+      "prob_mercado": 0.47,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.8,
+        "valor": 0.041
+      },
+      "marathonbet": {
+        "odd": 1.73,
+        "valor": 0.001
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": 0.041
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556874,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC1",
+      "jogo": "Livingston - Partick",
+      "pressao": 29.2,
+      "prob_mais": 0.517,
+      "prob_mercado": 0.523,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.02,
+        "valor": -0.025
+      },
+      "marathonbet": {
+        "odd": 1.9,
+        "valor": -0.083
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.035
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1556875,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC1",
+      "jogo": "Raith Rovers - Queen's Park",
+      "pressao": 26.4,
+      "prob_mais": 0.451,
+      "prob_mercado": 0.492,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.9,
+        "valor": 0.042
+      },
+      "marathonbet": {
+        "odd": 1.79,
+        "valor": -0.018
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": 0.042
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557051,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC2",
+      "jogo": "Alloa Athletic - Hamilton Academical",
+      "pressao": 30.1,
+      "prob_mais": 0.537,
+      "prob_mercado": 0.527,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.81,
+        "valor": -0.028
+      },
+      "marathonbet": {
+        "odd": 1.75,
+        "valor": -0.061
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.034
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557052,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC2",
+      "jogo": "Cove Rangers - East Fife",
+      "pressao": 25.6,
+      "prob_mais": 0.489,
+      "prob_mercado": 0.491,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": -0.045
+      },
+      "marathonbet": {
+        "odd": 1.81,
+        "valor": -0.075
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": -0.055
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557055,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC2",
+      "jogo": "Peterhead - Queen of the South",
+      "pressao": 28.5,
+      "prob_mais": 0.599,
+      "prob_mercado": 0.588,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.62,
+        "valor": -0.03
+      },
+      "marathonbet": {
+        "odd": 1.57,
+        "valor": -0.06
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": -0.03
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557418,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E0",
+      "jogo": "Aston Villa - Brentford",
+      "pressao": 36.9,
+      "prob_mais": 0.57,
+      "prob_mercado": 0.56,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.76,
+        "valor": 0.003
+      },
+      "marathonbet": {
+        "odd": 1.71,
+        "valor": -0.025
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.014
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557419,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E0",
+      "jogo": "Chelsea - Bournemouth",
+      "pressao": 38.1,
+      "prob_mais": 0.64,
+      "prob_mercado": 0.636,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.52,
+        "valor": -0.027
+      },
+      "marathonbet": {
+        "odd": 1.44,
+        "valor": -0.078
+      },
+      "bet365": {
+        "odd": 1.5,
+        "valor": -0.039
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557423,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E0",
+      "jogo": "Ipswich - Fulham",
+      "pressao": 37.7,
+      "prob_mais": 0.56,
+      "prob_mercado": 0.544,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.81,
+        "valor": 0.014
+      },
+      "marathonbet": {
+        "odd": 1.76,
+        "valor": -0.014
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.031
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557426,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E0",
+      "jogo": "Sunderland - Brighton",
+      "pressao": 35.2,
+      "prob_mais": 0.534,
+      "prob_mercado": 0.528,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.87,
+        "valor": -0.002
+      },
+      "marathonbet": {
+        "odd": 1.81,
+        "valor": -0.034
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.04
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557794,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC3",
+      "jogo": "Annan Athletic - Stranraer",
+      "pressao": 32,
+      "prob_mais": 0.559,
+      "prob_mercado": 0.555,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.72,
+        "valor": -0.039
+      },
+      "marathonbet": {
+        "odd": 1.66,
+        "valor": -0.073
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.05
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557795,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC3",
+      "jogo": "Clyde - Dumbarton",
+      "pressao": 32.1,
+      "prob_mais": 0.602,
+      "prob_mercado": 0.65,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.88,
+        "valor": 0.148
+      },
+      "marathonbet": {
+        "odd": 2.52,
+        "valor": 0.004
+      },
+      "bet365": {
+        "odd": 2.62,
+        "valor": 0.044
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557796,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC3",
+      "jogo": "Edinburgh City - Spartans",
+      "pressao": 28.9,
+      "prob_mais": 0.523,
+      "prob_mercado": 0.559,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.2,
+        "valor": 0.05
+      },
+      "marathonbet": {
+        "odd": 2.06,
+        "valor": -0.017
+      },
+      "bet365": {
+        "odd": 2.15,
+        "valor": 0.026
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557797,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC3",
+      "jogo": "Forfar Athletic - Elgin City",
+      "pressao": 27.8,
+      "prob_mais": 0.501,
+      "prob_mercado": 0.541,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 2.1,
+        "valor": 0.047
+      },
+      "marathonbet": {
+        "odd": 1.98,
+        "valor": -0.013
+      },
+      "bet365": {
+        "odd": 2.1,
+        "valor": 0.047
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557798,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "SC3",
+      "jogo": "Stirling Albion - Kelty Hearts",
+      "pressao": 32.7,
+      "prob_mais": 0.577,
+      "prob_mercado": 0.58,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.3,
+        "valor": -0.028
+      },
+      "marathonbet": {
+        "odd": 2.17,
+        "valor": -0.083
+      },
+      "bet365": {
+        "odd": 2.25,
+        "valor": -0.049
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1558645,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "B1",
+      "jogo": "Cercle Brugge - Anderlecht",
+      "pressao": 41,
+      "prob_mais": 0.559,
+      "prob_mercado": 0.572,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.29,
+        "valor": 0.011
+      },
+      "marathonbet": {
+        "odd": 2.17,
+        "valor": -0.042
+      },
+      "bet365": {
+        "odd": 2.2,
+        "valor": -0.029
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563179,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Blackburn - Cardiff",
+      "pressao": 37.7,
+      "prob_mais": 0.593,
+      "prob_mercado": 0.585,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.65,
+        "valor": -0.021
+      },
+      "marathonbet": {
+        "odd": 1.61,
+        "valor": -0.045
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": -0.039
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563180,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Bolton - Stoke City",
+      "pressao": 34.6,
+      "prob_mais": 0.506,
+      "prob_mercado": 0.508,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 1.98,
+        "valor": -0.021
+      },
+      "marathonbet": {
+        "odd": 1.89,
+        "valor": -0.066
+      },
+      "bet365": {
+        "odd": 1.91,
+        "valor": -0.056
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563182,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Derby - Wrexham",
+      "pressao": 33.8,
+      "prob_mais": 0.468,
+      "prob_mercado": 0.474,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": -0.005
+      },
+      "marathonbet": {
+        "odd": 1.76,
+        "valor": -0.063
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.042
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563183,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Middlesbrough - Wolves",
+      "pressao": 38.1,
+      "prob_mais": 0.594,
+      "prob_mercado": 0.586,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.67,
+        "valor": -0.008
+      },
+      "marathonbet": {
+        "odd": 1.58,
+        "valor": -0.061
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": -0.037
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563184,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Preston - Millwall",
+      "pressao": 41.7,
+      "prob_mais": 0.522,
+      "prob_mercado": 0.517,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": -0.025
+      },
+      "marathonbet": {
+        "odd": 1.82,
+        "valor": -0.051
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.061
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563185,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Sheffield Utd - Lincoln",
+      "pressao": 37.6,
+      "prob_mais": 0.475,
+      "prob_mercado": 0.478,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": -0.019
+      },
+      "marathonbet": {
+        "odd": 1.8,
+        "valor": -0.056
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.056
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563188,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Watford - Burnley",
+      "pressao": 34.3,
+      "prob_mais": 0.53,
+      "prob_mercado": 0.53,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 2.08,
+        "valor": -0.022
+      },
+      "marathonbet": {
+        "odd": 1.98,
+        "valor": -0.069
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.059
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563791,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Bristol Rovers - Barnet",
+      "pressao": 35,
+      "prob_mais": 0.566,
+      "prob_mercado": 0.557,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.7,
+        "valor": -0.038
+      },
+      "marathonbet": {
+        "odd": 1.67,
+        "valor": -0.055
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.038
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563792,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Cheltenham - Salford City",
+      "pressao": 36.9,
+      "prob_mais": 0.584,
+      "prob_mercado": 0.558,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.7,
+        "valor": -0.008
+      },
+      "marathonbet": {
+        "odd": 1.66,
+        "valor": -0.031
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.008
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563793,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Crawley Town - Chesterfield",
+      "pressao": 38.9,
+      "prob_mais": 0.65,
+      "prob_mercado": 0.608,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.57,
+        "valor": 0.021
+      },
+      "marathonbet": {
+        "odd": 1.49,
+        "valor": -0.031
+      },
+      "bet365": {
+        "odd": 1.57,
+        "valor": 0.021
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563794,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Fleetwood Town - Walsall",
+      "pressao": 38.4,
+      "prob_mais": 0.552,
+      "prob_mercado": 0.515,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.85,
+        "valor": 0.022
+      },
+      "marathonbet": {
+        "odd": 1.8,
+        "valor": -0.006
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": 0.022
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563795,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Newport County - Colchester",
+      "pressao": 35.7,
+      "prob_mais": 0.537,
+      "prob_mercado": 0.523,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.85,
+        "valor": -0.007
+      },
+      "marathonbet": {
+        "odd": 1.76,
+        "valor": -0.056
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": -0.007
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563797,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Port Vale - Grimsby",
+      "pressao": 33.7,
+      "prob_mais": 0.474,
+      "prob_mercado": 0.48,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.85,
+        "valor": -0.028
+      },
+      "marathonbet": {
+        "odd": 1.76,
+        "valor": -0.075
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": -0.028
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563798,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Rotherham - Gillingham",
+      "pressao": 31.5,
+      "prob_mais": 0.466,
+      "prob_mercado": 0.491,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 1.87,
+        "valor": -0.002
+      },
+      "marathonbet": {
+        "odd": 1.84,
+        "valor": -0.018
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": -0.012
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563799,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Shrewsbury - Exeter City",
+      "pressao": 31.5,
+      "prob_mais": 0.411,
+      "prob_mercado": 0.438,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.72,
+        "valor": 0.014
+      },
+      "marathonbet": {
+        "odd": 1.65,
+        "valor": -0.027
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": -0.016
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563801,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "Tranmere - Rochdale",
+      "pressao": 34.7,
+      "prob_mais": 0.499,
+      "prob_mercado": 0.495,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.95,
+        "valor": -0.028
+      },
+      "marathonbet": {
+        "odd": 1.86,
+        "valor": -0.073
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": -0.028
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563802,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E3",
+      "jogo": "York - Northampton",
+      "pressao": 33.1,
+      "prob_mais": 0.508,
+      "prob_mercado": 0.518,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 2,
+        "valor": -0.016
+      },
+      "marathonbet": {
+        "odd": 1.93,
+        "valor": -0.051
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.016
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564343,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Bradford - Leyton Orient",
+      "pressao": 33.9,
+      "prob_mais": 0.507,
+      "prob_mercado": 0.503,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 1.94,
+        "valor": -0.017
+      },
+      "marathonbet": {
+        "odd": 1.84,
+        "valor": -0.067
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": -0.037
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564344,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Cambridge United - Blackpool",
+      "pressao": 36.5,
+      "prob_mais": 0.586,
+      "prob_mercado": 0.556,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.72,
+        "valor": 0.008
+      },
+      "marathonbet": {
+        "odd": 1.67,
+        "valor": -0.022
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.004
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564345,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Doncaster - Burton Albion",
+      "pressao": 32.5,
+      "prob_mais": 0.531,
+      "prob_mercado": 0.531,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.1,
+        "valor": -0.014
+      },
+      "marathonbet": {
+        "odd": 2.02,
+        "valor": -0.052
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.061
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564346,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Huddersfield - Sheffield Wednesday",
+      "pressao": 35,
+      "prob_mais": 0.617,
+      "prob_mercado": 0.592,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.62,
+        "valor": -0.001
+      },
+      "marathonbet": {
+        "odd": 1.59,
+        "valor": -0.02
+      },
+      "bet365": {
+        "odd": 1.6,
+        "valor": -0.014
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564347,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Leicester - Peterborough",
+      "pressao": 38.8,
+      "prob_mais": 0.722,
+      "prob_mercado": 0.668,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.44,
+        "valor": 0.039
+      },
+      "marathonbet": {
+        "odd": 1.35,
+        "valor": -0.026
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": 0.01
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564348,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Mansfield Town - Bromley",
+      "pressao": 34.6,
+      "prob_mais": 0.576,
+      "prob_mercado": 0.558,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.71,
+        "valor": -0.016
+      },
+      "marathonbet": {
+        "odd": 1.68,
+        "valor": -0.033
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.022
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564349,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Milton Keynes Dons - Reading",
+      "pressao": 36.8,
+      "prob_mais": 0.597,
+      "prob_mercado": 0.564,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.67,
+        "valor": -0.004
+      },
+      "marathonbet": {
+        "odd": 1.65,
+        "valor": -0.016
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": -0.004
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564352,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Stevenage - Wigan",
+      "pressao": 28.8,
+      "prob_mais": 0.394,
+      "prob_mercado": 0.434,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.67,
+        "valor": 0.012
+      },
+      "marathonbet": {
+        "odd": 1.64,
+        "valor": -0.007
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": 0.012
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564353,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Stockport County - Barnsley",
+      "pressao": 38.7,
+      "prob_mais": 0.719,
+      "prob_mercado": 0.666,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.42,
+        "valor": 0.021
+      },
+      "marathonbet": {
+        "odd": 1.37,
+        "valor": -0.015
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": 0.007
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564354,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "E2",
+      "jogo": "Wycombe - Luton",
+      "pressao": 38.3,
+      "prob_mais": 0.613,
+      "prob_mercado": 0.57,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.7,
+        "valor": 0.041
+      },
+      "marathonbet": {
+        "odd": 1.62,
+        "valor": -0.008
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": 0.041
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569964,
+      "data": "2026-10-10T14:15:00+00:00",
+      "liga": "SP2",
+      "jogo": "AD Ceuta FC - Sabadell",
+      "pressao": 30.7,
+      "prob_mais": 0.483,
+      "prob_mercado": 0.469,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.11,
+        "valor": 0.019
+      },
+      "marathonbet": {
+        "odd": 1.97,
+        "valor": -0.048
+      },
+      "bet365": {
+        "odd": 2.08,
+        "valor": 0.005
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570403,
+      "data": "2026-10-10T14:15:00+00:00",
+      "liga": "SP1",
+      "jogo": "Alaves - Atletico Madrid",
+      "pressao": 36,
+      "prob_mais": 0.531,
+      "prob_mercado": 0.52,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.91,
+        "valor": 0.013
+      },
+      "marathonbet": {
+        "odd": 1.84,
+        "valor": -0.024
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.045
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552182,
+      "data": "2026-10-10T14:30:00+00:00",
+      "liga": "N1",
+      "jogo": "GO Ahead Eagles - Sparta Rotterdam",
+      "pressao": 46.1,
+      "prob_mais": 0.689,
+      "prob_mercado": 0.677,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.45,
+        "valor": 0
+      },
+      "marathonbet": {
+        "odd": 1.35,
+        "valor": -0.069
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.035
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575513,
+      "data": "2026-10-10T14:30:00+00:00",
+      "liga": "P1",
+      "jogo": "Casa Pia - Santa Clara",
+      "pressao": 30.6,
+      "prob_mais": 0.408,
+      "prob_mercado": 0.405,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 2.42,
+        "valor": -0.013
+      },
+      "marathonbet": {
+        "odd": 2.33,
+        "valor": -0.05
+      },
+      "bet365": {
+        "odd": 2.3,
+        "valor": -0.062
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552776,
+      "data": "2026-10-10T15:15:00+00:00",
+      "liga": "F1",
+      "jogo": "Lille - Le Havre",
+      "pressao": 32.7,
+      "prob_mais": 0.593,
+      "prob_mercado": 0.581,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.72,
+        "valor": 0.021
+      },
+      "marathonbet": {
+        "odd": 1.67,
+        "valor": -0.009
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": -0.039
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601549,
+      "data": "2026-10-10T15:15:00+00:00",
+      "liga": "I2",
+      "jogo": "Vicenza Virtus - Pisa",
+      "pressao": 34.1,
+      "prob_mais": 0.543,
+      "prob_mercado": 0.538,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.8,
+        "valor": -0.023
+      },
+      "marathonbet": {
+        "odd": 1.69,
+        "valor": -0.082
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.023
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1550141,
+      "data": "2026-10-10T16:00:00+00:00",
+      "liga": "I1",
+      "jogo": "Inter - Parma",
+      "pressao": 38.1,
+      "prob_mais": 0.666,
+      "prob_mercado": 0.699,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 3.26,
+        "valor": 0.09
+      },
+      "marathonbet": {
+        "odd": 3,
+        "valor": 0.003
+      },
+      "bet365": {
+        "odd": 3.2,
+        "valor": 0.07
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1584428,
+      "data": "2026-10-10T16:00:00+00:00",
+      "liga": "T1",
+      "jogo": "Rizespor - Fenerbahçe",
+      "pressao": 41.8,
+      "prob_mais": 0.599,
+      "prob_mercado": 0.569,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.7,
+        "valor": 0.019
+      },
+      "marathonbet": {
+        "odd": 1.63,
+        "valor": -0.023
+      },
+      "bet365": {
+        "odd": 1.67,
+        "valor": 0.001
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1558648,
+      "data": "2026-10-10T16:15:00+00:00",
+      "liga": "B1",
+      "jogo": "RAAL La Louvière - Club Brugge KV",
+      "pressao": 40,
+      "prob_mais": 0.665,
+      "prob_mercado": 0.637,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.52,
+        "valor": 0.011
+      },
+      "marathonbet": {
+        "odd": 1.44,
+        "valor": -0.043
+      },
+      "bet365": {
+        "odd": 1.48,
+        "valor": -0.016
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1557425,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "E0",
+      "jogo": "Manchester United - Tottenham",
+      "pressao": 39.7,
+      "prob_mais": 0.644,
+      "prob_mercado": 0.631,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.53,
+        "valor": -0.015
+      },
+      "marathonbet": {
+        "odd": 1.45,
+        "valor": -0.066
+      },
+      "bet365": {
+        "odd": 1.53,
+        "valor": -0.015
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569965,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Eldense - Cordoba",
+      "pressao": 40.1,
+      "prob_mais": 0.677,
+      "prob_mercado": 0.597,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.67,
+        "valor": 0.131
+      },
+      "marathonbet": {
+        "odd": 1.48,
+        "valor": 0.002
+      },
+      "bet365": {
+        "odd": 1.6,
+        "valor": 0.083
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570404,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "SP1",
+      "jogo": "Barcelona - Getafe",
+      "pressao": 33.7,
+      "prob_mais": 0.716,
+      "prob_mercado": 0.734,
+      "casas": 6,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 3.8,
+        "valor": 0.079
+      },
+      "marathonbet": {
+        "odd": 3.48,
+        "valor": -0.012
+      },
+      "bet365": {
+        "odd": 3.5,
+        "valor": -0.007
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575177,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "D1",
+      "jogo": "RB Leipzig - Eintracht Frankfurt",
+      "pressao": 38.8,
+      "prob_mais": 0.774,
+      "prob_mercado": 0.732,
+      "casas": 6,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.31,
+        "valor": 0.014
+      },
+      "marathonbet": {
+        "odd": 1.26,
+        "valor": -0.025
+      },
+      "bet365": {
+        "odd": 1.3,
+        "valor": 0.006
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1593324,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "G1",
+      "jogo": "AEK Athens FC - OFI",
+      "pressao": 35.4,
+      "prob_mais": 0.692,
+      "prob_mercado": 0.624,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.52,
+        "valor": 0.052
+      },
+      "marathonbet": {
+        "odd": 1.46,
+        "valor": 0.011
+      },
+      "bet365": {
+        "odd": 1.5,
+        "valor": 0.038
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1593326,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "G1",
+      "jogo": "Asteras Tripolis - Atromitos",
+      "pressao": 32.1,
+      "prob_mais": 0.457,
+      "prob_mercado": 0.415,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betfair",
+        "odd": 2.38,
+        "valor": 0.088
+      },
+      "marathonbet": {
+        "odd": 2.25,
+        "valor": 0.028
+      },
+      "bet365": {
+        "odd": 2.25,
+        "valor": 0.028
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552181,
+      "data": "2026-10-10T16:45:00+00:00",
+      "liga": "N1",
+      "jogo": "Feyenoord - AZ Alkmaar",
+      "pressao": 38.6,
+      "prob_mais": 0.682,
+      "prob_mercado": 0.668,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.44,
+        "valor": -0.018
+      },
+      "marathonbet": {
+        "odd": 1.37,
+        "valor": -0.066
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.045
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575515,
+      "data": "2026-10-10T17:00:00+00:00",
+      "liga": "P1",
+      "jogo": "Maritimo - FC Porto",
+      "pressao": 35.7,
+      "prob_mais": 0.527,
+      "prob_mercado": 0.517,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.95,
+        "valor": 0.027
+      },
+      "marathonbet": {
+        "odd": 1.82,
+        "valor": -0.041
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": -0.078
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552184,
+      "data": "2026-10-10T18:00:00+00:00",
+      "liga": "N1",
+      "jogo": "Fortuna Sittard - Twente",
+      "pressao": 39.4,
+      "prob_mais": 0.706,
+      "prob_mercado": 0.689,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.4,
+        "valor": -0.012
+      },
+      "marathonbet": {
+        "odd": 1.33,
+        "valor": -0.062
+      },
+      "bet365": {
+        "odd": 1.36,
+        "valor": -0.04
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552494,
+      "data": "2026-10-10T18:00:00+00:00",
+      "liga": "F2",
+      "jogo": "Saint Etienne - Rodez",
+      "pressao": 36.6,
+      "prob_mais": 0.695,
+      "prob_mercado": 0.658,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.47,
+        "valor": 0.022
+      },
+      "marathonbet": {
+        "odd": 1.38,
+        "valor": -0.04
+      },
+      "bet365": {
+        "odd": 1.44,
+        "valor": 0.001
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1576194,
+      "data": "2026-10-10T18:30:00+00:00",
+      "liga": "D2",
+      "jogo": "1. FC Nürnberg - VfL Wolfsburg",
+      "pressao": 39.1,
+      "prob_mais": 0.694,
+      "prob_mercado": 0.677,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.41,
+        "valor": -0.021
+      },
+      "marathonbet": {
+        "odd": 1.35,
+        "valor": -0.063
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.028
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1550144,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "I1",
+      "jogo": "Napoli - Frosinone",
+      "pressao": 40.1,
+      "prob_mais": 0.585,
+      "prob_mercado": 0.636,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.72,
+        "valor": 0.128
+      },
+      "marathonbet": {
+        "odd": 2.5,
+        "valor": 0.037
+      },
+      "bet365": {
+        "odd": 2.62,
+        "valor": 0.087
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552774,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "F1",
+      "jogo": "Stade Brestois 29 - Angers",
+      "pressao": 36.8,
+      "prob_mais": 0.559,
+      "prob_mercado": 0.545,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.83,
+        "valor": 0.022
+      },
+      "marathonbet": {
+        "odd": 1.77,
+        "valor": -0.011
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.034
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552777,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "F1",
+      "jogo": "Lorient - Paris FC",
+      "pressao": 30.3,
+      "prob_mais": 0.501,
+      "prob_mercado": 0.493,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 2.02,
+        "valor": 0.011
+      },
+      "marathonbet": {
+        "odd": 1.96,
+        "valor": -0.019
+      },
+      "bet365": {
+        "odd": 1.91,
+        "valor": -0.044
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552778,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "F1",
+      "jogo": "Monaco - Toulouse",
+      "pressao": 35.6,
+      "prob_mais": 0.615,
+      "prob_mercado": 0.601,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.65,
+        "valor": 0.015
+      },
+      "marathonbet": {
+        "odd": 1.6,
+        "valor": -0.016
+      },
+      "bet365": {
+        "odd": 1.57,
+        "valor": -0.034
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552780,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "F1",
+      "jogo": "Paris Saint Germain - Le Mans",
+      "pressao": 37.1,
+      "prob_mais": 0.797,
+      "prob_mercado": 0.781,
+      "casas": 6,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.23,
+        "valor": -0.02
+      },
+      "marathonbet": {
+        "odd": 1.18,
+        "valor": -0.06
+      },
+      "bet365": {
+        "odd": 1.22,
+        "valor": -0.028
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1558646,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "B1",
+      "jogo": "Genk - Kortrijk",
+      "pressao": 36.2,
+      "prob_mais": 0.624,
+      "prob_mercado": 0.605,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.6,
+        "valor": -0.002
+      },
+      "marathonbet": {
+        "odd": 1.51,
+        "valor": -0.058
+      },
+      "bet365": {
+        "odd": 1.57,
+        "valor": -0.021
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1558651,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "B1",
+      "jogo": "Zulte Waregem - Gent",
+      "pressao": 33.8,
+      "prob_mais": 0.45,
+      "prob_mercado": 0.494,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.93,
+        "valor": 0.061
+      },
+      "marathonbet": {
+        "odd": 1.86,
+        "valor": 0.022
+      },
+      "bet365": {
+        "odd": 1.85,
+        "valor": 0.017
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1552183,
+      "data": "2026-10-10T19:00:00+00:00",
+      "liga": "N1",
+      "jogo": "Ajax - NEC Nijmegen",
+      "pressao": 39.2,
+      "prob_mais": 0.746,
+      "prob_mercado": 0.725,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.33,
+        "valor": -0.008
+      },
+      "marathonbet": {
+        "odd": 1.26,
+        "valor": -0.06
+      },
+      "bet365": {
+        "odd": 1.3,
+        "valor": -0.031
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1569963,
+      "data": "2026-10-10T19:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Celta de Vigo II - Real Sociedad II",
+      "pressao": 37,
+      "prob_mais": 0.608,
+      "prob_mercado": 0.548,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.78,
+        "valor": 0.081
+      },
+      "marathonbet": {
+        "odd": 1.68,
+        "valor": 0.021
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": 0.063
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570411,
+      "data": "2026-10-10T19:00:00+00:00",
+      "liga": "SP1",
+      "jogo": "Real Madrid - Villarreal",
+      "pressao": 40.2,
+      "prob_mais": 0.754,
+      "prob_mercado": 0.737,
+      "casas": 6,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.3,
+        "valor": -0.019
+      },
+      "marathonbet": {
+        "odd": 1.25,
+        "valor": -0.057
+      },
+      "bet365": {
+        "odd": 1.28,
+        "valor": -0.034
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1575509,
+      "data": "2026-10-10T19:30:00+00:00",
+      "liga": "P1",
+      "jogo": "Academico Viseu - Estoril",
+      "pressao": 33.5,
+      "prob_mais": 0.514,
+      "prob_mercado": 0.499,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "1xBet",
+        "odd": 1.94,
+        "valor": -0.004
+      },
+      "marathonbet": {
+        "odd": 1.87,
+        "valor": -0.04
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": -0.024
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

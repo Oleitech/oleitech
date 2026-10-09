@@ -1,0 +1,166 @@
+{
+  "gerado": "2026-10-09T06:05:41.660Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1575516,
+      "data": "2026-10-09T17:45:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Moreirense - GIL Vicente",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": -0.766,
+      "def": 0.674,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.2,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.42,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552180,
+      "data": "2026-10-09T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "PSV Eindhoven - Heerenveen",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 1.19,
+      "def": -0.095,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.15,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1575176,
+      "data": "2026-10-09T18:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Borussia Dortmund - Werder Bremen",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": 0.444,
+      "def": 0.861,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.09,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.22,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552775,
+      "data": "2026-10-09T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lens - Lyon",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.956,
+      "def": -0.311,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.37,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.73,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1570408,
+      "data": "2026-10-09T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Malaga - Espanyol",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -1.186,
+      "def": 1.087,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.14,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.31,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1575512,
+      "data": "2026-10-09T19:15:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "SC Braga - Sporting CP",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": 0.853,
+      "def": -0.088,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.55,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.95,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    }
+  ]
+}

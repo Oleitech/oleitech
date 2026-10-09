@@ -17,17 +17,25 @@
         "baliza_7_5": {
           "casa": "mediana de 1",
           "odd": 1.39,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.39
         },
         "baliza_8_5": {
           "casa": "mediana de 1",
           "odd": 1.7,
-          "preferida": false
+          "preferida": false,
+          "ganhou": true,
+          "retorno": 0.7
         }
       },
       "historico": {
         "baliza_7_5": 0.731,
         "baliza_8_5": 0.565
+      },
+      "real": {
+        "baliza": 10,
+        "cantos": 10
       }
     },
     {

@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T06:19:59.035Z",
+  "units": "stakes",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1563190,
+          "match": "West Ham vs QPR",
+          "league": "Championship (Inglaterra)",
+          "pick": "Vitória West Ham",
+          "odds": 1.48,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T19:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1494774,
+          "match": "Brann vs Viking",
+          "league": "Eliteserien (Noruega)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.4,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T17:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1551828,
+          "match": "De Graafschap vs Jong Utrecht",
+          "league": "Eerste Divisie (Países Baixos)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T18:00:00Z",
+          "score": 65
+        }
+      ],
+      "combined_odds": 2.82,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1559171,
+          "match": "Dender vs Club Brugge II",
+          "league": "Challenger Pro League (Bélgica)",
+          "pick": "Vitória Dender",
+          "odds": 1.42,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T18:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1551827,
+          "match": "Almere City FC vs FC Eindhoven",
+          "league": "Eerste Divisie (Países Baixos)",
+          "pick": "Vitória Almere City",
+          "odds": 1.38,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T18:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1575516,
+          "match": "Moreirense vs GIL Vicente",
+          "league": "Liga Portugal",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "bookmaker": "Bet365",
+          "kickoff": "2026-10-09T17:45:00Z",
+          "score": 65
+        }
+      ],
+      "combined_odds": 2.67,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1575176,
+          "match": "Borussia Dortmund vs Werder Bremen",
+          "league": "Bundesliga",
+          "pick": "Dortmund vence e Mais de 1.5 golos",
+          "odds": 1.43,
+          "bookmaker": "Marathonbet",
+          "kickoff": "2026-10-09T18:30:00Z",
+          "score": 72
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1560040,
+          "match": "Zlin vs Slavia Praha",
+          "league": "Liga Checa",
+          "pick": "Slavia Praga vence e Mais de 1.5 golos",
+          "odds": 1.43,
+          "bookmaker": "Marathonbet",
+          "kickoff": "2026-10-09T16:00:00Z",
+          "score": 70
+        }
+      ],
+      "combined_odds": 2.04,
+      "score": 70,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna da banda 1.40-1.60 chegou a 75 com investigação completa: Dortmund vence e menos de 5.5 golos a 1.54 na Marathonbet (76). As outras ficaram abaixo por falta de valor contra a Pinnacle e os modelos: Dortmund vence e mais de 1.5 (1.43, o 1-0 é o resultado mais provável), Slavia vence e mais de 1.5 (1.43), West Ham (1.48 contra 1.57 justo), Lyon não perde em Lens (1.57 a 1.62 contra 1.70 justo), ambas marcam no Brann-Viking (1.40, preço justo). Dender e Almere só tiveram o filtro dos curtos. Sem duas pernas a 75, não há duplo."
+  },
+  "notes": "Sexta-feira de regresso dos campeonatos depois da paragem das selecções: Braga-Sporting, Dortmund-Werder, Lens-Lyon, PSV-Heerenveen e Málaga-Espanyol abrem a jornada.\n\nNão sai tip individual. Nos jogos grandes os preços estão certinhos: o ambas marcam no Braga-Sporting a 1.70 é o que o jogo vale (o Braga ainda não sofreu em casa esta época), o Sporting a 2.10 paga menos do que a Pinnacle e o Lyon a não perder em Lens também não tem valor. Não se força boletim.\n\nSaem dois curtos a meia stake. O primeiro, a 2.82: vitória do West Ham sobre um QPR que só ganhou um dos últimos cinco, e ambas marcam no Brann-Viking e no De Graafschap-Jong Utrecht. O segundo, a 2.67: vitória do Dender, que vem de cinco vitórias seguidas, contra a equipa B do Brugge, vitória do Almere e mais de 1.5 golos no Moreirense-Gil Vicente.\n\nO corvo vai a 2.04, também a meia stake: o Dortmund ganha com pelo menos dois golos no jogo, contra um Werder cheio de baixas, e o Slavia faz o mesmo em Zlín, frente ao último da liga, que ainda não ganhou. O Shakhtar ficou de fora porque as baixas não se confirmam em duas fontes e pode poupar gente para a Europa.\n\nExposição do dia: uma stake e meia."
+}
