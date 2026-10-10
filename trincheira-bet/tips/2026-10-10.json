@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T06:32:35.543Z",
+  "units": "stakes",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1552183,
+      "home": {
+        "name": "Ajax",
+        "logo": "https://media.api-sports.io/football/teams/194.png"
+      },
+      "away": {
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png"
+      },
+      "league": "Eredivisie",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/88.png",
+      "kickoff": "2026-10-10T19:00:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 79,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Ajax em casa ainda não fechou a baliza esta época: quatro jogos da Eredivisie em Amesterdão, quatro com golos sofridos (2-2 com o Excelsior, 5-1 ao Willem II, 1-3 com o PSV, 2-2 com o Heerenveen). E chega sem o Blind, que arrumava a defesa. O NEC está mal na tabela, mas marcou em seis das sete jornadas e tem o ataque inteiro — Chery, Tadic e Linssen aparecem nos dois onzes prováveis. A defesa do NEC também não segura nada: sofreu em todas as jornadas, três do Feyenoord, três do Cambuur, cinco da Juventus. O golo do Ajax não é a dúvida; a dúvida é o NEC, e os números dizem que costuma marcar. Vai no ambas marcam e não na vitória do Ajax, que paga 1.30 e também ganha com um 2-0. O risco é o NEC ficar em branco fora, como em Cambuur (3-0).",
+      "factors": [
+        "Ajax em casa, Eredivisie 2026/27 (API-Football /fixtures, n=4): 2-2 Excelsior, 5-1 Willem II, 1-3 PSV, 2-2 Heerenveen — sofreu nos 4, ambas marcam em 4 de 4. Toda a Eredivisie 2026/27 (n=7): ambas marcam em 5 de 7",
+        "NEC, Eredivisie 2026/27 (API, n=7): 1-1 GAE, 0-3 em Cambuur, 2-2 Excelsior, 1-3 Feyenoord, 3-1 em Zwolle, 4-1 no Willem II, 1-2 Telstar — marcou em 6 de 7, sofreu em 7 de 7, ambas marcam em 6 de 7; fora (n=3) marcou em 2 de 3. Na Liga Europa perdeu 5-0 na Juventus",
+        "H2H Eredivisie (API, últimos 5): 1-1, 2-2, 0-3, 2-1, 2-2 — ambas marcam em 4 de 5; o Ajax não ganha ao NEC há três jogos",
+        "Ausências com duas fontes: Ajax sem Blind (costas) e Dolberg (joelho) — API /injuries, SportsGambler e Sports Mole; Adingra (pé) e Bouwman — API e Sports Mole. NEC sem Emre Mor (virilha) e Nuytinck — API e SportsGambler; Fonville e Kaplan — API e Sports Mole. Ataque do NEC (Chery, Tadic, Linssen) nos onzes prováveis do SportsGambler e da Sports Mole, concordantes; Arokodare na frente do Ajax nos dois",
+        "Treinadores: Michel no Ajax, Dick Schreuder no NEC (Sports Mole); nenhuma mudança reportada",
+        "Probabilidades: Bet365 Sim 1.57 / Não 2.25, 58,9% justo sem margem; Marathonbet Sim 1.49 (odds por fixture, actualizadas 03:39Z). KickOff dá 59% ao Sim. A nossa leitura anda pelos 66-68%",
+        "Terceiros alinhados: Sports Mole 2-1, SportsGambler 2-1, Football Whispers 3-1 com mais de 2.5, Sportskeeda ambas marcam e 3-1 (via resumo de pesquisa). API predictions: Ajax ou empate e mais de 1.5. Nenhuma antevisão lida dá um lado em branco",
+        "xG da época (FootyStats, página H2H): Ajax 2.54 xG / 1.21 xGA, NEC 1.71 / 1.25 — sem competição declarada na página, só contexto, não pesa na decisão",
+        "Não obtido: padrões ao intervalo (indisponíveis; nenhum mercado activo depende deles); Forebet não lido"
+      ],
+      "sources": [
+        "API-Football: /fixtures team=194 e team=413 last=12, /fixtures/headtohead 194-413, /injuries 1552183, /predictions 1552183, /odds 1552183 Bet365 e Marathonbet",
+        "SportsGambler — ajax-vs-nec-nijmegen 10/10/2026 (onzes, baixas, 2-1)",
+        "Sports Mole — antevisão Ajax-NEC (baixas, onzes, treinadores, 2-1)",
+        "Football Whispers, Sportskeeda, KickOff — antevisões de 10/10 (via resumo de pesquisa)",
+        "FootyStats — página H2H Ajax-NEC"
+      ]
+    },
+    {
+      "market": "baliza",
+      "marketLabel": "Remates à baliza",
+      "pick": "Mais de 9.5 remates à baliza",
+      "fixtureId": 1575181,
+      "home": {
+        "name": "FSV Mainz 05",
+        "logo": "https://media.api-sports.io/football/teams/164.png"
+      },
+      "away": {
+        "name": "Bayer Leverkusen",
+        "logo": "https://media.api-sports.io/football/teams/168.png"
+      },
+      "league": "Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-10-10T13:30:00Z",
+      "odds": 1.91,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "zonas",
+      "zonas": {
+        "atq": 1.189,
+        "linha": 9.5,
+        "prob": 0.582,
+        "valor": 1.112
+      },
+      "tese": "Dois ataques que põem o guarda-redes a trabalhar. Nas quatro jornadas da Bundesliga, os jogos do Leverkusen tiveram 10, 10, 10 e 9 remates à baliza ao todo, e os do Mainz 4, 9, 10 e 15 — o 4-3 em Mönchengladbach teve quinze. O último Mainz-Leverkusen em Mainz acabou 3-4, com doze remates enquadrados. O Mainz do Urs Fischer joga com dois pontas, Tietz e Becker, e os dois estão nos onzes prováveis; no Leverkusen falta o Kofane, mas o Schick, titular no último jogo, entra na frente. São precisos dez remates à baliza entre as duas equipas, e cinco destes oito jogos lá chegaram. O risco é um jogo de contenção, como o Leverkusen-Leipzig (9) ou o Mainz-Paderborn (4).",
+      "factors": [
+        "Odd confirmada por fixture: Bet365 Total ShotOnGoal Mais de 9.5 @1.91 / Menos 1.80 (actualizada 00:01Z); 1xBet 1.93, Betano 1.78. Taxa da Bundesliga para a linha 9.5 no registo do dia: 58,2% — 1.91 x 0.582 = 1.11",
+        "Remates à baliza (total do jogo), Bundesliga 2026/27 (API /fixtures?ids, estatísticas por jogo): Leverkusen n=4 — 10 (Elversberg), 10 (Union), 10 (Augsburg), 9 (Leipzig); Mainz n=4 — 4 (Paderborn), 9 (HSV), 10 (Frankfurt), 15 (Mönchengladbach). Mais de 9.5 em 5 de 8",
+        "H2H Bundesliga 2025/26 (API, n=2): Mainz 3-4 Leverkusen com 12 à baliza; Leverkusen 1-1 Mainz com 9",
+        "Onze: avançados do Mainz (Tietz e Becker) nos onzes prováveis do SportsGambler e da Sports Mole e titulares nos dois últimos jogos da liga (API /lineups); Schick na frente do Leverkusen nos dois onzes prováveis e titular contra o Leipzig (API)",
+        "Ausências com duas fontes: Leverkusen sem Kofane (API Missing Fixture; SportsGambler coxa; Sports Mole dúvida), Doué (gémeo — API, SportsGambler, Sports Mole) e Eichhorn (API, SportsGambler, Sports Mole). Mainz sem Kohr (API, SportsGambler, Sports Mole) e Zentner (mão — API e SportsGambler; Schwolow na baliza nos dois onzes)",
+        "Contexto: 5.º contra 6.º, os dois com 7 pontos (Sports Mole). Sem jogo europeu a meio da semana — sai-se de uma paragem de selecções",
+        "Terceiros divididos: Sports Mole prevê 2-3; SportsGambler prevê 1-0 e aposta Mainz +0.25",
+        "Não obtido com proveniência: os splits do FootyStats dão 5 jogos em casa ao Mainz quando a liga só leva 2 — descartados; Forebet devolveu 403; padrões ao intervalo indisponíveis"
+      ],
+      "sources": [
+        "remates/zonas/2026-10-10.json (aposta do dia)",
+        "API-Football: /odds 1575181 (Bet365, Total ShotOnGoal), /fixtures?ids com estatísticas e onzes dos 8 jogos da liga e dos 2 H2H, /injuries 1575181",
+        "SportsGambler — mainz-vs-bayer-leverkusen 10/10/2026 (onzes, baixas, 1-0)",
+        "Sports Mole — antevisão Mainz-Leverkusen (baixas, onzes, 2-3)",
+        "FootyStats — página H2H Mainz-Leverkusen (descartada por proveniência)"
+      ]
+    },
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1569965,
+      "home": {
+        "name": "Eldense",
+        "logo": "https://media.api-sports.io/football/teams/9692.png"
+      },
+      "away": {
+        "name": "Cordoba",
+        "logo": "https://media.api-sports.io/football/teams/713.png"
+      },
+      "league": "Segunda División",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-10-10T16:30:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 71,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 40.1,
+        "prob_modelo": 0.675,
+        "prob_mercado": 0.596,
+        "valor": 0.06
+      },
+      "tese": "O Córdoba é das defesas mais abertas da Segunda: levou 18 golos em oito jornadas, e fora de casa os quatro jogos passaram todos dos dois golos (1-3 em Valladolid, 2-1 em Albacete, 2-3 em Sabadell, 2-3 em Burgos). Como também marca, os jogos dele são um vaivém — sete em oito com três ou mais golos. O Eldense em casa deu três jogos com mais de 2.5 em quatro, o último um 4-1 ao Oviedo. As duas equipas chegam de vitória. O que pesa contra são os dois últimos confrontos directos, 1-1 e 0-2, e o 0-0 com o Mallorca em Elda.",
+      "factors": [
+        "Córdoba, Segunda 2026/27 (API /fixtures, n=8, amigáveis excluídos): sofreu 18 golos (2,25 por jogo), mais de 2.5 em 7 de 8; fora (n=4): 1-3 Valladolid, 2-1 Albacete, 2-3 Sabadell, 2-3 Burgos — 4 de 4",
+        "Eldense em casa, Segunda 2026/27 (API, n=4): 4-1 Oviedo, 1-2 Eibar, 0-0 Mallorca, 2-2 Cádiz — mais de 2.5 em 3 de 4; toda a liga (n=8) 4 de 8",
+        "H2H Segunda (API, n=2): 1-1 (04/2025) e 2-0 Córdoba (10/2024) — os dois com menos de 2.5",
+        "Odds por fixture: Bet365 Mais 1.57 / Menos 2.35; Marathonbet 1.49 (actualizadas 00:01Z). Leitura dos números do dia: 67,5% contra 59,6% do mercado",
+        "Ausências: Córdoba sem Adilson (ligamentos) — SportsGambler e Infobae/EFE, concordantes; Diarra, Fomeyem e Jacobo só na Infobae. Eldense: o SportsGambler não dá baixas e põe o Ramón Vila na baliza; a Infobae tira-o (cedido pelo Córdoba, cláusula do medo) e também o Mariano Carmona — fontes em contradição, nenhuma destas baixas usada como argumento",
+        "Treinadores: Javier Calleja no Eldense, Iván Ania no Córdoba (Infobae); Córdoba 15.º com 9 pontos, um à frente do Eldense",
+        "Terceiros: SportsGambler prevê 2-1 (aposta Eldense AH 0 e mais de 9.5 cantos); API predictions: Eldense ou empate",
+        "Não obtido: FootyStats e Forebet não lidos para este jogo; padrões ao intervalo indisponíveis"
+      ],
+      "sources": [
+        "golos/previsoes/2026-10-10.json (sinal do dia)",
+        "API-Football: /fixtures team=9692 e team=713 last=12, /fixtures/headtohead, /odds 1569965 Bet365 e Marathonbet, /predictions 1569965",
+        "SportsGambler — eldense-vs-cordoba 10/10/2026 (onzes, baixas, 2-1)",
+        "Infobae/EFE — El Eldense y el Córdoba pretenden confirmar su progresión (09/10/2026)"
+      ]
+    },
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1569963,
+      "home": {
+        "name": "Celta de Vigo II",
+        "logo": "https://media.api-sports.io/football/teams/9571.png"
+      },
+      "away": {
+        "name": "Real Sociedad II",
+        "logo": "https://media.api-sports.io/football/teams/9585.png"
+      },
+      "league": "Segunda División",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-10-10T19:00:00Z",
+      "odds": 1.75,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 37,
+        "prob_modelo": 0.611,
+        "prob_mercado": 0.551,
+        "valor": 0.069
+      },
+      "tese": "Dois filiais que jogam aberto e defendem mal. A Real Sociedad B fora de casa ainda não teve um jogo com menos de três golos (1-3 em Ceuta, 3-1 em Andorra, 2-2 em Burgos, 2-1 em Albacete), e o Celta B em Balaídos passou dos dois golos em três de quatro. Pior para o Celta: chega sem dois defesas titulares, o capitão Meixús, expulso, e o Anxo Rodríguez, castigado por amarelos, e sem o Antañón, lesionado — a imprensa de Vigo escreve que as baixas atacam a defesa. Sofreu dez golos nos últimos quatro jogos. A Real Sociedad B tem o plantel todo. O risco é um jogo partido mas sem pontaria, como o 1-1 com o Sabadell.",
+      "factors": [
+        "Real Sociedad B fora, Segunda 2026/27 (API /fixtures, n=4): 1-3 Ceuta, 3-1 Andorra, 2-2 Burgos, 2-1 Albacete — mais de 2.5 em 4 de 4 (o SportsGambler fala em 6 seguidos fora, juntando a época anterior). Toda a liga (n=8): 5 de 8; os dois jogos da Premier League 2 ficam de fora",
+        "Celta B em casa, Segunda 2026/27 (API, n=4): 1-1 Sabadell, 0-4 Eibar, 1-2 Castellón, 4-2 Andorra — mais de 2.5 em 3 de 4; sofreu 10 golos nos últimos 4 jogos da liga (2-3 Sporting, 1-1 Sabadell, 0-2 Almería, 0-4 Eibar)",
+        "H2H (API, n=4, Primera Federación 2023-2025): 2-0, 2-1, 0-0, 1-2 — mais de 2.5 em 1 de 4; contexto só, outra divisão e outros plantéis",
+        "Ausências com duas fontes: Celta B sem Meixús (vermelho) e Anxo Rodríguez (5.º amarelo) — Atlántico Diario e Minuto Noventa; Antañón (tornozelo) — SportsGambler e Minuto Noventa; Somuah lesionado só na Minuto Noventa. Real Sociedad B sem baixas — SportsGambler e Minuto Noventa",
+        "Odds por fixture: Bet365 Mais 1.75 / Menos 2.05; Marathonbet 1.68 (actualizadas 00:01Z). Leitura dos números do dia: 61,1% contra 55,1% do mercado",
+        "Terceiros: SportsGambler aposta mais de 2.5 @1.73 e prevê 2-1; API predictions: empate ou Real Sociedad B e mais de 1.5",
+        "Treinador: Fredi Álvarez no Celta B (Atlántico, Minuto Noventa); sem mudança reportada",
+        "Não obtido: FootyStats e Forebet não lidos para este jogo; padrões ao intervalo indisponíveis"
+      ],
+      "sources": [
+        "golos/previsoes/2026-10-10.json (sinal do dia)",
+        "API-Football: /fixtures team=9571 e team=9585 last=12, /fixtures/headtohead, /odds 1569963 Bet365 e Marathonbet, /predictions 1569963",
+        "SportsGambler — celta-fortuna-vs-real-sociedad-b 10/10/2026 (onzes, baixas, mais de 2.5)",
+        "Atlántico Diario — Las bajas atacan a la zaga (08/10/2026)",
+        "Minuto Noventa — Celta Fortuna: cuatro bajas ante la Real Sociedad B"
+      ]
+    }
+  ],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552183,
+          "match": "Ajax vs NEC Nijmegen",
+          "league": "Eredivisie",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.57,
+          "kickoff": "2026-10-10T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1569963,
+          "match": "Celta de Vigo II vs Real Sociedad II",
+          "league": "Segunda División",
+          "pick": "Mais de 2.5 golos",
+          "odds": 1.75,
+          "kickoff": "2026-10-10T19:00:00Z",
+          "modelo": "gap"
+        }
+      ],
+      "combined_odds": 2.75,
+      "score": 72,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1557417,
+          "match": "Arsenal vs Leeds",
+          "league": "Premier League",
+          "pick": "Arsenal vence",
+          "odds": 1.38,
+          "kickoff": "2026-10-10T11:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575515,
+          "match": "Maritimo vs FC Porto",
+          "league": "Liga Portugal",
+          "pick": "FC Porto vence",
+          "odds": 1.33,
+          "kickoff": "2026-10-10T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552181,
+          "match": "Feyenoord vs AZ Alkmaar",
+          "league": "Eredivisie",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-10T16:45:00Z"
+        }
+      ],
+      "combined_odds": 2.64,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552184,
+          "match": "Fortuna Sittard vs Twente",
+          "league": "Eredivisie",
+          "pick": "Twente vence",
+          "odds": 1.44,
+          "kickoff": "2026-10-10T18:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570411,
+          "match": "Real Madrid vs Villarreal",
+          "league": "La Liga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-10T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1555402,
+          "match": "FC Zurich vs FC Thun",
+          "league": "Super League (Suíça)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-10T16:00:00Z"
+        }
+      ],
+      "combined_odds": 2.82,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1550141,
+          "match": "Inter vs Parma",
+          "league": "Serie A",
+          "pick": "Inter vence e Menos de 5.5 golos",
+          "odds": 1.38,
+          "kickoff": "2026-10-10T16:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1570404,
+          "match": "Barcelona vs Getafe",
+          "league": "La Liga",
+          "pick": "Barcelona vence e Menos de 5.5 golos",
+          "odds": 1.35,
+          "kickoff": "2026-10-10T16:30:00Z"
+        }
+      ],
+      "combined_odds": 1.86,
+      "score": 75,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [
+      {
+        "fixtureId": 1552183,
+        "match": "Ajax vs NEC Nijmegen",
+        "league": "Eredivisie",
+        "pick": "Ambas marcam: Sim",
+        "odds": 1.57,
+        "bookmaker": "Bet365",
+        "score": 79,
+        "kickoff": "2026-10-10T19:00:00Z",
+        "tese": "É a tip do dia: o Ajax sofreu nos quatro jogos em casa e o NEC marcou em seis das sete jornadas, com o ataque inteiro."
+      },
+      {
+        "fixtureId": 1570411,
+        "match": "Real Madrid vs Villarreal",
+        "league": "La Liga",
+        "pick": "Ambas marcam: Sim",
+        "odds": 1.44,
+        "bookmaker": "Bet365",
+        "score": 75,
+        "kickoff": "2026-10-10T19:00:00Z",
+        "tese": "O Real joga sem Huijsen (castigado), Militão, Asencio e Mendy, e sofreu nos cinco últimos oficiais; o Villarreal marcou em cinco das seis jornadas. H2H da liga: ambas marcam em 3 de 5. As antevisões dão 3-1. Valor magro a 1.44, e o Mbappé é dúvida."
+      }
+    ],
+    "combined_odds": 2.26,
+    "stake": 0,
+    "shadow": true
+  },
+  "notes": "Sábado de regresso dos clubes depois da paragem de selecções, com as ligas grandes todas em campo.\n\nSai uma tip a sério, a uma stake: ambas marcam no Ajax-NEC. O Ajax ainda não fechou a baliza em casa esta época, quatro jogos e quatro com golos sofridos, e o NEC marcou em seis das sete jornadas, com o ataque todo disponível. As antevisões batem todas no 2-1 ou no 3-1.\n\nDepois há três apostas de teste a meia stake: mais de 9.5 remates à baliza no Mainz-Leverkusen, dois ataques que rematam muito; e mais de 2.5 golos em dois jogos da segunda espanhola — o Córdoba sofre golos em todo o lado e fora passou sempre dos dois golos, e o Celta B joga sem dois defesas titulares contra uma Real Sociedad B que fora ainda não fez um jogo com menos de três.\n\nFicaram de fora o menos de 2.5 no Inter-Parma e no Clyde-Dumbarton, porque estas equipas têm dado golos aos montes. No Ayr-Dunfermline a odd desceu e o valor foi-se.\n\nAcumuladores: o Ajax e o Celta B juntos pagam 2.75, a meia stake — atenção que são as mesmas pernas das tips, e um desses jogos a correr mal mexe com dois boletins. Dois curtos a meia stake: Arsenal, Porto e ambas marcam no Feyenoord-AZ (2.64); Twente e ambas marcam no Real-Villarreal e no Zurique-Thun (2.82). O corvo, a meia stake, paga 1.86: Inter e Barcelona ganham, com menos de 5.5 golos.\n\nExposição do dia: 4.5 stakes."
+}

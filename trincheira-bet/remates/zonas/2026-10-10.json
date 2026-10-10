@@ -1,0 +1,705 @@
+{
+  "gerado": "2026-10-10T06:14:48.463Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1557417,
+      "data": "2026-10-10T11:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Arsenal - Leeds",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.18,
+      "def": 1.24,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.09,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.23,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1570410,
+      "data": "2026-10-10T12:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Rayo Vallecano - Athletic Club",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": -0.29,
+      "def": 0.033,
+      "zona": null
+    },
+    {
+      "fixture": 1550140,
+      "data": "2026-10-10T13:00:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Genoa - Fiorentina",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -1.1,
+      "def": -0.4,
+      "zona": null
+    },
+    {
+      "fixture": 1575178,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "1899 Hoffenheim - Hamburger SV",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": -1.561,
+      "def": -0.378,
+      "zona": null
+    },
+    {
+      "fixture": 1575180,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "FC Augsburg - Bayern München",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": 2.439,
+      "def": -0.628,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.16,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1575181,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "FSV Mainz 05 - Bayer Leverkusen",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": 1.189,
+      "def": -0.128,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 2",
+          "odd": 1.3,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.54,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": {
+        "mercado": "baliza",
+        "pick": "Mais de 9.5 remates a baliza",
+        "linha": 9.5,
+        "casa": "Bet365",
+        "odd": 1.91,
+        "prob": 0.582,
+        "valor": 1.112,
+        "stake": 0.5
+      }
+    },
+    {
+      "fixture": 1575182,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Union Berlin - SV Elversberg",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": -0.811,
+      "def": -1.378,
+      "zona": null
+    },
+    {
+      "fixture": 1575184,
+      "data": "2026-10-10T13:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "SC Paderborn 07 - VfB Stuttgart",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": -1.561,
+      "def": 1.872,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.08,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.21,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1557418,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Aston Villa - Brentford",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.02,
+      "def": 0.24,
+      "zona": null
+    },
+    {
+      "fixture": 1557419,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Chelsea - Bournemouth",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.38,
+      "def": -1.56,
+      "zona": null
+    },
+    {
+      "fixture": 1557423,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Ipswich - Fulham",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.42,
+      "def": -0.56,
+      "zona": null
+    },
+    {
+      "fixture": 1557426,
+      "data": "2026-10-10T14:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Sunderland - Brighton",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 1.58,
+      "def": -1.76,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.53,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.91,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1570403,
+      "data": "2026-10-10T14:15:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Alaves - Atletico Madrid",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 0.829,
+      "def": 0.343,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.57,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.8,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1552182,
+      "data": "2026-10-10T14:30:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "GO Ahead Eagles - Sparta Rotterdam",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -0.067,
+      "def": -0.58,
+      "zona": null
+    },
+    {
+      "fixture": 1575513,
+      "data": "2026-10-10T14:30:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Casa Pia - Santa Clara",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -0.734,
+      "def": 0.612,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.13,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.29,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552776,
+      "data": "2026-10-10T15:15:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lille - Le Havre",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.448,
+      "def": 1.096,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.11,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.25,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1550141,
+      "data": "2026-10-10T16:00:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Inter - Parma",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.9,
+      "def": -1,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.18,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.34,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1557425,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Manchester United - Tottenham",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.82,
+      "def": 0.44,
+      "zona": null
+    },
+    {
+      "fixture": 1570404,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Barcelona - Getafe",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 1.971,
+      "def": -0.943,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.15,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.28,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1575177,
+      "data": "2026-10-10T16:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "RB Leipzig - Eintracht Frankfurt",
+      "jogos_tabela": 4,
+      "amostra_fraca": true,
+      "atq": 0.689,
+      "def": -0.628,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.2,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.36,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1552181,
+      "data": "2026-10-10T16:45:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Feyenoord - AZ Alkmaar",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 2.362,
+      "def": -0.438,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.22,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.39,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1575515,
+      "data": "2026-10-10T17:00:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Maritimo - FC Porto",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 0.98,
+      "def": -0.388,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.52,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.9,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1552184,
+      "data": "2026-10-10T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Fortuna Sittard - Twente",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 0.219,
+      "def": 0.563,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "mediana de 3",
+          "odd": 1.06,
+          "preferida": false
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.13,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1550144,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Napoli - Frosinone",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.3,
+      "def": 0.6,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.06,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.16,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552774,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Stade Brestois 29 - Angers",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.248,
+      "def": 0.496,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.08,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.21,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552777,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lorient - Paris FC",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.248,
+      "def": 1.296,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.18,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.38,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552778,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Monaco - Toulouse",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.152,
+      "def": 0.296,
+      "zona": null
+    },
+    {
+      "fixture": 1552780,
+      "data": "2026-10-10T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Paris Saint Germain - Le Mans",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": 0.552,
+      "def": -0.904,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.12,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.23,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1552183,
+      "data": "2026-10-10T19:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Ajax - NEC Nijmegen",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 0.933,
+      "def": -0.295,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.14,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 1",
+          "odd": 1.26,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1570411,
+      "data": "2026-10-10T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Real Madrid - Villarreal",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": 1.4,
+      "def": -1.229,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": {
+          "casa": "mediana de 1",
+          "odd": 1.16,
+          "preferida": false
+        },
+        "baliza_8_5": {
+          "casa": "mediana de 2",
+          "odd": 1.37,
+          "preferida": false
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1575509,
+      "data": "2026-10-10T19:30:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Academico Viseu - Estoril",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -1.02,
+      "def": 1.04,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.16,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.36,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1492409,
+      "data": "2026-10-10T21:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vasco DA Gama - Remo",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": -0.248,
+      "def": -0.236,
+      "zona": null
+    }
+  ]
+}
