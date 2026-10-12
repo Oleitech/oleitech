@@ -22,7 +22,9 @@
           "odd": 1.83,
           "prob": 0.473,
           "valor": -13.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -32,7 +34,9 @@
           "odd": 1.83,
           "prob": 0.527,
           "valor": -3.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -42,7 +46,9 @@
           "odd": 1.67,
           "prob": 0.659,
           "valor": 10.1,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -52,7 +58,9 @@
           "odd": 2.1,
           "prob": 0.341,
           "valor": -28.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "fora",
@@ -62,7 +70,9 @@
           "odd": 2.1,
           "prob": 0.506,
           "valor": 6.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -72,7 +82,9 @@
           "odd": 1.67,
           "prob": 0.494,
           "valor": -17.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "casa",
@@ -82,7 +94,9 @@
           "odd": 1.83,
           "prob": 0.473,
           "valor": -13.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -92,7 +106,9 @@
           "odd": 1.85,
           "prob": 0.527,
           "valor": -2.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -102,7 +118,9 @@
           "odd": 1.49,
           "prob": 0.659,
           "valor": -1.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -112,7 +130,9 @@
           "odd": 2.38,
           "prob": 0.341,
           "valor": -18.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.38
         },
         {
           "equipa": "fora",
@@ -122,7 +142,9 @@
           "odd": 2.01,
           "prob": 0.506,
           "valor": 1.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -132,10 +154,15 @@
           "odd": 1.68,
           "prob": 0.494,
           "valor": -17,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.68
         }
       ],
-      "real": null
+      "real": {
+        "casa": 7,
+        "fora": 3
+      }
     },
     {
       "fixture": 1550139,
@@ -156,7 +183,9 @@
           "odd": 1.83,
           "prob": 0.591,
           "valor": 8.1,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -166,7 +195,9 @@
           "odd": 1.83,
           "prob": 0.409,
           "valor": -25.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -176,7 +207,9 @@
           "odd": 1.67,
           "prob": 0.547,
           "valor": -8.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -186,7 +219,9 @@
           "odd": 2.1,
           "prob": 0.453,
           "valor": -4.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "casa",
@@ -196,7 +231,9 @@
           "odd": 1.82,
           "prob": 0.591,
           "valor": 7.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.82
         },
         {
           "equipa": "casa",
@@ -206,7 +243,9 @@
           "odd": 1.88,
           "prob": 0.409,
           "valor": -23,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -216,7 +255,9 @@
           "odd": 1.64,
           "prob": 0.547,
           "valor": -10.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -226,7 +267,9 @@
           "odd": 2.1,
           "prob": 0.453,
           "valor": -4.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "fora",
@@ -236,7 +279,9 @@
           "odd": 2.28,
           "prob": 0.39,
           "valor": -11.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -246,10 +291,15 @@
           "odd": 1.54,
           "prob": 0.61,
           "valor": -6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.54
         }
       ],
-      "real": null
+      "real": {
+        "casa": 6,
+        "fora": 2
+      }
     },
     {
       "fixture": 1570406,
@@ -270,7 +320,9 @@
           "odd": 2.1,
           "prob": 0.541,
           "valor": 13.6,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "casa",
@@ -280,7 +332,9 @@
           "odd": 1.67,
           "prob": 0.459,
           "valor": -23.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -290,7 +344,9 @@
           "odd": 1.67,
           "prob": 0.46,
           "valor": -23.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -300,7 +356,9 @@
           "odd": 2.1,
           "prob": 0.54,
           "valor": 13.5,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "casa",
@@ -310,7 +368,9 @@
           "odd": 1.89,
           "prob": 0.541,
           "valor": 2.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.89
         },
         {
           "equipa": "casa",
@@ -320,7 +380,9 @@
           "odd": 1.81,
           "prob": 0.459,
           "valor": -16.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -330,7 +392,9 @@
           "odd": 1.64,
           "prob": 0.46,
           "valor": -24.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -340,7 +404,9 @@
           "odd": 2.1,
           "prob": 0.54,
           "valor": 13.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "fora",
@@ -350,7 +416,9 @@
           "odd": 2.28,
           "prob": 0.308,
           "valor": -29.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -360,10 +428,15 @@
           "odd": 1.54,
           "prob": 0.692,
           "valor": 6.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.54
         }
       ],
-      "real": null
+      "real": {
+        "casa": 5,
+        "fora": 2
+      }
     },
     {
       "fixture": 1552186,
@@ -384,7 +457,9 @@
           "odd": 1.8,
           "prob": 0.466,
           "valor": -16.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "casa",
@@ -394,7 +469,9 @@
           "odd": 1.91,
           "prob": 0.534,
           "valor": 2.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -404,7 +481,9 @@
           "odd": 1.73,
           "prob": 0.491,
           "valor": -15.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -414,7 +493,9 @@
           "odd": 2,
           "prob": 0.509,
           "valor": 1.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1
         },
         {
           "equipa": "casa",
@@ -424,7 +505,9 @@
           "odd": 1.55,
           "prob": 0.606,
           "valor": -6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.55
         },
         {
           "equipa": "casa",
@@ -434,7 +517,9 @@
           "odd": 2.23,
           "prob": 0.394,
           "valor": -12.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -444,7 +529,9 @@
           "odd": 1.95,
           "prob": 0.466,
           "valor": -9.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.95
         },
         {
           "equipa": "casa",
@@ -454,7 +541,9 @@
           "odd": 1.74,
           "prob": 0.534,
           "valor": -7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -464,7 +553,9 @@
           "odd": 2.21,
           "prob": 0.339,
           "valor": -25,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.21
         },
         {
           "equipa": "casa",
@@ -474,7 +565,9 @@
           "odd": 1.56,
           "prob": 0.661,
           "valor": 3.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -484,7 +577,9 @@
           "odd": 1.67,
           "prob": 0.491,
           "valor": -18,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -494,7 +589,9 @@
           "odd": 2.02,
           "prob": 0.509,
           "valor": 2.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.02
         },
         {
           "equipa": "fora",
@@ -504,7 +601,9 @@
           "odd": 2.25,
           "prob": 0.351,
           "valor": -20.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -514,10 +613,15 @@
           "odd": 1.54,
           "prob": 0.649,
           "valor": -0.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.54
         }
       ],
-      "real": null
+      "real": {
+        "casa": 8,
+        "fora": 0
+      }
     },
     {
       "fixture": 1552187,
@@ -538,7 +642,9 @@
           "odd": 2,
           "prob": 0.459,
           "valor": -8.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -548,7 +654,9 @@
           "odd": 1.73,
           "prob": 0.541,
           "valor": -6.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.73
         },
         {
           "equipa": "fora",
@@ -558,7 +666,9 @@
           "odd": 1.91,
           "prob": 0.535,
           "valor": 2.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.91
         },
         {
           "equipa": "fora",
@@ -568,7 +678,9 @@
           "odd": 1.8,
           "prob": 0.465,
           "valor": -16.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -578,7 +690,9 @@
           "odd": 1.59,
           "prob": 0.6,
           "valor": -4.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.59
         },
         {
           "equipa": "casa",
@@ -588,7 +702,9 @@
           "odd": 2.15,
           "prob": 0.4,
           "valor": -13.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -598,7 +714,9 @@
           "odd": 2.09,
           "prob": 0.459,
           "valor": -4.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -608,7 +726,9 @@
           "odd": 1.63,
           "prob": 0.541,
           "valor": -11.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.63
         },
         {
           "equipa": "fora",
@@ -618,7 +738,9 @@
           "odd": 1.7,
           "prob": 0.535,
           "valor": -9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.7
         },
         {
           "equipa": "fora",
@@ -628,7 +750,9 @@
           "odd": 1.98,
           "prob": 0.465,
           "valor": -8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -638,7 +762,9 @@
           "odd": 2.3,
           "prob": 0.394,
           "valor": -9.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -648,10 +774,15 @@
           "odd": 1.52,
           "prob": 0.606,
           "valor": -7.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.52
         }
       ],
-      "real": null
+      "real": {
+        "casa": 5,
+        "fora": 5
+      }
     },
     {
       "fixture": 1550142,
@@ -679,7 +810,9 @@
           "odd": 1.8,
           "prob": 0.639,
           "valor": 15.1,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "casa",
@@ -689,7 +822,9 @@
           "odd": 1.91,
           "prob": 0.361,
           "valor": -31.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -699,7 +834,9 @@
           "odd": 1.83,
           "prob": 0.345,
           "valor": -36.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -709,7 +846,9 @@
           "odd": 1.83,
           "prob": 0.655,
           "valor": 19.8,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -719,7 +858,9 @@
           "odd": 1.52,
           "prob": 0.639,
           "valor": -2.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.52
         },
         {
           "equipa": "casa",
@@ -729,7 +870,9 @@
           "odd": 2.33,
           "prob": 0.361,
           "valor": -15.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -739,7 +882,9 @@
           "odd": 2.06,
           "prob": 0.484,
           "valor": -0.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.06
         },
         {
           "equipa": "casa",
@@ -749,7 +894,9 @@
           "odd": 1.66,
           "prob": 0.516,
           "valor": -14.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -759,7 +906,9 @@
           "odd": 1.93,
           "prob": 0.345,
           "valor": -33.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -769,10 +918,15 @@
           "odd": 1.78,
           "prob": 0.655,
           "valor": 16.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.78
         }
       ],
-      "real": null
+      "real": {
+        "casa": 10,
+        "fora": 3
+      }
     },
     {
       "fixture": 1552779,
@@ -793,7 +947,9 @@
           "odd": 1.62,
           "prob": 0.638,
           "valor": 3.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -803,7 +959,9 @@
           "odd": 2.2,
           "prob": 0.362,
           "valor": -20.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.2
         },
         {
           "equipa": "casa",
@@ -813,7 +971,9 @@
           "odd": 2.2,
           "prob": 0.499,
           "valor": 9.9,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -823,7 +983,9 @@
           "odd": 1.62,
           "prob": 0.501,
           "valor": -18.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.62
         },
         {
           "equipa": "fora",
@@ -833,7 +995,9 @@
           "odd": 2.1,
           "prob": 0.347,
           "valor": -27.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -843,7 +1007,9 @@
           "odd": 1.67,
           "prob": 0.653,
           "valor": 9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "casa",
@@ -853,7 +1019,9 @@
           "odd": 1.6,
           "prob": 0.638,
           "valor": 2.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -863,7 +1031,9 @@
           "odd": 2.16,
           "prob": 0.362,
           "valor": -21.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.16
         },
         {
           "equipa": "casa",
@@ -873,7 +1043,9 @@
           "odd": 2.11,
           "prob": 0.499,
           "valor": 5.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -883,7 +1055,9 @@
           "odd": 1.63,
           "prob": 0.501,
           "valor": -18.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.63
         },
         {
           "equipa": "fora",
@@ -893,7 +1067,9 @@
           "odd": 1.54,
           "prob": 0.503,
           "valor": -22.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -903,7 +1079,9 @@
           "odd": 2.28,
           "prob": 0.497,
           "valor": 13.4,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 1.28
         },
         {
           "equipa": "fora",
@@ -913,7 +1091,9 @@
           "odd": 2.11,
           "prob": 0.347,
           "valor": -26.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -923,10 +1103,15 @@
           "odd": 1.63,
           "prob": 0.653,
           "valor": 6.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.63
         }
       ],
-      "real": null
+      "real": {
+        "casa": 2,
+        "fora": 3
+      }
     },
     {
       "fixture": 1557421,
@@ -947,7 +1132,9 @@
           "odd": 1.83,
           "prob": 0.467,
           "valor": -14.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -957,7 +1144,9 @@
           "odd": 1.83,
           "prob": 0.533,
           "valor": -2.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -967,7 +1156,9 @@
           "odd": 1.91,
           "prob": 0.454,
           "valor": -13.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.91
         },
         {
           "equipa": "fora",
@@ -977,7 +1168,9 @@
           "odd": 1.8,
           "prob": 0.546,
           "valor": -1.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -987,7 +1180,9 @@
           "odd": 1.78,
           "prob": 0.467,
           "valor": -16.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.78
         },
         {
           "equipa": "casa",
@@ -997,7 +1192,9 @@
           "odd": 1.93,
           "prob": 0.533,
           "valor": 2.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1007,7 +1204,9 @@
           "odd": 1.94,
           "prob": 0.454,
           "valor": -11.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.94
         },
         {
           "equipa": "fora",
@@ -1017,10 +1216,15 @@
           "odd": 1.77,
           "prob": 0.546,
           "valor": -3.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 5,
+        "fora": 8
+      }
     },
     {
       "fixture": 1557422,
@@ -1048,7 +1252,9 @@
           "odd": 1.83,
           "prob": 0.525,
           "valor": -3.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -1058,7 +1264,9 @@
           "odd": 1.83,
           "prob": 0.475,
           "valor": -13.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1068,7 +1276,9 @@
           "odd": 1.67,
           "prob": 0.574,
           "valor": -4.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "fora",
@@ -1078,7 +1288,9 @@
           "odd": 2.1,
           "prob": 0.426,
           "valor": -10.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1088,7 +1300,9 @@
           "odd": 1.93,
           "prob": 0.525,
           "valor": 1.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.93
         },
         {
           "equipa": "casa",
@@ -1098,7 +1312,9 @@
           "odd": 1.78,
           "prob": 0.475,
           "valor": -15.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1108,7 +1324,9 @@
           "odd": 1.5,
           "prob": 0.574,
           "valor": -13.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.5
         },
         {
           "equipa": "fora",
@@ -1118,7 +1336,9 @@
           "odd": 2.38,
           "prob": 0.426,
           "valor": 1.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1128,7 +1348,9 @@
           "odd": 1.92,
           "prob": 0.416,
           "valor": -20.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.92
         },
         {
           "equipa": "fora",
@@ -1138,10 +1360,15 @@
           "odd": 1.79,
           "prob": 0.584,
           "valor": 4.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 6,
+        "fora": 6
+      }
     },
     {
       "fixture": 1570412,
@@ -1162,7 +1389,9 @@
           "odd": 1.73,
           "prob": 0.564,
           "valor": -2.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.73
         },
         {
           "equipa": "casa",
@@ -1172,7 +1401,9 @@
           "odd": 2,
           "prob": 0.436,
           "valor": -12.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1182,7 +1413,9 @@
           "odd": 1.8,
           "prob": 0.552,
           "valor": -0.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "fora",
@@ -1192,7 +1425,9 @@
           "odd": 1.91,
           "prob": 0.448,
           "valor": -14.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1202,7 +1437,9 @@
           "odd": 1.75,
           "prob": 0.564,
           "valor": -1.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.75
         },
         {
           "equipa": "casa",
@@ -1212,7 +1449,9 @@
           "odd": 1.96,
           "prob": 0.436,
           "valor": -14.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1222,7 +1461,9 @@
           "odd": 2.26,
           "prob": 0.434,
           "valor": -1.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.26
         },
         {
           "equipa": "casa",
@@ -1232,7 +1473,9 @@
           "odd": 1.55,
           "prob": 0.566,
           "valor": -12.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1242,7 +1485,9 @@
           "odd": 1.71,
           "prob": 0.552,
           "valor": -5.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.71
         },
         {
           "equipa": "fora",
@@ -1252,10 +1497,15 @@
           "odd": 2.02,
           "prob": 0.448,
           "valor": -9.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 7,
+        "fora": 10
+      }
     },
     {
       "fixture": 1575517,
@@ -1276,7 +1526,9 @@
           "odd": 2.1,
           "prob": 0.31,
           "valor": -34.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.1
         },
         {
           "equipa": "casa",
@@ -1286,7 +1538,9 @@
           "odd": 1.67,
           "prob": 0.69,
           "valor": 15.2,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1296,7 +1550,9 @@
           "odd": 1.83,
           "prob": 0.421,
           "valor": -22.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -1306,7 +1562,9 @@
           "odd": 1.83,
           "prob": 0.579,
           "valor": 5.9,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1316,7 +1574,9 @@
           "odd": 1.66,
           "prob": 0.446,
           "valor": -26,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.66
         },
         {
           "equipa": "casa",
@@ -1326,7 +1586,9 @@
           "odd": 2.04,
           "prob": 0.554,
           "valor": 13.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1336,7 +1598,9 @@
           "odd": 2.21,
           "prob": 0.31,
           "valor": -31.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.21
         },
         {
           "equipa": "casa",
@@ -1346,7 +1610,9 @@
           "odd": 1.56,
           "prob": 0.69,
           "valor": 7.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1356,7 +1622,9 @@
           "odd": 1.9,
           "prob": 0.421,
           "valor": -20,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.9
         },
         {
           "equipa": "fora",
@@ -1366,10 +1634,15 @@
           "odd": 1.78,
           "prob": 0.579,
           "valor": 3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 8,
+        "fora": 8
+      }
     },
     {
       "fixture": 1552188,
@@ -1390,7 +1663,9 @@
           "odd": 1.83,
           "prob": 0.558,
           "valor": 2.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1400,7 +1675,9 @@
           "odd": 1.83,
           "prob": 0.442,
           "valor": -19.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -1410,7 +1687,9 @@
           "odd": 1.83,
           "prob": 0.437,
           "valor": -20,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -1420,7 +1699,9 @@
           "odd": 1.83,
           "prob": 0.563,
           "valor": 3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1430,7 +1711,9 @@
           "odd": 1.66,
           "prob": 0.558,
           "valor": -7.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1440,7 +1723,9 @@
           "odd": 2.04,
           "prob": 0.442,
           "valor": -9.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.04
         },
         {
           "equipa": "casa",
@@ -1450,7 +1735,9 @@
           "odd": 2.21,
           "prob": 0.416,
           "valor": -8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1460,7 +1747,9 @@
           "odd": 1.56,
           "prob": 0.584,
           "valor": -9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.56
         },
         {
           "equipa": "fora",
@@ -1470,7 +1759,9 @@
           "odd": 1.85,
           "prob": 0.437,
           "valor": -19.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.85
         },
         {
           "equipa": "fora",
@@ -1480,10 +1771,15 @@
           "odd": 1.83,
           "prob": 0.563,
           "valor": 3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 3,
+        "fora": 6
+      }
     },
     {
       "fixture": 1552781,
@@ -1504,7 +1800,9 @@
           "odd": 1.67,
           "prob": 0.564,
           "valor": -5.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "casa",
@@ -1514,7 +1812,9 @@
           "odd": 2.1,
           "prob": 0.436,
           "valor": -8.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1524,7 +1824,9 @@
           "odd": 2,
           "prob": 0.5,
           "valor": 0,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1
         },
         {
           "equipa": "fora",
@@ -1534,7 +1836,9 @@
           "odd": 1.73,
           "prob": 0.5,
           "valor": -13.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1544,7 +1848,9 @@
           "odd": 1.71,
           "prob": 0.564,
           "valor": -3.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.71
         },
         {
           "equipa": "casa",
@@ -1554,7 +1860,9 @@
           "odd": 1.99,
           "prob": 0.436,
           "valor": -13.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1564,7 +1872,9 @@
           "odd": 2.24,
           "prob": 0.435,
           "valor": -2.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.24
         },
         {
           "equipa": "casa",
@@ -1574,7 +1884,9 @@
           "odd": 1.56,
           "prob": 0.565,
           "valor": -11.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1584,7 +1896,9 @@
           "odd": 1.5,
           "prob": 0.654,
           "valor": -2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.5
         },
         {
           "equipa": "fora",
@@ -1594,7 +1908,9 @@
           "odd": 2.38,
           "prob": 0.346,
           "valor": -17.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1604,7 +1920,9 @@
           "odd": 2.02,
           "prob": 0.5,
           "valor": 1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.02
         },
         {
           "equipa": "fora",
@@ -1614,10 +1932,15 @@
           "odd": 1.71,
           "prob": 0.5,
           "valor": -14.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 12,
+        "fora": 5
+      }
     },
     {
       "fixture": 1557424,
@@ -1638,7 +1961,9 @@
           "odd": 1.8,
           "prob": 0.58,
           "valor": 4.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "casa",
@@ -1648,7 +1973,9 @@
           "odd": 1.91,
           "prob": 0.42,
           "valor": -19.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1658,7 +1985,9 @@
           "odd": 1.73,
           "prob": 0.528,
           "valor": -8.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.73
         },
         {
           "equipa": "fora",
@@ -1668,7 +1997,9 @@
           "odd": 2,
           "prob": 0.472,
           "valor": -5.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1678,7 +2009,9 @@
           "odd": 1.75,
           "prob": 0.58,
           "valor": 1.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.75
         },
         {
           "equipa": "casa",
@@ -1688,7 +2021,9 @@
           "odd": 1.96,
           "prob": 0.42,
           "valor": -17.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1698,7 +2033,9 @@
           "odd": 2.31,
           "prob": 0.438,
           "valor": 1.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1708,7 +2045,9 @@
           "odd": 1.53,
           "prob": 0.562,
           "valor": -14.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.53
         },
         {
           "equipa": "fora",
@@ -1718,7 +2057,9 @@
           "odd": 1.58,
           "prob": 0.528,
           "valor": -16.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.58
         },
         {
           "equipa": "fora",
@@ -1728,7 +2069,9 @@
           "odd": 2.2,
           "prob": 0.472,
           "valor": 3.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1738,7 +2081,9 @@
           "odd": 2.08,
           "prob": 0.387,
           "valor": -19.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.08
         },
         {
           "equipa": "fora",
@@ -1748,10 +2093,15 @@
           "odd": 1.65,
           "prob": 0.613,
           "valor": 1.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 5,
+        "fora": 6
+      }
     },
     {
       "fixture": 1575179,
@@ -1779,7 +2129,9 @@
           "odd": 2.1,
           "prob": 0.566,
           "valor": 18.9,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1789,7 +2141,9 @@
           "odd": 1.67,
           "prob": 0.434,
           "valor": -27.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "fora",
@@ -1799,7 +2153,9 @@
           "odd": 1.83,
           "prob": 0.362,
           "valor": -33.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -1809,7 +2165,9 @@
           "odd": 1.83,
           "prob": 0.638,
           "valor": 16.8,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1819,7 +2177,9 @@
           "odd": 1.77,
           "prob": 0.566,
           "valor": 0.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1829,7 +2189,9 @@
           "odd": 1.94,
           "prob": 0.434,
           "valor": -15.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.94
         },
         {
           "equipa": "fora",
@@ -1839,7 +2201,9 @@
           "odd": 1.87,
           "prob": 0.362,
           "valor": -32.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.87
         },
         {
           "equipa": "fora",
@@ -1849,10 +2213,15 @@
           "odd": 1.83,
           "prob": 0.638,
           "valor": 16.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 3,
+        "fora": 5
+      }
     },
     {
       "fixture": 1570405,
@@ -1873,7 +2242,9 @@
           "odd": 1.83,
           "prob": 0.407,
           "valor": -25.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -1883,7 +2254,9 @@
           "odd": 1.83,
           "prob": 0.593,
           "valor": 8.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1893,7 +2266,9 @@
           "odd": 1.91,
           "prob": 0.607,
           "valor": 15.9,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.91
         },
         {
           "equipa": "fora",
@@ -1903,7 +2278,9 @@
           "odd": 1.8,
           "prob": 0.393,
           "valor": -29.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -1913,7 +2290,9 @@
           "odd": 1.81,
           "prob": 0.407,
           "valor": -26.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.81
         },
         {
           "equipa": "casa",
@@ -1923,7 +2302,9 @@
           "odd": 1.89,
           "prob": 0.593,
           "valor": 12.1,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1933,7 +2314,9 @@
           "odd": 1.72,
           "prob": 0.607,
           "valor": 4.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.72
         },
         {
           "equipa": "fora",
@@ -1943,7 +2326,9 @@
           "odd": 2,
           "prob": 0.393,
           "valor": -21.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1953,7 +2338,9 @@
           "odd": 2.4,
           "prob": 0.45,
           "valor": 7.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -1963,10 +2350,15 @@
           "odd": 1.49,
           "prob": 0.55,
           "valor": -18,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.49
         }
       ],
-      "real": null
+      "real": {
+        "casa": 8,
+        "fora": 4
+      }
     },
     {
       "fixture": 1575511,
@@ -1987,7 +2379,9 @@
           "odd": 1.8,
           "prob": 0.32,
           "valor": -42.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "casa",
@@ -1997,7 +2391,9 @@
           "odd": 1.91,
           "prob": 0.68,
           "valor": 29.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2007,7 +2403,9 @@
           "odd": 1.83,
           "prob": 0.625,
           "valor": 14.3,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -2017,7 +2415,9 @@
           "odd": 1.83,
           "prob": 0.375,
           "valor": -31.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2027,7 +2427,9 @@
           "odd": 1.77,
           "prob": 0.32,
           "valor": -43.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.77
         },
         {
           "equipa": "casa",
@@ -2037,7 +2439,9 @@
           "odd": 1.92,
           "prob": 0.68,
           "valor": 30.6,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2047,7 +2451,9 @@
           "odd": 1.61,
           "prob": 0.625,
           "valor": 0.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.61
         },
         {
           "equipa": "fora",
@@ -2057,7 +2463,9 @@
           "odd": 2.12,
           "prob": 0.375,
           "valor": -20.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2067,7 +2475,9 @@
           "odd": 2.45,
           "prob": 0.445,
           "valor": 9.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.45
         },
         {
           "equipa": "fora",
@@ -2077,10 +2487,15 @@
           "odd": 1.46,
           "prob": 0.555,
           "valor": -19,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 11,
+        "fora": 6
+      }
     },
     {
       "fixture": 1550138,
@@ -2101,7 +2516,9 @@
           "odd": 2.1,
           "prob": 0.56,
           "valor": 17.7,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2111,7 +2528,9 @@
           "odd": 1.67,
           "prob": 0.44,
           "valor": -26.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "fora",
@@ -2121,7 +2540,9 @@
           "odd": 1.8,
           "prob": 0.462,
           "valor": -16.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "fora",
@@ -2131,7 +2552,9 @@
           "odd": 1.91,
           "prob": 0.538,
           "valor": 2.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2141,7 +2564,9 @@
           "odd": 1.79,
           "prob": 0.56,
           "valor": 0.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2151,7 +2576,9 @@
           "odd": 1.92,
           "prob": 0.44,
           "valor": -15.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.92
         },
         {
           "equipa": "fora",
@@ -2161,7 +2588,9 @@
           "odd": 1.83,
           "prob": 0.462,
           "valor": -15.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "fora",
@@ -2171,10 +2600,15 @@
           "odd": 1.87,
           "prob": 0.538,
           "valor": 0.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 1,
+        "fora": 9
+      }
     },
     {
       "fixture": 1552782,
@@ -2202,7 +2636,9 @@
           "odd": 1.73,
           "prob": 0.452,
           "valor": -21.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.73
         },
         {
           "equipa": "casa",
@@ -2212,7 +2648,9 @@
           "odd": 2,
           "prob": 0.548,
           "valor": 9.5,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2222,7 +2660,9 @@
           "odd": 2.1,
           "prob": 0.611,
           "valor": 28.2,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2232,7 +2672,9 @@
           "odd": 1.67,
           "prob": 0.389,
           "valor": -35,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "casa",
@@ -2242,7 +2684,9 @@
           "odd": 1.84,
           "prob": 0.452,
           "valor": -16.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.84
         },
         {
           "equipa": "casa",
@@ -2252,7 +2696,9 @@
           "odd": 1.84,
           "prob": 0.548,
           "valor": 0.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2262,7 +2708,9 @@
           "odd": 1.83,
           "prob": 0.611,
           "valor": 11.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2272,10 +2720,15 @@
           "odd": 1.85,
           "prob": 0.389,
           "valor": -27.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.85
         }
       ],
-      "real": null
+      "real": {
+        "casa": 12,
+        "fora": 3
+      }
     },
     {
       "fixture": 1570409,
@@ -2296,7 +2749,9 @@
           "odd": 1.83,
           "prob": 0.343,
           "valor": -37.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -2306,7 +2761,9 @@
           "odd": 1.83,
           "prob": 0.657,
           "valor": 20.3,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2316,7 +2773,9 @@
           "odd": 1.73,
           "prob": 0.623,
           "valor": 7.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2326,7 +2785,9 @@
           "odd": 2,
           "prob": 0.377,
           "valor": -24.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1
         },
         {
           "equipa": "casa",
@@ -2336,7 +2797,9 @@
           "odd": 1.54,
           "prob": 0.481,
           "valor": -25.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.54
         },
         {
           "equipa": "casa",
@@ -2346,7 +2809,9 @@
           "odd": 2.28,
           "prob": 0.519,
           "valor": 18.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2356,7 +2821,9 @@
           "odd": 2.01,
           "prob": 0.343,
           "valor": -31.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.01
         },
         {
           "equipa": "casa",
@@ -2366,7 +2833,9 @@
           "odd": 1.7,
           "prob": 0.657,
           "valor": 11.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2376,7 +2845,9 @@
           "odd": 1.85,
           "prob": 0.623,
           "valor": 15.2,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2386,10 +2857,15 @@
           "odd": 1.85,
           "prob": 0.377,
           "valor": -30.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.85
         }
       ],
-      "real": null
+      "real": {
+        "casa": 8,
+        "fora": 3
+      }
     },
     {
       "fixture": 1575510,
@@ -2410,7 +2886,9 @@
           "odd": 1.83,
           "prob": 0.43,
           "valor": -21.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -2420,7 +2898,9 @@
           "odd": 1.83,
           "prob": 0.57,
           "valor": 4.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2430,7 +2910,9 @@
           "odd": 1.62,
           "prob": 0.555,
           "valor": -10.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.62
         },
         {
           "equipa": "fora",
@@ -2440,7 +2922,9 @@
           "odd": 2.2,
           "prob": 0.445,
           "valor": -2.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2450,7 +2934,9 @@
           "odd": 1.69,
           "prob": 0.43,
           "valor": -27.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.69
         },
         {
           "equipa": "casa",
@@ -2460,7 +2946,9 @@
           "odd": 2,
           "prob": 0.57,
           "valor": 14,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2470,7 +2958,9 @@
           "odd": 2.28,
           "prob": 0.296,
           "valor": -32.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2480,7 +2970,9 @@
           "odd": 1.53,
           "prob": 0.704,
           "valor": 7.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.53
         },
         {
           "equipa": "fora",
@@ -2490,7 +2982,9 @@
           "odd": 1.58,
           "prob": 0.555,
           "valor": -12.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.58
         },
         {
           "equipa": "fora",
@@ -2500,7 +2994,9 @@
           "odd": 2.17,
           "prob": 0.445,
           "valor": -3.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2510,7 +3006,9 @@
           "odd": 2.17,
           "prob": 0.397,
           "valor": -13.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.17
         },
         {
           "equipa": "fora",
@@ -2520,10 +3018,15 @@
           "odd": 1.58,
           "prob": 0.603,
           "valor": -4.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 5,
+        "fora": 6
+      }
     },
     {
       "fixture": 1492405,
@@ -2544,7 +3047,9 @@
           "odd": 1.8,
           "prob": 0.427,
           "valor": -23.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2554,7 +3059,9 @@
           "odd": 1.91,
           "prob": 0.573,
           "valor": 9.5,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.91
         },
         {
           "equipa": "fora",
@@ -2564,7 +3071,9 @@
           "odd": 1.57,
           "prob": 0.694,
           "valor": 9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2574,7 +3083,9 @@
           "odd": 2.25,
           "prob": 0.306,
           "valor": -31.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.25
         },
         {
           "equipa": "fora",
@@ -2584,7 +3095,9 @@
           "odd": 2.25,
           "prob": 0.522,
           "valor": 17.4,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2594,7 +3107,9 @@
           "odd": 1.57,
           "prob": 0.478,
           "valor": -24.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.57
         },
         {
           "equipa": "casa",
@@ -2604,7 +3119,9 @@
           "odd": 1.83,
           "prob": 0.427,
           "valor": -21.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2614,7 +3131,9 @@
           "odd": 1.85,
           "prob": 0.573,
           "valor": 6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.85
         },
         {
           "equipa": "fora",
@@ -2624,7 +3143,9 @@
           "odd": 1.89,
           "prob": 0.522,
           "valor": -1.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2634,10 +3155,15 @@
           "odd": 1.79,
           "prob": 0.478,
           "valor": -14.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.79
         }
       ],
-      "real": null
+      "real": {
+        "casa": 4,
+        "fora": 2
+      }
     },
     {
       "fixture": 1492406,
@@ -2658,7 +3184,9 @@
           "odd": 1.8,
           "prob": 0.539,
           "valor": -2.9,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "casa",
@@ -2668,7 +3196,9 @@
           "odd": 1.91,
           "prob": 0.461,
           "valor": -12,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2678,7 +3208,9 @@
           "odd": 1.8,
           "prob": 0.469,
           "valor": -15.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "fora",
@@ -2688,7 +3220,9 @@
           "odd": 1.91,
           "prob": 0.531,
           "valor": 1.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2698,7 +3232,9 @@
           "odd": 1.76,
           "prob": 0.539,
           "valor": -5.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.76
         },
         {
           "equipa": "casa",
@@ -2708,7 +3244,9 @@
           "odd": 1.93,
           "prob": 0.461,
           "valor": -11.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2718,7 +3256,9 @@
           "odd": 2.23,
           "prob": 0.398,
           "valor": -11.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.23
         },
         {
           "equipa": "casa",
@@ -2728,7 +3268,9 @@
           "odd": 1.55,
           "prob": 0.602,
           "valor": -6.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2738,7 +3280,9 @@
           "odd": 1.8,
           "prob": 0.469,
           "valor": -15.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "fora",
@@ -2748,10 +3292,15 @@
           "odd": 1.88,
           "prob": 0.531,
           "valor": -0.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         }
       ],
-      "real": null
+      "real": {
+        "casa": 6,
+        "fora": 5
+      }
     },
     {
       "fixture": 1492407,
@@ -2772,7 +3321,9 @@
           "odd": 1.83,
           "prob": 0.39,
           "valor": -28.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.83
         },
         {
           "equipa": "casa",
@@ -2782,7 +3333,9 @@
           "odd": 1.83,
           "prob": 0.61,
           "valor": 11.5,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2792,7 +3345,9 @@
           "odd": 1.8,
           "prob": 0.62,
           "valor": 11.7,
-          "sinal": true
+          "sinal": true,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2802,7 +3357,9 @@
           "odd": 1.91,
           "prob": 0.38,
           "valor": -27.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.91
         },
         {
           "equipa": "casa",
@@ -2812,7 +3369,9 @@
           "odd": 1.59,
           "prob": 0.52,
           "valor": -17.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.59
         },
         {
           "equipa": "casa",
@@ -2822,7 +3381,9 @@
           "odd": 2.15,
           "prob": 0.48,
           "valor": 3.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2832,7 +3393,9 @@
           "odd": 1.89,
           "prob": 0.39,
           "valor": -26.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.89
         },
         {
           "equipa": "casa",
@@ -2842,7 +3405,9 @@
           "odd": 1.79,
           "prob": 0.61,
           "valor": 9.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2852,7 +3417,9 @@
           "odd": 1.63,
           "prob": 0.62,
           "valor": 1.1,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2862,7 +3429,9 @@
           "odd": 2.09,
           "prob": 0.38,
           "valor": -20.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 1.09
         },
         {
           "equipa": "fora",
@@ -2872,7 +3441,9 @@
           "odd": 2.3,
           "prob": 0.464,
           "valor": 6.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2882,10 +3453,15 @@
           "odd": 1.52,
           "prob": 0.536,
           "valor": -18.5,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.52
         }
       ],
-      "real": null
+      "real": {
+        "casa": 7,
+        "fora": 3
+      }
     },
     {
       "fixture": 1492401,
@@ -2906,7 +3482,9 @@
           "odd": 1.91,
           "prob": 0.35,
           "valor": -33.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2916,7 +3494,9 @@
           "odd": 1.8,
           "prob": 0.65,
           "valor": 17.1,
-          "sinal": true
+          "sinal": true,
+          "ganhou": true,
+          "retorno": 0.8
         },
         {
           "equipa": "fora",
@@ -2926,7 +3506,9 @@
           "odd": 2.1,
           "prob": 0.48,
           "valor": 0.8,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2936,7 +3518,9 @@
           "odd": 1.67,
           "prob": 0.52,
           "valor": -13.2,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.67
         },
         {
           "equipa": "casa",
@@ -2946,7 +3530,9 @@
           "odd": 1.6,
           "prob": 0.477,
           "valor": -23.7,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.6
         },
         {
           "equipa": "casa",
@@ -2956,7 +3542,9 @@
           "odd": 2.14,
           "prob": 0.523,
           "valor": 12,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2966,7 +3554,9 @@
           "odd": 2.05,
           "prob": 0.35,
           "valor": -28.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "casa",
@@ -2976,7 +3566,9 @@
           "odd": 1.65,
           "prob": 0.65,
           "valor": 7.3,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.65
         },
         {
           "equipa": "fora",
@@ -2986,7 +3578,9 @@
           "odd": 1.95,
           "prob": 0.48,
           "valor": -6.4,
-          "sinal": false
+          "sinal": false,
+          "ganhou": false,
+          "retorno": -1
         },
         {
           "equipa": "fora",
@@ -2996,10 +3590,15 @@
           "odd": 1.74,
           "prob": 0.52,
           "valor": -9.6,
-          "sinal": false
+          "sinal": false,
+          "ganhou": true,
+          "retorno": 0.74
         }
       ],
-      "real": null
+      "real": {
+        "casa": 6,
+        "fora": 2
+      }
     }
   ]
 }

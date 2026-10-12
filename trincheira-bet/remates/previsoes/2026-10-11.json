@@ -29,10 +29,14 @@
             "minha_prob": 0.433,
             "prob_da_casa": 0.389,
             "edge": 3.8,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 1.4
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 33,
+          "quem_acertou": "modelo",
+          "erro_modelo": 3,
+          "erro_casa": 4.5
         },
         "baliza": {
           "previsao_bruta": 11,
@@ -48,10 +52,14 @@
             "minha_prob": 0.472,
             "prob_da_casa": 0.404,
             "edge": 9.5,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 8,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.8,
+          "erro_casa": 1.5
         }
       }
     },
@@ -81,10 +89,14 @@
             "minha_prob": 0.305,
             "prob_da_casa": 0.287,
             "edge": -0.9,
-            "margem": 7.1
+            "margem": 7.1,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 20,
+          "quem_acertou": "casa",
+          "erro_modelo": 5,
+          "erro_casa": 4.5
         },
         "baliza": {
           "previsao_bruta": 8.8,
@@ -100,10 +112,14 @@
             "minha_prob": 0.288,
             "prob_da_casa": 0.258,
             "edge": 4.2,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 2,
+          "quem_acertou": "casa",
+          "erro_modelo": 6.8,
+          "erro_casa": 6.5
         }
       }
     },
@@ -133,10 +149,14 @@
             "minha_prob": 0.763,
             "prob_da_casa": 0.774,
             "edge": -7.7,
-            "margem": 6.7
+            "margem": 6.7,
+            "teria_ganho": true,
+            "retorno": 0.21
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 33,
+          "quem_acertou": "modelo",
+          "erro_modelo": 5.8,
+          "erro_casa": 6.5
         },
         "baliza": {
           "previsao_bruta": 10.1,
@@ -152,10 +172,14 @@
             "minha_prob": 0.655,
             "prob_da_casa": 0.614,
             "edge": -0.5,
-            "margem": 7.1
+            "margem": 7.1,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 6,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.2,
+          "erro_casa": 3.5
         }
       }
     },
@@ -185,10 +209,14 @@
             "minha_prob": 0.305,
             "prob_da_casa": 0.246,
             "edge": 16,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 28,
+          "quem_acertou": "casa",
+          "erro_modelo": 1,
+          "erro_casa": 0.5
         },
         "baliza": {
           "previsao_bruta": 10.4,
@@ -204,10 +232,14 @@
             "minha_prob": 0.553,
             "prob_da_casa": 0.515,
             "edge": 0.7,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": true,
+            "retorno": 0.82
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 10,
+          "quem_acertou": "modelo",
+          "erro_modelo": 0.4,
+          "erro_casa": 0.5
         }
       }
     },
@@ -237,10 +269,14 @@
             "minha_prob": 0.718,
             "prob_da_casa": 0.741,
             "edge": -9.6,
-            "margem": 7.1
+            "margem": 7.1,
+            "teria_ganho": true,
+            "retorno": 0.26
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 37,
+          "quem_acertou": "casa",
+          "erro_modelo": 10.6,
+          "erro_casa": 10.5
         },
         "baliza": {
           "previsao_bruta": 8.1,
@@ -256,10 +292,14 @@
             "minha_prob": 0.85,
             "prob_da_casa": 0.86,
             "edge": -7.4,
-            "margem": 6.7
+            "margem": 6.7,
+            "teria_ganho": true,
+            "retorno": 0.09
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 13,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.8,
+          "erro_casa": 4.5
         }
       }
     },
@@ -289,10 +329,14 @@
             "minha_prob": 0.734,
             "prob_da_casa": 0.515,
             "edge": 32.1,
-            "margem": 7.9
+            "margem": 7.9,
+            "teria_ganho": true,
+            "retorno": 0.8
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 24,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.6,
+          "erro_casa": 1.5
         },
         "baliza": {
           "previsao_bruta": 8,
@@ -308,10 +352,14 @@
             "minha_prob": 0.388,
             "prob_da_casa": 0.389,
             "edge": -6.9,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 1.4
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 12,
+          "quem_acertou": "casa",
+          "erro_modelo": 3.9,
+          "erro_casa": 3.5
         }
       }
     },
@@ -341,10 +389,14 @@
             "minha_prob": 0.455,
             "prob_da_casa": 0.266,
             "edge": 59.2,
-            "margem": 7.3
+            "margem": 7.3,
+            "teria_ganho": true,
+            "retorno": 2.5
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 35,
+          "quem_acertou": "modelo",
+          "erro_modelo": 3.7,
+          "erro_casa": 7.5
         },
         "baliza": {
           "previsao_bruta": 12.2,
@@ -360,10 +412,14 @@
             "minha_prob": 0.397,
             "prob_da_casa": 0.302,
             "edge": 23,
-            "margem": 6.9
+            "margem": 6.9,
+            "teria_ganho": true,
+            "retorno": 2.1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 14,
+          "quem_acertou": "modelo",
+          "erro_modelo": 2.8,
+          "erro_casa": 4.5
         }
       }
     },
@@ -393,10 +449,14 @@
             "minha_prob": 0.484,
             "prob_da_casa": 0.515,
             "edge": -12.9,
-            "margem": 7.9
+            "margem": 7.9,
+            "teria_ganho": true,
+            "retorno": 0.8
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 33,
+          "quem_acertou": "modelo",
+          "erro_modelo": 7.2,
+          "erro_casa": 7.5
         },
         "baliza": {
           "previsao_bruta": 9.6,
@@ -412,10 +472,14 @@
             "minha_prob": 0.533,
             "prob_da_casa": 0.5,
             "edge": -0.3,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 0.87
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 11,
+          "quem_acertou": "modelo",
+          "erro_modelo": 1.7,
+          "erro_casa": 2.5
         }
       }
     },
@@ -445,10 +509,14 @@
             "minha_prob": 0.34,
             "prob_da_casa": 0.284,
             "edge": 12.1,
-            "margem": 6.6
+            "margem": 6.6,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 30,
+          "quem_acertou": "modelo",
+          "erro_modelo": 1.4,
+          "erro_casa": 2.5
         },
         "baliza": {
           "previsao_bruta": 10.1,
@@ -464,10 +532,14 @@
             "minha_prob": 0.53,
             "prob_da_casa": 0.48,
             "edge": 3.4,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": true,
+            "retorno": 0.95
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 11,
+          "quem_acertou": "modelo",
+          "erro_modelo": 0.8,
+          "erro_casa": 1.5
         }
       }
     },
@@ -497,10 +569,14 @@
             "minha_prob": 0.645,
             "prob_da_casa": 0.758,
             "edge": -20.6,
-            "margem": 7.3
+            "margem": 7.3,
+            "teria_ganho": true,
+            "retorno": 0.23
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 28,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.8,
+          "erro_casa": 1.5
         },
         "baliza": {
           "previsao_bruta": 9,
@@ -516,10 +592,14 @@
             "minha_prob": 0.814,
             "prob_da_casa": 0.854,
             "edge": -11.3,
-            "margem": 7.4
+            "margem": 7.4,
+            "teria_ganho": true,
+            "retorno": 0.09
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 10,
+          "quem_acertou": "casa",
+          "erro_modelo": 1.2,
+          "erro_casa": 0.5
         }
       }
     },
@@ -549,10 +629,14 @@
             "minha_prob": 0.377,
             "prob_da_casa": 0.339,
             "edge": 4.5,
-            "margem": 6.5
+            "margem": 6.5,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 15,
+          "quem_acertou": "casa",
+          "erro_modelo": 13.2,
+          "erro_casa": 11.5
         },
         "baliza": {
           "previsao_bruta": 10.5,
@@ -568,10 +652,14 @@
             "minha_prob": 0.517,
             "prob_da_casa": 0.464,
             "edge": 3.5,
-            "margem": 7.8
+            "margem": 7.8,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 5,
+          "quem_acertou": "casa",
+          "erro_modelo": 5.1,
+          "erro_casa": 4.5
         }
       }
     },
@@ -601,10 +689,14 @@
             "minha_prob": 0.68,
             "prob_da_casa": 0.756,
             "edge": -15.6,
-            "margem": 6.6
+            "margem": 6.6,
+            "teria_ganho": true,
+            "retorno": 0.24
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 31,
+          "quem_acertou": "casa",
+          "erro_modelo": 4.3,
+          "erro_casa": 3.5
         },
         "baliza": {
           "previsao_bruta": 9.7,
@@ -620,10 +712,14 @@
             "minha_prob": 0.857,
             "prob_da_casa": 0.866,
             "edge": -7.5,
-            "margem": 6.9
+            "margem": 6.9,
+            "teria_ganho": true,
+            "retorno": 0.08
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 12,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.7,
+          "erro_casa": 2.5
         }
       }
     },
@@ -653,10 +749,14 @@
             "minha_prob": 0.72,
             "prob_da_casa": 0.741,
             "edge": -9.3,
-            "margem": 7.1
+            "margem": 7.1,
+            "teria_ganho": true,
+            "retorno": 0.26
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 31,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.6,
+          "erro_casa": 2.5
         },
         "baliza": {
           "previsao_bruta": 9.7,
@@ -672,10 +772,14 @@
             "minha_prob": 0.862,
             "prob_da_casa": 0.856,
             "edge": -6.1,
-            "margem": 7.1
+            "margem": 7.1,
+            "teria_ganho": true,
+            "retorno": 0.09
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 8,
+          "quem_acertou": "modelo",
+          "erro_modelo": 1.4,
+          "erro_casa": 1.5
         }
       }
     },
@@ -705,10 +809,14 @@
             "minha_prob": 0.64,
             "prob_da_casa": 0.766,
             "edge": -21.9,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 0.22
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 30,
+          "quem_acertou": "casa",
+          "erro_modelo": 3.9,
+          "erro_casa": 2.5
         },
         "baliza": {
           "previsao_bruta": 9.4,
@@ -724,10 +832,14 @@
             "minha_prob": 0.842,
             "prob_da_casa": 0.854,
             "edge": -8.2,
-            "margem": 7.4
+            "margem": 7.4,
+            "teria_ganho": true,
+            "retorno": 0.09
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 13,
+          "quem_acertou": "casa",
+          "erro_modelo": 3.9,
+          "erro_casa": 3.5
         }
       }
     },
@@ -757,10 +869,14 @@
             "minha_prob": 0.638,
             "prob_da_casa": 0.747,
             "edge": -20.3,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 0.25
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 29,
+          "quem_acertou": "casa",
+          "erro_modelo": 1.9,
+          "erro_casa": 0.5
         },
         "baliza": {
           "previsao_bruta": 9.3,
@@ -776,10 +892,14 @@
             "minha_prob": 0.844,
             "prob_da_casa": 0.874,
             "edge": -9.6,
-            "margem": 7
+            "margem": 7,
+            "teria_ganho": true,
+            "retorno": 0.07
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 10,
+          "quem_acertou": "casa",
+          "erro_modelo": 0.9,
+          "erro_casa": 0.5
         }
       }
     },
@@ -809,10 +929,14 @@
             "minha_prob": 0.299,
             "prob_da_casa": 0.23,
             "edge": 21.1,
-            "margem": 7.3
+            "margem": 7.3,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 26,
+          "quem_acertou": "casa",
+          "erro_modelo": 2.9,
+          "erro_casa": 1.5
         },
         "baliza": {
           "previsao_bruta": 8.8,
@@ -828,10 +952,14 @@
             "minha_prob": 0.813,
             "prob_da_casa": 0.844,
             "edge": -9.7,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": true,
+            "retorno": 0.11
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 6,
+          "quem_acertou": "modelo",
+          "erro_modelo": 2.8,
+          "erro_casa": 3.5
         }
       }
     },
@@ -861,10 +989,14 @@
             "minha_prob": 0.752,
             "prob_da_casa": 0.763,
             "edge": -7.5,
-            "margem": 6.6
+            "margem": 6.6,
+            "teria_ganho": true,
+            "retorno": 0.23
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 34,
+          "quem_acertou": "modelo",
+          "erro_modelo": 6,
+          "erro_casa": 6.5
         },
         "baliza": {
           "previsao_bruta": 9.2,
@@ -880,10 +1012,14 @@
             "minha_prob": 0.835,
             "prob_da_casa": 0.844,
             "edge": -7.3,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": true,
+            "retorno": 0.11
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 11,
+          "quem_acertou": "modelo",
+          "erro_modelo": 2,
+          "erro_casa": 2.5
         }
       }
     },
@@ -913,10 +1049,14 @@
             "minha_prob": 0.367,
             "prob_da_casa": 0.326,
             "edge": 5.2,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 26,
+          "quem_acertou": "casa",
+          "erro_modelo": 3,
+          "erro_casa": 1.5
         },
         "baliza": {
           "previsao_bruta": 10.1,
@@ -932,12 +1072,40 @@
             "minha_prob": 0.697,
             "prob_da_casa": 0.674,
             "edge": -3.1,
-            "margem": 6.8
+            "margem": 6.8,
+            "teria_ganho": false,
+            "retorno": -1
           },
-          "real": null,
-          "quem_acertou": null
+          "real": 4,
+          "quem_acertou": "casa",
+          "erro_modelo": 5.6,
+          "erro_casa": 4.5
         }
       }
     }
-  ]
+  ],
+  "avaliado_em": "2026-10-12T06:19:48.802Z",
+  "balanco": {
+    "quem_ficou_mais_perto": {
+      "modelo": 13,
+      "casa": 23,
+      "empate": 0
+    },
+    "por_mercado": {
+      "remates": {
+        "modelo": 6,
+        "casa": 12,
+        "empate": 0
+      },
+      "baliza": {
+        "modelo": 7,
+        "casa": 11,
+        "empate": 0
+      }
+    },
+    "se_tivesse_apostado": {
+      "linhas": 36,
+      "retorno_em_stakes": 3.27
+    }
+  }
 }

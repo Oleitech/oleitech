@@ -1,0 +1,84 @@
+{
+  "gerado": "2026-10-12T06:20:21.688Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1550137,
+      "data": "2026-10-12T16:30:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Atalanta - Venezia",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -1.045,
+      "def": -0.11,
+      "zona": null
+    },
+    {
+      "fixture": 1550146,
+      "data": "2026-10-12T18:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Torino - Udinese",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.245,
+      "def": -0.71,
+      "zona": null
+    },
+    {
+      "fixture": 1492404,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Coritiba - Botafogo",
+      "jogos_tabela": 29,
+      "amostra_fraca": false,
+      "atq": 0.06,
+      "def": -0.637,
+      "zona": null
+    },
+    {
+      "fixture": 1557420,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Coventry - Newcastle",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.915,
+      "def": 0.031,
+      "zona": null
+    },
+    {
+      "fixture": 1570407,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Sevilla",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": -0.29,
+      "def": 0.056,
+      "zona": null
+    },
+    {
+      "fixture": 1575514,
+      "data": "2026-10-12T19:15:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Famalicao - Alverca",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -0.143,
+      "def": 0.286,
+      "zona": null
+    },
+    {
+      "fixture": 1492403,
+      "data": "2026-10-12T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Atletico Paranaense",
+      "jogos_tabela": 28,
+      "amostra_fraca": false,
+      "atq": -0.077,
+      "def": -0.467,
+      "zona": null
+    }
+  ]
+}

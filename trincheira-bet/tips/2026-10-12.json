@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T06:32:30.574Z",
+  "units": "stakes",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1549028,
+      "home": {
+        "name": "Aarhus",
+        "logo": "https://media.api-sports.io/football/teams/406.png"
+      },
+      "away": {
+        "name": "Sonderjyske",
+        "logo": "https://media.api-sports.io/football/teams/396.png"
+      },
+      "league": "Superliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/119.png",
+      "kickoff": "2026-10-12T17:00:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O AGF ainda não ganhou no campeonato e sofreu golos nos nove jogos que fez — nem uma baliza a zero. O SønderjyskE é último, mas marcou nos últimos quatro jogos e leva mais de dois golos por jogo. É jogo de aflitos, os dois com cinco pontos no fundo da tabela, e nenhum se pode dar ao luxo de jogar para o empate. Nos últimos cinco confrontos oficiais marcaram sempre os dois. Vai no ambas marcam e não na vitória do AGF a 1.57, porque uma equipa sem vitórias em nove jornadas não dá para fiar — o que se repete nestas duas é sofrer. O risco é o medo de perder prender o jogo: o treinador do SønderjyskE aproveitou a paragem longa para trabalhar a defesa.",
+      "factors": [
+        "AGF, Superliga 2026/27 (API-Football /fixtures, n=9): 1-1, 2-2 fora, 1-2 fora, 2-2, 1-2 fora, 0-2, 2-2, 0-2 fora, 2-2 fora — 0V 5E 4D, sofreu em 9 de 9, marcou em 7 de 9, ambas marcam 7 de 9; em casa (n=4) ambas marcam 3 de 4. Amigável com o Vendsyssel, Taça e Liga Europa excluídos",
+        "SønderjyskE, Superliga 2026/27 (API, n=9): 2-3, 0-1 fora, 0-0, 2-3 fora, 0-3, 1-3 fora, 2-5, 1-1 fora, 4-2 — 1V 2E 6D, 12 marcados e 21 sofridos, ambas marcam 6 de 9; fora (n=4) ambas marcam 3 de 4 e marcou em 3 de 4; marcou nos últimos 4 jogos da liga. Taça excluída",
+        "FootyStats, splits Superliga 2026/27: AGF em casa (n=4) ambas marcam 75%, balizas a zero 0%, 1,25 marcados / 1,75 sofridos, xG 2,04 / xGA 1,22; SønderjyskE fora (n=4) ambas marcam 75%, balizas a zero 0%, 1,00 marcados / 2,00 sofridos, xG 1,26 / xGA 2,07. Posições: AGF 11.º e SønderjyskE 12.º (de 12), os dois com 5 pontos",
+        "Época toda (API /teams/statistics, Superliga 2026/27, n=9 cada): AGF 0 balizas a zero e 2 jogos sem marcar; SønderjyskE 1 baliza a zero e 3 jogos sem marcar",
+        "H2H oficial (API, últimos 5): 2-1 (05/2026, liga), 1-1 fora (03/2026, liga), 2-3 (11/2025, liga), 2-1 (10/2025, Taça), 1-1 fora (07/2025, liga) — ambas marcam 5 de 5. Amigáveis de 2023 excluídos. FootyStats (32 jogos, todas as provas): ambas marcam 59%",
+        "Ausências com duas fontes: AGF sem Kevin Yakob (joelho) — API /injuries, SportsGambler e ksdh.dk (07/10); Nicolai Poulsen (Aquiles) — API e SportsGambler; Gift Links (fora desde 27/08) — API e ksdh.dk. Emmery e McCowatt voltaram tocados das selecções: ksdh.dk dá Emmery apto e McCowatt em dúvida. SønderjyskE sem Ebube Duru (lateral esquerdo, operado ao tornozelo, fora até ao fim do ano) — site do clube e SportsGambler. O JydskeVestkysten fala em «várias lesões» no SønderjyskE sem as nomear: fonte única e sem nomes, não pesa",
+        "Treinadores: Jakob Poulsen no AGF (ksdh.dk); Fatah Abdirahman no SønderjyskE desde o Verão (JydskeVestkysten e resumo de pesquisa) — sem mudança recente",
+        "Probabilidades: Bet365 Sim 1.57 / Não 2.25 (59% sem margem); Marathonbet 1.53. Poisson com as médias da época dá 60-67% ao Sim. Resultado na Pinnacle 1.57 / 4.61 / 5.23",
+        "Terceiros: MightyTips ambas marcam (1.57), Bet-Experts ambas marcam (1.56), FootyStats 75% nos dois splits; SportsGambler prefere a vitória do AGF (1.64). Padrões ao intervalo indisponíveis (lacuna aceite)"
+      ],
+      "sources": [
+        "API-Football /fixtures (liga 119, época 2026: forma e H2H), /teams/statistics, /injuries?fixture=1549028, /odds?fixture=1549028 (Bet365, Marathonbet, Pinnacle)",
+        "https://footystats.org/denmark/aarhus-gymnastikforening-vs-sonderjysk-elitesport-fodbold-h2h-stats",
+        "https://www.sportsgambler.com/betting-tips/football/agf-vs-sonderjyske-prediction-lineups-odds-2026-10-12/",
+        "https://ksdh.dk/nyheder/trupstatus-efter-landsholdspausen-enkelte-spillere-er-endnu-ikke-kampklar/",
+        "https://soenderjyskefodbold.dk/ebube-duru-forventes-ude-resten-af-aaret/",
+        "https://jv.dk/soenderjyskefodbold/skader-driller-soenderjyske-foer-bundbrag-vi-skifter-og-skifter-og-skifter",
+        "https://agf.dk/nyheder/2026/oktober/3f-superligaen-er-tilbage-sonderjyske-venter-mandag",
+        "https://www.mightytips.com/football-predictions/aarhus-vs-sonderjyske-prediction-12-10-2026/",
+        "https://www.bet-experts.com/picks/football/aarhus-vs-sonderjyske-prediction-betting-tips-12-10-2026/"
+      ]
+    }
+  ],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1612253,
+          "match": "Pyramids FC vs Ceramica Cleopatra",
+          "league": "Premier League (Egipto)",
+          "pick": "Pyramids FC vence",
+          "odds": 1.5,
+          "kickoff": "2026-10-12T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550146,
+          "match": "Torino vs Udinese",
+          "league": "Serie A",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-12T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1551122,
+          "match": "Ludogorets vs Arda Kardzhali",
+          "league": "First League (Bulgária)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-12T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.55,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1505538,
+          "match": "Universidad de Chile vs Nublense",
+          "league": "Primera División (Chile)",
+          "pick": "Universidad de Chile vence",
+          "odds": 1.5,
+          "kickoff": "2026-10-12T20:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570407,
+          "match": "Levante vs Sevilla",
+          "league": "La Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-12T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1492403,
+          "match": "Chapecoense-sc vs Atletico Paranaense",
+          "league": "Serie A (Brasil)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-12T22:30:00Z"
+        }
+      ],
+      "combined_odds": 2.55,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna passou a investigação com 75 ou mais dentro de 1.40-1.60 (ambas marcam no AGF-SønderjyskE a 1.57). As outras da banda — Girona ou empate 1.40, Pyramids 1.50, Universidad de Chile 1.50, Sevilla ou empate 1.44 — estão abaixo do preço justo da Pinnacle e não chegam a 75."
+  },
+  "notes": "Segunda-feira de fecho de jornada, com os campeonatos de volta depois da paragem longa de selecções. Hoje não há jogos de selecções.\n\nSai uma tip só, a uma stake: ambas marcam no AGF-SønderjyskE, o jogo dos dois últimos da Dinamarca. O AGF sofreu em todos os jogos da época e ainda não ganhou; o SønderjyskE marcou nos últimos quatro e leva mais de dois por jogo. O que pode correr mal é o medo de perder prender o jogo — é jogo de aflitos.\n\nO resto do cartaz não deu valor. O Coventry-Newcastle e o Atalanta-Venezia tinham preço, mas as contas não batem certo, e os três sinais de mais ou menos de 2.5 não tinham margem na Bet365 nem na Marathonbet. Remates à baliza não há hoje.\n\nAcumuladores: sem standard, porque só há uma tip. Dois curtos a meia stake — Pyramids, mais de 1.5 no Torino-Udinese e no Ludogorets-Arda (2.55); Universidad de Chile, mais de 1.5 no Levante-Sevilla e no Chapecoense-Athletico (2.55).\n\nCorvo hoje não há: nenhuma combinação de resultado e golos passou as regras.\n\nExposição do dia: 2 stakes."
+}

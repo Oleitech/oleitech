@@ -1,0 +1,215 @@
+{
+  "gerado": "2026-10-12T06:20:13.957Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492404,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Coritiba - Botafogo",
+      "amostra": {
+        "casa": 10,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 32.4,
+          "previsao": 30.9,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": 1.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.629,
+            "prob_da_casa": 0.5,
+            "edge": 15,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10,
+          "previsao": 9.6,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.1,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 5.5,
+            "lado": "Over",
+            "odd": 1.08,
+            "minha_prob": 0.874,
+            "prob_da_casa": 0.863,
+            "edge": -5.6,
+            "margem": 7.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557420,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Coventry - Newcastle",
+      "amostra": {
+        "casa": 7,
+        "fora": 7,
+        "descartados": 5
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28.9,
+          "previsao": 28,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 2.75,
+            "minha_prob": 0.366,
+            "prob_da_casa": 0.341,
+            "edge": 0.6,
+            "margem": 6.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9,
+          "previsao": 8.8,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.7,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 4.5,
+            "lado": "Over",
+            "odd": 1.03,
+            "minha_prob": 0.888,
+            "prob_da_casa": 0.873,
+            "edge": -8.5,
+            "margem": 11.2
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570407,
+      "data": "2026-10-12T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Sevilla",
+      "amostra": {
+        "casa": 6,
+        "fora": 7,
+        "descartados": 7
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 24.1,
+          "previsao": 24.3,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": -0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 23.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.519,
+            "prob_da_casa": 0.515,
+            "edge": -6.5,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.9,
+          "previsao": 8.8,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.3,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 10,
+            "lado": "Over",
+            "odd": 3.55,
+            "minha_prob": 0.295,
+            "prob_da_casa": 0.263,
+            "edge": 4.7,
+            "margem": 6.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492403,
+      "data": "2026-10-12T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Atletico Paranaense",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.4,
+          "previsao": 30.2,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 2.7,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 2.57,
+            "minha_prob": 0.511,
+            "prob_da_casa": 0.364,
+            "edge": 31.3,
+            "margem": 6.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.6,
+          "previsao": 10,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 1.5,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 2.2,
+            "minha_prob": 0.496,
+            "prob_da_casa": 0.424,
+            "edge": 9,
+            "margem": 7.2
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}
