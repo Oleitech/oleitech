@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T06:19:34Z",
+  "units": "stakes",
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Atlético Madrid vence",
+      "fixtureId": 1635623,
+      "home": {
+        "name": "Atletico Madrid",
+        "logo": "https://media.api-sports.io/football/teams/530.png"
+      },
+      "away": {
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png"
+      },
+      "league": "UEFA Champions League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-10-13T19:00:00Z",
+      "odds": 1.85,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Atlético chega com quatro vitórias seguidas na Liga, uma delas o dérbi com o Real Madrid, e em casa esta época só deixou fugir pontos com o Villarreal. Perdeu em Anfield na primeira jornada e não pode arrancar a fase de liga com duas derrotas, por isso vai sair para ganhar. O United está ao contrário: uma vitória em seis jogos da Premier, nenhuma fora, nem uma baliza a zero no campeonato, e o Carrick com a cadeira a abanar antes de ir a Leeds. Vem sem os dois laterais de raiz, Mazraoui e Dorgu, e sem o Sesko na frente. O Simeone tem o plantel todo. Vai na vitória simples e não num handicap porque a tese é o Atlético ganhar com o United frágil atrás, não ganhar por muitos. O que pesa contra é o historial do Atlético com equipas inglesas, que não é famoso.",
+      "factors": [
+        "Atlético, La Liga 2026/27 (API /teams/statistics, n=8): 6V 1E 1D; em casa (n=4) 3V, 2,5 marcados e 0,8 sofridos por jogo, 2 balizas a zero. Últimos 4 oficiais (API /fixtures): 2-1 fora ao Alavés, 2-1 ao Real Madrid, 4-0 ao Osasuna, 3-0 fora à Real Sociedad",
+        "Atlético, Champions 2026/27 (API, n=1): 1-2 em Anfield na 1.ª jornada",
+        "Man United, Premier League 2026/27 (API /teams/statistics, n=6): 1V 3E 2D; fora (n=3) 0V, 1,0 marcado e 1,7 sofridos por jogo; 0 balizas a zero em 6. Últimos 5 oficiais (API /fixtures): 1-1 Tottenham, 1-1 fora Fulham, 2-3 Brighton (Taça da Liga), 0-1 Man City, 4-0 Sabah (Champions)",
+        "H2H oficial (API): só 2 jogos, Champions 2021/22 — 1-1 em Madrid e 0-1 em Old Trafford (Atlético passou). Amigáveis de 2022 e 2026 excluídos",
+        "Ausências Man United com duas fontes concordantes: Mazraoui (costas — Rotowire, Sports Mole, LiveScore), Dorgu (coxa — SportsGambler, Sports Mole, LiveScore), Sesko (perna — SportsGambler, Sports Mole, LiveScore), Heaton (SportsGambler, Sports Mole). De Ligt discordante (Sports Mole e LiveScore dão-no fora, CaughtOffside diz que viajou) — não entra na tese. Mainoo e Shaw em dúvida, uma fonte só (falharam o último treino) — não entram na tese",
+        "Atlético sem baixas: SportsGambler e Sports Mole concordam (plantel completo)",
+        "Treinador: sem mudança; Carrick sob pressão e favorito à primeira chicotada da Premier (Sky Sports, ESPN, Goal)",
+        "Probabilidades: Bet365 1.85 (54% implícita); SportsGambler estima 60%. Forebet devolveu 403; Marathonbet sem mercado para este jogo na API",
+        "Terceiros: Racing Post (aposta do dia, Atlético), SportsGambler Atlético @1.90, Sports Mole 3-1, LiveScore 2-0 — consenso de 4 fontes",
+        "Contra: Sports Mole — o Atlético ganhou só 2 dos últimos 15 jogos com equipas inglesas",
+        "xG da FootyStats não usado: a secção do United veio truncada e a amostra «últimos 10» não declara a competição"
+      ],
+      "sources": [
+        "API-Football — /fixtures (forma), /teams/statistics, /fixtures/headtohead, /odds Bet365",
+        "SportsGambler — antevisão Atlético-Man United 13/10 (onzes, baixas, pick)",
+        "Sports Mole — antevisão com team news e onzes prováveis",
+        "Rotowire — Mazraoui fora do jogo da Champions",
+        "LiveScore — previsões das nove partidas de terça (team news)",
+        "CaughtOffside — De Ligt viajou para Madrid",
+        "Sky Sports / ESPN — pressão sobre Carrick",
+        "Racing Post — aposta do dia 13/10",
+        "FootyStats — página H2H (só H2H e xG do Atlético)"
+      ]
+    },
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1635671,
+      "home": {
+        "name": "Inter",
+        "logo": "https://media.api-sports.io/football/teams/505.png"
+      },
+      "away": {
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png"
+      },
+      "league": "UEFA Champions League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-10-13T19:00:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Inter marca em casa como quer — quatro vitórias em quatro na Serie A, quase quatro golos por jogo — mas sofreu em três desses quatro jogos e continua sem o Stones e o Curtis Jones. O Brugge marcou em todos os jogos oficiais da época: oito em oito na liga belga, os quatro fora de casa incluídos, e mais dois ao Aston Villa na primeira jornada. O Tresoldi já leva seis golos. Os dois perderam na estreia e nenhum vem a San Siro para fechar o jogo. Vai no ambas marcam e não na vitória do Inter, que a 1.25 não paga nada, porque a leitura é que o Brugge chega à baliza. O risco é o Inter, com o Lautaro e o Thuram de volta ao onze, resolver cedo e fechar a loja.",
+      "factors": [
+        "Inter, Serie A 2026/27 (API /teams/statistics, n=6): em casa (n=4) 4V, 3,8 marcados e 1,5 sofridos por jogo, 1 baliza a zero; 0 jogos sem marcar. Em casa (API /fixtures): 3-0 Parma, 5-3 Udinese, 3-2 Napoli, 4-1 Monza — ambas marcam 3 de 4",
+        "Inter, últimos 7 oficiais (API /fixtures; amigável com o Lumezzane de 03/10 excluído): sofreu em 5 de 7; Champions 1-2 em Madrid na 1.ª jornada",
+        "Brugge, Pro League 2026/27 (API /teams/statistics, n=8): 7V, 0 jogos sem marcar; fora (n=4) 2,3 marcados por jogo. Fora (API /fixtures): 4-1 La Louvière, 1-0 Lommel, 1-2 Gent, 3-0 OH Leuven — marcou 4 de 4, ambas marcam 2 de 4. Champions: 2-3 com o Aston Villa",
+        "H2H: nunca se defrontaram (API /fixtures/headtohead vazio; FootyStats confirma)",
+        "Ausências Inter com duas fontes: Stones (coxa) e Curtis Jones (coxa) — SportsGambler, LiveScore e antevisões italianas. Carboni (ligamentos) só SportsGambler. Brugge: Ordóñez dado como fora pela LiveScore e por antevisão italiana, SportsGambler diz plantel completo — discordante, não entra na tese (só ajudaria o Inter a marcar)",
+        "Onzes prováveis concordantes (Sky Sport Italia, SportsGambler): Inter com Lautaro e Thuram, Barella, Zielinski, Akanji e Bastoni de volta; Brugge com Tresoldi na frente (6 golos na época — Sky Sport Italia)",
+        "Treinadores: Chivu (Inter) e Leko (Brugge), sem mudança (Sky Sport Italia)",
+        "Probabilidades: Bet365 1.80 (56% implícita), Marathonbet 1.83; Forebet 67% ambas marcam (resumo de pesquisa — a página dá 403); SportsGambler pick ambas marcam @1.83",
+        "Terceiros: SportsGambler ambas marcam, LiveScore 3-1, Forebet 67% — consenso de 3 fontes; Tips.GG vai no mais de 3.5, no mesmo sentido",
+        "FootyStats descartado para splits: o «últimos 10» do Inter inclui o amigável com o Lumezzane"
+      ],
+      "sources": [
+        "API-Football — /fixtures (forma), /teams/statistics, /fixtures/headtohead, /odds Bet365 e Marathonbet",
+        "SportsGambler — antevisão Inter-Club Brugge 13/10 (onzes, baixas, pick)",
+        "Sky Sport Italia — probabili formazioni Inter-Bruges (12/10)",
+        "LiveScore — previsões das nove partidas de terça (team news)",
+        "Antevisões italianas (Eurosport.it, LaPresse) via pesquisa — Stones e Jones fora",
+        "Forebet (resumo de pesquisa; página 403)",
+        "FootyStats — página H2H (só H2H)"
+      ]
+    }
+  ],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1600358,
+          "match": "Richards Bay vs Mamelodi Sundowns",
+          "league": "Premier Soccer League (África do Sul)",
+          "pick": "Mamelodi Sundowns vence",
+          "odds": 1.27,
+          "kickoff": "2026-10-13T17:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1563192,
+          "match": "Bristol City vs Blackburn",
+          "league": "Championship",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-13T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1584029,
+          "match": "Stuttgart II vs Hoffenheim II",
+          "league": "3. Liga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-13T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.21,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna chegou a 75 dentro de 1.40-1.60: mais de 2.5 no Inter-Brugge a 1.40 (Inter 6 de 7 oficiais, Brugge 6 de 8). As outras da banda não aguentaram: Lens-Sporting mais de 2.5 a 1.57 tem os dois ataques desfalcados (Sima e Zalazar fora) e não passa de 70; Galatasaray-Barcelona ambas marcam a 1.40 depende do teste físico do Osimhen, que só se sabe à hora do jogo; Al-Hilal 1.53 tem o H2H contra (1 vitória em 5); Berkane 1.50 e Hansa Rostock 1.44 ficam abaixo de 75 pela forma."
+  },
+  "notes": "Hoje é noite de Champions, segunda jornada, e não de selecções: na agenda só há jogos de clubes, e a qualificação feminina fica de fora, como de costume.\n\nSaem duas tips a uma stake cada, as duas para as oito da noite. O Atlético recebe um United em crise, sem os dois laterais e sem o Sesko, com o Carrick a prazo — vai na vitória simples a 1.85. No Inter-Brugge vai o ambas marcam a 1.80: o Inter sofre em casa e o Brugge marcou em todos os jogos da época.\n\nA que pede mais cuidado é a do Inter: se o Lautaro e o Thuram resolverem cedo, o Inter pode fechar a porta e o Brugge ficar em branco.\n\nAs duas juntas davam 3.33, acima do que se aceita num acumulador, por isso não há boletim com elas. Sai um curto a meia stake a 2.21: Sundowns a ganhar em Richards Bay, mais de 1.5 no Bristol-Blackburn e ambas marcam no Stuttgart II-Hoffenheim II.\n\nSem corvo: os favoritos da Champions nunca se cruzaram com estes adversários, ou quase, e sem esse histórico não se monta o bilhete. O único de fora da Champions que encaixava, o Norrköping, não tem forma para isso. O jogo de golos do modelo, o do Queen’s Park com o Inverness, não tem valor nas casas onde se aposta, e hoje não há remates à baliza.\n\nExposição do dia: 2,5 stakes."
+}
