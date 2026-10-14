@@ -34,8 +34,8 @@
         "valor": 0.045
       },
       "sinal": true,
-      "golos": null,
-      "ganhou": null
+      "golos": 3,
+      "ganhou": false
     },
     {
       "fixture": 1563192,
@@ -61,8 +61,8 @@
         "valor": -0.025
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 1,
+      "ganhou": true
     },
     {
       "fixture": 1563193,
@@ -88,8 +88,8 @@
         "valor": -0.073
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 4,
+      "ganhou": false
     },
     {
       "fixture": 1563194,
@@ -115,8 +115,8 @@
         "valor": -0.017
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 6,
+      "ganhou": true
     },
     {
       "fixture": 1563195,
@@ -142,8 +142,8 @@
         "valor": -0.032
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 1,
+      "ganhou": false
     },
     {
       "fixture": 1563197,
@@ -169,8 +169,8 @@
         "valor": -0.029
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 4,
+      "ganhou": true
     },
     {
       "fixture": 1563198,
@@ -196,8 +196,8 @@
         "valor": -0.031
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 3,
+      "ganhou": false
     },
     {
       "fixture": 1563191,
@@ -223,8 +223,8 @@
         "valor": -0.037
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 4,
+      "ganhou": true
     },
     {
       "fixture": 1563196,
@@ -250,8 +250,8 @@
         "valor": -0.021
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 5,
+      "ganhou": true
     },
     {
       "fixture": 1563200,
@@ -361,5 +361,6 @@
       "golos": null,
       "ganhou": null
     }
-  ]
+  ],
+  "avaliado_em": "2026-10-14T06:07:38.125Z"
 }

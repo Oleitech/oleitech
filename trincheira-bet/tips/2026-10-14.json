@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T06:19:19Z",
+  "units": "stakes",
+  "tips": [
+    {
+      "market": "double_chance",
+      "marketLabel": "Dupla hipótese",
+      "pick": "Bodø/Glimt ou empate",
+      "fixtureId": 1635639,
+      "home": {
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png"
+      },
+      "away": {
+        "name": "Borussia Dortmund",
+        "logo": "https://media.api-sports.io/football/teams/165.png"
+      },
+      "league": "UEFA Champions League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-10-14T19:00:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Bodø em casa é outra equipa: dez vitórias em onze jogos do campeonato norueguês esta época, mais de três golos marcados por jogo e só uma derrota. Na Champions da época passada foi em Aspmyra que despachou o City, o Inter e o Sporting. O Dortmund chega da paragem de selecções sem o Schlotterbeck, sem o Emre Can e sem o Ryerson, e fora de casa na Europa a época passada ganhou um jogo em cinco. O Bodø vem de levar cinco em Munique e não pode arrancar a fase de liga com duas derrotas — e joga no sintético e no frio, que é onde aperta. Vai na dupla hipótese e não na vitória seca porque o Bodø também tem baixas (Evjen, Mikkelsen e o central Bjørtuft, castigado) e o empate é resultado muito provável: da única vez que se cruzaram deu 2-2 em Dortmund. O que pesa contra é a qualidade do Dortmund, que é favorito no mercado e ganhou os dois jogos fora na Bundesliga.",
+      "factors": [
+        "Bodø/Glimt, Eliteserien 2026 (API /teams/statistics, n=22): em casa (n=11) 10V 0E 1D, 3,1 marcados e 0,6 sofridos por jogo, 6 balizas a zero, 1 jogo sem marcar. Últimos 3 em casa no campeonato (API /fixtures): 3-1 Kristiansund, 3-2 Sandefjord, 4-2 Rosenborg",
+        "Bodø/Glimt em casa na Champions 2025/26 (API /fixtures, liga 2, n=6, fora o play-off): 2-2 Tottenham, 0-1 Monaco, 2-3 Juventus, 3-1 Man City, 3-1 Inter, 3-0 Sporting — não perdeu em 4 de 6, três vitórias seguidas a fechar",
+        "Dortmund fora na Champions 2025/26 (API /fixtures, liga 2, n=5): 4-4 Juventus, 4-2 Copenhaga, 1-4 Man City, 0-2 Tottenham, 1-4 Atalanta — 1 vitória em 5",
+        "Dortmund, Bundesliga 2026/27 (API /teams/statistics, n=5): 4V 1E; fora (n=2) 2V, 2,0 marcados e 1,0 sofrido por jogo. Último jogo 2-2 em casa com o Werder",
+        "Champions 2026/27, 1.ª jornada (API): Bayern 5-0 Bodø; Dortmund 3-2 Villarreal",
+        "H2H oficial (API): um jogo só, Champions 12/2025 — Dortmund 2-2 Bodø",
+        "Ausências Bodø com duas fontes: Bjørtuft castigado (API, LiveScore, Khelnow, BVB Buzz), Evjen joelho (API, SportsGambler, Khelnow), Riisnæs joelho (API, SportsGambler, Khelnow), Mikkelsen virilha (API, Khelnow). Kitolano em dúvida (API) — SportsGambler põe-no no onze, não entra na tese",
+        "Ausências Dortmund com duas fontes: Emre Can (API, SportsGambler, LiveScore, BVB Buzz), Konstantelias (API, LiveScore), Schlotterbeck (API, Khelnow), Ryerson costela (SportsGambler, BVB Buzz). Svensson castigado só na SportsGambler (Khelnow põe-no no onze) — discordante, não entra. Chukwuemeka em dúvida (SportsGambler, Khelnow)",
+        "Treinador: Kovač no Dortmund (BVB Buzz); nenhuma antevisão refere mudança no Bodø",
+        "Probabilidades: Bet365 1X 1.70 (58,8% implícita), Marathonbet 1.73; 1X2 da Bet365 3.00/4.10/2.10 dá 55% sem margem; SportsGambler estima 60-65% no Bodø +0.5; predictions da API 45/45/10 com conselho Bodø ou empate",
+        "Terceiros: SportsGambler (Bodø +0.5 @1.79, 1-1), SI (2-2), LiveScore (3-3), BVB Buzz (1-1), API (Bodø ou empate) — cinco fontes sem vitória do Dortmund",
+        "xG da FootyStats não usado: o resumo não declara competição nem amostra"
+      ],
+      "sources": [
+        "API-Football — /fixtures (forma e Champions 2025/26), /teams/statistics, /fixtures/headtohead, /injuries, /predictions, /odds Bet365 e Marathonbet",
+        "SportsGambler — antevisão Bodø-Dortmund 14/10 (onzes, baixas, pick)",
+        "Khelnow — antevisão com team news e onzes prováveis",
+        "BVB Buzz — antevisão (Kovač, Can, Ryerson, Bjørtuft)",
+        "LiveScore — previsões das nove partidas de quarta (team news)",
+        "SI — previsões da 2.ª jornada",
+        "FootyStats — página H2H (só H2H)"
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1563199,
+      "home": {
+        "name": "Lincoln",
+        "logo": "https://media.api-sports.io/football/teams/1379.png"
+      },
+      "away": {
+        "name": "West Ham",
+        "logo": "https://media.api-sports.io/football/teams/48.png"
+      },
+      "league": "Championship",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/40.png",
+      "kickoff": "2026-10-14T19:00:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O West Ham marca em todos os jogos da Championship e fora de casa ainda não fechou a baliza; o Lincoln marcou em três dos quatro jogos em casa. O problema é o Lincoln marcar pouco — menos de um golo por jogo — e a odd não pagar mais do que a probabilidade que lhe damos. Fica registado, não se joga.",
+      "factors": [
+        "Lincoln, Championship 2026/27 (API /teams/statistics, n=9): em casa (n=4) 0V 2E 2D, 0,8 marcados e 1,5 sofridos; casa (API /fixtures): 1-2 Swansea, 1-1 Southampton, 0-0 Blackburn, 1-3 Portsmouth — ambas marcam 3 de 4",
+        "West Ham, Championship 2026/27 (API /teams/statistics, n=9): 0 jogos sem marcar; fora (n=4) 1V 3E, 2,0 marcados e 1,8 sofridos, 0 balizas a zero",
+        "Ausências discordantes: API dá Darikwa e Melia (Lincoln) e Lamadrid (West Ham); SportsGambler diz planteis completos",
+        "Terceiros: SportsGambler ambas marcam @1.61 (1-1); Sportskeeda 1-2; Squawka 2-1; SportyTrader West Ham sem sofrer — dividido",
+        "Bet365 1.67 (59,9% implícita) contra estimativa própria de 58-62%: sem margem"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /teams/statistics, /injuries, /odds Bet365",
+        "SportsGambler — antevisão Lincoln-West Ham 14/10",
+        "Pesquisa — Sportskeeda, Squawka, SportyTrader"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1563200,
+          "match": "Norwich vs Southampton",
+          "league": "Championship",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-14T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1585779,
+          "match": "Antalyaspor vs Kayserispor",
+          "league": "1. Lig (Turquia)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-14T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1495978,
+          "match": "Moss vs Egersund",
+          "league": "1. Division (Noruega)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-14T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.51,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1584031,
+          "match": "Verl vs Jahn Regensburg",
+          "league": "3. Liga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-14T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1493164,
+          "match": "Sarmiento vs River Plate",
+          "league": "Liga Profesional Argentina",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-10-14T22:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1495979,
+          "match": "Sogndal vs Odd",
+          "league": "1. Division (Noruega)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.3,
+          "kickoff": "2026-10-14T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.48,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna chegou a 75 dentro de 1.40-1.60: ambas marcam no Norwich-Southampton a 1.44 (Norwich sem balizas a zero em 9 jogos, Southampton marcou em todos). As outras da banda não aguentaram: mais de 2.5 no City-PSG a 1.44 não tem valor (BTTS modelado a 60%, Haaland a ser avaliado); ambas marcam no Roma-Real Madrid a 1.40 pede 71% e as contas dão perto de 60%; mais de 1.5 no Sarmiento-River a 1.40 só teve curadoria de curto."
+  },
+  "notes": "Quarta-feira de Champions, segunda jornada, com quatro jogos da Championship ao lado. Não há jogos de selecções hoje.\n\nSai uma tip só, a uma stake: o Bodø não perde em casa com o Dortmund, a 1.70. Em Aspmyra o Bodø ganhou dez dos onze jogos do campeonato e na Champions da época passada bateu lá o City, o Inter e o Sporting. O Dortmund vem sem o Schlotterbeck e o Emre Can e fora de casa na Europa a época passada ganhou um em cinco. O que pode correr mal: o Bodø também tem baixas na frente e atrás, e o Dortmund é favorito no mercado.\n\nO resto do cartaz não deu valor. O City-PSG tinha preço na vitória do City, mas os modelos dão-lhe menos do que a odd pede; no Lincoln-West Ham as contas batem certo à justa, e não se força boletim. Sem sinais de golos com margem e sem remates à baliza hoje.\n\nAcumuladores: sem standard, porque só há uma tip. Dois curtos a meia stake — ambas marcam no Norwich-Southampton e no Moss-Egersund, mais de 1.5 no Antalyaspor-Kayserispor (2.51); ambas marcam no Verl-Regensburg e no Sogndal-Odd, mais de 1.5 no Sarmiento-River (2.48).\n\nCorvo hoje não há: as pernas boas de resultado e golos são de jogos sem histórico entre as equipas, e a do Bryne tem o histórico contra.\n\nExposição do dia: 2 stakes."
+}
