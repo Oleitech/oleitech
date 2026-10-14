@@ -4,7 +4,7 @@
   "units": "stakes",
   "tips": [
     {
-      "market": "double_chance",
+      "market": "favorites",
       "marketLabel": "Dupla hipótese",
       "pick": "Bodø/Glimt ou empate",
       "fixtureId": 1635639,
