@@ -277,8 +277,8 @@
         "valor": -0.027
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 1,
+      "ganhou": false
     },
     {
       "fixture": 1563201,
@@ -304,8 +304,8 @@
         "valor": -0.03
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 5,
+      "ganhou": false
     },
     {
       "fixture": 1563202,
@@ -331,8 +331,8 @@
         "valor": -0.06
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 5,
+      "ganhou": false
     },
     {
       "fixture": 1563199,
@@ -358,9 +358,9 @@
         "valor": -0.039
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 6,
+      "ganhou": true
     }
   ],
-  "avaliado_em": "2026-10-14T06:07:38.125Z"
+  "avaliado_em": "2026-10-15T06:05:56.825Z"
 }

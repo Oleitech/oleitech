@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-14",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "favorites",
+        "marketLabel": "Dupla hipótese",
+        "pick": "Bodø/Glimt ou empate",
+        "fixtureId": 1635639,
+        "match": "Bodo/Glimt vs Borussia Dortmund",
+        "league": "UEFA Champions League",
+        "odds": 1.7,
+        "bookmaker": "Bet365",
+        "stake": 1,
+        "score": 76,
+        "context_depth": "full",
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.7,
+        "pnl": 0.7,
+        "final_score": "1-0",
+        "note": "FT Bodo/Glimt 1-0 Borussia Dortmund. Avaliada como dupla hipotese 1X (saiu no feed como favorites mas a marketLabel e o pick sao claramente dupla hipotese): vitoria do Bodo cobre a aposta. O ambiente de Aspmyra e o desfalque do Dortmund pesaram como previsto."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "score": 65,
+        "stake": 0.5,
+        "combined_odds": 2.51,
+        "selections": [
+          {
+            "fixtureId": 1563200,
+            "match": "Norwich vs Southampton",
+            "league": "Championship",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.44,
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "fixtureId": 1585779,
+            "match": "Antalyaspor vs Kayserispor",
+            "league": "1. Lig (Turquia)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "result": "GREEN",
+            "final_score": "0-4"
+          },
+          {
+            "fixtureId": 1495978,
+            "match": "Moss vs Egersund",
+            "league": "1. Division (Noruega)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.36,
+            "result": "RED",
+            "final_score": "0-0"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Duas pernas vermelhas: Norwich 0-1 Southampton (so o Southampton marcou) e Moss 0-0 Egersund (nenhuma equipa marcou). Antalyaspor-Kayserispor passou facil (0-4), mas nao chega para salvar o bilhete."
+      },
+      {
+        "label": "curto",
+        "score": 65,
+        "stake": 0.5,
+        "combined_odds": 2.48,
+        "selections": [
+          {
+            "fixtureId": 1584031,
+            "match": "Verl vs Jahn Regensburg",
+            "league": "3. Liga",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.36,
+            "result": "GREEN",
+            "final_score": "2-2"
+          },
+          {
+            "fixtureId": 1493164,
+            "match": "Sarmiento vs River Plate",
+            "league": "Liga Profesional Argentina",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.4,
+            "result": "GREEN",
+            "final_score": "1-1"
+          },
+          {
+            "fixtureId": 1495979,
+            "match": "Sogndal vs Odd",
+            "league": "1. Division (Noruega)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.3,
+            "result": "RED",
+            "final_score": "0-1"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Verl 2-2 Regensburg e Sarmiento 1-1 River passaram bem, mas Sogndal 0-1 Odd falha o ambas marcam (Sogndal nao chegou a marcar) e arrasta o bilhete."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Só uma perna chegou a 75 dentro de 1.40-1.60: ambas marcam no Norwich-Southampton a 1.44 (Norwich sem balizas a zero em 9 jogos, Southampton marcou em todos). As outras da banda não aguentaram: mais de 2.5 no City-PSG a 1.44 não tem valor (BTTS modelado a 60%, Haaland a ser avaliado); ambas marcam no Roma-Real Madrid a 1.40 pede 71% e as contas dão perto de 60%; mais de 1.5 no Sarmiento-River a 1.40 só teve curadoria de curto."
+    },
+    "sombra": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1563199,
+        "match": "Lincoln vs West Ham",
+        "league": "Championship",
+        "odds": 1.67,
+        "score": 68,
+        "result": "RED",
+        "hit": false,
+        "final_score": "0-6",
+        "note": "FT Lincoln 0-6 West Ham. O West Ham goleou mas o Lincoln nao chegou a marcar, falhando a condicao de ambas marcarem."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "pnl_se_apostadas": -1
+    },
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 1,
+      "total_return": 1.7,
+      "pnl": 0.7,
+      "roi_pct": 70,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1,
+      "combined_stake": 2,
+      "combined_return": 1.7,
+      "combined_pnl": -0.3,
+      "combined_roi_pct": -15
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1560001,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Bohemians 1905 vs Mlada Boleslav",
+        "league": "Czech Liga (Czech-Republic)",
+        "elapsed": 56,
+        "score": "1-0",
+        "conf": 86,
+        "odds": 1.8,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 86 < 90",
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "finalCorners": null,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1635665,
+        "strategy": "🟨 CARTÕES LIVE",
+        "market": "Over 3.5 Cartões",
+        "match": "Feyenoord vs Como",
+        "league": "UEFA Champions League (World)",
+        "elapsed": 51,
+        "score": "1-1",
+        "conf": 90,
+        "odds": 1.833,
+        "stake": 1,
+        "shadow": false,
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 2,
+        "finalCorners": 6,
+        "return": 1.833,
+        "pnl": 0.833
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🟨 CARTÕES LIVE": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_total": 1,
+      "stake_mensuravel": 1,
+      "return_mensuravel": 1.833,
+      "pnl_mensuravel": 0.833,
+      "roi_pct_mensuravel": 83.3,
+      "odds_registadas": 1,
+      "nota_mensuravel": "1 alerta apostado hoje: Feyenoord vs Como, CARTOES LIVE, 1 stake a 1.833, GREEN (over 3.5 cartoes confirmado, 3-2 com jogo quente). O outro alerta do dia (BTTS LIVE no Bohemians-Mlada Boleslav) ficou em sombra por confianca 86 < 90 e fica fora deste resumo e da banca."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "🎯 BTTS LIVE": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 0
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 0,
+      "pnl_nocional": -1
+    }
+  },
+  "balance": 27.97,
+  "notes": "Quarta-feira de Champions: a tip unica fechou verde — Bodo/Glimt 1-0 Dortmund, avaliada como dupla hipotese 1X (saiu com market favorites mas a marketLabel e o pick eram claramente 1X). Os dois curtos a meia stake falharam, cada um com duas pernas vermelhas de ambas-marcam. A tip em sombra (Lincoln-West Ham BTTS Sim) deu vermelho, 0-6. Duplo em sombra sem pernas elegiveis. No live, 1 stake apostada: Feyenoord-Como CARTOES LIVE verde a 1.833; o outro alerta do dia ficou em sombra. P&L do dia +0,533 stakes, banca sobe de 27,44 para 27,97 stakes."
+}

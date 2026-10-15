@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T06:21:30Z",
+  "units": "stakes",
+  "notes": "Noite europeia cheia — dezoito jogos da Liga Europa e outros dezoito na estreia da Conference — mas saiu uma tip só. Nos europeus o preço está quase sempre certo: o Gent, por exemplo, é favorito com razão, mas a odd paga exactamente o que vale. Não se força boletim.\n\nA tip é a Craiova não sofrer contra o Getafe, a 3.25. O Getafe leva quatro jogos fora no campeonato e não marcou em nenhum, e chega à Roménia sem o Ünal e sem o Azón. A Craiova vem de cinco vitórias seguidas e tem o estádio cheio. É odd alta e o pé de que coxeia é a defesa da Craiova, que joga sem o central Rus e sem o Mora, castigado — vai a uma stake.\n\nNão há acumulador normal porque só há uma tip. Saem dois curtos a meia stake. O primeiro, a 2.93, junta ambas marcam no Al-Ahli–Al-Nassr, mais de 1.5 no Central Español–Danubio e o Esenler a não perder na Turquia — é o bilhete que pede mais, com a perna do clássico saudita encostada ao tecto da banda. O segundo, a 2.51, tem mais de 1.5 no Al Khaleej–Al-Fayha, o Municipal a não perder na Guatemala e o Johvi a não perder na Estónia.\n\nSem corvo: os favoritos europeus com preço na banda nunca se cruzaram com os adversários, e sem esse histórico não entram. Os mais/menos 2.5 do modelo são todos de sexta e não há remates à baliza.\n\nExposição: duas stakes.",
+  "tips": [
+    {
+      "market": "clean_sheet",
+      "marketLabel": "Não sofre",
+      "pick": "Universitatea Craiova não sofre golos",
+      "fixtureId": 1636482,
+      "home": {
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png"
+      },
+      "away": {
+        "name": "Getafe",
+        "logo": "https://media.api-sports.io/football/teams/546.png"
+      },
+      "league": "UEFA Conference League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-10-15T16:45:00Z",
+      "odds": 3.25,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Getafe não marca fora de casa. Nesta Liga leva quatro jogos fora e zero golos (Alavés, Osasuna, Bétis e Barcelona), e na época passada ficou em branco em nove das dezanove deslocações do campeonato. Chega a Craiova ainda mais curto lá na frente: o Ünal não viajou, o Azón também caiu da convocatória e o Zaid Romero está lesionado — sobra o Satriano, com o Mayoral como alternativa, numa equipa do Bordalás que vive de defender e luta pela manutenção. Do outro lado está a Craiova de cinco vitórias seguidas, com estádio cheio (25 mil esperados) e só dois golos sofridos em seis jogos em casa no campeonato romeno. Vai no «não sofre» e não na vitória da Craiova porque é isso que os números dizem: o que é forte é o Getafe não marcar, não a Craiova ganhar. O que pesa contra: a Craiova joga sem o central Rus e sem o ala Mora (castigado), e na Europa em casa esta época só fechou a baliza uma vez em quatro jogos.",
+      "factors": [
+        "Getafe fora, La Liga 2026/27 (API /fixtures, n=4): 0-3 Alavés, 0-1 Osasuna, 0-1 Bétis, 0-3 Barcelona — 0 golos marcados, 4 jogos em branco. API /teams/statistics La Liga 2026: 0,0 marcados e 2,0 sofridos por jogo fora; 4 golos em 8 jornadas, todos em casa",
+        "Getafe fora, La Liga 2025/26 (API /fixtures, n=19): em branco em 9 de 19; API /teams/statistics La Liga 2025: 0,7 marcados por jogo fora. Duas épocas juntas: em branco em 13 de 23 jogos fora do campeonato",
+        "Getafe fora em prova oficial europeia 2026/27 (API /fixtures, play-off da Liga Europa, n=1): Partizan 2-1 Getafe",
+        "Universitatea Craiova em casa, Liga I 2026/27 (API /fixtures e /teams/statistics, n=6): 4-0 UTA Arad, 4-0 Petrolul, 0-1 Argeș, 3-1 Voluntari, 4-0 U Cluj, 5-0 FCSB — 4 jogos sem sofrer, 0,3 sofridos e 3,3 marcados por jogo",
+        "Universitatea Craiova em casa, Liga I 2025/26 (API /teams/statistics, n=20): 10 jogos sem sofrer, 0,7 sofridos por jogo",
+        "Contra a tese — Craiova em casa nas provas UEFA 2026/27 (API /fixtures, n=4): 1-0 Vitebsk, 2-2 Levski, 2-1 KuPS, 1-1 Ararat — só 1 jogo sem sofrer",
+        "Forma (API /fixtures, só oficiais): Craiova venceu os últimos 5 (4 da Liga I e 1 da Taça), antes 1-1 com o Rapid; Getafe na La Liga 2026/27 2V 2E 4D, 1 vitória nos últimos 5",
+        "Ausências Getafe com duas fontes: Zaid Romero, lesão muscular (SportsGambler, FootballWhispers, FútbolFantasy); Ünal fora (SportsGambler na lista de baixas; FútbolFantasy: não viajou; FootballWhispers dá-o em dúvida); Azón fora (FútbolFantasy: baixa à última hora; FootballWhispers: não inscrito). Uche (época), Juanmi (joelho) e Mangala (não viajou) só na FútbolFantasy — contexto, não entram como facto",
+        "Ausências Craiova com duas fontes: Carlos Mora castigado (vermelho no play-off com o Ararat), Adrian Rus e Monday Etim lesionados (ziare.com e FútbolFantasy; Mora também na FootballWhispers). A SportsGambler dá o plantel completo — discordante, prevalecem as fontes concordantes",
+        "Treinadores: Filipe Coelho na Craiova desde 11/2025, contrato renovado em 04/2026 (AGERPRES); Bordalás no Getafe — sem mudança recente",
+        "Probabilidades: Forebet 43/25/32 com 2-0 previsto; SportsGambler 60% para Craiova +0.25; Bet365 1X2 3.30/3.20/2.25. Bet365 Craiova não sofre 3.25 (30,8% implícita) e Getafe menos de 0.5 golos 3.40; Marathonbet Getafe menos de 0.5 a 3.24",
+        "Terceiros: FootballWhispers 1-0 (com ambas marcam não); Forebet 2-0; SportsGambler Craiova +0.25 — três fontes com a Craiova sem perder, duas com a baliza da Craiova a zero",
+        "H2H: nunca se defrontaram (API /fixtures/headtohead vazio)",
+        "Não usados: splits e xG da FootyStats (o últimos 10 não declara competição); média de golos do Getafe nos últimos 10 da SportsGambler (sem competição declarada)"
+      ],
+      "sources": [
+        "API-Football — /fixtures (época 2026 das duas equipas e La Liga 2025/26 do Getafe), /teams/statistics (Liga I e La Liga 2025 e 2026), /fixtures/headtohead, /injuries (vazio para este jogo), /odds Bet365 e Marathonbet",
+        "SportsGambler — antevisão Universitatea Craiova-Getafe 15/10 (baixas, pick, forma)",
+        "FútbolFantasy — onzes prováveis e baixas (notícia 152807) e treino do Getafe em Craiova (152792)",
+        "ziare.com — onze provável e baixas da Craiova",
+        "FootballWhispers — antevisão Craiova-Getafe 15/10",
+        "Forebet — página do jogo via resumo de pesquisa (a página devolve 403)",
+        "AGERPRES / radioromania.ro — nomeação e renovação de Filipe Coelho",
+        "FootyStats — página H2H (só referência; números descartados por falta de proveniência)"
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Favorito 1X2",
+      "pick": "Vitória do Gent",
+      "fixtureId": 1636414,
+      "home": {
+        "name": "Gent",
+        "logo": "https://media.api-sports.io/football/teams/631.png"
+      },
+      "away": {
+        "name": "Aarhus",
+        "logo": "https://media.api-sports.io/football/teams/406.png"
+      },
+      "league": "UEFA Conference League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-10-15T16:45:00Z",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Gent está numa série de oito jogos sem perder no campeonato belga e sofre meio golo por jogo; o Aarhus ganhou um jogo em dez na liga dinamarquesa e fora de casa leva dois golos por jogo. O favoritismo está certo, mas a odd não paga mais do que a probabilidade que os modelos lhe dão. Fica registado, não se joga.",
+      "factors": [
+        "Gent, Jupiler Pro League 2026/27 (API /teams/statistics, n=8): forma WWWWWDWW; casa (n=4) 1,8 marcados e 0,5 sofridos, 2 jogos sem sofrer",
+        "Aarhus, Superliga 2026/27 (API /teams/statistics, n=10): forma DDLDLLDLDW; fora (n=5) 1,2 marcados e 2,0 sofridos, 0 jogos sem sofrer",
+        "Probabilidades: Forebet 60% Gent; Bet365 1.65 (60,6% implícita), Marathonbet 1.60 — sem margem",
+        "Ausências só numa fonte (SportsGambler): Asselman (Gent), Links (Aarhus) — por isso partial",
+        "Terceiros: SportsGambler menos de 2.5 @1.92; Forebet 2-0"
+      ],
+      "sources": [
+        "API-Football — /teams/statistics, /fixtures, /odds Bet365 e Marathonbet",
+        "SportsGambler — antevisão Gent-AGF 15/10",
+        "Forebet — via resumo de pesquisa"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1603044,
+          "match": "Al-Ahli Jeddah vs Al-Nassr",
+          "league": "Pro League (Arábia Saudita)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.53,
+          "kickoff": "2026-10-15T18:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1643388,
+          "match": "Central Espanol vs Danubio",
+          "league": "Taça do Uruguai",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.44,
+          "kickoff": "2026-10-15T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1585783,
+          "match": "Manisa F.K. vs Esenler Erokspor",
+          "league": "1. Lig (Turquia)",
+          "pick": "Dupla hipótese: Empate ou Esenler Erokspor",
+          "odds": 1.33,
+          "kickoff": "2026-10-15T17:00:00Z"
+        }
+      ],
+      "combined_odds": 2.93,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1603049,
+          "match": "Al Khaleej Saihat vs Al-Fayha",
+          "league": "Pro League (Arábia Saudita)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-15T14:50:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1559667,
+          "match": "Cobán Imperial vs Municipal",
+          "league": "Liga Nacional (Guatemala)",
+          "pick": "Dupla hipótese: Empate ou Municipal",
+          "odds": 1.36,
+          "kickoff": "2026-10-15T21:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1521707,
+          "match": "Johvi Phoenix vs Luunja",
+          "league": "Esiliiga B (Estónia)",
+          "pick": "Dupla hipótese: Johvi Phoenix ou empate",
+          "odds": 1.44,
+          "kickoff": "2026-10-15T15:00:00Z"
+        }
+      ],
+      "combined_odds": 2.51,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75. Gent a vencer (Marathonbet 1.60, Bet365 1.65) ficou em 70 — sem margem sobre os modelos (Forebet 60%). Ambas marcam no Al-Ahli-Al-Nassr a 1.53 tem curadoria de curto (H2H 4/5, forma 3/5 e 4/5) mas a estimativa (~68%) mal passa a implícita (65%). Lech-Leverkusen ambas marcam a 1.50 e Hajduk-Ajax ambas marcam a 1.57 não têm histórico e os sinais dividem-se (o Hajduk sofreu um golo em quatro jogos em casa no campeonato). Sem duas pernas a 75, não há duplo."
+  }
+}
