@@ -1,0 +1,89 @@
+{
+  "gerado": "2026-10-16T06:12:35.423Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1552189,
+      "data": "2026-10-16T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Heerenveen - Excelsior",
+      "jogos_tabela": 8,
+      "amostra_fraca": false,
+      "atq": -0.361,
+      "def": 0.972,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.07,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.19,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1575187,
+      "data": "2026-10-16T18:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Eintracht Frankfurt - 1. FC Köln",
+      "jogos_tabela": 5,
+      "amostra_fraca": false,
+      "atq": -0.422,
+      "def": -0.956,
+      "zona": null
+    },
+    {
+      "fixture": 1550151,
+      "data": "2026-10-16T18:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Frosinone - Sassuolo",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": 0.3,
+      "def": -0.267,
+      "zona": null
+    },
+    {
+      "fixture": 1552785,
+      "data": "2026-10-16T18:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Le Mans - Toulouse",
+      "jogos_tabela": 6,
+      "amostra_fraca": false,
+      "atq": 0.259,
+      "def": -1.185,
+      "zona": null
+    },
+    {
+      "fixture": 1570415,
+      "data": "2026-10-16T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Deportivo La Coruna - Levante",
+      "jogos_tabela": 7,
+      "amostra_fraca": false,
+      "atq": -0.018,
+      "def": -0.41,
+      "zona": null
+    },
+    {
+      "fixture": 1492417,
+      "data": "2026-10-16T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Mirassol - Internacional",
+      "jogos_tabela": 30,
+      "amostra_fraca": false,
+      "atq": -0.442,
+      "def": 0.385,
+      "zona": null
+    }
+  ]
+}

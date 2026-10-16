@@ -1,0 +1,163 @@
+{
+  "gerado": "2026-10-16T06:12:28.845Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1552189,
+      "data": "2026-10-16T18:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Heerenveen - Excelsior",
+      "amostra": {
+        "casa": 8,
+        "fora": 8,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.6,
+          "previsao": 29.2,
+          "media_da_liga": 28.2,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -0.3,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 25.5,
+            "lado": "Over",
+            "odd": 1.25,
+            "minha_prob": 0.711,
+            "prob_da_casa": 0.747,
+            "edge": -11.1,
+            "margem": 7
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.6,
+          "previsao": 9.9,
+          "media_da_liga": 10.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.4,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 5.5,
+            "lado": "Over",
+            "odd": 1.07,
+            "minha_prob": 0.893,
+            "prob_da_casa": 0.872,
+            "edge": -4.4,
+            "margem": 7.2
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575187,
+      "data": "2026-10-16T18:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Eintracht Frankfurt - 1. FC Köln",
+      "amostra": {
+        "casa": 5,
+        "fora": 6,
+        "descartados": 9
+      },
+      "amostra_fraca": true,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 32.8,
+          "previsao": 31.3,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": 1.8,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.655,
+            "prob_da_casa": 0.5,
+            "edge": 19.9,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 12.4,
+          "previsao": 11.3,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": 0.8,
+          "melhor_linha": {
+            "casa": "Betano",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.541,
+            "prob_da_casa": 0.467,
+            "edge": 8.3,
+            "margem": 7.1
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570415,
+      "data": "2026-10-16T19:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Deportivo La Coruna - Levante",
+      "amostra": {
+        "casa": 8,
+        "fora": 7,
+        "descartados": 5
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 25.9,
+          "previsao": 25.7,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": 1.2,
+          "melhor_linha": {
+            "casa": "1xBet",
+            "linha": 22.5,
+            "lado": "Over",
+            "odd": 1.4,
+            "minha_prob": 0.678,
+            "prob_da_casa": 0.65,
+            "edge": -5.1,
+            "margem": 9.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.3,
+          "previsao": 9.1,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 2.1,
+            "minha_prob": 0.511,
+            "prob_da_casa": 0.443,
+            "edge": 7.4,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

@@ -225,7 +225,7 @@ const Layout = {
       type: t.pick,
       odds: t.odds,
       stake: t.stake,
-      result: t.hit === true ? 'win' : 'loss',
+      result: (t.result === 'PUSH' || t.result === 'VOID') ? 'push' : (t.hit === true ? 'win' : 'loss'),
       source: 'pre',
     })).concat((ct.accumulators || []).map(a => ({
       market: 'Acumulador',

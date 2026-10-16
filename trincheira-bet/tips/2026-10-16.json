@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T06:29:54Z",
+  "units": "stakes",
+  "notes": "Sexta de campeonatos, mas nos jogos grandes o preço está quase todo certo. Saem duas tips.\n\nA principal é o Hertha a ganhar em Kiel, com empate a devolver o dinheiro, a 1.67. O Hertha ganhou os sete jogos da segunda divisão alemã e o Kiel ainda não ganhou nenhum: está em último. Se acabar empatado, a stake volta. A ponta solta é o Kiel em casa, que empatou os três jogos que lá fez e ganhou ao Hertha na última vez que se cruzaram. Vai a uma stake.\n\nA segunda é mais de 2.5 golos no Leganés-Córdoba, a 1.70, a meia stake como todas as deste tipo. Oito dos nove jogos do Córdoba no campeonato tiveram três golos ou mais, e o Leganés chega sem o lateral Marvel, castigado. O que pesa contra é o Leganés estar há três jogos sem marcar.\n\nAs duas tips juntam-se num acumulador a 2.84, a uma stake, por isso o peso destes dois jogos no dia é maior do que parece. Saem também três curtos a meia stake: Djurgården, mais de 1.5 no Deportivo-Levante e o Derry a não perder (2.60); ambas marcam no Frosinone-Sassuolo e mais de 1.5 no Laval-Clermont e no Defensa-Instituto (2.55); mais de 1.5 no Larne-Coleraine, o Radnik a não perder e o Boulogne a não perder (2.55).\n\nSem corvo: só o Al-Hilal tinha perna que aguentasse, e com uma perna não há bilhete.\n\nExposição: quatro stakes.",
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Empate anula aposta",
+      "pick": "Hertha BSC vence, empate devolve (DNB)",
+      "fixtureId": 1576201,
+      "home": {
+        "name": "Holstein Kiel",
+        "logo": "https://media.api-sports.io/football/teams/191.png"
+      },
+      "away": {
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png"
+      },
+      "league": "2. Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/79.png",
+      "kickoff": "2026-10-16T16:30:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Hertha ganhou os sete jogos que fez na segunda divisão alemã, quatro deles fora (Bochum, Braunschweig, Osnabrück e Dresden), e não é só sorte: pelos números de oportunidades da API, cria cerca de dois golos por jogo e concede um e pouco. O Kiel é o último, sem uma vitória em sete jornadas, sem nenhum jogo sem sofrer e com o treinador Tim Walter a admitir pressão. O Hertha traz o onze habitual — faltam só o Dardai e o Mamuzah Lum, e o Nilsson está em dúvida, mas o titular na frente é o Schuler. Vai no «empate anula» e não na vitória simples porque o Kiel empatou os três jogos que fez em casa: se o Hertha não ganhar e não perder, a stake volta. O que pesa contra: o Hertha tem ganho por pouco (quatro vitórias por um golo), está a marcar mais do que as oportunidades dariam, o Kiel ganhou 1-0 em Berlim em Abril e a SportsGambler vai pelo Kiel com +0.25.",
+      "factors": [
+        "Hertha, 2. Bundesliga 2026/27 (API /teams/statistics e /fixtures, n=7): 7 vitórias em 7; fora (n=4) 4 vitórias, 2,8 marcados e 1,3 sofridos por jogo — 1-0 Bochum, 5-3 Braunschweig, 3-1 Osnabrück, 2-1 Dresden",
+        "Hertha, xG nos 7 jogos da 2. Bundesliga 2026/27 (API /fixtures?ids, expected_goals): 2,02 a favor e 1,34 contra por jogo; FootyStats 2. Bundesliga 2026/27 (n=7): xG fora 2,07, xGA fora 1,44",
+        "Holstein Kiel, 2. Bundesliga 2026/27 (API, n=7): 0V 4E 3D; casa (n=3) 2-2 St. Pauli, 2-2 Nürnberg, 1-1 Osnabrück; 0 jogos sem sofrer; em branco em 3 dos 4 jogos fora (só marcou no 2-2 em Darmstadt). FootyStats 2. Bundesliga 2026/27: xG em casa 1,73, xGA em casa 1,63, 18.º e último",
+        "Forma, só oficiais (API /fixtures): Hertha venceu os últimos 5 da 2. Bundesliga; Kiel sem vencer nos últimos 5 da liga (0-1 Braunschweig, 1-1 Osnabrück, 0-1 Heidenheim, 2-2 Nürnberg, 0-2 Magdeburg); a única vitória da época foi na Taça (2-0 no 1860). Amigáveis (Viborg, Augsburg, Zehlendorf) excluídos",
+        "H2H oficial (API /fixtures/headtohead, 2. Bundesliga, n=4): Kiel 2-3 Hertha (09/2023), Hertha 2-2 Kiel (03/2024), Kiel 0-1 Hertha (11/2025), Hertha 0-1 Kiel (04/2026) — Hertha 2V 1E 1D",
+        "Ausências com duas fontes concordantes (liga-zwei.de e bulinews): Hertha sem Marton Dardai e Boris Mamuzah Lum, Gustaf Nilsson em dúvida (coxa); Kiel sem Rosenboom, Roslyng, Muqaj e Abe, Skrzybski e Davidsen em dúvida, Zec regressa de castigo",
+        "Discordância resolvida: a SportsGambler dá o Gechter castigado por vermelho directo; as duas fontes alemãs põem-no no onze e os eventos da API não têm vermelho dele em nenhum dos 7 jogos da liga (os vermelhos do Hertha foram Zeefuik e Seguin) — não entra como baixa",
+        "Treinadores: Tim Walter no Kiel, pressionado mas sem mudança; Stefan Leitl no Hertha (liga-zwei.de, bulinews)",
+        "Probabilidades: Forebet 70% Hertha / 23% empate / 7% Kiel (resumo de pesquisa; a página dá 403); Bet365 2.80 / 3.75 / 2.20 (45% implícita no Hertha); empate anula Hertha 1.67 na Bet365 (60% implícita). Estimativa nossa ~50% vitória e ~25% empate, o que põe o empate anula justo perto de 1.50",
+        "Terceiros: liga-zwei.de vitória do Hertha @2.20; Forebet 1-2; SportsGambler contra (Kiel +0.25 @1.87). Dois a favor, um contra"
+      ],
+      "sources": [
+        "API-Football — /fixtures (época 2026 das duas equipas), /fixtures?ids (eventos e xG dos 7 jogos do Hertha), /teams/statistics 2. Bundesliga 2026, /fixtures/headtohead, /predictions, /injuries, /odds Bet365 e Marathonbet",
+        "liga-zwei.de — antevisão Holstein Kiel-Hertha BSC 16/10 (baixas, onzes, treinadores, pick)",
+        "bulinews.com — 2. Bundesliga preview: Holstein Kiel vs. Hertha BSC (baixas e onzes)",
+        "SportsGambler — antevisão Holstein Kiel-Hertha BSC 16/10 (discordante nas baixas)",
+        "FootyStats — página H2H Hertha-Kiel (splits e xG da 2. Bundesliga 2026/27)",
+        "Forebet — página do jogo via resumo de pesquisa (403 directo)"
+      ]
+    },
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1569978,
+      "home": {
+        "name": "Leganes",
+        "logo": "https://media.api-sports.io/football/teams/537.png"
+      },
+      "away": {
+        "name": "Cordoba",
+        "logo": "https://media.api-sports.io/football/teams/713.png"
+      },
+      "league": "Segunda División",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-10-16T18:30:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "full",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 40.6,
+        "prob_modelo": 0.639,
+        "prob_mercado": 0.562,
+        "valor": 0.087
+      },
+      "tese": "Os jogos do Córdoba dão golos quase sempre: oito dos nove do campeonato tiveram três ou mais, os cinco fora todos, e o Córdoba sofreu em todos eles. O Leganés chega numa queda feia — três derrotas seguidas com nove golos sofridos — e é a equipa da divisão a quem mais rematam, agora sem o lateral Marvel, castigado, e sem o Rubén Peña. Lá na frente o Leganés mantém o Morata e o Gharbi, e o Córdoba traz o ataque habitual, com as baixas todas atrás e no meio-campo. A Forebet, a SportsGambler e a FootyStats vão todas para mais de 2.5. O que pesa contra: o Leganés não marca há três jogos e em casa só um dos três jogos passou dos dois golos; com as duas equipas aflitas na tabela, pode sair um jogo mais medroso.",
+      "factors": [
+        "Córdoba, Segunda División 2026/27 (API /fixtures, n=9): mais de 2.5 em 8 de 9; fora (n=5) 5 de 5 — 3-2 Burgos, 3-2 Sabadell, 1-2 Albacete, 3-1 Valladolid, 2-1 Eldense. API /teams/statistics: sofre 2,0 em casa e 2,4 fora, 0 jogos sem sofrer em 9",
+        "Leganés, Segunda División 2026/27 (API /fixtures, n=9): mais de 2.5 em 3 de 9; casa (n=3) 0-2 Castellón, 3-2 Granada, 1-0 Eldense — 1 de 3. Últimos três: 0-2 Castellón, 0-4 Cádiz, 0-3 Almería (0 marcados, 9 sofridos)",
+        "xG, FootyStats Segunda División 2026/27: Leganés em casa 1,75 xG e 1,97 xGA (n=3); Córdoba fora 1,72 xG e 1,56 xGA (n=5). As percentagens de balizas a zero e jogos em branco do FootyStats para o Leganés em casa não batem com a API — descartadas, usados os números da API",
+        "H2H oficial (API, Segunda División, n=2): Leganés 0-0 Córdoba (12/2025), Córdoba 2-1 Leganés (02/2026) — amostra curta, só contexto. O H2H do resumo FootyStats (2 vitórias do Leganés, 4,5 golos) mistura jogos de 2015-16 e descarta-se",
+        "Ausências com duas fontes concordantes (Cordópolis e Infobae): Leganés sem Marvel (castigado por amarelos) e Rubén Peña (lesão); Córdoba sem Kevin Medina (isquiotibiais, Cordópolis e Infobae) e Adilson (cruzado, Infobae e SportsGambler). Fomeyem, Jacobo e Diarra só na Infobae — contexto, não entram como facto",
+        "Treinadores: Rubén Albés no Leganés (pressionado, fala em fragilidade emocional, anuncia mudanças tácticas, sem troca de treinador); Iván Ania no Córdoba (Cordópolis, Infobae)",
+        "Modelo de golos: 63,9% para mais de 2.5 contra 56,2% do mercado; Bet365 1.70 (valor 8,7%), Marathonbet 1.63 (4,2%) — confirmados por jogo às 06:00Z",
+        "Terceiros: Forebet 60% mais de 2.5 e 47% Leganés (resumo de pesquisa), SportsGambler mais de 2.5 @1.68 (65-70%), FootyStats 67% mais de 2.5. API predictions 10/45/45"
+      ],
+      "sources": [
+        "golos/previsoes/2026-10-16.json — sinal do modelo",
+        "API-Football — /fixtures, /teams/statistics Segunda División 2026, /fixtures/headtohead, /predictions, /injuries (vazio), /odds Bet365 e Marathonbet",
+        "Cordópolis (eldiario.es) — Butarque, en estado de alerta (baixas e contexto do Leganés)",
+        "Infobae (agências) — Necesidad en Butarque (baixas e onzes prováveis)",
+        "SportsGambler — antevisão Leganés-Córdoba 16/10",
+        "FootyStats — página H2H Leganés-Córdoba (xG por lado)",
+        "Forebet — via resumo de pesquisa"
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Favorito 1X2",
+      "pick": "Vitória do Djurgården",
+      "fixtureId": 1494298,
+      "home": {
+        "name": "IF Brommapojkarna",
+        "logo": "https://media.api-sports.io/football/teams/371.png"
+      },
+      "away": {
+        "name": "Djurgardens IF",
+        "logo": "https://media.api-sports.io/football/teams/364.png"
+      },
+      "league": "Allsvenskan",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/113.png",
+      "kickoff": "2026-10-16T17:00:00Z",
+      "odds": 1.53,
+      "bookmaker": "Bet365",
+      "score": 73,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "full",
+      "tese": "O Djurgården é segundo e fora de casa ganhou oito de onze, sofrendo pouco mais de meio golo por jogo; o Brommapojkarna é meio da tabela e em casa concede muitas oportunidades. O favoritismo é justo, mas a odd paga quase exactamente o que os modelos dão. Fica registado, não se joga.",
+      "factors": [
+        "Djurgården fora, Allsvenskan 2026 (API /teams/statistics, n=11): 8V 1E 2D, 1,6 marcados e 0,6 sofridos, 7 jogos sem sofrer",
+        "Brommapojkarna em casa, Allsvenskan 2026 (FootyStats, n=11): xGA 1,78, 36% de vitórias; API: sofre 1,2 em casa",
+        "H2H oficial (API, n=5, amigável de 01/2026 excluído): Djurgården 4V 1D",
+        "Ausência com duas fontes: Miro Tenho (Djurgården) castigado por amarelos (bollsvenskan.se e API /injuries)",
+        "Probabilidades: 66% Djurgården num site de previsões (resumo de pesquisa) contra 65% implícita a 1.53 — sem margem; Marathonbet 1.45"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /teams/statistics, /injuries, /odds",
+        "FootyStats — página H2H Djurgården-Brommapojkarna",
+        "bollsvenskan.se — Djurgården inför BP"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "standard",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1576201,
+          "match": "Holstein Kiel vs Hertha BSC",
+          "league": "2. Bundesliga",
+          "pick": "Hertha BSC vence, empate devolve (DNB)",
+          "odds": 1.67,
+          "kickoff": "2026-10-16T16:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1569978,
+          "match": "Leganes vs Cordoba",
+          "league": "Segunda División",
+          "pick": "Mais de 2.5 golos",
+          "odds": 1.7,
+          "kickoff": "2026-10-16T18:30:00Z",
+          "modelo": "gap"
+        }
+      ],
+      "combined_odds": 2.84,
+      "score": 76,
+      "stake": 1
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1494298,
+          "match": "IF Brommapojkarna vs Djurgardens IF",
+          "league": "Allsvenskan",
+          "pick": "Vitória do Djurgården",
+          "odds": 1.53,
+          "kickoff": "2026-10-16T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570415,
+          "match": "Deportivo La Coruna vs Levante",
+          "league": "La Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-16T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1492782,
+          "match": "Drogheda United vs Derry City",
+          "league": "Premier Division (Irlanda)",
+          "pick": "Dupla hipótese: Empate ou Derry City",
+          "odds": 1.33,
+          "kickoff": "2026-10-16T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550151,
+          "match": "Frosinone vs Sassuolo",
+          "league": "Serie A",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.4,
+          "kickoff": "2026-10-16T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552498,
+          "match": "Laval vs Clermont Foot",
+          "league": "Ligue 2",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.3,
+          "kickoff": "2026-10-16T18:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1493186,
+          "match": "Defensa Y Justicia vs Instituto Cordoba",
+          "league": "Liga Profesional (Argentina)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-10-16T22:00:00Z"
+        }
+      ],
+      "combined_odds": 2.55,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1562097,
+          "match": "Larne vs Coleraine FC",
+          "league": "Premiership (Irlanda do Norte)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-16T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1553889,
+          "match": "Radnik Surdulica vs Radnicki NIS",
+          "league": "Super Liga (Sérvia)",
+          "pick": "Dupla hipótese: Radnik Surdulica ou empate",
+          "odds": 1.33,
+          "kickoff": "2026-10-16T15:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552496,
+          "match": "Grenoble vs Boulogne",
+          "league": "Ligue 2",
+          "pick": "Dupla hipótese: Empate ou Boulogne",
+          "odds": 1.44,
+          "kickoff": "2026-10-16T18:00:00Z"
+        }
+      ],
+      "combined_odds": 2.55,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna da banda 1.40-1.60 chegou a 75 com investigação completa: empate ou Hertha em Kiel a 1.40 na Bet365 (76, a mesma investigação da tip). A vitória do Djurgården a 1.53 ficou em 73 — o favoritismo é justo mas a odd paga o que os modelos dão (66% contra 65%). Ambas marcam no Frosinone-Sassuolo a 1.40 ficou abaixo (o Frosinone só deixou marcar num dos três jogos em casa da Serie A) e o mais de 2.5 do Leganés-Córdoba está a 1.63 na Marathonbet e 1.70 na Bet365, fora da banda. Sem duas pernas a 75, não há duplo."
+  }
+}

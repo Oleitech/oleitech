@@ -142,9 +142,9 @@
         "valor": -0.018
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 2,
+      "ganhou": false
     }
   ],
-  "avaliado_em": "2026-10-15T06:05:58.454Z"
+  "avaliado_em": "2026-10-16T06:10:36.998Z"
 }

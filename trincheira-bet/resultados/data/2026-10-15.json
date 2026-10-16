@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-15",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "clean_sheet",
+        "marketLabel": "Não sofre",
+        "pick": "Universitatea Craiova não sofre golos",
+        "fixtureId": 1636482,
+        "match": "Universitatea Craiova vs Getafe",
+        "league": "UEFA Conference League",
+        "odds": 3.25,
+        "bookmaker": "Bet365",
+        "stake": 1,
+        "score": 78,
+        "context_depth": "full",
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -1,
+        "final_score": "1-1",
+        "note": "FT Craiova 1-1 Getafe. O Getafe marcou apesar do jejum fora e dos desfalques, o que chega para falhar a aposta de clean sheet da Craiova (jogava sem Rus e sem Mora, como a tese ja previa como o ponto fraco)."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "score": 65,
+        "stake": 0.5,
+        "combined_odds": 2.93,
+        "selections": [
+          {
+            "fixtureId": 1603044,
+            "match": "Al-Ahli Jeddah vs Al-Nassr",
+            "league": "Pro League (Arabia Saudita)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.53,
+            "result": "VOID",
+            "final_score": null,
+            "note": "Jogo adiado pela liga saudita por motivos logisticos (deslocacao do Al-Nassr), remarcado para 06/03/2027. Perna anulada, removida do bilhete."
+          },
+          {
+            "fixtureId": 1643388,
+            "match": "Central Espanol vs Danubio",
+            "league": "Taca do Uruguai",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.44,
+            "result": "GREEN",
+            "final_score": "0-6"
+          },
+          {
+            "fixtureId": 1585783,
+            "match": "Manisa F.K. vs Esenler Erokspor",
+            "league": "1. Lig (Turquia)",
+            "pick": "Dupla hipotese: Empate ou Esenler Erokspor",
+            "odds": 1.33,
+            "result": "GREEN",
+            "final_score": "1-1"
+          }
+        ],
+        "result": "GREEN",
+        "effective_odds": 1.9152,
+        "return": 0.9576,
+        "pnl": 0.4576,
+        "note": "Al-Ahli-Al-Nassr foi adiado e anulado do bilhete (conta 1.00, como uma perna anulada). As outras duas passaram: Central Espanol-Danubio goleou 0-6 (mais de 1.5 facil) e Manisa 1-1 Esenler cobre a dupla hipotese pelo empate. Bilhete verde a odd efectiva 1.9152."
+      },
+      {
+        "label": "curto",
+        "score": 65,
+        "stake": 0.5,
+        "combined_odds": 2.51,
+        "selections": [
+          {
+            "fixtureId": 1603049,
+            "match": "Al Khaleej Saihat vs Al-Fayha",
+            "league": "Pro League (Arabia Saudita)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "fixtureId": 1559667,
+            "match": "Coban Imperial vs Municipal",
+            "league": "Liga Nacional (Guatemala)",
+            "pick": "Dupla hipotese: Empate ou Municipal",
+            "odds": 1.36,
+            "result": "RED",
+            "final_score": "2-1"
+          },
+          {
+            "fixtureId": 1521707,
+            "match": "Johvi Phoenix vs Luunja",
+            "league": "Esiliiga B (Estonia)",
+            "pick": "Dupla hipotese: Johvi Phoenix ou empate",
+            "odds": 1.44,
+            "result": "RED",
+            "final_score": "1-3"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Al Khaleej-Al-Fayha passou facil (2-0), mas as outras duas falharam: o Coban Imperial venceu o Municipal em casa (2-1) e o Johvi perdeu em casa com o Luunja (1-3). Duas pernas vermelhas chumbam o bilhete."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75. Gent a vencer (Marathonbet 1.60, Bet365 1.65) ficou em 70 — sem margem sobre os modelos (Forebet 60%). Ambas marcam no Al-Ahli-Al-Nassr a 1.53 tem curadoria de curto (H2H 4/5, forma 3/5 e 4/5) mas a estimativa (~68%) mal passa a implicita (65%). Lech-Leverkusen ambas marcam a 1.50 e Hajduk-Ajax ambas marcam a 1.57 nao tem historico e os sinais dividem-se (o Hajduk sofreu um golo em quatro jogos em casa no campeonato). Sem duas pernas a 75, nao ha duplo."
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Favorito 1X2",
+        "pick": "Vitoria do Gent",
+        "fixtureId": 1636414,
+        "match": "Gent vs Aarhus",
+        "league": "UEFA Conference League",
+        "odds": 1.65,
+        "score": 70,
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "1-0",
+        "note": "FT Gent 1-0 Aarhus. O favoritismo do Gent cumpriu-se, mas a odd de 1.65 nunca pagou mais do que a probabilidade modelada (Forebet 60%, Bet365/Marathonbet sem margem) — ficou registado, sem stake."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "pnl_se_apostadas": 0.65
+    },
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0,
+      "total_stake": 1,
+      "total_return": 0,
+      "pnl": -1,
+      "roi_pct": -100,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1,
+      "accumulators_return": 0.9576,
+      "accumulators_pnl": -0.0424,
+      "combined_stake": 2,
+      "combined_return": 0.9576,
+      "combined_pnl": -1.0424,
+      "combined_roi_pct": -52.12
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1636328,
+        "strategy": "🔥 FAVORITO A PERDER",
+        "market": "Empate Anula Aposta: Union St. Gilloise",
+        "match": "Union St. Gilloise vs Real Sociedad",
+        "league": "UEFA Europa League (World)",
+        "elapsed": 60,
+        "score": "0-1",
+        "conf": 89,
+        "odds": 6.5,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "estrategia em avaliacao",
+        "result": "PUSH",
+        "finalHome": 1,
+        "finalAway": 1,
+        "finalCorners": null,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1636326,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Rennes vs OFI",
+        "league": "UEFA Europa League (World)",
+        "elapsed": 62,
+        "score": "0-1",
+        "conf": 89,
+        "odds": 1.25,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 89 < 90",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1636300,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "NEC Nijmegen vs Levski Sofia",
+        "league": "UEFA Europa League (World)",
+        "elapsed": 62,
+        "score": "0-1",
+        "conf": 86,
+        "odds": 1.7,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 86 < 90",
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "finalCorners": null,
+        "return": 0,
+        "pnl": 0
+      },
+      {
+        "fixtureId": 1636392,
+        "strategy": "🎯 BTTS LIVE",
+        "market": "Ambas Marcam - Sim",
+        "match": "Brann vs Lincoln Red Imps FC",
+        "league": "UEFA Europa Conference League (World)",
+        "elapsed": 62,
+        "score": "0-1",
+        "conf": 86,
+        "odds": 1.2,
+        "stake": 0,
+        "shadow": true,
+        "shadowReason": "confianca 86 < 90",
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "finalCorners": null,
+        "return": 0,
+        "pnl": 0
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Nenhum alerta apostado hoje. Os 4 alertas do dia (Favorito a Perder no Union St. Gilloise-Real Sociedad e tres BTTS Live na Liga Europa/Conference) ficaram todos em sombra — confianca abaixo de 90 ou estrategia ainda em avaliacao — e nao entram no P&L nem na banca."
+    },
+    "shadow_summary": {
+      "total": 4,
+      "green": 3,
+      "red": 0,
+      "push": 1,
+      "pending": 0,
+      "hit_rate": 75,
+      "by_strategy": {
+        "🔥 FAVORITO A PERDER": { "total": 1, "green": 0, "red": 0, "push": 1, "pending": 0, "hit_rate": 0 },
+        "🎯 BTTS LIVE": { "total": 3, "green": 3, "red": 0, "push": 0, "pending": 0, "hit_rate": 100 }
+      },
+      "stake_nocional": 4,
+      "return_nocional": 5.15,
+      "pnl_nocional": 1.15
+    }
+  },
+  "balance": 26.93,
+  "notes": "Noite europeia cheia mas boletim curto: a unica tip, Craiova nao sofrer contra o Getafe, caiu no 1-1 — o Getafe marcou apesar do jejum fora de casa. Dos dois curtos a meia stake, o da 2.93 salvou-se verde: o jogo saudita Al-Ahli-Al-Nassr foi adiado pela liga (remarcado para marco) e saiu do bilhete, e as outras duas pernas (Central Espanol-Danubio 0-6, Manisa-Esenler 1-1) passaram. O outro curto, a 2.51, caiu com duas pernas vermelhas (Coban Imperial e Johvi Phoenix perderam em casa). Na sombra, o Gent bateu o Aarhus 1-0 e teria dado verde a 1.65 se tivesse entrado. No live, os quatro alertas do dia ficaram todos em sombra (confianca abaixo do piso ou estrategia em avaliacao) — zero stakes apostadas. Dia -1,04 stakes, banca desce de 27,97 para 26,93 stakes."
+}

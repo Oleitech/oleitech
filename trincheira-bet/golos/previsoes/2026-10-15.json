@@ -34,8 +34,8 @@
         "valor": -0.02
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 2,
+      "ganhou": false
     },
     {
       "fixture": 1576198,
@@ -496,5 +496,6 @@
       "golos": null,
       "ganhou": null
     }
-  ]
+  ],
+  "avaliado_em": "2026-10-16T06:10:42.809Z"
 }
