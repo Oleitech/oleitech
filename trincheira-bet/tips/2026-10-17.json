@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T11:19:03.230Z",
+  "units": "stakes",
+  "notes": "Sábado sem tips simples. Havia jogos com cara de aposta — o Napoli em Veneza a 1.70, o Dortmund em Berlim a 1.60 — mas nenhum aguentou quando se puxou pelo contexto, e não se força boletim.\n\nO Venezia perdeu os seis jogos que fez e sofre quase três golos por jogo em casa, só que mudou de treinador na terça e o Davide Nicola estreia-se hoje mesmo. Treinador novo, balneário a querer mostrar serviço: é o que tira o valor a uma odd que já era justa. O Dortmund perdeu em Bodø na quarta e vai a Berlim com três dias de descanso; nem a SportsGambler vai com ele. Ficam os dois de fora, só para registo.\n\nO modelo de golos deu sinais nos jogos escoceses e no Sporting-Albacete, mas as equipas não confirmam o lado do modelo com força para se fiar.\n\nNão há corvo. As pernas que cabiam no preço eram de equipas que jogaram a meio da semana na Europa (PSG, Viking, Bayern) ou de jogos sem notícias de onze para confirmar, e o corvo precisa de o favorito ganhar mesmo.\n\nSaem três curtos de três pernas, todos a meia stake: Betis-Barça ambas marcam, mais de 1.5 no Derby-Stoke e empate ou Palermo (2.35); mais de 1.5 no Cracóvia-Legia, empate ou Lanús e vitória do Maccabi Haifa (2.54); empate ou Juventude, empate ou LDU e mais de 1.5 no Sigma-Liberec (2.38).\n\nExposição do dia: 1,5 stakes.",
+  "tips": [],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Favorito 1X2",
+      "pick": "Vitória do Napoli",
+      "fixtureId": 1550156,
+      "home": {
+        "name": "Venezia",
+        "logo": "https://media.api-sports.io/football/teams/517.png"
+      },
+      "away": {
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-10-17T13:00:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "full",
+      "tese": "O Venezia perdeu os seis jogos que fez na Serie A, sofre quase três golos por jogo em casa e ainda não ficou um jogo sem sofrer; tem seis baixas, três delas na defesa (Sverko, Bella-Kotchap, Correia). O Napoli marcou em todos os jogos da liga e ganhou os três últimos com o Venezia sem sofrer. O que trava a aposta é o banco: o Stroppa foi despedido na terça e o Davide Nicola estreia-se precisamente hoje, no Penzo — um treinador novo, que vive de organizar defesas e de dar choque ao balneário, é o tipo de coisa que tira o valor a uma odd que já era justa. Junta-se o Napoli vir de perder em Villarreal na terça e já ter perdido dois jogos fora na época. A 1.70 (59% implícita) a nossa estimativa anda nos 60-62%: pouco valor para um jogo com estreia de treinador. Fica em sombra.",
+      "factors": [
+        "Venezia, Serie A 2026/27 (API /teams/statistics, n=6): 0V 0E 6D; casa (n=3) 2 marcados e 8 sofridos; 0 jogos sem sofrer; em branco em 2 dos 3 em casa",
+        "Napoli, Serie A 2026/27 (API /teams/statistics, n=6): 3V 1E 2D; fora (n=3) 1V 1E 1D, 5 marcados e 4 sofridos; marcou em todos os 6 jogos; 3 jogos sem sofrer",
+        "Forma só oficiais (API /fixtures): Venezia 1-3 Atalanta, 0-2 Lazio, 2-4 Fiorentina, 2-3 Frosinone, 0-2 Milan na liga e 1-2 Udinese na Taça; Napoli 1-3 Villarreal (Champions, 13/10), 3-0 Frosinone, 1-1 Fiorentina, 1-0 Bologna, 0-1 Arsenal (Champions), 2-3 Inter",
+        "H2H oficial (API /fixtures/headtohead, Serie A, n=4): Napoli 2-0, 2-0, 1-0 e 0-0 — 3 vitórias, 4 jogos sem sofrer",
+        "xG (FootyStats, Serie A 2026/27, resumo de pesquisa): Venezia 1,46 a favor e 1,72 contra por jogo; Napoli 1,69 a favor e 1,73 contra — o Napoli concede mais do que o resultado mostra",
+        "Ausências com duas fontes concordantes (API /injuries e SportsGambler): Venezia sem Busio, Franjic, Adorante, Sverko, Correia e Bella-Kotchap; Napoli sem Neres, Vergara e Buongiorno. A SportsGambler junta Mazzocchi e Cajuste, a API junta Favasuli — fora do onze provável, não mexem na tese",
+        "Treinadores: Venezia despediu Stroppa a 13/10 após a sexta derrota (diretta.it, tuttomercatoweb) e contratou Davide Nicola, que se estreia hoje (fantacalcio.it, fantamaster.it); Napoli com Allegri (SportsGambler)",
+        "Probabilidades: Bet365 4.75/3.90/1.70 (59% implícita no Napoli), Marathonbet 1.71; API /predictions 50% Napoli com conselho de vitória do Napoli; Forebet projecta 0-3 (resumo de pesquisa, página 403)",
+        "Terceiros: Forebet e API pelo Napoli; SportsGambler vai pelo ambas marcam a 1.66 e mete o Venezia +0.75 no bet builder — um a puxar contra"
+      ],
+      "sources": [
+        "API-Football — /fixtures (últimos 6 oficiais de cada), /teams/statistics Serie A 2026, /fixtures/headtohead, /predictions, /injuries, /odds Bet365 e Marathonbet por fixture",
+        "SportsGambler — antevisão Venezia-Napoli 17/10 (onzes prováveis, baixas, pick)",
+        "FootyStats e Forebet — via pesquisa restrita (xG da época; Forebet 403 na página directa)",
+        "diretta.it e tuttomercatoweb.com — despedimento do Stroppa (13/10)",
+        "fantacalcio.it e fantamaster.it — Davide Nicola oficializado, estreia contra o Napoli"
+      ]
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Favorito 1X2",
+      "pick": "Vitória do Borussia Dortmund",
+      "fixtureId": 1575188,
+      "home": {
+        "name": "Union Berlin",
+        "logo": "https://media.api-sports.io/football/teams/182.png"
+      },
+      "away": {
+        "name": "Borussia Dortmund",
+        "logo": "https://media.api-sports.io/football/teams/165.png"
+      },
+      "league": "Bundesliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/78.png",
+      "kickoff": "2026-10-17T13:30:00Z",
+      "odds": 1.6,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Union está a levar goleadas (7-0 em Munique, 4-0 em Leverkusen, 1-3 em casa com o Schalke) e o Dortmund ganhou os três últimos encontros sem sofrer. Só que o Dortmund jogou quarta-feira em Bodø, perdeu 1-0, e faz a viagem para Berlim com três dias de descanso, para um estádio onde o Union costuma apertar. A 1.60 a odd paga 62,5% e a SportsGambler vai pelo Union com um golo de avanço: não há margem que pague o desgaste. Fica em sombra, e com contexto incompleto (faltaram os splits casa/fora com amostra e os treinadores confirmados por fonte actual).",
+      "factors": [
+        "Union, forma só oficiais (API /fixtures): 1-0 Elversberg, 0-7 Bayern, 1-3 Schalke, 0-4 Leverkusen, 3-3 Frankfurt (Bundesliga) e 4-2 Braunschweig (Taça)",
+        "Dortmund, forma só oficiais (API /fixtures): 0-1 Bodø/Glimt (Champions, 14/10), 2-2 Bremen, 1-0 Estugarda, 3-0 Paderborn, 3-2 Villarreal (Champions), 3-2 Hoffenheim",
+        "SportsGambler, Bundesliga últimos 10: Union 3V 2E 5D, 1,6 marcados e 2,5 sofridos; Dortmund 7V 1E 2D, 2,1 marcados e 0,9 sofridos",
+        "H2H oficial (API, Bundesliga, n=6): Dortmund 3-0, 3-0, 6-0, 2-0, 4-2 e uma derrota 2-1 (10/2024)",
+        "Ausências com duas fontes concordantes (API /injuries e SportsGambler): Dortmund sem Emre Can, Konstantelias e Lerma; Union sem Ilic, Juranovic e Markgraf. Köhn (castigo) e Friedrich só na SportsGambler; Nsoki e Latte Lath só na API",
+        "Probabilidades: Bet365 5.50/4.20/1.60 (62,5% implícita), Marathonbet 1.59; API /predictions 50% Dortmund; SportsGambler 64,5% implícita mas pick Union +1 a 1.86"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /fixtures/headtohead, /predictions, /injuries, /odds Bet365 e Marathonbet por fixture",
+        "SportsGambler — antevisão Union Berlin-Borussia Dortmund 17/10",
+        "FootyStats e Forebet — via pesquisa restrita (H2H; Forebet 403 na página directa)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570413,
+          "match": "Real Betis vs Barcelona",
+          "league": "La Liga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-17T16:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1563206,
+          "match": "Derby vs Stoke City",
+          "league": "Championship",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.3,
+          "kickoff": "2026-10-17T14:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1601558,
+          "match": "Mantova vs Palermo",
+          "league": "Serie B",
+          "pick": "Dupla hipótese: Empate ou Palermo",
+          "odds": 1.33,
+          "kickoff": "2026-10-17T15:15:00Z"
+        }
+      ],
+      "combined_odds": 2.35,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1553191,
+          "match": "Cracovia Krakow vs Legia Warszawa",
+          "league": "Ekstraklasa",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-17T18:15:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1493193,
+          "match": "Platense vs Lanus",
+          "league": "Liga Profesional (Argentina)",
+          "pick": "Dupla hipótese: Empate ou Lanús",
+          "odds": 1.4,
+          "kickoff": "2026-10-17T20:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1555525,
+          "match": "Maccabi Petah Tikva vs Maccabi Haifa",
+          "league": "Ligat Ha’al (Israel)",
+          "pick": "Vitória do Maccabi Haifa",
+          "odds": 1.42,
+          "kickoff": "2026-10-17T16:30:00Z"
+        }
+      ],
+      "combined_odds": 2.54,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1520931,
+          "match": "Ceara vs Juventude",
+          "league": "Serie B (Brasil)",
+          "pick": "Dupla hipótese: Empate ou Juventude",
+          "odds": 1.4,
+          "kickoff": "2026-10-17T19:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1639794,
+          "match": "Aucas vs LDU de Quito",
+          "league": "Liga Pro (Equador)",
+          "pick": "Dupla hipótese: Empate ou LDU Quito",
+          "odds": 1.33,
+          "kickoff": "2026-10-17T21:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1560046,
+          "match": "Sigma Olomouc vs Slovan Liberec",
+          "league": "Czech Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-17T16:00:00Z"
+        }
+      ],
+      "combined_odds": 2.38,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75 com investigação completa. O Napoli a 1.70 e o Dortmund a 1.60 ficaram em 72 e 70 (estreia do Nicola no Venezia; Dortmund a jogar três dias depois de Bodø). As pernas curtas a 1.40-1.42 (Lanús, Juventude, Maccabi Haifa) só tiveram o filtro do curto, sem a investigação de tip — não servem para este teste."
+  }
+}
