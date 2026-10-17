@@ -2,8 +2,51 @@
   "date": "2026-10-17",
   "generated_at": "2026-10-17T11:19:03.230Z",
   "units": "stakes",
-  "notes": "Sábado sem tips simples. Havia jogos com cara de aposta — o Napoli em Veneza a 1.70, o Dortmund em Berlim a 1.60 — mas nenhum aguentou quando se puxou pelo contexto, e não se força boletim.\n\nO Venezia perdeu os seis jogos que fez e sofre quase três golos por jogo em casa, só que mudou de treinador na terça e o Davide Nicola estreia-se hoje mesmo. Treinador novo, balneário a querer mostrar serviço: é o que tira o valor a uma odd que já era justa. O Dortmund perdeu em Bodø na quarta e vai a Berlim com três dias de descanso; nem a SportsGambler vai com ele. Ficam os dois de fora, só para registo.\n\nO modelo de golos deu sinais nos jogos escoceses e no Sporting-Albacete, mas as equipas não confirmam o lado do modelo com força para se fiar.\n\nNão há corvo. As pernas que cabiam no preço eram de equipas que jogaram a meio da semana na Europa (PSG, Viking, Bayern) ou de jogos sem notícias de onze para confirmar, e o corvo precisa de o favorito ganhar mesmo.\n\nSaem três curtos de três pernas, todos a meia stake: Betis-Barça ambas marcam, mais de 1.5 no Derby-Stoke e empate ou Palermo (2.35); mais de 1.5 no Cracóvia-Legia, empate ou Lanús e vitória do Maccabi Haifa (2.54); empate ou Juventude, empate ou LDU e mais de 1.5 no Sigma-Liberec (2.38).\n\nExposição do dia: 1,5 stakes.",
-  "tips": [],
+  "notes": "Sábado com uma tip simples, que saiu na segunda volta da tarde: ambas marcam no Viking-Fredrikstad, às 17:00, a 1.62, uma stake. O Viking marcou nos dez jogos que fez em casa e chega com a defesa cheia de baixas, depois de levar três do Bayern na terça; o Fredrikstad marcou nos últimos oito jogos da liga. Três antevisões vão pelo mesmo lado. O preço está perto do justo, não há gordura, mas os números das duas equipas aguentam a aposta.\n\nDe resto, voltou-se a passar a tarde e a noite inteiras e não há mais nada com valor. A Inter em Bolonha e a Roma com o Genoa estavam a 1.55: a Inter vai sem o Lautaro e paga menos do que devia, a Roma tem seis baixas, o guarda-redes incluído. O Lille, o Lens e o Göteborg tinham cara de aposta, mas os números de fundo não acompanham, e não se força boletim.\n\nNão há corvo nem acumulador novo: com uma tip só não se monta acumulador, e para o corvo só o Bayern passava — o PSG vai a Estrasburgo com meia equipa poupada.\n\nOs três curtos da manhã ficam como estavam, todos a meia stake: Betis-Barça ambas marcam, mais de 1.5 no Derby-Stoke e empate ou Palermo (2.35); mais de 1.5 no Cracóvia-Legia, empate ou Lanús e vitória do Maccabi Haifa (2.54); empate ou Juventude, empate ou LDU e mais de 1.5 no Sigma-Liberec (2.38).\n\nExposição do dia: 2,5 stakes.",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1494787,
+      "home": {
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png"
+      },
+      "away": {
+        "name": "Fredrikstad",
+        "logo": "https://media.api-sports.io/football/teams/2149.png"
+      },
+      "league": "Eliteserien",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
+      "kickoff": "2026-10-17T16:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Viking marcou nos dez jogos que fez em casa nesta Eliteserien (38 golos) e só em três ficou sem sofrer. O Fredrikstad marcou nos últimos oito jogos da liga, cinco deles já com o Casper Røjkjær, que entrou a 30/08, e fora de casa só ficou em branco em quatro de onze. O Viking chega desfalcado atrás — Roseth, Bjørshol e Baertelsen lesionados e o Askildsen castigado, nas duas fontes — e quatro dias depois de levar três do Bayern na Champions. Não é jogo para gerir: o Viking é segundo e anda na luta pelo título. Três terceiros vão no mesmo sentido (SportsGambler, Forebet e o modelo do FootyStats a 63%). O que pesa contra: o H2H dá só três em cinco com ambas a marcar, o Fredrikstad fica em branco fora em 36% dos jogos, e a 1.62 o preço está perto do justo pelas nossas contas (60-63%) — a aposta vale pelos padrões das duas equipas, não por uma odd esticada.",
+      "factors": [
+        "Viking em casa, Eliteserien 2026 (API /fixtures, n=10): marcou nos 10 e sofreu em 7 — 3-0 Lillestrøm, 8-1 Kristiansund, 2-1 Aalesund, 2-1 Sarpsborg, 2-1 Sandefjord, 6-3 Start, 3-0 Rosenborg, 3-2 Brann, 5-0 Bodø/Glimt, 4-1 Molde; ambas marcaram em 7/10",
+        "Fredrikstad fora, Eliteserien 2026 (API /fixtures e /teams/statistics, n=11): marcou em 7, ambas marcaram em 6. Marcou nos últimos 8 jogos da liga seguidos (1-1 Tromsø, 1-1 em Vålerenga, 1-1 Sarpsborg, 1-2 Bodø/Glimt, 4-1 em Lillestrøm, 1-0 Kristiansund, 1-0 em Start, 1-0 Sandefjord). Amigáveis de Junho e Julho excluídos",
+        "Época inteira na liga (API, Eliteserien 2026, n=22 cada): ambas marcaram em 14 dos 22 jogos do Viking e em 14 dos 22 do Fredrikstad",
+        "FootyStats, Eliteserien 2026 (splits da época; a página não declara a amostra, bate com n=10 casa / n=11 fora da API): Viking em casa xG 2,13 e xGA 1,27, 0% em branco, 30% sem sofrer; Fredrikstad fora xG 1,18 e xGA 1,79, 36% em branco; previsão de ambas marcam 63% (média da liga 60%); Viking 2.º, Fredrikstad 8.º",
+        "H2H oficial (API /fixtures/headtohead, Eliteserien, n=5): 1-2, 0-1, 3-0, 3-2, 1-1 — ambas marcaram em 3/5",
+        "Contexto (API /fixtures): Viking 3-3 com o Bayern na Champions a 13/10, depois de ganhar 2-0 em Bergen a 09/10; vai a Bodø a 24/10 (calendário ESPN). Treinadores: Morten Jensen no Viking (SportsGambler; Flashscore antes do jogo com o Bayern), Casper Røjkjær no Fredrikstad desde 30/08/2026 (SportsGambler; resumo de pesquisa)",
+        "Ausências com duas fontes concordantes (API /injuries e SportsGambler): Viking sem Askildsen (vermelho), Baertelsen, Berisha, Bjørshol e Roseth; Fredrikstad sem Kvile e Max Nilsson (amarelos), Nysveen em dúvida. Discordância: a SportsGambler dá Falchener (amarelos) e Røervik Bjørdal (vermelho) de fora mas mete os dois no onze provável, e a API não os lista — não entram como baixa. Só numa fonte: N. D’Agostino (API), K. Haugen (SportsGambler), S. Owusu em dúvida (API)",
+        "Probabilidades: Bet365 ambas marcam 1.62 / não 2.20 e Marathonbet 1.58 / 2.20 (actualização 12:15Z, confirmada por fixture às 13:00Z); FootyStats 63%; SportsGambler estima 65-70%; API /predictions aconselha Viking e mais de 1.5. Estimativa nossa: Viking marca ~93%, Fredrikstad ~65-68%, ambas ~60-63% — justo perto de 1.60. A Pinnacle não expõe este mercado na API",
+        "Terceiros (cruzamento com a volta cega): SportsGambler ambas marcam sim @1.66 como pick principal (3-1), Forebet Yes com 3-1 (resumo de pesquisa, página directa dá 403), FootyStats 63% — três a favor, nenhum contra"
+      ],
+      "sources": [
+        "API-Football — /fixtures (Eliteserien 2026 das duas equipas e jogos europeus do Viking), /teams/statistics, /fixtures/headtohead, /injuries, /predictions, /odds Bet365 e Marathonbet por fixture",
+        "SportsGambler — antevisão Viking-Fredrikstad 17/10 (onzes prováveis, baixas, forma casa/fora, pick)",
+        "FootyStats — página H2H Viking-Fredrikstad (splits, xG, previsão 63%)",
+        "Forebet — via pesquisa restrita (pick Yes 3-1; 403 directo)",
+        "Flashscore e imprensa do Viking-Bayern de 13/10 (treinador, golos sofridos)",
+        "Pesquisa aberta — Casper Røjkjær treinador do Fredrikstad desde 30/08/2026"
+      ]
+    }
+  ],
   "sombra": [
     {
       "market": "favorites",
@@ -82,6 +125,83 @@
         "API-Football — /fixtures, /fixtures/headtohead, /predictions, /injuries, /odds Bet365 e Marathonbet por fixture",
         "SportsGambler — antevisão Union Berlin-Borussia Dortmund 17/10",
         "FootyStats e Forebet — via pesquisa restrita (H2H; Forebet 403 na página directa)"
+      ]
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Favorito 1X2",
+      "pick": "Vitória da Inter",
+      "fixtureId": 1550149,
+      "home": {
+        "name": "Bologna",
+        "logo": "https://media.api-sports.io/football/teams/500.png"
+      },
+      "away": {
+        "name": "Inter",
+        "logo": "https://media.api-sports.io/football/teams/505.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-10-17T16:00:00Z",
+      "odds": 1.55,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Bologna ainda não ganhou em casa (dois empates e uma derrota, três golos marcados) e a Inter leva cinco vitórias e um empate na liga, com 18 golos. Mas falta o Lautaro até Novembro, mais Stones, Curtis Jones e Pavard, e a Inter vem de perder 3-4 em casa com o Brugge na terça. O Bologna mudou de treinador a 16/09 (Palladino) e não perdeu desde então, e nos últimos três ao Dall’Ara a Inter só ganhou um. A 1.55 da Bet365 paga menos do que o preço justo da Pinnacle (cerca de 1.64 sem margem). Fica em sombra.",
+      "factors": [
+        "Bologna, Serie A 2026/27 (API /teams/statistics, n=6): 1V 2E 3D; casa (n=3) 0V 2E 1D, 3 marcados e 4 sofridos, nenhum jogo sem sofrer",
+        "Inter, Serie A 2026/27 (API, n=6): 5V 1E 0D, 18 marcados e 8 sofridos; fora (n=2) 1V 1E. Champions: 3-4 em casa com o Brugge a 13/10",
+        "FootyStats Serie A 2026/27 (n=3 casa / n=2 fora, inferido pela página; não diz se é só liga): Bologna em casa xG 1,48 / xGA 1,31; Inter fora xG 2,30 / xGA 1,35",
+        "H2H oficial (API, Serie A, n=6): 3-3, 3-1 Inter, 1-0 Bologna, 2-2, 0-1 Inter, 2-2 — no Dall’Ara 1V Inter, 1E, 1D",
+        "Ausências com duas fontes (SportsGambler e API /injuries): Inter sem Lautaro, Stones e Curtis Jones; Pavard só na API. Bologna sem Orsolini e Holm; Dallinga só na SportsGambler",
+        "Treinador: Palladino no Bologna desde 16/09/2026, substituiu Tedesco (fantacalcio.it, diretta.it); com ele 1-1 Torino e 2-1 em Lecce",
+        "Probabilidades: Bet365 6.00/4.10/1.55, Marathonbet 1.59, Pinnacle 6.10/4.18/1.58 (61% sem margem, justo ~1.64); API /predictions 45% Inter / 45% empate",
+        "Terceiros: SportsGambler vitória da Inter @1.57 (0-2); sem segunda antevisão actual encontrada"
+      ],
+      "sources": [
+        "API-Football — /teams/statistics, /fixtures/headtohead, /injuries, /predictions, /odds Bet365, Marathonbet e Pinnacle",
+        "SportsGambler — antevisão Bologna-Inter 17/10",
+        "FootyStats — página H2H Bologna-Inter",
+        "fantacalcio.it e diretta.it — Palladino oficializado a 16/09/2026"
+      ]
+    },
+    {
+      "market": "1x2",
+      "marketLabel": "Resultado final",
+      "pick": "IFK Goteborg vence",
+      "fixtureId": 1494297,
+      "home": {
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png"
+      },
+      "away": {
+        "name": "IFK Goteborg",
+        "logo": "https://media.api-sports.io/football/teams/366.png"
+      },
+      "league": "Allsvenskan",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/113.png",
+      "kickoff": "2026-10-17T15:30:00Z",
+      "odds": 2.5,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Göteborg ganhou os últimos cinco jogos da liga e o AIK perdeu os dois últimos, um deles 5-6 em casa; o AIK sofre mais de dois golos por jogo em Solna. A 2.50 da Bet365 está acima do preço justo da Pinnacle (2.35). Mas o Göteborg fora é outro (4V 2E 5D, 28 sofridos em 11), o AIK ganhou 3-0 e 5-2 nas duas últimas visitas do Göteborg a Solna e as baixas não batem certo entre as fontes. Fica em sombra.",
+      "factors": [
+        "Göteborg, Allsvenskan 2026 (API /fixtures, últimos 5 da liga): 1-0 Västerås, 1-0 em Brommapojkarna, 2-1 Halmstad, 4-1 em Mjällby, 1-0 Örgryte; fora (API /teams/statistics, n=11) 4V 2E 5D, 16 marcados e 28 sofridos",
+        "AIK, Allsvenskan 2026 (API, casa n=11): 4V 1E 6D, 17 marcados e 25 sofridos; últimos jogos 5-6 Brommapojkarna, 1-2 em Halmstad, 1-1 Mjällby, 1-4 Västerås",
+        "H2H oficial (API, Allsvenskan, n=8): em Solna 3-0 AIK (2025), 5-2 AIK (2024), 2-2 (2023)",
+        "Ausências: só Cissé (AIK) e Mucolli (Göteborg) nas duas fontes; a API dá mais oito baixas no AIK que a SportsGambler não tem — discordância não resolvida, daí o partial",
+        "Classificação (SportsGambler): Göteborg 8.º com 35 pontos, AIK 9.º com 33, ambos a meio da tabela",
+        "Probabilidades: Bet365 2.60/3.60/2.50, Marathonbet 2.50, Pinnacle 2.93/3.88/2.25 (Göteborg 42,6% sem margem, justo 2.35); API /predictions 35/35/30 com conselho AIK ou empate",
+        "Terceiros: SportsGambler Göteborg AH 0 @1.79 (1-2); API contra"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /teams/statistics Allsvenskan 2026, /fixtures/headtohead, /injuries, /predictions, /odds Bet365, Marathonbet e Pinnacle",
+        "SportsGambler — antevisão AIK-IFK Göteborg 17/10"
       ]
     }
   ],
@@ -203,6 +323,8 @@
   ],
   "duplo_sombra": {
     "selections": [],
-    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75 com investigação completa. O Napoli a 1.70 e o Dortmund a 1.60 ficaram em 72 e 70 (estreia do Nicola no Venezia; Dortmund a jogar três dias depois de Bodø). As pernas curtas a 1.40-1.42 (Lanús, Juventude, Maccabi Haifa) só tiveram o filtro do curto, sem a investigação de tip — não servem para este teste."
-  }
+    "motivo": "Na segunda volta só uma perna chegou a 75 com investigação completa: ambas marcam no Viking-Fredrikstad, a 1.58 na Marathonbet (1.62 na Bet365). Não houve segunda perna de 75+ entre 1.40 e 1.60 — a Inter, a 1.55-1.59, ficou em 66. De manhã, o Napoli (1.70) e o Dortmund (1.60) tinham ficado em 72 e 70."
+  },
+  "segunda_volta": true,
+  "segunda_volta_at": "2026-10-17T13:04:03.331Z"
 }
