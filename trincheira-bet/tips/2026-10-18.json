@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T06:17:57.337Z",
+  "units": "stakes",
+  "notes": "Domingo cheio, mas sem tip a solo. Os dois sinais do mais de 2.5 que tinham valor na casa — o Kifisia-Aris e o Panetolikos-Olympiakos — caíram na investigação: o Kifisia-Aris nunca passou dos dois golos nos quatro jogos entre eles, e o Olympiakos anda a ganhar tudo por 1-0. Não dá para fiar no número contra isso.\n\nO que mais se aproximou foi o ambas marcam no Celtic-Hearts, a 1.62. Os Hearts marcam sempre, mas o Celtic em casa quase não sofre esta época e a odd está a subir, ou seja o mercado está a sair do Sim. Ficou de fora, não se força boletim.\n\nSaem dois curtos a meia stake. O primeiro junta ambas marcam no Gladbach-Hoffenheim, no Sarpsborg-Rosenborg e no Cincinnati-Columbus (2.6). O segundo leva ambas marcam no Groningen-Ajax e no Vålerenga-Brann e a vitória do Molde em casa com o Start (2.46). Este segundo tem duas pernas da liga norueguesa: havia três pernas boas na Noruega e não deu para as separar todas.\n\nO corvo é Real Madrid a ganhar com mais de 1.5 golos ao Sevilha e Panathinaikos a ganhar com mais de 1.5 ao Asteras (1.86, Marathonbet, meia stake). O Real joga sem o Vinícius, castigado. No Panathinaikos o perigo é um 1-0 magro: o Asteras fecha-se bem e o Panathinaikos jogou na quinta.\n\nNão há duplo hoje. Exposição total: 1.5 stakes.",
+  "tips": [],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1556677,
+      "home": {
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png"
+      },
+      "away": {
+        "name": "Heart Of Midlothian",
+        "logo": "https://media.api-sports.io/football/teams/254.png"
+      },
+      "league": "Premiership",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/179.png",
+      "kickoff": "2026-10-18T14:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "Os Hearts marcaram em todos os oito jogos oficiais desta época e, fora de casa, a SportsGambler dá-lhes ambas marcam em 9 dos últimos 10 da liga. Nos cinco últimos Celtic-Hearts houve golos dos dois lados em quatro. O que trava: o Celtic em casa esta época quase não sofre (o FootyStats dá ambas marcam em 25% e balizas a zero em 50%, amostra curta), a odd saiu de 1.52 a 16/10 para 1.62 hoje, ou seja o mercado está a fugir do Sim, e a própria SportsGambler vai pela vitória do Celtic com menos de 2.5 no bet builder. O James Wilson, avançado dos Hearts, aparece como castigado numa fonte e no onze provável na mesma página, e não há segunda fonte que desempate. Fica em sombra a 68.",
+      "factors": [
+        "H2H oficial (API /fixtures/headtohead, Premiership, n=5): 3-1, 2-2, 1-2, 3-1, 3-0 — ambas marcaram em 4/5",
+        "Hearts, jogos oficiais 2026/27 (API /fixtures, n=8, Premiership + Taça da Liga + Conference): marcaram nos 8 (1-1 Nordsjaelland, 5-0 St Mirren, 1-1 Kilmarnock, 1-2 Falkirk, 3-0 Stenhousemuir, 2-1 Dundee, 3-1 Hibernian, 2-1 St Johnstone)",
+        "Celtic, jogos oficiais 2026/27 (API /fixtures, n=8): ambas marcaram em 3/8; ficou em branco 2x com o Rangers; sofreu 4 com o Benfica e 3 com o Ferencváros",
+        "SportsGambler (últimos 10 da liga, sem amigáveis): Celtic ambas marcam 6/10 em casa, Hearts 9/10 fora",
+        "FootyStats, Premiership 2026/27 (a página não declara n; as tiras de forma sugerem 4 casa / 4 fora): Celtic em casa ambas marcam 25%, balizas a zero 50%, xG 2,01 / xGA 1,17; Hearts fora ambas marcam 100%, xG 1,46 / xGA 1,17; previsão ambas marcam 57%",
+        "Preço: 1.52 na SportsGambler a 16/10, 1.62 na Bet365 hoje — movimento contra o Sim",
+        "Ausências: Hearts — Halkett (tornozelo), Pollock e Nieuwenhof (isquiotibiais) e Wilson (vermelho) só na SportsGambler; o /injuries da API vem vazio para este jogo. Sem segunda fonte concordante"
+      ],
+      "sources": [
+        "API-Football /fixtures/headtohead, /fixtures?team=247&last=8, /fixtures?team=254&last=8, /injuries?fixture=1556677 (vazio), /odds Bet365 e Marathonbet",
+        "https://www.sportsgambler.com/betting-tips/football/celtic-vs-hearts-prediction-lineups-odds-2026-10-18/",
+        "https://footystats.org/scotland/celtic-fc-vs-heart-of-midlothian-fc-h2h-stats",
+        "Forebet https://www.forebet.com/en/football/matches/celtic-hearts-2476626 — 403"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575189,
+          "match": "Borussia Mönchengladbach vs 1899 Hoffenheim",
+          "league": "Bundesliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-18T15:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1494784,
+          "match": "Sarpsborg 08 FF vs Rosenborg",
+          "league": "Eliteserien",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-18T12:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1490555,
+          "match": "FC Cincinnati vs Columbus Crew",
+          "league": "Major League Soccer",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.33,
+          "kickoff": "2026-10-18T21:00:00Z"
+        }
+      ],
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552197,
+          "match": "Groningen vs Ajax",
+          "league": "Eredivisie",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-18T14:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1494786,
+          "match": "Valerenga vs Brann",
+          "league": "Eliteserien",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.36,
+          "kickoff": "2026-10-18T15:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1494782,
+          "match": "Molde vs Start",
+          "league": "Eliteserien",
+          "pick": "Molde vence",
+          "odds": 1.33,
+          "kickoff": "2026-10-18T15:00:00Z"
+        }
+      ],
+      "combined_odds": 2.46,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1570420,
+          "match": "Real Madrid vs Sevilla",
+          "league": "La Liga",
+          "pick": "Real Madrid vence e Mais de 1.5 golos",
+          "odds": 1.34,
+          "kickoff": "2026-10-18T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1593335,
+          "match": "Panathinaikos vs Asteras Tripolis",
+          "league": "Super League 1",
+          "pick": "Panathinaikos vence e Mais de 1.5 golos",
+          "odds": 1.39,
+          "kickoff": "2026-10-18T14:30:00Z"
+        }
+      ],
+      "combined_odds": 1.86,
+      "score": 68,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. A mais próxima foi o ambas marcam no Celtic-Hearts, mas está a 1.62 e ficou em 68."
+  }
+}
