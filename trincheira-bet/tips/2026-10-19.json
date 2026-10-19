@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T06:12:18.615Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de jornada curta: Serie A com dois jogos, Premier League com o Tottenham-Coventry, o Braga-Gil Vicente em atraso, Dinamarca, Turquia e Arábia Saudita. Não sai nenhuma tip individual. Os poucos preços acima de 1.55 vinham de equipas em má fase (o Braga não ganha há três, o Tottenham não ganha há cinco) e o resto estava curto demais para valer a pena.\n\nHá um curto de três pernas a meia stake: mais de 1.5 golos no Monza-Cagliari, ambas marcam no Viborg-Midtjylland e mais de 1.5 golos no Parma-Torino, 2.79 de combinada. Leva dois jogos da Serie A, o que não é o ideal, mas a perna do Al-Ahli que lá estava saiu: fora de casa ganham pouco esta época e não deu para fiar na forma. O que pesa contra: o mercado acredita em jogos fechados nos dois italianos e o Parma tem marcado pouco.\n\nCorvo hoje não há. As duas pernas que cabiam na banda eram ambas da liga saudita (Al-Hilal e Al-Ahli) e não se conseguiu confirmar baixas nem onze provável de nenhum dos dois — e o corvo não sai sem isso. Duplo também não: nenhuma perna entre 1.40 e 1.60 chegou à nota para isso.\n\nDia leve de propósito: a ferramenta dos dados estava limitada hoje e não se força boletim sem a pesquisa feita. Exposição total: meia stake.",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550153,
+          "match": "Monza vs Cagliari",
+          "league": "Serie A",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-19T16:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1549039,
+          "match": "Viborg vs FC Midtjylland",
+          "league": "Superliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.5,
+          "kickoff": "2026-10-19T17:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550154,
+          "match": "Parma vs Torino",
+          "league": "Serie A",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-10-19T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.79,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. A mais próxima foi o ambas marcam no Viborg-Midtjylland a 1.50, mas o Viborg só tem 40% de ambas marcam esta época e ficou longe da nota."
+  }
+}
