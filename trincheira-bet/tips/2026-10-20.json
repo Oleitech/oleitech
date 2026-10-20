@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T06:25:00Z",
+  "units": "stakes",
+  "notes": "Terça de Champions, com sete jogos da fase de liga e jornada a meio da semana em Inglaterra. Não sai tip individual. Os preços dos jogos grandes estão justos: o Porto paga 1.55 contra um PSV desfalcado, mas perdeu os dois jogos da Champions e os modelos não lhe dão mais do que o mercado; o Atlético vem de seis vitórias seguidas, mas em Estugarda o 2.05 não deixa margem. Sem valor, não se força boletim.\n\nSai um curto a meia stake: Liverpool vence em Anfield, o Walsall não perde em casa com o Oldham e o Stockport ganha em Doncaster com o empate a devolver. O Walsall não perde há dez jogos na League Two e o Oldham ainda não ganhou fora; o Stockport ganhou quatro dos últimos cinco frente-a-frente.\n\nSai também o corvo a meia stake, com as odds da Marathonbet: o Liverpool marca dois ou mais e há mais de 3.5 golos no PSG-Barcelona, um jogo que nos últimos anos tem dado chuva de golos. Atenção que o Liverpool está nos dois bilhetes, em mercados diferentes: se o Liverpool tiver uma noite má, caem os dois. Fica dito.\n\nNa Champions, os favoritos mais baratos (City, Roma, Dortmund) nunca jogaram contra estes adversários, por isso ficam fora dos acumuladores. Não há duplo em sombra hoje: nenhuma perna entre 1.40 e 1.60 chegou à nota.\n\nExposição total: uma stake (meia no curto, meia no corvo).",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1635688,
+          "match": "Liverpool vs Villarreal",
+          "league": "UEFA Champions League",
+          "pick": "Liverpool vence",
+          "odds": 1.48,
+          "kickoff": "2026-10-20T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1563825,
+          "match": "Walsall vs Oldham",
+          "league": "League Two",
+          "pick": "Walsall ou empate (dupla hipótese 1X)",
+          "odds": 1.4,
+          "kickoff": "2026-10-20T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1564372,
+          "match": "Doncaster vs Stockport County",
+          "league": "League One",
+          "pick": "Stockport County vence, empate devolve (DNB)",
+          "odds": 1.4,
+          "kickoff": "2026-10-20T18:45:00Z"
+        }
+      ],
+      "combined_odds": 2.9,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635688,
+          "match": "Liverpool vs Villarreal",
+          "league": "UEFA Champions League",
+          "pick": "Liverpool marca mais de 1.5 golos",
+          "odds": 1.43,
+          "kickoff": "2026-10-20T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635702,
+          "match": "Paris Saint Germain vs Barcelona",
+          "league": "UEFA Champions League",
+          "pick": "Mais de 3.5 golos",
+          "odds": 1.48,
+          "kickoff": "2026-10-20T19:00:00Z"
+        }
+      ],
+      "combined_odds": 2.12,
+      "score": 66,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Liverpool vence a 1.48 não tem valor (a Pinnacle dá 1.50 e a SportsGambler vai no Villarreal com handicap); o mais de 3.5 no PSG-Barcelona a 1.53 está abaixo do preço justo da Pinnacle (1.57) e a antevisão aponta 1-2; o Porto a 1.55 tem o modelo da Kickoff a dar só 50%; Walsall ou empate e Stockport sem empate a 1.40 não têm fonte de baixas na League One e Two, e sem isso não chegam a 75."
+  }
+}

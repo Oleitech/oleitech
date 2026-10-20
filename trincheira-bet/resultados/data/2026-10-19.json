@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-19",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "score": 65,
+        "stake": 0.5,
+        "combined_odds": 2.79,
+        "selections": [
+          {
+            "fixtureId": 1550153,
+            "match": "Monza vs Cagliari",
+            "league": "Serie A",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "result": "GREEN",
+            "final_score": "4-0"
+          },
+          {
+            "fixtureId": 1549039,
+            "match": "Viborg vs FC Midtjylland",
+            "league": "Superliga",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.5,
+            "result": "GREEN",
+            "final_score": "1-2"
+          },
+          {
+            "fixtureId": 1550154,
+            "match": "Parma vs Torino",
+            "league": "Serie A",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.4,
+            "result": "GREEN",
+            "final_score": "0-3"
+          }
+        ],
+        "result": "GREEN",
+        "return": 1.4,
+        "pnl": 0.9,
+        "note": "Tres pernas verdes: Monza-Cagliari 4-0, Viborg-Midtjylland 1-2 (ambas marcaram), Parma-Torino 0-3."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. A mais próxima foi o ambas marcam no Viborg-Midtjylland a 1.50, mas o Viborg só tem 40% de ambas marcam esta época e ficou longe da nota."
+    },
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.4,
+      "accumulators_pnl": 0.9,
+      "combined_stake": 0.5,
+      "combined_return": 1.4,
+      "combined_pnl": 0.9,
+      "combined_roi_pct": 180
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem alertas arquivados: o worker continuou cego (API-Football em plano Free)."
+    }
+  },
+  "balance": 28.37,
+  "notes": "Segunda-feira com um curto de tres pernas a meia stake, todas verdes (Monza-Cagliari 4-0, Viborg-Midtjylland 1-2, Parma-Torino 0-3), 2.79 de combinada, +0,9 stakes. Sem tips a solo, sem corvo, sem duplo, sem alertas live. Banca 28,37 stakes."
+}
