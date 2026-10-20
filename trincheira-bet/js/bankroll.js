@@ -6,7 +6,7 @@
 // este registo fica porque o ciclo diario o actualiza.
 
 const Bankroll = {
-  bankroll: 28.37,   // Banca total, em stakes
+  bankroll: 30.38,   // Banca total, em stakes
   maxExposure: 0.75, // Fraccao maxima da banca a arriscar num dia (75%)
 
   // Stake base = 2% da banca (padrao da industria: 1-3%)

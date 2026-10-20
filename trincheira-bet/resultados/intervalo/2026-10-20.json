@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-20",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1635702,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos na 2ª parte",
+      "match": "Paris Saint Germain vs Barcelona",
+      "league": "UEFA Champions League",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2,
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Foram 19 remates na primeira parte e o guarda-redes do Barça fez 8 defesas, por isso só deu 1-0 por milagre. Com o Barça obrigado a ir atrás do empate, o jogo vai abrir ainda mais.",
+      "sentAt": 1792526001046,
+      "result": "GREEN",
+      "finalHome": 4,
+      "finalAway": 2,
+      "pnl": 0.5,
+      "return": 1,
+      "resolvedAt": 1792531042743
+    }
+  ]
+}

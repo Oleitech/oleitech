@@ -38,3 +38,10 @@ master/.offset
 master/.lock
 master/.session.json
 master/jobs/
+.superpowers/
+
+# Agenda do intervalo e dos boletins
+master/agenda.env
+master/agenda-estado/
+master/agenda.log
+master/agenda.err.log
