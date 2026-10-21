@@ -1,13 +1,84 @@
 {
   "date": "2026-10-21",
-  "generated_at": "2026-10-21T06:25:00.000Z",
+  "generated_at": "2026-10-21T09:15:00.000Z",
   "units": "stakes",
-  "notes": "Quarta-feira de Liga dos Campeões, com nove jogos, mais o Levante-Athletic que ficou por jogar em Setembro por causa da chuva e o Reading-Leyton Orient na League One. Não sai nenhuma tip. Os preços acima de 1.55 que davam conversa — o Bayern com o Arsenal, o Como com o United, o Brugge com o Lens, mais de 3.5 golos no Betis-Feyenoord, ambas marcam no Sporting-LASK — ou estavam ao preço justo ou abaixo dele, e as antevisões dividiam-se. O Betis e o Feyenoord marcam muito mais do que as oportunidades que criam: dá para ver, não dá para fiar.\n\nTambém não há acumuladores. Para o curto só uma perna aguentou o crivo, o Athletic não perder em Valência, que já vai em seis jogos seguidos sem perder com o Levante. Quase todos os jogos da Champions são entre clubes que nunca se cruzaram, ou com um passado contra o favorito, como o Sporting, que perdeu duas das três vezes que apanhou o LASK.\n\nO corvo ficou sem par para o Athletic: o Bayern sem o Olise e o Musiala, e a pagar abaixo do justo, não serve, e no Reading-Orient não há maneira de confirmar baixas. Duplo também não.\n\nDia em branco de propósito, que não se força boletim. Exposição total: zero stakes. Ficam vários jogos debaixo de olho para o intervalo.",
+  "notes": "Revisto a meio da manhã. De manhã o dia tinha ficado em branco, e boa parte foi por uma razão só: nesta jornada da Champions quase ninguém se conhece. O Villa nunca jogou com o Viking, o Lille nunca apanhou o Galatasaray, o Brugge nunca viu o Lens nem o Como o United, e sem histórico entre as equipas estas pernas ficavam presas. Hoje abre-se uma excepção para os primeiros encontros: em vez do histórico, manda a forma, as baixas confirmadas e o preço.\n\nTips simples continuam a não sair. Os preços acima de 1.55 estão onde estavam, ao justo ou abaixo, e a excepção não inventa valor onde ele não existe.\n\nSaem dois boletins pequenos. O curto junta o Athletic a não perder em Valência, o Brugge a não perder em casa com um Lens cheio de baixas lá atrás, e golos dos dois lados no Como-United, com o United sem meia defesa e a sofrer em todos os últimos seis jogos. Paga 2.55.\n\nO corvo vai na Marathonbet: o Villa ganha e há pelo menos dois golos em Villa Park, mais o Lille a não perder com o Galatasaray, que perdeu os dois jogos que fez na Champions. Paga 1.90.\n\nO Como-United e o Lille-Galatasaray começam às 17:45, por isso os dois bilhetes têm de entrar antes disso.\n\nOs dois vão a meia stake. Exposição total: uma stake.",
   "tips": [],
-  "accumulators": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570389,
+          "match": "Levante vs Athletic Club",
+          "league": "La Liga",
+          "pick": "Athletic Club ou empate (dupla hipótese X2)",
+          "odds": 1.28,
+          "kickoff": "2026-10-21T18:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1635645,
+          "match": "Club Brugge KV vs Lens",
+          "league": "UEFA Champions League",
+          "pick": "Club Brugge ou empate (dupla hipótese 1X)",
+          "odds": 1.33,
+          "kickoff": "2026-10-21T19:00:00Z",
+          "excepcao_primeiro_encontro": true
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1635647,
+          "match": "Como vs Manchester United",
+          "league": "UEFA Champions League",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.5,
+          "kickoff": "2026-10-21T16:45:00Z",
+          "excepcao_primeiro_encontro": true
+        }
+      ],
+      "combined_odds": 2.55,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635621,
+          "match": "Aston Villa vs Viking",
+          "league": "UEFA Champions League",
+          "pick": "Aston Villa vence e Mais de 1.5 golos",
+          "odds": 1.38,
+          "kickoff": "2026-10-21T19:00:00Z",
+          "excepcao_primeiro_encontro": true
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635684,
+          "match": "Lille vs Galatasaray",
+          "league": "UEFA Champions League",
+          "pick": "Lille ou empate (dupla hipótese 1X)",
+          "odds": 1.38,
+          "kickoff": "2026-10-21T16:45:00Z",
+          "excepcao_primeiro_encontro": true
+        }
+      ],
+      "combined_odds": 1.9,
+      "score": 66,
+      "stake": 0.5
+    }
+  ],
   "sombra": [],
   "duplo_sombra": {
     "selections": [],
-    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. As que caíam na banda: Bayern-Arsenal ambas marcam a 1.53 (o Arsenal só teve ambas marcam em 2 dos últimos 5 e 3 dos últimos 10), Betis vence a 1.53 na Bet365 (abaixo do preço justo da Pinnacle, e a SportsGambler vai no Feyenoord +1), Reading vence a 1.53 (só ganhou 1 dos últimos 6 com o Orient), Real Madrid marca mais de 2.5 a 1.50 (marcou 1, 1, 2 e 2 nos quatro jogos com o Leipzig) e Reading-Orient menos de 3.5 a 1.50 (sem fonte de baixas na League One e sem valor contra a Pinnacle)."
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa, nem com a excepção de primeiro encontro. As da banda: Como-United ambas marcam a 1.50 (abaixo do justo e a SportsGambler vai no Não), Villa vence e mais de 2.5 a 1.46 (só preço de mercado, com o Villa sem seis jogadores e o City daqui a três dias), Bayern-Arsenal ambas marcam a 1.53 e Betis vence a 1.53 (o Feyenoord ganhou os últimos cinco), Reading vence a 1.53 e Real Madrid marca mais de 2.5 a 1.50, estes dois já caídos de manhã."
   }
 }
