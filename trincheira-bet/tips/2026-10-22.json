@@ -1,10 +1,41 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T06:17:29.793Z",
+  "generated_at": "2026-10-22T10:45:00.000Z",
   "units": "stakes",
-  "notes": "Quinta-feira de Liga Europa e Liga Conferência, com 36 jogos europeus e três do campeonato saudita. Saem zero apostas, e não é por falta de procura.\n\nNas provas europeias quase ninguém se conhece. Dos jogos com favorito claro, só o Hoffenheim-Lyon tem histórico que chegue, e as pernas curtas vivem disso. Sem histórico, ficam de fora.\n\nTips simples também não há. Os preços acima de 1.55 estão todos ao justo ou abaixo da Pinnacle: o Bournemouth a ganhar ao Milan e o Atalanta em Amesterdão pagam o que valem e nem mais um cêntimo. O Ajax-Atalanta com golos dos dois lados era o melhor jogo do dia nos números, mas paga 1.50 e não chega ao piso.\n\nO curto ficou com duas pernas e sem terceira: ambas marcam no Hoffenheim-Lyon e o Al Shabab a não perder com o Al-Fateh. O resto ou não tem histórico entre as equipas ou tem a forma contra.\n\nO corvo também não sai. O par saudita, Al-Ahli a ganhar com dois ou mais golos e o Al Shabab a não perder, dava 1.79, mas não há maneira de confirmar as baixas das equipas sauditas em duas fontes, e sem isso não se arrisca o resultado.\n\nNão se força boletim. Exposição: zero stakes.",
+  "notes": "Revisto a meio da manhã. De manhã o dia tinha ficado em branco, porque nas provas europeias quase ninguém se conhece e sem histórico entre as equipas as pernas ficavam presas. Hoje há excepção para os primeiros encontros: em vez do histórico, mandam a forma dos últimos cinco jogos, as baixas confirmadas e o preço.\n\nTips simples continuam a não sair. Os preços acima de 1.55 estão ao justo ou abaixo, e a excepção não inventa valor onde ele não existe.\n\nO curto volta a ficar sem terceira perna. Ambas marcam no Hoffenheim-Lyon e o Al Shabab a não perder estão lá, mas o Olympiakos a ganhar caiu porque as fontes não batem certo nas baixas, e o Benfica e a Real Sociedad também ficaram de fora por não haver duas fontes para confirmar quem falta. Não se força boletim.\n\nSai o corvo, na Marathonbet. O Leverkusen ganha em Creta sem o jogo passar dos cinco golos, e o Brighton ganha na Chéquia com pelo menos dois golos no jogo. As duas equipas ganharam os últimos cinco jogos, em todas as provas, e o Brighton marcou dois ou mais em todos. Do outro lado estão o OFI, com três derrotas seguidas e nove golos sofridos nelas, e o Jablonec, que só ganhou um dos últimos cinco. Paga 1.89.\n\nOs dois jogos começam às 17:45, por isso o bilhete tem de entrar antes disso.\n\nVai a meia stake. Exposição total: meia stake.",
   "tips": [],
-  "accumulators": [],
+  "accumulators": [
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1636303,
+          "match": "OFI vs Bayer Leverkusen",
+          "league": "UEFA Europa League",
+          "pick": "Bayer Leverkusen vence e Menos de 5.5 golos",
+          "odds": 1.44,
+          "kickoff": "2026-10-22T16:45:00Z",
+          "excepcao_primeiro_encontro": true
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1636430,
+          "match": "FK Jablonec vs Brighton",
+          "league": "UEFA Europa Conference League",
+          "pick": "Brighton vence e Mais de 1.5 golos",
+          "odds": 1.31,
+          "kickoff": "2026-10-22T16:45:00Z",
+          "excepcao_primeiro_encontro": true
+        }
+      ],
+      "combined_odds": 1.89,
+      "score": 68,
+      "stake": 0.5
+    }
+  ],
   "sombra": [
     {
       "market": "btts",
