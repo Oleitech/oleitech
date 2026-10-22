@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-22",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1636280,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Ambas marcam — Sim",
+      "match": "Lech Poznan vs Sunderland",
+      "league": "UEFA Europa League",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.909,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          3
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Lech perde 0-1 em casa mas já criou 1.15 de golos esperados, e o Sunderland está a deixar espaço. A equipa da casa marca 2.7 golos por jogo em casa e vai ter de carregar, e só falta o golo dela para a aposta entrar.",
+      "sentAt": 1792690488362,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": 0.4545,
+      "return": 0.9545,
+      "resolvedAt": 1792695721046
+    },
+    {
+      "fixtureId": 1636415,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 13.5 cantos no jogo",
+      "match": "Getafe vs FC Lugano",
+      "league": "UEFA Europa Conference League",
+      "elapsed": 45,
+      "score": "1-3",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 3,
+      "odds": 1.909,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          6,
+          2
+        ],
+        "amarelos": [
+          1,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Getafe perde 1-3 em casa e já forçou 6 cantos contra 2 na 1ª parte. Vai passar a 2ª parte encostado à área de um Lugano fechado, e bastam 6 cantos para a aposta entrar.",
+      "sentAt": 1792690488999,
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 5,
+      "pnl": 0.4545,
+      "return": 0.9545,
+      "resolvedAt": 1792695721046
+    },
+    {
+      "fixtureId": 1636340,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 2.5 golos no jogo",
+      "match": "Sturm Graz vs Marseille",
+      "league": "UEFA Europa League",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          3
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "tarde",
+      "justificacao": "O Marselha tem 70% de bola mas fez zero remates à baliza na 1ª parte e só 0.4 de xG. O Sturm está atrás à espera. A casa dá 2.0 para não haver mais de um golo, e o jogo não está a mostrar isso.",
+      "sentAt": 1792690759542,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 1,
+      "return": 2,
+      "resolvedAt": 1792695721046
+    },
+    {
+      "fixtureId": 1636288,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 4.5 golos no jogo",
+      "match": "Lillestrom vs Real Sociedad",
+      "league": "UEFA Europa League",
+      "elapsed": 45,
+      "score": "0-3",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 3,
+      "odds": 2.2,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "tarde",
+      "justificacao": "A Real fez três golos com três remates à baliza e o jogo todo deu 0.79 de xG, por isso o 3-0 veio mais da pontaria do que de domínio. Com a vitória feita, a Real deve abrandar, e o Lillestrom ainda não acertou um remate na baliza, por isso chegar a cinco golos é pedir muito.",
+      "sentAt": 1792698617883,
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 6,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1792703773430
+    },
+    {
+      "fixtureId": 1636235,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Bournemouth -2.5 handicap asiático (ganhar por 3 ou mais)",
+      "match": "Bournemouth vs AC Milan",
+      "league": "UEFA Europa League",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.5,
+      "oddMinima": 1.45,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          2
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          0,
+          1
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Milan joga com dez e sem o guarda-redes titular, porque o Maignan foi expulso. O Bournemouth fez 10 remates contra 1 e tem 70% de bola, por isso basta mais um golo para isto entrar.",
+      "sentAt": 1792698847729,
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": 0.5,
+      "return": 1.5,
+      "resolvedAt": 1792703773430
+    }
+  ]
+}
