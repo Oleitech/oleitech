@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T06:17:29.793Z",
+  "units": "stakes",
+  "notes": "Quinta-feira de Liga Europa e Liga Conferência, com 36 jogos europeus e três do campeonato saudita. Saem zero apostas, e não é por falta de procura.\n\nNas provas europeias quase ninguém se conhece. Dos jogos com favorito claro, só o Hoffenheim-Lyon tem histórico que chegue, e as pernas curtas vivem disso. Sem histórico, ficam de fora.\n\nTips simples também não há. Os preços acima de 1.55 estão todos ao justo ou abaixo da Pinnacle: o Bournemouth a ganhar ao Milan e o Atalanta em Amesterdão pagam o que valem e nem mais um cêntimo. O Ajax-Atalanta com golos dos dois lados era o melhor jogo do dia nos números, mas paga 1.50 e não chega ao piso.\n\nO curto ficou com duas pernas e sem terceira: ambas marcam no Hoffenheim-Lyon e o Al Shabab a não perder com o Al-Fateh. O resto ou não tem histórico entre as equipas ou tem a forma contra.\n\nO corvo também não sai. O par saudita, Al-Ahli a ganhar com dois ou mais golos e o Al Shabab a não perder, dava 1.79, mas não há maneira de confirmar as baixas das equipas sauditas em duas fontes, e sem isso não se arrisca o resultado.\n\nNão se força boletim. Exposição: zero stakes.",
+  "tips": [],
+  "accumulators": [],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Não",
+      "fixtureId": 1636308,
+      "home": {
+        "name": "Olympiakos Piraeus",
+        "logo": "https://media.api-sports.io/football/teams/553.png"
+      },
+      "away": {
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png"
+      },
+      "league": "UEFA Europa League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-10-22T19:00:00Z",
+      "odds": 1.91,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Olympiakos ganhou os últimos cinco e sofreu um golo nesses jogos todos, quatro deles por 1-0 ou 2-0; o Sparta também só sofreu um nos últimos cinco. Dois jogos fechados atrás dão um jogo em que pelo menos um fica em branco. Mas o Sparta cria muito (mais de dois golos esperados por jogo), as fontes não estão de acordo (uma dá ambas marcam a 55%) e as baixas só vêm de uma fonte. Fica em sombra.",
+      "factors": [
+        "Olympiakos, últimos 5 (SportsGambler, Super League + Liga Europa 2026/27): 2-0 Panetolikos (f), 1-0 Marselha (f), 1-0 Panathinaikos (c), 1-0 Levadiakos (f), 2-1 Jagiellonia (c) — ambas marcam 1/5, 1 golo sofrido",
+        "Sparta, últimos 5 (SportsGambler, liga checa + Liga Europa 2026/27): 0-0 Baník (f), 1-1 Lillestrøm (c), 2-0 Pardubice (c), 3-0 Olomouc (f), 4-1 Ararat (f) — ambas marcam 2/5",
+        "SportsGambler, últimos 10 (liga + Liga Europa): Olympiakos ambas marcam 3/10 (2/10 em casa), mais de 2.5 em 1/10; Sparta ambas marcam 4/10 (3/10 fora)",
+        "FootyStats (últimos 10, provas misturadas declaradas pela página): Olympiakos xGA 0.99; Sparta xG 2.14 (2.07 fora); previsão da página ambas marcam 30%",
+        "Sem H2H: nunca se defrontaram (FootyStats e SportsGambler)",
+        "Bet365 1.91/1.91, Marathonbet Não 1.89; Pinnacle sem linha de ambas marcam. Mais de 2.5 na Pinnacle 1.75 / menos 2.12",
+        "Consenso dividido: SportsGambler Não @1.93; FootyStats 30% ambas marcam; BetClan ambas marcam 55% e mais de 2.5",
+        "partial: ausências só da SportsGambler (nenhuma nos dois); injuries da API não pedido (tecto do plano Free)"
+      ],
+      "sources": [
+        "https://www.sportsgambler.com/betting-tips/football/olympiacos-vs-sparta-prague-prediction-lineups-odds-2026-10-22/",
+        "https://footystats.org/europe/ac-sparta-praha-vs-olympiakos-cfp-h2h-stats",
+        "https://www.betclan.com/predictionsdetails/football/1636308/olympiakos-piraeus-v-sparta-praha-prediction-h2h-tip-and-match-preview/",
+        "API-Football /odds?fixture=1636308"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna entre 1.40 e 1.60 chegou a 75 com investigação completa: Ajax-Atalanta ambas marcam @1.50 (Bet365), score 76. Não há segunda: Hoffenheim-Lyon ambas marcam @1.44 fica em 72 (Lyon marca pouco fora, 50% na FootyStats, e Sulc e Openda fora só segundo a API); Juventus vence @1.56 (Marathonbet) cai pelo 0-3 com a Lazio e o Yildiz fora; Olympiakos vence @1.53 com o Sparta a criar mais de dois golos esperados por jogo; Benfica vence e mais de 1.5 @1.56 sem investigação de baixas; Bournemouth-Milan e Monaco-Freiburg ambas marcam (1.57-1.62) com o visitante abaixo de 50% fora."
+  }
+}
