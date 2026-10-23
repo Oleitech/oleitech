@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-23",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1552794,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Brest ganha o jogo",
+      "match": "Stade Brestois 29 vs Nice",
+      "league": "Ligue 1",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.533,
+      "oddMinima": 1.45,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          4
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Brest ganha 1-0 e o Nice ainda não fez um único remate à baliza. Nas ocasiões a sério o Brest está muito por cima, 1.5 contra 0.2 em golos esperados, por isso ganhar a 1.53 paga bem.",
+      "sentAt": 1792784081411,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1792789253459
+    },
+    {
+      "fixtureId": 1575526,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Resultado e ambas marcam: Vitória SC / Não",
+      "match": "Vitória SC vs Maritimo",
+      "league": "Primeira Liga",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.7,
+      "oddMinima": 1.6,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          2
+        ],
+        "amarelos": [
+          3,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Marítimo não rematou uma única vez de dentro da área e fez 0.11 de golos esperados na 1ª parte, contra 0.79 do Vitória. Com 1-0 e o Vitória com 63% de bola, basta o Marítimo continuar sem chegar à baliza.",
+      "sentAt": 1792787911819,
+      "result": "GREEN",
+      "finalHome": 5,
+      "finalAway": 0,
+      "pnl": 0.7,
+      "return": 1.7,
+      "resolvedAt": 1792792898292
+    }
+  ]
+}

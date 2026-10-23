@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-23",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1576206,
+            "match": "VfL Bochum vs VfL Wolfsburg",
+            "league": "2. Bundesliga",
+            "pick": "Wolfsburg ou empate (dupla hipótese X2)",
+            "odds": 1.36,
+            "kickoff": "2026-10-23T16:30:00Z",
+            "result": "GREEN",
+            "final_score": "1-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1550165,
+            "match": "Torino vs Monza",
+            "league": "Serie A",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-10-23T18:45:00Z",
+            "result": "GREEN",
+            "final_score": "3-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1570423,
+            "match": "Alaves vs Malaga",
+            "league": "La Liga",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "kickoff": "2026-10-23T19:00:00Z",
+            "result": "GREEN",
+            "final_score": "1-1"
+          }
+        ],
+        "combined_odds": 2.32,
+        "score": 65,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.16,
+        "pnl": 0.66,
+        "effective_odds": 2.32,
+        "note": "As três pernas passaram: Bochum 1-1 Wolfsburg (X2), Torino 3-2 Monza e Alaves 1-1 Malaga (mais de 1.5). Curto verde a 2.32."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.16,
+      "accumulators_pnl": 0.66,
+      "combined_stake": 0.5,
+      "combined_return": 1.16,
+      "combined_pnl": 0.66,
+      "combined_roi_pct": 132
+    },
+    "sombra": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1550165,
+        "match": "Torino vs Monza",
+        "league": "Serie A",
+        "kickoff": "2026-10-23T18:45:00Z",
+        "odds": 1.75,
+        "bookmaker": "Bet365",
+        "score": 70,
+        "stake": 0,
+        "shadow": true,
+        "context_depth": "partial",
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "3-2",
+        "return": 0,
+        "pnl": 0,
+        "note": "Torino 3-2 Monza, marcaram os dois. Em sombra, sem stake."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "pnl_se_apostadas": 0.75
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Middlesbrough vence @1.57 (Bet365) está abaixo do justo da Pinnacle (~1.68); Bochum-Wolfsburg ambas marcam @1.40 e Wolfsburg X2 sem segunda fonte de baixas (guarda-redes); Go Ahead Eagles-Telstar ambas marcam @1.50 com o Telstar sem marcar nos três últimos fora; NAC-Heracles ambas marcam @1.44 sem resultados jogo a jogo para a forma; Torino-Monza ambas marcam @1.75 fica fora da banda e em 70."
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1552794,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Brest ganha o jogo",
+        "match": "Stade Brestois 29 vs Nice",
+        "league": "Ligue 1",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.533,
+        "oddMinima": 1.45,
+        "precoAoVivo": true,
+        "tipo": "resultado",
+        "aoIntervalo": { "cantos": [1, 4], "amarelos": [0, 0], "vermelhos": [0, 0] },
+        "stake": 1,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Brest ganha 1-0 e o Nice ainda não fez um único remate à baliza. Nas ocasiões a sério o Brest está muito por cima, 1.5 contra 0.2 em golos esperados, por isso ganhar a 1.53 paga bem.",
+        "sentAt": 1792784081411,
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": -1,
+        "return": 0,
+        "resolvedAt": 1792789253459
+      },
+      {
+        "fixtureId": 1575526,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Resultado e ambas marcam: Vitória SC / Não",
+        "match": "Vitória SC vs Maritimo",
+        "league": "Primeira Liga",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.7,
+        "oddMinima": 1.6,
+        "precoAoVivo": true,
+        "tipo": "resultado",
+        "aoIntervalo": { "cantos": [2, 2], "amarelos": [3, 2], "vermelhos": [0, 0] },
+        "stake": 1,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Marítimo não rematou uma única vez de dentro da área e fez 0.11 de golos esperados na 1ª parte, contra 0.79 do Vitória. Com 1-0 e o Vitória com 63% de bola, basta o Marítimo continuar sem chegar à baliza.",
+        "sentAt": 1792787911819,
+        "result": "GREEN",
+        "finalHome": 5,
+        "finalAway": 0,
+        "pnl": 0.7,
+        "return": 1.7,
+        "resolvedAt": 1792792898292
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": { "⏸️ INTERVALO": { "total": 2, "green": 1, "red": 1 } },
+      "stake_total": 2,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 1.7,
+      "pnl_mensuravel": -0.3,
+      "roi_pct_mensuravel": -15,
+      "odds_registadas": 2,
+      "nota_mensuravel": "Dois alertas de intervalo a 1 stake, já em stakes."
+    }
+  },
+  "balance": 31.05,
+  "notes": "Sem tips simples. O curto de três pernas (Bochum-Wolfsburg X2, Torino-Monza mais de 1.5, Alaves-Malaga mais de 1.5, 2.32) entrou todo: +0,66 stakes. Dois alertas de intervalo, o Brest a perder com o Nice (1-2, -1) e o Vitória SC a ganhar sem sofrer (5-0, +0,70): -0,30. Sombra: Torino-Monza ambas marcam verde (3-2). Dia +0,36 stakes, banca 31,05 stakes."
+}
