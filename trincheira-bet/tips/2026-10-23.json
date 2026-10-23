@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T06:12:42.319Z",
+  "units": "stakes",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1576206,
+          "match": "VfL Bochum vs VfL Wolfsburg",
+          "league": "2. Bundesliga",
+          "pick": "Wolfsburg ou empate (dupla hipótese X2)",
+          "odds": 1.36,
+          "kickoff": "2026-10-23T16:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550165,
+          "match": "Torino vs Monza",
+          "league": "Serie A",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-23T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570423,
+          "match": "Alaves vs Malaga",
+          "league": "La Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-10-23T19:00:00Z"
+        }
+      ],
+      "combined_odds": 2.32,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1550165,
+      "home": {
+        "name": "Torino",
+        "logo": "https://media.api-sports.io/football/teams/503.png"
+      },
+      "away": {
+        "name": "Monza",
+        "logo": "https://media.api-sports.io/football/teams/1579.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-10-23T18:45:00Z",
+      "odds": 1.75,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Torino ainda não fez um jogo sem sofrer em casa esta época e concede quase 1.8 golos esperados por jogo; o Monza marcou em todos os jogos da Serie A e fora sofre 2.75 por jogo. Isto aponta para golos dos dois lados. Contra: os dois últimos confrontos (0-1 na Taça em Setembro, 0-2 em Março de 2025) acabaram com uma baliza a zero, o Torino em casa só marca 1 por jogo, e as baixas não batem certo entre fontes (Ricardo Rodríguez fora segundo uma, não aparece na outra). Fica em sombra.",
+      "factors": [
+        "FootyStats, Serie A 2026/27 (7 jogos; casa n=3, fora n=4): Torino ambas marcam 71% (67% em casa), balizas a zero 0% em casa, xGA 1.69 em casa; Monza ambas marcam 86% (100% fora), failed-to-score 0%, sofre 2.75 por jogo fora",
+        "SportsGambler, últimos 10 de liga (Torino Serie A; Monza mistura Serie B 2025/26 e Serie A 2026/27, declarado): Torino ambas marcam 8/10 em casa; Monza 7/10 fora",
+        "Últimos 5 de liga (SportsGambler): Torino 3-0 Parma (f), 2-1 Udinese (c), 1-1 Bologna (f), 0-2 Roma (c), 2-1 Fiorentina (f) — ambas marcam 3/5; Monza 4-0 Cagliari (c), 1-3 Lazio (f), 2-1 Sassuolo (c), 2-3 Lecce (f), 1-1 Parma (f) — 4/5",
+        "H2H oficiais (FootyStats, 8 jogos): 0-1 (Taça 01/09/2026), 2-0 Torino fora (03/2025), 1-1, 1-0, 1-1, 1-1, 4-1, 2-1 — ambas marcam 2/5 nos últimos cinco, 5/8 no total",
+        "Bet365 Sim 1.75 / Não 2.00 (justo pela margem ~1.87); Marathonbet 1.74; Pinnacle sem linha",
+        "Consenso: SportsGambler ambas marcam @1.80 e 2-1; FootyStats 84% ambas marcam; footballpredictions.com 2-1",
+        "partial: Ricardo Rodríguez fora só pela Fantamaster (21/10); SportsGambler dá Israel, Ilic e Ilkhan no Torino e Zeballos, Touré e Pessina no Monza — fontes não concordantes"
+      ],
+      "sources": [
+        "https://www.sportsgambler.com/betting-tips/football/torino-vs-monza-prediction-lineups-odds-2026-10-23/",
+        "https://footystats.org/italy/torino-fc-vs-ss-monza-1912-h2h-stats",
+        "https://www.fantamaster.it/infortunio-ricardo-rodriguez-torino-lesione-comunicato-news-seriea/",
+        "https://footballpredictions.com/footballpredictions/?date=23-10-2026",
+        "API-Football /odds?fixture=1550165"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Middlesbrough vence @1.57 (Bet365) está abaixo do justo da Pinnacle (~1.68); Bochum-Wolfsburg ambas marcam @1.40 e Wolfsburg X2 sem segunda fonte de baixas (guarda-redes); Go Ahead Eagles-Telstar ambas marcam @1.50 com o Telstar sem marcar nos três últimos fora; NAC-Heracles ambas marcam @1.44 sem resultados jogo a jogo para a forma; Torino-Monza ambas marcam @1.75 fica fora da banda e em 70."
+  },
+  "notes": "Sexta-feira de campeonatos, sem Europa. Há jogos nas grandes ligas mas quase todos equilibrados, e os poucos favoritos claros não aguentam a análise: o Estugarda vem de duas vitórias em cinco e jogou a Champions na terça, o Middlesbrough paga 1.57 quando o preço justo anda pelos 1.68, e o Go Ahead Eagles não ganha há cinco jornadas.\n\nPor isso não sai tip individual hoje. O que esteve mais perto foi o ambas marcam no Torino-Monza a 1.75: as duas equipas sofrem com regularidade e o Monza marcou em todos os jogos da época, mas os dois últimos confrontos acabaram com uma baliza a zero e as baixas não batem certo entre fontes. Não se força boletim.\n\nSai um acumulador curto a meia stake (2.32): o Wolfsburg não perde em Bochum, mais de 1.5 golos no Torino-Monza e mais de 1.5 golos no Alavés-Málaga. Três ligas diferentes, três pernas com o histórico e a forma do lado certo. O Bochum perdeu os últimos três e não marca há dois jogos.\n\nNão há corvo: faltava um favorito com forma e baixas confirmadas para segurar a perna do resultado. O duplo também fica de fora.\n\nExposição do dia: meia stake."
+}
