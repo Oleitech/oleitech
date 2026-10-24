@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T06:15:27.438Z",
+  "units": "stakes",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570425,
+          "match": "Atletico Madrid vs Deportivo La Coruna",
+          "league": "La Liga",
+          "pick": "Atlético de Madrid vence",
+          "odds": 1.27,
+          "kickoff": "2026-10-24T19:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1557437,
+          "match": "Arsenal vs Everton",
+          "league": "Premier League",
+          "pick": "Arsenal vence",
+          "odds": 1.44,
+          "kickoff": "2026-10-24T14:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1576210,
+          "match": "Hertha BSC vs Arminia Bielefeld",
+          "league": "2. Bundesliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.53,
+          "kickoff": "2026-10-24T11:00:00Z"
+        }
+      ],
+      "combined_odds": 2.8,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550162,
+          "match": "Lazio vs Parma",
+          "league": "Serie A",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-24T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1557438,
+          "match": "Aston Villa vs Manchester City",
+          "league": "Premier League",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.53,
+          "kickoff": "2026-10-24T11:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575521,
+          "match": "GIL Vicente vs FC Porto",
+          "league": "Primeira Liga",
+          "pick": "FC Porto vence",
+          "odds": 1.44,
+          "kickoff": "2026-10-24T19:30:00Z"
+        }
+      ],
+      "combined_odds": 2.82,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "sombra": [],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Arsenal vence @1.44 e Porto vence @1.44 (Bet365) ficam abaixo da Pinnacle (1.48 e 1.43 com margem; sem valor) e ambos jogaram a Champions a meio da semana; ambas marcam no Villa-City e no Hertha-Bielefeld @1.53 têm histórico e forma a favor mas sem valor demonstrável nem consenso de três fontes (3 dimensões em ✅, abaixo de 75); Bodø -2 asiático @1.55 sem valor (mercado justo pelas nossas contas) e o Bodø vem de Nápoles na terça."
+  },
+  "notes": "Sábado de campeonatos, com muita equipa grande a vir de Champions a meio da semana: Arsenal, Atlético, Porto, Dortmund, Bodø e Villa jogaram terça ou quarta. Os favoritos claros pagam pouco e os que pagam mais não têm valor contra as casas de referência.\n\nPor isso não sai tip individual hoje. O que esteve mais perto foi a vitória do Chelsea frente a um Tottenham cheio de baixas, a 1.80: o histórico recente é todo do Chelsea, mas o preço está abaixo do que as casas mais afiadas pagam e o Chelsea também tem a lateral direita no estaleiro. Não se força boletim.\n\nSaem dois acumuladores curtos, a meia stake cada. O primeiro (2.80) junta o Atlético frente ao Deportivo, o Arsenal frente ao Everton e ambas marcam no Hertha-Bielefeld. O segundo (2.82) leva mais de 1.5 golos no Lazio-Parma, ambas marcam no Villa-City e o Porto em Barcelos. Todas as pernas têm o histórico e a forma do lado certo; o Porto vem de duas derrotas na Champions mas ganhou os oito jogos do campeonato.\n\nNão há corvo: os favoritos com preço dentro da banda falham na forma ou no histórico para a condição de golos, e os que passam ficam acima de 1.55. O duplo também fica de fora.\n\nExposição do dia: uma stake."
+}
