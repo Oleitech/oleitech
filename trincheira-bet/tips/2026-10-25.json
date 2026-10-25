@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:21:42.391Z",
+  "units": "stakes",
+  "notes": "Domingo cheio, com o Clássico à noite em Barcelona e quase todas as equipas grandes a virem de jogos europeus a meio da semana. Os favoritos pagam pouco e, contra as casas mais afiadas, quase nenhum preço tem folga.\n\nSai uma tip: ambas marcam no Viking-Tromsø, a 1.57, a uma stake. O Viking ganha e marca sempre em casa mas sofre em quase todos os jogos, chega com a defesa desfalcada, e o Tromsø marca fora em oito de cada onze jogos. Os últimos cinco confrontos tiveram golos dos dois lados. O que pesa contra é o cansaço do Viking, que jogou terça em Inglaterra, e haver quem veja ali um 2-0.\n\nSaem dois curtos a meia stake. O primeiro (2.79) junta ambas marcam no Sparta-Ajax e no Freiburg-Bayern com o Inter frente à Fiorentina. O segundo (2.26) leva o Brugge, o Barça ou empate no Clássico e ambas marcam no Hoffenheim-Leverkusen.\n\nO corvo (2.03, meia stake) junta o Leverkusen ou empate em Hoffenheim com mais de 2.5 golos no Viking-Tromsø. Fica tudo ligado: o Viking-Tromsø está na tip e no corvo, e o Hoffenheim-Leverkusen está no corvo e no segundo curto. Se esses jogos saírem fechados, caem várias apostas de uma vez.\n\nNão há duplo hoje. Exposição do dia: duas stakes e meia.",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1494691,
+      "home": {
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png"
+      },
+      "away": {
+        "name": "Tromso",
+        "logo": "https://media.api-sports.io/football/teams/325.png"
+      },
+      "league": "Eliteserien",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
+      "kickoff": "2026-10-25T13:30:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Viking ganhou os jogos todos que fez em casa nesta Eliteserien e marcou em todos (3,7 golos por jogo), mas só em três ficou sem sofrer. O Tromsø marca fora em oito de cada onze jogos e sofre quase dois por jogo longe de casa. O histórico vai no mesmo sentido: ambas marcaram nos últimos cinco confrontos oficiais (1-3, 4-4, 2-2, 2-1, 3-4) e em 19 dos 26 que o FootyStats regista. O Viking chega com a defesa remendada — Bjørshol, Roseth, Bærtelsen e Berisha de fora nas duas fontes — e quatro dias depois de perder 3-1 com o Aston Villa na Champions, mas não pode gerir: é segundo e anda na luta pelo título. Pelas nossas contas ambas marcam anda nos 68-70%, o que dá um preço justo perto de 1.45; a 1.57 há folga. O que pesa contra: a SportsGambler vê o Viking a ganhar sem sofrer (2-0), o Tromsø ficou em branco em três dos onze jogos fora e o consenso de terceiros fica em dois contra um.",
+      "factors": [
+        "Viking em casa, Eliteserien 2026 (API /predictions, bloco da liga, n=11): 3,7 marcados e 1,1 sofridos por jogo, 0 jogos em branco, 3 sem sofrer; FootyStats dá 100% de vitórias em casa; SportsGambler, últimos 10 de liga em casa: 10-0-0, ambas marcaram em 7/10, mais de 2.5 em 10/10",
+        "Tromsø fora, Eliteserien 2026 (API /predictions, n=11): 1,8 marcados e 1,9 sofridos por jogo, em branco em 3 de 11, sem sofrer em 2 de 11; SportsGambler, últimos 10 de liga fora: 3-3-4, ambas marcaram em 6/10",
+        "FootyStats, página H2H Tromsø-Viking (splits da Eliteserien 2026; a página não declara n, os valores batem com n=11 casa / n=11 fora da API): Viking em casa ambas marcam 73%, sem sofrer 27%, em branco 0%, xG 2,06 e xGA 1,23; Tromsø fora ambas marcam 64%, sem sofrer 18%, em branco 27%, xG 1,30 e xGA 1,58; previsão do jogo ambas marcam 69% (média da liga 59%); Viking 2.º, Tromsø 5.º",
+        "H2H oficial (API /predictions e SportsGambler, Eliteserien; amigáveis de 24/02/2024 e 20/02/2026 excluídos): 1-3 (19/10/2025), 4-4 (27/04/2025), 2-2 (01/09/2024), 2-1 (05/05/2024), 3-4 (22/10/2023) — ambas marcaram em 5/5; FootyStats, 26 encontros: ambas marcaram em 73%",
+        "Forma, todas as provas (SportsGambler, últimos 5): Viking 1-3 em Villa Park (Champions, 21/10), 3-2 Fredrikstad (c), 3-3 Bayern (Champions, c), 2-0 em Bergen (f), 3-0 Lillestrøm (c) — sofreu em 3/5; Tromsø 1-1 KFUM (c), 1-1 em Fredrikstad, 3-2 HamKam (c), 3-5 em Rosenborg, 0-2 em Kristiansund — marcou em 4/5",
+        "Ausências com duas fontes concordantes (API /injuries de 25/10 e SportsGambler): Viking sem Bærtelsen, Berisha, Bjørshol e Roseth; Tromsø sem Prestmo. Só numa fonte, não contam como baixa: Askildsen e Røervik Bjørdal (vermelho) e Falchener (amarelos) só na SportsGambler; D’Agostino (fora) e Middelthon (dúvida) só na API; Tønnessen dúvida na API e fora na SportsGambler; Skjærvik dado como castigado pela SportsGambler mas metido no onze provável",
+        "Treinadores: Morten Jensen no Viking (SportsGambler e Flashscore, registo de 17/10/2026); Jørgen Vik no Tromsø (Wikipedia: página da época 2026 e página do treinador). Nenhuma mudança de treinador encontrada",
+        "Preço: Bet365 ambas marcam 1.57 / não 2.25 e Marathonbet 1.55 / 2.26 (API /odds por fixture, actualização 04:04Z de 25/10). A Pinnacle não expõe este mercado na API. Estimativa nossa: Viking marca ~95%, Tromsø ~72% → ambas ~68-70%, justo perto de 1.45; FootyStats 69%",
+        "Terceiros (volta cega no footballpredictions.com e cruzamento): Forebet 2-1 Viking (a favor, via pesquisa; página directa dá 403), FootyStats 69% (a favor), SportsGambler contra (Viking -1.25, 2-0 e menos de 2.5 no bet builder) — dois a favor e um contra, abaixo do consenso de três",
+        "Contexto: jogo em atraso (a API dá-o como jornada 12 com 23 jogos já feitos por equipa); o Viking jogou terça em Inglaterra. Tabela do Passo 5: matemático ✅, ataques sem baixas ✅, defesas vulneráveis ✅, motivação ✅ (título; cansaço como ressalva), valor ✅, consenso ⚠️ → 5 ✅ e 0 ❌, score 78"
+      ],
+      "sources": [
+        "API-Football — /fixtures?date, /odds?fixture (Bet365, Marathonbet, Pinnacle), /predictions?fixture (bloco da liga e H2H), /injuries?fixture de 25/10",
+        "SportsGambler — antevisão Viking-Tromsø 25/10 (onzes prováveis, baixas, forma, H2H, pick)",
+        "FootyStats — página H2H Tromsø-Viking (splits casa/fora, xG, previsão 69%, 26 encontros)",
+        "Forebet — via pesquisa restrita (2-1 Viking; 403 directo)",
+        "Wikipedia — época 2026 do Tromsø IL e página de Jørgen Vik (treinador)",
+        "Registo de 17/10/2026 (tips/2026-10-17.json) — treinador do Viking e baixas da semana anterior"
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1549043,
+      "home": {
+        "name": "FC Midtjylland",
+        "logo": "https://media.api-sports.io/football/teams/397.png"
+      },
+      "away": {
+        "name": "Lyngby",
+        "logo": "https://media.api-sports.io/football/teams/625.png"
+      },
+      "league": "Superliga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/119.png",
+      "kickoff": "2026-10-25T13:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 73,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Midtjylland marca sempre em casa e o Lyngby, último, sofre 2,4 por jogo fora mas também marca lá fora em quatro de cada cinco jogos. Ambas marcaram em oito dos últimos dez jogos de liga do Midtjylland e em sete dos do Lyngby, e em quatro dos últimos cinco confrontos. Os dois chegam com o guarda-redes titular de fora. Contra: os números de casa e fora são de cinco jogos, as baixas só têm uma fonte e o Midtjylland vem de perder em casa com o Sint-Truiden na quinta. Fica em sombra.",
+      "factors": [
+        "SportsGambler, últimos 10 de liga (Superliga 2026/27, 11 jogos feitos): Midtjylland ambas marcam 8/10, 1,8 marcados e 0,9 sofridos; Lyngby ambas marcam 7/10, 1,3 marcados e 2,1 sofridos",
+        "FootyStats, splits da Superliga 2026/27 (n não declarado; cerca de 5 jogos em casa e 5 fora): Midtjylland em casa 2,20 marcados, 0% em branco, 20% sem sofrer, ambas marcam 80%; Lyngby fora 1,40 marcados, 2,40 sofridos, 20% em branco, 20% sem sofrer, ambas marcam 60%",
+        "H2H (SportsGambler, Superliga): 1-1 (16/08/2026), 1-0 (16/02/2025), 1-2 (16/08/2024), 2-1 (27/10/2023), 4-1 (06/08/2023) — ambas marcaram em 4/5; FootyStats 11 em 19",
+        "Baixas só na SportsGambler (sem segunda fonte; não se gastou pedido de /injuries): Midtjylland sem Olafsson (GR), Erlic, Magnus Jensen, Brumado, Castillo; Lyngby sem Snorre (GR) e Hoskonen",
+        "Preço Bet365 1.62, Marathonbet 1.58 (API /odds por fixture); estimativa nossa ~65-66%, justo ~1.52; SportsGambler pick principal ambas marcam @1.62. Tabela: matemático ✅, onze ⚠️, defesas ✅, motivação ⚠️ (quinta de Conference), valor ✅, consenso ⚠️ → score 73"
+      ],
+      "sources": [
+        "API-Football — /odds?fixture",
+        "SportsGambler — antevisão Midtjylland-Lyngby 25/10",
+        "FootyStats — página H2H Midtjylland-Lyngby"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552205,
+          "match": "Sparta Rotterdam vs Ajax",
+          "league": "Eredivisie",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.5,
+          "kickoff": "2026-10-25T15:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575198,
+          "match": "SC Freiburg vs Bayern München",
+          "league": "Bundesliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.4,
+          "kickoff": "2026-10-25T16:30:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550161,
+          "match": "Inter vs Fiorentina",
+          "league": "Serie A",
+          "pick": "Inter vence",
+          "odds": 1.33,
+          "kickoff": "2026-10-25T11:30:00Z"
+        }
+      ],
+      "combined_odds": 2.79,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1558654,
+          "match": "Club Brugge KV vs St. Truiden",
+          "league": "Jupiler Pro League",
+          "pick": "Club Brugge vence",
+          "odds": 1.33,
+          "kickoff": "2026-10-25T15:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570426,
+          "match": "Barcelona vs Real Madrid",
+          "league": "La Liga",
+          "pick": "Barcelona ou empate (dupla hipótese 1X)",
+          "odds": 1.28,
+          "kickoff": "2026-10-25T20:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575197,
+          "match": "1899 Hoffenheim vs Bayer Leverkusen",
+          "league": "Bundesliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.33,
+          "kickoff": "2026-10-25T14:30:00Z"
+        }
+      ],
+      "combined_odds": 2.26,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1575197,
+          "match": "1899 Hoffenheim vs Bayer Leverkusen",
+          "league": "Bundesliga",
+          "pick": "Bayer Leverkusen ou empate (dupla hipótese X2)",
+          "odds": 1.44,
+          "kickoff": "2026-10-25T14:30:00Z",
+          "score": 70
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1494691,
+          "match": "Viking vs Tromso",
+          "league": "Eliteserien",
+          "pick": "Mais de 2.5 golos",
+          "odds": 1.41,
+          "kickoff": "2026-10-25T13:30:00Z",
+          "score": 72
+        }
+      ],
+      "combined_odds": 2.03,
+      "score": 70,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só uma perna entre 1.40 e 1.60 chegou a 75 com investigação completa (ambas marcam no Viking-Tromsø @1.57, score 78). A outra candidata, ambas marcam no Midtjylland-Lyngby @1.62, fica fora da banda e em sombra a 73; as pernas dos curtos a 1.40-1.50 (Freiburg-Bayern, Sparta-Ajax) não tiveram investigação completa nem valor demonstrável, e o Leverkusen ou empate @1.44 está ao preço justo da Pinnacle (1.46), sem valor."
+  }
+}
