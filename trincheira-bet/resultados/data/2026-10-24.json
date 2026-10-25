@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-24",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1570425, "match": "Atletico Madrid vs Deportivo La Coruna", "league": "La Liga", "pick": "Atlético de Madrid vence", "odds": 1.27, "kickoff": "2026-10-24T19:00:00Z", "result": "GREEN", "final_score": "1-0"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1557437, "match": "Arsenal vs Everton", "league": "Premier League", "pick": "Arsenal vence", "odds": 1.44, "kickoff": "2026-10-24T14:00:00Z", "result": "GREEN", "final_score": "2-0"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1576210, "match": "Hertha BSC vs Arminia Bielefeld", "league": "2. Bundesliga", "pick": "Ambas marcam: Sim", "odds": 1.53, "kickoff": "2026-10-24T11:00:00Z", "result": "RED", "final_score": "1-0"}
+        ],
+        "combined_odds": 2.8,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Atlético 1-0 Deportivo e Arsenal 2-0 Everton passaram, mas o Bielefeld não marcou no 1-0 do Hertha e o curto caiu na última perna."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1550162, "match": "Lazio vs Parma", "league": "Serie A", "pick": "Mais de 1.5 golos", "odds": 1.28, "kickoff": "2026-10-24T18:45:00Z", "result": "GREEN", "final_score": "2-1"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1557438, "match": "Aston Villa vs Manchester City", "league": "Premier League", "pick": "Ambas marcam: Sim", "odds": 1.53, "kickoff": "2026-10-24T11:30:00Z", "result": "GREEN", "final_score": "2-1"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1575521, "match": "GIL Vicente vs FC Porto", "league": "Primeira Liga", "pick": "FC Porto vence", "odds": 1.44, "kickoff": "2026-10-24T19:30:00Z", "result": "GREEN", "final_score": "0-1"}
+        ],
+        "combined_odds": 2.82,
+        "score": 65,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.41,
+        "pnl": 0.91,
+        "effective_odds": 2.82,
+        "note": "As três pernas passaram: Lazio 2-1 Parma (mais de 1.5), Villa 2-1 City (ambas marcam) e Gil Vicente 0-1 Porto. Curto verde a 2.82."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1,
+      "accumulators_return": 1.41,
+      "accumulators_pnl": 0.41,
+      "combined_stake": 1,
+      "combined_return": 1.41,
+      "combined_pnl": 0.41,
+      "combined_roi_pct": 41
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Arsenal vence @1.44 e Porto vence @1.44 (Bet365) ficam abaixo da Pinnacle (1.48 e 1.43 com margem; sem valor) e ambos jogaram a Champions a meio da semana; ambas marcam no Villa-City e no Hertha-Bielefeld @1.53 têm histórico e forma a favor mas sem valor demonstrável nem consenso de três fontes (3 dimensões em ✅, abaixo de 75); Bodø -2 asiático @1.55 sem valor (mercado justo pelas nossas contas) e o Bodø vem de Nápoles na terça."
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {"fixtureId": 1576210, "strategy": "⏸️ INTERVALO", "market": "Hertha BSC vence o jogo", "match": "Hertha BSC vs Arminia Bielefeld", "league": "2. Bundesliga", "elapsed": 45, "score": "0-0", "homeGoalsAtAlert": 0, "awayGoalsAtAlert": 0, "odds": 2, "oddMinima": 1.9, "precoAoVivo": true, "tipo": "resultado", "aoIntervalo": {"cantos": [0, 1], "amarelos": [0, 2], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "boletim", "justificacao": "O Hertha, líder da 2. Bundesliga, teve 69% de bola e 6 remates contra 2. O Bielefeld só se defendeu e já leva um amarelo por queimar tempo. O golo da casa está a faltar e o vencedor paga 2.00.", "sentAt": 1792842639188, "result": "GREEN", "finalHome": 1, "finalAway": 0, "pnl": 0.5, "return": 1, "resolvedAt": 1792847752705},
+      {"fixtureId": 1557437, "strategy": "⏸️ INTERVALO", "market": "Mais de 18.5 cantos no jogo", "match": "Arsenal vs Everton", "league": "Premier League", "elapsed": 45, "score": "1-0", "homeGoalsAtAlert": 1, "awayGoalsAtAlert": 0, "odds": 1.909, "oddMinima": 1.8, "precoAoVivo": true, "tipo": "cantos", "aoIntervalo": {"cantos": [10, 3], "amarelos": [0, 1], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "boletim", "justificacao": "Já vão 13 cantos ao intervalo e o Arsenal sozinho fez 10. Rematou 12 vezes contra 3 e com 1-0 vai continuar a carregar, por isso bastam mais 6 cantos na 2ª parte.", "sentAt": 1792853394626, "result": "RED", "finalHome": 2, "finalAway": 0, "pnl": -0.5, "return": 0, "resolvedAt": 1792858527579},
+      {"fixtureId": 1570432, "strategy": "⏸️ INTERVALO", "market": "Mais de 12.5 cantos no jogo", "match": "Valencia vs Villarreal", "league": "La Liga", "elapsed": 45, "score": "1-0", "homeGoalsAtAlert": 1, "awayGoalsAtAlert": 0, "odds": 1.5, "oddMinima": 1.45, "precoAoVivo": true, "tipo": "cantos", "aoIntervalo": {"cantos": [1, 7], "amarelos": [1, 2], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "tarde", "justificacao": "O Villarreal fez 9 remates contra 1 e teve 66% de bola, e já ganhou 7 cantos contra 1. Vai passar a 2ª parte inteira a carregar para empatar, e com 8 cantos feitos chegam mais 5 para ganhar.", "sentAt": 1792862751554, "result": "GREEN", "finalHome": 1, "finalAway": 2, "pnl": 0.25, "return": 0.75, "resolvedAt": 1792867591111},
+      {"fixtureId": 1575521, "strategy": "⏸️ INTERVALO", "market": "Mais de 4.5 cantos na 2ª parte", "match": "GIL Vicente vs FC Porto", "league": "Primeira Liga", "elapsed": 45, "score": "0-0", "homeGoalsAtAlert": 0, "awayGoalsAtAlert": 0, "odds": 1.6, "oddMinima": 1.6, "precoAoVivo": false, "tipo": "cantos", "aoIntervalo": {"cantos": [1, 8], "amarelos": [0, 0], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "boletim", "justificacao": "O Porto já tirou 8 cantos contra 1 do Gil e o jogo continua 0-0, por isso vai continuar a carregar na área. Chegam 5 cantos nos últimos 45 minutos.", "sentAt": 1792873237250, "result": "RED", "finalHome": 0, "finalAway": 1, "pnl": -0.5, "return": 0, "resolvedAt": 1792886871001}
+    ],
+    "summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {"⏸️ INTERVALO": {"total": 4, "green": 2, "red": 2}},
+      "stake_total": 2,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 1.75,
+      "pnl_mensuravel": -0.25,
+      "roi_pct_mensuravel": -12.5,
+      "odds_registadas": 4,
+      "nota_mensuravel": "Quatro alertas de intervalo a meia stake, já em stakes."
+    }
+  },
+  "balance": 31.21,
+  "notes": "Sem tips individuais. Dois curtos a meia stake: o Atlético-Arsenal-Hertha caiu porque o Bielefeld não marcou (1-0), o Lazio-Villa-Porto passou a 2.82 (+0,91). Quatro alertas de intervalo, dois verdes e dois vermelhos (-0,25). Dia fecha em +0,16 stakes, banca 31,21 stakes."
+}
