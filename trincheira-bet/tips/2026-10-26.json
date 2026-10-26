@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T07:18:18.038Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de restos da jornada, com quase todos os grandes a virem de jogos europeus na quinta: PSG-Lyon, o dérbi Galatasaray-Fenerbahçe, o Benfica nos Açores e o Sevilha-Osasuna à noite.\n\nNão sai tip nenhuma. Olhámos para ambas marcam no PSG-Lyon, para o Trabzonspor em Rize e para ambas marcam no Copenhaga-Odense, mas em nenhum o preço tem folga. O PSG-Lyon tem um histórico bonito, só que os números desta época não o acompanham e há quatro baixas de peso nos ataques. Não se força boletim.\n\nSai um curto a meia stake (2.90): o Benfica a ganhar em Santa Clara, a Craiova a ganhar em Sepsi e mais de 1.5 golos no Sevilha-Osasuna, onde os jogos do Osasuna fora têm dado quase quatro golos.\n\nO corvo (1.98, meia stake) junta o PSG a ganhar com pelo menos dois golos no jogo e o Galatasaray a não perder o dérbi em casa, onde não perde para a liga há dez jogos. Atenção que os dois vão contra o que a SportsGambler espera: ela vê um 1-1 em Paris e o Fenerbahçe a pontuar em Istambul.\n\nNão há duplo hoje. Exposição do dia: uma stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575524,
+          "match": "Santa Clara vs Benfica",
+          "league": "Primeira Liga",
+          "pick": "Benfica vence",
+          "odds": 1.4,
+          "kickoff": "2026-10-26T18:45:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1565286,
+          "match": "Sepsi OSK Sfantu Gheorghe vs Universitatea Craiova",
+          "league": "Liga I",
+          "pick": "Universitatea Craiova vence",
+          "odds": 1.48,
+          "kickoff": "2026-10-26T18:00:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570431,
+          "match": "Sevilla vs Osasuna",
+          "league": "La Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-10-26T20:00:00Z"
+        }
+      ],
+      "combined_odds": 2.9,
+      "score": 65,
+      "stake": 0.5
+    },
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1552800,
+          "match": "Paris Saint Germain vs Lyon",
+          "league": "Ligue 1",
+          "pick": "PSG vence e Mais de 1.5 golos",
+          "odds": 1.49,
+          "kickoff": "2026-10-26T19:30:00Z",
+          "score": 70
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1584442,
+          "match": "Galatasaray vs Fenerbahçe",
+          "league": "Süper Lig",
+          "pick": "Galatasaray ou empate (dupla hipótese 1X)",
+          "odds": 1.33,
+          "kickoff": "2026-10-26T18:30:00Z",
+          "score": 68
+        }
+      ],
+      "combined_odds": 1.98,
+      "score": 68,
+      "stake": 0.5
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1552800,
+      "home": {
+        "name": "Paris Saint Germain",
+        "logo": "https://media.api-sports.io/football/teams/85.png"
+      },
+      "away": {
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "league": "Ligue 1",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/61.png",
+      "kickoff": "2026-10-26T19:30:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 67,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O histórico grita ambas marcam: os últimos sete PSG-Lyon oficiais tiveram golos dos dois lados, e o PSG chega sem Marquinhos nem Nuno Mendes na defesa. Mas os números desta época puxam para o outro lado: o Lyon fora sofreu 0,7 por jogo e ficou sem sofrer em dois de três, e o PSG em casa concede pouco em golos esperados (0,82). Pior, o Lyon perde o Sulc e o Nakamura na frente, e o PSG perde o Dembélé e o Kvaratskhelia. A 1.57 o mercado já paga perto de 62%, e não vemos mais do que isso. Fica em sombra.",
+      "factors": [
+        "H2H oficial (API /predictions e SportsGambler; Ligue 1 e Taça de França): 1-2 (19/04/2026), 2-3 (09/11/2025), 2-3 (23/02/2025), 3-1 (15/12/2024), 1-2 Taça (25/05/2024), 4-1 (21/04/2024), 1-4 (03/09/2023) — ambas marcaram em 7/7; nos últimos 10 da SportsGambler, 8/10; FootyStats, 41 encontros: 63%",
+        "PSG em casa, Ligue 1 2026/27 (API /predictions, n=2): 2,0 marcados e 1,5 sofridos por jogo, 0 sem sofrer; FootyStats (mesma amostra, n não declarado): ambas marcam 100%, xG 2,52, xGA 0,82. SportsGambler, últimos 10 de liga em casa: ambas marcam 6/10",
+        "Lyon fora, Ligue 1 2026/27 (API /predictions, n=3): 1,0 marcados e 0,7 sofridos, 2 sem sofrer, 1 em branco; FootyStats: ambas marcam 33%, xG 1,12, xGA 1,43. SportsGambler, últimos 10 de liga fora: ambas marcam 5/10",
+        "Ausências com duas fontes concordantes (API /injuries de 26/10 e SportsGambler): PSG sem Dembélé (coxa), Kvaratskhelia (joelho), Marquinhos (coxa) e Nuno Mendes (músculo); Lyon sem Sulc (joelho), Nakamura (vermelho directo), Tagliafico, Ouedraogo e Kango. Openda (perna) só na API",
+        "Forma, todas as provas (SportsGambler): PSG 4-2 Barcelona (Champions, 20/10), 3-1 em Estrasburgo, 4-2 em Manchester City, 3-1 Le Mans, 2-1 em Marselha; Lyon 0-3 em Hoffenheim (Liga Europa, 22/10), 2-1 Nice, 3-2 Crystal Palace, 1-2 em Lens, 4-0 Rennes",
+        "Preço: Bet365 1.57 (cerca de 64% implícito), Marathonbet 1.55. Terceiros: SportsGambler dá 1-1 e inclui ambas marcam no bet builder; Forebet 403. Partial: probabilidade de modelo só de uma fonte e splits com n=2/3"
+      ],
+      "sources": [
+        "API-Football /predictions e /injuries (26/10)",
+        "SportsGambler psg-vs-lyon (actualizado 26/10)",
+        "FootyStats H2H Lyon-PSG",
+        "Odds API por fixture (Bet365, Marathonbet, Pinnacle)"
+      ]
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Resultado",
+      "pick": "Trabzonspor vence",
+      "fixtureId": 1584446,
+      "home": {
+        "name": "Rizespor",
+        "logo": "https://media.api-sports.io/football/teams/1007.png"
+      },
+      "away": {
+        "name": "Trabzonspor",
+        "logo": "https://media.api-sports.io/football/teams/998.png"
+      },
+      "league": "Süper Lig",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/203.png",
+      "kickoff": "2026-10-26T16:00:00Z",
+      "odds": 1.95,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "O Trabzonspor ganhou os últimos cinco jogos em todas as provas (15-2 em golos, com 2-0 ao Beşiktaş e 4-0 ao Galatasaray) e o Rizespor ainda não marcou em casa nesta liga. Parece fácil, mas não é: em três jogos em casa o Rizespor criou 2,33 golos esperados por jogo e só não marcou por azar, e o Trabzonspor fora ganhou um em quatro. A Pinnacle dá o Trabzonspor perto de 49%, a Bet365 paga 1.95 — abaixo do preço justo. Fica em sombra.",
+      "factors": [
+        "Rizespor em casa, Süper Lig 2026/27 (API /predictions, n=3): 0,0 marcados e 2,0 sofridos, em branco em 3/3; FootyStats (mesma amostra): xG 2,33 e xGA 1,04 por jogo",
+        "Trabzonspor fora, Süper Lig 2026/27 (API /predictions, n=4): 1,3 marcados e 1,0 sofridos; FootyStats: 25% de vitórias, xG 1,47, xGA 1,64",
+        "Forma, todas as provas (SportsGambler): Trabzonspor 2-0 Hearts (Conference, 22/10), 2-0 Beşiktaş, 4-2 em KuPS, 3-0 em Samsunspor, 4-0 Galatasaray",
+        "H2H oficial (API e SportsGambler, Süper Lig e Taça): 1-0 T, 1-2 T fora, 2-0 T, 5-2 T (Taça), 3-1 R — Trabzonspor ganhou 4 dos últimos 5",
+        "Ausências: SportsGambler dá Cham e Mendy castigados e Yokuslu fora; sem segunda fonte (API /injuries não pedida, para poupar quota) — partial",
+        "Preço: Bet365 1.95, Pinnacle 1.97 (justo sem margem perto de 2.05). Terceiros: SportsGambler (Trabzonspor vence), Forebet cerca de 62% e 1-2 (via pesquisa)"
+      ],
+      "sources": [
+        "API-Football /predictions (26/10)",
+        "SportsGambler rizespor-vs-trabzonspor",
+        "FootyStats H2H Trabzonspor-Rizespor",
+        "Forebet (resumo de pesquisa restrita)",
+        "Odds API por fixture"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. A única candidata na banda com tese própria, ambas marcam no PSG-Lyon @1.57, ficou em 67 (números da época contra e quatro baixas de ataque entre as duas equipas). As pernas do curto a 1.40-1.48 (Benfica, Sevilla-Osasuna mais de 1.5, Craiova) não tiveram investigação completa nem valor contra a Pinnacle, e o Copenhaga-Odense ambas marcam @1.67 fica fora da banda."
+  }
+}
