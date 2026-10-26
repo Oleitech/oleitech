@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-25",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1494691,
+        "home": {"name": "Viking", "logo": "https://media.api-sports.io/football/teams/759.png"},
+        "away": {"name": "Tromso", "logo": "https://media.api-sports.io/football/teams/325.png"},
+        "league": "Eliteserien",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/103.png",
+        "kickoff": "2026-10-25T13:30:00Z",
+        "odds": 1.57,
+        "bookmaker": "Bet365",
+        "score": 78,
+        "stake": 1,
+        "context_depth": "full",
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "3-1",
+        "return": 1.57,
+        "pnl": 0.57,
+        "note": "Viking 3-1 Tromsø, marcaram os dois."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1552205, "match": "Sparta Rotterdam vs Ajax", "league": "Eredivisie", "pick": "Ambas marcam: Sim", "odds": 1.5, "kickoff": "2026-10-25T15:45:00Z", "result": "GREEN", "final_score": "1-2"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1575198, "match": "SC Freiburg vs Bayern München", "league": "Bundesliga", "pick": "Ambas marcam: Sim", "odds": 1.4, "kickoff": "2026-10-25T16:30:00Z", "result": "GREEN", "final_score": "1-3"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1550161, "match": "Inter vs Fiorentina", "league": "Serie A", "pick": "Inter vence", "odds": 1.33, "kickoff": "2026-10-25T11:30:00Z", "result": "GREEN", "final_score": "2-1"}
+        ],
+        "combined_odds": 2.79,
+        "score": 65,
+        "stake": 0.5,
+        "result": "GREEN",
+        "return": 1.4,
+        "pnl": 0.9,
+        "effective_odds": 2.79,
+        "note": "Três pernas verdes: Sparta 1-2 Ajax e Freiburg 1-3 Bayern (ambas marcam) e Inter 2-1 Fiorentina."
+      },
+      {
+        "label": "curto",
+        "selections": [
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1558654, "match": "Club Brugge KV vs St. Truiden", "league": "Jupiler Pro League", "pick": "Club Brugge vence", "odds": 1.33, "kickoff": "2026-10-25T15:00:00Z", "result": "GREEN", "final_score": "3-2"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1570426, "match": "Barcelona vs Real Madrid", "league": "La Liga", "pick": "Barcelona ou empate (dupla hipótese 1X)", "odds": 1.28, "kickoff": "2026-10-25T20:00:00Z", "result": "RED", "final_score": "1-2"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1575197, "match": "1899 Hoffenheim vs Bayer Leverkusen", "league": "Bundesliga", "pick": "Ambas marcam: Sim", "odds": 1.33, "kickoff": "2026-10-25T14:30:00Z", "result": "RED", "final_score": "3-0"}
+        ],
+        "combined_odds": 2.26,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Brugge 3-2 verde, mas o Real Madrid ganhou 2-1 no Camp Nou (1X falhado) e o Hoffenheim-Leverkusen acabou 3-0, sem golo visitante."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {"sport": "football", "bookmaker": "Marathonbet", "fixtureId": 1575197, "match": "1899 Hoffenheim vs Bayer Leverkusen", "league": "Bundesliga", "pick": "Bayer Leverkusen ou empate (dupla hipótese X2)", "odds": 1.44, "kickoff": "2026-10-25T14:30:00Z", "score": 70, "result": "RED", "final_score": "3-0"},
+          {"sport": "football", "bookmaker": "Marathonbet", "fixtureId": 1494691, "match": "Viking vs Tromso", "league": "Eliteserien", "pick": "Mais de 2.5 golos", "odds": 1.41, "kickoff": "2026-10-25T13:30:00Z", "score": 72, "result": "GREEN", "final_score": "3-1"}
+        ],
+        "combined_odds": 2.03,
+        "score": 70,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Viking 3-1 Tromsø deu o mais de 2.5, mas o Hoffenheim ganhou 3-0 ao Leverkusen e falhou o X2."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Só uma perna entre 1.40 e 1.60 chegou a 75 com investigação completa (ambas marcam no Viking-Tromsø @1.57, score 78). A outra candidata, ambas marcam no Midtjylland-Lyngby @1.62, fica fora da banda e em sombra a 73; as pernas dos curtos a 1.40-1.50 (Freiburg-Bayern, Sparta-Ajax) não tiveram investigação completa nem valor demonstrável, e o Leverkusen ou empate @1.44 está ao preço justo da Pinnacle (1.46), sem valor."
+    },
+    "sombra": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1549043,
+        "league": "Superliga",
+        "kickoff": "2026-10-25T13:00:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "score": 73,
+        "stake": 0,
+        "shadow": true,
+        "context_depth": "partial",
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "3-2",
+        "return": 0,
+        "pnl": 0,
+        "note": "Midtjylland 3-2 Lyngby, marcaram os dois. Em sombra, sem stake."
+      }
+    ],
+    "sombra_summary": {"total": 1, "green": 1, "red": 0, "pnl_se_apostadas": 0.62},
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 1,
+      "total_return": 1.57,
+      "pnl": 0.57,
+      "roi_pct": 57,
+      "accumulators_total": 3,
+      "accumulators_green": 1,
+      "accumulators_red": 2,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 1.4,
+      "accumulators_pnl": -0.1,
+      "combined_stake": 2.5,
+      "combined_return": 2.97,
+      "combined_pnl": 0.47,
+      "combined_roi_pct": 18.8
+    }
+  },
+  "btts": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "cards": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "over25": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "corners": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "live_alerts": {
+    "alerts": [
+      {"fixtureId": 1552797, "strategy": "⏸️ INTERVALO", "market": "Lille vence o jogo", "match": "Monaco vs Lille", "league": "Ligue 1", "elapsed": 45, "score": "0-1", "homeGoalsAtAlert": 0, "awayGoalsAtAlert": 1, "odds": 1.833, "oddMinima": 1.75, "precoAoVivo": true, "tipo": "resultado", "aoIntervalo": {"cantos": [0, 1], "amarelos": [1, 1], "vermelhos": [0, 0]}, "stake": 1, "shadow": false, "origem": "shortlist", "justificacao": "O Monaco tem mais bola mas não fez um único remate à baliza, e o Lille, que já está a ganhar, fez dois. O Monaco jogou quinta-feira e não parece ter pernas para dar a volta.", "sentAt": 1792939942481, "result": "RED", "finalHome": 1, "finalAway": 1, "pnl": -1, "return": 0, "resolvedAt": 1792944947810},
+      {"fixtureId": 1557445, "strategy": "⏸️ INTERVALO", "market": "Bournemouth marca na 2ª parte", "match": "Manchester United vs Bournemouth", "league": "Premier League", "elapsed": 45, "score": "0-2", "homeGoalsAtAlert": 0, "awayGoalsAtAlert": 2, "odds": 1.8, "oddMinima": 1.75, "precoAoVivo": true, "tipo": "golos", "aoIntervalo": {"cantos": [1, 4], "amarelos": [4, 1], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "shortlist", "justificacao": "O Bournemouth fez seis remates contra três e criou muito mais perigo, e o United vai ter de se abrir com quatro amarelados, entre eles o Maguire e o Heaven lá atrás. Há espaço para o terceiro.", "sentAt": 1792939943054, "result": "GREEN", "finalHome": 0, "finalAway": 3, "pnl": 0.4, "return": 0.9, "resolvedAt": 1792944947810},
+      {"fixtureId": 1558654, "strategy": "⏸️ INTERVALO", "market": "Menos de 3.5 golos no jogo", "match": "Club Brugge KV vs St. Truiden", "league": "Jupiler Pro League", "elapsed": 45, "score": "2-0", "homeGoalsAtAlert": 2, "awayGoalsAtAlert": 0, "odds": 2.5, "oddMinima": 1.95, "precoAoVivo": true, "tipo": "golos", "aoIntervalo": {"cantos": [1, 2], "amarelos": [0, 0], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "boletim", "justificacao": "Na 1ª parte houve só 7 remates no jogo inteiro, e os dois golos do Tresoldi saíram em dois minutos (41' e 43'), não de um domínio. Com o Brugge a gerir o 2-0, basta que a 2ª parte não traga mais de um golo, e a 2.50 isto paga bem.", "sentAt": 1792943386453, "result": "RED", "finalHome": 3, "finalAway": 2, "pnl": -0.5, "return": 0, "resolvedAt": 1792948587466},
+      {"fixtureId": 1552205, "strategy": "⏸️ INTERVALO", "market": "Menos de 4.5 golos no jogo", "match": "Sparta Rotterdam vs Ajax", "league": "Eredivisie", "elapsed": 45, "score": "1-2", "homeGoalsAtAlert": 1, "awayGoalsAtAlert": 2, "odds": 2.1, "oddMinima": 1.7, "precoAoVivo": true, "tipo": "golos", "aoIntervalo": {"cantos": [0, 3], "amarelos": [0, 0], "vermelhos": [0, 0]}, "stake": 0.5, "shadow": false, "origem": "boletim", "justificacao": "Os três golos saíram de quase nada: a 1ª parte toda deu menos de 0.7 de golos esperados e o Sparta só rematou 3 vezes. A casa paga 2.10 como se viessem mais dois golos, e para isto ganhar basta não haver mais do que um.", "sentAt": 1792946234965, "result": "GREEN", "finalHome": 1, "finalAway": 2, "pnl": 0.55, "return": 1.05, "resolvedAt": 1792973173935}
+    ],
+    "summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {"⏸️ INTERVALO": {"total": 4, "green": 2, "red": 2}},
+      "stake_total": 2.5,
+      "stake_mensuravel": 2.5,
+      "return_mensuravel": 1.95,
+      "pnl_mensuravel": -0.55,
+      "roi_pct_mensuravel": -22,
+      "odds_registadas": 4,
+      "nota_mensuravel": "Quatro alertas de intervalo (um a 1 stake, três a meia), já em stakes."
+    }
+  },
+  "balance": 31.13,
+  "notes": "Viking-Tromsø 3-1 deu a tip verde (+0,57) e o curto de 2.79 passou (+0,90). O curto do Clássico caiu no Barça-Real (1-2, o 1X falhou) e o corvo no 3-0 do Hoffenheim ao Leverkusen (-0,50 cada). Quatro alertas de intervalo, dois verdes e dois vermelhos (-0,55). Dia fecha em -0,08 stakes, banca 31,13 stakes."
+}

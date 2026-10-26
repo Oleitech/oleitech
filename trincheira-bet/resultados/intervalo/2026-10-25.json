@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-25",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1552797,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Lille vence o jogo",
+      "match": "Monaco vs Lille",
+      "league": "Ligue 1",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.833,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Monaco tem mais bola mas não fez um único remate à baliza, e o Lille, que já está a ganhar, fez dois. O Monaco jogou quinta-feira e não parece ter pernas para dar a volta.",
+      "sentAt": 1792939942481,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1792944947810
+    },
+    {
+      "fixtureId": 1557445,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Bournemouth marca na 2ª parte",
+      "match": "Manchester United vs Bournemouth",
+      "league": "Premier League",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 1.8,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          4
+        ],
+        "amarelos": [
+          4,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Bournemouth fez seis remates contra três e criou muito mais perigo, e o United vai ter de se abrir com quatro amarelados, entre eles o Maguire e o Heaven lá atrás. Há espaço para o terceiro.",
+      "sentAt": 1792939943054,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 3,
+      "pnl": 0.4,
+      "return": 0.9,
+      "resolvedAt": 1792944947810
+    },
+    {
+      "fixtureId": 1558654,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 3.5 golos no jogo",
+      "match": "Club Brugge KV vs St. Truiden",
+      "league": "Jupiler Pro League",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.5,
+      "oddMinima": 1.95,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Na 1ª parte houve só 7 remates no jogo inteiro, e os dois golos do Tresoldi saíram em dois minutos (41' e 43'), não de um domínio. Com o Brugge a gerir o 2-0, basta que a 2ª parte não traga mais de um golo, e a 2.50 isto paga bem.",
+      "sentAt": 1792943386453,
+      "result": "RED",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1792948587466
+    },
+    {
+      "fixtureId": 1552205,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 4.5 golos no jogo",
+      "match": "Sparta Rotterdam vs Ajax",
+      "league": "Eredivisie",
+      "elapsed": 45,
+      "score": "1-2",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 2,
+      "odds": 2.1,
+      "oddMinima": 1.7,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          3
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Os três golos saíram de quase nada: a 1ª parte toda deu menos de 0.7 de golos esperados e o Sparta só rematou 3 vezes. A casa paga 2.10 como se viessem mais dois golos, e para isto ganhar basta não haver mais do que um.",
+      "sentAt": 1792946234965,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0.55,
+      "return": 1.05,
+      "resolvedAt": 1792973173935
+    }
+  ]
+}
