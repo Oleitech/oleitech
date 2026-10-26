@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-26",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1584440,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Beşiktaş vence o jogo",
+      "match": "Beşiktaş vs Başakşehir",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.571,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          0
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Beşiktaş fez 10 remates contra 2 e o Başakşehir quase não passou do meio-campo (0.04 de golos esperados). Em casa o Beşiktaş marca 3 por jogo e eles só marcaram 1 golo em três jogos fora. Falta só o golo, e a vitória paga 1.57.",
+      "sentAt": 1793033366937,
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": 0.2855,
+      "return": 0.7855,
+      "resolvedAt": 1793038619636
+    },
+    {
+      "fixtureId": 1548549,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 cartões na 2ª parte",
+      "match": "Istra 1961 vs HNK Hajduk Split",
+      "league": "HNL",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.7,
+      "oddMinima": 1.7,
+      "precoAoVivo": false,
+      "tipo": "cartoes",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          3
+        ],
+        "amarelos": [
+          2,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Já vão 4 amarelos ao intervalo, 2 para cada lado, e 3 deles foram por reclamar. O Istra está a perder e vai ter de arriscar, por isso a 2ª parte deve ser ainda mais quente.",
+      "sentAt": 1793036944081,
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1793042133160
+    },
+    {
+      "fixtureId": 1565286,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Ambas as equipas marcam: Não",
+      "match": "Sepsi OSK Sfantu Gheorghe vs Universitatea Craiova",
+      "league": "Liga I",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 1.571,
+      "oddMinima": 1.5,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "O Sepsi está a perder 0-2 em casa e não fez um único remate na 1ª parte, só 3 toques na área do Craiova. Basta o Craiova, que é 3º, não deixar marcar na 2ª parte.",
+      "sentAt": 1793040904255,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 5,
+      "pnl": 0.571,
+      "return": 1.571,
+      "resolvedAt": 1793045834161
+    },
+    {
+      "fixtureId": 1584442,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 6.5 cartões no jogo",
+      "match": "Galatasaray vs Fenerbahçe",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.65,
+      "oddMinima": 1.65,
+      "precoAoVivo": false,
+      "tipo": "cartoes",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          1,
+          3
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Já houve 4 amarelos a jogadores na 1ª parte, 3 deles para o Fenerbahçe, que fez 7 faltas. Agora perde 2-0 no dérbi e vai ter de correr atrás, por isso bastam mais 3 cartões na 2ª parte.",
+      "sentAt": 1793042469149,
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": 0.32499999999999996,
+      "return": 0.825,
+      "resolvedAt": 1793047629917
+    },
+    {
+      "fixtureId": 1575524,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Santa Clara vence (empate anula a aposta)",
+      "match": "Santa Clara vs Benfica",
+      "league": "Primeira Liga",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "O Benfica tem a bola, 67%, mas na primeira parte fez 2 remates e nenhum à baliza. O Santa Clara fez 7 e marcou. Se o Benfica empatar, o dinheiro volta. O preço só vale porque a casa ainda conta com uma reviravolta que o jogo não mostrou.",
+      "sentAt": 1793043409461,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1793047629917
+    }
+  ]
+}
