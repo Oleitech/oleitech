@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T07:21:04.458Z",
+  "units": "stakes",
+  "notes": "Terça-feira de taças: Taça da Alemanha, Taça do Rei, Taça da Liga inglesa e o Sporting-Marítimo na nossa Taça da Liga, mais três jogos da Serie A.\n\nNão sai tip nenhuma. O que ficou mais perto foi ambas marcam no Torino-Como: nenhuma das duas equipas fechou a baliza nesse lado do campo esta época, mas a 1.62 o preço já paga o que vemos, e o Como vem de jogo de Champions. Nas taças há muito favorito barato, só que contra equipas de divisões abaixo e sem histórico entre elas, e assim não entram nos boletins.\n\nTambém não há curto. Dos favoritos baratos com histórico, quase todos chegam em má forma: o Slavia ganhou um dos últimos cinco, a Roma dois, e a forma do Sporting não se conseguiu confirmar. Sobrou uma perna só, e com uma não se faz bilhete de três.\n\nO corvo (1.94, meia stake) junta a Lazio a não perder em Sassuolo, com oito jornadas sem perder e três jogos fora sem sofrer, e menos de 3.5 golos no Köln-Union da Taça, onde os últimos cinco jogos do Köln acabaram todos com três golos ou menos. No Köln faltam o Skhiri e dois avançados, o Dallinga e o Rondić; no Union, o castigo do Uduokhai é só para o campeonato.\n\nSem duplo hoje. Exposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1550174,
+          "match": "Sassuolo vs Lazio",
+          "league": "Serie A",
+          "pick": "Lazio ou empate (dupla hipótese X2)",
+          "odds": 1.35,
+          "kickoff": "2026-10-27T17:30:00Z",
+          "score": 70
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1638563,
+          "match": "1. FC Köln vs Union Berlin",
+          "league": "DFB Pokal",
+          "pick": "Menos de 3.5 golos",
+          "odds": 1.44,
+          "kickoff": "2026-10-27T19:45:00Z",
+          "score": 66
+        }
+      ],
+      "combined_odds": 1.94,
+      "score": 66,
+      "stake": 0.5
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1550175,
+      "home": {
+        "name": "Torino",
+        "logo": "https://media.api-sports.io/football/teams/503.png"
+      },
+      "away": {
+        "name": "Como",
+        "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
+      "league": "Serie A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-10-27T19:45:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "tese": "Nenhuma das duas fecha a baliza neste lado do campo: o Torino ainda não ficou sem sofrer em casa e o Como ainda não ficou sem sofrer fora, e os golos esperados dizem o mesmo (o Como cria 2,18 fora, o Torino concede 1,50 em casa e cria 1,24). Pelas nossas contas ambas marcam anda perto de 62%, e a 1.62 a Bet365 paga 62% — não sobra nada. Contra: nos quatro encontros entre os dois só houve ambas marcam uma vez (6-0 e 1-5 para o Como), o Como jogou Champions na quarta e a SportsGambler aponta 0-2. Fica em sombra.",
+      "factors": [
+        "Torino em casa, Serie A 2026/27 (API /predictions, n=4): 1,5 marcados e 1,8 sofridos por jogo, 0 jogos sem sofrer, 1 em branco; FootyStats (mesma amostra): ambas marcam 75%, xG 1,24, xGA 1,50",
+        "Como fora, Serie A 2026/27 (API /predictions, n=5): 2,0 marcados e 1,2 sofridos, 0 sem sofrer, 1 em branco; FootyStats (mesma amostra): ambas marcam 80%, xG 2,18, xGA 1,63",
+        "SportsGambler, últimos 10 de liga: Torino em casa com ambas marcam 8/10; Como fora 6/10",
+        "H2H oficial (API /predictions, Serie A): 6-0 Como (24/01/2026), 1-5 em Turim (24/11/2025), 1-0 Como (13/04/2025), 1-0 Torino (25/10/2024) — ambas marcam 1/4",
+        "Forma, todas as provas (SportsGambler): Torino 3-2 Monza, 3-0 em Parma, 2-1 Udinese, 1-1 em Bolonha, 0-2 Roma; Como 2-0 Sassuolo, 4-1 Man United (Champions, 21/10), 3-1 em Florença, 2-3 com o Feyenoord fora (Champions), 0-0 Roma",
+        "Ausências com duas fontes concordantes (API /injuries de 27/10 e SportsGambler): Torino sem Israel (ombro), Ilkhan em dúvida; Como sem Diao, Jesús Rodríguez e Chalobah. Kean em dúvida só na API; Ilic e Kühn só na SportsGambler",
+        "Preço: Bet365 1.62 (ambas marcam Não 2.20, cerca de 58% sem margem), Marathonbet 1.63. FootyStats dá 78% de ambas marcam; SportsGambler escolhe Como vence com 0-2. Partial: só um modelo de probabilidade (sem Forebet nem Dimers)"
+      ],
+      "sources": [
+        "API-Football /predictions, /odds e /injuries (27/10)",
+        "SportsGambler torino-vs-como (actualizado 26/10)",
+        "FootyStats H2H Torino-Como"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. As candidatas na banda eram a perna do Köln-Union (menos de 3.5 @1.44, score 66) e ambas marcam no Sassuolo-Lazio (@1.53), que vai contra a Lazio sem sofrer em 3 de 4 jogos fora. O ambas marcam do Torino-Como (@1.62) fica fora da banda e em 68."
+  }
+}
