@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-28",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1638572,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 1.5 golos no jogo",
+      "match": "Dynamo Dresden vs FC Schalke 04",
+      "league": "DFB Pokal",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.727,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          2
+        ],
+        "amarelos": [
+          0,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Dresden e Schalke fizeram 3 remates cada na 1ª parte e o Dresden ainda nem acertou na baliza, apesar dos 60% de bola. O jogo está fechado a 0-0, e nas apostas basta que não saia mais do que um golo até aos 90.",
+      "sentAt": 1793209925849,
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1793215000343
+    },
+    {
+      "fixtureId": 1550173,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Udinese - Empate anula aposta",
+      "match": "Parma vs Udinese",
+      "league": "Serie A",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.571,
+      "oddMinima": 1.45,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          2
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "A Udinese foi melhor em toda a 1ª parte, com 12 remates contra 3 e 16 toques na área contra 6, e o Parma não fez nenhum remate à baliza. Se o jogo acabar empatado, o dinheiro volta.",
+      "sentAt": 1793211612542,
+      "result": "PUSH",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0.5,
+      "resolvedAt": 1793216822037
+    },
+    {
+      "fixtureId": 1550172,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Dupla hipótese: Monza ou empate",
+      "match": "Monza vs Napoli",
+      "league": "Serie A",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.909,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 1,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Monza tem jogado melhor que o Napoli: rematou 9 vezes contra 6 e criou mais perigo. O Napoli perdeu o Lobotka aos 17 minutos, e a 1-1 a casa paga quase 1.91 só para o Monza não perder.",
+      "sentAt": 1793219905762,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 4,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1793224912743
+    }
+  ]
+}
