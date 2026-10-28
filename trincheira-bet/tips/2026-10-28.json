@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:08:14.228Z",
+  "units": "stakes",
+  "notes": "Quarta de taças e de jornada a meio da semana: Serie A, Taça da Liga inglesa, Taça da Alemanha e o campeonato escocês. Muito jogo, pouco preço.\n\nNão saiu tip nenhuma. Os favoritos acima de 1.55 (Juventus em Génova, Milan com o Bolonha, Napoli em Monza) estão a preço justo ou pior do que a Pinnacle, e a Juve e o Milan vêm com baixas a mais para se fiar. Não se força boletim.\n\nTambém não há curto: só duas pernas aguentaram o histórico e a forma (Inter a ganhar em Veneza e ambas marcam no Freiburg-Wolfsburg), e com duas não se faz um trio.\n\nFica o corvo, a meia stake: Inter vence e mais de 1.5 em Veneza, com o Celtic vence e mais de 1.5 com o Dundee United, a 1.95 na Marathonbet. A perna do Celtic é a que mete mais medo: o Dundee já lhe ganhou duas vezes em cinco jogos e vem em boa fase.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "corvo",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1550176,
+          "match": "Venezia vs Inter",
+          "league": "Serie A",
+          "pick": "Inter vence e Mais de 1.5 golos",
+          "odds": 1.42,
+          "kickoff": "2026-10-28T17:30:00Z",
+          "score": 74,
+          "tese": "O Venezia ganhou um jogo em oito na Serie A e marca 0,8 por jogo; o Inter não ficou em branco em nenhum dos oito e ganhou os últimos cinco encontros entre os dois. Faltam Lautaro, Pavard e Stones, mas o banco do Inter chega para isto.",
+          "factors": [
+            "Venezia, Serie A 2026/27 (API /predictions, n=8): LLLLLLWL; em casa 0,8 marcados e 2,0 sofridos (n=4)",
+            "Inter, Serie A 2026/27 (API, n=8): WWWWDWWW; fora 2,0 marcados e 1,0 sofridos (n=3), 0 jogos em branco",
+            "H2H oficial, últimos 5 (API): 5-1 (Taça de Itália 12/2025), 1-0 fora, 1-0, 2-1, 2-0 fora — Inter vence 5/5, com 2+ golos 3/5",
+            "Forma Inter todas as provas (SportsGambler): 2-1 Fiorentina, 1-0 Shakhtar (Champions), 3-1 em Bolonha, 3-4 Club Brugge (Champions), 3-0 Parma — vence com 2+ golos 3/5",
+            "Ausências em duas fontes (API /injuries 28/10 e SportsGambler): Inter sem Lautaro, Pavard, Stones, Curtis Jones, Luis Henrique; Venezia sem Adorante, Correia, Franjic, Sverko. Carboni só na SportsGambler",
+            "Descartado por proveniência: o 7-0-3 em casa do Venezia na SportsGambler mistura a Serie B",
+            "Preço: Marathonbet 1.42; Pinnacle dá o Inter a 1.35 (cerca de 71% sem margem), justo para vence e mais de 1.5 perto de 1.56"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1556689,
+          "match": "Celtic vs Dundee Utd",
+          "league": "Premiership (Escócia)",
+          "pick": "Celtic vence e Mais de 1.5 golos",
+          "odds": 1.37,
+          "kickoff": "2026-10-28T19:45:00Z",
+          "score": 72,
+          "tese": "O Celtic ganhou 9 dos últimos 10 jogos do campeonato e em casa marca 2,6 por jogo; quando ganha ao Dundee United, ganha largo (0-4, 4-0, 0-5 nos últimos cinco). O risco é o Dundee, que bateu o Celtic duas vezes em cinco e chega em boa fase.",
+          "factors": [
+            "Celtic, Premiership 2026/27 (API /predictions, n=10): WWWWWWLWWW; em casa 2,6 marcados e 0,6 sofridos (n=5), 1 jogo em branco em casa",
+            "Dundee Utd, Premiership 2026/27 (API, n=10): DLLWLDWWDW; fora 1,6 marcados e 1,6 sofridos (n=5)",
+            "H2H oficial, últimos 5 (API /predictions): 0-4 Celtic (Taça da Liga 15/08/2026), 2-0 Dundee (22/03/2026), 4-0 Celtic, 2-1 Dundee, 0-5 Celtic — Celtic vence com 2+ golos 3/5",
+            "Forma Celtic todas as provas (SportsGambler): 2-1 em Hibernian, 1-2 Celta (Liga Europa), 7-1 Hearts, 1-4 em Lisboa (Liga Europa), 2-0 em Motherwell — vence com 2+ golos 3/5",
+            "Ausências: nenhum nome em duas fontes (API /injuries 28/10 vazio; SportsGambler sem baixas)",
+            "Preço: Marathonbet 1.37; Pinnacle dá o Celtic a 1.25 (cerca de 76% sem margem), justo para vence e mais de 1.5 perto de 1.45"
+          ]
+        }
+      ],
+      "combined_odds": 1.95,
+      "score": 72,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Inter vence e mais de 1.5 (1.42) fica em 74; ambas marcam no Freiburg-Wolfsburg (1.50) não tem baixas confirmadas em nenhuma fonte; Juventus vence (1.67) e Napoli vence (1.75) estão fora da banda."
+  }
+}
