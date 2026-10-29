@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T07:21:22.918Z",
+  "units": "stakes",
+  "notes": "Quinta de taças: quartos da Taça da Liga com Braga e Benfica, Taça do Rei com os grandes espanhóis contra equipas amadoras, Taça da Áustria, um Everton-Newcastle na Taça da Liga inglesa e dois jogos da Serie A. À noite há clássico em Belo Horizonte.\n\nSaiu uma tip, e a meia stake: ambas marcam no Atlético Mineiro-Cruzeiro, a 1.62. Os números das duas equipas pedem golos dos dois lados — o Cruzeiro fora marca e sofre quase sempre —, mas as listas de baixas não batem certo entre as fontes e o jogo é tarde, por isso não dá para ir mais alto. É a aposta com mais incerteza do dia.\n\nHá curto a meia stake, a 2.78: Benfica a ganhar ao Gil Vicente, ambas marcam no Fiorentina-Atalanta e o Sturm a ganhar em Lustenau. A perna do Sturm é a mais frágil: é taça e o treinador pode rodar.\n\nOs favoritos da Taça do Rei ficam de fora: contra equipas de escalões abaixo não há histórico e as odds não valem nada. Não se força boletim. Sem corvo e sem duplo hoje: as pernas a jeito pagavam abaixo do preço justo.\n\nExposição do dia: uma stake.",
+  "tips": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1492430,
+      "home": {
+        "name": "Atletico-MG",
+        "logo": "https://media.api-sports.io/football/teams/1062.png"
+      },
+      "away": {
+        "name": "Cruzeiro",
+        "logo": "https://media.api-sports.io/football/teams/135.png"
+      },
+      "league": "Brasileirão Série A",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/71.png",
+      "kickoff": "2026-10-29T22:30:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "tese": "O Atlético marca quase sempre em casa nesta Série A: ficou em branco uma vez em 16 jogos na Arena MRV, mas só fechou a baliza em 5 desses 16. O Cruzeiro fora ainda é mais aberto: marcou em 14 dos 16 jogos e só em 2 não sofreu. O FootyStats dá ambas marcam em 63% dos jogos do Atlético em casa e em 75% dos do Cruzeiro fora, e o xG vai no mesmo sentido (1,76 do Atlético em casa, 1,57 do Cruzeiro fora, as duas defesas a conceder acima de 1,4). Nos últimos cinco clássicos oficiais ambas marcaram em quatro. Com estas taxas ambas marcam anda nos 68%, preço justo perto de 1.47; a 1.62 há folga. O que pesa contra: as listas de baixas não batem certo. A API tira ao Atlético dois avançados (Cassierra e Borbas), o Cuello, o guarda-redes Everson e o Vitor Hugo por castigo, e ao Cruzeiro o Gabriel Pec e o Sinisterra; a SportsGambler só regista o Robert Santos e mete o Vitor Hugo e o Arroyo nos onzes. Nenhuma baixa fica confirmada em duas fontes, não se confirmou o estado dos treinadores, e o jogo é às 22:30 — por isso vai a meia stake.",
+      "factors": [
+        "Atlético em casa, Brasileirão Série A 2026 (API /predictions, bloco da liga, n=16): 1,7 marcados e 1,1 sofridos por jogo, em branco 1/16, sem sofrer 5/16, 10 vitórias",
+        "Cruzeiro fora, Brasileirão Série A 2026 (API /predictions, n=16): 1,5 marcados e 1,9 sofridos por jogo, em branco 2/16, sem sofrer 2/16, 7 vitórias",
+        "FootyStats, página H2H do jogo de 29/10 (Série A 2026; a página não declara n, os valores batem com n=16 casa / n=16 fora da API): Atlético em casa ambas marcam 63%, sem sofrer 31%, em branco 6%, xG 1,76 e xGA 1,43; Cruzeiro fora ambas marcam 75%, sem sofrer 13%, em branco 13%, xG 1,57 e xGA 1,81",
+        "H2H oficial, últimos 5 (API /predictions): Atlético 2-1 Cruzeiro (Taça do Brasil 02/09/2026), Cruzeiro 1-1 Atlético (Taça do Brasil 26/08/2026), Cruzeiro 1-3 Atlético (Série A 03/05/2026), Cruzeiro 1-0 Atlético (Mineiro 08/03/2026), Atlético 2-1 Cruzeiro (Mineiro 25/01/2026) — ambas marcaram em 4/5",
+        "Forma, todas as provas (SportsGambler, últimos 5): Atlético — Flamengo 3-2 Atlético (Série A 27/10), Torque 2-0 Atlético (Sul-Americana 22/10), Atlético 1-0 Coritiba, Atlético 3-0 Torque, Atlético 2-1 Santos — ambas marcaram 2/5; Cruzeiro — Cruzeiro 1-0 Remo, Grêmio 2-4 Cruzeiro, Bragantino 4-2 Cruzeiro, Cruzeiro 2-0 São Paulo, Vitória 1-3 Cruzeiro (todos Série A) — ambas marcaram 3/5",
+        "SportsGambler, últimos 10 em casa/fora (a página não separa competição — só cross-check): Atlético ambas marcam 7/10 em casa, Cruzeiro 9/10 fora; pick do site: ambas marcam Sim @1.65",
+        "Ausências — API /injuries de 29/10: Atlético sem Borbas, Cassierra, Cuello, Everson, Fred, Ruan Tressoldi, Vitor Hugo (amarelos); Cruzeiro sem Gabriel Pec, Sinisterra, com Arroyo e Felipe Morais em dúvida. SportsGambler: Atlético só sem Robert Santos, Cruzeiro sem baixas, Vitor Hugo e Arroyo nos onzes prováveis. Nenhuma baixa concordante nas duas fontes; a pesquisa (Flashscore/O Tempo) indica que o Everson já voltou a ser convocado após a fractura de Setembro, o que sugere a lista da API desactualizada",
+        "Preço: Bet365 1.62, Marathonbet 1.61, Betano 1.65, William Hill 1.60 (API /odds 29/10); Pinnacle não abre ambas marcam, dá mais de 2.5 a 1.81. Estimativa própria ~68% pelas taxas acima, justo ~1.47",
+        "Em falta: confirmação dos treinadores (mudança recente ou não) — por isso context_depth partial e stake descida de uma para meia"
+      ],
+      "sources": [
+        "API-Football /predictions?fixture=1492430 (29/10/2026)",
+        "API-Football /injuries?fixture=1492430 (29/10/2026) — fonte 1 de ausências",
+        "SportsGambler atletico-mineiro-vs-cruzeiro-prediction-lineups-odds-2026-10-29 — fonte 2 de ausências, onzes, forma, pick",
+        "FootyStats cruzeiro-ec-vs-ca-mineiro-h2h-stats (splits casa/fora Série A 2026, xG)",
+        "API-Football /odds?fixture=1492430 (Bet365, Marathonbet, Pinnacle)",
+        "Pesquisa web: regresso do Everson aos convocados (Flashscore, O Tempo)"
+      ]
+    }
+  ],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1589435,
+          "match": "Benfica vs GIL Vicente",
+          "league": "Taça da Liga",
+          "pick": "Benfica vence",
+          "odds": 1.28,
+          "kickoff": "2026-10-29T20:45:00Z",
+          "score": 65,
+          "tese": "O Benfica ganhou os últimos cinco jogos oficiais contra o Gil Vicente, todos com dois ou mais golos, e ganhou quatro dos últimos cinco jogos que fez. O Gil Vicente defende bem mas marca pouco (8 golos em 9 jornadas).",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions, Primeira Liga): 3-1 (13/09/2026), 2-1 fora (02/03/2026), 2-1 (26/09/2025), 3-0 fora (28/03/2025), 5-1 (28/09/2024) — 5/5 vitórias",
+            "Forma, todas as provas (ESPN e SportsGambler, concordam nos resultados): 2-1 Santa Clara (Liga 26/10), 4-1 Omonia (Liga Europa 22/10), 4-1 Celtic (Liga Europa 15/10), 2-0 Vitória SC (Liga 11/10), 1-3 FC Porto (Liga 20/09) — 4/5",
+            "Benfica, Primeira Liga 2026/27 (FootyStats, n=9): 7V-1E-1D, 2,89 marcados e 0,89 sofridos por jogo; xG 2,14",
+            "Gil Vicente, Primeira Liga 2026/27 (SportsGambler, n=9): 7.º, 8 marcados e 7 sofridos; últimos 5: 0-1 Porto, 2-1 em Braga, 1-0 em Moreirense, 1-1 Marítimo, 1-3 em Benfica",
+            "Red flag avaliado: rotação provável (Taça da Liga entre a Liga Europa de 22/10 e o Alverca de 02/11). Baixas: API /injuries vazio; SportsGambler dá Barreiro castigado (amarelos da liga) e lesões longas — sem baixa concordante",
+            "Preço: Bet365 1.28, Pinnacle 1.30"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550169,
+          "match": "Fiorentina vs Atalanta",
+          "league": "Serie A",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.5,
+          "kickoff": "2026-10-29T19:45:00Z",
+          "score": 65,
+          "tese": "A Fiorentina não fechou a baliza em nenhum dos oito jogos desta Serie A e a Atalanta só uma vez; as duas marcaram em quatro dos últimos cinco jogos. A Atalanta chega sem três centrais.",
+          "factors": [
+            "Fiorentina, Serie A 2026/27 (API /predictions, n=8): LLLWDLLL, 0 jogos sem sofrer, em branco 2/8, sofre 2,4 por jogo (em casa 0,8 marcados, n=4)",
+            "Atalanta, Serie A 2026/27 (API /predictions, n=8): sem sofrer 1/8, em branco 1/8, 1,8 marcados e 1,9 sofridos",
+            "H2H oficial, últimos 5 Serie A (API /predictions): Fiorentina 1-1 Atalanta (22/05/2026), Atalanta 2-0 Fiorentina (30/11/2025), Fiorentina 1-0 Atalanta (30/03/2025), Atalanta 3-2 Fiorentina (15/09/2024), Atalanta 2-3 Fiorentina (02/06/2024) — ambas marcaram 3/5",
+            "Forma, todas as provas (SportsGambler): Fiorentina 1-2 Inter, 1-3 Como, 1-2 Genoa, 1-1 Napoli, 3-0 Pisa (Taça) — ambas 4/5; Atalanta 4-4 Frosinone, 0-2 Ajax (Conferência), 2-3 Milan, 3-1 Pafos, 3-1 Venezia — ambas 4/5",
+            "SportsGambler, últimos 10 de Serie A: Fiorentina em casa ambas marcam 5/10; Atalanta fora 8/10",
+            "Baixas concordantes (API /injuries 29/10 e SportsGambler): Atalanta sem Bellanova, Hien, Kessie, Kolasinac, Kossounou, Raspadori, Scalvini e Sulemana em dúvida; Fiorentina sem Atta, Parisi, Pongracic, Sottil, Ranieri em dúvida. Kean, Gudmundsson e Piccoli só na SportsGambler — não contam",
+            "Preço: Bet365 1.50, Marathonbet 1.48; Pinnacle mais de 2.5 a 1.60"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1638652,
+          "match": "Austria Lustenau vs Sturm Graz",
+          "league": "Taça da Áustria",
+          "pick": "Sturm Graz vence",
+          "odds": 1.45,
+          "kickoff": "2026-10-29T17:00:00Z",
+          "score": 65,
+          "tese": "O Sturm ganhou quatro dos últimos cinco jogos oficiais contra o Lustenau e chega com três vitórias em cinco; o Lustenau perdeu os últimos três da liga a sofrer 13 golos.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions, Bundesliga austríaca): 1-1 (22/08/2026), 2-0 (25/11/2023), 1-0 fora (19/08/2023), 2-0 fora (04/03/2023), 2-0 (18/09/2022) — 4/5 vitórias",
+            "Forma Sturm, todas as provas (SportsGambler): 2-2 Ried (25/10), 1-0 Marseille (Liga Europa 22/10), 6-1 GAK (18/10), 0-3 Bournemouth (Liga Europa 15/10), 2-0 em Viena com o Austria (10/10) — 3/5; 4.º da liga",
+            "Lustenau (SportsGambler, Bundesliga 2026/27): 10.º de 12, 12-24 em golos; últimos 3: 1-5 Rapid, 0-4 LASK, 3-4 Hartberg",
+            "Baixas Sturm (SportsGambler): Zvonarek, Johnston, Kern, Mayulu em dúvida; API /injuries não consultada para poupar pedidos (o curto não exige onze)",
+            "Preço: Bet365 1.45, Pinnacle 1.41 — a Bet365 paga acima"
+          ]
+        }
+      ],
+      "combined_odds": 2.78,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Al-Nassr vence e menos de 5.5 (1.42) fica em 74; Benfica vence e mais de 1.5 (1.42) em 72 e abaixo do justo da Pinnacle; ambas marcam no Fiorentina-Atalanta (1.50) com o ataque da Fiorentina por confirmar (Kean, Gudmundsson e Piccoli só numa fonte); a tip do Atlético-Cruzeiro (1.62) está fora da banda."
+  }
+}
