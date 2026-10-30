@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T07:17:04.737Z",
+  "units": "stakes",
+  "notes": "Sexta de campeonatos: o PSG vai a Le Havre, há Villarreal-Espanyol, um Lille-Lens cheio de baixas, o Sporting em Rio Maior e o Brugge na casa do Zulte. À hora de almoço joga o Al-Ittihad na Arábia.\n\nHoje não sai tip simples. Os favoritos pagam abaixo de 1.55 e, acima disso, não há preço: o Sporting a ganhar por dois paga 1.88 mas a Pinnacle paga mais pelo mesmo, e o ambas marcam no Villarreal-Espanyol a 1.67 fica abaixo do que os modelos lhe dão. Não se força boletim.\n\nHá curto a meia stake, a 2.76: Brugge a ganhar em Waregem, Al-Ittihad a ganhar em Abha e mais de 1.5 golos no Sheffield United-Wrexham. O Brugge ganhou os últimos cinco jogos e o Zulte está há quatro sem marcar; o Abha ainda não ganhou nenhum jogo nesta liga. A perna do Ittihad é a mais frágil do bilhete: joga fora e é a odd mais alta.\n\nHá corvo a meia stake, a 1.92: o Villarreal marca pelo menos dois ao Espanyol, a quem ganhou os últimos sete jogos, e o PSG não marca mais de três em Le Havre, sem Dembélé nem Kvaratskhelia. As duas odds estão iguais ou acima das da Pinnacle.\n\nSem duplo hoje: nenhuma perna entre 1.40 e 1.60 chegou à nota que o teste pede.\n\nExposição do dia: uma stake.",
+  "tips": [],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1570442,
+      "home": {
+        "name": "Villarreal",
+        "logo": "https://media.api-sports.io/football/teams/533.png"
+      },
+      "away": {
+        "name": "Espanyol",
+        "logo": "https://media.api-sports.io/football/teams/540.png"
+      },
+      "league": "La Liga",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/140.png",
+      "kickoff": "2026-10-30T20:00:00Z",
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "score": 68,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 68, abaixo do piso de 75: os números dos dois lados pedem golos, mas a odd fica abaixo do justo dos modelos e o Espanyol perde o ponta-de-lança.",
+      "tese": "O Villarreal sofreu em três dos quatro jogos em casa nesta Liga e o Espanyol marcou em todos os cinco que fez fora, com ambas marcam em 75% e 80% desses jogos. O xG vai no mesmo sentido: 2,13 do Villarreal em casa contra um Espanyol que concede 1,88 fora. O que pesa contra: o Espanyol não tem o Kike García e jogou 120 minutos na terça na Taça, e o modelo da Dimers dá ambas marcam a 57,7%, o que pede 1.73. A 1.67 não há folga, por isso fica em sombra.",
+      "factors": [
+        "FootyStats, página H2H do jogo (La Liga 2026/27; amostras: Villarreal em casa n=4, Espanyol fora n=5, batem com a API /predictions): Villarreal em casa ambas marcam 75%, sem sofrer 25%, xG 2,13, xGA 1,26; Espanyol fora ambas marcam 80%, em branco 0%, xG 1,18, xGA 1,88",
+        "API /predictions (La Liga 2026/27): Villarreal em casa 1,5 marcados e 1,5 sofridos (n=4), 1 jogo sem sofrer; Espanyol fora 1,2 marcados e 1,4 sofridos (n=5), 0 jogos em branco",
+        "H2H oficial, últimos 5 La Liga (API): 4-1, 0-2, 1-0, 1-2, 4-2 — ambas marcaram 3/5",
+        "Forma, todas as provas (SportsGambler): Villarreal 5-0 Manacor (Taça 27/10), 2-1 em Valência, 3-4 em Liverpool (Champions), 0-0 Elche, 3-1 Napoli (Champions); Espanyol 3-4 em Sestao após prolongamento (Taça 27/10), 1-2 no Racing, 0-1 Atlético, 1-1 em Málaga, 1-3 Elche",
+        "Ausências em duas fontes (API /injuries 30/10 e SportsGambler): Espanyol sem Kike García (posterior da coxa); Villarreal sem Pape Gueye (vermelho) e Akhomach. Só numa fonte: Pépé e Carlos Romero (SportsGambler), Saliba (API), Jofre (API), Pol Lozano por amarelos (SportsGambler)",
+        "Modelos: Dimers ambas marcam 57,7% (justo ~1.73); FootyStats 78%; footballpredictions.com prevê 2-1",
+        "Preço: Bet365 1.67; Pinnacle não abre ambas marcam",
+        "Em falta: confirmação do treinador do Villarreal (Iñigo Pérez segundo a SportsGambler, não confirmado em jornal espanhol) — context_depth partial"
+      ],
+      "sources": [
+        "API-Football /predictions?fixture=1570442 (30/10/2026)",
+        "API-Football /injuries?fixture=1570442 (30/10/2026) — fonte 1 de ausências",
+        "SportsGambler villarreal-vs-espanyol-prediction-lineups-odds-2026-10-30 — fonte 2 de ausências, forma",
+        "FootyStats villarreal-cf-vs-reial-club-deportiu-espanyol-h2h-stats",
+        "Dimers villareal-vs-espanyol-prediction-10-30-2026",
+        "API-Football /odds?fixture=1570442 (Bet365, Pinnacle)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1558670,
+          "match": "Zulte Waregem vs Club Brugge KV",
+          "league": "Jupiler Pro League",
+          "pick": "Club Brugge vence",
+          "odds": 1.44,
+          "kickoff": "2026-10-30T19:45:00Z",
+          "score": 65,
+          "tese": "O Brugge ganhou os últimos cinco jogos, dois deles na Champions, e ganhou quatro dos últimos cinco oficiais contra o Zulte. O Zulte perdeu os últimos quatro sem marcar um golo.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): Brugge 4-3 (Pro League 01/2026), 1-0 fora (Pro League 08/2025), 4-0 (Taça 12/2023), 2-1 fora (Pro League 01/2023), 1-1 (Pro League 08/2022) — 4/5 vitórias; amigável de 07/2023 excluído",
+            "Forma Brugge, todas as provas (SportsGambler): 3-2 Sint-Truiden, 3-0 Lens (Champions), 4-3 em Milão com o Inter (Champions), 4-1 em La Louvière, 3-0 Genk — 5/5",
+            "Zulte, Pro League (SportsGambler, últimos 5): 0-3 em La Louvière, 0-2 Gent, 0-3 em Anderlecht, 0-1 Charleroi, 2-0 em Kortrijk",
+            "Brugge fora, Pro League 2026/27 (API, n=4): 3 vitórias, 2,3 marcados e 0,8 sofridos",
+            "Red flag avaliado: Brugge sem Gustaf Nilsson e Ordóñez (só SportsGambler; API /injuries vazio)",
+            "Preço: Bet365 1.44, Pinnacle 1.45"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1603071,
+          "match": "Abha vs Al-Ittihad FC",
+          "league": "Saudi Pro League",
+          "pick": "Al-Ittihad vence",
+          "odds": 1.5,
+          "kickoff": "2026-10-30T12:30:00Z",
+          "score": 65,
+          "tese": "O Abha subiu e ainda não ganhou na liga: dois pontos em nove jornadas e meio golo por jogo em casa. O Ittihad ganhou quatro dos últimos cinco na liga e quatro dos últimos cinco oficiais contra o Abha.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions, Pro League): Abha 3-1 Ittihad (05/2024), Ittihad 4-2 (11/2023), Ittihad 4-0 (05/2023), Abha 1-2 Ittihad (12/2022), Abha 0-4 Ittihad (02/2022) — 4/5 vitórias; o Abha esteve fora da primeira divisão entre 2024 e 2026",
+            "Forma Ittihad, Pro League 2026/27 (API, últimos 5 da liga): W W L W W — 4/5; fora 3 vitórias em 5, 2,0 marcados e 1,0 sofridos",
+            "Abha, Pro League 2026/27 (API): LLDLLLDLLL, em casa 0 vitórias em 4, 0,5 marcados e 1,3 sofridos; Soccerway: 18.º com 2 pontos",
+            "Red flag avaliado: API /injuries vazio para os dois lados; sem página da SportsGambler para a liga saudita",
+            "Preço: Bet365 1.50, Pinnacle 1.50"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1563233,
+          "match": "Sheffield Utd vs Wrexham",
+          "league": "Championship",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.28,
+          "kickoff": "2026-10-30T20:00:00Z",
+          "score": 65,
+          "tese": "Os últimos cinco encontros entre os dois tiveram todos três ou mais golos. Os jogos do Sheffield em casa dão 3,3 golos de média nos últimos dez, e o Wrexham teve dois ou mais golos nos últimos cinco jogos.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 1-2 (Championship 03/2026), 5-3 (Championship 12/2025), 4-2 (Taça da Liga 08/2024), 3-1 (Taça de Inglaterra 02/2023), 3-3 (Taça de Inglaterra 01/2023) — 5/5 com 2+ golos",
+            "Forma Sheffield, Championship (SportsGambler): 1-1 Derby, 1-0 em Bristol, 2-3 em Portsmouth, 3-0 Lincoln, 1-2 em Stoke — 4/5 com 2+ golos",
+            "Forma Wrexham, Championship (SportsGambler): 0-2 em Blackburn, 4-1 Preston, 1-2 West Brom, 1-1 em Derby, 2-1 Southampton — 5/5 com 2+ golos",
+            "SportsGambler, últimos 10 da liga: Sheffield em casa 3,30 golos por jogo (mais de 2.5 em 7); Wrexham fora 2,60",
+            "Red flag avaliado: Sheffield sem Seriki (lateral); Wrexham sem baixas na SportsGambler",
+            "Preço: Bet365 1.28, Pinnacle 1.29"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.92,
+      "score": 70,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1570442,
+          "match": "Villarreal vs Espanyol",
+          "league": "La Liga",
+          "pick": "Villarreal marca mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-10-30T20:00:00Z",
+          "score": 72,
+          "tese": "O Villarreal ganhou os últimos sete jogos ao Espanyol e marcou dois ou mais em quatro dos últimos cinco. Cria 2,13 de xG em casa e o Espanyol concede 1,88 fora; chega sem o Kike García e com 120 minutos de Taça nas pernas.",
+          "factors": [
+            "H2H oficial, últimos 5 La Liga (API /predictions): 4-1, 2-0 fora, 1-0, 2-1 fora, 4-2 — Villarreal marca 2+ em 4/5; ganhou os 7 últimos (API e SportsGambler)",
+            "Forma Villarreal, todas as provas (SportsGambler): 5-0 Manacor (Taça 27/10), 2-1 em Valência, 3-4 em Liverpool (Champions), 0-0 Elche, 3-1 Napoli (Champions) — marca 2+ em 4/5",
+            "FootyStats, La Liga 2026/27: Villarreal em casa xG 2,13 mas só 1,5 golos por jogo (n=4); Espanyol fora xGA 1,88 (n=5). SportsGambler, últimos 10 em casa: 2,50 marcados",
+            "Ausências em duas fontes (API /injuries 30/10 e SportsGambler): Villarreal sem Pape Gueye (vermelho) e Akhomach; Espanyol sem Kike García. Só numa fonte: Pépé e Romero (SportsGambler), Saliba e Jofre (API). Gerard Moreno e Ayoze no onze provável",
+            "Preço: Marathonbet 1.40, Pinnacle 1.39 — a Marathonbet paga acima da casa de referência"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1552801,
+          "match": "Le Havre vs Paris Saint Germain",
+          "league": "Ligue 1",
+          "pick": "PSG marca no máximo 3 golos (menos de 3.5 golos do PSG)",
+          "odds": 1.37,
+          "kickoff": "2026-10-30T18:00:00Z",
+          "score": 70,
+          "tese": "Sem Dembélé, Kvaratskhelia, Marquinhos e Nuno Mendes, o PSG ganha mas não esmaga na Ligue 1: 2, 3 e 3 golos nos três últimos jogos da liga. O Le Havre fecha-se com cinco atrás e sofre 1,4 em casa nos últimos dez. Os quatro golos recentes foram na Champions, contra Barcelona e City.",
+          "factors": [
+            "H2H oficial, últimos 5 Ligue 1 (API): 1-0 em Le Havre (02/2026), 3-0 (11/2025), 2-1 (04/2025), 4-1 em Le Havre (08/2024), 3-3 (04/2024) — PSG marca no máximo 3 em 4/5",
+            "Forma PSG, todas as provas (SportsGambler): 2-0 Lyon, 4-2 Barcelona (Champions), 3-1 em Estrasburgo, 4-2 em Manchester com o City (Champions), 3-1 Le Mans — no máximo 3 em 3/5; 3/3 na Ligue 1",
+            "PSG fora, Ligue 1 2026/27 (API, n=5): 2,0 marcados por jogo; Le Havre em casa (API, n=4): 1,5 sofridos; SportsGambler, últimos 10 em casa: 1,40 sofridos, 5-3-2 provável",
+            "Ausências em duas fontes concordantes (API /injuries 30/10 e SportsGambler): PSG sem Dembélé, Kvaratskhelia, Marquinhos, Nuno Mendes e Longoni; Le Havre sem Pembélé e Mpasi",
+            "Preço: Marathonbet 1.37, Pinnacle 1.35 — acima da casa de referência"
+          ]
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Villarreal vence (1.42) e Brugge vence (1.44) ficam nos 70 e o Brugge paga abaixo da Pinnacle; Al-Ittihad vence (1.50) não tem segunda fonte de ausências; PSG vence e menos de 5.5 (1.49) paga abaixo do justo (~1.58); Galatasaray vence (1.53) com ausências discordantes entre fontes."
+  }
+}
