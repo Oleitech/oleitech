@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-30",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1558670,
+            "match": "Zulte Waregem vs Club Brugge KV",
+            "league": "Jupiler Pro League",
+            "pick": "Club Brugge vence",
+            "odds": 1.44,
+            "kickoff": "2026-10-30T19:45:00Z",
+            "score": 65,
+            "result": "GREEN",
+            "final_score": "2-4"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1603071,
+            "match": "Abha vs Al-Ittihad FC",
+            "league": "Saudi Pro League",
+            "pick": "Al-Ittihad vence",
+            "odds": 1.5,
+            "kickoff": "2026-10-30T12:30:00Z",
+            "score": 65,
+            "result": "RED",
+            "final_score": "1-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1563233,
+            "match": "Sheffield Utd vs Wrexham",
+            "league": "Championship",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-10-30T20:00:00Z",
+            "score": 65,
+            "result": "RED",
+            "final_score": "1-0"
+          }
+        ],
+        "combined_odds": 2.76,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Brugge ganhou 4-2 em Waregem, mas o Ittihad empatou 1-1 em Abha e o Sheffield só fez um golo (1-0 ao Wrexham). Curto caiu em duas pernas."
+      },
+      {
+        "label": "corvo",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1570442,
+            "match": "Villarreal vs Espanyol",
+            "league": "La Liga",
+            "pick": "Villarreal marca mais de 1.5 golos",
+            "odds": 1.4,
+            "kickoff": "2026-10-30T20:00:00Z",
+            "score": 72,
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1552801,
+            "match": "Le Havre vs Paris Saint Germain",
+            "league": "Ligue 1",
+            "pick": "PSG marca no máximo 3 golos (menos de 3.5 golos do PSG)",
+            "odds": 1.37,
+            "kickoff": "2026-10-30T18:00:00Z",
+            "score": 70,
+            "result": "RED",
+            "final_score": "1-5"
+          }
+        ],
+        "combined_odds": 1.92,
+        "score": 70,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "As duas pernas falharam: o Villarreal perdeu 0-1 em casa com o Espanyol sem marcar, e o PSG fez 5 em Le Havre."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Villarreal vence (1.42) e Brugge vence (1.44) ficam nos 70 e o Brugge paga abaixo da Pinnacle; Al-Ittihad vence (1.50) não tem segunda fonte de ausências; PSG vence e menos de 5.5 (1.49) paga abaixo do justo (~1.58); Galatasaray vence (1.53) com ausências discordantes entre fontes."
+    },
+    "sombra": [
+      {
+        "market": "btts",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1570442,
+        "match": "Villarreal vs Espanyol",
+        "league": "La Liga",
+        "odds": 1.67,
+        "score": 68,
+        "stake": 0,
+        "shadow": true,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "0-1",
+        "note": "Villarreal 0-1 Espanyol: o Villarreal não marcou, ambas marcam não saiu."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "pnl_se_apostadas": -1
+    },
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1,
+      "combined_stake": 1,
+      "combined_return": 0,
+      "combined_pnl": -1,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1603078,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Al Shabab vence a 2ª parte",
+        "match": "Al Shabab vs Al-Ahli Jeddah",
+        "league": "Saudi Pro League",
+        "elapsed": 45,
+        "score": "3-1",
+        "homeGoalsAtAlert": 3,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.909,
+        "oddMinima": 1.8,
+        "precoAoVivo": true,
+        "tipo": "resultado",
+        "aoIntervalo": { "cantos": [1, 1], "amarelos": [1, 0], "vermelhos": [0, 1] },
+        "stake": 0.5,
+        "contraFavorito": true,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Al-Ahli joga com 10 desde os 22' e o Al Shabab mandou na 1ª parte: 5 remates à baliza contra 2 e 2.2 golos esperados contra 0.7. Com um a mais durante 45 minutos, o mais certo é ganhar também a 2ª parte.",
+        "sentAt": 1793386667266,
+        "result": "GREEN",
+        "finalHome": 6,
+        "finalAway": 1,
+        "pnl": 0.4545,
+        "return": 0.9545,
+        "resolvedAt": 1793391380500
+      },
+      {
+        "fixtureId": 1575211,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 17.5 cantos no jogo",
+        "match": "SV Elversberg vs FSV Mainz 05",
+        "league": "Bundesliga",
+        "elapsed": 45,
+        "score": "3-0",
+        "homeGoalsAtAlert": 3,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.833,
+        "oddMinima": 1.7,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": { "cantos": [3, 9], "amarelos": [0, 2], "vermelhos": [0, 0] },
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Já vão 12 cantos ao intervalo e o Mainz fez 9 deles. A perder por 3-0, vai passar a 2ª parte encostado à área do Elversberg, e bastam 6 cantos para a aposta entrar.",
+        "sentAt": 1793391579148,
+        "result": "RED",
+        "finalHome": 4,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1793396777493
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": { "⏸️ INTERVALO": { "total": 2, "green": 1, "red": 1 } },
+      "stake_total": 1,
+      "stake_mensuravel": 1,
+      "return_mensuravel": 0.9545,
+      "pnl_mensuravel": -0.0455,
+      "roi_pct_mensuravel": -4.55,
+      "odds_registadas": 2,
+      "nota_mensuravel": "Dois alertas de intervalo a meia stake, já em stakes."
+    }
+  },
+  "balance": 27.53,
+  "notes": "Curto 2.76 e corvo 1.92 vermelhos (-1,00 stakes). Curto: Brugge 4-2 verde, mas Ittihad empatou 1-1 em Abha e o Sheffield ganhou 1-0 ao Wrexham. Corvo: Villarreal 0-1 Espanyol e PSG 5 golos em Le Havre. Sombra: ambas marcam do Villarreal-Espanyol RED. Intervalo: Al Shabab 2ª parte GREEN (+0,45), cantos Elversberg-Mainz RED (-0,50), -0,05 stakes. Dia -1,05 stakes, banca 27,53 stakes."
+}

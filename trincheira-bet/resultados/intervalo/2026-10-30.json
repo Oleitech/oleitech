@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-30",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1603078,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Al Shabab vence a 2ª parte",
+      "match": "Al Shabab vs Al-Ahli Jeddah",
+      "league": "Saudi Pro League",
+      "elapsed": 45,
+      "score": "3-1",
+      "homeGoalsAtAlert": 3,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.909,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          1
+        ]
+      },
+      "stake": 0.5,
+      "contraFavorito": true,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Al-Ahli joga com 10 desde os 22' e o Al Shabab mandou na 1ª parte: 5 remates à baliza contra 2 e 2.2 golos esperados contra 0.7. Com um a mais durante 45 minutos, o mais certo é ganhar também a 2ª parte.",
+      "sentAt": 1793386667266,
+      "result": "GREEN",
+      "finalHome": 6,
+      "finalAway": 1,
+      "pnl": 0.4545,
+      "return": 0.9545,
+      "resolvedAt": 1793391380500
+    },
+    {
+      "fixtureId": 1575211,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 17.5 cantos no jogo",
+      "match": "SV Elversberg vs FSV Mainz 05",
+      "league": "Bundesliga",
+      "elapsed": 45,
+      "score": "3-0",
+      "homeGoalsAtAlert": 3,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.7,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          9
+        ],
+        "amarelos": [
+          0,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Já vão 12 cantos ao intervalo e o Mainz fez 9 deles. A perder por 3-0, vai passar a 2ª parte encostado à área do Elversberg, e bastam 6 cantos para a aposta entrar.",
+      "sentAt": 1793391579148,
+      "result": "RED",
+      "finalHome": 4,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1793396777493
+    }
+  ]
+}
