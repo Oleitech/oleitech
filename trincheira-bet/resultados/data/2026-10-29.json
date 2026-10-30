@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-29",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1492430,
+        "match": "Atletico-MG vs Cruzeiro",
+        "home": { "name": "Atletico-MG" },
+        "away": { "name": "Cruzeiro" },
+        "league": "Brasileirão Série A",
+        "kickoff": "2026-10-29T22:30:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "score": 76,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "result": "RED",
+        "hit": false,
+        "final_score": "0-1",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Atlético-MG 0-1 Cruzeiro: o Atlético ficou em branco, ambas marcam falhou."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "selections": [
+          { "sport": "football", "bookmaker": "Bet365", "fixtureId": 1589435, "match": "Benfica vs GIL Vicente", "league": "Taça da Liga", "pick": "Benfica vence", "odds": 1.28, "kickoff": "2026-10-29T20:45:00Z", "score": 65, "result": "GREEN", "final_score": "4-1" },
+          { "sport": "football", "bookmaker": "Bet365", "fixtureId": 1550169, "match": "Fiorentina vs Atalanta", "league": "Serie A", "pick": "Ambas marcam: Sim", "odds": 1.5, "kickoff": "2026-10-29T19:45:00Z", "score": 65, "result": "GREEN", "final_score": "2-2" },
+          { "sport": "football", "bookmaker": "Bet365", "fixtureId": 1638652, "match": "Austria Lustenau vs Sturm Graz", "league": "Taça da Áustria", "pick": "Sturm Graz vence", "odds": 1.45, "kickoff": "2026-10-29T17:00:00Z", "score": 65, "result": "RED", "final_score": "3-2" }
+        ],
+        "combined_odds": 2.78,
+        "score": 65,
+        "stake": 0.5,
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Benfica 4-1 Gil Vicente e Fiorentina 2-2 Atalanta verdes, mas o Lustenau ganhou 3-2 ao Sturm Graz e o curto caiu."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Al-Nassr vence e menos de 5.5 (1.42) fica em 74; Benfica vence e mais de 1.5 (1.42) em 72 e abaixo do justo da Pinnacle; ambas marcam no Fiorentina-Atalanta (1.50) com o ataque da Fiorentina por confirmar; a tip do Atlético-Cruzeiro (1.62) está fora da banda."
+    },
+    "sombra": [],
+    "sombra_summary": { "total": 0, "green": 0, "red": 0, "pnl_se_apostadas": 0 },
+    "summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "hit_rate": 0,
+      "total_stake": 0.5,
+      "total_return": 0,
+      "pnl": -0.5,
+      "roi_pct": -100,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 1,
+      "combined_return": 0,
+      "combined_pnl": -1,
+      "combined_roi_pct": -100
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0, "green": 0, "red": 0, "push": 0, "pending": 0, "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0, "stake_mensuravel": 0, "return_mensuravel": 0, "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0, "odds_registadas": 0
+    }
+  },
+  "balance": 28.58,
+  "notes": "Tip e curto vermelhos. Atlético-MG 0-1 Cruzeiro (ambas marcam, RED) e curto 2.78 caiu no Sturm Graz (perdeu 3-2 em Lustenau), -1,00 stakes. Sem alertas de intervalo. Banca 28,58 stakes."
+}
