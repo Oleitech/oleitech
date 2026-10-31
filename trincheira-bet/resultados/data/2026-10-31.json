@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-31",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.77,
+        "score": 65,
+        "stake": 0.5,
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1593347,
+            "match": "Kifisia vs Olympiakos Piraeus",
+            "league": "Super League 1 (Grécia)",
+            "pick": "Olympiakos vence",
+            "odds": 1.48,
+            "kickoff": "2026-10-31T17:00:00Z",
+            "score": 65,
+            "result": "GREEN",
+            "final_score": "2-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1575203,
+            "match": "Bayern München vs Borussia Dortmund",
+            "league": "Bundesliga",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.44,
+            "kickoff": "2026-10-31T17:30:00Z",
+            "score": 65,
+            "result": "GREEN",
+            "final_score": "2-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1570435,
+            "match": "Real Betis vs Malaga",
+            "league": "La Liga",
+            "pick": "Real Betis vence",
+            "odds": 1.3,
+            "kickoff": "2026-10-31T17:30:00Z",
+            "score": 65,
+            "result": "GREEN",
+            "final_score": "2-1"
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "effective_odds": 2.77,
+        "return": 1.385,
+        "pnl": 0.885,
+        "note": "Olympiakos ganhou 3-2 em Kifisia, Bayern-Dortmund acabou 2-2 com golos dos dois lados e o Betis bateu o Málaga 2-1. Curto completo a 2.77."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.385,
+      "accumulators_pnl": 0.885,
+      "combined_stake": 0.5,
+      "combined_return": 1.385,
+      "combined_pnl": 0.885,
+      "combined_roi_pct": 177
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Olympiakos vence (1.48) e ambas marcam Bayern-Dortmund (1.44) ficam pela curadoria do curto, sem segunda fonte de ausências; Barcelona marca 3+ (1.40) tem números a favor mas perdeu os dois últimos e tem Champions a meio da semana; Atlético marca 2+ (1.47) com forma 2/5; Fenerbahçe-Göztepe ambas marcam (1.67) sem valor contra o mercado."
+    },
+    "sombra": [],
+    "sombra_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pnl_se_apostadas": 0
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": { "total": 0, "green": 0, "red": 0, "pending": 0, "hit_rate": 0, "by_strategy": {} }
+  },
+  "balance": 28.42,
+  "notes": "Sem tip simples. O curto a meia stake, a 2.77, entrou inteiro: Olympiakos 3-2 em Kifisia, Bayern-Dortmund 2-2 e Betis 2-1 ao Málaga. Sem corvo, sem duplo, sem alertas de intervalo. P&L +0,89 stakes, banca 28,42 stakes."
+}
