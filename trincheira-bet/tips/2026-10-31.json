@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T07:13:36.096Z",
+  "units": "stakes",
+  "notes": "Sábado cheio: Bayern-Dortmund, o dérbi de Milão, Chelsea-United, City-Brighton três dias depois de se terem defrontado na Taça da Liga, e o Barcelona a receber o Alavés à noite.\n\nHoje não sai tip simples. Os favoritos pagam abaixo de 1.55 e, acima disso, os preços estão em linha com a Pinnacle: o ambas marcam no Fenerbahçe-Göztepe a 1.67 e o mais de 2.5 no Chelsea-United a 1.62 pagam o que os números lhes dão, não mais. Não se força boletim.\n\nHá curto a meia stake, a 2.77: Olympiakos a ganhar em Kifisia, ambas marcam no Bayern-Dortmund e o Betis a ganhar ao Málaga. O Olympiakos ganhou os últimos cinco jogos e sofre pouquíssimo; os cinco últimos Bayern-Dortmund tiveram golos dos dois lados, e o Bayern joga sem o Neuer. O Málaga não ganhou nenhum dos últimos cinco jogos da liga e o Betis ganhou quatro dos últimos cinco encontros oficiais, mas tem Champions a meio da semana. A perna do Olympiakos é a mais frágil: joga fora e é a odd mais alta.\n\nSem corvo hoje: a única perna com preço e números a favor era o Barcelona a marcar três, e não apareceu segunda perna que pagasse o justo.\n\nSem duplo: nenhuma perna entre 1.40 e 1.60 chegou à nota que o teste pede.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.77,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1593347,
+          "match": "Kifisia vs Olympiakos Piraeus",
+          "league": "Super League 1 (Grécia)",
+          "pick": "Olympiakos vence",
+          "odds": 1.48,
+          "kickoff": "2026-10-31T17:00:00Z",
+          "score": 65,
+          "tese": "O Olympiakos ganhou os últimos cinco jogos, quatro deles sem sofrer, e sofre 0,3 golos por jogo na liga. O Kifisia marca perto de um golo por jogo em casa. Nos quatro encontros oficiais entre os dois, o Olympiakos ganhou três.",
+          "factors": [
+            "H2H oficial, todos os encontros (API /predictions, Super League): 1-1 (12/2025, em casa do Olympiakos), 3-1 fora (11/2025), 3-2 fora (01/2024), 4-0 (09/2023) — 3 vitórias em 4; só existem 4 encontros",
+            "Forma Olympiakos, todas as provas (SportsGambler): 5-0 Kalamata, 1-0 Sparta Praga (Liga Europa), 2-0 em Panetolikos, 1-0 em Marselha (Liga Europa), 1-0 Panathinaikos — 5/5",
+            "Olympiakos, Super League 2026/27 (API /predictions): 0,3 sofridos por jogo, 6 jogos sem sofrer; últimos 10 fora na liga (SportsGambler): 6V-3E-1D, 1,40 marcados e 0,60 sofridos",
+            "Kifisia em casa, últimos 9-10 da liga (SportsGambler, a página dá dois números): 2V-4E-3D ou 3V-4E-3D, 0,89 a 1,00 marcados por jogo",
+            "Red flag avaliado: SportsGambler sem baixas listadas para os dois lados; API /injuries não consultado (a Fase B não exige onze)",
+            "Preço: Bet365 1.48, Pinnacle 1.45, Marathonbet 1.41"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575203,
+          "match": "Bayern München vs Borussia Dortmund",
+          "league": "Bundesliga",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-10-31T17:30:00Z",
+          "score": 65,
+          "tese": "Os últimos cinco Bayern-Dortmund oficiais tiveram golos dos dois lados. O Bayern sofreu em todos os últimos cinco jogos e joga sem o Neuer; o Dortmund marcou em três dos últimos cinco, e o Bayern marca 4,6 por jogo em casa.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 1-2 (Supertaça 08/2026), 2-3 (Bundesliga 02/2026), 2-1 (10/2025), 2-2 (04/2025), 1-1 (11/2024) — ambas marcaram 5/5",
+            "Forma Bayern, todas as provas (SportsGambler): 6-1 Magdeburg (Taça), 3-1 em Freiburg, 2-2 Arsenal (Champions), 6-1 Leipzig, 3-3 em Viking (Champions) — ambas marcaram 5/5",
+            "Forma Dortmund, todas as provas (SportsGambler): 3-2 Werder (Taça), 1-0 Frankfurt, 2-1 em Sabah (Champions), 0-0 em Union, 0-1 em Bodø (Champions) — ambas marcaram 2/5, Dortmund marcou em 3/5",
+            "Bayern em casa, últimos 10 da Bundesliga (SportsGambler): 4,60 marcados e 1,20 sofridos; Dortmund fora, últimos 10 da Bundesliga: 1,50 marcados",
+            "Red flag avaliado: Bayern sem Neuer, Musiala e Luis Díaz; Dortmund sem Emre Can (SportsGambler, uma fonte — a Fase B não exige segunda)",
+            "Preço: Bet365 1.44, Marathonbet 1.48; Pinnacle sem o mercado"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570435,
+          "match": "Real Betis vs Malaga",
+          "league": "La Liga",
+          "pick": "Real Betis vence",
+          "odds": 1.3,
+          "kickoff": "2026-10-31T17:30:00Z",
+          "score": 65,
+          "tese": "O Betis ganhou três dos últimos cinco jogos e recebe um Málaga que não ganhou nenhum dos últimos cinco da liga e sofre 1,9 por jogo. Nos últimos cinco encontros oficiais, o Betis ganhou quatro.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions, todos La Liga 2016-2018 — o Málaga esteve fora da 1ª divisão desde então; o 3-1 do Málaga em 08/2025 foi amigável e fica de fora): 2-1, 2-0 fora, 2-1 fora, 1-0, 0-1 — Betis ganhou 4/5",
+            "Forma Betis, todas as provas (SportsGambler): 0-0 em Vigo, 1-0 Feyenoord (Champions), 2-5 Barcelona, 3-2 Porto (Champions), 5-2 Osasuna — 3/5 vitórias",
+            "Forma Málaga, La Liga 2026/27 (API /predictions, n=8): LDDLLDLD, 0,7 marcados e 1,9 sofridos por jogo, 0,4 marcados fora; SportsGambler: 0 vitórias em 5 jogos fora (a página contradiz-se no registo dos últimos 10)",
+            "Betis em casa, últimos 10 da liga (SportsGambler): 6V-3E-1D (ou 7V-2E-1D, a página dá os dois), 1,80 marcados e 1,10 sofridos",
+            "Red flag avaliado: Betis sem Bernal (vermelho), Juan Hernández e Firpo, Antony em dúvida (SportsGambler); Champions a meio da semana pode trazer rotação. Málaga sem Pablo Martínez, Joaquín Muñoz e Lobete",
+            "Preço: Bet365 1.30, Pinnacle 1.32 (justo ~1.37), Marathonbet 1.32; implícita 77%, favorito claro"
+          ]
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Olympiakos vence (1.48) e ambas marcam Bayern-Dortmund (1.44) ficam pela curadoria do curto, sem segunda fonte de ausências; Barcelona marca 3+ (1.40) tem números a favor mas perdeu os dois últimos e tem Champions a meio da semana; Atlético marca 2+ (1.47) com forma 2/5; Fenerbahçe-Göztepe ambas marcam (1.67) sem valor contra o mercado."
+  }
+}
