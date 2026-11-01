@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T07:20:01.147Z",
+  "units": "stakes",
+  "notes": "Domingo de cartaz grande: Liverpool-Arsenal, Juventus-Nápoles, o Real Madrid em Santander e o dérbi basco à noite. Muito jogo, pouco preço.\n\nHoje não sai tip simples. Nos jogos grandes as odds acima de 1.55 pagam o que os números lhes dão e nada mais: o Arsenal sem empate a 1.73, a Juventus sem empate a 1.62 ou o ambas marcam em Anfield a 1.67 estão todos abaixo do justo. O ambas marcam no Braga-Famalicão tem números, mas paga 2.05 e acima de 1.90 não se joga. Não se força boletim.\n\nSaem dois curtos a meia stake. O primeiro, a 2.60: Lazio a ganhar ao Cagliari, ambas marcam no Young Boys-Zurique e o Trabzonspor a ganhar ao Gaziantep — três equipas em grande forma contra adversários que andam a levar golos. O segundo, a 2.65: ambas marcam no Marselha-Toulouse, PAOK a ganhar ao Asteras e mais de 1.5 no Braga-Famalicão, que deu 2-2 na quinta. A perna mais frágil é a do PAOK, que perdeu dois dos últimos quatro jogos.\n\nHá corvo a meia stake, a 2.14 na Marathonbet: o Real Madrid a marcar três em Santander e o Elfsborg a marcar dois ao Örgryte. O Real vai sem Vinícius e Valverde, mas o Racing ainda não fechou a baliza em casa.\n\nSem duplo: nenhuma perna entre 1.40 e 1.60 chegou à nota que o teste pede.\n\nExposição do dia: uma stake e meia.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550183,
+          "match": "Lazio vs Cagliari",
+          "league": "Serie A",
+          "pick": "Lazio vence",
+          "odds": 1.42,
+          "tese": "A Lazio ganhou os últimos cinco jogos da liga, com 16 golos marcados, e ganhou quatro dos últimos cinco ao Cagliari. O Cagliari fez um ponto nos últimos quatro jogos e sofreu onze golos nos últimos cinco.",
+          "factors": [
+            "H2H oficial, últimos 5 Serie A (API /predictions): 0-0 em Cagliari (02/2026), 2-0 (11/2025), 2-1 em Cagliari (02/2025), 2-1 (11/2024), 3-1 em Cagliari (02/2024) — Lazio ganhou 4/5",
+            "Forma Lazio, Serie A (SportsGambler): 6-2 em Sassuolo, 2-1 Parma, 3-0 em Juventus, 3-1 Monza, 2-0 em Venezia — 5/5",
+            "Forma Cagliari, Serie A (SportsGambler): 2-4 em Roma, 0-2 Bologna, 0-4 em Monza, 1-1 Juventus, 1-0 em Udinese — 1 vitória em 5, 11 sofridos",
+            "Serie A 2026/27 (API /predictions): Lazio em casa 2,0 marcados e 1,0 sofridos (n=4); Cagliari fora 1,2 marcados e 1,8 sofridos (n=5). SportsGambler, últimos 10: Lazio em casa 6-3-1, Cagliari fora 4-1-5",
+            "Red flag avaliado: Lazio sem Rovella (castigo/gémeo), Marusic (isquiotibiais) e o GR suplente Furlanetto; Cagliari sem Felici, Idrissi e Gagliardini (SportsGambler, uma fonte — a Fase B não exige segunda)",
+            "Preço: Bet365 1.42, Pinnacle 1.45, Marathonbet 1.44"
+          ],
+          "kickoff": "2026-11-01T14:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1555418,
+          "match": "BSC Young Boys vs FC Zurich",
+          "league": "Super League (Suíça)",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "tese": "O Zurique teve golos dos dois lados nos últimos cinco jogos e não tem uma única baliza a zero na época. O Young Boys marcou nos últimos cinco e sofre dois por jogo em casa. Três dos últimos cinco encontros oficiais tiveram golos dos dois lados.",
+          "factors": [
+            "H2H oficial, últimos 5 Super League (API /predictions): 2-4 em Zurique (09/2026), 3-0 (03/2026), 3-0 (02/2026), 2-3 em Zurique (10/2025), 2-1 (04/2025) — ambas marcaram 3/5",
+            "Forma Young Boys, Super League (SportsGambler): 2-0 St. Gallen, 2-0 em Grasshoppers, 3-2 Servette, 2-2 em Lugano, 3-3 Luzern — marcou 5/5, ambas marcaram 3/5",
+            "Forma Zurique, Super League (SportsGambler): 2-1 Luzern, 4-2 Thun, 1-1 em Sion, 2-1 Vaduz, 2-2 em Grasshoppers — ambas marcaram 5/5",
+            "Super League 2026/27 (API /predictions): Young Boys em casa 3,2 marcados e 2,0 sofridos (n=6); Zurique com 0 balizas a zero em 11 jogos e 1 jogo em branco. SportsGambler, últimos 10 fora: Zurique 1,10 marcados e 2,20 sofridos",
+            "Red flag avaliado: Young Boys sem Colley (amarelos) e Andrews (ligamento cruzado); Zurique sem baixas (SportsGambler, uma fonte)",
+            "Preço: Bet365 1.44, Marathonbet 1.43; Pinnacle sem o mercado"
+          ],
+          "kickoff": "2026-11-01T13:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1584456,
+          "match": "Trabzonspor vs Gaziantep FK",
+          "league": "Süper Lig",
+          "pick": "Trabzonspor vence",
+          "odds": 1.27,
+          "tese": "O Trabzonspor ganhou os últimos cinco jogos em todas as provas e sofre 0,3 por jogo em casa. O Gaziantep não ganha há cinco jogos e marcou dois golos nesse tempo. O Trabzonspor ganhou três dos últimos cinco encontros e não perdeu nenhum.",
+          "factors": [
+            "H2H oficial, últimos 5 Süper Lig (API /predictions): 2-1 em Gaziantep (02/2026), 1-1 (09/2025), 3-2 (02/2025), 0-0 em Gaziantep (09/2024), 4-2 (04/2024) — Trabzonspor ganhou 3/5, sem derrotas",
+            "Forma Trabzonspor, todas as provas (SportsGambler): 4-3 em Rizespor, 2-0 Hearts (Liga Conferência), 2-0 Beşiktaş, 4-2 em KuPS (Liga Conferência), 3-0 em Samsunspor — 5/5",
+            "Forma Gaziantep, Süper Lig (SportsGambler): 1-3 Erzurum, 1-2 em Başakşehir, 0-3 Çorum, 0-2 em Kocaelispor, 0-0 Fenerbahçe — 0 vitórias em 5",
+            "Süper Lig 2026/27 (API /predictions): Trabzonspor em casa 3,3 marcados e 0,3 sofridos (n=4); Gaziantep fora 1,5 sofridos (n=4). SportsGambler, últimos 10 em casa: Trabzonspor 7-2-1",
+            "Red flag avaliado: Trabzonspor sem Cham e Batista Mendy (amarelos) e Yokuşlu; Gaziantep sem baixas (SportsGambler, uma fonte)",
+            "Preço: Bet365 1.27, Pinnacle 1.26, Marathonbet 1.27"
+          ],
+          "kickoff": "2026-11-01T13:00:00Z",
+          "score": 65
+        }
+      ]
+    },
+    {
+      "label": "curto",
+      "combined_odds": 2.65,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1552805,
+          "match": "Marseille vs Toulouse",
+          "league": "Ligue 1",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.5,
+          "tese": "Quatro dos últimos cinco Marselha-Toulouse tiveram golos dos dois lados. O Marselha sofre dois por jogo em casa e só fechou a baliza uma vez no Vélodrome; o Toulouse marca 2,3 por jogo fora e ainda não ficou em branco fora de casa nesta liga.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 0-1 Marselha em Toulouse (Ligue 1, 03/2026), 2-2 (Taça, 03/2026), 2-2 (Ligue 1, 11/2025), 3-2 (04/2025), 1-3 Marselha em Toulouse (08/2024) — ambas marcaram 4/5",
+            "Forma Marselha, todas as provas (SportsGambler): 4-3 Le Havre, 0-1 em Sturm Graz (Liga Europa), 5-2 em Angers, 0-1 Olympiakos (Liga Europa), 2-0 em Troyes — marcou 3/5 e sofreu 4/5 (ambas marcaram 2/5)",
+            "Forma Toulouse, Ligue 1 (SportsGambler): 0-0 Troyes, 3-0 em Le Mans, 2-2 em Monaco, 3-2 Le Havre, 2-2 em Lorient — marcou 4/5, ambas marcaram 3/5",
+            "Ligue 1 2026/27 (API /predictions): Marselha em casa 2,8 marcados e 2,0 sofridos, 1 baliza a zero (n=4); Toulouse fora 2,3 marcados e 0 jogos em branco (n=4). SportsGambler, últimos 10: Marselha em casa 2,30/1,50, Toulouse fora 1,80/1,70",
+            "Red flag avaliado: Marselha sem Igor Paixão e Cornelius; Toulouse sem Dønnum (castigo) e Oppong (SportsGambler, uma fonte)",
+            "Preço: Bet365 1.50, Marathonbet 1.47; Pinnacle sem o mercado"
+          ],
+          "kickoff": "2026-11-01T19:45:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1593351,
+          "match": "PAOK vs Asteras Tripolis",
+          "league": "Super League 1 (Grécia)",
+          "pick": "PAOK vence",
+          "odds": 1.33,
+          "tese": "O PAOK ganhou quatro dos últimos cinco ao Asteras e marca 2,3 por jogo em casa. O Asteras ganhou um dos últimos cinco jogos e sofre mais de três por jogo fora. O PAOK perdeu dois dos últimos quatro, por isso é a perna menos folgada do bilhete.",
+          "factors": [
+            "H2H oficial, últimos 5 Super League (API /predictions): 2-0 (03/2026), 3-3 em Trípoli (09/2025), 2-0 (03/2025), 2-1 em Trípoli (11/2024), 4-1 em Trípoli (12/2023) — PAOK ganhou 4/5",
+            "Forma PAOK, Super League (SportsGambler): 1-2 em OFI, 2-1 Iraklis, 1-3 Kalamata, 3-1 em Panetolikos, 2-0 Aris — 3/5",
+            "Forma Asteras, Super League (SportsGambler): 0-0 Levadiakos, 1-5 em Panathinaikos, 2-1 Atromitos, 2-2 em OFI, 1-1 AEK — 1 vitória em 5",
+            "Super League 2026/27 (API /predictions): PAOK em casa 2,3 marcados e 1,0 sofridos (n=4); Asteras fora 3,3 sofridos (n=3). SportsGambler, últimos 10 fora: Asteras 0,90 marcados",
+            "Red flag avaliado: SportsGambler sem baixas listadas para os dois lados; API /injuries não consultado (a Fase B não exige onze)",
+            "Preço: Bet365 1.33, Pinnacle 1.32, Marathonbet 1.27"
+          ],
+          "kickoff": "2026-11-01T17:00:00Z",
+          "score": 65
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575530,
+          "match": "SC Braga vs Famalicao",
+          "league": "Liga Portugal",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "tese": "Os últimos cinco Braga-Famalicão tiveram todos dois golos ou mais, o último há três dias na Taça da Liga (2-2). O Famalicão teve dois ou mais golos nos seus últimos cinco jogos da liga e marca 2,2 por jogo fora; o Braga sofreu em quatro dos últimos cinco.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 2-2 (Taça da Liga, 29/10/2026), 2-2 (Liga, 04/2026), 1-2 Braga em Famalicão (12/2025), 1-1 em Famalicão (04/2025), 3-3 (12/2024) — mais de 1.5 em 5/5",
+            "Forma Braga, todas as provas (API e SportsGambler): 2-2 Famalicão (Taça da Liga), 0-1 em Nacional, 2-0 Gent (Liga Conferência), 1-2 Gil Vicente, 0-3 em Copenhaga (Liga Conferência) — mais de 1.5 em 4/5",
+            "Forma Famalicão, Liga (SportsGambler): 4-0 em Rio Ave, 1-4 Alverca, 4-0 em Nacional, 1-1 Sporting, 2-2 em Estrela — mais de 1.5 em 5/5 (e 2-2 em Braga na Taça da Liga)",
+            "Liga 2026/27 (API /predictions): Famalicão fora 2,2 marcados (n=5); SportsGambler, últimos 10 da Liga: Braga em casa 2,70 golos por jogo, mais de 2.5 em 6/10; Famalicão fora 2,70",
+            "Red flag avaliado: Braga com Taça da Liga a 29/10 e Liga Conferência a 22/10 — rotação provável, não mexe num mais de 1.5; Braga sem Carvalho (amarelos) e Niakaté; Famalicão sem Mamageishvili (SportsGambler, uma fonte)",
+            "Preço: Bet365 1.33, Pinnacle 1.36, Marathonbet 1.32"
+          ],
+          "kickoff": "2026-11-01T20:30:00Z",
+          "score": 65
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 2.14,
+      "score": 68,
+      "stake": 0.5,
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1570440,
+          "match": "Racing Santander vs Real Madrid",
+          "league": "La Liga",
+          "pick": "Real Madrid marca mais de 2.5 golos",
+          "odds": 1.55,
+          "score": 68,
+          "tese": "O Real Madrid marcou três ou mais em três dos últimos cinco jogos e o Racing, acabado de subir, sofre 1,6 por jogo em casa e ainda não fechou a baliza no Sardinero. Vai sem Vinícius e Valverde, e o preço já conta com isso: a Marathonbet paga mais que a Pinnacle.",
+          "factors": [
+            "H2H oficial, todos os encontros La Liga (API /predictions): 4-0 (02/2012), 0-0 em Santander (09/2011), 1-3 em Santander (03/2011), 6-1 (10/2010) — Real marca 3+ em 3/4; só 4 encontros, todos de 2010-12 (Racing acabado de subir)",
+            "Forma Real Madrid, todas as provas (SportsGambler): 2-1 em Barcelona, 4-1 Leipzig (Champions), 4-1 Sevilla, 4-3 em Roma (Champions), 1-0 Villarreal — 3+ em 3/5",
+            "La Liga 2026/27 (API /predictions): Real fora 1,6 marcados (n=5); Racing em casa 1,6 sofridos e 0 balizas a zero (n=5). SportsGambler, últimos 10 em casa (inclui a Segunda 2025/26): Racing 1,40 sofridos",
+            "Ausências em duas fontes concordantes (API /injuries 01/11 e SportsGambler): Real sem Vinícius (vermelho), Valverde (isquiotibiais) e Asencio; Racing sem Jorge Salinas (amarelos). Só numa fonte: Courtois, doença (SportsGambler); Mendy e Rodrygo (API); Aarón Martín (API, mas a SportsGambler põe-no no onze provável). Mbappé, Bellingham e Güler no onze provável (SportsGambler)",
+            "Preço: Marathonbet 1.55, Pinnacle 1.49 (justo sem margem ~1.58) — a Marathonbet paga acima da casa de referência"
+          ],
+          "kickoff": "2026-11-01T15:15:00Z"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1494322,
+          "match": "IF Elfsborg vs Orgryte IS",
+          "league": "Allsvenskan",
+          "pick": "Elfsborg marca mais de 1.5 golos",
+          "odds": 1.38,
+          "score": 70,
+          "tese": "O Elfsborg marcou dois ou mais em quatro dos últimos cinco jogos e nos três encontros oficiais com o Örgryte. O Örgryte é penúltimo, perdeu oito dos últimos dez fora e sofre 2,2 a 2,6 por jogo longe de casa.",
+          "factors": [
+            "H2H oficial, todos os encontros (API /predictions): 2-2 em Örgryte (Allsvenskan 05/2026), 3-1 (Svenska Cupen 02/2025), 2-3 em Örgryte (Svenska Cupen 02/2024) — Elfsborg marca 2+ em 3/3; só existem 3 encontros oficiais",
+            "Forma Elfsborg, Allsvenskan (SportsGambler): 2-2 em AIK, 0-0 Malmö, 2-2 em Sirius, 4-0 Halmstad, 2-1 em Djurgården — 2+ em 4/5",
+            "Allsvenskan 2026 (API /predictions): Elfsborg em casa 1,6 marcados (n=13); Örgryte fora 2,6 sofridos (n=13). SportsGambler, últimos 10 fora: Örgryte 1-1-8, 2,20 sofridos",
+            "Tabela (SportsGambler, 26 jornadas): Elfsborg 5.º com 43 pontos; Örgryte 15.º de 16 com 19 pontos e 58 golos sofridos",
+            "Ausências: Hägg Johansson (Elfsborg) e Abukar (Örgryte) nas duas fontes (API /injuries 01/11 e SportsGambler). Só na API: Elfström e Per Frick (Elfsborg, estado Inactive), Alm e W. Svensson (Örgryte) — não confirmadas em segunda fonte, risco registado; a tese assenta no padrão de equipa",
+            "Preço: Marathonbet 1.38, Pinnacle 1.38 (justo sem margem ~1.46) — igual à casa de referência"
+          ],
+          "kickoff": "2026-11-01T15:30:00Z"
+        }
+      ]
+    }
+  ],
+  "sombra": [],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. Lazio vence (1.42) tem números fortes mas uma só fonte de ausências e paga menos que a Pinnacle (1.45); Real Madrid marca 3+ (1.50 Bet365, 1.55 Marathonbet) vai sem Vinícius e Rodrygo e o H2H é de 2010-12; Salzburg marca 3+ (1.57) fez 3+ só em 2 dos últimos 5; ambas marcam no Marselha-Toulouse (1.50) com o Marselha a ter ambas marcam em 2 dos últimos 5; Celtic vence (1.45) ganhou 2 dos últimos 5."
+  }
+}
