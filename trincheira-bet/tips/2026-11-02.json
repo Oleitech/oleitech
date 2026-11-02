@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:16:12.605Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de fecho de jornada: Newcastle-Everton, Atalanta-Parma, o Benfica com o Alverca e mais uns quantos jogos espalhados pela Europa. Pouco cartaz e pouco preço.\n\nHoje não sai tip simples. Nenhum jogo acima de 1.55 junta números e valor: o ambas marcam em St James’ Park paga 1.57, mas o Everton ficou em branco em metade das saídas da liga; a dupla hipótese do Pogoń paga menos do que a Pinnacle lhe dá; e o ambas marcam na Corunha passa de 1.90. Não se força boletim.\n\nSai um curto a meia stake, a 2.82: o Dínamo de Kiev a ganhar em Kryvyi Rih, ambas marcam no Sassuolo-Fiorentina e mais de 1.5 golos no Corunha-Osasuna. O Dínamo ganhou os últimos cinco ao Kryvbas, o Sassuolo marcou e sofreu em todos os jogos em casa, e o Osasuna fora anda a ver quatro e cinco golos por jogo. A perna mais frágil é a da Fiorentina: as fontes não batem certo sobre quem joga no ataque.\n\nAtenção ao horário: o jogo do Dínamo é às 11:00.\n\nSem corvo: o Atalanta a marcar dois tinha preço, mas não apareceu segunda perna que fechasse a combinada dentro da banda sem repetir o curto. Sem duplo também: nenhuma perna chegou à nota que o teste pede.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.82,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1565516,
+          "match": "Kryvbas KR vs Dynamo Kyiv",
+          "league": "Premier League (Ucrânia)",
+          "pick": "Dynamo Kyiv vence",
+          "odds": 1.4,
+          "kickoff": "2026-11-02T11:00:00Z",
+          "score": 65,
+          "tese": "O Dínamo ganhou os últimos cinco jogos oficiais ao Kryvbas e quatro dos últimos cinco da liga. O Kryvbas sofre 2,5 golos por jogo em casa e fez 13% dos pontos possíveis nos últimos cinco.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 5-6 Dínamo em Kryvyi Rih (04/2026), 4-0 (10/2025), 0-2 Dínamo em Kryvyi Rih (04/2025), 2-1 (10/2024), 3-1 (05/2024) — Dínamo ganhou 5/5",
+            "Forma Dínamo, Premier League ucraniana 2026/27 (API /predictions, sequência da liga): últimos 5 V-V-V-D-V — 4/5; últimos 5 jogos 10 marcados, 4 sofridos",
+            "Forma Kryvbas (API /predictions): 13% dos pontos nos últimos 5, 0,4 marcados por jogo; em casa nesta liga 1,0 marcados e 2,5 sofridos, 0 balizas a zero (n=4)",
+            "Red flag avaliado: nenhum encontrado; ausências não verificadas (a Fase B não as exige e a SportsGambler não tem página deste jogo)",
+            "Preço: Bet365 1.40, Marathonbet 1.39, Pinnacle 1.43"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550185,
+          "match": "Sassuolo vs Fiorentina",
+          "league": "Serie A",
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.44,
+          "kickoff": "2026-11-02T17:30:00Z",
+          "score": 65,
+          "tese": "O Sassuolo marcou e sofreu em todos os jogos em casa nesta Serie A e a Fiorentina ainda não fechou a baliza fora. Os dois sofrem 2,5 golos por jogo no lado em que jogam hoje.",
+          "factors": [
+            "H2H oficial, últimos 5 Serie A (API /predictions): 0-0 em Florença (04/2026), 3-1 (12/2025), 5-1 em Florença (04/2024), 1-0 (01/2024), 1-3 (06/2023) — ambas marcaram 3/5",
+            "Forma Sassuolo em casa, últimos 5 (SportsGambler): 2-6 Lazio, 1-1 Milan, 3-2 Juventus, 5-4 Frosinone (Taça), 2-1 Torino — ambas marcaram 5/5",
+            "Forma Fiorentina fora, últimos 5 (SportsGambler): 2-1 Inter, 2-1 Genoa, 2-4 Venezia (vitória), 4-0 Roma, 0-2 Juventus (05/2026, época anterior) — ambas marcaram 3/5",
+            "Serie A 2026/27 (API /predictions): Sassuolo em casa 2,0 marcados e 2,5 sofridos, 0 balizas a zero e 0 jogos em branco (n=4); Fiorentina fora 1,5 marcados e 2,5 sofridos, 0 balizas a zero, 1 em branco (n=4)",
+            "Red flag avaliado: a SportsGambler dá a Fiorentina sem Kean, Piccoli e Gudmundsson; a API /injuries não os lista (só Atta, Parisi, Ranieri, Pongracic, Sottil). Fontes em desacordo sobre o ataque da Fiorentina — perna mais frágil do bilhete. Sassuolo sem Thorstvedt (vermelho) e Koné (duas fontes)",
+            "Preço: Bet365 1.44, Marathonbet 1.46; Pinnacle sem o mercado"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1570436,
+          "match": "Deportivo La Coruna vs Osasuna",
+          "league": "La Liga",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.4,
+          "kickoff": "2026-11-02T20:00:00Z",
+          "score": 65,
+          "tese": "Os jogos do Osasuna fora desta La Liga têm média de 4,6 golos (1,2 marcados e 3,4 sofridos) e o Corunha ainda não fechou a baliza em casa. Os últimos cinco encontros oficiais tiveram todos dois golos ou mais.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /predictions): 1-2 (Taça do Rei 12/2021), 2-1 (Segunda 04/2019), 2-0 (Segunda 11/2018), 2-2 (La Liga 04/2017), 2-0 (La Liga 12/2016) — mais de 1.5 em 5/5; amostra antiga, as duas equipas na mesma divisão em cada jogo de liga",
+            "Forma Corunha, todas as provas (SportsGambler): 3-0 em Auriense (Taça), 0-1 em Atlético, 1-1 Levante, 2-3 em Real Sociedad, 1-1 Betis — mais de 1.5 em 4/5",
+            "Forma Osasuna, todas as provas (SportsGambler): 6-0 em Calatayud (Taça), 0-2 em Sevilla, 2-0 Racing, 2-5 em Betis, 1-1 Rayo — mais de 1.5 em 5/5",
+            "La Liga 2026/27 (API /predictions): Corunha em casa 1,2 marcados e 1,0 sofridos, 0 balizas a zero (n=5); Osasuna fora 1,2 marcados e 3,4 sofridos, 0 balizas a zero (n=5). SportsGambler, últimos 10: Osasuna fora 7/10 mais de 2.5",
+            "Red flag avaliado: Corunha sem Aubameyang (joelho), Ede e Eddahchouri; Osasuna sem Del Castillo (API /injuries e SportsGambler concordam). Nenhuma baixa de guarda-redes nem de defesa inteira",
+            "Preço: Bet365 1.40, Pinnacle 1.40, Marathonbet 1.36"
+          ]
+        }
+      ]
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1557455,
+      "home": {
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png"
+      },
+      "away": {
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png"
+      },
+      "league": "Premier League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/39.png",
+      "kickoff": "2026-11-02T20:00:00Z",
+      "odds": 1.57,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "full",
+      "motivo_sombra": "Score 66, abaixo do piso de 75: o Newcastle tem ambas marcam em quase todos os jogos em casa, mas o Everton ficou em branco em metade das saídas da liga e a odd paga o justo, não mais.",
+      "tese": "O Newcastle não fecha a baliza em casa: ambas marcam em 9 dos últimos 10 jogos em St James’ Park e zero balizas a zero nos quatro jogos em casa desta Premier League. O problema é o outro lado: o Everton marca pouco fora (0,8 por jogo, em branco em dois de quatro) e o H2H oficial dá ambas marcam em 3 de 5. A 1.57 o preço bate com os números e não deixa margem. As duas equipas jogaram na quinta para a Taça da Liga (Everton 3-1).",
+      "factors": [
+        "Premier League 2026/27 (API /predictions): Newcastle em casa 1,5 marcados e 1,5 sofridos, 0 balizas a zero, 1 jogo em branco (n=4); Everton fora 0,8 marcados e 1,3 sofridos, 1 baliza a zero, 2 jogos em branco (n=4)",
+        "SportsGambler, últimos 10 da liga: Newcastle ambas marcam 9/10 em casa; Everton ambas marcam 6/10 fora",
+        "Everton fora, últimos 5 (SportsGambler): 0-2 Arsenal (PL), 2-2 Hull (PL), 0-0 Tottenham (PL), 1-1 Bournemouth (PL), 4-0 em Preston (Taça da Liga) — marcou em 3/5, ambas marcam 2/5",
+        "H2H oficial, últimos 5 (API /predictions): Everton 3-1 (Taça da Liga, 29/10/2026), 2-3 Everton (PL 02/2026), 1-4 Newcastle (PL 11/2025), 0-1 Everton (PL 05/2025), 0-0 (PL 10/2024) — ambas marcam 3/5; amigável de 08/2026 excluído",
+        "Ausências em duas fontes concordantes (API /injuries 02/11 e SportsGambler): Newcastle sem Livramento e o GR Jaouen; Osula dúvida (API) / fora (SportsGambler). Everton: Grealish dúvida por decisão do treinador (API e SportsGambler)",
+        "Preço: Bet365 1.57, Marathonbet 1.56; Pinnacle sem o mercado. Pick da SportsGambler é Newcastle sem empate (1.66), não ambas marcam"
+      ],
+      "sources": [
+        "API-Football /predictions?fixture=1557455 (02/11/2026)",
+        "API-Football /injuries?fixture=1557455 (02/11/2026) — fonte 1 de ausências",
+        "SportsGambler newcastle-vs-everton-prediction-lineups-odds-2026-11-02 — fonte 2 de ausências, forma",
+        "API-Football /odds?fixture=1557455 (Bet365, Marathonbet, Pinnacle)"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhum par de pernas entre 1.40 e 1.60 chegou a 75. Atalanta marca 2+ (1.53 Marathonbet, 1.50 Bet365) tem H2H, forma e preço acima da Pinnacle, mas perde Scamacca e Raspadori e a SportsGambler aponta para o lado do Parma (+1.25): fica a 72. Vitória marca no máximo 1 em Barcelos (1.48) tem números a favor mas uma só fonte de ausências: 73. Dynamo vence (1.40) e mais de 1.5 no Corunha-Osasuna (1.40) pagam abaixo ou igual à Pinnacle; ambas marcam no Sassuolo-Fiorentina (1.44) depende de um ataque da Fiorentina com baixas em disputa entre fontes."
+  }
+}
