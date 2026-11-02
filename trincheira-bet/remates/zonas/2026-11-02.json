@@ -1,0 +1,135 @@
+{
+  "gerado": "2026-11-02T11:22:19.931Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1550185,
+      "data": "2026-11-02T17:30:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Sassuolo - Fiorentina",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.375,
+      "def": -1.249,
+      "zona": null
+    },
+    {
+      "fixture": 1550178,
+      "data": "2026-11-02T19:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Atalanta - Parma",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.82,
+      "def": 0.417,
+      "zona": null
+    },
+    {
+      "fixture": 1552803,
+      "data": "2026-11-02T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lorient - Stade Brestois 29",
+      "jogos_tabela": 8,
+      "amostra_fraca": false,
+      "atq": -0.425,
+      "def": 1.225,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.17,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.36,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1557455,
+      "data": "2026-11-02T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Newcastle - Everton",
+      "jogos_tabela": 8,
+      "amostra_fraca": false,
+      "atq": -0.219,
+      "def": 0.063,
+      "zona": null
+    },
+    {
+      "fixture": 1570436,
+      "data": "2026-11-02T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Deportivo La Coruna - Osasuna",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.709,
+      "def": 0.419,
+      "zona": null
+    },
+    {
+      "fixture": 1575529,
+      "data": "2026-11-02T20:15:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Benfica - Alverca",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": 1.606,
+      "def": -1.212,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1575533,
+      "data": "2026-11-02T20:15:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "GIL Vicente - Vitória SC",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.727,
+      "def": 1.566,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.14,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.32,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1492442,
+      "data": "2026-11-02T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "RB Bragantino - Santos",
+      "jogos_tabela": 33,
+      "amostra_fraca": false,
+      "atq": 0.098,
+      "def": -0.014,
+      "zona": null
+    }
+  ]
+}

@@ -656,10 +656,10 @@
             "teria_ganho": true,
             "retorno": 0.03
           },
-          "real": 8,
+          "real": 7,
           "quem_acertou": "modelo",
-          "erro_modelo": 1.1,
-          "erro_casa": 1.5
+          "erro_modelo": 2.1,
+          "erro_casa": 2.5
         }
       }
     },
@@ -1084,7 +1084,7 @@
       }
     }
   ],
-  "avaliado_em": "2026-10-18T06:05:46.827Z",
+  "avaliado_em": "2026-11-02T11:18:13.427Z",
   "balanco": {
     "quem_ficou_mais_perto": {
       "modelo": 16,
