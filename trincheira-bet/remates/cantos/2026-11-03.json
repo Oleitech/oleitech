@@ -1,0 +1,141 @@
+{
+  "gerado": "2026-11-03T07:01:40.109Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L. Apostas so a partir de Novembro, se passar o criterio.",
+  "jogos": [
+    {
+      "fixture": 1492443,
+      "data": "2026-11-03T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Mirassol",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 5.54,
+        "fora": 4.61
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.67,
+          "prob": 0.598,
+          "valor": -0.1,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2.1,
+          "prob": 0.402,
+          "valor": -15.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.2,
+          "prob": 0.327,
+          "valor": -28.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.62,
+          "prob": 0.673,
+          "valor": 9.1,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.63,
+          "prob": 0.598,
+          "valor": -2.5,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2.09,
+          "prob": 0.402,
+          "valor": -16,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.15,
+          "prob": 0.457,
+          "valor": -1.7,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.59,
+          "prob": 0.543,
+          "valor": -13.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.6,
+          "prob": 0.464,
+          "valor": -25.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2.14,
+          "prob": 0.536,
+          "valor": 14.7,
+          "sinal": true
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.11,
+          "prob": 0.327,
+          "valor": -31.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.62,
+          "prob": 0.673,
+          "valor": 9.1,
+          "sinal": false
+        }
+      ],
+      "real": null
+    }
+  ]
+}

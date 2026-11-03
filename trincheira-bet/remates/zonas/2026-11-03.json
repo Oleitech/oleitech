@@ -1,0 +1,18 @@
+{
+  "gerado": "2026-11-03T07:01:39.184Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1492443,
+      "data": "2026-11-03T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Mirassol",
+      "jogos_tabela": 32,
+      "amostra_fraca": false,
+      "atq": -0.539,
+      "def": -0.287,
+      "zona": null
+    }
+  ]
+}
