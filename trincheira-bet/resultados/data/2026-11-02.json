@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-02",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.82,
+        "score": 65,
+        "stake": 0.5,
+        "selections": [
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1565516, "match": "Kryvbas KR vs Dynamo Kyiv", "league": "Premier League (Ucrânia)", "pick": "Dynamo Kyiv vence", "odds": 1.4, "kickoff": "2026-11-02T11:00:00Z", "score": 65, "result": "GREEN", "final_score": "0-2"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1550185, "match": "Sassuolo vs Fiorentina", "league": "Serie A", "pick": "Ambas marcam: Sim", "odds": 1.44, "kickoff": "2026-11-02T17:30:00Z", "score": 65, "result": "GREEN", "final_score": "2-4"},
+          {"sport": "football", "bookmaker": "Bet365", "fixtureId": 1570436, "match": "Deportivo La Coruna vs Osasuna", "league": "La Liga", "pick": "Mais de 1.5 golos", "odds": 1.4, "kickoff": "2026-11-02T20:00:00Z", "score": 65, "result": "GREEN", "final_score": "2-1"}
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "effective_odds": 2.82,
+        "return": 1.41,
+        "pnl": 0.91,
+        "note": "Kryvbas 0-2 Dínamo Kiev, Sassuolo 2-4 Fiorentina com golos dos dois lados e Corunha 2-1 Osasuna (3 golos). Curto completo a 2.82."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhum par de pernas entre 1.40 e 1.60 chegou a 75. Atalanta marca 2+ (1.53 Marathonbet, 1.50 Bet365) tem H2H, forma e preço acima da Pinnacle, mas perde Scamacca e Raspadori e a SportsGambler aponta para o lado do Parma (+1.25): fica a 72. Vitória marca no máximo 1 em Barcelos (1.48) tem números a favor mas uma só fonte de ausências: 73. Dynamo vence (1.40) e mais de 1.5 no Corunha-Osasuna (1.40) pagam abaixo ou igual à Pinnacle; ambas marcam no Sassuolo-Fiorentina (1.44) depende de um ataque da Fiorentina com baixas em disputa entre fontes."
+    },
+    "sombra": [
+      {"market": "btts", "pick": "Ambas marcam: Sim", "fixtureId": 1557455, "match": "Newcastle vs Everton", "league": "Premier League", "odds": 1.57, "score": 66, "stake": 0, "shadow": true, "result": "RED", "hit": false, "return": 0, "pnl": 0, "final_score": "0-1", "note": "Newcastle 0-1 Everton: o Newcastle não marcou, ambas marcam não saiu."}
+    ],
+    "sombra_summary": {"total": 1, "green": 0, "red": 1, "pnl_se_apostadas": -1},
+    "summary": {
+      "total": 0, "green": 0, "red": 0, "hit_rate": 0, "total_stake": 0, "total_return": 0, "pnl": 0, "roi_pct": 0,
+      "accumulators_total": 1, "accumulators_green": 1, "accumulators_red": 0, "accumulators_stake": 0.5, "accumulators_return": 1.41, "accumulators_pnl": 0.91,
+      "combined_stake": 0.5, "combined_return": 1.41, "combined_pnl": 0.91, "combined_roi_pct": 182
+    }
+  },
+  "btts": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "cards": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "over25": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "corners": {"tips": [], "summary": {"total": 0, "green": 0, "red": 0, "hit_rate": 0}},
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1494323, "strategy": "⏸️ INTERVALO", "market": "Menos de 2.5 golos no jogo", "match": "Gais vs AIK Stockholm", "league": "Allsvenskan",
+        "elapsed": 45, "score": "1-0", "homeGoalsAtAlert": 1, "awayGoalsAtAlert": 0, "odds": 1.8, "oddMinima": 1.65, "precoAoVivo": true, "tipo": "golos",
+        "aoIntervalo": {"cantos": [2, 4], "amarelos": [2, 0], "vermelhos": [0, 0]},
+        "padrao": "sem", "stake": 0.5, "contraFavorito": false, "shadow": false, "origem": "liga",
+        "justificacao": "Está 1-0 e houve muito pouco perigo: só 2 remates à baliza no jogo todo. O AIK teve mais bola, mas fez só 3 remates e nenhum foi perigoso. Ainda pode cair mais um golo, mas para perder a aposta tinham de cair dois.",
+        "sentAt": 1793645460571, "result": "RED", "finalHome": 2, "finalAway": 1, "pnl": -0.5, "return": 0, "resolvedAt": 1793650527445
+      },
+      {
+        "fixtureId": 1575533, "strategy": "⏸️ INTERVALO", "market": "Menos de 1.5 golos no jogo", "match": "Gil Vicente vs Vitória SC", "league": "Primeira Liga",
+        "elapsed": 45, "score": "0-0", "homeGoalsAtAlert": 0, "awayGoalsAtAlert": 0, "odds": 1.615, "oddMinima": 1.5, "precoAoVivo": true, "tipo": "golos",
+        "aoIntervalo": {"cantos": [1, 1], "amarelos": [1, 0], "vermelhos": [0, 0]},
+        "padrao": "sem", "stake": 0.5, "contraFavorito": false, "shadow": false, "origem": "shortlist",
+        "justificacao": "Em 45 minutos houve 4 remates, nenhum à baliza, e o xG somado é 0.29. O Gil quase não sofre em casa e o Vitória marca pouco fora. Para o RED são precisos dois golos numa 2ª parte que até agora não teve por onde.",
+        "sentAt": 1793653509649, "result": "GREEN", "finalHome": 0, "finalAway": 0, "pnl": 0.3075, "return": 0.8075, "resolvedAt": 1793657782198
+      }
+    ],
+    "summary": {
+      "total": 2, "green": 1, "red": 1, "push": 0, "pending": 0, "hit_rate": 50,
+      "by_strategy": {"⏸️ INTERVALO": {"total": 2, "green": 1, "red": 1}},
+      "stake_total": 1, "stake_mensuravel": 1, "return_mensuravel": 0.8075, "pnl_mensuravel": -0.1925, "roi_pct_mensuravel": -19.25, "odds_registadas": 2,
+      "nota_mensuravel": "Dois alertas de intervalo a meia stake, já em stakes."
+    }
+  },
+  "balance": 30.01,
+  "notes": "Sem tip simples. O curto a 2.82 entrou inteiro: Dínamo Kiev ganhou 2-0 em Kryvyi Rih, o Sassuolo-Fiorentina acabou 2-4 com golos dos dois lados e o Corunha-Osasuna 2-1. Dois alertas de intervalo a meia stake: Menos de 2.5 no Gais-AIK RED (2-1) e Menos de 1.5 no Gil Vicente-Vitória GREEN (0-0). P&L +0,72 stakes, banca 30,01 stakes."
+}

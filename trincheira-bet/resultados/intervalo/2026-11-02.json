@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-02",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1494323,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 2.5 golos no jogo",
+      "match": "Gais vs AIK Stockholm",
+      "league": "Allsvenskan",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          4
+        ],
+        "amarelos": [
+          2,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "sem",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Está 1-0 e houve muito pouco perigo: só 2 remates à baliza no jogo todo. O AIK teve mais bola, mas fez só 3 remates e nenhum foi perigoso. Ainda pode cair mais um golo, mas para perder a aposta tinham de cair dois.",
+      "sentAt": 1793645460571,
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1793650527445
+    },
+    {
+      "fixtureId": 1575533,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 1.5 golos no jogo",
+      "match": "Gil Vicente vs Vitória SC",
+      "league": "Primeira Liga",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.615,
+      "oddMinima": 1.5,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "sem",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Em 45 minutos houve 4 remates, nenhum à baliza, e o xG somado é 0.29. O Gil quase não sofre em casa e o Vitória marca pouco fora. Para o RED são precisos dois golos numa 2ª parte que até agora não teve por onde.",
+      "sentAt": 1793653509649,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": 0.3075,
+      "return": 0.8075,
+      "resolvedAt": 1793657782198
+    }
+  ]
+}
