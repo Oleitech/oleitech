@@ -1,0 +1,149 @@
+{
+  "gerado": "2026-11-04T07:01:30.737Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1558657,
+      "data": "2026-11-04T19:30:00+00:00",
+      "liga": "B1",
+      "jogo": "Kortrijk - KV Mechelen",
+      "pressao": 31.8,
+      "prob_mais": 0.509,
+      "prob_mercado": 0.527,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.05,
+        "valor": 0.007
+      },
+      "marathonbet": {
+        "odd": 1.97,
+        "valor": -0.032
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.017
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563248,
+      "data": "2026-11-04T19:45:00+00:00",
+      "liga": "E1",
+      "jogo": "Cardiff - West Ham",
+      "pressao": 41.7,
+      "prob_mais": 0.706,
+      "prob_mercado": 0.686,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.4,
+        "valor": -0.012
+      },
+      "marathonbet": {
+        "odd": 1.32,
+        "valor": -0.069
+      },
+      "bet365": {
+        "odd": 1.4,
+        "valor": -0.012
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563250,
+      "data": "2026-11-04T19:45:00+00:00",
+      "liga": "E1",
+      "jogo": "Wrexham - Middlesbrough",
+      "pressao": 39,
+      "prob_mais": 0.595,
+      "prob_mercado": 0.586,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.67,
+        "valor": -0.006
+      },
+      "marathonbet": {
+        "odd": 1.61,
+        "valor": -0.042
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": -0.036
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1564266,
+      "data": "2026-11-04T19:45:00+00:00",
+      "liga": "E2",
+      "jogo": "Oxford United - Reading",
+      "pressao": 38.8,
+      "prob_mais": 0.606,
+      "prob_mercado": 0.561,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Bet365",
+        "odd": 1.7,
+        "valor": 0.03
+      },
+      "marathonbet": {
+        "odd": 1.67,
+        "valor": 0.011
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": 0.03
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563247,
+      "data": "2026-11-04T20:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Bristol City - Wolves",
+      "pressao": 34.7,
+      "prob_mais": 0.501,
+      "prob_mercado": 0.503,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.97,
+        "valor": -0.017
+      },
+      "marathonbet": {
+        "odd": 1.88,
+        "valor": -0.062
+      },
+      "bet365": {
+        "odd": 1.91,
+        "valor": -0.047
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}
