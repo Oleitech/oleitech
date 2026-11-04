@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-03",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1494327,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 10.5 cantos no jogo",
+      "match": "Sirius vs Halmstad",
+      "league": "Allsvenskan",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          2
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Na 1ª parte só houve 5 cantos e pouco ritmo, com 6 remates no total. Para passar os 10.5 são precisos 6 cantos na 2ª parte, e em jogos com 2 golos de diferença ao intervalo isso acontece em cerca de 4 em cada 10.",
+      "sentAt": 1793731696471,
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": 0.4165,
+      "return": 0.9165,
+      "resolvedAt": 1793737013957
+    },
+    {
+      "fixtureId": 1563241,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Norwich marca na 2ª parte",
+      "match": "Derby vs Norwich",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "0-3",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 3,
+      "odds": 1.5,
+      "oddMinima": 1.45,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          4
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Norwich fez 13 remates contra 2 e 6 à baliza, o Derby não acertou nenhuma. Mesmo a 3-0, uma equipa que domina assim costuma voltar a marcar: em jogos parecidos, quem manda no jogo marcou na 2ª parte quase 7 vezes em 10.",
+      "sentAt": 1793738044704,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 4,
+      "pnl": 0.25,
+      "return": 0.75,
+      "resolvedAt": 1793743238365
+    },
+    {
+      "fixtureId": 1563243,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Sheffield Utd marca na 2ª parte",
+      "match": "Preston vs Sheffield Utd",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "1-3",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 3,
+      "odds": 1.666,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 1,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Sheffield está a mandar no jogo: 68% de bola, 7 remates contra 1 e 1.29 de xG contra 0.34. Mesmo a ganhar 3-1, quem manda assim costuma voltar a marcar na 2ª parte, e o Preston vai ter de abrir.",
+      "sentAt": 1793738241261,
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 3,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1793743238365
+    },
+    {
+      "fixtureId": 1563240,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Blackburn vs Stoke City",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.3,
+      "oddMinima": 2.05,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          2
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Blackburn perde 0-1 em casa mas fez 8 remates contra 3 e tem 1.06 de xG contra 0.17. Vai carregar na 2ª parte, e se o Stoke apanhar o contra-ataque há espaço para mais dois golos.",
+      "sentAt": 1793738241629,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0.6499999999999999,
+      "return": 1.15,
+      "resolvedAt": 1793743238365
+    },
+    {
+      "fixtureId": 1563242,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 8.5 cantos no jogo",
+      "match": "Portsmouth vs Swansea",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Há 4 cantos ao intervalo. O Swansea perde e tem 62% de bola, por isso vai ter de ir à frente. Na Championship, jogos assim dão 5 ou mais cantos na 2ª parte quase sempre (61 a 69%).",
+      "sentAt": 1793738242332,
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 1,
+      "pnl": 0.4,
+      "return": 0.9,
+      "resolvedAt": 1793743238365
+    },
+    {
+      "fixtureId": 1635640,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 1.5 golos no jogo",
+      "match": "Bodo/Glimt vs Lille",
+      "league": "UEFA Champions League",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.909,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Jogo morto em Bodø: o Bodø não fez um remate e o Lille só acertou um na baliza, com 0.22 de xG somados entre as duas equipas. Para perder, a 2ª parte tem de ter dois golos.",
+      "sentAt": 1793738915443,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": 0.4545,
+      "return": 0.9545,
+      "resolvedAt": 1793743238365
+    },
+    {
+      "fixtureId": 1563246,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "West Brom vs Southampton",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.2,
+      "oddMinima": 1.9,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 1,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "O West Brom já fez 8 remates contra 0 e o Southampton, que era o favorito, vai ter de abrir o jogo para empatar. Na Championship, jogos com números parecidos ao intervalo deram 2 ou mais golos na 2ª parte em 60% dos casos, e a 2.20 a odd paga mais do que isso vale.",
+      "sentAt": 1793739102025,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -1,
+      "return": 0,
+      "resolvedAt": 1793743238365
+    }
+  ]
+}
