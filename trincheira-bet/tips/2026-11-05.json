@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T07:25:21Z",
+  "units": "stakes",
+  "notes": "Quinta de Liga Europa e Liga Conferência, com 35 jogos europeus divididos entre as 17:45 e as 20:00, e o River a jogar em Mar del Plata ao fim da tarde.\n\nHoje não sai tip simples. O jogo que mais puxou foi o Trabzonspor-Freiburg: o Trabzonspor ganhou os últimos cinco em casa sem sofrer, 15-0 com Galatasaray e Beşiktaş pelo meio, e a casa paga o empate devolve a 1.80. Só que os modelos estão divididos, há quem dê o Freiburg, e as baixas do Trabzonspor só aparecem numa fonte. Fica de fora. A Real Sociedad com o Lyon já caiu de 1.86 para 1.65 e em casa esta época perdeu dois de seis jogos; não sobra valor. Não se força boletim.\n\nHá um curto a meia stake a 2.76, só com pernas de vitória. O River vai a casa do penúltimo do campeonato argentino, a quem ganhou quatro dos últimos cinco jogos. O Bournemouth, que ganhou os últimos seis, vai a Praga mesmo sem o Scott, o Tóth e o Araújo. E o Botafogo SP, sem perder há cinco jogos, recebe um Londrina em zona de descida que fora quase não ganha, com o empate a devolver.\n\nSem corvo: o par que havia, golos do Bournemouth e do Milan, caiu porque as baixas de ataque do Milan só aparecem numa fonte, e o Bournemouth sozinho não tem par na banda.\n\nSem duplo: nenhuma perna da banda chegou à nota mínima.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1493227,
+          "match": "Aldosivi vs River Plate",
+          "league": "Liga Profesional Argentina",
+          "pick": "Vitória River Plate",
+          "odds": 1.44,
+          "kickoff": "2026-11-05T18:00:00Z",
+          "score": 65,
+          "tese": "O River ganhou quatro dos últimos cinco jogos com o Aldosivi e vai a casa do 28.º de 30 do Clausura, que perdeu quatro dos últimos cinco. Vem de perder o clássico com o Boca, mas antes disso tinha ganho três em quatro, e fora ganhou seis dos últimos dez.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead): 1-3 (Taça da Argentina 07/2026), 3-1, 3-0 fora, 2-0, 4-1 — River ganhou 4/5; SportsGambler concorda (4 dos últimos 5)",
+            "River, últimos 5 oficiais (API /fixtures, Liga Profesional): 0-1 em Boca, 1-0 Racing, 3-0 em Belgrano, 1-1 em Sarmiento, 1-0 Estudiantes RC; 3/5 vitórias",
+            "Aldosivi, últimos 5 oficiais (API, Liga Profesional): 1-2, 1-0, 1-2, 1-3, 0-1; 1/5 vitórias. Clausura: 28.º de 30, 3V-2E-10D (SportsGambler)",
+            "SportsGambler, últimos 10: River fora 6V-1E-3D (1.5 marcados, 0.8 sofridos); Aldosivi em casa 3V-4E-3D (1.0 marcados)",
+            "Baixas (SportsGambler; a API não dá nenhuma): River sem Aníbal Moreno, Nasif e Zabala; Aldosivi sem baixas. Nenhuma na baliza",
+            "Preço: Bet365 1.44, Pinnacle 1.41. Contraponto: SportsGambler aposta no Aldosivi +1"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1636337,
+          "match": "Sparta Praha vs Bournemouth",
+          "league": "UEFA Europa League",
+          "pick": "Vitória Bournemouth",
+          "odds": 1.5,
+          "kickoff": "2026-11-05T17:45:00Z",
+          "score": 65,
+          "excepcao_primeiro_encontro": true,
+          "tese": "O Bournemouth ganhou os últimos seis jogos oficiais, cinco deles sem sofrer, incluindo 3-0 em Old Trafford e 3-0 ao Milan nesta Liga Europa. As baixas são de trás e do meio (Scott, Tóth, Araújo) e confirmam-se em duas fontes. O Sparta é forte em casa, e é esse o risco da perna.",
+          "factors": [
+            "H2H: primeiro encontro oficial (API devolve 0; antevisão futbol24 sem jogos anteriores; primeira campanha europeia do Bournemouth). Excepção de primeiro encontro europeu",
+            "Bournemouth, últimos 5 oficiais (API /fixtures; Premier League, Taça da Liga e Liga Europa): 2-0 Leeds, 3-0 Aston Villa, 3-0 em Old Trafford, 3-0 Milan, 2-0 Sunderland; 5/5 vitórias",
+            "Bournemouth fora, últimos 10 (SportsGambler, liga e Liga Europa): 5V-3E-2D",
+            "Sparta, últimos 5 oficiais (API): 0-0 em Bohemians, 0-2 Baník (Taça), 5-1 Slovácko, 0-1 em Pireu, 0-0 em Ostrava; 1/5 vitórias. Em casa, últimos 10 (SportsGambler): 7V-1E-2D",
+            "Baixas em duas fontes concordantes (API /injuries e SportsGambler): Bournemouth sem Alex Scott, Alex Tóth e Julian Araújo; Sparta sem Karabec e Ryneš. A Squawka escreve “sem ausências” no Bournemouth: discordância registada",
+            "Preço: Bet365 1.50 = Pinnacle 1.50. Contraponto: SportsGambler aposta no Sparta +1"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1520962,
+          "match": "Botafogo SP vs Londrina",
+          "league": "Serie B",
+          "pick": "Botafogo SP vence, empate devolve (DNB)",
+          "odds": 1.28,
+          "kickoff": "2026-11-05T22:30:00Z",
+          "score": 65,
+          "tese": "O Botafogo SP não perde há cinco jogos, com quatro vitórias seguidas antes do empate de sábado. O Londrina é 18.º de 20, perdeu os dois últimos e fora ganhou um dos últimos dez. Com o empate a devolver, só perde se o Londrina ganhar.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Série B): 0-0, 0-1, 2-1 fora, 1-1 fora, 2-1 — Botafogo SP não perdeu em 4/5",
+            "Botafogo SP, últimos 5 oficiais (API /fixtures, Série B): 1-1 Sport, 2-0 em Avaí, 1-0 em CRB, 1-0 Ceará, 2-1 em Operário; 4V-1E, sem derrotas",
+            "Londrina, últimos 5 oficiais (API, Série B): 1-3 América-MG, 1-2 em CRB, 1-0 Cuiabá, 2-2 em Athletic, 1-2 em Avaí; fora, últimos 10 (SportsGambler): 1V-2E-7D, 1.70 sofridos",
+            "Classificação (SportsGambler): Botafogo SP 12.º com 48 pontos, Londrina 18.º com 32",
+            "Baixas: nenhuma na API nem no SportsGambler. SportsGambler aposta na vitória do Botafogo SP (1.67)",
+            "Preço: Bet365 1.28 no empate devolve, Pinnacle 1.28 (handicap 0)"
+          ]
+        }
+      ],
+      "combined_odds": 2.76,
+      "score": 65,
+      "stake": 0.5
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Empate anula aposta",
+      "pick": "Trabzonspor vence, empate devolve (DNB)",
+      "fixtureId": 1636476,
+      "home": {
+        "name": "Trabzonspor",
+        "logo": "https://media.api-sports.io/football/teams/998.png"
+      },
+      "away": {
+        "name": "SC Freiburg",
+        "logo": "https://media.api-sports.io/football/teams/160.png"
+      },
+      "league": "UEFA Europa Conference League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+      "kickoff": "2026-11-05T17:45:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 72, abaixo do piso de 75: os números da casa são fortíssimos, mas os modelos dividem-se (a Forebet dá Freiburg 1-2) e as baixas do Trabzonspor só aparecem numa fonte.",
+      "tese": "O Trabzonspor ganhou os últimos sete jogos oficiais e os últimos cinco em casa sem sofrer, 15-0, com Galatasaray (4-0) e Beşiktaş (2-0) pelo meio. O Freiburg fora ganha aos pequenos e perde com os grandes: 0-3 no Mónaco e 1-2 em Leverkusen. Do lado alemão faltam laterais (Kübler e Treu tocados, Steinmann). A Bet365 paga o empate devolve ao preço da Pinnacle.",
+      "factors": [
+        "Trabzonspor em casa 2026/27, oficiais (API /fixtures season): 0-1 Ferencváros (Liga Europa, qualificação), 2-1 Başakşehir, 5-0 Gençlerbirliği, 4-0 Galatasaray, 2-0 Beşiktaş, 2-0 Hearts, 2-0 Gaziantep — últimos 5: 5V, 15-0",
+        "Trabzonspor, últimos 7 oficiais (API /fixtures; Süper Lig e Liga Conferência): 7 vitórias",
+        "Freiburg fora 2026/27, oficiais (API): 3-1 Motherwell, 5-1 Düsseldorf (Taça), 1-0 Paderborn, 2-2 Frankfurt, 1-2 Leverkusen, 0-3 Mónaco, 2-1 Augsburg",
+        "FootyStats (página H2H do jogo, amostra “últimos 10 nesta competição”, época não declarada): Trabzonspor em casa 100% vitórias e balizas a zero; Freiburg fora 25% vitórias, 2.00 sofridos. Sem proveniência completa: não pesa no score",
+        "SportsGambler (liga e Liga Conferência): Trabzonspor em casa 7V-2E-1D nos últimos 10 (2.1 marcados, 0.7 sofridos); Freiburg fora 4V-1E-5D (1.8 sofridos)",
+        "H2H: nunca se defrontaram (Forebet e FootyStats)",
+        "Baixas: Trabzonspor sem Çanak, Batagov, Franculino e Şimşir só no SportsGambler (a API não cobre a Liga Conferência; beIN Sports 02/11 não nomeia ninguém). Freiburg: SportsGambler dá Kübler, Treu e Steinmann; a LigaInsider confirma Treu fora e Kübler a sair tocado com o Augsburg. Trabzonspor sem segunda fonte: context partial",
+        "Preço: Bet365 1.80 no empate devolve, Pinnacle 1.79 (handicap 0)",
+        "Terceiros divididos: SportsGambler Trabzonspor +0.25 (estima ~70%); Forebet Freiburg 1-2 (39% Freiburg); API /predictions 35/35/30"
+      ],
+      "sources": [
+        "API-Football /fixtures (forma e época), /odds (Bet365, Pinnacle), /predictions",
+        "SportsGambler: antevisão Trabzonspor vs Freiburg (baixas, forma casa/fora, pick)",
+        "Forebet e FootyStats via pesquisa restrita; WebFetch à página H2H do FootyStats",
+        "LigaInsider (Freiburg) e beIN Sports (Trabzonspor, 02/11)"
+      ]
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Vitória Real Sociedad",
+      "fixtureId": 1636319,
+      "home": {
+        "name": "Real Sociedad",
+        "logo": "https://media.api-sports.io/football/teams/548.png"
+      },
+      "away": {
+        "name": "Lyon",
+        "logo": "https://media.api-sports.io/football/teams/80.png"
+      },
+      "league": "UEFA Europa League",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/3.png",
+      "kickoff": "2026-11-05T17:45:00Z",
+      "odds": 1.65,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 66: o Lyon vai muito desfalcado, mas o preço já caiu de 1.86 para 1.65 e a Real em casa esta época ganhou só três de seis.",
+      "tese": "O Lyon chega sem Sulc, Kango, Ouédraogo e Morton e perdeu três dos últimos quatro fora, um deles na Liga Europa (0-3 em Hoffenheim) e outro em Paris sem marcar. A Real Sociedad marca bem (5-2 em Málaga, 6-0 em Lillestrøm), mas em casa esta época perdeu com o Atlético e com o Bournemouth, e o mercado já comeu o valor.",
+      "factors": [
+        "Real Sociedad em casa 2026/27, oficiais (API /fixtures season): 2-1 Espanyol, 0-0 Celta, 0-3 Atlético, 1-2 Bournemouth (Liga Europa), 3-2 Deportivo, 2-1 Levante — 3V-1E-2D",
+        "Lyon fora 2026/27, oficiais (API): 1-2 em Praga, 1-1 em Istambul, 2-0 em Toulouse, 0-0 Paris FC, 2-1 em Anderlecht, 1-2 em Lens, 0-3 em Hoffenheim, 0-2 em Paris — 2V-2E-4D",
+        "Baixas em duas fontes concordantes (API /injuries e SportsGambler): Lyon sem Sulc, Kango, Ouédraogo e Morton (Openda só na API); Real sem Zakharyan e Beitia (Odriozola só na API)",
+        "H2H oficial: 2 jogos, play-off da Champions 2013/14 (2-0 e 0-2, ambos Real Sociedad) — API",
+        "Preço: Bet365 1.65, Pinnacle 1.66; a SportsGambler publicou a 1.86 a 03/11 — a odd já caiu",
+        "Sem FootyStats para este jogo: context partial"
+      ],
+      "sources": [
+        "API-Football /fixtures, /injuries, /odds (Bet365, Pinnacle)",
+        "SportsGambler: antevisão Real Sociedad vs Lyon (onzes prováveis, baixas, pick a 1.86)"
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75 com investigação completa. O Bournemouth vence (1.50, perna do curto) paga o justo da Pinnacle (1.50), com o Sparta forte em casa (7V em 10, SportsGambler) e a SportsGambler contra; o Trabzonspor ou empate (1.44) fica a 72 com as baixas numa só fonte e abaixo do justo da Pinnacle (~1.52); o Panathinaikos (1.42) perdeu os dois jogos que fez com o CSKA (Taça dos Campeões 1972/73) e não tem baixas em duas fontes; a Craiova (1.42) não tem informação de plantel e o Egnatia ainda não perdeu na prova."
+  }
+}

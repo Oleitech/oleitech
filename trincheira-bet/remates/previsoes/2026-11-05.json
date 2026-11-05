@@ -1,0 +1,59 @@
+{
+  "gerado": "2026-11-05T07:01:32.099Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492447,
+      "data": "2026-11-05T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Palmeiras - Remo",
+      "amostra": {
+        "casa": 8,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 30.6,
+          "previsao": 29.5,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 31.5,
+          "discordancia": -2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 31.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.335,
+            "prob_da_casa": 0.485,
+            "edge": -36.1,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.5,
+          "previsao": 9.3,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -1.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.406,
+            "prob_da_casa": 0.536,
+            "edge": -29.7,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

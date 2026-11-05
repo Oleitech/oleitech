@@ -1,0 +1,18 @@
+{
+  "gerado": "2026-11-05T07:01:32.199Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1492447,
+      "data": "2026-11-05T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Palmeiras - Remo",
+      "jogos_tabela": 33,
+      "amostra_fraca": false,
+      "atq": 0.136,
+      "def": 0.304,
+      "zona": null
+    }
+  ]
+}
