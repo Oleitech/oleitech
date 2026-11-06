@@ -120,7 +120,13 @@
       "shadow": false,
       "origem": "liga",
       "justificacao": "Só se viram 3 cantos na 1ª parte e o Palmeiras não teve nenhum. Com 4-1 o jogo tende a acalmar, e para isto cair eram precisos 7 cantos ou mais na 2ª parte.",
-      "sentAt": 1793920975201
+      "sentAt": 1793920975201,
+      "result": "GREEN",
+      "finalHome": 6,
+      "finalAway": 1,
+      "pnl": 0.4165,
+      "return": 0.9165,
+      "resolvedAt": 1793925930623
     }
   ]
 }

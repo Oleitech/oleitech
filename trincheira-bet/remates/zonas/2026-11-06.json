@@ -1,0 +1,127 @@
+{
+  "gerado": "2026-11-06T07:02:03.621Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1552216,
+      "data": "2026-11-06T19:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Willem II - PEC Zwolle",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -1.818,
+      "def": 0,
+      "zona": null
+    },
+    {
+      "fixture": 1575218,
+      "data": "2026-11-06T19:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Hamburger SV - Borussia Mönchengladbach",
+      "jogos_tabela": 8,
+      "amostra_fraca": false,
+      "atq": -1.25,
+      "def": -0.375,
+      "zona": null
+    },
+    {
+      "fixture": 1550196,
+      "data": "2026-11-06T19:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Venezia - Udinese",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -1.48,
+      "def": 0.36,
+      "zona": null
+    },
+    {
+      "fixture": 1552817,
+      "data": "2026-11-06T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Toulouse - Strasbourg",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": 0.185,
+      "def": -0.704,
+      "zona": null
+    },
+    {
+      "fixture": 1557460,
+      "data": "2026-11-06T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Everton - Coventry",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.7,
+      "def": 0.622,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.1,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.24,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1570450,
+      "data": "2026-11-06T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Sevilla - Alaves",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.1,
+      "def": -0.163,
+      "zona": null
+    },
+    {
+      "fixture": 1575539,
+      "data": "2026-11-06T20:45:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Famalicao - Arouca",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.022,
+      "def": 0.556,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.12,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.28,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1492449,
+      "data": "2026-11-06T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vitoria - Fluminense",
+      "jogos_tabela": 33,
+      "amostra_fraca": false,
+      "atq": -0.035,
+      "def": -0.02,
+      "zona": null
+    }
+  ]
+}

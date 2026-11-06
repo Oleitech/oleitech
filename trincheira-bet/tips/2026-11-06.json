@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T07:15:12Z",
+  "units": "stakes",
+  "notes": "Sexta de jornada curta: Everton-Coventry na Premier, Sevilha-Alavés, Hamburgo-Gladbach, Venezia-Udinese, Toulouse-Estrasburgo e o Famalicão-Arouca a fechar a noite.\n\nHoje não sai tip simples. Os jogos grandes estão bem cotados e nenhum preço entre 1.55 e 1.89 bate o da Pinnacle. O Everton a 1.67 é o caso típico: paga menos do que devia, e a antevisão da SportsGambler até vai pelo Coventry. O modelo dos golos pedia menos de 2.5 no Venezia-Udinese, mas só pagava acima de 1.90 e as duas defesas sofrem muito, por isso caiu. Não se força boletim.\n\nSaem dois bilhetes a meia stake. O curto, a 2.68, junta três favoritos claros: Botev em casa com o Dunav, o Lausanne-Ouchy, que lidera a segunda divisão suíça sem perder, em casa do último, e o Connah S Quay no dérbi com o Flint. O ponto fraco é o Lausanne-Ouchy, que fora de casa empata muito.\n\nO corvo, a 1.88 na Marathonbet, junta o Rapid a ganhar com pelo menos dois golos no jogo (oito vitórias seguidas, todas assim) e o Hammarby a marcar dois ou mais em casa, a três pontos do primeiro lugar com três jornadas por jogar.\n\nNão há jogos repetidos entre os dois bilhetes. Exposição do dia: uma stake.",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.68,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1551131,
+          "match": "Botev Plovdiv vs Dunav Ruse",
+          "league": "First League (Bulgária)",
+          "pick": "Vitória Botev Plovdiv",
+          "odds": 1.4,
+          "kickoff": "2026-11-06T17:15:00Z",
+          "score": 65,
+          "tese": "O Botev ganhou quatro dos últimos cinco jogos oficiais e recebe o Dunav, que está em 10.º e fora de casa só ganhou dois de seis. Nos últimos cinco jogos entre os dois, o Botev ganhou quatro e empatou um. Em casa o Botev não é uma máquina de golos (9 em 6 jogos), por isso é uma perna de vitória curta, não de goleada.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, First League 2018-2020): 4-1, 3-1, 1-1 fora, 3-1, 2-1 fora — Botev 4V 1E. FBref, histórico total: Botev 6V-2E-1D",
+            "Botev, últimos 5 oficiais (API /fixtures; First League, Taça e Pro Cup): 5-2 em Lokomotiv Sofia, 0-4 em CSKA 1948, 4-0 em Chernomorets (Taça), 2-0 Botev Vratsa, 1-0 Slavia; 4/5 vitórias",
+            "Classificação API, First League 2026/27 (13 jornadas): Botev 5.º, 22 pts, em casa 4V-1E-1D (9-6); Dunav 10.º, 11 pts, fora 2V-0E-4D (9-12)",
+            "Baixas: a API /injuries não lista nenhuma; a pesquisa não trouxe notícias de plantel. Não se afirma nenhuma ausência",
+            "Preço: Bet365 1.40, Pinnacle 1.41"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1555079,
+          "match": "Stade Nyonnais vs Stade Lausanne-Ouchy",
+          "league": "Challenge League (Suíça)",
+          "pick": "Vitória Stade Lausanne-Ouchy",
+          "odds": 1.44,
+          "kickoff": "2026-11-06T18:30:00Z",
+          "score": 65,
+          "tese": "O Lausanne-Ouchy lidera a segunda divisão suíça sem derrotas (8 vitórias e 4 empates em 12) e sofreu só cinco golos. Vai a casa do último classificado, que já sofreu 29. Nos últimos cinco jogos entre os dois, o Lausanne-Ouchy ganhou três e empatou dois. O risco é o empate: fora de casa empatou três de seis.",
+          "factors": [
+            "H2H oficial, últimos 5 (API, Challenge League 2025-2026): 2-0, 3-1 fora, 1-1, 3-3, 2-1 fora — Lausanne-Ouchy 3V 2E",
+            "Lausanne-Ouchy, últimos 5 oficiais (API; Challenge League e Taça da Suíça, sem os amigáveis com Grenoble e Sion): 3-2 Yverdon, 0-0 Xamax, 3-0 Étoile Carouge (Taça), 3-0 em Rapperswil, 0-0 em Yverdon; 3/5 vitórias",
+            "Classificação API, Challenge League 2026/27 (12 jornadas): Lausanne-Ouchy 1.º, 28 pts, fora 3V-3E-0D (9-3); Nyonnais 10.º e último, 8 pts, em casa 1V-2E-2D (6-8), 29 golos sofridos",
+            "Baixas: a API /injuries não lista nenhuma. Não se afirma nenhuma ausência",
+            "Preço: Bet365 1.44, Pinnacle 1.43"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1576006,
+          "match": "GAP Connah S Quay FC vs Flint Town United",
+          "league": "Cymru Premier (País de Gales)",
+          "pick": "Vitória Connah S Quay",
+          "odds": 1.33,
+          "kickoff": "2026-11-06T20:00:00Z",
+          "score": 65,
+          "tese": "O Connah S Quay é segundo, ganhou quatro dos últimos cinco e em casa leva 6 vitórias em 8, com 18 golos marcados e 3 sofridos. O Flint fora perdeu cinco de oito e sofreu 17. É o dérbi de Deeside, e os dérbis às vezes fogem ao guião, mas o Connah S Quay ganhou quatro dos últimos cinco frente a frente.",
+          "factors": [
+            "H2H oficial, últimos 5 (API, Cymru Premier 2025-2026): 2-1 fora, 2-0 fora, 3-2, 4-0, 1-2 fora — Connah S Quay 4V 1D",
+            "Connah S Quay, últimos 5 oficiais (API; liga e Taça de Gales): 0-0 em TNS, 2-0 Llandudno, 4-0 Porthmadog (Taça), 2-1 em Briton Ferry, 1-0 Penybont; 4/5 vitórias",
+            "Classificação API, Cymru Premier 2026/27 (15 jornadas): Connah S Quay 2.º, 35 pts, em casa 6V-1E-1D (18-3); Flint 13.º, 14 pts, fora 2V-1E-5D (7-17)",
+            "Baixas: a API /injuries não lista nenhuma; a pesquisa não trouxe antevisão com plantel. Não se afirma nenhuma ausência",
+            "Preço: Bet365 1.33, Pinnacle 1.38"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.88,
+      "score": 70,
+      "stake": 0.5,
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1561963,
+          "match": "Rapid Vienna vs Wolfsberger AC",
+          "league": "Bundesliga (Áustria)",
+          "pick": "Rapid vence e mais de 1.5 golos no jogo",
+          "odds": 1.35,
+          "kickoff": "2026-11-06T18:30:00Z",
+          "score": 72,
+          "tese": "O Rapid ganhou os últimos oito jogos oficiais e em casa leva seis vitórias em seis, com 23 golos marcados e 3 sofridos. O WAC é último, ganhou um jogo em onze jornadas e fora de casa marcou dois golos em cinco jogos. Todas as oito vitórias seguidas do Rapid tiveram dois ou mais golos, e é por isso que se junta o mais de 1.5 à vitória. O que estraga o bilhete é um 1-0.",
+          "factors": [
+            "H2H oficial, últimos 5 (API, Bundesliga AT 2025-2026): 3-0 fora (09/2026), 2-0, 2-1 fora, 0-1, 1-5 fora — vitória do Rapid com 2+ golos em 3/5",
+            "Rapid, últimos 5 oficiais (API; Bundesliga AT e Taça): 2-0 em Austria Wien, 3-0 em First Vienna (Taça), 5-1 Lustenau, 3-1 Hartberg, 2-0 em LASK; 5/5 vitórias, todas com 2+ golos",
+            "Classificação API, Bundesliga AT 2026/27 (11 jornadas): Rapid 1.º, 30 pts, em casa 6V-0E-0D (23-3); WAC 12.º e último, 6 pts, fora 0V-1E-4D (2-10)",
+            "Contexto (SK Rapid, antevisão de 04/11): melhor arranque do século, 10 vitórias em 11 jornadas; WAC com treinador novo, Manfred Schmid, e eliminado da Taça pelo Hertha Wels",
+            "Baixas: a API /injuries não lista nenhuma de nenhum lado e a antevisão oficial do Rapid não aponta ausências — duas fontes concordantes sem baixas conhecidas. A conferência de imprensa de quinta não foi encontrada",
+            "Preço: Marathonbet 1.35 (só a Marathonbet expõe este mercado); vitória simples Bet365 1.27, Pinnacle 1.26"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1494334,
+          "match": "Hammarby FF vs IF Elfsborg",
+          "league": "Allsvenskan",
+          "pick": "Hammarby marca mais de 1.5 golos",
+          "odds": 1.39,
+          "kickoff": "2026-11-06T18:00:00Z",
+          "score": 70,
+          "tese": "O Hammarby é segundo, a três pontos do Sirius com três jornadas por jogar, e tem de ganhar. Em casa marcou 36 golos em 13 jogos, quase três por jogo, e marcou dois ou mais em quatro dos últimos cinco jogos com o Elfsborg. A única baixa confirmada é o Amin Boudri, que já estava fora há semanas.",
+          "factors": [
+            "Hammarby em casa, Allsvenskan 2026 (API, 13 jogos): 36 marcados, 7 sofridos; Elfsborg fora (13 jogos): 17 sofridos",
+            "H2H oficial, últimos 5 (API, Allsvenskan 2023-2026): Hammarby marcou 2, 3, 2, 0 e 3 — 2+ em 4/5",
+            "Hammarby, últimos 5 oficiais (API, Allsvenskan, sem o amigável com Västerås): 2-1 em Malmö, 2-0 Sirius, 2-0 em Mjällby, 1-0 em Halmstad, 0-1 Djurgården — 2+ golos em 3/5",
+            "Classificação API, Allsvenskan 2026 (27 jornadas de 30): Sirius 58, Hammarby 55, Djurgården 52; Elfsborg 5.º com 46",
+            "Baixas Hammarby: Amin Boudri fora até ao fim da época (API /injuries “Inactive” e Fotbolldirekt 04/11) — duas fontes. Oliver Jordan Hagen fora (só Fotbolldirekt; não joga desde Setembro) e Hedlöf com problema na anca (só API) não pesam. Elfsborg: Wikström com fractura (só Fotbolldirekt)",
+            "Preço: Marathonbet 1.39; a mesma linha paga 1.44 na Bet365 e 1.42 na Pinnacle"
+          ]
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75 com investigação completa. O Hammarby vence (1.40) paga igual à Pinnacle (justo sem margem perto de 1.46), sem tipster que o confirme; fica perto de 70. O Rapid vence e menos de 5.5 (1.50) e o Lausanne-Ouchy vence (1.44) não têm antevisão com plantel em duas fontes; o Botev (1.40) e o Heracles (1.42) também não. O Nancy (1.62) e o VVV (1.62) ficam fora da banda e abaixo da Pinnacle."
+  }
+}

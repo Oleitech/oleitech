@@ -1,0 +1,215 @@
+{
+  "gerado": "2026-11-06T07:02:03.513Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1575218,
+      "data": "2026-11-06T19:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Hamburger SV - Borussia Mönchengladbach",
+      "amostra": {
+        "casa": 9,
+        "fora": 8,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.1,
+          "previsao": 28.5,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.532,
+            "prob_da_casa": 0.5,
+            "edge": -2.7,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.5,
+          "previsao": 10.1,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.519,
+            "prob_da_casa": 0.5,
+            "edge": -5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557460,
+      "data": "2026-11-06T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Everton - Coventry",
+      "amostra": {
+        "casa": 10,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28.6,
+          "previsao": 27.8,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -0.7,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.415,
+            "prob_da_casa": 0.5,
+            "edge": -24,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.8,
+          "previsao": 8.7,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.8,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.333,
+            "prob_da_casa": 0.464,
+            "edge": -33.5,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570450,
+      "data": "2026-11-06T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Sevilla - Alaves",
+      "amostra": {
+        "casa": 8,
+        "fora": 9,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 24.7,
+          "previsao": 24.8,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 24.5,
+          "discordancia": 0.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 24.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.483,
+            "prob_da_casa": 0.485,
+            "edge": -7.7,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.2,
+          "previsao": 9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 2.1,
+            "minha_prob": 0.5,
+            "prob_da_casa": 0.443,
+            "edge": 5,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492449,
+      "data": "2026-11-06T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vitoria - Fluminense",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.2,
+          "previsao": 27,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.429,
+            "prob_da_casa": 0.5,
+            "edge": -21.4,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.5,
+          "previsao": 9.3,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 2.1,
+            "minha_prob": 0.406,
+            "prob_da_casa": 0.443,
+            "edge": -14.8,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}
