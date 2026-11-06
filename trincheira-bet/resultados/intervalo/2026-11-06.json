@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-06",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1584462,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 10.5 cantos no jogo",
+      "match": "Gaziantep FK vs Kasımpaşa",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 2.1,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          2
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Ao intervalo há só 4 cantos, 2 para cada lado, e o Gaziantep fez 1 remate em 45 minutos. Na Süper Lig, em 47 jogos com dois golos de diferença e 4 a 6 cantos ao intervalo, a 2ª parte deu 6 cantos em média. Para esta aposta perder são precisos 7 cantos ou mais só na 2ª parte.",
+      "sentAt": 1793987352176,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 2,
+      "pnl": 0.55,
+      "return": 1.05,
+      "resolvedAt": 1793992599846
+    },
+    {
+      "fixtureId": 1552817,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4 cantos na 2ª parte (5 ou mais)",
+      "match": "Toulouse vs Strasbourg",
+      "league": "Ligue 1",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.952,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          1
+        ],
+        "amarelos": [
+          2,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Strasbourg perde 1-0 e já tem 58% de bola, por isso vai carregar e o Toulouse vai recuar. Na Ligue 1, jogos com um golo de diferença ao intervalo deram 5 ou mais cantos na 2ª parte em 55 a 57% das vezes, e a casa paga 1.95.",
+      "sentAt": 1793997384017,
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 1,
+      "pnl": 0.476,
+      "return": 0.976,
+      "resolvedAt": 1794002412692
+    },
+    {
+      "fixtureId": 1575539,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Famalicão marca na 2ª parte",
+      "match": "Famalicao vs Arouca",
+      "league": "Primeira Liga",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.7,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          0
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Famalicão fez 8 remates contra 3, tem 4 cantos contra nenhum e criou quase tudo o que houve de perigo (0.42 contra 0.06 na API, 0.52 contra 0.08 no FotMob). Num 0-0 com uma equipa a mandar assim, quem manda costuma marcar na 2ª parte, e a 1.83 paga bem.",
+      "sentAt": 1794000836590,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0.4165,
+      "return": 0.9165,
+      "resolvedAt": 1794006045929
+    }
+  ]
+}
