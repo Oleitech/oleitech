@@ -1,0 +1,804 @@
+{
+  "date": "2026-11-07",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1584460,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3 golos no jogo (linha asiática)",
+      "match": "Eyüpspor vs Kocaelispor",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 1.5,
+      "oddMinima": 1.4,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Kocaelispor já fez 5 remates à baliza e o Eyüpspor, a perder 0-2, tem de ir para a frente. Na Süper Lig, jogos assim ao intervalo dão golo na 2ª parte mais de 8 vezes em 10. Com mais um golo recebemos a aposta de volta, e com dois ganhamos.",
+      "sentAt": 1794050444994,
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794055514814
+    },
+    {
+      "fixtureId": 1563253,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7 cantos no jogo",
+      "match": "Bristol City vs Norwich",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.615,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Bristol perde 0-1 em casa e já leva 3 cantos contra 0, com 6 remates contra 2. Vai ter de carregar na 2ª parte, e chegam 5 cantos para fazer os 8.",
+      "sentAt": 1794057615796,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 5,
+      "pnl": 0.3075,
+      "return": 0.8075,
+      "resolvedAt": 1794062817147
+    },
+    {
+      "fixtureId": 1563257,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "Portsmouth vs Stoke City",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.95,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          0
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Portsmouth já tem 5 cantos contra 0 do Stoke. Faltam 5 na 2ª parte, e na Championship, com 1-0 ao intervalo e 4 a 6 cantos na 1ª parte, isso aconteceu em 61% dos jogos. Com o Stoke a ter de ir atrás do empate, a 1.95 vale a pena.",
+      "sentAt": 1794057820007,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794062817147
+    },
+    {
+      "fixtureId": 1557463,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Leeds vs Tottenham",
+      "league": "Premier League",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.2,
+      "oddMinima": 2.05,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          2
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Foi uma primeira parte fechada, com só 3 remates à baliza no total. Mesmo assim, nos jogos da Premier que chegaram assim ao intervalo saíram dois ou mais golos na segunda parte em cerca de metade das vezes, e a casa paga 2.20 por isso.",
+      "sentAt": 1794057987573,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794062817147
+    },
+    {
+      "fixtureId": 1584465,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Samsunspor vs Konyaspor",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.2,
+      "oddMinima": 1.95,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Na Süper Lig, em quase 200 jogos com 1-0 ao intervalo e números parecidos, mais de metade deram dois golos ou mais na 2ª parte. Aqui o Samsunspor já fez 3 remates à baliza contra 1, e o Mais de 2.5 a 2.20 paga acima do que isso vale.",
+      "sentAt": 1794059513397,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794064624766
+    },
+    {
+      "fixtureId": 1575220,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 cartões no jogo",
+      "match": "SC Paderborn 07 vs Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.25,
+      "oddMinima": 2.1,
+      "precoAoVivo": true,
+      "tipo": "cartoes",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Está 1-1 e ainda não se viu um único amarelo, nem a jogadores nem ao banco, apesar das 13 faltas na 1ª parte. Na Bundesliga, os empates com golos ao intervalo deram em média 3 amarelos na 2ª parte (71 jogos), e com as duas equipas a quererem ganhar, 3 cartões a 2.25 pagam bem.",
+      "sentAt": 1794064939669,
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": 0.625,
+      "return": 1.125,
+      "resolvedAt": 1794070015173
+    },
+    {
+      "fixtureId": 1556702,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 16.5 cantos no jogo",
+      "match": "Dundee Utd vs Motherwell",
+      "league": "Premiership",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.666,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          5
+        ],
+        "amarelos": [
+          2,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já se bateram 10 cantos (5 para cada lado) e, para passar os 16.5, eram precisos 7 na 2ª parte. Em jogos empatados com golos ao intervalo, a 2ª parte dá à volta de 5 cantos: a casa está a contar com o ritmo da 1ª parte.",
+      "sentAt": 1794066776313,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794071812865
+    },
+    {
+      "fixtureId": 1563261,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 8.5 cantos no jogo",
+      "match": "West Brom vs Millwall",
+      "league": "Championship",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.571,
+      "oddMinima": 1.5,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Vão 4 cantos e o West Brom continua a carregar no 0-0, com 70% de bola e 9 remates contra 3. Na Championship, um 0-0 ao intervalo deu 5 ou mais cantos na 2ª parte em quase 7 de cada 10 jogos, e é isso que falta para passar os 8.",
+      "sentAt": 1794066777002,
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": 0.2855,
+      "return": 0.7855,
+      "resolvedAt": 1794071812865
+    },
+    {
+      "fixtureId": 1558679,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo",
+      "match": "KVC Westerlo vs Charleroi",
+      "league": "Jupiler Pro League",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.625,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          3
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Vão 3 cantos ao intervalo, todos do Charleroi, por isso faltam 5 na 2ª parte. Na liga belga, em jogos 0-0 com poucos cantos ao intervalo, saíram 5 ou mais na 2ª parte em 65 a 69% das vezes.",
+      "sentAt": 1794066970971,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 5,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794071812865
+    },
+    {
+      "fixtureId": 1570446,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Espanyol vs Deportivo La Coruna",
+      "league": "La Liga",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.25,
+      "oddMinima": 2.25,
+      "precoAoVivo": false,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          4
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Primeira parte fraca, 0-0 e só 0.57 de xG somado, mas em La Liga quase metade dos jogos assim acabam com dois golos na 2ª parte. Só entra a 2.25 ou mais.",
+      "sentAt": 1794067657609,
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794071812865
+    },
+    {
+      "fixtureId": 1494336,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Orgryte IS vs Vasteras SK FK",
+      "league": "Allsvenskan",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.25,
+      "oddMinima": 2.25,
+      "precoAoVivo": false,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Está 0-0, mas os dois já acertaram na baliza (2 remates cada) e houve um penálti falhado. Na Allsvenskan, jogos assim ao intervalo deram 2 ou mais golos na 2ª parte quase metade das vezes, por isso só se entra a 2.25 ou mais.",
+      "sentAt": 1794071990596,
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794077114245
+    },
+    {
+      "fixtureId": 1550194,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Parma vs Bologna",
+      "league": "Serie A",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.909,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          8
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          1,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Parma joga com dez desde os 9 minutos e o Bologna está encostado lá à frente, com 8 cantos contra 0. Com 45 minutos assim, o golo vai cair e há boa hipótese de saírem dois.",
+      "sentAt": 1794073950324,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0.4545,
+      "return": 0.9545,
+      "resolvedAt": 1794078933130
+    },
+    {
+      "fixtureId": 1570448,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Osasuna vs Athletic Club",
+      "league": "La Liga",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.5,
+      "oddMinima": 2.3,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          2
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Está 0-0 e a 1ª parte foi fraca, com só 3 remates à baliza no total. Mas em La Liga, depois de um intervalo assim, a 2ª parte deu 2 ou mais golos em quase metade dos jogos, e a 2.50 o preço paga isso.",
+      "sentAt": 1794075663171,
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": 0.75,
+      "return": 1.25,
+      "resolvedAt": 1794080808261
+    },
+    {
+      "fixtureId": 1593353,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 7.5 cantos no jogo",
+      "match": "Aris Thessalonikis vs Panetolikos",
+      "league": "Super League (Grécia)",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Só houve 3 cantos na 1ª parte, e na Grécia, com 1-0 ao intervalo, a 2ª parte só deu 5 ou mais cantos em 4 de cada 10 jogos. Chega que não haja mais de 4 até ao fim.",
+      "sentAt": 1794075663624,
+      "result": "RED",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794080808261
+    },
+    {
+      "fixtureId": 1557465,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 11.5 cantos no jogo",
+      "match": "Nottingham Forest vs Manchester City",
+      "league": "Premier League",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          4
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O City perde 2-0, tem 75% de bola e vai passar a 2ª parte encostado à área do Forest. Já vão 6 cantos (2-4), faltam mais 6, e nos jogos parecidos da Premier a 2ª parte deu 5.6 cantos de média.",
+      "sentAt": 1794075867894,
+      "result": "RED",
+      "finalHome": 3,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794080808261
+    },
+    {
+      "fixtureId": 1556700,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 18.5 cantos no jogo",
+      "match": "Aberdeen vs Hibernian",
+      "league": "Premiership",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.1,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          8,
+          5
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 13 cantos ao intervalo e a casa está a pedir mais 6 na 2ª parte. Na liga escocesa, em jogos 0-0 como este, a 2ª parte dá 5,3 cantos de média, por isso chegam 5 ou menos para ganhar.",
+      "sentAt": 1794076504262,
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 4,
+      "pnl": 0.55,
+      "return": 1.05,
+      "resolvedAt": 1794080808262
+    },
+    {
+      "fixtureId": 1555419,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Grasshoppers vs Lausanne",
+      "league": "Super League",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          4
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Lausanne está a perder 1-0 mas rematou 8 vezes contra 5 e passou a 1ª parte metido na área do Grasshoppers. O jogo está aberto dos dois lados, e na Suíça este tipo de jogo dá dois golos na 2ª parte mais de metade das vezes.",
+      "sentAt": 1794082800211,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794087956637
+    },
+    {
+      "fixtureId": 1552815,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 8.5 cantos no jogo",
+      "match": "Paris Saint Germain vs Estac Troyes",
+      "league": "Ligue 1",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.9,
+      "oddMinima": 1.4,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          0
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "O PSG já leva 5 cantos contra 0 e tem 79% de bola. Só ganha por 1-0, por isso vai continuar a carregar. Faltam 4 cantos na 2ª parte, e na Ligue 1 a média da 2ª parte é de 5 nestes jogos.",
+      "sentAt": 1794084910751,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794089263405
+    },
+    {
+      "fixtureId": 1490603,
+      "strategy": "⏸️ INTERVALO",
+      "market": "New York Red Bulls -1 (handicap asiático)",
+      "match": "New York Red Bulls vs Atlanta United FC",
+      "league": "Major League Soccer",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.7,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Os Red Bulls ganham 1-0 e mandam no jogo: 2.08 de xG contra 0.32 e 5 remates à baliza contra nenhum do Atlanta, e o FotMob dá os mesmos números. Conta o resultado final: se ganharem por 2 ou mais é green, se ganharem por 1 a aposta é devolvida.",
+      "sentAt": 1794088782872,
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": 0.35,
+      "return": 0.85,
+      "resolvedAt": 1794093385274
+    }
+  ]
+}
