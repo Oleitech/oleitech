@@ -1,0 +1,243 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T07:20:27Z",
+  "units": "stakes",
+  "notes": "Sábado cheio: o Forest-City na Premier, o Valencia-Real à noite, PSG, Roma, a Bundesliga da tarde e a primeira eliminatória da Taça de Inglaterra.\n\nSai uma tip só, e a meia stake. Os jogos grandes estão bem cotados e nenhum preço entre 1.55 e 1.89 bate a Pinnacle. O City a 1.73 em Nottingham é o que fica mais perto, e mesmo assim paga menos do que devia. A tip é o menos de 2.5 no Arbroath-Ayr, da segunda divisão escocesa: o Arbroath marcou um golo nos últimos cinco jogos e os cinco últimos entre os dois acabaram com dois golos ou menos. É o modelo dos golos que lhe vê valor, não o mercado, e não apareceu notícia nenhuma de plantel, por isso fica pela meia stake.\n\nSaem dois curtos a meia stake. O primeiro, a 2.64, junta Rangers, Aris e Luton; o ponto fraco é o Aris, que vem de duas derrotas seguidas. O segundo, a 2.83, junta Roma, Leipzig e MK Dons; o ponto fraco é o MK Dons, numa eliminatória da Taça onde tudo pode acontecer.\n\nO corvo, a 1.88 na Marathonbet, junta o PSG a ganhar com três golos ou mais e o Real a ganhar com pelo menos dois golos no jogo. O PSG pode mexer no onze, e é aí que o bilhete aperta.\n\nNão há jogos repetidos entre bilhetes. Exposição do dia: duas stakes.",
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Menos de 2.5 golos",
+      "fixtureId": 1556891,
+      "home": {
+        "name": "Arbroath",
+        "logo": "https://media.api-sports.io/football/teams/4249.png"
+      },
+      "away": {
+        "name": "Ayr Utd",
+        "logo": "https://media.api-sports.io/football/teams/1387.png"
+      },
+      "league": "Championship (Escócia)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/180.png",
+      "kickoff": "2026-11-07T15:00:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 23.5,
+        "prob_modelo": 0.626,
+        "prob_mercado": 0.556,
+        "valor": 0.065
+      },
+      "tese": "O Arbroath marcou um golo nos últimos cinco jogos do campeonato e é o pior ataque da divisão, com sete golos em treze jornadas. Os cinco últimos jogos oficiais entre os dois acabaram todos com dois golos ou menos: 2-0, 1-0 e três empates a um. O Ayr fora de casa também joga jogos fechados, quatro dos cinco ficaram abaixo dos três golos. É um campeonato de poucos golos e os dois chegam aflitos na metade de baixo da tabela, o que puxa para um jogo amarrado. O que pesa contra: na última vez que jogou em casa o Arbroath levou quatro do Raith, e não se encontrou antevisão com o plantel deste jogo, por isso uma baixa de última hora pode passar ao lado.",
+      "factors": [
+        "H2H oficial, últimos 5 (API /fixtures/headtohead, Championship escocesa 2025-2026): 2-0 Ayr (08/2026), 1-0 Ayr (04/2026), 1-1 (03/2026), 1-1 (11/2025), 1-1 (08/2025) — menos de 2.5 em 5/5. O 4-0 da Taça da Liga de 07/2025 é o sexto e fica fora da janela",
+        "Arbroath em casa, Championship 2026/27 (API /fixtures, n=6): 0-0 Inverness, 1-0 Livingston, 1-1 Dunfermline, 2-1 Queen’s Park, 1-2 Morton, 0-4 Raith — menos de 2.5 em 3/6",
+        "Ayr fora, Championship 2026/27 (API /fixtures, n=5): 1-1 Dunfermline, 0-2 Raith, 0-1 Partick, 2-0 Queen’s Park, 2-1 Livingston — menos de 2.5 em 4/5",
+        "Arbroath, últimos 5 de campeonato (API /fixtures): 0-4 Raith, 0-1 em Livingston, 0-2 em Inverness, 1-2 Morton, 0-3 em Partick — 1 golo marcado. API /teams/statistics (n=13): 7 marcados, 22 sofridos, 8 jogos em branco",
+        "Classificação API, Championship 2026/27: Ayr 7.º, 15 pts em 12 jogos (13-14); Arbroath 8.º, 11 pts em 13 jogos (7-22). Média da liga 2,15 golos por jogo (FootyStats)",
+        "xG FootyStats (Championship 2026/27, sem tamanho de amostra declarado na página): Arbroath em casa 0,72 xG; Ayr fora 0,76 xG — só contexto, coerente com os números da API",
+        "Baixas: a API /injuries não lista nenhuma e não se encontrou antevisão com plantel (SportsGambler sem página para este jogo; sites dos clubes sem antevisão de 11/2026). Não se afirma nenhuma ausência — por isso context_depth partial",
+        "Modelo de golos: 62,6% para menos de 2.5 contra 55,6% do mercado; Bet365 1.70 (valor 6,5%), Marathonbet 1.66 (4,0%) — confirmados por jogo às 07:20Z. Pinnacle 1.71 (justo sem margem perto de 1.79): o mercado não vê valor, é o modelo que o vê",
+        "Terceiros: FootyStats dá 35% para mais de 2.5 neste jogo (65% para menos); FootballPredictions.com sem prognóstico para este jogo; API predictions 0/50/50 (dupla hipótese X2)"
+      ],
+      "sources": [
+        "golos/previsoes/2026-11-07.json — sinal do modelo",
+        "API-Football — /fixtures (época e últimos 8), /fixtures/headtohead, /teams/statistics e /standings Championship escocesa 2026, /predictions, /injuries (vazio), /odds Bet365, Marathonbet e Pinnacle",
+        "FootyStats — página H2H Ayr United vs Arbroath (splits e xG)",
+        "SportsGambler — sem página para este jogo (redirecciona para a lista do dia)",
+        "Arbroath FC e Ayr United FC — sem antevisão de 11/2026 (pesquisa)"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.64,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1556704,
+          "match": "ST Mirren vs Rangers",
+          "league": "Premiership (Escócia)",
+          "pick": "Vitória Rangers",
+          "odds": 1.4,
+          "kickoff": "2026-11-07T20:00:00Z",
+          "score": 65,
+          "tese": "O Rangers não perde há oito jogos oficiais e ganhou quatro dos últimos cinco com o St Mirren, incluindo os dois desta época. O St Mirren ganhou um jogo em oito e levou cinco do Hearts há um mês. É vitória do favorito, não de goleada: o Rangers empatou fora em Dundee e em Tynecastle nas últimas semanas.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Premiership e Taça da Liga 2025-2026): 1-0 (09/2026), 5-1 (Taça da Liga 08/2026), 1-0 fora (03/2026), 2-1 (12/2025), 1-1 fora (08/2025) — Rangers 4V 1E",
+            "Rangers, últimos 5 oficiais (API /fixtures; Premiership e Taça da Liga): 1-0 Aberdeen, 2-2 em Hearts, 4-0 St Johnstone, 2-2 em Dundee, 3-1 Kilmarnock — 3V 2E",
+            "St Mirren, últimos 8 oficiais (API /fixtures, Premiership): 1V 1E 6D, com 0-5 em Hearts e 0-3 com o Dundee United em casa",
+            "Baixas Rangers: Shankland e Chermiti (SportsGambler e STV 07/09/2026), Yokota (SportsGambler e LiveScore/Inside Ibrox, cirurgia a 10/09) — duas fontes; Souttar e Cifuentes só na SportsGambler, não se afirmam. API /injuries vazia",
+            "Preço: Bet365 1.40, Pinnacle 1.39"
+          ],
+          "notes": "Segunda fonte das baixas (QA 07/11): Shankland (posterior da coxa, operado) e Chermiti (joelho, época em risco) confirmados pela STV (07/09/2026); Yokota (virilha, operado a 10/09) e Shankland confirmados pela LiveScore/Inside Ibrox. Souttar e Cifuentes continuam só na SportsGambler — não se afirmam. As baixas já vinham de Setembro e a forma 3/5 e o H2H 4/5 foram feitos sem eles: a perna mantém-se."
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1593353,
+          "match": "Aris Thessalonikis vs Panetolikos",
+          "league": "Super League (Grécia)",
+          "pick": "Vitória Aris",
+          "odds": 1.42,
+          "kickoff": "2026-11-07T17:30:00Z",
+          "score": 65,
+          "tese": "O Panetolikos perdeu os últimos cinco jogos de campeonato e marcou um golo nesses cinco. O Aris ganhou quatro dos últimos cinco jogos oficiais com este adversário e está invicto em casa há sete jogos. O ponto fraco é o Aris vir de duas derrotas seguidas, 0-3 em Levadiakos e a eliminação da Taça.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Super League e Taça 2025-2026): 1-0 fora (01/2026), 2-0 (Taça 01/2026), 1-0 fora (Taça 09/2025), 0-2 (08/2025), 2-1 (02/2025) — Aris 4V 1D",
+            "Aris, últimos 5 oficiais (API /fixtures; Super League e Taça): 0-3 em Levadiakos, 1-2 em Panathinaikos (Taça), 3-1 Atromitos, 2-1 em Kifisia, 3-2 Volos — 3V 2D",
+            "Panetolikos, últimos 5 de campeonato (API /fixtures): 0-1 OFI, 0-5 em AEK, 0-2 Olympiakos, 0-2 em Kifisia, 1-3 PAOK — 5 derrotas, 1 golo",
+            "SportsGambler: Aris 5.º (16 pts), Panetolikos 10.º (9 pts); Aris invicto em casa há sete jogos; pick Aris -1.25. Sem baixas listadas de nenhum lado, API /injuries vazia",
+            "Preço: Bet365 1.42, Pinnacle 1.44"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1646912,
+          "match": "Luton vs Forest Green",
+          "league": "Taça de Inglaterra",
+          "pick": "Vitória Luton",
+          "odds": 1.33,
+          "kickoff": "2026-11-07T15:00:00Z",
+          "score": 65,
+          "tese": "O Luton, da League One, recebe o Forest Green, da quinta divisão, e ganhou quatro dos últimos cinco jogos oficiais entre os dois, incluindo a eliminatória da Taça do ano passado (4-3). Em campeonato ganhou quatro dos últimos cinco. Numa eliminatória a uma mão o risco é a rotação, e o Forest Green marca: 4-3 nesse jogo de 2025.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead; Taça de Inglaterra 2025, League Two 2017-18, National League 2013-14): 4-3, 3-1, 2-0 fora, 4-1, 0-0 fora — Luton 4V 1E. Divisões diferentes hoje, mas o histórico existe",
+            "Luton, últimos 5 oficiais (API /fixtures, League One): 1-1 em Huddersfield, 2-0 em Peterborough, 3-1 Doncaster, 2-1 Leicester, 2-1 Barnsley — 4V 1E",
+            "Forest Green, últimos 5 oficiais (API /fixtures; National League e Taça): 2-2 Harrogate, 2-0 Eastleigh, 5-0 e 0-0 com o Chesham (Taça), 2-4 Hartlepool",
+            "Baixas: API /injuries vazia; sem antevisão com plantel. Não se afirma nenhuma ausência",
+            "Preço: Bet365 1.33, Pinnacle 1.31"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "curto",
+      "combined_odds": 2.83,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1550187,
+          "match": "AS Roma vs Sassuolo",
+          "league": "Serie A",
+          "pick": "Vitória Roma",
+          "odds": 1.3,
+          "kickoff": "2026-11-07T19:45:00Z",
+          "score": 65,
+          "tese": "O Sassuolo perdeu quatro dos últimos cinco jogos e sofreu 16 golos nesses cinco, e chega sem cinco jogadores. A Roma ganhou quatro dos últimos cinco com o Sassuolo e marca muito (5-2 em Udine, 4-2 ao Cagliari). O ponto fraco são as baixas da Roma, que a SportsGambler dá longas: Svilar, Dybala, Pellegrini, Koné.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Serie A 2023-2026): 2-0 (01/2026), 1-0 fora (10/2025), 1-0 (03/2024), 2-1 fora (12/2023), 3-4 (03/2023) — Roma 4V 1D",
+            "Roma, últimos 5 oficiais (API /fixtures; Serie A e Champions): 2-3 em Manchester United, 5-2 em Udinese, 4-2 Cagliari, 3-3 em Nápoles, 4-0 Slovan — 3V 1E 1D",
+            "Sassuolo, últimos 5 (API /fixtures, Serie A): 2-4 Fiorentina, 2-6 Lazio, 0-2 em Como, 2-4 em Frosinone, 1-1 Milan — 4D 1E, 16 sofridos",
+            "Baixas Sassuolo: Ismael Koné, Boloca e Yeferson Paz na API /injuries e na SportsGambler — duas fontes; Pieragnolo e Fali Candé só na API. Roma: Svilar, Dybala, Manu Koné e Rensch na SportsGambler e na Fantacalcio.it (04/11) — duas fontes; Pellegrini, Gollini e Ziolkowski só na SportsGambler",
+            "Preço: Bet365 1.30, Pinnacle 1.29"
+          ],
+          "notes": "Segunda fonte das baixas (QA 07/11): Svilar e Dybala só voltam depois da paragem das selecções e o Koné segue o mesmo protocolo de prudência (Fantacalcio.it, 04/11/2026); Rensch também fora, cerca de três semanas (Fantacalcio citando a Sky). Pellegrini continua só na SportsGambler — não se afirma. A Roma joga sem eles desde as últimas jornadas e a regra da perna (H2H 4/5, forma 3/5, sem red flag do adversário) continua a passar: a perna mantém-se."
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1575213,
+          "match": "RB Leipzig vs FC Augsburg",
+          "league": "Bundesliga",
+          "pick": "Vitória RB Leipzig",
+          "odds": 1.45,
+          "kickoff": "2026-11-07T14:30:00Z",
+          "score": 65,
+          "tese": "O Augsburg não ganha há seis jornadas de Bundesliga e o Leipzig ganhou três dos últimos cinco com ele sem perder nenhum. Em casa o Leipzig bateu o Elversberg 4-0 e o Frankfurt 6-0; as duas derrotas recentes foram na Champions, com o City e o Real. O ponto fraco é o Augsburg empatar muito: três empates nessas seis jornadas, um deles com o Bayern.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Bundesliga 2023-2026): 2-1 (03/2026), 6-0 fora (10/2025), 0-0 fora (02/2025), 4-0 (09/2024), 2-2 fora (02/2024) — Leipzig 3V 2E",
+            "Leipzig, últimos 5 oficiais (API /fixtures; Bundesliga, Taça e Champions): 2-3 Manchester City, 2-0 em Schalke, 2-1 em Rot-Weiss Essen (Taça), 4-0 Elversberg, 1-4 em Madrid — 3V 2D",
+            "Augsburg, últimas 6 de Bundesliga (API /fixtures, sem o amigável com o Hertha): 1-2 Freiburg, 1-1 Union, 3-4 em Elversberg, 2-2 Bayern, 2-3 em Bremen, 2-2 Leverkusen — 0V 3E 3D",
+            "Baixas: API /injuries vazia; SportsGambler dá fora no Leipzig Klostermann (castigo), Finkgräfe, Guiu, Ouedraogo, e no Augsburg Jakic (castigo), Banks, Breithaupt — uma fonte, contexto",
+            "Preço: Bet365 1.45, Pinnacle 1.47"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1646808,
+          "match": "Milton Keynes Dons vs Swindon Town",
+          "league": "Taça de Inglaterra",
+          "pick": "Vitória MK Dons",
+          "odds": 1.5,
+          "kickoff": "2026-11-07T15:00:00Z",
+          "score": 65,
+          "tese": "O MK Dons está a ganhar na League One: quatro vitórias nos últimos cinco, com 6-1 ao Doncaster e 4-1 ao Bromley em casa. O Swindon joga a League Two e o MK Dons ganhou três dos últimos cinco jogos oficiais com ele. Paga acima da Pinnacle. O ponto fraco é a Taça: a última derrota com o Swindon foi um 0-4 em casa no Trophy.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead; League Two 2024-2026 e EFL Trophy): 2-1 fora (03/2026), 1-0 (12/2025), 0-4 (Trophy 11/2025), 0-0 fora (05/2025), 3-1 (11/2024) — MK Dons 3V 1E 1D",
+            "MK Dons, últimos 5 oficiais (API /fixtures, League One): 6-1 Doncaster, 4-1 Bromley, 1-0 em Stevenage, 0-2 em Blackpool, 2-1 Luton — 4V 1D",
+            "Swindon, últimos 5 oficiais (API /fixtures, League Two): 2-1 Rotherham, 0-0 em Bristol Rovers, 3-1 em Barnet, 1-1 Walsall, 0-1 Crewe",
+            "Baixas: API /injuries vazia; sem antevisão com plantel. Não se afirma nenhuma ausência",
+            "Preço: Bet365 1.50, Pinnacle 1.45"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.88,
+      "score": 70,
+      "stake": 0.5,
+      "bookmaker": "Marathonbet",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1552815,
+          "match": "Paris Saint Germain vs Estac Troyes",
+          "league": "Ligue 1",
+          "pick": "PSG vence e mais de 2.5 golos no jogo",
+          "odds": 1.37,
+          "kickoff": "2026-11-07T20:05:00Z",
+          "score": 70,
+          "tese": "O PSG ganhou os últimos oito jogos oficiais e em seis deles houve três golos ou mais. Mesmo sem o Dembélé, o Marquinhos e o Kvaratskhelia, lesionados desde o jogo com o Barcelona, ganhou 2-0 ao Lyon, 5-1 em Le Havre e 6-0 em Villarreal. O Troyes marcou cinco golos nos últimos sete jogos de campeonato. O que estraga o bilhete é a rotação: a antevisão dá um onze com Ferran Torres, Mayulu e Godts, e um 2-0 chega para cair.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Ligue 1 2017-2023): 3-1 fora, 4-3, 2-2, 2-1 fora, 2-0 fora — PSG vence com 3+ golos em 3/5",
+            "PSG, últimos 5 oficiais (API /fixtures; Ligue 1 e Champions): 6-0 em Villarreal, 5-1 em Le Havre, 2-0 Lyon, 4-2 Barcelona, 3-1 em Estrasburgo — 5V, 3+ golos em 4/5",
+            "Troyes, últimos 5 de Ligue 1 (API /fixtures, sem o amigável com o Dijon): 2-0 Le Mans, 0-0 em Toulouse, 1-3 Lens, 0-2 Marseille, 0-2 em Angers",
+            "Baixas PSG: Dembélé e Marquinhos (músculo) e Kvaratskhelia (ligamentos) na SportsGambler e na CulturePSG — duas fontes. Nuno Mendes na SportsGambler (a CulturePSG já o dava fora antes do Barcelona). API /injuries vazia. Troyes sem baixas (SportsGambler)",
+            "Antevisão SportsGambler: onze provável com Safonov, Zaire-Emery, Zabarnyi, Hernández, Digne, Neves, Beraldo, Dro Fernández, Ferran Torres, Mayulu e Godts; pick Troyes +2.5 — contra a perna, fica registado",
+            "Preço: Marathonbet 1.37 (só a Marathonbet expõe este mercado); vitória simples Bet365 1.12, Pinnacle 1.12; mais de 2.5 Bet365 1.28"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1570451,
+          "match": "Valencia vs Real Madrid",
+          "league": "La Liga",
+          "pick": "Real Madrid vence e mais de 1.5 golos no jogo",
+          "odds": 1.37,
+          "kickoff": "2026-11-07T20:00:00Z",
+          "score": 72,
+          "tese": "O Real ganhou os últimos sete jogos oficiais, seis deles com dois golos ou mais no jogo, e sem o Vinícius, castigado, ganhou os três de campeonato: 4-1 ao Sevilha, 2-1 em Barcelona e 3-0 em Santander. O Valencia ganhou dois dos últimos dez de liga. Nos últimos cinco com o Valencia, o Real ganhou com dois ou mais golos no jogo em três. O que estraga é um 1-0 ou o Valencia a segurar o empate em Mestalla.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, La Liga 2024-2026): 2-0 fora (02/2026), 4-0 (11/2025), 1-2 (04/2025), 2-1 fora (01/2025), 2-2 fora (03/2024) — Real vence com 2+ golos em 3/5",
+            "Real, últimos 5 oficiais (API /fixtures; La Liga e Champions): 3-2 em Atenas, 3-0 em Santander, 2-1 em Barcelona, 4-1 Leipzig, 4-1 Sevilha — 5V, todos com 2+ golos",
+            "Valencia, últimos 5 de La Liga (API /fixtures): 1-0 em Elche, 1-2 Villarreal, 0-0 Athletic, 2-2 em Santander, 2-3 Real Sociedad. SportsGambler: 2V 2E 6D nos últimos dez de liga, sem ganhar em Mestalla há seis",
+            "Baixas Real: Vinícius castigado (quatro jogos pela expulsão com o Villarreal a 10/10; este é o quarto) — SportsGambler e El Comercio/Emol, duas fontes. Rodrygo, Mendy e Asencio só na SportsGambler — contexto. Mourinho confirmou Huijsen, Konaté, Tchouaméni e Güler no onze e anunciou rotações (Comuniate, 04/11). API /injuries vazia",
+            "Preço: Marathonbet 1.37; vitória simples Bet365 1.25, Pinnacle 1.25"
+          ]
+        }
+      ]
+    }
+  ],
+  "sombra": [],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40-1.60 chegou a 75 com investigação completa. Rangers vence (1.40) paga igual à Pinnacle (1.39) e as baixas do Rangers (Shankland, Chermiti) só vêm de uma fonte; Aris vence (1.42) está abaixo da Pinnacle (1.44) e vem de duas derrotas; Leipzig vence (1.45) abaixo da Pinnacle (1.47) com seis baixas numa fonte só; LASK vence (1.50) caiu com o Ried invicto há cinco jornadas; MK Dons vence (1.50) é eliminatória de Taça sem antevisão com plantel. Todas ficam perto de 65-70."
+  }
+}

@@ -61,17 +61,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.1,
-          "preferida": true
+          "preferida": true,
+          "ganhou": false,
+          "retorno": -1
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.24,
-          "preferida": true
+          "preferida": true,
+          "ganhou": false,
+          "retorno": -1
         }
       },
       "historico": {
         "cantos_6_5": 0.788,
         "cantos_7_5": 0.691
+      },
+      "real": {
+        "baliza": 11,
+        "cantos": 4
       }
     },
     {
@@ -99,17 +107,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.12,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.12
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.28,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.28
         }
       },
       "historico": {
         "cantos_6_5": 0.788,
         "cantos_7_5": 0.691
+      },
+      "real": {
+        "baliza": 8,
+        "cantos": 11
       }
     },
     {
