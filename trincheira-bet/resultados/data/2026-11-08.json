@@ -1,0 +1,978 @@
+{
+  "date": "2026-11-08",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.69,
+        "score": 65,
+        "stake": 0.5,
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1558672,
+            "match": "Club Brugge KV vs Anderlecht",
+            "league": "Jupiler Pro League (Bélgica)",
+            "pick": "Club Brugge vence",
+            "odds": 1.5,
+            "kickoff": "2026-11-08T12:30:00Z",
+            "score": 65,
+            "tese": "O Brugge ganhou os últimos oito jogos oficiais, com a vitória em Eindhoven na Champions pelo meio, e no campeonato ganhou os últimos dez em casa. O Anderlecht fora de casa perdeu seis dos últimos dez e sofre mais de dois golos por jogo. O Anderlecht chega com dois defesas lesionados e o Brugge sem o Ordóñez.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Pro League 2025-2026): 3-1 fora (05/2026), 4-2 casa (04/2026), 2-2 casa (03/2026), 0-1 fora (11/2025), 3-1 fora (05/2025) — Brugge vence 3/5",
+              "Brugge, últimos 5 oficiais (API /fixtures; Champions, Pro League, Taça): 2-1 em PSV, 4-2 em Zulte Waregem, 3-2 St. Truiden, 3-0 Lens, 1-0 Lokeren-Temse — 5/5 vitórias; 8/8 nos últimos oito",
+              "SportsGambler, últimos 10 de Pro League: Brugge em casa 10V-0E-0D, 3.50 marcados e 0.60 sofridos por jogo; Anderlecht fora 3V-1E-6D, 2.20 sofridos por jogo",
+              "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Ordóñez (pé) no Brugge; Ilay Camara (pé) e Lucas Hey (perna) no Anderlecht. Bertaccini castigado só na SportsGambler; Koutsoupias fora na API mas no onze provável da SportsGambler — não se assume nenhum dos dois",
+              "Preço: Bet365 1.50, Pinnacle 1.52, Marathonbet 1.48 (por jogo, 07:15Z). SportsGambler vai pelo Brugge -1.25 — alinhado"
+            ],
+            "result": "RED",
+            "final_score": "1-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1494801,
+            "match": "Sandefjord vs Molde",
+            "league": "Eliteserien (Noruega)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.4,
+            "kickoff": "2026-11-08T16:00:00Z",
+            "score": 65,
+            "tese": "O Molde marcou e sofreu nos últimos cinco jogos oficiais, com 19 golos marcados nesse período. O Sandefjord marcou em três dos últimos cinco e os últimos cinco jogos entre os dois deram ambas marcam em três.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Eliteserien 2024-2026): 1-2 fora (05/2026), 3-1 fora (10/2025), 3-0 casa (04/2025), 1-0 fora (10/2024), 3-1 casa (05/2024) — ambas marcam 3/5",
+              "Molde, últimos 5 oficiais (API /fixtures; Eliteserien e Taça da Noruega): 2-3 em Brann, 4-1 Strømsgodset, 5-1 Fredrikstad, 6-1 Start, 2-2 em Lillestrøm — ambas marcam 5/5",
+              "Sandefjord, últimos 5 oficiais (API /fixtures; Eliteserien e Taça): 4-3 em Aalesund, 1-3 em Odd, 0-1 em Start, 0-2 Lillestrøm, 1-1 em Rosenborg — ambas marcam 3/5",
+              "Baixas só na API /injuries do último jogo (Sandefjord: Koswal, Lambrix, Loftesnes-Bjune, Melchior, Møller, Sauer, Berntsen; Molde: Diop, Hestad, Hoff, Kikkenborg) — sem segunda fonte, não entram na tese",
+              "Preço: Bet365 1.40, Marathonbet 1.32; a Pinnacle não tem o mercado"
+            ],
+            "result": "GREEN",
+            "final_score": "5-5"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1570444,
+            "match": "Celta Vigo vs Levante",
+            "league": "La Liga",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-11-08T17:30:00Z",
+            "score": 65,
+            "tese": "Os jogos do Levante têm sempre dois golos ou mais: os últimos cinco deram todos. O Celta passou a linha em quatro dos últimos cinco, e os últimos cinco jogos entre os dois também passaram todos.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, La Liga; recua a 2021-2022 porque o Levante esteve fora da primeira): 2-3 casa (05/2026), 2-1 fora (11/2025), 1-1 casa (02/2022), 2-0 fora (09/2021), 2-0 casa (04/2021) — mais de 1.5 em 5/5",
+              "Levante, últimos 5 oficiais (API /fixtures, La Liga): 0-2 Atlético, 1-2 em Real Sociedad, 3-1 Athletic, 1-1 em Deportivo, 3-3 Sevilla — 5/5",
+              "Celta, últimos 5 oficiais (API /fixtures; La Liga e Liga Europa): 1-2 Union SG, 0-3 em Rayo, 0-0 Betis, 2-1 em Celtic, 2-1 Alavés — 4/5",
+              "Preço: Bet365 1.28, Pinnacle 1.30, Marathonbet 1.26"
+            ],
+            "result": "RED",
+            "final_score": "0-0"
+          }
+        ],
+        "result": "RED",
+        "hit": false,
+        "effective_odds": 0,
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Brugge empatou 1-1 com o Anderlecht e a perna caiu; Molde e Sandefjord fizeram 5-5 e o Celta-Levante acabou 0-0. Curto RED."
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.6,
+        "score": 65,
+        "stake": 0.5,
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1548561,
+            "match": "NK Varazdin vs Dinamo Zagreb",
+            "league": "HNL (Croácia)",
+            "pick": "Dinamo Zagreb vence",
+            "odds": 1.53,
+            "kickoff": "2026-11-08T17:00:00Z",
+            "score": 65,
+            "tese": "O Dínamo ganhou quatro dos últimos cinco jogos contra o Varaždin e vem de ganhar em Sunderland na Liga Europa. O Varaždin ganhou um dos últimos cinco jogos e não ganhou nenhum dos últimos três em casa (0-0 Osijek, 1-2 Slaven Belupo, 1-1 Lokomotiva na Taça).",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, HNL 2025-2026): 3-1 casa (08/2026), 2-1 casa (04/2026), 4-0 fora (02/2026), 3-1 casa (11/2025), 2-2 fora (08/2025) — Dínamo vence 4/5",
+              "Dínamo, últimos 5 oficiais (API /fixtures; Liga Europa e HNL): 2-0 em Sunderland, 0-1 em Rudeš, 2-1 Rijeka, 2-4 NEC, 5-1 em Slaven Belupo — 3/5 vitórias",
+              "Varaždin, últimos 5 oficiais (API /fixtures; HNL e Taça): 1-1 em Rijeka, 1-1 Lokomotiva, 1-2 Slaven Belupo, 0-1 em Hajduk, 1-0 em Lokomotiva — 1/5 vitórias",
+              "Baixas: só a API /injuries do último jogo (McKenna inactivo, Radeljić em dúvida); a SportsGambler não tem página para este jogo — nada assumido",
+              "Preço: Bet365 1.53, Marathonbet 1.55, Pinnacle 1.60"
+            ],
+            "result": "GREEN",
+            "final_score": "1-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1549054,
+            "match": "FC Midtjylland vs Sonderjyske",
+            "league": "Superliga (Dinamarca)",
+            "pick": "FC Midtjylland vence",
+            "odds": 1.33,
+            "kickoff": "2026-11-08T17:00:00Z",
+            "score": 65,
+            "tese": "O Midtjylland está invicto nos últimos dez de campeonato e ganhou os últimos três. O Sønderjyske ganhou uma vez nos últimos dez fora de casa e sofre 2.6 golos por jogo longe de casa. O risco é a ressaca do 1-6 com o Ajax na quinta e uma enfermaria cheia.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Superliga 2025-2026; o amigável de 01/2026 fica fora): 3-2 fora (07/2026), 2-1 fora (04/2026), 2-2 casa (04/2026), 1-2 fora (11/2025), 6-2 casa (07/2025) — Midtjylland vence 3/5",
+              "Midtjylland, últimos 5 oficiais (API /fixtures; Liga Europa, Superliga, Taça): 1-6 Ajax, 3-2 em Nordsjælland, 2-1 Odense, 3-2 Lyngby, 0-1 St. Truiden — 3/5 vitórias",
+              "SportsGambler, últimos 10 de Superliga: Midtjylland 7V-3E-0D; Sønderjyske fora 1V-2E-7D com 2.60 sofridos por jogo",
+              "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Erlic, Magnus Jensen, Junior Brumado, David Martínez e Olafsson no Midtjylland; Duru e Qamili no Sønderjyske",
+              "Preço: Bet365 1.33, Pinnacle 1.30, Marathonbet 1.28"
+            ],
+            "result": "RED",
+            "final_score": "2-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1552812,
+            "match": "Stade Brestois 29 vs Lyon",
+            "league": "Ligue 1",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-11-08T16:15:00Z",
+            "score": 65,
+            "tese": "Os últimos cinco jogos do Brest e os últimos cinco do Lyon tiveram todos dois golos ou mais. Entre os dois, quatro dos últimos cinco passaram a linha.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Ligue 1 2024-2026): 1-2 fora (01/2026), 0-0 casa (11/2025), 1-2 fora (03/2025), 2-1 casa (01/2025), 3-4 fora (04/2024) — mais de 1.5 em 4/5",
+              "Brest, últimos 5 oficiais (API /fixtures, Ligue 1; sem o amigável com o Monza): 2-0 em Lorient, 1-2 Nice, 1-1 em Lille, 5-1 Angers, 1-2 em Auxerre — 5/5",
+              "Lyon, últimos 5 oficiais (API /fixtures; Liga Europa e Ligue 1): 1-1 em Real Sociedad, 2-0 Angers, 0-2 em PSG, 0-3 em Hoffenheim, 2-1 Nice — 5/5",
+              "Preço: Bet365 1.28, Pinnacle 1.30, Marathonbet 1.26"
+            ],
+            "result": "GREEN",
+            "final_score": "2-0"
+          }
+        ],
+        "result": "RED",
+        "hit": false,
+        "effective_odds": 0,
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Dínamo ganhou 1-3 em Varaždin e o Brest ganhou 2-0 ao Lyon, mas o Midtjylland só empatou 2-2 com o Sønderjyske. Curto RED."
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.89,
+        "score": 70,
+        "stake": 0.5,
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1575538,
+            "match": "Estrela vs Benfica",
+            "league": "Liga Portugal",
+            "pick": "Benfica vence e menos de 5.5 golos no jogo",
+            "odds": 1.45,
+            "kickoff": "2026-11-08T20:30:00Z",
+            "score": 72,
+            "tese": "O Benfica ganhou os últimos sete jogos oficiais e os últimos seis contra o Estrela. O Estrela perdeu os últimos quatro de campeonato e em casa ganhou dois dos últimos dez. O que estraga o bilhete é uma goleada de seis ou mais, como o 7-0 da Taça em 2024.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Liga Portugal e Taça 2024-2026): 4-0 casa (01/2026), 1-0 fora (08/2025), 3-2 fora (02/2025), 7-0 casa (Taça, 11/2024), 1-0 casa (08/2024) — Benfica vence com menos de 5.5 em 4/5",
+              "Benfica, últimos 5 oficiais (API /fixtures; Liga Europa, Liga Portugal, Taça da Liga): 3-1 Lech, 1-0 Alverca, 4-1 Gil Vicente, 2-1 em Santa Clara, 4-1 em Omonia — 5/5 vitórias, nenhum com 6+ golos",
+              "Estrela, últimos 5 oficiais (API /fixtures): 1-2 em Moreirense, 0-2 Casa Pia, 2-1 em Fazendense (Taça), 0-1 em Arouca, 0-2 Académico Viseu",
+              "SportsGambler, últimos 10 de liga: Estrela em casa 2V-4E-4D, 2.70 golos por jogo; Benfica fora 7V-2E-1D, 3.70 golos por jogo. Tabela: Benfica 2.º com 25 pts, Estrela 12.º com 10",
+              "Baixas: Leandro Barreiro (lesão muscular) na SportsGambler e fora do último jogo na API /injuries — duas fontes. Barrenechea fora e Lukebakio em dúvida só na API — não assumidos. Estrela sem baixas na SportsGambler e na API",
+              "Preço: Marathonbet 1.45 (só a Marathonbet expõe este mercado); vitória simples Bet365 1.25, Pinnacle 1.22. A SportsGambler vai pelo Estrela +2, que não contraria a perna"
+            ],
+            "result": "GREEN",
+            "final_score": "2-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1494803,
+            "match": "Viking vs KFUM Oslo",
+            "league": "Eliteserien (Noruega)",
+            "pick": "Viking vence e mais de 1.5 golos no jogo",
+            "odds": 1.3,
+            "kickoff": "2026-11-08T16:00:00Z",
+            "score": 70,
+            "tese": "O Viking ganhou os doze jogos que fez em casa no campeonato e marca três e meio por jogo nos últimos dez em casa. Está empatado com o Bodø no topo e não pode deixar pontos. O KFUM fora perdeu cinco dos últimos dez. O risco são os castigos no meio-campo, que só uma fonte dá.",
+            "factors": [
+              "H2H oficial, últimos 5 (API /fixtures/headtohead, Eliteserien 2024-2026; o amigável de 02/2024 fica fora): 2-0 fora (05/2026), 2-2 fora (09/2025), 3-1 casa (04/2025), 1-0 casa (09/2024), 2-1 fora (07/2024) — Viking vence com 2+ golos no jogo em 3/5",
+              "Viking, últimos 5 oficiais (API /fixtures; Champions e Eliteserien): 4-1 Sabah, 2-3 em Bodø, 3-1 Tromsø, 1-3 em Aston Villa, 3-2 Fredrikstad — 3/5 vitórias, todas com 3+ golos",
+              "SportsGambler: Viking 10/10 nos últimos 10 de liga em casa (3.50 marcados por jogo), tabela de casa 12-0-0; KFUM fora 2V-3E-5D, 2.00 sofridos por jogo. Viking e Bodø com 59 pts; KFUM 10.º com 31",
+              "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Berisha (coxa), Bjørshol e Roseth (joelho). Tripic e Askildsen (amarelos) e Røervik Bjørdal (vermelho) só na SportsGambler, que até põe o Bjørdal no onze — não se dão como certos, ficam como risco",
+              "Preço: Marathonbet 1.30; vitória simples Bet365 1.22, Pinnacle 1.22. A SportsGambler vai por ambas marcam e KFUM +2 — não contraria a perna"
+            ],
+            "result": "GREEN",
+            "final_score": "5-1"
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "effective_odds": 1.89,
+        "return": 0.945,
+        "pnl": 0.445,
+        "note": "Benfica ganhou 2-3 na Reboleira (5 golos, abaixo de 5.5) e o Viking ganhou 5-1 ao KFUM. Corvo completo a 1.89."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 3,
+      "accumulators_green": 1,
+      "accumulators_red": 2,
+      "accumulators_stake": 1.5,
+      "accumulators_return": 0.945,
+      "accumulators_pnl": -0.555,
+      "combined_stake": 1.5,
+      "combined_return": 0.945,
+      "combined_pnl": -0.555,
+      "combined_roi_pct": -37
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhum par de pernas da banda 1.40-1.60 chega a 75 com investigação completa. Brugge vence (1.50) tem os números todos mas paga abaixo do justo da Pinnacle (1.52, justo perto de 1.58) e fica nos 70-72. Porto vence em Guimarães (1.57) também abaixo do justo da Pinnacle (1.58, justo perto de 1.64), com os castigos de Prpić e Nehuén Pérez só numa fonte e a SportsGambler pelo Vitória +1. Dínamo Zagreb (1.53) abaixo da Pinnacle (1.60) e sem antevisão com plantel. Union SG (1.57) abaixo do justo da Pinnacle (1.61). Sem duas pernas de 75, não há duplo."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1552221,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8 cantos no jogo",
+        "match": "Heerenveen vs Feyenoord",
+        "league": "Eredivisie",
+        "elapsed": 45,
+        "score": "1-2",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.615,
+        "oddMinima": 1.45,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já há 4 cantos (3 do Heerenveen) e na Eredivisie, com um golo de diferença ao intervalo, saem em média mais de 5 cantos na 2ª parte. O Heerenveen perde em casa e tem de ir para cima, por isso chegam 5 cantos para ganhar e com 4 devolvem o dinheiro.",
+        "sentAt": 1794139611360,
+        "result": "RED",
+        "finalHome": 5,
+        "finalAway": 3,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794144677746
+      },
+      {
+        "fixtureId": 1584459,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Çorum FK vs Fenerbahçe",
+        "league": "Süper Lig",
+        "elapsed": 45,
+        "score": "0-2",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.615,
+        "oddMinima": 1.55,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Çorum perde 2-0 em casa mas foi quem mais atacou, com 6 remates e 1.14 de xG contra 0.28, por isso vai carregar na 2ª parte enquanto o Fenerbahçe recua. Há 3 cantos e faltam 5: na Süper Lig, em jogos com 2 golos de diferença e poucos cantos ao intervalo, saíram 5 ou mais na 2ª parte em dois de cada três.",
+        "sentAt": 1794145895073,
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 5,
+        "pnl": 0.3075,
+        "return": 0.8075,
+        "resolvedAt": 1794150983921
+      },
+      {
+        "fixtureId": 1555422,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 9.5 cantos no jogo",
+        "match": "FC ST. Gallen vs FC Lugano",
+        "league": "Super League",
+        "elapsed": 45,
+        "score": "3-0",
+        "homeGoalsAtAlert": 3,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.666,
+        "oddMinima": 1.55,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            1
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            1
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Há 5 cantos ao intervalo, 4 do St. Gallen. O Lugano joga com 10 desde os 11' e vai passar a 2ª parte encostado à área. Faltam 5 cantos, e na Super League isso saiu em dois de cada três jogos com este guião.",
+        "sentAt": 1794146082059,
+        "result": "GREEN",
+        "finalHome": 5,
+        "finalAway": 0,
+        "pnl": 0.33299999999999996,
+        "return": 0.833,
+        "resolvedAt": 1794150983921
+      },
+      {
+        "fixtureId": 1552816,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 3.5 golos no jogo",
+        "match": "Rennes vs Lille",
+        "league": "Ligue 1",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.2,
+        "oddMinima": 2.1,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Está 1-1 e o Rennes carrega: 8 remates contra 3, cinco dentro da área, e quase todo o perigo é dele. Na Ligue 1, em jogos empatados com golos ao intervalo, quase metade teve mais dois golos na 2ª parte, e a 2.20 a aposta paga isso.",
+        "sentAt": 1794149391800,
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794154607440
+      },
+      {
+        "fixtureId": 1575219,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "1. FC Köln vs Bayer Leverkusen",
+        "league": "Bundesliga",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.727,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            4
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já foram 8 remates à baliza na 1ª parte, 5 do Leverkusen e 3 do Köln, e o Köln vai ter de ir atrás do golo em casa. Precisamos de mais dois golos em 45 minutos, e na Bundesliga isso aconteceu em 6 de cada 10 jogos parecidos.",
+        "sentAt": 1794151154725,
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0.36350000000000005,
+        "return": 0.8635,
+        "resolvedAt": 1794156382210
+      },
+      {
+        "fixtureId": 1593354,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Asteras Tripolis vs Kalamata",
+        "league": "Super League 1",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.375,
+        "oddMinima": 2.25,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            1
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Está 1-0 e são precisos mais dois golos. Nesta liga, em jogos que chegam assim ao intervalo, isso acontece quase metade das vezes, e a casa paga 2.37. O Kalamata tem de ir atrás do empate e o Asteras já leva 5 cantos contra 1, por isso a 2ª parte deve abrir.",
+        "sentAt": 1794152932654,
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794158126672
+      },
+      {
+        "fixtureId": 1556705,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Falkirk marca na 2ª parte",
+        "match": "Heart Of Midlothian vs Falkirk",
+        "league": "Premiership",
+        "elapsed": 45,
+        "score": "0-4",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 4,
+        "odds": 2,
+        "oddMinima": 1.7,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            4
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": true,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Falkirk está a ganhar 4-0 em Tynecastle e não foi sorte: 1.91 de golos esperados contra 0.49, com 6 remates à baliza contra 2. Em jogos assim, quem ganha e manda volta a marcar na 2ª parte mais de 6 vezes em 10, e com o Hearts todo lá à frente vão sobrar espaços para o contra-ataque.",
+        "sentAt": 1794153287971,
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 5,
+        "pnl": 0.5,
+        "return": 1,
+        "resolvedAt": 1794158126672
+      },
+      {
+        "fixtureId": 1494330,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Brommapojkarna marca na 2ª parte",
+        "match": "IF Brommapojkarna vs Mjallby AIF",
+        "league": "Allsvenskan",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.533,
+        "oddMinima": 1.45,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Brommapojkarna fez 4 remates à baliza contra 0 e o guarda-redes do Mjällby já teve de fazer 4 defesas. Na Allsvenskan, com 0-0 ao intervalo, quem manda assim marca na 2ª parte em 77% dos jogos.",
+        "sentAt": 1794154790174,
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794159960968
+      },
+      {
+        "fixtureId": 1552224,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 3.5 golos no jogo",
+        "match": "AZ Alkmaar vs Groningen",
+        "league": "Eredivisie",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.9,
+        "oddMinima": 1.9,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já há 1-1 e as duas equipas somam 2.7 de xG na 1ª parte, número que o FotMob confirma. O AZ joga sem o Zoet na baliza e nenhum dos dois fecha a porta, por isso faltam dois golos em 45 minutos e só se entra a 1.90 ou mais.",
+        "sentAt": 1794155649188,
+        "result": "GREEN",
+        "finalHome": 4,
+        "finalAway": 3,
+        "pnl": 0.44999999999999996,
+        "return": 0.95,
+        "resolvedAt": 1794159960968
+      },
+      {
+        "fixtureId": 1551876,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos na 2ª parte",
+        "match": "Emmen vs MVV",
+        "league": "Eerste Divisie (Países Baixos)",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.75,
+        "oddMinima": 1.75,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            6
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O MVV já ganhou 6 cantos na 1ª parte e agora o Emmen, a perder em casa, tem de ir para cima. Basta aparecerem 5 cantos nos segundos 45 minutos, e só se entra a 1.75 ou mais.",
+        "sentAt": 1794155649764,
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 2,
+        "pnl": 0.375,
+        "return": 0.875,
+        "resolvedAt": 1794159960968
+      },
+      {
+        "fixtureId": 1494803,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 10.5 cantos no jogo",
+        "match": "Viking vs KFUM Oslo",
+        "league": "Eliteserien (Noruega)",
+        "elapsed": 45,
+        "score": "2-0",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.83,
+        "oddMinima": 1.6,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            0
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "boletim",
+        "justificacao": "Ao intervalo vão 4 cantos, todos do Viking. Para passar dos 10.5 são precisos 7 na 2ª parte, e em jogos assim na Noruega a 2ª parte costuma dar 5 ou 6. A casa está a pedir cantos que este jogo ainda não mostrou.",
+        "sentAt": 1794156780065,
+        "result": "GREEN",
+        "finalHome": 5,
+        "finalAway": 1,
+        "pnl": 0.41500000000000004,
+        "return": 0.915,
+        "resolvedAt": 1794161814458
+      },
+      {
+        "fixtureId": 1552814,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 14.5 cantos no jogo",
+        "match": "Le Mans vs Monaco",
+        "league": "Ligue 1",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.615,
+        "oddMinima": 1.45,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            4
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 8 cantos, 4 para cada lado. Esta aposta só cai se houver 7 ou mais na 2ª parte, e em jogos da Ligue 1 com um golo de diferença e um arranque destes a 2ª parte deu 5 cantos em média.",
+        "sentAt": 1794157514855,
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794161814458
+      },
+      {
+        "fixtureId": 1575216,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 5.5 cartões no jogo",
+        "match": "SC Freiburg vs Union Berlin",
+        "league": "Bundesliga",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.909,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cartoes",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            0
+          ],
+          "amarelos": [
+            2,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já há 3 amarelos ao intervalo, todos a jogadores, e o Union passou a 1ª parte a defender, com 9 faltas contra 3 do Freiburg. Com 0-0, o Freiburg vai carregar e o Union vai ter de travar muita coisa: chegam mais 3 cartões, e na Bundesliga a média da 2ª parte em jogos assim é de 2.9.",
+        "sentAt": 1794158321791,
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794163531203
+      },
+      {
+        "fixtureId": 1575215,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 3.5 golos no jogo",
+        "match": "1899 Hoffenheim vs FC Schalke 04",
+        "league": "Bundesliga",
+        "elapsed": 45,
+        "score": "2-0",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.7,
+        "oddMinima": 1.7,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Está 2-0 e o Schalke já fez 12 remates, por isso vai ter de se abrir, e o Hoffenheim fica com espaço para matar em contra-ataque. Na Bundesliga, em jogos com 2-0 ao intervalo e este volume de remates à baliza, a 2ª parte deu dois ou mais golos em quase 7 de cada 10.",
+        "sentAt": 1794165476928,
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794170760017
+      },
+      {
+        "fixtureId": 1552223,
+        "strategy": "⏸️ INTERVALO",
+        "market": "NEC Nijmegen marca na 2ª parte",
+        "match": "Utrecht vs NEC Nijmegen",
+        "league": "Eredivisie",
+        "elapsed": 45,
+        "score": "0-2",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.533,
+        "oddMinima": 1.4,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            5
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": true,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O NEC está a ganhar 2-0 e foi muito melhor na 1ª parte: 4 remates à baliza contra 1, e 1.15 de golos esperados contra 0.30. O Utrecht vai ter de se abrir para correr atrás do resultado, e isso deixa espaço ao NEC para chegar ao terceiro.",
+        "sentAt": 1794167516664,
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
+        "pnl": 0.26649999999999996,
+        "return": 0.7665,
+        "resolvedAt": 1794172520842
+      },
+      {
+        "fixtureId": 1493232,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 8.5 cantos no jogo",
+        "match": "Central Cordoba de Santiago vs Lanus",
+        "league": "Liga Profesional Argentina",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.2,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            2
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Vão 4 cantos, 2 para cada lado. Na Argentina, com empate e golos ao intervalo, a 2ª parte fica-se pelos 4 cantos ou menos em mais de metade dos jogos (56% em 57 jogos com 4 a 6 cantos ao intervalo), e a 2.20 isso paga bem.",
+        "sentAt": 1794179939573,
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794185127991
+      }
+    ],
+    "summary": {
+      "total": 16,
+      "green": 8,
+      "red": 8,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 16,
+          "green": 8,
+          "red": 8
+        }
+      },
+      "stake_total": 8,
+      "stake_mensuravel": 8,
+      "return_mensuravel": 7.0105,
+      "pnl_mensuravel": -0.9895,
+      "roi_pct_mensuravel": -12,
+      "odds_registadas": 16,
+      "nota_mensuravel": "Dezasseis alertas de intervalo, já em stakes."
+    }
+  },
+  "balance": 31.28,
+  "notes": "Os dois curtos caíram: o Brugge só empatou 1-1 e o Celta-Levante acabou 0-0 no primeiro, e o Midtjylland empatou 2-2 com o Sønderjyske no segundo. O corvo a 1.89 entrou, com o Benfica a ganhar 2-3 e o Viking a golear 5-1. Dezasseis alertas de intervalo, 8 GREEN e 8 RED. P&L -1,54 stakes, banca 31,28 stakes."
+}
