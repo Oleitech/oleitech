@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T07:20:00Z",
+  "units": "stakes",
+  "notes": "Segunda-feira magra: nenhuma liga grande em campo, só segundas divisões, Serie C, futebol feminino e campeonatos sul-americanos. Não sai nenhuma tip simples. Pusemos os preços da Bet365 lado a lado com o justo da Pinnacle em quase cinquenta jogos e nenhum preço entre 1.55 e 1.89 paga mais do que devia. Não se força boletim.\n\nO modelo dos golos pedia mais de 2.5 no Sabadell-Real Sociedad B, mas a 2.08 passa o tecto das simples e a antevisão da SportsGambler até vai para menos de 2.5: o Sabadell em casa passou os 2.5 em dois dos últimos cinco. Fica registado, não se joga.\n\nSai um curto a meia stake, a 2.68. O Ebbsfleet, líder da National League South, ganhou os últimos cinco jogos contra o Chelmsford e vai com o empate a devolver. Junta-se o mais de 1.5 golos no Altamura-Cavese e no Deportivo-Valência feminino, em que os últimos cinco jogos entre as duas tiveram sempre dois golos ou mais. A perna com menos folga é a do Altamura: marca pouco em casa e os dois últimos jogos do Cavese fora acabaram 1-0 e 1-1.\n\nSem corvo: não houve duas pernas com as baixas confirmadas que chegassem à combinada mínima de 1.70. Sem duplo.\n\nExposição do dia: meia stake.",
+  "tips": [],
+  "sombra": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1570013,
+      "home": {
+        "name": "Sabadell",
+        "logo": "https://media.api-sports.io/football/teams/9593.png"
+      },
+      "away": {
+        "name": "Real Sociedad II",
+        "logo": "https://media.api-sports.io/football/teams/9585.png"
+      },
+      "league": "Segunda División (Espanha)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-11-09T19:30:00Z",
+      "odds": 2.08,
+      "bookmaker": "Bet365",
+      "score": 60,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 36.1,
+        "prob_modelo": 0.507,
+        "prob_mercado": 0.468,
+        "valor": 0.054
+      },
+      "motivo_sombra": "Odd 2.08, acima do tecto de 1.90 das simples (decisão de 28/10), e na Marathonbet (1.89) já não há valor. A investigação também não ajuda: a SportsGambler vai para menos de 2.5 e o Sabadell em casa passou os 2.5 em dois dos últimos cinco.",
+      "tese": "A Real Sociedad B sofre muito: dois golos por jogo nos últimos dez de liga e perdeu quatro dos últimos cinco. Os jogos dela fora passaram os 2.5 em sete de dez. Do outro lado, o Sabadell em casa é mais contido, com 1.6 marcados e 0.8 sofridos nos últimos cinco, e só dois desses cinco passaram a linha. O preço pede um jogo aberto que só um dos lados costuma dar.",
+      "factors": [
+        "Modelo dos golos: 50.7% para mais de 2.5 contra 46.8% do mercado; Bet365 2.08 (valor 5.4%), Marathonbet 1.89 (-4.2%), Pinnacle 2.12. Confirmado por jogo às 07:10Z",
+        "SportsGambler, últimos 10 de Segunda: Real Sociedad B 1.30 marcados e 2.00 sofridos por jogo, mais de 2.5 em 6/10, ambas marcam 7/10; fora, mais de 2.5 em 7/10",
+        "SportsGambler, últimos 5 em casa do Sabadell (Segunda): 3V-2E, 1.60 marcados e 0.80 sofridos, mais de 2.5 em 2/5",
+        "Real Sociedad B, últimos 5 de Segunda (API /fixtures): 1-0 Girona, 0-1 em Las Palmas, 2-4 Almería, 1-4 em Celta, 2-3 Granada",
+        "Sabadell, últimos 5 de Segunda (API /fixtures): 1-2 em Albacete, 1-1 Tenerife, 0-1 em Burgos, 2-1 em Ceuta, 0-0 Andorra",
+        "H2H oficial (API /fixtures/headtohead, Primera Federación 2022-2024, n=4): 1-0 Sabadell fora, 1-2, 1-1, 1-2 — mais de 2.5 em 2/4",
+        "Baixas: SportsGambler sem lesionados nem castigados dos dois lados e API /injuries vazia — duas fontes concordantes sem baixas",
+        "Terceiros: SportsGambler dá Sabadell vence e, no bet builder, menos de 2.5 — contra o lado do modelo",
+        "Em falta: splits e xG da FootyStats e as três probabilidades de modelos (Forebet/Dimers) — por isso context_depth partial"
+      ],
+      "sources": [
+        "golos/previsoes/2026-11-09.json",
+        "API-Football /odds?fixture=1570013 (Bet365, Marathonbet, Pinnacle)",
+        "API-Football /fixtures?team=&last=8, /fixtures/headtohead, /injuries?fixture=1570013",
+        "https://www.sportsgambler.com/betting-tips/football/sabadell-vs-real-sociedad-b-prediction-lineups-odds-2026-11-09/"
+      ]
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.68,
+      "score": 65,
+      "stake": 0.5,
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1588281,
+          "match": "Chelmsford City vs Ebbsfleet United",
+          "league": "National League South (Inglaterra)",
+          "pick": "Ebbsfleet United vence, empate devolve (DNB)",
+          "odds": 1.4,
+          "kickoff": "2026-11-09T19:45:00Z",
+          "score": 65,
+          "tese": "O Ebbsfleet lidera a National League South com 36 golos marcados e 10 sofridos em 15 jornadas, e fora de casa só perdeu uma vez. Ganhou os últimos cinco jogos oficiais contra o Chelmsford, sem nunca sofrer mais de um golo. O Chelmsford em casa ganhou dois de sete. Com o empate a devolver, o bilhete só cai se o Chelmsford ganhar.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, National League South 2022-2025): 1-0 fora (12/2025), 1-0 casa (08/2025), 1-0 fora (02/2023), 2-0 casa (01/2023), 2-1 casa (05/2022) — Ebbsfleet vence 5/5",
+            "Ebbsfleet, últimos 5 oficiais (API /fixtures, National League South): 1-0 Chesham, 6-0 em Farnborough, 0-3 em Truro, 3-1 em Maidstone, 4-0 Maidenhead — 4/5 vitórias",
+            "Classificação API, National League South 2026/27: Ebbsfleet 1.º, 34 pts em 15 jogos (36-10), fora 5V-1E-1D (16-6); Chelmsford 10.º, 24 pts (23-15), em casa 2V-4E-1D (7-7)",
+            "Preço: Bet365 1.40 com empate a devolver. Pinnacle 1X2 3.63 / 3.81 / 1.88 — o justo do empate devolve fica perto de 1.52, a Bet365 paga abaixo; numa perna de curto não se exige valor",
+            "Baixas: API /injuries vazia e a pesquisa não trouxe antevisão desta jornada. Nada assumido — o filtro do curto não exige onze"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1609111,
+          "match": "Team Altamura vs Cavese",
+          "league": "Serie C - Girone C (Itália)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.44,
+          "kickoff": "2026-11-09T19:30:00Z",
+          "score": 65,
+          "tese": "Os jogos do Altamura em casa dão quase três golos de média (5 marcados e 11 sofridos em seis) e os do Cavese fora mais de dois (4 marcados e 10 sofridos em seis). As duas passaram os 1.5 golos em quatro dos últimos cinco jogos, e os três encontros mais recentes entre elas também.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Serie C 2024-2026 e Serie D 2024): 1-2 (01/2026), 2-1 (09/2025), 1-1 (01/2025), 0-0 (09/2024), 1-0 Cavese (05/2024, Serie D) — mais de 1.5 em 3/5",
+            "Altamura, últimos 5 oficiais (API /fixtures; Serie C e Coppa Italia Serie C): 2-1 em Sorrento, 0-0 Gubbio, 2-2 Potenza, 3-1 em Cosenza, 0-3 Catania — mais de 1.5 em 4/5",
+            "Cavese, últimos 5 oficiais (API /fixtures, Serie C): 1-2 Picerno, 0-1 em Foggia, 5-2 Casarano, 1-1 em Barletta, 2-0 Casertana — mais de 1.5 em 4/5",
+            "Classificação API, Serie C Girone C 2026/27: Altamura 16.º, em casa 2V-1E-3D (5-11); Cavese 12.º, fora 0V-3E-3D (4-10)",
+            "Preço: Bet365 1.44, Pinnacle 1.42, Marathonbet 1.38 (por jogo, 07:10Z)",
+            "Baixas: API /injuries vazia e sem notícia da jornada na pesquisa — nada assumido"
+          ]
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1573636,
+          "match": "Deportivo de La Coruña W vs Valencia W",
+          "league": "Liga F (Espanha)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-11-09T20:00:00Z",
+          "score": 65,
+          "tese": "Os últimos cinco jogos entre as duas tiveram todos dois golos ou mais. O Deportivo passou a linha nos últimos cinco jogos que fez, e o Valência, último da liga com 19 golos sofridos em nove jornadas, sofreu 12 em cinco jogos fora.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Liga F 2020-2025): 1-1 (02/2025), 0-2 Depor fora (12/2024), 1-1 (04/2021), 3-0 Valência (01/2021), 1-1 (01/2020) — mais de 1.5 em 5/5",
+            "Deportivo, últimos 5 oficiais (API /fixtures, Liga F): 1-2 em Madrid CFF, 2-1 Alavés, 3-2 em Eibar, 1-2 Atlético, 1-1 Espanyol — mais de 1.5 em 5/5",
+            "Valência, últimos 5 oficiais (API /fixtures, Liga F): 2-1 Eibar, 0-4 em Atlético, 0-1 em Athletic, 0-1 Real Sociedad, 1-2 Granada Tenerife — mais de 1.5 em 3/5",
+            "Classificação API, Liga F 2026/27: Valência 16.º e último, 3 pts em 9 jogos (6-19), fora 0V-0E-5D (2-12); Deportivo 10.º (11-11), em casa 4-7 em cinco jogos",
+            "Preço: Bet365 1.33, Pinnacle 1.33, Marathonbet 1.28 (por jogo, 07:10Z)"
+          ]
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chega a 75 com a investigação completa: o Ebbsfleet (1.40 com empate a devolver) e o mais de 1.5 do Altamura-Cavese (1.44) não têm nenhuma fonte de baixas desta jornada, e no Ebbsfleet a Bet365 paga abaixo do justo da Pinnacle. Não há mais preços na banda em jogos com antevisão."
+  }
+}
