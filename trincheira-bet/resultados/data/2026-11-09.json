@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-09",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.68,
+        "effective_odds": 1.9152,
+        "score": 65,
+        "stake": 0.5,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0.9576,
+        "pnl": 0.4576,
+        "note": "Perna do Ebbsfleet devolvida (2-2), as duas de mais de 1.5 entraram. Paga a 1.92 em vez de 2.68.",
+        "selections": [
+          {
+            "fixtureId": 1588281,
+            "match": "Chelmsford City vs Ebbsfleet United",
+            "league": "National League South (Inglaterra)",
+            "pick": "Ebbsfleet United vence, empate devolve (DNB)",
+            "odds": 1.4,
+            "result": "PUSH",
+            "hit": null,
+            "final_score": "2-2",
+            "note": "Empate 2-2 em Chelmsford: o empate devolve, a perna sai a 1.00."
+          },
+          {
+            "fixtureId": 1609111,
+            "match": "Team Altamura vs Cavese",
+            "league": "Serie C - Girone C (Itália)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.44,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-2",
+            "note": "Quatro golos no Altamura-Cavese, passou a linha de 1.5."
+          },
+          {
+            "fixtureId": 1573636,
+            "match": "Deportivo de La Coruña W vs Valencia W",
+            "league": "Liga F (Espanha)",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "0-2",
+            "note": "Dois golos, ambos do Valência, no Deportivo-Valência feminino: passa o mais de 1.5."
+          }
+        ]
+      }
+    ],
+    "sombra": [
+      {
+        "market": "over25",
+        "pick": "Mais de 2.5 golos",
+        "fixtureId": 1570013,
+        "match": "Sabadell vs Real Sociedad II",
+        "odds": 2.08,
+        "score": 60,
+        "stake": 0,
+        "shadow": true,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "0-0",
+        "note": "0-0 no Sabadell-Real Sociedad B, ficou muito aquém das 2.5."
+      }
+    ],
+    "sombra_summary": { "total": 1, "green": 0, "red": 1, "pnl_se_apostadas": -1 },
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0.9576,
+      "accumulators_pnl": 0.4576,
+      "combined_stake": 0.5,
+      "combined_return": 0.9576,
+      "combined_pnl": 0.4576,
+      "combined_roi_pct": 92
+    }
+  },
+  "btts": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "cards": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "over25": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "corners": { "tips": [], "summary": { "total": 0, "green": 0, "red": 0, "hit_rate": 0 } },
+  "live_alerts": {
+    "alerts": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem alertas de intervalo, de notícia nem de ambas marcam."
+    }
+  },
+  "balance": 31.74,
+  "notes": "Segunda-feira magra, sem tips simples. O curto a 2.68 entrou: o Ebbsfleet empatou 2-2 em Chelmsford e a perna foi devolvida, e o mais de 1.5 do Altamura-Cavese (2-2) e do Deportivo-Valência feminino (0-2) passou. Pagou a 1.92, +0,46 stakes. O mais de 2.5 do Sabadell, que ficou em sombra, acabou 0-0. Banca nova: 31,74 stakes."
+}

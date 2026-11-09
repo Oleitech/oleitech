@@ -46,7 +46,8 @@
         "FootyStats villarreal-cf-vs-reial-club-deportiu-espanyol-h2h-stats",
         "Dimers villareal-vs-espanyol-prediction-10-30-2026",
         "API-Football /odds?fixture=1570442 (Bet365, Pinnacle)"
-      ]
+      ],
+      "fecho_real_motivo": "mercado sem fecho no football-data"
     }
   ],
   "accumulators": [
@@ -74,7 +75,17 @@
             "Brugge fora, Pro League 2026/27 (API, n=4): 3 vitórias, 2,3 marcados e 0,8 sofridos",
             "Red flag avaliado: Brugge sem Gustaf Nilsson e Ordóñez (só SportsGambler; API /injuries vazio)",
             "Preço: Bet365 1.44, Pinnacle 1.45"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.436,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": 0.0028,
+          "clv": 0.0028,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Waregem - Club Brugge",
+          "fecho_real_em": "2026-11-09T22:18:05.071Z"
         },
         {
           "sport": "football",
@@ -113,7 +124,8 @@
             "SportsGambler, últimos 10 da liga: Sheffield em casa 3,30 golos por jogo (mais de 2.5 em 7); Wrexham fora 2,60",
             "Red flag avaliado: Sheffield sem Seriki (lateral); Wrexham sem baixas na SportsGambler",
             "Preço: Bet365 1.28, Pinnacle 1.29"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     },
@@ -140,7 +152,8 @@
             "FootyStats, La Liga 2026/27: Villarreal em casa xG 2,13 mas só 1,5 golos por jogo (n=4); Espanyol fora xGA 1,88 (n=5). SportsGambler, últimos 10 em casa: 2,50 marcados",
             "Ausências em duas fontes (API /injuries 30/10 e SportsGambler): Villarreal sem Pape Gueye (vermelho) e Akhomach; Espanyol sem Kike García. Só numa fonte: Pépé e Romero (SportsGambler), Saliba e Jofre (API). Gerard Moreno e Ayoze no onze provável",
             "Preço: Marathonbet 1.40, Pinnacle 1.39 — a Marathonbet paga acima da casa de referência"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -159,7 +172,8 @@
             "PSG fora, Ligue 1 2026/27 (API, n=5): 2,0 marcados por jogo; Le Havre em casa (API, n=4): 1,5 sofridos; SportsGambler, últimos 10 em casa: 1,40 sofridos, 5-3-2 provável",
             "Ausências em duas fontes concordantes (API /injuries 30/10 e SportsGambler): PSG sem Dembélé, Kvaratskhelia, Marquinhos, Nuno Mendes e Longoni; Le Havre sem Pembélé e Mpasi",
             "Preço: Marathonbet 1.37, Pinnacle 1.35 — acima da casa de referência"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     }

@@ -16,7 +16,17 @@
           "league": "Primeira Liga",
           "pick": "Benfica vence",
           "odds": 1.4,
-          "kickoff": "2026-10-26T18:45:00Z"
+          "kickoff": "2026-10-26T18:45:00Z",
+          "clv_api": null,
+          "odd_fecho_ref": 1.415,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0105,
+          "clv": -0.0105,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "P1: Santa Clara - Benfica",
+          "fecho_real_em": "2026-11-09T22:18:05.019Z"
         },
         {
           "sport": "football",
@@ -26,7 +36,17 @@
           "league": "Liga I",
           "pick": "Universitatea Craiova vence",
           "odds": 1.48,
-          "kickoff": "2026-10-26T18:00:00Z"
+          "kickoff": "2026-10-26T18:00:00Z",
+          "clv_api": null,
+          "odd_fecho_ref": 1.529,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0318,
+          "clv": -0.0318,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "ROU Superliga: Sepsi Sf. Gheorghe - Univ. Craiova",
+          "fecho_real_em": "2026-11-09T22:18:05.021Z"
         },
         {
           "sport": "football",
@@ -36,7 +56,8 @@
           "league": "La Liga",
           "pick": "Mais de 1.5 golos",
           "odds": 1.4,
-          "kickoff": "2026-10-26T20:00:00Z"
+          "kickoff": "2026-10-26T20:00:00Z",
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ],
       "combined_odds": 2.9,
@@ -55,7 +76,17 @@
           "pick": "PSG vence e Mais de 1.5 golos",
           "odds": 1.49,
           "kickoff": "2026-10-26T19:30:00Z",
-          "score": 70
+          "score": 70,
+          "clv_api": null,
+          "odd_fecho_ref": 1.481,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": 0.0059,
+          "clv": 0.0059,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "F1: Paris SG - Lyon",
+          "fecho_real_em": "2026-11-09T22:18:05.032Z"
         },
         {
           "sport": "football",
@@ -66,7 +97,17 @@
           "pick": "Galatasaray ou empate (dupla hipótese 1X)",
           "odds": 1.33,
           "kickoff": "2026-10-26T18:30:00Z",
-          "score": 68
+          "score": 68,
+          "clv_api": null,
+          "odd_fecho_ref": 1.376,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0335,
+          "clv": -0.0335,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "T1: Galatasaray - Fenerbahce",
+          "fecho_real_em": "2026-11-09T22:18:05.035Z"
         }
       ],
       "combined_odds": 1.98,
@@ -111,7 +152,8 @@
         "SportsGambler psg-vs-lyon (actualizado 26/10)",
         "FootyStats H2H Lyon-PSG",
         "Odds API por fixture (Bet365, Marathonbet, Pinnacle)"
-      ]
+      ],
+      "fecho_real_motivo": "mercado sem fecho no football-data"
     },
     {
       "market": "favorites",
@@ -150,7 +192,17 @@
         "FootyStats H2H Trabzonspor-Rizespor",
         "Forebet (resumo de pesquisa restrita)",
         "Odds API por fixture"
-      ]
+      ],
+      "clv_api": null,
+      "odd_fecho_ref": 1.876,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
+      "fecho_aproximado": false,
+      "clv_fecho_real": 0.0393,
+      "clv": 0.0393,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "T1: Rizespor - Trabzonspor",
+      "fecho_real_em": "2026-11-09T22:18:05.015Z"
     }
   ],
   "duplo_sombra": {
@@ -158,4 +210,3 @@
     "motivo": "Nenhuma perna entre 1.40 e 1.60 chegou a 75 com investigação completa. A única candidata na banda com tese própria, ambas marcam no PSG-Lyon @1.57, ficou em 67 (números da época contra e quatro baixas de ataque entre as duas equipas). As pernas do curto a 1.40-1.48 (Benfica, Sevilla-Osasuna mais de 1.5, Craiova) não tiveram investigação completa nem valor contra a Pinnacle, e o Copenhaga-Odense ambas marcam @1.67 fica fora da banda."
   }
 }
-

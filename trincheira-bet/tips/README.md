@@ -78,6 +78,7 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | `accumulators` | array           | não         | Lista de acumuladores do dia (0+); array vazio se não foi possível construir nenhum. Standard: até 2. Curtos: ⌊N pernas shortlist / 3⌋. Corvo: no máximo 1 por dia |
 | `accumulators[].label` | `"standard"` \| `"curto"` \| `"corvo"` | não | `"standard"` = tips aprovadas pelo processo completo; `"curto"` = 3 pernas de odds baixas (1.15–1.45) de pool alargado (ligas secundárias permitidas); `"corvo"` = 2 pernas no mercado Resultado + Total (ver Fase C do WORKFLOW). Omitir = standard. O `js/ui.js` usa este campo para a etiqueta e a casa de referência no cartão. |
 | `accumulators[].selections` | array | sim       | 2–3 seleções (standard), exactamente 3 (curto), exactamente 2 (corvo) |
+| `accumulators[]` com `label: "multipla-jornada"` | objecto | não | 🎯 Múltipla da jornada (desde 09/11/2026, Fase M do WORKFLOW, gravada por `scripts/multipla-jornada.mjs monta --gravar`). Campos próprios: `jornada_id` (`clubes-AAAA-MM-DD` / `selecoes-AAAA-MM-DD`), `jornada {tipo, de, ate}`, `bookmaker: "1xBet"`, `stake: 0.5`, `combined_odds` (8–12), `ev_justo_combinado`, `prob_justa_combinada`, `datas`, `note`; 4–6 `selections` "X vence" com `kickoff` e `score`. A liquidação (`liquida`, no /update-results) acrescenta às pernas `result`, `final_score`, `jogado_em`, o fecho/`clv` da P1, e ao bilhete `result`, `return`, `pnl`, `effective_odds`, `dia_pnl` (dia da última perna, em que entra na banca) e `liquidada_em`. Dia de múltipla sem combinação: `multipla_jornada: { jornada_id, motivo }` no topo |
 | `accumulators[].selections[].fixtureId` | number | não | API-Football fixture ID (ou outro ID de desporto) |
 | `accumulators[].selections[].match` | string | sim | "Home vs Away" ou nome do jogo |
 | `accumulators[].selections[].pick` | string | sim | Descrição da aposta |
@@ -85,7 +86,9 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | `accumulators[].selections[].sport` | string | não | `"football"`, `"nba"`, `"tennis"` |
 | `accumulators[].combined_odds` | number | sim       | Produto das odds. Intervalo válido **depende do label**: 2.0–3.0 (standard e curto), **1.7–2.2 (corvo)**. Fora do intervalo, não se publica. |
 | `accumulators[].score` | number | sim            | Score mínimo das seleções incluídas |
-| `accumulators[].stake` | number | sim | **Em STAKES, nao euros.** Standard: pelo score minimo das pernas. Curto: `0.5` fixo. Corvo: `1` fixo. Ver Passo 5.5 do WORKFLOW. |
+| `accumulators[].stake` | number | sim | **Em STAKES, nao euros.** Standard: pelo score minimo das pernas. Curto: `0.5` fixo. Corvo: `0` com `shadow: true` desde 10/11/2026 (sombra; era `0.5` de 05/10 a 09/11). Ver Fase C do WORKFLOW. |
+| `accumulators[].shadow` | boolean | não | `true` = registo, não aposta: fora da banca, do P&L e do site. O corvo desde 10/11/2026; o `label: "curto-vence"` desde 10/11/2026 (nota B-sombra do WORKFLOW). |
+| `accumulators[].igual_ao_real` | boolean | só no curto-vence | `true` se as pernas são as do curto real desse dia. |
 | `generated_at` | string ISO 8601 | sim         | timestamp da curadoria |
 | `notes`        | string          | não         | nota geral do dia (ex.: "Jornada europeia") |
 | `tips[].market`| `btts` \| `favorites` \| `scorers` \| `corners` | sim | mercado |
@@ -101,6 +104,26 @@ Sem ficheiro para o dia → estado "Sem tips publicadas para hoje".
 | `tips[].tese`  | string          | sim         | parágrafo de análise; aparece em destaque no card |
 | `tips[].factors` | string[]      | não         | bullet points objetivos (estatísticas, H2H) |
 | `tips[].sources` | string[]      | não         | nome das fontes usadas (mostradas no card) |
+
+## Preço justo e CLV (P1, desde 10/11/2026 — só registo)
+
+Campos aditivos em cada tip, sombra, perna de acumulador e perna do duplo. O site, a banca e o
+P&L ignoram-nos. Escritos por `scripts/preco-justo.mjs` (publicação no Passo 7.1 do WORKFLOW,
+fecho no /update-results); resumo em `scripts/qa/clv-report.mjs`.
+
+| Campo | Quando | O que é |
+|---|---|---|
+| `odd_nossa` | publicação | a odd anunciada nesse momento |
+| `odd_justa_ref`, `prob_justa` | publicação | preço/probabilidade sem margem (método power) |
+| `fonte_justa` | publicação | `Pinnacle`, `Pinnacle 1X2` (DC/DNB derivados do 1X2), `mediana N casas`, `Pinnacle Poisson` |
+| `ev_justo` | publicação | `odd_nossa × prob_justa − 1` |
+| `mercado_ref` | publicação | id do mercado na API e o resultado, ex. `25:home/under 4.5` |
+| `justo_at`, `justo_gravado_em` | publicação | última actualização das odds na API; hora da gravação |
+| `justo_motivo` | publicação | porque não há preço (pick sem cotação na API, etc.) |
+| `odd_fecho_ref`, `fonte_fecho`, `fecho_at` | fecho | preço justo na última actualização antes do apito |
+| `fecho_aproximado` | fecho | `true` se a última actualização foi >3 h antes do apito ou se se usou o preço de publicação |
+| `clv` | fecho | `odd_nossa / odd_fecho_ref − 1` |
+| `oddApanhada`/`naoApostado` (+`…At`) | chat | só tips com stake e acumuladores (bilhete inteiro), via `master/odd-apanhada.mjs` |
 
 ## Mercados suportados
 

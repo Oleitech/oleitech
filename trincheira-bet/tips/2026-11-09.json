@@ -52,7 +52,15 @@
         "API-Football /odds?fixture=1570013 (Bet365, Marathonbet, Pinnacle)",
         "API-Football /fixtures?team=&last=8, /fixtures/headtohead, /injuries?fixture=1570013",
         "https://www.sportsgambler.com/betting-tips/football/sabadell-vs-real-sociedad-b-prediction-lineups-odds-2026-11-09/"
-      ]
+      ],
+      "clv_api": -0.0631,
+      "fecho_idade_min": 90,
+      "odd_fecho_ref": 2.22,
+      "fonte_fecho": "Pinnacle",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-09T18:00:10+00:00",
+      "fecho_aproximado": false,
+      "clv": -0.0631
     }
   ],
   "accumulators": [
@@ -79,7 +87,15 @@
             "Classificação API, National League South 2026/27: Ebbsfleet 1.º, 34 pts em 15 jogos (36-10), fora 5V-1E-1D (16-6); Chelmsford 10.º, 24 pts (23-15), em casa 2V-4E-1D (7-7)",
             "Preço: Bet365 1.40 com empate a devolver. Pinnacle 1X2 3.63 / 3.81 / 1.88 — o justo do empate devolve fica perto de 1.52, a Bet365 paga abaixo; numa perna de curto não se exige valor",
             "Baixas: API /injuries vazia e a pesquisa não trouxe antevisão desta jornada. Nada assumido — o filtro do curto não exige onze"
-          ]
+          ],
+          "clv_api": -0.0547,
+          "fecho_idade_min": 105,
+          "odd_fecho_ref": 1.481,
+          "fonte_fecho": "Pinnacle 1X2",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-09T18:00:10+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0547
         },
         {
           "sport": "football",
@@ -99,7 +115,15 @@
             "Classificação API, Serie C Girone C 2026/27: Altamura 16.º, em casa 2V-1E-3D (5-11); Cavese 12.º, fora 0V-3E-3D (4-10)",
             "Preço: Bet365 1.44, Pinnacle 1.42, Marathonbet 1.38 (por jogo, 07:10Z)",
             "Baixas: API /injuries vazia e sem notícia da jornada na pesquisa — nada assumido"
-          ]
+          ],
+          "clv_api": 0.0526,
+          "fecho_idade_min": 90,
+          "odd_fecho_ref": 1.368,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-09T18:00:10+00:00",
+          "fecho_aproximado": false,
+          "clv": 0.0526
         },
         {
           "sport": "football",
@@ -118,7 +142,15 @@
             "Valência, últimos 5 oficiais (API /fixtures, Liga F): 2-1 Eibar, 0-4 em Atlético, 0-1 em Athletic, 0-1 Real Sociedad, 1-2 Granada Tenerife — mais de 1.5 em 3/5",
             "Classificação API, Liga F 2026/27: Valência 16.º e último, 3 pts em 9 jogos (6-19), fora 0V-0E-5D (2-12); Deportivo 10.º (11-11), em casa 4-7 em cinco jogos",
             "Preço: Bet365 1.33, Pinnacle 1.33, Marathonbet 1.28 (por jogo, 07:10Z)"
-          ]
+          ],
+          "clv_api": -0.0376,
+          "fecho_idade_min": 120,
+          "odd_fecho_ref": 1.382,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-09T18:00:10+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0376
         }
       ]
     }

@@ -44,7 +44,17 @@
             "Bristol City em casa, últimos 10 de liga (SportsGambler): 4V-0E-6D, 0.80 golos marcados por jogo; perdeu 0-1 com Sheffield United e Blackburn (API /fixtures)",
             "Pinnacle 3.47 / 3.55 / 2.14: X2 justo a ~1.39; Bet365 paga 1.33",
             "Baixas: API /injuries dá Jiménez e Konan fora no Wolves; SportsGambler não dá baixas. Fontes discordantes, nenhuma baixa na defesa ou na baliza"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.336,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0044,
+          "clv": -0.0044,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "E1: Bristol City - Wolves",
+          "fecho_real_em": "2026-11-09T22:18:05.113Z"
         },
         {
           "sport": "football",
@@ -151,7 +161,17 @@
       "sources": [
         "API-Football /fixtures, /injuries, /odds (Bet365, Pinnacle)",
         "SportsGambler: antevisão Wrexham vs Middlesbrough"
-      ]
+      ],
+      "clv_api": null,
+      "odd_fecho_ref": 1.847,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
+      "fecho_aproximado": false,
+      "clv_fecho_real": -0.0796,
+      "clv": -0.0796,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "E1: Wrexham - Middlesbrough",
+      "fecho_real_em": "2026-11-09T22:18:05.111Z"
     }
   ],
   "duplo_sombra": {

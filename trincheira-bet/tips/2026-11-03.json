@@ -44,7 +44,17 @@
             "Forma Southampton, Championship 2026/27 (API /predictions): V-V-E-V-V nos últimos 5 — 5/5 sem perder",
             "SportsGambler, últimos 10 do Championship: Southampton 6V-2E-2D fora, 2,00 golos marcados por jogo fora; West Brom 4V-5E-1D em casa",
             "Tabela após 13 jornadas (SportsGambler): West Brom 4.º com 24 pontos, Southampton 5.º com 23"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.749,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.1425,
+          "clv": -0.1425,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "E1: West Brom - Southampton",
+          "fecho_real_em": "2026-11-09T22:18:05.107Z"
         },
         {
           "sport": "football",
@@ -62,7 +72,17 @@
             "Forma Birmingham, Championship 2026/27 (API /predictions): V-V-V-D-V — 4/5; em casa 2,3 marcados e 1,2 sofridos por jogo",
             "SportsGambler, últimos 10 em casa do Championship: Birmingham 5V-4E-1D",
             "Millwall fora nesta liga (API /predictions): 1,3 marcados e 2,0 sofridos por jogo; baixas na API: Arconte, De Norre, Jensen, Marschall e Metcalfe (castigado)"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.31,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0232,
+          "clv": -0.0232,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "E1: Birmingham - Millwall",
+          "fecho_real_em": "2026-11-09T22:18:05.108Z"
         }
       ],
       "combined_odds": 2.69,

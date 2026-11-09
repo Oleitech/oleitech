@@ -30,7 +30,17 @@
             "Kifisia em casa, últimos 9-10 da liga (SportsGambler, a página dá dois números): 2V-4E-3D ou 3V-4E-3D, 0,89 a 1,00 marcados por jogo",
             "Red flag avaliado: SportsGambler sem baixas listadas para os dois lados; API /injuries não consultado (a Fase B não exige onze)",
             "Preço: Bet365 1.48, Pinnacle 1.45, Marathonbet 1.41"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.478,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": 0.0016,
+          "clv": 0.0016,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "G1: Kifisia - Olympiakos",
+          "fecho_real_em": "2026-11-09T22:18:05.079Z"
         },
         {
           "sport": "football",
@@ -50,7 +60,8 @@
             "Bayern em casa, últimos 10 da Bundesliga (SportsGambler): 4,60 marcados e 1,20 sofridos; Dortmund fora, últimos 10 da Bundesliga: 1,50 marcados",
             "Red flag avaliado: Bayern sem Neuer, Musiala e Luis Díaz; Dortmund sem Emre Can (SportsGambler, uma fonte — a Fase B não exige segunda)",
             "Preço: Bet365 1.44, Marathonbet 1.48; Pinnacle sem o mercado"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -70,7 +81,17 @@
             "Betis em casa, últimos 10 da liga (SportsGambler): 6V-3E-1D (ou 7V-2E-1D, a página dá os dois), 1,80 marcados e 1,10 sofridos",
             "Red flag avaliado: Betis sem Bernal (vermelho), Juan Hernández e Firpo, Antony em dúvida (SportsGambler); Champions a meio da semana pode trazer rotação. Málaga sem Pablo Martínez, Joaquín Muñoz e Lobete",
             "Preço: Bet365 1.30, Pinnacle 1.32 (justo ~1.37), Marathonbet 1.32; implícita 77%, favorito claro"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.354,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0399,
+          "clv": -0.0399,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "SP1: Betis - Malaga",
+          "fecho_real_em": "2026-11-09T22:18:05.084Z"
         }
       ]
     }

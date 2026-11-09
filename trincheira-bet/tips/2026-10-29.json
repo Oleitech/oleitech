@@ -44,7 +44,8 @@
         "FootyStats cruzeiro-ec-vs-ca-mineiro-h2h-stats (splits casa/fora Série A 2026, xG)",
         "API-Football /odds?fixture=1492430 (Bet365, Marathonbet, Pinnacle)",
         "Pesquisa web: regresso do Everson aos convocados (Flashscore, O Tempo)"
-      ]
+      ],
+      "fecho_real_motivo": "mercado sem fecho no football-data"
     }
   ],
   "sombra": [],
@@ -91,7 +92,8 @@
             "SportsGambler, últimos 10 de Serie A: Fiorentina em casa ambas marcam 5/10; Atalanta fora 8/10",
             "Baixas concordantes (API /injuries 29/10 e SportsGambler): Atalanta sem Bellanova, Hien, Kessie, Kolasinac, Kossounou, Raspadori, Scalvini e Sulemana em dúvida; Fiorentina sem Atta, Parisi, Pongracic, Sottil, Ranieri em dúvida. Kean, Gudmundsson e Piccoli só na SportsGambler — não contam",
             "Preço: Bet365 1.50, Marathonbet 1.48; Pinnacle mais de 2.5 a 1.60"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",

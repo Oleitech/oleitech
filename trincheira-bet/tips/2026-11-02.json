@@ -48,7 +48,8 @@
             "Serie A 2026/27 (API /predictions): Sassuolo em casa 2,0 marcados e 2,5 sofridos, 0 balizas a zero e 0 jogos em branco (n=4); Fiorentina fora 1,5 marcados e 2,5 sofridos, 0 balizas a zero, 1 em branco (n=4)",
             "Red flag avaliado: a SportsGambler dá a Fiorentina sem Kean, Piccoli e Gudmundsson; a API /injuries não os lista (só Atta, Parisi, Ranieri, Pongracic, Sottil). Fontes em desacordo sobre o ataque da Fiorentina — perna mais frágil do bilhete. Sassuolo sem Thorstvedt (vermelho) e Koné (duas fontes)",
             "Preço: Bet365 1.44, Marathonbet 1.46; Pinnacle sem o mercado"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -68,7 +69,8 @@
             "La Liga 2026/27 (API /predictions): Corunha em casa 1,2 marcados e 1,0 sofridos, 0 balizas a zero (n=5); Osasuna fora 1,2 marcados e 3,4 sofridos, 0 balizas a zero (n=5). SportsGambler, últimos 10: Osasuna fora 7/10 mais de 2.5",
             "Red flag avaliado: Corunha sem Aubameyang (joelho), Ede e Eddahchouri; Osasuna sem Del Castillo (API /injuries e SportsGambler concordam). Nenhuma baixa de guarda-redes nem de defesa inteira",
             "Preço: Bet365 1.40, Pinnacle 1.40, Marathonbet 1.36"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     }
@@ -111,7 +113,8 @@
         "API-Football /injuries?fixture=1557455 (02/11/2026) — fonte 1 de ausências",
         "SportsGambler newcastle-vs-everton-prediction-lineups-odds-2026-11-02 — fonte 2 de ausências, forma",
         "API-Football /odds?fixture=1557455 (Bet365, Marathonbet, Pinnacle)"
-      ]
+      ],
+      "fecho_real_motivo": "mercado sem fecho no football-data"
     }
   ],
   "duplo_sombra": {

@@ -233,6 +233,8 @@ const UI = {
   },
 
   renderAccaCard({ selections, combined_odds, score, stake, label }) {
+    const multiDia = label === 'multipla-jornada';
+    const quando = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pt-PT', { timeZone: 'Europe/Lisbon', weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };
     const SPORT_BADGE = { football: '⚽', nba: '🏀', tennis: '🎾' };
     // Os três modelos têm regras e casa de referência diferentes, mas o cartão
     // mostrava-os todos como "Acumulador" — no site ficavam indistinguíveis.
@@ -240,6 +242,7 @@ const UI = {
       standard: { name: 'Acumulador', book: 'Betclic PT' },
       curto: { name: 'Acumulador Curto', book: 'Betclic PT' },
       corvo: { name: 'Acumulador Corvo', book: 'Marathonbet (ref.)' },
+      'multipla-jornada': { name: '🎯 Múltipla da jornada', book: '1xBet' },   // 09/11/2026: pernas em dias diferentes
     };
     const type = ACCA_TYPES[label] || ACCA_TYPES.standard;
     const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
@@ -253,7 +256,7 @@ const UI = {
           <div class="acca-leg__content">
             <div class="acca-leg__match">
               <span class="acca-leg__sport">${badge}</span>
-              <span class="acca-leg__name">${s.match || ''}</span>
+              <span class="acca-leg__name">${s.match || ''}${multiDia && s.kickoff ? ` · ${quando(s.kickoff)}` : ''}</span>
             </div>
             <div class="acca-leg__pick">
               <span class="acca-leg__pick-label">${s.pick || ''}</span>

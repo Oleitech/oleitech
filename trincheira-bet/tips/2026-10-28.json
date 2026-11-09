@@ -28,7 +28,17 @@
             "Ausências em duas fontes (API /injuries 28/10 e SportsGambler): Inter sem Lautaro, Pavard, Stones, Curtis Jones, Luis Henrique; Venezia sem Adorante, Correia, Franjic, Sverko. Carboni só na SportsGambler",
             "Descartado por proveniência: o 7-0-3 em casa do Venezia na SportsGambler mistura a Serie B",
             "Preço: Marathonbet 1.42; Pinnacle dá o Inter a 1.35 (cerca de 71% sem margem), justo para vence e mais de 1.5 perto de 1.56"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.534,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0746,
+          "clv": -0.0746,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "I1: Venezia - Inter",
+          "fecho_real_em": "2026-11-09T22:18:05.045Z"
         },
         {
           "sport": "football",
@@ -48,7 +58,17 @@
             "Forma Celtic todas as provas (SportsGambler): 2-1 em Hibernian, 1-2 Celta (Liga Europa), 7-1 Hearts, 1-4 em Lisboa (Liga Europa), 2-0 em Motherwell — vence com 2+ golos 3/5",
             "Ausências: nenhum nome em duas fontes (API /injuries 28/10 vazio; SportsGambler sem baixas)",
             "Preço: Marathonbet 1.37; Pinnacle dá o Celtic a 1.25 (cerca de 76% sem margem), justo para vence e mais de 1.5 perto de 1.45"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.383,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0096,
+          "clv": -0.0096,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "SC0: Celtic - Dundee United",
+          "fecho_real_em": "2026-11-09T22:18:05.048Z"
         }
       ],
       "combined_odds": 1.95,

@@ -37,6 +37,7 @@ const App = {
       Cache.purge();
 
       await this.loadCuratedTips();
+      await this.loadAmbas();
     } catch (e) {
       console.error('[TB] Init failed:', e);
     }
@@ -85,6 +86,21 @@ const App = {
           <div class="title"><span class="swatch" style="background:var(--green)"></span> Acumulador do dia <span class="badge badge--green" id="badge-acca"></span></div>
         </div>
         <div id="acca-container"></div>
+      </section>
+
+      <!-- 🟢🟢 ambas marcam (decisao do dono 09/11/2026): uma por dia, so o Sim; sai de manha com as tips, mais os alertas do dia (0,75/0,75 + valor).
+           Le resultados/ambas/index.json (master/ambas.mjs). Sem stake = sem valor, medida em sombra. -->
+      <section id="section-ambas" style="display:none">
+        <div class="section-head">
+          <div class="title">🟢🟢 Ambas marcam <span class="badge badge--green" id="badge-ambas"></span></div>
+        </div>
+        <div class="scanner">
+          <div class="scanner-row"><div style="width:100%">
+            <div class="scanner-title" id="ambas-hoje"></div>
+            <div class="scanner-stats" style="margin-top:8px" id="ambas-stats"></div>
+          </div></div>
+        </div>
+        <div class="league-table" id="ambas-hist" style="margin-top:12px"></div>
       </section>
 
       <section id="section-btts" style="display:none">
@@ -177,7 +193,8 @@ const App = {
     }
 
     const tips = Array.isArray(payload?.tips) ? payload.tips : [];
-    const accas = Array.isArray(payload?.accumulators) ? payload.accumulators : [];
+    // Acumuladores em sombra (o corvo desde 10/11/2026) sao registo, nao aposta: nao aparecem.
+    const accas = Array.isArray(payload?.accumulators) ? payload.accumulators.filter(a => a.shadow !== true) : [];
     if (tips.length === 0 && accas.length === 0) {
       this.showStatus('Dia sem tips — nenhum jogo cumpriu os critérios.', 'empty');
       return;
@@ -186,6 +203,44 @@ const App = {
     this.renderAccumulators(accas);
     this.savePreMatchDataForLive(tips);
     this.updateMeta(payload, tips.length, accas.length);
+  },
+
+  async loadAmbas() {
+    let idx;
+    try {
+      const res = await fetch(bustCache('resultados/ambas/index.json'), { cache: 'no-store' });
+      if (!res.ok) return; // ainda sem historico: a seccao fica escondida
+      idx = await res.json();
+    } catch (e) { console.warn('[TB] ambas:', e); return; }
+    const dias = Array.isArray(idx?.dias) ? idx.dias : [];
+    const esc = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const f2 = (n) => (typeof n === 'number' ? n.toFixed(2) : '—');
+    const sinal = (n, casas = 2) => `${n >= 0 ? '+' : '−'}${Math.abs(n).toFixed(casas).replace('.', ',')}`;
+    const hora = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' }); };
+    const dia = dias.find(d => d.date === this.getLocalDateStr(0));
+    const hoje = dia?.jogo ? dia : null, nLive = dia?.live?.length || 0;
+    const titulo = document.getElementById('ambas-hoje');
+    titulo.innerHTML = hoje
+      ? `<span class="pulse" style="background:var(--green)"></span> <span>Hoje: <b>${esc(hoje.jogo)}</b> (${hora(hoje.ko)}) · 1xBet <span class="num">@${f2(hoje.odd)}</span>` +
+        (hoje.oddJusta ? ` · justo <span class="num">@${f2(hoje.oddJusta)}</span>` : '') + (hoje.stake > 0 ? ' · meia stake' : ' · sem valor hoje, stake 0') +
+        (hoje.result ? ` · <b>${esc(hoje.result)}</b> ${esc(hoje.final || '')}` : '') +
+        (nLive ? ` · ${nLive} alerta${nLive === 1 ? '' : 's'} do dia` : '') + '</span>'
+      : '<span class="pulse" style="background:var(--amber)"></span> <span>A de hoje sai de manhã, com as tips.</span>';
+    const r = idx.resumo || {};
+    const st = [];
+    if (r.liquidadas) st.push(`<span><span class="k">Acertos</span><span class="v num">${r.acertos}/${r.liquidadas}</span></span>`);
+    if (r.nClv) st.push(`<span><span class="k">CLV médio</span><span class="v num">${sinal(r.clvMedio * 100, 1)}%</span></span>`);
+    st.push(`<span><span class="k">P&amp;L com stake</span><span class="v num">${sinal(r.pnl || 0)} (${r.comStake || 0})</span></span>`);
+    if (r.live?.liquidadas) st.push(`<span><span class="k">Alertas do dia</span><span class="v num">${r.live.acertos}/${r.live.liquidadas} · ${sinal(r.live.pnl || 0)}</span></span>`);
+    document.getElementById('ambas-stats').innerHTML = st.join('');
+    const linhas = dias.flatMap(d => [d, ...(d.live || []).map(x => ({ ...x, date: d.date, alerta: true }))]).filter(d => d.jogo && d.result).slice(0, 10).map(d => `<div class="league-row">
+        <div>${esc(d.date.slice(8, 10))}/${esc(d.date.slice(5, 7))} · ${esc(d.jogo)}${d.alerta ? ' · alerta do dia' : ''}</div><div>@${f2(d.odd)}</div>
+        <div>${typeof d.clv === 'number' ? `${sinal(d.clv * 100, 1)}%` : '—'}</div>
+        <div style="color:${d.result === 'GREEN' ? 'var(--green)' : 'var(--red)'}">${esc(d.result)}${d.stake > 0 ? '' : ' · s/ stake'}</div></div>`);
+    document.getElementById('ambas-hist').innerHTML = linhas.length
+      ? `<div class="league-row head"><div>Jogo</div><div>Odd</div><div>CLV</div><div>Resultado</div></div>${linhas.join('')}` : '';
+    document.getElementById('badge-ambas').textContent = dias.length;
+    document.getElementById('section-ambas').style.display = '';
   },
 
   showStatus(text, kind) {

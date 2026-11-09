@@ -29,7 +29,17 @@
             "SportsGambler, últimos 10 de Pro League: Brugge em casa 10V-0E-0D, 3.50 marcados e 0.60 sofridos por jogo; Anderlecht fora 3V-1E-6D, 2.20 sofridos por jogo",
             "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Ordóñez (pé) no Brugge; Ilay Camara (pé) e Lucas Hey (perna) no Anderlecht. Bertaccini castigado só na SportsGambler; Koutsoupias fora na API mas no onze provável da SportsGambler — não se assume nenhum dos dois",
             "Preço: Bet365 1.50, Pinnacle 1.52, Marathonbet 1.48 (por jogo, 07:15Z). SportsGambler vai pelo Brugge -1.25 — alinhado"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.642,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0866,
+          "clv": -0.0866,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Club Brugge - Anderlecht",
+          "fecho_real_em": "2026-11-09T22:18:05.141Z"
         },
         {
           "sport": "football",
@@ -66,7 +76,8 @@
             "Levante, últimos 5 oficiais (API /fixtures, La Liga): 0-2 Atlético, 1-2 em Real Sociedad, 3-1 Athletic, 1-1 em Deportivo, 3-3 Sevilla — 5/5",
             "Celta, últimos 5 oficiais (API /fixtures; La Liga e Liga Europa): 1-2 Union SG, 0-3 em Rayo, 0-0 Betis, 2-1 em Celtic, 2-1 Alavés — 4/5",
             "Preço: Bet365 1.28, Pinnacle 1.30, Marathonbet 1.26"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     },
@@ -130,7 +141,8 @@
             "Brest, últimos 5 oficiais (API /fixtures, Ligue 1; sem o amigável com o Monza): 2-0 em Lorient, 1-2 Nice, 1-1 em Lille, 5-1 Angers, 1-2 em Auxerre — 5/5",
             "Lyon, últimos 5 oficiais (API /fixtures; Liga Europa e Ligue 1): 1-1 em Real Sociedad, 2-0 Angers, 0-2 em PSG, 0-3 em Hoffenheim, 2-1 Nice — 5/5",
             "Preço: Bet365 1.28, Pinnacle 1.30, Marathonbet 1.26"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     },
@@ -158,7 +170,17 @@
             "SportsGambler, últimos 10 de liga: Estrela em casa 2V-4E-4D, 2.70 golos por jogo; Benfica fora 7V-2E-1D, 3.70 golos por jogo. Tabela: Benfica 2.º com 25 pts, Estrela 12.º com 10",
             "Baixas: Leandro Barreiro (lesão muscular) na SportsGambler e fora do último jogo na API /injuries — duas fontes. Barrenechea fora e Lukebakio em dúvida só na API — não assumidos. Estrela sem baixas na SportsGambler e na API",
             "Preço: Marathonbet 1.45 (só a Marathonbet expõe este mercado); vitória simples Bet365 1.25, Pinnacle 1.22. A SportsGambler vai pelo Estrela +2, que não contraria a perna"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.519,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0452,
+          "clv": -0.0452,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "P1: Estrela - Benfica",
+          "fecho_real_em": "2026-11-09T22:18:05.148Z"
         },
         {
           "sport": "football",

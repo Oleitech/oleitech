@@ -26,7 +26,17 @@
             "SportsGambler, últimos 10: River fora 6V-1E-3D (1.5 marcados, 0.8 sofridos); Aldosivi em casa 3V-4E-3D (1.0 marcados)",
             "Baixas (SportsGambler; a API não dá nenhuma): River sem Aníbal Moreno, Nasif e Zabala; Aldosivi sem baixas. Nenhuma na baliza",
             "Preço: Bet365 1.44, Pinnacle 1.41. Contraponto: SportsGambler aposta no Aldosivi +1"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.41,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": 0.0209,
+          "clv": 0.0209,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "ARG Liga Profesional: Aldosivi - River Plate",
+          "fecho_real_em": "2026-11-09T22:18:05.118Z"
         },
         {
           "sport": "football",

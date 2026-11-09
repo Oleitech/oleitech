@@ -227,7 +227,7 @@ const Layout = {
       stake: t.stake,
       result: (t.result === 'PUSH' || t.result === 'VOID') ? 'push' : (t.hit === true ? 'win' : 'loss'),
       source: 'pre',
-    })).concat((ct.accumulators || []).map(a => ({
+    })).concat((ct.accumulators || []).filter(a => a.shadow !== true).map(a => ({   // sombra (corvo desde 10/11) nao e aposta
       market: 'Acumulador',
       matches: (a.selections || []).map(x => x.match).join(' + '),
       type: (a.selections || []).map(x => x.pick).join(' + '),
