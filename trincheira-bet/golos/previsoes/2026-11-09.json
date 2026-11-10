@@ -34,8 +34,9 @@
         "valor": 0.054
       },
       "sinal": true,
-      "golos": null,
-      "ganhou": null
+      "golos": 0,
+      "ganhou": false
     }
-  ]
+  ],
+  "avaliado_em": "2026-11-10T07:00:35.752Z"
 }

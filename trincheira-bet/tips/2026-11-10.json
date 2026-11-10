@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:10:42Z",
+  "units": "stakes",
+  "tips": [],
+  "sombra": [],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.62,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "Bet365",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1596055,
+          "match": "Whitehawk vs Welling United",
+          "league": "Isthmian Premier (Inglaterra)",
+          "pick": "Welling United vence",
+          "odds": 1.45,
+          "kickoff": "2026-11-10T19:45:00Z",
+          "score": 65,
+          "tese": "O Welling ganhou os três jogos oficiais mais recentes contra o Whitehawk, dois deles por 2-0 e 2-1, e vem de quatro vitórias em cinco jogos, com 14 golos marcados. O Whitehawk não ganha há seis jogos e levou 0-5 do Whyteleafe há menos de um mês. O mercado dá o Welling claro favorito fora e a Bet365 paga quase o mesmo que a Pinnacle.",
+          "factors": [
+            "H2H oficial (API /fixtures/headtohead, Isthmian Premier): 2-0 Welling em casa (08/2026), 2-1 Welling em casa (03/2026), 1-2 no Whitehawk (12/2025) — Welling vence 3/3; não há mais encontros oficiais na API",
+            "Welling, últimos 5 oficiais (API /fixtures, Isthmian Premier): 3-1 em St Albans, 4-0 Carshalton, 1-0 Leatherhead, 2-3 em Chatham, 4-2 Burgess Hill — 4/5 vitórias",
+            "Whitehawk, últimos 6 oficiais (API /fixtures, Isthmian Premier e FA Trophy): 0-0, 1-3, 1-2, 3-3, 1-1, 0-5 — nenhuma vitória",
+            "Preço: Bet365 1.45; Pinnacle 1X2 4.96 / 4.37 / 1.50; 1xBet 1.44; Marathonbet 1.43",
+            "Baixas: API /injuries vazia; pesquisa sem antevisão desta jornada (Kent Sports News sem página para 10/11). Nada assumido — o filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.45,
+          "justo_gravado_em": "2026-11-10T07:10:49.504Z",
+          "odd_justa_ref": 1.569,
+          "prob_justa": 0.6372,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0761,
+          "justo_at": "2026-11-10T00:00:20+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1649432,
+          "match": "Boston River vs Atletico Torque",
+          "league": "Copa AUF Uruguay (Uruguai)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "kickoff": "2026-11-10T19:30:00Z",
+          "score": 65,
+          "tese": "Quatro dos últimos cinco jogos oficiais entre o Boston River e o Torque tiveram dois golos ou mais, incluindo o 1-2 de há nove dias para o campeonato. O Torque marcou dois ou mais nos últimos cinco jogos oficiais, entre eles o 2-0 ao Peñarol na taça, e já está fora da Sul-Americana, por isso não tem razão para poupar. Jogo a eliminar, sem segunda mão.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Primera División 2025-2026): 1-2 (01/11/2026), 4-1 Torque (04/2026), 1-1 (08/2025), 2-1 Boston (06/2025), 0-0 (02/2025) — mais de 1.5 em 4/5",
+            "Torque, últimos 5 oficiais (API /fixtures, Copa AUF, Primera e Sudamericana): 6-0 Libertad San Carlos, 2-1 em Boston River, 2-0 Peñarol, 3-1 Cerro, 2-0 Atlético-MG — mais de 1.5 em 5/5",
+            "Boston River, últimos 5 oficiais (API /fixtures, Copa AUF e Primera): 2-0 San Carlos, 1-2 Torque, 0-2 Cerro Largo, 1-0 Defensor, 0-0 River Plate — mais de 1.5 em 3/5",
+            "Preço: Bet365 1.36; Pinnacle mais de 1.5 a 1.36 / menos a 2.82",
+            "Contexto: o Torque foi eliminado da Sul-Americana pelo Atlético-MG a 21/10 (0-3 e 2-0; Emol, Win Sports), por isso não tem jogo continental a seguir. Sem antevisão com baixas (pesquisa sem resultado); API /injuries vazia. O filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-10T07:10:49.507Z",
+          "odd_justa_ref": 1.429,
+          "prob_justa": 0.6998,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0482,
+          "justo_at": "2026-11-10T06:00:16+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1648690,
+          "match": "Internacional de Bogota vs America de Cali",
+          "league": "Copa Colombia — meia-final, 1.ª mão (Colômbia)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-11-10T23:30:00Z",
+          "score": 65,
+          "tese": "Os últimos cinco jogos oficiais entre o Inter de Bogotá e o América tiveram todos dois golos ou mais (0-2, 3-0, 3-2, 2-0 e 2-2). O Inter passou os 1.5 golos em quatro dos últimos cinco e o América em três, com os dois nulos mais recentes do América a ser o ponto a vigiar. É a primeira mão da meia-final, em Bogotá.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Primera A 2024-2026): 0-2 (07/2026), 3-0 América (01/2026), 3-2 América (10/2025), 2-0 Inter (04/2025), 2-2 (10/2024) — mais de 1.5 em 5/5",
+            "Inter, últimos 5 oficiais (API /fixtures, Primera A e Copa Colombia): 1-2 Chicó, 3-1 Medellín, 0-1 Alianza Valledupar, 2-1 Fortaleza, 4-1 Llaneros — mais de 1.5 em 4/5",
+            "América, últimos 5 oficiais (API /fixtures, Primera A e Copa Colombia): 0-0 Deportivo Cali, 0-0 Millonarios, 2-1 Fortaleza, 3-1 Cúcuta, 4-0 Barranquilla — mais de 1.5 em 3/5",
+            "Preço: Bet365 1.33; Pinnacle mais de 1.5 a 1.35 / menos a 3.04",
+            "Contexto: 1.ª mão da meia-final, Estadio Metropolitano de Techo (El País Cali, Win Sports). Sem lista de baixas publicada (pesquisa em El País, Win Sports, RCN); API /injuries vazia. O filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.33,
+          "justo_gravado_em": "2026-11-10T07:10:49.508Z",
+          "odd_justa_ref": 1.401,
+          "prob_justa": 0.7136,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0509,
+          "justo_at": "2026-11-10T04:05:14+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.62,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "Bet365",
+      "notes": "Igual ao curto real: a única perna \"vence\" que passou o filtro já lá está (Welling). O Stockport vence a 1.38 caiu no filtro (já apurado, vai poupar o melhor marcador, e o Tranmere precisa de ganhar) e o Reading a 1.44 é com empate a devolver, que não conta como \"vence\". Sem troca possível.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1596055,
+          "match": "Whitehawk vs Welling United",
+          "league": "Isthmian Premier (Inglaterra)",
+          "pick": "Welling United vence",
+          "odds": 1.45,
+          "kickoff": "2026-11-10T19:45:00Z",
+          "score": 65,
+          "tese": "O Welling ganhou os três jogos oficiais mais recentes contra o Whitehawk, dois deles por 2-0 e 2-1, e vem de quatro vitórias em cinco jogos, com 14 golos marcados. O Whitehawk não ganha há seis jogos e levou 0-5 do Whyteleafe há menos de um mês. O mercado dá o Welling claro favorito fora e a Bet365 paga quase o mesmo que a Pinnacle.",
+          "factors": [
+            "H2H oficial (API /fixtures/headtohead, Isthmian Premier): 2-0 Welling em casa (08/2026), 2-1 Welling em casa (03/2026), 1-2 no Whitehawk (12/2025) — Welling vence 3/3; não há mais encontros oficiais na API",
+            "Welling, últimos 5 oficiais (API /fixtures, Isthmian Premier): 3-1 em St Albans, 4-0 Carshalton, 1-0 Leatherhead, 2-3 em Chatham, 4-2 Burgess Hill — 4/5 vitórias",
+            "Whitehawk, últimos 6 oficiais (API /fixtures, Isthmian Premier e FA Trophy): 0-0, 1-3, 1-2, 3-3, 1-1, 0-5 — nenhuma vitória",
+            "Preço: Bet365 1.45; Pinnacle 1X2 4.96 / 4.37 / 1.50; 1xBet 1.44; Marathonbet 1.43",
+            "Baixas: API /injuries vazia; pesquisa sem antevisão desta jornada (Kent Sports News sem página para 10/11). Nada assumido — o filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.45,
+          "justo_gravado_em": "2026-11-10T07:10:49.508Z",
+          "odd_justa_ref": 1.569,
+          "prob_justa": 0.6372,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0761,
+          "justo_at": "2026-11-10T00:00:20+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1649432,
+          "match": "Boston River vs Atletico Torque",
+          "league": "Copa AUF Uruguay (Uruguai)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "kickoff": "2026-11-10T19:30:00Z",
+          "score": 65,
+          "tese": "Quatro dos últimos cinco jogos oficiais entre o Boston River e o Torque tiveram dois golos ou mais, incluindo o 1-2 de há nove dias para o campeonato. O Torque marcou dois ou mais nos últimos cinco jogos oficiais, entre eles o 2-0 ao Peñarol na taça, e já está fora da Sul-Americana, por isso não tem razão para poupar. Jogo a eliminar, sem segunda mão.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Primera División 2025-2026): 1-2 (01/11/2026), 4-1 Torque (04/2026), 1-1 (08/2025), 2-1 Boston (06/2025), 0-0 (02/2025) — mais de 1.5 em 4/5",
+            "Torque, últimos 5 oficiais (API /fixtures, Copa AUF, Primera e Sudamericana): 6-0 Libertad San Carlos, 2-1 em Boston River, 2-0 Peñarol, 3-1 Cerro, 2-0 Atlético-MG — mais de 1.5 em 5/5",
+            "Boston River, últimos 5 oficiais (API /fixtures, Copa AUF e Primera): 2-0 San Carlos, 1-2 Torque, 0-2 Cerro Largo, 1-0 Defensor, 0-0 River Plate — mais de 1.5 em 3/5",
+            "Preço: Bet365 1.36; Pinnacle mais de 1.5 a 1.36 / menos a 2.82",
+            "Contexto: o Torque foi eliminado da Sul-Americana pelo Atlético-MG a 21/10 (0-3 e 2-0; Emol, Win Sports), por isso não tem jogo continental a seguir. Sem antevisão com baixas (pesquisa sem resultado); API /injuries vazia. O filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-10T07:10:49.508Z",
+          "odd_justa_ref": 1.429,
+          "prob_justa": 0.6998,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0482,
+          "justo_at": "2026-11-10T06:00:16+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1648690,
+          "match": "Internacional de Bogota vs America de Cali",
+          "league": "Copa Colombia — meia-final, 1.ª mão (Colômbia)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-11-10T23:30:00Z",
+          "score": 65,
+          "tese": "Os últimos cinco jogos oficiais entre o Inter de Bogotá e o América tiveram todos dois golos ou mais (0-2, 3-0, 3-2, 2-0 e 2-2). O Inter passou os 1.5 golos em quatro dos últimos cinco e o América em três, com os dois nulos mais recentes do América a ser o ponto a vigiar. É a primeira mão da meia-final, em Bogotá.",
+          "factors": [
+            "H2H oficial, últimos 5 (API /fixtures/headtohead, Primera A 2024-2026): 0-2 (07/2026), 3-0 América (01/2026), 3-2 América (10/2025), 2-0 Inter (04/2025), 2-2 (10/2024) — mais de 1.5 em 5/5",
+            "Inter, últimos 5 oficiais (API /fixtures, Primera A e Copa Colombia): 1-2 Chicó, 3-1 Medellín, 0-1 Alianza Valledupar, 2-1 Fortaleza, 4-1 Llaneros — mais de 1.5 em 4/5",
+            "América, últimos 5 oficiais (API /fixtures, Primera A e Copa Colombia): 0-0 Deportivo Cali, 0-0 Millonarios, 2-1 Fortaleza, 3-1 Cúcuta, 4-0 Barranquilla — mais de 1.5 em 3/5",
+            "Preço: Bet365 1.33; Pinnacle mais de 1.5 a 1.35 / menos a 3.04",
+            "Contexto: 1.ª mão da meia-final, Estadio Metropolitano de Techo (El País Cali, Win Sports). Sem lista de baixas publicada (pesquisa em El País, Win Sports, RCN); API /injuries vazia. O filtro do curto não exige onze"
+          ],
+          "odd_nossa": 1.33,
+          "justo_gravado_em": "2026-11-10T07:10:49.509Z",
+          "odd_justa_ref": 1.401,
+          "prob_justa": 0.7136,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0509,
+          "justo_at": "2026-11-10T04:05:14+00:00"
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna entre 1.40 e 1.60 chega a 75 com a investigação completa. O Welling (1.45) e o Reading com empate a devolver (1.44) estão na banda, mas o jogo do Welling não tem nenhuma fonte de baixas e o do Reading é do Troféu da EFL com rotação anunciada; o Burton-Notts County em ambas marcam (1.62) passa a banda e tem a matemática contra."
+  },
+  "notes": "Terça-feira de jornada curta: as ligas grandes estão paradas e só joga a primeira eliminatória da Taça do Rei, o Troféu da EFL com equipas mexidas e o futebol semi-profissional inglês. Não sai nenhuma tip simples. Comparámos os preços com o justo da Pinnacle em mais de sessenta jogos, e os únicos com valor eram golos no Troféu da EFL, numa prova em que os treinadores mudam meia equipa e a antevisão aponta para o contrário. Não se força boletim.\n\nSai um curto a meia stake, a 2.62. O Welling ganhou os três últimos jogos contra o Whitehawk, que não ganha há seis. Juntam-se o mais de 1.5 golos no Boston River-Torque, para a taça do Uruguai, e na primeira mão da meia-final da Taça da Colômbia entre o Inter de Bogotá e o América. A perna com menos folga é a do Inter-América: o América vem de dois nulos seguidos, e numa primeira mão ninguém quer arriscar muito.\n\nNos jogos da Taça do Rei os grandes jogam contra equipas que nunca defrontaram, e sem histórico essas pernas não entram. Também não houve duas pernas com as baixas confirmadas por duas fontes para juntar noutro bilhete.\n\nExposição do dia: meia stake."
+}

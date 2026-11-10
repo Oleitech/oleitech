@@ -1,0 +1,44 @@
+{
+  "atualizado": "2026-11-10T07:15:55.704Z",
+  "units": "stakes",
+  "resumo": {
+    "escolhas": 1,
+    "liquidadas": 0,
+    "acertos": 0,
+    "clvMedio": null,
+    "nClv": 0,
+    "comStake": 0,
+    "pnl": 0,
+    "pnlSombra": 0,
+    "live": {
+      "escolhas": 0,
+      "liquidadas": 0,
+      "acertos": 0,
+      "clvMedio": null,
+      "nClv": 0,
+      "comStake": 0,
+      "pnl": 0,
+      "pnlSombra": 0
+    }
+  },
+  "dias": [
+    {
+      "date": "2026-11-10",
+      "jogo": "Whitehawk vs Welling United",
+      "liga": "Non League Premier - Isthmian",
+      "ko": "2026-11-10T19:45:00+00:00",
+      "odd": 1.72,
+      "oddJusta": 1.81,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8723,
+      "pCasaMarca": 0.7468,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    }
+  ]
+}
