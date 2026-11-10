@@ -232,7 +232,7 @@ const UI = {
     return card;
   },
 
-  renderAccaCard({ selections, combined_odds, score, stake, label }) {
+  renderAccaCard({ selections, combined_odds, score, stake, label, variante, nome }) {
     const multiDia = label === 'multipla-jornada';
     const quando = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleString('pt-PT', { timeZone: 'Europe/Lisbon', weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); };
     const SPORT_BADGE = { football: '⚽', nba: '🏀', tennis: '🎾' };
@@ -244,7 +244,9 @@ const UI = {
       corvo: { name: 'Acumulador Corvo', book: 'Marathonbet (ref.)' },
       'multipla-jornada': { name: '🎯 Múltipla da jornada', book: '1xBet' },   // 09/11/2026: pernas em dias diferentes
     };
-    const type = ACCA_TYPES[label] || ACCA_TYPES.standard;
+    const type = { ...(ACCA_TYPES[label] || ACCA_TYPES.standard) };
+    if (multiDia && nome) type.name = nome;   // desde 12/11/2026: "🎯 Múltipla Liga das Nações A" / "🎯 Múltipla selecções A"
+    else if (multiDia && variante) type.name += ` ${variante}`;   // desde 11/11/2026 saem duas (A e B), cada uma a meia stake
     const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
 
     const selectionsHtml = selections.map((s, i) => {

@@ -242,6 +242,8 @@ const Layout = {
       // no telemovel dava uma linha cortada a meio do nome do primeiro jogo e
       // mais nada — sao mantidos so como recurso para quem nao saiba ler `legs`.
       label: a.label || null,
+      variante: a.variante || null,
+      nome: a.nome || null,   // desde 12/11/2026 o nome distingue Liga das Nacoes e outras selecções   // multipla da jornada A/B (desde 11/11/2026): cada uma e uma linha e conta uma vez
       bookmaker: a.bookmaker || null,
       note: a.note || null,
       legs: (a.selections || []).map(x => ({

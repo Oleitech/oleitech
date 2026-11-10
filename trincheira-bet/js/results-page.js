@@ -446,7 +446,7 @@ const ResultsPage = {
         if (legs.length > 0) {
           const acc = UI.el('div', 'acc');
           row.classList.add('is-acc');
-          const nome = bet.label === 'multipla-jornada' ? '🎯 Múltipla da jornada' : bet.label ? `Acumulador ${bet.label}` : 'Acumulador';
+          const nome = bet.label === 'multipla-jornada' ? bet.nome || `🎯 Múltipla da jornada${bet.variante ? ` ${bet.variante}` : ''}` : bet.label ? `Acumulador ${bet.label}` : 'Acumulador';
           const pernas = `${legs.length} pernas`;
           row.innerHTML = `
             <span class="mkt" style="color:var(--m-acc)">${srcBadge}${this.esc(nome)}</span>
