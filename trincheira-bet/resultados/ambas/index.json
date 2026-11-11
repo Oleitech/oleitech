@@ -1,15 +1,15 @@
 {
-  "atualizado": "2026-11-10T07:15:55.704Z",
+  "atualizado": "2026-11-11T07:12:45.624Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 1,
-    "liquidadas": 0,
-    "acertos": 0,
-    "clvMedio": null,
-    "nClv": 0,
+    "escolhas": 2,
+    "liquidadas": 1,
+    "acertos": 1,
+    "clvMedio": -0.0847,
+    "nClv": 1,
     "comStake": 0,
     "pnl": 0,
-    "pnlSombra": 0,
+    "pnlSombra": 0.36,
     "live": {
       "escolhas": 0,
       "liquidadas": 0,
@@ -23,6 +23,24 @@
   },
   "dias": [
     {
+      "date": "2026-11-11",
+      "jogo": "Artis vs FK Jablonec",
+      "liga": "Cup",
+      "ko": "2026-11-11T17:00:00+00:00",
+      "odd": 1.67,
+      "oddJusta": 1.81,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.7569,
+      "pCasaMarca": 0.6892,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
+    {
       "date": "2026-11-10",
       "jogo": "Whitehawk vs Welling United",
       "liga": "Non League Premier - Isthmian",
@@ -33,11 +51,11 @@
       "semValor": true,
       "pVisitanteMarca": 0.8723,
       "pCasaMarca": 0.7468,
-      "result": null,
-      "final": null,
-      "clv": null,
+      "result": "GREEN",
+      "final": "2-2",
+      "clv": -0.0847,
       "pnl": 0,
-      "pnlSombra": null,
+      "pnlSombra": 0.36,
       "live": []
     }
   ]

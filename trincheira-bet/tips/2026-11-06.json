@@ -96,7 +96,8 @@
             "Contexto (SK Rapid, antevisão de 04/11): melhor arranque do século, 10 vitórias em 11 jornadas; WAC com treinador novo, Manfred Schmid, e eliminado da Taça pelo Hertha Wels",
             "Baixas: a API /injuries não lista nenhuma de nenhum lado e a antevisão oficial do Rapid não aponta ausências — duas fontes concordantes sem baixas conhecidas. A conferência de imprensa de quinta não foi encontrada",
             "Preço: Marathonbet 1.35 (só a Marathonbet expõe este mercado); vitória simples Bet365 1.27, Pinnacle 1.26"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -116,7 +117,8 @@
             "Classificação API, Allsvenskan 2026 (27 jornadas de 30): Sirius 58, Hammarby 55, Djurgården 52; Elfsborg 5.º com 46",
             "Baixas Hammarby: Amin Boudri fora até ao fim da época (API /injuries “Inactive” e Fotbolldirekt 04/11) — duas fontes. Oliver Jordan Hagen fora (só Fotbolldirekt; não joga desde Setembro) e Hedlöf com problema na anca (só API) não pesam. Elfsborg: Wikström com fractura (só Fotbolldirekt)",
             "Preço: Marathonbet 1.39; a mesma linha paga 1.44 na Bet365 e 1.42 na Pinnacle"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     }

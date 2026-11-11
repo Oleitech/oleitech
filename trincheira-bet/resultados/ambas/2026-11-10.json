@@ -65,7 +65,38 @@
       "market": "Ambas marcam: Sim",
       "odds": 1.72,
       "frase": "O Welling United marcou em 6 dos últimos 7 jogos fora, e o Whitehawk sofreu em 6 dos últimos 7 em casa.",
-      "sentAt": 1794294954728
+      "sentAt": 1794294954728,
+      "pertoEm": "2026-11-10T18:22:25.403Z",
+      "oddPertoDoJogo": 1.71,
+      "evPertoDoJogo": {
+        "formula": -0.0527,
+        "consenso": -0.0939
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Welling United; as pesquisas só devolveram jogos e notícias antigas.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794380446205,
+      "pnlSombra": 0.36,
+      "odd_fecho_ref": 1.879,
+      "prob_fecho": 0.5322,
+      "fonte_fecho": "mediana 4 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-10T18:00:11+00:00",
+      "fecho_idade_min": 105,
+      "clv": -0.0847,
+      "prob_fecho_formula": 0.5618,
+      "clv_formula": -0.0338
     }
   ],
   "escolhidaEm": "2026-11-10T07:15:34.043Z",
@@ -282,7 +313,23 @@
     "oddsUpdate": "2026-11-10T06:00:16+00:00",
     "mercado": "ambas sim",
     "odds": 2.64,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 0,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794380446911,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 2.897,
+    "prob_fecho": 0.3451,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-10T18:00:11+00:00",
+    "fecho_idade_min": 60,
+    "clv": -0.0888,
+    "prob_fecho_formula": 0.4056,
+    "clv_formula": 0.0708
   },
   "candidatasLive": [
     {

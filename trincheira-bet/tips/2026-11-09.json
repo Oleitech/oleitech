@@ -55,12 +55,18 @@
       ],
       "clv_api": -0.0631,
       "fecho_idade_min": 90,
-      "odd_fecho_ref": 2.22,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 2.112,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-09T18:00:10+00:00",
       "fecho_aproximado": false,
-      "clv": -0.0631
+      "clv": -0.0152,
+      "odd_fecho_api": 2.22,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0152,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "SP2: Sabadell - Sociedad B",
+      "fecho_real_em": "2026-11-11T07:01:08.514Z"
     }
   ],
   "accumulators": [

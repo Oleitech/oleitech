@@ -58,7 +58,8 @@
             "Sandefjord, últimos 5 oficiais (API /fixtures; Eliteserien e Taça): 4-3 em Aalesund, 1-3 em Odd, 0-1 em Start, 0-2 Lillestrøm, 1-1 em Rosenborg — ambas marcam 3/5",
             "Baixas só na API /injuries do último jogo (Sandefjord: Koswal, Lambrix, Loftesnes-Bjune, Melchior, Møller, Sauer, Berntsen; Molde: Diop, Hestad, Hoff, Kikkenborg) — sem segunda fonte, não entram na tese",
             "Preço: Bet365 1.40, Marathonbet 1.32; a Pinnacle não tem o mercado"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -123,7 +124,17 @@
             "SportsGambler, últimos 10 de Superliga: Midtjylland 7V-3E-0D; Sønderjyske fora 1V-2E-7D com 2.60 sofridos por jogo",
             "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Erlic, Magnus Jensen, Junior Brumado, David Martínez e Olafsson no Midtjylland; Duru e Qamili no Sønderjyske",
             "Preço: Bet365 1.33, Pinnacle 1.30, Marathonbet 1.28"
-          ]
+          ],
+          "clv_api": null,
+          "odd_fecho_ref": 1.386,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0404,
+          "clv": -0.0404,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "DNK Superliga: Midtjylland - Sonderjyske",
+          "fecho_real_em": "2026-11-11T07:01:08.510Z"
         },
         {
           "sport": "football",
@@ -199,7 +210,8 @@
             "SportsGambler: Viking 10/10 nos últimos 10 de liga em casa (3.50 marcados por jogo), tabela de casa 12-0-0; KFUM fora 2V-3E-5D, 2.00 sofridos por jogo. Viking e Bodø com 59 pts; KFUM 10.º com 31",
             "Baixas com duas fontes (SportsGambler e API /injuries do último jogo): Berisha (coxa), Bjørshol e Roseth (joelho). Tripic e Askildsen (amarelos) e Røervik Bjørdal (vermelho) só na SportsGambler, que até põe o Bjørdal no onze — não se dão como certos, ficam como risco",
             "Preço: Marathonbet 1.30; vitória simples Bet365 1.22, Pinnacle 1.22. A SportsGambler vai por ambas marcam e KFUM +2 — não contraria a perna"
-          ]
+          ],
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     }
