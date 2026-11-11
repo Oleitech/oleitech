@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-11",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 0,
+      "combined_return": 0,
+      "combined_pnl": 0,
+      "combined_roi_pct": 0
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1645407,
+        "jogo": "Artis vs FK Jablonec",
+        "liga": "Cup",
+        "pais": "Czech-Republic",
+        "ko": "2026-11-11T17:00:00+00:00",
+        "casa": "Artis",
+        "visitante": "FK Jablonec",
+        "pVisitanteMarca": 0.7569,
+        "pCasaMarca": 0.6892,
+        "pRegra": 0.5216,
+        "lambdaFora": 1.4142,
+        "lambdaCasa": 1.1686,
+        "foraMarcou": 5,
+        "foraJogos": 5,
+        "casaSofreu": 3,
+        "casaJogos": 5,
+        "taxaLiga": {
+          "casa": 1.34,
+          "fora": 1.36,
+          "n": 20
+        },
+        "odd1xbet": 1.67,
+        "pJustaFormula": 0.5525,
+        "pConsenso": 0.5462,
+        "nCasas": 6,
+        "evFormula": -0.0774,
+        "evConsenso": -0.0879,
+        "oddJusta": 1.81,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.89,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-11T04:20:16+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Duas pesquisas não encontraram nenhuma notícia de hoje ou de ontem sobre baixas no ataque do Jablonec para o jogo da Taça com o Artis, nem onze publicado; na dúvida, não há corte.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1588852,
+          "jogo": "Barnsley vs Oldham",
+          "ko": "2026-11-11T19:00:00+00:00",
+          "pVisitanteMarca": 0.7355,
+          "pCasaMarca": 0.8666
+        },
+        "porque": "regra do dono: FK Jablonec marca fora 76%, Artis marca em casa 69%; sem valor (EV -7.7% na fórmula, -8.8% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Artis vs FK Jablonec",
+        "league": "Cup",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.67,
+        "frase": "O FK Jablonec marcou em 5 dos últimos 5 jogos fora, e o Artis sofreu em 3 dos últimos 5 em casa.",
+        "sentAt": 1794381165618,
+        "pertoEm": "2026-11-11T15:33:01.791Z",
+        "oddPertoDoJogo": 1.67,
+        "evPertoDoJogo": {
+          "formula": -0.0606,
+          "consenso": -0.0879
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Jablonec para este jogo da taça; as listas de lesões que apareceram são antigas ou de outros jogos, e o onze oficial não estava publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794437570510,
+        "pnlSombra": 0.335,
+        "odd_fecho_ref": 1.803,
+        "prob_fecho": 0.5545,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-11T16:19:15+00:00",
+        "fecho_idade_min": 41,
+        "clv": -0.074,
+        "prob_fecho_formula": 0.5625,
+        "clv_formula": -0.0606
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {},
+      "stake_total": 0,
+      "stake_mensuravel": 0,
+      "return_mensuravel": 0,
+      "pnl_mensuravel": 0,
+      "roi_pct_mensuravel": 0,
+      "odds_registadas": 0,
+      "nota_mensuravel": "Sem alertas de intervalo nem de noticia; a ambas marcam da manha (Jablonec) saiu sem valor (sombra)."
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 1.67,
+      "pnl_nocional": 0.67
+    }
+  },
+  "balance": 31.24,
+  "notes": "Quarta-feira de paragem das selecoes, sem tips e sem acumuladores: nada aguentou a investigacao. Sem alertas de intervalo nem de noticia. A ambas marcam da manha (Artis-Jablonec, 2-1) deu GREEN mas saiu sem valor, so em sombra (+0,34 a meia stake). Dia a zero, banca 31,24 stakes."
+}
