@@ -89,18 +89,17 @@ const App = {
       </section>
 
       <!-- 🟢🟢 ambas marcam (decisao do dono 09/11/2026): uma por dia, so o Sim; sai de manha com as tips, mais os alertas do dia (0,75/0,75 + valor).
-           Le resultados/ambas/index.json (master/ambas.mjs). Sem stake = sem valor, medida em sombra. -->
+           Le resultados/ambas/index.json (master/ambas.mjs). Sem stake = sem valor, medida em sombra.
+           12/11/2026 (dono): aqui so a de HOJE; o historico esta na pagina de resultados (results-page.js). -->
       <section id="section-ambas" style="display:none">
         <div class="section-head">
-          <div class="title">🟢🟢 Ambas marcam <span class="badge badge--green" id="badge-ambas"></span></div>
+          <div class="title">🟢🟢 Ambas marcam</div>
         </div>
         <div class="scanner">
           <div class="scanner-row"><div style="width:100%">
             <div class="scanner-title" id="ambas-hoje"></div>
-            <div class="scanner-stats" style="margin-top:8px" id="ambas-stats"></div>
           </div></div>
         </div>
-        <div class="league-table" id="ambas-hist" style="margin-top:12px"></div>
       </section>
 
       <section id="section-btts" style="display:none">
@@ -215,7 +214,6 @@ const App = {
     const dias = Array.isArray(idx?.dias) ? idx.dias : [];
     const esc = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const f2 = (n) => (typeof n === 'number' ? n.toFixed(2) : '—');
-    const sinal = (n, casas = 2) => `${n >= 0 ? '+' : '−'}${Math.abs(n).toFixed(casas).replace('.', ',')}`;
     const hora = (iso) => { const d = new Date(iso); return isNaN(d) ? '' : d.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' }); };
     const dia = dias.find(d => d.date === this.getLocalDateStr(0));
     const hoje = dia?.jogo ? dia : null, nLive = dia?.live?.length || 0;
@@ -226,20 +224,6 @@ const App = {
         (hoje.result ? ` · <b>${esc(hoje.result)}</b> ${esc(hoje.final || '')}` : '') +
         (nLive ? ` · ${nLive} alerta${nLive === 1 ? '' : 's'} do dia` : '') + '</span>'
       : '<span class="pulse" style="background:var(--amber)"></span> <span>A de hoje sai de manhã, com as tips.</span>';
-    const r = idx.resumo || {};
-    const st = [];
-    if (r.liquidadas) st.push(`<span><span class="k">Acertos</span><span class="v num">${r.acertos}/${r.liquidadas}</span></span>`);
-    if (r.nClv) st.push(`<span><span class="k">CLV médio</span><span class="v num">${sinal(r.clvMedio * 100, 1)}%</span></span>`);
-    st.push(`<span><span class="k">P&amp;L com stake</span><span class="v num">${sinal(r.pnl || 0)} (${r.comStake || 0})</span></span>`);
-    if (r.live?.liquidadas) st.push(`<span><span class="k">Alertas do dia</span><span class="v num">${r.live.acertos}/${r.live.liquidadas} · ${sinal(r.live.pnl || 0)}</span></span>`);
-    document.getElementById('ambas-stats').innerHTML = st.join('');
-    const linhas = dias.flatMap(d => [d, ...(d.live || []).map(x => ({ ...x, date: d.date, alerta: true }))]).filter(d => d.jogo && d.result).slice(0, 10).map(d => `<div class="league-row">
-        <div>${esc(d.date.slice(8, 10))}/${esc(d.date.slice(5, 7))} · ${esc(d.jogo)}${d.alerta ? ' · alerta do dia' : ''}</div><div>@${f2(d.odd)}</div>
-        <div>${typeof d.clv === 'number' ? `${sinal(d.clv * 100, 1)}%` : '—'}</div>
-        <div style="color:${d.result === 'GREEN' ? 'var(--green)' : 'var(--red)'}">${esc(d.result)}${d.stake > 0 ? '' : ' · s/ stake'}</div></div>`);
-    document.getElementById('ambas-hist').innerHTML = linhas.length
-      ? `<div class="league-row head"><div>Jogo</div><div>Odd</div><div>CLV</div><div>Resultado</div></div>${linhas.join('')}` : '';
-    document.getElementById('badge-ambas').textContent = dias.length;
     document.getElementById('section-ambas').style.display = '';
   },
 

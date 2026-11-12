@@ -45,6 +45,46 @@ const ResultsPage = {
 
     // Render page
     this.render(main);
+    await this.renderAmbas(main);
+  },
+
+  // 🟢🟢 ambas marcam (12/11/2026, dono): o historico sai da pagina das tips e vive aqui. So mostra:
+  // a banca ja conta as com stake pelo live_alerts de resultados/data (fonte unica); as sem stake sao sombra, fora das contas.
+  async renderAmbas(main) {
+    let idx;
+    try {
+      const res = await fetch(bustCache('resultados/ambas/index.json'), { cache: 'no-store' });
+      if (!res.ok) return;
+      idx = await res.json();
+    } catch (e) { console.warn('[TB] ambas:', e); return; }
+    const linhas = (Array.isArray(idx?.dias) ? idx.dias : [])
+      .flatMap(d => [...(d.jogo ? [{ ...d, alerta: false }] : []), ...(d.live || []).map(x => ({ ...x, date: d.date, alerta: true }))])
+      .filter(l => l.result);
+    if (!linhas.length) return;
+    const esc = (v) => this.esc(v), f2 = (n) => (typeof n === 'number' ? n.toFixed(2) : '—');
+    const comStake = linhas.filter(l => l.stake > 0);
+    const pnl = comStake.reduce((a, l) => a + (l.pnl || 0), 0);
+    const verdes = comStake.filter(l => l.result === 'GREEN').length;
+    const sec = UI.el('section', 'ambas-results');
+    sec.id = 'results-ambas';
+    sec.style.marginTop = '24px';
+    sec.innerHTML = `
+      <div class="section-head"><div class="title">🟢🟢 Ambas marcam <span class="badge badge--green">${linhas.length}</span></div></div>
+      <div class="month-summary" style="margin:8px 0 12px">
+        <div class="m"><span class="label">Com stake</span><span class="value num">${verdes}/${comStake.length}</span></div>
+        <div class="m"><span class="label">P/L</span><span class="value num" style="color:${pnl >= 0 ? 'var(--green)' : 'var(--red)'}">${this.formatPL(pnl, true)}</span></div>
+        <div class="m"><span class="label">Sombra (fora das contas)</span><span class="value num">${linhas.length - comStake.length}</span></div>
+      </div>
+      <div class="league-table">
+        <div class="league-row head"><div>Jogo</div><div>Odd</div><div>Stake</div><div>Resultado</div></div>
+        ${linhas.map(l => `<div class="league-row">
+          <div>${esc(l.date.slice(8, 10))}/${esc(l.date.slice(5, 7))} · ${esc(l.jogo)}${l.alerta ? ' · alerta do dia' : ''}</div>
+          <div class="num">@${f2(l.odd)}</div>
+          <div>${l.stake > 0 ? `${this.formatUnits(l.stake, true)} · ${this.formatPL(l.pnl || 0, true)}` : 'sombra'}</div>
+          <div style="color:${l.result === 'GREEN' ? 'var(--green)' : l.result === 'RED' ? 'var(--red)' : 'inherit'}">${esc(l.result)} ${esc(l.final || '')}</div>
+        </div>`).join('')}
+      </div>`;
+    main.appendChild(sec);
   },
 
   async loadData() {
