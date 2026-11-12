@@ -1,0 +1,135 @@
+{
+  "gerado": "2026-11-12T07:01:26.933Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1528958,
+      "data": "2026-11-12T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Türkiye - Belgium",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.644,
+      "def": -1.387,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528959,
+      "data": "2026-11-12T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Armenia - Cyprus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.756,
+      "def": -1.087,
+      "zona": null
+    },
+    {
+      "fixture": 1528960,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Italy - France",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.344,
+      "def": -1.987,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528961,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Czechia - Spain",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.644,
+      "def": 0.213,
+      "zona": null
+    },
+    {
+      "fixture": 1528962,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "England - Croatia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.544,
+      "def": -0.987,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528963,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Albania - Finland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.056,
+      "def": 1.213,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.24,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.49,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1528964,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "San Marino - Belarus",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.556,
+      "def": -1.887,
+      "zona": null
+    },
+    {
+      "fixture": 1545613,
+      "data": "2026-11-12T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Montenegro - Latvia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.956,
+      "def": 0.213,
+      "zona": null
+    }
+  ]
+}

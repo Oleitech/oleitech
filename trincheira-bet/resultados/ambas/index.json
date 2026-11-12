@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-11T22:52:51.525Z",
+  "atualizado": "2026-11-12T07:18:20.263Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 2,
+    "escolhas": 3,
     "liquidadas": 2,
     "acertos": 2,
     "clvMedio": -0.0793,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-12",
+      "jogo": "Türkiye vs Belgium",
+      "liga": "UEFA Nations League",
+      "ko": "2026-11-12T17:00:00+00:00",
+      "odd": 1.47,
+      "oddJusta": 1.56,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8884,
+      "pCasaMarca": 0.7969,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-11",
       "jogo": "Artis vs FK Jablonec",
