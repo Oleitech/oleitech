@@ -65,7 +65,38 @@
       "market": "Ambas marcam: Sim",
       "odds": 1.47,
       "frase": "O Belgium marcou em 5 dos últimos 5 jogos fora, e o Türkiye sofreu em 4 dos últimos 5 em casa.",
-      "sentAt": 1794467900257
+      "sentAt": 1794467900257,
+      "pertoEm": "2026-11-12T15:38:25.010Z",
+      "oddPertoDoJogo": 1.46,
+      "evPertoDoJogo": {
+        "formula": -0.0383,
+        "consenso": -0.0571
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma baixa nova e confirmada no ataque da Bélgica: Doku voltou à convocatória de 6/11, Lukaku está no grupo e o onze oficial não foi encontrado.",
+        "link": "https://www.beinsports.com/en-us/soccer/uefa-nations-league/articles/doku-back-in-boost-to-belgiums-nations-league-squad-2026-11-06",
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794527456103,
+      "pnlSombra": 0.235,
+      "odd_fecho_ref": 1.491,
+      "prob_fecho": 0.6706,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-12T16:09:20+00:00",
+      "fecho_idade_min": 51,
+      "clv": -0.0142,
+      "prob_fecho_formula": 0.6626,
+      "clv_formula": -0.026
     }
   ],
   "escolhidaEm": "2026-11-12T07:17:35.570Z",
@@ -282,7 +313,23 @@
     "oddsUpdate": "2026-11-12T06:00:15+00:00",
     "mercado": "ambas sim",
     "odds": 2.76,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 3,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794527456803,
+    "pnlSombra": 0.88,
+    "odd_fecho_ref": 3.224,
+    "prob_fecho": 0.3102,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-12T12:11:16+00:00",
+    "fecho_idade_min": 229,
+    "clv": -0.1438,
+    "prob_fecho_formula": 0.3686,
+    "clv_formula": 0.0174
   },
   "candidatasLive": [
     {
