@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-12T23:50:57.141Z",
+  "atualizado": "2026-11-13T07:14:05.253Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 3,
+    "escolhas": 4,
     "liquidadas": 3,
     "acertos": 3,
     "clvMedio": -0.0576,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-13",
+      "jogo": "Grenada vs St. Kitts and Nevis",
+      "liga": "CONCACAF Nations League",
+      "ko": "2026-11-13T20:00:00+00:00",
+      "odd": 1.44,
+      "oddJusta": 1.63,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.864,
+      "pCasaMarca": 0.7731,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-12",
       "jogo": "Türkiye vs Belgium",

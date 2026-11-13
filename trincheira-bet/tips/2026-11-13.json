@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:10:49.554Z",
+  "units": "stakes",
+  "notes": "Sexta da janela de selecções, com a Liga das Nações, a qualificação da CAN, particulares e duas eliminatórias de taça. Não sai tip simples.\n\nA Suíça na Eslovénia era a candidata mais forte, mas um empate chega-lhe para subir e a Bet365 paga abaixo da Pinnacle, por isso fica de fora. A Islândia na Bulgária tem o mesmo problema: o preço é o justo e nada mais. A Argentina recebe o Uruguai sem o Messi, sem o Lautaro e sem o Romero, num particular: não dá para fiar. A Alemanha marcou três golos em quatro jogos do grupo e vai a Belgrado sem o Musiala e o Gnabry: a 1.28 não paga o risco.\n\nSai um curto a meia stake a 2.57: o Dijon contra o Orléans na Taça de França, a África do Sul contra o Quénia no Soweto e mais de 1.5 golos no Eslovénia-Suíça. A perna mais apertada é a do Dijon: jogo de taça contra uma equipa de divisão abaixo que não ganha há oito jogos, mas onde pode haver poupanças.\n\nNão há múltipla da jornada hoje: a das selecções saiu ontem e a próxima ocasião é no domingo. Exposição do dia: meia stake.",
+  "tips": [],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Switzerland vence",
+      "fixtureId": 1545654,
+      "home": {
+        "name": "Slovenia",
+        "logo": "https://media.api-sports.io/football/teams/1091.png"
+      },
+      "away": {
+        "name": "Switzerland",
+        "logo": "https://media.api-sports.io/football/teams/15.png"
+      },
+      "league": "Liga das Nações (Liga B, Grupo 1)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 73,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 73, abaixo do piso de 75. A Suíça é a melhor equipa do grupo, mas um empate chega-lhe para subir e a Eslovénia tem de ganhar; e a Bet365 paga 1.70 quando a Pinnacle paga 1.75 (na 1xBet 1.76). Sem valor no preço e com o empate a servir aos suíços, não se publica.",
+      "tese": "A Suíça ganhou os quatro jogos do grupo com 11-1 em golos e ganhou 2-1 à Eslovénia em Outubro. A Eslovénia chega sem o Šeško (lesão na canela) e sem os castigados Zec e Janza. A Suíça não tem o Manzambi e não deve ter o Xhaka. O que trava a tip é o contexto e o preço: um ponto chega para a Suíça ficar em primeiro e subir à Liga A, a Eslovénia é que precisa de ganhar, e a Bet365 paga abaixo da Pinnacle.",
+      "factors": [
+        "Classificação da Liga das Nações 2026, Liga B Grupo 1 (API /standings, 4 jogos): Suíça 12 pts (11-1), Eslovénia 7 (5-3), Escócia 4 (3-5), Macedónia do Norte 0 (0-10)",
+        "Suíça, últimos 5 oficiais (API /fixtures): 3-0 Macedónia do Norte, 2-1 Eslovénia, 3-0 em Escócia, 3-0 em Macedónia do Norte (Liga das Nações), 1-3 com a Argentina (Mundial) — 4/5 vitórias",
+        "Eslovénia, 4 jogos da Liga das Nações (API /fixtures): 2-1 em Escócia, 1-2 em Suíça, 2-0 Macedónia do Norte, 0-0 Escócia; antes só particulares",
+        "H2H oficial (API /fixtures/headtohead, 3 jogos): Suíça 2-1 (10/2026, Liga das Nações), 0-0 e 3-0 Suíça (qualificação do Mundial, 2025). Selecções: o H2H não trava, só contexto",
+        "Baixas Eslovénia: Šeško (lesão), Zec e Janza (castigo) — SportsGambler e Sports Mole, concordantes. Baixas Suíça: Manzambi (gémeo) — SportsGambler e Sports Mole; Xhaka indisponível na SportsGambler e fora do onze provável da Sports Mole",
+        "Antevisões: Sports Mole 1-2 Suíça; SportsGambler 0-2 Suíça (pick principal Menos de 2.5 a 1.70); predictions da API: dupla hipótese X2",
+        "Preço: Bet365 1.70, Pinnacle 1.75, 1xBet 1.76, Marathonbet 1.74. Sem splits casa/fora nem xG por lado para selecções (context partial)"
+      ],
+      "sources": [
+        "API-Football — /standings Liga das Nações 2026, /fixtures (últimos 8), /fixtures/headtohead, /injuries (vazio), /predictions, /odds todas as casas",
+        "SportsGambler — slovenia-vs-switzerland-prediction-lineups-odds-2026-11-13",
+        "Sports Mole — antevisão Slovenia vs Switzerland (608906) e previsões de sexta (608963)"
+      ],
+      "odd_nossa": 1.7,
+      "justo_gravado_em": "2026-11-13T07:11:42.537Z",
+      "odd_justa_ref": 1.792,
+      "prob_justa": 0.5582,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:away",
+      "ev_justo": -0.0511,
+      "justo_at": "2026-11-13T04:07:17+00:00"
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Iceland vence",
+      "fixtureId": 1528969,
+      "home": {
+        "name": "Bulgaria",
+        "logo": "https://media.api-sports.io/football/teams/1103.png"
+      },
+      "away": {
+        "name": "Iceland",
+        "logo": "https://media.api-sports.io/football/teams/18.png"
+      },
+      "league": "Liga das Nações (Liga C, Grupo 4)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-11-13T19:45:00Z",
+      "odds": 1.83,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 72, abaixo do piso de 75. A leitura aponta à Islândia, mas a Bet365 paga o mesmo que a Pinnacle (1.83, justo perto de 1.90) e a Islândia empatou dois dos quatro jogos do grupo. Sem valor, não se publica.",
+      "tese": "A Islândia lidera o grupo sem perder (7-1 em golos) e ganhou 3-0 à Bulgária em Outubro. A Bulgária ganhou um dos quatro jogos do grupo e marcou três golos. Com a vitória a Islândia fica muito perto do primeiro lugar. O que trava é o preço, igual ao da Pinnacle, e os dois empates islandeses com a Estónia.",
+      "factors": [
+        "Classificação da Liga das Nações 2026, Liga C Grupo 4 (API /standings, 4 jogos): Islândia 8 pts (7-1), Estónia 6 (2-1), Bulgária 4 (3-5), Luxemburgo 3 (2-7)",
+        "Islândia, 4 jogos da Liga das Nações (API /fixtures): 0-0 em Estónia, 3-0 Bulgária, 3-0 em Luxemburgo, 1-1 Estónia — 2V 2E",
+        "Bulgária, 4 jogos da Liga das Nações (API /fixtures): 2-0 em Luxemburgo, 0-3 em Islândia, 0-0 Estónia, 1-2 Luxemburgo — 1V 1E 2D",
+        "H2H oficial (API): Islândia 3-0 (10/2026). Selecções: o H2H não trava",
+        "Antevisões: Sports Mole 0-2 Islândia (previsões de sexta, 608963); na pesquisa de 12/11 a Sports Mole e a SportsGambler davam vitória islandesa sem baixas listadas; API /injuries vazia",
+        "Preço: Bet365 1.83, Pinnacle 1.83, 1xBet 1.90, Marathonbet 1.88"
+      ],
+      "sources": [
+        "API-Football — /standings, /fixtures, /fixtures/headtohead, /injuries (vazio), /odds todas as casas",
+        "Sports Mole — previsões de sexta da Liga das Nações (608963)",
+        "Pesquisa de 12/11 (.cache/2026-11-12/multipla-pesquisa.json): Sports Mole e SportsGambler"
+      ],
+      "odd_nossa": 1.83,
+      "justo_gravado_em": "2026-11-13T07:11:42.540Z",
+      "odd_justa_ref": 1.881,
+      "prob_justa": 0.5316,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:away",
+      "ev_justo": -0.0272,
+      "justo_at": "2026-11-13T06:00:24+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.57,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "Bet365",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1647948,
+          "match": "Dijon vs Orleans",
+          "league": "Taça de França (7.ª eliminatória)",
+          "pick": "Dijon vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-13T19:00:00Z",
+          "score": 65,
+          "tese": "O Dijon, da Ligue 2, recebe o Orléans, que está na Ligue 3 e não ganha há oito jogos. O Dijon não perdeu com o Orléans nos últimos seis encontros e ganhou três dos últimos cinco jogos do campeonato. Nesta fase da Taça de França conta o resultado aos 90.",
+          "factors": [
+            "Dijon, últimos 5 oficiais (API /fixtures, Ligue 2): 1-0 Red Star, 3-1 em Grenoble, 1-2 Rodez, 2-4 em Reims, 4-2 Metz — 3/5 vitórias",
+            "Orléans, últimos 8 (API /fixtures, Ligue 3): 2-2, 1-1, 2-3, 1-1, 0-0, 0-2, 0-4, 1-1 — nenhuma vitória",
+            "H2H (API, Ligue 3, 6 jogos): Dijon 3-2, 2-1 fora, 2-2, 1-1 fora, 1-0, 2-1 fora — 3/5 vitórias nos últimos cinco, invicto; RAN/Joyn dá 6V 2E em 8",
+            "Divisões diferentes (Ligue 2 contra Ligue 3). Sem notícias de baixas ou de poupança na pesquisa (uma só fonte encontrada, RAN/Joyn)",
+            "Preço: Bet365 1.50, Pinnacle 1.52, 1xBet 1.59"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-13T07:11:42.540Z",
+          "odd_justa_ref": 1.583,
+          "prob_justa": 0.6316,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0526,
+          "justo_at": "2026-11-13T05:12:13+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1545882,
+          "match": "South Africa vs Kenya",
+          "league": "Qualificação CAN 2027 (Grupo D)",
+          "pick": "South Africa vence",
+          "odds": 1.26,
+          "kickoff": "2026-11-13T16:00:00Z",
+          "score": 65,
+          "tese": "A África do Sul lidera o grupo com seis pontos e 7-1 em golos e recebe o Quénia em Orlando, no Soweto. O Quénia já tem lugar garantido na CAN como co-organizador e fez um ponto em dois jogos. O Mosimane chamou de volta titulares que tinham falhado a primeira convocatória.",
+          "factors": [
+            "Classificação qualificação CAN 2027, Grupo D (API /standings, 2 jogos): África do Sul 6 pts (7-1), Quénia 1 (1-2)",
+            "África do Sul, últimos 5 oficiais (API /fixtures): 5-0 em Eritreia, 2-1 Guiné (qualificação CAN), 0-1 Canadá, 1-0 Coreia do Sul, 1-1 com a Chéquia (Mundial) — 3/5 vitórias; ganhou 1-0 no Egipto em particular (10/2026)",
+            "Quénia, oficiais (API /fixtures): 0-1 em Guiné, 1-1 Eritreia (qualificação CAN)",
+            "Sem H2H oficial na API (só um particular de 2016). Selecções: o H2H não trava",
+            "Pesquisa: BusinessDay (23/10) e foot-africa — convocatória de 27 com regressos, Mbokazi incluído; TimesLive — jogo em Orlando Stadium contra o Quénia do Benni McCarthy; Quénia já apurado como co-organizador (Afrik-foot). Foresportia dá 65% à África do Sul; footballpredictions.ai dá 1X",
+            "Preço: Marathonbet 1.26, Pinnacle 1.27, 1xBet 1.27, Bet365 1.25 (fora da banda, por isso a Marathonbet)"
+          ],
+          "odd_nossa": 1.26,
+          "justo_gravado_em": "2026-11-13T07:11:42.541Z",
+          "odd_justa_ref": 1.303,
+          "prob_justa": 0.7677,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0327,
+          "justo_at": "2026-11-13T06:00:24+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545654,
+          "match": "Slovenia vs Switzerland",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "kickoff": "2026-11-13T19:45:00Z",
+          "score": 65,
+          "tese": "Os quatro jogos da Suíça no grupo acabaram todos com três golos, e três dos quatro da Eslovénia tiveram dois ou mais. As duas antevisões dão dois ou três golos (0-2 e 1-2). A Eslovénia precisa de ganhar para chegar ao primeiro lugar, por isso tem de sair para o jogo.",
+          "factors": [
+            "Suíça, últimos 5 oficiais (API /fixtures): 3-0, 2-1, 3-0, 3-0 (Liga das Nações), 1-3 (Mundial) — 5/5 com mais de 1.5",
+            "Eslovénia, 4 jogos da Liga das Nações (API /fixtures): 2-1, 1-2, 2-0, 0-0 — 3/4 com mais de 1.5",
+            "H2H oficial (API, 3 jogos): 2-1, 0-0, 3-0 — 2/3. Selecções: o H2H não trava",
+            "Antevisões: Sports Mole 1-2, SportsGambler 0-2 (com Menos de 2.5 como pick principal). Baixas: Šeško, Zec e Janza na Eslovénia, Manzambi na Suíça — SportsGambler e Sports Mole concordantes",
+            "Preço: Bet365 1.36, Pinnacle 1.41, 1xBet 1.40"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-13T07:11:42.541Z",
+          "odd_justa_ref": 1.449,
+          "prob_justa": 0.6901,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0615,
+          "justo_at": "2026-11-13T04:07:17+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.57,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "Bet365",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1647948,
+          "match": "Dijon vs Orleans",
+          "league": "Taça de França (7.ª eliminatória)",
+          "pick": "Dijon vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-13T19:00:00Z",
+          "score": 65,
+          "tese": "O Dijon, da Ligue 2, recebe o Orléans, que está na Ligue 3 e não ganha há oito jogos. O Dijon não perdeu com o Orléans nos últimos seis encontros e ganhou três dos últimos cinco jogos do campeonato. Nesta fase da Taça de França conta o resultado aos 90.",
+          "factors": [
+            "Dijon, últimos 5 oficiais (API /fixtures, Ligue 2): 1-0 Red Star, 3-1 em Grenoble, 1-2 Rodez, 2-4 em Reims, 4-2 Metz — 3/5 vitórias",
+            "Orléans, últimos 8 (API /fixtures, Ligue 3): 2-2, 1-1, 2-3, 1-1, 0-0, 0-2, 0-4, 1-1 — nenhuma vitória",
+            "H2H (API, Ligue 3, 6 jogos): Dijon 3-2, 2-1 fora, 2-2, 1-1 fora, 1-0, 2-1 fora — 3/5 vitórias nos últimos cinco, invicto; RAN/Joyn dá 6V 2E em 8",
+            "Divisões diferentes (Ligue 2 contra Ligue 3). Sem notícias de baixas ou de poupança na pesquisa (uma só fonte encontrada, RAN/Joyn)",
+            "Preço: Bet365 1.50, Pinnacle 1.52, 1xBet 1.59"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-13T07:11:42.541Z",
+          "odd_justa_ref": 1.583,
+          "prob_justa": 0.6316,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0526,
+          "justo_at": "2026-11-13T05:12:13+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1545882,
+          "match": "South Africa vs Kenya",
+          "league": "Qualificação CAN 2027 (Grupo D)",
+          "pick": "South Africa vence",
+          "odds": 1.26,
+          "kickoff": "2026-11-13T16:00:00Z",
+          "score": 65,
+          "tese": "A África do Sul lidera o grupo com seis pontos e 7-1 em golos e recebe o Quénia em Orlando, no Soweto. O Quénia já tem lugar garantido na CAN como co-organizador e fez um ponto em dois jogos. O Mosimane chamou de volta titulares que tinham falhado a primeira convocatória.",
+          "factors": [
+            "Classificação qualificação CAN 2027, Grupo D (API /standings, 2 jogos): África do Sul 6 pts (7-1), Quénia 1 (1-2)",
+            "África do Sul, últimos 5 oficiais (API /fixtures): 5-0 em Eritreia, 2-1 Guiné (qualificação CAN), 0-1 Canadá, 1-0 Coreia do Sul, 1-1 com a Chéquia (Mundial) — 3/5 vitórias; ganhou 1-0 no Egipto em particular (10/2026)",
+            "Quénia, oficiais (API /fixtures): 0-1 em Guiné, 1-1 Eritreia (qualificação CAN)",
+            "Sem H2H oficial na API (só um particular de 2016). Selecções: o H2H não trava",
+            "Pesquisa: BusinessDay (23/10) e foot-africa — convocatória de 27 com regressos, Mbokazi incluído; TimesLive — jogo em Orlando Stadium contra o Quénia do Benni McCarthy; Quénia já apurado como co-organizador (Afrik-foot). Foresportia dá 65% à África do Sul; footballpredictions.ai dá 1X",
+            "Preço: Marathonbet 1.26, Pinnacle 1.27, 1xBet 1.27, Bet365 1.25 (fora da banda, por isso a Marathonbet)"
+          ],
+          "odd_nossa": 1.26,
+          "justo_gravado_em": "2026-11-13T07:11:42.541Z",
+          "odd_justa_ref": 1.303,
+          "prob_justa": 0.7677,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0327,
+          "justo_at": "2026-11-13T06:00:24+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545654,
+          "match": "Slovenia vs Switzerland",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.36,
+          "kickoff": "2026-11-13T19:45:00Z",
+          "score": 65,
+          "tese": "Os quatro jogos da Suíça no grupo acabaram todos com três golos, e três dos quatro da Eslovénia tiveram dois ou mais. As duas antevisões dão dois ou três golos (0-2 e 1-2). A Eslovénia precisa de ganhar para chegar ao primeiro lugar, por isso tem de sair para o jogo.",
+          "factors": [
+            "Suíça, últimos 5 oficiais (API /fixtures): 3-0, 2-1, 3-0, 3-0 (Liga das Nações), 1-3 (Mundial) — 5/5 com mais de 1.5",
+            "Eslovénia, 4 jogos da Liga das Nações (API /fixtures): 2-1, 1-2, 2-0, 0-0 — 3/4 com mais de 1.5",
+            "H2H oficial (API, 3 jogos): 2-1, 0-0, 3-0 — 2/3. Selecções: o H2H não trava",
+            "Antevisões: Sports Mole 1-2, SportsGambler 0-2 (com Menos de 2.5 como pick principal). Baixas: Šeško, Zec e Janza na Eslovénia, Manzambi na Suíça — SportsGambler e Sports Mole concordantes",
+            "Preço: Bet365 1.36, Pinnacle 1.41, 1xBet 1.40"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-13T07:11:42.541Z",
+          "odd_justa_ref": 1.449,
+          "prob_justa": 0.6901,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0615,
+          "justo_at": "2026-11-13T04:07:17+00:00"
+        }
+      ],
+      "notes": "Igual ao curto real: o Dijon e a África do Sul já são vence. A perna de mais de 1.5 no Eslovénia-Suíça era a que se trocava, mas não há outra vence na lista curta que tenha passado (a Alemanha e o Mali caíram pela forma, a Argentina pelas baixas, o Celta pela forma)."
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna da banda 1.40–1.60 chega a 75 com investigação completa. O Dijon (1.50) só tem forma e H2H, sem notícias de equipa; a Argentina (1.55) vai sem Messi, Lautaro, Romero, Paredes e Molina num particular; o Burkina Faso (1.53) ganhou um dos últimos cinco oficiais; a Escócia vence e menos de 4.5 (1.45) assenta numa Escócia que ganhou um dos últimos cinco oficiais."
+  }
+}

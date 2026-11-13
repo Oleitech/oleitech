@@ -14,12 +14,22 @@
       "def": -1.387,
       "zona": "ataque",
       "linhas": {
-        "baliza_7_5": null,
-        "baliza_8_5": null
+        "baliza_7_5": {
+          "ganhou": true,
+          "retorno": null
+        },
+        "baliza_8_5": {
+          "ganhou": true,
+          "retorno": null
+        }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 13,
+        "cantos": 5
       }
     },
     {
@@ -44,12 +54,22 @@
       "def": -1.987,
       "zona": "ataque",
       "linhas": {
-        "baliza_7_5": null,
-        "baliza_8_5": null
+        "baliza_7_5": {
+          "ganhou": true,
+          "retorno": null
+        },
+        "baliza_8_5": {
+          "ganhou": true,
+          "retorno": null
+        }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 10,
+        "cantos": 7
       }
     },
     {
@@ -74,12 +94,22 @@
       "def": -0.987,
       "zona": "ataque",
       "linhas": {
-        "baliza_7_5": null,
-        "baliza_8_5": null
+        "baliza_7_5": {
+          "ganhou": true,
+          "retorno": null
+        },
+        "baliza_8_5": {
+          "ganhou": true,
+          "retorno": null
+        }
       },
       "historico": {
         "baliza_7_5": 0.658,
         "baliza_8_5": 0.544
+      },
+      "real": {
+        "baliza": 9,
+        "cantos": 13
       }
     },
     {
@@ -96,17 +126,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.24,
-          "preferida": true
+          "preferida": true,
+          "ganhou": false,
+          "retorno": -1
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.49,
-          "preferida": true
+          "preferida": true,
+          "ganhou": false,
+          "retorno": -1
         }
       },
       "historico": {
         "cantos_6_5": 0.696,
         "cantos_7_5": 0.557
+      },
+      "real": {
+        "baliza": 7,
+        "cantos": 5
       }
     },
     {
