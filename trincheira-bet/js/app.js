@@ -174,26 +174,39 @@ const App = {
     `;
   },
 
+  // 13/11/2026 (dono): a multipla da jornada tem pernas em dias seguintes e fica nas tips ate estar toda resolvida
+  // (o `liquida` so lhe poe `result` quando a ultima perna acaba); ai sai daqui e aparece nos resultados.
+  // ponytail: 7 dias para tras chegam (a jornada mais longa e sex–seg); o liquida olha 14.
+  async loadMultiplasEmCurso() {
+    const dias = [1, 2, 3, 4, 5, 6, 7].map(i => this.getLocalDateStr(-i));
+    const docs = await Promise.all(dias.map(d => fetch(bustCache(`tips/${d}.json`), { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : null)).catch(() => null)));
+    return docs.flatMap(p => (Array.isArray(p?.accumulators) ? p.accumulators : [])
+      .filter(a => a.label === 'multipla-jornada' && a.shadow !== true && !a.result));
+  },
+
   async loadCuratedTips() {
     this.showStatus('A carregar tips curadas...', 'loading');
-    let payload;
+    let payload = null;
+    const emCurso = this.loadMultiplasEmCurso();
     try {
       const res = await fetch(bustCache(this.getTodayPath()), { cache: 'no-store' });
-      if (res.status === 404) {
-        this.showStatus('Ainda sem tips publicadas para hoje.', 'empty');
-        return;
-      }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      payload = await res.json();
+      if (res.ok) payload = await res.json();
+      else if (res.status !== 404) throw new Error(`HTTP ${res.status}`);
     } catch (e) {
       console.warn('[TB] Failed to load curated tips:', e);
-      this.showStatus('Sem tips publicadas para hoje.', 'empty');
-      return;
     }
+    const anteriores = await emCurso;
 
     const tips = Array.isArray(payload?.tips) ? payload.tips : [];
     // Acumuladores em sombra (o corvo desde 10/11/2026) sao registo, nao aposta: nao aparecem.
-    const accas = Array.isArray(payload?.accumulators) ? payload.accumulators.filter(a => a.shadow !== true) : [];
+    const hoje = Array.isArray(payload?.accumulators) ? payload.accumulators.filter(a => a.shadow !== true) : [];
+    const ids = new Set(hoje.map(a => a.multipla_id).filter(Boolean));
+    const accas = [...hoje, ...anteriores.filter(a => !ids.has(a.multipla_id))];
+    if (!payload && accas.length === 0) {
+      this.showStatus('Ainda sem tips publicadas para hoje.', 'empty');
+      return;
+    }
     if (tips.length === 0 && accas.length === 0) {
       this.showStatus('Dia sem tips — nenhum jogo cumpriu os critérios.', 'empty');
       return;
@@ -201,7 +214,7 @@ const App = {
     this.renderTips(tips);
     this.renderAccumulators(accas);
     this.savePreMatchDataForLive(tips);
-    this.updateMeta(payload, tips.length, accas.length);
+    this.updateMeta(payload || {}, tips.length, accas.length);
   },
 
   async loadAmbas() {

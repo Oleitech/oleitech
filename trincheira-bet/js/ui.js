@@ -248,6 +248,9 @@ const UI = {
     if (multiDia && nome) type.name = nome;   // desde 12/11/2026: "🎯 Múltipla Liga das Nações A" / "🎯 Múltipla selecções A"
     else if (multiDia && variante) type.name += ` ${variante}`;   // desde 11/11/2026 saem duas (A e B), cada uma a meia stake
     const confLevel = score >= 80 ? 'Alta' : score >= 70 ? 'Média' : 'Baixa';
+    // 13/11/2026: a multipla fica nas tips ate a ultima perna; as pernas ja jogadas levam o resultado
+    const PERNA = { GREEN: '✅', RED: '❌', VOID: '🔵 anulada' };
+    if (multiDia && selections.some(s => s.result)) type.book += ' · em curso';
 
     const selectionsHtml = selections.map((s, i) => {
       const badge = SPORT_BADGE[s.sport] || '⚽';
@@ -258,7 +261,7 @@ const UI = {
           <div class="acca-leg__content">
             <div class="acca-leg__match">
               <span class="acca-leg__sport">${badge}</span>
-              <span class="acca-leg__name">${s.match || ''}${multiDia && s.kickoff ? ` · ${quando(s.kickoff)}` : ''}</span>
+              <span class="acca-leg__name">${s.match || ''}${multiDia && s.kickoff ? ` · ${quando(s.kickoff)}` : ''}${PERNA[s.result] ? ` · ${PERNA[s.result]}${s.final_score ? ` ${s.final_score}` : ''}` : ''}</span>
             </div>
             <div class="acca-leg__pick">
               <span class="acca-leg__pick-label">${s.pick || ''}</span>
