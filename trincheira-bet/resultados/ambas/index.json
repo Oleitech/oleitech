@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-14T01:48:57.319Z",
+  "atualizado": "2026-11-14T07:21:45.192Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 4,
+    "escolhas": 5,
     "liquidadas": 4,
     "acertos": 4,
     "clvMedio": -0.0479,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-14",
+      "jogo": "Dordrecht vs Heracles",
+      "liga": "Eerste Divisie",
+      "ko": "2026-11-14T19:00:00+00:00",
+      "odd": 1.58,
+      "oddJusta": 1.65,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.9494,
+      "pCasaMarca": 0.7353,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-13",
       "jogo": "Grenada vs St. Kitts and Nevis",

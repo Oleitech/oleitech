@@ -1,0 +1,141 @@
+{
+  "gerado": "2026-11-14T07:02:13.666Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492455,
+      "data": "2026-11-14T21:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Mirassol - Atletico-MG",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": -0.231,
+      "def": 0.316,
+      "zona": null
+    },
+    {
+      "fixture": 1492312,
+      "data": "2026-11-14T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Vasco DA Gama",
+      "jogos_tabela": 33,
+      "amostra_fraca": false,
+      "atq": -0.37,
+      "def": -0.534,
+      "zona": null
+    },
+    {
+      "fixture": 1528971,
+      "data": "2026-11-14T14:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Kosovo - Israel",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.742,
+      "def": -1.083,
+      "zona": null
+    },
+    {
+      "fixture": 1528972,
+      "data": "2026-11-14T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Norway - Wales",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 3.542,
+      "def": -3.383,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528973,
+      "data": "2026-11-14T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Georgia - Hungary",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.342,
+      "def": -1.583,
+      "zona": null
+    },
+    {
+      "fixture": 1528974,
+      "data": "2026-11-14T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Portugal - Denmark",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.942,
+      "def": -1.283,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528975,
+      "data": "2026-11-14T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Northern Ireland - Ukraine",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.442,
+      "def": -0.583,
+      "zona": null
+    },
+    {
+      "fixture": 1528976,
+      "data": "2026-11-14T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Austria - Rep. Of Ireland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.942,
+      "def": -0.983,
+      "zona": null
+    },
+    {
+      "fixture": 1528977,
+      "data": "2026-11-14T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Romania - Poland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.342,
+      "def": -0.883,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528978,
+      "data": "2026-11-14T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Sweden - Bosnia & Herzegovina",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.142,
+      "def": -1.083,
+      "zona": null
+    }
+  ]
+}

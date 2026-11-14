@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T07:18:57.902Z",
+  "units": "stakes",
+  "notes": "Sábado da janela de selecções: oito jogos da Liga das Nações, a qualificação da CAN, a Liga das Nações da CONCACAF e o campeonato nas divisões de baixo. Não sai tip de selecções sozinha.\n\nA Áustria recebe a Irlanda a 1.60, mas é o mesmo preço da Pinnacle e empatou 2-2 em Dublin: fica de fora. O Kosovo com Israel a 1.80 também: marca pouco e o último jogo entre os dois deu 0-0. A Noruega a 1.22 com o País de Gales perdeu três dos últimos quatro e não dá para fiar.\n\nSai uma tip do modelo de golos, a meia stake: mais de 2.5 no Mallorca-Córdoba a 1.60. O Córdoba fora de casa dá golos quase sempre; o risco é a defesa do Mallorca, que sofreu seis golos em doze jornadas.\n\nSai também um curto a meia stake a 2.65: Portugal vence a Dinamarca em Braga, os Estados Unidos vencem o Haiti em Miami e o Heracles vence em Dordrecht. A perna mais apertada é a de Portugal: um empate chega-lhe para fechar o grupo e há quem aponte para 1-1.\n\nNão há múltipla hoje: a próxima ocasião é amanhã. Exposição do dia: uma stake.",
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1570020,
+      "home": {
+        "name": "Mallorca",
+        "logo": "https://media.api-sports.io/football/teams/798.png"
+      },
+      "away": {
+        "name": "Cordoba",
+        "logo": "https://media.api-sports.io/football/teams/713.png"
+      },
+      "match": "Mallorca vs Cordoba",
+      "league": "Segunda División (Espanha), 14.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-11-14T17:30:00Z",
+      "odds": 1.6,
+      "bookmaker": "Bet365",
+      "score": 67,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 38.9,
+        "prob_modelo": 0.683,
+        "prob_mercado": 0.607,
+        "valor": 0.092
+      },
+      "tese": "O Córdoba fora de casa é um vaivém: seis dos sete jogos passaram dos dois golos e marcou em quase todos (3-2 em Burgos, 3-2 em Sabadell, 1-2 em Albacete, 3-1 em Valladolid, 2-1 em Elda, 2-2 em Vigo; só o 0-1 em Leganés ficou abaixo). O Mallorca em casa marca dois por jogo e metade dos jogos em Son Moix teve três ou mais golos (3-0 ao Ceuta, 3-1 ao Las Palmas, 2-1 ao Cádiz). O que pesa contra é a defesa do Mallorca, que sofreu seis golos em doze jornadas e não sofreu em metade dos jogos em casa: se o Córdoba não marcar, isto acaba num 2-0. A FootyStats dá 68% para mais de 2.5 e a Forebet aponta 2-1; a SportsGambler vai para 1-0 do Mallorca.",
+      "factors": [
+        "Córdoba, Segunda División 2026/27 (API /fixtures league=141, n=13, só campeonato): mais de 2.5 em 10 de 13; fora (n=7) 6 de 7 — 3-2 Burgos, 3-2 Sabadell, 1-2 Albacete, 3-1 Valladolid, 2-1 Eldense, 0-1 Leganés, 2-2 Celta B",
+        "Mallorca, Segunda División 2026/27 (API /fixtures league=141, n=12, só campeonato): mais de 2.5 em 3 de 12; em casa (n=6) 3 de 6 — 2-0 Valladolid, 3-0 Ceuta, 2-0 Sabadell, 0-1 Almería, 3-1 Las Palmas, 2-1 Cádiz; sofreu 6 golos em 12 jogos",
+        "FootyStats, Segunda División 2026/27 (splits casa/fora, amostra de 6-7 jogos por lado): Mallorca em casa 1,62 xG e 1,01 xGA, 2,00 marcados e 0,50 sofridos por jogo, 50% sem sofrer; Córdoba fora 1,69 xG e 1,53 xGA, 1,57 marcados e 2,00 sofridos, ambas marcam 86%, 0% sem marcar. Previsão FootyStats para mais de 2.5: 68% (média da liga 51%)",
+        "H2H oficial (API, Segunda División, n=4, 2016-2019): 0-2, 1-1, 3-0 Mallorca e 3-2 Córdoba — mais de 2.5 em 2 de 4; outros plantéis, só contexto",
+        "Ausências: a SportsGambler não dá baixas no Córdoba e só põe o Jan Salas (Mallorca) em «outros», sem razão; não houve segunda fonte (a pesquisa na imprensa de Palma e de Córdoba não trouxe antevisão deste jogo) — context partial, o modelo já vai a meia stake",
+        "Antevisões: FootyStats 68% mais de 2.5; Forebet 2-1 (página bloqueada, resultado lido na pesquisa); SportsGambler 1-0 Mallorca, pick Mallorca vence a 1.77",
+        "Odds por fixture (API /odds, manhã de 14/11): Bet365 Mais 1.60 / Menos 2.30; Pinnacle 1.59 / 2.46; Marathonbet 1.46. Leitura dos números do dia: 68,3% contra 60,7% do mercado"
+      ],
+      "sources": [
+        "API-Football — /fixtures (league=141, season=2026), /fixtures/headtohead, /odds todas as casas",
+        "SportsGambler — mallorca-vs-cordoba-prediction-lineups-odds-2026-11-14",
+        "FootyStats — cordoba-cf-vs-real-club-deportivo-mallorca-h2h-stats",
+        "Forebet — real-mallorca-córdoba-2509436 (via pesquisa)"
+      ],
+      "odd_nossa": 1.6,
+      "justo_gravado_em": "2026-11-14T07:19:01.395Z",
+      "odd_justa_ref": 1.631,
+      "prob_justa": 0.6131,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "5:over 2.5",
+      "ev_justo": -0.019,
+      "justo_at": "2026-11-14T06:01:11+00:00"
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Austria vence",
+      "fixtureId": 1528976,
+      "home": {
+        "name": "Austria",
+        "logo": "https://media.api-sports.io/football/teams/775.png"
+      },
+      "away": {
+        "name": "Rep. Of Ireland",
+        "logo": "https://media.api-sports.io/football/teams/776.png"
+      },
+      "match": "Austria vs Rep. Of Ireland",
+      "league": "Liga das Nações (Liga B, Grupo 3)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-11-14T19:45:00Z",
+      "odds": 1.6,
+      "bookmaker": "Bet365",
+      "score": 71,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 71, abaixo do piso de 75. A Áustria é forte em casa e lidera o grupo, mas empatou 2-2 em Dublin com esta Irlanda, ganhou só dois dos quatro jogos do grupo e a Bet365 paga 1.60, o mesmo da Pinnacle: não há valor no preço. Sem lista de baixas em duas fontes.",
+      "tese": "A Áustria lidera o grupo com 8 pontos e recebe a Irlanda, que tem 5. Em casa ganhou os dois jogos do grupo por 3-1 (Kosovo e Israel); fora empatou os dois, incluindo o 2-2 em Dublin com esta Irlanda. A Irlanda ganhou 3-0 em Israel e só perdeu no Kosovo. O preço é o justo e nada mais, e as antevisões vão para golos, não para a vitória austríaca.",
+      "factors": [
+        "Classificação Liga das Nações 2026/27, Liga B Grupo 3 (API /standings, 4 jogos): Áustria 8 pts (9-5), Kosovo 5 (3-4), Irlanda 5 (6-4), Israel 2 (2-7)",
+        "Áustria, últimos 5 oficiais (API /fixtures): 1-1 em Kosovo, 2-2 em Irlanda, 3-1 Kosovo, 3-1 Israel (Liga das Nações), 0-3 com a Espanha (Mundial) — 2/5 vitórias",
+        "Irlanda, Liga das Nações (API /fixtures): 1-1 Israel, 2-2 Áustria, 3-0 em Israel, 0-1 em Kosovo",
+        "H2H oficial (API): 2-2 em Dublin (10/2026). Selecções: o H2H não trava, só contexto",
+        "SportsGambler (últimos 10 competitivos): Áustria em casa 7V 3E, 3,0 marcados e 0,8 sofridos por jogo; Irlanda fora 4V 6D, 2,1 sofridos. Pick principal: mais de 2.5 a 1.85, resultado 2-1",
+        "Baixas: a SportsGambler não lista indisponíveis e não houve segunda fonte com a lista — context partial",
+        "Preço: Bet365 1.60, Pinnacle 1.60, 1xBet 1.59, Marathonbet 1.57; predictions da API: dupla hipótese 1X"
+      ],
+      "sources": [
+        "API-Football — /standings Liga das Nações 2026, /fixtures (últimos 8), /predictions, /injuries (vazio), /odds todas as casas",
+        "SportsGambler — austria-vs-ireland-prediction-lineups-odds-2026-11-14"
+      ],
+      "odd_nossa": 1.6,
+      "justo_gravado_em": "2026-11-14T07:19:01.397Z",
+      "odd_justa_ref": 1.633,
+      "prob_justa": 0.6124,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:home",
+      "ev_justo": -0.0201,
+      "justo_at": "2026-11-14T04:20:18+00:00"
+    },
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Kosovo vence",
+      "fixtureId": 1528971,
+      "home": {
+        "name": "Kosovo",
+        "logo": "https://media.api-sports.io/football/teams/1111.png"
+      },
+      "away": {
+        "name": "Israel",
+        "logo": "https://media.api-sports.io/football/teams/1116.png"
+      },
+      "match": "Kosovo vs Israel",
+      "league": "Liga das Nações (Liga B, Grupo 3)",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-11-14T14:00:00Z",
+      "odds": 1.8,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 66, abaixo do piso de 75. O Kosovo precisa de ganhar para discutir o primeiro lugar e em Pristina é duro, mas marcou três golos em quatro jogos do grupo, o jogo com Israel em Outubro deu 0-0 e a Foresportia só lhe dá 44%. As baixas na defesa (Hajdari e Dellova) só aparecem numa fonte.",
+      "tese": "O Kosovo recebe Israel em Pristina com 5 pontos, a três da Áustria, e só a vitória o mantém na luta pelo grupo. Israel não ganhou nenhum dos quatro jogos e está em último. O problema é o ataque do Kosovo: três golos em quatro jogos, e o 0-0 de Outubro com Israel em Debrecen. A SportsGambler gosta da vitória da casa; a Foresportia não.",
+      "factors": [
+        "Classificação Liga das Nações 2026/27, Liga B Grupo 3 (API /standings, 4 jogos): Áustria 8, Kosovo 5 (3-4), Irlanda 5, Israel 2 (2-7)",
+        "Kosovo, últimos 5 oficiais (API /fixtures): 1-1 Áustria, 0-0 com Israel (em Debrecen), 1-3 em Áustria, 1-0 Irlanda (Liga das Nações), 0-1 Turquia (qualificação do Mundial) — 1/5 vitórias",
+        "Israel, Liga das Nações (API /fixtures): 1-1 em Irlanda, 0-0 Kosovo, 0-3 Irlanda, 1-3 em Áustria — 0/4 vitórias",
+        "H2H (API): 0-0 (10/2026). Selecções: só contexto",
+        "SportsGambler: Kosovo vence a 1.87 (estimativa 60%), 2-1; Hajdari e Dellova lesionados e Ermal Krasniqi em dúvida no Kosovo; Solomon e Revivo em dúvida em Israel — uma só fonte",
+        "Foresportia: Kosovo 44,3%, empate 23,1%, Israel 32,6%",
+        "Preço: Bet365 1.80, Pinnacle 1.84, 1xBet 1.89, Marathonbet 1.87"
+      ],
+      "sources": [
+        "API-Football — /standings, /fixtures (últimos 8), /predictions, /odds todas as casas",
+        "SportsGambler — kosovo-vs-israel-prediction-lineups-odds-2026-11-14",
+        "Foresportia — kosovo-israel-2026-11-14 (via pesquisa)"
+      ],
+      "odd_nossa": 1.8,
+      "justo_gravado_em": "2026-11-14T07:19:01.399Z",
+      "odd_justa_ref": 1.876,
+      "prob_justa": 0.5329,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:home",
+      "ev_justo": -0.0407,
+      "justo_at": "2026-11-14T04:20:18+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.65,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "Bet365",
+      "notes": "Três vence de três provas diferentes (Liga das Nações, Liga das Nações da CONCACAF, Eerste Divisie). Nenhuma perna de ambas marcam.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1528974,
+          "match": "Portugal vs Denmark",
+          "league": "Liga das Nações (Liga A, Grupo 4)",
+          "pick": "Portugal vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-14T19:45:00Z",
+          "score": 65,
+          "tese": "Portugal ganhou os quatro jogos do grupo, incluindo 4-2 em Copenhaga, e recebe a Dinamarca num Braga esgotado. Um ponto chega para fechar o primeiro lugar, mas a Dinamarca tem de pontuar para segurar o segundo e vai ter de abrir. É a primeira convocatória sem o Cristiano Ronaldo e saíram o Leão e o Nuno Tavares por questões físicas; fica um plantel de 27 com o Bruno Fernandes, o Vitinha, o João Neves e o Gonçalo Ramos.",
+          "factors": [
+            "Classificação Liga das Nações 2026/27, Liga A Grupo 4 (API /standings, 4 jogos): Portugal 12 pts (9-4), Dinamarca 6 (7-7), País de Gales 3, Noruega 3",
+            "Portugal, últimos 5 oficiais (API /fixtures): 2-1 Noruega, 4-2 em Dinamarca, 2-1 em Noruega, 1-0 País de Gales (Liga das Nações), 0-1 com a Espanha (Mundial) — 4/5 vitórias",
+            "Dinamarca, Liga das Nações (API /fixtures): 1-0 em Gales, 2-4 Portugal, 2-0 Gales, 2-3 em Noruega — perdeu 2 de 4",
+            "H2H oficial (API): Portugal ganhou 4-2 na Dinamarca (10/2026). Selecções: o H2H não trava",
+            "Baixas: Leão, Nuno Tavares e Tiago Araújo dispensados por questões físicas antes do estágio (Flashscore.pt; constavam da lista de 28 publicada pela Sábado a 06/11). Ronaldo retirou-se da selecção (Sábado e Tips.gg). Dinamarca sem o Christensen (Tips.gg), com o Dorgu chamado à última hora (A Bola)",
+            "Antevisões: SportsGambler ambas marcam e 1-1; Tips.gg mais de 2.5; predictions da API dupla hipótese 1X",
+            "Preço: Bet365 1.50, Pinnacle 1.53, 1xBet 1.52, Marathonbet 1.52"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-14T07:19:01.401Z",
+          "odd_justa_ref": 1.554,
+          "prob_justa": 0.6434,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0348,
+          "justo_at": "2026-11-14T04:20:18+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1644693,
+          "match": "Haiti vs USA",
+          "league": "Liga das Nações da CONCACAF (quartos, 1.ª mão)",
+          "pick": "USA vence",
+          "odds": 1.3,
+          "kickoff": "2026-11-14T21:30:00Z",
+          "score": 65,
+          "tese": "O jogo do Haiti em casa joga-se em Miami, no Nu Stadium, por causa da segurança no país: na prática os Estados Unidos jogam em casa. Os americanos ganharam os quatro particulares do Outono (Peru, Chile, México e Canadá) e recuperam para esta eliminatória o Pulisic, o Balogun e o McKennie. Ganharam os três últimos jogos com o Haiti, todos por um golo.",
+          "factors": [
+            "Estados Unidos, últimos 8 (API /fixtures): 1-0 Canadá, 3-0 México, 4-2 Chile, 4-1 Peru (particulares, 09-10/2026); no Mundial 1-4 Bélgica, 2-0 Bósnia, 2-3 Turquia, 2-0 Austrália — 2/4 oficiais, 6/8 com os particulares",
+            "Haiti (API /fixtures): 0-2 em Costa Rica, 4-1 em República Dominicana, 2-0 Costa Rica, 3-2 Trinidad e Tobago (Liga das Nações CONCACAF); 0-3 Brasil, 2-4 Marrocos, 0-1 Escócia (Mundial)",
+            "Local: Nu Stadium, Miami, por questões de segurança no Haiti — U.S. Soccer e MLSsoccer.com; a 2.ª mão é a 17/11 em Cincinnati",
+            "Convocatória: Pulisic, Balogun e McKennie de volta — AP (AJC e News4Jax) e NBC Sports Bay Area. Robinson, Cardoso, Wright, Zendejas e Pepi lesionados só num resumo de pesquisa, sem data clara (não confirmado)",
+            "H2H: os EUA ganharam os três últimos jogos, todos por um golo (MLSsoccer.com; 2-1 na Gold Cup 2025, U.S. Soccer). Selecções: o H2H não trava",
+            "Antevisão: The Stats Zone dá vitória dos EUA",
+            "Preço: Bet365 1.30, Pinnacle 1.29, 1xBet 1.26, Marathonbet 1.25"
+          ],
+          "odd_nossa": 1.3,
+          "justo_gravado_em": "2026-11-14T07:19:01.402Z",
+          "odd_justa_ref": 1.318,
+          "prob_justa": 0.7586,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0138,
+          "justo_at": "2026-11-14T00:00:55+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1551880,
+          "match": "Dordrecht vs Heracles",
+          "league": "Eerste Divisie (Países Baixos), 15.ª jornada",
+          "pick": "Heracles vence",
+          "odds": 1.36,
+          "kickoff": "2026-11-14T19:00:00Z",
+          "score": 65,
+          "tese": "O Heracles lidera a Eerste Divisie com 35 pontos e 44-15 em golos e ganhou quatro dos últimos cinco jogos do campeonato. Vai a casa do Dordrecht, 18.º, que sofreu 34 golos em 14 jornadas e perdeu quatro dos sete jogos em casa. Nos confrontos directos o Heracles ganhou quatro dos últimos cinco.",
+          "factors": [
+            "Classificação Eerste Divisie 2026/27 (API /standings, 14 jogos): Heracles 1.º, 35 pts, 44-15, fora 4V 2E 1D; Dordrecht 18.º, 12 pts, 18-34, em casa 2V 1E 4D",
+            "Heracles, últimos 5 oficiais (API /fixtures): 5-1 Roda, 2-0 FC Oss, 0-1 em De Treffers (Taça), 1-1 em NAC, 5-1 em MVV — 3/5 vitórias",
+            "Dordrecht, últimos 5 oficiais (API /fixtures): 0-0 NAC, 2-3 em Jong Utrecht, 2-3 em Genemuiden (Taça), 2-4 VVV, 1-0 em Jong PSV — 1/5",
+            "H2H (API, 5 jogos, 2014-2023): 3-1 e 8-1 na Eerste Divisie, 3-0 na Taça, 3-2 e 1-1 na Eredivisie — Heracles 4/5 vitórias",
+            "Sem pesquisa de baixas (não exigida na Fase B)",
+            "Preço: Bet365 1.36, Pinnacle 1.35, 1xBet 1.34, Marathonbet 1.33"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-14T07:19:01.403Z",
+          "odd_justa_ref": 1.382,
+          "prob_justa": 0.7235,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0161,
+          "justo_at": "2026-11-14T04:32:19+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.65,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "Bet365",
+      "notes": "Igual ao curto real: as três pernas já são vence, não há troca a fazer.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1528974,
+          "match": "Portugal vs Denmark",
+          "league": "Liga das Nações (Liga A, Grupo 4)",
+          "pick": "Portugal vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-14T19:45:00Z",
+          "score": 65,
+          "tese": "Portugal ganhou os quatro jogos do grupo, incluindo 4-2 em Copenhaga, e recebe a Dinamarca num Braga esgotado. Um ponto chega para fechar o primeiro lugar, mas a Dinamarca tem de pontuar para segurar o segundo e vai ter de abrir. É a primeira convocatória sem o Cristiano Ronaldo e saíram o Leão e o Nuno Tavares por questões físicas; fica um plantel de 27 com o Bruno Fernandes, o Vitinha, o João Neves e o Gonçalo Ramos.",
+          "factors": [
+            "Classificação Liga das Nações 2026/27, Liga A Grupo 4 (API /standings, 4 jogos): Portugal 12 pts (9-4), Dinamarca 6 (7-7), País de Gales 3, Noruega 3",
+            "Portugal, últimos 5 oficiais (API /fixtures): 2-1 Noruega, 4-2 em Dinamarca, 2-1 em Noruega, 1-0 País de Gales (Liga das Nações), 0-1 com a Espanha (Mundial) — 4/5 vitórias",
+            "Dinamarca, Liga das Nações (API /fixtures): 1-0 em Gales, 2-4 Portugal, 2-0 Gales, 2-3 em Noruega — perdeu 2 de 4",
+            "H2H oficial (API): Portugal ganhou 4-2 na Dinamarca (10/2026). Selecções: o H2H não trava",
+            "Baixas: Leão, Nuno Tavares e Tiago Araújo dispensados por questões físicas antes do estágio (Flashscore.pt; constavam da lista de 28 publicada pela Sábado a 06/11). Ronaldo retirou-se da selecção (Sábado e Tips.gg). Dinamarca sem o Christensen (Tips.gg), com o Dorgu chamado à última hora (A Bola)",
+            "Antevisões: SportsGambler ambas marcam e 1-1; Tips.gg mais de 2.5; predictions da API dupla hipótese 1X",
+            "Preço: Bet365 1.50, Pinnacle 1.53, 1xBet 1.52, Marathonbet 1.52"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+          "odd_justa_ref": 1.554,
+          "prob_justa": 0.6434,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0348,
+          "justo_at": "2026-11-14T04:20:18+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1644693,
+          "match": "Haiti vs USA",
+          "league": "Liga das Nações da CONCACAF (quartos, 1.ª mão)",
+          "pick": "USA vence",
+          "odds": 1.3,
+          "kickoff": "2026-11-14T21:30:00Z",
+          "score": 65,
+          "tese": "O jogo do Haiti em casa joga-se em Miami, no Nu Stadium, por causa da segurança no país: na prática os Estados Unidos jogam em casa. Os americanos ganharam os quatro particulares do Outono (Peru, Chile, México e Canadá) e recuperam para esta eliminatória o Pulisic, o Balogun e o McKennie. Ganharam os três últimos jogos com o Haiti, todos por um golo.",
+          "factors": [
+            "Estados Unidos, últimos 8 (API /fixtures): 1-0 Canadá, 3-0 México, 4-2 Chile, 4-1 Peru (particulares, 09-10/2026); no Mundial 1-4 Bélgica, 2-0 Bósnia, 2-3 Turquia, 2-0 Austrália — 2/4 oficiais, 6/8 com os particulares",
+            "Haiti (API /fixtures): 0-2 em Costa Rica, 4-1 em República Dominicana, 2-0 Costa Rica, 3-2 Trinidad e Tobago (Liga das Nações CONCACAF); 0-3 Brasil, 2-4 Marrocos, 0-1 Escócia (Mundial)",
+            "Local: Nu Stadium, Miami, por questões de segurança no Haiti — U.S. Soccer e MLSsoccer.com; a 2.ª mão é a 17/11 em Cincinnati",
+            "Convocatória: Pulisic, Balogun e McKennie de volta — AP (AJC e News4Jax) e NBC Sports Bay Area. Robinson, Cardoso, Wright, Zendejas e Pepi lesionados só num resumo de pesquisa, sem data clara (não confirmado)",
+            "H2H: os EUA ganharam os três últimos jogos, todos por um golo (MLSsoccer.com; 2-1 na Gold Cup 2025, U.S. Soccer). Selecções: o H2H não trava",
+            "Antevisão: The Stats Zone dá vitória dos EUA",
+            "Preço: Bet365 1.30, Pinnacle 1.29, 1xBet 1.26, Marathonbet 1.25"
+          ],
+          "odd_nossa": 1.3,
+          "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+          "odd_justa_ref": 1.318,
+          "prob_justa": 0.7586,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0138,
+          "justo_at": "2026-11-14T00:00:55+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1551880,
+          "match": "Dordrecht vs Heracles",
+          "league": "Eerste Divisie (Países Baixos), 15.ª jornada",
+          "pick": "Heracles vence",
+          "odds": 1.36,
+          "kickoff": "2026-11-14T19:00:00Z",
+          "score": 65,
+          "tese": "O Heracles lidera a Eerste Divisie com 35 pontos e 44-15 em golos e ganhou quatro dos últimos cinco jogos do campeonato. Vai a casa do Dordrecht, 18.º, que sofreu 34 golos em 14 jornadas e perdeu quatro dos sete jogos em casa. Nos confrontos directos o Heracles ganhou quatro dos últimos cinco.",
+          "factors": [
+            "Classificação Eerste Divisie 2026/27 (API /standings, 14 jogos): Heracles 1.º, 35 pts, 44-15, fora 4V 2E 1D; Dordrecht 18.º, 12 pts, 18-34, em casa 2V 1E 4D",
+            "Heracles, últimos 5 oficiais (API /fixtures): 5-1 Roda, 2-0 FC Oss, 0-1 em De Treffers (Taça), 1-1 em NAC, 5-1 em MVV — 3/5 vitórias",
+            "Dordrecht, últimos 5 oficiais (API /fixtures): 0-0 NAC, 2-3 em Jong Utrecht, 2-3 em Genemuiden (Taça), 2-4 VVV, 1-0 em Jong PSV — 1/5",
+            "H2H (API, 5 jogos, 2014-2023): 3-1 e 8-1 na Eerste Divisie, 3-0 na Taça, 3-2 e 1-1 na Eredivisie — Heracles 4/5 vitórias",
+            "Sem pesquisa de baixas (não exigida na Fase B)",
+            "Preço: Bet365 1.36, Pinnacle 1.35, 1xBet 1.34, Marathonbet 1.33"
+          ],
+          "odd_nossa": 1.36,
+          "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+          "odd_justa_ref": 1.382,
+          "prob_justa": 0.7235,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0161,
+          "justo_at": "2026-11-14T04:32:19+00:00"
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna 1.40–1.60 chega a 75 com investigação completa. Portugal vence (1.50) fica abaixo: um ponto chega-lhe e há antevisões a apontar para 1-1. A Áustria (1.60) tem o preço igual ao da Pinnacle e não há lista de baixas em duas fontes. O mais de 2.5 no Mallorca-Córdoba (1.60) é tip de modelo com 67 e contexto parcial."
+  }
+}
