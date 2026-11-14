@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Oleitech — Desenvolvimento e programação</title>
+  <meta name="description" content="Oleitech: websites, aplicações Android e iOS, consultoria e email profissional. Desenvolvimento e programação desde Vila de Oleiros.">
+  <meta name="theme-color" content="#141414">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/league-spartan-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    /* Decide o modo antes de pintar: fita WebGL, ou versão estática (sem JS, sem WebGL2, movimento reduzido). */
+    (function () {
+      var d = document.documentElement, ok = false;
+      try {
+        var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var c = document.createElement('canvas'), gl = c.getContext('webgl2');
+        ok = !reduced && !!gl;
+        if (gl && gl.getExtension('WEBGL_lose_context')) gl.getExtension('WEBGL_lose_context').loseContext();
+        if (reduced) d.classList.add('is-reduced');
+      } catch (e) { ok = false; }
+      if (!ok) return;
+      d.classList.add('webgl');
+      var seen = false; try { seen = !!sessionStorage.getItem('oleitech-loader'); } catch (e) {}
+      if (!seen) d.classList.add('show-loader');
+      /* rede de segurança: só se o módulo nem sequer correr (sem suporte a módulos, erro de sintaxe).
+         Não se olha ao carregamento: numa rede lenta o loader mostra o progresso real em vez de cair na grelha. */
+      setTimeout(function () { if (!window.__oleitechAlive) d.classList.remove('webgl', 'show-loader'); }, 9000);
+    })();
+  </script>
+  <script>(function(d){try{var v=+sessionStorage.getItem('oleitech-veil');if(v&&Date.now()-v<6000&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('veil-on')}catch(e){}setTimeout(function(){d.classList.remove('veil-on')},4000)})(document.documentElement);</script>
+  <style>html.veil-on::after{content:'';position:fixed;inset:0;z-index:400;background:#141414 url('assets/brand/oleitech-logo-white.svg') center/clamp(130px,11vw,190px) auto no-repeat}.veil{position:fixed;inset:0;z-index:400;pointer-events:none;visibility:hidden}.veil.is-on{visibility:visible;pointer-events:auto}.veil canvas{position:absolute;inset:0;width:100%;height:100%}.veil__flat{position:absolute;inset:0;background:#141414;opacity:0}.veil__logo{position:absolute;left:50%;top:50%;width:clamp(130px,11vw,190px);height:auto;translate:-50% -50%;color:#fff;opacity:0}</style>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="logo" viewBox="0 0 4726.791259765625 724"><g transform="translate(-48.413818359375,712) scale(1,-1)">
+    <g fill="currentColor"><path transform="translate(0,0)" d="M379.447998046875 -12Q281.689453125 -12 207.2239990234375 33.7930908203125Q132.758544921875 79.586181640625 90.586181640625 161.086181640625Q48.413818359375 242.586181640625 48.413818359375 350Q48.413818359375 457 90.586181640625 538.5Q132.758544921875 620 207.2239990234375 666.0Q281.689453125 712 379.447998046875 712Q478.0341796875 712 552.4996337890625 666.0Q626.965087890625 620 668.4305419921875 538.5Q709.89599609375 457 709.89599609375 350Q709.89599609375 242.586181640625 668.4305419921875 161.086181640625Q626.965087890625 79.586181640625 552.4996337890625 33.7930908203125Q478.0341796875 -12 379.447998046875 -12ZM379.447998046875 109.480712890625Q438.552001953125 109.480712890625 481.7938232421875 138.705078125Q525.03564453125 167.929443359375 548.673828125 221.878173828125Q572.31201171875 275.826904296875 572.31201171875 350Q572.31201171875 424.75927734375 548.673828125 478.4149169921875Q525.03564453125 532.070556640625 481.7938232421875 561.0880126953125Q438.552001953125 590.10546875 379.447998046875 590.10546875Q320.7578125 590.10546875 277.222900390625 561.0880126953125Q233.68798828125 532.070556640625 209.8428955078125 478.4149169921875Q185.997802734375 424.75927734375 185.997802734375 350Q185.997802734375 275.826904296875 209.8428955078125 221.878173828125Q233.68798828125 167.929443359375 277.222900390625 138.705078125Q320.7578125 109.480712890625 379.447998046875 109.480712890625Z"/><path transform="translate(758,0)" d="M74.069091796875 0V700H209.06689453125V105.101806640625H516.30908203125V0Z"/><path transform="translate(1325,0)" d="M74.069091796875 0V700H534.61962890625V591.1396484375H209.06689453125V408.1025390625H504.61962890625V302.5869140625H209.06689453125V108.8603515625H534.61962890625V0Z"/><path transform="translate(1916,0)" d="M74.069091796875 0V700H209.06689453125V0Z"/></g>
+    <g fill="#2164f4"><path transform="translate(2199,0)" d="M234.13818359375 0V591.1396484375H29.82763671875V700H572.8603515625V591.1396484375H368.5498046875V0Z"/><path transform="translate(2802,0)" d="M74.069091796875 0V700H534.61962890625V591.1396484375H209.06689453125V408.1025390625H504.61962890625V302.5869140625H209.06689453125V108.8603515625H534.61962890625V0Z"/><path transform="translate(3393,0)" d="M377.86181640625 -12Q275.930908203125 -12 201.9654541015625 33.5Q128 79 88.2069091796875 160.5Q48.413818359375 242 48.413818359375 348.82763671875Q48.413818359375 456.241455078125 88.2069091796875 538.0345458984375Q128 619.82763671875 201.9654541015625 665.913818359375Q275.930908203125 712 377.86181640625 712Q503.89599609375 712 583.7578125 648.8450927734375Q663.61962890625 585.690185546875 683.447265625 470.552734375H537.932373046875Q524.449462890625 526.760009765625 483.2767333984375 558.3465576171875Q442.10400390625 589.93310546875 376.689453125 589.93310546875Q316.999267578125 589.93310546875 274.050537109375 560.708740234375Q231.101806640625 531.484375 208.5498046875 477.53564453125Q185.997802734375 423.5869140625 185.997802734375 348.82763671875Q185.997802734375 274.654541015625 208.5498046875 220.9989013671875Q231.101806640625 167.34326171875 274.050537109375 138.4119873046875Q316.999267578125 109.480712890625 376.689453125 109.480712890625Q442.10400390625 109.480712890625 482.983642578125 138.601806640625Q523.86328125 167.722900390625 537.932373046875 220.58544921875H683.447265625Q663.61962890625 111.965087890625 583.7578125 49.9825439453125Q503.89599609375 -12 377.86181640625 -12Z"/><path transform="translate(4125,0)" d="M515.207275390625 0V700H650.205078125V0ZM74.069091796875 0V700H209.06689453125V0ZM190.72216796875 302.656005859375V412.1025390625H537.9658203125V302.656005859375Z"/></g>
+  </g></symbol>
+      <symbol id="i-arrow" viewBox="0 0 12 12"><path d="M2 2 L10 10 M10 3.5 V10 H3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#projetos">Saltar para os projetos</a>
+  <canvas id="stage" class="stage" aria-hidden="true"></canvas>
+
+  <header class="hud" id="hud">
+    <a class="hud__logo" href="index.html" aria-label="Oleitech — página inicial"><svg viewBox="0 0 4726.79 724" aria-hidden="true"><use href="#logo"/></svg></a>
+    <nav class="hud__nav" aria-label="Principal">
+      <a class="hud__link" href="sobre.html">Sobre</a>
+      <a class="hud__link" href="servicos.html">Serviços</a>
+    </nav>
+    <a class="cta" data-cta="agendar" href="contactos.html" ><span class="cta__l" data-roll>Contactos</span><span class="cta__s" data-roll>Contactos</span></a>
+    <button class="hud__menu" type="button" id="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__nav" aria-label="Menu">
+      <a class="menu__link" href="index.html" tabindex="-1"><span>Início</span></a>
+      <a class="menu__link" href="sobre.html" tabindex="-1"><span>Sobre</span></a>
+      <a class="menu__link" href="servicos.html" tabindex="-1"><span>Serviços</span></a>
+      <a class="menu__link menu__link--cta" data-cta="agendar" href="contactos.html" tabindex="-1"><span>Contactos</span></a>
+    </nav>
+  </div>
+
+  <main id="projetos" class="static">
+    <section class="static__hero">
+      <p class="static__eyebrow">Desenvolvimento &amp; programação · Vila de Oleiros</p>
+      <h1 class="static__title">Transformamos ideias em soluções digitais.</h1>
+      <p class="static__lead">Websites, aplicações Android e iOS, consultoria e email profissional. Estes são os projetos que já entregámos.</p>
+    </section>
+    <h2 class="static__h2">Projetos</h2>
+    <ol class="grid" id="project-list">
+        <li class="grid__item">
+          <a class="pcard" href="projetos/aigp.html">
+            <span class="pcard__media"><img src="assets/images/projetos/aigp.jpg" alt="Capa do projeto AIGP Caniçal" width="1600" height="1066" loading="lazy" decoding="async"></span>
+            <span class="pcard__num">Projeto 01</span>
+            <span class="pcard__name">AIGP Caniçal</span>
+            <span class="pcard__meta">Website institucional · Gestão florestal</span>
+          </a>
+        </li>
+        <li class="grid__item">
+          <a class="pcard" href="projetos/festa.html">
+            <span class="pcard__media"><img src="assets/images/projetos/festa.jpg" alt="Capa do projeto Festa de Santa Margarida" width="1600" height="1066" loading="lazy" decoding="async"></span>
+            <span class="pcard__num">Projeto 02</span>
+            <span class="pcard__name">Festa de Santa Margarida</span>
+            <span class="pcard__meta">Landing page · Evento</span>
+          </a>
+        </li>
+        <li class="grid__item">
+          <a class="pcard" href="projetos/peripecia.html">
+            <span class="pcard__media"><img src="assets/images/projetos/peripecia.jpg" alt="Capa do projeto Peripécia" width="1600" height="1066" loading="lazy" decoding="async"></span>
+            <span class="pcard__num">Projeto 03</span>
+            <span class="pcard__name">Peripécia</span>
+            <span class="pcard__meta">Website · Estúdio criativo</span>
+          </a>
+        </li>
+        <li class="grid__item">
+          <a class="pcard" href="projetos/jaf.html">
+            <span class="pcard__media"><img src="assets/images/projetos/jaf.jpg" alt="Capa do projeto JAF — José Afonso &amp; Filhos" width="1600" height="1066" loading="lazy" decoding="async"></span>
+            <span class="pcard__num">Projeto 04</span>
+            <span class="pcard__name">JAF — José Afonso &amp; Filhos</span>
+            <span class="pcard__meta">Website institucional · Indústria da madeira</span>
+          </a>
+        </li>
+        <li class="grid__item">
+          <a class="pcard" href="projetos/sh-solicitador.html">
+            <span class="pcard__media"><img src="assets/images/projetos/sh-solicitador.jpg" alt="Capa do projeto SH Solicitador" width="1600" height="1066" loading="lazy" decoding="async"></span>
+            <span class="pcard__num">Projeto 05</span>
+            <span class="pcard__name">SH Solicitador</span>
+            <span class="pcard__meta">Página de apresentação · Solicitadoria</span>
+          </a>
+        </li>
+    </ol>
+    <section class="static__cta">
+      <p class="static__lead">Tem um projeto em mente? Vamos conversar.</p>
+      <a class="cta cta--big" data-cta="agendar" href="contactos.html"><span data-roll>Contactos</span></a>
+    </section>
+  </main>
+
+  <div class="now" id="now" aria-hidden="true">
+    <span class="now__count" id="now-count">01 / 05</span>
+    <span class="now__title" id="now-title"></span>
+  </div>
+
+  <div class="hint" id="hint" aria-hidden="true">
+    <span class="hint__arrow hint__arrow--l"></span>
+    <span class="hint__hand"><span class="hint__dot"></span></span>
+    <span class="hint__arrow hint__arrow--r"></span>
+    <span class="hint__label">Arrastar</span>
+  </div>
+
+  <footer class="corners" id="corners">
+    <div class="sig"><span class="sig__name">OLEITECH</span><span class="sig__role">DESENVOLVIMENTO &amp; PROGRAMAÇÃO</span></div>
+    <p class="copy">oleitech · 2026</p>
+    <div class="contact">
+      <a class="contact__mail" href="mailto:rodrigo.lopes@oleitech.com"><span>RODRIGO.LOPES@OLEITECH.COM</span><svg class="contact__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="contact__tel" href="tel:+351967359489">+351 967 359 489</a>
+    </div>
+  </footer>
+
+  <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Projeto" tabindex="-1" hidden>
+    <div class="sheet__bar">
+      <p class="sheet__load" role="status"><span class="sheet__spin" aria-hidden="true"></span>A carregar o site…</p>
+      <div class="sheet__nav">
+        <button type="button" data-act="close"><span class="sheet__x" aria-hidden="true"></span>Fechar</button>
+        <button type="button" data-act="prev" aria-label="Projeto anterior">Anterior</button>
+        <button type="button" data-act="next" aria-label="Projeto seguinte">Seguinte</button>
+      </div>
+    </div>
+    <div class="sheet__view" id="sheet-view">
+      <div class="sheet__shot" id="sheet-shot" tabindex="0"></div>
+    </div>
+  </section>
+
+  <div class="loader" id="loader" aria-busy="true" role="status" aria-label="A carregar">
+    <span class="loader__grid" aria-hidden="true"></span>
+    <span class="loader__line loader__line--t" aria-hidden="true"></span><span class="loader__line loader__line--b" aria-hidden="true"></span>
+    <span class="loader__line loader__line--l" aria-hidden="true"></span><span class="loader__line loader__line--r" aria-hidden="true"></span>
+    <div class="loader__head"><span class="loader__brand">OLEITECH</span><span class="loader__role">DESENVOLVIMENTO &amp; PROGRAMAÇÃO</span></div>
+    <svg class="loader__logo" viewBox="0 0 4726.79 724" aria-hidden="true"><use href="#logo"/></svg>
+
+    <figure class="loader__photo" aria-hidden="true">
+      <img src="assets/images/projetos/aigp.jpg" alt="" width="1600" height="1140">
+      <span class="loader__photo-tag">.WEB</span><span class="loader__photo-ghost">PROJETOS</span>
+    </figure>
+
+    <div class="ticket" aria-hidden="true">
+      <div class="ticket__art">
+        <p class="ticket__v"><span class="ticket__v1">&#9670; PORTFÓLIO <b>01</b></span><span class="ticket__v2">WEB // APPS</span></p>
+        <svg class="ticket__wire" preserveAspectRatio="xMidYMid slice" viewBox="0 0 136 142" fill="none" stroke="currentColor" stroke-width=".6">
+          <g opacity=".22"><path d="M0 0H136M0 10.1H136M0 20.3H136M0 30.4H136M0 40.6H136M0 50.7H136M0 60.9H136M0 71H136M0 81.1H136M0 91.3H136M0 101.4H136M0 111.6H136M0 121.7H136M0 131.9H136M0 142H136M0 0V142M10.4 0V142M20.9 0V142M31.3 0V142M41.8 0V142M52.2 0V142M62.7 0V142M73.1 0V142M83.6 0V142M94 0V142M104.5 0V142M114.9 0V142M125.4 0V142M136 0V142"/></g>
+          <rect x="18" y="26" width="100" height="84" rx="3" stroke-width="1" opacity=".85"/>
+          <path d="M18 40H118" stroke-width="1" opacity=".85"/><circle cx="26" cy="33" r="1.6" fill="currentColor"/><circle cx="32" cy="33" r="1.6" fill="currentColor"/><circle cx="38" cy="33" r="1.6" fill="currentColor"/>
+          <rect x="26" y="48" width="48" height="30" opacity=".7"/><path d="M26 78 L44 62 L56 72 L64 66 L74 78" opacity=".7"/>
+          <path d="M82 50H110M82 58H104M82 66H110M82 74H98" opacity=".7"/><rect x="26" y="86" width="26" height="14" rx="1" opacity=".7"/><path d="M60 93H110" opacity=".7"/>
+          <path d="M56 8L44 18L56 28M80 8L92 18L80 28" stroke-width="1.2" opacity=".9"/><path d="M71 4L65 32" stroke-width="1.2" opacity=".9"/>
+          <circle cx="68" cy="126" r="9" opacity=".6"/><circle cx="68" cy="126" r="4" opacity=".6"/>
+        </svg>
+        <svg class="ticket__spark" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 C10.6 6 14 9.4 20 10 C14 10.6 10.6 14 10 20 C9.4 14 6 10.6 0 10 C6 9.4 9.4 6 10 0Z" fill="none" stroke="currentColor" stroke-width=".8"/></svg>
+        <span class="ticket__dots"></span>
+      </div>
+      <div class="ticket__mid">
+        <svg class="ticket__layers" viewBox="0 0 40 36" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M20 2 38 11 20 20 2 11Z"/><path d="M2 17 20 26 38 17"/><path d="M2 23 20 32 38 23"/></svg>
+        <div class="ticket__center">
+          <svg class="ticket__rings" viewBox="0 0 24 12" fill="none" stroke="currentColor" stroke-width="1"><circle cx="8" cy="6" r="4.6"/><circle cx="16" cy="6" r="4.6"/></svg>
+          <span class="ticket__pill">ONLINE</span>
+          <span class="ticket__count" id="ticket-count">000</span>
+        </div>
+        <p class="ticket__made">FEITO EM<br><b>OLEIROS</b></p>
+        <svg class="ticket__plus" viewBox="0 0 40 30" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="square">
+          <path d="M3 3H7M5 1V5M15 3H19M17 1V5M27 3H31M29 1V5M39 3H43M41 1V5" transform="translate(-3 0) scale(.9)"/>
+          <path d="M3 14H7M5 12V16M15 14H19M17 12V16M27 14H31M29 12V16M39 14H43M41 12V16" transform="translate(-3 0) scale(.9)"/>
+          <path d="M3 25H7M5 23V27M15 25H19M17 23V27M27 25H31M29 23V27M39 25H43M41 23V27" transform="translate(-3 0) scale(.9)"/>
+        </svg>
+        <p class="ticket__port">P O R T F Ó L I O</p>
+      </div>
+      <div class="ticket__bot">
+        <div class="ticket__bars"><svg class="ticket__barcode" viewBox="0 0 120 40" preserveAspectRatio="none" aria-hidden="true" fill="currentColor"><rect x="0" y="0" width="2" height="40"/><rect x="4" y="0" width="1" height="40"/><rect x="6" y="0" width="2" height="40"/><rect x="11" y="0" width="3" height="40"/><rect x="17" y="0" width="1" height="40"/><rect x="20" y="0" width="3" height="40"/><rect x="26" y="0" width="1" height="40"/><rect x="29" y="0" width="2" height="40"/><rect x="33" y="0" width="2" height="40"/><rect x="38" y="0" width="2" height="40"/><rect x="42" y="0" width="1" height="40"/><rect x="45" y="0" width="3" height="40"/><rect x="49" y="0" width="3" height="40"/><rect x="53" y="0" width="3" height="40"/><rect x="57" y="0" width="2" height="40"/><rect x="61" y="0" width="3" height="40"/><rect x="67" y="0" width="2" height="40"/><rect x="70" y="0" width="1" height="40"/><rect x="73" y="0" width="1" height="40"/><rect x="77" y="0" width="1" height="40"/><rect x="81" y="0" width="2" height="40"/><rect x="86" y="0" width="1" height="40"/><rect x="89" y="0" width="3" height="40"/><rect x="94" y="0" width="1" height="40"/><rect x="98" y="0" width="1" height="40"/><rect x="101" y="0" width="3" height="40"/><rect x="105" y="0" width="2" height="40"/><rect x="110" y="0" width="1" height="40"/><rect x="113" y="0" width="3" height="40"/></svg><p class="ticket__url">O L E I T E C H . P T</p></div>
+        <div class="ticket__mark"><svg viewBox="0 0 4726.79 724" aria-hidden="true"><use href="#logo"/></svg><span>© 2026 · DESDE 2024</span></div>
+      </div>
+    </div>
+
+    <div class="loader__pct" id="loader-pct" aria-hidden="true">0</div>
+
+    <div class="loader__zone" id="loader-zone">
+      <p class="loader__status" id="loader-status">A carregar projetos</p>
+      <div class="loader__track"><span class="loader__fill" id="loader-fill"></span>
+        <button class="loader__cta" id="loader-cta" type="button" tabindex="-1"><span class="loader__cta-in" data-roll>Entrar na experiência</span></button>
+      </div>
+    </div>
+  </div>
+
+  <noscript><style>.loader{display:none!important}</style></noscript>
+  <script src="js/config.js"></script>
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script type="module" src="js/home.js"></script>
+  <script src="js/site.js" defer data-home></script>
+</body>
+</html>

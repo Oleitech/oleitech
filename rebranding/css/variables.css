@@ -1,0 +1,20 @@
+:root {
+  --bg: #141414;
+  --bg-loader: rgb(20, 20, 20);
+  --ink: #e0e0e0;
+  --ink-95: rgba(224, 224, 224, .95);
+  --ink-65: rgba(224, 224, 224, .65);
+  --ink-40: rgba(224, 224, 224, .4);
+  --paper: #f6f6f6;
+  --paper-ink: #141414;
+  --accent: #2164f4;
+  --accent-text: #6f9bff;
+  --font-display: 'League Spartan', 'Arial Narrow', sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-io: cubic-bezier(.45, 0, .55, 1);
+  --gutter: 2.5vw;
+  --cu: min(1vw, 1.7778vh);
+  --shadow-txt: 0 2px 18px #0000008c;
+}
+@media (max-width: 767px) { :root { --gutter: 16px; } }
