@@ -416,9 +416,26 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "1:home",
           "ev_justo": 0.0002,
-          "justo_at": "2026-11-12T02:28:20+00:00"
+          "justo_at": "2026-11-12T02:28:20+00:00",
+          "result": "GREEN",
+          "final_score": "3-2",
+          "jogado_em": "2026-11-14T19:45:00+00:00",
+          "clv_api": 0.0091,
+          "fecho_idade_min": 105,
+          "odd_fecho_ref": 1.536,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-14T18:00:23+00:00",
+          "fecho_aproximado": false,
+          "clv": 0.0091
         }
-      ]
+      ],
+      "result": "GREEN",
+      "effective_odds": 5.45,
+      "return": 2.73,
+      "pnl": 2.23,
+      "dia_pnl": "2026-11-14",
+      "liquidada_em": "2026-11-14T23:48:25.471Z"
     }
   ],
   "duplo_sombra": {

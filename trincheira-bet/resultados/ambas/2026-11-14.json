@@ -67,7 +67,38 @@
       "frase": "O Heracles marcou em 6 dos últimos 7 jogos fora, e o Dordrecht sofreu em 6 dos últimos 7 em casa.",
       "sentAt": 1794640905187,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Dordrecht vs Heracles</b> (19:00)\n\n📊 Heracles marca fora 95% · Dordrecht marca em casa 74%\n💰 1xBet <b>@1.58</b> · justo @1.65 · sem valor hoje (stake 0)\n\nO Heracles marcou em 6 dos últimos 7 jogos fora, e o Dordrecht sofreu em 6 dos últimos 7 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-14T17:35:44.662Z",
+      "oddPertoDoJogo": 1.52,
+      "evPertoDoJogo": {
+        "formula": -0.0439,
+        "consenso": -0.077
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei notícia de hoje ou de ontem sobre baixas no ataque do Heracles; o onze oficial ainda não estava publicado e as fontes achadas são antigas ou de outros jogos.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794700102225,
+      "pnlSombra": 0.29,
+      "odd_fecho_ref": 1.614,
+      "prob_fecho": 0.6197,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-14T18:00:23+00:00",
+      "fecho_idade_min": 60,
+      "clv": -0.0209,
+      "prob_fecho_formula": 0.629,
+      "clv_formula": -0.0062
     }
   ],
   "escolhidaEm": "2026-11-14T07:21:03.079Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-14T06:01:11+00:00",
     "mercado": "ambas sim",
     "odds": 3.64,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 2,
+    "finalAway": 0,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794700103206,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 4.474,
+    "prob_fecho": 0.2235,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-14T18:00:23+00:00",
+    "fecho_idade_min": 60,
+    "clv": -0.1865,
+    "prob_fecho_formula": 0.3337,
+    "clv_formula": 0.2146
   },
   "candidatasLive": [
     {

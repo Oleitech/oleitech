@@ -1,0 +1,1581 @@
+{
+  "date": "2026-11-14",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "over25",
+        "marketLabel": "Mais/menos 2.5 golos",
+        "pick": "Mais de 2.5 golos",
+        "fixtureId": 1570020,
+        "home": {
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "away": {
+          "name": "Cordoba",
+          "logo": "https://media.api-sports.io/football/teams/713.png"
+        },
+        "match": "Mallorca vs Cordoba",
+        "league": "Segunda División (Espanha), 14.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+        "kickoff": "2026-11-14T17:30:00Z",
+        "odds": 1.6,
+        "bookmaker": "Bet365",
+        "score": 67,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "modelo": "gap",
+        "gap": {
+          "pressao": 38.9,
+          "prob_modelo": 0.683,
+          "prob_mercado": 0.607,
+          "valor": 0.092
+        },
+        "tese": "O Córdoba fora de casa é um vaivém: seis dos sete jogos passaram dos dois golos e marcou em quase todos (3-2 em Burgos, 3-2 em Sabadell, 1-2 em Albacete, 3-1 em Valladolid, 2-1 em Elda, 2-2 em Vigo; só o 0-1 em Leganés ficou abaixo). O Mallorca em casa marca dois por jogo e metade dos jogos em Son Moix teve três ou mais golos (3-0 ao Ceuta, 3-1 ao Las Palmas, 2-1 ao Cádiz). O que pesa contra é a defesa do Mallorca, que sofreu seis golos em doze jornadas e não sofreu em metade dos jogos em casa: se o Córdoba não marcar, isto acaba num 2-0. A FootyStats dá 68% para mais de 2.5 e a Forebet aponta 2-1; a SportsGambler vai para 1-0 do Mallorca.",
+        "factors": [
+          "Córdoba, Segunda División 2026/27 (API /fixtures league=141, n=13, só campeonato): mais de 2.5 em 10 de 13; fora (n=7) 6 de 7 — 3-2 Burgos, 3-2 Sabadell, 1-2 Albacete, 3-1 Valladolid, 2-1 Eldense, 0-1 Leganés, 2-2 Celta B",
+          "Mallorca, Segunda División 2026/27 (API /fixtures league=141, n=12, só campeonato): mais de 2.5 em 3 de 12; em casa (n=6) 3 de 6 — 2-0 Valladolid, 3-0 Ceuta, 2-0 Sabadell, 0-1 Almería, 3-1 Las Palmas, 2-1 Cádiz; sofreu 6 golos em 12 jogos",
+          "FootyStats, Segunda División 2026/27 (splits casa/fora, amostra de 6-7 jogos por lado): Mallorca em casa 1,62 xG e 1,01 xGA, 2,00 marcados e 0,50 sofridos por jogo, 50% sem sofrer; Córdoba fora 1,69 xG e 1,53 xGA, 1,57 marcados e 2,00 sofridos, ambas marcam 86%, 0% sem marcar. Previsão FootyStats para mais de 2.5: 68% (média da liga 51%)",
+          "H2H oficial (API, Segunda División, n=4, 2016-2019): 0-2, 1-1, 3-0 Mallorca e 3-2 Córdoba — mais de 2.5 em 2 de 4; outros plantéis, só contexto",
+          "Ausências: a SportsGambler não dá baixas no Córdoba e só põe o Jan Salas (Mallorca) em «outros», sem razão; não houve segunda fonte (a pesquisa na imprensa de Palma e de Córdoba não trouxe antevisão deste jogo) — context partial, o modelo já vai a meia stake",
+          "Antevisões: FootyStats 68% mais de 2.5; Forebet 2-1 (página bloqueada, resultado lido na pesquisa); SportsGambler 1-0 Mallorca, pick Mallorca vence a 1.77",
+          "Odds por fixture (API /odds, manhã de 14/11): Bet365 Mais 1.60 / Menos 2.30; Pinnacle 1.59 / 2.46; Marathonbet 1.46. Leitura dos números do dia: 68,3% contra 60,7% do mercado"
+        ],
+        "sources": [
+          "API-Football — /fixtures (league=141, season=2026), /fixtures/headtohead, /odds todas as casas",
+          "SportsGambler — mallorca-vs-cordoba-prediction-lineups-odds-2026-11-14",
+          "FootyStats — cordoba-cf-vs-real-club-deportivo-mallorca-h2h-stats",
+          "Forebet — real-mallorca-córdoba-2509436 (via pesquisa)"
+        ],
+        "odd_nossa": 1.6,
+        "justo_gravado_em": "2026-11-14T07:19:01.395Z",
+        "odd_justa_ref": 1.631,
+        "prob_justa": 0.6131,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "5:over 2.5",
+        "ev_justo": -0.019,
+        "justo_at": "2026-11-14T06:01:11+00:00",
+        "clv_api": -0.025,
+        "fecho_idade_min": 35,
+        "odd_fecho_ref": 1.641,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-14T16:55:19+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.025,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0.8,
+        "pnl": 0.3,
+        "final_score": "3-3",
+        "note": "Mallorca 3-3 Córdoba: seis golos, passou as 2.5 com folga."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.65,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "Bet365",
+        "notes": "Três vence de três provas diferentes (Liga das Nações, Liga das Nações da CONCACAF, Eerste Divisie). Nenhuma perna de ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528974,
+            "match": "Portugal vs Denmark",
+            "league": "Liga das Nações (Liga A, Grupo 4)",
+            "pick": "Portugal vence",
+            "odds": 1.5,
+            "kickoff": "2026-11-14T19:45:00Z",
+            "score": 65,
+            "tese": "Portugal ganhou os quatro jogos do grupo, incluindo 4-2 em Copenhaga, e recebe a Dinamarca num Braga esgotado. Um ponto chega para fechar o primeiro lugar, mas a Dinamarca tem de pontuar para segurar o segundo e vai ter de abrir. É a primeira convocatória sem o Cristiano Ronaldo e saíram o Leão e o Nuno Tavares por questões físicas; fica um plantel de 27 com o Bruno Fernandes, o Vitinha, o João Neves e o Gonçalo Ramos.",
+            "factors": [
+              "Classificação Liga das Nações 2026/27, Liga A Grupo 4 (API /standings, 4 jogos): Portugal 12 pts (9-4), Dinamarca 6 (7-7), País de Gales 3, Noruega 3",
+              "Portugal, últimos 5 oficiais (API /fixtures): 2-1 Noruega, 4-2 em Dinamarca, 2-1 em Noruega, 1-0 País de Gales (Liga das Nações), 0-1 com a Espanha (Mundial) — 4/5 vitórias",
+              "Dinamarca, Liga das Nações (API /fixtures): 1-0 em Gales, 2-4 Portugal, 2-0 Gales, 2-3 em Noruega — perdeu 2 de 4",
+              "H2H oficial (API): Portugal ganhou 4-2 na Dinamarca (10/2026). Selecções: o H2H não trava",
+              "Baixas: Leão, Nuno Tavares e Tiago Araújo dispensados por questões físicas antes do estágio (Flashscore.pt; constavam da lista de 28 publicada pela Sábado a 06/11). Ronaldo retirou-se da selecção (Sábado e Tips.gg). Dinamarca sem o Christensen (Tips.gg), com o Dorgu chamado à última hora (A Bola)",
+              "Antevisões: SportsGambler ambas marcam e 1-1; Tips.gg mais de 2.5; predictions da API dupla hipótese 1X",
+              "Preço: Bet365 1.50, Pinnacle 1.53, 1xBet 1.52, Marathonbet 1.52"
+            ],
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-14T07:19:01.401Z",
+            "odd_justa_ref": 1.554,
+            "prob_justa": 0.6434,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0348,
+            "justo_at": "2026-11-14T04:20:18+00:00",
+            "clv_api": -0.0677,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.609,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:00:23+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0677,
+            "result": "RED",
+            "final_score": "1-4"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1644693,
+            "match": "Haiti vs USA",
+            "league": "Liga das Nações da CONCACAF (quartos, 1.ª mão)",
+            "pick": "USA vence",
+            "odds": 1.3,
+            "kickoff": "2026-11-14T21:30:00Z",
+            "score": 65,
+            "tese": "O jogo do Haiti em casa joga-se em Miami, no Nu Stadium, por causa da segurança no país: na prática os Estados Unidos jogam em casa. Os americanos ganharam os quatro particulares do Outono (Peru, Chile, México e Canadá) e recuperam para esta eliminatória o Pulisic, o Balogun e o McKennie. Ganharam os três últimos jogos com o Haiti, todos por um golo.",
+            "factors": [
+              "Estados Unidos, últimos 8 (API /fixtures): 1-0 Canadá, 3-0 México, 4-2 Chile, 4-1 Peru (particulares, 09-10/2026); no Mundial 1-4 Bélgica, 2-0 Bósnia, 2-3 Turquia, 2-0 Austrália — 2/4 oficiais, 6/8 com os particulares",
+              "Haiti (API /fixtures): 0-2 em Costa Rica, 4-1 em República Dominicana, 2-0 Costa Rica, 3-2 Trinidad e Tobago (Liga das Nações CONCACAF); 0-3 Brasil, 2-4 Marrocos, 0-1 Escócia (Mundial)",
+              "Local: Nu Stadium, Miami, por questões de segurança no Haiti — U.S. Soccer e MLSsoccer.com; a 2.ª mão é a 17/11 em Cincinnati",
+              "Convocatória: Pulisic, Balogun e McKennie de volta — AP (AJC e News4Jax) e NBC Sports Bay Area. Robinson, Cardoso, Wright, Zendejas e Pepi lesionados só num resumo de pesquisa, sem data clara (não confirmado)",
+              "H2H: os EUA ganharam os três últimos jogos, todos por um golo (MLSsoccer.com; 2-1 na Gold Cup 2025, U.S. Soccer). Selecções: o H2H não trava",
+              "Antevisão: The Stats Zone dá vitória dos EUA",
+              "Preço: Bet365 1.30, Pinnacle 1.29, 1xBet 1.26, Marathonbet 1.25"
+            ],
+            "odd_nossa": 1.3,
+            "justo_gravado_em": "2026-11-14T07:19:01.402Z",
+            "odd_justa_ref": 1.318,
+            "prob_justa": 0.7586,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0138,
+            "justo_at": "2026-11-14T00:00:55+00:00",
+            "clv_api": 0.0285,
+            "fecho_idade_min": 201,
+            "odd_fecho_ref": 1.264,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:09:14+00:00",
+            "fecho_aproximado": true,
+            "clv": 0.0285,
+            "result": "GREEN",
+            "final_score": "0-6"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1551880,
+            "match": "Dordrecht vs Heracles",
+            "league": "Eerste Divisie (Países Baixos), 15.ª jornada",
+            "pick": "Heracles vence",
+            "odds": 1.36,
+            "kickoff": "2026-11-14T19:00:00Z",
+            "score": 65,
+            "tese": "O Heracles lidera a Eerste Divisie com 35 pontos e 44-15 em golos e ganhou quatro dos últimos cinco jogos do campeonato. Vai a casa do Dordrecht, 18.º, que sofreu 34 golos em 14 jornadas e perdeu quatro dos sete jogos em casa. Nos confrontos directos o Heracles ganhou quatro dos últimos cinco.",
+            "factors": [
+              "Classificação Eerste Divisie 2026/27 (API /standings, 14 jogos): Heracles 1.º, 35 pts, 44-15, fora 4V 2E 1D; Dordrecht 18.º, 12 pts, 18-34, em casa 2V 1E 4D",
+              "Heracles, últimos 5 oficiais (API /fixtures): 5-1 Roda, 2-0 FC Oss, 0-1 em De Treffers (Taça), 1-1 em NAC, 5-1 em MVV — 3/5 vitórias",
+              "Dordrecht, últimos 5 oficiais (API /fixtures): 0-0 NAC, 2-3 em Jong Utrecht, 2-3 em Genemuiden (Taça), 2-4 VVV, 1-0 em Jong PSV — 1/5",
+              "H2H (API, 5 jogos, 2014-2023): 3-1 e 8-1 na Eerste Divisie, 3-0 na Taça, 3-2 e 1-1 na Eredivisie — Heracles 4/5 vitórias",
+              "Sem pesquisa de baixas (não exigida na Fase B)",
+              "Preço: Bet365 1.36, Pinnacle 1.35, 1xBet 1.34, Marathonbet 1.33"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-14T07:19:01.403Z",
+            "odd_justa_ref": 1.382,
+            "prob_justa": 0.7235,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0161,
+            "justo_at": "2026-11-14T04:32:19+00:00",
+            "clv_api": -0.0123,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.377,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:00:23+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0123,
+            "result": "GREEN",
+            "final_score": "1-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Portugal perdeu 1-4 com a Dinamarca; os Estados Unidos (0-6 no Haiti) e o Heracles (1-2 em Dordrecht) ganharam. Uma perna falhada deita o bilhete abaixo."
+      },
+      {
+        "label": "multipla-jornada",
+        "jornada_id": "selecoes-2026-11-12",
+        "variante": "A",
+        "grupo": "nl",
+        "nome": "🎯 Múltipla Liga das Nações A",
+        "multipla_id": "selecoes-nl-2026-11-12-A",
+        "jornada": {
+          "tipo": "selecoes",
+          "de": "2026-11-12",
+          "ate": "2026-11-14"
+        },
+        "bookmaker": "1xBet",
+        "combined_odds": 5.45,
+        "stake": 0.5,
+        "score": 75,
+        "ev_justo_combinado": -0.0117,
+        "prob_justa_combinada": 0.1814,
+        "datas": [
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-14"
+        ],
+        "note": "3 favoritos de qui 12/11 a sáb 14/11, todos a vencer. Só se mete na 1xBet.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1528958,
+            "match": "Türkiye vs Belgium",
+            "league": "UEFA Nations League",
+            "leagueId": 5,
+            "pick": "Belgium vence",
+            "odds": 1.85,
+            "kickoff": "2026-11-12T17:00:00+00:00",
+            "score": 76,
+            "tese": "A Bélgica tem de ganhar para continuar na luta pelos dois primeiros, e a Turquia perdeu os quatro jogos do grupo (2-11), estreia treinador novo e chega sem o Kenan Yıldız (lesão), sem o Bardakçı (castigo) e sem o Aktürkoğlu (fora da convocatória). Sports Mole dá 1-3, SportsGambler e Forebet também dão a Bélgica; o Courtois está fora desde Setembro e o Lammens tem sido o titular.",
+            "selecao": true,
+            "odd_nossa": 1.85,
+            "justo_gravado_em": "2026-11-12T07:22:47.635Z",
+            "odd_justa_ref": 1.889,
+            "prob_justa": 0.5293,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0208,
+            "justo_at": "2026-11-12T06:00:14+00:00",
+            "result": "GREEN",
+            "final_score": "1-2",
+            "jogado_em": "2026-11-12T17:00:00+00:00",
+            "clv_api": -0.0905,
+            "fecho_idade_min": 51,
+            "odd_fecho_ref": 2.034,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-12T16:09:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0905
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1528969,
+            "match": "Bulgaria vs Iceland",
+            "league": "UEFA Nations League",
+            "leagueId": 5,
+            "pick": "Iceland vence",
+            "odds": 1.9,
+            "kickoff": "2026-11-13T19:45:00+00:00",
+            "score": 75,
+            "tese": "A Islândia lidera o grupo sem perder (7-1) e ganhou 3-0 à Bulgária em Outubro; com a vitória fica muito perto do primeiro lugar. A Bulgária perdeu sete dos últimos dez oficiais. Nenhuma das duas antevisões (Sports Mole, SportsGambler) dá baixas, e as duas dão vitória islandesa (0-2 e 1-2).",
+            "selecao": true,
+            "odd_nossa": 1.9,
+            "justo_gravado_em": "2026-11-12T07:22:47.638Z",
+            "odd_justa_ref": 1.883,
+            "prob_justa": 0.5311,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": 0.0091,
+            "justo_at": "2026-11-12T02:28:19+00:00",
+            "result": "GREEN",
+            "final_score": "0-5",
+            "jogado_em": "2026-11-13T19:45:00+00:00",
+            "clv_api": 0.0556,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.8,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-13T18:00:15+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0556
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1528978,
+            "match": "Sweden vs Bosnia & Herzegovina",
+            "league": "UEFA Nations League",
+            "leagueId": 5,
+            "pick": "Sweden vence",
+            "odds": 1.55,
+            "kickoff": "2026-11-14T19:45:00+00:00",
+            "score": 76,
+            "tese": "A Suécia lidera com 10 pontos e uma vitória em casa dá-lhe a subida à Liga A. Convocatória completa com Isak, Gyökeres, Kulusevski e Elanga (TV4 e Fotbolldirekt); só falta o Emil Holm. A Bósnia tem 8 pontos e empatou 1-1 em casa com os suecos, por isso não é passeio.",
+            "selecao": true,
+            "odd_nossa": 1.55,
+            "justo_gravado_em": "2026-11-12T07:22:47.640Z",
+            "odd_justa_ref": 1.55,
+            "prob_justa": 0.6453,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": 0.0002,
+            "justo_at": "2026-11-12T02:28:20+00:00",
+            "result": "GREEN",
+            "final_score": "3-2",
+            "jogado_em": "2026-11-14T19:45:00+00:00",
+            "clv_api": 0.0091,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.536,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:00:23+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0091
+          }
+        ],
+        "result": "GREEN",
+        "effective_odds": 5.45,
+        "return": 2.73,
+        "pnl": 2.23,
+        "dia_pnl": "2026-11-14",
+        "liquidada_em": "2026-11-14T23:48:25.471Z",
+        "publicada_em": "2026-11-12"
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 0.5,
+      "total_return": 0.8,
+      "pnl": 0.3,
+      "roi_pct": 60,
+      "accumulators_total": 2,
+      "accumulators_green": 1,
+      "accumulators_red": 1,
+      "accumulators_stake": 1,
+      "accumulators_return": 2.73,
+      "accumulators_pnl": 1.73,
+      "combined_stake": 1.5,
+      "combined_return": 3.53,
+      "combined_pnl": 2.03,
+      "combined_roi_pct": 135.333
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Vitória",
+        "pick": "Austria vence",
+        "fixtureId": 1528976,
+        "home": {
+          "name": "Austria",
+          "logo": "https://media.api-sports.io/football/teams/775.png"
+        },
+        "away": {
+          "name": "Rep. Of Ireland",
+          "logo": "https://media.api-sports.io/football/teams/776.png"
+        },
+        "match": "Austria vs Rep. Of Ireland",
+        "league": "Liga das Nações (Liga B, Grupo 3)",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+        "kickoff": "2026-11-14T19:45:00Z",
+        "odds": 1.6,
+        "bookmaker": "Bet365",
+        "score": 71,
+        "stake": 0,
+        "shadow": true,
+        "context_depth": "partial",
+        "motivo_sombra": "Score 71, abaixo do piso de 75. A Áustria é forte em casa e lidera o grupo, mas empatou 2-2 em Dublin com esta Irlanda, ganhou só dois dos quatro jogos do grupo e a Bet365 paga 1.60, o mesmo da Pinnacle: não há valor no preço. Sem lista de baixas em duas fontes.",
+        "tese": "A Áustria lidera o grupo com 8 pontos e recebe a Irlanda, que tem 5. Em casa ganhou os dois jogos do grupo por 3-1 (Kosovo e Israel); fora empatou os dois, incluindo o 2-2 em Dublin com esta Irlanda. A Irlanda ganhou 3-0 em Israel e só perdeu no Kosovo. O preço é o justo e nada mais, e as antevisões vão para golos, não para a vitória austríaca.",
+        "factors": [
+          "Classificação Liga das Nações 2026/27, Liga B Grupo 3 (API /standings, 4 jogos): Áustria 8 pts (9-5), Kosovo 5 (3-4), Irlanda 5 (6-4), Israel 2 (2-7)",
+          "Áustria, últimos 5 oficiais (API /fixtures): 1-1 em Kosovo, 2-2 em Irlanda, 3-1 Kosovo, 3-1 Israel (Liga das Nações), 0-3 com a Espanha (Mundial) — 2/5 vitórias",
+          "Irlanda, Liga das Nações (API /fixtures): 1-1 Israel, 2-2 Áustria, 3-0 em Israel, 0-1 em Kosovo",
+          "H2H oficial (API): 2-2 em Dublin (10/2026). Selecções: o H2H não trava, só contexto",
+          "SportsGambler (últimos 10 competitivos): Áustria em casa 7V 3E, 3,0 marcados e 0,8 sofridos por jogo; Irlanda fora 4V 6D, 2,1 sofridos. Pick principal: mais de 2.5 a 1.85, resultado 2-1",
+          "Baixas: a SportsGambler não lista indisponíveis e não houve segunda fonte com a lista — context partial",
+          "Preço: Bet365 1.60, Pinnacle 1.60, 1xBet 1.59, Marathonbet 1.57; predictions da API: dupla hipótese 1X"
+        ],
+        "sources": [
+          "API-Football — /standings Liga das Nações 2026, /fixtures (últimos 8), /predictions, /injuries (vazio), /odds todas as casas",
+          "SportsGambler — austria-vs-ireland-prediction-lineups-odds-2026-11-14"
+        ],
+        "odd_nossa": 1.6,
+        "justo_gravado_em": "2026-11-14T07:19:01.397Z",
+        "odd_justa_ref": 1.633,
+        "prob_justa": 0.6124,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "1:home",
+        "ev_justo": -0.0201,
+        "justo_at": "2026-11-14T04:20:18+00:00",
+        "clv_api": -0.0232,
+        "fecho_idade_min": 105,
+        "odd_fecho_ref": 1.638,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-14T18:00:23+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0232,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "1-0",
+        "note": "Áustria ganhou 1-0 à Irlanda."
+      },
+      {
+        "market": "favorites",
+        "marketLabel": "Vitória",
+        "pick": "Kosovo vence",
+        "fixtureId": 1528971,
+        "home": {
+          "name": "Kosovo",
+          "logo": "https://media.api-sports.io/football/teams/1111.png"
+        },
+        "away": {
+          "name": "Israel",
+          "logo": "https://media.api-sports.io/football/teams/1116.png"
+        },
+        "match": "Kosovo vs Israel",
+        "league": "Liga das Nações (Liga B, Grupo 3)",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+        "kickoff": "2026-11-14T14:00:00Z",
+        "odds": 1.8,
+        "bookmaker": "Bet365",
+        "score": 66,
+        "stake": 0,
+        "shadow": true,
+        "context_depth": "partial",
+        "motivo_sombra": "Score 66, abaixo do piso de 75. O Kosovo precisa de ganhar para discutir o primeiro lugar e em Pristina é duro, mas marcou três golos em quatro jogos do grupo, o jogo com Israel em Outubro deu 0-0 e a Foresportia só lhe dá 44%. As baixas na defesa (Hajdari e Dellova) só aparecem numa fonte.",
+        "tese": "O Kosovo recebe Israel em Pristina com 5 pontos, a três da Áustria, e só a vitória o mantém na luta pelo grupo. Israel não ganhou nenhum dos quatro jogos e está em último. O problema é o ataque do Kosovo: três golos em quatro jogos, e o 0-0 de Outubro com Israel em Debrecen. A SportsGambler gosta da vitória da casa; a Foresportia não.",
+        "factors": [
+          "Classificação Liga das Nações 2026/27, Liga B Grupo 3 (API /standings, 4 jogos): Áustria 8, Kosovo 5 (3-4), Irlanda 5, Israel 2 (2-7)",
+          "Kosovo, últimos 5 oficiais (API /fixtures): 1-1 Áustria, 0-0 com Israel (em Debrecen), 1-3 em Áustria, 1-0 Irlanda (Liga das Nações), 0-1 Turquia (qualificação do Mundial) — 1/5 vitórias",
+          "Israel, Liga das Nações (API /fixtures): 1-1 em Irlanda, 0-0 Kosovo, 0-3 Irlanda, 1-3 em Áustria — 0/4 vitórias",
+          "H2H (API): 0-0 (10/2026). Selecções: só contexto",
+          "SportsGambler: Kosovo vence a 1.87 (estimativa 60%), 2-1; Hajdari e Dellova lesionados e Ermal Krasniqi em dúvida no Kosovo; Solomon e Revivo em dúvida em Israel — uma só fonte",
+          "Foresportia: Kosovo 44,3%, empate 23,1%, Israel 32,6%",
+          "Preço: Bet365 1.80, Pinnacle 1.84, 1xBet 1.89, Marathonbet 1.87"
+        ],
+        "sources": [
+          "API-Football — /standings, /fixtures (últimos 8), /predictions, /odds todas as casas",
+          "SportsGambler — kosovo-vs-israel-prediction-lineups-odds-2026-11-14",
+          "Foresportia — kosovo-israel-2026-11-14 (via pesquisa)"
+        ],
+        "odd_nossa": 1.8,
+        "justo_gravado_em": "2026-11-14T07:19:01.399Z",
+        "odd_justa_ref": 1.876,
+        "prob_justa": 0.5329,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "1:home",
+        "ev_justo": -0.0407,
+        "justo_at": "2026-11-14T04:20:18+00:00",
+        "clv_api": -0.0466,
+        "fecho_idade_min": 100,
+        "odd_fecho_ref": 1.888,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-14T12:20:29+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0466,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "0-0",
+        "note": "Kosovo-Israel acabou 0-0."
+      }
+    ],
+    "sombra_summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "pnl_se_apostadas": -0.4,
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "iguais": 1,
+        "pnl_se_apostado": -1
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.65,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "Bet365",
+        "notes": "Igual ao curto real: as três pernas já são vence, não há troca a fazer.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528974,
+            "match": "Portugal vs Denmark",
+            "league": "Liga das Nações (Liga A, Grupo 4)",
+            "pick": "Portugal vence",
+            "odds": 1.5,
+            "kickoff": "2026-11-14T19:45:00Z",
+            "score": 65,
+            "tese": "Portugal ganhou os quatro jogos do grupo, incluindo 4-2 em Copenhaga, e recebe a Dinamarca num Braga esgotado. Um ponto chega para fechar o primeiro lugar, mas a Dinamarca tem de pontuar para segurar o segundo e vai ter de abrir. É a primeira convocatória sem o Cristiano Ronaldo e saíram o Leão e o Nuno Tavares por questões físicas; fica um plantel de 27 com o Bruno Fernandes, o Vitinha, o João Neves e o Gonçalo Ramos.",
+            "factors": [
+              "Classificação Liga das Nações 2026/27, Liga A Grupo 4 (API /standings, 4 jogos): Portugal 12 pts (9-4), Dinamarca 6 (7-7), País de Gales 3, Noruega 3",
+              "Portugal, últimos 5 oficiais (API /fixtures): 2-1 Noruega, 4-2 em Dinamarca, 2-1 em Noruega, 1-0 País de Gales (Liga das Nações), 0-1 com a Espanha (Mundial) — 4/5 vitórias",
+              "Dinamarca, Liga das Nações (API /fixtures): 1-0 em Gales, 2-4 Portugal, 2-0 Gales, 2-3 em Noruega — perdeu 2 de 4",
+              "H2H oficial (API): Portugal ganhou 4-2 na Dinamarca (10/2026). Selecções: o H2H não trava",
+              "Baixas: Leão, Nuno Tavares e Tiago Araújo dispensados por questões físicas antes do estágio (Flashscore.pt; constavam da lista de 28 publicada pela Sábado a 06/11). Ronaldo retirou-se da selecção (Sábado e Tips.gg). Dinamarca sem o Christensen (Tips.gg), com o Dorgu chamado à última hora (A Bola)",
+              "Antevisões: SportsGambler ambas marcam e 1-1; Tips.gg mais de 2.5; predictions da API dupla hipótese 1X",
+              "Preço: Bet365 1.50, Pinnacle 1.53, 1xBet 1.52, Marathonbet 1.52"
+            ],
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+            "odd_justa_ref": 1.554,
+            "prob_justa": 0.6434,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0348,
+            "justo_at": "2026-11-14T04:20:18+00:00",
+            "clv_api": -0.0677,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.609,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:00:23+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0677,
+            "result": "RED",
+            "final_score": "1-4"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1644693,
+            "match": "Haiti vs USA",
+            "league": "Liga das Nações da CONCACAF (quartos, 1.ª mão)",
+            "pick": "USA vence",
+            "odds": 1.3,
+            "kickoff": "2026-11-14T21:30:00Z",
+            "score": 65,
+            "tese": "O jogo do Haiti em casa joga-se em Miami, no Nu Stadium, por causa da segurança no país: na prática os Estados Unidos jogam em casa. Os americanos ganharam os quatro particulares do Outono (Peru, Chile, México e Canadá) e recuperam para esta eliminatória o Pulisic, o Balogun e o McKennie. Ganharam os três últimos jogos com o Haiti, todos por um golo.",
+            "factors": [
+              "Estados Unidos, últimos 8 (API /fixtures): 1-0 Canadá, 3-0 México, 4-2 Chile, 4-1 Peru (particulares, 09-10/2026); no Mundial 1-4 Bélgica, 2-0 Bósnia, 2-3 Turquia, 2-0 Austrália — 2/4 oficiais, 6/8 com os particulares",
+              "Haiti (API /fixtures): 0-2 em Costa Rica, 4-1 em República Dominicana, 2-0 Costa Rica, 3-2 Trinidad e Tobago (Liga das Nações CONCACAF); 0-3 Brasil, 2-4 Marrocos, 0-1 Escócia (Mundial)",
+              "Local: Nu Stadium, Miami, por questões de segurança no Haiti — U.S. Soccer e MLSsoccer.com; a 2.ª mão é a 17/11 em Cincinnati",
+              "Convocatória: Pulisic, Balogun e McKennie de volta — AP (AJC e News4Jax) e NBC Sports Bay Area. Robinson, Cardoso, Wright, Zendejas e Pepi lesionados só num resumo de pesquisa, sem data clara (não confirmado)",
+              "H2H: os EUA ganharam os três últimos jogos, todos por um golo (MLSsoccer.com; 2-1 na Gold Cup 2025, U.S. Soccer). Selecções: o H2H não trava",
+              "Antevisão: The Stats Zone dá vitória dos EUA",
+              "Preço: Bet365 1.30, Pinnacle 1.29, 1xBet 1.26, Marathonbet 1.25"
+            ],
+            "odd_nossa": 1.3,
+            "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+            "odd_justa_ref": 1.318,
+            "prob_justa": 0.7586,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0138,
+            "justo_at": "2026-11-14T00:00:55+00:00",
+            "clv_api": 0.0285,
+            "fecho_idade_min": 201,
+            "odd_fecho_ref": 1.264,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:09:14+00:00",
+            "fecho_aproximado": true,
+            "clv": 0.0285,
+            "result": "GREEN",
+            "final_score": "0-6"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1551880,
+            "match": "Dordrecht vs Heracles",
+            "league": "Eerste Divisie (Países Baixos), 15.ª jornada",
+            "pick": "Heracles vence",
+            "odds": 1.36,
+            "kickoff": "2026-11-14T19:00:00Z",
+            "score": 65,
+            "tese": "O Heracles lidera a Eerste Divisie com 35 pontos e 44-15 em golos e ganhou quatro dos últimos cinco jogos do campeonato. Vai a casa do Dordrecht, 18.º, que sofreu 34 golos em 14 jornadas e perdeu quatro dos sete jogos em casa. Nos confrontos directos o Heracles ganhou quatro dos últimos cinco.",
+            "factors": [
+              "Classificação Eerste Divisie 2026/27 (API /standings, 14 jogos): Heracles 1.º, 35 pts, 44-15, fora 4V 2E 1D; Dordrecht 18.º, 12 pts, 18-34, em casa 2V 1E 4D",
+              "Heracles, últimos 5 oficiais (API /fixtures): 5-1 Roda, 2-0 FC Oss, 0-1 em De Treffers (Taça), 1-1 em NAC, 5-1 em MVV — 3/5 vitórias",
+              "Dordrecht, últimos 5 oficiais (API /fixtures): 0-0 NAC, 2-3 em Jong Utrecht, 2-3 em Genemuiden (Taça), 2-4 VVV, 1-0 em Jong PSV — 1/5",
+              "H2H (API, 5 jogos, 2014-2023): 3-1 e 8-1 na Eerste Divisie, 3-0 na Taça, 3-2 e 1-1 na Eredivisie — Heracles 4/5 vitórias",
+              "Sem pesquisa de baixas (não exigida na Fase B)",
+              "Preço: Bet365 1.36, Pinnacle 1.35, 1xBet 1.34, Marathonbet 1.33"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-14T07:19:01.404Z",
+            "odd_justa_ref": 1.382,
+            "prob_justa": 0.7235,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0161,
+            "justo_at": "2026-11-14T04:32:19+00:00",
+            "clv_api": -0.0123,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.377,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-14T18:00:23+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0123,
+            "result": "GREEN",
+            "final_score": "1-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1
+      }
+    ]
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1647365,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7 cantos no jogo (asiático)",
+        "match": "China vs Malaysia",
+        "league": "Particulares (selecções)",
+        "elapsed": 45,
+        "score": "2-0",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.975,
+        "oddMinima": 1.6,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Ao intervalo há 3 cantos, por isso faltam 5 na 2ª parte para ganhar, e com 4 devolvem o dinheiro. Em mais de mil jogos com uma 1ª parte pobre em cantos e dois golos de vantagem, a 2ª parte deu 5 ou mais cantos em 56% das vezes, e a 1.975 isso paga bem.",
+        "confianca": 55,
+        "probImplicita": 0.506,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T12:54:19+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "7",
+              "lado": "over",
+              "odd": 1.975
+            },
+            {
+              "mercado": "Over/Under Line",
+              "linha": "3.5",
+              "lado": "over",
+              "odd": 1.975
+            }
+          ]
+        },
+        "sentAt": 1794660939810,
+        "probModeloA": 0.5069,
+        "pushA": 0.177,
+        "valorA": 0.1781,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4612,
+        "golos2pB": 1.5926,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794665770113
+      },
+      {
+        "fixtureId": 1528971,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 11 cantos no jogo (asiático, com 11 devolve)",
+        "match": "Kosovo vs Israel",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.1,
+        "oddMinima": 1.95,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 6 cantos (4 do Kosovo) e o Kosovo está a encostar o Israel lá atrás: 18 toques na área contra zero. Precisa de mais 6 na 2ª parte para ganhar, e se ficar nos 11 a aposta é devolvida.",
+        "confianca": 44,
+        "probImplicita": 0.476,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T14:46:47+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Handicap",
+              "linha": "-0.75",
+              "lado": "home",
+              "odd": 2.1
+            },
+            {
+              "mercado": "1x2 - 80 minutes",
+              "linha": "-",
+              "lado": "home",
+              "odd": 2.1
+            },
+            {
+              "mercado": "1x2 - 80 minutes",
+              "linha": "-",
+              "lado": "draw",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Asian Corners",
+              "linha": "11",
+              "lado": "over",
+              "odd": 2.1
+            }
+          ]
+        },
+        "sentAt": 1794667750752,
+        "probModeloA": 0.4411,
+        "pushA": 0.1647,
+        "valorA": 0.091,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5665,
+        "golos2pB": 1.4272,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794673013466
+      },
+      {
+        "fixtureId": 1528973,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Georgia vs Hungary",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.625,
+        "oddMinima": 2.4,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            1
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0, mas a Geórgia já chegou a 0.58 de xG e houve 3 remates à baliza. Em jogos assim ao intervalo saem dois golos na 2ª parte quase metade das vezes, e a 2.62 a odd paga mais do que isso.",
+        "confianca": 42,
+        "probImplicita": 0.381,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T17:51:14+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "7",
+              "lado": "under",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Which team will score the 1st goal?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Last Team to Score (3 way)",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Away 1st Goal in Interval",
+              "linha": "80",
+              "lado": "yes",
+              "odd": 2.625
+            }
+          ]
+        },
+        "sentAt": 1794678767132,
+        "probModeloA": 0.4058,
+        "pushA": 0,
+        "valorA": 0.0651,
+        "aprovaA": true,
+        "probModeloB": 0.3379,
+        "pushB": 0,
+        "valorB": -0.1131,
+        "aprovaB": false,
+        "golos2pA": 1.393,
+        "golos2pB": 1.2014,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794683822096,
+        "pnlSombra": 0.8125
+      },
+      {
+        "fixtureId": 1528975,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Northern Ireland vs Ukraine",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.75,
+        "oddMinima": 2.4,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0, mas a 1ª parte não foi morta: a Irlanda do Norte já teve um golo anulado pelo VAR e houve 3 remates à baliza. Com 0-0 e números destes, a 2ª parte deu dois ou mais golos em perto de metade dos jogos, e a casa paga 2.75.",
+        "confianca": 42,
+        "probImplicita": 0.364,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T20:32:58+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "georgiy sudakov/over 1.5",
+              "odd": 2.75
+            },
+            {
+              "mercado": "Over/Under Line",
+              "linha": "0.5",
+              "lado": "under",
+              "odd": 2.75
+            },
+            {
+              "mercado": "Final Score",
+              "linha": "-",
+              "lado": "0-0",
+              "odd": 2.75
+            },
+            {
+              "mercado": "Result / Both Teams To Score",
+              "linha": "-",
+              "lado": "draw/no",
+              "odd": 2.75
+            },
+            {
+              "mercado": "Goal Scorer",
+              "linha": "1",
+              "lado": "no 1st goal",
+              "odd": 2.75
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.75
+            }
+          ]
+        },
+        "sentAt": 1794688522768,
+        "probModeloA": 0.4245,
+        "pushA": 0,
+        "valorA": 0.1674,
+        "aprovaA": true,
+        "probModeloB": 0.2847,
+        "pushB": 0,
+        "valorB": -0.2171,
+        "aprovaB": false,
+        "golos2pA": 1.4477,
+        "golos2pB": 1.0556,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794693704808,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1528978,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4 cantos na 2ª parte",
+        "match": "Sweden vs Bosnia & Herzegovina",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "3-0",
+        "homeGoalsAtAlert": 3,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.2,
+        "oddMinima": 2,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Só houve 2 cantos na 1ª parte, um para cada lado, e a casa paga 2.20 por 5 ou mais na 2ª parte. Com 0 a 3 cantos ao intervalo saíram 5 ou mais em 56% dos jogos, e a Bósnia, a perder por 3, vai ter de ir para a frente.",
+        "confianca": 50,
+        "probImplicita": 0.455,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T20:32:58+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "6",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "6.5",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Total Corners (3way) (2nd Half)",
+              "linha": "4",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "4th Goal in Interval",
+              "linha": "60",
+              "lado": "yes",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Race to the 3rd corner?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2.2
+            }
+          ]
+        },
+        "sentAt": 1794688522789,
+        "probModeloA": 0.5414,
+        "pushA": 0.1714,
+        "valorA": 0.3625,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5968,
+        "golos2pB": 1.6763,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 2,
+        "pnl": 0.6000000000000001,
+        "return": 1.1,
+        "resolvedAt": 1794693704808
+      },
+      {
+        "fixtureId": 1528976,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 9.5 cantos no jogo (asiático)",
+        "match": "Austria vs Rep. Of Ireland",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.95,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            3
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Vão 5 cantos ao intervalo (2 da Áustria e 3 da Irlanda), por isso bastam mais 5 na 2ª parte. Em jogos 0-0 com 4 a 6 cantos ao intervalo isso aconteceu em 59% das vezes, e a Áustria vai ter de carregar para ganhar.",
+        "confianca": 55,
+        "probImplicita": 0.513,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T20:32:54+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "9.5",
+              "lado": "over",
+              "odd": 1.95
+            }
+          ]
+        },
+        "sentAt": 1794688523190,
+        "probModeloA": 0.5812,
+        "pushA": 0,
+        "valorA": 0.1333,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4551,
+        "golos2pB": 1.3804,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": 0.4868,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0.475,
+        "return": 0.975,
+        "resolvedAt": 1794693704808
+      },
+      {
+        "fixtureId": 1570021,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Oviedo vs Girona",
+        "league": "Segunda División (Espanha)",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.375,
+        "oddMinima": 2.25,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            4
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "Está 0-0, mas o jogo mexe: 17 remates, 8 cantos e 1.0 de xG somado. A 2.37 pagam como se fosse um jogo parado, e não é.",
+        "confianca": 45,
+        "probImplicita": 0.421,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T20:47:27+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Over/Under Line",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.375
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.375
+            },
+            {
+              "mercado": "Fulltime Result",
+              "linha": "-",
+              "lado": "draw",
+              "odd": 2.375
+            },
+            {
+              "mercado": "Home 1st Goal in Interval",
+              "linha": "80",
+              "lado": "yes",
+              "odd": 2.375
+            }
+          ]
+        },
+        "sentAt": 1794689353237,
+        "probModeloA": 0.4782,
+        "pushA": 0,
+        "valorA": 0.1357,
+        "aprovaA": true,
+        "probModeloB": 0.3559,
+        "pushB": 0,
+        "valorB": -0.1547,
+        "aprovaB": false,
+        "golos2pA": 1.6097,
+        "golos2pB": 1.2516,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794693704808,
+        "pnlSombra": 0.6875
+      },
+      {
+        "fixtureId": 1644693,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8.5 cantos no jogo",
+        "match": "Haiti vs USA",
+        "league": "Liga das Nações da CONCACAF (quartos, 1.ª mão)",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.875,
+        "oddMinima": 1.8,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            3
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "boletim",
+        "justificacao": "Há 4 cantos ao intervalo (3 dos EUA, 1 do Haiti), por isso faltam 5 na 2ª parte. Os EUA têm 73% de bola e o Haiti está encostado lá atrás, e numa primeira mão vão continuar a carregar à procura do segundo golo.",
+        "confianca": 56,
+        "probImplicita": 0.533,
+        "oddAoVivoMercado": {
+          "at": "2026-11-14T22:25:53+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "8.5",
+              "lado": "over",
+              "odd": 1.875
+            }
+          ]
+        },
+        "sentAt": 1794695245399,
+        "probModeloA": 0.5833,
+        "pushA": 0,
+        "valorA": 0.0936,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.61,
+        "golos2pB": 1.855,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": 0.5066,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 6,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794699957972
+      },
+      {
+        "fixtureId": 1551880,
+        "jogo": "Dordrecht vs Heracles",
+        "liga": "Eerste Divisie",
+        "pais": "Netherlands",
+        "ko": "2026-11-14T19:00:00+00:00",
+        "casa": "Dordrecht",
+        "visitante": "Heracles",
+        "pVisitanteMarca": 0.9494,
+        "pCasaMarca": 0.7353,
+        "pRegra": 0.698,
+        "lambdaFora": 2.9834,
+        "lambdaCasa": 1.329,
+        "foraMarcou": 6,
+        "foraJogos": 7,
+        "casaSofreu": 6,
+        "casaJogos": 7,
+        "taxaLiga": {
+          "casa": 1.828,
+          "fora": 1.55,
+          "n": 139
+        },
+        "odd1xbet": 1.58,
+        "pJustaFormula": 0.6062,
+        "pConsenso": 0.5817,
+        "nCasas": 6,
+        "evFormula": -0.0423,
+        "evConsenso": -0.0809,
+        "oddJusta": 1.65,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.78,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-14T04:32:19+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Heracles. O onze ainda não estava publicado e as fontes de notícias de equipa não trazem nada deste jogo.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 4
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1492312,
+          "jogo": "Chapecoense-sc vs Vasco DA Gama",
+          "ko": "2026-11-14T23:30:00+00:00",
+          "pVisitanteMarca": 0.8599,
+          "pCasaMarca": 0.74
+        },
+        "porque": "regra do dono: Heracles marca fora 95%, Dordrecht marca em casa 74%; sem valor (EV -4.2% na fórmula, -8.1% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Dordrecht vs Heracles",
+        "league": "Eerste Divisie",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.58,
+        "frase": "O Heracles marcou em 6 dos últimos 7 jogos fora, e o Dordrecht sofreu em 6 dos últimos 7 em casa.",
+        "sentAt": 1794640905187,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Dordrecht vs Heracles</b> (19:00)\n\n📊 Heracles marca fora 95% · Dordrecht marca em casa 74%\n💰 1xBet <b>@1.58</b> · justo @1.65 · sem valor hoje (stake 0)\n\nO Heracles marcou em 6 dos últimos 7 jogos fora, e o Dordrecht sofreu em 6 dos últimos 7 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-14T17:35:44.662Z",
+        "oddPertoDoJogo": 1.52,
+        "evPertoDoJogo": {
+          "formula": -0.0439,
+          "consenso": -0.077
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei notícia de hoje ou de ontem sobre baixas no ataque do Heracles; o onze oficial ainda não estava publicado e as fontes achadas são antigas ou de outros jogos.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794700102225,
+        "pnlSombra": 0.29,
+        "odd_fecho_ref": 1.614,
+        "prob_fecho": 0.6197,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-14T18:00:23+00:00",
+        "fecho_idade_min": 60,
+        "clv": -0.0209,
+        "prob_fecho_formula": 0.629,
+        "clv_formula": -0.0062
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "green": 2,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 40,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 5,
+          "green": 2,
+          "red": 3
+        }
+      },
+      "stake_total": 2.5,
+      "stake_mensuravel": 2.5,
+      "return_mensuravel": 2.075,
+      "pnl_mensuravel": -0.425,
+      "roi_pct_mensuravel": -17,
+      "odds_registadas": 5,
+      "nota_mensuravel": "Cinco alertas de cantos do intervalo apostados, dois GREEN e três RED. As três sombras de golos do intervalo e a ambas marcam da manhã (sem valor) ficam só na sombra."
+    },
+    "shadow_summary": {
+      "total": 4,
+      "green": 3,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 75,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 3,
+          "green": 2,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_nocional": 4,
+      "return_nocional": 6.58,
+      "pnl_nocional": 2.58
+    }
+  },
+  "balance": 32.83,
+  "notes": "Dia com +2.03 no pré-jogo e -0.425 no intervalo. O Mallorca-Córdoba acabou 3-3 e o mais de 2.5 passou (+0,3). O curto deu RED: Portugal perdeu 1-4 com a Dinamarca (-0,5). A múltipla da jornada A da Liga das Nações fechou GREEN a 5,45 com Bélgica, Islândia e Suécia (+2,23). No intervalo, cinco cantos apostados: dois GREEN e três RED (-0.425). As sombras de golos do intervalo (duas verdes, uma vermelha) e a ambas marcam da manhã (Dordrecht-Heracles 1-2, sem valor) ficaram só na sombra. Banca 32.83 stakes."
+}
