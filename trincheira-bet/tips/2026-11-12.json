@@ -383,7 +383,18 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "1:away",
           "ev_justo": 0.0091,
-          "justo_at": "2026-11-12T02:28:19+00:00"
+          "justo_at": "2026-11-12T02:28:19+00:00",
+          "result": "GREEN",
+          "final_score": "0-5",
+          "jogado_em": "2026-11-13T19:45:00+00:00",
+          "clv_api": 0.0556,
+          "fecho_idade_min": 105,
+          "odd_fecho_ref": 1.8,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-13T18:00:15+00:00",
+          "fecho_aproximado": false,
+          "clv": 0.0556
         },
         {
           "sport": "football",

@@ -1,0 +1,1272 @@
+{
+  "date": "2026-11-13",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1545879,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Mozambique vs Ethiopia",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.625,
+      "oddMinima": 2.4,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          7,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "Está 0-0, mas Moçambique encostou a Etiópia lá atrás: 74% de bola, 9 remates contra 4 e 7 cantos contra 1. Em jogos assim, quase metade das segundas partes dá dois golos ou mais, e a casa paga isto a 2.62.",
+      "confianca": 42,
+      "probImplicita": 0.381,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T13:48:30+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 2.625
+          }
+        ]
+      },
+      "sentAt": 1794577856033,
+      "probModeloA": 0.5129,
+      "pushA": 0,
+      "valorA": 0.3464,
+      "aprovaA": true,
+      "probModeloB": 0.369,
+      "pushB": 0,
+      "valorB": -0.0314,
+      "aprovaB": false,
+      "golos2pA": 1.7199,
+      "golos2pB": 1.2882,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.3549,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794582914369,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1545885,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Zambia vs Burundi",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 3.25,
+      "oddMinima": 2.8,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          2,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "O Burundi já fez 5 remates contra 1 e obrigou o guarda-redes da Zâmbia a trabalhar duas vezes, e a Zâmbia vai ter de ir para cima. A 3.25 chegam dois golos na segunda parte, e o preço paga bem esse risco.",
+      "confianca": 36,
+      "probImplicita": 0.308,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T13:53:59+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "1",
+            "odd": 3.25
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 3.25
+          }
+        ]
+      },
+      "sentAt": 1794578153170,
+      "probModeloA": 0.3896,
+      "pushA": 0,
+      "valorA": 0.2663,
+      "aprovaA": true,
+      "probModeloB": 0.3457,
+      "pushB": 0,
+      "valorB": 0.1236,
+      "aprovaB": true,
+      "golos2pA": 1.3467,
+      "golos2pB": 1.2231,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794582914370,
+      "pnlSombra": 1.125
+    },
+    {
+      "fixtureId": 1647361,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Saudi Arabia vs South Korea",
+      "league": "Particulares (selecções)",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.375,
+      "oddMinima": 2.25,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "A Coreia está a perder 1-0 num particular e vai carregar na 2ª parte, com o banco todo para mexer. Em mais de 1600 jogos com um golo de diferença e 1ª parte fechada, sairam 2 ou mais golos na 2ª parte em 45%, e a casa paga isto a 2.375.",
+      "confianca": 46,
+      "probImplicita": 0.421,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T15:21:38+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Over/Under Line",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 2.375
+          },
+          {
+            "mercado": "3-Way Handicap",
+            "linha": "1",
+            "lado": "draw",
+            "odd": 2.375
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 2.375
+          },
+          {
+            "mercado": "To Win 2nd Half",
+            "linha": "-",
+            "lado": "draw",
+            "odd": 2.375
+          }
+        ]
+      },
+      "sentAt": 1794583438981,
+      "probModeloA": 0.4016,
+      "pushA": 0,
+      "valorA": -0.0463,
+      "aprovaA": false,
+      "probModeloB": 0.3888,
+      "pushB": 0,
+      "valorB": -0.0766,
+      "aprovaB": false,
+      "golos2pA": 1.3809,
+      "golos2pB": 1.3443,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794588325132,
+      "pnlSombra": 0.6875
+    },
+    {
+      "fixtureId": 1545865,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Burkina Faso vs Mauritania",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.625,
+      "oddMinima": 2.5,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "O Burkina está 0-0 com o jogo na mão: 69% de bola e 4 remates contra 1. Quando a 1ª parte acaba assim, em perto de 4 jogos em cada 10 saem dois golos na 2ª parte, e a 2.62 paga mais do que devia.",
+      "confianca": 40,
+      "probImplicita": 0.381,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T16:46:20+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Last Corner",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "8",
+            "lado": "over",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Total Corners (3way) (2nd Half)",
+            "linha": "4",
+            "lado": "under",
+            "odd": 2.625
+          }
+        ]
+      },
+      "sentAt": 1794588488176,
+      "probModeloA": 0.4214,
+      "pushA": 0,
+      "valorA": 0.1061,
+      "aprovaA": true,
+      "probModeloB": 0.3463,
+      "pushB": 0,
+      "valorB": -0.0911,
+      "aprovaB": false,
+      "golos2pA": 1.4384,
+      "golos2pB": 1.2246,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794593735264,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1545882,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "South Africa vs Kenya",
+      "league": "Qualificação CAN 2027 (Grupo D)",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Já vão 5 cantos e a África do Sul tem 72% de bola com o 1-1 a obrigá-la a carregar. Chegam 5 cantos na 2ª parte, e isso aconteceu em mais de metade dos jogos parecidos.",
+      "confianca": 56,
+      "probImplicita": 0.5,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T16:49:14+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "9",
+            "lado": "over",
+            "odd": 2
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "9.5",
+            "lado": "over",
+            "odd": 2
+          }
+        ]
+      },
+      "sentAt": 1794588662681,
+      "probModeloA": 0.5557,
+      "pushA": 0,
+      "valorA": 0.1113,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4505,
+      "golos2pB": 1.4312,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794593735264
+    },
+    {
+      "fixtureId": 1545883,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Tunisia vs Libya",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.25,
+      "oddMinima": 2.1,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "A Tunísia perde em casa com 63% de bola e vai ter de se atirar para a frente, deixando espaço à Líbia no contra-ataque. Chegam dois golos na 2ª parte, e isso aconteceu em quase metade dos jogos parecidos.",
+      "confianca": 48,
+      "probImplicita": 0.444,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T16:49:29+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Goals",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 2.25
+          },
+          {
+            "mercado": "Last Team to Score (3 way)",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.25
+          }
+        ]
+      },
+      "sentAt": 1794588663373,
+      "probModeloA": 0.4421,
+      "pushA": 0,
+      "valorA": -0.0052,
+      "aprovaA": false,
+      "probModeloB": 0.4282,
+      "pushB": 0,
+      "valorB": -0.0366,
+      "aprovaB": false,
+      "golos2pA": 1.4999,
+      "golos2pB": 1.4584,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794593735264,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1545880,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo",
+      "match": "Nigeria vs Tanzania",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.025,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          0
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "A Nigéria tem 74% de bola e já fez os 3 cantos do jogo. Está empatada em casa contra uma Tanzânia toda metida atrás, por isso vai carregar a 2ª parte inteira. Faltam 5 cantos e a linha paga 2.",
+      "confianca": 55,
+      "probImplicita": 0.494,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T16:52:18+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Corners",
+            "linha": "7.5",
+            "lado": "over",
+            "odd": 2.025
+          }
+        ]
+      },
+      "sentAt": 1794588831781,
+      "probModeloA": 0.5675,
+      "pushA": 0,
+      "valorA": 0.1491,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.508,
+      "golos2pB": 1.6274,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.4671,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 1,
+      "pnl": 0.5125,
+      "return": 1.0125,
+      "resolvedAt": 1794593735264
+    },
+    {
+      "fixtureId": 1545877,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3.5 golos no jogo",
+      "match": "Mali vs Rwanda",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.35,
+      "oddMinima": 2.25,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          0
+        ],
+        "amarelos": [
+          0,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "O Mali fez 18 remates contra 1 e tem 71% de bola, e com o 1-1 em casa vai carregar a 2ª parte toda. Faltam dois golos, e os jogos assim dão dois ou mais golos na 2ª parte quase metade das vezes.",
+      "confianca": 45,
+      "probImplicita": 0.426,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T19:52:56+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Over/Under Line",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.35
+          }
+        ]
+      },
+      "sentAt": 1794599683536,
+      "probModeloA": 0.5925,
+      "pushA": 0,
+      "valorA": 0.3923,
+      "aprovaA": true,
+      "probModeloB": 0.4018,
+      "pushB": 0,
+      "valorB": -0.0558,
+      "aprovaB": false,
+      "golos2pA": 1.9944,
+      "golos2pB": 1.3816,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.4013,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794604602044,
+      "pnlSombra": 0.675
+    },
+    {
+      "fixtureId": 1528970,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo",
+      "match": "Liechtenstein vs Azerbaijan",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.1,
+      "oddMinima": 1.9,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          2
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Só houve 3 cantos na 1ª parte, mas o Azerbaijão fez 15 remates contra 1 e o Liechtenstein está todo metido lá atrás. Faltam 5 cantos na 2ª parte, e isso sai em mais de metade dos jogos assim.",
+      "confianca": 54,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:31:45+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "7",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Away Team Goals",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "3 or more",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "7.5",
+            "lado": "over",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794602039530,
+      "probModeloA": 0.5766,
+      "pushA": 0,
+      "valorA": 0.2108,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7872,
+      "golos2pB": 1.3119,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 1,
+      "pnl": 0.55,
+      "return": 1.05,
+      "resolvedAt": 1794607271319
+    },
+    {
+      "fixtureId": 1545614,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4 cantos na 2ª parte (5 ou mais)",
+      "match": "Luxembourg vs Estonia",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 2,
+      "oddMinima": 1.9,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Luxemburgo perde em casa e vai ter de carregar. Houve só 1 canto na 1ª parte, mas em jogos assim saem 5 ou mais cantos na 2ª em mais de metade das vezes, e a 2.00 paga bem.",
+      "confianca": 53,
+      "probImplicita": 0.5,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:32:00+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Away Team Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 2
+          },
+          {
+            "mercado": "Total Corners (3way) (2nd Half)",
+            "linha": "4",
+            "lado": "over",
+            "odd": 2
+          },
+          {
+            "mercado": "Home Team Score a Goal (2nd Half)",
+            "linha": "-",
+            "lado": "yes",
+            "odd": 2
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 2
+          },
+          {
+            "mercado": "Both Teams to Score",
+            "linha": "-",
+            "lado": "yes",
+            "odd": 2
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "5.5",
+            "lado": "over",
+            "odd": 2
+          }
+        ]
+      },
+      "sentAt": 1794602040463,
+      "probModeloA": 0.5408,
+      "pushA": 0.1715,
+      "valorA": 0.2531,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4715,
+      "golos2pB": 1.2579,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794607271319
+    },
+    {
+      "fixtureId": 1528967,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 11.5 cantos no jogo",
+      "match": "Slovakia vs Faroe Islands",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.1,
+      "oddMinima": 1.7,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          3
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 7 cantos (4-3) e a Eslováquia, com 73% de bola, tem de ir atrás da vitória em casa contra as Faroé. Bastam 5 cantos na 2ª parte para passar.",
+      "confianca": 57,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:34:35+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Total Corners",
+            "linha": "11.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "11",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "3-Way Handicap",
+            "linha": "1",
+            "lado": "away",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Double Chance",
+            "linha": "-",
+            "lado": "away or draw",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794602241560,
+      "probModeloA": 0.5835,
+      "pushA": 0,
+      "valorA": 0.2253,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7209,
+      "golos2pB": 1.5812,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": 0.55,
+      "return": 1.05,
+      "resolvedAt": 1794607271319
+    },
+    {
+      "fixtureId": 1545615,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo (8 ou mais)",
+      "match": "Andorra vs Gibraltar",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.5,
+      "oddMinima": 2.1,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          1
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Só houve 3 cantos na 1ª parte. Gibraltar perde 2-0 com 62% de bola e vai ter de carregar. Precisa de 5 cantos na 2ª parte e a casa paga 2.50 por isso.",
+      "confianca": 47,
+      "probImplicita": 0.4,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:34:50+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "7",
+            "lado": "over",
+            "odd": 2.5
+          },
+          {
+            "mercado": "Final Score",
+            "linha": "-",
+            "lado": "2-0",
+            "odd": 2.5
+          },
+          {
+            "mercado": "Goal Scorer",
+            "linha": "3",
+            "lado": "no 3rd goal",
+            "odd": 2.5
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "2.5",
+            "lado": "under",
+            "odd": 2.5
+          },
+          {
+            "mercado": "Which team will score the 3rd goal?",
+            "linha": "-",
+            "lado": "no goal",
+            "odd": 2.5
+          }
+        ]
+      },
+      "sentAt": 1794602242113,
+      "probModeloA": 0.5162,
+      "pushA": 0,
+      "valorA": 0.2905,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4208,
+      "golos2pB": 1.0618,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": true,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794607271319
+    },
+    {
+      "fixtureId": 1528969,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 5.5 cantos no jogo",
+      "match": "Bulgaria vs Iceland",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 2.1,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          0
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Só houve 1 canto na 1ª parte, mas a Bulgária está a perder 0-2 e vai ter de ir para cima. Em jogos assim saem 5 ou mais cantos na 2ª parte mais de metade das vezes, e a 2.10 a odd paga bem por isso.",
+      "confianca": 53,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:38:34+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Total Corners",
+            "linha": "5.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "5",
+            "lado": "over",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794602406416,
+      "probModeloA": 0.5646,
+      "pushA": 0,
+      "valorA": 0.1856,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.522,
+      "golos2pB": 1.4305,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": true,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 5,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794607271319
+    },
+    {
+      "fixtureId": 1545878,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 5.5 cantos no jogo",
+      "match": "Morocco vs Niger",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "3-1",
+      "homeGoalsAtAlert": 3,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.975,
+      "oddMinima": 1.95,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          0
+        ],
+        "amarelos": [
+          1,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Só houve 1 canto na 1ª parte, por isso a aposta pede 5 cantos na 2ª. Com dois golos de diferença ao intervalo, isso sai em mais de metade dos jogos. Marrocos tem a bola 75% do tempo, o Níger já marcou e vai ter de arriscar, e a 1.97 o preço paga.",
+      "confianca": 52,
+      "probImplicita": 0.506,
+      "oddAoVivoMercado": {
+        "at": "2026-11-13T20:54:57+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Over/Under Line",
+            "linha": "5.75",
+            "lado": "over",
+            "odd": 1.975
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "5.5",
+            "lado": "over",
+            "odd": 1.975
+          }
+        ]
+      },
+      "sentAt": 1794603388016,
+      "probModeloA": 0.5728,
+      "pushA": 0,
+      "valorA": 0.1312,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7233,
+      "golos2pB": 1.9091,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": true,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 5,
+      "finalAway": 1,
+      "pnl": 0.48750000000000004,
+      "return": 0.9875,
+      "resolvedAt": 1794608124560
+    }
+  ]
+}

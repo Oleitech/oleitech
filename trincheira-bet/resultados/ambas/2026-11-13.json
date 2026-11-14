@@ -67,7 +67,38 @@
       "frase": "O St. Kitts and Nevis marcou em 2 dos últimos 3 jogos fora, e o Grenada sofreu em 5 dos últimos 5 em casa.",
       "sentAt": 1794554045244,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Grenada vs St. Kitts and Nevis</b> (20:00)\n\n📊 St. Kitts and Nevis marca fora 86% · Grenada marca em casa 77%\n💰 1xBet <b>@1.44</b> · justo @1.63 · sem valor hoje (stake 0)\n\nO St. Kitts and Nevis marcou em 2 dos últimos 3 jogos fora, e o Grenada sofreu em 5 dos últimos 5 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-13T18:35:03.734Z",
+      "oddPertoDoJogo": 1.4,
+      "evPertoDoJogo": {
+        "formula": -0.1484,
+        "consenso": -0.0758
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque de St. Kitts and Nevis, e o onze oficial não estava publicado. Na dúvida, sem corte.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794620936190,
+      "pnlSombra": 0.22,
+      "odd_fecho_ref": 1.467,
+      "prob_fecho": 0.6816,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-13T18:00:16+00:00",
+      "fecho_idade_min": 120,
+      "clv": -0.0186,
+      "prob_fecho_formula": 0.6083,
+      "clv_formula": -0.124
     }
   ],
   "escolhidaEm": "2026-11-13T07:13:27.549Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-13T04:08:17+00:00",
     "mercado": "ambas sim",
     "odds": 3.48,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 5,
+    "finalAway": 0,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794620936981,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 4.191,
+    "prob_fecho": 0.2386,
+    "fonte_fecho": "mediana 6 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-13T18:00:15+00:00",
+    "fecho_idade_min": 60,
+    "clv": -0.1696,
+    "prob_fecho_formula": 0.3247,
+    "clv_formula": 0.1298
   },
   "candidatasLive": [
     {
