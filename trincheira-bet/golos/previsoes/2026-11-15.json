@@ -1,0 +1,122 @@
+{
+  "gerado": "2026-11-15T07:02:00.925Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1570023,
+      "data": "2026-11-15T13:00:00+00:00",
+      "liga": "SP2",
+      "jogo": "Tenerife - AD Ceuta FC",
+      "pressao": 30.3,
+      "prob_mais": 0.508,
+      "prob_mercado": 0.491,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "SBO",
+        "odd": 2,
+        "valor": 0.016
+      },
+      "marathonbet": {
+        "odd": 1.86,
+        "valor": -0.055
+      },
+      "bet365": {
+        "odd": 1.95,
+        "valor": -0.009
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570018,
+      "data": "2026-11-15T15:15:00+00:00",
+      "liga": "SP2",
+      "jogo": "Granada CF - Las Palmas",
+      "pressao": 31.9,
+      "prob_mais": 0.531,
+      "prob_mercado": 0.504,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.98,
+        "valor": 0.051
+      },
+      "marathonbet": {
+        "odd": 1.78,
+        "valor": -0.055
+      },
+      "bet365": {
+        "odd": 1.9,
+        "valor": 0.009
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570016,
+      "data": "2026-11-15T17:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Eibar - Cadiz",
+      "pressao": 37.8,
+      "prob_mais": 0.605,
+      "prob_mercado": 0.543,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.79,
+        "valor": 0.083
+      },
+      "marathonbet": {
+        "odd": 1.7,
+        "valor": 0.028
+      },
+      "bet365": {
+        "odd": 1.75,
+        "valor": 0.059
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1570017,
+      "data": "2026-11-15T17:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Eldense - Sabadell",
+      "pressao": 33.9,
+      "prob_mais": 0.402,
+      "prob_mercado": 0.392,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.69,
+        "valor": 0.083
+      },
+      "marathonbet": {
+        "odd": 2.35,
+        "valor": -0.054
+      },
+      "bet365": {
+        "odd": 2.4,
+        "valor": -0.034
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

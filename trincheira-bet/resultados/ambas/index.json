@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-14T23:48:23.950Z",
+  "atualizado": "2026-11-15T07:21:47.184Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 5,
+    "escolhas": 6,
     "liquidadas": 5,
     "acertos": 5,
     "clvMedio": -0.0425,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-15",
+      "jogo": "Spain vs England",
+      "liga": "UEFA Nations League",
+      "ko": "2026-11-15T19:45:00+00:00",
+      "odd": 1.58,
+      "oddJusta": 1.65,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8595,
+      "pCasaMarca": 0.8404,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-14",
       "jogo": "Dordrecht vs Heracles",

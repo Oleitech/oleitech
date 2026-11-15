@@ -1,0 +1,127 @@
+{
+  "gerado": "2026-11-15T07:02:02.934Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1528979,
+      "data": "2026-11-15T14:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Cyprus - Montenegro",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.157,
+      "def": -0.586,
+      "zona": null
+    },
+    {
+      "fixture": 1545616,
+      "data": "2026-11-15T14:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Latvia - Armenia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.357,
+      "def": -0.586,
+      "zona": null
+    },
+    {
+      "fixture": 1528980,
+      "data": "2026-11-15T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Belarus - Albania",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.957,
+      "def": 0.914,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": null,
+        "cantos_7_5": null
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    },
+    {
+      "fixture": 1528981,
+      "data": "2026-11-15T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Finland - San Marino",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.457,
+      "def": -1.786,
+      "zona": null
+    },
+    {
+      "fixture": 1528982,
+      "data": "2026-11-15T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "France - Türkiye",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.643,
+      "def": -1.386,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528983,
+      "data": "2026-11-15T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Belgium - Italy",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 2.643,
+      "def": -2.086,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528984,
+      "data": "2026-11-15T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Spain - England",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 1.243,
+      "def": -0.086,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528985,
+      "data": "2026-11-15T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Croatia - Czech Republic",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.643,
+      "def": -0.386,
+      "zona": null
+    }
+  ]
+}
