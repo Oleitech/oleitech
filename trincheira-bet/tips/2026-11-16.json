@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T07:16:49.844Z",
+  "units": "stakes",
+  "notes": "Segunda-feira de fecho da Liga das Nações, com dez jogos e muita coisa já decidida, mais as qualificações africanas e um jogo da Segunda espanhola. Saiu uma tip só, a meia stake.\n\nÉ o mais de 2.5 golos no Albacete-Celta B. São duas equipas lá de baixo que sofrem quase dois golos por jogo, e nenhuma se pode dar ao luxo de jogar para o empate. O Albacete chega com três vitórias seguidas. É a mais arriscada do dia: vem do modelo de golos, que ainda está em teste, e faltou parte dos números por casa e fora.\n\nO curto é todo de selecções, a 2,79: a Eslovénia a ganhar na Macedónia do Norte, que já desceu e perdeu os cinco jogos; ambas marcam no Alemanha-Holanda, com os alemães obrigados a ganhar; e mais de 1.5 golos no Suíça-Escócia, com a Escócia a precisar da vitória.\n\nA vitória da Alemanha ficou de fora por pouco: a motivação é toda deles, mas marcaram seis golos em cinco jogos e não têm o Musiala nem o Gnabry. A Grécia também ficou de fora: vem de levar sete da Holanda e as antevisões não se entendem.\n\nNão há múltipla da jornada hoje. Exposição do dia: uma stake.",
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1570014,
+      "home": {
+        "name": "Albacete",
+        "logo": "https://media.api-sports.io/football/teams/722.png"
+      },
+      "away": {
+        "name": "Celta de Vigo II",
+        "logo": "https://media.api-sports.io/football/teams/9571.png"
+      },
+      "match": "Albacete vs Celta de Vigo II",
+      "league": "Segunda División (Espanha), 14.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-11-16T19:30:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 70,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 38.3,
+        "prob_modelo": 0.661,
+        "prob_mercado": 0.59,
+        "valor": 0.072
+      },
+      "tese": "São duas defesas que deixam entrar muito: o Albacete sofre quase dois golos por jogo e a equipa B do Celta também, e nenhuma das duas fecha a baliza com regularidade (o Albacete só o fez uma vez em treze jogos). As duas estão lá em baixo e precisam de ganhar, por isso nenhuma se pode encostar ao empate. O Albacete chega embalado, com três vitórias seguidas no campeonato e a marcar dois ou três por jogo, e as baixas que tem (o Corpas castigado e o Puertas lesionado) já não jogavam nas últimas jornadas. O SportsGambler vai pelo 2-1. Meia stake, como sempre neste mercado, e porque não houve maneira de tirar os golos esperados por casa e fora.",
+      "factors": [
+        "Albacete, Segunda División 2026/27 (API /fixtures league=141, n=13, só campeonato): mais de 2.5 em 8 de 13; em casa (n=6) 4 de 6 — 1-2, 0-1, 1-2, 1-3, 2-0, 2-1; 24 golos sofridos (1,85 por jogo), 1 jogo sem sofrer em 13 (API /teams/statistics)",
+        "Celta de Vigo II, Segunda División 2026/27 (API /fixtures league=141, n=13, só campeonato): mais de 2.5 em 8 de 13; fora (n=6) 3 de 6 — 0-0, 0-2, 2-0, 3-2, 5-1, 2-1 (resultado casa-fora); 25 golos sofridos (1,92 por jogo), 2 jogos sem sofrer, os dois fora",
+        "Forma (API /fixtures, oficiais): Albacete ganhou os três últimos do campeonato (2-0 Eldense, 2-1 Sabadell, 3-1 em Leganés) e 3-0 na Taça; Celta B sem ganhar há cinco (D, L, D, L, L), três derrotas seguidas fora",
+        "Classificação (API /standings): Albacete 21.º com 10 pontos, Celta B 17.º com 13 — as duas na luta para não descer",
+        "Baixas, duas fontes: Corpas castigado (SportsGambler; RFEF, sanções da Segunda J12, três jogos por expulsão) e fora da convocatória em Leganés (API /fixtures/lineups); Puertas lesionado no joelho (SportsGambler) e fora das convocatórias dos dois últimos jogos (API /fixtures/lineups) — nenhuma é baixa nova. Celta B sem baixas (SportsGambler; sem segunda fonte). API /injuries vazio",
+        "H2H: sem encontros oficiais na API (/fixtures/headtohead vazio); a Forebet fala em duas vitórias do Albacete sobre o Celta B, sem resultados — não usado",
+        "Antevisões: SportsGambler 2-1 Albacete, aposta ambas marcam a 1.62; predictions da API Albacete ou empate; Forebet recusou (403)",
+        "Preço por fixture (API /odds, manhã de 16/11): Bet365 1.62, Pinnacle 1.62, 1xBet 1.57, Marathonbet 1.51; modelo de golos 66,1% contra 59% do mercado (valor 7,2% na Bet365)"
+      ],
+      "sources": [
+        "API-Football — /fixtures league=141 season=2026 (as duas equipas), /teams/statistics, /standings, /fixtures/lineups 1570012 e 1569992, /predictions, /injuries, /odds todas as casas, /fixtures/headtohead",
+        "golos/previsoes/2026-11-16.json — sinal mais de 2.5, pressão 38,3",
+        "SportsGambler — albacete-vs-celta-fortuna-prediction-lineups-odds-2026-11-16",
+        "RFEF — sanciones Segunda_Division_J12.pdf (Corpas, três jogos)",
+        "Forebet — albacete-balompie-celta-de-vigo-b-2509442 (403; só o resumo da pesquisa, não usado)"
+      ],
+      "odd_nossa": 1.62,
+      "justo_gravado_em": "2026-11-16T07:16:53.094Z",
+      "odd_justa_ref": 1.668,
+      "prob_justa": 0.5995,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "5:over 2.5",
+      "ev_justo": -0.0288,
+      "justo_at": "2026-11-16T00:12:16+00:00"
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vencedor",
+      "pick": "Germany vence",
+      "fixtureId": 1528990,
+      "home": {
+        "name": "Germany",
+        "logo": "https://media.api-sports.io/football/teams/25.png"
+      },
+      "away": {
+        "name": "Netherlands",
+        "logo": "https://media.api-sports.io/football/teams/1118.png"
+      },
+      "match": "Germany vs Netherlands",
+      "league": "Liga das Nações (Liga A, Grupo 2), 6.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+      "kickoff": "2026-11-16T19:45:00Z",
+      "odds": 1.85,
+      "bookmaker": "Bet365",
+      "score": 74,
+      "stake": 0,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 74, abaixo do piso de 75. A motivação está toda do lado alemão: a Alemanha tem de ganhar para ir aos quartos e a Holanda já está praticamente apurada, sem o Van Dijk e sem o Frenkie de Jong. Mas a Alemanha marcou seis golos em cinco jogos do grupo, ganhou só dois, e chega sem o Musiala e o Gnabry. Duas antevisões dão a Alemanha, a Foresportia dá a Holanda ligeiramente favorita, e o preço da Bet365 está abaixo do justo da Pinnacle.",
+      "tese": "A Alemanha tem de ganhar em Berlim para passar aos quartos, e a Holanda já tem o apuramento praticamente garantido e chega sem o Van Dijk e o Frenkie de Jong. Fica em sombra porque o ataque alemão tem sido curto (seis golos em cinco jogos) e faltam o Musiala e o Gnabry.",
+      "factors": [
+        "Grupo A2 (API /standings): Holanda 11 pts, Grécia 8, Alemanha 8, Sérvia 0; a Alemanha ganha e passa à frente da Grécia (Sports Mole); a Holanda só sai dos dois primeiros com uma diferença de 14 golos",
+        "Alemanha, Liga das Nações 2026/27 (API /fixtures, 5 jogos, só oficiais): 1-1 Holanda, 0-1 Grécia, 2-0 Sérvia, 0-0 Grécia, 3-1 Sérvia — 2 vitórias, 6-3 em golos; em casa 0-1 e 2-0",
+        "Holanda, Liga das Nações 2026/27 (API /fixtures, 5 jogos): 3 vitórias e 2 empates, 14-5 em golos, sem perder",
+        "H2H oficial (API /fixtures/headtohead, sem particulares): 1-1 (09/2026), 1-0 Alemanha (10/2024), 2-2 (09/2024), 2-4 e 3-2 Alemanha (qualificação do Euro 2020), 2-2 e 0-3 (2018) — a Alemanha não perde há três",
+        "Baixas, duas fontes: Musiala e Gnabry fora com problemas musculares (Sports Mole 15/11 e 90min); Holanda sem Van Dijk e Frenkie de Jong (Sports Mole; F. de Jong voltou a Barcelona com dores nas costas). SportsGambler sem baixas listadas; API /injuries vazio",
+        "Antevisões: SportsGambler aposta Alemanha vence a 1.89; Sports Mole 2-1 Alemanha; Foresportia dá a Holanda ligeiramente favorita",
+        "Preço (API /odds): Bet365 1.85, 1xBet 1.90, Pinnacle 1.90 / 4.38 / 3.60"
+      ],
+      "sources": [
+        "API-Football — /standings league=5, /fixtures last=7, /fixtures/headtohead 25-1118, /predictions, /injuries, /odds todas as casas",
+        "Sports Mole — germany-vs-netherlands-prediction-team-news-lineups_609122 (15/11 04:46) e Monday predictions 609167",
+        "SportsGambler — germany-vs-netherlands-prediction-lineups-odds-2026-11-16",
+        "FootyStats — germany-national-team-vs-netherlands-national-team-h2h-stats",
+        "90min (registo de 15/11) — Musiala e Gnabry"
+      ],
+      "odd_nossa": 1.85,
+      "justo_gravado_em": "2026-11-16T07:16:53.096Z",
+      "odd_justa_ref": 1.939,
+      "prob_justa": 0.5156,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:home",
+      "ev_justo": -0.0461,
+      "justo_at": "2026-11-16T06:00:19+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.79,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "Bet365",
+      "notes": "Três pernas de selecções, em três jogos das 19:45 e duas divisões da Liga das Nações (A e B): uma vence, uma ambas marcam e uma mais de 1.5. Não houve outra vence entre 1.25 e 1.55 que aguentasse a pesquisa (Grécia com antevisões contrárias, Benim e Camarões sem antevisão deste jogo, Malta já com o grupo ganho, Islândia a 1.25). A perna do Alemanha-Holanda é o mesmo jogo da tip em sombra, noutro mercado.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545662,
+          "match": "FYR Macedonia vs Slovenia",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "leagueId": 5,
+          "pick": "Slovenia vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Macedónia do Norte já desceu, perdeu os cinco jogos do grupo com 1-12 em golos e não ganha há treze. A Eslovénia tem de ganhar para segurar o segundo lugar à frente da Escócia, e já lhe ganhou 2-0 em Setembro.",
+          "factors": [
+            "Eslovénia, Liga das Nações 2026/27 (API, 5 jogos): 2 vitórias, 2 empates, 1 derrota (4/5 sem perder), 5-3 em golos; Macedónia 0/5, 1-12 — forma da Eslovénia em vitórias 2/5, selecções: a pesquisa manda",
+            "H2H oficial (API): 2-0 Eslovénia em 09/2026; antes 2-1 Macedónia e 1-1 na qualificação do Euro 2020 — selecções, o H2H não trava",
+            "Baixas, duas fontes: Šeško fora com a lesão na canela (Sports Mole 13/11 e Khel Now, registo de 15/11) e fora dos onzes prováveis do SportsGambler e do Sports Mole de hoje; sem outras baixas listadas nas duas",
+            "Antevisões: SportsGambler 0-2 e aposta Eslovénia vence (70%); Sports Mole 0-2",
+            "Preço: Bet365 1.50, Pinnacle 1.52, 1xBet 1.54"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-16T07:16:53.098Z",
+          "odd_justa_ref": 1.55,
+          "prob_justa": 0.645,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0325,
+          "justo_at": "2026-11-16T06:00:19+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1528990,
+          "match": "Germany vs Netherlands",
+          "league": "Liga das Nações (Liga A, Grupo 2)",
+          "leagueId": 5,
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.4,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Alemanha tem de ganhar e vai ter de ir para cima; a Holanda marcou em todos os jogos do grupo e chega sem o Van Dijk. Os jogos oficiais entre os dois tiveram golos dos dois lados em cinco de sete.",
+          "factors": [
+            "H2H oficial (API, sem particulares, 7 jogos desde 2018): ambas marcam 5/7 — 1-1, 1-0, 2-2, 2-4, 3-2, 2-2, 0-3; FootyStats (9 encontros, com particulares) 78% e previsão de 80% para este jogo",
+            "Holanda, Liga das Nações 2026/27 (API, 5 jogos): marcou nos cinco, ambas marcam 4/5; Alemanha ambas marcam 2/5",
+            "Baixas, duas fontes: Holanda sem Van Dijk e Frenkie de Jong (Sports Mole); Alemanha sem Musiala e Gnabry (Sports Mole e 90min)",
+            "Antevisões: Sports Mole 2-1 Alemanha; SportsGambler 2-1 Alemanha (resultado exacto)",
+            "Preço: Bet365 1.40, Marathonbet 1.37, 1xBet 1.37"
+          ],
+          "odd_nossa": 1.4,
+          "justo_gravado_em": "2026-11-16T07:16:53.098Z",
+          "odd_justa_ref": 1.429,
+          "prob_justa": 0.6998,
+          "fonte_justa": "mediana 7 casas",
+          "mercado_ref": "8:yes",
+          "ev_justo": -0.0203,
+          "justo_at": "2026-11-16T06:00:19+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545652,
+          "match": "Switzerland vs Scotland",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "leagueId": 5,
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Escócia só fica em segundo se ganhar na Suíça e a Eslovénia tropeçar, por isso não pode jogar para o empate; a Suíça marcou onze golos em cinco jogos.",
+          "factors": [
+            "Suíça, Liga das Nações 2026/27 (API, 5 jogos): mais de 1.5 em 4/5 (3-0, 3-0, 2-1, 3-0; só o 0-0 na Eslovénia falhou); Escócia 4/5 (2-1, 1-2, 2-0, 0-3; só o 0-0 na Eslovénia falhou)",
+            "H2H oficial (API): 3-0 Suíça em Glasgow (09/2026) e 1-1 no Euro 2024 — 2/2 com mais de 1.5",
+            "Contexto (Sports Mole): Suíça já com o primeiro lugar e a subida; Escócia precisa de ganhar e de um deslize da Eslovénia. Baixas: Manzambi saiu da convocatória suíça (Sports Mole); SportsGambler sem baixas",
+            "Antevisões: SportsGambler 2-0 Suíça; Sports Mole 2-1 Suíça — as duas com dois golos ou mais",
+            "Preço: Bet365 1.33, Pinnacle 1.35, 1xBet 1.34"
+          ],
+          "odd_nossa": 1.33,
+          "justo_gravado_em": "2026-11-16T07:16:53.100Z",
+          "odd_justa_ref": 1.385,
+          "prob_justa": 0.7219,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0399,
+          "justo_at": "2026-11-16T04:06:15+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.79,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "Bet365",
+      "notes": "Igual ao curto real. A única outra vence na banda com pesquisa era a Grécia (1.42): 2 vitórias em 5 contra 4/5 da perna de mais de 1.5 que sairia (mais de 1/5 abaixo) e o SportsGambler contra (1-1, Sérvia +1.25), por isso caiu no B1. Benim e Camarões não passaram a pesquisa.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545662,
+          "match": "FYR Macedonia vs Slovenia",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "leagueId": 5,
+          "pick": "Slovenia vence",
+          "odds": 1.5,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Macedónia do Norte já desceu, perdeu os cinco jogos do grupo com 1-12 em golos e não ganha há treze. A Eslovénia tem de ganhar para segurar o segundo lugar à frente da Escócia, e já lhe ganhou 2-0 em Setembro.",
+          "factors": [
+            "Eslovénia, Liga das Nações 2026/27 (API, 5 jogos): 2 vitórias, 2 empates, 1 derrota (4/5 sem perder), 5-3 em golos; Macedónia 0/5, 1-12 — forma da Eslovénia em vitórias 2/5, selecções: a pesquisa manda",
+            "H2H oficial (API): 2-0 Eslovénia em 09/2026; antes 2-1 Macedónia e 1-1 na qualificação do Euro 2020 — selecções, o H2H não trava",
+            "Baixas, duas fontes: Šeško fora com a lesão na canela (Sports Mole 13/11 e Khel Now, registo de 15/11) e fora dos onzes prováveis do SportsGambler e do Sports Mole de hoje; sem outras baixas listadas nas duas",
+            "Antevisões: SportsGambler 0-2 e aposta Eslovénia vence (70%); Sports Mole 0-2",
+            "Preço: Bet365 1.50, Pinnacle 1.52, 1xBet 1.54"
+          ],
+          "odd_nossa": 1.5,
+          "justo_gravado_em": "2026-11-16T07:16:53.100Z",
+          "odd_justa_ref": 1.55,
+          "prob_justa": 0.645,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0325,
+          "justo_at": "2026-11-16T06:00:19+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1528990,
+          "match": "Germany vs Netherlands",
+          "league": "Liga das Nações (Liga A, Grupo 2)",
+          "leagueId": 5,
+          "pick": "Ambas marcam: Sim",
+          "odds": 1.4,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Alemanha tem de ganhar e vai ter de ir para cima; a Holanda marcou em todos os jogos do grupo e chega sem o Van Dijk. Os jogos oficiais entre os dois tiveram golos dos dois lados em cinco de sete.",
+          "factors": [
+            "H2H oficial (API, sem particulares, 7 jogos desde 2018): ambas marcam 5/7 — 1-1, 1-0, 2-2, 2-4, 3-2, 2-2, 0-3; FootyStats (9 encontros, com particulares) 78% e previsão de 80% para este jogo",
+            "Holanda, Liga das Nações 2026/27 (API, 5 jogos): marcou nos cinco, ambas marcam 4/5; Alemanha ambas marcam 2/5",
+            "Baixas, duas fontes: Holanda sem Van Dijk e Frenkie de Jong (Sports Mole); Alemanha sem Musiala e Gnabry (Sports Mole e 90min)",
+            "Antevisões: Sports Mole 2-1 Alemanha; SportsGambler 2-1 Alemanha (resultado exacto)",
+            "Preço: Bet365 1.40, Marathonbet 1.37, 1xBet 1.37"
+          ],
+          "odd_nossa": 1.4,
+          "justo_gravado_em": "2026-11-16T07:16:53.100Z",
+          "odd_justa_ref": 1.429,
+          "prob_justa": 0.6998,
+          "fonte_justa": "mediana 7 casas",
+          "mercado_ref": "8:yes",
+          "ev_justo": -0.0203,
+          "justo_at": "2026-11-16T06:00:19+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Bet365",
+          "fixtureId": 1545652,
+          "match": "Switzerland vs Scotland",
+          "league": "Liga das Nações (Liga B, Grupo 1)",
+          "leagueId": 5,
+          "pick": "Mais de 1.5 golos",
+          "odds": 1.33,
+          "kickoff": "2026-11-16T19:45:00Z",
+          "score": 65,
+          "tese": "A Escócia só fica em segundo se ganhar na Suíça e a Eslovénia tropeçar, por isso não pode jogar para o empate; a Suíça marcou onze golos em cinco jogos.",
+          "factors": [
+            "Suíça, Liga das Nações 2026/27 (API, 5 jogos): mais de 1.5 em 4/5 (3-0, 3-0, 2-1, 3-0; só o 0-0 na Eslovénia falhou); Escócia 4/5 (2-1, 1-2, 2-0, 0-3; só o 0-0 na Eslovénia falhou)",
+            "H2H oficial (API): 3-0 Suíça em Glasgow (09/2026) e 1-1 no Euro 2024 — 2/2 com mais de 1.5",
+            "Contexto (Sports Mole): Suíça já com o primeiro lugar e a subida; Escócia precisa de ganhar e de um deslize da Eslovénia. Baixas: Manzambi saiu da convocatória suíça (Sports Mole); SportsGambler sem baixas",
+            "Antevisões: SportsGambler 2-0 Suíça; Sports Mole 2-1 Suíça — as duas com dois golos ou mais",
+            "Preço: Bet365 1.33, Pinnacle 1.35, 1xBet 1.34"
+          ],
+          "odd_nossa": 1.33,
+          "justo_gravado_em": "2026-11-16T07:16:53.100Z",
+          "odd_justa_ref": 1.385,
+          "prob_justa": 0.7219,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "5:over 1.5",
+          "ev_justo": -0.0399,
+          "justo_at": "2026-11-16T04:06:15+00:00"
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.9,
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "bookmaker": "Marathonbet",
+      "notes": "Em sombra desde 10/11. Dois jogos das 17:00 da Liga das Nações, sem sobreposição com a tip nem com o curto.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1545617,
+          "match": "Iceland vs Luxembourg",
+          "league": "Liga das Nações (Liga C, Grupo 4)",
+          "leagueId": 5,
+          "pick": "Iceland vence e mais de 1.5 golos",
+          "odds": 1.45,
+          "kickoff": "2026-11-16T17:00:00Z",
+          "score": 74,
+          "tese": "A Islândia tem de ganhar para subir directa (a Estónia está a dois pontos) e as três vitórias que teve no grupo foram todas por três golos ou mais; o Luxemburgo perdeu os quatro últimos e só marcou num de cinco.",
+          "factors": [
+            "Islândia, Liga das Nações 2026/27 (API, 5 jogos): 3 vitórias (5-0, 3-0, 3-0) e 2 empates (0-0, 1-1), 12-1 em golos — forma 3/5",
+            "Luxemburgo (API, 5 jogos): 1 vitória e 4 derrotas, 2-8 em golos, só marcou num jogo",
+            "H2H oficial (API): 3-0 Islândia no Luxemburgo (09/2026); 1-1 e 3-1 Luxemburgo na qualificação do Euro 2024 — selecções, não trava",
+            "Baixas: nenhuma listada no SportsGambler nem no Sports Mole",
+            "Antevisões: Sports Mole 3-0; SportsGambler 2-0 e aposta Islândia -1.5"
+          ],
+          "odd_nossa": 1.45,
+          "justo_gravado_em": "2026-11-16T07:16:53.101Z",
+          "odd_justa_ref": 1.471,
+          "prob_justa": 0.6796,
+          "fonte_justa": "mediana 1 casa",
+          "mercado_ref": "25:home/over 1.5",
+          "ev_justo": -0.0146,
+          "justo_at": "2026-11-16T04:06:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1528989,
+          "match": "Lithuania vs Liechtenstein",
+          "league": "Liga das Nações (Liga D, Grupo 2)",
+          "leagueId": 5,
+          "pick": "Lithuania vence e menos de 4.5 golos",
+          "odds": 1.31,
+          "kickoff": "2026-11-16T17:00:00Z",
+          "score": 70,
+          "tese": "O Liechtenstein não marcou nos últimos dez jogos e a Lituânia, que marca pouco, já lhe ganhou 2-0 fora em Setembro; cinco golos num jogo destes é muito improvável.",
+          "factors": [
+            "Liechtenstein (API, últimos 7, oficiais e particulares declarados): 0 golos marcados — 0-1 Azerbaijão, 0-2 Gibraltar (part.), 0-0 Azerbaijão, 0-2 Malta (part.), 0-2 Lituânia, 0-2 Chipre (part.), 0-2 Andorra (part.)",
+            "Lituânia, oficiais (API): 1 vitória nos últimos 5 (2-0 no Liechtenstein), 0,9 golos por jogo nos últimos 10 (SportsGambler) — a forma não chega a 3/5; selecções, a pesquisa manda",
+            "H2H oficial (API): 2-0 Lituânia em 09/2026; Sports Mole: o Liechtenstein não ganha à Lituânia há 15 anos",
+            "Antevisões: Sports Mole 3-0; SportsGambler 1-0 — as duas com a Lituânia a ganhar com menos de cinco golos",
+            "Baixas: nenhuma listada no SportsGambler nem no Sports Mole"
+          ],
+          "odd_nossa": 1.31,
+          "justo_gravado_em": "2026-11-16T07:16:53.102Z",
+          "odd_justa_ref": 1.345,
+          "prob_justa": 0.7433,
+          "fonte_justa": "mediana 1 casa",
+          "mercado_ref": "25:home/under 4.5",
+          "ev_justo": -0.0263,
+          "justo_at": "2026-11-16T06:00:19+00:00"
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Na banda 1.40–1.60 só a Eslovénia (1.50) e o ambas marcam do Alemanha-Holanda (1.40) chegam perto dos 75, e nenhuma tem a investigação completa (sem golos esperados nem números por casa e fora destas selecções). O mais de 2.5 do Albacete está a 1.51 na Marathonbet mas fica nos 70."
+  }
+}

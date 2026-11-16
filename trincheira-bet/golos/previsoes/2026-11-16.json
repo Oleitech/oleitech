@@ -1,0 +1,41 @@
+{
+  "gerado": "2026-11-16T07:01:36.525Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1570014,
+      "data": "2026-11-16T19:30:00+00:00",
+      "liga": "SP2",
+      "jogo": "Albacete - Celta de Vigo II",
+      "pressao": 38.3,
+      "prob_mais": 0.661,
+      "prob_mercado": 0.59,
+      "casas": 7,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.65,
+        "valor": 0.091
+      },
+      "marathonbet": {
+        "odd": 1.51,
+        "valor": -0.001
+      },
+      "bet365": {
+        "odd": 1.62,
+        "valor": 0.072
+      },
+      "sinal": true,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}

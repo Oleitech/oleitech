@@ -1,0 +1,141 @@
+{
+  "gerado": "2026-11-16T07:01:38.498Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1528986,
+      "data": "2026-11-16T15:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Kazakhstan - Slovakia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.673,
+      "def": 0.045,
+      "zona": null
+    },
+    {
+      "fixture": 1528987,
+      "data": "2026-11-16T15:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Faroe Islands - Moldova",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.673,
+      "def": -1.055,
+      "zona": null
+    },
+    {
+      "fixture": 1528988,
+      "data": "2026-11-16T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Estonia - Bulgaria",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.273,
+      "def": -1.055,
+      "zona": null
+    },
+    {
+      "fixture": 1528989,
+      "data": "2026-11-16T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Lithuania - Liechtenstein",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -1.973,
+      "def": -0.555,
+      "zona": null
+    },
+    {
+      "fixture": 1545617,
+      "data": "2026-11-16T17:00:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Iceland - Luxembourg",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.127,
+      "def": -0.955,
+      "zona": null
+    },
+    {
+      "fixture": 1528990,
+      "data": "2026-11-16T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Germany - Netherlands",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 3.627,
+      "def": -2.355,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.658,
+        "baliza_8_5": 0.544
+      }
+    },
+    {
+      "fixture": 1528991,
+      "data": "2026-11-16T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Greece - Serbia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.073,
+      "def": -0.455,
+      "zona": null
+    },
+    {
+      "fixture": 1545618,
+      "data": "2026-11-16T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Gibraltar - Malta",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -2.173,
+      "def": -0.355,
+      "zona": null
+    },
+    {
+      "fixture": 1545652,
+      "data": "2026-11-16T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "Switzerland - Scotland",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": 0.327,
+      "def": 0.645,
+      "zona": null
+    },
+    {
+      "fixture": 1545662,
+      "data": "2026-11-16T19:45:00+00:00",
+      "liga": "Liga das Nacoes",
+      "jogo": "FYR Macedonia - Slovenia",
+      "selecoes": true,
+      "jogos_tabela": 10,
+      "atq": -0.973,
+      "def": 1.245,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.21,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.44,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.696,
+        "cantos_7_5": 0.557
+      }
+    }
+  ]
+}
