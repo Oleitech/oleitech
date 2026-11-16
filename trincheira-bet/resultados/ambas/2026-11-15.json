@@ -67,7 +67,38 @@
       "frase": "O England marcou em 5 dos últimos 5 jogos fora, e o Spain sofreu em 3 dos últimos 5 em casa.",
       "sentAt": 1794727307177,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Spain vs England</b> (19:45)\n\n📊 England marca fora 86% · Spain marca em casa 84%\n💰 1xBet <b>@1.58</b> · justo @1.65 · sem valor hoje (stake 0)\n\nO England marcou em 5 dos últimos 5 jogos fora, e o Spain sofreu em 3 dos últimos 5 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-15T18:16:35.170Z",
+      "oddPertoDoJogo": 1.5,
+      "evPertoDoJogo": {
+        "formula": -0.0495,
+        "consenso": -0.059
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma baixa grave confirmada de hoje ou de ontem à noite no ataque de Inglaterra; os resultados vinham de setembro ou de novembro de 2025, e o onze não estava publicado nas fontes.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 3
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 3,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794791934178,
+      "pnlSombra": 0.29,
+      "odd_fecho_ref": 1.531,
+      "prob_fecho": 0.653,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-15T18:00:20+00:00",
+      "fecho_idade_min": 105,
+      "clv": 0.0318,
+      "prob_fecho_formula": 0.6394,
+      "clv_formula": 0.0102
     }
   ],
   "escolhidaEm": "2026-11-15T07:21:06.967Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-15T06:00:37+00:00",
     "mercado": "ambas sim",
     "odds": 1.78,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 1,
+    "finalAway": 2,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794791934855,
+    "pnlSombra": 0.39,
+    "odd_fecho_ref": 1.808,
+    "prob_fecho": 0.5529,
+    "fonte_fecho": "mediana 6 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-15T13:51:14+00:00",
+    "fecho_idade_min": 9,
+    "clv": -0.0158,
+    "prob_fecho_formula": 0.5747,
+    "clv_formula": 0.0229
   },
   "candidatasLive": [
     {

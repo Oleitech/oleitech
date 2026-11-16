@@ -1,0 +1,447 @@
+{
+  "date": "2026-11-15",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1570023,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Tenerife marca na 2ª parte",
+      "match": "Tenerife vs AD Ceuta FC",
+      "league": "Segunda División (Espanha)",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.666,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          3
+        ],
+        "amarelos": [
+          1,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Tenerife já criou 1.63 de xG contra 0.45 e fez 4 remates à baliza contra 0. O Ceuta fica com a bola mas não faz nada com ela, e vai ter de se abrir, o que deixa espaço para o contra-ataque da casa.",
+      "confianca": 61,
+      "probImplicita": 0.6,
+      "oddAoVivoMercado": {
+        "at": "2026-11-15T13:52:36+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Home Team Score a Goal (2nd Half)",
+            "linha": "-",
+            "lado": "yes",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Home Team Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "2.5",
+            "lado": "under",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Next 10 Minutes Total",
+            "linha": "50",
+            "lado": "cards/under  0.5",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Home 2nd Goal in Interval",
+            "linha": "80",
+            "lado": "no",
+            "odd": 1.666
+          }
+        ]
+      },
+      "sentAt": 1794750873069,
+      "probModeloA": 0.4981,
+      "pushA": 0,
+      "valorA": -0.1702,
+      "aprovaA": false,
+      "probModeloB": 0.5987,
+      "pushB": 0,
+      "valorB": -0.0026,
+      "aprovaB": false,
+      "golos2pA": 1.608,
+      "golos2pB": 1.466,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": true
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": 0.33299999999999996,
+      "return": 0.833,
+      "resolvedAt": 1794755754253
+    },
+    {
+      "fixtureId": 1545616,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Latvia vs Armenia",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.375,
+      "oddMinima": 2.25,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          7,
+          4
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "Ainda está 0-0, mas já houve 7 remates à baliza, 4 da Letónia e 3 da Arménia, e os dois guarda-redes andaram a defender. O jogo está aberto e na 2ª parte costumam sair mais golos.",
+      "confianca": 45,
+      "probImplicita": 0.421,
+      "oddAoVivoMercado": {
+        "at": "2026-11-15T14:48:30+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 2.375
+          }
+        ]
+      },
+      "sentAt": 1794754299572,
+      "probModeloA": 0.4682,
+      "pushA": 0,
+      "valorA": 0.1121,
+      "aprovaA": true,
+      "probModeloB": 0.3519,
+      "pushB": 0,
+      "valorB": -0.1643,
+      "aprovaB": false,
+      "golos2pA": 1.579,
+      "golos2pB": 1.2402,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.3923,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794759309665,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1570017,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 6.5 cantos no jogo",
+      "match": "Eldense vs Sabadell",
+      "league": "Segunda División (Espanha)",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.1,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          0,
+          2
+        ],
+        "vermelhos": [
+          0,
+          1
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Ao intervalo só se viram 2 cantos, um para cada lado, e faltam 5 na 2ª parte. Mas o Sabadell está com 10 desde os 35' e vai fechar-se lá atrás, e em jogos com dois golos de diferença e poucos cantos ao intervalo saíram 5 ou mais na 2ª parte em mais de metade das vezes.",
+      "confianca": 54,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-15T18:23:53+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "6",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "6.5",
+            "lado": "over",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794767135987,
+      "probModeloA": 0.5065,
+      "pushA": 0,
+      "valorA": 0.0637,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4526,
+      "golos2pB": 1.195,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794772023577
+    },
+    {
+      "fixtureId": 1528985,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo",
+      "match": "Croatia vs Czech Republic",
+      "league": "Liga das Nações (Liga A, Grupo 3)",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.075,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Vão 3 cantos, todos da Croácia. Basta que saiam 5 na 2ª parte, o que acontece em mais de metade dos jogos assim, e a Chéquia, que só tem a ganhar se vencer por dois, vai ter de subir e abrir espaço.",
+      "confianca": 55,
+      "probImplicita": 0.482,
+      "oddAoVivoMercado": {
+        "at": "2026-11-15T20:31:53+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Handicap",
+            "linha": "-1.75",
+            "lado": "home",
+            "odd": 2.075
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "7.5",
+            "lado": "over",
+            "odd": 2.075
+          }
+        ]
+      },
+      "sentAt": 1794774860769,
+      "probModeloA": 0.5578,
+      "pushA": 0,
+      "valorA": 0.1574,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7068,
+      "golos2pB": 1.6119,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794780056418
+    },
+    {
+      "fixtureId": 1644696,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4 cantos na 2ª parte (3 vias, 5 ou mais)",
+      "match": "Panama vs Curaçao",
+      "league": "CONCACAF Nations League",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          1
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 6 cantos, 5 deles do Panamá, que carregou o jogo todo, e o Curaçao tem de ir para a frente porque perde a eliminatória. Em jogos assim a 2ª parte deu 5 ou mais cantos em 57% das vezes, e a casa paga isso a 1.83.",
+      "confianca": 56,
+      "probImplicita": 0.546,
+      "oddAoVivoMercado": {
+        "at": "2026-11-15T23:49:50+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Total Corners (3way) (2nd Half)",
+            "linha": "4",
+            "lado": "over",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "odd",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.833
+          }
+        ]
+      },
+      "sentAt": 1794786734167,
+      "probModeloA": 0.5433,
+      "pushA": 0.1711,
+      "valorA": 0.167,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.5835,
+      "golos2pB": 1.3807,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794791799208
+    }
+  ]
+}

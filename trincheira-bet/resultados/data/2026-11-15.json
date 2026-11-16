@@ -1,0 +1,1133 @@
+{
+  "date": "2026-11-15",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1528984,
+        "home": {
+          "name": "Spain",
+          "logo": "https://media.api-sports.io/football/teams/9.png"
+        },
+        "away": {
+          "name": "England",
+          "logo": "https://media.api-sports.io/football/teams/10.png"
+        },
+        "match": "Spain vs England",
+        "league": "Liga das Nações (Liga A, Grupo 3), 6.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+        "kickoff": "2026-11-15T19:45:00Z",
+        "odds": 1.62,
+        "bookmaker": "Bet365",
+        "score": 77,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "tese": "Os quatro últimos jogos oficiais entre Espanha e Inglaterra acabaram todos com golos dos dois lados, o último foi 2-3 em Wembley em Setembro. Agora a Inglaterra tem de ganhar em Madrid para ficar com o primeiro lugar, e à Espanha chega o empate, por isso quem tem de ir para cima é a Inglaterra, com o Kane e o Bellingham, e isso abre espaço para o Yamal e o Oyarzabal, que voltam esta noite. A Espanha marcou em todos os jogos do grupo e só não sofreu num; a Inglaterra também marcou em todos e chega sem o Guéhi no meio da defesa e com o Trafford na baliza. Meia stake porque não houve maneira de tirar os golos esperados nem os números completos por casa e fora.",
+        "factors": [
+          "H2H oficial (API /fixtures/headtohead, 4 jogos): 2-3 em Wembley (Liga das Nações, 09/2026), 2-1 na final do Euro 2024, 2-3 e 2-1 na Liga das Nações 2018 — ambas marcam 4/4",
+          "Espanha, Liga das Nações 2026/27 (API /fixtures, 5 jogos, só oficiais): 5 vitórias, 14-5 em golos, ambas marcam 4/5, marcou nos 5; em casa (API /teams/statistics, n=2) sofreu 2 e não fez nenhum jogo sem sofrer",
+          "Inglaterra, Liga das Nações 2026/27 (API /fixtures, 5 jogos, só oficiais): 4 vitórias, 16-4, marcou nos 5; fora (API /teams/statistics, n=2: 7-0 na Croácia, 2-0 na Chéquia) não sofreu, mas foram os dois piores do grupo",
+          "Classificação Grupo A3 (API /standings): Espanha 15 pts, Inglaterra 12; as duas já nos quartos, só o primeiro lugar em jogo — a Inglaterra precisa de ganhar (Sports Mole)",
+          "Baixas e regressos, duas fontes: Yamal e Oyarzabal voltam (SportsGambler e Sports Mole); Konsa e Spence disponíveis, Lewis-Skelly cumpriu castigo (as duas); Saka e Guéhi lesionados (SportsGambler) e fora dos onzes prováveis das duas; Rodri, Olmo e Éric García lesionados (SportsGambler), fora dos dois onzes. Trafford titular na baliza inglesa (Sports Mole, Tuchel). API /injuries vazio",
+          "Antevisões: SportsGambler 1-1 com ambas marcam no construtor de aposta; Sports Mole 3-1 Espanha; predictions da API: Espanha ou empate e mais de 1.5",
+          "Preço: Bet365 1.62, Marathonbet 1.58, 1xBet 1.58 (a Pinnacle não tem este mercado na API)"
+        ],
+        "sources": [
+          "API-Football — /fixtures/headtohead 9-10, /fixtures (últimos 6 de cada), /teams/statistics (league=5, season=2026), /standings, /predictions, /injuries, /odds todas as casas",
+          "SportsGambler — spain-vs-england-prediction-lineups-odds-2026-11-15",
+          "Sports Mole — spain-vs-england-prediction-team-news-lineups_609045 (actualizado 14/11 20:53) e notícia da equipa de Tuchel (609119)",
+          "FootyStats — página H2H recusou (403); só o resumo da pesquisa, sem amostra declarada, não usado"
+        ],
+        "odd_nossa": 1.62,
+        "justo_gravado_em": "2026-11-15T07:18:45.677Z",
+        "odd_justa_ref": 1.67,
+        "prob_justa": 0.599,
+        "fonte_justa": "mediana 7 casas",
+        "mercado_ref": "8:yes",
+        "ev_justo": -0.0297,
+        "justo_at": "2026-11-15T04:16:19+00:00",
+        "clv_api": 0.0581,
+        "fecho_idade_min": 105,
+        "odd_fecho_ref": 1.531,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-15T18:00:20+00:00",
+        "fecho_aproximado": false,
+        "clv": 0.0581,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0.81,
+        "pnl": 0.31,
+        "final_score": "2-3",
+        "note": "Espanha 2-3 Inglaterra: golos dos dois lados, ambas marcam passou."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.71,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "Bet365",
+        "notes": "Uma perna de empate devolve, uma de ambas marcam e uma de mais de 1.5, em três jogos e duas provas. Não houve vence elegível entre 1.25 e 1.55 (França 1.20, Croácia 1.57, Panamá sem ganhar há seis). A perna da Espanha está no mesmo jogo da tip: a Inglaterra a ganhar 1-0 ou 2-0 deita as duas.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528984,
+            "match": "Spain vs England",
+            "league": "Liga das Nações (Liga A, Grupo 3)",
+            "pick": "Spain vence, empate devolve (DNB)",
+            "odds": 1.33,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 65,
+            "tese": "À Espanha chega o empate para ganhar o grupo; ganhou os cinco jogos (14-5) e joga em casa. Com o empate devolve, só perde se a Inglaterra ganhar em Madrid.",
+            "factors": [
+              "Espanha 5/5 vitórias na Liga das Nações 2026/27 (API)",
+              "H2H oficial (API, 4 jogos): Espanha ganhou 3 — selecções, o H2H não trava",
+              "Sports Mole 3-1, SportsGambler 1-1: nenhum dá a Inglaterra a ganhar",
+              "Bet365 DNB 1.33"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-15T07:18:45.681Z",
+            "odd_justa_ref": 1.424,
+            "prob_justa": 0.7023,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:DNB home",
+            "ev_justo": -0.066,
+            "justo_at": "2026-11-15T04:16:19+00:00",
+            "clv_api": -0.182,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.626,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.182,
+            "result": "RED",
+            "final_score": "2-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528983,
+            "match": "Belgium vs Italy",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.53,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 65,
+            "tese": "A Bélgica tem de ganhar para ir aos quartos e vai sem o Courtois; a Itália marcou em quatro dos cinco jogos e um empate chega-lhe. As duas antevisões dão golos dos dois lados (2-2 e 2-1).",
+            "factors": [
+              "H2H oficial (API, 5 jogos): ambas marcam 3/5",
+              "Itália, Liga das Nações (API, 5): ambas marcam 4/5; Bélgica 2/5 mas marcou em 4/5",
+              "Baixas (SportsGambler e Sports Mole): Courtois fora, Lukaku sem ritmo; Itália sem Di Lorenzo, Raspadori, Kean e Frattesi",
+              "Sports Mole 2-2, SportsGambler 2-1 e mais de 2.5"
+            ],
+            "odd_nossa": 1.53,
+            "justo_gravado_em": "2026-11-15T07:18:45.686Z",
+            "odd_justa_ref": 1.652,
+            "prob_justa": 0.6052,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0741,
+            "justo_at": "2026-11-15T06:00:36+00:00",
+            "clv_api": -0.0242,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.568,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0242,
+            "result": "GREEN",
+            "final_score": "4-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1576536,
+            "match": "Portimonense vs Academica",
+            "league": "Liga Portugal 2, 11.ª jornada",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "kickoff": "2026-11-15T14:00:00Z",
+            "score": 65,
+            "tese": "A Académica tem dois ou mais golos nos cinco últimos oficiais e o H2H oficial passou a linha em três de cinco.",
+            "factors": [
+              "H2H oficial (API, 5): mais de 1.5 3/5 (2-1, 2-1, 2-0; 0-0 em 2016 e 2017)",
+              "Académica, últimos 5 oficiais (API, Liga 2 e Taça): mais de 1.5 5/5",
+              "Portimonense, últimos 5 oficiais (API): mais de 1.5 3/5"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-15T07:18:45.687Z",
+            "odd_justa_ref": 1.399,
+            "prob_justa": 0.7146,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0496,
+            "justo_at": "2026-11-15T06:00:36+00:00",
+            "clv_api": -0.0554,
+            "fecho_idade_min": 81,
+            "odd_fecho_ref": 1.408,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T12:39:14+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0554,
+            "result": "RED",
+            "final_score": "0-0"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "A Espanha perdeu 2-3 com a Inglaterra, por isso a perna do empate devolve caiu; a Bélgica-Itália (4-1) teve golos dos dois lados, mas o 0-0 do Portimonense-Académica falhou o mais de 1.5. Duas pernas falhadas deitam o bilhete."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 0.5,
+      "total_return": 0.81,
+      "pnl": 0.31,
+      "roi_pct": 62,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 1,
+      "combined_return": 0.81,
+      "combined_pnl": -0.19,
+      "combined_roi_pct": -19
+    },
+    "sombra": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1528982,
+        "home": {
+          "name": "France",
+          "logo": "https://media.api-sports.io/football/teams/2.png"
+        },
+        "away": {
+          "name": "Türkiye",
+          "logo": "https://media.api-sports.io/football/teams/777.png"
+        },
+        "match": "France vs Türkiye",
+        "league": "Liga das Nações (Liga A, Grupo 1), 6.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/5.png",
+        "kickoff": "2026-11-15T19:45:00Z",
+        "odds": 1.73,
+        "bookmaker": "Bet365",
+        "score": 72,
+        "stake": 0,
+        "shadow": true,
+        "context_depth": "partial",
+        "motivo_sombra": "Score 72, abaixo do piso de 75. A França chega sem o Saliba, o Upamecano e o Dembélé (as duas antevisões) e com a defesa remendada, e as duas antevisões dão 3-1. Mas a Turquia já está em último sem nada a jogar, sem o Yıldız e sem o Kabak, marcou em três dos cinco jogos e o H2H só deu ambas marcam uma vez em três.",
+        "tese": "A França precisa de pontuar para os quartos e joga com a defesa desfalcada; a Turquia perdeu os cinco, mas marcou em três.",
+        "factors": [
+          "França, Liga das Nações 2026/27 (API, 5 jogos): sofreu em 3/5 (3-1 Itália, 1-1 Itália, 4-1 Bélgica)",
+          "Turquia, Liga das Nações 2026/27 (API, 5 jogos): 0 pts, marcou em 3/5",
+          "H2H oficial (API, 3 jogos): ambas marcam 1/3",
+          "Baixas: Saliba e Dembélé lesionados, Upamecano fora (SportsGambler e Sports Mole); Koundé (só SportsGambler) e Tchouaméni (só Sports Mole); Turquia sem Kabak castigado (SportsGambler) e Yıldız lesionado (Sports Mole)",
+          "Antevisões: SportsGambler ambas marcam @1.70 e 3-1; Sports Mole 3-1"
+        ],
+        "sources": [
+          "API-Football — /fixtures, /fixtures/headtohead, /predictions, /odds",
+          "SportsGambler — france-vs-turkey-prediction-lineups-odds-2026-11-15",
+          "Sports Mole — france-vs-turkey-prediction-team-news-lineups_609038"
+        ],
+        "odd_nossa": 1.73,
+        "justo_gravado_em": "2026-11-15T07:18:45.681Z",
+        "odd_justa_ref": 1.889,
+        "prob_justa": 0.5293,
+        "fonte_justa": "mediana 7 casas",
+        "mercado_ref": "8:yes",
+        "ev_justo": -0.0843,
+        "justo_at": "2026-11-15T04:16:19+00:00",
+        "clv_api": -0.0754,
+        "fecho_idade_min": 105,
+        "odd_fecho_ref": 1.871,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-15T18:00:20+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0754,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "2-1",
+        "note": "França 2-1 Turquia: golos dos dois lados."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "pnl_se_apostadas": 0.73,
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "iguais": 1,
+        "pnl_se_apostado": -1
+      },
+      "corvo": {
+        "total": 1,
+        "green": 1,
+        "red": 0,
+        "pnl_se_apostado": 1.03
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.71,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "Bet365",
+        "notes": "Igual ao curto real: não há nenhuma perna vence entre 1.25 e 1.55 que passe o B1 (França 1.20 abaixo, Croácia 1.57 acima, Panamá 1.48 com 0 vitórias em 6). O empate devolve não se troca.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528984,
+            "match": "Spain vs England",
+            "league": "Liga das Nações (Liga A, Grupo 3)",
+            "pick": "Spain vence, empate devolve (DNB)",
+            "odds": 1.33,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 65,
+            "tese": "À Espanha chega o empate para ganhar o grupo; ganhou os cinco jogos (14-5) e joga em casa. Com o empate devolve, só perde se a Inglaterra ganhar em Madrid.",
+            "factors": [
+              "Espanha 5/5 vitórias na Liga das Nações 2026/27 (API)",
+              "H2H oficial (API, 4 jogos): Espanha ganhou 3 — selecções, o H2H não trava",
+              "Sports Mole 3-1, SportsGambler 1-1: nenhum dá a Inglaterra a ganhar",
+              "Bet365 DNB 1.33"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-15T07:18:45.690Z",
+            "odd_justa_ref": 1.424,
+            "prob_justa": 0.7023,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:DNB home",
+            "ev_justo": -0.066,
+            "justo_at": "2026-11-15T04:16:19+00:00",
+            "clv_api": -0.182,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.626,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.182,
+            "result": "RED",
+            "final_score": "2-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1528983,
+            "match": "Belgium vs Italy",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.53,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 65,
+            "tese": "A Bélgica tem de ganhar para ir aos quartos e vai sem o Courtois; a Itália marcou em quatro dos cinco jogos e um empate chega-lhe. As duas antevisões dão golos dos dois lados (2-2 e 2-1).",
+            "factors": [
+              "H2H oficial (API, 5 jogos): ambas marcam 3/5",
+              "Itália, Liga das Nações (API, 5): ambas marcam 4/5; Bélgica 2/5 mas marcou em 4/5",
+              "Baixas (SportsGambler e Sports Mole): Courtois fora, Lukaku sem ritmo; Itália sem Di Lorenzo, Raspadori, Kean e Frattesi",
+              "Sports Mole 2-2, SportsGambler 2-1 e mais de 2.5"
+            ],
+            "odd_nossa": 1.53,
+            "justo_gravado_em": "2026-11-15T07:18:45.690Z",
+            "odd_justa_ref": 1.652,
+            "prob_justa": 0.6052,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0741,
+            "justo_at": "2026-11-15T06:00:36+00:00",
+            "clv_api": -0.0242,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.568,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0242,
+            "result": "GREEN",
+            "final_score": "4-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1576536,
+            "match": "Portimonense vs Academica",
+            "league": "Liga Portugal 2, 11.ª jornada",
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.33,
+            "kickoff": "2026-11-15T14:00:00Z",
+            "score": 65,
+            "tese": "A Académica tem dois ou mais golos nos cinco últimos oficiais e o H2H oficial passou a linha em três de cinco.",
+            "factors": [
+              "H2H oficial (API, 5): mais de 1.5 3/5 (2-1, 2-1, 2-0; 0-0 em 2016 e 2017)",
+              "Académica, últimos 5 oficiais (API, Liga 2 e Taça): mais de 1.5 5/5",
+              "Portimonense, últimos 5 oficiais (API): mais de 1.5 3/5"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-15T07:18:45.690Z",
+            "odd_justa_ref": 1.399,
+            "prob_justa": 0.7146,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0496,
+            "justo_at": "2026-11-15T06:00:36+00:00",
+            "clv_api": -0.0554,
+            "fecho_idade_min": 81,
+            "odd_fecho_ref": 1.408,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T12:39:14+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0554,
+            "result": "RED",
+            "final_score": "0-0"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 2.03,
+        "score": 70,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra desde 10/11. A perna da Bélgica é no mesmo jogo do ambas marcam do curto, noutro mercado.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1528982,
+            "match": "France vs Türkiye",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "France vence e menos de 5.5 golos",
+            "odds": 1.47,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 74,
+            "tese": "A França precisa de pontuar para os quartos contra uma Turquia com cinco derrotas; seis golos num jogo destes é raro.",
+            "factors": [
+              "França 3/5 vitórias na Liga das Nações (API); Turquia 0/5",
+              "Baixas em duas fontes: Saliba, Dembélé, Upamecano fora; Mbappé de volta (SportsGambler; Sports Mole dá-o como esperado)",
+              "SportsGambler e Sports Mole: 3-1"
+            ],
+            "odd_nossa": 1.47,
+            "justo_gravado_em": "2026-11-15T07:18:45.690Z",
+            "odd_justa_ref": 1.578,
+            "prob_justa": 0.6336,
+            "fonte_justa": "Pinnacle Poisson",
+            "mercado_ref": "poisson Home/under 5.5",
+            "ev_justo": -0.0686,
+            "justo_at": "2026-11-15T04:16:19+00:00",
+            "clv_api": -0.0702,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.581,
+            "fonte_fecho": "Pinnacle Poisson",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0702,
+            "result": "GREEN",
+            "final_score": "2-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1528983,
+            "match": "Belgium vs Italy",
+            "league": "Liga das Nações (Liga A, Grupo 1)",
+            "pick": "Belgium ou empate (dupla hipótese 1X)",
+            "odds": 1.38,
+            "kickoff": "2026-11-15T19:45:00Z",
+            "score": 70,
+            "tese": "A Bélgica joga em casa a precisar de ganhar e ganhou 2-0 em Itália em Setembro; as duas antevisões dão Bélgica ou empate.",
+            "factors": [
+              "Bélgica, últimos 5 oficiais (API): 3 vitórias",
+              "H2H oficial (API, 5): 1 vitória, 1 empate — selecções, o H2H não trava",
+              "Sports Mole 2-2, SportsGambler 2-1"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-15T07:18:45.692Z",
+            "odd_justa_ref": 1.401,
+            "prob_justa": 0.7137,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Home/Draw",
+            "ev_justo": -0.0151,
+            "justo_at": "2026-11-15T06:00:36+00:00",
+            "clv_api": -0.0751,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.492,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-15T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0751,
+            "result": "GREEN",
+            "final_score": "4-1"
+          }
+        ],
+        "result": "GREEN",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 1.03
+      }
+    ]
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1570023,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Tenerife marca na 2ª parte",
+        "match": "Tenerife vs AD Ceuta FC",
+        "league": "Segunda División (Espanha)",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.666,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            3
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Tenerife já criou 1.63 de xG contra 0.45 e fez 4 remates à baliza contra 0. O Ceuta fica com a bola mas não faz nada com ela, e vai ter de se abrir, o que deixa espaço para o contra-ataque da casa.",
+        "confianca": 61,
+        "probImplicita": 0.6,
+        "oddAoVivoMercado": {
+          "at": "2026-11-15T13:52:36+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Home Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Home Team Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "under",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "cards/under  0.5",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Home 2nd Goal in Interval",
+              "linha": "80",
+              "lado": "no",
+              "odd": 1.666
+            }
+          ]
+        },
+        "sentAt": 1794750873069,
+        "probModeloA": 0.4981,
+        "pushA": 0,
+        "valorA": -0.1702,
+        "aprovaA": false,
+        "probModeloB": 0.5987,
+        "pushB": 0,
+        "valorB": -0.0026,
+        "aprovaB": false,
+        "golos2pA": 1.608,
+        "golos2pB": 1.466,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": 0.33299999999999996,
+        "return": 0.833,
+        "resolvedAt": 1794755754253
+      },
+      {
+        "fixtureId": 1545616,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Latvia vs Armenia",
+        "league": "UEFA Nations League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.375,
+        "oddMinima": 2.25,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            7,
+            4
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Ainda está 0-0, mas já houve 7 remates à baliza, 4 da Letónia e 3 da Arménia, e os dois guarda-redes andaram a defender. O jogo está aberto e na 2ª parte costumam sair mais golos.",
+        "confianca": 45,
+        "probImplicita": 0.421,
+        "oddAoVivoMercado": {
+          "at": "2026-11-15T14:48:30+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.375
+            }
+          ]
+        },
+        "sentAt": 1794754299572,
+        "probModeloA": 0.4682,
+        "pushA": 0,
+        "valorA": 0.1121,
+        "aprovaA": true,
+        "probModeloB": 0.3519,
+        "pushB": 0,
+        "valorB": -0.1643,
+        "aprovaB": false,
+        "golos2pA": 1.579,
+        "golos2pB": 1.2402,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": 0.3923,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794759309665,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1570017,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 6.5 cantos no jogo",
+        "match": "Eldense vs Sabadell",
+        "league": "Segunda División (Espanha)",
+        "elapsed": 45,
+        "score": "2-0",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.1,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            0,
+            2
+          ],
+          "vermelhos": [
+            0,
+            1
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Ao intervalo só se viram 2 cantos, um para cada lado, e faltam 5 na 2ª parte. Mas o Sabadell está com 10 desde os 35' e vai fechar-se lá atrás, e em jogos com dois golos de diferença e poucos cantos ao intervalo saíram 5 ou mais na 2ª parte em mais de metade das vezes.",
+        "confianca": 54,
+        "probImplicita": 0.476,
+        "oddAoVivoMercado": {
+          "at": "2026-11-15T18:23:53+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "6",
+              "lado": "over",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "6.5",
+              "lado": "over",
+              "odd": 2.1
+            }
+          ]
+        },
+        "sentAt": 1794767135987,
+        "probModeloA": 0.5065,
+        "pushA": 0,
+        "valorA": 0.0637,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4526,
+        "golos2pB": 1.195,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794772023577
+      },
+      {
+        "fixtureId": 1528985,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Croatia vs Czech Republic",
+        "league": "Liga das Nações (Liga A, Grupo 3)",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.075,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Vão 3 cantos, todos da Croácia. Basta que saiam 5 na 2ª parte, o que acontece em mais de metade dos jogos assim, e a Chéquia, que só tem a ganhar se vencer por dois, vai ter de subir e abrir espaço.",
+        "confianca": 55,
+        "probImplicita": 0.482,
+        "oddAoVivoMercado": {
+          "at": "2026-11-15T20:31:53+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Handicap",
+              "linha": "-1.75",
+              "lado": "home",
+              "odd": 2.075
+            },
+            {
+              "mercado": "Asian Corners",
+              "linha": "7.5",
+              "lado": "over",
+              "odd": 2.075
+            }
+          ]
+        },
+        "sentAt": 1794774860769,
+        "probModeloA": 0.5578,
+        "pushA": 0,
+        "valorA": 0.1574,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.7068,
+        "golos2pB": 1.6119,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794780056418
+      },
+      {
+        "fixtureId": 1644696,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4 cantos na 2ª parte (3 vias, 5 ou mais)",
+        "match": "Panama vs Curaçao",
+        "league": "CONCACAF Nations League",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.833,
+        "oddMinima": 1.8,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            1
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 6 cantos, 5 deles do Panamá, que carregou o jogo todo, e o Curaçao tem de ir para a frente porque perde a eliminatória. Em jogos assim a 2ª parte deu 5 ou mais cantos em 57% das vezes, e a casa paga isso a 1.83.",
+        "confianca": 56,
+        "probImplicita": 0.546,
+        "oddAoVivoMercado": {
+          "at": "2026-11-15T23:49:50+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Total Corners (3way) (2nd Half)",
+              "linha": "4",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "odd",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.833
+            }
+          ]
+        },
+        "sentAt": 1794786734167,
+        "probModeloA": 0.5433,
+        "pushA": 0.1711,
+        "valorA": 0.167,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5835,
+        "golos2pB": 1.3807,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1794791799208
+      },
+      {
+        "fixtureId": 1528984,
+        "jogo": "Spain vs England",
+        "liga": "UEFA Nations League",
+        "pais": "Selecções",
+        "ko": "2026-11-15T19:45:00+00:00",
+        "casa": "Spain",
+        "visitante": "England",
+        "pVisitanteMarca": 0.8595,
+        "pCasaMarca": 0.8404,
+        "pRegra": 0.7223,
+        "lambdaFora": 1.9627,
+        "lambdaCasa": 1.8351,
+        "foraMarcou": 5,
+        "foraJogos": 5,
+        "casaSofreu": 3,
+        "casaJogos": 5,
+        "taxaLiga": {
+          "casa": 1.54,
+          "fora": 1.5,
+          "n": 20
+        },
+        "odd1xbet": 1.58,
+        "pJustaFormula": 0.6062,
+        "pConsenso": 0.5878,
+        "nCasas": 6,
+        "evFormula": -0.0422,
+        "evConsenso": -0.0713,
+        "oddJusta": 1.65,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.76,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-15T04:16:19+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa nova e grave no ataque da Inglaterra: Kane e os avançados principais estão convocados, e as ausências conhecidas (Rashford, Palmer) são antigas ou escolhas técnicas. O onze ainda não estava publicado.",
+          "link": "https://www.sportsmole.co.uk/football/england/uefa-nations-league/news/palmer-white-king-decisions-england-squad-for-november-confirmed_608569.html",
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1528979,
+          "jogo": "Cyprus vs Montenegro",
+          "ko": "2026-11-15T14:00:00+00:00",
+          "pVisitanteMarca": 0.8259,
+          "pCasaMarca": 0.7902
+        },
+        "porque": "regra do dono: England marca fora 86%, Spain marca em casa 84%; sem valor (EV -4.2% na fórmula, -7.1% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Spain vs England",
+        "league": "UEFA Nations League",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.58,
+        "frase": "O England marcou em 5 dos últimos 5 jogos fora, e o Spain sofreu em 3 dos últimos 5 em casa.",
+        "sentAt": 1794727307177,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Spain vs England</b> (19:45)\n\n📊 England marca fora 86% · Spain marca em casa 84%\n💰 1xBet <b>@1.58</b> · justo @1.65 · sem valor hoje (stake 0)\n\nO England marcou em 5 dos últimos 5 jogos fora, e o Spain sofreu em 3 dos últimos 5 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-15T18:16:35.170Z",
+        "oddPertoDoJogo": 1.5,
+        "evPertoDoJogo": {
+          "formula": -0.0495,
+          "consenso": -0.059
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa grave confirmada de hoje ou de ontem à noite no ataque de Inglaterra; os resultados vinham de setembro ou de novembro de 2025, e o onze não estava publicado nas fontes.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1794791934178,
+        "pnlSombra": 0.29,
+        "odd_fecho_ref": 1.531,
+        "prob_fecho": 0.653,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-15T18:00:20+00:00",
+        "fecho_idade_min": 105,
+        "clv": 0.0318,
+        "prob_fecho_formula": 0.6394,
+        "clv_formula": 0.0102
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 1,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 25,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 4,
+          "green": 1,
+          "red": 3
+        }
+      },
+      "stake_total": 2,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 0.833,
+      "pnl_mensuravel": -1.167,
+      "roi_pct_mensuravel": -58.35,
+      "odds_registadas": 4,
+      "nota_mensuravel": "Quatro alertas do intervalo apostados: um GREEN (Tenerife marca na 2ª parte) e três RED de cantos. A sombra de golos do intervalo (Letónia-Arménia) e a ambas marcam da manhã (Espanha-Inglaterra, sem valor) ficam só na sombra."
+    },
+    "shadow_summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_nocional": 2,
+      "return_nocional": 1.58,
+      "pnl_nocional": -0.42
+    }
+  },
+  "balance": 31.47,
+  "notes": "Dia com -0.19 no pré-jogo e -1.167 no intervalo. O Espanha-Inglaterra acabou 2-3 e o ambas marcam passou (+0,31). O curto deu RED: a Espanha perdeu em casa e o Portimonense-Académica ficou em 0-0 (-0,5). A múltipla da jornada não saiu nem liquidou hoje. No intervalo, quatro apostas: o Tenerife marcou na 2ª parte (+0,333) e os três cantos falharam (-1,5). O corvo (França 2-1 e Bélgica 4-1) e o curto-vence ficaram em sombra, tal como a ambas marcam da manhã (Espanha-Inglaterra, sem valor). Banca 31.47 stakes."
+}
