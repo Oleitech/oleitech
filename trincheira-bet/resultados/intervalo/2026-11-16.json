@@ -1,0 +1,805 @@
+{
+  "date": "2026-11-16",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1545900,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "Namibia vs Cameroon",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 2,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          3
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 5 cantos ao intervalo (2-3), por isso bastam 5 na 2ª parte. Os Camarões ganham só por 1-0 e a Namíbia tem de ir à frente, e jogos assim dão 5 ou mais cantos na 2ª parte mais vezes do que o 2.00 dá a entender.",
+      "confianca": 55,
+      "probImplicita": 0.5,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T13:50:14+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Away Team Goals",
+            "linha": "1.5",
+            "lado": "under",
+            "odd": 2
+          },
+          {
+            "mercado": "3-Way Handicap",
+            "linha": "-1",
+            "lado": "away",
+            "odd": 2
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "9.5",
+            "lado": "over",
+            "odd": 2
+          },
+          {
+            "mercado": "To Win 2nd Half",
+            "linha": "-",
+            "lado": "away",
+            "odd": 2
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "1",
+            "odd": 2
+          },
+          {
+            "mercado": "Away Team Score a Goal (2nd Half)",
+            "linha": "-",
+            "lado": "no",
+            "odd": 2
+          }
+        ]
+      },
+      "sentAt": 1794837145372,
+      "probModeloA": 0.5134,
+      "pushA": 0,
+      "valorA": 0.0269,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.3847,
+      "golos2pB": 1.2917,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 3,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794842147312
+    },
+    {
+      "fixtureId": 1545906,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4.5 cantos na 2ª parte",
+      "match": "Sudan vs Senegal",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-2",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 2,
+      "odds": 1.8,
+      "oddMinima": 1.8,
+      "precoAoVivo": false,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          3
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já houve 7 cantos na 1ª parte, 4 do Sudão e 3 do Senegal. O Sudão joga em casa e a perder 0-2 vai ter de ir para a frente. Em jogos com 2 golos de diferença e 7 ou mais cantos ao intervalo, a 2ª parte deu 5 ou mais cantos em quase 6 de cada 10. Só se entra a 1.80 ou mais.",
+      "confianca": 57,
+      "probImplicita": 0.556,
+      "oddAoVivoMercado": null,
+      "sentAt": 1794837432753,
+      "probModeloA": 0.5783,
+      "pushA": 0,
+      "valorA": 0.0409,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.5743,
+      "golos2pB": 1.5181,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 4,
+      "pnl": 0.4,
+      "return": 0.9,
+      "resolvedAt": 1794842147312
+    },
+    {
+      "fixtureId": 1528987,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 2.5 golos no jogo",
+      "match": "Faroe Islands vs Moldova",
+      "league": "Liga das Nações (Liga C, Grupo 3)",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.1,
+      "oddMinima": 2,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          0
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "shortlist",
+      "justificacao": "As Faroé ganham 1-0 e mandam no jogo, com 5 remates à baliza contra 2 e 4 cantos contra 0. A Moldávia precisa do empate e vai ter de abrir. Bastam mais dois golos e a 2.10 paga bem.",
+      "confianca": 51,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T15:49:26+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Goals",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Which team will score the 6th corner? (2 Way)",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Last Corner",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794844304733,
+      "probModeloA": 0.4885,
+      "pushA": 0,
+      "valorA": 0.0259,
+      "aprovaA": true,
+      "probModeloB": 0.3735,
+      "pushB": 0,
+      "valorB": -0.2156,
+      "aprovaB": false,
+      "golos2pA": 1.6421,
+      "golos2pB": 1.301,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794849355607,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1545890,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 8.5 cantos no jogo",
+      "match": "Eritrea vs Guinea",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.975,
+      "oddMinima": 1.85,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          3
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Há 4 cantos ao intervalo (1-3), por isso bastam 5 na 2ª parte. Em quase 4 mil jogos com um golo de diferença ao intervalo e 4 a 6 cantos, saíram 5 ou mais cantos na 2ª parte em 57% deles. A Eritreia tem de ir atrás do empate e a Guiné tem 19 toques na área, o que pede mais do que 1.75.",
+      "confianca": 55,
+      "probImplicita": 0.506,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T16:49:17+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Handicap",
+            "linha": "-1.75",
+            "lado": "away",
+            "odd": 1.975
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "8.5",
+            "lado": "over",
+            "odd": 1.975
+          }
+        ]
+      },
+      "sentAt": 1794847853973,
+      "probModeloA": 0.5784,
+      "pushA": 0,
+      "valorA": 0.1424,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.629,
+      "golos2pB": 1.4277,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 3,
+      "pnl": 0.48750000000000004,
+      "return": 0.9875,
+      "resolvedAt": 1794852967638
+    },
+    {
+      "fixtureId": 1545888,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 6.5 cantos no jogo",
+      "match": "Central African Republic vs Benin",
+      "league": "Qualificação CAN (selecções)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.025,
+      "oddMinima": 1.95,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          2,
+          0
+        ],
+        "amarelos": [
+          2,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Na 1ª parte houve só 2 cantos, todos da República Centro-Africana. Faltam 5 na 2ª parte e, em jogos parecidos, isso aconteceu mais de metade das vezes. Com o Benim a ter de ir atrás do golo para ganhar fora, a 2.02 compensa.",
+      "confianca": 52,
+      "probImplicita": 0.494,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T16:51:34+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Corners",
+            "linha": "6.5",
+            "lado": "over",
+            "odd": 2.025
+          }
+        ]
+      },
+      "sentAt": 1794848019788,
+      "probModeloA": 0.5684,
+      "pushA": 0,
+      "valorA": 0.151,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.3426,
+      "golos2pB": 1.3649,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.4671,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 0,
+      "finalAway": 1,
+      "pnl": 0.5125,
+      "return": 1.0125,
+      "resolvedAt": 1794852967638
+    },
+    {
+      "fixtureId": 1545617,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3.5 golos no jogo",
+      "match": "Iceland vs Luxembourg",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.1,
+      "oddMinima": 2,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          0
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "A Islândia fez 8 remates à baliza contra 0 e o Luxemburgo não passa do meio-campo. Faltam dois golos e a Islândia continua a chegar com facilidade à área.",
+      "confianca": 50,
+      "probImplicita": 0.476,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T17:49:54+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Handicap",
+            "linha": "-3",
+            "lado": "home",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Over/Under Line",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Home 3rd Goal in Interval",
+            "linha": "70",
+            "lado": "yes",
+            "odd": 2.1
+          },
+          {
+            "mercado": "Next 10 Minutes Total",
+            "linha": "50",
+            "lado": "corners 3-way/under  0.5",
+            "odd": 2.1
+          }
+        ]
+      },
+      "sentAt": 1794851508962,
+      "probModeloA": 0.5376,
+      "pushA": 0,
+      "valorA": 0.129,
+      "aprovaA": true,
+      "probModeloB": 0.4992,
+      "pushB": 0,
+      "valorB": 0.0484,
+      "aprovaB": true,
+      "golos2pA": 1.8016,
+      "golos2pB": 1.6759,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794856626023,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1528989,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "Lithuania vs Liechtenstein",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.825,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          0
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "A Lituânia já tem 5 cantos contra 0 e 70% de bola, com o Liechtenstein todo encostado à área. Chegam mais 5 cantos na 2ª parte, ao ritmo da primeira.",
+      "confianca": 58,
+      "probImplicita": 0.548,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T17:48:48+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Over/Under Line",
+            "linha": "2.75",
+            "lado": "under",
+            "odd": 1.825
+          },
+          {
+            "mercado": "Asian Corners",
+            "linha": "9.5",
+            "lado": "over",
+            "odd": 1.825
+          }
+        ]
+      },
+      "sentAt": 1794851508984,
+      "probModeloA": 0.5811,
+      "pushA": 0,
+      "valorA": 0.0604,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.8684,
+      "golos2pB": 1.5736,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794856626023
+    },
+    {
+      "fixtureId": 1545618,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3.5 cantos no jogo",
+      "match": "Gibraltar vs Malta",
+      "league": "UEFA Nations League",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.666,
+      "oddMinima": 1.5,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          0
+        ],
+        "amarelos": [
+          2,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Não houve um único canto na 1ª parte, por isso a casa baixou a linha para 3.5. O Malta fez 10 remates contra 3 e quer o segundo golo, e o Gibraltar, em casa, vai ter de ir atrás do empate. Chegam 4 cantos na 2ª parte.",
+      "confianca": 66,
+      "probImplicita": 0.6,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T20:32:52+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Which team will score the 2nd goal?",
+            "linha": "-",
+            "lado": "2",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Last Corner",
+            "linha": "-",
+            "lado": "2",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Which team will score the 2nd corner? (2 Way)",
+            "linha": "-",
+            "lado": "2",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "3",
+            "lado": "over",
+            "odd": 1.666
+          }
+        ]
+      },
+      "sentAt": 1794861285913,
+      "probModeloA": 0.7255,
+      "pushA": 0,
+      "valorA": 0.2088,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.5902,
+      "golos2pB": 1.1942,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": true
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": 0.33299999999999996,
+      "return": 0.833,
+      "resolvedAt": 1794865590145
+    },
+    {
+      "fixtureId": 1545662,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "FYR Macedonia vs Slovenia",
+      "league": "Liga das Nações (Liga B, Grupo 1)",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.95,
+      "oddMinima": 1.8,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          4
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Já vão 5 cantos (4 da Eslovénia, 1 da Macedónia) e faltam 5 na 2ª parte. A Macedónia perde em casa com 58% de bola e vai ter de atacar, e a Eslovénia já mostrou que ganha cantos a jogar no contra-ataque.",
+      "confianca": 55,
+      "probImplicita": 0.513,
+      "oddAoVivoMercado": {
+        "at": "2026-11-16T20:32:34+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Corners",
+            "linha": "9.5",
+            "lado": "over",
+            "odd": 1.95
+          }
+        ]
+      },
+      "sentAt": 1794861298433,
+      "probModeloA": 0.5629,
+      "pushA": 0,
+      "valorA": 0.0976,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4521,
+      "golos2pB": 1.3184,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": 0.4868,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 3,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1794865590145
+    }
+  ]
+}

@@ -67,7 +67,38 @@
       "frase": "O Guinea marcou em 2 dos últimos 3 jogos fora, e o Eritrea sofreu em 2 dos últimos 3 em casa.",
       "sentAt": 1794813581914,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Eritrea vs Guinea</b> (16:00)\n\n📊 Guinea marca fora 77% · Eritrea marca em casa 67%\n💰 1xBet <b>@2.15</b> · justo @2.19 · sem valor hoje (stake 0)\n\nO Guinea marcou em 2 dos últimos 3 jogos fora, e o Eritrea sofreu em 2 dos últimos 3 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-16T14:37:27.215Z",
+      "oddPertoDoJogo": null,
+      "evPertoDoJogo": {
+        "formula": null,
+        "consenso": null
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Guirassy (coxa), Fadiga, Saidou Sow e Sylla estão fora desde a convocatória, antes do jogo de 12/11 em Conakry. Já são notícia antiga e estão no preço. Não encontrei nenhuma baixa nova de hoje nem de ontem à noite, nem o onze oficial do Cairo.",
+        "link": "https://foot-africa.com/en/news/absences-nightmare-strikes-guinea-syli-national-full-of-wounds-before-decisive-eritrea-battle-1414820/",
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 3,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794866584573,
+      "pnlSombra": 0.575,
+      "odd_fecho_ref": 2.28,
+      "prob_fecho": 0.4385,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-16T12:08:16+00:00",
+      "fecho_idade_min": 232,
+      "clv": -0.0571,
+      "prob_fecho_formula": 0.4569,
+      "clv_formula": -0.0176
     }
   ],
   "escolhidaEm": "2026-11-16T07:19:10.816Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-16T04:08:21+00:00",
     "mercado": "ambas sim",
     "odds": 3.4,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 0,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794866585265,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 4.262,
+    "prob_fecho": 0.2347,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-16T12:08:16+00:00",
+    "fecho_idade_min": 172,
+    "clv": -0.2022,
+    "prob_fecho_formula": 0.3243,
+    "clv_formula": 0.1025
   },
   "candidatasLive": [
     {

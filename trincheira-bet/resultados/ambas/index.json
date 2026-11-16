@@ -1,15 +1,15 @@
 {
-  "atualizado": "2026-11-16T07:19:41.920Z",
+  "atualizado": "2026-11-16T22:03:05.601Z",
   "units": "stakes",
   "resumo": {
     "escolhas": 7,
-    "liquidadas": 6,
-    "acertos": 6,
-    "clvMedio": -0.0301,
-    "nClv": 6,
+    "liquidadas": 7,
+    "acertos": 7,
+    "clvMedio": -0.034,
+    "nClv": 7,
     "comStake": 0,
     "pnl": 0,
-    "pnlSombra": 1.73,
+    "pnlSombra": 2.305,
     "live": {
       "escolhas": 0,
       "liquidadas": 0,
@@ -33,11 +33,11 @@
       "semValor": true,
       "pVisitanteMarca": 0.7676,
       "pCasaMarca": 0.666,
-      "result": null,
-      "final": null,
-      "clv": null,
+      "result": "GREEN",
+      "final": "1-3",
+      "clv": -0.0571,
       "pnl": 0,
-      "pnlSombra": null,
+      "pnlSombra": 0.575,
       "live": []
     },
     {
