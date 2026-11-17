@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-16T22:03:05.601Z",
+  "atualizado": "2026-11-17T07:18:54.682Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 7,
+    "escolhas": 8,
     "liquidadas": 7,
     "acertos": 7,
     "clvMedio": -0.034,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-17",
+      "jogo": "Singapore vs Brazil",
+      "liga": "Friendlies",
+      "ko": "2026-11-17T10:00:00+00:00",
+      "odd": 3.64,
+      "oddJusta": 3.8,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.9101,
+      "pCasaMarca": 0.7114,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-16",
       "jogo": "Eritrea vs Guinea",
