@@ -1,0 +1,215 @@
+{
+  "gerado": "2026-11-18T07:02:15.991Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492451,
+      "data": "2026-11-18T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Coritiba - Santos",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 32.1,
+          "previsao": 30.7,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": 1.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.679,
+            "prob_da_casa": 0.536,
+            "edge": 17.5,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.4,
+          "previsao": 9.8,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.601,
+            "prob_da_casa": 0.557,
+            "edge": 0.3,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492456,
+      "data": "2026-11-18T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Remo - Chapecoense-sc",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.2,
+          "previsao": 28.5,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.464,
+            "prob_da_casa": 0.515,
+            "edge": -16.5,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.8,
+          "previsao": 9.5,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.432,
+            "prob_da_casa": 0.464,
+            "edge": -13.6,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492452,
+      "data": "2026-11-18T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Cruzeiro - Palmeiras",
+      "amostra": {
+        "casa": 10,
+        "fora": 8,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 32.7,
+          "previsao": 31.1,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": 2.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.642,
+            "prob_da_casa": 0.464,
+            "edge": 28.3,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 11.3,
+          "previsao": 10.4,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.9,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.671,
+            "prob_da_casa": 0.536,
+            "edge": 16,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492453,
+      "data": "2026-11-18T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Flamengo - Atletico Paranaense",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.1,
+          "previsao": 28.4,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -0.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.527,
+            "prob_da_casa": 0.515,
+            "edge": -5.1,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.8,
+          "previsao": 10.1,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -0.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.385,
+            "prob_da_casa": 0.464,
+            "edge": -23,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

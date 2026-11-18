@@ -1,0 +1,71 @@
+{
+  "gerado": "2026-11-18T07:02:43.104Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492451,
+      "data": "2026-11-18T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Coritiba - Santos",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": -0.016,
+      "def": -0.263,
+      "zona": null
+    },
+    {
+      "fixture": 1492456,
+      "data": "2026-11-18T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Remo - Chapecoense-sc",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": -0.604,
+      "def": -0.469,
+      "zona": null
+    },
+    {
+      "fixture": 1492452,
+      "data": "2026-11-18T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Cruzeiro - Palmeiras",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": 0.778,
+      "def": -0.204,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.73,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1492453,
+      "data": "2026-11-18T23:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Flamengo - Atletico Paranaense",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": 0.925,
+      "def": -0.38,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    }
+  ]
+}

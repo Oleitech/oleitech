@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-18T01:18:27.739Z",
+  "atualizado": "2026-11-18T07:14:40.245Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 8,
+    "escolhas": 9,
     "liquidadas": 8,
     "acertos": 7,
     "clvMedio": -0.05,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-18",
+      "jogo": "Coritiba vs Santos",
+      "liga": "Serie A",
+      "ko": "2026-11-18T22:30:00+00:00",
+      "odd": 1.57,
+      "oddJusta": 1.7,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8164,
+      "pCasaMarca": 0.7549,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-17",
       "jogo": "Singapore vs Brazil",
