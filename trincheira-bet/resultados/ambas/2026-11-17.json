@@ -67,7 +67,36 @@
       "frase": "O Brazil marcou em 5 dos últimos 5 jogos fora, e o Singapore sofreu em 3 dos últimos 5 em casa.",
       "sentAt": 1794899934677,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Singapore vs Brazil</b> (10:00)\n\n📊 Brazil marca fora 91% · Singapore marca em casa 71%\n💰 1xBet <b>@3.64</b> · justo @3.80 · sem valor hoje (stake 0)\n\nO Brazil marcou em 5 dos últimos 5 jogos fora, e o Singapore sofreu em 3 dos últimos 5 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-17T08:38:02.192Z",
+      "oddPertoDoJogo": 3.64,
+      "evPertoDoJogo": {
+        "formula": null,
+        "consenso": -0.0421
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não há baixa nova e confirmada no ataque do Brasil. O Raphinha deve ter minutos limitados, o que é gestão de minutos e não baixa. Os desfalques de Cunha e João Pedro já eram conhecidos antes. Não encontrei o onze oficial.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 7,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1794964706634,
+      "pnlSombra": -0.5,
+      "odd_fecho_ref": 4.344,
+      "prob_fecho": 0.2302,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-17T08:02:20+00:00",
+      "fecho_idade_min": 118,
+      "clv": -0.1621
     }
   ],
   "escolhidaEm": "2026-11-17T07:18:09.621Z",
@@ -284,7 +313,23 @@
     "oddsUpdate": "2026-11-17T04:06:18+00:00",
     "mercado": "ambas sim",
     "odds": 2.98,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 0,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1794964707343,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 3.405,
+    "prob_fecho": 0.2937,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-17T18:00:21+00:00",
+    "fecho_idade_min": 120,
+    "clv": -0.1249,
+    "prob_fecho_formula": 0.3771,
+    "clv_formula": 0.1238
   },
   "candidatasLive": [
     {
