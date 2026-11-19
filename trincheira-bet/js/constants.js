@@ -248,3 +248,32 @@ function bustCache(url) {
   const bucket = Math.floor(Date.now() / 60000);
   return url + (url.includes('?') ? '&' : '?') + 'cb=' + bucket;
 }
+
+// 19/11/2026: o nginx do oleitech.pt responde 429 a rajadas — os ~132 dias de resultados pedidos de uma vez
+// levaram 116 429, incluindo as tips de hoje ("Ainda sem tips publicadas"). Todo o JSON do site passa aqui:
+// medido a 19/11: ~9 pedidos/s seguidos passam, 18/s levam 429 depois de ~17. Por isso: no maximo 3 em voo,
+// um pedido a cada 130 ms (~7,5/s), por ordem de chegada (quem pede primeiro sai primeiro), e 429/5xx/rede
+// tentam outra vez com espera crescente. Devolve o JSON, null num 404/403, e lanca se esgotar as tentativas.
+// `memo: true` partilha o pedido entre chamadores da mesma pagina (resultados: total do topo + lista de dias).
+const _jsonFila = { ativos: 0, espera: [], memo: new Map(), proximo: 0 };
+function fetchJSON(path, { memo = false, tentativas = 4 } = {}) {
+  if (memo && _jsonFila.memo.has(path)) return _jsonFila.memo.get(path);
+  const p = (async () => {
+    if (_jsonFila.ativos >= 3) await new Promise(r => _jsonFila.espera.push(r));
+    _jsonFila.ativos++;
+    try {
+      for (let i = 0; ; i++) {
+        const espera = _jsonFila.proximo - Date.now();
+        _jsonFila.proximo = Math.max(Date.now(), _jsonFila.proximo) + 130;
+        if (espera > 0) await new Promise(r => setTimeout(r, espera));
+        let res = null;
+        try { res = await fetch(bustCache(path), { cache: 'no-store' }); } catch (e) { if (i >= tentativas) throw e; }
+        if (res && res.status !== 429 && res.status < 500) return res.ok ? await res.json() : null;
+        if (i >= tentativas) throw new Error(`HTTP ${res ? res.status : 'rede'} em ${path}`);
+        await new Promise(r => setTimeout(r, 400 * 2 ** i + Math.random() * 300));
+      }
+    } finally { _jsonFila.ativos--; const prox = _jsonFila.espera.shift(); if (prox) prox(); }
+  })();
+  if (memo) { _jsonFila.memo.set(path, p); p.catch(() => _jsonFila.memo.delete(path)); }
+  return p;
+}

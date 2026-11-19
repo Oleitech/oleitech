@@ -54,10 +54,10 @@ const Layout = {
         </a>
       </nav>
       <div class="sidebar-footer">
-        ${totalPL != null ? `<div class="bankroll">
+        <div class="bankroll">
           <div class="label">P/L acumulado</div>
-          <div class="value num" style="color:${totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(totalPL, { signed: true })}</div>
-        </div>` : ''}
+          <div class="value num" style="color:${totalPL == null ? 'inherit' : totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${totalPL == null ? '—' : this.units(totalPL, { signed: true })}</div>
+        </div>
       </div>
     </aside>`;
   },
@@ -82,13 +82,14 @@ const Layout = {
   // Render mobile brand bar
   renderMobileBrand() {
     const p = this._totalPL;
-    const plHtml = p != null ? `
+    // 19/11/2026: o total chega depois (updateTotalPL) para nao atrasar a pagina; ate la mostra '—'
+    const plHtml = `
       <div class="mobile-bankroll">
         <div class="mb-label">P/L acumulado</div>
         <div class="mb-row">
-          <span class="mb-value num" style="color:${p >= 0 ? 'var(--green)' : 'var(--red)'}">${this.units(p, { signed: true })}</span>
+          <span class="mb-value num" style="color:${p == null ? 'inherit' : p >= 0 ? 'var(--green)' : 'var(--red)'}">${p == null ? '—' : this.units(p, { signed: true })}</span>
         </div>
-      </div>` : '';
+      </div>`;
     return `<div class="mobile-brand">
       ${this.logoMark(28)}
       <div class="brand-text">
@@ -336,16 +337,10 @@ const Layout = {
   // Shared: soma o P/L de todos os dias. Devolve stakes, ou null se falhar.
   async loadTotalPL() {
     try {
-      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
-      if (!res.ok) return null;
-      const index = await res.json();
-      if (!index.files?.length) return null;
-      const days = await Promise.all(index.files.map(async (f) => {
-        try {
-          const r = await fetch(bustCache('resultados/data/' + f), { cache: 'no-store' });
-          return r.ok ? await r.json() : null;
-        } catch (e) { return null; }
-      }));
+      const index = await fetchJSON('resultados/data/index.json', { memo: true });
+      if (!index?.files?.length) return null;
+      // fetchJSON limita a 5 em voo e repete os 429; um dia que falhe mesmo deixa o total por mostrar (null)
+      const days = await Promise.all(index.files.map(f => fetchJSON('resultados/data/' + f, { memo: true })));
       let totalPL = 0;
       for (const d of days) {
         if (!d) continue;

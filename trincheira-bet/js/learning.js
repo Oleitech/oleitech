@@ -36,15 +36,12 @@ const Learning = {
 
   async loadData() {
     try {
-      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
-      if (!res.ok) return;
-      const index = await res.json();
+      const index = await fetchJSON('resultados/data/index.json', { memo: true });
+      if (!index?.files) return;
 
       for (const file of index.files) {
-        try {
-          const r = await fetch(bustCache('resultados/data/' + file), { cache: 'no-store' });
-          if (r.ok) this.data.push(await r.json());
-        } catch { /* skip */ }
+        const d = await fetchJSON('resultados/data/' + file, { memo: true }).catch(() => null); // 19/11: 5 em voo, repete 429
+        if (d) this.data.push(d);
       }
     } catch {
       // Fallback: use History seedData if available

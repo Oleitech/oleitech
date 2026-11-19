@@ -12,10 +12,9 @@ const LivePage = {
   activeFilter: 'all',
 
   async init() {
-    const totalPL = await Layout.loadTotalPL();
-
-    // Build layout
-    const main = Layout.init('live', totalPL);
+    // 19/11/2026: o total (~132 dias, a ~7 pedidos/s) chega depois; a pagina nao espera por ele
+    const main = Layout.init('live', null);
+    Layout.loadTotalPL().then(t => Layout.updateTotalPL(t)).catch(() => {});
     if (!main) return;
 
     // Build page structure

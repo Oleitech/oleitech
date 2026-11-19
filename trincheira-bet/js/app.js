@@ -29,8 +29,13 @@ const App = {
   async init() {
     try {
       console.log('[TB] Initializing...');
-      const totalPL = await Layout.loadTotalPL();
-      const main = Layout.init('tips', totalPL);
+      // 19/11/2026: as tips de hoje pedem-se ANTES do historico (a fila do fetchJSON e por ordem de chegada)
+      // e nao dependem dele: se o total falhar, o topo fica sem banca e as tips aparecem na mesma.
+      this._hojeP = fetchJSON(this.getTodayPath());
+      this._hojeP.catch(() => {});
+      this._emCursoP = this.loadMultiplasEmCurso();
+      const main = Layout.init('tips', null);
+      Layout.loadTotalPL().then(t => Layout.updateTotalPL(t)).catch(() => {}); // ~132 dias a ~7/s: chega depois
       if (!main) { console.error('[TB] Layout.init failed'); return; }
 
       this.buildTipsPage(main);
@@ -179,8 +184,7 @@ const App = {
   // ponytail: 7 dias para tras chegam (a jornada mais longa e sex–seg); o liquida olha 14.
   async loadMultiplasEmCurso() {
     const dias = [1, 2, 3, 4, 5, 6, 7].map(i => this.getLocalDateStr(-i));
-    const docs = await Promise.all(dias.map(d => fetch(bustCache(`tips/${d}.json`), { cache: 'no-store' })
-      .then(r => (r.ok ? r.json() : null)).catch(() => null)));
+    const docs = await Promise.all(dias.map(d => fetchJSON(`tips/${d}.json`).catch(() => null)));
     return docs.flatMap(p => (Array.isArray(p?.accumulators) ? p.accumulators : [])
       .filter(a => a.label === 'multipla-jornada' && a.shadow !== true && !a.result));
   },
@@ -188,11 +192,9 @@ const App = {
   async loadCuratedTips() {
     this.showStatus('A carregar tips curadas...', 'loading');
     let payload = null;
-    const emCurso = this.loadMultiplasEmCurso();
+    const emCurso = this._emCursoP || this.loadMultiplasEmCurso();
     try {
-      const res = await fetch(bustCache(this.getTodayPath()), { cache: 'no-store' });
-      if (res.ok) payload = await res.json();
-      else if (res.status !== 404) throw new Error(`HTTP ${res.status}`);
+      payload = await (this._hojeP || fetchJSON(this.getTodayPath())); // null = 404 (ainda sem tips)
     } catch (e) {
       console.warn('[TB] Failed to load curated tips:', e);
     }
@@ -220,9 +222,8 @@ const App = {
   async loadAmbas() {
     let idx;
     try {
-      const res = await fetch(bustCache('resultados/ambas/index.json'), { cache: 'no-store' });
-      if (!res.ok) return; // ainda sem historico: a seccao fica escondida
-      idx = await res.json();
+      idx = await fetchJSON('resultados/ambas/index.json');
+      if (!idx) return; // ainda sem historico: a seccao fica escondida
     } catch (e) { console.warn('[TB] ambas:', e); return; }
     const dias = Array.isArray(idx?.dias) ? idx.dias : [];
     const esc = (v) => String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

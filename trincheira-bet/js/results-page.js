@@ -53,9 +53,8 @@ const ResultsPage = {
   async renderAmbas(main) {
     let idx;
     try {
-      const res = await fetch(bustCache('resultados/ambas/index.json'), { cache: 'no-store' });
-      if (!res.ok) return;
-      idx = await res.json();
+      idx = await fetchJSON('resultados/ambas/index.json');
+      if (!idx) return;
     } catch (e) { console.warn('[TB] ambas:', e); return; }
     const linhas = (Array.isArray(idx?.dias) ? idx.dias : [])
       .flatMap(d => [...(d.jogo ? [{ ...d, alerta: false }] : []), ...(d.live || []).map(x => ({ ...x, date: d.date, alerta: true }))])
@@ -94,19 +93,11 @@ const ResultsPage = {
       // para stakes (31/08/2026) o efeito e pior, porque uma cache morna
       // mistura ficheiros novos (stakes) com antigos (euros) e o total do topo
       // fica sem sentido.
-      const res = await fetch(bustCache('resultados/data/index.json'), { cache: 'no-store' });
-      if (!res.ok) return;
-      const index = await res.json();
-      if (!index.files || !index.files.length) return;
+      const index = await fetchJSON('resultados/data/index.json', { memo: true });
+      if (!index?.files?.length) return;
 
-      // Load all day files in parallel
-      const promises = index.files.map(async (f) => {
-        try {
-          const r = await fetch(bustCache('resultados/data/' + f), { cache: 'no-store' });
-          if (!r.ok) return null;
-          return await r.json();
-        } catch (e) { return null; }
-      });
+      // 19/11/2026: via fetchJSON (5 em voo, repete os 429) e partilhado com o total do topo (memo)
+      const promises = index.files.map(f => fetchJSON('resultados/data/' + f, { memo: true }).catch(() => null));
 
       const results = await Promise.all(promises);
       this.days = results.filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
