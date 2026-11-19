@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-19",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1650501,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 7.5 cantos no jogo",
+      "match": "Penarol vs Cerro Largo",
+      "league": "Uruguai, Primera División",
+      "elapsed": 45,
+      "score": "2-0",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.2,
+      "oddMinima": 1.95,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          0
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Há 3 cantos ao intervalo, todos do Peñarol, e a aposta precisa de mais 5 na 2ª parte. Em jogos com dois golos de vantagem e poucos cantos na 1ª parte, saíram 5 ou mais em 55% das vezes, e a casa paga isto a 2.20.",
+      "confianca": 52,
+      "probImplicita": 0.455,
+      "oddAoVivoMercado": {
+        "at": "2026-11-19T20:18:25+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Last Corner",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.2
+          },
+          {
+            "mercado": "Over/Under Line",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.2
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.2
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "7",
+            "lado": "over",
+            "odd": 2.2
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "7.5",
+            "lado": "over",
+            "odd": 2.2
+          }
+        ]
+      },
+      "sentAt": 1795119601764,
+      "probModeloA": 0.5016,
+      "pushA": 0,
+      "valorA": 0.1035,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4281,
+      "golos2pB": 1.4543,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 0,
+      "pnl": 0.6000000000000001,
+      "return": 1.1,
+      "resolvedAt": 1795124827577
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "date": "2026-11-19",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.55,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "Bet365",
+        "notes": "Três pernas de três países: uma vence, um empate devolve e um mais de 1.5, sem ambas marcam. A alternativa ao mais de 1.5 do Amiens era o ambas marcam do Al Ahli-Al Shamal (1.44), que tem H2H e forma mais fracos (3/5 contra 4/5 e 5/5).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1551379,
+            "match": "FC Fredericia vs Hillerød",
+            "league": "1. Division (Dinamarca), 15.ª jornada",
+            "leagueId": 120,
+            "pick": "FC Fredericia vence",
+            "odds": 1.33,
+            "kickoff": "2026-11-19T18:00:00Z",
+            "score": 65,
+            "tese": "O Fredericia é terceiro e não perdeu em casa esta época; o Hillerød não ganhou nenhum dos sete jogos fora. Em Outubro o Fredericia foi lá ganhar 2-0.",
+            "factors": [
+              "Fredericia, 1. Division 2026/27 em casa (API /standings e /fixtures league=120, 7 jogos): 4V 3E 0D, 13-4",
+              "Hillerød, 1. Division 2026/27 fora (API, 7 jogos): 0V 2E 5D, 6-12",
+              "Forma Fredericia últimos 5 oficiais (API /fixtures last=8, só 1. Division): 0-1 Vejle, 3-1 AB, 1-2 Esbjerg, 3-0 Hobro, 2-0 em Hillerød — 3/5 vitórias",
+              "H2H últimos 5 (API /headtohead, todos 1. Division): 2-0 F (10/2026), 0-2 H (03/2025), 3-0 F, 1-1, 3-2 F — 3/5 a favor",
+              "API /predictions: 50% casa, 50% empate, conselho Fredericia ou empate; API /injuries vazio",
+              "Odds (API /odds): Bet365 1.33, Pinnacle 1.33, 1xBet 1.31"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-19T07:10:45.146Z",
+            "odd_justa_ref": 1.358,
+            "prob_justa": 0.7365,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0205,
+            "justo_at": "2026-11-19T04:12:13+00:00",
+            "clv_api": 0.0114,
+            "fecho_idade_min": 346,
+            "odd_fecho_ref": 1.315,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T12:14:22+00:00",
+            "fecho_aproximado": true,
+            "clv": 0.0114,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "4-1",
+            "note": "Fredericia 4-1 Hillerød: vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1611454,
+            "match": "JS Kabylie vs USM Alger",
+            "league": "Ligue 1 (Argélia), 10.ª jornada",
+            "leagueId": 186,
+            "pick": "JS Kabylie vence, empate devolve (DNB)",
+            "odds": 1.5,
+            "kickoff": "2026-11-19T19:00:00Z",
+            "score": 65,
+            "tese": "A JSK ganhou os quatro jogos em casa esta época e sofreu um golo em Tizi-Ouzou; o empate devolve cobre um USM Alger que chega em boa forma.",
+            "factors": [
+              "JS Kabylie, Ligue 1 Argélia 2026/27 em casa (API /standings e /fixtures league=186, 4 jogos): 4V 0E 0D, 7-1",
+              "USM Alger, Ligue 1 2026/27 fora (API, 4 jogos): 2V 1E 1D, 5-3; ganhou a Supertaça CAF 3-1 ao Sundowns a 08/11 (API)",
+              "Forma JSK últimos 5 oficiais (API, só Ligue 1): 0-0 Akbou, 1-0 El Biar, 3-0 Khenchela, 4-1 Biskra, 1-1 Sétif — 5/5 sem perder",
+              "H2H últimos 5 (API /headtohead, todos Ligue 1): 1-0 JSK fora (03/2026), 1-2 USMA (12/2025), 1-0 JSK fora, 0-0, 2-2 — 4/5 sem a JSK perder",
+              "API /predictions: 45% casa, 45% empate, 10% fora; API /injuries vazio",
+              "Data e local confirmados por Foot Africa (19/11, 20h, Tizi-Ouzou, sem jogo à porta fechada)",
+              "Odds (API /odds): Bet365 DNB 1.50; 1X2 Pinnacle 2.20/2.82/3.82"
+            ],
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-19T07:10:45.148Z",
+            "odd_justa_ref": 1.555,
+            "prob_justa": 0.6432,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:DNB home",
+            "ev_justo": -0.0351,
+            "justo_at": "2026-11-19T04:24:14+00:00",
+            "clv_api": -0.0372,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.558,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T18:00:12+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0372,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-0",
+            "note": "JS Kabylie 2-0 USM Alger: vence, sem devolução."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1574786,
+            "match": "Amiens vs Caen",
+            "league": "National (França), 13.ª jornada",
+            "leagueId": 63,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-11-19T19:45:00Z",
+            "score": 65,
+            "tese": "O Caen teve dois golos ou mais em todos os cinco jogos fora e o Amiens vem de sete jogos seguidos com dois ou mais (campeonato e taça). Quatro dos últimos cinco H2H passaram a linha.",
+            "factors": [
+              "Caen, National 2026/27 fora (API /fixtures league=63, 5 jogos): 4-3, 0-2, 2-0, 3-2, 2-2 — mais de 1.5 em 5/5",
+              "Amiens, National 2026/27 em casa (API, 5 jogos): 0-1, 3-0, 2-0, 3-0, 1-1 — mais de 1.5 em 4/5; época toda 8/12",
+              "Forma últimos 5 oficiais (API, National + Taça de França): Amiens 5/5 mais de 1.5; Caen 4/5",
+              "H2H últimos 5 (API /headtohead, todos Ligue 2): 2-1, 2-1, 2-0, 0-0, 1-3 — 4/5 mais de 1.5",
+              "Cuidado: Amiens tem a melhor defesa da prova, 5 sofridos em 12 (API /standings); apwin: Amiens 1.33 marcados e 0.42 sofridos por jogo",
+              "Data confirmada pela API e pelo apwin (quinta 19/11, Stade de la Licorne); o Sofascore dava sábado — vale a da API",
+              "API /injuries vazio; Odds (API /odds): Bet365 1.28"
+            ],
+            "odd_nossa": 1.28,
+            "justo_gravado_em": "2026-11-19T07:10:45.149Z",
+            "odd_justa_ref": 1.326,
+            "prob_justa": 0.7539,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.035,
+            "justo_at": "2026-11-19T04:17:14+00:00",
+            "clv_api": -0.0266,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.315,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T18:00:12+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0266,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-1",
+            "note": "Amiens 2-1 Caen: 3 golos, passa o mais de 1.5."
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "effective_odds": 2.55,
+        "return": 1.275,
+        "pnl": 0.775,
+        "note": "Três pernas certas: Fredericia 4-1, JS Kabylie 2-0 e Amiens-Caen 2-1."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.275,
+      "accumulators_pnl": 0.775,
+      "combined_stake": 0.5,
+      "combined_return": 1.275,
+      "combined_pnl": 0.775,
+      "combined_roi_pct": 155
+    },
+    "sombra": [],
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.55,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "Bet365",
+        "notes": "Igual ao real: o mais de 1.5 do Amiens-Caen era a única perna trocável, e nenhuma vence da lista curta passou o B1 (MC Alger com H2H 2 vitórias em 4, Peñarol sem vitórias nos últimos 5, Celje e Košice sem H2H possível em jogo de taça contra a 2.ª divisão).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1551379,
+            "match": "FC Fredericia vs Hillerød",
+            "league": "1. Division (Dinamarca), 15.ª jornada",
+            "leagueId": 120,
+            "pick": "FC Fredericia vence",
+            "odds": 1.33,
+            "kickoff": "2026-11-19T18:00:00Z",
+            "score": 65,
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-19T07:10:45.149Z",
+            "odd_justa_ref": 1.358,
+            "prob_justa": 0.7365,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0205,
+            "justo_at": "2026-11-19T04:12:13+00:00",
+            "clv_api": 0.0114,
+            "fecho_idade_min": 346,
+            "odd_fecho_ref": 1.315,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T12:14:22+00:00",
+            "fecho_aproximado": true,
+            "clv": 0.0114,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "4-1",
+            "note": "Fredericia 4-1 Hillerød: vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1611454,
+            "match": "JS Kabylie vs USM Alger",
+            "league": "Ligue 1 (Argélia), 10.ª jornada",
+            "leagueId": 186,
+            "pick": "JS Kabylie vence, empate devolve (DNB)",
+            "odds": 1.5,
+            "kickoff": "2026-11-19T19:00:00Z",
+            "score": 65,
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-19T07:10:45.149Z",
+            "odd_justa_ref": 1.555,
+            "prob_justa": 0.6432,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:DNB home",
+            "ev_justo": -0.0351,
+            "justo_at": "2026-11-19T04:24:14+00:00",
+            "clv_api": -0.0372,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.558,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T18:00:12+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0372,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-0",
+            "note": "JS Kabylie 2-0 USM Alger: vence, sem devolução."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1574786,
+            "match": "Amiens vs Caen",
+            "league": "National (França), 13.ª jornada",
+            "leagueId": 63,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.28,
+            "kickoff": "2026-11-19T19:45:00Z",
+            "score": 65,
+            "odd_nossa": 1.28,
+            "justo_gravado_em": "2026-11-19T07:10:45.149Z",
+            "odd_justa_ref": 1.326,
+            "prob_justa": 0.7539,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.035,
+            "justo_at": "2026-11-19T04:17:14+00:00",
+            "clv_api": -0.0266,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.315,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-19T18:00:12+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0266,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-1",
+            "note": "Amiens 2-1 Caen: 3 golos, passa o mais de 1.5."
+          }
+        ],
+        "result": "GREEN",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 1.55
+      }
+    ],
+    "sombra_summary": {
+      "curto_vence": {
+        "total": 1,
+        "green": 1,
+        "red": 0,
+        "iguais": 1,
+        "pnl_se_apostado": 1.55
+      }
+    },
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chega a 75 com a investigação completa. Na banda estavam a JSK com empate devolve (1.50, já no curto, sem golos esperados nem antevisões com proveniência), o MC Alger a vencer (1.40, H2H 2 vitórias em 4), o Peñarol a vencer (1.45, nenhuma vitória nos últimos 5), o ambas marcam do Al Ahli-Al Shamal (1.44, forma 3/5 dos dois lados, liga sem dados de golos esperados), o Vitória ou empate (1.50, uma vitória em oito) e o Bragantino ou empate (1.44, sem perder em só 9 de 17 fora)."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1650501,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Penarol vs Cerro Largo",
+        "league": "Uruguai, Primera División",
+        "elapsed": 45,
+        "score": "2-0",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.2,
+        "oddMinima": 1.95,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Há 3 cantos ao intervalo, todos do Peñarol, e a aposta precisa de mais 5 na 2ª parte. Em jogos com dois golos de vantagem e poucos cantos na 1ª parte, saíram 5 ou mais em 55% das vezes, e a casa paga isto a 2.20.",
+        "confianca": 52,
+        "probImplicita": 0.455,
+        "oddAoVivoMercado": {
+          "at": "2026-11-19T20:18:25+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Last Corner",
+              "linha": "-",
+              "lado": "2",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Over/Under Line",
+              "linha": "3.5",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "3.5",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "7",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "7.5",
+              "lado": "over",
+              "odd": 2.2
+            }
+          ]
+        },
+        "sentAt": 1795119601764,
+        "probModeloA": 0.5016,
+        "pushA": 0,
+        "valorA": 0.1035,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4281,
+        "golos2pB": 1.4543,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 0,
+        "pnl": 0.6000000000000001,
+        "return": 1.1,
+        "resolvedAt": 1795124827577
+      },
+      {
+        "fixtureId": 1597962,
+        "jogo": "Al Ahli Doha vs Al Shamal",
+        "liga": "Stars League",
+        "pais": "Qatar",
+        "ko": "2026-11-19T15:30:00+00:00",
+        "casa": "Al Ahli Doha",
+        "visitante": "Al Shamal",
+        "pVisitanteMarca": 0.7722,
+        "pCasaMarca": 0.8628,
+        "pRegra": 0.6662,
+        "lambdaFora": 1.4793,
+        "lambdaCasa": 1.9862,
+        "foraMarcou": 3,
+        "foraJogos": 4,
+        "casaSofreu": 2,
+        "casaJogos": 4,
+        "taxaLiga": {
+          "casa": 1.679,
+          "fora": 1.619,
+          "n": 54
+        },
+        "odd1xbet": 1.38,
+        "pJustaFormula": 0.6731,
+        "pConsenso": 0.6626,
+        "nCasas": 6,
+        "evFormula": -0.0711,
+        "evConsenso": -0.0856,
+        "oddJusta": 1.49,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.56,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-19T04:21:14+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa nova no ataque do Al Shamal para hoje ou ontem à noite. A única lesão encontrada é a de Hrimat (médio, ligamento cruzado, noticiada a 29/08), que já é antiga e está no preço.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1492458,
+          "jogo": "Vasco DA Gama vs Internacional",
+          "ko": "2026-11-19T22:30:00+00:00",
+          "pVisitanteMarca": 0.6723,
+          "pCasaMarca": 0.805
+        },
+        "porque": "regra do dono: Al Shamal marca fora 77%, Al Ahli Doha marca em casa 86%; sem valor (EV -7.1% na fórmula, -8.6% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Al Ahli Doha vs Al Shamal",
+        "league": "Stars League",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.38,
+        "frase": "O Al Shamal marcou em 3 dos últimos 4 jogos fora, e o Al Ahli Doha sofreu em 2 dos últimos 4 em casa.",
+        "sentAt": 1795073610303,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Al Ahli Doha vs Al Shamal</b> (15:30)\n\n📊 Al Shamal marca fora 77% · Al Ahli Doha marca em casa 86%\n💰 1xBet <b>@1.38</b> · justo @1.49 · sem valor hoje (stake 0)\n\nO Al Shamal marcou em 3 dos últimos 4 jogos fora, e o Al Ahli Doha sofreu em 2 dos últimos 4 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-19T14:02:23.044Z",
+        "oddPertoDoJogo": 1.36,
+        "evPertoDoJogo": {
+          "formula": -0.0779,
+          "consenso": -0.0922
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa nova e confirmada no ataque do Al Shamal para hoje ou ontem à noite; a lesão de Harimat (ligamento cruzado) é de agosto e já está no preço.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795130979965,
+        "pnlSombra": 0.19,
+        "odd_fecho_ref": 1.432,
+        "prob_fecho": 0.6983,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-19T12:34:14+00:00",
+        "fecho_idade_min": 176,
+        "clv": -0.0364,
+        "prob_fecho_formula": 0.678,
+        "clv_formula": -0.0644
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_total": 0.5,
+      "stake_mensuravel": 0.5,
+      "return_mensuravel": 1.1,
+      "pnl_mensuravel": 0.6,
+      "roi_pct_mensuravel": 120,
+      "odds_registadas": 1
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 1.38,
+      "pnl_nocional": 0.38
+    }
+  },
+  "balance": 34.397,
+  "notes": "Dia de uma só aposta pré-jogo: o curto a 2.55 (meia stake) entrou inteiro, com Fredericia 4-1, JS Kabylie 2-0 e Amiens-Caen 2-1, e rendeu +0,78 stakes. Ao intervalo, o mais de 7.5 cantos do Peñarol a 2.20 também passou (+0,60). A 🟢🟢 da manhã (Al Ahli Doha-Al Shamal, 1-1) saiu sem valor e fica em sombra, verde. Dia +1,38 stakes, banca 34,40 stakes."
+}

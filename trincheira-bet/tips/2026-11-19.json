@@ -41,7 +41,15 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "1:home",
           "ev_justo": -0.0205,
-          "justo_at": "2026-11-19T04:12:13+00:00"
+          "justo_at": "2026-11-19T04:12:13+00:00",
+          "clv_api": 0.0114,
+          "fecho_idade_min": 346,
+          "odd_fecho_ref": 1.315,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T12:14:22+00:00",
+          "fecho_aproximado": true,
+          "clv": 0.0114
         },
         {
           "sport": "football",
@@ -71,7 +79,15 @@
           "fonte_justa": "Pinnacle 1X2",
           "mercado_ref": "1:DNB home",
           "ev_justo": -0.0351,
-          "justo_at": "2026-11-19T04:24:14+00:00"
+          "justo_at": "2026-11-19T04:24:14+00:00",
+          "clv_api": -0.0372,
+          "fecho_idade_min": 60,
+          "odd_fecho_ref": 1.558,
+          "fonte_fecho": "Pinnacle 1X2",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T18:00:12+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0372
         },
         {
           "sport": "football",
@@ -101,7 +117,15 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "5:over 1.5",
           "ev_justo": -0.035,
-          "justo_at": "2026-11-19T04:17:14+00:00"
+          "justo_at": "2026-11-19T04:17:14+00:00",
+          "clv_api": -0.0266,
+          "fecho_idade_min": 105,
+          "odd_fecho_ref": 1.315,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T18:00:12+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0266
         }
       ]
     },
@@ -133,7 +157,15 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "1:home",
           "ev_justo": -0.0205,
-          "justo_at": "2026-11-19T04:12:13+00:00"
+          "justo_at": "2026-11-19T04:12:13+00:00",
+          "clv_api": 0.0114,
+          "fecho_idade_min": 346,
+          "odd_fecho_ref": 1.315,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T12:14:22+00:00",
+          "fecho_aproximado": true,
+          "clv": 0.0114
         },
         {
           "sport": "football",
@@ -153,7 +185,15 @@
           "fonte_justa": "Pinnacle 1X2",
           "mercado_ref": "1:DNB home",
           "ev_justo": -0.0351,
-          "justo_at": "2026-11-19T04:24:14+00:00"
+          "justo_at": "2026-11-19T04:24:14+00:00",
+          "clv_api": -0.0372,
+          "fecho_idade_min": 60,
+          "odd_fecho_ref": 1.558,
+          "fonte_fecho": "Pinnacle 1X2",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T18:00:12+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0372
         },
         {
           "sport": "football",
@@ -173,7 +213,15 @@
           "fonte_justa": "Pinnacle",
           "mercado_ref": "5:over 1.5",
           "ev_justo": -0.035,
-          "justo_at": "2026-11-19T04:17:14+00:00"
+          "justo_at": "2026-11-19T04:17:14+00:00",
+          "clv_api": -0.0266,
+          "fecho_idade_min": 105,
+          "odd_fecho_ref": 1.315,
+          "fonte_fecho": "Pinnacle",
+          "fecho_fonte": "api",
+          "fecho_at": "2026-11-19T18:00:12+00:00",
+          "fecho_aproximado": false,
+          "clv": -0.0266
         }
       ]
     }

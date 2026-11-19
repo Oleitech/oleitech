@@ -61,12 +61,18 @@
       "justo_at": "2026-11-16T00:12:16+00:00",
       "clv_api": -0.038,
       "fecho_idade_min": 90,
-      "odd_fecho_ref": 1.684,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 1.648,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-16T18:00:13+00:00",
       "fecho_aproximado": false,
-      "clv": -0.038
+      "clv": -0.017,
+      "odd_fecho_api": 1.684,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.017,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "SP2: Albacete - Celta B",
+      "fecho_real_em": "2026-11-19T23:29:52.661Z"
     }
   ],
   "sombra": [

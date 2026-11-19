@@ -67,7 +67,38 @@
       "frase": "O Al Shamal marcou em 3 dos últimos 4 jogos fora, e o Al Ahli Doha sofreu em 2 dos últimos 4 em casa.",
       "sentAt": 1795073610303,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Al Ahli Doha vs Al Shamal</b> (15:30)\n\n📊 Al Shamal marca fora 77% · Al Ahli Doha marca em casa 86%\n💰 1xBet <b>@1.38</b> · justo @1.49 · sem valor hoje (stake 0)\n\nO Al Shamal marcou em 3 dos últimos 4 jogos fora, e o Al Ahli Doha sofreu em 2 dos últimos 4 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-19T14:02:23.044Z",
+      "oddPertoDoJogo": 1.36,
+      "evPertoDoJogo": {
+        "formula": -0.0779,
+        "consenso": -0.0922
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma baixa nova e confirmada no ataque do Al Shamal para hoje ou ontem à noite; a lesão de Harimat (ligamento cruzado) é de agosto e já está no preço.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795130979965,
+      "pnlSombra": 0.19,
+      "odd_fecho_ref": 1.432,
+      "prob_fecho": 0.6983,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-19T12:34:14+00:00",
+      "fecho_idade_min": 176,
+      "clv": -0.0364,
+      "prob_fecho_formula": 0.678,
+      "clv_formula": -0.0644
     }
   ],
   "escolhidaEm": "2026-11-19T07:33:08.308Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-19T04:18:14+00:00",
     "mercado": "ambas sim",
     "odds": 1.89,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 2,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795130980668,
+    "pnlSombra": 0.445,
+    "odd_fecho_ref": 1.946,
+    "prob_fecho": 0.5138,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-19T12:27:14+00:00",
+    "fecho_idade_min": 178,
+    "clv": -0.0289,
+    "prob_fecho_formula": 0.5398,
+    "clv_formula": 0.0202
   },
   "candidatasLive": [
     {
