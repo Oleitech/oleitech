@@ -1,0 +1,10 @@
+# 19/11/2026: o nginx do oleitech.pt (cPanel, a frente do Apache) guardava o HTML e o JSON por url exacto
+# durante horas/dias e ignorava o no-cache do pedido; o dono via codigo velho. Com este cabecalho na RESPOSTA
+# o nginx volta a perguntar ao Apache em cada pedido (medido a 19/11: com ele o ficheiro vem fresco logo
+# apos o FTP; sem ele fica o antigo). O Apache responde 304 pelo Last-Modified, e barato.
+# Os JS levam ?v= e podem ficar em cache.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
