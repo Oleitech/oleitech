@@ -1,15 +1,15 @@
 {
-  "atualizado": "2026-11-18T07:14:40.245Z",
+  "atualizado": "2026-11-19T07:33:30.312Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 9,
-    "liquidadas": 8,
+    "escolhas": 10,
+    "liquidadas": 9,
     "acertos": 7,
-    "clvMedio": -0.05,
-    "nClv": 8,
+    "clvMedio": -0.0499,
+    "nClv": 9,
     "comStake": 0,
     "pnl": 0,
-    "pnlSombra": 1.805,
+    "pnlSombra": 1.305,
     "live": {
       "escolhas": 0,
       "liquidadas": 0,
@@ -23,6 +23,24 @@
   },
   "dias": [
     {
+      "date": "2026-11-19",
+      "jogo": "Al Ahli Doha vs Al Shamal",
+      "liga": "Stars League",
+      "ko": "2026-11-19T15:30:00+00:00",
+      "odd": 1.38,
+      "oddJusta": 1.49,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.7722,
+      "pCasaMarca": 0.8628,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
+    {
       "date": "2026-11-18",
       "jogo": "Coritiba vs Santos",
       "liga": "Serie A",
@@ -33,11 +51,11 @@
       "semValor": true,
       "pVisitanteMarca": 0.8164,
       "pCasaMarca": 0.7549,
-      "result": null,
-      "final": null,
-      "clv": null,
+      "result": "RED",
+      "final": "0-1",
+      "clv": -0.0494,
       "pnl": 0,
-      "pnlSombra": null,
+      "pnlSombra": -0.5,
       "live": []
     },
     {

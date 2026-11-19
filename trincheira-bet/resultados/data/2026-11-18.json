@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-18",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 0,
+      "accumulators_green": 0,
+      "accumulators_red": 0,
+      "accumulators_stake": 0,
+      "accumulators_return": 0,
+      "accumulators_pnl": 0,
+      "combined_stake": 0,
+      "combined_return": 0,
+      "combined_pnl": 0,
+      "combined_roi_pct": 0
+    },
+    "sombra": [],
+    "sombra_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "pnl_se_apostadas": 0,
+      "corvo": {
+        "total": 0,
+        "green": 0,
+        "red": 0,
+        "pnl_se_apostado": 0
+      },
+      "curto_vence": {
+        "total": 0,
+        "green": 0,
+        "red": 0,
+        "iguais": 0,
+        "pnl_se_apostado": 0
+      }
+    },
+    "sombra_accumulators": [],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna entre 1.40 e 1.60 chega a 75 com a investigação completa. Na banda estavam o Palmeiras com dupla hipótese em casa do Cruzeiro (1.40 Bet365 / 1.45 1xBet), que perde os centrais habituais (Gómez e Maurício nas selecções, Murilo lesionado) e apanha um Cruzeiro com seis vitórias seguidas em casa; o Mallorca e o Sabadell a vencer na Taça do Rei (1.53-1.55), jogos de rotação contra equipas da Segunda Federación sem histórico nenhum; e o Remo a vencer (1.57), com 4 vitórias em 17 jogos em casa e já quase despromovido."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1492452,
+        "jogo": "Cruzeiro vs Palmeiras",
+        "liga": "Serie A (Brasil)",
+        "ko": "2026-11-18T23:30:00+00:00",
+        "mercado": "casa",
+        "odd": 2.81,
+        "casa": "1xBet",
+        "casaDoDono": true,
+        "oddMinima": 2.77,
+        "pJustaPinnacle": 0.3616,
+        "fonteJusta": "Pinnacle",
+        "pAjustada": 0.372,
+        "ajusteCortado": false,
+        "ev": 0.0453,
+        "confianca": 37,
+        "noticia": "Palmeiras encara o Cruzeiro com desfalques e de olho na briga pelo título",
+        "resumo": "Murilo, titular da defesa, fica de fora por estar focado na final da Libertadores. Paulinho e Piquerez também são baixas confirmadas por lesão. Jhon Arias, Flaco López e Giay regressam das selecções e são dúvida, e Gustavo Gómez e Maurício (Paraguai) não chegam a tempo. Cinco destas baixas já tinham saído a 17/11 na Itatiaia, por isso só Murilo, Paulinho e Piquerez podem ser novidade.",
+        "link": "https://www.cnnbrasil.com.br/esportes/brasileirao/palmeiras-encara-o-cruzeiro-com-desfalques-e-de-olho-na-briga-pelo-titulo/",
+        "fonte": "CNN Brasil",
+        "pais": "Brazil",
+        "publicadaEm": "2026-11-18T11:36:00.000Z",
+        "horaExacta": true,
+        "oddsUpdate": "2026-11-18T08:00:15+00:00",
+        "depoisDasOdds": true,
+        "frase": "O Palmeiras chega ao Mineirão sem o Murilo, poupado para a final da Libertadores, e sem o Piquerez, lesionado, numa defesa que já não contava com o Gustavo Gómez nem com o Maurício. Com a defesa toda remendada, o Cruzeiro tem a porta aberta.",
+        "stake": 0.5,
+        "origem": "noticia",
+        "evMinimo": 0.03,
+        "n_no_jogo": 1,
+        "ligacao_ao_anterior": null,
+        "noticia_nova": null,
+        "porque_nova": null,
+        "strategy": "📰 NOTÍCIA",
+        "match": "Cruzeiro vs Palmeiras",
+        "league": "Serie A (Brasil)",
+        "market": "Vitória do Cruzeiro",
+        "odds": 2.81,
+        "porque": "A notícia saiu às 11:36Z, depois do oddsUpdate das 08:00Z. As baixas de Gómez, Maurício, Arias e Flaco já tinham saído a 17/11 e entram no preço. Novidade possível: Murilo (central titular, poupado para a final), Piquerez (lateral esquerdo titular, lesionado) e Paulinho (que pode ser uma lesão antiga, por isso conta pouco). Sem Murilo e sem Gómez, o Palmeiras fica sem os dois centrais titulares. Ajuste moderado de +1,0 pt na vitória do Cruzeiro: 0,3616 → 0,372. A 1xBet a 2,81 dá 2,81 × 0,372 = 1,045, acima de 1,03. A vantagem é curta e depende de o Murilo ser mesmo novidade: se o mercado já co",
+        "sentAt": 1795007043688,
+        "odd_fecho_ref": 2.781,
+        "prob_fecho": 0.3596,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-18T18:00:15+00:00",
+        "fecho_idade_min": 330,
+        "clv": 0.0104,
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0.905,
+        "return": 1.405,
+        "resolvedAt": 1795071637570
+      },
+      {
+        "fixtureId": 1492451,
+        "jogo": "Coritiba vs Santos",
+        "liga": "Serie A",
+        "pais": "Brazil",
+        "ko": "2026-11-18T22:30:00+00:00",
+        "casa": "Coritiba",
+        "visitante": "Santos",
+        "pVisitanteMarca": 0.8164,
+        "pCasaMarca": 0.7549,
+        "pRegra": 0.6163,
+        "lambdaFora": 1.6951,
+        "lambdaCasa": 1.4061,
+        "foraMarcou": 10,
+        "foraJogos": 10,
+        "casaSofreu": 9,
+        "casaJogos": 10,
+        "taxaLiga": {
+          "casa": 1.528,
+          "fora": 1.137,
+          "n": 341
+        },
+        "odd1xbet": 1.57,
+        "pJustaFormula": 0.5886,
+        "pConsenso": 0.589,
+        "nCasas": 6,
+        "evFormula": -0.0759,
+        "evConsenso": -0.0753,
+        "oddJusta": 1.7,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.75,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-18T02:04:14+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Sem baixa grave no ataque do Santos: o Neymar está disponível e o Gabriel Barbosa (15 golos no Brasileirão) deve ser o ponta de lança. Estão fora Brazão, Veríssimo, Barreal e Vinicius Lira, que não são avançados. Não encontrei o onze oficial, só a previsão da Sports Mole.",
+          "link": "https://www.sportsmole.co.uk/football/coritiba/preview/coritiba-vs-santos-prediction-team-news-lineups_609230.html",
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1492453,
+          "jogo": "Flamengo vs Atletico Paranaense",
+          "ko": "2026-11-18T23:30:00+00:00",
+          "pVisitanteMarca": 0.6886,
+          "pCasaMarca": 0.8591
+        },
+        "porque": "regra do dono: Santos marca fora 82%, Coritiba marca em casa 75%; sem valor (EV -7.6% na fórmula, -7.5% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Coritiba vs Santos",
+        "league": "Serie A",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.57,
+        "frase": "O Santos marcou em 10 dos últimos 10 jogos fora, e o Coritiba sofreu em 9 dos últimos 10 em casa.",
+        "sentAt": 1794986080237,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Coritiba vs Santos</b> (22:30)\n\n📊 Santos marca fora 82% · Coritiba marca em casa 75%\n💰 1xBet <b>@1.57</b> · justo @1.70 · sem valor hoje (stake 0)\n\nO Santos marcou em 10 dos últimos 10 jogos fora, e o Coritiba sofreu em 9 dos últimos 10 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-18T21:01:45.623Z",
+        "oddPertoDoJogo": 1.56,
+        "evPertoDoJogo": {
+          "formula": -0.0702,
+          "consenso": -0.075
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei baixa grave nova no ataque do Santos: o Neymar está disponível, com a suspensão reduzida, e a provável equipa inclui Neymar, Coutinho, Everton e Barbosa. As ausências do Santos referidas não são identificadas como avançados, e o onze oficial não estava confirmado.",
+          "link": "https://www.sportsmole.co.uk/football/coritiba/preview/coritiba-vs-santos-prediction-team-news-lineups_609230.html",
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "odd_fecho_ref": 1.652,
+        "prob_fecho": 0.6054,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-18T18:00:15+00:00",
+        "fecho_idade_min": 270,
+        "clv": -0.0494,
+        "prob_fecho_formula": 0.5961,
+        "clv_formula": -0.0642,
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795071637064,
+        "pnlSombra": -0.5
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "📰 NOTÍCIA": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_total": 0.5,
+      "stake_mensuravel": 0.5,
+      "return_mensuravel": 1.405,
+      "pnl_mensuravel": 0.905,
+      "roi_pct_mensuravel": 181,
+      "odds_registadas": 1
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 0,
+      "by_strategy": {
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 0,
+      "pnl_nocional": -1
+    }
+  },
+  "balance": 33.022,
+  "notes": "Sem tips pré-jogo, dia de saída da paragem das selecções. A notícia do Cruzeiro-Palmeiras deu GREEN a 2,81 (2-1), +0,905 stakes, e levou a banca para 33.022 stakes. Sem alertas do intervalo. Em sombra, a ambas marcam da manhã (Coritiba-Santos) deu RED. Nenhuma múltipla viva, sem pendentes."
+}

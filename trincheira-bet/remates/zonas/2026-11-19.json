@@ -1,0 +1,29 @@
+{
+  "gerado": "2026-11-19T07:01:55.499Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1492458,
+      "data": "2026-11-19T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vasco DA Gama - Internacional",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": -0.213,
+      "def": 0.161,
+      "zona": null
+    },
+    {
+      "fixture": 1492459,
+      "data": "2026-11-19T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Vitoria - RB Bragantino",
+      "jogos_tabela": 34,
+      "amostra_fraca": false,
+      "atq": -0.331,
+      "def": 0.338,
+      "zona": null
+    }
+  ]
+}

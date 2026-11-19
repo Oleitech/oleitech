@@ -67,7 +67,38 @@
       "frase": "O Santos marcou em 10 dos últimos 10 jogos fora, e o Coritiba sofreu em 9 dos últimos 10 em casa.",
       "sentAt": 1794986080237,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Coritiba vs Santos</b> (22:30)\n\n📊 Santos marca fora 82% · Coritiba marca em casa 75%\n💰 1xBet <b>@1.57</b> · justo @1.70 · sem valor hoje (stake 0)\n\nO Santos marcou em 10 dos últimos 10 jogos fora, e o Coritiba sofreu em 9 dos últimos 10 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-18T21:01:45.623Z",
+      "oddPertoDoJogo": 1.56,
+      "evPertoDoJogo": {
+        "formula": -0.0702,
+        "consenso": -0.075
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei baixa grave nova no ataque do Santos: o Neymar está disponível, com a suspensão reduzida, e a provável equipa inclui Neymar, Coutinho, Everton e Barbosa. As ausências do Santos referidas não são identificadas como avançados, e o onze oficial não estava confirmado.",
+        "link": "https://www.sportsmole.co.uk/football/coritiba/preview/coritiba-vs-santos-prediction-team-news-lineups_609230.html",
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "odd_fecho_ref": 1.652,
+      "prob_fecho": 0.6054,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-18T18:00:15+00:00",
+      "fecho_idade_min": 270,
+      "clv": -0.0494,
+      "prob_fecho_formula": 0.5961,
+      "clv_formula": -0.0642,
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795071637064,
+      "pnlSombra": -0.5
     }
   ],
   "escolhidaEm": "2026-11-18T07:14:11.945Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-18T04:39:14+00:00",
     "mercado": "ambas sim",
     "odds": 1.98,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 0,
+    "finalAway": 3,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795046151653,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 2.124,
+    "prob_fecho": 0.4707,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-18T16:40:15+00:00",
+    "fecho_idade_min": 80,
+    "clv": -0.0679,
+    "prob_fecho_formula": 0.5026,
+    "clv_formula": -0.0048
   },
   "candidatasLive": [
     {
