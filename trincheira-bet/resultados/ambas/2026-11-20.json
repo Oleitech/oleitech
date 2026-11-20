@@ -67,7 +67,38 @@
       "frase": "O FC Viktoria Köln marcou em 5 dos últimos 6 jogos fora, e o Havelse sofreu em 7 dos últimos 7 em casa.",
       "sentAt": 1795159309498,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Havelse vs FC Viktoria Köln</b> (18:00)\n\n📊 FC Viktoria Köln marca fora 89% · Havelse marca em casa 76%\n💰 1xBet <b>@1.44</b> · justo @1.54 · sem valor hoje (stake 0)\n\nO FC Viktoria Köln marcou em 5 dos últimos 6 jogos fora, e o Havelse sofreu em 7 dos últimos 7 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-20T16:33:07.904Z",
+      "oddPertoDoJogo": 1.44,
+      "evPertoDoJogo": {
+        "formula": -0.0668,
+        "consenso": -0.0931
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Duas pesquisas só devolveram páginas antigas (jogo de outubro de 2025). Não encontrei nenhuma baixa confirmada no ataque do Viktoria Köln para hoje, nem o onze oficial.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 6,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795218714573,
+      "pnlSombra": 0.22,
+      "odd_fecho_ref": 1.541,
+      "prob_fecho": 0.649,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-20T17:50:16+00:00",
+      "fecho_idade_min": 10,
+      "clv": -0.0655,
+      "prob_fecho_formula": 0.6359,
+      "clv_formula": -0.0843
     }
   ],
   "escolhidaEm": "2026-11-20T07:21:10.855Z",
@@ -284,7 +315,21 @@
     "oddsUpdate": "2026-11-20T01:50:15+00:00",
     "mercado": "ambas sim",
     "odds": 2.58,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 1,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795218715249,
+    "pnlSombra": 0.79,
+    "odd_fecho_ref": 2.765,
+    "prob_fecho": 0.3617,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-20T18:50:17+00:00",
+    "fecho_idade_min": 115,
+    "clv": -0.0667
   },
   "candidatasLive": [
     {

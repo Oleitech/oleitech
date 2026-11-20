@@ -1,0 +1,880 @@
+{
+  "units": "stakes",
+  "date": "2026-11-20",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "over25",
+        "marketLabel": "Mais/menos 2.5 golos",
+        "pick": "Mais de 2.5 golos",
+        "fixtureId": 1564415,
+        "home": {
+          "name": "Barnsley",
+          "logo": "https://media.api-sports.io/football/teams/747.png"
+        },
+        "away": {
+          "name": "Sheffield Wednesday",
+          "logo": "https://media.api-sports.io/football/teams/74.png"
+        },
+        "match": "Barnsley vs Sheffield Wednesday",
+        "league": "League One (Inglaterra), 16.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/41.png",
+        "kickoff": "2026-11-20T20:00:00Z",
+        "odds": 1.48,
+        "bookmaker": "Bet365",
+        "score": 70,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "modelo": "gap",
+        "gap": {
+          "pressao": 43.7,
+          "prob_modelo": 0.713,
+          "prob_mercado": 0.634,
+          "valor": 0.055
+        },
+        "tese": "Dérbi de South Yorkshire em Oakwell, e o Barnsley em casa defende muito mal: uma baliza a zero em 12 jogos da League One e quase dois golos esperados contra por jogo em casa. Nos últimos 10 em casa, seis passaram dos dois golos e em sete marcaram as duas equipas. O Wednesday fora também marca e sofre. Nenhuma das listas de baixas tem nomes, mas também não há notícias de equipa publicadas, por isso fica a meia stake de sempre neste mercado.",
+        "factors": [
+          "Barnsley em casa, últimos 10 da League One 2026/27 (SportsGambler): 1V-3E-6D, 0,90 marcados e 2,00 sofridos por jogo, mais de 2.5 em 6/10, ambas marcam em 7/10",
+          "Sheffield Wednesday fora, últimos 10 da League One 2026/27 (SportsGambler): 3V-2E-5D, 0,90 marcados e 1,60 sofridos, mais de 2.5 em 5/10, ambas marcam em 5/10",
+          "FootyStats, League One 2026/27: Barnsley 1,73 xG a favor e 1,71 contra (1,98 contra em casa), 1 baliza a zero em 12 jogos; Wednesday fora 1,40 xG a favor e 1,60 contra, 3 balizas a zero em 13",
+          "Forma API, últimos 6 oficiais: Barnsley 1-2 (L1), 5-2 (EFL Trophy), 7-2 (Taça), 1-1, 1-2, 1-2 (L1) — 5/6 com 3+ golos; Wednesday 3-0 (L1), 0-4 (EFL Trophy), 1-2 (Taça), 1-1, 1-1, 0-2 (L1) — 3/6",
+          "H2H oficial (API): 0-1 (final do play-off, 05/2023), 4-2 (03/2023) e 0-2 (09/2022), todos League One; 1-2 e 1-2 (Championship 2020/21) — mais de 2.5 em 3/5",
+          "Preço: Bet365 1.48 (valor +5,5% contra o modelo), Pinnacle 1.49, Marathonbet 1.44; modelo 71,3% contra 63,4% do mercado",
+          "Baixas: nenhuma listada na API (injuries por jogo) nem no SportsGambler — as duas fontes batem; sem antevisão com notícias de equipa à hora da publicação",
+          "Terceiros: SportsGambler vai no Barnsley +0.25 e mete o mais de 2.5 (1.46) no bet builder, resultado 2-1"
+        ],
+        "sources": [
+          "API-Football — /fixtures (team last 6), /fixtures/headtohead, /injuries?fixture=1564415, /odds todas as casas",
+          "SportsGambler — barnsley-vs-sheffield-wednesday-prediction-lineups-odds-2026-11-20",
+          "FootyStats — clubes barnsley-fc-215 e sheffield-wednesday-fc-214 (via pesquisa B)",
+          "golos/previsoes/2026-11-20.json (modelo de golos)",
+          "Forebet — 403, sem dados"
+        ],
+        "odd_nossa": 1.48,
+        "justo_gravado_em": "2026-11-20T07:18:15.107Z",
+        "odd_justa_ref": 1.537,
+        "prob_justa": 0.6504,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "5:over 2.5",
+        "ev_justo": -0.0373,
+        "justo_at": "2026-11-20T06:00:35+00:00",
+        "clv_api": -0.0205,
+        "fecho_idade_min": 120,
+        "odd_fecho_ref": 1.511,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-20T18:00:21+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0205,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0.74,
+        "pnl": 0.24,
+        "final_score": "1-2",
+        "note": "Barnsley 1-2 Sheffield Wednesday: 3 golos, passa o mais de 2.5."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.92,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Três vence de três ligas diferentes (Japão, Áustria, Suíça), todas na 1xBet. Com as odds da Bet365 o trio ia a 3.01, fora da banda; na 1xBet fica em 2.92. Nenhuma perna de ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1556143,
+            "match": "Kashima vs Shimizu S-pulse",
+            "league": "J1 League (Japão), 15.ª jornada",
+            "leagueId": 98,
+            "pick": "Kashima vence",
+            "odds": 1.48,
+            "kickoff": "2026-11-20T10:00:00Z",
+            "score": 65,
+            "tese": "O Kashima ganhou 5 dos 7 jogos em casa nesta J1 e o Shimizu vem de quatro derrotas seguidas sem marcar (0-1, 0-2, 0-4, 0-5).",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Kashima 3-2 e 3-2 (Taça da Liga), 0-2 (J1), 0-0 (Champions asiática), 4-1 (J1) — 3/5 vitórias",
+              "Shimizu, últimos 5 J1 (API): 0-1, 0-2, 0-4, 0-5, 2-2 — 15.º com 10 golos em 14 jogos",
+              "H2H oficial (API, J1): 1-1 fora, 1-0, 1-0 fora, 2-1, 4-0 fora — 4/5 vitórias do Kashima",
+              "SportsGambler: Kashima -1 asiático; 8V-0E-2D em casa nos últimos 10; sem baixas nomeadas",
+              "Preço: 1xBet 1.48, Pinnacle 1.48, Bet365 1.45"
+            ],
+            "odd_nossa": 1.48,
+            "justo_gravado_em": "2026-11-20T07:18:15.112Z",
+            "odd_justa_ref": 1.503,
+            "prob_justa": 0.6652,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0155,
+            "justo_at": "2026-11-20T04:27:16+00:00",
+            "clv_api": -0.016,
+            "fecho_idade_min": 91,
+            "odd_fecho_ref": 1.504,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T08:29:29+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.016,
+            "result": "RED",
+            "hit": false,
+            "final_score": "1-1",
+            "note": "Kashima 1-1 Shimizu: empate, o Kashima não vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1567961,
+            "match": "Rapid Wien II vs FC BW Linz",
+            "league": "2. Liga (Áustria), 13.ª jornada",
+            "leagueId": 219,
+            "pick": "FC BW Linz vence",
+            "odds": 1.4,
+            "kickoff": "2026-11-20T17:30:00Z",
+            "score": 65,
+            "tese": "O BW Linz lidera a 2. Liga com 35-6 em golos e o Rapid II, penúltimo, ainda não ganhou em casa.",
+            "factors": [
+              "Classificação 2. Liga 2026/27 (API /standings, 12 jogos): BW Linz 1.º, 31 pts, 35-6, fora 4V-1E-1D; Rapid Wien II 15.º, 8 pts, 0 vitórias em 5 em casa",
+              "Forma API, últimos 5 oficiais: BW Linz 3-0, 6-0 fora, 1-0 fora, 4-1, 1-1 fora — 4/5 vitórias",
+              "H2H oficial (API, 2. Liga 2021-2023): 1-0 fora, 4-1, 3-0 fora, 1-0, 5-2 fora — 5/5 vitórias do BW Linz",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.40, Pinnacle 1.44, Bet365 1.44"
+            ],
+            "odd_nossa": 1.4,
+            "justo_gravado_em": "2026-11-20T07:18:15.114Z",
+            "odd_justa_ref": 1.476,
+            "prob_justa": 0.6777,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0512,
+            "justo_at": "2026-11-20T06:00:36+00:00",
+            "clv_api": 0.0249,
+            "fecho_idade_min": 8,
+            "odd_fecho_ref": 1.366,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T17:22:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0249,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-6",
+            "note": "BW Linz ganhou 6-1 fora."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1555082,
+            "match": "Stade Lausanne-Ouchy vs SC Kriens",
+            "league": "Challenge League (Suíça), 14.ª jornada",
+            "leagueId": 208,
+            "pick": "Stade Lausanne-Ouchy vence",
+            "odds": 1.41,
+            "kickoff": "2026-11-20T18:30:00Z",
+            "score": 65,
+            "tese": "O Lausanne-Ouchy lidera a Challenge League sem perder (28-6 em golos) e em casa leva 5 vitórias e 1 empate.",
+            "factors": [
+              "Classificação Challenge League 2026/27 (API /standings, 13 jogos): SLO 1.º, 31 pts, 28-6, casa 5V-1E-0D; Kriens 4.º, 19 pts, fora 1V-3E-2D",
+              "Forma API, últimos 5 oficiais: SLO 5-1 fora, 3-2, 0-0, 3-0 (Taça), 3-0 fora — 4/5 vitórias",
+              "H2H oficial (API, Challenge League): 2-0 fora (09/2026), 1-2 fora, 2-1, 0-1 fora, 5-0 — 3/5 vitórias do SLO",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.41, Pinnacle 1.44, Bet365 1.44"
+            ],
+            "odd_nossa": 1.41,
+            "justo_gravado_em": "2026-11-20T07:18:15.115Z",
+            "odd_justa_ref": 1.475,
+            "prob_justa": 0.6779,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0442,
+            "justo_at": "2026-11-20T04:29:16+00:00",
+            "clv_api": -0.0356,
+            "fecho_idade_min": 30,
+            "odd_fecho_ref": 1.462,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T18:00:21+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0356,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "3-1",
+            "note": "Lausanne-Ouchy 3-1 Kriens: vence."
+          }
+        ],
+        "result": "RED",
+        "hit": false,
+        "effective_odds": 0,
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Perdeu: o Kashima só empatou (1-1); Rapid II-BW Linz 1-6 e Lausanne-Ouchy 3-1 passaram."
+      }
+    ],
+    "summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "hit_rate": 100,
+      "total_stake": 0.5,
+      "total_return": 0.74,
+      "pnl": 0.24,
+      "roi_pct": 48,
+      "accumulators_total": 1,
+      "accumulators_green": 0,
+      "accumulators_red": 1,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 0,
+      "accumulators_pnl": -0.5,
+      "combined_stake": 1,
+      "combined_return": 0.74,
+      "combined_pnl": -0.26,
+      "combined_roi_pct": -26
+    },
+    "sombra": [],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna de 1.40 a 1.60 chega a 75 com investigação completa. O mais de 2.5 do Barnsley (1.48) é tip de modelo com 70 e contexto parcial; o Kashima (1.45 na Bet365) só tem a curadoria do curto; os jogos com antevisão completa ficaram abaixo."
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.92,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao curto real: as três pernas já são vence, não há nada para trocar.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1556143,
+            "match": "Kashima vs Shimizu S-pulse",
+            "league": "J1 League (Japão), 15.ª jornada",
+            "leagueId": 98,
+            "pick": "Kashima vence",
+            "odds": 1.48,
+            "kickoff": "2026-11-20T10:00:00Z",
+            "score": 65,
+            "tese": "O Kashima ganhou 5 dos 7 jogos em casa nesta J1 e o Shimizu vem de quatro derrotas seguidas sem marcar (0-1, 0-2, 0-4, 0-5).",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Kashima 3-2 e 3-2 (Taça da Liga), 0-2 (J1), 0-0 (Champions asiática), 4-1 (J1) — 3/5 vitórias",
+              "Shimizu, últimos 5 J1 (API): 0-1, 0-2, 0-4, 0-5, 2-2 — 15.º com 10 golos em 14 jogos",
+              "H2H oficial (API, J1): 1-1 fora, 1-0, 1-0 fora, 2-1, 4-0 fora — 4/5 vitórias do Kashima",
+              "SportsGambler: Kashima -1 asiático; 8V-0E-2D em casa nos últimos 10; sem baixas nomeadas",
+              "Preço: 1xBet 1.48, Pinnacle 1.48, Bet365 1.45"
+            ],
+            "odd_nossa": 1.48,
+            "justo_gravado_em": "2026-11-20T07:18:15.115Z",
+            "odd_justa_ref": 1.503,
+            "prob_justa": 0.6652,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0155,
+            "justo_at": "2026-11-20T04:27:16+00:00",
+            "clv_api": -0.016,
+            "fecho_idade_min": 91,
+            "odd_fecho_ref": 1.504,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T08:29:29+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.016,
+            "result": "RED",
+            "hit": false,
+            "final_score": "1-1",
+            "note": "Kashima 1-1 Shimizu: empate, o Kashima não vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1567961,
+            "match": "Rapid Wien II vs FC BW Linz",
+            "league": "2. Liga (Áustria), 13.ª jornada",
+            "leagueId": 219,
+            "pick": "FC BW Linz vence",
+            "odds": 1.4,
+            "kickoff": "2026-11-20T17:30:00Z",
+            "score": 65,
+            "tese": "O BW Linz lidera a 2. Liga com 35-6 em golos e o Rapid II, penúltimo, ainda não ganhou em casa.",
+            "factors": [
+              "Classificação 2. Liga 2026/27 (API /standings, 12 jogos): BW Linz 1.º, 31 pts, 35-6, fora 4V-1E-1D; Rapid Wien II 15.º, 8 pts, 0 vitórias em 5 em casa",
+              "Forma API, últimos 5 oficiais: BW Linz 3-0, 6-0 fora, 1-0 fora, 4-1, 1-1 fora — 4/5 vitórias",
+              "H2H oficial (API, 2. Liga 2021-2023): 1-0 fora, 4-1, 3-0 fora, 1-0, 5-2 fora — 5/5 vitórias do BW Linz",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.40, Pinnacle 1.44, Bet365 1.44"
+            ],
+            "odd_nossa": 1.4,
+            "justo_gravado_em": "2026-11-20T07:18:15.115Z",
+            "odd_justa_ref": 1.476,
+            "prob_justa": 0.6777,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0512,
+            "justo_at": "2026-11-20T06:00:36+00:00",
+            "clv_api": 0.0249,
+            "fecho_idade_min": 8,
+            "odd_fecho_ref": 1.366,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T17:22:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0249,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-6",
+            "note": "BW Linz ganhou 6-1 fora."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1555082,
+            "match": "Stade Lausanne-Ouchy vs SC Kriens",
+            "league": "Challenge League (Suíça), 14.ª jornada",
+            "leagueId": 208,
+            "pick": "Stade Lausanne-Ouchy vence",
+            "odds": 1.41,
+            "kickoff": "2026-11-20T18:30:00Z",
+            "score": 65,
+            "tese": "O Lausanne-Ouchy lidera a Challenge League sem perder (28-6 em golos) e em casa leva 5 vitórias e 1 empate.",
+            "factors": [
+              "Classificação Challenge League 2026/27 (API /standings, 13 jogos): SLO 1.º, 31 pts, 28-6, casa 5V-1E-0D; Kriens 4.º, 19 pts, fora 1V-3E-2D",
+              "Forma API, últimos 5 oficiais: SLO 5-1 fora, 3-2, 0-0, 3-0 (Taça), 3-0 fora — 4/5 vitórias",
+              "H2H oficial (API, Challenge League): 2-0 fora (09/2026), 1-2 fora, 2-1, 0-1 fora, 5-0 — 3/5 vitórias do SLO",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.41, Pinnacle 1.44, Bet365 1.44"
+            ],
+            "odd_nossa": 1.41,
+            "justo_gravado_em": "2026-11-20T07:18:15.115Z",
+            "odd_justa_ref": 1.475,
+            "prob_justa": 0.6779,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0442,
+            "justo_at": "2026-11-20T04:29:16+00:00",
+            "clv_api": -0.0356,
+            "fecho_idade_min": 30,
+            "odd_fecho_ref": 1.462,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T18:00:21+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0356,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "3-1",
+            "note": "Lausanne-Ouchy 3-1 Kriens: vence."
+          }
+        ],
+        "result": "RED",
+        "hit": false,
+        "effective_odds": 0,
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: Kashima vs Shimizu S-pulse."
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.74,
+        "score": 70,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra. Sobreposição: o Rapid II-BW Linz também está no curto, com outro mercado (BW Linz vence).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1575221,
+            "match": "Bayern München vs 1. FC Köln",
+            "league": "Bundesliga (Alemanha), 10.ª jornada",
+            "leagueId": 78,
+            "pick": "Bayern München vence e menos de 6.5 golos",
+            "odds": 1.31,
+            "kickoff": "2026-11-20T19:30:00Z",
+            "score": 72,
+            "tese": "O Bayern ganha quase sempre ao Köln e o risco é só uma goleada de sete; em casa a média é alta (5,6 golos por jogo nos últimos 10), por isso a linha é a 6.5.",
+            "factors": [
+              "H2H oficial (API): 5-1, 3-1 fora, 4-1 fora (Taça), 2-0, 1-0 fora — 5/5 vitórias do Bayern com menos de 6.5",
+              "Forma API, últimos 5 oficiais: 2-1 fora, 2-0 fora (Champions), 2-2, 6-1 (Taça), 3-1 fora — vitória com menos de 6.5 em 3/5",
+              "SportsGambler: Bayern em casa 8V-2E-0D nos últimos 10, 5,60 golos por jogo; Köln fora 0V-5E-5D",
+              "Baixas nas duas fontes (API e SportsGambler): Neuer, Davies, Gnabry, Saibari e Luis Díaz no Bayern; Skhiri, Hübers, Rondic e Van den Berg no Köln"
+            ],
+            "odd_nossa": 1.31,
+            "justo_gravado_em": "2026-11-20T07:18:15.118Z",
+            "justo_motivo": "nenhuma casa com o mercado completo",
+            "fecho_motivo": "nenhuma casa com o mercado completo",
+            "result": "RED",
+            "hit": false,
+            "final_score": "1-1",
+            "note": "Bayern 1-1 Köln: empate, o Bayern não vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1567961,
+            "match": "Rapid Wien II vs FC BW Linz",
+            "league": "2. Liga (Áustria), 13.ª jornada",
+            "leagueId": 219,
+            "pick": "Rapid Wien II marca no máximo 1 golo (menos de 1.5 golos)",
+            "odds": 1.33,
+            "kickoff": "2026-11-20T17:30:00Z",
+            "score": 70,
+            "tese": "O Rapid II marcou 12 golos em 12 jogos e a defesa do BW Linz sofreu 6 em 12.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Rapid II: 1, 1, 2, 0, 1 golos marcados — no máximo 1 em 4/5",
+              "H2H oficial (API, 2. Liga 2021-2023): Rapid II marcou 0, 1, 0, 0, 2 — no máximo 1 em 4/5",
+              "BW Linz 35-6 em golos em 12 jogos (API /standings)",
+              "Baixas: nenhuma listada na API; jogo sem antevisão no SportsGambler, só uma fonte"
+            ],
+            "odd_nossa": 1.33,
+            "justo_gravado_em": "2026-11-20T07:18:15.118Z",
+            "odd_justa_ref": 1.402,
+            "prob_justa": 0.7131,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "16:under 1.5",
+            "ev_justo": -0.0515,
+            "justo_at": "2026-11-20T06:00:36+00:00",
+            "clv_api": 0.016,
+            "fecho_idade_min": 8,
+            "odd_fecho_ref": 1.309,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-20T17:22:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.016,
+            "result": "RED",
+            "hit": false,
+            "final_score": "1-6",
+            "note": "Rapid II 1-6 BW Linz: 7 golos, falha o menos de 1.5."
+          }
+        ],
+        "result": "RED",
+        "hit": false,
+        "effective_odds": 0,
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: Bayern München vs 1. FC Köln e Rapid Wien II vs FC BW Linz."
+      }
+    ],
+    "sombra_summary": {
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "iguais": 1,
+        "pnl_se_apostado": -1
+      },
+      "corvo": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1
+      }
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1556143,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 10.5 cantos no jogo",
+        "match": "Kashima vs Shimizu S-pulse",
+        "league": "J1 League (Japão), 15.ª jornada",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.8,
+        "oddMinima": 1.75,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "boletim",
+        "justificacao": "Já vão 6 cantos, 4 deles do Kashima. Em casa, com 61% de bola e a precisar de ganhar, o Kashima vai carregar. Bastam 5 cantos na 2ª parte, e com estes números saem em perto de 6 jogos em cada 10.",
+        "confianca": 58,
+        "probImplicita": 0.556,
+        "oddAoVivoMercado": {
+          "at": "2026-11-20T10:48:58+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "1st Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "10",
+              "lado": "over",
+              "odd": 1.8
+            },
+            {
+              "mercado": "3-Way Handicap",
+              "linha": "1",
+              "lado": "away",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Race to the 7th corner?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Double Chance",
+              "linha": "-",
+              "lado": "away or draw",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.8
+            }
+          ]
+        },
+        "sentAt": 1795171839803,
+        "probModeloA": 0.5785,
+        "pushA": 0,
+        "valorA": 0.0414,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4288,
+        "golos2pB": 1.4773,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795176909910
+      },
+      {
+        "fixtureId": 1603044,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 9.5 cantos no jogo",
+        "match": "Al-Ahli Jeddah vs Al-Nassr",
+        "league": "Pro League",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.666,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            2
+          ],
+          "amarelos": [
+            2,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 5 cantos (3-2) e o jogo está empatado 1-1, com o Al-Ahli a ter mais bola e o Al-Nassr a entrar muito na área. Precisa de 5 cantos na 2ª parte, e nesta liga isso saiu em 6 de cada 10 jogos parecidos.",
+        "confianca": 61,
+        "probImplicita": 0.6,
+        "oddAoVivoMercado": {
+          "at": "2026-11-20T18:21:35+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "9",
+              "lado": "over",
+              "odd": 1.666
+            },
+            {
+              "mercado": "3rd Goal in Interval",
+              "linha": "70",
+              "lado": "yes",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "cards/under  0.5",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Last Team to Score (3 way)",
+              "linha": "-",
+              "lado": "1",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Home 2nd Goal in Interval",
+              "linha": "80",
+              "lado": "no",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "9.5",
+              "lado": "over",
+              "odd": 1.666
+            }
+          ]
+        },
+        "sentAt": 1795199036434,
+        "probModeloA": 0.5797,
+        "pushA": 0,
+        "valorA": -0.0343,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.7195,
+        "golos2pB": 1.7576,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 1,
+        "pnl": 0.33299999999999996,
+        "return": 0.833,
+        "resolvedAt": 1795203916097
+      },
+      {
+        "fixtureId": 1584082,
+        "jogo": "Havelse vs FC Viktoria Köln",
+        "liga": "3. Liga",
+        "pais": "Germany",
+        "ko": "2026-11-20T18:00:00+00:00",
+        "casa": "Havelse",
+        "visitante": "FC Viktoria Köln",
+        "pVisitanteMarca": 0.8924,
+        "pCasaMarca": 0.756,
+        "pRegra": 0.6747,
+        "lambdaFora": 2.2294,
+        "lambdaCasa": 1.4106,
+        "foraMarcou": 5,
+        "foraJogos": 6,
+        "casaSofreu": 7,
+        "casaJogos": 7,
+        "taxaLiga": {
+          "casa": 1.7,
+          "fora": 1.456,
+          "n": 130
+        },
+        "odd1xbet": 1.44,
+        "pJustaFormula": 0.6498,
+        "pConsenso": 0.6298,
+        "nCasas": 6,
+        "evFormula": -0.0643,
+        "evConsenso": -0.0931,
+        "oddJusta": 1.54,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.64,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-20T01:07:15+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa confirmada no ataque do Viktoria Köln, e a FotMob não lista lesões nem castigos para este jogo. O onze oficial não estava publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1551889,
+          "jogo": "Den Bosch vs VVV Venlo",
+          "ko": "2026-11-20T19:00:00+00:00",
+          "pVisitanteMarca": 0.8861,
+          "pCasaMarca": 0.8055
+        },
+        "porque": "regra do dono: FC Viktoria Köln marca fora 89%, Havelse marca em casa 76%; sem valor (EV -6.4% na fórmula, -9.3% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Havelse vs FC Viktoria Köln",
+        "league": "3. Liga",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.44,
+        "frase": "O FC Viktoria Köln marcou em 5 dos últimos 6 jogos fora, e o Havelse sofreu em 7 dos últimos 7 em casa.",
+        "sentAt": 1795159309498,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Havelse vs FC Viktoria Köln</b> (18:00)\n\n📊 FC Viktoria Köln marca fora 89% · Havelse marca em casa 76%\n💰 1xBet <b>@1.44</b> · justo @1.54 · sem valor hoje (stake 0)\n\nO FC Viktoria Köln marcou em 5 dos últimos 6 jogos fora, e o Havelse sofreu em 7 dos últimos 7 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-20T16:33:07.904Z",
+        "oddPertoDoJogo": 1.44,
+        "evPertoDoJogo": {
+          "formula": -0.0668,
+          "consenso": -0.0931
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Duas pesquisas só devolveram páginas antigas (jogo de outubro de 2025). Não encontrei nenhuma baixa confirmada no ataque do Viktoria Köln para hoje, nem o onze oficial.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 6,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795218714573,
+        "pnlSombra": 0.22,
+        "odd_fecho_ref": 1.541,
+        "prob_fecho": 0.649,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-20T17:50:16+00:00",
+        "fecho_idade_min": 10,
+        "clv": -0.0655,
+        "prob_fecho_formula": 0.6359,
+        "clv_formula": -0.0843
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "pending": 0,
+      "hit_rate": 50,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_total": 1,
+      "stake_mensuravel": 1,
+      "return_mensuravel": 0.83,
+      "pnl_mensuravel": -0.17,
+      "roi_pct_mensuravel": -17,
+      "odds_registadas": 2
+    },
+    "shadow_summary": {
+      "total": 1,
+      "green": 1,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 100,
+      "by_strategy": {
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 1,
+      "return_nocional": 1.44,
+      "pnl_nocional": 0.44
+    }
+  },
+  "balance": 33.97,
+  "notes": "Sexta com uma tip de golos e o curto. O mais de 2.5 do Barnsley-Sheffield Wednesday a 1.48 passou (1-2, três golos), +0,24 stakes. O curto a 2.92 caiu na primeira perna: o Kashima só empatou 1-1 com o Shimizu, apesar de o BW Linz ter ganho 6-1 e o Lausanne-Ouchy 3-1; -0,50. Ao intervalo, os cantos do Al-Ahli Jeddah-Al-Nassr passaram (+0,33) e os do Kashima-Shimizu não (-0,50). A 🟢🟢 da manhã (Havelse-Viktoria Köln) saiu sem valor, em sombra, e acabou verde. Corvo e curto-vence, em sombra, também perderam. A múltipla da jornada não saiu. Dia -0.43 stakes, banca 33.97 stakes."
+}

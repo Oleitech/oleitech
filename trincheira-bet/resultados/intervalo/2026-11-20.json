@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-20",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1556143,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 10.5 cantos no jogo",
+      "match": "Kashima vs Shimizu S-pulse",
+      "league": "J1 League (Japão), 15.ª jornada",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          2
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "Já vão 6 cantos, 4 deles do Kashima. Em casa, com 61% de bola e a precisar de ganhar, o Kashima vai carregar. Bastam 5 cantos na 2ª parte, e com estes números saem em perto de 6 jogos em cada 10.",
+      "confianca": 58,
+      "probImplicita": 0.556,
+      "oddAoVivoMercado": {
+        "at": "2026-11-20T10:48:58+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "1st Goal in Interval",
+            "linha": "70",
+            "lado": "no",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "10",
+            "lado": "over",
+            "odd": 1.8
+          },
+          {
+            "mercado": "3-Way Handicap",
+            "linha": "1",
+            "lado": "away",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Race to the 7th corner?",
+            "linha": "-",
+            "lado": "1",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Double Chance",
+            "linha": "-",
+            "lado": "away or draw",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.8
+          }
+        ]
+      },
+      "sentAt": 1795171839803,
+      "probModeloA": 0.5785,
+      "pushA": 0,
+      "valorA": 0.0414,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4288,
+      "golos2pB": 1.4773,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795176909910
+    },
+    {
+      "fixtureId": 1603044,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 9.5 cantos no jogo",
+      "match": "Al-Ahli Jeddah vs Al-Nassr",
+      "league": "Pro League",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.666,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          2
+        ],
+        "amarelos": [
+          2,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 5 cantos (3-2) e o jogo está empatado 1-1, com o Al-Ahli a ter mais bola e o Al-Nassr a entrar muito na área. Precisa de 5 cantos na 2ª parte, e nesta liga isso saiu em 6 de cada 10 jogos parecidos.",
+      "confianca": 61,
+      "probImplicita": 0.6,
+      "oddAoVivoMercado": {
+        "at": "2026-11-20T18:21:35+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "9",
+            "lado": "over",
+            "odd": 1.666
+          },
+          {
+            "mercado": "3rd Goal in Interval",
+            "linha": "70",
+            "lado": "yes",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Next 10 Minutes Total",
+            "linha": "50",
+            "lado": "cards/under  0.5",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Last Team to Score (3 way)",
+            "linha": "-",
+            "lado": "1",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Home 2nd Goal in Interval",
+            "linha": "80",
+            "lado": "no",
+            "odd": 1.666
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "9.5",
+            "lado": "over",
+            "odd": 1.666
+          }
+        ]
+      },
+      "sentAt": 1795199036434,
+      "probModeloA": 0.5797,
+      "pushA": 0,
+      "valorA": -0.0343,
+      "aprovaA": false,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7195,
+      "golos2pB": 1.7576,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": true
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 1,
+      "pnl": 0.33299999999999996,
+      "return": 0.833,
+      "resolvedAt": 1795203916097
+    }
+  ]
+}
