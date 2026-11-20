@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-19T23:29:41.016Z",
+  "atualizado": "2026-11-20T07:21:49.509Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 10,
+    "escolhas": 11,
     "liquidadas": 10,
     "acertos": 8,
     "clvMedio": -0.0486,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-20",
+      "jogo": "Havelse vs FC Viktoria Köln",
+      "liga": "3. Liga",
+      "ko": "2026-11-20T18:00:00+00:00",
+      "odd": 1.44,
+      "oddJusta": 1.54,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8924,
+      "pCasaMarca": 0.756,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-19",
       "jogo": "Al Ahli Doha vs Al Shamal",

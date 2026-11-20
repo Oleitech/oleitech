@@ -1,0 +1,65 @@
+{
+  "gerado": "2026-11-20T07:01:49.347Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1575221,
+      "data": "2026-11-20T19:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayern München - 1. FC Köln",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": 0.852,
+      "def": 0.074,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1552827,
+      "data": "2026-11-20T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Estac Troyes - Le Havre",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -1.356,
+      "def": 0.411,
+      "zona": null
+    },
+    {
+      "fixture": 1570454,
+      "data": "2026-11-20T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Athletic Club - Espanyol",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.444,
+      "def": 1.168,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.08,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.2,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    }
+  ]
+}
