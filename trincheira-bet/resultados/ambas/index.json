@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-20T23:51:55.586Z",
+  "atualizado": "2026-11-21T07:25:59.906Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 11,
+    "escolhas": 12,
     "liquidadas": 11,
     "acertos": 9,
     "clvMedio": -0.0501,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-21",
+      "jogo": "BSC Young Boys vs FC Thun",
+      "liga": "Super League",
+      "ko": "2026-11-21T17:00:00+00:00",
+      "odd": 1.33,
+      "oddJusta": 1.41,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.9533,
+      "pCasaMarca": 0.9669,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-20",
       "jogo": "Havelse vs FC Viktoria Köln",

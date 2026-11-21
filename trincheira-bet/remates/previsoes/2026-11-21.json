@@ -1,0 +1,995 @@
+{
+  "gerado": "2026-11-21T07:04:33.863Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1557474,
+      "data": "2026-11-21T12:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Manchester City - Fulham",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.5,
+          "previsao": 26.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": -0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.493,
+            "prob_da_casa": 0.5,
+            "edge": -9.8,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.9,
+          "previsao": 9.3,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.542,
+            "prob_da_casa": 0.557,
+            "edge": -9.5,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570453,
+      "data": "2026-11-21T13:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Alaves - Deportivo La Coruna",
+      "amostra": {
+        "casa": 10,
+        "fora": 7,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 25.9,
+          "previsao": 25.7,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 25.5,
+          "discordancia": 0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 24.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.547,
+            "prob_da_casa": 0.5,
+            "edge": 0.2,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.2,
+          "previsao": 9,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 7.5,
+          "discordancia": 1.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 7.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.628,
+            "prob_da_casa": 0.557,
+            "edge": 4.9,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575222,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayer Leverkusen - SC Paderborn 07",
+      "amostra": {
+        "casa": 10,
+        "fora": 8,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 30.4,
+          "previsao": 29.5,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 30.5,
+          "discordancia": -1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.466,
+            "prob_da_casa": 0.515,
+            "edge": -16,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.3,
+          "previsao": 10,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.374,
+            "prob_da_casa": 0.557,
+            "edge": -37.5,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575223,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Eintracht Frankfurt - 1899 Hoffenheim",
+      "amostra": {
+        "casa": 9,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 30.5,
+          "previsao": 29.6,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": 1.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.538,
+            "prob_da_casa": 0.536,
+            "edge": -6.9,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.1,
+          "previsao": 9.9,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.486,
+            "prob_da_casa": 0.536,
+            "edge": -16,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575225,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Union Berlin - RB Leipzig",
+      "amostra": {
+        "casa": 8,
+        "fora": 9,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.9,
+          "previsao": 27.6,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -0.9,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.471,
+            "prob_da_casa": 0.5,
+            "edge": -13.8,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 11.2,
+          "previsao": 10.6,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": 0.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.574,
+            "prob_da_casa": 0.515,
+            "edge": 3.3,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575226,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Borussia Mönchengladbach - Borussia Dortmund",
+      "amostra": {
+        "casa": 7,
+        "fora": 10,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28.8,
+          "previsao": 28.3,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.45,
+            "prob_da_casa": 0.464,
+            "edge": -10.1,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.5,
+          "previsao": 10.1,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.516,
+            "prob_da_casa": 0.5,
+            "edge": -5.5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575229,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "SV Elversberg - SC Freiburg",
+      "amostra": {
+        "casa": 9,
+        "fora": 9,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28.1,
+          "previsao": 27.7,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -0.8,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.414,
+            "prob_da_casa": 0.5,
+            "edge": -24.3,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.7,
+          "previsao": 9,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.375,
+            "prob_da_casa": 0.485,
+            "edge": -28.5,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557467,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Aston Villa - Sunderland",
+      "amostra": {
+        "casa": 9,
+        "fora": 8,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.5,
+          "previsao": 28.5,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.599,
+            "prob_da_casa": 0.536,
+            "edge": 3.7,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.3,
+          "previsao": 9.6,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 1.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.575,
+            "prob_da_casa": 0.5,
+            "edge": 5.3,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557468,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Bournemouth - Nottingham Forest",
+      "amostra": {
+        "casa": 8,
+        "fora": 10,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 26.2,
+          "previsao": 25.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": -1.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.425,
+            "prob_da_casa": 0.515,
+            "edge": -23.5,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 7.8,
+          "previsao": 8,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.372,
+            "prob_da_casa": 0.5,
+            "edge": -31.9,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557470,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Chelsea - Leeds",
+      "amostra": {
+        "casa": 9,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 25.9,
+          "previsao": 25.7,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 25.5,
+          "discordancia": 0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 25.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.478,
+            "prob_da_casa": 0.5,
+            "edge": -12.5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10,
+          "previsao": 9.4,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.9,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.553,
+            "prob_da_casa": 0.557,
+            "edge": -7.6,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557471,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Coventry - Crystal Palace",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.9,
+          "previsao": 27.2,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -1.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.444,
+            "prob_da_casa": 0.5,
+            "edge": -18.8,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.9,
+          "previsao": 8.7,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.465,
+            "prob_da_casa": 0.515,
+            "edge": -16.3,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557476,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Tottenham - Ipswich",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.4,
+          "previsao": 26.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -1.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.422,
+            "prob_da_casa": 0.515,
+            "edge": -24.1,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.5,
+          "previsao": 8.5,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.432,
+            "prob_da_casa": 0.557,
+            "edge": -27.8,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570460,
+      "data": "2026-11-21T15:15:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Rayo Vallecano - Valencia",
+      "amostra": {
+        "casa": 8,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29,
+          "previsao": 28,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.502,
+            "prob_da_casa": 0.5,
+            "edge": -8.1,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.4,
+          "previsao": 9.1,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.67,
+            "minha_prob": 0.518,
+            "prob_da_casa": 0.557,
+            "edge": -13.4,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557475,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Newcastle - Arsenal",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.7,
+          "previsao": 27,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.502,
+            "prob_da_casa": 0.5,
+            "edge": -8.1,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.4,
+          "previsao": 8.4,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -1.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.424,
+            "prob_da_casa": 0.5,
+            "edge": -22.5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570462,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Sevilla - Real Betis",
+      "amostra": {
+        "casa": 8,
+        "fora": 8,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.1,
+          "previsao": 26.6,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 0.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.474,
+            "prob_da_casa": 0.5,
+            "edge": -13.2,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10,
+          "previsao": 9.5,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.44,
+            "prob_da_casa": 0.485,
+            "edge": -16,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1575228,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "FC Schalke 04 - VfB Stuttgart",
+      "amostra": {
+        "casa": 8,
+        "fora": 9,
+        "descartados": 3
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.6,
+          "previsao": 28.8,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -0.7,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.489,
+            "prob_da_casa": 0.515,
+            "edge": -12,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.6,
+          "previsao": 9.6,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.444,
+            "prob_da_casa": 0.5,
+            "edge": -18.8,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492468,
+      "data": "2026-11-21T19:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Palmeiras - Flamengo",
+      "amostra": {
+        "casa": 8,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.6,
+          "previsao": 27.2,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -1.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.447,
+            "prob_da_casa": 0.536,
+            "edge": -22.6,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.9,
+          "previsao": 9.5,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.436,
+            "prob_da_casa": 0.5,
+            "edge": -20.2,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570461,
+      "data": "2026-11-21T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Real Madrid - Celta Vigo",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.5,
+          "previsao": 26.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -2.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.3,
+            "prob_da_casa": 0.485,
+            "edge": -42.8,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.9,
+          "previsao": 9.5,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.311,
+            "prob_da_casa": 0.5,
+            "edge": -43.1,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492462,
+      "data": "2026-11-21T20:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Bahia - Coritiba",
+      "amostra": {
+        "casa": 10,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 31.6,
+          "previsao": 30.3,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 31.5,
+          "discordancia": -1.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 30.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.452,
+            "prob_da_casa": 0.485,
+            "edge": -13.6,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.9,
+          "previsao": 10.1,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -0.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.387,
+            "prob_da_casa": 0.485,
+            "edge": -26.2,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

@@ -14,14 +14,24 @@
       "def": 0.074,
       "zona": "ataque",
       "linhas": {
-        "baliza_7_5": null,
-        "baliza_8_5": null
+        "baliza_7_5": {
+          "ganhou": false,
+          "retorno": null
+        },
+        "baliza_8_5": {
+          "ganhou": false,
+          "retorno": null
+        }
       },
       "historico": {
         "baliza_7_5": 0.731,
         "baliza_8_5": 0.565
       },
-      "aposta": null
+      "aposta": null,
+      "real": {
+        "baliza": 5,
+        "cantos": 5
+      }
     },
     {
       "fixture": 1552827,
@@ -48,17 +58,25 @@
         "cantos_6_5": {
           "casa": "Marathonbet",
           "odd": 1.08,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.08
         },
         "cantos_7_5": {
           "casa": "Marathonbet",
           "odd": 1.2,
-          "preferida": true
+          "preferida": true,
+          "ganhou": true,
+          "retorno": 0.2
         }
       },
       "historico": {
         "cantos_6_5": 0.788,
         "cantos_7_5": 0.691
+      },
+      "real": {
+        "baliza": 9,
+        "cantos": 11
       }
     }
   ]

@@ -1,0 +1,562 @@
+{
+  "gerado": "2026-11-21T07:04:33.953Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1557474,
+      "data": "2026-11-21T12:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Manchester City - Fulham",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.37,
+      "def": -0.14,
+      "zona": null
+    },
+    {
+      "fixture": 1570453,
+      "data": "2026-11-21T13:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Alaves - Deportivo La Coruna",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": -0.375,
+      "def": 0.667,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.09,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.23,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1550200,
+      "data": "2026-11-21T14:00:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Como - Cagliari",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.564,
+      "def": 1.4,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.08,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.2,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1550202,
+      "data": "2026-11-21T14:00:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Lazio - Lecce",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": 0.255,
+      "def": 0.036,
+      "zona": null
+    },
+    {
+      "fixture": 1575222,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Bayer Leverkusen - SC Paderborn 07",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.352,
+      "def": 0.705,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.05,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.14,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1575223,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Eintracht Frankfurt - 1899 Hoffenheim",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.019,
+      "def": -0.629,
+      "zona": null
+    },
+    {
+      "fixture": 1575225,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Union Berlin - RB Leipzig",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": 0.314,
+      "def": -0.629,
+      "zona": null
+    },
+    {
+      "fixture": 1575226,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Borussia Mönchengladbach - Borussia Dortmund",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -0.352,
+      "def": 0.26,
+      "zona": null
+    },
+    {
+      "fixture": 1575229,
+      "data": "2026-11-21T14:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "SV Elversberg - SC Freiburg",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": 0.648,
+      "def": -0.295,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": {
+        "mercado": "baliza",
+        "pick": "Mais de 9.5 remates a baliza",
+        "linha": 9.5,
+        "casa": "Bet365",
+        "odd": 1.91,
+        "prob": 0.582,
+        "valor": 1.112,
+        "stake": 0.5
+      }
+    },
+    {
+      "fixture": 1557467,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Aston Villa - Sunderland",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.53,
+      "def": -0.14,
+      "zona": null
+    },
+    {
+      "fixture": 1557468,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Bournemouth - Nottingham Forest",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.23,
+      "def": 0.26,
+      "zona": null
+    },
+    {
+      "fixture": 1557470,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Chelsea - Leeds",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.17,
+      "def": 0.16,
+      "zona": null
+    },
+    {
+      "fixture": 1557471,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Coventry - Crystal Palace",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.73,
+      "def": -0.84,
+      "zona": null
+    },
+    {
+      "fixture": 1557476,
+      "data": "2026-11-21T15:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Tottenham - Ipswich",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.23,
+      "def": -0.14,
+      "zona": null
+    },
+    {
+      "fixture": 1570460,
+      "data": "2026-11-21T15:15:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Rayo Vallecano - Valencia",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.845,
+      "def": 0.144,
+      "zona": null
+    },
+    {
+      "fixture": 1552229,
+      "data": "2026-11-21T15:30:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "NEC Nijmegen - PSV Eindhoven",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": 1.111,
+      "def": -0.222,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1552824,
+      "data": "2026-11-21T16:15:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Nice - Paris Saint Germain",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.733,
+      "def": 0.034,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1550205,
+      "data": "2026-11-21T17:00:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Parma - AS Roma",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": 0.527,
+      "def": 0.127,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": {
+          "casa": "Bet365",
+          "odd": 1.67,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1557475,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "Premier",
+      "jogo": "Newcastle - Arsenal",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.07,
+      "def": 0.56,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.06,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.18,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1570462,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Sevilla - Real Betis",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": 0.208,
+      "def": -0.167,
+      "zona": null
+    },
+    {
+      "fixture": 1575228,
+      "data": "2026-11-21T17:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "FC Schalke 04 - VfB Stuttgart",
+      "jogos_tabela": 9,
+      "amostra_fraca": false,
+      "atq": -1.241,
+      "def": 1.816,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.11,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.27,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552226,
+      "data": "2026-11-21T17:45:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Feyenoord - Excelsior",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": 0.444,
+      "def": -0.389,
+      "zona": null
+    },
+    {
+      "fixture": 1552233,
+      "data": "2026-11-21T17:45:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Utrecht - Cambuur",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": -0.056,
+      "def": -1.139,
+      "zona": null
+    },
+    {
+      "fixture": 1492468,
+      "data": "2026-11-21T19:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Palmeiras - Flamengo",
+      "jogos_tabela": 35,
+      "amostra_fraca": false,
+      "atq": 1.234,
+      "def": -0.154,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1550204,
+      "data": "2026-11-21T19:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Napoli - Torino",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.109,
+      "def": 0.4,
+      "zona": null
+    },
+    {
+      "fixture": 1552819,
+      "data": "2026-11-21T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lens - Toulouse",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.233,
+      "def": -0.166,
+      "zona": null
+    },
+    {
+      "fixture": 1552820,
+      "data": "2026-11-21T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Lille - Lyon",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.067,
+      "def": 1.434,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.11,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.26,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1552823,
+      "data": "2026-11-21T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Monaco - Auxerre",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": -0.367,
+      "def": -0.166,
+      "zona": null
+    },
+    {
+      "fixture": 1552826,
+      "data": "2026-11-21T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Strasbourg - Stade Brestois 29",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.633,
+      "def": -1.066,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1552228,
+      "data": "2026-11-21T20:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Groningen - Heerenveen",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": 0.528,
+      "def": -0.306,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      },
+      "aposta": null
+    },
+    {
+      "fixture": 1552231,
+      "data": "2026-11-21T20:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Telstar - PEC Zwolle",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": -1.306,
+      "def": 1.111,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "mediana de 2",
+          "odd": 1.09,
+          "preferida": false
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.13,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1570461,
+      "data": "2026-11-21T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Real Madrid - Celta Vigo",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": 0.542,
+      "def": 0.667,
+      "zona": "ataque",
+      "linhas": {
+        "baliza_7_5": null,
+        "baliza_8_5": null
+      },
+      "historico": {
+        "baliza_7_5": 0.731,
+        "baliza_8_5": 0.565
+      }
+    },
+    {
+      "fixture": 1492462,
+      "data": "2026-11-21T20:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Bahia - Coritiba",
+      "jogos_tabela": 35,
+      "amostra_fraca": false,
+      "atq": -0.08,
+      "def": -0.04,
+      "zona": null
+    }
+  ]
+}
