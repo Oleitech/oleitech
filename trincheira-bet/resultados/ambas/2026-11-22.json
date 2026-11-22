@@ -67,7 +67,38 @@
       "frase": "O Rosenborg marcou em 8 dos últimos 10 jogos fora, e o Aalesund sofreu em 9 dos últimos 10 em casa.",
       "sentAt": 1795332247430,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Aalesund vs Rosenborg</b> (16:00)\n\n📊 Rosenborg marca fora 96% · Aalesund marca em casa 80%\n💰 1xBet <b>@1.33</b> · justo @1.47 · sem valor hoje (stake 0)\n\nO Rosenborg marcou em 8 dos últimos 10 jogos fora, e o Aalesund sofreu em 9 dos últimos 10 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-22T14:33:12.855Z",
+      "oddPertoDoJogo": 1.35,
+      "evPertoDoJogo": {
+        "formula": -0.075,
+        "consenso": -0.0846
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma baixa grave nova no ataque do Rosenborg. A única baixa de ataque listada é Nordli (lesão na coxa), sem data nem confirmação de ser de hoje ou de ontem à noite, e o onze oficial ainda não saiu.",
+        "link": "https://starting11.com/fixtures/aalesund-vs-rosenborg",
+        "onze_publicado": false,
+        "pesquisas": 3
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795389867416,
+      "pnlSombra": 0.165,
+      "odd_fecho_ref": 1.416,
+      "prob_fecho": 0.7063,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-22T12:05:20+00:00",
+      "fecho_idade_min": 235,
+      "clv": -0.0606,
+      "prob_fecho_formula": 0.6852,
+      "clv_formula": -0.0887
     }
   ],
   "escolhidaEm": "2026-11-22T07:23:03.586Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-22T06:01:05+00:00",
     "mercado": "ambas sim",
     "odds": 2.03,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 2,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795389868116,
+    "pnlSombra": 0.515,
+    "odd_fecho_ref": 2.16,
+    "prob_fecho": 0.463,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-22T08:43:15+00:00",
+    "fecho_idade_min": 152,
+    "clv": -0.0602,
+    "prob_fecho_formula": 0.4907,
+    "clv_formula": -0.0039
   },
   "candidatasLive": [
     {
