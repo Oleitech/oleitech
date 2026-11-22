@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T07:19:58.063Z",
+  "units": "stakes",
+  "notes": "Domingo cheio, com Taça de Portugal, cinco jogos da Serie A e o Liverpool-United, mas saiu uma tip só: o Inter em Bérgamo.\n\nO Inter vem em 3.º com nove vitórias em onze jornadas, não perde com a Atalanta há dez jogos e a 1.60 na 1xBet está ao preço justo. É a tip do dia e também a mais arriscada: a Atalanta em casa marca quase sempre e o Inter tem Champions a meio da semana.\n\nO resto caiu na pesquisa. O Bologna em casa ganhou um jogo em cinco esta época, o Atlético perdeu os dois últimos e o Getafe em casa é osso, o Liverpool-United tem treinador novo do outro lado, e o Córdoba-Oviedo, que tinha tudo para golos, ficou de fora por não haver segunda fonte para as baixas. Não se força boletim.\n\nUm curto a meia stake na 1xBet, só com vitórias: Union em Kortrijk, Dunajska Streda e PAOK, a 2.72. Sem corvo hoje e sem duplo.\n\nExposição do dia: uma stake e meia.",
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Inter vence",
+      "fixtureId": 1550198,
+      "home": {
+        "name": "Atalanta",
+        "logo": "https://media.api-sports.io/football/teams/499.png"
+      },
+      "away": {
+        "name": "Inter",
+        "logo": "https://media.api-sports.io/football/teams/505.png"
+      },
+      "match": "Atalanta vs Inter",
+      "league": "Serie A (Itália), 12.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/135.png",
+      "kickoff": "2026-11-22T19:45:00Z",
+      "odds": 1.6,
+      "bookmaker": "1xBet",
+      "score": 78,
+      "stake": 1,
+      "context_depth": "full",
+      "tese": "O Inter chega a Bérgamo em 3.º, com nove vitórias em onze jornadas, e a Atalanta do Sarri está em 11.º e ganhou só três dos últimos dez da liga, com um 0-3 em casa com o Parma e um 4-4 com o Frosinone pelo meio. O Inter não perde com a Atalanta há dez jogos (oito vitórias) e ganhou cinco das últimas sete visitas a Bérgamo. As baixas do Inter são o Bonny e o Stankovic, nenhum deles titular; o Thuram, o Esposito, o Barella e o Calhanoglu estão disponíveis nas duas fontes. A 1.60 na 1xBet está ao preço justo da Pinnacle, e os modelos dão entre 57% e 70% ao Inter. O risco é a Atalanta em casa marcar quase sempre e o Inter ter Champions a meio da semana.",
+      "factors": [
+        "Forma API, últimos 8 oficiais: Inter 2-0 Como (c), 3-0 Feyenoord (Champions, f), 1-3 Milan (f), 2-0 (f), 2-1 (c), 1-0 (Champions, c), 3-1 (f), 3-4 (Champions, c) — 6/8 vitórias; Atalanta 1-0 (f), 1-1 Kairat (Liga Europa, c), 0-3 Parma (c), 2-2 (f), 4-4 Frosinone (c), 0-2 (Liga Europa, f), 2-3 (f), 3-1 (Liga Europa, c) — 2/8 vitórias",
+        "Classificação Serie A 2026/27 (SportsGambler, 11 jornadas): Inter 3.º, 28 pontos, 9V-1E-1D, +15; Atalanta 11.º, 14 pontos, 4V-2E-5D, -3. Últimos 10 da liga: Inter 8V-1E-1D (fora 5V-4E-1D), Atalanta 3V-2E-5D",
+        "H2H oficial (API, últimos 5): 1-1 (Serie A 03/2026), 1-0 Inter em Bérgamo (Serie A 12/2025), 2-0 Inter em Bérgamo (Serie A 03/2025), 2-0 Inter (Supertaça 01/2025), 4-0 Inter (Serie A 08/2024) — 4/5 vitórias do Inter; SportsGambler: Inter sem perder nos últimos 10 (8V-2E), 5 vitórias e 2 empates nas últimas 7 em Bérgamo",
+        "FootyStats, Serie A 2026/27: Atalanta em casa (6 jogos) 3V-1E-2D, 1,83 marcados e 1,83 sofridos, xG 1,94 / xGA 1,67, ambas marcam 67%, baliza a zero 17%; Inter fora (5 jogos) 3V-1E-1D, 1,80 marcados e 1,20 sofridos, xG 2,10 / xGA 1,21, baliza a zero 40%, nunca ficou em branco",
+        "Baixas (duas fontes): Inter sem Bonny (muscular, volta 01/12) e Stankovic (virilha) — API injuries e SportsGambler batem; a API dá ainda o Zielinski em dúvida. Atalanta sem Gaetano (API e SportsGambler); a API lista também o Hien (defesa) de fora, só numa fonte. Onze provável do Inter (SportsGambler): Martínez; Bisseck, Carlos Augusto, Bastoni; Spence, Barella, Calhanoglu, Sucic, Dimarco; Esposito, Thuram",
+        "Treinadores: Sarri (Atalanta) e Chivu (Inter), sem mudança recente segundo o SportsGambler",
+        "Probabilidades: Pinnacle 5.43/4.86/1.55 (Inter perto de 62% sem margem); Forebet 57% Inter; SportsGambler estima perto de 70%",
+        "Preço: 1xBet 1.60, Betano 1.60, Dafabet 1.59, Marathonbet 1.58, Bet365 1.55, Pinnacle 1.55",
+        "Terceiros: Inter vence é a pick do SportsGambler (1.58), do Forza Football (8/13) e da footballpredictions.com — consenso de três",
+        "Calendário: o Inter tem Champions a meio da semana e a Atalanta tem Liga Europa — risco de gestão dos dois lados, sem notícia de poupança"
+      ],
+      "sources": [
+        "API-Football — /fixtures (team last 8), /fixtures/headtohead, /injuries?fixture=1550198, /odds?fixture=1550198 (10 casas)",
+        "SportsGambler — atalanta-vs-inter-milan-prediction-lineups-odds-2026-11-22 (onzes, baixas, forma, classificação, pick)",
+        "FootyStats — atalanta-bergamasca-calcio-vs-fc-internazionale-milano-h2h-stats (splits casa/fora 2026/27)",
+        "Forebet — atalanta-inter-2496607 (57% Inter, via pesquisa; a página directa deu 403)",
+        "Forza Football — odds-18-23-november-all-the-big-leagues (Inter vence 8/13)",
+        "footballpredictions.com — betting-tips 22-11-2026 (volta cega)",
+        "Ausências verificadas em duas fontes: API-Football injuries + SportsGambler"
+      ],
+      "odd_nossa": 1.6,
+      "justo_gravado_em": "2026-11-22T07:20:00.986Z",
+      "odd_justa_ref": 1.577,
+      "prob_justa": 0.6342,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:away",
+      "ev_justo": 0.0147,
+      "justo_at": "2026-11-22T04:40:25+00:00"
+    }
+  ],
+  "sombra": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1570030,
+      "home": {
+        "name": "Cordoba",
+        "logo": "https://media.api-sports.io/football/teams/713.png"
+      },
+      "away": {
+        "name": "Oviedo",
+        "logo": "https://media.api-sports.io/football/teams/718.png"
+      },
+      "match": "Cordoba vs Oviedo",
+      "league": "Segunda División (Espanha), 15.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+      "kickoff": "2026-11-22T13:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 72,
+      "stake": 0,
+      "shadow": true,
+      "stake_proposta": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 42.2,
+        "prob_modelo": 0.679,
+        "prob_mercado": 0.591,
+        "valor": 0.101
+      },
+      "motivo_sombra": "Os números apontam todos para golos, mas não há segunda fonte para as baixas: a API não lista ninguém e não se encontrou antevisão com notícias de equipa (SportsGambler sem página do jogo, ficha da LaLiga sem convocados, pesquisa aberta só com jogos de épocas passadas). Meia stake com contexto partial não desce mais, por isso fica em sombra, como o Queen’s Park-Livingston de ontem.",
+      "tese": "O Oviedo fora é jogo de golos: passou dos dois golos em seis dos sete jogos fora e não ficou em branco em nenhum. O Córdoba em casa marca 1,83 por jogo e dois terços dos jogos dele em casa tiveram três ou mais golos. Fica em sombra porque não há segunda fonte para as baixas.",
+      "factors": [
+        "Forma API, últimos 8 oficiais: Córdoba 3-3, 3-0, 2-2, 1-3 (Taça), 2-0, 1-0, 1-2, 3-2 — mais de 2.5 em 6/8; Oviedo 1-2, 2-1, 2-3, 3-3 (Taça), 2-2, 2-1, 3-1, 1-4 — mais de 2.5 em 8/8",
+        "FootyStats, Segunda 2026/27: Córdoba em casa (6 jogos) mais de 2.5 em 67%, 1,83 marcados e 1,33 sofridos, xG 1,89 / xGA 1,19; Oviedo fora (7 jogos) mais de 2.5 em 86%, ambas marcam 71%, 1,71 marcados e 1,57 sofridos, xG 1,55 / xGA 1,64, nunca ficou em branco",
+        "H2H oficial (API, Segunda): 0-0 (04/2025), 3-2 (12/2024), 3-3 (2019), 2-4, 1-1, 2-0, 4-2, 2-1 (2016-2018) — mais de 2.5 em 5/8",
+        "Preço: Bet365 1.62 (valor +10,1% contra o modelo), Pinnacle 1.65, Marathonbet 1.55; modelo 67,9% contra 59,1% do mercado",
+        "Baixas: API injuries por jogo vazia; sem segunda fonte (SportsGambler sem página, LaLiga sem convocados, pesquisa aberta sem notícias desta semana)"
+      ],
+      "sources": [
+        "API-Football — /fixtures (team last 8), /fixtures/headtohead, /injuries?fixture=1570030, /odds todas as casas",
+        "golos/previsoes/2026-11-22.json (modelo de golos)",
+        "FootyStats — cordoba-cf-vs-real-oviedo-h2h-stats",
+        "SportsGambler — sem página do jogo (devolve a listagem)",
+        "LaLiga — ficha temporada-2026-2027-laliga-hypermotion-cordoba-cf-real-oviedo-15 (sem convocados)"
+      ],
+      "odd_nossa": 1.62,
+      "justo_gravado_em": "2026-11-22T07:20:00.989Z",
+      "odd_justa_ref": 1.698,
+      "prob_justa": 0.5891,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "5:over 2.5",
+      "ev_justo": -0.0457,
+      "justo_at": "2026-11-22T06:01:03+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.72,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "1xBet",
+      "notes": "Três vitórias de três ligas diferentes (Bélgica, Eslováquia, Grécia), todas na 1xBet. Nenhuma perna de ambas marcam.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1558685,
+          "match": "Kortrijk vs Union St. Gilloise",
+          "league": "Jupiler Pro League (Bélgica), 12.ª jornada",
+          "leagueId": 144,
+          "pick": "Union St. Gilloise vence",
+          "odds": 1.41,
+          "kickoff": "2026-11-22T15:00:00Z",
+          "score": 65,
+          "tese": "O Union ganhou os últimos cinco oficiais e ganhou os oito últimos encontros com o Kortrijk; o Kortrijk ganhou um dos últimos oito jogos.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: Union 1-0 (c), 2-1 (Liga Europa, f), 2-1 (f), 5-2 (c), 4-0 (Liga Europa, c) — 5/5 vitórias; Kortrijk 0-1, 1-3, 1-1, 0-3, 2-2 (Taça)",
+            "H2H oficial (API, Jupiler Pro League): 2-1, 3-0, 3-1, 3-0, 4-2 (2023-2025) — 5/5 vitórias do Union",
+            "Baixas: API injuries vazia",
+            "1xBet 1.41, Betano 1.40, Pinnacle 1.38, Bet365 1.36"
+          ],
+          "odd_nossa": 1.41,
+          "justo_gravado_em": "2026-11-22T07:20:00.991Z",
+          "odd_justa_ref": 1.399,
+          "prob_justa": 0.7146,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": 0.0076,
+          "justo_at": "2026-11-22T06:01:05+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1551599,
+          "match": "Dunajska Streda vs Komárno",
+          "league": "Super Liga (Eslováquia), 15.ª jornada",
+          "leagueId": 332,
+          "pick": "Dunajska Streda vence",
+          "odds": 1.41,
+          "kickoff": "2026-11-22T17:00:00Z",
+          "score": 65,
+          "tese": "O Dunajska ganhou os últimos cinco da liga e não perde com o Komárno: três vitórias e dois empates nos cinco encontros oficiais.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: 3-2 (c), 2-0 (f), 1-0 (f), 5-0 (c), 3-2 (f) — 5/5 vitórias (o amigável 0-3 da paragem fica de fora)",
+            "H2H oficial (API, Super Liga): 3-0 (08/2026), 2-2, 1-1, 1-0, 2-0 — 3/5 vitórias, 0 derrotas",
+            "Baixas: API injuries vazia",
+            "1xBet 1.41, Pinnacle 1.43, Bet365 1.40, Marathonbet 1.40"
+          ],
+          "odd_nossa": 1.41,
+          "justo_gravado_em": "2026-11-22T07:20:00.993Z",
+          "odd_justa_ref": 1.463,
+          "prob_justa": 0.6835,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0363,
+          "justo_at": "2026-11-22T06:01:05+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1593365,
+          "match": "PAOK vs Kifisia",
+          "league": "Super League 1 (Grécia), 11.ª jornada",
+          "leagueId": 197,
+          "pick": "PAOK vence",
+          "odds": 1.37,
+          "kickoff": "2026-11-22T17:30:00Z",
+          "score": 65,
+          "tese": "O PAOK ganhou os quatro encontros com o Kifisia, com 15-2 em golos, e ganhou três dos últimos cinco oficiais.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: 1-1 (f), 2-1 (c), 3-1 (Taça, c), 1-2 (f), 2-1 (c) — 3/5 vitórias (o amigável 3-1 fica de fora)",
+            "H2H oficial (API, Super League): 4-1 (03/2026), 3-0, 6-0, 2-1 — 4/4 vitórias",
+            "Baixas: API injuries vazia",
+            "1xBet 1.37, Pinnacle 1.37, Bet365 1.36, Marathonbet 1.36"
+          ],
+          "odd_nossa": 1.37,
+          "justo_gravado_em": "2026-11-22T07:20:00.996Z",
+          "odd_justa_ref": 1.394,
+          "prob_justa": 0.7174,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0172,
+          "justo_at": "2026-11-22T06:01:04+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.72,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "1xBet",
+      "notes": "Igual ao curto real: as três pernas já são vence, não há nada para trocar.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1558685,
+          "match": "Kortrijk vs Union St. Gilloise",
+          "league": "Jupiler Pro League (Bélgica), 12.ª jornada",
+          "leagueId": 144,
+          "pick": "Union St. Gilloise vence",
+          "odds": 1.41,
+          "kickoff": "2026-11-22T15:00:00Z",
+          "score": 65,
+          "tese": "O Union ganhou os últimos cinco oficiais e ganhou os oito últimos encontros com o Kortrijk; o Kortrijk ganhou um dos últimos oito jogos.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: Union 1-0 (c), 2-1 (Liga Europa, f), 2-1 (f), 5-2 (c), 4-0 (Liga Europa, c) — 5/5 vitórias; Kortrijk 0-1, 1-3, 1-1, 0-3, 2-2 (Taça)",
+            "H2H oficial (API, Jupiler Pro League): 2-1, 3-0, 3-1, 3-0, 4-2 (2023-2025) — 5/5 vitórias do Union",
+            "Baixas: API injuries vazia",
+            "1xBet 1.41, Betano 1.40, Pinnacle 1.38, Bet365 1.36"
+          ],
+          "odd_nossa": 1.41,
+          "justo_gravado_em": "2026-11-22T07:20:00.996Z",
+          "odd_justa_ref": 1.399,
+          "prob_justa": 0.7146,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": 0.0076,
+          "justo_at": "2026-11-22T06:01:05+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1551599,
+          "match": "Dunajska Streda vs Komárno",
+          "league": "Super Liga (Eslováquia), 15.ª jornada",
+          "leagueId": 332,
+          "pick": "Dunajska Streda vence",
+          "odds": 1.41,
+          "kickoff": "2026-11-22T17:00:00Z",
+          "score": 65,
+          "tese": "O Dunajska ganhou os últimos cinco da liga e não perde com o Komárno: três vitórias e dois empates nos cinco encontros oficiais.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: 3-2 (c), 2-0 (f), 1-0 (f), 5-0 (c), 3-2 (f) — 5/5 vitórias (o amigável 0-3 da paragem fica de fora)",
+            "H2H oficial (API, Super Liga): 3-0 (08/2026), 2-2, 1-1, 1-0, 2-0 — 3/5 vitórias, 0 derrotas",
+            "Baixas: API injuries vazia",
+            "1xBet 1.41, Pinnacle 1.43, Bet365 1.40, Marathonbet 1.40"
+          ],
+          "odd_nossa": 1.41,
+          "justo_gravado_em": "2026-11-22T07:20:00.996Z",
+          "odd_justa_ref": 1.463,
+          "prob_justa": 0.6835,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0363,
+          "justo_at": "2026-11-22T06:01:05+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1593365,
+          "match": "PAOK vs Kifisia",
+          "league": "Super League 1 (Grécia), 11.ª jornada",
+          "leagueId": 197,
+          "pick": "PAOK vence",
+          "odds": 1.37,
+          "kickoff": "2026-11-22T17:30:00Z",
+          "score": 65,
+          "tese": "O PAOK ganhou os quatro encontros com o Kifisia, com 15-2 em golos, e ganhou três dos últimos cinco oficiais.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: 1-1 (f), 2-1 (c), 3-1 (Taça, c), 1-2 (f), 2-1 (c) — 3/5 vitórias (o amigável 3-1 fica de fora)",
+            "H2H oficial (API, Super League): 4-1 (03/2026), 3-0, 6-0, 2-1 — 4/4 vitórias",
+            "Baixas: API injuries vazia",
+            "1xBet 1.37, Pinnacle 1.37, Bet365 1.36, Marathonbet 1.36"
+          ],
+          "odd_nossa": 1.37,
+          "justo_gravado_em": "2026-11-22T07:20:00.996Z",
+          "odd_justa_ref": 1.394,
+          "prob_justa": 0.7174,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0172,
+          "justo_at": "2026-11-22T06:01:04+00:00"
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Só o Inter (Bet365 1.55, Marathonbet 1.58) chega a 75 com investigação completa na banda 1.40–1.60. O Dunajska Streda (1.40) só tem a curadoria do curto, sem antevisão com baixas em duas fontes; o Union paga 1.36/1.37 na Bet365 e na Marathonbet, abaixo da banda."
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-21T23:55:51.577Z",
+  "atualizado": "2026-11-22T07:24:07.439Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 12,
+    "escolhas": 13,
     "liquidadas": 12,
     "acertos": 10,
     "clvMedio": -0.0519,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-22",
+      "jogo": "Aalesund vs Rosenborg",
+      "liga": "Eliteserien",
+      "ko": "2026-11-22T16:00:00+00:00",
+      "odd": 1.33,
+      "oddJusta": 1.47,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.962,
+      "pCasaMarca": 0.7967,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-21",
       "jogo": "BSC Young Boys vs FC Thun",
