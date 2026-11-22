@@ -67,7 +67,38 @@
       "frase": "O FC Thun marcou em 7 dos últimos 7 jogos fora, e o BSC Young Boys sofreu em 6 dos últimos 7 em casa.",
       "sentAt": 1795245959896,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — BSC Young Boys vs FC Thun</b> (17:00)\n\n📊 FC Thun marca fora 95% · BSC Young Boys marca em casa 97%\n💰 1xBet <b>@1.33</b> · justo @1.41 · sem valor hoje (stake 0)\n\nO FC Thun marcou em 7 dos últimos 7 jogos fora, e o BSC Young Boys sofreu em 6 dos últimos 7 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-21T15:31:31.958Z",
+      "oddPertoDoJogo": 1.35,
+      "evPertoDoJogo": {
+        "formula": -0.0589,
+        "consenso": -0.0809
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Thun; os resultados eram de datas antigas e não confirmam nada para este jogo.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795305350549,
+      "pnlSombra": 0.165,
+      "odd_fecho_ref": 1.432,
+      "prob_fecho": 0.6983,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-21T16:54:16+00:00",
+      "fecho_idade_min": 6,
+      "clv": -0.0712,
+      "prob_fecho_formula": 0.6893,
+      "clv_formula": -0.0832
     }
   ],
   "escolhidaEm": "2026-11-21T07:25:04.179Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-21T06:05:19+00:00",
     "mercado": "ambas sim",
     "odds": 1.71,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 2,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795305351233,
+    "pnlSombra": 0.355,
+    "odd_fecho_ref": 1.863,
+    "prob_fecho": 0.5368,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-21T10:04:37+00:00",
+    "fecho_idade_min": 175,
+    "clv": -0.0821,
+    "prob_fecho_formula": 0.5592,
+    "clv_formula": -0.0438
   },
   "candidatasLive": [
     {

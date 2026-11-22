@@ -1,0 +1,2706 @@
+{
+  "units": "stakes",
+  "date": "2026-11-21",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.74,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Três vitórias de três ligas diferentes (Eslováquia, Chipre, Bélgica), todas na 1xBet. Nenhuma perna de ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551604,
+            "match": "Žilina vs Dukla Banská Bystrica",
+            "league": "Super Liga (Eslováquia), 15.ª jornada",
+            "leagueId": 332,
+            "pick": "Žilina vence",
+            "odds": 1.37,
+            "kickoff": "2026-11-21T14:30:00Z",
+            "score": 65,
+            "tese": "O Žilina ganhou três dos últimos cinco ao Dukla, incluindo 4-3 lá em Agosto, e marca muito: 4-2 e 4-1 nos dois últimos da liga.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Žilina 4-2 (f), 4-1 (c), 2-2 (f), 2-3 (c), 5-0 (Taça, f) — 3/5 vitórias",
+              "H2H oficial (API, Super Liga): 4-3 (08/2026), 2-1 (03/2025), 2-0 (10/2024), 1-3 (12/2023), 1-4 (09/2023) — 3/5 vitórias",
+              "Baixas: API injuries vazia",
+              "1xBet 1.37, Bet365 1.40, Pinnacle 1.42"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-21T07:21:08.894Z",
+            "odd_justa_ref": 1.452,
+            "prob_justa": 0.6888,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0564,
+            "justo_at": "2026-11-21T04:41:22+00:00",
+            "clv_api": -0.0565,
+            "fecho_idade_min": 348,
+            "odd_fecho_ref": 1.452,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T08:42:15+00:00",
+            "fecho_aproximado": true,
+            "clv": -0.0565,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-0",
+            "note": "Žilina 2-0 Dukla: o Žilina vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1603607,
+            "match": "Aris vs Nea Salamis",
+            "league": "1. Division (Chipre), 10.ª jornada",
+            "leagueId": 318,
+            "pick": "Aris vence",
+            "odds": 1.45,
+            "kickoff": "2026-11-21T17:00:00Z",
+            "score": 65,
+            "tese": "O Aris ganhou quatro dos últimos cinco ao Nea Salamis e três dos últimos cinco oficiais; o Nea Salamis perdeu os dois últimos fora.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Aris 1-3 (f), 2-1 (c), 3-1 (f), 1-1 (c), 4-0 (Taça, c) — 3/5 vitórias; Nea Salamis fora 0-1, 2-4, 1-2",
+              "H2H oficial (API, 1. Division): 2-2 (02/2025), 2-1, 3-0, 2-1, 3-0 — 4/5 vitórias do Aris",
+              "Baixas: API injuries vazia",
+              "1xBet 1.45, Bet365 1.50, Pinnacle 1.48"
+            ],
+            "odd_nossa": 1.45,
+            "justo_gravado_em": "2026-11-21T07:21:08.896Z",
+            "odd_justa_ref": 1.53,
+            "prob_justa": 0.6537,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0521,
+            "justo_at": "2026-11-21T06:42:15+00:00",
+            "clv_api": -0.0372,
+            "fecho_idade_min": 141,
+            "odd_fecho_ref": 1.506,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T14:39:22+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0372,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "3-1",
+            "note": "Aris 3-1 Nea Salamis: o Aris vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1558686,
+            "match": "KV Mechelen vs Club Brugge KV",
+            "league": "Jupiler Pro League (Bélgica), 12.ª jornada",
+            "leagueId": 144,
+            "pick": "Club Brugge KV vence",
+            "odds": 1.38,
+            "kickoff": "2026-11-21T19:45:00Z",
+            "score": 65,
+            "tese": "O Brugge ganhou quatro dos últimos cinco oficiais e três dos últimos cinco com o Mechelen (6-1 e 4-1 em 2026); fora leva 7V-1E-2D nos últimos 10 da liga.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Brugge 1-1 (c), 2-1 (Champions, f), 4-2 (f), 3-2 (c), 3-0 (Champions, c) — 4/5 vitórias",
+              "H2H oficial (API, Pro League): 2-2 (05/2026), 6-1 e 4-1 para o Brugge (2026), 2-1 para o Mechelen (08/2025), 2-1 para o Brugge (12/2024) — 3/5 vitórias",
+              "SportsGambler (Pro League, últimos 10): Brugge fora 7V-1E-2D, 2,30 marcados; Mechelen em casa 3V-2E-5D, 2,00 sofridos",
+              "Baixas: API vazia; SportsGambler dá Ordóñez e Tresoldi, mas o Tresoldi foi titular nos dois últimos jogos (onzes da API), a lista dele está desactualizada",
+              "1xBet 1.38, Bet365 1.38, Pinnacle 1.38"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-21T07:21:08.898Z",
+            "odd_justa_ref": 1.405,
+            "prob_justa": 0.712,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0175,
+            "justo_at": "2026-11-21T05:07:20+00:00",
+            "clv_api": -0.0143,
+            "fecho_idade_min": 161,
+            "odd_fecho_ref": 1.4,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T17:04:18+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0143,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-5",
+            "note": "Mechelen 1-5 Brugge: o Brugge vence fora."
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.37,
+        "pnl": 0.87
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.6,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Três vitórias de três ligas diferentes (Chéquia, Suíça, Itália), todas na 1xBet. Na Bet365 a Roma paga 1.25, que fica fora da banda das pernas; na 1xBet paga 1.30.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1560076,
+            "match": "Mlada Boleslav vs Zlin",
+            "league": "Czech Liga (Chéquia), 15.ª jornada",
+            "leagueId": 345,
+            "pick": "Mlada Boleslav vence",
+            "odds": 1.45,
+            "kickoff": "2026-11-21T14:00:00Z",
+            "score": 65,
+            "tese": "O Zlín não ganha há seis jogos e o Mladá Boleslav ganhou os três últimos em casa; nos cinco H2H mais recentes, três vitórias do Mladá.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Mlada Boleslav 0-0 (f), 3-1 (c), 3-2 (Taça, c), 1-1 (f), 1-0 (c) — 3/5 vitórias; Zlin sem vitórias em 6 (0-1, 2-2, 1-1, 0-3, 0-1, 1-1)",
+              "H2H oficial (API, Czech Liga): 1-1 (05/2026), 3-1, 2-3, 3-2, 9-5 — 3/5 vitórias",
+              "Baixas: API injuries vazia",
+              "1xBet 1.45, Bet365 1.48, Pinnacle 1.49"
+            ],
+            "odd_nossa": 1.45,
+            "justo_gravado_em": "2026-11-21T07:21:08.900Z",
+            "odd_justa_ref": 1.523,
+            "prob_justa": 0.6566,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.048,
+            "justo_at": "2026-11-21T05:13:29+00:00",
+            "clv_api": -0.0216,
+            "fecho_idade_min": 47,
+            "odd_fecho_ref": 1.482,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T13:13:16+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0216,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-0",
+            "note": "Mladá Boleslav 1-0 Zlín: vence a casa."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1555429,
+            "match": "BSC Young Boys vs FC Thun",
+            "league": "Super League (Suíça), 14.ª jornada",
+            "leagueId": 207,
+            "pick": "BSC Young Boys vence",
+            "odds": 1.38,
+            "kickoff": "2026-11-21T17:00:00Z",
+            "score": 65,
+            "tese": "O Young Boys ganhou quatro dos últimos cinco oficiais e três dos últimos cinco ao Thun, com 6-0 e 8-3 nos dois mais recentes.",
+            "factors": [
+              "Forma API, últimos 5 oficiais (sem o amigável 0-0): YB 3-2 (f), 3-5 (c), 2-0 (c), 5-0 (Taça, f), 2-0 (f) — 4/5 vitórias",
+              "H2H oficial (API, Super League; sem o amigável de 06/2024): 6-0 (08/2026), 8-3 (05/2026), 1-2, 1-4, 4-2 — 3/5 vitórias",
+              "Baixas: API injuries vazia",
+              "1xBet 1.38, Bet365 1.40, Pinnacle 1.42"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-21T07:21:08.901Z",
+            "odd_justa_ref": 1.445,
+            "prob_justa": 0.692,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0451,
+            "justo_at": "2026-11-21T04:54:16+00:00",
+            "clv_api": -0.0007,
+            "fecho_idade_min": 6,
+            "odd_fecho_ref": 1.381,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T16:54:16+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0007,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "3-2",
+            "note": "Young Boys 3-2 Thun: vence a casa."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1550205,
+            "match": "Parma vs AS Roma",
+            "league": "Serie A (Itália), 12.ª jornada",
+            "leagueId": 135,
+            "pick": "AS Roma vence",
+            "odds": 1.3,
+            "kickoff": "2026-11-21T17:00:00Z",
+            "score": 65,
+            "tese": "A Roma ganhou os quatro H2H mais recentes com o Parma e marcou 17 golos nos últimos cinco; o Parma ganhou um jogo em seis.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Roma 3-0 (c), 2-3 (Champions, f), 5-2 (f), 4-2 (c), 3-3 (f) — 3/5 vitórias; Parma 1 vitória em 6",
+              "H2H oficial (API, Serie A): 3-2 (05/2026), 2-1 (10/2025), 1-0 (02/2025), 5-0 (12/2024) para a Roma; 2-0 para o Parma (03/2021) — 4/5",
+              "Baixas: API — Pellegrini e Rensch (Roma); Ndiaye castigado, Drobnic e Romero (Parma)",
+              "1xBet 1.30, Bet365 1.25, Pinnacle 1.28"
+            ],
+            "odd_nossa": 1.3,
+            "justo_gravado_em": "2026-11-21T07:21:08.904Z",
+            "odd_justa_ref": 1.296,
+            "prob_justa": 0.7714,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": 0.0028,
+            "justo_at": "2026-11-21T04:36:17+00:00",
+            "clv_api": 0.0375,
+            "fecho_idade_min": 21,
+            "odd_fecho_ref": 1.253,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T16:39:19+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0375,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-5",
+            "note": "Parma 1-5 Roma: a Roma vence fora."
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "return": 1.3,
+        "pnl": 0.8
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 2,
+      "accumulators_red": 0,
+      "accumulators_stake": 1,
+      "accumulators_return": 2.67,
+      "accumulators_pnl": 1.67,
+      "combined_stake": 1,
+      "combined_return": 2.67,
+      "combined_pnl": 1.67,
+      "combined_roi_pct": 167
+    },
+    "sombra": [
+      {
+        "market": "over25",
+        "marketLabel": "Mais/menos 2.5 golos",
+        "pick": "Menos de 2.5 golos",
+        "fixtureId": 1556904,
+        "home": {
+          "name": "Queen's Park",
+          "logo": "https://media.api-sports.io/football/teams/6778.png"
+        },
+        "away": {
+          "name": "Livingston",
+          "logo": "https://media.api-sports.io/football/teams/255.png"
+        },
+        "match": "Queen's Park vs Livingston",
+        "league": "Championship (Escócia), 16.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/180.png",
+        "kickoff": "2026-11-21T15:00:00Z",
+        "odds": 2.08,
+        "bookmaker": "Bet365",
+        "score": 66,
+        "stake": 0,
+        "shadow": true,
+        "stake_proposta": 0.5,
+        "context_depth": "partial",
+        "modelo": "gap",
+        "gap": {
+          "pressao": 26.5,
+          "prob_modelo": 0.507,
+          "prob_mercado": 0.453,
+          "valor": 0.054
+        },
+        "motivo_sombra": "Score 66 e sem segunda fonte para as baixas: a API não lista ninguém e não há antevisão com notícias de equipa (o SportsGambler não tem página do jogo e a imprensa não traz nada). O jogo tem cara de poucos golos, mas sem as baixas confirmadas em duas fontes não se publica. Está também na banda de 1.90 a 2.10, onde só sai com valor na 1xBet.",
+        "tese": "O Queen's Park está em último e quase não marca: três golos nos últimos seis jogos. O Livingston, que desceu, ganha sem sofrer: cinco jogos sem golos contra nos últimos seis. Nos seis H2H mais recentes, quatro ficaram abaixo dos três golos. Fica em sombra porque não há segunda fonte para as baixas.",
+        "factors": [
+          "Forma API, últimos 6 oficiais: Queen's Park 0-2, 0-1, 1-1 (Challenge Cup), 2-3, 0-1, 0-2 — menos de 2.5 em 5/6; Livingston 2-0, 1-1, 2-0 (Challenge Cup), 3-0, 1-0, 0-0 — menos de 2.5 em 5/6, 5 jogos sem sofrer",
+          "H2H oficial (API): 0-2 (Championship 08/2026), 0-3 (Championship 04/2025), 0-5 (Challenge Cup 03/2025), 2-0, 1-1, 1-1 (Championship 2024/25) — menos de 2.5 em 4/6",
+          "FootyStats (via pesquisa, Championship 2026/27, sem separação casa/fora explícita): xG Queen's Park 0,82, Livingston 1,48",
+          "Preço: Bet365 2.08 no menos de 2.5 (valor +5,4% contra o modelo), Pinnacle 2.04, 1xBet 2.03; modelo 50,7% contra 45,3% do mercado",
+          "Baixas: API injuries por jogo vazia; sem segunda fonte (SportsGambler sem página do jogo, pesquisa aberta sem notícias de equipa)"
+        ],
+        "sources": [
+          "API-Football — /fixtures (team last 8), /fixtures/headtohead, /injuries?fixture=1556904, /odds todas as casas",
+          "golos/previsoes/2026-11-21.json (modelo de golos)",
+          "FootyStats — livingston-fc-vs-queens-park-fc-h2h-stats (via pesquisa B)",
+          "SportsGambler — sem página do jogo (devolve a listagem)",
+          "Pesquisa aberta (Sky Sports, ESPN, livingstonfc.co.uk) — onzes não publicados, sem baixas"
+        ],
+        "odd_nossa": 2.08,
+        "justo_gravado_em": "2026-11-21T07:21:08.892Z",
+        "odd_justa_ref": 2.151,
+        "prob_justa": 0.465,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "5:under 2.5",
+        "ev_justo": -0.0329,
+        "justo_at": "2026-11-21T04:58:15+00:00",
+        "clv_api": -0.033,
+        "fecho_idade_min": 122,
+        "odd_fecho_ref": 2.151,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-21T12:58:14+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.033,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": 0,
+        "final_score": "1-4",
+        "note": "Queen's Park 1-4 Livingston: cinco golos, o menos de 2.5 falha."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "pnl_se_apostadas": -1,
+      "corvo": {
+        "total": 1,
+        "green": 1,
+        "red": 0,
+        "pnl_se_apostado": 0.89
+      },
+      "curto_vence": {
+        "total": 1,
+        "green": 1,
+        "red": 0,
+        "iguais": 1,
+        "pnl_se_apostado": 1.74
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.74,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao primeiro curto real: as três pernas já são vence, não há nada para trocar.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551604,
+            "match": "Žilina vs Dukla Banská Bystrica",
+            "league": "Super Liga (Eslováquia), 15.ª jornada",
+            "leagueId": 332,
+            "pick": "Žilina vence",
+            "odds": 1.37,
+            "kickoff": "2026-11-21T14:30:00Z",
+            "score": 65,
+            "tese": "O Žilina ganhou três dos últimos cinco ao Dukla, incluindo 4-3 lá em Agosto, e marca muito: 4-2 e 4-1 nos dois últimos da liga.",
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-21T07:21:08.904Z",
+            "odd_justa_ref": 1.452,
+            "prob_justa": 0.6888,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0564,
+            "justo_at": "2026-11-21T04:41:22+00:00",
+            "clv_api": -0.0565,
+            "fecho_idade_min": 348,
+            "odd_fecho_ref": 1.452,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T08:42:15+00:00",
+            "fecho_aproximado": true,
+            "clv": -0.0565,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-0",
+            "note": "Žilina 2-0 Dukla: o Žilina vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1603607,
+            "match": "Aris vs Nea Salamis",
+            "league": "1. Division (Chipre), 10.ª jornada",
+            "leagueId": 318,
+            "pick": "Aris vence",
+            "odds": 1.45,
+            "kickoff": "2026-11-21T17:00:00Z",
+            "score": 65,
+            "tese": "O Aris ganhou quatro dos últimos cinco ao Nea Salamis e três dos últimos cinco oficiais; o Nea Salamis perdeu os dois últimos fora.",
+            "odd_nossa": 1.45,
+            "justo_gravado_em": "2026-11-21T07:21:08.904Z",
+            "odd_justa_ref": 1.53,
+            "prob_justa": 0.6537,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0521,
+            "justo_at": "2026-11-21T06:42:15+00:00",
+            "clv_api": -0.0372,
+            "fecho_idade_min": 141,
+            "odd_fecho_ref": 1.506,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T14:39:22+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0372,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "3-1",
+            "note": "Aris 3-1 Nea Salamis: o Aris vence."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1558686,
+            "match": "KV Mechelen vs Club Brugge KV",
+            "league": "Jupiler Pro League (Bélgica), 12.ª jornada",
+            "leagueId": 144,
+            "pick": "Club Brugge KV vence",
+            "odds": 1.38,
+            "kickoff": "2026-11-21T19:45:00Z",
+            "score": 65,
+            "tese": "O Brugge ganhou quatro dos últimos cinco oficiais e três dos últimos cinco com o Mechelen (6-1 e 4-1 em 2026); fora leva 7V-1E-2D nos últimos 10 da liga.",
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-21T07:21:08.904Z",
+            "odd_justa_ref": 1.405,
+            "prob_justa": 0.712,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0175,
+            "justo_at": "2026-11-21T05:07:20+00:00",
+            "clv_api": -0.0143,
+            "fecho_idade_min": 161,
+            "odd_fecho_ref": 1.4,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T17:04:18+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0143,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-5",
+            "note": "Mechelen 1-5 Brugge: o Brugge vence fora."
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 1.74
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.89,
+        "score": 70,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra. Sobreposição: o Mechelen-Brugge também está no primeiro curto, com outro mercado (Brugge vence).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1570461,
+            "match": "Real Madrid vs Celta Vigo",
+            "league": "La Liga (Espanha), 13.ª jornada",
+            "leagueId": 140,
+            "pick": "Real Madrid vence e mais de 1.5 golos",
+            "odds": 1.27,
+            "kickoff": "2026-11-21T20:00:00Z",
+            "score": 72,
+            "tese": "O Real Madrid ganhou os últimos seis oficiais, todos com dois ou mais golos, e quatro dos cinco H2H mais recentes, todos com três ou mais golos no jogo.",
+            "factors": [
+              "Forma API, últimos 6 oficiais: 3-0, 3-2 (Champions), 3-0, 2-1, 4-1 (Champions), 4-1 — 6/6 vitórias com mais de 1.5",
+              "H2H oficial (API): 2-1 (f, 03/2026), 0-2 (c, 12/2025), 3-2 (c, 05/2025), 5-2 (Taça, 01/2025), 2-1 (f, 10/2024) — 4/5 vitórias, todas com 3+ golos",
+              "SportsGambler (La Liga, últimos 10 em casa): 9V-1E-0D, 2,90 marcados por jogo; prevê 2-0",
+              "Baixas: Asencio nas duas fontes; a API dá também Mendy e Rodrygo, o SportsGambler o Tchouaméni — nenhum do ataque; Mbappé, Bellingham e Güler no onze provável do SportsGambler"
+            ],
+            "odd_nossa": 1.27,
+            "justo_gravado_em": "2026-11-21T07:21:08.906Z",
+            "odd_justa_ref": 1.269,
+            "prob_justa": 0.788,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:home/over 1.5",
+            "ev_justo": 0.0007,
+            "justo_at": "2026-11-21T05:37:16+00:00",
+            "clv_api": 0.0201,
+            "fecho_idade_min": 154,
+            "odd_fecho_ref": 1.245,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T17:26:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0201,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-1",
+            "note": "Real Madrid 2-1 Celta: vence com três golos."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1558686,
+            "match": "KV Mechelen vs Club Brugge KV",
+            "league": "Jupiler Pro League (Bélgica), 12.ª jornada",
+            "leagueId": 144,
+            "pick": "Club Brugge KV vence e mais de 1.5 golos",
+            "odds": 1.49,
+            "kickoff": "2026-11-21T19:45:00Z",
+            "score": 70,
+            "tese": "O Brugge ganha fora e com golos (2,30 marcados por jogo nos últimos 10 fora) e o Mechelen sofre dois por jogo em casa; as três vitórias do Brugge nos últimos cinco H2H tiveram todas três ou mais golos.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: 1-1, 2-1, 4-2, 3-2, 3-0 — 4/5 vitórias com mais de 1.5",
+              "H2H oficial (API, Pro League), do lado do Brugge: 2-2 E, 6-1 V, 4-1 V, 1-2 D, 2-1 V — 3/5",
+              "SportsGambler (Pro League, últimos 10): Mechelen em casa 2,00 sofridos; Brugge fora 2,30 marcados; prevê 1-3",
+              "Baixas: API vazia; SportsGambler Ordóñez (pé) e Tresoldi, mas o Tresoldi foi titular nos dois últimos jogos (onzes da API de 04/11 e 08/11)"
+            ],
+            "odd_nossa": 1.49,
+            "justo_gravado_em": "2026-11-21T07:21:08.906Z",
+            "odd_justa_ref": 1.516,
+            "prob_justa": 0.6598,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:away/over 1.5",
+            "ev_justo": -0.0169,
+            "justo_at": "2026-11-21T05:07:20+00:00",
+            "clv_api": -0.0159,
+            "fecho_idade_min": 161,
+            "odd_fecho_ref": 1.514,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-21T17:04:18+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0159,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-5",
+            "note": "Mechelen 1-5 Brugge: o Brugge vence fora."
+          }
+        ],
+        "result": "GREEN",
+        "hit": true,
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 0.89
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna de 1.40 a 1.60 chega a 75 com investigação completa. As candidatas da banda (Aris 1.50, Mladá Boleslav 1.48, Young Boys 1.40 e Žilina 1.40 na Bet365) só têm a curadoria do curto, sem antevisão com baixas em duas fontes; o Leipzig (1.48) e o Valerenga (1.50), que passaram a 75-76 na pesquisa de ontem, têm H2H de 2 em 5 em jogos oficiais."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1649505,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Ostersunds FK vs Varbergs BoIS FC",
+        "league": "Allsvenskan",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.625,
+        "oddMinima": 2.3,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Varberg marcou aos 44' e o Östersund, em casa e a perder, tem de ir para cima: já tem 7 toques na área contra 2. Na Allsvenskan, com um golo de diferença ao intervalo, saíram 2 ou mais golos na 2ª parte em metade dos jogos, e a casa paga isto como se fosse bem menos.",
+        "confianca": 44,
+        "probImplicita": 0.381,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T12:46:30+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Away Team Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Away Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2.625
+            }
+          ]
+        },
+        "sentAt": 1795265274334,
+        "probModeloA": 0.4382,
+        "pushA": 0,
+        "valorA": 0.1503,
+        "aprovaA": true,
+        "probModeloB": 0.411,
+        "pushB": 0,
+        "valorB": 0.079,
+        "aprovaB": true,
+        "golos2pA": 1.4881,
+        "golos2pB": 1.4083,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795270529454,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1557474,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Manchester City vs Fulham",
+        "league": "Premier League",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.75,
+        "oddMinima": 1.75,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            2
+          ],
+          "amarelos": [
+            0,
+            3
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O City perde em casa mas fez 1.63 de xG contra 0.47 e 9 remates contra 2. Vai carregar a 2ª parte toda e o Fulham fica com espaço para sair. Bastam mais dois golos.",
+        "confianca": 57,
+        "probImplicita": 0.571,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795267317251,
+        "probModeloA": 0.5059,
+        "pushA": 0,
+        "valorA": -0.1147,
+        "aprovaA": false,
+        "probModeloB": 0.6054,
+        "pushB": 0,
+        "valorB": 0.0595,
+        "aprovaB": true,
+        "golos2pA": 1.6972,
+        "golos2pB": 2.0427,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795272346239,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1563268,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 6.5 cantos no jogo",
+        "match": "Norwich vs Cardiff",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.6,
+        "oddMinima": 1.6,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Só houve 2 cantos na 1ª parte, mas com 0-0 na Championship a 2ª parte costuma trazer 5 ou mais. Os dois vão ter de arriscar para ganhar.",
+        "confianca": 63,
+        "probImplicita": 0.625,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795267317272,
+        "probModeloA": 0.6236,
+        "pushA": 0,
+        "valorA": -0.0022,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.379,
+        "golos2pB": 1.9169,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0.30000000000000004,
+        "return": 0.8,
+        "resolvedAt": 1795272346239
+      },
+      {
+        "fixtureId": 1494810,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Tromso vs Viking",
+        "league": "Eliteserien",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.95,
+        "oddMinima": 1.95,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            2
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Tromsø ganha 1-0 e fez 9 remates contra 1 do Viking, por isso basta saírem mais dois golos. O Viking vai ter de correr atrás do resultado. Na Eliteserien, com um golo de diferença ao intervalo, saíram 2 ou mais golos na 2ª parte em cerca de metade dos jogos (47% a 56%).",
+        "confianca": 52,
+        "probImplicita": 0.513,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795268939621,
+        "probModeloA": 0.4829,
+        "pushA": 0,
+        "valorA": -0.0584,
+        "aprovaA": false,
+        "probModeloB": 0.5575,
+        "pushB": 0,
+        "valorB": 0.087,
+        "aprovaB": true,
+        "golos2pA": 1.6243,
+        "golos2pB": 1.8693,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795274209107,
+        "pnlSombra": 0.475
+      },
+      {
+        "fixtureId": 1570453,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Alavés marca na 2ª parte",
+        "match": "Alaves vs Deportivo La Coruna",
+        "league": "La Liga",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.7,
+        "oddMinima": 1.7,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            1
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Alavés tem 73% de bola e 10 remates contra 1. O Deportivo não acertou um remate na baliza e o golo deles foi na própria baliza do Alavés. Com 1-1 o Alavés tem de ir à procura e está a jogar no meio-campo deles.",
+        "confianca": 58,
+        "probImplicita": 0.588,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795269118390,
+        "probModeloA": 0.6962,
+        "pushA": 0,
+        "valorA": 0.1835,
+        "aprovaA": true,
+        "probModeloB": 0.5183,
+        "pushB": 0,
+        "valorB": -0.119,
+        "aprovaB": false,
+        "golos2pA": 1.5941,
+        "golos2pB": 1.3371,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 1,
+        "pnl": 0.35,
+        "return": 0.85,
+        "resolvedAt": 1795274209107
+      },
+      {
+        "fixtureId": 1570034,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Sabadell vs Granada CF",
+        "league": "Segunda División",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.375,
+        "oddMinima": 2.15,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            6,
+            1
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "O Sabadell está a perder em casa mas ganha os cantos por 6 a 1 e já teve um golo anulado pelo VAR. Vai ter de arriscar, e o Granada fica com espaço para o contra-ataque. Basta saírem mais dois golos, e a 2.375 a odd paga mais do que esse cenário vale.",
+        "confianca": 46,
+        "probImplicita": 0.421,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T13:53:21+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Handicap",
+              "linha": "0.5",
+              "lado": "home",
+              "odd": 2.375
+            },
+            {
+              "mercado": "3-Way Handicap",
+              "linha": "1",
+              "lado": "home",
+              "odd": 2.375
+            },
+            {
+              "mercado": "3-Way Handicap",
+              "linha": "-1",
+              "lado": "draw",
+              "odd": 2.375
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.375
+            },
+            {
+              "mercado": "To Win 2nd Half",
+              "linha": "-",
+              "lado": "home",
+              "odd": 2.375
+            },
+            {
+              "mercado": "To Win 2nd Half",
+              "linha": "-",
+              "lado": "draw",
+              "odd": 2.375
+            }
+          ]
+        },
+        "sentAt": 1795269293248,
+        "probModeloA": 0.4368,
+        "pushA": 0,
+        "valorA": 0.0373,
+        "aprovaA": true,
+        "probModeloB": 0.375,
+        "pushB": 0,
+        "valorB": -0.1094,
+        "aprovaB": false,
+        "golos2pA": 1.4839,
+        "golos2pB": 1.3051,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795274209107,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1550200,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 cartões no jogo",
+        "match": "Como vs Cagliari",
+        "league": "Serie A",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.727,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "cartoes",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Ainda não se viu nenhum cartão, mas na Serie A a 2ª parte de um jogo com um golo de diferença traz quase 3 amarelos em média. Agora o Cagliari tem de correr atrás do resultado e o Como vai querer segurar e queimar tempo, por isso bastam 2 cartões.",
+        "confianca": 61,
+        "probImplicita": 0.579,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T14:49:38+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Race to the 5th corner?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 1.727
+            },
+            {
+              "mercado": "2nd Goal in Interval",
+              "linha": "70",
+              "lado": "yes",
+              "odd": 1.727
+            },
+            {
+              "mercado": "Total Cards",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 1.727
+            },
+            {
+              "mercado": "To Win 2nd Half",
+              "linha": "-",
+              "lado": "home",
+              "odd": 1.727
+            }
+          ]
+        },
+        "sentAt": 1795272685586,
+        "probModeloA": 0.7225,
+        "pushA": 0,
+        "valorA": 0.2477,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.3456,
+        "golos2pB": 1.8442,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795277823762
+      },
+      {
+        "fixtureId": 1601606,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Carrarese vs Virtus Entella",
+        "league": "Serie B",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.25,
+        "oddMinima": 1.95,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            8,
+            0
+          ],
+          "amarelos": [
+            0,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "A Carrarese fez 18 remates contra 0 e 2.12 de golos esperados contra zero, e só marcou uma vez. Há mais golos para sair na 2ª parte, e a 2.25 paga bem.",
+        "confianca": 52,
+        "probImplicita": 0.444,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T14:51:05+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "13",
+              "lado": "under",
+              "odd": 2.25
+            },
+            {
+              "mercado": "Home Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "no",
+              "odd": 2.25
+            },
+            {
+              "mercado": "Home Team Goals",
+              "linha": "1.5",
+              "lado": "under",
+              "odd": 2.25
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.25
+            },
+            {
+              "mercado": "Both Teams to Score",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2.25
+            },
+            {
+              "mercado": "Away Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2.25
+            }
+          ]
+        },
+        "sentAt": 1795272871178,
+        "probModeloA": 0.6584,
+        "pushA": 0,
+        "valorA": 0.4814,
+        "aprovaA": true,
+        "probModeloB": 0.3862,
+        "pushB": 0,
+        "valorB": -0.131,
+        "aprovaB": false,
+        "golos2pA": 2.254,
+        "golos2pB": 1.3369,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795277823762,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1575229,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 1.5 golos no jogo",
+        "match": "SV Elversberg vs SC Freiburg",
+        "league": "Bundesliga",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.8,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            3
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Está 0-0, e as duas equipas juntas fizeram 0.53 de xG e só um remate à baliza, o do Elversberg. O Freiburg ainda não rematou à baliza, e a aposta só cai se saírem dois golos na 2ª parte.",
+        "confianca": 61,
+        "probImplicita": 0.556,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T15:18:28+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "1st Goal in Interval",
+              "linha": "70",
+              "lado": "yes",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "under",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.8
+            }
+          ]
+        },
+        "sentAt": 1795274427637,
+        "probModeloA": 0.523,
+        "pushA": 0,
+        "valorA": -0.0586,
+        "aprovaA": false,
+        "probModeloB": 0.5183,
+        "pushB": 0,
+        "valorB": -0.0671,
+        "aprovaB": false,
+        "golos2pA": 1.6059,
+        "golos2pB": 1.6206,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0.4,
+        "return": 0.9,
+        "resolvedAt": 1795279524970
+      },
+      {
+        "fixtureId": 1557467,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Aston Villa marca na 2ª parte",
+        "match": "Aston Villa vs Sunderland",
+        "league": "Premier League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.6,
+        "oddMinima": 1.6,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            0
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Villa teve 71% de bola, 8 remates contra 2, 5 cantos contra 0, e o Sunderland não fez um único remate à baliza. Em casa e a mandar assim, falta o golo.",
+        "confianca": 64,
+        "probImplicita": 0.625,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276140069,
+        "probModeloA": 0.6889,
+        "pushA": 0,
+        "valorA": 0.1022,
+        "aprovaA": true,
+        "probModeloB": 0.6142,
+        "pushB": 0,
+        "valorB": -0.0172,
+        "aprovaB": false,
+        "golos2pA": 1.6063,
+        "golos2pB": 1.4913,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1556710,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos na 2ª parte",
+        "match": "Kilmarnock vs Aberdeen",
+        "league": "Premiership",
+        "elapsed": 45,
+        "score": "1-3",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 3,
+        "odds": 1.65,
+        "oddMinima": 1.65,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            7,
+            1
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Kilmarnock já ganhou 7 cantos contra 1 e perde 1-3 em casa, por isso vai ter de ir para cima na 2ª parte. Na Premiership, jogos assim deram 5 ou mais cantos na 2ª parte em 64% das vezes.",
+        "confianca": 61,
+        "probImplicita": 0.606,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276140785,
+        "probModeloA": 0.7133,
+        "pushA": 0,
+        "valorA": 0.1769,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6349,
+        "golos2pB": 1.7277,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 4,
+        "pnl": 0.32499999999999996,
+        "return": 0.825,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1564425,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Plymouth marca na 2ª parte",
+        "match": "Plymouth vs Peterborough",
+        "league": "League One",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.7,
+        "oddMinima": 1.7,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Plymouth perde em casa mas fez 10 remates contra 3, com 58% de bola e 4 cantos contra 2. E o Peterborough sofre 2 golos por jogo fora de casa.",
+        "confianca": 60,
+        "probImplicita": 0.588,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276141422,
+        "probModeloA": 0.647,
+        "pushA": 0,
+        "valorA": 0.0999,
+        "aprovaA": true,
+        "probModeloB": 0.7027,
+        "pushB": 0,
+        "valorB": 0.1945,
+        "aprovaB": true,
+        "golos2pA": 1.6194,
+        "golos2pB": 1.8812,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 2,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1563274,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Wolves marca na 2ª parte",
+        "match": "Wolves vs Charlton",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.8,
+        "oddMinima": 1.8,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Wolves fez 8 remates contra 0 e teve 68% de bola. O Charlton ainda não rematou, e na Championship quem manda assim num 0-0 marca na 2ª parte em quase 6 de cada 10 jogos. Entrar só a 1.80 ou mais.",
+        "confianca": 57,
+        "probImplicita": 0.556,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276141745,
+        "probModeloA": 0.6425,
+        "pushA": 0,
+        "valorA": 0.1565,
+        "aprovaA": true,
+        "probModeloB": 0.719,
+        "pushB": 0,
+        "valorB": 0.2943,
+        "aprovaB": true,
+        "golos2pA": 1.4349,
+        "golos2pB": 1.6574,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0.4,
+        "return": 0.9,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1494805,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Ham-Kam vs Fredrikstad",
+        "league": "Eliteserien",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.15,
+        "oddMinima": 2.15,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            3
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0 e a 1ª parte foi parada, sem um único remate à baliza. Mas o Fredrikstad teve 69% de bola, e na Eliteserien metade dos jogos assim deu dois golos ou mais na 2ª parte.",
+        "confianca": 47,
+        "probImplicita": 0.465,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276320848,
+        "probModeloA": 0.4387,
+        "pushA": 0,
+        "valorA": -0.0568,
+        "aprovaA": false,
+        "probModeloB": 0.4461,
+        "pushB": 0,
+        "valorB": -0.0408,
+        "aprovaB": false,
+        "golos2pA": 1.4896,
+        "golos2pB": 1.5119,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795281384015,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1557476,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Tottenham vs Ipswich",
+        "league": "Premier League",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2,
+        "oddMinima": 2,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            2
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Tottenham fez 7 remates à baliza contra 2 e 1.46 de xG contra 0.14, e só está 1-0. Faltam dois golos na 2ª parte, e o Ipswich vai ter de abrir para ir atrás do empate.",
+        "confianca": 50,
+        "probImplicita": 0.5,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276320868,
+        "probModeloA": 0.5314,
+        "pushA": 0,
+        "valorA": 0.0627,
+        "aprovaA": true,
+        "probModeloB": 0.5136,
+        "pushB": 0,
+        "valorB": 0.0271,
+        "aprovaB": true,
+        "golos2pA": 1.7806,
+        "golos2pB": 1.722,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795281384015,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1563265,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos na 2ª parte",
+        "match": "Lincoln vs Wrexham",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.55,
+        "oddMinima": 1.55,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            3
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já houve 7 cantos na 1ª parte (4-3) e está 0-0, com as duas equipas a rematar (17 remates). Na Championship, quando o jogo vai assim para o intervalo, a 2ª parte costuma dar 5 ou mais cantos.",
+        "confianca": 65,
+        "probImplicita": 0.645,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276320869,
+        "probModeloA": 0.6429,
+        "pushA": 0,
+        "valorA": -0.0035,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4577,
+        "golos2pB": 1.2646,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0.275,
+        "return": 0.775,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1563263,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos na 2ª parte",
+        "match": "Bolton vs Portsmouth",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.7,
+        "oddMinima": 1.7,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Só houve 2 cantos na 1ª parte, mas está 1-1 e o Bolton tem 60% de bola e 8 remates. Na Championship, os empates com golos chegam aos 5 cantos na 2ª parte em mais de 6 em cada 10 jogos.",
+        "confianca": 60,
+        "probImplicita": 0.588,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276321507,
+        "probModeloA": 0.6044,
+        "pushA": 0,
+        "valorA": 0.0275,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.32,
+        "golos2pB": 1.5268,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": 0.35,
+        "return": 0.85,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1563271,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Stoke marca na 2ª parte",
+        "match": "Stoke City vs Birmingham",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.75,
+        "oddMinima": 1.75,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            7,
+            2
+          ],
+          "amarelos": [
+            3,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Stoke esmagou a 1ª parte: 11 remates contra 2, 7 cantos contra 2 e 62% de bola. Ainda está 0-0, e quem manda assim marca na 2ª parte quase 6 vezes em 10.",
+        "confianca": 58,
+        "probImplicita": 0.571,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276322109,
+        "probModeloA": 0.6188,
+        "pushA": 0,
+        "valorA": 0.0829,
+        "aprovaA": true,
+        "probModeloB": 0.4696,
+        "pushB": 0,
+        "valorB": -0.1781,
+        "aprovaB": false,
+        "golos2pA": 1.4264,
+        "golos2pB": 1.3041,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0.375,
+        "return": 0.875,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1558683,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Charleroi vs St. Truiden",
+        "league": "Jupiler Pro League",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.6,
+        "oddMinima": 1.6,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            1
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O St. Truiden joga com dez desde os 25 minutos e o Charleroi, em casa e com 1-1, vai passar a 2ª parte a carregar. Já ganhou 3 cantos contra 0 e faltam só mais 5. Na Jupiler, em jogos assim, saíram 5 ou mais cantos na 2ª parte em 70% das vezes.",
+        "confianca": 63,
+        "probImplicita": 0.625,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795276499795,
+        "probModeloA": 0.5996,
+        "pushA": 0,
+        "valorA": -0.0407,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5145,
+        "golos2pB": 1.6075,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": true,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 2,
+        "pnl": 0.3,
+        "return": 0.8,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1570460,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 14.5 cantos no jogo",
+        "match": "Rayo Vallecano vs Valencia",
+        "league": "La Liga",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.1,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            6,
+            3
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 9 cantos (6 do Rayo e 3 do Valencia), por isso a aposta ganha com 5 ou menos na 2ª parte. Nos jogos da La Liga com tantos cantos ao intervalo, a 2ª parte deu em média 5 cantos e passou dos 5 só em pouco mais de metade das vezes. A casa paga como se viessem 6 ou 7.",
+        "confianca": 55,
+        "probImplicita": 0.476,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T16:04:58+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "luis rioja/over 0.5",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "mujaid sadick/over 0.5",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "15",
+              "lado": "under",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Over/Under Line",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "cards/over  0.5",
+              "odd": 2.1
+            }
+          ]
+        },
+        "sentAt": 1795277210111,
+        "probModeloA": 0.5106,
+        "pushA": 0,
+        "valorA": 0.0723,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6474,
+        "golos2pB": 1.4715,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0.55,
+        "return": 1.05,
+        "resolvedAt": 1795281384015
+      },
+      {
+        "fixtureId": 1552226,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 9.5 cantos no jogo",
+        "match": "Feyenoord vs Excelsior",
+        "league": "Eredivisie",
+        "elapsed": 45,
+        "score": "1-2",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.666,
+        "oddMinima": 1.55,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Feyenoord perde em casa com 71% de bola e já leva 4 cantos contra 1. Vai passar a 2ª parte encostado à área do Excelsior, e chegam 5 cantos depois do intervalo.",
+        "confianca": 64,
+        "probImplicita": 0.6,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T18:33:27+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "9",
+              "lado": "over",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "9.5",
+              "lado": "over",
+              "odd": 1.666
+            }
+          ]
+        },
+        "sentAt": 1795286093448,
+        "probModeloA": 0.6088,
+        "pushA": 0,
+        "valorA": 0.0142,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.7936,
+        "golos2pB": 2.1921,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
+        "pnl": 0.33299999999999996,
+        "return": 0.833,
+        "resolvedAt": 1795290432314
+      },
+      {
+        "fixtureId": 1556707,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 9.5 cantos no jogo",
+        "match": "Dundee vs Heart Of Midlothian",
+        "league": "Premiership",
+        "elapsed": 45,
+        "score": "0-4",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 4,
+        "odds": 1.615,
+        "oddMinima": 1.6,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            4
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já se viram 5 cantos (4 dos Hearts) e bastam mais 5 na 2ª parte. Na Premiership, nos jogos com dois ou mais golos de diferença ao intervalo, isso aconteceu em 7 de cada 10 (média de 5.8 cantos depois do intervalo).",
+        "confianca": 63,
+        "probImplicita": 0.619,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T18:35:54+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "9",
+              "lado": "over",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "11",
+              "lado": "under",
+              "odd": 1.615
+            },
+            {
+              "mercado": "5th Goal in Interval",
+              "linha": "70",
+              "lado": "yes",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Home 1st Goal in Interval",
+              "linha": "80",
+              "lado": "no",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "9.5",
+              "lado": "over",
+              "odd": 1.615
+            }
+          ]
+        },
+        "sentAt": 1795286270569,
+        "probModeloA": 0.6471,
+        "pushA": 0,
+        "valorA": 0.045,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.7412,
+        "golos2pB": 1.6747,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 8,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795290432314
+      },
+      {
+        "fixtureId": 1550204,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Napoli vence o jogo",
+        "match": "Napoli vs Torino",
+        "league": "Serie A",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.666,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "resultado",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Nápoles fez 13 remates contra 4 e já leva 1.35 de xG contra 0.1 do Torino, que quase não chegou à baliza. Está 0-0, mas o golo está perto e o Torino não mostrou nada lá na frente.",
+        "confianca": 62,
+        "probImplicita": 0.6,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T20:34:07+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "billy gilmour/over 0.5",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Home 1st Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Fulltime Result",
+              "linha": "-",
+              "lado": "home",
+              "odd": 1.666
+            }
+          ]
+        },
+        "sentAt": 1795293376801,
+        "probModeloA": 0.4528,
+        "pushA": 0,
+        "valorA": -0.2456,
+        "aprovaA": false,
+        "probModeloB": 0.515,
+        "pushB": 0,
+        "valorB": -0.142,
+        "aprovaB": false,
+        "golos2pA": 1.5786,
+        "golos2pB": 1.5268,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0.33299999999999996,
+        "return": 0.833,
+        "resolvedAt": 1795298462493
+      },
+      {
+        "fixtureId": 1570035,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Tenerife vs Mallorca",
+        "league": "Segunda División",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.675,
+        "oddMinima": 2.6,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            3
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "0-0 com uma 1ª parte parada: só um remate à baliza e 4 cantos para o Tenerife contra 3 do Mallorca. Mesmo assim, em jogos assim saem dois golos na 2ª parte quase quatro vezes em dez, e a 2.67 o preço paga esse risco.",
+        "confianca": 39,
+        "probImplicita": 0.374,
+        "oddAoVivoMercado": {
+          "at": "2026-11-21T20:48:06+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Over/Under Line",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.675
+            }
+          ]
+        },
+        "sentAt": 1795294212328,
+        "probModeloA": 0.3998,
+        "pushA": 0,
+        "valorA": 0.0693,
+        "aprovaA": true,
+        "probModeloB": 0.3236,
+        "pushB": 0,
+        "valorB": -0.1344,
+        "aprovaB": false,
+        "golos2pA": 1.3757,
+        "golos2pB": 1.162,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": 0.3515,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": true,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795298462493,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1555429,
+        "jogo": "BSC Young Boys vs FC Thun",
+        "liga": "Super League",
+        "pais": "Switzerland",
+        "ko": "2026-11-21T17:00:00+00:00",
+        "casa": "BSC Young Boys",
+        "visitante": "FC Thun",
+        "pVisitanteMarca": 0.9533,
+        "pCasaMarca": 0.9669,
+        "pRegra": 0.9217,
+        "lambdaFora": 3.0633,
+        "lambdaCasa": 3.4086,
+        "foraMarcou": 7,
+        "foraJogos": 7,
+        "casaSofreu": 6,
+        "casaJogos": 7,
+        "taxaLiga": {
+          "casa": 1.815,
+          "fora": 1.648,
+          "n": 78
+        },
+        "odd1xbet": 1.33,
+        "pJustaFormula": 0.7102,
+        "pConsenso": 0.694,
+        "nCasas": 6,
+        "evFormula": -0.0555,
+        "evConsenso": -0.077,
+        "oddJusta": 1.41,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.49,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-21T04:54:16+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa grave nova no ataque do Thun para hoje; os resultados são de jogos anteriores e não há onze publicado nem notícia de ontem ou de hoje.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1552233,
+          "jogo": "Utrecht vs Cambuur",
+          "ko": "2026-11-21T17:45:00+00:00",
+          "pVisitanteMarca": 0.9345,
+          "pCasaMarca": 0.7916
+        },
+        "porque": "regra do dono: FC Thun marca fora 95%, BSC Young Boys marca em casa 97%; sem valor (EV -5.5% na fórmula, -7.7% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "BSC Young Boys vs FC Thun",
+        "league": "Super League",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.33,
+        "frase": "O FC Thun marcou em 7 dos últimos 7 jogos fora, e o BSC Young Boys sofreu em 6 dos últimos 7 em casa.",
+        "sentAt": 1795245959896,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — BSC Young Boys vs FC Thun</b> (17:00)\n\n📊 FC Thun marca fora 95% · BSC Young Boys marca em casa 97%\n💰 1xBet <b>@1.33</b> · justo @1.41 · sem valor hoje (stake 0)\n\nO FC Thun marcou em 7 dos últimos 7 jogos fora, e o BSC Young Boys sofreu em 6 dos últimos 7 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-21T15:31:31.958Z",
+        "oddPertoDoJogo": 1.35,
+        "evPertoDoJogo": {
+          "formula": -0.0589,
+          "consenso": -0.0809
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Thun; os resultados eram de datas antigas e não confirmam nada para este jogo.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795305350549,
+        "pnlSombra": 0.165,
+        "odd_fecho_ref": 1.432,
+        "prob_fecho": 0.6983,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-21T16:54:16+00:00",
+        "fecho_idade_min": 6,
+        "clv": -0.0712,
+        "prob_fecho_formula": 0.6893,
+        "clv_formula": -0.0832
+      }
+    ],
+    "summary": {
+      "total": 16,
+      "green": 12,
+      "red": 4,
+      "pending": 0,
+      "hit_rate": 75,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 16,
+          "green": 12,
+          "red": 4,
+          "push": 0,
+          "pending": 0
+        }
+      },
+      "stake_total": 8,
+      "stake_mensuravel": 8,
+      "return_mensuravel": 10.291,
+      "pnl_mensuravel": 2.291,
+      "roi_pct_mensuravel": 28.64,
+      "odds_registadas": 16
+    },
+    "shadow_summary": {
+      "total": 9,
+      "green": 2,
+      "red": 7,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 22.22,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 8,
+          "green": 1,
+          "red": 7,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 12.5
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0,
+          "hit_rate": 100
+        }
+      },
+      "stake_nocional": 9,
+      "return_nocional": 3.28,
+      "pnl_nocional": -5.72
+    }
+  },
+  "balance": 37.93,
+  "notes": "Sábado sem tip simples, só os dois curtos, e ambos passaram. O primeiro (Žilina, Aris e Brugge) pagou 2.74 e deu +0.87 stakes; o segundo (Mladá Boleslav, Young Boys e Roma) pagou 2.60 e deu +0.8. Ao intervalo, 12 verdes e 4 vermelhos nos alertas apostados, +2.291 stakes. A 🟢🟢 da manhã (Young Boys-Thun, 3-2) saiu sem valor, em sombra, e acabou verde. Corvo e curto-vence, em sombra, também ganharam. Dia +3.96 stakes, banca 37.93 stakes."
+}
