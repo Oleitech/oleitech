@@ -67,7 +67,22 @@
       "frase": "O NK Osijek marcou em 4 dos últimos 6 jogos fora, e o NK Slaven Belupo sofreu em 5 dos últimos 6 em casa.",
       "sentAt": 1795418505234,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — NK Slaven Belupo vs NK Osijek</b> (17:00)\n\n📊 NK Osijek marca fora 89% · NK Slaven Belupo marca em casa 80%\n💰 1xBet <b>@1.46</b> · justo @1.60 · sem valor hoje (stake 0)\n\nO NK Osijek marcou em 4 dos últimos 6 jogos fora, e o NK Slaven Belupo sofreu em 5 dos últimos 6 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-23T15:34:40.123Z",
+      "oddPertoDoJogo": 1.5,
+      "evPertoDoJogo": {
+        "formula": -0.0921,
+        "consenso": -0.087
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei notícia de hoje ou de ontem à noite sobre baixas importantes no ataque do Osijek. Os resultados da pesquisa são todos de 2025 ou anteriores, e o onze não está publicado.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      }
     }
   ],
   "escolhidaEm": "2026-11-23T07:21:16.417Z",

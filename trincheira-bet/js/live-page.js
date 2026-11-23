@@ -23,11 +23,6 @@ const LivePage = {
     // Wire events
     this.wireEvents();
 
-    // Init learning engine for league data
-    if (typeof Learning !== 'undefined' && Learning.init) {
-      Learning.init().catch(() => {});
-    }
-
     // First poll
     await this.poll();
   },
