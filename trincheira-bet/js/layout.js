@@ -334,10 +334,19 @@ const Layout = {
     };
   },
 
-  // Shared: soma o P/L de todos os dias. Devolve stakes, ou null se falhar.
+  // 23/11/2026: o resumo.json (scripts/resumo-resultados.mjs) so vale se cobrir exatamente os dias do index;
+  // atrasado ou em falta, quem o le volta a somar os ficheiros dos dias.
+  resumoValido(resumo, index) {
+    const a = [...(resumo?.files || [])].sort().join(), b = [...(index?.files || [])].sort().join();
+    return resumo?.versao === 1 && Array.isArray(resumo.dias) && typeof resumo.totalPL === 'number' && b !== '' && a === b;
+  },
+
+  // Shared: soma o P/L de todos os dias. Devolve stakes, ou null se falhar. Com o resumo valido: 2 pedidos, nao ~137.
   async loadTotalPL() {
     try {
-      const index = await fetchJSON('resultados/data/index.json', { memo: true });
+      const [index, resumo] = await Promise.all([fetchJSON('resultados/data/index.json', { memo: true }),
+        fetchJSON('resultados/data/resumo.json', { memo: true }).catch(() => null)]);
+      if (this.resumoValido(resumo, index)) return resumo.totalPL;
       if (!index?.files?.length) return null;
       // fetchJSON limita a 5 em voo e repete os 429; um dia que falhe mesmo deixa o total por mostrar (null)
       const days = await Promise.all(index.files.map(f => fetchJSON('resultados/data/' + f, { memo: true })));

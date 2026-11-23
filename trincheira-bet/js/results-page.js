@@ -42,15 +42,26 @@ const ResultsPage = {
       <div id="results-content"></div>
     `;
 
-    const index = await fetchJSON('resultados/data/index.json', { memo: true }).catch(() => null);
+    // 23/11/2026: resultados/data/resumo.json (scripts/resumo-resultados.mjs) traz uma linha por dia com as contas ja
+    // feitas: 1 pedido desenha tudo e cada dia so e pedido ao abrir. Sem resumo, ou atrasado face ao index, cai para o
+    // carregamento mes a mes (v18).
+    const [index, resumo] = await Promise.all([fetchJSON('resultados/data/index.json', { memo: true }).catch(() => null),
+      fetchJSON('resultados/data/resumo.json', { memo: true }).catch(() => null)]);
     const files = [...(index?.files || [])].sort().reverse();
     this.porMes = new Map();
     for (const f of files) { const k = f.slice(0, 7); if (!this.porMes.has(k)) this.porMes.set(k, []); this.porMes.get(k).push(f); }
+    if (Layout.resumoValido(resumo, index)) {
+      this.days = [...resumo.dias].sort((a, b) => b.date.localeCompare(a.date));
+      this.render(main, true);
+      Layout.updateTotalPL(resumo.totalPL);
+      await this.renderAmbas(main);
+      return;
+    }
     const recentes = files.slice(0, 7);
     const lotes = [recentes, ...[...this.porMes.values()].map(fs => fs.filter(f => !recentes.includes(f)))].filter(l => l.length);
     this.days = [];
     for (const [i, lote] of lotes.entries()) {
-      this.days = [...this.days, ...await this.loadData(lote)].sort((a, b) => b.date.localeCompare(a.date));
+      this.days = [...this.days, ...(await this.loadData(lote)).map(d => this.linhaDia(d))].sort((a, b) => b.date.localeCompare(a.date));
       if (i === 0) this.render(main, false);
       else this.atualizaMeses();
     }
@@ -116,7 +127,20 @@ const ResultsPage = {
   // fetchJSON pede sem cache do browser (no-store, ver o app.js) e repete os 429; partilhado com o total do topo (memo)
   async loadData(files) {
     const results = await Promise.all(files.map(f => fetchJSON('resultados/data/' + f, { memo: true }).catch(() => null)));
-    return results.filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
+    const days = results.filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
+    for (const d of days) this.cheios.set(d.date, d);
+    return days;
+  },
+
+  // Dias completos ja carregados (date -> ficheiro do dia). Com o resumo so entram os dias que se abrem.
+  cheios: new Map(),
+
+  // A linha de um dia: as contas que a pagina mostra no cabecalho do dia e soma nos meses e no topo. E a MESMA funcao
+  // que o scripts/resumo-resultados.mjs corre (vm) para gerar o resumo.json: uma regra so (sombra fora, stakes).
+  linhaDia(day) {
+    const counts = this.dayCounts(day);
+    const sum = Layout.dayStakes(day)?.summary;
+    return { date: day.date, total: counts.total, hits: counts.hits, profit: sum?.profit || 0, staked: sum?.total_staked || 0 };
   },
 
   // Flatten all tips from a day into unified bet list
@@ -218,13 +242,12 @@ const ResultsPage = {
     // Process days in chronological order for streak
     const chronological = [...this.days].reverse();
 
-    chronological.forEach(day => {
-      const counts = this.dayCounts(day);
-      totalTips += counts.total;
-      totalHits += counts.hits;
+    chronological.forEach(day => {   // `day` e a linha do dia (linhaDia)
+      totalTips += day.total;
+      totalHits += day.hits;
 
-      const profit = Layout.dayStakes(day)?.summary?.profit || 0;
-      const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
+      const profit = day.profit;
+      const staked = day.staked;
       totalPL += profit;
       totalStaked += staked;
 
@@ -243,7 +266,7 @@ const ResultsPage = {
     // Current streak (from most recent day backwards)
     streak = 0;
     for (let i = 0; i < this.days.length; i++) {
-      const profit = Layout.dayStakes(this.days[i])?.summary?.profit || 0;
+      const profit = this.days[i].profit;
       if (profit >= 0) streak++;
       else break;
     }
@@ -273,12 +296,11 @@ const ResultsPage = {
     let totalPL = 0;
     let totalStaked = 0;
 
-    days.forEach(day => {
-      const counts = this.dayCounts(day);
-      totalTips += counts.total;
-      totalHits += counts.hits;
-      totalPL += Layout.dayStakes(day)?.summary?.profit || 0;
-      totalStaked += Layout.dayStakes(day)?.summary?.total_staked || 0;
+    days.forEach(day => {   // linhas do dia (linhaDia)
+      totalTips += day.total;
+      totalHits += day.hits;
+      totalPL += day.profit;
+      totalStaked += day.staked;
     });
 
     const hitRate = totalTips > 0 ? (totalHits / totalTips * 100) : 0;
@@ -389,16 +411,18 @@ const ResultsPage = {
     });
   },
 
-  renderDay(day) {
-    const tips = this.flattenTips(day);
-    const counts = this.dayCounts(day);
+  // `linha` e a linha do dia (linhaDia ou resumo.json). O corpo precisa do ficheiro do dia: se ja esta carregado sai ja,
+  // senao pede-se ao abrir o dia (com o resumo, abrir um dia = 1 pedido).
+  renderDay(linha) {
+    const day = linha;
+    const counts = { total: linha.total, hits: linha.hits };
     const hits = counts.hits;
     const hitRate = counts.total > 0 ? (hits / counts.total * 100) : 0;
     const winPct = hitRate;
     const lossPct = 100 - winPct;
 
-    const profit = Layout.dayStakes(day)?.summary?.profit || 0;
-    const staked = Layout.dayStakes(day)?.summary?.total_staked || 0;
+    const profit = linha.profit;
+    const staked = linha.staked;
 
     const dateParts = this.parseDateParts(day.date);
 
@@ -432,9 +456,22 @@ const ResultsPage = {
       </div>
       ${this.chevSVG}
     `;
-    head.addEventListener('click', () => dayEl.classList.toggle('is-open'));
+    head.addEventListener('click', async () => {
+      if (!dayEl.querySelector('.day-body')) {
+        const cheio = this.cheios.get(linha.date) || await fetchJSON(`resultados/data/${linha.date}.json`, { memo: true }).catch(() => null);
+        if (!cheio) return;
+        this.cheios.set(linha.date, cheio);
+        if (!dayEl.querySelector('.day-body')) dayEl.appendChild(this.corpoDia(cheio));
+      }
+      dayEl.classList.toggle('is-open');
+    });
     dayEl.appendChild(head);
+    if (this.cheios.has(linha.date)) dayEl.appendChild(this.corpoDia(this.cheios.get(linha.date)));
+    return dayEl;
+  },
 
+  corpoDia(day) {
+    const tips = this.flattenTips(day);
     // Day body
     const body = UI.el('div', 'day-body');
 
@@ -561,8 +598,7 @@ const ResultsPage = {
       });
     }
 
-    dayEl.appendChild(body);
-    return dayEl;
+    return body;
   },
 
   // Os dados sao nossos, mas as notas dos acumuladores sao texto livre escrito

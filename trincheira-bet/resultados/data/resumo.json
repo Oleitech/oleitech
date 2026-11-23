@@ -1,0 +1,1170 @@
+{
+ "versao": 1,
+ "units": "stakes",
+ "files": [
+  "2026-04-12.json",
+  "2026-04-13.json",
+  "2026-04-14.json",
+  "2026-04-15.json",
+  "2026-04-16.json",
+  "2026-04-17.json",
+  "2026-04-18.json",
+  "2026-04-19.json",
+  "2026-04-20.json",
+  "2026-04-21.json",
+  "2026-04-22.json",
+  "2026-04-23.json",
+  "2026-04-24.json",
+  "2026-04-25.json",
+  "2026-04-26.json",
+  "2026-04-27.json",
+  "2026-04-28.json",
+  "2026-04-29.json",
+  "2026-05-01.json",
+  "2026-05-02.json",
+  "2026-05-03.json",
+  "2026-05-04.json",
+  "2026-05-05.json",
+  "2026-05-06.json",
+  "2026-05-07.json",
+  "2026-05-08.json",
+  "2026-05-16.json",
+  "2026-05-17.json",
+  "2026-05-18.json",
+  "2026-05-19.json",
+  "2026-05-20.json",
+  "2026-05-21.json",
+  "2026-05-22.json",
+  "2026-05-23.json",
+  "2026-05-24.json",
+  "2026-05-25.json",
+  "2026-05-26.json",
+  "2026-05-29.json",
+  "2026-06-04.json",
+  "2026-08-18.json",
+  "2026-08-19.json",
+  "2026-08-20.json",
+  "2026-08-21.json",
+  "2026-08-22.json",
+  "2026-08-23.json",
+  "2026-08-24.json",
+  "2026-08-25.json",
+  "2026-08-26.json",
+  "2026-08-27.json",
+  "2026-08-28.json",
+  "2026-08-29.json",
+  "2026-08-30.json",
+  "2026-08-31.json",
+  "2026-09-01.json",
+  "2026-09-02.json",
+  "2026-09-03.json",
+  "2026-09-04.json",
+  "2026-09-05.json",
+  "2026-09-06.json",
+  "2026-09-07.json",
+  "2026-09-08.json",
+  "2026-09-09.json",
+  "2026-09-10.json",
+  "2026-09-11.json",
+  "2026-09-12.json",
+  "2026-09-13.json",
+  "2026-09-14.json",
+  "2026-09-15.json",
+  "2026-09-16.json",
+  "2026-09-17.json",
+  "2026-09-18.json",
+  "2026-09-19.json",
+  "2026-09-20.json",
+  "2026-09-21.json",
+  "2026-09-22.json",
+  "2026-09-23.json",
+  "2026-09-24.json",
+  "2026-09-25.json",
+  "2026-09-26.json",
+  "2026-09-27.json",
+  "2026-09-28.json",
+  "2026-09-29.json",
+  "2026-09-30.json",
+  "2026-10-01.json",
+  "2026-10-02.json",
+  "2026-10-03.json",
+  "2026-10-04.json",
+  "2026-10-05.json",
+  "2026-10-06.json",
+  "2026-10-07.json",
+  "2026-10-08.json",
+  "2026-10-09.json",
+  "2026-10-10.json",
+  "2026-10-11.json",
+  "2026-10-12.json",
+  "2026-10-13.json",
+  "2026-10-14.json",
+  "2026-10-15.json",
+  "2026-10-16.json",
+  "2026-10-17.json",
+  "2026-10-18.json",
+  "2026-10-19.json",
+  "2026-10-20.json",
+  "2026-10-21.json",
+  "2026-10-22.json",
+  "2026-10-23.json",
+  "2026-10-24.json",
+  "2026-10-25.json",
+  "2026-10-26.json",
+  "2026-10-27.json",
+  "2026-10-28.json",
+  "2026-10-29.json",
+  "2026-10-30.json",
+  "2026-10-31.json",
+  "2026-11-01.json",
+  "2026-11-02.json",
+  "2026-11-03.json",
+  "2026-11-04.json",
+  "2026-11-05.json",
+  "2026-11-06.json",
+  "2026-11-07.json",
+  "2026-11-08.json",
+  "2026-11-09.json",
+  "2026-11-10.json",
+  "2026-11-11.json",
+  "2026-11-12.json",
+  "2026-11-13.json",
+  "2026-11-14.json",
+  "2026-11-15.json",
+  "2026-11-16.json",
+  "2026-11-17.json",
+  "2026-11-18.json",
+  "2026-11-19.json",
+  "2026-11-20.json",
+  "2026-11-21.json",
+  "2026-11-22.json"
+ ],
+ "totalPL": -23.05,
+ "global": {
+  "apostas": 1032,
+  "acertos": 561,
+  "hitRate": 54.36,
+  "apostado": 896.5,
+  "pl": -23.05,
+  "roi": -2.57
+ },
+ "meses": [
+  {
+   "mes": "2026-11",
+   "dias": 22,
+   "apostas": 163,
+   "acertos": 94,
+   "apostado": 84,
+   "pl": 11.23,
+   "roi": 13.37
+  },
+  {
+   "mes": "2026-10",
+   "dias": 31,
+   "apostas": 138,
+   "acertos": 71,
+   "apostado": 102.5,
+   "pl": -4.44,
+   "roi": -4.33
+  },
+  {
+   "mes": "2026-09",
+   "dias": 30,
+   "apostas": 105,
+   "acertos": 51,
+   "apostado": 92,
+   "pl": -1.65,
+   "roi": -1.8
+  },
+  {
+   "mes": "2026-08",
+   "dias": 14,
+   "apostas": 112,
+   "acertos": 63,
+   "apostado": 42,
+   "pl": 6.45,
+   "roi": 15.36
+  },
+  {
+   "mes": "2026-06",
+   "dias": 1,
+   "apostas": 0,
+   "acertos": 0,
+   "apostado": 0,
+   "pl": 0,
+   "roi": 0
+  },
+  {
+   "mes": "2026-05",
+   "dias": 20,
+   "apostas": 160,
+   "acertos": 85,
+   "apostado": 145.4,
+   "pl": -19.38,
+   "roi": -13.33
+  },
+  {
+   "mes": "2026-04",
+   "dias": 18,
+   "apostas": 354,
+   "acertos": 197,
+   "apostado": 430.6,
+   "pl": -15.26,
+   "roi": -3.54
+  }
+ ],
+ "dias": [
+  {
+   "date": "2026-11-22",
+   "total": 15,
+   "hits": 10,
+   "profit": 1.7469999999999999,
+   "staked": 8.5
+  },
+  {
+   "date": "2026-11-21",
+   "total": 18,
+   "hits": 14,
+   "profit": 3.961,
+   "staked": 9
+  },
+  {
+   "date": "2026-11-20",
+   "total": 4,
+   "hits": 2,
+   "profit": -0.43000000000000005,
+   "staked": 2
+  },
+  {
+   "date": "2026-11-19",
+   "total": 2,
+   "hits": 2,
+   "profit": 1.375,
+   "staked": 1
+  },
+  {
+   "date": "2026-11-18",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.905,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-11-17",
+   "total": 17,
+   "hits": 11,
+   "profit": 1.917,
+   "staked": 9
+  },
+  {
+   "date": "2026-11-16",
+   "total": 10,
+   "hits": 4,
+   "profit": -1.267,
+   "staked": 5
+  },
+  {
+   "date": "2026-11-15",
+   "total": 6,
+   "hits": 2,
+   "profit": -1.357,
+   "staked": 3
+  },
+  {
+   "date": "2026-11-14",
+   "total": 8,
+   "hits": 4,
+   "profit": 1.6049999999999998,
+   "staked": 4
+  },
+  {
+   "date": "2026-11-13",
+   "total": 9,
+   "hits": 4,
+   "profit": -0.4,
+   "staked": 4.5
+  },
+  {
+   "date": "2026-11-12",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.375,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-11-11",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-11-10",
+   "total": 1,
+   "hits": 0,
+   "profit": -0.5,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-11-09",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.4576,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-11-08",
+   "total": 19,
+   "hits": 9,
+   "profit": -1.5445000000000002,
+   "staked": 9.5
+  },
+  {
+   "date": "2026-11-07",
+   "total": 23,
+   "hits": 9,
+   "profit": -1.9425000000000003,
+   "staked": 11.5
+  },
+  {
+   "date": "2026-11-06",
+   "total": 5,
+   "hits": 4,
+   "profit": 1.3824999999999998,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-11-05",
+   "total": 4,
+   "hits": 4,
+   "profit": 2.4215,
+   "staked": 2
+  },
+  {
+   "date": "2026-11-04",
+   "total": 3,
+   "hits": 1,
+   "profit": -0.07499999999999996,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-11-03",
+   "total": 8,
+   "hits": 6,
+   "profit": 1.016,
+   "staked": 5
+  },
+  {
+   "date": "2026-11-02",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.7175,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-11-01",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.87,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-10-31",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.885,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-10-30",
+   "total": 4,
+   "hits": 1,
+   "profit": -1.0455,
+   "staked": 2
+  },
+  {
+   "date": "2026-10-29",
+   "total": 2,
+   "hits": 0,
+   "profit": -1,
+   "staked": 1
+  },
+  {
+   "date": "2026-10-28",
+   "total": 3,
+   "hits": 0,
+   "profit": -2,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-10-27",
+   "total": 4,
+   "hits": 1,
+   "profit": -1.167,
+   "staked": 2
+  },
+  {
+   "date": "2026-10-26",
+   "total": 7,
+   "hits": 5,
+   "profit": 1.6215,
+   "staked": 4
+  },
+  {
+   "date": "2026-10-25",
+   "total": 8,
+   "hits": 4,
+   "profit": -0.08000000000000007,
+   "staked": 5
+  },
+  {
+   "date": "2026-10-24",
+   "total": 6,
+   "hits": 3,
+   "profit": 0.15999999999999998,
+   "staked": 3
+  },
+  {
+   "date": "2026-10-23",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.36000000000000004,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-10-22",
+   "total": 6,
+   "hits": 4,
+   "profit": 0.9099999999999999,
+   "staked": 4.5
+  },
+  {
+   "date": "2026-10-21",
+   "total": 7,
+   "hits": 4,
+   "profit": -0.6,
+   "staked": 6
+  },
+  {
+   "date": "2026-10-20",
+   "total": 3,
+   "hits": 3,
+   "profit": 2.01,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-10-19",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.9,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-10-18",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.66,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-10-17",
+   "total": 11,
+   "hits": 8,
+   "profit": 1.6059999999999999,
+   "staked": 12.5
+  },
+  {
+   "date": "2026-10-16",
+   "total": 5,
+   "hits": 1,
+   "profit": -1.725,
+   "staked": 4
+  },
+  {
+   "date": "2026-10-15",
+   "total": 3,
+   "hits": 1,
+   "profit": -1.0424,
+   "staked": 2
+  },
+  {
+   "date": "2026-10-14",
+   "total": 4,
+   "hits": 2,
+   "profit": 0.5329999999999999,
+   "staked": 3
+  },
+  {
+   "date": "2026-10-13",
+   "total": 5,
+   "hits": 3,
+   "profit": 0.23299999999999987,
+   "staked": 4.5
+  },
+  {
+   "date": "2026-10-12",
+   "total": 4,
+   "hits": 2,
+   "profit": -0.44999999999999996,
+   "staked": 3
+  },
+  {
+   "date": "2026-10-11",
+   "total": 9,
+   "hits": 5,
+   "profit": 0.9649999999999999,
+   "staked": 7
+  },
+  {
+   "date": "2026-10-10",
+   "total": 13,
+   "hits": 9,
+   "profit": -0.020000000000000018,
+   "staked": 10.5
+  },
+  {
+   "date": "2026-10-09",
+   "total": 4,
+   "hits": 1,
+   "profit": -1.06,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-10-08",
+   "total": 1,
+   "hits": 0,
+   "profit": -0.5,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-10-07",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.945,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-10-06",
+   "total": 2,
+   "hits": 1,
+   "profit": -0.44999999999999996,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-10-05",
+   "total": 6,
+   "hits": 2,
+   "profit": -1.97,
+   "staked": 4.5
+  },
+  {
+   "date": "2026-10-04",
+   "total": 2,
+   "hits": 1,
+   "profit": 0.31,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-10-03",
+   "total": 5,
+   "hits": 2,
+   "profit": -1.23,
+   "staked": 4.5
+  },
+  {
+   "date": "2026-10-02",
+   "total": 3,
+   "hits": 1,
+   "profit": -0.7,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-10-01",
+   "total": 2,
+   "hits": 0,
+   "profit": -1.5,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-09-30",
+   "total": 2,
+   "hits": 1,
+   "profit": -0.19,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-29",
+   "total": 2,
+   "hits": 2,
+   "profit": 1.72,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-09-28",
+   "total": 2,
+   "hits": 1,
+   "profit": 0.3,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-27",
+   "total": 4,
+   "hits": 1,
+   "profit": -1.15,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-09-26",
+   "total": 3,
+   "hits": 1,
+   "profit": -0.71,
+   "staked": 2
+  },
+  {
+   "date": "2026-09-25",
+   "total": 3,
+   "hits": 0,
+   "profit": -1.5,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-09-24",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.72,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-09-23",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.25,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-09-22",
+   "total": 1,
+   "hits": 0,
+   "profit": -0.5,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-09-21",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.81,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-09-20",
+   "total": 11,
+   "hits": 6,
+   "profit": 0.97,
+   "staked": 11.5
+  },
+  {
+   "date": "2026-09-19",
+   "total": 10,
+   "hits": 6,
+   "profit": 0.13000000000000012,
+   "staked": 10.5
+  },
+  {
+   "date": "2026-09-18",
+   "total": 2,
+   "hits": 0,
+   "profit": -1.5,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-09-17",
+   "total": 5,
+   "hits": 2,
+   "profit": -0.41,
+   "staked": 3.5
+  },
+  {
+   "date": "2026-09-16",
+   "total": 3,
+   "hits": 0,
+   "profit": -2.5,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-09-15",
+   "total": 6,
+   "hits": 3,
+   "profit": -0.125,
+   "staked": 5
+  },
+  {
+   "date": "2026-09-14",
+   "total": 5,
+   "hits": 4,
+   "profit": 2.92,
+   "staked": 5.5
+  },
+  {
+   "date": "2026-09-13",
+   "total": 6,
+   "hits": 3,
+   "profit": -1.75,
+   "staked": 6.5
+  },
+  {
+   "date": "2026-09-12",
+   "total": 8,
+   "hits": 4,
+   "profit": -0.52,
+   "staked": 9
+  },
+  {
+   "date": "2026-09-11",
+   "total": 6,
+   "hits": 2,
+   "profit": -2.17,
+   "staked": 6.5
+  },
+  {
+   "date": "2026-09-10",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.95,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-09",
+   "total": 3,
+   "hits": 2,
+   "profit": 1.04,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-09-08",
+   "total": 1,
+   "hits": 0,
+   "profit": 0.64,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-07",
+   "total": 2,
+   "hits": 1,
+   "profit": 0.2,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-09-06",
+   "total": 4,
+   "hits": 2,
+   "profit": -0.010000000000000009,
+   "staked": 4
+  },
+  {
+   "date": "2026-09-05",
+   "total": 4,
+   "hits": 2,
+   "profit": 0.02,
+   "staked": 3
+  },
+  {
+   "date": "2026-09-04",
+   "total": 4,
+   "hits": 3,
+   "profit": 2.37,
+   "staked": 3
+  },
+  {
+   "date": "2026-09-03",
+   "total": 2,
+   "hits": 1,
+   "profit": -0.16,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-02",
+   "total": 1,
+   "hits": 0,
+   "profit": -1,
+   "staked": 1
+  },
+  {
+   "date": "2026-09-01",
+   "total": 1,
+   "hits": 0,
+   "profit": -0.5,
+   "staked": 0.5
+  },
+  {
+   "date": "2026-08-31",
+   "total": 3,
+   "hits": 2,
+   "profit": 0.28,
+   "staked": 3
+  },
+  {
+   "date": "2026-08-30",
+   "total": 18,
+   "hits": 7,
+   "profit": -2,
+   "staked": 2
+  },
+  {
+   "date": "2026-08-29",
+   "total": 23,
+   "hits": 14,
+   "profit": 1.77,
+   "staked": 1.5
+  },
+  {
+   "date": "2026-08-28",
+   "total": 6,
+   "hits": 2,
+   "profit": 0.03,
+   "staked": 2
+  },
+  {
+   "date": "2026-08-27",
+   "total": 4,
+   "hits": 2,
+   "profit": 1.17,
+   "staked": 2.5
+  },
+  {
+   "date": "2026-08-26",
+   "total": 5,
+   "hits": 3,
+   "profit": -0.72,
+   "staked": 4.4
+  },
+  {
+   "date": "2026-08-25",
+   "total": 8,
+   "hits": 7,
+   "profit": 4.07,
+   "staked": 6.6
+  },
+  {
+   "date": "2026-08-24",
+   "total": 8,
+   "hits": 5,
+   "profit": 1.8,
+   "staked": 5.8
+  },
+  {
+   "date": "2026-08-23",
+   "total": 11,
+   "hits": 7,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-08-22",
+   "total": 14,
+   "hits": 6,
+   "profit": -3.8,
+   "staked": 3.8
+  },
+  {
+   "date": "2026-08-21",
+   "total": 5,
+   "hits": 2,
+   "profit": -0.91,
+   "staked": 3
+  },
+  {
+   "date": "2026-08-20",
+   "total": 3,
+   "hits": 3,
+   "profit": 3.59,
+   "staked": 3.4
+  },
+  {
+   "date": "2026-08-19",
+   "total": 2,
+   "hits": 2,
+   "profit": 1.37,
+   "staked": 2
+  },
+  {
+   "date": "2026-08-18",
+   "total": 2,
+   "hits": 1,
+   "profit": -0.2,
+   "staked": 2
+  },
+  {
+   "date": "2026-06-04",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-29",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-26",
+   "total": 3,
+   "hits": 1,
+   "profit": -1.75,
+   "staked": 4.2
+  },
+  {
+   "date": "2026-05-25",
+   "total": 3,
+   "hits": 1,
+   "profit": -0.85,
+   "staked": 2.6
+  },
+  {
+   "date": "2026-05-24",
+   "total": 6,
+   "hits": 4,
+   "profit": 2.19,
+   "staked": 4
+  },
+  {
+   "date": "2026-05-23",
+   "total": 4,
+   "hits": 3,
+   "profit": 1.05,
+   "staked": 2.6
+  },
+  {
+   "date": "2026-05-22",
+   "total": 6,
+   "hits": 4,
+   "profit": -1.13,
+   "staked": 5.2
+  },
+  {
+   "date": "2026-05-21",
+   "total": 5,
+   "hits": 4,
+   "profit": 0.91,
+   "staked": 4.2
+  },
+  {
+   "date": "2026-05-20",
+   "total": 4,
+   "hits": 2,
+   "profit": -2.8,
+   "staked": 2.8
+  },
+  {
+   "date": "2026-05-19",
+   "total": 1,
+   "hits": 0,
+   "profit": -1.4,
+   "staked": 1.4
+  },
+  {
+   "date": "2026-05-18",
+   "total": 1,
+   "hits": 1,
+   "profit": 0.91,
+   "staked": 1.4
+  },
+  {
+   "date": "2026-05-17",
+   "total": 27,
+   "hits": 17,
+   "profit": -0.38,
+   "staked": 5.6
+  },
+  {
+   "date": "2026-05-16",
+   "total": 22,
+   "hits": 12,
+   "profit": 2.79,
+   "staked": 7.2
+  },
+  {
+   "date": "2026-05-08",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-07",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-06",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-05",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-04",
+   "total": 0,
+   "hits": 0,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-05-03",
+   "total": 30,
+   "hits": 13,
+   "profit": -9.64,
+   "staked": 39.2
+  },
+  {
+   "date": "2026-05-02",
+   "total": 8,
+   "hits": 2,
+   "profit": -9.66,
+   "staked": 16
+  },
+  {
+   "date": "2026-05-01",
+   "total": 40,
+   "hits": 21,
+   "profit": 0.38,
+   "staked": 49
+  },
+  {
+   "date": "2026-04-29",
+   "total": 19,
+   "hits": 8,
+   "profit": -3.44,
+   "staked": 20.5
+  },
+  {
+   "date": "2026-04-28",
+   "total": 8,
+   "hits": 4,
+   "profit": -0.76,
+   "staked": 10
+  },
+  {
+   "date": "2026-04-27",
+   "total": 46,
+   "hits": 25,
+   "profit": 6.49,
+   "staked": 48.5
+  },
+  {
+   "date": "2026-04-26",
+   "total": 57,
+   "hits": 27,
+   "profit": -6.72,
+   "staked": 64.5
+  },
+  {
+   "date": "2026-04-25",
+   "total": 15,
+   "hits": 9,
+   "profit": -2.27,
+   "staked": 26
+  },
+  {
+   "date": "2026-04-24",
+   "total": 16,
+   "hits": 10,
+   "profit": 2.76,
+   "staked": 19.25
+  },
+  {
+   "date": "2026-04-23",
+   "total": 42,
+   "hits": 26,
+   "profit": 3.27,
+   "staked": 22.75
+  },
+  {
+   "date": "2026-04-22",
+   "total": 21,
+   "hits": 13,
+   "profit": 4.54,
+   "staked": 19.5
+  },
+  {
+   "date": "2026-04-21",
+   "total": 24,
+   "hits": 12,
+   "profit": -10,
+   "staked": 22
+  },
+  {
+   "date": "2026-04-20",
+   "total": 18,
+   "hits": 10,
+   "profit": -3.61,
+   "staked": 17.4
+  },
+  {
+   "date": "2026-04-19",
+   "total": 26,
+   "hits": 14,
+   "profit": 0.67,
+   "staked": 28
+  },
+  {
+   "date": "2026-04-18",
+   "total": 16,
+   "hits": 7,
+   "profit": -19.9,
+   "staked": 68.2
+  },
+  {
+   "date": "2026-04-17",
+   "total": 17,
+   "hits": 12,
+   "profit": 11.11,
+   "staked": 46
+  },
+  {
+   "date": "2026-04-16",
+   "total": 10,
+   "hits": 7,
+   "profit": 2.6,
+   "staked": 18
+  },
+  {
+   "date": "2026-04-15",
+   "total": 2,
+   "hits": 1,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-04-14",
+   "total": 3,
+   "hits": 1,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-04-13",
+   "total": 3,
+   "hits": 2,
+   "profit": 0,
+   "staked": 0
+  },
+  {
+   "date": "2026-04-12",
+   "total": 11,
+   "hits": 9,
+   "profit": 0,
+   "staked": 0
+  }
+ ]
+}
