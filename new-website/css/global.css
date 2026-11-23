@@ -17,6 +17,13 @@ body {
   padding: max(16px, calc(92 * var(--k))) max(20px, calc(111 * var(--k))) 0 var(--gutter);
 }
 .svg-defs { position: absolute; }
+.header--over { position: absolute; top: 0; left: 0; right: 0; z-index: 5; }
+/* cursor: a bola amarela do hero (só com rato) */
+.has-cursor, .has-cursor * { cursor: none !important; }
+.cursor { position: fixed; left: 0; top: 0; z-index: 60; width: 18px; height: 18px; border-radius: 50%; background: var(--accent);
+  pointer-events: none; will-change: transform; transition: background-color .2s, box-shadow .2s, opacity .3s; }
+.cursor.is-ring { background: transparent; box-shadow: inset 0 0 0 2px var(--accent); }
+.cursor.is-hidden { opacity: 0; }
 .header__logo { display: flex; align-items: center; min-height: 44px; width: max(96px, calc(296 * var(--k))); }
 .header__logo img { width: 100%; height: auto; }
 .header__nav { display: flex; justify-content: flex-end; gap: max(14px, calc(57 * var(--k))); }
