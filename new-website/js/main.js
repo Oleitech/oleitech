@@ -24,6 +24,15 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   });
 })();
 
+/* Contacto: ao entrar no ecrã os parêntesis comprimem o bloco até virar botão */
+(() => {
+  const c = document.querySelector('.contact');
+  if (!c) return;
+  if (reduce) { c.classList.add('is-btn'); return; }
+  const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setTimeout(() => c.classList.add('is-btn'), 350); io.disconnect(); } }, { threshold: .8 });
+  io.observe(c);
+})();
+
 /* Números: contagem ao entrar no ecrã (instantânea com reduced motion) */
 (() => {
   const nums = [...document.querySelectorAll('[data-count]')];
