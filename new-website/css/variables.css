@@ -1,0 +1,25 @@
+:root {
+  --bg: #1C1B1B;
+  --accent: #E9EB78;
+  --accent-deep: #5E6030; /* estado "a morrer" do pincel do hero */
+  --text: #DCDCD8;
+  --text-soft: #EEECE9;
+  --ink: #1C1B1B;
+  --muted: #919191;
+  --rule: rgba(238, 236, 233, .22);
+  --grid-line: rgba(129, 129, 129, .66);
+  --font: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* 1 unidade do Figma (frame de 3653px) em px; 1920 => ~0.5256px */
+  --k: calc(min(100vw, 2400px) / 3653);
+  --gutter: max(20px, calc(137 * var(--k)));
+  --fs-nav: max(14px, calc(35 * var(--k)));
+  --fs-label: max(16px, calc(60 * var(--k)));
+  --fs-body: max(16px, calc(50 * var(--k)));
+  --fs-xl: max(30px, calc(120 * var(--k)));
+  --ls: .08em;
+  --sx: 1.7; /* alarga a pista de projetos para haver deslocamento real */
+}
+@media (max-width: 800px) {
+  :root { --k: calc(100vw / 1360); --gutter: 20px; --sx: 1.35; }
+}
