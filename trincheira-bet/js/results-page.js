@@ -24,9 +24,10 @@ const ResultsPage = {
   chevSVG: '<svg class="chev" viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l6 6-6 6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 
   async init() {
-    // Load bankroll data and init layout
-    const totalPL = await Layout.loadTotalPL();
-    const main = Layout.init('results', totalPL);
+    // 23/11/2026 (ecra preto ~20 s): o layout desenha ja e o total da banca chega depois (como nas tips, 19/11).
+    // A fila do fetchJSON (3 em voo, 130 ms) e FIFO: primeiro os 7 dias mais recentes (~1 s), desenha-se, e so
+    // depois o historico (~135 ficheiros, ~20 s); ai redesenha-se uma vez, mantendo abertos os meses/dias abertos.
+    const main = Layout.init('results', null);
     if (!main) return;
 
     // Show loading state
@@ -40,11 +41,15 @@ const ResultsPage = {
       <div id="results-content"></div>
     `;
 
-    // Load all data
-    await this.loadData();
-
-    // Render page
-    this.render(main);
+    const index = await fetchJSON('resultados/data/index.json', { memo: true }).catch(() => null);
+    const files = [...(index?.files || [])].sort().reverse();
+    this.days = await this.loadData(files.slice(0, 7));
+    this.render(main, false);
+    Layout.loadTotalPL().then(t => Layout.updateTotalPL(t)).catch(() => {}); // os ficheiros sao partilhados (memo)
+    this.days = [...this.days, ...await this.loadData(files.slice(7))].sort((a, b) => b.date.localeCompare(a.date));
+    const abertos = [...main.querySelectorAll('[data-k].is-open')].map(e => e.dataset.k);
+    this.render(main, true);
+    for (const k of abertos) main.querySelector(`[data-k="${k}"]`)?.classList.add('is-open');
     await this.renderAmbas(main);
   },
 
@@ -86,24 +91,10 @@ const ResultsPage = {
     main.appendChild(sec);
   },
 
-  async loadData() {
-    try {
-      // `no-store` como no app.js. Sem isto o browser servia ficheiros da sua
-      // cache e o dia publicado so aparecia horas depois; desde a migracao
-      // para stakes (31/08/2026) o efeito e pior, porque uma cache morna
-      // mistura ficheiros novos (stakes) com antigos (euros) e o total do topo
-      // fica sem sentido.
-      const index = await fetchJSON('resultados/data/index.json', { memo: true });
-      if (!index?.files?.length) return;
-
-      // 19/11/2026: via fetchJSON (5 em voo, repete os 429) e partilhado com o total do topo (memo)
-      const promises = index.files.map(f => fetchJSON('resultados/data/' + f, { memo: true }).catch(() => null));
-
-      const results = await Promise.all(promises);
-      this.days = results.filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
-    } catch (e) {
-      console.error('Failed to load results data:', e);
-    }
+  // fetchJSON pede sem cache do browser (no-store, ver o app.js) e repete os 429; partilhado com o total do topo (memo)
+  async loadData(files) {
+    const results = await Promise.all(files.map(f => fetchJSON('resultados/data/' + f, { memo: true }).catch(() => null)));
+    return results.filter(Boolean).sort((a, b) => b.date.localeCompare(a.date));
   },
 
   // Flatten all tips from a day into unified bet list
@@ -300,12 +291,14 @@ const ResultsPage = {
     return label + (compact ? ' st' : ' stakes');
   },
 
-  render(main) {
+  // completo=false: so os dias recentes; o resumo do topo fica a "—" ate o historico chegar
+  render(main, completo = true) {
     const stats = this.computeStats();
     const months = this.groupByMonth();
 
     // "apostas" e nao "tips": a contagem inclui acumuladores e alertas live.
-    const subtitleText = `${stats.totalTips} apostas &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`;
+    const subtitleText = completo ? `${stats.totalTips} apostas &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`
+      : '— apostas &middot; — hit rate &middot; — ROI &middot; a carregar o histórico…';
 
     main.innerHTML = '';
     // Re-add mobile brand
@@ -331,6 +324,7 @@ const ResultsPage = {
       const isFirst = idx === 0;
 
       const monthEl = UI.el('div', 'month' + (isFirst ? ' is-open' : ''));
+      monthEl.dataset.k = monthKey;
 
       // Month head
       const head = UI.el('div', 'month-head');
@@ -347,6 +341,8 @@ const ResultsPage = {
           <div class="m"><span class="label">ROI</span><span class="value num" style="color:${monthStats.roi >= 0 ? 'var(--green)' : 'var(--red)'}">${monthStats.roi.toFixed(1)}%</span></div>
         </div>
       `;
+      // so 7 dias carregados: as contas do mes ainda nao sao do mes inteiro
+      if (!completo) head.querySelectorAll('.month-summary .value, .month-title .badge').forEach(e => { e.textContent = '—'; e.style.color = 'inherit'; });
       head.addEventListener('click', () => monthEl.classList.toggle('is-open'));
       monthEl.appendChild(head);
 
@@ -380,6 +376,7 @@ const ResultsPage = {
     const dateParts = this.parseDateParts(day.date);
 
     const dayEl = UI.el('div', 'day');
+    dayEl.dataset.k = day.date;
 
     // Day head
     const head = UI.el('div', 'day-head');
