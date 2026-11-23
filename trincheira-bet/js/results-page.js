@@ -24,9 +24,10 @@ const ResultsPage = {
   chevSVG: '<svg class="chev" viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l6 6-6 6" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
 
   async init() {
-    // 23/11/2026 (ecra preto ~20 s): o layout desenha ja e o total da banca chega depois (como nas tips, 19/11).
-    // A fila do fetchJSON (3 em voo, 130 ms) e FIFO: primeiro os 7 dias mais recentes (~1 s), desenha-se, e so
-    // depois o historico (~135 ficheiros, ~20 s); ai redesenha-se uma vez, mantendo abertos os meses/dias abertos.
+    // 23/11/2026 (ecra preto ~20 s; dono: "ir mostrando algo"): o layout desenha ja. Os dias chegam por lotes, em serie
+    // (a fila do fetchJSON, 3 em voo e 130 ms, e FIFO): os 7 mais recentes, o resto do mes atual e depois mes a mes
+    // para tras. Cada mes aparece com o seu resumo assim que fica completo; os que faltam ficam no fundo "a carregar…".
+    // O resumo do topo e o P/L total ficam a "—" ate ao fim (um numero parcial parecia o real).
     const main = Layout.init('results', null);
     if (!main) return;
 
@@ -43,14 +44,35 @@ const ResultsPage = {
 
     const index = await fetchJSON('resultados/data/index.json', { memo: true }).catch(() => null);
     const files = [...(index?.files || [])].sort().reverse();
-    this.days = await this.loadData(files.slice(0, 7));
-    this.render(main, false);
-    Layout.loadTotalPL().then(t => Layout.updateTotalPL(t)).catch(() => {}); // os ficheiros sao partilhados (memo)
-    this.days = [...this.days, ...await this.loadData(files.slice(7))].sort((a, b) => b.date.localeCompare(a.date));
-    const abertos = [...main.querySelectorAll('[data-k].is-open')].map(e => e.dataset.k);
-    this.render(main, true);
-    for (const k of abertos) main.querySelector(`[data-k="${k}"]`)?.classList.add('is-open');
+    this.porMes = new Map();
+    for (const f of files) { const k = f.slice(0, 7); if (!this.porMes.has(k)) this.porMes.set(k, []); this.porMes.get(k).push(f); }
+    const recentes = files.slice(0, 7);
+    const lotes = [recentes, ...[...this.porMes.values()].map(fs => fs.filter(f => !recentes.includes(f)))].filter(l => l.length);
+    this.days = [];
+    for (const [i, lote] of lotes.entries()) {
+      this.days = [...this.days, ...await this.loadData(lote)].sort((a, b) => b.date.localeCompare(a.date));
+      if (i === 0) this.render(main, false);
+      else this.atualizaMeses();
+    }
+    const sub = main.querySelector('.topbar .subtitle');
+    if (sub) sub.innerHTML = this.subtitulo(true);
+    Layout.loadTotalPL().then(t => Layout.updateTotalPL(t)).catch(() => {}); // no fim: os ficheiros ja estao todos (memo)
     await this.renderAmbas(main);
+  },
+
+  // Reconstroi so os meses cujo numero de dias carregados mudou. Mantem abertos o mes e os dias que o utilizador abriu
+  // e, se o mes esta todo acima do ecra, compensa a diferenca de altura para o scroll nao saltar (os dias novos
+  // entram no fim do mes: com o utilizador a ler dentro dele, ficam por baixo e nao mexem no que esta a ver).
+  atualizaMeses() {
+    for (const [k, novo] of this.mesesEls()) {
+      const velho = this.container?.querySelector(`.month[data-k="${k}"]`);
+      if (!velho || velho.dataset.n === novo.dataset.n) continue;
+      novo.classList.toggle('is-open', velho.classList.contains('is-open'));
+      for (const d of velho.querySelectorAll('.day.is-open[data-k]')) novo.querySelector(`.day[data-k="${d.dataset.k}"]`)?.classList.add('is-open');
+      const antes = velho.getBoundingClientRect();
+      velho.replaceWith(novo);
+      if (antes.bottom <= 0) window.scrollBy(0, novo.getBoundingClientRect().height - antes.height); // mes todo acima do ecra
+    }
   },
 
   // 🟢🟢 ambas marcam (12/11/2026, dono): o historico sai da pagina das tips e vive aqui. So mostra:
@@ -291,14 +313,15 @@ const ResultsPage = {
     return label + (compact ? ' st' : ' stakes');
   },
 
-  // completo=false: so os dias recentes; o resumo do topo fica a "—" ate o historico chegar
-  render(main, completo = true) {
+  // "apostas" e nao "tips": a contagem inclui acumuladores e alertas live. Incompleto: "—" (nunca um parcial).
+  subtitulo(completo) {
+    if (!completo) return '— apostas &middot; — hit rate &middot; — ROI &middot; a carregar o histórico…';
     const stats = this.computeStats();
-    const months = this.groupByMonth();
+    return `${stats.totalTips} apostas &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`;
+  },
 
-    // "apostas" e nao "tips": a contagem inclui acumuladores e alertas live.
-    const subtitleText = completo ? `${stats.totalTips} apostas &middot; ${stats.hitRate.toFixed(1)}% hit rate &middot; ${stats.roi.toFixed(1)}% ROI`
-      : '— apostas &middot; — hit rate &middot; — ROI &middot; a carregar o histórico…';
+  render(main, completo = true) {
+    const subtitleText = this.subtitulo(completo);
 
     main.innerHTML = '';
     // Re-add mobile brand
@@ -314,17 +337,27 @@ const ResultsPage = {
     `;
     main.appendChild(topbar);
 
-    // Month groups
-    const container = UI.el('div', 'results-months');
-    months.forEach(([monthKey, days], idx) => {
+    this.container = UI.el('div', 'results-months');
+    for (const [, el] of this.mesesEls()) this.container.appendChild(el);
+    main.appendChild(this.container);
+  },
+
+  // Um elemento por mes do indice, do mais recente para tras. Mes sem dias carregados: so o titulo, "a carregar…".
+  // Mes incompleto (os 7 dias recentes podem ser so parte dele): contas a "—", nunca um parcial.
+  mesesEls() {
+    const porDia = this.groupByMonth();
+    const chaves = this.porMes ? [...this.porMes.keys()] : porDia.map(([k]) => k);
+    return chaves.map((monthKey, idx) => {
+      const days = (porDia.find(([k]) => k === monthKey) || [, []])[1];
+      const completo = !this.porMes || days.length >= this.porMes.get(monthKey).length;
       const monthStats = this.computeMonthStats(days);
       const parts = monthKey.split('-');
       const monthName = this.monthNames[parseInt(parts[1], 10) - 1];
       const year = parts[0];
-      const isFirst = idx === 0;
 
-      const monthEl = UI.el('div', 'month' + (isFirst ? ' is-open' : ''));
+      const monthEl = UI.el('div', 'month' + (idx === 0 ? ' is-open' : ''));
       monthEl.dataset.k = monthKey;
+      monthEl.dataset.n = String(days.length);
 
       // Month head
       const head = UI.el('div', 'month-head');
@@ -332,34 +365,28 @@ const ResultsPage = {
         <div class="month-title">
           ${this.chevSVG}
           ${monthName} ${year}
-          <span class="badge">${monthStats.dayCount} dias</span>
+          <span class="badge">${days.length ? `${monthStats.dayCount} dias` : 'a carregar…'}</span>
         </div>
-        <div class="month-summary">
+        ${days.length ? `<div class="month-summary">
           <div class="m"><span class="label">Acertos</span><span class="value num">${monthStats.totalHits}/${monthStats.totalTips}</span></div>
           <div class="m"><span class="label">Apostado</span><span class="value num">${this.formatUnits(monthStats.totalStaked, true)}</span></div>
           <div class="m"><span class="label">P/L</span><span class="value num" style="color:${monthStats.totalPL >= 0 ? 'var(--green)' : 'var(--red)'}">${this.formatPL(monthStats.totalPL, true)}</span></div>
           <div class="m"><span class="label">ROI</span><span class="value num" style="color:${monthStats.roi >= 0 ? 'var(--green)' : 'var(--red)'}">${monthStats.roi.toFixed(1)}%</span></div>
-        </div>
+        </div>` : ''}
       `;
-      // so 7 dias carregados: as contas do mes ainda nao sao do mes inteiro
       if (!completo) head.querySelectorAll('.month-summary .value, .month-title .badge').forEach(e => { e.textContent = '—'; e.style.color = 'inherit'; });
+      if (!days.length) head.querySelector('.month-title .badge').textContent = 'a carregar…';
       head.addEventListener('click', () => monthEl.classList.toggle('is-open'));
       monthEl.appendChild(head);
 
       // Month body
       const body = UI.el('div', 'month-body');
       const dayGrid = UI.el('div', 'day-grid');
-
-      days.forEach(day => {
-        dayGrid.appendChild(this.renderDay(day));
-      });
-
+      days.forEach(day => dayGrid.appendChild(this.renderDay(day)));
       body.appendChild(dayGrid);
       monthEl.appendChild(body);
-      container.appendChild(monthEl);
+      return [monthKey, monthEl];
     });
-
-    main.appendChild(container);
   },
 
   renderDay(day) {
