@@ -24,12 +24,17 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   });
 })();
 
-/* Contacto: ao entrar no ecrã os parêntesis comprimem o bloco até virar botão */
+/* Contacto: texto grande -> botão -> ícone (os parêntesis encaixam-se no símbolo da marca) */
 (() => {
   const c = document.querySelector('.contact');
   if (!c) return;
-  if (reduce) { c.classList.add('is-btn'); return; }
-  const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setTimeout(() => c.classList.add('is-btn'), 350); io.disconnect(); } }, { threshold: .8 });
+  if (reduce) { c.classList.add('is-btn', 'is-icon'); return; }
+  const io = new IntersectionObserver(([e]) => {
+    if (!e.isIntersecting) return;
+    io.disconnect();
+    setTimeout(() => c.classList.add('is-btn'), 350);
+    setTimeout(() => c.classList.add('is-icon'), 350 + 900 + 300);
+  }, { threshold: .8 });
   io.observe(c);
 })();
 
