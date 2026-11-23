@@ -1,0 +1,215 @@
+{
+  "gerado": "2026-11-23T07:02:41.702Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1557469,
+      "data": "2026-11-23T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Brentford - Everton",
+      "amostra": {
+        "casa": 8,
+        "fora": 10,
+        "descartados": 2
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.5,
+          "previsao": 26.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 27.5,
+          "discordancia": -0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.425,
+            "prob_da_casa": 0.515,
+            "edge": -23.6,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.4,
+          "previsao": 8.4,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": -0.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.421,
+            "prob_da_casa": 0.536,
+            "edge": -27.3,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570457,
+      "data": "2026-11-23T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Elche",
+      "amostra": {
+        "casa": 7,
+        "fora": 8,
+        "descartados": 4
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.7,
+          "previsao": 27,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -1.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.369,
+            "prob_da_casa": 0.464,
+            "edge": -26.2,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.8,
+          "previsao": 8.8,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.473,
+            "prob_da_casa": 0.536,
+            "edge": -18.2,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492467,
+      "data": "2026-11-23T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Internacional - Vitoria",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 28,
+          "previsao": 27.5,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 30.5,
+          "discordancia": -3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.336,
+            "prob_da_casa": 0.485,
+            "edge": -35.8,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.2,
+          "previsao": 9,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.5,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.377,
+            "prob_da_casa": 0.485,
+            "edge": -28,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492463,
+      "data": "2026-11-23T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Botafogo - Sao Paulo",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 27.4,
+          "previsao": 27.1,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 28.5,
+          "discordancia": -1.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 28.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.37,
+            "prob_da_casa": 0.5,
+            "edge": -32.3,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.2,
+          "previsao": 8.4,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -1.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.8,
+            "minha_prob": 0.306,
+            "prob_da_casa": 0.515,
+            "edge": -44.9,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

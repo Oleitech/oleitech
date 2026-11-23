@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-22T23:24:28.461Z",
+  "atualizado": "2026-11-23T07:21:45.247Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 13,
+    "escolhas": 14,
     "liquidadas": 13,
     "acertos": 11,
     "clvMedio": -0.0525,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-23",
+      "jogo": "NK Slaven Belupo vs NK Osijek",
+      "liga": "HNL",
+      "ko": "2026-11-23T17:00:00+00:00",
+      "odd": 1.46,
+      "oddJusta": 1.6,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8945,
+      "pCasaMarca": 0.8045,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-22",
       "jogo": "Aalesund vs Rosenborg",

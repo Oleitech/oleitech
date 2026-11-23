@@ -1,0 +1,78 @@
+{
+  "gerado": "2026-11-23T07:02:41.788Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1550203,
+      "data": "2026-11-23T19:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Monza - Fiorentina",
+      "jogos_tabela": 11,
+      "amostra_fraca": false,
+      "atq": -0.069,
+      "def": -1.317,
+      "zona": null
+    },
+    {
+      "fixture": 1557469,
+      "data": "2026-11-23T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Brentford - Everton",
+      "jogos_tabela": 10,
+      "amostra_fraca": false,
+      "atq": 0.057,
+      "def": 0.586,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "Marathonbet",
+          "odd": 1.05,
+          "preferida": true
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.15,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    },
+    {
+      "fixture": 1570457,
+      "data": "2026-11-23T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Elche",
+      "jogos_tabela": 12,
+      "amostra_fraca": false,
+      "atq": -0.383,
+      "def": -0.151,
+      "zona": null
+    },
+    {
+      "fixture": 1492467,
+      "data": "2026-11-23T22:30:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Internacional - Vitoria",
+      "jogos_tabela": 35,
+      "amostra_fraca": false,
+      "atq": -0.484,
+      "def": 0.396,
+      "zona": null
+    },
+    {
+      "fixture": 1492463,
+      "data": "2026-11-23T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Botafogo - Sao Paulo",
+      "jogos_tabela": 35,
+      "amostra_fraca": false,
+      "atq": -0.227,
+      "def": 0.111,
+      "zona": null
+    }
+  ]
+}
