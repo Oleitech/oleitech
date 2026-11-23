@@ -12,16 +12,16 @@
 .hero__ink { position: absolute; inset: 0; z-index: 61; pointer-events: none; }
 .hero__ink .header { color: var(--ink); }
 .hero__ink .link, .hero__ink .header__lang, .hero__ink .cue { color: var(--ink); }
-.hero__ink .cue__arrow { animation: none; }
-/* "see more" + seta (Figma 1:3936 e 1:3447): seta em "v", alinhada à direita, por baixo do texto */
-.cue { position: absolute; z-index: 2; left: calc(1782 * 100cqw / 3653); bottom: max(12px, calc(50% - 905.5 * 100cqw / 3653));
-  display: block; width: max-content; padding: 10px 0 0;
-  color: var(--accent); font-size: max(13px, calc(25 * var(--k))); letter-spacing: var(--ls); }
-.cue__arrow { display: block; margin: max(6px, calc(15.5 * var(--k))) 0 0 auto; width: max(16px, calc(39 * var(--k))); height: auto; overflow: visible; animation: bob 2s ease-in-out infinite; }
+/* "see more" + seta (Figma 1:3936 e 1:3447), medidas do Figma em em (texto de 25 unidades):
+   texto 1782,1845 com 121x34; seta = asset 1:3447 rodado 135° numa caixa de 39x39 em 1864.7,1894.5,
+   alinhada à direita do texto e 49.5 abaixo do topo do texto. Estática, como no Figma. */
+.cue { position: absolute; z-index: 2; left: calc(1782 * 100cqw / 3653);
+  top: min(calc(50% + 817.5 * 100cqw / 3653), calc(100% - 3.54em - 12px));
+  display: block; width: max-content; line-height: 1.366;
+  color: var(--accent); font-size: max(12px, calc(25 * 100cqw / 3653)); letter-spacing: .08em; }
+.cue__arrow { display: block; margin: .614em .036em 0 auto; width: 1.56em; height: 1.56em; overflow: visible; }
 .cue__arrow path { fill: currentColor; }
-@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
-@media (prefers-reduced-motion: reduce) { .cue__arrow { animation: none; } }
-@media (max-width: 699px) { .cue { left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom)); } }
+@media (max-width: 699px) { .cue { left: 50%; transform: translateX(-50%); top: auto; bottom: calc(20px + env(safe-area-inset-bottom)); } }
 
 /* ---------- Serviços ---------- */
 .services { display: grid; grid-template-columns: calc(1000 * var(--k)) 1fr; gap: calc(100 * var(--k)); align-items: start;
@@ -99,15 +99,18 @@
 .ask__btn:hover { background: var(--text); }
 @media (max-width: 800px) { .ask { padding-top: 80px; flex-direction: column; gap: 24px; text-align: center; } }
 
-/* ---------- Contacto: no hover o texto passa a botão e encolhe até ao símbolo da marca; ao sair volta para trás ----------
-   O <a> mantém sempre o tamanho do texto grande (ghost): a área de hover não encolhe com a animação.
-   Os valores de cada passo são calculados em js/main.js a partir de uma linha temporal reversível. */
+/* ---------- Contacto: botão -> círculo com o símbolo da marca -> botão (uma só animação contínua) ----------
+   Uma forma amarela sempre presente: a pílula encolhe até ser um círculo e os parêntesis (antracite), que começam nos
+   cantos da pílula, encaixam-se no símbolo ao centro. O texto desvanece no início. Reversível a qualquer momento.
+   O <a> mantém o tamanho da pílula (ghost): a área de hover não encolhe. Valores por frame em js/main.js. */
 .contact-wrap { display: grid; place-items: center; min-height: calc(480 * var(--k)); margin-top: calc(560 * var(--k)); padding-inline: var(--gutter); }
-.contact { --S: max(56px, calc(137 * var(--k))); position: relative; display: grid; place-items: center; max-width: 100%; color: var(--text-soft); text-align: center; border-radius: 16px; }
-.contact__ghost, .contact__label { font-size: var(--fs-xl); line-height: 1.366; white-space: nowrap; padding: calc(34 * var(--k)) calc(196 * var(--k)) calc(45 * var(--k)); }
+.contact { position: relative; display: grid; place-items: center; max-width: 100%; text-align: center; border-radius: 9999px; }
+.contact__ghost, .contact__label { font-size: var(--fs-label); line-height: 1.366; letter-spacing: .02em; white-space: nowrap;
+  padding: max(14px, calc(42 * var(--k))) max(26px, calc(99 * var(--k))); }
 .contact__ghost { visibility: hidden; max-width: 100%; }
-.contact__label { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); border-radius: 9999px; overflow: hidden; color: var(--text-soft); }
-.contact__sym { position: absolute; left: 0; top: 0; width: var(--S); height: var(--S); overflow: visible; fill: var(--accent); pointer-events: none; transform-origin: 0 0; }
-.contact:focus-visible { outline: 2px solid var(--text-soft); outline-offset: 14px; }
-.contact:active .contact__sym { opacity: .85; }
-@media (max-width: 800px) { .contact-wrap { margin-top: 90px; min-height: 240px; } .contact__ghost, .contact__label { padding: 36px 20px 40px; font-size: min(var(--fs-xl), 5.6vw); } }
+.contact__label { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0;
+  border-radius: 9999px; background: var(--accent); color: var(--ink); }
+.contact__text { display: block; }
+.contact__sym { position: absolute; left: 0; top: 0; width: 10px; height: 10px; overflow: visible; fill: var(--ink); pointer-events: none; transform-origin: 0 0; z-index: 1; }
+.contact:focus-visible { outline: 2px solid var(--text-soft); outline-offset: 10px; }
+@media (max-width: 800px) { .contact-wrap { margin-top: 90px; min-height: 200px; } }

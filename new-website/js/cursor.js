@@ -1,5 +1,7 @@
 /* Cursor do site: a bola amarela do hero (Figma 1:3935). Só com rato (pointer: fine); no touch fica o do sistema.
-   Segue o rato com atraso suave. No hero tem o tamanho da bola do desenho e, sem rato, volta ao sítio dela.
+   Segue o rato com atraso suave. No hero tem o tamanho da bola do desenho. Só começa no sítio da bola do desenho
+   (estado inicial, antes do 1.º movimento); depois, se o rato sair da janela, a bola esconde-se onde saiu e, ao voltar,
+   reaparece no ponto de entrada (sem atravessar o ecrã).
    Fora do hero fica pequena; por cima de ligações e botões passa a anel, para não tapar o que está por baixo. */
 (() => {
   if (!matchMedia('(pointer: fine)').matches) return;
@@ -10,13 +12,16 @@
   document.documentElement.classList.add('has-cursor');
   const SMALL = 18, RING = 52, INTERACTIVE = 'a, button, [role="tab"], summary, label';
   // x/y/d: estado desenhado; mx/my: rato; active: rato dentro da janela
-  const C = window.__cursor = { x: 0, y: 0, d: SMALL, mx: 0, my: 0, active: false, ready: false };
+  const C = window.__cursor = { x: 0, y: 0, d: SMALL, mx: 0, my: 0, active: false, ready: false, seen: false };
   let raf = 0, prev = 0, link = false;
 
   function goal() {
     const hero = window.__cursorHero;
     let x = C.mx, y = C.my, show = C.active;
-    if (!C.active && hero) { const h = hero.home(); if (h) { x = h.x; y = h.y; show = h.visible; } }
+    if (!C.active) {
+      if (!C.seen && hero) { const h = hero.home(); if (h) { x = h.x; y = h.y; show = h.visible; } }
+      else { x = C.x; y = C.y; show = false; }
+    }
     const inHero = !!hero && hero.contains(x, y);
     return { x, y, show, inHero, d: inHero ? hero.d() : link ? RING : SMALL };
   }
@@ -38,7 +43,9 @@
 
   addEventListener('pointermove', e => {
     if (e.pointerType !== 'mouse') return;
-    C.mx = e.clientX; C.my = e.clientY; C.active = true; loop();
+    C.mx = e.clientX; C.my = e.clientY;
+    if (C.seen && !C.active) { C.x = C.mx; C.y = C.my; }   // voltou à janela: continua do ponto de entrada
+    C.active = true; C.seen = true; loop();
   }, { passive: true });
   addEventListener('pointerover', e => { link = !!(e.target.closest && e.target.closest(INTERACTIVE)); loop(); });
   document.documentElement.addEventListener('mouseleave', () => { C.active = false; loop(); });

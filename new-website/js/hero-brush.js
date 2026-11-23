@@ -57,7 +57,7 @@
   let W = 0, H = 0, dpr = 1, s = 1, tx = 0, ty = 0, c0 = 0, c1 = 0, r0 = 0, r1 = 0;
   const cells = new Map(), pool = [];
   const spot = { x: SPOT.x, y: SPOT.y }, aim = { x: SPOT.x, y: SPOT.y };
-  let last = null, raf = 0, prev = 0, visible = true, drawn = null, touchAt = 0;
+  let touched = false, last = null, raf = 0, prev = 0, visible = true, drawn = null, touchAt = 0;
 
   function size() {
     W = hero.clientWidth; H = hero.clientHeight;
@@ -146,7 +146,8 @@
     const still = mq.matches, p = pointer();
     const inside = p && p.x >= 0 && p.y >= 0 && p.x <= W && p.y <= H;
     if (inside && !still) paintAt(p.x, p.y); else last = null;
-    if (inside && !still) { aim.x = (p.x - tx) / s; aim.y = (p.y - ty) / s; } else { aim.x = SPOT.x; aim.y = SPOT.y; }
+    if (inside && !still) { aim.x = (p.x - tx) / s; aim.y = (p.y - ty) / s; touched = true; }
+    else if (!touched || still) { aim.x = SPOT.x; aim.y = SPOT.y; }   // depois do 1.º movimento o foco fica onde o rato saiu
     const k = still ? 1 : 1 - Math.pow(1 - P.spot, dt * 60);
     spot.x += (aim.x - spot.x) * k; spot.y += (aim.y - spot.y) * k;
     if (ball) {   // a bola (cursor) também revela o menu em antracite

@@ -35,13 +35,13 @@
   function newBug(W, H, bw, bh) {
     const m = bw * .3;
     return { x: m + Math.random() * Math.max(1, W - 2 * m), y: m + Math.random() * Math.max(1, H - 2 * m), a: Math.random() * 6.2832,
-      w: 0, v: 0, vt: 40 + Math.random() * 90, tNext: 1 + Math.random() * 3, pause: 0, W, H, bw, bh };
+      w: 0, v: 0, vt: 20 + Math.random() * 45, tNext: 1 + Math.random() * 3, pause: 0, W, H, bw, bh };
   }
   function stepBug(B, dt) {
     const sc = B.bw / 360;                                    // velocidades em px a 1920, escaladas ao tamanho do bug
-    B.w += -0.8 * B.w * dt + 0.9 * Math.sqrt(dt) * gauss();   // OU: média 0, desvio ~0.7 rad/s (curvas largas, percorre a secção)
+    B.w += -0.4 * B.w * dt + 0.32 * Math.sqrt(dt) * gauss();   // OU: média 0, desvio ~0.35 rad/s (metade da ronda 3) (curvas largas, percorre a secção)
     B.tNext -= dt;
-    if (B.tNext <= 0) { B.tNext = 1.5 + Math.random() * 3.5; B.vt = Math.random() < .12 ? 0 : (60 + Math.random() * 90) * sc; }
+    if (B.tNext <= 0) { B.tNext = 1.5 + Math.random() * 3.5; B.vt = Math.random() < .12 ? 0 : (30 + Math.random() * 45) * sc; }   // metade da velocidade (ronda 5)
     B.v += (B.vt - B.v) * (1 - Math.exp(-1.6 * dt));
     // afasta-se suavemente das bordas (força proporcional à penetração na margem)
     const m = B.bw * .55, hx = Math.cos(B.a), hy = Math.sin(B.a);

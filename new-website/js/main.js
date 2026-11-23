@@ -24,15 +24,15 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   });
 })();
 
-/* Contacto: texto -> botão (pílula) -> ícone (os parêntesis encaixam-se no símbolo da marca).
-   Uma linha temporal reversível p (0..1): o hover (ou o foco) leva-a a 1, sair leva-a a 0, a partir de onde estiver.
-   No touch, entrar no ecrã leva a 1 e sair leva a 0. O <a> mantém o tamanho do texto grande: a área não encolhe. */
+/* Contacto: botão (pílula) -> círculo com o símbolo da marca -> botão. Uma só animação contínua e reversível:
+   p (0..1) avança com o hover ou o foco e recua ao sair, a partir de onde estiver. No touch, entrar no ecrã leva a 1.
+   A forma amarela nunca desaparece: a largura vai da pílula ao diâmetro (= altura da pílula). */
 (() => {
   const c = document.querySelector('.contact');
   if (!c) return;
-  const ghost = c.querySelector('.contact__ghost'), label = c.querySelector('.contact__label');
+  const ghost = c.querySelector('.contact__ghost'), label = c.querySelector('.contact__label'), text = c.querySelector('.contact__text');
   const tr = c.querySelector('.contact__sym--tr'), bl = c.querySelector('.contact__sym--bl');
-  const T = 1.4;                                   // 0.7 s por fase
+  const T = .9;
   const ease = (x1, y1, x2, y2) => t => {          // cubic-bezier(x1, y1, x2, y2)
     let u = t;
     for (let i = 0; i < 8; i++) {
@@ -43,38 +43,23 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     }
     return 3 * (1 - u) * (1 - u) * u * y1 + 3 * (1 - u) * u * u * y2 + u * u * u;
   };
-  const E = ease(.7, 0, .2, 1), lerp = (a, b, t) => a + (b - a) * t, cl = x => Math.min(1, Math.max(0, x));
+  const E = ease(.65, 0, .35, 1), lerp = (a, b, t) => a + (b - a) * t, cl = x => Math.min(1, Math.max(0, x));
   let M = null, p = 0, target = 0, raf = 0, prev = 0;
 
-  function measure() {
-    label.removeAttribute('style');
-    const g = getComputedStyle(label);
-    const rest = { fs: parseFloat(g.fontSize), pt: parseFloat(g.paddingTop), pb: parseFloat(g.paddingBottom), px: parseFloat(g.paddingLeft) };
-    label.style.fontSize = 'var(--fs-label)';
-    label.style.padding = 'max(14px, calc(42 * var(--k))) max(26px, calc(99 * var(--k)))';
-    const h = getComputedStyle(label);
-    const pill = { fs: parseFloat(h.fontSize), pt: parseFloat(h.paddingTop), pb: parseFloat(h.paddingBottom), px: parseFloat(h.paddingLeft) };
-    M = { rest, pill, S: parseFloat(getComputedStyle(tr).width) };
-    apply();
-  }
+  function measure() { M = { w: ghost.offsetWidth, h: ghost.offsetHeight }; apply(); }
   function apply() {
-    const a = E(cl(p * 2)), b = E(cl(p * 2 - 1)), { rest: r, pill: q } = M;
-    const k = 1 - b, st = label.style;
-    st.fontSize = lerp(r.fs, q.fs, a) * k + 'px';
-    st.padding = `${lerp(r.pt, q.pt, a) * k}px ${lerp(r.px, q.px, a) * k}px ${lerp(r.pb, q.pb, a) * k}px`;
-    st.letterSpacing = .02 * a + 'em';
-    st.backgroundColor = `rgba(233, 235, 120, ${a})`;
-    st.color = `rgb(${lerp(238, 28, a)}, ${lerp(236, 27, a)}, ${lerp(233, 27, a)})`;
-    st.opacity = 1 - cl((b - .5) * 2);
-    // parêntesis: cantos do texto/pílula -> símbolo ao centro (afastados 5% como manda a marca)
-    const aw = c.offsetWidth, ah = c.offsetHeight, lw = label.offsetWidth, lh = label.offsetHeight, S = M.S;
-    const L = (aw - lw) / 2, Tp = (ah - lh) / 2, off = 12 * a, gap = .05 * S;
-    const sc = lerp(lerp(.7, .45, a), 1, b);
-    const trX = lerp(L + lw + off, aw / 2 + S / 2 + gap, b), trY = lerp(Tp - off, ah / 2 - S / 2 - gap, b);
-    const blX = lerp(L - off, aw / 2 - S / 2 - gap, b), blY = lerp(Tp + lh + off, ah / 2 + S / 2 + gap, b);
-    tr.style.transform = `translate(${trX - S * sc}px, ${trY}px) scale(${sc})`;
-    bl.style.transform = `translate(${blX}px, ${blY - S * sc}px) scale(${sc})`;
-    c.dataset.state = p === 0 ? 'text' : p === 1 ? 'icon' : 'moving';
+    const e = E(p), { w: pw, h: D } = M, aw = c.offsetWidth, ah = c.offsetHeight;
+    const w = lerp(pw, D, e);
+    label.style.width = w + 'px'; label.style.height = D + 'px';
+    text.style.opacity = 1 - cl(e / .45);
+    text.style.transform = `scale(${lerp(1, .85, cl(e / .45))})`;
+    // parêntesis: começam nos cantos da pílula e encaixam-se no símbolo (50% do círculo, afastados 5% como manda a marca)
+    const S = .5 * D, inset = lerp(.16, .225, e) * D, sc = lerp(.42, 1, e);
+    const L = (aw - w) / 2, Tp = (ah - D) / 2;
+    tr.style.width = tr.style.height = bl.style.width = bl.style.height = S + 'px';
+    tr.style.transform = `translate(${L + w - inset - S * sc}px, ${Tp + inset}px) scale(${sc})`;
+    bl.style.transform = `translate(${L + inset}px, ${Tp + D - inset - S * sc}px) scale(${sc})`;
+    c.dataset.state = p === 0 ? 'button' : p === 1 ? 'circle' : 'moving';
   }
   function tick(now) {
     raf = 0;
