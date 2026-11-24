@@ -24,13 +24,13 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   });
 })();
 
-/* Contacto: botão (pílula) -> círculo com o símbolo da marca -> botão. Uma só animação contínua e reversível:
+/* Contacto: texto do Figma -> parêntesis juntos com uma carta -> texto. Uma só animação contínua e reversível:
    p (0..1) avança com o hover ou o foco e recua ao sair, a partir de onde estiver. No touch, entrar no ecrã leva a 1.
-   A forma amarela nunca desaparece: a largura vai da pílula ao diâmetro (= altura da pílula). */
+   Sem fundo de botão: só o texto e os parêntesis do Figma, que acabam juntos com uma carta no meio. */
 (() => {
   const c = document.querySelector('.contact');
   if (!c) return;
-  const ghost = c.querySelector('.contact__ghost'), label = c.querySelector('.contact__label'), text = c.querySelector('.contact__text');
+  const ghost = c.querySelector('.contact__ghost'), text = c.querySelector('.contact__text'), mail = c.querySelector('.contact__mail');
   const tr = c.querySelector('.contact__sym--tr'), bl = c.querySelector('.contact__sym--bl');
   const T = .9;
   const ease = (x1, y1, x2, y2) => t => {          // cubic-bezier(x1, y1, x2, y2)
@@ -46,20 +46,23 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const E = ease(.65, 0, .35, 1), lerp = (a, b, t) => a + (b - a) * t, cl = x => Math.min(1, Math.max(0, x));
   let M = null, p = 0, target = 0, raf = 0, prev = 0;
 
-  function measure() { M = { w: ghost.offsetWidth, h: ghost.offsetHeight }; apply(); }
+  // caixa do SVG do parêntesis (viewBox 547): a tinta ocupa 455.7/547; no Figma a tinta tem 90.28 com texto de 120
+  function measure() { const fs = parseFloat(getComputedStyle(c).fontSize); M = { w: ghost.offsetWidth, h: ghost.offsetHeight, B0: fs * 90.28 / 120 * 547 / 455.7, B1: Math.max(64, 1.5 * fs) }; apply(); }
   function apply() {
-    const e = E(p), { w: pw, h: D } = M, aw = c.offsetWidth, ah = c.offsetHeight;
-    const w = lerp(pw, D, e);
-    label.style.width = w + 'px'; label.style.height = D + 'px';
+    const e = E(p), { w, h, B0, B1 } = M;
+    const B = lerp(B0, B1, e), off = .05 * B * e, cx = (w - B) / 2, cy = (h - B) / 2;
     text.style.opacity = 1 - cl(e / .45);
     text.style.transform = `scale(${lerp(1, .85, cl(e / .45))})`;
-    // parêntesis: começam nos cantos da pílula e encaixam-se no símbolo (50% do círculo, afastados 5% como manda a marca)
-    const S = .5 * D, inset = lerp(.16, .225, e) * D, sc = lerp(.42, 1, e);
-    const L = (aw - w) / 2, Tp = (ah - D) / 2;
-    tr.style.width = tr.style.height = bl.style.width = bl.style.height = S + 'px';
-    tr.style.transform = `translate(${L + w - inset - S * sc}px, ${Tp + inset}px) scale(${sc})`;
-    bl.style.transform = `translate(${L + inset}px, ${Tp + D - inset - S * sc}px) scale(${sc})`;
-    c.dataset.state = p === 0 ? 'button' : p === 1 ? 'circle' : 'moving';
+    // parêntesis: dos cantos do grupo (Figma) para o centro, encaixados desfasados 5% como no símbolo
+    tr.style.width = tr.style.height = bl.style.width = bl.style.height = B + 'px';
+    tr.style.transform = `translate(${lerp(w - B, cx + off, e)}px, ${lerp(0, cy - off, e)}px)`;
+    bl.style.transform = `translate(${lerp(0, cx - off, e)}px, ${lerp(h - B, cy + off, e)}px)`;
+    // carta no meio das duas formas (o vão do símbolo é 364/547 do lado)
+    const m = cl((e - .55) / .45);
+    mail.style.width = .5 * B + 'px';
+    mail.style.opacity = m;
+    mail.style.transform = `translate(-50%, -50%) scale(${lerp(.6, 1, m)})`;
+    c.dataset.state = p === 0 ? 'text' : p === 1 ? 'icon' : 'moving';
   }
   function tick(now) {
     raf = 0;
@@ -83,21 +86,24 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   measure();
 })();
 
-/* Números: contagem ao entrar no ecrã (instantânea com reduced motion) */
+/* Números: contagem ao entrar no ecrã. O HTML traz sempre o valor final: só passa a 0 no instante em que o número
+   começa a aparecer e acaba sempre no valor final (também com o separador em segundo plano, por um timeout de reserva).
+   Com reduced motion fica o valor final. */
 (() => {
   const nums = [...document.querySelectorAll('[data-count]')];
+  if (reduce || !nums.length) return;
   const fmt = n => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   const io = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return;
     io.unobserve(e.target);
-    const el = e.target, to = +el.dataset.count, t0 = performance.now(), dur = 1600;
-    if (reduce) return;
+    const el = e.target, to = +el.dataset.count, sfx = el.dataset.suffix || '', t0 = performance.now(), dur = 1600;   // sufixo: "180k" como o "1.2M" do Figma
+    const end = () => { el.textContent = fmt(to) + sfx; };
     const step = now => {
       const p = Math.min(1, (now - t0) / dur);
-      el.textContent = fmt(to * (1 - Math.pow(1 - p, 3)));
+      el.textContent = fmt(to * (1 - Math.pow(1 - p, 3))) + sfx;
       if (p < 1) requestAnimationFrame(step);
     };
-    requestAnimationFrame(step);
-  }), { threshold: .6 });
-  nums.forEach(n => { n.textContent = fmt(+n.dataset.count); if (!reduce) { n.textContent = '0'; } io.observe(n); });
+    el.textContent = '0' + sfx; requestAnimationFrame(step); setTimeout(end, dur + 150);
+  }), { threshold: 0 });
+  nums.forEach(n => io.observe(n));
 })();

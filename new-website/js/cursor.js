@@ -18,6 +18,8 @@
   function goal() {
     const hero = window.__cursorHero;
     let x = C.mx, y = C.my, show = C.active;
+    // por cima de um iframe (site vivo dos projetos) a bola não aparece: lá dentro vale o cursor do site
+    if (show) { const t = document.elementFromPoint(x, y); if (t && t.tagName === 'IFRAME') show = false; }
     if (!C.active) {
       if (!C.seen && hero) { const h = hero.home(); if (h) { x = h.x; y = h.y; show = h.visible; } }
       else { x = C.x; y = C.y; show = false; }
@@ -49,6 +51,8 @@
   }, { passive: true });
   addEventListener('pointerover', e => { link = !!(e.target.closest && e.target.closest(INTERACTIVE)); loop(); });
   document.documentElement.addEventListener('mouseleave', () => { C.active = false; loop(); });
+  // dentro de um iframe (site vivo dos projetos) o rato deixa de chegar aqui: esconde a bola até voltar
+  addEventListener('mouseover', e => { if (e.target.tagName === 'IFRAME') { C.active = false; loop(); } });
   addEventListener('scroll', loop, { passive: true });
   addEventListener('resize', loop);
   addEventListener('load', loop);

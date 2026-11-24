@@ -41,12 +41,19 @@
     const sc = B.bw / 360;                                    // velocidades em px a 1920, escaladas ao tamanho do bug
     B.w += -0.4 * B.w * dt + 0.32 * Math.sqrt(dt) * gauss();   // OU: média 0, desvio ~0.35 rad/s (metade da ronda 3) (curvas largas, percorre a secção)
     B.tNext -= dt;
-    if (B.tNext <= 0) { B.tNext = 1.5 + Math.random() * 3.5; B.vt = Math.random() < .12 ? 0 : (30 + Math.random() * 45) * sc; }   // metade da velocidade (ronda 5)
+    const edge = Math.min(B.x, B.W - B.x, B.y, B.H - B.y) < B.bw * 1.2;          // perto da borda não faz pausas
+    if (B.tNext <= 0) { B.tNext = 1.5 + Math.random() * 3.5; B.vt = !edge && Math.random() < .12 ? 0 : (30 + Math.random() * 45) * sc; }   // metade da velocidade (ronda 5)
     B.v += (B.vt - B.v) * (1 - Math.exp(-1.6 * dt));
     // afasta-se suavemente das bordas (força proporcional à penetração na margem)
-    const m = B.bw * .55, hx = Math.cos(B.a), hy = Math.sin(B.a);
+    const m = B.bw * .8, hx = Math.cos(B.a), hy = Math.sin(B.a);
     const px = Math.max(0, m - B.x) - Math.max(0, B.x - (B.W - m)), py = Math.max(0, m - B.y) - Math.max(0, B.y - (B.H - m));
-    if (px || py) { const k = Math.min(1, Math.hypot(px, py) / m), want = Math.atan2(py, px); B.w += Math.sin(want - B.a) * 5 * k * dt * 6; }
+    // na margem: vira a direção para dentro (sem somar rotação, que o fazia ficar a rodar no sítio) e não pára
+    if (px || py) {
+      const k = Math.min(1, Math.hypot(px, py) / m), want = Math.atan2(py, px), d = Math.atan2(Math.sin(want - B.a), Math.cos(want - B.a));
+      B.a += d * (1 - Math.exp(-(1.2 + 4 * k) * dt)); B.w *= Math.exp(-4 * dt);
+      if (B.vt < 25 * sc) B.vt = 25 * sc;
+      if (B.v < 15 * sc) B.v = 15 * sc;
+    }
     B.a += B.w * dt;
     B.x += Math.cos(B.a) * B.v * dt; B.y += Math.sin(B.a) * B.v * dt;
     B.x = Math.min(B.W - B.bw * .2, Math.max(B.bw * .2, B.x)); B.y = Math.min(B.H - B.bh * .2, Math.max(B.bh * .2, B.y));

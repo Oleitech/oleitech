@@ -1,5 +1,8 @@
 .detail { padding: max(40px, calc(316 * var(--k))) max(20px, calc(150 * var(--k))) 0; }
-.detail__card { display: block; aspect-ratio: 3353 / 2103; clip-path: url(#clip-detail); background: #2a2929; overflow: hidden; }
+.detail__card { position: relative; display: block; aspect-ratio: 3353 / 2103; clip-path: url(#clip-detail); background: #2a2929; overflow: hidden; }
+/* I1: site vivo a 1440px, escalado para a moldura (escala e altura em js/project.js); a captura fica por baixo até carregar */
+.detail__live { position: absolute; left: 0; top: 0; width: 1440px; border: 0; transform-origin: 0 0; background: #fff; opacity: 0; transition: opacity .4s; }
+.detail__card.is-live .detail__live { opacity: 1; }
 .detail__card img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .detail__bar { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; margin-top: calc(32 * var(--k));
   font-size: var(--fs-body); line-height: 1.66; letter-spacing: .06em; text-transform: uppercase; }

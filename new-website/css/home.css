@@ -1,27 +1,38 @@
-.label--plain { text-transform: none; }
 .label {
-  font-size: var(--fs-label); letter-spacing: var(--ls); text-transform: uppercase; color: var(--accent);
+  font-size: var(--fs-label); font-weight: 400; letter-spacing: var(--ls); text-transform: uppercase; color: var(--accent);
 }
+.label--plain { text-transform: none; }   /* depois de .label: "Serviços" como no Figma 1:3310 */
 .section { padding-inline: var(--gutter); }
 
 /* ---------- Hero: ocupa o ecrã todo, o menu fica por cima ---------- */
 .hero { position: relative; width: 100%; height: 100vh; height: 100svh; min-height: 520px; overflow: hidden; touch-action: pan-y; container-type: inline-size; }
 .hero__canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero__fill { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+/* Fim do preenchimento: desvanece na vertical e acaba à volta do "see more" (o foco 1:3933 acaba em y=1849.5, o texto
+   começa em 1845). --cue-y é o topo do texto; o desvanecer vai de ~1400 a ~1870 unidades do Figma. */
+.hero { --u: calc(100cqw / 3653); --cue-fs: max(12px, calc(25 * var(--u)));
+  --cue-y: min(calc(50% + 817.5 * var(--u)), calc(100% - 2.76 * var(--cue-fs) - 20px));
+  --fade: calc(472.5 * var(--u)); --fill-end: calc(var(--cue-y) + .7 * var(--cue-fs)); }
+.hero__canvas, .hero__fill, .hero__ink {   /* a grelha (canvas) acaba com o mesmo desvanecer */
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(var(--fill-end) - var(--fade)), rgba(0,0,0,.82) calc(var(--fill-end) - .75 * var(--fade)), rgba(0,0,0,.5) calc(var(--fill-end) - .5 * var(--fade)), rgba(0,0,0,.18) calc(var(--fill-end) - .25 * var(--fade)), transparent var(--fill-end));
+          mask-image: linear-gradient(to bottom, #000 calc(var(--fill-end) - var(--fade)), rgba(0,0,0,.82) calc(var(--fill-end) - .75 * var(--fade)), rgba(0,0,0,.5) calc(var(--fill-end) - .5 * var(--fade)), rgba(0,0,0,.18) calc(var(--fill-end) - .25 * var(--fade)), transparent var(--fill-end)); }
 /* cópia do menu e da seta em antracite, recortada pela zona amarela: o texto lê-se sempre */
 .hero__ink { position: absolute; inset: 0; z-index: 61; pointer-events: none; }
 .hero__ink .header { color: var(--ink); }
 .hero__ink .link, .hero__ink .header__lang, .hero__ink .cue { color: var(--ink); }
-/* "see more" + seta (Figma 1:3936 e 1:3447), medidas do Figma em em (texto de 25 unidades):
-   texto 1782,1845 com 121x34; seta = asset 1:3447 rodado 135° numa caixa de 39x39 em 1864.7,1894.5,
-   alinhada à direita do texto e 49.5 abaixo do topo do texto. Estática, como no Figma. */
-.cue { position: absolute; z-index: 2; left: calc(1782 * 100cqw / 3653);
-  top: min(calc(50% + 817.5 * 100cqw / 3653), calc(100% - 3.54em - 12px));
+/* "see more" + seta (Figma 1:3936 e 1:3447), medidas do Figma em em (texto de 25 unidades). Texto em 1782,1845 (121x34).
+   A seta é o asset 27.59x27.58 rodado 135°; no Figma o x/y de um nó rodado é a origem da rotação (1864.68,1894.5), não o
+   canto da caixa, por isso o centro da seta fica em 1845.17,1894.5: centrada por baixo do texto (centro 1842.5).
+   Caixa 39.01x39.01 a 43.66 à direita e 30 abaixo do topo do texto. */
+.cue { position: absolute; z-index: 2; left: calc(1782 * var(--u)); top: var(--cue-y);
   display: block; width: max-content; line-height: 1.366;
-  color: var(--accent); font-size: max(12px, calc(25 * 100cqw / 3653)); letter-spacing: .08em; }
-.cue__arrow { display: block; margin: .614em .036em 0 auto; width: 1.56em; height: 1.56em; overflow: visible; }
+  color: var(--accent); font-size: var(--cue-fs); letter-spacing: .08em; }
+.cue__arrow { display: block; margin: -.166em 0 0 1.7466em; width: 1.5605em; height: 1.5605em; overflow: visible; }
 .cue__arrow path { fill: currentColor; }
-@media (max-width: 699px) { .cue { left: 50%; transform: translateX(-50%); top: auto; bottom: calc(20px + env(safe-area-inset-bottom)); } }
+@media (max-width: 699px) {
+  .hero { --cue-y: calc(100% - 20px - env(safe-area-inset-bottom) - 2.76 * var(--cue-fs)); --fade: 160px; }
+  .cue { left: 50%; transform: translateX(-50%); }
+}
 
 /* ---------- Serviços ---------- */
 .services { display: grid; grid-template-columns: calc(1000 * var(--k)) 1fr; gap: calc(100 * var(--k)); align-items: start;
@@ -54,7 +65,9 @@
 .projects__stage { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden;
   --pk: min(var(--k), calc(86svh / 2136)); }
 .projects__track { position: absolute; left: 0; top: 50%; height: calc(2136 * var(--pk)); width: calc(4400 * var(--pk) * var(--sx)); will-change: transform; z-index: 1; }
-.pcard { position: absolute; z-index: 1; left: calc(var(--x) * var(--pk) * var(--sx)); top: calc(var(--y) * var(--pk)); width: calc(var(--w) * var(--pk)); display: block; }
+/* --ps: imagens 15% maiores (pedido do dono, 24/11), a crescer à volta do centro de cada cartão: a pista e as posições ficam iguais */
+.pcard { --ps: 1.15; position: absolute; z-index: 1; left: calc((var(--x) * var(--sx) - var(--w) * (var(--ps) - 1) / 2) * var(--pk));
+  top: calc((var(--y) - var(--h) * (var(--ps) - 1) / 2) * var(--pk)); width: calc(var(--w) * var(--ps) * var(--pk)); display: block; }
 .pcard__shape { display: block; aspect-ratio: var(--w) / var(--h); clip-path: var(--clip); background: #2a2929; transition: transform .4s ease; }
 .pcard__shape img { width: 100%; height: 100%; object-fit: cover; }
 .pcard:hover .pcard__shape { transform: translateY(-6px); }
@@ -65,7 +78,7 @@
 .insect__body { position: absolute; left: 0; top: 0; width: 82.8%; height: auto; transform-origin: 41% 50%; }
 .insect__label { position: absolute; left: 35%; top: 45.7%; width: 49.7%; height: auto; }
 
-@media (max-width: 800px) { .projects { margin-top: 0; } .projects__stage { height: min(100svh, calc(2136 * var(--pk) + 100px)); } }
+@media (max-width: 800px) { .pcard { --ps: 1; } /* no mobile +15% encosta o cartão 2 ao título do 1: fica o tamanho anterior */ .projects { margin-top: 0; } .projects__stage { height: min(100svh, calc(2136 * var(--pk) + 100px)); } }
 
 /* ---------- Experiência ---------- */
 .exp { display: grid; grid-template-columns: calc(790 * var(--k)) 1fr; gap: 24px; padding-top: calc(660 * var(--k)); }
@@ -81,12 +94,13 @@
 @media (max-width: 800px) { .exp { grid-template-columns: 1fr; padding-top: 80px; gap: 28px; } .exp__item { padding-block: 28px; gap: 12px; } .exp__item:first-child { padding-top: 0; } }
 
 /* ---------- Números ---------- */
-.numbers { padding-top: calc(1100 * var(--k)); display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(100 * var(--k)); }
-.stat { display: flex; flex-direction: column; justify-content: space-between; gap: 40px; aspect-ratio: 1059 / 1332;
+.numbers { padding-top: calc(1100 * var(--k)); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: calc(100 * var(--k)); }
+.stat { container-type: inline-size; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; aspect-ratio: 1059 / 1332;
   border: 1px solid var(--accent); border-radius: calc(106 * var(--k)); padding: calc(133 * var(--k)) calc(105 * var(--k)) calc(116 * var(--k)); }
-.stat__label { font-size: max(17px, calc(56 * var(--k))); font-weight: 300; line-height: 1.2; color: var(--text); }
-.stat__cap { display: block; margin-top: .45em; font-size: .72em; color: var(--accent); }
-.stat__num { font-size: max(54px, calc(290 * var(--k))); font-weight: 300; line-height: 1; color: var(--text); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+/* Figma 1:3347/1:3359/1:3371: rótulo e 2.ª linha com o mesmo tamanho (~85 un. = ~45px a 1920), número ~370 un. (~194px) */
+.stat__label { font-size: max(17px, calc(85 * var(--k))); font-weight: 300; line-height: 1.1; color: var(--text); }
+.stat__cap { display: block; margin-top: 0; font-size: 1em; color: var(--accent); }
+.stat__num { font-size: max(54px, min(calc(370 * var(--k)), 37cqi)); font-weight: 300; line-height: 1; color: var(--text); font-variant-numeric: tabular-nums; letter-spacing: -.01em; white-space: nowrap; }
 @media (max-width: 800px) {
   .numbers { grid-template-columns: 1fr; padding-top: 80px; gap: 16px; }
   .stat { aspect-ratio: auto; min-height: 260px; border-radius: 32px; padding: 28px 24px; }
@@ -99,18 +113,20 @@
 .ask__btn:hover { background: var(--text); }
 @media (max-width: 800px) { .ask { padding-top: 80px; flex-direction: column; gap: 24px; text-align: center; } }
 
-/* ---------- Contacto: botão -> círculo com o símbolo da marca -> botão (uma só animação contínua) ----------
-   Uma forma amarela sempre presente: a pílula encolhe até ser um círculo e os parêntesis (antracite), que começam nos
-   cantos da pílula, encaixam-se no símbolo ao centro. O texto desvanece no início. Reversível a qualquer momento.
-   O <a> mantém o tamanho da pílula (ghost): a área de hover não encolhe. Valores por frame em js/main.js. */
+/* ---------- Contacto: "Quero entrar em contacto" como no Figma (1:3312) -> os dois parêntesis juntam-se com uma carta ----------
+   Estado inicial = Figma: texto Manrope 120 em #EEECE9, sem fundo; parêntesis amarelos de 90.28 nos cantos do grupo
+   (em cima à direita 196 depois do texto e 34 acima; em baixo à esquerda 285 antes e 45 abaixo). Medidas em em (texto = 120).
+   Com hover/foco o texto desvanece e os parêntesis vão para o centro e encaixam-se no símbolo, com uma carta de traço no meio.
+   Reversível a qualquer momento. O <a> tem sempre o tamanho do grupo do Figma (ghost). Valores por frame em js/main.js. */
 .contact-wrap { display: grid; place-items: center; min-height: calc(480 * var(--k)); margin-top: calc(560 * var(--k)); padding-inline: var(--gutter); }
-.contact { position: relative; display: grid; place-items: center; max-width: 100%; text-align: center; border-radius: 9999px; }
-.contact__ghost, .contact__label { font-size: var(--fs-label); line-height: 1.366; letter-spacing: .02em; white-space: nowrap;
-  padding: max(14px, calc(42 * var(--k))) max(26px, calc(99 * var(--k))); }
-.contact__ghost { visibility: hidden; max-width: 100%; }
-.contact__label { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0;
-  border-radius: 9999px; background: var(--accent); color: var(--ink); }
+.contact { position: relative; display: grid; place-items: center; max-width: 100%; text-align: center; color: var(--text-soft);
+  font-size: min(var(--fs-xl), calc((100vw - 40px) / 16.8)); line-height: 1.366; }
+.contact > span { grid-area: 1 / 1; white-space: nowrap; padding: .283em 2.386em .375em 2.375em; }
+.contact__ghost { visibility: hidden; }
 .contact__text { display: block; }
-.contact__sym { position: absolute; left: 0; top: 0; width: 10px; height: 10px; overflow: visible; fill: var(--ink); pointer-events: none; transform-origin: 0 0; z-index: 1; }
+.contact__sym { position: absolute; left: 0; top: 0; width: 10px; height: 10px; overflow: visible; fill: var(--accent); pointer-events: none; }
+.contact__mail { position: absolute; left: 50%; top: 50%; width: 10px; height: auto; overflow: visible; opacity: 0; pointer-events: none;
+  fill: none; stroke: var(--accent); stroke-width: max(2px, calc(5 * var(--k))); stroke-linecap: round; stroke-linejoin: round; }
+.contact__mail path { vector-effect: non-scaling-stroke; }
 .contact:focus-visible { outline: 2px solid var(--text-soft); outline-offset: 10px; }
 @media (max-width: 800px) { .contact-wrap { margin-top: 90px; min-height: 200px; } }
