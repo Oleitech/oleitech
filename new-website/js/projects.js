@@ -29,41 +29,51 @@
   addEventListener('load', measure);
   measure();
 
-  // o bug anda sozinho (tempo real), no ecrã visível da secção, por trás dos cartões.
-  // Rumo: velocidade angular com ruído suavizado (Ornstein-Uhlenbeck); velocidade com alvos aleatórios e pausas.
-  const gauss = () => Math.sqrt(-2 * Math.log(1 - Math.random())) * Math.cos(6.2832 * Math.random());
-  function newBug(W, H, bw, bh) {
-    const m = bw * .3;
-    return { x: m + Math.random() * Math.max(1, W - 2 * m), y: m + Math.random() * Math.max(1, H - 2 * m), a: Math.random() * 6.2832,
-      w: 0, v: 0, vt: 20 + Math.random() * 45, tNext: 1 + Math.random() * 3, pause: 0, W, H, bw, bh };
+  // o bug vive na pista, com os cartões (comportamento E7, 2.ª versão): o scroll só o desloca por estar no mesmo translate.
+  // O andar é só pelo relógio, em coordenadas da pista; não lê o scroll.
+  // Troços aleatórios: anda devagar, pára, dá corridas curtas; no fim de um troço pode virar de repente. Fica na zona do meio.
+  const R = (a, b) => a + Math.random() * (b - a), gauss = () => Math.sqrt(-2 * Math.log(1 - Math.random())) * Math.cos(6.2832 * Math.random());
+  const ZX = .15, ZY = .2;                                    // margem: 15% de um ecrã nas pontas da pista; 20% do palco em cima e em baixo
+  // zona em coordenadas da pista: x pela parte da pista que chega a ver-se (0 … dist + ecrã), y à altura do meio do palco
+  const zone = (vw, vh, len, th) => { const top = th / 2 - vh / 2; return { x0: vw * ZX, x1: len - vw * ZX, y0: top + vh * ZY, y1: top + vh * (1 - ZY) }; };
+  function newBug(Z, vw, bw, bh) {                            // começa à vista no 1.º ecrã
+    const a = Math.random() * 6.2832;
+    return { x: vw * R(ZX + .1, 1 - ZX - .1), y: Z.y0 + (Z.y1 - Z.y0) * R(.15, .85), a, h: a, w: 0, v: 0, vt: 0, mode: 'walk', t: 0, Z, bw, bh };
+  }
+  function nextLeg(B, sc) {                                   // velocidades em px a 1920, escaladas ao tamanho do bug
+    const r = Math.random();
+    if (r < .22) { B.mode = 'pause'; B.t = R(.4, 2); B.vt = 0; }
+    else if (r < .36) { B.mode = 'dash'; B.t = R(.3, .8); B.vt = R(112, 150) * sc; }
+    else { B.mode = 'walk'; B.t = R(.8, 2.6); B.vt = R(36, 57) * sc; }
+    if (Math.random() < .45) B.h = B.a + (Math.random() < .5 ? -1 : 1) * R(.7, 2.6);   // viragem de repente (40°–150°)
   }
   function stepBug(B, dt) {
-    const sc = B.bw / 360;                                    // velocidades em px a 1920, escaladas ao tamanho do bug
-    B.w += -0.4 * B.w * dt + 0.32 * Math.sqrt(dt) * gauss();   // OU: média 0, desvio ~0.35 rad/s (metade da ronda 3) (curvas largas, percorre a secção)
-    B.tNext -= dt;
-    const edge = Math.min(B.x, B.W - B.x, B.y, B.H - B.y) < B.bw * 1.2;          // perto da borda não faz pausas
-    if (B.tNext <= 0) { B.tNext = 1.5 + Math.random() * 3.5; B.vt = !edge && Math.random() < .12 ? 0 : (30 + Math.random() * 45) * sc; }   // metade da velocidade (ronda 5)
-    B.v += (B.vt - B.v) * (1 - Math.exp(-1.6 * dt));
-    // afasta-se suavemente das bordas (força proporcional à penetração na margem)
-    const m = B.bw * .8, hx = Math.cos(B.a), hy = Math.sin(B.a);
-    const px = Math.max(0, m - B.x) - Math.max(0, B.x - (B.W - m)), py = Math.max(0, m - B.y) - Math.max(0, B.y - (B.H - m));
-    // na margem: vira a direção para dentro (sem somar rotação, que o fazia ficar a rodar no sítio) e não pára
-    if (px || py) {
-      const k = Math.min(1, Math.hypot(px, py) / m), want = Math.atan2(py, px), d = Math.atan2(Math.sin(want - B.a), Math.cos(want - B.a));
-      B.a += d * (1 - Math.exp(-(1.2 + 4 * k) * dt)); B.w *= Math.exp(-4 * dt);
-      if (B.vt < 25 * sc) B.vt = 25 * sc;
-      if (B.v < 15 * sc) B.v = 15 * sc;
+    const sc = Math.pow(B.bw / 298, .3);                     // 298 = largura do bug a 1920; a 1440 fica ~0,95
+    B.t -= dt; if (B.t <= 0) nextLeg(B, sc);
+    // a andar, o rumo desejado treme um pouco (patas); parado, não
+    if (B.mode !== 'pause') { B.w += -2 * B.w * dt + 1.1 * Math.sqrt(dt) * gauss(); B.h += B.w * dt; }
+    // fora da zona do meio: o rumo desejado aponta para dentro e não pára
+    const { x0, x1, y0, y1 } = B.Z;
+    if (B.x < x0 || B.x > x1 || B.y < y0 || B.y > y1) {
+      const want = Math.atan2((B.y < y0) - (B.y > y1), (B.x < x0) - (B.x > x1));   // para dentro pelo lado que passou; só corrige se estiver a ir para fora
+      if (Math.cos(B.h - want) < .5) B.h = want + R(-.6, .6);
+      if (B.mode === 'pause') { B.mode = 'walk'; B.t = R(.6, 1.4); B.vt = R(36, 57) * sc; }
     }
-    B.a += B.w * dt;
+    // o corpo roda depressa para o rumo; enquanto roda muito, abranda
+    const d = Math.atan2(Math.sin(B.h - B.a), Math.cos(B.h - B.a));
+    B.a += d * (1 - Math.exp(-9 * dt));
+    const turn = Math.max(0, Math.cos(Math.min(Math.PI / 2, Math.abs(d))));
+    B.v += (B.vt * turn - B.v) * (1 - Math.exp(-(B.vt > B.v ? 7 : 10) * dt));
     B.x += Math.cos(B.a) * B.v * dt; B.y += Math.sin(B.a) * B.v * dt;
-    B.x = Math.min(B.W - B.bw * .2, Math.max(B.bw * .2, B.x)); B.y = Math.min(B.H - B.bh * .2, Math.max(B.bh * .2, B.y));
+    const m = B.bw * .1;                                      // nunca sai da zona por mais de um pouco
+    B.x = Math.min(x1 + m, Math.max(x0 - m, B.x)); B.y = Math.min(y1 + m, Math.max(y0 - m, B.y));
   }
   let B = null, bprev = 0, braf = 0, bvis = true, t = 0;
   function bugFrame(now) {
     braf = 0;
     const dt = Math.max(0, Math.min(.05, (now - bprev) / 1000)); bprev = now; t += dt;
-    const W = stage.clientWidth, H = stage.clientHeight, bw = bug.offsetWidth, bh = bug.offsetHeight;
-    if (!B) B = newBug(W, H, bw, bh); else { B.W = W; B.H = H; B.bw = bw; B.bh = bh; }
+    const Z = zone(vw, vh, dist + vw, track.offsetHeight), bw = bug.offsetWidth, bh = bug.offsetHeight;
+    if (!B) B = newBug(Z, vw, bw, bh); else { B.Z = Z; B.bw = bw; B.bh = bh; }
     stepBug(B, dt);
     bug.style.transform = `translate3d(${B.x - bw / 2}px,${B.y - bh / 2}px,0)`;
     const wob = Math.sin(t * 14) * 3 * Math.min(1, B.v / 40);
@@ -73,10 +83,10 @@
   const bugLoop = () => { if (!braf && bvis && !reduce && !document.hidden) { bprev = performance.now(); braf = requestAnimationFrame(bugFrame); } };
   new IntersectionObserver(([e]) => { bvis = e.isIntersecting; if (bvis) bugLoop(); else if (braf) { cancelAnimationFrame(braf); braf = 0; } }).observe(sec);
   document.addEventListener('visibilitychange', bugLoop);
-  if (reduce) { bug.style.transform = `translate3d(${stage.clientWidth * .4 - bug.offsetWidth / 2}px,${stage.clientHeight * .5 - bug.offsetHeight / 2}px,0)`; body.style.transform = 'rotate(70deg)'; }
+  if (reduce) { bug.style.transform = `translate3d(${vw * .4 - bug.offsetWidth / 2}px,${track.offsetHeight / 2 - bug.offsetHeight / 2}px,0)`; body.style.transform = 'rotate(70deg)'; }
   else bugLoop();
-  if (location.search.includes('debug')) window.__bugSim = (sec, W = 1920, H = 1080, bw = 360) => { // simulação sem render: médias das velocidades
-    const b = newBug(W, H, bw, bw), n = Math.round(sec * 60); let sx = 0, sy = 0, mn = [1e9, 1e9], mx = [-1e9, -1e9];
+  if (location.search.includes('debug')) window.__bugSim = (sec, W = 1920, H = 1080, bw = 298) => { // simulação sem render: médias das velocidades
+    const b = newBug(zone(W, H, W * 3, H), W, bw, bw), n = Math.round(sec * 60); let sx = 0, sy = 0, mn = [1e9, 1e9], mx = [-1e9, -1e9];
     for (let i = 0; i < n; i++) { const px = b.x, py = b.y; stepBug(b, 1 / 60); sx += (b.x - px) * 60; sy += (b.y - py) * 60; mn = [Math.min(mn[0], b.x), Math.min(mn[1], b.y)]; mx = [Math.max(mx[0], b.x), Math.max(mx[1], b.y)]; }
     return { meanVx: sx / n, meanVy: sy / n, xRange: [mn[0], mx[0]], yRange: [mn[1], mx[1]] };
   };

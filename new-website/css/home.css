@@ -130,3 +130,21 @@
 .contact__mail path { vector-effect: non-scaling-stroke; }
 .contact:focus-visible { outline: 2px solid var(--text-soft); outline-offset: 10px; }
 @media (max-width: 800px) { .contact-wrap { margin-top: 90px; min-height: 200px; } }
+/* Serviços ≤767px (S1): o seletor do desktop em ponto pequeno; formas à esquerda (metade da largura útil), texto da escolhida ao lado */
+@media (max-width: 767px) {
+  .services { --sk: calc((100vw - 40px) * .5 / 895); grid-template-columns: calc(895 * var(--sk)) minmax(0, 1fr); column-gap: 14px; align-items: center; padding-inline: 20px; }
+  .svc-list { height: calc(874 * var(--sk)); }
+  .svc { top: calc(var(--i) * 183 * var(--sk)); width: calc(var(--w) * var(--sk)); height: calc(325 * var(--sk)); }
+  .svc__shape { stroke-width: 8; }
+  .svc__icon { stroke-width: 9; }
+  .svc__label { left: calc(271 * var(--sk)); top: calc(247 * var(--sk)); font-size: calc(60 * var(--sk)); }
+  /* zona de toque: a faixa inteira de cada opção (círculo à esquerda, pílula à direita), até meio caminho da vizinha */
+  .svc::before, .svc::after { content: ""; position: absolute; pointer-events: auto; cursor: pointer; }
+  .svc::before { left: 0; top: calc(-14 * var(--sk)); width: calc(162 * var(--sk)); height: calc(183 * var(--sk)); }
+  .svc::after { left: calc(162 * var(--sk)); right: 0; top: calc(155 * var(--sk)); height: calc(183 * var(--sk)); }
+  .svc-copy { display: grid; }
+  .svc-copy h2 { font-size: 15px; }
+  .svc-copy [role="tabpanel"] { grid-area: 2 / 1; margin-top: 8px; min-height: 0; max-width: none; }
+  .svc-copy [hidden] { display: block; visibility: hidden; }   /* reserva a altura do texto mais comprido: trocar não faz saltar a página */
+  .svc-copy p { font-size: clamp(14px, 3.5vw, 15px); line-height: 1.45; letter-spacing: .03em; }
+}
