@@ -62,12 +62,18 @@
       "justo_at": "2026-11-21T04:58:15+00:00",
       "clv_api": -0.033,
       "fecho_idade_min": 122,
-      "odd_fecho_ref": 2.151,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 2.108,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-21T12:58:14+00:00",
       "fecho_aproximado": false,
-      "clv": -0.033
+      "clv": -0.0135,
+      "odd_fecho_api": 2.151,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0135,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "SC1: Queens Park - Livingston",
+      "fecho_real_em": "2026-11-23T23:55:40.377Z"
     }
   ],
   "accumulators": [
@@ -178,12 +184,18 @@
           "justo_at": "2026-11-21T05:07:20+00:00",
           "clv_api": -0.0143,
           "fecho_idade_min": 161,
-          "odd_fecho_ref": 1.4,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.356,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T17:04:18+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0143
+          "clv": 0.0178,
+          "odd_fecho_api": 1.4,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": 0.0178,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Mechelen - Club Brugge",
+          "fecho_real_em": "2026-11-23T23:55:40.382Z"
         }
       ]
     },
@@ -293,12 +305,18 @@
           "justo_at": "2026-11-21T04:36:17+00:00",
           "clv_api": 0.0375,
           "fecho_idade_min": 21,
-          "odd_fecho_ref": 1.253,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.25,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T16:39:19+00:00",
           "fecho_aproximado": false,
-          "clv": 0.0375
+          "clv": 0.0398,
+          "odd_fecho_api": 1.253,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": 0.0398,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "I1: Parma - Roma",
+          "fecho_real_em": "2026-11-23T23:55:40.390Z"
         }
       ]
     },
@@ -392,12 +410,18 @@
           "justo_at": "2026-11-21T05:07:20+00:00",
           "clv_api": -0.0143,
           "fecho_idade_min": 161,
-          "odd_fecho_ref": 1.4,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.356,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T17:04:18+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0143
+          "clv": 0.0178,
+          "odd_fecho_api": 1.4,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": 0.0178,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Mechelen - Club Brugge",
+          "fecho_real_em": "2026-11-23T23:55:40.392Z"
         }
       ]
     },
@@ -438,12 +462,18 @@
           "justo_at": "2026-11-21T05:37:16+00:00",
           "clv_api": 0.0201,
           "fecho_idade_min": 154,
-          "odd_fecho_ref": 1.245,
-          "fonte_fecho": "mediana 1 casa",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.281,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T17:26:17+00:00",
           "fecho_aproximado": false,
-          "clv": 0.0201
+          "clv": -0.0084,
+          "odd_fecho_api": 1.245,
+          "fonte_fecho_api": "mediana 1 casa",
+          "clv_fecho_real": -0.0084,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "SP1: Real Madrid - Celta",
+          "fecho_real_em": "2026-11-23T23:55:40.394Z"
         },
         {
           "sport": "football",
@@ -473,12 +503,18 @@
           "justo_at": "2026-11-21T05:07:20+00:00",
           "clv_api": -0.0159,
           "fecho_idade_min": 161,
-          "odd_fecho_ref": 1.514,
-          "fonte_fecho": "mediana 1 casa",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.483,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T17:04:18+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0159
+          "clv": 0.005,
+          "odd_fecho_api": 1.514,
+          "fonte_fecho_api": "mediana 1 casa",
+          "clv_fecho_real": 0.005,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "B1: Mechelen - Club Brugge",
+          "fecho_real_em": "2026-11-23T23:55:40.395Z"
         }
       ]
     }

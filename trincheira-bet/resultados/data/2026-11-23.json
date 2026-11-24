@@ -1,0 +1,1580 @@
+{
+  "date": "2026-11-23",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.63,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Uma perna de ambas marcam e dois mais de 1.5, de três ligas diferentes (Dinamarca, Argentina, Grécia), todas na 1xBet. Corrigido a pedido do QA: saiu o Koper vence @1.54 (64,9% implícito, abaixo dos 65% de favorito claro); entrou o ambas marcam do Brondby-Midtjylland @1.43.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1549059,
+            "match": "Brondby vs FC Midtjylland",
+            "league": "Superliga (Dinamarca)",
+            "leagueId": 119,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.43,
+            "kickoff": "2026-11-23T18:00:00Z",
+            "score": 65,
+            "tese": "O Midtjylland marcou e sofreu nos últimos cinco jogos oficiais e o H2H teve ambas marcam em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Brondby 0-1 (f), 2-0 (c), 2-1 (Taça, f), 3-1 (f), 1-2 (f) — ambas marcam 3/5; Midtjylland 2-2 (c), 1-6 (Liga Europa, c), 3-2 (f), 2-1 (Taça, c), 3-2 (c) — 5/5",
+              "H2H oficial (API, Superliga): 1-4 (09/2026), 3-2 (05/2026), 1-2 (04/2026), 0-0 (03/2026), 1-3 (08/2025) — ambas marcam 4/5",
+              "Baixas (API): Brondby sem Binks e Kohlert; Midtjylland sem Erlic, Gogorza, Martínez, Bakker, Jensen, Junior Brumado e Olafsson — nenhum guarda-redes; as baixas da defesa do Midtjylland jogam a favor",
+              "1xBet 1.43, Marathonbet 1.43, Bet365 1.50"
+            ],
+            "odd_nossa": 1.43,
+            "justo_gravado_em": "2026-11-23T07:24:21.458Z",
+            "odd_justa_ref": 1.509,
+            "prob_justa": 0.6627,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0523,
+            "justo_at": "2026-11-23T04:12:13+00:00",
+            "clv_api": -0.0517,
+            "fecho_idade_min": 106,
+            "odd_fecho_ref": 1.508,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T16:14:13+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0517,
+            "result": "RED",
+            "hit": false,
+            "final_score": "0-2",
+            "note": "Brondby 0-2 FC Midtjylland: falha."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1649567,
+            "match": "Gimnasia L.P. vs Newells Old Boys",
+            "league": "Liga Profesional (Argentina)",
+            "leagueId": 128,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.37,
+            "kickoff": "2026-11-23T20:00:00Z",
+            "score": 65,
+            "tese": "Os últimos cinco jogos oficiais do Gimnasia tiveram todos dois ou mais golos, e o H2H passou de 1.5 em três dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Gimnasia 2-1, 2-1, 2-0, 2-1, 1-1 — mais de 1.5 em 5/5 (o 0-2 anterior foi amigável e ficou de fora); Newell’s 2-2, 1-1, 0-0, 2-1, 0-1 — 3/5",
+              "H2H oficial (API, Liga Profesional): 1-0 (11/2024), 2-2 (07/2023), 2-0 (09/2022), 3-1 (05/2022), 1-0 (10/2021) — mais de 1.5 em 3/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.37, Bet365 1.40, Pinnacle 1.43, Marathonbet 1.35"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-23T07:18:47.534Z",
+            "odd_justa_ref": 1.469,
+            "prob_justa": 0.6806,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0675,
+            "justo_at": "2026-11-23T02:03:13+00:00",
+            "clv_api": -0.0655,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.466,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0655,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-2",
+            "note": "Gimnasia L.P. 2-2 Newells Old Boys (90 minutos): acerta."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1593359,
+            "match": "Asteras Tripolis vs Aris Thessalonikis",
+            "league": "Super League 1 (Grécia)",
+            "leagueId": 197,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.34,
+            "kickoff": "2026-11-23T15:00:00Z",
+            "score": 65,
+            "tese": "Os cinco últimos jogos oficiais do Aris tiveram todos dois ou mais golos e o Asteras passou de 1.5 em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Asteras 1-1 (c), 1-2 (f), 0-2 (Taça, c), 0-0 (c), 1-5 (f) — mais de 1.5 em 4/5; Aris 3-0 (c), 0-3 (f), 1-2 (Taça, f), 3-1 (c), 2-1 (f) — 5/5",
+              "H2H oficial (API, Super League): 1-1 (09/2026), 0-1 (12/2025), 0-0 (11/2025), 4-2 (05/2025), 0-2 (03/2025) — mais de 1.5 em 3/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.34, Bet365 1.33, Marathonbet 1.34, Pinnacle 1.40"
+            ],
+            "odd_nossa": 1.34,
+            "justo_gravado_em": "2026-11-23T07:18:47.536Z",
+            "odd_justa_ref": 1.437,
+            "prob_justa": 0.696,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0674,
+            "justo_at": "2026-11-23T06:00:31+00:00",
+            "clv_api": -0.1043,
+            "fecho_idade_min": 140,
+            "odd_fecho_ref": 1.496,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T12:40:15+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.1043,
+            "result": "RED",
+            "hit": false,
+            "final_score": "0-1",
+            "note": "Asteras Tripolis 0-1 Aris Thessalonikis: falha."
+          }
+        ],
+        "result": "RED",
+        "note": "Perna(s) falhada(s): Brondby vs FC Midtjylland 0-2; Asteras Tripolis vs Aris Thessalonikis 0-1.",
+        "effective_odds": 2.63,
+        "return": 0,
+        "pnl": -0.5
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.59,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Uma perna de ambas marcam e dois mais de 1.5, de três ligas diferentes (Itália, Egipto, Macedónia do Norte), todas na 1xBet. Não havia mais nenhuma perna vence que passasse o filtro.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1550203,
+            "match": "Monza vs Fiorentina",
+            "league": "Serie A (Itália)",
+            "leagueId": 135,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.5,
+            "kickoff": "2026-11-23T19:45:00Z",
+            "score": 65,
+            "tese": "A Fiorentina marcou e sofreu nos últimos cinco jogos oficiais, o Monza em três dos últimos cinco, e o H2H teve ambas marcam em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Monza 0-1 (c), 1-2 (f), 1-4 (c), 2-3 (f), 4-0 (c) — ambas marcam 3/5; Fiorentina 2-2 (c), 4-2 (f), 2-2 (c), 1-2 (f), 1-3 (c) — 5/5",
+              "H2H oficial (API, Serie A): 2-1 (01/2025), 2-2 (09/2024), 2-1 (05/2024), 0-1 (12/2023), 3-2 (04/2023) — ambas marcam 4/5",
+              "SportsGambler, últimos 10 da liga: Monza ambas marcam 8/10, Fiorentina 9/10; Forebet: Monza 3 jogos sem sofrer em 13, Fiorentina 1 em 13",
+              "Baixas (API + SportsGambler): Monza sem Folorunsho e Maye; Fiorentina sem Parisi, Pongracic e Sottil — nenhum guarda-redes nem a defesa inteira",
+              "1xBet 1.50, Bet365 1.53, Marathonbet 1.50",
+              "Dúvida: o Kean (avançado da Fiorentina) aparece com problema na perna só no SportsGambler; a API não o lista — uma fonte só. Se falhar, a Fiorentina perde o principal finalizador; o ataque provável do SportsGambler é Pellegrino com Mastantuono, Gonçalves e Njie"
+            ],
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-23T07:18:47.539Z",
+            "odd_justa_ref": 1.576,
+            "prob_justa": 0.6343,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0485,
+            "justo_at": "2026-11-23T06:00:31+00:00",
+            "clv_api": -0.0831,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.636,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0831,
+            "result": "RED",
+            "hit": false,
+            "final_score": "3-0",
+            "note": "Monza 3-0 Fiorentina: falha."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1612280,
+            "match": "Al Ahly vs Pyramids FC",
+            "league": "Premier League (Egipto)",
+            "leagueId": 233,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.31,
+            "kickoff": "2026-11-23T18:00:00Z",
+            "score": 65,
+            "tese": "Quatro dos últimos cinco Al Ahly-Pyramids tiveram dois ou mais golos, e o Pyramids passou de 1.5 em quatro dos últimos cinco oficiais.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Al Ahly 3-0, 1-0, 1-0, 4-0, 3-3 — mais de 1.5 em 3/5; Pyramids 2-0, 1-0, 2-1, 4-0, 4-1 — 4/5",
+              "H2H oficial (API): 3-0 Pyramids (04/2026), 0-2 (08/2025), 1-1 (04/2025), 2-2 (01/2025), 0-1 (07/2024) — mais de 1.5 em 4/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.31, Bet365 1.33, Pinnacle 1.36, Marathonbet 1.31"
+            ],
+            "odd_nossa": 1.31,
+            "justo_gravado_em": "2026-11-23T07:18:47.540Z",
+            "odd_justa_ref": 1.4,
+            "prob_justa": 0.7142,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0644,
+            "justo_at": "2026-11-23T04:51:15+00:00",
+            "clv_api": -0.0928,
+            "fecho_idade_min": 69,
+            "odd_fecho_ref": 1.444,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T16:51:13+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0928,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "0-2",
+            "note": "Al Ahly 0-2 Pyramids FC: acerta."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551492,
+            "match": "Shkendija vs Sileks",
+            "league": "First League (Macedónia do Norte)",
+            "leagueId": 371,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.32,
+            "kickoff": "2026-11-23T12:00:00Z",
+            "score": 65,
+            "tese": "Quatro dos últimos cinco Shkendija-Sileks tiveram dois ou mais golos, e as duas equipas passaram de 1.5 em três dos últimos cinco oficiais.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Shkendija 0-1, 2-1, 0-0, 3-1, 1-1 — mais de 1.5 em 3/5 (os amigáveis ficaram de fora); Sileks 0-1, 0-0, 3-0 (Taça), 2-0, 3-0 — 3/5",
+              "H2H oficial (API, First League): 2-0 (08/2026), 1-0 (05/2026), 1-1 (05/2026), 2-1 (02/2026), 2-0 (09/2025) — mais de 1.5 em 4/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.32, Marathonbet 1.32, Pinnacle 1.35"
+            ],
+            "odd_nossa": 1.32,
+            "justo_gravado_em": "2026-11-23T07:18:47.541Z",
+            "odd_justa_ref": 1.421,
+            "prob_justa": 0.7039,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0708,
+            "justo_at": "2026-11-23T06:00:31+00:00",
+            "clv_api": -0.0711,
+            "fecho_idade_min": 359,
+            "odd_fecho_ref": 1.421,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T06:00:31+00:00",
+            "fecho_aproximado": true,
+            "clv": -0.0711,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-1",
+            "note": "Shkendija 1-1 Sileks: acerta."
+          }
+        ],
+        "result": "RED",
+        "note": "Perna(s) falhada(s): Monza vs Fiorentina 3-0.",
+        "effective_odds": 2.59,
+        "return": 0,
+        "pnl": -0.5
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1,
+      "combined_stake": 1,
+      "combined_return": 0,
+      "combined_pnl": -1,
+      "combined_roi_pct": -100
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Vitória",
+        "pick": "Internacional vence",
+        "fixtureId": 1492467,
+        "home": {
+          "name": "Internacional",
+          "logo": "https://media.api-sports.io/football/teams/119.png"
+        },
+        "away": {
+          "name": "Vitoria",
+          "logo": "https://media.api-sports.io/football/teams/136.png"
+        },
+        "match": "Internacional vs Vitoria",
+        "league": "Série A (Brasil), 36.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/71.png",
+        "kickoff": "2026-11-23T22:30:00Z",
+        "odds": 1.65,
+        "bookmaker": "1xBet",
+        "score": 72,
+        "stake": 0,
+        "shadow": true,
+        "stake_proposta": 0.5,
+        "context_depth": "partial",
+        "motivo_sombra": "Score 72, abaixo do piso de 75: o Vitória não ganhou fora esta época mas empatou seis vezes, o Inter só ganhou 6 dos 17 em casa, o Alan Patrick aparece castigado na API sem segunda fonte e a outra antevisão além do SportsGambler (Tips.GG) aponta para o empate. Sem valor no preço (1xBet 1.65 contra Pinnacle 1.66).",
+        "tese": "O Inter está em 17.º, na zona de descida, a três jogos do fim, e o treinador novo ganhou os três jogos que fez em casa. O Vitória não ganhou um único jogo fora em 17. Fica em sombra porque o Vitória empata muito fora, o Inter em casa ganhou só um terço dos jogos e o Alan Patrick deve falhar.",
+        "factors": [
+          "Classificação Série A 2026 (API /standings, 35 jornadas): Internacional 17.º, 38 pontos, -5; Vitória 14.º, 41 pontos, -15; Grêmio 18.º com 38",
+          "API /fixtures, Série A 2026: Internacional em casa (17) 6V-5E-6D, com as últimas três vitórias (2-1 Corinthians, 3-0 Botafogo, 1-0 Coritiba); Vitória fora (17) 0V-6E-11D",
+          "SportsGambler, últimos 10 da liga: Inter em casa 1,70 marcados e 0,90 sofridos; Vitória fora 0,60 marcados e 1,80 sofridos",
+          "H2H oficial (API): 2-0 Vitória (05/2026), 1-0 Vitória (11/2025), 1-0 Inter (07/2025), 3-1 Inter (09/2024), 2-1 Vitória (06/2024)",
+          "Baixas: a API lista Alan Patrick (cartões), Bernabei, Rochet, Thiago Maia e Matheus Bahia; o SportsGambler só lista o Rochet e mete o Thiago Maia e o Bahia no onze; a Revista Oeste (18/11) dava o Thiago Maia a ser poupado para este jogo — as fontes não batem",
+          "Treinador Eduardo Baptista: 3 vitórias em 3 em casa, nenhuma fora (Revista Oeste, 18/11)",
+          "Terceiros: SportsGambler Inter vence a 1.62; Tips.GG 1-1 e dupla hipótese X2 — divergem",
+          "Preço: 1xBet 1.65, Bet365 1.67, Pinnacle 1.66, Marathonbet 1.60"
+        ],
+        "sources": [
+          "API-Football — /fixtures (team last 8 e época 2026), /standings?league=71, /fixtures/headtohead, /injuries?fixture=1492467, /odds?fixture=1492467",
+          "SportsGambler — internacional-vs-vitoria-prediction-lineups-odds-2026-11-23",
+          "Tips.GG — internacional-vs-vitoria-24-11-2026",
+          "Revista Oeste — noticias-do-internacional-hoje-18-11-2026"
+        ],
+        "odd_nossa": 1.65,
+        "justo_gravado_em": "2026-11-23T07:18:47.532Z",
+        "odd_justa_ref": 1.696,
+        "prob_justa": 0.5895,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "1:home",
+        "ev_justo": -0.0272,
+        "justo_at": "2026-11-23T04:03:15+00:00",
+        "clv_api": 0.0006,
+        "fecho_idade_min": 148,
+        "odd_fecho_ref": 1.649,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-23T20:02:14+00:00",
+        "fecho_aproximado": false,
+        "clv": 0.0006,
+        "result": "PENDING",
+        "hit": null,
+        "final_score": "1-3",
+        "note": "Jogo ainda a decorrer (Internacional 1-3); fica PENDING.",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 0
+      },
+      {
+        "market": "favorites",
+        "marketLabel": "Vitória",
+        "pick": "Almeria vence",
+        "fixtureId": 1570029,
+        "home": {
+          "name": "AD Ceuta FC",
+          "logo": "https://media.api-sports.io/football/teams/10139.png"
+        },
+        "away": {
+          "name": "Almeria",
+          "logo": "https://media.api-sports.io/football/teams/723.png"
+        },
+        "match": "AD Ceuta FC vs Almeria",
+        "league": "Segunda División (Espanha), 15.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/141.png",
+        "kickoff": "2026-11-23T19:30:00Z",
+        "odds": 1.95,
+        "bookmaker": "1xBet",
+        "score": 78,
+        "stake": 0,
+        "context_depth": "full",
+        "tese": "O Almería é 2.º da Segunda com 32 pontos em 14 jogos (26-11 em golos) e vai a casa do último, o Ceuta, que tem cinco pontos, perdeu os últimos cinco do campeonato, ficou em branco em três deles e em casa ganhou um jogo em sete. O Almería fora ganhou quatro em sete e sofre 0,71 golos por jogo; o Ceuta em casa nunca acabou um jogo sem sofrer. Não há baixas conhecidas dos dois lados nas duas fontes. O risco existe: o Almería fora ganha quase sempre pela margem mínima, e o Ceuta trocou há pouco de treinador, com o Sergio Lobera no lugar do José Juan Romero. A 1.95 na 1xBet o preço está colado ao justo da Pinnacle.",
+        "factors": [
+          "Classificação Segunda División 2026/27 (SportsGambler, 14 jornadas): Almería 2.º, 32 pontos, 10V-2E-2D, 26-11; Ceuta 22.º (último), 5 pontos, 1V-2E-11D, 10-32",
+          "API /fixtures, Segunda 2026/27, Almería fora (7): 0-1 Tenerife, 0-1 Sabadell, 2-0 Córdoba, 1-0 Mallorca, 4-2 Real Sociedad II, 1-1 Eibar, 1-0 Girona — 4V-1E-2D",
+          "API /fixtures, Segunda 2026/27, Ceuta em casa (7): 0-2 Las Palmas, 0-2 Celta II, 1-1 Valladolid, 3-1 Real Sociedad II, 1-2 Sabadell, 1-2 Oviedo, 0-2 Sporting — 1V-1E-5D",
+          "Forma API, últimos 8 oficiais: Almería 2-1 Andorra (c), 1-0 Girona (f), 1-1 Eibar (f), 2-1 Castellonense (Taça, f), 2-2 Oviedo (c), 4-2 R. Sociedad II (f), 3-0 Leganés (c), 2-1 Burgos (c) — 6V-2E; Ceuta 0-2 Tenerife (f), 0-3 Córdoba (f), 0-2 Sporting (c), 2-1 Poblense (Taça, f), 1-3 Cádiz (f), 1-2 Oviedo (c), 1-2 Sabadell (c), 1-1 Castellón (f) — 1V-1E-6D",
+          "FootyStats, Segunda 2026/27: Ceuta em casa (7 jogos) 0,86 marcados e 1,71 sofridos, baliza a zero 0%, ficou em branco 43%, xG 1,98 / xGA 1,44; Almería fora (7 jogos) 1,29 marcados e 0,71 sofridos, baliza a zero 43%, xG 1,00 / xGA 1,90",
+          "H2H oficial (API, Segunda): 4-2 Almería (02/2026) e 3-2 Ceuta (11/2025) — só dois encontros, não pesa",
+          "Treinador: o Ceuta trocou o José Juan Romero pelo Sergio Lobera depois da 13.ª jornada, com dez derrotas em treze (El Gol Digital; Diario Córdoba via Ground News); o jogo seguinte foi o 0-2 em Tenerife",
+          "Baixas (duas fontes): API /injuries?fixture=1570029 vazia e SportsGambler sem lesionados nem castigados nos dois lados — concordam. Onze provável do Almería (SportsGambler): Andrés Fernández; Chumi, Pulido, Bonini, Lelo; Dzodic, Javi Muñoz; Junyent, Arribas, Cipenga; De la Fuente",
+          "Probabilidades: Pinnacle 3.68/3.97/1.94 (Almería perto de 50% sem margem); SportsGambler aposta no Almería a 1.80; footballpredictions.com dá 1-2",
+          "Preço: 1xBet 1.95, Pinnacle 1.94, Marathonbet 1.89, Bet365 1.75"
+        ],
+        "sources": [
+          "API-Football — /fixtures (team last 8 e época Segunda 2026), /fixtures/headtohead, /injuries?fixture=1570029, /odds?fixture=1570029 (todas as casas)",
+          "SportsGambler — ceuta-vs-almeria-prediction-lineups-odds-2026-11-23 (onzes, baixas, classificação, pick)",
+          "FootyStats — ud-almeria-vs-agrupacion-deportiva-ceuta-fc-h2h-stats (splits casa/fora 2026/27)",
+          "footballpredictions.com — Segunda División predictions (1-2, Almería vence)",
+          "El Gol Digital — sergio-lobera-nuevo-entrenador-ceuta; Ground News (Diario Córdoba) — Lobera substitui Romero",
+          "Ausências verificadas em duas fontes: API-Football injuries + SportsGambler"
+        ],
+        "odd_nossa": 1.95,
+        "justo_gravado_em": "2026-11-23T07:18:47.529Z",
+        "odd_justa_ref": 1.99,
+        "prob_justa": 0.5025,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "1:away",
+        "ev_justo": -0.02,
+        "justo_at": "2026-11-23T03:51:13+00:00",
+        "banda_190_210": true,
+        "odd_1xbet": 1.95,
+        "ev_publicacao": -0.0201,
+        "stake_proposta": 1,
+        "shadow": true,
+        "motivo_sombra": "Odd 1.95, na banda 1.90–2.10 sem valor: EV -2.0% na 1xBet a 1.95 contra o justo 1.99 (Pinnacle), abaixo de +2% (decisão do dono 09/11).",
+        "clv_api": -0.0308,
+        "fecho_idade_min": 90,
+        "odd_fecho_ref": 2.012,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-23T18:00:17+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0308,
+        "result": "GREEN",
+        "hit": true,
+        "final_score": "2-3",
+        "note": "AD Ceuta FC 2-3 Almeria: acerta.",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 0.95
+      }
+    ],
+    "sombra_summary": {
+      "total": 2,
+      "green": 1,
+      "red": 0,
+      "pending": 1,
+      "pnl_se_apostadas": 0.95,
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1,
+        "iguais": 1
+      },
+      "corvo": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.63,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao curto real: não há perna vence elegível na shortlist (o Koper saiu por não ser favorito claro; Al-Hilal, Nantes, Al Ain, Diósgyőr, Marko, CR Belouizdad e Tru-Juice caíram no H2H), por isso nada para trocar.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1549059,
+            "match": "Brondby vs FC Midtjylland",
+            "league": "Superliga (Dinamarca)",
+            "leagueId": 119,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.43,
+            "kickoff": "2026-11-23T18:00:00Z",
+            "score": 65,
+            "tese": "O Midtjylland marcou e sofreu nos últimos cinco jogos oficiais e o H2H teve ambas marcam em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Brondby 0-1 (f), 2-0 (c), 2-1 (Taça, f), 3-1 (f), 1-2 (f) — ambas marcam 3/5; Midtjylland 2-2 (c), 1-6 (Liga Europa, c), 3-2 (f), 2-1 (Taça, c), 3-2 (c) — 5/5",
+              "H2H oficial (API, Superliga): 1-4 (09/2026), 3-2 (05/2026), 1-2 (04/2026), 0-0 (03/2026), 1-3 (08/2025) — ambas marcam 4/5",
+              "Baixas (API): Brondby sem Binks e Kohlert; Midtjylland sem Erlic, Gogorza, Martínez, Bakker, Jensen, Junior Brumado e Olafsson — nenhum guarda-redes; as baixas da defesa do Midtjylland jogam a favor",
+              "1xBet 1.43, Marathonbet 1.43, Bet365 1.50"
+            ],
+            "odd_nossa": 1.43,
+            "justo_gravado_em": "2026-11-23T07:24:21.459Z",
+            "odd_justa_ref": 1.509,
+            "prob_justa": 0.6627,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0523,
+            "justo_at": "2026-11-23T04:12:13+00:00",
+            "clv_api": -0.0517,
+            "fecho_idade_min": 106,
+            "odd_fecho_ref": 1.508,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T16:14:13+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0517,
+            "result": "RED",
+            "hit": false,
+            "final_score": "0-2",
+            "note": "Brondby 0-2 FC Midtjylland: falha."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1649567,
+            "match": "Gimnasia L.P. vs Newells Old Boys",
+            "league": "Liga Profesional (Argentina)",
+            "leagueId": 128,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.37,
+            "kickoff": "2026-11-23T20:00:00Z",
+            "score": 65,
+            "tese": "Os últimos cinco jogos oficiais do Gimnasia tiveram todos dois ou mais golos, e o H2H passou de 1.5 em três dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Gimnasia 2-1, 2-1, 2-0, 2-1, 1-1 — mais de 1.5 em 5/5 (o 0-2 anterior foi amigável e ficou de fora); Newell’s 2-2, 1-1, 0-0, 2-1, 0-1 — 3/5",
+              "H2H oficial (API, Liga Profesional): 1-0 (11/2024), 2-2 (07/2023), 2-0 (09/2022), 3-1 (05/2022), 1-0 (10/2021) — mais de 1.5 em 3/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.37, Bet365 1.40, Pinnacle 1.43, Marathonbet 1.35"
+            ],
+            "odd_justa_ref": 1.469,
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-23T07:24:21.461Z",
+            "prob_justa": 0.6806,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0675,
+            "justo_at": "2026-11-23T02:03:13+00:00",
+            "clv_api": -0.0655,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.466,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0655,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "2-2",
+            "note": "Gimnasia L.P. 2-2 Newells Old Boys (90 minutos): acerta."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1593359,
+            "match": "Asteras Tripolis vs Aris Thessalonikis",
+            "league": "Super League 1 (Grécia)",
+            "leagueId": 197,
+            "pick": "Mais de 1.5 golos",
+            "odds": 1.34,
+            "kickoff": "2026-11-23T15:00:00Z",
+            "score": 65,
+            "tese": "Os cinco últimos jogos oficiais do Aris tiveram todos dois ou mais golos e o Asteras passou de 1.5 em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Asteras 1-1 (c), 1-2 (f), 0-2 (Taça, c), 0-0 (c), 1-5 (f) — mais de 1.5 em 4/5; Aris 3-0 (c), 0-3 (f), 1-2 (Taça, f), 3-1 (c), 2-1 (f) — 5/5",
+              "H2H oficial (API, Super League): 1-1 (09/2026), 0-1 (12/2025), 0-0 (11/2025), 4-2 (05/2025), 0-2 (03/2025) — mais de 1.5 em 3/5",
+              "Baixas: API injuries vazia",
+              "1xBet 1.34, Bet365 1.33, Marathonbet 1.34, Pinnacle 1.40"
+            ],
+            "odd_justa_ref": 1.437,
+            "odd_nossa": 1.34,
+            "justo_gravado_em": "2026-11-23T07:24:21.462Z",
+            "prob_justa": 0.696,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:over 1.5",
+            "ev_justo": -0.0674,
+            "justo_at": "2026-11-23T06:00:31+00:00",
+            "clv_api": -0.1043,
+            "fecho_idade_min": 140,
+            "odd_fecho_ref": 1.496,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T12:40:15+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.1043,
+            "result": "RED",
+            "hit": false,
+            "final_score": "0-1",
+            "note": "Asteras Tripolis 0-1 Aris Thessalonikis: falha."
+          }
+        ],
+        "result": "RED",
+        "note": "Perna(s) falhada(s): Brondby vs FC Midtjylland 0-2; Asteras Tripolis vs Aris Thessalonikis 0-1.",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.88,
+        "score": 75,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra desde 10/11, sem stake. As duas pernas são de jogos que não estão em mais nenhum boletim do dia.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1570457,
+            "match": "Levante vs Elche",
+            "league": "La Liga (Espanha)",
+            "leagueId": 140,
+            "pick": "Levante ou empate (dupla hipótese 1X)",
+            "odds": 1.39,
+            "kickoff": "2026-11-23T20:00:00Z",
+            "score": 75,
+            "tese": "Duelo de aflitos: o Levante em casa ganhou sete dos últimos dez da liga e não perdeu em quatro dos últimos cinco com o Elche.",
+            "factors": [
+              "H2H oficial (API): 3-2 Levante (01/2026), 0-2 em Elche (08/2025), 3-1 Levante fora (05/2025), 1-1 (11/2024), 3-2 Levante (03/2024) — Levante sem perder em 4/5",
+              "Forma API, últimos 5 oficiais do Levante: 2-1 (Taça, f), 0-0 (f), 0-2 (c), 1-2 (f), 3-1 (c) — sem perder em 3/5",
+              "SportsGambler: Levante em casa 7V-1E-2D nos últimos 10 da liga; Elche fora 3V-4E-3D; Levante 18.º com 11 pontos, Elche 19.º com 10",
+              "Baixas (duas fontes): Levante sem ninguém de fora na API e no SportsGambler; Elche sem Aguado (API e SportsGambler)",
+              "Marathonbet 1.39, 1xBet 1.40, Bet365 1.36"
+            ],
+            "odd_nossa": 1.39,
+            "justo_gravado_em": "2026-11-23T07:18:47.542Z",
+            "odd_justa_ref": 1.402,
+            "prob_justa": 0.7134,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Home/Draw",
+            "ev_justo": -0.0084,
+            "justo_at": "2026-11-23T03:52:15+00:00",
+            "clv_api": 0.0007,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.389,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0007,
+            "result": "GREEN",
+            "hit": true,
+            "final_score": "1-1",
+            "note": "Levante 1-1 Elche: acerta."
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1557469,
+            "match": "Brentford vs Everton",
+            "league": "Premier League (Inglaterra)",
+            "leagueId": 39,
+            "pick": "Menos de 3.5 golos",
+            "odds": 1.35,
+            "kickoff": "2026-11-23T20:00:00Z",
+            "score": 75,
+            "tese": "O Brentford joga sem o Igor Thiago, castigado, e o Everton passou dos 2.5 em só três dos últimos dez da liga.",
+            "factors": [
+              "H2H oficial (API, Premier League): 2-2, 4-2, 1-1, 0-0, 1-0 — menos de 3.5 em 3/5",
+              "Forma API, últimos 5 oficiais: Brentford 0-2, 2-0, 2-3 (Taça da Liga), 1-1, 1-2 — menos de 3.5 em 4/5; Everton 3-1, 1-0, 3-1 (Taça da Liga), 0-2, 0-2 — 3/5",
+              "SportsGambler, últimos 10 da liga: Everton 2,20 golos por jogo e mais de 2.5 em 3/10; Everton fora 2,30",
+              "Baixas (duas fontes): Igor Thiago castigado (vermelho em Brighton; API e SportsGambler), Collins e Dasilva lesionados (API e SportsGambler); Everton sem baixas no SportsGambler",
+              "Marathonbet 1.35, Bet365 1.40, Pinnacle 1.40, 1xBet 1.38"
+            ],
+            "odd_nossa": 1.35,
+            "justo_gravado_em": "2026-11-23T07:18:47.544Z",
+            "odd_justa_ref": 1.433,
+            "prob_justa": 0.6977,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:under 3.5",
+            "ev_justo": -0.0581,
+            "justo_at": "2026-11-23T04:20:18+00:00",
+            "clv_api": -0.0412,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.408,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-23T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0412,
+            "result": "RED",
+            "hit": false,
+            "final_score": "4-0",
+            "note": "Brentford 4-0 Everton: falha."
+          }
+        ],
+        "result": "RED",
+        "note": "Perna(s) falhada(s): Brentford vs Everton 4-0.",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna 1.40–1.60 na Bet365 ou na Marathonbet chegou a 75 com investigação completa. O ambas marcam do Monza-Fiorentina (Bet365 1.53) tinha números, mas a dúvida do Kean só tem uma fonte; o menos de 3.5 do Brentford-Everton (Bet365 1.40) ficou em 72; o Levante ou empate paga 1.36 na Bet365 e 1.39 na Marathonbet, abaixo da banda."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1612279,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4 cantos na 2ª parte (3 vias: 5 ou mais; com 4 exatos perde)",
+        "match": "El Gouna FC vs Zamalek SC",
+        "league": "Premier League (Egipto)",
+        "elapsed": 45,
+        "score": "0-2",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.833,
+        "oddMinima": 1.7,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            6
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Já houve 7 cantos na 1ª parte (6 do Zamalek, 1 do El Gouna), e o El Gouna, a perder 0-2 em casa, vai ter de ir para a frente. Em jogos com 2 golos de diferença e 7 ou mais cantos ao intervalo, saíram 5 ou mais cantos na 2ª parte em quase 6 de cada 10.",
+        "confianca": 57,
+        "probImplicita": 0.546,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T15:46:26+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Total Corners (3way) (2nd Half)",
+              "linha": "4",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "3rd Goal in Interval",
+              "linha": "70",
+              "lado": "yes",
+              "odd": 1.833
+            },
+            {
+              "mercado": "3rd Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 1.833
+            }
+          ]
+        },
+        "sentAt": 1795448900972,
+        "probModeloA": 0.6113,
+        "pushA": 0.157,
+        "valorA": 0.2776,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5831,
+        "golos2pB": 1.2763,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0.4165,
+        "return": 0.9165,
+        "resolvedAt": 1795454121132
+      },
+      {
+        "fixtureId": 1593359,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 0.5 golos no jogo",
+        "match": "Asteras Tripolis vs Aris Thessalonikis",
+        "league": "Super League 1 (Grécia)",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.533,
+        "oddMinima": 1.4,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            0
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "boletim",
+        "justificacao": "Está 0-0, mas o Asteras rematou 6 vezes contra 1 e já obrigou o guarda-redes a defender. Na Grécia, com um intervalo assim, houve golo na 2ª parte em 8 de cada 10 jogos, e a 1.53 basta um.",
+        "confianca": 72,
+        "probImplicita": 0.652,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T15:48:38+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Home Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "no",
+              "odd": 1.533
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "0.5",
+              "lado": "over",
+              "odd": 1.533
+            },
+            {
+              "mercado": "How many goals will Home Team score?",
+              "linha": "-",
+              "lado": "no goal",
+              "odd": 1.533
+            }
+          ]
+        },
+        "sentAt": 1795449072137,
+        "probModeloA": 0.7174,
+        "pushA": 0,
+        "valorA": 0.0998,
+        "aprovaA": true,
+        "probModeloB": 0.6915,
+        "pushB": 0,
+        "valorB": 0.06,
+        "aprovaB": true,
+        "golos2pA": 1.2637,
+        "golos2pB": 1.1759,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795454121132,
+        "pnlSombra": 0.26649999999999996
+      },
+      {
+        "fixtureId": 1629977,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 6.5 cantos no jogo (cantos asiáticos)",
+        "match": "Al Shamal vs Al-Ahli Jeddah",
+        "league": "AFC Champions League Elite",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.975,
+        "oddMinima": 1.8,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            0
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Houve 2 cantos na 1ª parte, por isso são precisos 5 na 2ª. O Al Shamal está a perder em casa e vai ter de carregar. Em jogos parecidos, com um golo de diferença e poucos cantos ao intervalo, saíram 5 ou mais em 56% das vezes, e 1.97 paga mais do que isso vale.",
+        "confianca": 56,
+        "probImplicita": 0.506,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T16:50:57+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "6.5",
+              "lado": "over",
+              "odd": 1.975
+            }
+          ]
+        },
+        "sentAt": 1795452783553,
+        "probModeloA": 0.5812,
+        "pushA": 0,
+        "valorA": 0.1478,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5793,
+        "golos2pB": 1.7849,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": 0.4803,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 3,
+        "finalAway": 2,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795457792927
+      },
+      {
+        "fixtureId": 1549059,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos na 2ª parte",
+        "match": "Brondby vs FC Midtjylland",
+        "league": "Superliga (Dinamarca)",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.7,
+        "oddMinima": 1.7,
+        "precoAoVivo": false,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            0
+          ],
+          "amarelos": [
+            1,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "boletim",
+        "justificacao": "O Brondby perde em casa e já ganhou 5 cantos contra 0. Vai ter de carregar a 2ª parte inteira, por isso os cantos vão continuar a aparecer.",
+        "confianca": 60,
+        "probImplicita": 0.588,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795459872274,
+        "probModeloA": 0.5754,
+        "pushA": 0,
+        "valorA": -0.0218,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5299,
+        "golos2pB": 1.822,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 2,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795464983701
+      },
+      {
+        "fixtureId": 1553233,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 3.5 golos no jogo",
+        "match": "Wieczysta Kraków vs Motor Lublin",
+        "league": "Ekstraklasa (Polónia)",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.95,
+        "oddMinima": 1.95,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "Está 1-1, mas foram 25 remates e 8 à baliza, e os dois guarda-redes já fizeram 6 defesas. Neste ritmo, mais dois golos na 2ª parte não é pedir muito.",
+        "confianca": 52,
+        "probImplicita": 0.513,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795459873981,
+        "probModeloA": 0.5378,
+        "pushA": 0,
+        "valorA": 0.0488,
+        "aprovaA": true,
+        "probModeloB": 0.5514,
+        "pushB": 0,
+        "valorB": 0.0752,
+        "aprovaB": true,
+        "golos2pA": 1.8023,
+        "golos2pB": 1.8483,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795464983701,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1570029,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Almería marca na 2ª parte",
+        "match": "AD Ceuta FC vs Almeria",
+        "league": "Segunda División (Espanha)",
+        "elapsed": 45,
+        "score": "2-2",
+        "homeGoalsAtAlert": 2,
+        "awayGoalsAtAlert": 2,
+        "odds": 1.5,
+        "oddMinima": 1.45,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            2
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Almería teve 66% da bola e 2.28 de xG só na 1ª parte, e o Ceuta ainda não ficou sem sofrer em casa. Com 2-2 o favorito vai carregar na 2ª parte para ganhar.",
+        "confianca": 69,
+        "probImplicita": 0.667,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T20:23:42+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "5th Goal in Interval",
+              "linha": "60",
+              "lado": "no",
+              "odd": 1.5
+            },
+            {
+              "mercado": "Away Team Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 1.5
+            },
+            {
+              "mercado": "Asian Handicap",
+              "linha": "-0",
+              "lado": "away",
+              "odd": 1.5
+            },
+            {
+              "mercado": "Away 3rd Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 1.5
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "3 or more",
+              "odd": 1.5
+            },
+            {
+              "mercado": "Home 3rd Goal in Interval",
+              "linha": "80",
+              "lado": "no",
+              "odd": 1.5
+            }
+          ]
+        },
+        "sentAt": 1795465518338,
+        "probModeloA": 0.6204,
+        "pushA": 0,
+        "valorA": -0.0693,
+        "aprovaA": false,
+        "probModeloB": 0.603,
+        "pushB": 0,
+        "valorB": -0.0955,
+        "aprovaB": false,
+        "golos2pA": 1.7388,
+        "golos2pB": 1.5185,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 3,
+        "pnl": 0.25,
+        "return": 0.75,
+        "resolvedAt": 1795470385591
+      },
+      {
+        "fixtureId": 1552536,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Nantes vence o jogo",
+        "match": "Nantes vs Grenoble",
+        "league": "Ligue 2 (França)",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.8,
+        "oddMinima": 1.75,
+        "precoAoVivo": true,
+        "tipo": "resultado",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            1
+          ],
+          "amarelos": [
+            0,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "O Nantes, que era favorito antes do jogo, mandou na 1ª parte com 7 remates à baliza contra nenhum e 1.4 de xG contra 0.17. O guarda-redes do Grenoble já fez 6 defesas e o golo do Nantes está para chegar.",
+        "confianca": 58,
+        "probImplicita": 0.556,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T20:31:51+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Fulltime Result",
+              "linha": "-",
+              "lado": "home",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.8
+            }
+          ]
+        },
+        "sentAt": 1795466052643,
+        "probModeloA": 0.5001,
+        "pushA": 0,
+        "valorA": -0.0998,
+        "aprovaA": false,
+        "probModeloB": 0.5181,
+        "pushB": 0,
+        "valorB": -0.0675,
+        "aprovaB": false,
+        "golos2pA": 1.7415,
+        "golos2pB": 1.4126,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "mediana 9 casas",
+          "totais": "mediana 7 casas"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0.4,
+        "return": 0.9,
+        "resolvedAt": 1795470385591
+      },
+      {
+        "fixtureId": 1570457,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8.5 cantos no jogo",
+        "match": "Levante vs Elche",
+        "league": "La Liga",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.615,
+        "oddMinima": 1.55,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            4,
+            0
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Levante está em casa, tem 4 cantos contra 0 e fez 9 remates contra 1. O Elche quase não sai lá de trás. Faltam 5 cantos na 2ª parte, e na La Liga, com 0-0 e 4 a 6 cantos ao intervalo, isso aconteceu em 68% dos jogos.",
+        "confianca": 64,
+        "probImplicita": 0.619,
+        "oddAoVivoMercado": {
+          "at": "2026-11-23T20:47:57+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "8",
+              "lado": "over",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "10",
+              "lado": "under",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "8.5",
+              "lado": "over",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Race to the 7th corner?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 1.615
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "no goal",
+              "odd": 1.615
+            },
+            {
+              "mercado": "Away Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "no",
+              "odd": 1.615
+            }
+          ]
+        },
+        "sentAt": 1795467001699,
+        "probModeloA": 0.5719,
+        "pushA": 0,
+        "valorA": -0.0764,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4397,
+        "golos2pB": 1.5644,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795471242179
+      },
+      {
+        "fixtureId": 1548566,
+        "jogo": "NK Slaven Belupo vs NK Osijek",
+        "liga": "HNL",
+        "pais": "Croatia",
+        "ko": "2026-11-23T17:00:00+00:00",
+        "casa": "NK Slaven Belupo",
+        "visitante": "NK Osijek",
+        "pVisitanteMarca": 0.8945,
+        "pCasaMarca": 0.8045,
+        "pRegra": 0.7197,
+        "lambdaFora": 2.2495,
+        "lambdaCasa": 1.6324,
+        "foraMarcou": 4,
+        "foraJogos": 6,
+        "casaSofreu": 5,
+        "casaJogos": 6,
+        "taxaLiga": {
+          "casa": 1.653,
+          "fora": 1.296,
+          "n": 68
+        },
+        "odd1xbet": 1.46,
+        "pJustaFormula": 0.6252,
+        "pConsenso": 0.625,
+        "nCasas": 6,
+        "evFormula": -0.0872,
+        "evConsenso": -0.0875,
+        "oddJusta": 1.6,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.65,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-23T04:11:16+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Osijek; as pesquisas só devolveram jogos de 2025.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1570457,
+          "jogo": "Levante vs Elche",
+          "ko": "2026-11-23T20:00:00+00:00",
+          "pVisitanteMarca": 0.8842,
+          "pCasaMarca": 0.7809
+        },
+        "porque": "regra do dono: NK Osijek marca fora 89%, NK Slaven Belupo marca em casa 80%; sem valor (EV -8.7% na fórmula, -8.8% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "NK Slaven Belupo vs NK Osijek",
+        "league": "HNL",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.46,
+        "frase": "O NK Osijek marcou em 4 dos últimos 6 jogos fora, e o NK Slaven Belupo sofreu em 5 dos últimos 6 em casa.",
+        "sentAt": 1795418505234,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — NK Slaven Belupo vs NK Osijek</b> (17:00)\n\n📊 NK Osijek marca fora 89% · NK Slaven Belupo marca em casa 80%\n💰 1xBet <b>@1.46</b> · justo @1.60 · sem valor hoje (stake 0)\n\nO NK Osijek marcou em 4 dos últimos 6 jogos fora, e o NK Slaven Belupo sofreu em 5 dos últimos 6 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-23T15:34:40.123Z",
+        "oddPertoDoJogo": 1.5,
+        "evPertoDoJogo": {
+          "formula": -0.0921,
+          "consenso": -0.087
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei notícia de hoje ou de ontem à noite sobre baixas importantes no ataque do Osijek. Os resultados da pesquisa são todos de 2025 ou anteriores, e o onze não está publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795478084125,
+        "pnlSombra": -0.5,
+        "odd_fecho_ref": 1.59,
+        "prob_fecho": 0.629,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-23T16:13:14+00:00",
+        "fecho_idade_min": 47,
+        "clv": -0.0817,
+        "prob_fecho_formula": 0.6055,
+        "clv_formula": -0.116
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "green": 3,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "stake_total": 3,
+      "stake_mensuravel": 3,
+      "return_mensuravel": 2.5665,
+      "pnl_mensuravel": -0.4335,
+      "roi_pct_mensuravel": -14.45,
+      "odds_registadas": 6,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 6,
+          "green": 3,
+          "red": 3,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    },
+    "shadow_summary": {
+      "total": 3,
+      "green": 1,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 33.33,
+      "stake_nocional": 1.5,
+      "return_nocional": 0.77,
+      "pnl_nocional": -0.73,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    }
+  },
+  "balance": 38.25,
+  "notes": "Segunda-feira sem tips simples, só os dois curtos, e os dois falharam: o primeiro caiu no ambas marcam do Brondby (0-2 com o Midtjylland) e no Asteras-Aris (0-1), o segundo no ambas marcam do Monza-Fiorentina (3-0). -1 stake. Alertas apostados do intervalo: 3 verdes e 3 vermelhos, -0.43 stakes. Em sombra: Almeria vence verde (3-2 em Ceuta), curto-vence e corvo vermelhos, a 🟢🟢 (sem valor) vermelha. Internacional-Vitória ainda decorria à hora do fecho (1-3 aos 61 minutos): tip em sombra PENDING, fica para o varrimento. Dia -1.43 stakes, banca 38.25 stakes."
+}

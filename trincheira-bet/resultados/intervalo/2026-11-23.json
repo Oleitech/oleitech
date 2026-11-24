@@ -262,6 +262,443 @@
       "pnl": -0.5,
       "return": 0,
       "resolvedAt": 1795457792927
+    },
+    {
+      "fixtureId": 1549059,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4.5 cantos na 2ª parte",
+      "match": "Brondby vs FC Midtjylland",
+      "league": "Superliga (Dinamarca)",
+      "elapsed": 45,
+      "score": "0-1",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.7,
+      "oddMinima": 1.7,
+      "precoAoVivo": false,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          0
+        ],
+        "amarelos": [
+          1,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "boletim",
+      "justificacao": "O Brondby perde em casa e já ganhou 5 cantos contra 0. Vai ter de carregar a 2ª parte inteira, por isso os cantos vão continuar a aparecer.",
+      "confianca": 60,
+      "probImplicita": 0.588,
+      "oddAoVivoMercado": null,
+      "sentAt": 1795459872274,
+      "probModeloA": 0.5754,
+      "pushA": 0,
+      "valorA": -0.0218,
+      "aprovaA": false,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.5299,
+      "golos2pB": 1.822,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 2,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795464983701
+    },
+    {
+      "fixtureId": 1553233,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3.5 golos no jogo",
+      "match": "Wieczysta Kraków vs Motor Lublin",
+      "league": "Ekstraklasa (Polónia)",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.95,
+      "oddMinima": 1.95,
+      "precoAoVivo": false,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          2
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "shortlist",
+      "justificacao": "Está 1-1, mas foram 25 remates e 8 à baliza, e os dois guarda-redes já fizeram 6 defesas. Neste ritmo, mais dois golos na 2ª parte não é pedir muito.",
+      "confianca": 52,
+      "probImplicita": 0.513,
+      "oddAoVivoMercado": null,
+      "sentAt": 1795459873981,
+      "probModeloA": 0.5378,
+      "pushA": 0,
+      "valorA": 0.0488,
+      "aprovaA": true,
+      "probModeloB": 0.5514,
+      "pushB": 0,
+      "valorB": 0.0752,
+      "aprovaB": true,
+      "golos2pA": 1.8023,
+      "golos2pB": 1.8483,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795464983701,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1570029,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Almería marca na 2ª parte",
+      "match": "AD Ceuta FC vs Almeria",
+      "league": "Segunda División (Espanha)",
+      "elapsed": 45,
+      "score": "2-2",
+      "homeGoalsAtAlert": 2,
+      "awayGoalsAtAlert": 2,
+      "odds": 1.5,
+      "oddMinima": 1.45,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          2
+        ],
+        "amarelos": [
+          1,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Almería teve 66% da bola e 2.28 de xG só na 1ª parte, e o Ceuta ainda não ficou sem sofrer em casa. Com 2-2 o favorito vai carregar na 2ª parte para ganhar.",
+      "confianca": 69,
+      "probImplicita": 0.667,
+      "oddAoVivoMercado": {
+        "at": "2026-11-23T20:23:42+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "5th Goal in Interval",
+            "linha": "60",
+            "lado": "no",
+            "odd": 1.5
+          },
+          {
+            "mercado": "Away Team Goals",
+            "linha": "2.5",
+            "lado": "over",
+            "odd": 1.5
+          },
+          {
+            "mercado": "Asian Handicap",
+            "linha": "-0",
+            "lado": "away",
+            "odd": 1.5
+          },
+          {
+            "mercado": "Away 3rd Goal in Interval",
+            "linha": "70",
+            "lado": "no",
+            "odd": 1.5
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "3 or more",
+            "odd": 1.5
+          },
+          {
+            "mercado": "Home 3rd Goal in Interval",
+            "linha": "80",
+            "lado": "no",
+            "odd": 1.5
+          }
+        ]
+      },
+      "sentAt": 1795465518338,
+      "probModeloA": 0.6204,
+      "pushA": 0,
+      "valorA": -0.0693,
+      "aprovaA": false,
+      "probModeloB": 0.603,
+      "pushB": 0,
+      "valorB": -0.0955,
+      "aprovaB": false,
+      "golos2pA": 1.7388,
+      "golos2pB": 1.5185,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": true
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 3,
+      "pnl": 0.25,
+      "return": 0.75,
+      "resolvedAt": 1795470385591
+    },
+    {
+      "fixtureId": 1552536,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Nantes vence o jogo",
+      "match": "Nantes vs Grenoble",
+      "league": "Ligue 2 (França)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.8,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "resultado",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          1
+        ],
+        "amarelos": [
+          0,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "O Nantes, que era favorito antes do jogo, mandou na 1ª parte com 7 remates à baliza contra nenhum e 1.4 de xG contra 0.17. O guarda-redes do Grenoble já fez 6 defesas e o golo do Nantes está para chegar.",
+      "confianca": 58,
+      "probImplicita": 0.556,
+      "oddAoVivoMercado": {
+        "at": "2026-11-23T20:31:51+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Fulltime Result",
+            "linha": "-",
+            "lado": "home",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.8
+          }
+        ]
+      },
+      "sentAt": 1795466052643,
+      "probModeloA": 0.5001,
+      "pushA": 0,
+      "valorA": -0.0998,
+      "aprovaA": false,
+      "probModeloB": 0.5181,
+      "pushB": 0,
+      "valorB": -0.0675,
+      "aprovaB": false,
+      "golos2pA": 1.7415,
+      "golos2pB": 1.4126,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "mediana 9 casas",
+        "totais": "mediana 7 casas"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0.4,
+      "return": 0.9,
+      "resolvedAt": 1795470385591
+    },
+    {
+      "fixtureId": 1570457,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 8.5 cantos no jogo",
+      "match": "Levante vs Elche",
+      "league": "La Liga",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.615,
+      "oddMinima": 1.55,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          4,
+          0
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "O Levante está em casa, tem 4 cantos contra 0 e fez 9 remates contra 1. O Elche quase não sai lá de trás. Faltam 5 cantos na 2ª parte, e na La Liga, com 0-0 e 4 a 6 cantos ao intervalo, isso aconteceu em 68% dos jogos.",
+      "confianca": 64,
+      "probImplicita": 0.619,
+      "oddAoVivoMercado": {
+        "at": "2026-11-23T20:47:57+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "8",
+            "lado": "over",
+            "odd": 1.615
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "10",
+            "lado": "under",
+            "odd": 1.615
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "8.5",
+            "lado": "over",
+            "odd": 1.615
+          },
+          {
+            "mercado": "Race to the 7th corner?",
+            "linha": "-",
+            "lado": "1",
+            "odd": 1.615
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "no goal",
+            "odd": 1.615
+          },
+          {
+            "mercado": "Away Team Score a Goal (2nd Half)",
+            "linha": "-",
+            "lado": "no",
+            "odd": 1.615
+          }
+        ]
+      },
+      "sentAt": 1795467001699,
+      "probModeloA": 0.5719,
+      "pushA": 0,
+      "valorA": -0.0764,
+      "aprovaA": false,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4397,
+      "golos2pB": 1.5644,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": true
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795471242179
     }
   ]
 }

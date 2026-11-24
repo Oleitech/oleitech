@@ -61,12 +61,18 @@
       "justo_at": "2026-11-20T06:00:35+00:00",
       "clv_api": -0.0205,
       "fecho_idade_min": 120,
-      "odd_fecho_ref": 1.511,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 1.604,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-20T18:00:21+00:00",
       "fecho_aproximado": false,
-      "clv": -0.0205
+      "clv": -0.0775,
+      "odd_fecho_api": 1.511,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0775,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "E2: Barnsley - Sheffield Weds",
+      "fecho_real_em": "2026-11-23T23:55:40.360Z"
     }
   ],
   "sombra": [],
@@ -339,7 +345,17 @@
           "odd_nossa": 1.31,
           "justo_gravado_em": "2026-11-20T07:18:15.118Z",
           "justo_motivo": "nenhuma casa com o mercado completo",
-          "fecho_motivo": "nenhuma casa com o mercado completo"
+          "fecho_motivo": "nenhuma casa com o mercado completo",
+          "clv_api": null,
+          "odd_fecho_ref": 1.401,
+          "fonte_fecho": "football-data BFEC Poisson",
+          "fecho_fonte": "football-data",
+          "fecho_aproximado": false,
+          "clv_fecho_real": -0.0648,
+          "clv": -0.0648,
+          "fecho_real_col": "BFEC Poisson",
+          "fecho_real_jogo": "D1: Bayern Munich - FC Koln",
+          "fecho_real_em": "2026-11-23T23:55:40.368Z"
         },
         {
           "sport": "football",

@@ -58,12 +58,18 @@
       "justo_at": "2026-11-22T04:40:25+00:00",
       "clv_api": 0.0224,
       "fecho_idade_min": 105,
-      "odd_fecho_ref": 1.565,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 1.614,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-22T18:00:11+00:00",
       "fecho_aproximado": false,
-      "clv": 0.0224
+      "clv": -0.0087,
+      "odd_fecho_api": 1.565,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0087,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "I1: Atalanta - Inter",
+      "fecho_real_em": "2026-11-23T23:55:40.398Z"
     }
   ],
   "sombra": [
@@ -124,12 +130,18 @@
       "justo_at": "2026-11-22T06:01:03+00:00",
       "clv_api": -0.0128,
       "fecho_idade_min": 59,
-      "odd_fecho_ref": 1.641,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 1.722,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-22T12:00:50+00:00",
       "fecho_aproximado": false,
-      "clv": -0.0128
+      "clv": -0.059,
+      "odd_fecho_api": 1.641,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.059,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "SP2: Cordoba - Oviedo",
+      "fecho_real_em": "2026-11-23T23:55:40.400Z"
     }
   ],
   "accumulators": [
@@ -169,12 +181,18 @@
           "justo_at": "2026-11-22T06:01:05+00:00",
           "clv_api": 0.0232,
           "fecho_idade_min": 130,
-          "odd_fecho_ref": 1.378,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.354,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-22T12:50:19+00:00",
           "fecho_aproximado": false,
-          "clv": 0.0232
+          "clv": 0.0413,
+          "odd_fecho_api": 1.378,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": 0.0413,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Kortrijk - St. Gilloise",
+          "fecho_real_em": "2026-11-23T23:55:40.402Z"
         },
         {
           "sport": "football",
@@ -239,12 +257,18 @@
           "justo_at": "2026-11-22T06:01:04+00:00",
           "clv_api": -0.0165,
           "fecho_idade_min": 28,
-          "odd_fecho_ref": 1.393,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.376,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-22T17:02:13+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0165
+          "clv": -0.0043,
+          "odd_fecho_api": 1.393,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": -0.0043,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "G1: PAOK - Kifisia",
+          "fecho_real_em": "2026-11-23T23:55:40.407Z"
         }
       ]
     },
@@ -286,12 +310,18 @@
           "justo_at": "2026-11-22T06:01:05+00:00",
           "clv_api": 0.0232,
           "fecho_idade_min": 130,
-          "odd_fecho_ref": 1.378,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.354,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-22T12:50:19+00:00",
           "fecho_aproximado": false,
-          "clv": 0.0232
+          "clv": 0.0413,
+          "odd_fecho_api": 1.378,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": 0.0413,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "B1: Kortrijk - St. Gilloise",
+          "fecho_real_em": "2026-11-23T23:55:40.409Z"
         },
         {
           "sport": "football",
@@ -356,12 +386,18 @@
           "justo_at": "2026-11-22T06:01:04+00:00",
           "clv_api": -0.0165,
           "fecho_idade_min": 28,
-          "odd_fecho_ref": 1.393,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.376,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-22T17:02:13+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0165
+          "clv": -0.0043,
+          "odd_fecho_api": 1.393,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": -0.0043,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "G1: PAOK - Kifisia",
+          "fecho_real_em": "2026-11-23T23:55:40.411Z"
         }
       ]
     }

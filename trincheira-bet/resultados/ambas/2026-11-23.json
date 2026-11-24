@@ -82,7 +82,23 @@
         "link": null,
         "onze_publicado": false,
         "pesquisas": 2
-      }
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795478084125,
+      "pnlSombra": -0.5,
+      "odd_fecho_ref": 1.59,
+      "prob_fecho": 0.629,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-23T16:13:14+00:00",
+      "fecho_idade_min": 47,
+      "clv": -0.0817,
+      "prob_fecho_formula": 0.6055,
+      "clv_formula": -0.116
     }
   ],
   "escolhidaEm": "2026-11-23T07:21:16.417Z",
@@ -299,7 +315,23 @@
     "oddsUpdate": "2026-11-23T06:00:31+00:00",
     "mercado": "ambas sim",
     "odds": 1.94,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 3,
+    "finalAway": 1,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795478084896,
+    "pnlSombra": 0.47,
+    "odd_fecho_ref": 2.124,
+    "prob_fecho": 0.4707,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-23T16:04:15+00:00",
+    "fecho_idade_min": 116,
+    "clv": -0.0868,
+    "prob_fecho_formula": 0.5025,
+    "clv_formula": -0.0251
   },
   "candidatasLive": [
     {
