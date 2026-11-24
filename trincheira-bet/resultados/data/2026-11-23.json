@@ -350,13 +350,13 @@
         "fecho_at": "2026-11-23T20:02:14+00:00",
         "fecho_aproximado": false,
         "clv": 0.0006,
-        "result": "PENDING",
-        "hit": null,
-        "final_score": "1-3",
-        "note": "Jogo ainda a decorrer (Internacional 1-3); fica PENDING.",
+        "result": "RED",
+        "hit": false,
+        "final_score": "2-5",
+        "note": "Internacional 2-5 Vitória: falha (sombra).",
         "return": 0,
         "pnl": 0,
-        "pnl_se_apostado": 0
+        "pnl_se_apostado": -1
       },
       {
         "market": "favorites",
@@ -435,9 +435,9 @@
     "sombra_summary": {
       "total": 2,
       "green": 1,
-      "red": 0,
-      "pending": 1,
-      "pnl_se_apostadas": 0.95,
+      "red": 1,
+      "pending": 0,
+      "pnl_se_apostadas": -0.05,
       "curto_vence": {
         "total": 1,
         "green": 0,
@@ -1576,5 +1576,5 @@
     }
   },
   "balance": 38.25,
-  "notes": "Segunda-feira sem tips simples, só os dois curtos, e os dois falharam: o primeiro caiu no ambas marcam do Brondby (0-2 com o Midtjylland) e no Asteras-Aris (0-1), o segundo no ambas marcam do Monza-Fiorentina (3-0). -1 stake. Alertas apostados do intervalo: 3 verdes e 3 vermelhos, -0.43 stakes. Em sombra: Almeria vence verde (3-2 em Ceuta), curto-vence e corvo vermelhos, a 🟢🟢 (sem valor) vermelha. Internacional-Vitória ainda decorria à hora do fecho (1-3 aos 61 minutos): tip em sombra PENDING, fica para o varrimento. Dia -1.43 stakes, banca 38.25 stakes."
+  "notes": "Segunda-feira sem tips simples, só os dois curtos, e os dois falharam: o primeiro caiu no ambas marcam do Brondby (0-2 com o Midtjylland) e no Asteras-Aris (0-1), o segundo no ambas marcam do Monza-Fiorentina (3-0). -1 stake. Alertas apostados do intervalo: 3 verdes e 3 vermelhos, -0.43 stakes. Em sombra: Almeria vence verde (3-2 em Ceuta), curto-vence e corvo vermelhos, a 🟢🟢 (sem valor) vermelha. Internacional vence, em sombra, vermelho: o Vitória ganhou 5-2. Dia -1.43 stakes, banca 38.25 stakes."
 }

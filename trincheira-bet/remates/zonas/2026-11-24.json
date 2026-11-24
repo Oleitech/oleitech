@@ -1,0 +1,18 @@
+{
+  "gerado": "2026-11-24T07:02:18.971Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1492472,
+      "data": "2026-11-24T21:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Chapecoense-sc - Palmeiras",
+      "jogos_tabela": 36,
+      "amostra_fraca": false,
+      "atq": 0.068,
+      "def": -0.191,
+      "zona": null
+    }
+  ]
+}

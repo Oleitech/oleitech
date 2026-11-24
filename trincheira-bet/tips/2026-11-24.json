@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:14:51.185Z",
+  "units": "stakes",
+  "notes": "Primeira noite da semana europeia, com nove jogos da Champions, oito do Championship e o Rangers-Aberdeen. Os preços dos jogos grandes estão certinhos e muitos favoritos chegam com baixas a sério: o Arsenal sem Saka e Zubimendi, o Galatasaray sem Osimhen e Leão, o Napoli com meia equipa no estaleiro. Não se força boletim.\n\nSai uma tip só, e é ela a mais arriscada do dia: o Como a ganhar por dois ou mais ao AEK. O Como leva 19 golos em quatro jogos da Champions e o AEK perdeu as três últimas, mas o Kean continua fora e um 1-0 ou um 2-1 matam a aposta. Vai a meia stake porque faltou parte da estatística com a amostra bem declarada.\n\nO curto é de três vitórias: o Leipzig com o Lens, que não ganha há quatro, e o Middlesbrough e o Wolves no Championship, a 2.60 na 1xBet. Meia stake.\n\nAs múltiplas da semana europeia não saem. Só o Leipzig e o Inter aguentaram a pesquisa: os jogos de quinta ainda não têm baixas publicadas e o Liverpool, o Bayern e o Arsenal chegam com titulares de fora. Com duas pernas não há bilhete.\n\nExposição do dia: uma stake, meia na tip e meia no curto.",
+  "tips": [
+    {
+      "market": "favorites",
+      "marketLabel": "Handicap asiático",
+      "pick": "Como ganha por dois ou mais golos (handicap -1.5)",
+      "fixtureId": 1635649,
+      "home": {
+        "name": "Como",
+        "logo": "https://media.api-sports.io/football/teams/895.png"
+      },
+      "away": {
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png"
+      },
+      "match": "Como vs AEK Athens FC",
+      "league": "Liga dos Campeões, 5.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-11-24T20:00:00Z",
+      "odds": 1.75,
+      "bookmaker": "1xBet",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "tese": "O Como chega com 19 golos marcados em quatro jogos da Champions, 9-1 em Lens incluído, e em casa quase não sofre. O AEK perdeu os três últimos na prova, levou cinco em Manchester e sofre mais de dois golos por jogo fora. A tese é uma vitória folgada, não só uma vitória: o Como ganhou por dois ou mais em seis dos últimos oito oficiais e o AEK perdeu por dois ou mais em três das quatro últimas saídas. O Kean continua fora e o AEK pode rodar depois de jogar no sábado. A 1xBet paga 1.75 quando a Pinnacle está em 1.66.",
+      "factors": [
+        "Forma API, últimos 8 oficiais do Como: 2-0 Cagliari (c), 0-2 Inter (f), 9-1 Lens (Champions, f), 1-0 Venezia (c), 3-1 Torino (f), 2-0 Sassuolo (c), 4-1 Man United (Champions, c), 3-1 Fiorentina (f) — vitória por 2+ em 6/8; em casa 3/4",
+        "Forma API, AEK fora (oficiais): 1-0 Kalamata (V), 0-2 Panathinaikos, 1-3 PAOK (Taça), 1-5 Man City (Champions) — derrota por 2+ em 3 das 4 saídas completas",
+        "Classificação da Champions (footballpredictions.com e Squawka, via pesquisa): Como 4.º com 9 pontos e +13 (19-6); AEK com 3 pontos e três derrotas seguidas (5-1 City, 3-1 Shakhtar, 2-3 Real Madrid)",
+        "footballpredictions.com, jogos recentes em casa/fora sem amostra declarada: Como 80% de vitórias e 0,20 sofridos em casa; AEK 2,33 sofridos fora — só contexto, sem proveniência completa (daí o partial)",
+        "Baixas: Kean fora (canela, cerca de cinco semanas) em duas fontes — Football Italia via Livescore (conferência antes do Venezia) e footballpredictions.com; Addai, Diao e J. Rodríguez só no footballpredictions.com (não confirmadas); a API não lista baixas neste jogo; Koita (AEK) castigado só no footballpredictions.com",
+        "H2H: primeiro encontro oficial (API sem jogos entre os dois)",
+        "Terceiros: footballpredictions.com 3-0 Como; Squawka 86% Como; nenhum contra",
+        "Preço do handicap -1.5 do Como: 1xBet 1.75, Pinnacle 1.66 (contra 2.29; justo sem margem perto de 1.72), Bet365 1.65, Marathonbet 1.70, Betano 1.67",
+        "Stake: score 76 dava uma stake; o context partial desce para meia"
+      ],
+      "sources": [
+        "API-Football — /fixtures (last 8 das duas equipas), /fixtures/headtohead 895-575, /injuries?fixture=1635649 (vazio), /predictions, /odds?fixture=1635649 (10 casas)",
+        "footballpredictions.com — como-vs-aek-athens-prediction-24-11-2026 (baixas, previsão 3-0, registo casa/fora)",
+        "Livescore / Football Italia — fabregas-venezia-will-be-difficult-for-como-kean-injury-happened-with-italy (Kean fora cinco semanas)",
+        "Squawka (via pesquisa) — Como 86% e classificação",
+        "SportsGambler — a página do jogo redirecciona para a listagem (não abriu)",
+        "Ausências: Kean em duas fontes concordantes (Football Italia + footballpredictions.com); as restantes sem segunda fonte, registadas como não confirmadas"
+      ],
+      "odd_nossa": 1.75,
+      "justo_gravado_em": "2026-11-24T07:14:54.678Z",
+      "justo_motivo": "pick não reconhecida"
+    }
+  ],
+  "sombra": [
+    {
+      "market": "btts",
+      "marketLabel": "Ambas marcam",
+      "pick": "Ambas marcam: Sim",
+      "fixtureId": 1635692,
+      "home": {
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png"
+      },
+      "away": {
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "match": "Manchester City vs Napoli",
+      "league": "Liga dos Campeões, 5.ª jornada",
+      "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+      "kickoff": "2026-11-24T20:00:00Z",
+      "odds": 1.63,
+      "bookmaker": "1xBet",
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "stake_proposta": 0.5,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 70, abaixo do piso de 75: o City sofreu nos oito últimos oficiais, mas o Napoli vem sem Neres e com a defesa de baixa, fora marcou em 5 dos últimos 10 e a antevisão do SportsGambler vai no City a ganhar por dois com ambas marcam Não.",
+      "tese": "O City sofreu golo nos últimos oito jogos oficiais e o Napoli tem McTominay, De Bruyne e Hojlund para lá chegar. Fica em sombra porque o Napoli joga sem meia equipa e o cenário mais provável é um City folgado.",
+      "factors": [
+        "Forma API, últimos 8 oficiais do City: sofreu em 8/8 (1-1, 1-3, 3-2, 0-1, 2-2, 1-2, 5-1, 3-2)",
+        "SportsGambler, últimos 10 (liga + Champions): City ambas marcam 8/10, em casa 7/10; Napoli fora 5/10",
+        "Baixas (API e SportsGambler): Napoli sem Lobotka, Di Lorenzo, Buongiorno, Meret, Neres, Badiashile, Alisson Santos, Vergara e Marin (castigado); City sem Semenyo",
+        "H2H oficial (API): 2-0, 4-2, 2-1, 2-1, 1-1 — ambas marcam 3/5",
+        "Preço: 1xBet 1.63, Bet365 1.62, Marathonbet 1.63"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /headtohead, /injuries?fixture=1635692, /odds",
+        "SportsGambler — manchester-city-vs-napoli-prediction-lineups-odds-2026-11-24"
+      ],
+      "odd_nossa": 1.63,
+      "justo_gravado_em": "2026-11-24T07:14:54.680Z",
+      "odd_justa_ref": 1.706,
+      "prob_justa": 0.5863,
+      "fonte_justa": "mediana 7 casas",
+      "mercado_ref": "8:yes",
+      "ev_justo": -0.0443,
+      "justo_at": "2026-11-24T04:08:15+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0.5,
+      "bookmaker": "1xBet",
+      "notes": "Três vitórias de favoritos, todas na 1xBet: Leipzig na Champions e Middlesbrough e Wolves no Championship (dois da mesma liga; não havia trio na banda sem isso). Sem ambas marcam.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1635713,
+          "match": "RB Leipzig vs Lens",
+          "league": "Liga dos Campeões",
+          "leagueId": 2,
+          "pick": "RB Leipzig vence",
+          "odds": 1.4,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 65,
+          "excepcao_primeiro_encontro": true,
+          "tese": "O Leipzig marcou cinco nos dois últimos da Bundesliga e o Lens não ganha há quatro, com 1-9 em casa ao Como na Champions.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Leipzig (sem o particular com o Mlada Boleslav): 5-1 (f), 5-2 (c), 2-3 City (Champions, c), 2-0 (f), 2-1 (Taça, f) — 4/5 vitórias",
+            "Lens, últimos 5 oficiais: 1-1, 1-2, 1-9 Como (Champions, c), 0-1, 2-1 — 1 vitória",
+            "H2H: primeiro encontro oficial (só um particular em 2025) — excepção do primeiro encontro europeu",
+            "Baixas (API e SportsGambler): Leipzig sem Ouedraogo e Guiu; Lens sem Edouard, Nawrocki e Bulatovic",
+            "1xBet 1.40, Pinnacle 1.39, Bet365 1.36"
+          ],
+          "odd_nossa": 1.4,
+          "justo_gravado_em": "2026-11-24T07:14:54.683Z",
+          "odd_justa_ref": 1.41,
+          "prob_justa": 0.7093,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0069,
+          "justo_at": "2026-11-24T04:08:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1563278,
+          "match": "Middlesbrough vs Swansea",
+          "league": "Championship (Inglaterra)",
+          "leagueId": 40,
+          "pick": "Middlesbrough vence",
+          "odds": 1.44,
+          "kickoff": "2026-11-24T19:45:00Z",
+          "score": 65,
+          "tese": "O Middlesbrough sofre 0,6 golos por jogo nos últimos cinco e o Swansea perdeu as três últimas saídas.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Middlesbrough: 2-0 (c), 0-0 (f), 0-2 (f), 3-0 (c), 5-1 (f) — 3/5 vitórias",
+            "Swansea fora (API): 1-2 Birmingham, 1-3 Portsmouth, 0-5 QPR — três derrotas",
+            "H2H oficial (API, Championship): 2-2, 1-0 Boro, 1-0 Swansea, 1-0 Boro, 2-0 Boro — Boro vence 3/5",
+            "Baixas (API): Boro sem A. Jones e Pukstas; Swansea sem Burgess, Ronald e Tymon (castigado)",
+            "1xBet 1.44, Pinnacle 1.47, Bet365 1.44"
+          ],
+          "odd_nossa": 1.44,
+          "justo_gravado_em": "2026-11-24T07:14:54.685Z",
+          "odd_justa_ref": 1.497,
+          "prob_justa": 0.668,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0381,
+          "justo_at": "2026-11-24T04:13:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1563282,
+          "match": "Wolves vs Derby",
+          "league": "Championship (Inglaterra)",
+          "leagueId": 40,
+          "pick": "Wolves vence",
+          "odds": 1.29,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 65,
+          "tese": "O Wolves perdeu um dos últimos oito na liga e o Derby perdeu quatro dos últimos cinco, com a enfermaria cheia.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Wolves: 2-1 (c), 1-1 (f), 2-1 (f), 3-0 (c), 1-0 (c) — 4/5 vitórias",
+            "Derby, últimos 5 oficiais: 0-2, 3-1, 0-4, 1-4, 1-1 — 1 vitória",
+            "H2H oficial (API, Championship 2015–2018): 2-0 Wolves, 0-2 em Derby, 3-1 Derby, 2-3, 2-1 Wolves — Wolves vence 3/5",
+            "Baixas (API): Derby sem Forsyth, Langas, Murkin, Szmodics e Taylor, mais três em dúvida; Wolves sem Jiménez e Konan",
+            "1xBet 1.29, Pinnacle 1.33, Bet365 1.33"
+          ],
+          "odd_nossa": 1.29,
+          "justo_gravado_em": "2026-11-24T07:14:54.687Z",
+          "odd_justa_ref": 1.351,
+          "prob_justa": 0.7404,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0449,
+          "justo_at": "2026-11-24T04:13:15+00:00"
+        }
+      ]
+    },
+    {
+      "label": "curto-vence",
+      "combined_odds": 2.6,
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "bookmaker": "1xBet",
+      "notes": "Igual ao curto real: as três pernas já são vence, não há nada para trocar.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1635713,
+          "match": "RB Leipzig vs Lens",
+          "league": "Liga dos Campeões",
+          "leagueId": 2,
+          "pick": "RB Leipzig vence",
+          "odds": 1.4,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 65,
+          "excepcao_primeiro_encontro": true,
+          "tese": "O Leipzig marcou cinco nos dois últimos da Bundesliga e o Lens não ganha há quatro, com 1-9 em casa ao Como na Champions.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Leipzig (sem o particular com o Mlada Boleslav): 5-1 (f), 5-2 (c), 2-3 City (Champions, c), 2-0 (f), 2-1 (Taça, f) — 4/5 vitórias",
+            "Lens, últimos 5 oficiais: 1-1, 1-2, 1-9 Como (Champions, c), 0-1, 2-1 — 1 vitória",
+            "H2H: primeiro encontro oficial (só um particular em 2025) — excepção do primeiro encontro europeu",
+            "Baixas (API e SportsGambler): Leipzig sem Ouedraogo e Guiu; Lens sem Edouard, Nawrocki e Bulatovic",
+            "1xBet 1.40, Pinnacle 1.39, Bet365 1.36"
+          ],
+          "odd_nossa": 1.4,
+          "justo_gravado_em": "2026-11-24T07:14:54.687Z",
+          "odd_justa_ref": 1.41,
+          "prob_justa": 0.7093,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0069,
+          "justo_at": "2026-11-24T04:08:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1563278,
+          "match": "Middlesbrough vs Swansea",
+          "league": "Championship (Inglaterra)",
+          "leagueId": 40,
+          "pick": "Middlesbrough vence",
+          "odds": 1.44,
+          "kickoff": "2026-11-24T19:45:00Z",
+          "score": 65,
+          "tese": "O Middlesbrough sofre 0,6 golos por jogo nos últimos cinco e o Swansea perdeu as três últimas saídas.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Middlesbrough: 2-0 (c), 0-0 (f), 0-2 (f), 3-0 (c), 5-1 (f) — 3/5 vitórias",
+            "Swansea fora (API): 1-2 Birmingham, 1-3 Portsmouth, 0-5 QPR — três derrotas",
+            "H2H oficial (API, Championship): 2-2, 1-0 Boro, 1-0 Swansea, 1-0 Boro, 2-0 Boro — Boro vence 3/5",
+            "Baixas (API): Boro sem A. Jones e Pukstas; Swansea sem Burgess, Ronald e Tymon (castigado)",
+            "1xBet 1.44, Pinnacle 1.47, Bet365 1.44"
+          ],
+          "odd_nossa": 1.44,
+          "justo_gravado_em": "2026-11-24T07:14:54.687Z",
+          "odd_justa_ref": 1.497,
+          "prob_justa": 0.668,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0381,
+          "justo_at": "2026-11-24T04:13:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1563282,
+          "match": "Wolves vs Derby",
+          "league": "Championship (Inglaterra)",
+          "leagueId": 40,
+          "pick": "Wolves vence",
+          "odds": 1.29,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 65,
+          "tese": "O Wolves perdeu um dos últimos oito na liga e o Derby perdeu quatro dos últimos cinco, com a enfermaria cheia.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Wolves: 2-1 (c), 1-1 (f), 2-1 (f), 3-0 (c), 1-0 (c) — 4/5 vitórias",
+            "Derby, últimos 5 oficiais: 0-2, 3-1, 0-4, 1-4, 1-1 — 1 vitória",
+            "H2H oficial (API, Championship 2015–2018): 2-0 Wolves, 0-2 em Derby, 3-1 Derby, 2-3, 2-1 Wolves — Wolves vence 3/5",
+            "Baixas (API): Derby sem Forsyth, Langas, Murkin, Szmodics e Taylor, mais três em dúvida; Wolves sem Jiménez e Konan",
+            "1xBet 1.29, Pinnacle 1.33, Bet365 1.33"
+          ],
+          "odd_nossa": 1.29,
+          "justo_gravado_em": "2026-11-24T07:14:54.688Z",
+          "odd_justa_ref": 1.351,
+          "prob_justa": 0.7404,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0449,
+          "justo_at": "2026-11-24T04:13:15+00:00"
+        }
+      ]
+    },
+    {
+      "label": "corvo",
+      "combined_odds": 1.73,
+      "score": 76,
+      "stake": 0,
+      "shadow": true,
+      "bookmaker": "Marathonbet",
+      "notes": "Em sombra desde 10/11, sem stake. A perna do Como repete o jogo da tip do dia noutro mercado (vence e mais de 1.5 contra o handicap -1.5): exposição correlacionada, declarada.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635715,
+          "match": "Real Madrid vs PSV Eindhoven",
+          "league": "Liga dos Campeões",
+          "leagueId": 2,
+          "pick": "Real Madrid vence e mais de 2.5 golos",
+          "odds": 1.29,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 78,
+          "excepcao_primeiro_encontro": true,
+          "tese": "O Real Madrid ganhou os oito últimos oficiais e passou dos 2.5 golos em nove dos últimos dez.",
+          "factors": [
+            "Forma API, últimos 5 oficiais: 2-1, 3-0, 3-2 (Champions), 3-0, 2-1 — 5/5 vitórias, mais de 2.5 em 3/5",
+            "SportsGambler, últimos 10: 9 vitórias e mais de 2.5 em 9/10; Real 2.º na Champions com 12 pontos, PSV 24.º com 4",
+            "H2H: primeiro encontro oficial na API — excepção do primeiro encontro europeu",
+            "Baixas (API e SportsGambler): Real sem Asencio, Rodrygo e Mendy (o SportsGambler junta Endrick, e Dumfries em dúvida); PSV sem Schouten, Ouaissa, Nagalo e Plea",
+            "Marathonbet 1.29"
+          ],
+          "odd_nossa": 1.29,
+          "justo_gravado_em": "2026-11-24T07:14:54.690Z",
+          "odd_justa_ref": 1.301,
+          "prob_justa": 0.7685,
+          "fonte_justa": "mediana 1 casa",
+          "mercado_ref": "25:home/over 2.5",
+          "ev_justo": -0.0087,
+          "justo_at": "2026-11-24T04:08:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "Marathonbet",
+          "fixtureId": 1635649,
+          "match": "Como vs AEK Athens FC",
+          "league": "Liga dos Campeões",
+          "leagueId": 2,
+          "pick": "Como vence e mais de 1.5 golos",
+          "odds": 1.34,
+          "kickoff": "2026-11-24T20:00:00Z",
+          "score": 76,
+          "excepcao_primeiro_encontro": true,
+          "tese": "O Como ganha em casa quase sempre com dois ou mais golos no jogo e o AEK perdeu os três últimos na Champions.",
+          "factors": [
+            "Forma API, últimos 5 oficiais do Como: 2-0, 0-2, 9-1, 1-0, 3-1 — vence com 2+ golos em 3/5",
+            "H2H: primeiro encontro oficial — excepção do primeiro encontro europeu",
+            "Baixas: Kean fora em duas fontes (Football Italia, footballpredictions.com); AEK sem baixas na API",
+            "Marathonbet 1.34"
+          ],
+          "odd_nossa": 1.34,
+          "justo_gravado_em": "2026-11-24T07:14:54.690Z",
+          "odd_justa_ref": 1.352,
+          "prob_justa": 0.7396,
+          "fonte_justa": "mediana 1 casa",
+          "mercado_ref": "25:home/over 1.5",
+          "ev_justo": -0.009,
+          "justo_at": "2026-11-24T04:08:15+00:00"
+        }
+      ]
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna de 1.40 a 1.60 com investigação completa e 75: o handicap do Como está acima da banda (1.65 a 1.75), o Leipzig vence está a 1.36 na Bet365 e na Marathonbet, e o Middlesbrough (Bet365 1.44) só teve a curadoria do curto, não a de uma tip."
+  },
+  "multipla_jornada": {
+    "jornada_id": "uefa-2026-11-24",
+    "motivo": "só 2 pernas elegíveis (favorito a vencer, 1xBet 1.4–1.95, EV ≥ -5% contra a Pinnacle, pesquisa aprovada)",
+    "decidido_em": "2026-11-24T07:15:02.086Z"
+  }
+}

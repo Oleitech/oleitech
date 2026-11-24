@@ -196,8 +196,8 @@
         "valor": -0.015
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 1,
+      "ganhou": false
     },
     {
       "fixture": 1552537,
@@ -250,8 +250,8 @@
         "valor": 0.015
       },
       "sinal": false,
-      "golos": null,
-      "ganhou": null
+      "golos": 5,
+      "ganhou": true
     },
     {
       "fixture": 1556903,
@@ -470,5 +470,5 @@
       "ganhou": false
     }
   ],
-  "avaliado_em": "2026-11-21T07:00:30.298Z"
+  "avaliado_em": "2026-11-24T07:00:48.361Z"
 }

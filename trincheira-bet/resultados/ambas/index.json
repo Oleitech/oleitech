@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-23T23:54:45.249Z",
+  "atualizado": "2026-11-24T07:17:04.191Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 14,
+    "escolhas": 15,
     "liquidadas": 14,
     "acertos": 11,
     "clvMedio": -0.0546,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-24",
+      "jogo": "Portsmouth vs West Ham",
+      "liga": "Championship",
+      "ko": "2026-11-24T19:45:00+00:00",
+      "odd": 1.65,
+      "oddJusta": 1.79,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8879,
+      "pCasaMarca": 0.8148,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-23",
       "jogo": "NK Slaven Belupo vs NK Osijek",
