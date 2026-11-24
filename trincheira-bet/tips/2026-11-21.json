@@ -270,12 +270,18 @@
           "justo_at": "2026-11-21T04:54:16+00:00",
           "clv_api": -0.0007,
           "fecho_idade_min": 6,
-          "odd_fecho_ref": 1.381,
-          "fonte_fecho": "Pinnacle",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.394,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-21T16:54:16+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0007
+          "clv": -0.0102,
+          "odd_fecho_api": 1.381,
+          "fonte_fecho_api": "Pinnacle",
+          "clv_fecho_real": -0.0102,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "SWZ Super League: Young Boys - Thun",
+          "fecho_real_em": "2026-11-24T22:18:59.112Z"
         },
         {
           "sport": "football",

@@ -57,12 +57,18 @@
       "justo_at": "2026-11-23T04:03:15+00:00",
       "clv_api": 0.0006,
       "fecho_idade_min": 148,
-      "odd_fecho_ref": 1.649,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 1.672,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-23T20:02:14+00:00",
       "fecho_aproximado": false,
-      "clv": 0.0006
+      "clv": -0.0134,
+      "odd_fecho_api": 1.649,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0134,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "BRA Serie A: Internacional - Vitoria",
+      "fecho_real_em": "2026-11-24T22:18:59.128Z"
     },
     {
       "market": "favorites",
@@ -123,12 +129,18 @@
       "motivo_sombra": "Odd 1.95, na banda 1.90–2.10 sem valor: EV -2.0% na 1xBet a 1.95 contra o justo 1.99 (Pinnacle), abaixo de +2% (decisão do dono 09/11).",
       "clv_api": -0.0308,
       "fecho_idade_min": 90,
-      "odd_fecho_ref": 2.012,
-      "fonte_fecho": "Pinnacle",
-      "fecho_fonte": "api",
+      "odd_fecho_ref": 2.049,
+      "fonte_fecho": "football-data BFEC",
+      "fecho_fonte": "football-data",
       "fecho_at": "2026-11-23T18:00:17+00:00",
       "fecho_aproximado": false,
-      "clv": -0.0308
+      "clv": -0.0482,
+      "odd_fecho_api": 2.012,
+      "fonte_fecho_api": "Pinnacle",
+      "clv_fecho_real": -0.0482,
+      "fecho_real_col": "BFEC",
+      "fecho_real_jogo": "SP2: Ceuta - Almeria",
+      "fecho_real_em": "2026-11-24T22:18:59.130Z"
     }
   ],
   "accumulators": [
@@ -173,7 +185,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T16:14:13+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0517
+          "clv": -0.0517,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -208,7 +221,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T18:00:17+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0655
+          "clv": -0.0655,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -243,7 +257,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T12:40:15+00:00",
           "fecho_aproximado": false,
-          "clv": -0.1043
+          "clv": -0.1043,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     },
@@ -290,7 +305,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T18:00:17+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0831
+          "clv": -0.0831,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -407,7 +423,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T16:14:13+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0517
+          "clv": -0.0517,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -442,7 +459,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T18:00:17+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0655
+          "clv": -0.0655,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         },
         {
           "sport": "football",
@@ -477,7 +495,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T12:40:15+00:00",
           "fecho_aproximado": false,
-          "clv": -0.1043
+          "clv": -0.1043,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     },
@@ -519,12 +538,18 @@
           "justo_at": "2026-11-23T03:52:15+00:00",
           "clv_api": 0.0007,
           "fecho_idade_min": 120,
-          "odd_fecho_ref": 1.389,
-          "fonte_fecho": "Pinnacle 1X2",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.358,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-23T18:00:17+00:00",
           "fecho_aproximado": false,
-          "clv": 0.0007
+          "clv": 0.0233,
+          "odd_fecho_api": 1.389,
+          "fonte_fecho_api": "Pinnacle 1X2",
+          "clv_fecho_real": 0.0233,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "SP1: Levante - Elche",
+          "fecho_real_em": "2026-11-24T22:18:59.151Z"
         },
         {
           "sport": "football",
@@ -560,7 +585,8 @@
           "fecho_fonte": "api",
           "fecho_at": "2026-11-23T18:00:17+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0412
+          "clv": -0.0412,
+          "fecho_real_motivo": "mercado sem fecho no football-data"
         }
       ]
     }

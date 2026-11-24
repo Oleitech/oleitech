@@ -67,7 +67,31 @@
       "frase": "O West Ham marcou em 8 dos últimos 8 jogos fora, e o Portsmouth sofreu em 7 dos últimos 8 em casa.",
       "sentAt": 1795504624177,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Portsmouth vs West Ham</b> (19:45)\n\n📊 West Ham marca fora 89% · Portsmouth marca em casa 81%\n💰 1xBet <b>@1.65</b> · justo @1.79 · sem valor hoje (stake 0)\n\nO West Ham marcou em 8 dos últimos 8 jogos fora, e o Portsmouth sofreu em 7 dos últimos 8 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-24T18:15:58.851Z",
+      "oddPertoDoJogo": 1.7,
+      "evPertoDoJogo": {
+        "formula": -0.0669,
+        "consenso": -0.0694
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": null,
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795558714441,
+      "pnlSombra": -0.5,
+      "odd_fecho_ref": 1.829,
+      "prob_fecho": 0.5466,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-24T18:00:26+00:00",
+      "fecho_idade_min": 105,
+      "clv": -0.0981,
+      "prob_fecho_formula": 0.5519,
+      "clv_formula": -0.0893
     }
   ],
   "escolhidaEm": "2026-11-24T07:16:36.501Z",
@@ -284,7 +308,23 @@
     "oddsUpdate": "2026-11-24T04:08:15+00:00",
     "mercado": "ambas sim",
     "odds": 1.63,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "GREEN",
+    "finalHome": 2,
+    "finalAway": 2,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795558715289,
+    "pnlSombra": 0.315,
+    "odd_fecho_ref": 1.658,
+    "prob_fecho": 0.6031,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-24T18:00:27+00:00",
+    "fecho_idade_min": 120,
+    "clv": -0.017,
+    "prob_fecho_formula": 0.5999,
+    "clv_formula": -0.0222
   },
   "candidatasLive": [
     {
