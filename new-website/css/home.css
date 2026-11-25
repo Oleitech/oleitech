@@ -19,7 +19,8 @@
 /* cópia do menu e da seta em antracite, recortada pela zona amarela: o texto lê-se sempre */
 .hero__ink { position: absolute; inset: 0; z-index: 61; pointer-events: none; }
 .hero__ink .header { color: var(--ink); }
-.hero__ink .link, .hero__ink .header__lang, .hero__ink .cue { color: var(--ink); }
+.hero__ink .link, .hero__ink .cue { color: var(--ink); }
+.hero__ink .lang__list { background: none; }
 /* "see more" + seta (Figma 1:3936 e 1:3447), medidas do Figma em em (texto de 25 unidades). Texto em 1782,1845 (121x34).
    A seta é o asset 27.59x27.58 rodado 135°; no Figma o x/y de um nó rodado é a origem da rotação (1864.68,1894.5), não o
    canto da caixa, por isso o centro da seta fica em 1845.17,1894.5: centrada por baixo do texto (centro 1842.5).

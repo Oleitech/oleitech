@@ -25,7 +25,8 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 })();
 
 /* Contacto: texto do Figma -> parêntesis juntos com uma carta -> texto. Uma só animação contínua e reversível:
-   p (0..1) avança com o hover ou o foco e recua ao sair, a partir de onde estiver. No touch, entrar no ecrã leva a 1.
+   p (0..1) avança com o hover ou o foco e recua ao sair, a partir de onde estiver.
+   No toque (C2, ronda 16) p segue o scroll: 0 ao entrar por baixo, 1 bem à vista, e volta a 0 antes de meio botão sair.
    Sem fundo de botão: só o texto e os parêntesis do Figma, que acabam juntos com uma carta no meio. */
 (() => {
   const c = document.querySelector('.contact');
@@ -44,7 +45,7 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     return 3 * (1 - u) * (1 - u) * u * y1 + 3 * (1 - u) * u * u * y2 + u * u * u;
   };
   const E = ease(.65, 0, .35, 1), lerp = (a, b, t) => a + (b - a) * t, cl = x => Math.min(1, Math.max(0, x));
-  let M = null, p = 0, target = 0, raf = 0, prev = 0;
+  let M = null, p = 0, target = 0, raf = 0, prev = 0, scrub = false;
 
   // caixa do SVG do parêntesis (viewBox 547): a tinta ocupa 455.7/547; no Figma a tinta tem 90.28 com texto de 120
   function measure() { const fs = parseFloat(getComputedStyle(c).fontSize); M = { w: ghost.offsetWidth, h: ghost.offsetHeight, B0: fs * 90.28 / 120 * 547 / 455.7, B1: Math.max(64, 1.5 * fs) }; apply(); }
@@ -67,7 +68,9 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   function tick(now) {
     raf = 0;
     const dt = Math.min(.05, Math.max(0, (now - prev) / 1000)); prev = now;
-    p = reduce ? target : target > p ? Math.min(target, p + dt / T) : Math.max(target, p - dt / T);
+    if (reduce) p = target;
+    else if (scrub) { p += (target - p) * (1 - Math.exp(-dt / .08)); if (Math.abs(target - p) < .002) p = target; }   // segue o dedo, suavizado ~80ms
+    else p = target > p ? Math.min(target, p + dt / T) : Math.max(target, p - dt / T);
     apply();
     if (p !== target) go();
   }
@@ -78,10 +81,23 @@ const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     c.addEventListener('pointerenter', () => to(1));
     c.addEventListener('pointerleave', () => { if (!c.matches(':focus-visible')) to(0); });
   } else {
-    new IntersectionObserver(([e]) => to(e.intersectionRatio >= .8 ? 1 : e.isIntersecting ? target : 0), { threshold: [0, .8] }).observe(c);
+    // c = centro do botão no ecrã. Rampa de A px: abre a subir desde a borda de baixo, fecha a subir até à borda de cima.
+    // p=0 quando faltam 10% para metade do botão sair (por cima ou por baixo). A rampa de baixo encurta se, no fim da
+    // página, o botão não subir o suficiente: assim no scroll máximo chega sempre a p=1.
+    scrub = true;
+    const fromScroll = () => {
+      const b = c.getBoundingClientRect(), vh = innerHeight, h = b.height, cy = b.top + h / 2;
+      const cMax = cy + scrollY - Math.max(0, document.documentElement.scrollHeight - vh);   // centro no scroll máximo
+      const e0 = vh - .4 * h, s0 = .4 * h;                                                  // p=0 aqui (baixo / cima)
+      const up = Math.min(.3 * vh, Math.max(1, e0 - cMax - 2)), dn = .3 * vh;
+      const v = Math.min(1, Math.max(0, (e0 - cy) / up), Math.max(0, (cy - s0) / dn));
+      to(reduce ? (v >= .5 ? 1 : 0) : v);
+    };
+    addEventListener('scroll', fromScroll, { passive: true }); addEventListener('resize', fromScroll); fromScroll();
   }
   c.addEventListener('focus', () => { if (c.matches(':focus-visible')) to(1); });
   c.addEventListener('blur', () => { if (!c.matches(':hover')) to(0); });
+  if (location.search.includes('debug')) window.__contactP = () => p;
   new ResizeObserver(measure).observe(ghost);
   measure();
 })();

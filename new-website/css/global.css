@@ -27,7 +27,23 @@ body {
 .header__logo { display: flex; align-items: center; min-height: 44px; width: max(96px, calc(296 * var(--k))); }
 .header__logo img { width: 100%; height: auto; }
 .header__nav { display: flex; justify-content: flex-end; gap: max(14px, calc(57 * var(--k))); }
-.header__lang { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-size: var(--fs-nav); }
+/* idioma (L1, desenho aprovado 25/11): o botão é um .link com seta fina; a lista abre por baixo, alinhada à esquerda do texto.
+   C2 (ronda 16): no layout só conta o texto "PT"/"EN", como no publicado. A zona de toque (≥44px) faz-se com padding e
+   margem negativa, e a seta fica pendurada na margem da página (margem direita negativa = folga + seta). */
+.lang { position: relative; display: flex; }
+.lang__btn { gap: .4em; padding: 0 10px; margin: 0 calc(-10px - 1.02em) 0 -10px; }
+.lang__arrow { width: .62em; height: .38em; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+.lang__btn[aria-expanded="true"] .lang__arrow { transform: rotate(180deg); }
+.lang__list { position: absolute; top: 100%; left: -10px; z-index: 6; margin: 0; padding: 0; list-style: none; background: var(--bg); }
+.lang__list .link { min-width: 44px; padding: 0 10px; }
+/* no hero o menu fica por cima do amarelo: sem caixa, vale a regra C1 (a cópia antracite lê-se dentro do amarelo) */
+.header--over .lang__list { background: none; }
+.lang-open iframe { pointer-events: none; }   /* ver js/lang.js */
+/* C2: no telemóvel, Contactos e o idioma vão mais para a direita (longe do logo); o logo não sai do sítio do publicado */
+@media (max-width: 767px) {
+  .header__nav { gap: 10px; margin-right: -4px; }
+  .lang__btn { padding-right: 4px; margin-right: calc(-4px - 1.02em); }   /* a zona de toque (≥44px) não passa da borda do ecrã */
+}
 
 .footer {
   display: grid; grid-template-columns: 1fr auto 1fr; align-items: end; gap: 12px;
@@ -46,3 +62,18 @@ body {
   .footer__logo { order: -1; margin-bottom: 8px; }
   .footer--plain .footer__group--end { grid-column: auto; }
 }
+
+/* P1 (proposta ronda 16): loading com o logo ao entrar no site. Só existe com a classe posta pelo script do <head>. */
+.loader { display: none; }
+.is-loading .loader { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: var(--bg); transition: opacity .4s ease, background-color .5s ease; }
+/* saída a voar até ao header: o fundo desvanece e o logo do header fica escondido até o do loading pousar em cima dele */
+.is-flying .loader { background-color: rgba(28, 27, 27, 0); }
+.is-flying .header__logo img { visibility: hidden; }
+.is-landed .header__logo img { visibility: visible; }
+.is-landed .loader img { visibility: hidden; }
+.is-leaving .loader { opacity: 0; }
+.loader img { width: min(60vw, max(192px, calc(592 * var(--k)))); height: auto; animation: loader-in .7s cubic-bezier(.2, .7, .2, 1) both; }
+@keyframes loader-in { from { opacity: 0; transform: translateY(8px); } }
+@keyframes loader-fade { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .loader img { animation-name: loader-fade; } }
+.is-loading .cursor { visibility: hidden; }

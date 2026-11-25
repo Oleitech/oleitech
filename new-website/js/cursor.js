@@ -1,7 +1,7 @@
 /* Cursor do site: a bola amarela do hero (Figma 1:3935). Só com rato (pointer: fine); no touch fica o do sistema.
-   Segue o rato com atraso suave. No hero tem o tamanho da bola do desenho. Só começa no sítio da bola do desenho
-   (estado inicial, antes do 1.º movimento); depois, se o rato sair da janela, a bola esconde-se onde saiu e, ao voltar,
-   reaparece no ponto de entrada (sem atravessar o ecrã).
+   Segue o rato com atraso suave. No hero tem o tamanho da bola do desenho. Não existe antes do 1.º movimento do rato
+   (B1/B5, ronda 16): nasce no sítio do rato, a crescer de 0. Depois, se o rato sair da janela, a bola esconde-se onde
+   saiu e, ao voltar, reaparece no ponto de entrada (sem atravessar o ecrã).
    Fora do hero fica pequena; por cima de ligações e botões passa a anel, para não tapar o que está por baixo. */
 (() => {
   if (!matchMedia('(pointer: fine)').matches) return;
@@ -20,10 +20,7 @@
     let x = C.mx, y = C.my, show = C.active;
     // por cima de um iframe (site vivo dos projetos) a bola não aparece: lá dentro vale o cursor do site
     if (show) { const t = document.elementFromPoint(x, y); if (t && t.tagName === 'IFRAME') show = false; }
-    if (!C.active) {
-      if (!C.seen && hero) { const h = hero.home(); if (h) { x = h.x; y = h.y; show = h.visible; } }
-      else { x = C.x; y = C.y; show = false; }
-    }
+    if (!C.active) { x = C.x; y = C.y; show = false; }
     const inHero = !!hero && hero.contains(x, y);
     return { x, y, show, inHero, d: inHero ? hero.d() : link ? RING : SMALL };
   }
@@ -45,8 +42,10 @@
 
   addEventListener('pointermove', e => {
     if (e.pointerType !== 'mouse') return;
+    if (document.documentElement.classList.contains('is-loading')) return;   // ponto 8: a bola só nasce depois do loading
     C.mx = e.clientX; C.my = e.clientY;
-    if (C.seen && !C.active) { C.x = C.mx; C.y = C.my; }   // voltou à janela: continua do ponto de entrada
+    if (!C.seen) { C.x = C.mx; C.y = C.my; C.d = 0; }       // 1.º movimento: nasce no rato, a crescer de 0
+    else if (!C.active) { C.x = C.mx; C.y = C.my; }        // voltou à janela: continua do ponto de entrada
     C.active = true; C.seen = true; loop();
   }, { passive: true });
   addEventListener('pointerover', e => { link = !!(e.target.closest && e.target.closest(INTERACTIVE)); loop(); });
