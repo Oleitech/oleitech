@@ -1,0 +1,34 @@
+{
+  "gerado": "2026-11-25T07:01:48.084Z",
+  "aposta": false,
+  "nota": "Sombra, excepto o campo aposta (Eredivisie e Bundesliga, desde 09/10/2026): esse vira tip baliza pelo tips/WORKFLOW.md.",
+  "jogos": [
+    {
+      "fixture": 1492461,
+      "data": "2026-11-25T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Atletico-MG - Corinthians",
+      "jogos_tabela": 35,
+      "amostra_fraca": false,
+      "atq": -0.256,
+      "def": 0.568,
+      "zona": "defesa",
+      "linhas": {
+        "cantos_6_5": {
+          "casa": "mediana de 3",
+          "odd": 1.07,
+          "preferida": false
+        },
+        "cantos_7_5": {
+          "casa": "Marathonbet",
+          "odd": 1.16,
+          "preferida": true
+        }
+      },
+      "historico": {
+        "cantos_6_5": 0.788,
+        "cantos_7_5": 0.691
+      }
+    }
+  ]
+}

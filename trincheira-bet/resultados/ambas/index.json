@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-24T22:18:35.641Z",
+  "atualizado": "2026-11-25T07:18:04.154Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 15,
+    "escolhas": 16,
     "liquidadas": 15,
     "acertos": 11,
     "clvMedio": -0.0575,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-25",
+      "jogo": "Lille vs Bayern München",
+      "liga": "UEFA Champions League",
+      "ko": "2026-11-25T20:00:00+00:00",
+      "odd": 1.61,
+      "oddJusta": 1.74,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.9258,
+      "pCasaMarca": 0.829,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-24",
       "jogo": "Portsmouth vs West Ham",

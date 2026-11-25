@@ -1,0 +1,230 @@
+{
+  "gerado": "2026-11-25T07:01:41.045Z",
+  "aposta": false,
+  "modelo": {
+    "lambda": 0.2,
+    "phi": 0.5,
+    "limiar": 0.05,
+    "csv_ate": "2026-09-03"
+  },
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "sem_par": [],
+  "jogos": [
+    {
+      "fixture": 1601615,
+      "data": "2026-11-25T18:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Cremonese - Avellino",
+      "pressao": 35.3,
+      "prob_mais": 0.459,
+      "prob_mercado": 0.46,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.17,
+        "valor": -0.004
+      },
+      "marathonbet": {
+        "odd": 1.98,
+        "valor": -0.091
+      },
+      "bet365": {
+        "odd": 2.08,
+        "valor": -0.045
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601619,
+      "data": "2026-11-25T19:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Mantova - Arezzo",
+      "pressao": 33.5,
+      "prob_mais": 0.538,
+      "prob_mercado": 0.528,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.85,
+        "valor": -0.005
+      },
+      "marathonbet": {
+        "odd": 1.75,
+        "valor": -0.059
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.032
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601620,
+      "data": "2026-11-25T19:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Padova - Sampdoria",
+      "pressao": 37.2,
+      "prob_mais": 0.439,
+      "prob_mercado": 0.454,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Marathonbet",
+        "odd": 1.76,
+        "valor": -0.012
+      },
+      "marathonbet": {
+        "odd": 1.76,
+        "valor": -0.012
+      },
+      "bet365": {
+        "odd": 1.7,
+        "valor": -0.046
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1601622,
+      "data": "2026-11-25T19:00:00+00:00",
+      "liga": "I2",
+      "jogo": "Pisa - Modena",
+      "pressao": 35.5,
+      "prob_mais": 0.526,
+      "prob_mercado": 0.531,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.88,
+        "valor": -0.01
+      },
+      "marathonbet": {
+        "odd": 1.72,
+        "valor": -0.095
+      },
+      "bet365": {
+        "odd": 1.8,
+        "valor": -0.053
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563283,
+      "data": "2026-11-25T19:45:00+00:00",
+      "liga": "E1",
+      "jogo": "Bolton - West Brom",
+      "pressao": 36.1,
+      "prob_mais": 0.549,
+      "prob_mercado": 0.546,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 1.78,
+        "valor": -0.023
+      },
+      "marathonbet": {
+        "odd": 1.72,
+        "valor": -0.056
+      },
+      "bet365": {
+        "odd": 1.73,
+        "valor": -0.051
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563284,
+      "data": "2026-11-25T19:45:00+00:00",
+      "liga": "E1",
+      "jogo": "Burnley - Birmingham",
+      "pressao": 34.8,
+      "prob_mais": 0.542,
+      "prob_mercado": 0.541,
+      "casas": 7,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Betano",
+        "odd": 2.15,
+        "valor": -0.016
+      },
+      "marathonbet": {
+        "odd": 2.02,
+        "valor": -0.075
+      },
+      "bet365": {
+        "odd": 2.1,
+        "valor": -0.039
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563286,
+      "data": "2026-11-25T19:45:00+00:00",
+      "liga": "E1",
+      "jogo": "Watford - Blackburn",
+      "pressao": 37.6,
+      "prob_mais": 0.501,
+      "prob_mercado": 0.502,
+      "casas": 8,
+      "lado": "menos",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 1.95,
+        "valor": -0.028
+      },
+      "marathonbet": {
+        "odd": 1.88,
+        "valor": -0.063
+      },
+      "bet365": {
+        "odd": 1.91,
+        "valor": -0.048
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    },
+    {
+      "fixture": 1563285,
+      "data": "2026-11-25T20:00:00+00:00",
+      "liga": "E1",
+      "jogo": "Stoke City - Millwall",
+      "pressao": 38.1,
+      "prob_mais": 0.479,
+      "prob_mercado": 0.481,
+      "casas": 8,
+      "lado": "mais",
+      "melhor_odd": {
+        "casa": "Pinnacle",
+        "odd": 2.06,
+        "valor": -0.014
+      },
+      "marathonbet": {
+        "odd": 1.93,
+        "valor": -0.076
+      },
+      "bet365": {
+        "odd": 2,
+        "valor": -0.043
+      },
+      "sinal": false,
+      "golos": null,
+      "ganhou": null
+    }
+  ]
+}
