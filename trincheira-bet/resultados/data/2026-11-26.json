@@ -1,0 +1,1405 @@
+{
+  "date": "2026-11-26",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.63,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Duas vitórias e uma dupla hipótese, três jogos da Liga Europa às 17:45. Sem ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636329,
+            "match": "Union St. Gilloise vs Lech Poznan",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Union St. Gilloise vence",
+            "odds": 1.36,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Union não perde há doze jogos e ganhou os últimos cinco oficiais; o Lech tem um ponto em quatro jornadas.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Union: 1-0 Kortrijk (f), 1-0 Genk (c), 2-1 Celta (Liga Europa, f), 2-1 Beveren (f), 5-2 Cercle Brugge (c) = 5/5 vitórias",
+              "Lech, últimos 5 oficiais (API): 1-0 Katowice (f), 2-2 Zaglebie (c), 1-3 Benfica (Liga Europa, f), 3-1 Wisla (c), 0-1 Siarka (Taça, f); 35.º da Liga Europa com 1 ponto e -10 (API)",
+              "H2H: primeiro encontro oficial (API e Ratingbet sem jogos) — excepção do primeiro encontro europeu",
+              "Baixas: Union sem K. Mac Allister e Biondic (API e SportsGambler); Lech sem Sayyadmanesh (API em dúvida, SportsGambler fora). Ishak, Moutinho, Douglas e Gholizadeh só na API (o SportsGambler não os lista) — não confirmados, fora da tese; Thordarson só no SportsGambler",
+              "Starting11: o Lech joga para a Ekstraklasa dois dias depois, rotação provável; Ratingbet: Union sem perder há 12",
+              "1xBet 1.36, Pinnacle 1.37, Bet365 1.36"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-26T07:15:51.571Z",
+            "odd_justa_ref": 1.394,
+            "prob_justa": 0.7174,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0243,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": -0.0293,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.401,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0293,
+            "result": "RED",
+            "final_score": "2-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636315,
+            "match": "Plzen vs Benfica",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Benfica vence",
+            "odds": 1.49,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Benfica ganhou os últimos oito jogos e fora fez nove vitórias em dez oficiais esta época; o Plzen ganhou três dos últimos dez em casa.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Benfica: 3-1 Torreense (Taça, f), 3-2 Estrela (f), 3-1 Lech (Liga Europa, c), 1-0 Alverca (c), 4-1 Gil Vicente (Taça da Liga, c) = 5/5",
+              "Benfica fora, 2026/27, n=10 oficiais (API): 9V 0E 1D, 3,20 marcados e 0,90 sofridos",
+              "Plzen em casa, 2026/27, n=10 oficiais (API): 3V 3E 4D, 1,60 sofridos; perdeu 1-2 com o Levski e 0-3 com o Union em casa na Liga Europa",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: Barreiro fora (API e SportsGambler); Aursnes e Prestianni só na API; Plzen sem Jemelka (API e SportsGambler)",
+              "SportsGambler: pick Plzen +1.25 (vitória curta do Benfica não a contraria)",
+              "1xBet 1.49, Pinnacle 1.49, Bet365 1.45, Marathonbet 1.47"
+            ],
+            "odd_nossa": 1.49,
+            "justo_gravado_em": "2026-11-26T07:15:51.572Z",
+            "odd_justa_ref": 1.518,
+            "prob_justa": 0.6589,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0183,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": 0.0412,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.431,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0412,
+            "result": "RED",
+            "final_score": "4-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636244,
+            "match": "Celta Vigo vs Bournemouth",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Bournemouth ou empate (dupla hipótese X2)",
+            "odds": 1.3,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Bournemouth leva oito vitórias seguidas, Milan incluído; o Celta ganhou um dos últimos cinco, e foi na Taça.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Bournemouth: 2-0 Nottingham Forest (c), 2-1 Ipswich (f), 3-1 Sparta Praga (Liga Europa, f), 2-0 Leeds (c), 3-0 Aston Villa (Taça da Liga, c) = 5/5 (8 vitórias seguidas)",
+              "Celta, últimos 5 oficiais (API): 1-2 Real Madrid (f), 5-0 Salamanca (Taça, f), 0-0 Levante (c), 1-2 Union (Liga Europa, c), 0-3 Rayo (f)",
+              "Classificação da Liga Europa (API): Bournemouth 2.º com 12 pontos; Celta 27.º com 3",
+              "H2H: primeiro encontro oficial (API e FootyStats) — excepção do primeiro encontro europeu",
+              "Baixas: Celta sem Borja Iglesias, Starfelt e Miguel Román (API e SportsGambler); Bournemouth sem Araujo, Juanlu Sánchez e Tóth (API e SportsGambler)",
+              "SportsGambler: pick Celta +0.5 (contra); predictions da API: vitória do Bournemouth",
+              "1xBet 1.30, Bet365 1.28, Marathonbet 1.31"
+            ],
+            "odd_nossa": 1.3,
+            "justo_gravado_em": "2026-11-26T07:15:51.574Z",
+            "odd_justa_ref": 1.371,
+            "prob_justa": 0.7293,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.052,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": 0.0039,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.295,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0039,
+            "result": "GREEN",
+            "final_score": "1-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Perdeu: Union St. Gilloise vence 2-2; Benfica vence 4-0."
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.58,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Uma dupla hipótese, uma ambas marcam e um empate devolve, de Liga Conferência e Liga Europa às 20:00. Nenhuma perna repete o primeiro curto. O Trabzonspor saiu por baixas no ataque confirmadas em duas fontes; entrou o Anderlecht.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636420,
+            "match": "HNK Hajduk Split vs St. Truiden",
+            "league": "Liga Conferência, 4.ª jornada",
+            "leagueId": 848,
+            "pick": "HNK Hajduk Split ou empate (dupla hipótese 1X)",
+            "odds": 1.36,
+            "kickoff": "2026-11-26T20:00:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Hajduk perdeu um dos últimos cinco oficiais e em casa já ganhou ao Ajax na prova; o St. Truiden ganhou um dos últimos quatro do campeonato.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Hajduk (sem o particular com o Hamburgo): 2-1 Lokomotiva (f), 1-0 Osijek (f), 0-1 Lincoln (Liga Conferência, f), 5-0 Gorica (c), 2-2 Istra (f) = 4/5 sem perder",
+              "St. Truiden, últimos 5 oficiais (API): 2-2 Charleroi (f), 4-1 Zulte Waregem (c), 1-1 Brann (Liga Conferência, c), 1-2 OH Leuven (c), 2-3 Club Brugge (f)",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: nenhuma na API nem no Starting11 (duas fontes concordantes); Starting11: rotação provável, os dois jogam três dias depois",
+              "1xBet 1.36, Bet365 1.33, Marathonbet 1.33; Pinnacle 1X2 2.12/3.66/3.36"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-26T07:15:51.576Z",
+            "odd_justa_ref": 1.395,
+            "prob_justa": 0.7167,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Home/Draw",
+            "ev_justo": -0.0253,
+            "justo_at": "2026-11-26T04:12:15+00:00",
+            "clv_api": -0.0173,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.384,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0173,
+            "result": "RED",
+            "final_score": "0-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636301,
+            "match": "NEC Nijmegen vs Rennes",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.45,
+            "kickoff": "2026-11-26T20:00:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O NEC marcou e sofreu em quatro dos últimos cinco e joga sem dois defesas; o Rennes sofreu golos em quatro dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do NEC: 1-4 PSV (c), 3-2 Utrecht (f), 3-1 Omonia (Liga Europa, c), 0-1 Heerenveen (f), 2-2 Groningen (c) = ambas marcam 4/5",
+              "Rennes, últimos 5 oficiais (API): 1-1 Lorient (f), 1-2 Lille (c), 0-0 Olympiakos (Liga Europa, c), 2-5 Nice (f), 3-0 Strasbourg (c) = ambas marcam 3/5",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: NEC sem Schuurs, Nuytinck e Sandler (API e SportsGambler); Rennes sem Rongier (API e SportsGambler); M. Camara e Frankowski só na API, Emre Mor só no SportsGambler",
+              "Única perna de ambas marcam do bilhete",
+              "1xBet 1.45, Bet365 1.44, Marathonbet 1.45"
+            ],
+            "odd_nossa": 1.45,
+            "justo_gravado_em": "2026-11-26T07:15:51.578Z",
+            "odd_justa_ref": 1.509,
+            "prob_justa": 0.6627,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0391,
+            "justo_at": "2026-11-26T06:00:22+00:00",
+            "clv_api": -0.0102,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.465,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0102,
+            "result": "GREEN",
+            "final_score": "3-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636305,
+            "match": "OFI vs Anderlecht",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Anderlecht vence, empate devolve (DNB)",
+            "odds": 1.31,
+            "kickoff": "2026-11-26T20:00:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Anderlecht perdeu um dos últimos cinco oficiais e ganhou 2-0 ao Salzburg na prova; o OFI chega sem o Kodro e ganhou dois dos últimos cinco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Anderlecht: 1-0 OH Leuven (c), 1-1 Club Brugge (f), 2-0 Salzburg (Liga Europa, c), 4-1 Westerlo (c), 0-4 Gent (f) = 4/5 sem perder; fora só 1 vitória nos últimos 5 (ponto fraco)",
+              "OFI, últimos 5 oficiais (API): 0-2 Panathinaikos (f), 0-0 Atromitos (c), 2-0 Hapoel Beer Sheva (Liga Europa, f), 1-0 Panetolikos (f), 0-1 Larisa (Taça, f); perdeu 0-2 em casa com o Leverkusen na prova",
+              "H2H: só particulares (1-1 em 2021 e 2022, API) — primeiro encontro oficial, excepção do primeiro encontro europeu",
+              "Baixas: Anderlecht sem Hey (perna partida) e Koutsoupias, Camara em dúvida (API e Starting11); OFI sem Kodro, Leya Iseka, Chatzigiovanis e Marinakis (API e Starting11)",
+              "Entrou para o lugar do Trabzonspor empate devolve, que caiu por baixas confirmadas depois (Malinovskyi, Franculino, Batagov, Jabol-Folcarelli no SportsGambler e no Starting11)",
+              "1xBet 1.31 (handicap 0); Pinnacle 1X2 4.50/3.86/1.79"
+            ],
+            "odd_nossa": 1.31,
+            "justo_gravado_em": "2026-11-26T07:21:35.485Z",
+            "odd_justa_ref": 1.383,
+            "prob_justa": 0.723,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:DNB away",
+            "ev_justo": -0.0529,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": -0.0576,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.39,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0576,
+            "result": "GREEN",
+            "final_score": "1-3"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Perdeu: HNK Hajduk Split ou empate (dupla hipótese 1X) 0-2."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1,
+      "combined_stake": 1,
+      "combined_return": 0,
+      "combined_pnl": -1,
+      "combined_roi_pct": -100
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Empate devolve",
+        "pick": "FC Lugano vence, empate devolve (DNB)",
+        "fixtureId": 1636431,
+        "home": {
+          "name": "FK Jablonec",
+          "logo": "https://media.api-sports.io/football/teams/1122.png"
+        },
+        "away": {
+          "name": "FC Lugano",
+          "logo": "https://media.api-sports.io/football/teams/606.png"
+        },
+        "match": "FK Jablonec vs FC Lugano",
+        "league": "Liga Conferência, 4.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/848.png",
+        "kickoff": "2026-11-26T17:45:00Z",
+        "odds": 1.61,
+        "bookmaker": "1xBet",
+        "score": 72,
+        "stake": 0,
+        "shadow": true,
+        "stake_proposta": 0.5,
+        "context_depth": "partial",
+        "motivo_sombra": "Score 72, abaixo do piso de 75: o Jablonec defende bem em casa (6 jogos sem sofrer em 10) e as baixas só estão numa fonte.",
+        "tese": "O Lugano lidera a Liga Conferência com três vitórias e ganhou nove dos últimos dez oficiais, sete dos últimos dez fora. O Jablonec ganhou um dos últimos oito, mas em casa é osso duro: empatou 0-0 com o Brighton na prova e não sofreu em seis dos últimos dez em casa. A tese é que o Lugano é melhor e não perde; o empate devolve cobre o 0-0 que o Jablonec procura. Ficou abaixo do piso porque a defesa da casa não é a porta aberta que os números gerais sugerem.",
+        "factors": [
+          "Forma API, Lugano últimos 10 oficiais (2026/27): 9V 0E 1D, 3,00 marcados e 1,30 sofridos; o único desaire foi 0-5 em St. Gallen",
+          "Lugano fora, 2026/27, n=10 oficiais (API): 7V 2E 1D, marcou em 9/10, ambas marcam 7/10, sem sofrer 2/10 (inclui 10-1 e 4-0 na Taça)",
+          "Jablonec em casa, 2026/27, n=10 oficiais (API): 4V 3E 3D, 1,10 marcados e 1,10 sofridos, sem sofrer 6/10, ambas marcam 3/10; últimos 4 em casa sem ganhar (0-0 Mlada Boleslav, 0-5 Slavia, 0-0 Brighton, 2-3 Plzen)",
+          "Classificação da Liga Conferência (API): Lugano 1.º com 9 pontos (+7); Jablonec 23.º com 2",
+          "Probabilidades: Pinnacle 3.25/3.66/2.17 (empate devolve justo perto de 1.66); FootyStats 80% Lugano; SportsGambler estima 55–60% para a vitória do Lugano",
+          "Terceiros: SportsGambler pick Lugano vence (2.04); predictions da API: empate ou Lugano; FootyStats 80% Lugano",
+          "Baixas: Martim Marques (castigo) e Delcroix só no SportsGambler; GR Hanus (Jablonec) só no SportsGambler; a API não lista nenhuma — nenhuma confirmada em duas fontes",
+          "Splits do FootyStats descartados (últimos 10 sem amostra por lado declarada); mudança de treinador não verificada (daí o partial)",
+          "1xBet 1.61 (handicap 0), Pinnacle 1.60, Bet365 1.58, Marathonbet 1.55"
+        ],
+        "sources": [
+          "API-Football — /fixtures?team=606 e 1122 (season 2026 e last 8), /injuries?fixture=1636431 (vazio), /predictions, /standings?league=848, /odds?fixture=1636431 (10 casas)",
+          "SportsGambler — jablonec-vs-lugano-prediction-lineups-odds-2026-11-26 (baixas, forma últimos 10, pick Lugano vence)",
+          "FootyStats — fc-lugano-vs-fk-jablonec--h2h-stats (modelo 80% Lugano; splits descartados por amostra não declarada)",
+          "Pesquisa aberta (Sky Sport DE, UEFA, Foresportia): nenhuma confirma ou desmente as baixas",
+          "Ausências: nenhuma em duas fontes concordantes — Marques, Delcroix e Hanus só no SportsGambler, API vazia"
+        ],
+        "odd_nossa": 1.61,
+        "justo_gravado_em": "2026-11-26T07:15:51.567Z",
+        "odd_justa_ref": 1.657,
+        "prob_justa": 0.6035,
+        "fonte_justa": "Pinnacle 1X2",
+        "mercado_ref": "1:DNB away",
+        "ev_justo": -0.0284,
+        "justo_at": "2026-11-26T04:12:15+00:00",
+        "clv_api": -0.0278,
+        "fecho_idade_min": 89,
+        "odd_fecho_ref": 1.656,
+        "fonte_fecho": "Pinnacle 1X2",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-26T16:16:15+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0278,
+        "result": "RED",
+        "hit": false,
+        "final_score": "2-0",
+        "return": 0,
+        "pnl": 0,
+        "note": "Jablonec 2-0 Lugano: o Lugano perdeu, com empate devolve a aposta perdia-se."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 1,
+      "push": 0,
+      "pending": 0,
+      "pnl_se_apostadas": -1,
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "iguais": 1,
+        "pnl_se_apostado": -1
+      },
+      "corvo": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.63,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao curto real: a troca seria o Bournemouth ou empate por uma vence, mas nenhuma vence da shortlist passou o filtro (Marseille e Besiktas pelo H2H, Hoffenheim e Sunderland pela forma, Ferencváros pelo Celje em grande forma) e o Bournemouth vence está a 2.06, fora da banda.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636329,
+            "match": "Union St. Gilloise vs Lech Poznan",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Union St. Gilloise vence",
+            "odds": 1.36,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Union não perde há doze jogos e ganhou os últimos cinco oficiais; o Lech tem um ponto em quatro jornadas.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Union: 1-0 Kortrijk (f), 1-0 Genk (c), 2-1 Celta (Liga Europa, f), 2-1 Beveren (f), 5-2 Cercle Brugge (c) = 5/5 vitórias",
+              "Lech, últimos 5 oficiais (API): 1-0 Katowice (f), 2-2 Zaglebie (c), 1-3 Benfica (Liga Europa, f), 3-1 Wisla (c), 0-1 Siarka (Taça, f); 35.º da Liga Europa com 1 ponto e -10 (API)",
+              "H2H: primeiro encontro oficial (API e Ratingbet sem jogos) — excepção do primeiro encontro europeu",
+              "Baixas: Union sem K. Mac Allister e Biondic (API e SportsGambler); Lech sem Sayyadmanesh (API em dúvida, SportsGambler fora). Ishak, Moutinho, Douglas e Gholizadeh só na API (o SportsGambler não os lista) — não confirmados, fora da tese; Thordarson só no SportsGambler",
+              "Starting11: o Lech joga para a Ekstraklasa dois dias depois, rotação provável; Ratingbet: Union sem perder há 12",
+              "1xBet 1.36, Pinnacle 1.37, Bet365 1.36"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-26T07:15:51.579Z",
+            "odd_justa_ref": 1.394,
+            "prob_justa": 0.7174,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0243,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": -0.0293,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.401,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0293,
+            "result": "RED",
+            "final_score": "2-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636315,
+            "match": "Plzen vs Benfica",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Benfica vence",
+            "odds": 1.49,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Benfica ganhou os últimos oito jogos e fora fez nove vitórias em dez oficiais esta época; o Plzen ganhou três dos últimos dez em casa.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Benfica: 3-1 Torreense (Taça, f), 3-2 Estrela (f), 3-1 Lech (Liga Europa, c), 1-0 Alverca (c), 4-1 Gil Vicente (Taça da Liga, c) = 5/5",
+              "Benfica fora, 2026/27, n=10 oficiais (API): 9V 0E 1D, 3,20 marcados e 0,90 sofridos",
+              "Plzen em casa, 2026/27, n=10 oficiais (API): 3V 3E 4D, 1,60 sofridos; perdeu 1-2 com o Levski e 0-3 com o Union em casa na Liga Europa",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: Barreiro fora (API e SportsGambler); Aursnes e Prestianni só na API; Plzen sem Jemelka (API e SportsGambler)",
+              "SportsGambler: pick Plzen +1.25 (vitória curta do Benfica não a contraria)",
+              "1xBet 1.49, Pinnacle 1.49, Bet365 1.45, Marathonbet 1.47"
+            ],
+            "odd_nossa": 1.49,
+            "justo_gravado_em": "2026-11-26T07:15:51.579Z",
+            "odd_justa_ref": 1.518,
+            "prob_justa": 0.6589,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:away",
+            "ev_justo": -0.0183,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": 0.0412,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.431,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0412,
+            "result": "RED",
+            "final_score": "4-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1636244,
+            "match": "Celta Vigo vs Bournemouth",
+            "league": "Liga Europa, 5.ª jornada",
+            "leagueId": 3,
+            "pick": "Bournemouth ou empate (dupla hipótese X2)",
+            "odds": 1.3,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Bournemouth leva oito vitórias seguidas, Milan incluído; o Celta ganhou um dos últimos cinco, e foi na Taça.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Bournemouth: 2-0 Nottingham Forest (c), 2-1 Ipswich (f), 3-1 Sparta Praga (Liga Europa, f), 2-0 Leeds (c), 3-0 Aston Villa (Taça da Liga, c) = 5/5 (8 vitórias seguidas)",
+              "Celta, últimos 5 oficiais (API): 1-2 Real Madrid (f), 5-0 Salamanca (Taça, f), 0-0 Levante (c), 1-2 Union (Liga Europa, c), 0-3 Rayo (f)",
+              "Classificação da Liga Europa (API): Bournemouth 2.º com 12 pontos; Celta 27.º com 3",
+              "H2H: primeiro encontro oficial (API e FootyStats) — excepção do primeiro encontro europeu",
+              "Baixas: Celta sem Borja Iglesias, Starfelt e Miguel Román (API e SportsGambler); Bournemouth sem Araujo, Juanlu Sánchez e Tóth (API e SportsGambler)",
+              "SportsGambler: pick Celta +0.5 (contra); predictions da API: vitória do Bournemouth",
+              "1xBet 1.30, Bet365 1.28, Marathonbet 1.31"
+            ],
+            "odd_nossa": 1.3,
+            "justo_gravado_em": "2026-11-26T07:15:51.579Z",
+            "odd_justa_ref": 1.371,
+            "prob_justa": 0.7293,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.052,
+            "justo_at": "2026-11-26T04:13:16+00:00",
+            "clv_api": 0.0039,
+            "fecho_idade_min": 88,
+            "odd_fecho_ref": 1.295,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:17:17+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0039,
+            "result": "GREEN",
+            "final_score": "1-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: Union St. Gilloise vence 2-2; Benfica vence 4-0."
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.88,
+        "score": 70,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra desde 10/11, sem stake. Nenhuma perna repete jogo da sombra ou dos curtos.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1636381,
+            "match": "Ajax vs FC Thun",
+            "league": "Liga Conferência, 4.ª jornada",
+            "leagueId": 848,
+            "pick": "Ajax vence e mais de 2.5 golos",
+            "odds": 1.37,
+            "kickoff": "2026-11-26T17:45:00Z",
+            "score": 70,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Ajax ganhou quatro dos últimos cinco e o Thun tem jogos de muitos golos.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Ajax: 3-0 ADO (c), 2-2 Twente (f), 6-1 Midtjylland (Liga Conferência, f), 1-0 AZ (c), 2-1 Sparta Roterdão (f) = 4/5 vitórias, mais de 2.5 em 4/5",
+              "Thun, últimos 5 oficiais (API): 2-3 Young Boys (f), 3-3 Basel (c), 3-1 Hearts (Liga Conferência, c), 5-4 Lausanne (f), 2-3 Lugano (c) = mais de 2.5 em 5/5",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: a API não lista nenhuma",
+              "Marathonbet 1.37; Ajax vence 1.16 na 1xBet"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-26T07:15:51.581Z",
+            "odd_justa_ref": 1.394,
+            "prob_justa": 0.7173,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:home/over 2.5",
+            "ev_justo": -0.0173,
+            "justo_at": "2026-11-26T04:12:15+00:00",
+            "clv_api": -0.0379,
+            "fecho_idade_min": 89,
+            "odd_fecho_ref": 1.424,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T16:16:15+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0379,
+            "result": "GREEN",
+            "final_score": "4-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1636428,
+            "match": "Inter Club d'Escaldes vs FC Copenhagen",
+            "league": "Liga Conferência, 4.ª jornada",
+            "leagueId": 848,
+            "pick": "FC Copenhagen vence e mais de 1.5 golos",
+            "odds": 1.37,
+            "kickoff": "2026-11-26T20:00:00Z",
+            "score": 72,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Copenhaga ganhou quatro dos últimos cinco e o Escaldes perdeu os três jogos da prova.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Copenhaga: 0-5 Nordsjaelland (f), 1-0 Brondby (c), 2-1 Iberia (Liga Conferência, c), 2-0 Sonderjyske (f), 3-0 Aarhus Fremad (Taça, f) = 4/5 vitórias",
+              "Inter Escaldes na Liga Conferência (API): 1-2 Crvena Zvezda (f), 1-3 Craiova (c), 0-2 Mjallby (f) = 0 pontos",
+              "H2H: primeiro encontro oficial (API) — excepção do primeiro encontro europeu",
+              "Baixas: a API não lista nenhuma",
+              "Marathonbet 1.37; Copenhaga vence 1.23 na 1xBet"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-26T07:15:51.582Z",
+            "odd_justa_ref": 1.424,
+            "prob_justa": 0.7024,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:away/over 1.5",
+            "ev_justo": -0.0377,
+            "justo_at": "2026-11-26T03:17:15+00:00",
+            "clv_api": -0.0987,
+            "fecho_idade_min": 120,
+            "odd_fecho_ref": 1.52,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-26T18:00:20+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0987,
+            "result": "RED",
+            "final_score": "2-0"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: FC Copenhagen vence e mais de 1.5 golos 2-0."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Só o Benfica vence (Marathonbet 1.47, Bet365 1.45) cabe em 1.40–1.60 com investigação de tip e score 78. O Lugano com empate devolve (Bet365 1.58) ficou em 72 e o Bournemouth com empate devolve (Bet365 1.50, Marathonbet 1.48) também em 72, com rotação provável e o SportsGambler contra."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1603080,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Al Shabab marca na 2ª parte",
+        "match": "Abha vs Al Shabab",
+        "league": "Pro League",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.666,
+        "oddMinima": 1.55,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            1
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "O Al Shabab só ganha por 1-0, mas foi só ele a jogar: 8 remates contra 3 e 1.44 de xG contra 0.08, com 19 toques na área do Abha contra 2. O Abha vai ter de abrir para ir atrás do empate e vai deixar espaço lá atrás.",
+        "confianca": 65,
+        "probImplicita": 0.6,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T15:54:42+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Away Team Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Result / Both Teams To Score",
+              "linha": "-",
+              "lado": "away/no",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Home Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "no",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Corners 1x2",
+              "linha": "-",
+              "lado": "away",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "corners 3-way/over  0.5",
+              "odd": 1.666
+            },
+            {
+              "mercado": "Both Teams to Score",
+              "linha": "-",
+              "lado": "no",
+              "odd": 1.666
+            }
+          ]
+        },
+        "sentAt": 1795708604581,
+        "probModeloA": 0.6168,
+        "pushA": 0,
+        "valorA": 0.0276,
+        "aprovaA": true,
+        "probModeloB": 0.6218,
+        "pushB": 0,
+        "valorB": 0.0359,
+        "aprovaB": true,
+        "golos2pA": 1.6857,
+        "golos2pB": 1.623,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795713608451
+      },
+      {
+        "fixtureId": 1636435,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Kairat Almaty vs Mjallby AIF",
+        "league": "UEFA Europa Conference League",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.95,
+        "oddMinima": 1.9,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Só houve 3 cantos na 1ª parte e faltam 5 na 2ª. O Mjällby está a perder e vai ter de ir para cima, e em jogos destes saem 5 ou mais cantos na 2ª parte mais de metade das vezes.",
+        "confianca": 53,
+        "probImplicita": 0.513,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T16:17:43+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "7.5",
+              "lado": "over",
+              "odd": 1.95
+            }
+          ]
+        },
+        "sentAt": 1795709976455,
+        "probModeloA": 0.4844,
+        "pushA": 0,
+        "valorA": -0.0555,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6256,
+        "golos2pB": 1.5052,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": 0.4868,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0.475,
+        "return": 0.975,
+        "resolvedAt": 1795715187213
+      },
+      {
+        "fixtureId": 1636298,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8.5 cantos no jogo",
+        "match": "Marseille vs Levski Sofia",
+        "league": "UEFA Europa League",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.2,
+        "oddMinima": 1.95,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            1
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já se bateram 4 cantos (3 do Marselha) e só faltam mais 5 na 2ª parte. Nos jogos da Liga Europa com um golo de diferença e 4 a 6 cantos ao intervalo, isso aconteceu em mais de metade das vezes, e o Marselha em casa a ganhar só por 1-0 contra o Levski vai continuar a carregar.",
+        "confianca": 52,
+        "probImplicita": 0.455,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T18:31:50+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "8",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Total Corners (3way) (2nd Half)",
+              "linha": "4",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "8.5",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Which team will score the 6th corner? (2 Way)",
+              "linha": "-",
+              "lado": "2",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Last Corner",
+              "linha": "-",
+              "lado": "2",
+              "odd": 2.2
+            }
+          ]
+        },
+        "sentAt": 1795718089134,
+        "probModeloA": 0.5059,
+        "pushA": 0,
+        "valorA": 0.113,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4671,
+        "golos2pB": 1.721,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795723270878
+      },
+      {
+        "fixtureId": 1636426,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "FC Iberia 1999 vs Getafe",
+        "league": "UEFA Europa Conference League",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.1,
+        "oddMinima": 2,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            2
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Getafe está a perder 1-0, tem 64% de bola e 10 remates, e vai ter de arriscar. As duas equipas já somam 7 remates à baliza e cada uma tem 1.04 de xG. Na Conference, jogos assim deram 2 ou mais golos na 2ª parte em 56% das vezes.",
+        "confianca": 50,
+        "probImplicita": 0.476,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T18:31:59+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "9",
+              "lado": "over",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Away 1st Goal in Interval",
+              "linha": "80",
+              "lado": "no",
+              "odd": 2.1
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "9.5",
+              "lado": "over",
+              "odd": 2.1
+            }
+          ]
+        },
+        "sentAt": 1795718090252,
+        "probModeloA": 0.5107,
+        "pushA": 0,
+        "valorA": 0.0724,
+        "aprovaA": true,
+        "probModeloB": 0.4306,
+        "pushB": 0,
+        "valorB": -0.0957,
+        "aprovaB": false,
+        "golos2pA": 1.7127,
+        "golos2pB": 1.4656,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795723270878,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1636244,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8.5 cantos no jogo",
+        "match": "Celta Vigo vs Bournemouth",
+        "league": "Liga Europa, 5.ª jornada",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            4
+          ],
+          "amarelos": [
+            0,
+            2
+          ],
+          "vermelhos": [
+            0,
+            1
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "boletim",
+        "justificacao": "Vão 4 cantos e faltam 5 na 2ª parte. O Celta joga contra dez desde os 23 minutos e ainda não teve nenhum canto, apesar de 11 remates. O Bournemouth está a perder e vai ter de ir à frente.",
+        "confianca": 55,
+        "probImplicita": 0.5,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T18:35:05+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "8",
+              "lado": "over",
+              "odd": 2
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "marcos alonso/over 0.5",
+              "odd": 2
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "sergio carreira/over 0.5",
+              "odd": 2
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "javier rodriguez/over 0.5",
+              "odd": 2
+            },
+            {
+              "mercado": "2nd Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 2
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2
+            }
+          ]
+        },
+        "sentAt": 1795718308290,
+        "probModeloA": 0.524,
+        "pushA": 0,
+        "valorA": 0.048,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5615,
+        "golos2pB": 1.5318,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0.5,
+        "return": 1,
+        "resolvedAt": 1795723270878
+      },
+      {
+        "fixtureId": 1636438,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Kauno Žalgiris vs Riga",
+        "league": "UEFA Europa Conference League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2,
+        "oddMinima": 1.95,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            2
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Riga ficou com 9 antes do intervalo: o Iago Siqueira levou o segundo amarelo aos 40' e o Pirić viu o vermelho direto aos 45+4'. O Kauno tem uma parte inteira com dois homens a mais, e com 0-0 nesta prova já saíram 2 ou mais golos na 2ª parte em 54% dos jogos parecidos, antes ainda de contar as expulsões.",
+        "confianca": 52,
+        "probImplicita": 0.5,
+        "oddAoVivoMercado": {
+          "at": "2026-11-26T18:41:51+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2
+            },
+            {
+              "mercado": "1x2 - 70 minutes",
+              "linha": "-",
+              "lado": "home",
+              "odd": 2
+            },
+            {
+              "mercado": "Asian Corners",
+              "linha": "11",
+              "lado": "under",
+              "odd": 2
+            }
+          ]
+        },
+        "sentAt": 1795718659614,
+        "probModeloA": 0.428,
+        "pushA": 0,
+        "valorA": -0.144,
+        "aprovaA": false,
+        "probModeloB": 0.4127,
+        "pushB": 0,
+        "valorB": -0.1745,
+        "aprovaB": false,
+        "golos2pA": 1.458,
+        "golos2pB": 1.4132,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795723270878,
+        "pnlSombra": 0.5
+      },
+      {
+        "fixtureId": 1636315,
+        "jogo": "Plzen vs Benfica",
+        "liga": "UEFA Europa League",
+        "pais": "World",
+        "ko": "2026-11-26T17:45:00+00:00",
+        "casa": "Plzen",
+        "visitante": "Benfica",
+        "pVisitanteMarca": 0.8958,
+        "pCasaMarca": 0.713,
+        "pRegra": 0.6387,
+        "lambdaFora": 2.2614,
+        "lambdaCasa": 1.2481,
+        "foraMarcou": 5,
+        "foraJogos": 5,
+        "casaSofreu": 3,
+        "casaJogos": 3,
+        "taxaLiga": {
+          "casa": 1.56,
+          "fora": 1.253,
+          "n": 152
+        },
+        "odd1xbet": 1.56,
+        "pJustaFormula": 0.6224,
+        "pConsenso": 0.5974,
+        "nCasas": 5,
+        "evFormula": -0.0291,
+        "evConsenso": -0.0681,
+        "oddJusta": 1.61,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.73,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-26T06:00:22+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa grave confirmada no ataque do Benfica para hoje; só o médio Florentino Barreiro aparece como ausente e o onze oficial ainda não saiu.",
+          "link": "https://starting11.com/fixtures/plzen-vs-benfica",
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1636255,
+          "jogo": "Dinamo Zagreb vs Bayer Leverkusen",
+          "ko": "2026-11-26T17:45:00+00:00",
+          "pVisitanteMarca": 0.8884,
+          "pCasaMarca": 0.6502
+        },
+        "porque": "regra do dono: Benfica marca fora 90%, Plzen marca em casa 71%; sem valor (EV -2.9% na fórmula, -6.8% no consenso de 5 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Plzen vs Benfica",
+        "league": "UEFA Europa League",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.56,
+        "frase": "O Benfica marcou em 5 dos últimos 5 jogos fora, e o Plzen sofreu em 3 dos últimos 3 em casa.",
+        "sentAt": 1795677495385,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Plzen vs Benfica</b> (17:45)\n\n📊 Benfica marca fora 90% · Plzen marca em casa 71%\n💰 1xBet <b>@1.56</b> · justo @1.61 · sem valor hoje (stake 0)\n\nO Benfica marcou em 5 dos últimos 5 jogos fora, e o Plzen sofreu em 3 dos últimos 3 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-26T16:17:35.434Z",
+        "oddPertoDoJogo": 1.56,
+        "evPertoDoJogo": {
+          "formula": -0.0339,
+          "consenso": -0.0696
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma baixa confirmada no ataque do Benfica para o jogo em Plzeň. As fontes só trazem onzes prováveis ou notícias antigas, e o onze oficial ainda não estava publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "result": "RED",
+        "finalHome": 4,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795737289174,
+        "pnlSombra": -0.5,
+        "odd_fecho_ref": 1.673,
+        "prob_fecho": 0.5976,
+        "fonte_fecho": "mediana 6 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-26T16:17:17+00:00",
+        "fecho_idade_min": 88,
+        "clv": -0.0678,
+        "prob_fecho_formula": 0.595,
+        "clv_formula": -0.0719
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "stake_total": 2,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 1.98,
+      "pnl_mensuravel": -0.03,
+      "roi_pct_mensuravel": -1.5,
+      "odds_registadas": 4,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 4,
+          "green": 2,
+          "red": 2,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    },
+    "shadow_summary": {
+      "total": 3,
+      "green": 1,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 33.33,
+      "stake_nocional": 1.5,
+      "return_nocional": 1,
+      "pnl_nocional": -0.5,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 2,
+          "green": 1,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 0,
+          "red": 1,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    }
+  },
+  "balance": 37.22,
+  "notes": "Fecho do dia: sem tip individual, dois curtos a meia stake e os dois vermelhos. O primeiro caiu no Union 2-2 com o Lech (empate) e no Benfica, que perdeu 4-0 em Plzen; o Bournemouth cumpriu (ganhou 2-1 em Vigo). O segundo caiu no Hajduk, que perdeu 0-2 com o St. Truiden, apesar do ambas marcam no NEC-Rennes (3-1) e do Anderlecht (3-1 em Creta). Intervalo: quatro alertas apostados, dois verdes (mais de 7.5 cantos no Kairat-Mjallby e mais de 8.5 cantos no Celta-Bournemouth) e dois vermelhos (Al Shabab marca na 2.ª parte, mais de 8.5 cantos no Marseille-Levski), -0.03 stakes. Em sombra: Lugano com empate devolve perdeu em Jablonec (0-2), curto-vence igual ao curto vermelho, corvo vermelho (Copenhaga perdeu 0-2 em Andorra, apesar do Ajax 4-0), a 🟢🟢 Plzen-Benfica vermelha (4-0, sem valor), mais de 2.5 do Iberia-Getafe vermelho e mais de 1.5 do Kaunas-Riga verde. Sem múltipla da jornada a entrar hoje. Dia -1.03 stakes, banca 37.22 stakes."
+}

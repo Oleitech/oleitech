@@ -152,12 +152,18 @@
           "justo_at": "2026-11-25T04:28:17+00:00",
           "clv_api": -0.0199,
           "fecho_idade_min": 104,
-          "odd_fecho_ref": 1.306,
-          "fonte_fecho": "Pinnacle 1X2",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.326,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-25T18:00:34+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0199
+          "clv": -0.0344,
+          "odd_fecho_api": 1.306,
+          "fonte_fecho_api": "Pinnacle 1X2",
+          "clv_fecho_real": -0.0344,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "E1: Bolton - West Brom",
+          "fecho_real_em": "2026-11-26T23:55:18.646Z"
         },
         {
           "sport": "football",
@@ -189,12 +195,18 @@
           "justo_at": "2026-11-25T00:44:15+00:00",
           "clv_api": -0.0994,
           "fecho_idade_min": 59,
-          "odd_fecho_ref": 1.721,
-          "fonte_fecho": "Pinnacle 1X2",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.65,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-25T18:00:34+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0994
+          "clv": -0.0607,
+          "odd_fecho_api": 1.721,
+          "fonte_fecho_api": "Pinnacle 1X2",
+          "clv_fecho_real": -0.0607,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "I2: Pisa - Modena",
+          "fecho_real_em": "2026-11-26T23:55:18.648Z"
         }
       ]
     },
@@ -277,12 +289,18 @@
           "justo_at": "2026-11-25T04:28:17+00:00",
           "clv_api": -0.0199,
           "fecho_idade_min": 104,
-          "odd_fecho_ref": 1.306,
-          "fonte_fecho": "Pinnacle 1X2",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.326,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-25T18:00:34+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0199
+          "clv": -0.0344,
+          "odd_fecho_api": 1.306,
+          "fonte_fecho_api": "Pinnacle 1X2",
+          "clv_fecho_real": -0.0344,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "E1: Bolton - West Brom",
+          "fecho_real_em": "2026-11-26T23:55:18.651Z"
         },
         {
           "sport": "football",
@@ -314,12 +332,18 @@
           "justo_at": "2026-11-25T00:44:15+00:00",
           "clv_api": -0.0994,
           "fecho_idade_min": 59,
-          "odd_fecho_ref": 1.721,
-          "fonte_fecho": "Pinnacle 1X2",
-          "fecho_fonte": "api",
+          "odd_fecho_ref": 1.65,
+          "fonte_fecho": "football-data BFEC",
+          "fecho_fonte": "football-data",
           "fecho_at": "2026-11-25T18:00:34+00:00",
           "fecho_aproximado": false,
-          "clv": -0.0994
+          "clv": -0.0607,
+          "odd_fecho_api": 1.721,
+          "fonte_fecho_api": "Pinnacle 1X2",
+          "clv_fecho_real": -0.0607,
+          "fecho_real_col": "BFEC",
+          "fecho_real_jogo": "I2: Pisa - Modena",
+          "fecho_real_em": "2026-11-26T23:55:18.651Z"
         }
       ]
     },

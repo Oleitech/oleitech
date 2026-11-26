@@ -140,26 +140,27 @@
   "2026-11-22.json",
   "2026-11-23.json",
   "2026-11-24.json",
-  "2026-11-25.json"
+  "2026-11-25.json",
+  "2026-11-26.json"
  ],
- "totalPL": -24.49,
+ "totalPL": -25.52,
  "global": {
-  "apostas": 1047,
-  "acertos": 567,
-  "hitRate": 54.15,
-  "apostado": 904,
-  "pl": -24.49,
-  "roi": -2.71
+  "apostas": 1053,
+  "acertos": 569,
+  "hitRate": 54.04,
+  "apostado": 907,
+  "pl": -25.52,
+  "roi": -2.81
  },
  "meses": [
   {
    "mes": "2026-11",
-   "dias": 25,
-   "apostas": 178,
-   "acertos": 100,
-   "apostado": 91.5,
-   "pl": 9.8,
-   "roi": 10.71
+   "dias": 26,
+   "apostas": 184,
+   "acertos": 102,
+   "apostado": 94.5,
+   "pl": 8.77,
+   "roi": 9.28
   },
   {
    "mes": "2026-10",
@@ -217,6 +218,13 @@
   }
  ],
  "dias": [
+  {
+   "date": "2026-11-26",
+   "total": 6,
+   "hits": 2,
+   "profit": -1.03,
+   "staked": 3
+  },
   {
    "date": "2026-11-25",
    "total": 5,

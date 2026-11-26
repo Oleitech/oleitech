@@ -67,7 +67,38 @@
       "frase": "O Benfica marcou em 5 dos últimos 5 jogos fora, e o Plzen sofreu em 3 dos últimos 3 em casa.",
       "sentAt": 1795677495385,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Plzen vs Benfica</b> (17:45)\n\n📊 Benfica marca fora 90% · Plzen marca em casa 71%\n💰 1xBet <b>@1.56</b> · justo @1.61 · sem valor hoje (stake 0)\n\nO Benfica marcou em 5 dos últimos 5 jogos fora, e o Plzen sofreu em 3 dos últimos 3 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-26T16:17:35.434Z",
+      "oddPertoDoJogo": 1.56,
+      "evPertoDoJogo": {
+        "formula": -0.0339,
+        "consenso": -0.0696
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma baixa confirmada no ataque do Benfica para o jogo em Plzeň. As fontes só trazem onzes prováveis ou notícias antigas, e o onze oficial ainda não estava publicado.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 3
+      },
+      "result": "RED",
+      "finalHome": 4,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795737289174,
+      "pnlSombra": -0.5,
+      "odd_fecho_ref": 1.673,
+      "prob_fecho": 0.5976,
+      "fonte_fecho": "mediana 6 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-26T16:17:17+00:00",
+      "fecho_idade_min": 88,
+      "clv": -0.0678,
+      "prob_fecho_formula": 0.595,
+      "clv_formula": -0.0719
     }
   ],
   "escolhidaEm": "2026-11-26T07:17:36.560Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-26T06:00:22+00:00",
     "mercado": "ambas sim",
     "odds": 2.24,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 2,
+    "finalAway": 0,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795737289860,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 2.612,
+    "prob_fecho": 0.3828,
+    "fonte_fecho": "mediana 6 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-26T18:00:20+00:00",
+    "fecho_idade_min": 120,
+    "clv": -0.1424,
+    "prob_fecho_formula": 0.4198,
+    "clv_formula": -0.0596
   },
   "candidatasLive": [
     {
