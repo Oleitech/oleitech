@@ -67,7 +67,38 @@
       "frase": "O Bayern München marcou em 2 dos últimos 2 jogos fora, e o Lille sofreu em 2 dos últimos 2 em casa.",
       "sentAt": 1795591084141,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Lille vs Bayern München</b> (20:00)\n\n📊 Bayern München marca fora 93% · Lille marca em casa 83%\n💰 1xBet <b>@1.61</b> · justo @1.74 · sem valor hoje (stake 0)\n\nO Bayern München marcou em 2 dos últimos 2 jogos fora, e o Lille sofreu em 2 dos últimos 2 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-25T18:36:44.798Z",
+      "oddPertoDoJogo": 1.75,
+      "evPertoDoJogo": {
+        "formula": -0.0591,
+        "consenso": -0.062
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas graves no ataque do Bayern para o jogo em Lille. As peças que apareceram são de outros jogos e o onze oficial ainda não estava publicado.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 2,
+      "finalAway": 1,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795651057698,
+      "pnlSombra": 0.305,
+      "odd_fecho_ref": 1.85,
+      "prob_fecho": 0.5406,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-25T18:00:34+00:00",
+      "fecho_idade_min": 119,
+      "clv": -0.1296,
+      "prob_fecho_formula": 0.5507,
+      "clv_formula": -0.1133
     }
   ],
   "escolhidaEm": "2026-11-25T07:17:28.686Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-25T04:45:17+00:00",
     "mercado": "ambas sim",
     "odds": 1.74,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 3,
+    "finalAway": 0,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795651058393,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 1.936,
+    "prob_fecho": 0.5167,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-25T18:00:34+00:00",
+    "fecho_idade_min": 59,
+    "clv": -0.101,
+    "prob_fecho_formula": 0.5046,
+    "clv_formula": -0.122
   },
   "candidatasLive": [
     {

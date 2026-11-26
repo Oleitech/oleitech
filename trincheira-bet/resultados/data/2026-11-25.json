@@ -1,0 +1,1356 @@
+{
+  "date": "2026-11-25",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [],
+    "accumulators": [
+      {
+        "label": "curto",
+        "combined_odds": 2.86,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Uma vitória e duas duplas hipóteses, de três provas diferentes, todas na 1xBet: Inter na Champions, West Brom no Championship e Modena na Serie B. Sem ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1635673,
+            "match": "Inter vs VfB Stuttgart",
+            "league": "Liga dos Campeões",
+            "leagueId": 2,
+            "pick": "Inter vence",
+            "odds": 1.44,
+            "kickoff": "2026-11-25T20:00:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Inter ganhou oito dos últimos dez em casa e precisa dos pontos; o Stuttgart ganhou um dos últimos três fora.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Inter: 4-4 Atalanta (f), 2-0 Como (c), 3-0 Feyenoord (Champions, f), 1-3 Milan (f), 2-0 Venezia (f) = 3/5 vitórias",
+              "Stuttgart, últimos 5 oficiais (API): 0-0 Schalke (f), 1-0 Werder (c), 0-2 Galatasaray (Champions, f), 4-2 Leverkusen (f), 1-0 Paderborn (Taça, f)",
+              "H2H: primeiro encontro oficial (API sem jogos), excepção do primeiro encontro europeu",
+              "Baixas: Inter sem Bonny, Calhanoglu e Zielinski (API e SportsGambler); Stuttgart sem Sauer (API e SportsGambler), Jaquez e Stiller (SportsGambler)",
+              "SportsGambler: Inter 8V 1E 1D nos últimos 10 em casa; pick Inter -1.5",
+              "Classificação da Champions (API): Inter 17.º com 6 pontos, Stuttgart 15.º com 7",
+              "1xBet 1.44, Pinnacle 1.42, Bet365 1.40"
+            ],
+            "odd_nossa": 1.44,
+            "justo_gravado_em": "2026-11-25T07:15:36.707Z",
+            "odd_justa_ref": 1.442,
+            "prob_justa": 0.6936,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0012,
+            "justo_at": "2026-11-25T04:20:17+00:00",
+            "clv_api": -0.0096,
+            "fecho_idade_min": 119,
+            "odd_fecho_ref": 1.454,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0096,
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1563283,
+            "match": "Bolton vs West Brom",
+            "league": "Championship (Inglaterra)",
+            "leagueId": 40,
+            "pick": "West Brom ou empate (dupla hipótese X2)",
+            "odds": 1.28,
+            "kickoff": "2026-11-25T19:45:00Z",
+            "score": 65,
+            "tese": "O West Brom não perde há sete jogos e o Bolton, 19.º, perdeu três das últimas quatro em casa.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do West Brom (Championship): 2-2 Swansea (f), 3-0 Millwall (c), 1-1 Southampton (c), 3-1 West Ham (f), 1-1 Preston (f) = 5/5 sem perder (sete seguidos)",
+              "Bolton, últimos 5 (Championship, API): 1-1 Portsmouth (c), 1-3 Derby (f), 1-0 Charlton (f), 2-3 Bristol City (c), 1-5 Middlesbrough (c); 19.º com 30 golos sofridos em 16 (API standings); West Brom 5.º",
+              "H2H oficial, últimos 5 (API, amigáveis de 2023 e 2024 excluídos): Bolton 0-2 WBA (2019), WBA 1-2 Bolton (2018), Bolton 2-2 WBA (2012), WBA 2-1 Bolton (2011), Bolton 2-0 WBA (2010) = West Brom não perdeu 3/5",
+              "Baixas: a API dá o Bolton sem McAtee, Erhahon, Hardie e Nelson e o West Brom sem Johnston, Collyer e Galves; o SportsGambler não lista nenhuma (não confirmadas)",
+              "SportsGambler: West Brom vence @2.04; API predictions: empate ou West Brom",
+              "1xBet 1.28, Bet365 1.28"
+            ],
+            "odd_nossa": 1.28,
+            "justo_gravado_em": "2026-11-25T07:15:36.709Z",
+            "odd_justa_ref": 1.343,
+            "prob_justa": 0.7446,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.0469,
+            "justo_at": "2026-11-25T04:28:17+00:00",
+            "clv_api": -0.0199,
+            "fecho_idade_min": 104,
+            "odd_fecho_ref": 1.306,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0199,
+            "result": "GREEN",
+            "final_score": "1-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1601622,
+            "match": "Pisa vs Modena",
+            "league": "Serie B (Itália)",
+            "leagueId": 136,
+            "pick": "Modena ou empate (dupla hipótese X2)",
+            "odds": 1.55,
+            "kickoff": "2026-11-25T19:00:00Z",
+            "score": 65,
+            "tese": "O Modena é segundo, não perde há cinco e não perdeu com o Pisa em nenhum dos últimos cinco encontros.",
+            "factors": [
+              "Forma API, últimos 5 do Modena (Serie B): 2-0 Juve Stabia (c), 2-0 Virtus Entella (f), 1-1 Mantova (c), 2-1 Vicenza (f), 3-0 Cesena (c) = 5/5 sem perder; 2.º com 26 pontos em 12 (API standings)",
+              "Pisa, últimos 5 (Serie B, API; o particular com o Monaco excluído): 1-0 Empoli (f), 2-2 Südtirol (c), 0-2 Avellino (f), 3-3 Palermo (c), 1-1 Verona (f) = 1 vitória; 7.º",
+              "H2H API, últimos 5 oficiais (Serie B): Pisa 1-2 Modena (2025), Modena 1-0 Pisa (2024), Pisa 2-2 Modena (2024), Modena 2-0 Pisa (2023), Modena 1-0 Pisa (2023) = Modena não perdeu 5/5",
+              "Baixas: a API não lista nenhuma; o SportsGambler dá o Pisa sem Meister (castigo) e Lusuardi e o Modena sem Acquah, Sersanti e Tonoli (uma fonte)",
+              "SportsGambler: Modena handicap +0.25 @1.81 (60-65%)",
+              "1xBet 1.55, Bet365 1.53"
+            ],
+            "odd_nossa": 1.55,
+            "justo_gravado_em": "2026-11-25T07:15:36.710Z",
+            "odd_justa_ref": 1.647,
+            "prob_justa": 0.6072,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.0589,
+            "justo_at": "2026-11-25T00:44:15+00:00",
+            "clv_api": -0.0994,
+            "fecho_idade_min": 59,
+            "odd_fecho_ref": 1.721,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0994,
+            "result": "GREEN",
+            "final_score": "1-1"
+          }
+        ],
+        "result": "GREEN",
+        "effective_odds": 2.86,
+        "return": 1.43,
+        "pnl": 0.93,
+        "note": "As três pernas certas: Inter 2-0 Stuttgart, West Brom ganhou 3-1 em Bolton, Modena empatou 1-1 em Pisa (X2). Meia stake a 2.86."
+      }
+    ],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0,
+      "total_stake": 0,
+      "total_return": 0,
+      "pnl": 0,
+      "roi_pct": 0,
+      "accumulators_total": 1,
+      "accumulators_green": 1,
+      "accumulators_red": 0,
+      "accumulators_stake": 0.5,
+      "accumulators_return": 1.43,
+      "accumulators_pnl": 0.93,
+      "combined_stake": 0.5,
+      "combined_return": 1.43,
+      "combined_pnl": 0.93,
+      "combined_roi_pct": 186
+    },
+    "sombra": [
+      {
+        "market": "favorites",
+        "marketLabel": "Empate devolve",
+        "pick": "Sporting CP vence, empate devolve (DNB)",
+        "fixtureId": 1635735,
+        "home": {
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "away": {
+          "name": "Manchester United",
+          "logo": "https://media.api-sports.io/football/teams/33.png"
+        },
+        "match": "Sporting CP vs Manchester United",
+        "league": "Liga dos Campeões, 5.ª jornada",
+        "leagueLogo": "https://media.api-sports.io/football/leagues/2.png",
+        "kickoff": "2026-11-25T20:00:00Z",
+        "odds": 1.98,
+        "bookmaker": "1xBet",
+        "score": 78,
+        "stake": 0,
+        "context_depth": "full",
+        "tese": "O Sporting ganhou os cinco últimos jogos oficiais com um golo sofrido e, em casa, venceu sete de dez esta época e marcou em todos. O United está do avesso fora de casa: oito jogos oficiais sem ganhar, mais de dois golos sofridos por jogo, e chega a Alvalade sem Sesko, Baleba, Ugarte e Rashford, com o Pochettino no segundo jogo depois de levar quatro em Anfield. O mercado põe o jogo dividido pelo nome do United; a forma não está dividida. Com empate devolve, um empate não custa nada e a vitória paga quase o dobro. O risco é o treinador novo mexer com a equipa e o Bruno Fernandes, que sozinho decide jogos.",
+        "factors": [
+          "Forma API, Sporting em casa 2026/27, todos os jogos oficiais (n=10): 4-0 UD da Serra (Taça), 1-0 Moreirense, 2-1 Marítimo (Taça da Liga), 1-2 Académico Viseu, 2-3 Lask (Champions), 2-2 Arouca, 3-1 Galatasaray (Champions), 2-0 Nacional, 3-1 Alverca, 3-2 Vitória SC: 7V 1E 2D, marcou em 10/10, ambas marcam 6/10, baliza a zero 2/10",
+          "Forma API, United fora 2026/27, todos os jogos oficiais (n=8): 0-4 Liverpool, 0-2 Chelsea, 1-4 Como (Champions), 1-1 Leeds, 0-2 Atlético (Champions), 1-1 Fulham, 2-2 Everton, 0-2 Hull: 0V 3E 5D, 0,63 marcados e 2,13 sofridos por jogo, baliza a zero 0/8, em branco 4/8, ambas marcam 3/8",
+          "Últimos 5 oficiais (API): Sporting 4-0, 1-0, 1-0 em Donetsk (Champions), 2-0 em Casa Pia, 2-1 = 5 vitórias e 1 golo sofrido; United sofreu 19 golos nos últimos 6 oficiais (0-4, 4-4, 3-2, 0-2, 0-3, 1-4)",
+          "Classificação da Champions (API standings, 4 jogos): Sporting 12.º com 9 pontos (+4); United 19.º com 6 (0)",
+          "Treinador: Pochettino no United desde 18/11 (Forza Football e resumo da antevisão da UEFA via pesquisa); estreou-se com 0-4 em Anfield no domingo e este é o primeiro jogo dele na Champions",
+          "Baixas em duas fontes: United sem Sesko (API, SportsGambler, Forza), Baleba (API, SportsGambler, Forza), Ugarte (API, Forza) e Rashford (API e SportsGambler; a Forza dá dúvida). Cunha castigado só na API (não confirmado; o onze provável do SportsGambler já não o tem). Sporting sem Nuno Santos e Debast (API, SportsGambler, Forza); Ioannidis em dúvida só na Forza",
+          "H2H: dois jogos oficiais, ambos na Champions de 2007/08, duas vitórias do United (Forebet); a API não os tem. Contexto sem peso, 18 anos depois",
+          "Probabilidade de vitória: Pinnacle 2.54/3.82/2.66 (sem margem cerca de 38%/25%/36%); SportsGambler 56% implícito no handicap 0 e 60-65% pela casa; Forebet prevê 2-2 com 37% para o empate (com empate devolve, o empate não perde)",
+          "Terceiros: SportsGambler handicap 0 do Sporting @1.78 como aposta principal; Forza Football dá Sporting vence como aposta de valor (ambas marcam como principal); Forebet empate. Ninguém dá o United",
+          "Preço do Sporting com empate devolve (handicap 0): 1xBet 1.98, Marathonbet 1.92, Pinnacle 1.91, William Hill 1.85, Bet365 1.83",
+          "Descartado por falta de proveniência: o quadro casa/fora do FootyStats (Sporting 50% de vitórias em casa, United 0% fora, xGA fora 1.90) não declara competição nem amostra",
+          "Stake: score 78 dá uma stake; context full"
+        ],
+        "sources": [
+          "API-Football: /fixtures?team=228&last=16 e team=33&last=16, /injuries?fixture=1635735, /predictions?fixture=1635735, /standings?league=2&season=2026, /odds?fixture=1635735 (10 casas), /fixtures/headtohead 228-33 (vazio)",
+          "SportsGambler: sporting-vs-manchester-united-prediction-lineups-odds-2026-11-25 (baixas com data de regresso, onzes prováveis, forma, pick handicap 0 @1.78)",
+          "Forza Football: sporting-vs-manchester-united-champions-league-predictions-odds (baixas, Pochettino desde 18/11, picks)",
+          "Forebet: sporting-cp-manchester-united-2547613 via pesquisa (H2H 2007, previsão 2-2); a página de antevisão deu 403",
+          "FootyStats: sporting-clube-de-portugal-vs-manchester-united-fc-h2h-stats (lido; splits descartados por falta de competição e amostra)",
+          "Ausências em duas fontes: Sesko, Baleba, Ugarte, Rashford (United) e Nuno Santos, Debast (Sporting) concordantes entre API e SportsGambler/Forza; Cunha só numa fonte, registado como não confirmado"
+        ],
+        "odd_nossa": 1.98,
+        "justo_gravado_em": "2026-11-25T07:15:36.703Z",
+        "odd_justa_ref": 1.954,
+        "prob_justa": 0.5119,
+        "fonte_justa": "Pinnacle 1X2",
+        "mercado_ref": "1:DNB home",
+        "ev_justo": 0.0135,
+        "justo_at": "2026-11-25T06:00:20+00:00",
+        "banda_190_210": true,
+        "odd_1xbet": 1.98,
+        "ev_publicacao": 0.0136,
+        "stake_proposta": 1,
+        "shadow": true,
+        "motivo_sombra": "Odd 1.98, na banda 1.90–2.10 sem valor: EV 1.4% na 1xBet a 1.98 contra o justo 1.954 (Pinnacle 1X2), abaixo de +2% (decisão do dono 09/11).",
+        "clv_api": -0.037,
+        "fecho_idade_min": 119,
+        "odd_fecho_ref": 2.056,
+        "fonte_fecho": "Pinnacle 1X2",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-25T18:00:34+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.037,
+        "result": "PUSH",
+        "hit": null,
+        "final_score": "2-2",
+        "return": 0,
+        "pnl": 0,
+        "note": "Sporting 2-2 Manchester United: empate, com empate devolve a aposta é devolvida."
+      }
+    ],
+    "sombra_summary": {
+      "total": 1,
+      "green": 0,
+      "red": 0,
+      "push": 1,
+      "pending": 0,
+      "pnl_se_apostadas": 0,
+      "curto_vence": {
+        "total": 1,
+        "green": 1,
+        "red": 0,
+        "iguais": 1,
+        "pnl_se_apostado": 1.86
+      },
+      "corvo": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.86,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao curto real: não há outra perna vence na shortlist entre 1.25 e 1.55 (West Brom vence a 1.99 e Modena vence a 3.06 ficam fora da banda), por isso as duas duplas hipóteses ficam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1635673,
+            "match": "Inter vs VfB Stuttgart",
+            "league": "Liga dos Campeões",
+            "leagueId": 2,
+            "pick": "Inter vence",
+            "odds": 1.44,
+            "kickoff": "2026-11-25T20:00:00Z",
+            "score": 65,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Inter ganhou oito dos últimos dez em casa e precisa dos pontos; o Stuttgart ganhou um dos últimos três fora.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Inter: 4-4 Atalanta (f), 2-0 Como (c), 3-0 Feyenoord (Champions, f), 1-3 Milan (f), 2-0 Venezia (f) = 3/5 vitórias",
+              "Stuttgart, últimos 5 oficiais (API): 0-0 Schalke (f), 1-0 Werder (c), 0-2 Galatasaray (Champions, f), 4-2 Leverkusen (f), 1-0 Paderborn (Taça, f)",
+              "H2H: primeiro encontro oficial (API sem jogos), excepção do primeiro encontro europeu",
+              "Baixas: Inter sem Bonny, Calhanoglu e Zielinski (API e SportsGambler); Stuttgart sem Sauer (API e SportsGambler), Jaquez e Stiller (SportsGambler)",
+              "SportsGambler: Inter 8V 1E 1D nos últimos 10 em casa; pick Inter -1.5",
+              "Classificação da Champions (API): Inter 17.º com 6 pontos, Stuttgart 15.º com 7",
+              "1xBet 1.44, Pinnacle 1.42, Bet365 1.40"
+            ],
+            "odd_nossa": 1.44,
+            "justo_gravado_em": "2026-11-25T07:15:36.710Z",
+            "odd_justa_ref": 1.442,
+            "prob_justa": 0.6936,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0012,
+            "justo_at": "2026-11-25T04:20:17+00:00",
+            "clv_api": -0.0096,
+            "fecho_idade_min": 119,
+            "odd_fecho_ref": 1.454,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0096,
+            "result": "GREEN",
+            "final_score": "2-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1563283,
+            "match": "Bolton vs West Brom",
+            "league": "Championship (Inglaterra)",
+            "leagueId": 40,
+            "pick": "West Brom ou empate (dupla hipótese X2)",
+            "odds": 1.28,
+            "kickoff": "2026-11-25T19:45:00Z",
+            "score": 65,
+            "tese": "O West Brom não perde há sete jogos e o Bolton, 19.º, perdeu três das últimas quatro em casa.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do West Brom (Championship): 2-2 Swansea (f), 3-0 Millwall (c), 1-1 Southampton (c), 3-1 West Ham (f), 1-1 Preston (f) = 5/5 sem perder (sete seguidos)",
+              "Bolton, últimos 5 (Championship, API): 1-1 Portsmouth (c), 1-3 Derby (f), 1-0 Charlton (f), 2-3 Bristol City (c), 1-5 Middlesbrough (c); 19.º com 30 golos sofridos em 16 (API standings); West Brom 5.º",
+              "H2H oficial, últimos 5 (API, amigáveis de 2023 e 2024 excluídos): Bolton 0-2 WBA (2019), WBA 1-2 Bolton (2018), Bolton 2-2 WBA (2012), WBA 2-1 Bolton (2011), Bolton 2-0 WBA (2010) = West Brom não perdeu 3/5",
+              "Baixas: a API dá o Bolton sem McAtee, Erhahon, Hardie e Nelson e o West Brom sem Johnston, Collyer e Galves; o SportsGambler não lista nenhuma (não confirmadas)",
+              "SportsGambler: West Brom vence @2.04; API predictions: empate ou West Brom",
+              "1xBet 1.28, Bet365 1.28"
+            ],
+            "odd_nossa": 1.28,
+            "justo_gravado_em": "2026-11-25T07:15:36.710Z",
+            "odd_justa_ref": 1.343,
+            "prob_justa": 0.7446,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.0469,
+            "justo_at": "2026-11-25T04:28:17+00:00",
+            "clv_api": -0.0199,
+            "fecho_idade_min": 104,
+            "odd_fecho_ref": 1.306,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0199,
+            "result": "GREEN",
+            "final_score": "1-3"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1601622,
+            "match": "Pisa vs Modena",
+            "league": "Serie B (Itália)",
+            "leagueId": 136,
+            "pick": "Modena ou empate (dupla hipótese X2)",
+            "odds": 1.55,
+            "kickoff": "2026-11-25T19:00:00Z",
+            "score": 65,
+            "tese": "O Modena é segundo, não perde há cinco e não perdeu com o Pisa em nenhum dos últimos cinco encontros.",
+            "factors": [
+              "Forma API, últimos 5 do Modena (Serie B): 2-0 Juve Stabia (c), 2-0 Virtus Entella (f), 1-1 Mantova (c), 2-1 Vicenza (f), 3-0 Cesena (c) = 5/5 sem perder; 2.º com 26 pontos em 12 (API standings)",
+              "Pisa, últimos 5 (Serie B, API; o particular com o Monaco excluído): 1-0 Empoli (f), 2-2 Südtirol (c), 0-2 Avellino (f), 3-3 Palermo (c), 1-1 Verona (f) = 1 vitória; 7.º",
+              "H2H API, últimos 5 oficiais (Serie B): Pisa 1-2 Modena (2025), Modena 1-0 Pisa (2024), Pisa 2-2 Modena (2024), Modena 2-0 Pisa (2023), Modena 1-0 Pisa (2023) = Modena não perdeu 5/5",
+              "Baixas: a API não lista nenhuma; o SportsGambler dá o Pisa sem Meister (castigo) e Lusuardi e o Modena sem Acquah, Sersanti e Tonoli (uma fonte)",
+              "SportsGambler: Modena handicap +0.25 @1.81 (60-65%)",
+              "1xBet 1.55, Bet365 1.53"
+            ],
+            "odd_nossa": 1.55,
+            "justo_gravado_em": "2026-11-25T07:15:36.710Z",
+            "odd_justa_ref": 1.647,
+            "prob_justa": 0.6072,
+            "fonte_justa": "Pinnacle 1X2",
+            "mercado_ref": "1:Draw/Away",
+            "ev_justo": -0.0589,
+            "justo_at": "2026-11-25T00:44:15+00:00",
+            "clv_api": -0.0994,
+            "fecho_idade_min": 59,
+            "odd_fecho_ref": 1.721,
+            "fonte_fecho": "Pinnacle 1X2",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0994,
+            "result": "GREEN",
+            "final_score": "1-1"
+          }
+        ],
+        "result": "GREEN",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": 1.86,
+        "note": "As três pernas certas, igual ao curto real."
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.98,
+        "score": 72,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra desde 10/11, sem stake. Nenhuma perna repete jogo das tips ou do curto.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1635625,
+            "match": "Atletico Madrid vs Viking",
+            "league": "Liga dos Campeões",
+            "leagueId": 2,
+            "pick": "Atletico Madrid vence e mais de 2.5 golos",
+            "odds": 1.32,
+            "kickoff": "2026-11-25T20:00:00Z",
+            "score": 72,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O Atlético tem de ganhar e o Viking marca e sofre em todos os jogos; o risco é o Atlético andar com poucos golos.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do Atlético: 3-0 Getafe (f), 1-2 Barcelona (c), 0-2 Bayern (Champions, c), 2-0 Levante (f), 1-0 Deportivo (c) = 3/5",
+              "Viking, últimos 8 oficiais (API): marcou em 8/8 e houve 3+ golos em 8/8 (3-3 com o Bayern, 1-3 com o Aston Villa, 4-1 ao Sabah)",
+              "Jogos do Atlético com 3+ golos: só 2 dos últimos 8 (API), o ponto fraco da perna",
+              "H2H: primeiro encontro oficial",
+              "Baixas (API, uma fonte): Atlético sem Lookman e C. Romero; Viking sem Bjorshol, Haugen e Roseth, quatro em dúvida",
+              "Champions (API): Atlético 26.º com 4 pontos, precisa de ganhar"
+            ],
+            "odd_nossa": 1.32,
+            "justo_gravado_em": "2026-11-25T07:15:36.712Z",
+            "odd_justa_ref": 1.358,
+            "prob_justa": 0.7362,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:home/over 2.5",
+            "ev_justo": -0.0283,
+            "justo_at": "2026-11-25T06:00:20+00:00",
+            "clv_api": -0.0222,
+            "fecho_idade_min": 119,
+            "odd_fecho_ref": 1.35,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0222,
+            "result": "RED",
+            "final_score": "2-0"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1635703,
+            "match": "Paris Saint Germain vs AS Roma",
+            "league": "Liga dos Campeões",
+            "leagueId": 2,
+            "pick": "Paris Saint Germain vence e mais de 1.5 golos",
+            "odds": 1.5,
+            "kickoff": "2026-11-25T20:00:00Z",
+            "score": 72,
+            "excepcao_primeiro_encontro": true,
+            "tese": "O PSG ganhou os últimos sete oficiais, quase todos com dois ou mais golos; a Roma marca muito e é o risco.",
+            "factors": [
+              "Forma API, últimos 5 oficiais do PSG: 3-2 Nice (f), 1-0 Troyes (c), 6-0 Villarreal (Champions, f), 5-1 Le Havre (f), 2-0 Lyon (c) = 5/5 (sete seguidas)",
+              "Roma marcou em 8/8 dos últimos oficiais (API) e ganhou 4 dos últimos 5: adversário em boa forma",
+              "H2H: só um particular em 2017 (1-1), primeiro encontro oficial",
+              "Baixas: PSG sem Kvaratskhelia (API; AFP na pesquisa de 24/11) e Doué (API, uma fonte); Roma sem Pellegrini (API)"
+            ],
+            "odd_nossa": 1.5,
+            "justo_gravado_em": "2026-11-25T07:15:36.713Z",
+            "odd_justa_ref": 1.628,
+            "prob_justa": 0.6141,
+            "fonte_justa": "mediana 1 casa",
+            "mercado_ref": "25:home/over 1.5",
+            "ev_justo": -0.0789,
+            "justo_at": "2026-11-25T04:20:17+00:00",
+            "clv_api": -0.1023,
+            "fecho_idade_min": 119,
+            "odd_fecho_ref": 1.671,
+            "fonte_fecho": "mediana 1 casa",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-25T18:00:34+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.1023,
+            "result": "RED",
+            "final_score": "2-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perna falhada em duas: Atlético 2-0 Viking (vence, mas só dois golos) e PSG 2-2 Roma (empate)."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Só uma perna de 1.40 a 1.60 com investigação de tip e 75: o Inter vence (Bet365 1.40). O Sporting com empate devolve está acima da banda (1.83 a 1.98) e os outros favoritos da noite vêm com titulares de baixa (Bayern, Liverpool, PSG)."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1635728,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Slavia Praha vs Villarreal",
+        "league": "UEFA Champions League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.45,
+        "oddMinima": 2.45,
+        "precoAoVivo": false,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            7,
+            0
+          ],
+          "amarelos": [
+            2,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0 e a 1ª parte foi pobre: 2 remates à baliza no total. Mesmo assim, em jogos de Champions assim saíram 2 ou mais golos na 2ª parte quase metade das vezes. Só se entra a 2.45 ou mais, e o ideal é apanhar 2.60.",
+        "confianca": 41,
+        "probImplicita": 0.408,
+        "oddAoVivoMercado": null,
+        "sentAt": 1795631657886,
+        "probModeloA": 0.4579,
+        "pushA": 0,
+        "valorA": 0.1218,
+        "aprovaA": true,
+        "probModeloB": 0.4766,
+        "pushB": 0,
+        "valorB": 0.1677,
+        "aprovaB": true,
+        "golos2pA": 1.5473,
+        "golos2pB": 1.6047,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795636924073,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1601615,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 12 cantos no jogo (asiático: com 12 devolve)",
+        "match": "Cremonese vs Avellino",
+        "league": "Serie B (Itália)",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.2,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            4
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Já vão 7 cantos ao intervalo, e a Cremonese, em casa e a 0-0, rematou 12 vezes, com 4 remates bloqueados. Faltam 6 cantos na 2ª parte para ganhar, e com 5 o dinheiro volta.",
+        "confianca": 46,
+        "probImplicita": 0.455,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T18:46:57+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Total Corners",
+              "linha": "11.5",
+              "lado": "under",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "12",
+              "lado": "over",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "12",
+              "lado": "under",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Home Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "no",
+              "odd": 2.2
+            },
+            {
+              "mercado": "Away Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2.2
+            }
+          ]
+        },
+        "sentAt": 1795632571011,
+        "probModeloA": 0.4614,
+        "pushA": 0.1634,
+        "valorA": 0.1784,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6632,
+        "golos2pB": 1.3188,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795636924073
+      },
+      {
+        "fixtureId": 1601619,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 8.5 cantos no jogo",
+        "match": "Mantova vs Arezzo",
+        "league": "Serie B (Itália)",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 2,
+        "oddMinima": 1.85,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            2
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Já vão 4 cantos e faltam 5 na 2ª parte. Em jogos com um golo de diferença ao intervalo, isso aconteceu em 57% das vezes. Com o Arezzo obrigado a ir atrás do empate e o Mantova a rematar mais (8 contra 3), a 2.00 paga mais do que devia.",
+        "confianca": 54,
+        "probImplicita": 0.5,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T19:51:26+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Which team will score the 2nd goal?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 2
+            },
+            {
+              "mercado": "Both Teams to Score",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2
+            },
+            {
+              "mercado": "Last Corner",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2
+            },
+            {
+              "mercado": "Asian Corners",
+              "linha": "8.5",
+              "lado": "over",
+              "odd": 2
+            },
+            {
+              "mercado": "Away Team Score a Goal (2nd Half)",
+              "linha": "-",
+              "lado": "yes",
+              "odd": 2
+            }
+          ]
+        },
+        "sentAt": 1795636431367,
+        "probModeloA": 0.5321,
+        "pushA": 0,
+        "valorA": 0.0643,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.5172,
+        "golos2pB": 1.5041,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 3,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795641332465
+      },
+      {
+        "fixtureId": 1563286,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 7.5 cantos no jogo",
+        "match": "Watford vs Blackburn",
+        "league": "Championship",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.533,
+        "oddMinima": 1.5,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            0
+          ],
+          "amarelos": [
+            1,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Ao intervalo há só 3 cantos, todos do Watford, que tem 58% de bola e 3 remates à baliza contra 0. Bastam 5 cantos na 2ª parte, e na Championship isso acontece em perto de 7 jogos em cada 10 quando está 0-0 e a 1ª parte deu poucos cantos.",
+        "confianca": 67,
+        "probImplicita": 0.652,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T20:33:37+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "7",
+              "lado": "over",
+              "odd": 1.533
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "cards/under  0.5",
+              "odd": 1.533
+            }
+          ]
+        },
+        "sentAt": 1795638990675,
+        "probModeloA": 0.6461,
+        "pushA": 0,
+        "valorA": -0.0095,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.3636,
+        "golos2pB": 1.3297,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": true
+        },
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0.26649999999999996,
+        "return": 0.7665,
+        "resolvedAt": 1795644120866
+      },
+      {
+        "fixtureId": 1635682,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 2.5 golos no jogo",
+        "match": "Lille vs Bayern München",
+        "league": "UEFA Champions League",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.909,
+        "oddMinima": 1.8,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            2,
+            3
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "O Bayern já fez 5 remates à baliza e o Lille, a perder em casa, também chega lá (2 à baliza, 0.59 de xG). Faltam dois golos na 2ª parte para um jogo em que os dois atacam, e a 1.90 a casa paga como se fosse moeda ao ar.",
+        "confianca": 56,
+        "probImplicita": 0.524,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T20:47:08+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "ayase ueda/over 3.5",
+              "odd": 1.909
+            },
+            {
+              "mercado": "3-Way Handicap",
+              "linha": "2",
+              "lado": "home",
+              "odd": 1.909
+            },
+            {
+              "mercado": "3-Way Handicap",
+              "linha": "-1",
+              "lado": "away",
+              "odd": 1.909
+            },
+            {
+              "mercado": "Corners European Handicap",
+              "linha": "2",
+              "lado": "home",
+              "odd": 1.909
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "over",
+              "odd": 1.909
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "2.5",
+              "lado": "under",
+              "odd": 1.909
+            }
+          ]
+        },
+        "sentAt": 1795639793373,
+        "probModeloA": 0.5448,
+        "pushA": 0,
+        "valorA": 0.0399,
+        "aprovaA": true,
+        "probModeloB": 0.4683,
+        "pushB": 0,
+        "valorB": -0.1061,
+        "aprovaB": false,
+        "golos2pA": 1.8257,
+        "golos2pB": 1.579,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795644120866,
+        "pnlSombra": 0.4545
+      },
+      {
+        "fixtureId": 1635724,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Shakhtar Donetsk vs Fenerbahçe",
+        "league": "UEFA Champions League",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.3,
+        "oddMinima": 2.1,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            2
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0, mas já houve 3 remates à baliza e um golo do Muriqi anulado pelo VAR. Em jogos assim na Champions saíram dois ou mais golos na 2ª parte em mais de metade das vezes, e aqui pagam 2.30.",
+        "confianca": 48,
+        "probImplicita": 0.435,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T20:50:53+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Over/Under Line",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.3
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.3
+            }
+          ]
+        },
+        "sentAt": 1795639995161,
+        "probModeloA": 0.4957,
+        "pushA": 0,
+        "valorA": 0.1402,
+        "aprovaA": true,
+        "probModeloB": 0.4331,
+        "pushB": 0,
+        "valorB": -0.0039,
+        "aprovaB": false,
+        "golos2pA": 1.6647,
+        "golos2pB": 1.473,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795644120866,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1635642,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 11.5 cantos no jogo",
+        "match": "Club Brugge KV vs Liverpool",
+        "league": "UEFA Champions League",
+        "elapsed": 45,
+        "score": "0-1",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.833,
+        "oddMinima": 1.7,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            3
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já se marcaram 6 cantos, 3 para cada lado, e a casa pede mais 6 na 2ª parte. Na Champions, com um golo de diferença ao intervalo, a média da 2ª parte anda nos 5 cantos e só metade dos jogos chega a 5.",
+        "confianca": 60,
+        "probImplicita": 0.546,
+        "oddAoVivoMercado": {
+          "at": "2026-11-25T20:51:30+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Total Corners",
+              "linha": "11.5",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "11.5",
+              "lado": "under",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "11",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "12",
+              "lado": "under",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "bradley barcola/over 2.5",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "carlos forbs/over 1.5",
+              "odd": 1.833
+            }
+          ]
+        },
+        "sentAt": 1795639995181,
+        "probModeloA": 0.6113,
+        "pushA": 0,
+        "valorA": 0.1205,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.9196,
+        "golos2pB": 2.1003,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 3,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795644120866
+      },
+      {
+        "fixtureId": 1635682,
+        "jogo": "Lille vs Bayern München",
+        "liga": "UEFA Champions League",
+        "pais": "World",
+        "ko": "2026-11-25T20:00:00+00:00",
+        "casa": "Lille",
+        "visitante": "Bayern München",
+        "pVisitanteMarca": 0.9258,
+        "pCasaMarca": 0.829,
+        "pRegra": 0.7675,
+        "lambdaFora": 2.6015,
+        "lambdaCasa": 1.7662,
+        "foraMarcou": 2,
+        "foraJogos": 2,
+        "casaSofreu": 2,
+        "casaJogos": 2,
+        "taxaLiga": {
+          "casa": 1.876,
+          "fora": 1.328,
+          "n": 171
+        },
+        "odd1xbet": 1.61,
+        "pJustaFormula": 0.5746,
+        "pConsenso": 0.5737,
+        "nCasas": 6,
+        "evFormula": -0.0749,
+        "evConsenso": -0.0763,
+        "oddJusta": 1.74,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.8,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-25T04:20:17+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Bayern para o jogo em Lille. As pesquisas só devolveram páginas sem conteúdo ou notícias de outros jogos, e o onze oficial ainda não estava publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 3
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1635642,
+          "jogo": "Club Brugge KV vs Liverpool",
+          "ko": "2026-11-25T20:00:00+00:00",
+          "pVisitanteMarca": 0.8896,
+          "pCasaMarca": 0.9169
+        },
+        "porque": "regra do dono: Bayern München marca fora 93%, Lille marca em casa 83%; sem valor (EV -7.5% na fórmula, -7.6% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Lille vs Bayern München",
+        "league": "UEFA Champions League",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.61,
+        "frase": "O Bayern München marcou em 2 dos últimos 2 jogos fora, e o Lille sofreu em 2 dos últimos 2 em casa.",
+        "sentAt": 1795591084141,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Lille vs Bayern München</b> (20:00)\n\n📊 Bayern München marca fora 93% · Lille marca em casa 83%\n💰 1xBet <b>@1.61</b> · justo @1.74 · sem valor hoje (stake 0)\n\nO Bayern München marcou em 2 dos últimos 2 jogos fora, e o Lille sofreu em 2 dos últimos 2 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-25T18:36:44.798Z",
+        "oddPertoDoJogo": 1.75,
+        "evPertoDoJogo": {
+          "formula": -0.0591,
+          "consenso": -0.062
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas graves no ataque do Bayern para o jogo em Lille. As peças que apareceram são de outros jogos e o onze oficial ainda não estava publicado.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 2,
+        "finalAway": 1,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795651057698,
+        "pnlSombra": 0.305,
+        "odd_fecho_ref": 1.85,
+        "prob_fecho": 0.5406,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-25T18:00:34+00:00",
+        "fecho_idade_min": 119,
+        "clv": -0.1296,
+        "prob_fecho_formula": 0.5507,
+        "clv_formula": -0.1133
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "green": 1,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 25,
+      "stake_total": 2,
+      "stake_mensuravel": 2,
+      "return_mensuravel": 0.77,
+      "pnl_mensuravel": -1.23,
+      "roi_pct_mensuravel": -61.67,
+      "odds_registadas": 4,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 4,
+          "green": 1,
+          "red": 3,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    },
+    "shadow_summary": {
+      "total": 4,
+      "green": 2,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 50,
+      "stake_nocional": 2,
+      "return_nocional": 1.76,
+      "pnl_nocional": -0.24,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 3,
+          "green": 1,
+          "red": 2,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    }
+  },
+  "balance": 38.25,
+  "notes": "Quarta com um curto e nenhuma tip simples. O curto entrou todo (Inter 2-0, West Brom 3-1 em Bolton, Modena 1-1 em Pisa), +0.93 stakes. Quatro alertas do intervalo apostados: só o mais de 7.5 cantos do Watford-Blackburn ganhou; Cremonese-Avellino, Mantova-Arezzo e o menos de 11.5 cantos do Brugge-Liverpool perderam, -1.23 stakes. Em sombra: Sporting-United 2-2 empate devolve (PUSH), curto-vence verde, corvo vermelho (Atlético só 2-0 e PSG empatou 2-2), a 🟢🟢 Lille-Bayern verde (2-1, sem valor), o mais de 2.5 do Lille-Bayern verde e os mais de 1.5 golos de Slavia-Villarreal e Shakhtar-Fenerbahçe vermelhos. Sem múltipla da jornada a entrar hoje. Dia -0.30 stakes, banca 38.25 stakes."
+}
