@@ -1,0 +1,59 @@
+{
+  "gerado": "2026-11-26T07:01:42.173Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1492478,
+      "data": "2026-11-26T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Sao Paulo - Remo",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.2,
+          "previsao": 28.5,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 26.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.601,
+            "prob_da_casa": 0.5,
+            "edge": 9.9,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 9.5,
+          "previsao": 9.2,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": -0.3,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.401,
+            "prob_da_casa": 0.5,
+            "edge": -26.5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

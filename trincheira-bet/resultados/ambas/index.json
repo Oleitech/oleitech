@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-25T23:57:38.746Z",
+  "atualizado": "2026-11-26T07:18:15.394Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 16,
+    "escolhas": 17,
     "liquidadas": 16,
     "acertos": 12,
     "clvMedio": -0.062,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-26",
+      "jogo": "Plzen vs Benfica",
+      "liga": "UEFA Europa League",
+      "ko": "2026-11-26T17:45:00+00:00",
+      "odd": 1.56,
+      "oddJusta": 1.61,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8958,
+      "pCasaMarca": 0.713,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-25",
       "jogo": "Lille vs Bayern München",
