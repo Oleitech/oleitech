@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "generated_at": "2026-11-27T07:20:57.813Z",
   "units": "stakes",
-  "notes": "Sexta de clubes com as cinco grandes ligas em campo, mas pouco valor nos jogos grandes. Saíram duas tips.\n\nA principal é o ambas marcam no Groningen-Willem II. O Groningen em casa marca sempre mas sofre muito, e o Willem II, último e ainda sem vitórias, mesmo assim marcou em seis das sete deslocações. O risco é o ataque do Willem II fora, que cria pouco.\n\nA segunda é o menos de 2.5 no dérbi da Madeira, a meia stake como sempre neste mercado. O Nacional fora quase não marca, mas o Marítimo sofre muito em casa e há quem vá nos golos.\n\nAs duas fazem um acumulador a 2.84, a meia stake porque a do Marítimo puxa o score para baixo. Há também um curto a 2.61 na 1xBet, com o Coleraine, o NAC e o ambas marcam no VVV-Venlo contra o Waalwijk.\n\nA múltipla da jornada não sai esta semana. Dos favoritos com preço, quase todos caíram pela forma, pelo histórico com o adversário ou por baixas, e os jogos de domingo e segunda ainda não têm segunda fonte para as baixas. Não se força boletim.\n\nFicaram de fora o Bolonha, que anda a perder preço desde ontem, e o Altach, que não marca fora há cinco jogos.\n\nO ambas marcam do Groningen ficou a meia stake: as listas de baixas do Groningen não batem entre as duas fontes, por isso a análise conta como parcial.\n\nExposição do dia: 2 stakes.",
+  "notes": "Sexta de clubes com as cinco grandes ligas em campo, mas pouco valor nos jogos grandes. Saíram duas tips.\n\nA principal é o ambas marcam no Groningen-Willem II. O Groningen em casa marca sempre mas sofre muito, e o Willem II, último e ainda sem vitórias, mesmo assim marcou em seis das sete deslocações. O risco é o ataque do Willem II fora, que cria pouco.\n\nA segunda é o menos de 2.5 no dérbi da Madeira, a meia stake como sempre neste mercado. O Nacional fora quase não marca, mas o Marítimo sofre muito em casa e há quem vá nos golos.\n\nAs duas fazem um acumulador a 2.84, a meia stake porque a do Marítimo puxa o score para baixo. Há também um curto a 2.61 na 1xBet, com o Coleraine, o NAC e o ambas marcam no VVV-Venlo contra o Waalwijk.\n\nE sai a múltipla da jornada, a meia stake na 1xBet a 4.45, com o Leuven hoje contra o Kortrijk, o Leeds no sábado com o Coventry e a Union no domingo com o Gent. A segunda não sai: o Atlético e o Milan ficaram sem preço da 1xBet e as pernas que sobram não chegam para outra sem jogos em comum. O Athletic ficou de fora por jogar sem os dois pontas de lança, e o Flamengo, o Braga, o Marselha e o Brugge porque ainda não há segunda fonte para as baixas.\n\nFicaram de fora o Bolonha, que anda a perder preço desde ontem, e o Altach, que não marca fora há cinco jogos.\n\nO ambas marcam do Groningen ficou a meia stake: as listas de baixas do Groningen não batem entre as duas fontes, por isso a análise conta como parcial.\n\nExposição do dia: duas stakes e meia (meia na múltipla da jornada).",
   "tips": [
     {
       "market": "btts",
@@ -422,15 +422,100 @@
           "justo_at": "2026-11-27T06:00:47+00:00"
         }
       ]
+    },
+    {
+      "label": "multipla-jornada",
+      "jornada_id": "clubes-2026-11-27",
+      "variante": "A",
+      "nome": "🎯 Múltipla da jornada A",
+      "multipla_id": "clubes-2026-11-27-A",
+      "jornada": {
+        "tipo": "clubes",
+        "de": "2026-11-27",
+        "ate": "2026-11-30"
+      },
+      "bookmaker": "1xBet",
+      "combined_odds": 4.45,
+      "stake": 0.5,
+      "score": 66,
+      "ev_justo_combinado": 0.0139,
+      "prob_justa_combinada": 0.2281,
+      "datas": [
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "note": "3 favoritos de sex 27/11 a dom 29/11, todos a vencer. Só se mete na 1xBet.",
+      "selections": [
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1558692,
+          "match": "OH Leuven vs Kortrijk",
+          "league": "Jupiler Pro League",
+          "leagueId": 144,
+          "pick": "OH Leuven vence",
+          "odds": 1.95,
+          "kickoff": "2026-11-27T19:45:00+00:00",
+          "score": 68,
+          "tese": "O Leuven ganhou 1 dos últimos 5 com o Kortrijk (dois empates e duas derrotas) e a odd é 1.95, no limite.",
+          "odd_nossa": 1.95,
+          "justo_gravado_em": "2026-11-27T10:14:17.781Z",
+          "odd_justa_ref": 1.924,
+          "prob_justa": 0.5198,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": 0.0135,
+          "justo_at": "2026-11-27T06:00:46+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1557483,
+          "match": "Leeds vs Coventry",
+          "league": "Premier League",
+          "leagueId": 39,
+          "pick": "Leeds vence",
+          "odds": 1.53,
+          "kickoff": "2026-11-28T15:00:00+00:00",
+          "score": 68,
+          "tese": "O Leeds ganhou 2 dos últimos 5 oficiais (duas derrotas e dois empates antes das vitórias com o Spurs e o Chelsea).",
+          "odd_nossa": 1.53,
+          "justo_gravado_em": "2026-11-27T10:14:17.788Z",
+          "odd_justa_ref": 1.514,
+          "prob_justa": 0.6606,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": 0.0107,
+          "justo_at": "2026-11-27T08:41:15+00:00"
+        },
+        {
+          "sport": "football",
+          "bookmaker": "1xBet",
+          "fixtureId": 1558694,
+          "match": "Union St. Gilloise vs Gent",
+          "league": "Jupiler Pro League",
+          "leagueId": 144,
+          "pick": "Union St. Gilloise vence",
+          "odds": 1.49,
+          "kickoff": "2026-11-29T18:15:00+00:00",
+          "score": 66,
+          "tese": "A Union empatou 3 dos últimos 5 com o Gent (0-0, 0-0, 1-1) e jogou na quinta para a Liga Europa.",
+          "odd_nossa": 1.49,
+          "justo_gravado_em": "2026-11-27T10:14:17.790Z",
+          "odd_justa_ref": 1.505,
+          "prob_justa": 0.6643,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0102,
+          "justo_at": "2026-11-27T08:44:14+00:00"
+        }
+      ],
+      "redecidido": "redecidido a 27/11 às 10:14 por decisão do dono: piso 65 (às 07:21 tinha ficado \"não sai esta jornada\" com o piso de 75)"
     }
   ],
   "duplo_sombra": {
     "selections": [],
     "motivo": "Nenhuma perna de 1.40 a 1.60 chega a 75 com investigação completa. O ambas marcam do Groningen (79) está a 1.61–1.67, fora da banda; o Coleraine e o NAC (1.37–1.42) só têm a curadoria do curto; o Bolonha com empate devolve (Bet365 1.57) caiu pelo preço a fugir (de 2.10 para 2.35–2.53 na vitória) e o Altach com empate devolve (Bet365 1.57) porque não marca fora há cinco jogos."
-  },
-  "multipla_jornada": {
-    "jornada_id": "clubes-2026-11-27",
-    "motivo": "só 1 perna elegível (favorito a vencer, 1xBet 1.4–1.95, EV ≥ -5% contra a Pinnacle, pesquisa aprovada)",
-    "decidido_em": "2026-11-27T07:21:04.346Z"
   }
 }
