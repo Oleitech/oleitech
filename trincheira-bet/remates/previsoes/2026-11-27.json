@@ -1,0 +1,215 @@
+{
+  "gerado": "2026-11-27T07:02:18.402Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L.",
+  "jogos": [
+    {
+      "fixture": 1575237,
+      "data": "2026-11-27T19:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Werder Bremen - Borussia Mönchengladbach",
+      "amostra": {
+        "casa": 9,
+        "fora": 7,
+        "descartados": 4
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.4,
+          "previsao": 28.7,
+          "media_da_liga": 26.5,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -0.8,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 27.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.55,
+            "prob_da_casa": 0.536,
+            "edge": -4.9,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 11,
+          "previsao": 10.5,
+          "media_da_liga": 9.5,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.73,
+            "minha_prob": 0.562,
+            "prob_da_casa": 0.536,
+            "edge": -2.8,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1557485,
+      "data": "2026-11-27T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Nottingham Forest - Chelsea",
+      "amostra": {
+        "casa": 10,
+        "fora": 9,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 26.9,
+          "previsao": 26.5,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 26.5,
+          "discordancia": 0,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 25.5,
+            "lado": "Over",
+            "odd": 1.91,
+            "minha_prob": 0.531,
+            "prob_da_casa": 0.485,
+            "edge": 1.5,
+            "margem": 7.9
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 8.8,
+          "previsao": 8.7,
+          "media_da_liga": 8.4,
+          "linha_mediana_da_casa": 8.5,
+          "discordancia": 0.2,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 8.5,
+            "lado": "Over",
+            "odd": 2,
+            "minha_prob": 0.458,
+            "prob_da_casa": 0.464,
+            "edge": -8.3,
+            "margem": 7.8
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1570468,
+      "data": "2026-11-27T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Racing Santander",
+      "amostra": {
+        "casa": 9,
+        "fora": 9,
+        "descartados": 1
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 30.2,
+          "previsao": 28.9,
+          "media_da_liga": 25,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -0.6,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.428,
+            "prob_da_casa": 0.5,
+            "edge": -21.6,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.4,
+          "previsao": 9.8,
+          "media_da_liga": 8.7,
+          "linha_mediana_da_casa": 10.5,
+          "discordancia": -0.7,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 10.5,
+            "lado": "Over",
+            "odd": 2.1,
+            "minha_prob": 0.347,
+            "prob_da_casa": 0.443,
+            "edge": -27.2,
+            "margem": 7.5
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    },
+    {
+      "fixture": 1492475,
+      "data": "2026-11-27T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Fluminense - Cruzeiro",
+      "amostra": {
+        "casa": 9,
+        "fora": 10,
+        "descartados": 0
+      },
+      "amostra_fraca": false,
+      "mercados": {
+        "remates": {
+          "previsao_bruta": 29.1,
+          "previsao": 28.4,
+          "media_da_liga": 26.1,
+          "linha_mediana_da_casa": 29.5,
+          "discordancia": -1.1,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 29.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.393,
+            "prob_da_casa": 0.5,
+            "edge": -28.1,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        },
+        "baliza": {
+          "previsao_bruta": 10.5,
+          "previsao": 9.9,
+          "media_da_liga": 8.8,
+          "linha_mediana_da_casa": 9.5,
+          "discordancia": 0.4,
+          "melhor_linha": {
+            "casa": "Bet365",
+            "linha": 9.5,
+            "lado": "Over",
+            "odd": 1.83,
+            "minha_prob": 0.483,
+            "prob_da_casa": 0.5,
+            "edge": -11.5,
+            "margem": 9.3
+          },
+          "real": null,
+          "quem_acertou": null
+        }
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-26T23:54:50.206Z",
+  "atualizado": "2026-11-27T07:23:37.861Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 17,
+    "escolhas": 18,
     "liquidadas": 17,
     "acertos": 12,
     "clvMedio": -0.0624,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-27",
+      "jogo": "Jong Ajax vs Heracles",
+      "liga": "Eerste Divisie",
+      "ko": "2026-11-27T19:00:00+00:00",
+      "odd": 1.42,
+      "oddJusta": 1.49,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.8952,
+      "pCasaMarca": 0.7523,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-26",
       "jogo": "Plzen vs Benfica",

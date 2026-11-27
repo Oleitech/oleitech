@@ -1,0 +1,1019 @@
+{
+  "gerado": "2026-11-27T07:02:23.234Z",
+  "aposta": false,
+  "nota": "Sombra. Nao vai para o site, para a banca nem para o P&L. Apostas so a partir de Novembro, se passar o criterio.",
+  "jogos": [
+    {
+      "fixture": 1552238,
+      "data": "2026-11-27T19:00:00+00:00",
+      "liga": "Eredivisie",
+      "jogo": "Groningen - Willem II",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 6,
+        "fora": 4.38
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 6.5,
+          "odd": 1.73,
+          "prob": 0.392,
+          "valor": -32.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 6.5,
+          "odd": 2,
+          "prob": 0.608,
+          "valor": 21.6,
+          "sinal": true
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.83,
+          "prob": 0.585,
+          "valor": 7.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 1.83,
+          "prob": 0.415,
+          "valor": -24.1,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 7.5,
+          "odd": 2.19,
+          "prob": 0.281,
+          "valor": -38.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 7.5,
+          "odd": 1.57,
+          "prob": 0.719,
+          "valor": 12.9,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 6.5,
+          "odd": 1.7,
+          "prob": 0.392,
+          "valor": -33.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 6.5,
+          "odd": 1.98,
+          "prob": 0.608,
+          "valor": 20.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.85,
+          "prob": 0.585,
+          "valor": 8.3,
+          "sinal": true
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 1.83,
+          "prob": 0.415,
+          "valor": -24.1,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1575237,
+      "data": "2026-11-27T19:30:00+00:00",
+      "liga": "Bundesliga",
+      "jogo": "Werder Bremen - Borussia Mönchengladbach",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 5.44,
+        "fora": 4.9
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2,
+          "prob": 0.444,
+          "valor": -11.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.73,
+          "prob": 0.556,
+          "valor": -3.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.67,
+          "prob": 0.661,
+          "valor": 10.4,
+          "sinal": true
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.1,
+          "prob": 0.339,
+          "valor": -28.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 1.89,
+          "prob": 0.444,
+          "valor": -16.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.81,
+          "prob": 0.556,
+          "valor": 0.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.55,
+          "prob": 0.661,
+          "valor": 2.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.26,
+          "prob": 0.339,
+          "valor": -23.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 2.14,
+          "prob": 0.508,
+          "valor": 8.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.62,
+          "prob": 0.492,
+          "valor": -20.3,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1550216,
+      "data": "2026-11-27T19:45:00+00:00",
+      "liga": "Serie A",
+      "jogo": "Venezia - Bologna",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 4.82,
+        "fora": 4.77
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.83,
+          "prob": 0.495,
+          "valor": -9.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.83,
+          "prob": 0.505,
+          "valor": -7.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 2,
+          "prob": 0.488,
+          "valor": -2.5,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.73,
+          "prob": 0.512,
+          "valor": -11.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.52,
+          "prob": 0.649,
+          "valor": -1.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.33,
+          "prob": 0.351,
+          "valor": -18.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 2.05,
+          "prob": 0.495,
+          "valor": 1.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.67,
+          "prob": 0.505,
+          "valor": -15.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.85,
+          "prob": 0.488,
+          "valor": -9.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.85,
+          "prob": 0.512,
+          "valor": -5.2,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1552830,
+      "data": "2026-11-27T19:45:00+00:00",
+      "liga": "Ligue 1",
+      "jogo": "Stade Brestois 29 - Paris FC",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 4.05,
+        "fora": 4.53
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.73,
+          "prob": 0.534,
+          "valor": -7.6,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2,
+          "prob": 0.466,
+          "valor": -6.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.83,
+          "prob": 0.452,
+          "valor": -17.3,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.83,
+          "prob": 0.548,
+          "valor": 0.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.54,
+          "prob": 0.534,
+          "valor": -17.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.28,
+          "prob": 0.466,
+          "valor": 6.3,
+          "sinal": true
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 2.1,
+          "prob": 0.377,
+          "valor": -20.9,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.64,
+          "prob": 0.623,
+          "valor": 2.2,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.81,
+          "prob": 0.452,
+          "valor": -18.2,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.89,
+          "prob": 0.548,
+          "valor": 3.6,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1557485,
+      "data": "2026-11-27T20:00:00+00:00",
+      "liga": "Premier",
+      "jogo": "Nottingham Forest - Chelsea",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 5.3,
+        "fora": 4.62
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.73,
+          "prob": 0.565,
+          "valor": -2.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2,
+          "prob": 0.435,
+          "valor": -13,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.2,
+          "prob": 0.424,
+          "valor": -6.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.62,
+          "prob": 0.576,
+          "valor": -6.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.73,
+          "prob": 0.465,
+          "valor": -19.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2,
+          "prob": 0.535,
+          "valor": 7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.2,
+          "prob": 0.327,
+          "valor": -28,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.62,
+          "prob": 0.673,
+          "valor": 8.9,
+          "sinal": true
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.74,
+          "prob": 0.565,
+          "valor": -1.7,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.98,
+          "prob": 0.435,
+          "valor": -13.9,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.26,
+          "prob": 0.424,
+          "valor": -4.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.55,
+          "prob": 0.576,
+          "valor": -10.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.8,
+          "prob": 0.465,
+          "valor": -16.3,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.9,
+          "prob": 0.535,
+          "valor": 1.6,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.31,
+          "prob": 0.327,
+          "valor": -24.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.53,
+          "prob": 0.673,
+          "valor": 2.9,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1570468,
+      "data": "2026-11-27T20:00:00+00:00",
+      "liga": "La Liga",
+      "jogo": "Levante - Racing Santander",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 5.82,
+        "fora": 4.19
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2,
+          "prob": 0.495,
+          "valor": -0.9,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.73,
+          "prob": 0.505,
+          "valor": -12.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.91,
+          "prob": 0.398,
+          "valor": -24,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.8,
+          "prob": 0.602,
+          "valor": 8.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 1.99,
+          "prob": 0.495,
+          "valor": -1.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.73,
+          "prob": 0.505,
+          "valor": -12.7,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.51,
+          "prob": 0.556,
+          "valor": -16.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.35,
+          "prob": 0.444,
+          "valor": 4.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.89,
+          "prob": 0.398,
+          "valor": -24.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.81,
+          "prob": 0.602,
+          "valor": 9,
+          "sinal": true
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1575551,
+      "data": "2026-11-27T20:15:00+00:00",
+      "liga": "Primeira Liga",
+      "jogo": "Maritimo - Nacional",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 4.91,
+        "fora": 3.98
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.1,
+          "prob": 0.368,
+          "valor": -22.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.67,
+          "prob": 0.632,
+          "valor": 5.6,
+          "sinal": true
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.73,
+          "prob": 0.522,
+          "valor": -9.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2,
+          "prob": 0.478,
+          "valor": -4.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.63,
+          "prob": 0.508,
+          "valor": -17.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 2.09,
+          "prob": 0.492,
+          "valor": 2.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 2.17,
+          "prob": 0.368,
+          "valor": -20.2,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.58,
+          "prob": 0.632,
+          "valor": -0.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.59,
+          "prob": 0.522,
+          "valor": -17.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.15,
+          "prob": 0.478,
+          "valor": 2.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 2.19,
+          "prob": 0.365,
+          "valor": -20.1,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.57,
+          "prob": 0.635,
+          "valor": -0.3,
+          "sinal": false
+        }
+      ],
+      "real": null
+    },
+    {
+      "fixture": 1492475,
+      "data": "2026-11-27T23:00:00+00:00",
+      "liga": "Brasileirao",
+      "jogo": "Fluminense - Cruzeiro",
+      "jogos_perfil": 10,
+      "previsao": {
+        "casa": 5.99,
+        "fora": 4.79
+      },
+      "linhas": [
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 1.91,
+          "prob": 0.52,
+          "valor": -0.8,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 1.8,
+          "prob": 0.48,
+          "valor": -13.5,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.91,
+          "prob": 0.491,
+          "valor": -6.3,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Bet365",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.8,
+          "prob": 0.509,
+          "valor": -8.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 5.5,
+          "odd": 1.65,
+          "prob": 0.52,
+          "valor": -14.3,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 5.5,
+          "odd": 2.05,
+          "prob": 0.48,
+          "valor": -1.5,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 6.5,
+          "odd": 2.14,
+          "prob": 0.39,
+          "valor": -16.4,
+          "sinal": false
+        },
+        {
+          "equipa": "casa",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 6.5,
+          "odd": 1.6,
+          "prob": 0.61,
+          "valor": -2.5,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 3.5,
+          "odd": 1.52,
+          "prob": 0.645,
+          "valor": -1.9,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 3.5,
+          "odd": 2.3,
+          "prob": 0.355,
+          "valor": -18.4,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Over",
+          "linha": 4.5,
+          "odd": 1.98,
+          "prob": 0.491,
+          "valor": -2.8,
+          "sinal": false
+        },
+        {
+          "equipa": "fora",
+          "casa_apostas": "Marathonbet",
+          "lado": "Under",
+          "linha": 4.5,
+          "odd": 1.72,
+          "prob": 0.509,
+          "valor": -12.4,
+          "sinal": false
+        }
+      ],
+      "real": null
+    }
+  ]
+}
