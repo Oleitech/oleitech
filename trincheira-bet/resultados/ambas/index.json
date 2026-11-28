@@ -1,8 +1,8 @@
 {
-  "atualizado": "2026-11-28T01:45:25.790Z",
+  "atualizado": "2026-11-28T07:20:23.747Z",
   "units": "stakes",
   "resumo": {
-    "escolhas": 18,
+    "escolhas": 19,
     "liquidadas": 18,
     "acertos": 13,
     "clvMedio": -0.0615,
@@ -22,6 +22,24 @@
     }
   },
   "dias": [
+    {
+      "date": "2026-11-28",
+      "jogo": "Cambuur vs Sparta Rotterdam",
+      "liga": "Eredivisie",
+      "ko": "2026-11-28T20:00:00+00:00",
+      "odd": 1.36,
+      "oddJusta": 1.47,
+      "stake": 0,
+      "semValor": true,
+      "pVisitanteMarca": 0.9125,
+      "pCasaMarca": 0.9163,
+      "result": null,
+      "final": null,
+      "clv": null,
+      "pnl": 0,
+      "pnlSombra": null,
+      "live": []
+    },
     {
       "date": "2026-11-27",
       "jogo": "Jong Ajax vs Heracles",

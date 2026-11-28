@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:17:57.021Z",
+  "units": "stakes",
+  "notes": "Sábado cheio, com quase todas as ligas a jogar, mas pouco valor a sério nas simples. Sai uma tip só, e é do modelo de golos: mais de 2.5 no Luton-Oxford, meia stake como sempre neste mercado.\n\nÉ um jogo entre o quinto e o terceiro da League One, duas equipas que marcam dos dois lados, e os últimos cinco encontros entre elas deram todos três golos ou mais. O risco é não haver notícias de equipa publicadas para confirmar as baixas.\n\nOs outros sinais do modelo caíram na pesquisa: o menos de 2.5 no Frosinone-Parma vai contra tudo o que os dois têm feito, quase sempre com três ou mais golos, e o mais de 2.5 no Kifisia-Kalamata bate de frente com um Kalamata que tem jogado curto. O Nice ficou em registo, sem valor no preço.\n\nHá um curto a 2.74, meia stake, com três vitórias: Ludogorets, Linfield e Colo Colo. A perna mais arriscada é o Colo Colo, que joga já de noite e apanha uma La Serena em boa forma. Não saiu segundo curto: as outras pernas falhavam no histórico ou na forma, e não se força boletim.\n\nNão há acumulador standard, que só havia uma tip. Exposição do dia: uma stake.",
+  "tips": [
+    {
+      "market": "over25",
+      "marketLabel": "Mais/menos 2.5 golos",
+      "pick": "Mais de 2.5 golos",
+      "fixtureId": 1564431,
+      "home": {
+        "name": "Luton",
+        "logo": "https://media.api-sports.io/football/teams/1359.png"
+      },
+      "away": {
+        "name": "Oxford United",
+        "logo": "https://media.api-sports.io/football/teams/1338.png"
+      },
+      "match": "Luton vs Oxford United",
+      "league": "League One (Inglaterra), 17.ª jornada",
+      "leagueId": 41,
+      "leagueLogo": "https://media.api-sports.io/football/leagues/41.png",
+      "kickoff": "2026-11-28T15:00:00Z",
+      "odds": 1.62,
+      "bookmaker": "Bet365",
+      "score": 76,
+      "stake": 0.5,
+      "context_depth": "partial",
+      "modelo": "gap",
+      "gap": {
+        "pressao": 41.4,
+        "prob_modelo": 0.652,
+        "prob_mercado": 0.588,
+        "valor": 0.056
+      },
+      "tese": "Quinto contra terceiro da League One, duas equipas que marcam dos dois lados. O Luton em casa marca 1,71 por jogo e só ficou em branco uma vez em sete; o Oxford fora marca 1,83 por jogo, não ficou em branco em nenhuma das seis deslocações e deixa criar muito (1,69 de golos esperados contra). Nos últimos dez em casa o Luton teve mais de 2.5 em sete e ambas marcam em oito. Os últimos cinco encontros oficiais entre os dois deram todos três golos ou mais. O que pesa contra: o Oxford fechou o último mês com vários jogos curtos (1-0, 2-0, 1-1) e não há notícias de equipa publicadas para confirmar as baixas; por isso fica na meia stake de sempre neste mercado.",
+      "factors": [
+        "FootyStats, League One 2026/27: Luton em casa (n=7) 4V 2E 1D, 1,71 marcados e 1,00 sofridos, xG 1,72 a favor e 1,15 contra, ambas marcam 71%, em branco 14%; Oxford fora (n=6) 3V 2E 1D, 1,83 marcados e 1,17 sofridos, xG 1,59 a favor e 1,69 contra, ambas marcam 83%, em branco 0%",
+        "SportsGambler, últimos 10 da liga: Luton mais de 2.5 em 7/10 em casa e ambas marcam 8/10 em casa, 2,8 golos por jogo em casa; Oxford mais de 2.5 em 5/10 fora, ambas marcam 6/10 fora, 2,7 golos por jogo fora",
+        "H2H oficial (API), últimos 5: Oxford 3-2 Luton (Championship, 01/2025), Luton 2-2 Oxford (Championship, 10/2024), Luton 3-1 (League One, 2019), Oxford 1-2 (League One, 2018), Luton 2-3 (EFL Trophy, 2017) — 5/5 com mais de 2.5",
+        "Forma API, últimos 7 oficiais: Luton 2-1 (fora), 3-0 (Trophy), 2-0 (Taça), 1-1 (fora), 2-0 (fora), 3-1, 2-1 — mais de 2.5 em 4/7; Oxford 2-1 (Trophy), 4-3, 4-0 (Trophy), 0-1 (Taça), 2-0, 1-1 (fora), 1-0 — mais de 2.5 em 3/7",
+        "Modelo de golos: 65,2% para mais de 2.5 contra 58,8% do mercado; Bet365 1.62 (valor +5,6% no ficheiro), Pinnacle 1.62, 1xBet 1.59, Marathonbet 1.59",
+        "Baixas: a API não lista nenhuma; o SportsGambler não publicou a secção de baixas e a pesquisa aberta só trouxe antevisões de 2015-2025 — uma fonte só, por isso partial",
+        "Terceiros: footballpredictions.com mais de 2.5 (1.62); SportsGambler vai no Luton vence (1.73) e dá o mais de 2.5 a 1.55; FootyStats 62% para mais de 2.5 e 77% para ambas marcam"
+      ],
+      "sources": [
+        "API-Football — /fixtures (last 7), /fixtures/headtohead, /injuries?fixture=1564431, /odds?fixture=1564431 (todas as casas)",
+        "golos/previsoes/2026-11-28.json (modelo de golos)",
+        "SportsGambler — luton-vs-oxford-prediction-lineups-odds-2026-11-28 (forma e golos; sem secção de baixas)",
+        "FootyStats — oxford-united-fc-vs-luton-town-fc-h2h-stats (splits casa/fora 2026/27)",
+        "footballpredictions.com — betting-tips 28-11-2026",
+        "Pesquisa aberta (team news Luton v Oxford) — sem notícias desta jornada"
+      ],
+      "odd_nossa": 1.62,
+      "justo_gravado_em": "2026-11-28T07:18:00.153Z",
+      "odd_justa_ref": 1.67,
+      "prob_justa": 0.5987,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "5:over 2.5",
+      "ev_justo": -0.0301,
+      "justo_at": "2026-11-28T05:16:15+00:00"
+    }
+  ],
+  "sombra": [
+    {
+      "market": "favorites",
+      "marketLabel": "Vitória",
+      "pick": "Nice vence",
+      "fixtureId": 1552834,
+      "home": {
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png"
+      },
+      "away": {
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png"
+      },
+      "match": "Nice vs Estac Troyes",
+      "league": "Ligue 1 (França), 12.ª jornada",
+      "leagueId": 61,
+      "leagueLogo": "https://media.api-sports.io/football/leagues/61.png",
+      "kickoff": "2026-11-28T19:45:00Z",
+      "odds": 1.7,
+      "bookmaker": "Bet365",
+      "score": 66,
+      "stake": 0,
+      "shadow": true,
+      "stake_proposta": 0.5,
+      "context_depth": "partial",
+      "motivo_sombra": "Score 66, abaixo do piso de 75: o Nice em casa concede mais golos esperados do que cria, o preço está no justo (Pinnacle 1.71) e as baixas na defesa do Nice não batem entre fontes.",
+      "tese": "O Nice recebe um Troyes recém-promovido que fora quase não marca: 0,40 golos por jogo e em branco em quatro das cinco deslocações. O Nice ganhou três dos últimos cinco da liga e só perdeu com o PSG e o Lyon. Mas em casa está longe de mandar: cria 1,23 golos esperados e concede 1,56, e ganhou três dos seis jogos em casa. O preço já diz isso e não há valor; fica em registo.",
+      "factors": [
+        "FootyStats, Ligue 1 2026/27: Nice em casa (n=6) 3V 2E 1D, 2,00 marcados e 1,33 sofridos, xG 1,23 a favor e 1,56 contra; Troyes fora (n=5) 1V 1E 3D, 0,40 marcados e 1,20 sofridos, em branco 80%",
+        "SportsGambler, últimos 5 da liga: Nice 2-3 PSG, 2-0 em Angers, 5-2 Rennes, 2-1 em Brest, 1-2 em Lyon; Troyes 3-1 Le Havre, 0-1 no PSG, 2-0 Le Mans, 0-0 em Toulouse, 1-3 Lens",
+        "H2H oficial (API), últimos 5 da Ligue 1: 1-0 fora (2023), 3-2, 1-0, 0-1 fora, 2-0 fora (2018) — 4/5 do Nice",
+        "Baixas: API Abergel, Mendy, Bombito no Nice e Donkor, Gozzi, Kone, Titi no Troyes; SportsGambler Abergel, Mendy, Abdelmonem no Nice e Gozzi no Troyes — batem Abergel, Mendy e Gozzi; Bombito e Abdelmonem (defesas) não",
+        "Preço: Bet365 1.70, 1xBet 1.69, Pinnacle 1.71; terceiros: SportsGambler Nice vence (1.65), footballpredictions menos de 2.5 e ambas marcam não, FootyStats 50% para o Nice"
+      ],
+      "sources": [
+        "API-Football — /fixtures, /fixtures/headtohead, /injuries?fixture=1552834, /odds",
+        "SportsGambler — nice-vs-troyes-prediction-lineups-odds-2026-11-28",
+        "FootyStats — ogc-nice-cote-dazur-vs-esperance-sportive-troyes-aube-champagne-h2h-stats",
+        "footballpredictions.com — betting-tips 28-11-2026"
+      ],
+      "odd_nossa": 1.7,
+      "justo_gravado_em": "2026-11-28T07:18:00.156Z",
+      "odd_justa_ref": 1.742,
+      "prob_justa": 0.5742,
+      "fonte_justa": "Pinnacle",
+      "mercado_ref": "1:home",
+      "ev_justo": -0.0239,
+      "justo_at": "2026-11-28T04:43:20+00:00"
+    }
+  ],
+  "accumulators": [
+    {
+      "label": "curto",
+      "score": 65,
+      "stake": 0.5,
+      "combined_odds": 2.74,
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1551153,
+          "match": "Botev Vratsa vs Ludogorets",
+          "league": "First League (Bulgária), 16.ª jornada",
+          "leagueId": 172,
+          "kickoff": "2026-11-28T13:15:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Ludogorets vence",
+          "odds": 1.44,
+          "score": 65,
+          "tese": "O Ludogorets ganhou os últimos cinco ao Botev Vratsa, que não ganha um jogo da liga há cinco.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 2-1, 2-0, 1-0 fora, 2-0 (Taça), 1-0 fora (Taça) — 5/5 vitórias do Ludogorets",
+            "Forma API, últimos 5 oficiais: 1-0, 2-2, 3-0 fora, 0-2 fora, 3-0 fora (Taça) — 3/5 vitórias",
+            "Botev Vratsa, últimos 5 da liga (API): 1-1, 1-2, 0-1, 1-1, 0-1 — nenhuma vitória",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.44, Bet365 1.45, Pinnacle 1.45"
+          ],
+          "odd_nossa": 1.44,
+          "justo_gravado_em": "2026-11-28T07:18:00.158Z",
+          "odd_justa_ref": 1.484,
+          "prob_justa": 0.6736,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0299,
+          "justo_at": "2026-11-28T02:57:24+00:00"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1562131,
+          "match": "Crusaders FC vs Linfield",
+          "league": "Premiership (Irlanda do Norte), 18.ª jornada",
+          "leagueId": 408,
+          "kickoff": "2026-11-28T14:00:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Linfield vence",
+          "odds": 1.26,
+          "score": 65,
+          "tese": "O Linfield ganhou os últimos cinco ao Crusaders e quatro dos últimos cinco oficiais; o Crusaders ganhou um dos últimos cinco.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 1-0, 1-0 fora, 4-0, 1-0, 3-1 — 5/5 vitórias do Linfield",
+            "Forma API, últimos 5 oficiais: 1-0 fora (Taça da Liga), 5-0, 3-0 fora, 3-0, 1-1 — 4/5 vitórias",
+            "Crusaders, últimos 5 oficiais (API): 1-3, 1-1, 0-1, 4-1, 0-5",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.26, Bet365 1.27, Pinnacle 1.30"
+          ],
+          "odd_nossa": 1.26,
+          "justo_gravado_em": "2026-11-28T07:18:00.159Z",
+          "odd_justa_ref": 1.324,
+          "prob_justa": 0.7555,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0481,
+          "justo_at": "2026-11-28T03:39:13+00:00"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1505572,
+          "match": "Colo Colo vs D. La Serena",
+          "league": "Primera División (Chile), 29.ª jornada",
+          "leagueId": 265,
+          "kickoff": "2026-11-28T23:30:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Colo Colo vence",
+          "odds": 1.51,
+          "score": 65,
+          "tese": "O Colo Colo ganhou quatro dos últimos cinco à La Serena e quatro dos últimos cinco oficiais, três deles em casa com três golos ou mais.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 4-2 fora, 2-1, 3-1 fora, 3-0, 1-1 fora — 4/5 vitórias do Colo Colo",
+            "Forma API, últimos 5 oficiais (particular com o Racing excluído): 3-0, 2-1 fora, 3-0 (Taça), 6-1, 1-1 fora — 4/5 vitórias",
+            "D. La Serena, últimos 5 oficiais (API): 2-1 fora, 1-0, 0-0 fora, 3-1, 2-3 fora — está em boa forma, é o ponto fraco da perna",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.51, Bet365 1.60, Pinnacle 1.59"
+          ],
+          "odd_nossa": 1.51,
+          "justo_gravado_em": "2026-11-28T07:18:00.159Z",
+          "odd_justa_ref": 1.628,
+          "prob_justa": 0.6142,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0726,
+          "justo_at": "2026-11-28T06:01:51+00:00"
+        }
+      ],
+      "notes": "Três vitórias, todas na 1xBet, de três países diferentes (Bulgária, Irlanda do Norte, Chile). Nenhuma de ambas marcam. A perna mais fraca é a do Colo Colo, porque a La Serena chega em boa forma."
+    },
+    {
+      "label": "curto-vence",
+      "score": 65,
+      "stake": 0,
+      "shadow": true,
+      "igual_ao_real": true,
+      "combined_odds": 2.74,
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1551153,
+          "match": "Botev Vratsa vs Ludogorets",
+          "league": "First League (Bulgária), 16.ª jornada",
+          "leagueId": 172,
+          "kickoff": "2026-11-28T13:15:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Ludogorets vence",
+          "odds": 1.44,
+          "score": 65,
+          "tese": "O Ludogorets ganhou os últimos cinco ao Botev Vratsa, que não ganha um jogo da liga há cinco.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 2-1, 2-0, 1-0 fora, 2-0 (Taça), 1-0 fora (Taça) — 5/5 vitórias do Ludogorets",
+            "Forma API, últimos 5 oficiais: 1-0, 2-2, 3-0 fora, 0-2 fora, 3-0 fora (Taça) — 3/5 vitórias",
+            "Botev Vratsa, últimos 5 da liga (API): 1-1, 1-2, 0-1, 1-1, 0-1 — nenhuma vitória",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.44, Bet365 1.45, Pinnacle 1.45"
+          ],
+          "odd_nossa": 1.44,
+          "justo_gravado_em": "2026-11-28T07:18:00.160Z",
+          "odd_justa_ref": 1.484,
+          "prob_justa": 0.6736,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0299,
+          "justo_at": "2026-11-28T02:57:24+00:00"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1562131,
+          "match": "Crusaders FC vs Linfield",
+          "league": "Premiership (Irlanda do Norte), 18.ª jornada",
+          "leagueId": 408,
+          "kickoff": "2026-11-28T14:00:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Linfield vence",
+          "odds": 1.26,
+          "score": 65,
+          "tese": "O Linfield ganhou os últimos cinco ao Crusaders e quatro dos últimos cinco oficiais; o Crusaders ganhou um dos últimos cinco.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 1-0, 1-0 fora, 4-0, 1-0, 3-1 — 5/5 vitórias do Linfield",
+            "Forma API, últimos 5 oficiais: 1-0 fora (Taça da Liga), 5-0, 3-0 fora, 3-0, 1-1 — 4/5 vitórias",
+            "Crusaders, últimos 5 oficiais (API): 1-3, 1-1, 0-1, 4-1, 0-5",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.26, Bet365 1.27, Pinnacle 1.30"
+          ],
+          "odd_nossa": 1.26,
+          "justo_gravado_em": "2026-11-28T07:18:00.160Z",
+          "odd_justa_ref": 1.324,
+          "prob_justa": 0.7555,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:away",
+          "ev_justo": -0.0481,
+          "justo_at": "2026-11-28T03:39:13+00:00"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1505572,
+          "match": "Colo Colo vs D. La Serena",
+          "league": "Primera División (Chile), 29.ª jornada",
+          "leagueId": 265,
+          "kickoff": "2026-11-28T23:30:00Z",
+          "bookmaker": "1xBet",
+          "pick": "Colo Colo vence",
+          "odds": 1.51,
+          "score": 65,
+          "tese": "O Colo Colo ganhou quatro dos últimos cinco à La Serena e quatro dos últimos cinco oficiais, três deles em casa com três golos ou mais.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 4-2 fora, 2-1, 3-1 fora, 3-0, 1-1 fora — 4/5 vitórias do Colo Colo",
+            "Forma API, últimos 5 oficiais (particular com o Racing excluído): 3-0, 2-1 fora, 3-0 (Taça), 6-1, 1-1 fora — 4/5 vitórias",
+            "D. La Serena, últimos 5 oficiais (API): 2-1 fora, 1-0, 0-0 fora, 3-1, 2-3 fora — está em boa forma, é o ponto fraco da perna",
+            "Baixas: nenhuma listada na API",
+            "Preço: 1xBet 1.51, Bet365 1.60, Pinnacle 1.59"
+          ],
+          "odd_nossa": 1.51,
+          "justo_gravado_em": "2026-11-28T07:18:00.160Z",
+          "odd_justa_ref": 1.628,
+          "prob_justa": 0.6142,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "1:home",
+          "ev_justo": -0.0726,
+          "justo_at": "2026-11-28T06:01:51+00:00"
+        }
+      ],
+      "notes": "Igual ao curto real: as três pernas já são vitórias, não há nada para trocar."
+    },
+    {
+      "label": "corvo",
+      "score": 70,
+      "stake": 0,
+      "shadow": true,
+      "combined_odds": 1.78,
+      "selections": [
+        {
+          "sport": "football",
+          "fixtureId": 1570470,
+          "match": "Real Madrid vs Alaves",
+          "league": "La Liga (Espanha), 14.ª jornada",
+          "leagueId": 140,
+          "kickoff": "2026-11-28T20:00:00Z",
+          "bookmaker": "Marathonbet",
+          "pick": "Real Madrid vence e menos de 5.5 golos",
+          "odds": 1.41,
+          "score": 70,
+          "tese": "O Real Madrid ganhou os últimos cinco ao Alavés, todos com cinco golos ou menos, e ganhou os últimos cinco oficiais.",
+          "factors": [
+            "H2H oficial (API), últimos 5: 2-1, 2-1 fora, 1-0 fora, 3-2, 5-0 — 5/5 vitória e menos de 5.5",
+            "Forma API, últimos 5 oficiais: 5-1 (PSV), 2-1, 3-0 fora, 3-2 fora, 3-0 fora — 5/5 vitórias, 4/5 com menos de 5.5",
+            "Baixas: API Alexander-Arnold, Asencio, Endrick, Rodrygo; SportsGambler Asencio e Endrick — batem em dois; Mbappé, Vinícius e Bellingham no onze provável do SportsGambler",
+            "Preço Marathonbet: vitória 1.16, vitória e menos de 5.5 a 1.41"
+          ],
+          "odd_nossa": 1.41,
+          "justo_gravado_em": "2026-11-28T07:18:00.163Z",
+          "odd_justa_ref": 1.464,
+          "prob_justa": 0.6828,
+          "fonte_justa": "Pinnacle Poisson",
+          "mercado_ref": "poisson Home/under 5.5",
+          "ev_justo": -0.0372,
+          "justo_at": "2026-11-28T05:26:19+00:00"
+        },
+        {
+          "sport": "football",
+          "fixtureId": 1576246,
+          "match": "Hertha BSC vs Karlsruher SC",
+          "league": "2. Bundesliga (Alemanha), 13.ª jornada",
+          "leagueId": 79,
+          "kickoff": "2026-11-28T12:00:00Z",
+          "bookmaker": "Marathonbet",
+          "pick": "Hertha BSC marca mais de 1.5 golos",
+          "odds": 1.26,
+          "score": 72,
+          "tese": "O Hertha ganhou os últimos cinco oficiais e marcou dois ou mais em quatro; marcou dois ou mais em quatro dos últimos cinco com o Karlsruhe.",
+          "factors": [
+            "H2H oficial (API), golos do Hertha nos últimos 5: 2, 0, 3, 3, 2 — 4/5 com 2+",
+            "Forma API, últimos 5 oficiais: 4-0 fora, 2-1, 3-0 fora, 2-0 fora (Taça), 1-0 — 4/5 com 2+",
+            "SportsGambler: Hertha em casa nos últimos 10 da liga 7V 1E 2D, 1,60 marcados",
+            "Baixas: API nenhuma; SportsGambler Gechter (vermelho) no Hertha e Beifus no Karlsruhe — não batem, os dois são defesas",
+            "Preço Marathonbet: Hertha mais de 1.5 golos 1.26"
+          ],
+          "odd_nossa": 1.26,
+          "justo_gravado_em": "2026-11-28T07:18:00.166Z",
+          "odd_justa_ref": 1.378,
+          "prob_justa": 0.7255,
+          "fonte_justa": "Pinnacle",
+          "mercado_ref": "16:over 1.5",
+          "ev_justo": -0.0859,
+          "justo_at": "2026-11-28T01:42:20+00:00"
+        }
+      ],
+      "notes": "Em sombra desde 10/11, sem stake. Jogos diferentes, nenhum noutro boletim do dia."
+    }
+  ],
+  "duplo_sombra": {
+    "selections": [],
+    "motivo": "Nenhuma perna de 1.40 a 1.60 chega a 75 com investigação completa: o mais de 2.5 do Luton está a 1.62 na Bet365 e as baixas só têm uma fonte; o Ludogorets (Bet365 1.45) e o Colo Colo (Pinnacle 1.59) só têm a curadoria do curto; o Nice (1.70) está fora da banda e abaixo do piso."
+  }
+}
