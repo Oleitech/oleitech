@@ -1,0 +1,1473 @@
+{
+  "date": "2026-11-27",
+  "units": "stakes",
+  "curated_tips": {
+    "tips": [
+      {
+        "market": "btts",
+        "marketLabel": "Ambas marcam",
+        "pick": "Ambas marcam: Sim",
+        "fixtureId": 1552238,
+        "home": {
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png"
+        },
+        "away": {
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png"
+        },
+        "match": "Groningen vs Willem II",
+        "league": "Eredivisie (Países Baixos), 14.ª jornada",
+        "leagueId": 88,
+        "leagueLogo": "https://media.api-sports.io/football/leagues/88.png",
+        "kickoff": "2026-11-27T19:00:00Z",
+        "odds": 1.67,
+        "bookmaker": "Bet365",
+        "score": 79,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "tese": "O Groningen em casa marca sempre mas defende mal: em sete jogos no Euroborg marcou em todos e sofreu em seis. O Willem II é o último, sem vitórias em 13 jornadas, e fora leva 3,57 golos por jogo, mas mesmo assim marcou em seis das sete deslocações. É exactamente o jogo de ambas marcam: um favorito que ganha mas sofre, contra um último que perde mas faz o seu golo. O risco está no ataque do Willem II, que fora produz pouco (0,85 golos esperados), e foi isso que segurou o score abaixo dos 80. As baixas do Willem II batem certo nas duas fontes e nenhuma é de avançado; no Groningen as listas não coincidem, mas nenhum nome é de ataque e o onze provável traz o van Bergen e o Willumsson.",
+        "factors": [
+          "FootyStats, Eredivisie 2026/27: Groningen em casa (n=7) ambas marcam 86%, baliza a zero 14%, nunca ficou em branco, 2,00 marcados e 2,43 sofridos por jogo, xG 1,97 a favor e 1,35 contra",
+          "FootyStats, Eredivisie 2026/27: Willem II fora (n=7) ambas marcam 86%, 0 balizas a zero, ficou em branco em 14%, 1,00 marcado e 3,57 sofridos por jogo, xG 0,85 a favor e 2,75 contra",
+          "SportsGambler: Groningen últimos 10 em casa na liga 3V-2E-5D, ambas marcam 8/10, mais de 2.5 9/10; Willem II 0V-1E-6D nos últimos 7 fora, ambas marcam 6/7",
+          "Forma API, últimos 7 oficiais: Groningen 1-3, 3-4 (fora), 2-3, 0-2 (Taça), 2-2 (fora), 2-5, 5-1 (fora) — marcou e sofreu em 6/7; Willem II 1-2 (fora), 1-1, 0-7 (fora), 4-3 (Taça, fora), 1-6, 2-3 (fora), 1-3 (fora) — marcou em 6/7",
+          "H2H oficial (API): 3-1 fora (Eredivisie 02/2025), 2-0 (Eredivisie 11/2024), 1-1 (Eerste Divisie 04/2024), 3-1 fora (Taça 12/2023), 0-0 (Eerste Divisie 08/2023) — ambas marcam em 3/5; FootyStats dá 65% em 23 jogos",
+          "Contexto: Willem II 18.º com 3 pontos e -30 de diferença (SportsGambler); treinador Stegeman despedido em Outubro, Koster interino (Omroep Brabant, 21/10); Groningen 10.º com 15 pontos",
+          "Baixas Willem II iguais na API e no SportsGambler: Tjoe-A-On (vermelho), Lachkar (virilha), Hoogma (joelho), Didillon; Groningen: API dá Hernes e Jeng, SportsGambler dá Janse (ligamentos) e Vaessen (amarelos) — listas diferentes, nenhum avançado",
+          "Preço: Bet365 1.67, 1xBet 1.61, Marathonbet 1.61; terceiros alinhados: SportsGambler (pick principal ambas marcam a 1.60), footballpredictions.com (ambas marcam Sim), FootyStats 86%"
+        ],
+        "sources": [
+          "API-Football — /fixtures (last 7), /fixtures/headtohead, /injuries?fixture=1552238, /odds todas as casas",
+          "SportsGambler — groningen-vs-willem-ii-prediction-lineups-odds-2026-11-27 (baixas, onzes, forma casa/fora)",
+          "FootyStats — fc-groningen-vs-willem-ii-h2h-stats",
+          "Omroep Brabant — Willem II grijpt terug op Adrie Koster na ontslag Stegeman",
+          "footballpredictions.com — betting-tips 27-11-2026",
+          "Forebet — 403, sem dados",
+          "Sports Mole — antevisão com plantéis de outra época, descartada"
+        ],
+        "odd_nossa": 1.67,
+        "justo_gravado_em": "2026-11-27T07:21:01.563Z",
+        "odd_justa_ref": 1.726,
+        "prob_justa": 0.5794,
+        "fonte_justa": "mediana 7 casas",
+        "mercado_ref": "8:yes",
+        "ev_justo": -0.0324,
+        "justo_at": "2026-11-27T06:00:47+00:00",
+        "clv_api": -0.1279,
+        "fecho_idade_min": 60,
+        "odd_fecho_ref": 1.915,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-27T18:00:18+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.1279,
+        "result": "GREEN",
+        "hit": true,
+        "return": 0.835,
+        "pnl": 0.335,
+        "final_score": "1-1",
+        "note": "Groningen 1-1 Willem II: marcaram os dois, ambas marcam Sim certo."
+      },
+      {
+        "market": "over25",
+        "marketLabel": "Mais/menos 2.5 golos",
+        "pick": "Menos de 2.5 golos",
+        "fixtureId": 1575551,
+        "home": {
+          "name": "Maritimo",
+          "logo": "https://media.api-sports.io/football/teams/214.png"
+        },
+        "away": {
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "match": "Maritimo vs Nacional",
+        "league": "Liga Portugal (Portugal), 12.ª jornada",
+        "leagueId": 94,
+        "leagueLogo": "https://media.api-sports.io/football/leagues/94.png",
+        "kickoff": "2026-11-27T20:15:00Z",
+        "odds": 1.7,
+        "bookmaker": "Bet365",
+        "score": 68,
+        "stake": 0.5,
+        "context_depth": "partial",
+        "modelo": "gap",
+        "gap": {
+          "pressao": 39,
+          "prob_modelo": 0.618,
+          "prob_mercado": 0.586,
+          "valor": 0.05
+        },
+        "tese": "Dérbi da Madeira entre o 13.º e o 15.º, dois aflitos que marcam pouco. O Nacional fora é das equipas que menos produz na liga: ficou em branco em três de cinco deslocações e nos últimos dez jogos fora só dois passaram dos dois golos. Os últimos quatro jogos oficiais do Nacional acabaram todos 1-0 ou 0-1. O Marítimo em casa também marca pouco, menos de um golo por jogo. O que pesa contra é o Marítimo sofrer muito em casa e o SportsGambler meter o mais de 2.5 no bet builder; por isso fica nos 68 e na meia stake de sempre neste mercado.",
+        "factors": [
+          "FootyStats, Liga Portugal 2026/27: Marítimo em casa (5 jogos) 0,80 marcados e 1,80 sofridos, em branco em 40%, xG 1,26 a favor e 1,52 contra; Nacional fora (5 jogos) 0,80 marcados e 1,80 sofridos, em branco em 60%, xG 0,86 a favor e 1,85 contra",
+          "SportsGambler: Nacional últimos 10 fora 1V-2E-7D, 0,7 marcados e 1,5 sofridos, mais de 2.5 em 2/10, ambas marcam 3/10; Marítimo últimos 5 em casa 1V-1E-3D, mais de 2.5 em 3/5",
+          "Forma API, últimos oficiais: Nacional 1-0, 0-1 (fora), 1-0, 0-1 (Taça, fora), 2-3 (fora), 0-4, 1-3 — os últimos 4 com um golo só; Marítimo 0-0 (Taça), 0-2, 1-2 (Taça da Liga, fora), 0-5 (fora), 2-1 (Taça, fora), 1-2, 1-1 (fora)",
+          "H2H oficial (API): Marítimo 3-1 e 2-1 fora (Liga 2 2023/24); os outros encontros recentes na API são amigáveis e foram descartados; FootyStats dá 50% de ambas marcam em 22 jogos",
+          "Modelo de golos: 38,2% para mais de 2.5 contra 41,4% do mercado; Bet365 1.70 no menos (valor +5%), Pinnacle 1.58, 1xBet 1.64, Marathonbet 1.58",
+          "Baixas: API não lista nenhuma; SportsGambler dá Filipe Soares e Ulisses Rocha no Nacional e nada no Marítimo — as fontes não batem (por isso partial), nenhum é avançado; sem convocatórias publicadas à hora da tip",
+          "Terceiros: footballpredictions.com menos de 2.5 (1.53); SportsGambler vai no Nacional +0.25 e mete o mais de 2.5 no bet builder; FootyStats 50% para mais de 2.5"
+        ],
+        "sources": [
+          "API-Football — /fixtures (last 7), /fixtures/headtohead, /injuries?fixture=1575551, /odds todas as casas",
+          "golos/previsoes/2026-11-27.json (modelo de golos)",
+          "SportsGambler — maritimo-vs-nacional-prediction-lineups-odds-2026-11-27",
+          "FootyStats — cd-nacional-funchal-vs-cs-maritimo-funchal-h2h-stats",
+          "footballpredictions.com — betting-tips 27-11-2026",
+          "Record/A Bola (pesquisa) — sem convocatória do dérbi publicada"
+        ],
+        "odd_nossa": 1.7,
+        "justo_gravado_em": "2026-11-27T07:21:01.566Z",
+        "odd_justa_ref": 1.625,
+        "prob_justa": 0.6154,
+        "fonte_justa": "Pinnacle",
+        "mercado_ref": "5:under 2.5",
+        "ev_justo": 0.0461,
+        "justo_at": "2026-11-27T05:03:17+00:00",
+        "clv_api": -0.0018,
+        "fecho_idade_min": 135,
+        "odd_fecho_ref": 1.703,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-27T18:00:18+00:00",
+        "fecho_aproximado": false,
+        "clv": -0.0018,
+        "result": "RED",
+        "hit": false,
+        "return": 0,
+        "pnl": -0.5,
+        "final_score": "1-2",
+        "note": "Nacional ganhou 2-1 fora (1-2): três golos, mais de 2.5, o Menos de 2.5 falhou."
+      }
+    ],
+    "accumulators": [
+      {
+        "label": "standard",
+        "combined_odds": 2.84,
+        "score": 68,
+        "stake": 0.5,
+        "bookmaker": "Bet365",
+        "notes": "As duas tips do dia, ligas diferentes (Países Baixos e Portugal). Uma perna do modelo de golos. Score mínimo 68, por isso meia stake.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1552238,
+            "match": "Groningen vs Willem II",
+            "league": "Eredivisie (Países Baixos), 14.ª jornada",
+            "leagueId": 88,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.67,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 79,
+            "tese": "O Groningen marca e sofre em casa e o Willem II marcou em 6 das 7 deslocações.",
+            "odd_nossa": 1.67,
+            "justo_gravado_em": "2026-11-27T07:21:01.566Z",
+            "odd_justa_ref": 1.726,
+            "prob_justa": 0.5794,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0324,
+            "justo_at": "2026-11-27T06:00:47+00:00",
+            "clv_api": -0.1279,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.915,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:18+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.1279,
+            "result": "GREEN",
+            "final_score": "1-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Bet365",
+            "fixtureId": 1575551,
+            "match": "Maritimo vs Nacional",
+            "league": "Liga Portugal (Portugal), 12.ª jornada",
+            "leagueId": 94,
+            "pick": "Menos de 2.5 golos",
+            "odds": 1.7,
+            "kickoff": "2026-11-27T20:15:00Z",
+            "score": 68,
+            "modelo": "gap",
+            "tese": "Dérbi de aflitos e o Nacional marca muito pouco fora.",
+            "odd_nossa": 1.7,
+            "justo_gravado_em": "2026-11-27T07:21:01.566Z",
+            "odd_justa_ref": 1.625,
+            "prob_justa": 0.6154,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "5:under 2.5",
+            "ev_justo": 0.0461,
+            "justo_at": "2026-11-27T05:03:17+00:00",
+            "clv_api": -0.0018,
+            "fecho_idade_min": 135,
+            "odd_fecho_ref": 1.703,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:18+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0018,
+            "result": "RED",
+            "final_score": "1-2"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Perdeu: Menos de 2.5 golos 1-2."
+      },
+      {
+        "label": "curto",
+        "combined_odds": 2.61,
+        "score": 65,
+        "stake": 0.5,
+        "bookmaker": "1xBet",
+        "notes": "Duas vence e uma de ambas marcam, todas na 1xBet: Irlanda do Norte e duas da Eerste Divisie, jogos diferentes. Só uma perna de ambas marcam.",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1562130,
+            "match": "Coleraine FC vs Dungannon Swifts",
+            "league": "Premiership (Irlanda do Norte), 18.ª jornada",
+            "leagueId": 408,
+            "pick": "Coleraine FC vence",
+            "odds": 1.38,
+            "kickoff": "2026-11-27T19:45:00Z",
+            "score": 65,
+            "tese": "O Coleraine ganhou 4 dos últimos 5 com o Dungannon, o último há três dias, 5-1 fora, na Taça da Liga.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Coleraine 5-1 (Taça da Liga, fora), 3-1 fora, 3-0, 0-3 fora, 1-1 — 3/5 vitórias",
+              "H2H oficial (API): 5-1 (Taça da Liga), 3-1, 3-2 (Taça), 2-1, todos fora, e 1-3 (02/2026) — 4/5 vitórias do Coleraine",
+              "Dungannon, últimos 5 oficiais (API): 1-5, 3-1, 0-3, 3-2, 1-1",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.38, Bet365 1.42, Pinnacle 1.43"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-27T07:21:01.568Z",
+            "odd_justa_ref": 1.465,
+            "prob_justa": 0.6827,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0579,
+            "justo_at": "2026-11-27T04:48:15+00:00",
+            "clv_api": -0.0356,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.431,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0356,
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551902,
+            "match": "NAC Breda vs Den Bosch",
+            "league": "Eerste Divisie (Países Baixos), 17.ª jornada",
+            "leagueId": 89,
+            "pick": "NAC Breda vence",
+            "odds": 1.37,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 65,
+            "tese": "O NAC ganhou 4 dos últimos 5 oficiais, com 4-1 e 4-2 nas duas últimas jornadas, e 3 dos últimos 5 com o Den Bosch.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: NAC 4-1 fora, 4-2, 0-0 fora, 2-0 fora, 3-1 (Taça, fora) — 4/5 vitórias",
+              "H2H oficial (API, Eerste Divisie): 2-2 fora, 1-0, 2-0, 2-3 fora, 2-0 — 3/5 vitórias do NAC",
+              "Den Bosch, últimos 5 oficiais (API): 1-0, 0-4, 1-1, 5-0, 5-3 (Taça)",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.37, Bet365 1.38, Pinnacle 1.40"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-27T07:21:01.569Z",
+            "odd_justa_ref": 1.435,
+            "prob_justa": 0.6971,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.045,
+            "justo_at": "2026-11-27T06:00:46+00:00",
+            "clv_api": -0.0558,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.451,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0558,
+            "result": "GREEN",
+            "final_score": "6-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551903,
+            "match": "VVV Venlo vs Waalwijk",
+            "league": "Eerste Divisie (Países Baixos), 17.ª jornada",
+            "leagueId": 89,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.38,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 65,
+            "tese": "Ambas marcaram em 4 dos últimos 5 VVV-Waalwijk e as duas equipas marcam e sofrem com regularidade.",
+            "factors": [
+              "H2H oficial (API): 0-3, 1-2 fora, 3-3 (Eredivisie), 3-2 fora, 1-2 fora (VVV) — ambas marcam 4/5",
+              "VVV, últimos 5 oficiais (API): 0-1, 1-2, 1-1, 2-1, 0-2 (Taça) — ambas marcam 3/5",
+              "Waalwijk, últimos 5 oficiais (API): 2-3, 4-0, 1-1, 1-2, 2-2 (Taça) — ambas marcam 4/5",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.38, Bet365 1.40, Marathonbet 1.38"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.45,
+            "prob_justa": 0.6898,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0481,
+            "justo_at": "2026-11-27T03:05:16+00:00",
+            "clv_api": -0.0554,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.461,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0554,
+            "result": "PENDING",
+            "final_score": null,
+            "nota_leg": "API-Football devolve TBD (sem hora nem resultado), sem resultado verificavel"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": -0.5,
+        "note": "Perdeu: Coleraine FC vence 0-1. A perna do VVV Venlo-Waalwijk ficou sem resultado na API (TBD), mas o bilhete ja estava perdido."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "green": 1,
+      "red": 1,
+      "hit_rate": 50,
+      "total_stake": 1,
+      "total_return": 0.835,
+      "pnl": -0.165,
+      "roi_pct": -16.5,
+      "accumulators_total": 2,
+      "accumulators_green": 0,
+      "accumulators_red": 2,
+      "accumulators_stake": 1,
+      "accumulators_return": 0,
+      "accumulators_pnl": -1,
+      "combined_stake": 2,
+      "combined_return": 0.835,
+      "combined_pnl": -1.165,
+      "combined_roi_pct": -58.25
+    },
+    "sombra": [],
+    "sombra_summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "push": 0,
+      "pending": 0,
+      "pnl_se_apostadas": 0,
+      "curto_vence": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "iguais": 1,
+        "pnl_se_apostado": -1
+      },
+      "corvo": {
+        "total": 1,
+        "green": 0,
+        "red": 1,
+        "pnl_se_apostado": -1
+      }
+    },
+    "sombra_accumulators": [
+      {
+        "label": "curto-vence",
+        "combined_odds": 2.61,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "igual_ao_real": true,
+        "bookmaker": "1xBet",
+        "notes": "Igual ao curto real: a troca seria o ambas marcam do VVV-Waalwijk por uma vence, mas nenhuma vence da shortlist passou o filtro na banda (Olimpia a 1.66 na 1xBet, fora da banda; Hapoel Tel Aviv, U Cluj e Jihlava pelo H2H; Groningen, Gornik, Hansa, IMT e Winterthur pela forma).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1562130,
+            "match": "Coleraine FC vs Dungannon Swifts",
+            "league": "Premiership (Irlanda do Norte), 18.ª jornada",
+            "leagueId": 408,
+            "pick": "Coleraine FC vence",
+            "odds": 1.38,
+            "kickoff": "2026-11-27T19:45:00Z",
+            "score": 65,
+            "tese": "O Coleraine ganhou 4 dos últimos 5 com o Dungannon, o último há três dias, 5-1 fora, na Taça da Liga.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: Coleraine 5-1 (Taça da Liga, fora), 3-1 fora, 3-0, 0-3 fora, 1-1 — 3/5 vitórias",
+              "H2H oficial (API): 5-1 (Taça da Liga), 3-1, 3-2 (Taça), 2-1, todos fora, e 1-3 (02/2026) — 4/5 vitórias do Coleraine",
+              "Dungannon, últimos 5 oficiais (API): 1-5, 3-1, 0-3, 3-2, 1-1",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.38, Bet365 1.42, Pinnacle 1.43"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.465,
+            "prob_justa": 0.6827,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.0579,
+            "justo_at": "2026-11-27T04:48:15+00:00",
+            "clv_api": -0.0356,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.431,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0356,
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551902,
+            "match": "NAC Breda vs Den Bosch",
+            "league": "Eerste Divisie (Países Baixos), 17.ª jornada",
+            "leagueId": 89,
+            "pick": "NAC Breda vence",
+            "odds": 1.37,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 65,
+            "tese": "O NAC ganhou 4 dos últimos 5 oficiais, com 4-1 e 4-2 nas duas últimas jornadas, e 3 dos últimos 5 com o Den Bosch.",
+            "factors": [
+              "Forma API, últimos 5 oficiais: NAC 4-1 fora, 4-2, 0-0 fora, 2-0 fora, 3-1 (Taça, fora) — 4/5 vitórias",
+              "H2H oficial (API, Eerste Divisie): 2-2 fora, 1-0, 2-0, 2-3 fora, 2-0 — 3/5 vitórias do NAC",
+              "Den Bosch, últimos 5 oficiais (API): 1-0, 0-4, 1-1, 5-0, 5-3 (Taça)",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.37, Bet365 1.38, Pinnacle 1.40"
+            ],
+            "odd_nossa": 1.37,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.435,
+            "prob_justa": 0.6971,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "1:home",
+            "ev_justo": -0.045,
+            "justo_at": "2026-11-27T06:00:46+00:00",
+            "clv_api": -0.0558,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.451,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0558,
+            "result": "GREEN",
+            "final_score": "6-2"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "1xBet",
+            "fixtureId": 1551903,
+            "match": "VVV Venlo vs Waalwijk",
+            "league": "Eerste Divisie (Países Baixos), 17.ª jornada",
+            "leagueId": 89,
+            "pick": "Ambas marcam: Sim",
+            "odds": 1.38,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 65,
+            "tese": "Ambas marcaram em 4 dos últimos 5 VVV-Waalwijk e as duas equipas marcam e sofrem com regularidade.",
+            "factors": [
+              "H2H oficial (API): 0-3, 1-2 fora, 3-3 (Eredivisie), 3-2 fora, 1-2 fora (VVV) — ambas marcam 4/5",
+              "VVV, últimos 5 oficiais (API): 0-1, 1-2, 1-1, 2-1, 0-2 (Taça) — ambas marcam 3/5",
+              "Waalwijk, últimos 5 oficiais (API): 2-3, 4-0, 1-1, 1-2, 2-2 (Taça) — ambas marcam 4/5",
+              "Baixas: nenhuma listada na API",
+              "Preço: 1xBet 1.38, Bet365 1.40, Marathonbet 1.38"
+            ],
+            "odd_nossa": 1.38,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.45,
+            "prob_justa": 0.6898,
+            "fonte_justa": "mediana 7 casas",
+            "mercado_ref": "8:yes",
+            "ev_justo": -0.0481,
+            "justo_at": "2026-11-27T03:05:16+00:00",
+            "clv_api": -0.0554,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.461,
+            "fonte_fecho": "mediana 7 casas",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0554,
+            "result": "PENDING",
+            "final_score": null,
+            "nota_leg": "API-Football devolve TBD (sem hora nem resultado), sem resultado verificavel"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: Coleraine FC vence 0-1. A perna do VVV Venlo-Waalwijk ficou sem resultado na API (TBD), mas o bilhete ja estava perdido."
+      },
+      {
+        "label": "corvo",
+        "combined_odds": 1.8,
+        "score": 65,
+        "stake": 0,
+        "shadow": true,
+        "bookmaker": "Marathonbet",
+        "notes": "Em sombra desde 10/11, sem stake. Sobreposição: o Coleraine-Dungannon também está no curto (lá a vitória, aqui os golos do Coleraine) e o Groningen-Willem II também é tip (lá ambas marcam, aqui os golos do Groningen).",
+        "selections": [
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1562130,
+            "match": "Coleraine FC vs Dungannon Swifts",
+            "league": "Premiership (Irlanda do Norte), 18.ª jornada",
+            "leagueId": 408,
+            "pick": "Coleraine FC marca mais de 1.5 golos",
+            "odds": 1.36,
+            "kickoff": "2026-11-27T19:45:00Z",
+            "score": 65,
+            "tese": "O Coleraine marcou dois ou mais em 4 dos últimos 5 com o Dungannon e em 3 dos últimos 5 oficiais.",
+            "factors": [
+              "H2H oficial (API): golos do Coleraine 5, 3, 3, 2, 1 — 4/5 com 2+",
+              "Últimos 5 oficiais (API): 5, 3, 3, 0, 1 — 3/5 com 2+",
+              "Baixas: nenhuma listada na API; sem segunda fonte para o onze"
+            ],
+            "odd_nossa": 1.36,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.437,
+            "prob_justa": 0.6959,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "16:over 1.5",
+            "ev_justo": -0.0535,
+            "justo_at": "2026-11-27T04:48:15+00:00",
+            "clv_api": -0.0341,
+            "fecho_idade_min": 105,
+            "odd_fecho_ref": 1.408,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:17+00:00",
+            "fecho_aproximado": false,
+            "clv": -0.0341,
+            "result": "RED",
+            "final_score": "0-1"
+          },
+          {
+            "sport": "football",
+            "bookmaker": "Marathonbet",
+            "fixtureId": 1552238,
+            "match": "Groningen vs Willem II",
+            "league": "Eredivisie (Países Baixos), 14.ª jornada",
+            "leagueId": 88,
+            "pick": "Groningen marca mais de 1.5 golos",
+            "odds": 1.32,
+            "kickoff": "2026-11-27T19:00:00Z",
+            "score": 65,
+            "tese": "O Groningen marca 2,00 por jogo em casa e o Willem II sofre 3,57 fora, sem uma baliza a zero na época.",
+            "factors": [
+              "Últimos 5 oficiais (API): golos do Groningen 1, 3, 2, 0 (Taça), 2 — 3/5 com 2+",
+              "H2H oficial (API): golos do Groningen 3, 2, 1, 3, 0 — 3/5 com 2+",
+              "FootyStats 2026/27: Willem II 0 balizas a zero em 7 fora, 2,75 xG contra",
+              "Onze provável (SportsGambler) com van Bergen e Willumsson; nenhuma baixa de ataque"
+            ],
+            "odd_nossa": 1.32,
+            "justo_gravado_em": "2026-11-27T07:21:01.571Z",
+            "odd_justa_ref": 1.391,
+            "prob_justa": 0.7189,
+            "fonte_justa": "Pinnacle",
+            "mercado_ref": "16:over 1.5",
+            "ev_justo": -0.0511,
+            "justo_at": "2026-11-27T06:00:47+00:00",
+            "clv_api": 0.0248,
+            "fecho_idade_min": 60,
+            "odd_fecho_ref": 1.288,
+            "fonte_fecho": "Pinnacle",
+            "fecho_fonte": "api",
+            "fecho_at": "2026-11-27T18:00:18+00:00",
+            "fecho_aproximado": false,
+            "clv": 0.0248,
+            "result": "RED",
+            "final_score": "1-1"
+          }
+        ],
+        "result": "RED",
+        "return": 0,
+        "pnl": 0,
+        "pnl_se_apostado": -1,
+        "note": "Perdeu: Coleraine FC marca mais de 1.5 golos 0-1; Groningen marca mais de 1.5 golos 1-1."
+      }
+    ],
+    "duplo_sombra": {
+      "selections": [],
+      "motivo": "Nenhuma perna de 1.40 a 1.60 chega a 75 com investigação completa. O ambas marcam do Groningen (79) está a 1.61–1.67, fora da banda; o Coleraine e o NAC (1.37–1.42) só têm a curadoria do curto; o Bolonha com empate devolve (Bet365 1.57) caiu pelo preço a fugir (de 2.10 para 2.35–2.53 na vitória) e o Altach com empate devolve (Bet365 1.57) porque não marca fora há cinco jogos."
+    }
+  },
+  "btts": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "cards": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "over25": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "corners": {
+    "tips": [],
+    "summary": {
+      "total": 0,
+      "green": 0,
+      "red": 0,
+      "hit_rate": 0
+    }
+  },
+  "live_alerts": {
+    "alerts": [
+      {
+        "fixtureId": 1584482,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 4.5 cantos no jogo",
+        "match": "Rizespor vs Kasımpaşa",
+        "league": "Süper Lig",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 1.8,
+        "oddMinima": 1.75,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            0,
+            0
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Ainda não houve nenhum canto, mas o jogo está aberto: 16 remates, 9 deles à baliza, e o Rizespor anda muito pela área. Em jogos assim, a 2ª parte deu 5 ou mais cantos em quase 6 de cada 10.",
+        "confianca": 58,
+        "probImplicita": 0.556,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T17:47:30+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Total Corners",
+              "linha": "4.5",
+              "lado": "over",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Corners 1x2",
+              "linha": "-",
+              "lado": "home",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.8
+            },
+            {
+              "mercado": "1x2 - 70 minutes",
+              "linha": "-",
+              "lado": "draw",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Last Team to Score (3 way)",
+              "linha": "-",
+              "lado": "2",
+              "odd": 1.8
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "4",
+              "lado": "over",
+              "odd": 1.8
+            }
+          ]
+        },
+        "sentAt": 1795801748394,
+        "probModeloA": 0.5308,
+        "pushA": 0,
+        "valorA": -0.0446,
+        "aprovaA": false,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6157,
+        "golos2pB": 1.6353,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "GREEN",
+        "finalHome": 3,
+        "finalAway": 2,
+        "pnl": 0.4,
+        "return": 0.9,
+        "resolvedAt": 1795806958656
+      },
+      {
+        "fixtureId": 1549069,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 7.5 cantos no jogo",
+        "match": "Sonderjyske vs Brondby",
+        "league": "Superliga",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.95,
+        "oddMinima": 1.7,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            1
+          ],
+          "amarelos": [
+            0,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Só houve 2 cantos na 1ª parte (1 para cada lado). Na Superliga, os jogos com um golo de diferença e tão poucos cantos ao intervalo deram em média 4 cantos na 2ª parte, e esta aposta só perde se houver 6 ou mais.",
+        "confianca": 60,
+        "probImplicita": 0.513,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T18:48:48+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Asian Corners",
+              "linha": "7.5",
+              "lado": "under",
+              "odd": 1.95
+            }
+          ]
+        },
+        "sentAt": 1795805439765,
+        "probModeloA": 0.6113,
+        "pushA": 0,
+        "valorA": 0.1921,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.6102,
+        "golos2pB": 1.7716,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": 0.4868,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 1,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795810616275
+      },
+      {
+        "fixtureId": 1576542,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 3.5 golos no jogo",
+        "match": "Feirense vs Portimonense",
+        "league": "Liga Portugal 2",
+        "elapsed": 45,
+        "score": "1-1",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 1,
+        "odds": 2.625,
+        "oddMinima": 2.45,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            1,
+            4
+          ],
+          "amarelos": [
+            1,
+            0
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "shortlist",
+        "justificacao": "Está 1-1, com os dois golos nos últimos cinco minutos, e o Portimonense carrega, com 4 cantos contra 1. Em jogos empatados com golos ao intervalo saem mais dois golos na 2ª parte quase metade das vezes, e a 2.62 só precisa de acertar uma em cada 2.6.",
+        "confianca": 41,
+        "probImplicita": 0.381,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T18:49:48+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Goals",
+              "linha": "3.5",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "2",
+              "odd": 2.625
+            }
+          ]
+        },
+        "sentAt": 1795805623257,
+        "probModeloA": 0.4046,
+        "pushA": 0,
+        "valorA": 0.0622,
+        "aprovaA": true,
+        "probModeloB": 0.3682,
+        "pushB": 0,
+        "valorB": -0.0336,
+        "aprovaB": false,
+        "golos2pA": 1.3898,
+        "golos2pB": 1.2859,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 2,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795810616275,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1570043,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 14.5 cantos no jogo",
+        "match": "Leganes vs Sabadell",
+        "league": "Segunda División (Espanha)",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.727,
+        "oddMinima": 1.65,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            7
+          ],
+          "amarelos": [
+            3,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "shortlist",
+        "justificacao": "Já se viram 10 cantos na 1ª parte, 7 deles do Sabadell, e está 0-0, por isso as duas equipas vão continuar a carregar. Bastam 5 cantos na 2ª parte, e em jogos assim isso acontece em quase dois terços das vezes.",
+        "confianca": 61,
+        "probImplicita": 0.579,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T20:18:05+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "14",
+              "lado": "over",
+              "odd": 1.727
+            },
+            {
+              "mercado": "1st Goal in Interval",
+              "linha": "70",
+              "lado": "no",
+              "odd": 1.727
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "no goal",
+              "odd": 1.727
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.727
+            },
+            {
+              "mercado": "Draw No Bet",
+              "linha": "-",
+              "lado": "home",
+              "odd": 1.727
+            },
+            {
+              "mercado": "Next 10 Minutes Total",
+              "linha": "50",
+              "lado": "cards/under  0.5",
+              "odd": 1.727
+            }
+          ]
+        },
+        "sentAt": 1795810791075,
+        "probModeloA": 0.6393,
+        "pushA": 0,
+        "valorA": 0.104,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.4402,
+        "golos2pB": 1.1998,
+        "ligaForaDoTreinoA": true,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795816023077
+      },
+      {
+        "fixtureId": 1550216,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Mais de 1.5 golos no jogo",
+        "match": "Venezia vs Bologna",
+        "league": "Serie A",
+        "elapsed": 45,
+        "score": "0-0",
+        "homeGoalsAtAlert": 0,
+        "awayGoalsAtAlert": 0,
+        "odds": 2.625,
+        "oddMinima": 2.25,
+        "precoAoVivo": true,
+        "tipo": "golos",
+        "aoIntervalo": {
+          "cantos": [
+            3,
+            2
+          ],
+          "amarelos": [
+            2,
+            2
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0,
+        "contraFavorito": false,
+        "shadow": true,
+        "sombraMotivo": "golos-mais-de-2026-11-09",
+        "stakeSombra": 0.5,
+        "origem": "liga",
+        "justificacao": "Está 0-0, mas já houve 13 remates, 5 deles à baliza, e um golo do Venezia anulado pelo VAR. Na Serie A, com intervalos assim, saíram 2 ou mais golos na 2ª parte em 53% dos 123 jogos, e a 2.62 o preço paga.",
+        "confianca": 46,
+        "probImplicita": 0.381,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T20:35:54+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "10",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "samuel mbangula/over 1.5",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "arthur theate/over 1.5",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Player Shots",
+              "linha": "-",
+              "lado": "nadir zortea/over 2.5",
+              "odd": 2.625
+            },
+            {
+              "mercado": "Match Goals",
+              "linha": "1.5",
+              "lado": "over",
+              "odd": 2.625
+            },
+            {
+              "mercado": "How many goals will Away Team score?",
+              "linha": "-",
+              "lado": "1",
+              "odd": 2.625
+            }
+          ]
+        },
+        "sentAt": 1795811906138,
+        "probModeloA": 0.4095,
+        "pushA": 0,
+        "valorA": 0.0749,
+        "aprovaA": true,
+        "probModeloB": 0.3794,
+        "pushB": 0,
+        "valorB": -0.0041,
+        "aprovaB": false,
+        "golos2pA": 1.4039,
+        "golos2pB": 1.3175,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795816023077,
+        "pnlSombra": -0.5
+      },
+      {
+        "fixtureId": 1570468,
+        "strategy": "⏸️ INTERVALO",
+        "market": "Menos de 13.5 cantos no jogo",
+        "match": "Levante vs Racing Santander",
+        "league": "La Liga",
+        "elapsed": 45,
+        "score": "1-0",
+        "homeGoalsAtAlert": 1,
+        "awayGoalsAtAlert": 0,
+        "odds": 1.833,
+        "oddMinima": 1.75,
+        "precoAoVivo": true,
+        "tipo": "cantos",
+        "aoIntervalo": {
+          "cantos": [
+            5,
+            3
+          ],
+          "amarelos": [
+            0,
+            1
+          ],
+          "vermelhos": [
+            0,
+            0
+          ]
+        },
+        "padrao": "a favor",
+        "stake": 0.5,
+        "contraFavorito": false,
+        "shadow": false,
+        "origem": "liga",
+        "justificacao": "Já vão 8 cantos (5-3), por isso o Menos de 13.5 aguenta até 5 na 2ª parte. Na La Liga, com um golo de diferença ao intervalo, a 2ª parte dá em média 5 cantos e só em pouco mais de metade dos jogos chega aos 5.",
+        "confianca": 58,
+        "probImplicita": 0.546,
+        "oddAoVivoMercado": {
+          "at": "2026-11-27T20:47:29+00:00",
+          "fonte": "api-football odds/live",
+          "candidatos": [
+            {
+              "mercado": "Match Corners",
+              "linha": "13",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Match Corners",
+              "linha": "14",
+              "lado": "under",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "13.5",
+              "lado": "over",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Total Corners",
+              "linha": "13.5",
+              "lado": "under",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "odd",
+              "odd": 1.833
+            },
+            {
+              "mercado": "Goals Odd/Even",
+              "linha": "-",
+              "lado": "even",
+              "odd": 1.833
+            }
+          ]
+        },
+        "sentAt": 1795812575469,
+        "probModeloA": 0.5868,
+        "pushA": 0,
+        "valorA": 0.0757,
+        "aprovaA": true,
+        "probModeloB": null,
+        "pushB": null,
+        "valorB": null,
+        "aprovaB": null,
+        "golos2pA": 1.7224,
+        "golos2pB": 1.9172,
+        "ligaForaDoTreinoA": false,
+        "semModelo": null,
+        "probMercadoVivo": null,
+        "preJogoFonte": {
+          "x12": "Pinnacle",
+          "totais": "Pinnacle"
+        },
+        "seriaCortado": {
+          "dia8": false,
+          "hora3": false,
+          "odd170": false
+        },
+        "result": "RED",
+        "finalHome": 1,
+        "finalAway": 3,
+        "pnl": -0.5,
+        "return": 0,
+        "resolvedAt": 1795816875091
+      },
+      {
+        "fixtureId": 1550216,
+        "jogo": "Venezia vs Bologna",
+        "liga": "Serie A",
+        "ko": "2026-11-27T19:45:00+00:00",
+        "mercado": "empate",
+        "odd": 3.45,
+        "casa": "1xBet",
+        "casaDoDono": true,
+        "oddMinima": 3.33,
+        "pJustaPinnacle": 0.3023,
+        "fonteJusta": "Pinnacle",
+        "pAjustada": 0.31,
+        "ajusteCortado": false,
+        "ev": 0.0695,
+        "confianca": 30,
+        "noticia": "Venezia-Bologna, le ufficiali: diverse sorprese per Palladino",
+        "resumo": "No onze oficial do Bologna entram Vitik (por Darmian), Alhassane (por Miranda, que continua fora) e Mbangula (por Cambiaghi, que fica de fora), ao lado de Bernardeschi e Odgaard. Orsolini não aparece nesta formação. No Venezia, Yeboah joga ao lado de Adams.",
+        "link": "https://www.tuttobolognaweb.it/news/venezia-bologna-le-ufficiali-diverse-sorprese-per-palladino/",
+        "fonte": "Tutto Bologna Web",
+        "pais": "Italy",
+        "publicadaEm": "2026-11-27T18:50:00.000Z",
+        "horaExacta": true,
+        "oddsUpdate": "2026-11-27T18:00:18+00:00",
+        "depoisDasOdds": true,
+        "frase": "O Palladino mexe no Bologna. O Orsolini não aparece no onze, o Cambiaghi e o Darmian ficam de fora, e lá na frente perde-se o homem que mais decide. Com um Bologna menos afiado, o Venezia tem tudo para segurar o empate.",
+        "stake": 0.5,
+        "origem": "noticia",
+        "evMinimo": 0.03,
+        "n_no_jogo": 1,
+        "ligacao_ao_anterior": null,
+        "noticia_nova": null,
+        "porque_nova": null,
+        "strategy": "📰 NOTÍCIA",
+        "match": "Venezia vs Bologna",
+        "league": "Serie A",
+        "market": "Empate",
+        "odds": 3.45,
+        "porque": "O onze oficial saiu às 18:50Z, 50 minutos depois da última actualização das odds (18:00Z), por isso é notícia nova face à linha. O Bologna troca três titulares (Darmian, Miranda, que já se sabia que estava fora, e Cambiaghi) e o Orsolini, a referência ofensiva, não está no onze. Isto vale 1,5 a 2 pontos a menos no Bologna (fora 0,382 → ~0,365). Esses pontos vão sobretudo para o empate (+0,8), porque um ataque mais fraco baixa os golos, e o resto para a casa. Fica empate 0,302 → 0,310; 3,45 × 0,310 = 1,07. Nota honesta: o empate já pagava cerca de 4% acima do justo antes da notícia, e a margem ",
+        "sentAt": 1795806312337,
+        "result": "GREEN",
+        "finalHome": 0,
+        "finalAway": 0,
+        "pnl": 1.225,
+        "return": 1.725,
+        "resolvedAt": 1795830323783,
+        "odd_fecho_ref": 3.308,
+        "prob_fecho": 0.3023,
+        "fonte_fecho": "Pinnacle",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-27T18:00:18+00:00",
+        "fecho_idade_min": 105,
+        "clv": 0.0431
+      },
+      {
+        "fixtureId": 1551898,
+        "jogo": "Jong Ajax vs Heracles",
+        "liga": "Eerste Divisie",
+        "pais": "Netherlands",
+        "ko": "2026-11-27T19:00:00+00:00",
+        "casa": "Jong Ajax",
+        "visitante": "Heracles",
+        "pVisitanteMarca": 0.8952,
+        "pCasaMarca": 0.7523,
+        "pRegra": 0.6735,
+        "lambdaFora": 2.2557,
+        "lambdaCasa": 1.3957,
+        "foraMarcou": 7,
+        "foraJogos": 8,
+        "casaSofreu": 6,
+        "casaJogos": 8,
+        "taxaLiga": {
+          "casa": 1.868,
+          "fora": 1.521,
+          "n": 160
+        },
+        "odd1xbet": 1.42,
+        "pJustaFormula": 0.6727,
+        "pConsenso": 0.6577,
+        "nCasas": 6,
+        "evFormula": -0.0447,
+        "evConsenso": -0.066,
+        "oddJusta": 1.49,
+        "fonteJusta": "fórmula",
+        "oddMinima": 1.57,
+        "stake": 0,
+        "semValor": true,
+        "oddsUpdate": "2026-11-27T06:00:46+00:00",
+        "tipo": "manha",
+        "mercado": "ambas sim",
+        "stakeSombra": 0.5,
+        "shadow": true,
+        "sombraMotivo": "ambas-sem-valor",
+        "noticia": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei notícia de hoje ou de ontem à noite sobre baixas no ataque do Heracles; a página do jogo no fcupdate deu 403 e as pesquisas só devolveram peças antigas.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "saltos": [],
+        "segundaCandidata": {
+          "fixtureId": 1576245,
+          "jogo": "1. FC Heidenheim vs 1. FC Nürnberg",
+          "ko": "2026-11-27T17:30:00+00:00",
+          "pVisitanteMarca": 0.84,
+          "pCasaMarca": 0.7861
+        },
+        "porque": "regra do dono: Heracles marca fora 90%, Jong Ajax marca em casa 75%; sem valor (EV -4.5% na fórmula, -6.6% no consenso de 6 casas)",
+        "origem": "ambas",
+        "strategy": "🟢🟢 AMBAS",
+        "match": "Jong Ajax vs Heracles",
+        "league": "Eerste Divisie",
+        "market": "Ambas marcam: Sim",
+        "odds": 1.42,
+        "frase": "O Heracles marcou em 7 dos últimos 8 jogos fora, e o Jong Ajax sofreu em 6 dos últimos 8 em casa.",
+        "sentAt": 1795764217851,
+        "textoGrupo": "🟢🟢 <b>Ambas marcam — Jong Ajax vs Heracles</b> (19:00)\n\n📊 Heracles marca fora 90% · Jong Ajax marca em casa 75%\n💰 1xBet <b>@1.42</b> · justo @1.49 · sem valor hoje (stake 0)\n\nO Heracles marcou em 7 dos últimos 8 jogos fora, e o Jong Ajax sofreu em 6 dos últimos 8 em casa.",
+        "vaiNoBomDia": true,
+        "pertoEm": "2026-11-27T17:38:51.899Z",
+        "oddPertoDoJogo": 1.42,
+        "evPertoDoJogo": {
+          "formula": -0.0447,
+          "consenso": -0.062
+        },
+        "stakePertoDoJogo": 0,
+        "noticiaPertoDoJogo": {
+          "baixa_grave": false,
+          "quem": [],
+          "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Heracles, e o onze ainda não estava publicado. Os resultados da pesquisa eram de épocas anteriores.",
+          "link": null,
+          "onze_publicado": false,
+          "pesquisas": 2
+        },
+        "result": "GREEN",
+        "finalHome": 4,
+        "finalAway": 4,
+        "pnl": 0,
+        "return": 0,
+        "resolvedAt": 1795830324666,
+        "pnlSombra": 0.21,
+        "odd_fecho_ref": 1.49,
+        "prob_fecho": 0.6712,
+        "fonte_fecho": "mediana 7 casas",
+        "fecho_fonte": "api",
+        "fecho_at": "2026-11-27T18:00:17+00:00",
+        "fecho_idade_min": 60,
+        "clv": -0.0469,
+        "prob_fecho_formula": 0.6764,
+        "clv_formula": -0.0396
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "green": 2,
+      "red": 3,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 40,
+      "stake_total": 2.5,
+      "stake_mensuravel": 2.5,
+      "return_mensuravel": 2.625,
+      "pnl_mensuravel": 0.125,
+      "roi_pct_mensuravel": 5,
+      "odds_registadas": 5,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 4,
+          "green": 1,
+          "red": 3,
+          "push": 0,
+          "pending": 0
+        },
+        "📰 NOTÍCIA": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    },
+    "shadow_summary": {
+      "total": 3,
+      "green": 1,
+      "red": 2,
+      "push": 0,
+      "pending": 0,
+      "hit_rate": 33.333,
+      "stake_nocional": 1.5,
+      "return_nocional": 0.71,
+      "pnl_nocional": -0.79,
+      "by_strategy": {
+        "⏸️ INTERVALO": {
+          "total": 2,
+          "green": 0,
+          "red": 2,
+          "push": 0,
+          "pending": 0
+        },
+        "🟢🟢 AMBAS": {
+          "total": 1,
+          "green": 1,
+          "red": 0,
+          "push": 0,
+          "pending": 0
+        }
+      }
+    }
+  },
+  "balance": 36.18,
+  "notes": "Fecho de 27/11. Tips: Groningen ambas marcam Sim verde (1-1), Maritimo menos de 2.5 vermelho (1-2); standard vermelho, curto vermelho (Coleraine perdeu 0-1; a perna do VVV Venlo-Waalwijk ficou sem resultado, API em TBD, mas o bilhete ja estava perdido). Em sombra: curto-vence e corvo vermelhos. Intervalo: 5 apostados, 2 verdes (mais de 4.5 cantos no Rizespor-Kasimpasa, noticia do empate no Venezia-Bologna a 0-0) e 3 vermelhos (cantos em Sonderjyske, Leganes e Levante), +0.13 stakes. Em sombra: duas de golos vermelhas e a ambas marcam Jong Ajax-Heracles verde (4-4, sem valor, +0.21 se apostada). A multipla da jornada continua viva: Leuven falhou (2-2), mas fecha so no fim, faltam Leeds e Union. Dia -1.04 stakes, banca 36.18 stakes."
+}

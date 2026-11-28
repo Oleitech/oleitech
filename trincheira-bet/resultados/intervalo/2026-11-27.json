@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-27",
+  "units": "stakes",
+  "alerts": [
+    {
+      "fixtureId": 1584482,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 4.5 cantos no jogo",
+      "match": "Rizespor vs Kasımpaşa",
+      "league": "Süper Lig",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 1.8,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          0,
+          0
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Ainda não houve nenhum canto, mas o jogo está aberto: 16 remates, 9 deles à baliza, e o Rizespor anda muito pela área. Em jogos assim, a 2ª parte deu 5 ou mais cantos em quase 6 de cada 10.",
+      "confianca": 58,
+      "probImplicita": 0.556,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T17:47:30+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Total Corners",
+            "linha": "4.5",
+            "lado": "over",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Corners 1x2",
+            "linha": "-",
+            "lado": "home",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.8
+          },
+          {
+            "mercado": "1x2 - 70 minutes",
+            "linha": "-",
+            "lado": "draw",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Last Team to Score (3 way)",
+            "linha": "-",
+            "lado": "2",
+            "odd": 1.8
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "4",
+            "lado": "over",
+            "odd": 1.8
+          }
+        ]
+      },
+      "sentAt": 1795801748394,
+      "probModeloA": 0.5308,
+      "pushA": 0,
+      "valorA": -0.0446,
+      "aprovaA": false,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.6157,
+      "golos2pB": 1.6353,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "GREEN",
+      "finalHome": 3,
+      "finalAway": 2,
+      "pnl": 0.4,
+      "return": 0.9,
+      "resolvedAt": 1795806958656
+    },
+    {
+      "fixtureId": 1549069,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 7.5 cantos no jogo",
+      "match": "Sonderjyske vs Brondby",
+      "league": "Superliga",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.95,
+      "oddMinima": 1.7,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          1
+        ],
+        "amarelos": [
+          0,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Só houve 2 cantos na 1ª parte (1 para cada lado). Na Superliga, os jogos com um golo de diferença e tão poucos cantos ao intervalo deram em média 4 cantos na 2ª parte, e esta aposta só perde se houver 6 ou mais.",
+      "confianca": 60,
+      "probImplicita": 0.513,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T18:48:48+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Asian Corners",
+            "linha": "7.5",
+            "lado": "under",
+            "odd": 1.95
+          }
+        ]
+      },
+      "sentAt": 1795805439765,
+      "probModeloA": 0.6113,
+      "pushA": 0,
+      "valorA": 0.1921,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.6102,
+      "golos2pB": 1.7716,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": 0.4868,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 1,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795810616275
+    },
+    {
+      "fixtureId": 1576542,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 3.5 golos no jogo",
+      "match": "Feirense vs Portimonense",
+      "league": "Liga Portugal 2",
+      "elapsed": 45,
+      "score": "1-1",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 1,
+      "odds": 2.625,
+      "oddMinima": 2.45,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          1,
+          4
+        ],
+        "amarelos": [
+          1,
+          0
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "shortlist",
+      "justificacao": "Está 1-1, com os dois golos nos últimos cinco minutos, e o Portimonense carrega, com 4 cantos contra 1. Em jogos empatados com golos ao intervalo saem mais dois golos na 2ª parte quase metade das vezes, e a 2.62 só precisa de acertar uma em cada 2.6.",
+      "confianca": 41,
+      "probImplicita": 0.381,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T18:49:48+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Goals",
+            "linha": "3.5",
+            "lado": "over",
+            "odd": 2.625
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "2",
+            "odd": 2.625
+          }
+        ]
+      },
+      "sentAt": 1795805623257,
+      "probModeloA": 0.4046,
+      "pushA": 0,
+      "valorA": 0.0622,
+      "aprovaA": true,
+      "probModeloB": 0.3682,
+      "pushB": 0,
+      "valorB": -0.0336,
+      "aprovaB": false,
+      "golos2pA": 1.3898,
+      "golos2pB": 1.2859,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 2,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795810616275,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1570043,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 14.5 cantos no jogo",
+      "match": "Leganes vs Sabadell",
+      "league": "Segunda División (Espanha)",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.727,
+      "oddMinima": 1.65,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          7
+        ],
+        "amarelos": [
+          3,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "shortlist",
+      "justificacao": "Já se viram 10 cantos na 1ª parte, 7 deles do Sabadell, e está 0-0, por isso as duas equipas vão continuar a carregar. Bastam 5 cantos na 2ª parte, e em jogos assim isso acontece em quase dois terços das vezes.",
+      "confianca": 61,
+      "probImplicita": 0.579,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T20:18:05+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "14",
+            "lado": "over",
+            "odd": 1.727
+          },
+          {
+            "mercado": "1st Goal in Interval",
+            "linha": "70",
+            "lado": "no",
+            "odd": 1.727
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "no goal",
+            "odd": 1.727
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.727
+          },
+          {
+            "mercado": "Draw No Bet",
+            "linha": "-",
+            "lado": "home",
+            "odd": 1.727
+          },
+          {
+            "mercado": "Next 10 Minutes Total",
+            "linha": "50",
+            "lado": "cards/under  0.5",
+            "odd": 1.727
+          }
+        ]
+      },
+      "sentAt": 1795810791075,
+      "probModeloA": 0.6393,
+      "pushA": 0,
+      "valorA": 0.104,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.4402,
+      "golos2pB": 1.1998,
+      "ligaForaDoTreinoA": true,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795816023077
+    },
+    {
+      "fixtureId": 1550216,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Mais de 1.5 golos no jogo",
+      "match": "Venezia vs Bologna",
+      "league": "Serie A",
+      "elapsed": 45,
+      "score": "0-0",
+      "homeGoalsAtAlert": 0,
+      "awayGoalsAtAlert": 0,
+      "odds": 2.625,
+      "oddMinima": 2.25,
+      "precoAoVivo": true,
+      "tipo": "golos",
+      "aoIntervalo": {
+        "cantos": [
+          3,
+          2
+        ],
+        "amarelos": [
+          2,
+          2
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0,
+      "contraFavorito": false,
+      "shadow": true,
+      "sombraMotivo": "golos-mais-de-2026-11-09",
+      "stakeSombra": 0.5,
+      "origem": "liga",
+      "justificacao": "Está 0-0, mas já houve 13 remates, 5 deles à baliza, e um golo do Venezia anulado pelo VAR. Na Serie A, com intervalos assim, saíram 2 ou mais golos na 2ª parte em 53% dos 123 jogos, e a 2.62 o preço paga.",
+      "confianca": 46,
+      "probImplicita": 0.381,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T20:35:54+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "10",
+            "lado": "over",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Player Shots",
+            "linha": "-",
+            "lado": "samuel mbangula/over 1.5",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Player Shots",
+            "linha": "-",
+            "lado": "arthur theate/over 1.5",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Player Shots",
+            "linha": "-",
+            "lado": "nadir zortea/over 2.5",
+            "odd": 2.625
+          },
+          {
+            "mercado": "Match Goals",
+            "linha": "1.5",
+            "lado": "over",
+            "odd": 2.625
+          },
+          {
+            "mercado": "How many goals will Away Team score?",
+            "linha": "-",
+            "lado": "1",
+            "odd": 2.625
+          }
+        ]
+      },
+      "sentAt": 1795811906138,
+      "probModeloA": 0.4095,
+      "pushA": 0,
+      "valorA": 0.0749,
+      "aprovaA": true,
+      "probModeloB": 0.3794,
+      "pushB": 0,
+      "valorB": -0.0041,
+      "aprovaB": false,
+      "golos2pA": 1.4039,
+      "golos2pB": 1.3175,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 0,
+      "finalAway": 0,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795816023077,
+      "pnlSombra": -0.5
+    },
+    {
+      "fixtureId": 1570468,
+      "strategy": "⏸️ INTERVALO",
+      "market": "Menos de 13.5 cantos no jogo",
+      "match": "Levante vs Racing Santander",
+      "league": "La Liga",
+      "elapsed": 45,
+      "score": "1-0",
+      "homeGoalsAtAlert": 1,
+      "awayGoalsAtAlert": 0,
+      "odds": 1.833,
+      "oddMinima": 1.75,
+      "precoAoVivo": true,
+      "tipo": "cantos",
+      "aoIntervalo": {
+        "cantos": [
+          5,
+          3
+        ],
+        "amarelos": [
+          0,
+          1
+        ],
+        "vermelhos": [
+          0,
+          0
+        ]
+      },
+      "padrao": "a favor",
+      "stake": 0.5,
+      "contraFavorito": false,
+      "shadow": false,
+      "origem": "liga",
+      "justificacao": "Já vão 8 cantos (5-3), por isso o Menos de 13.5 aguenta até 5 na 2ª parte. Na La Liga, com um golo de diferença ao intervalo, a 2ª parte dá em média 5 cantos e só em pouco mais de metade dos jogos chega aos 5.",
+      "confianca": 58,
+      "probImplicita": 0.546,
+      "oddAoVivoMercado": {
+        "at": "2026-11-27T20:47:29+00:00",
+        "fonte": "api-football odds/live",
+        "candidatos": [
+          {
+            "mercado": "Match Corners",
+            "linha": "13",
+            "lado": "over",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Match Corners",
+            "linha": "14",
+            "lado": "under",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "13.5",
+            "lado": "over",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Total Corners",
+            "linha": "13.5",
+            "lado": "under",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "odd",
+            "odd": 1.833
+          },
+          {
+            "mercado": "Goals Odd/Even",
+            "linha": "-",
+            "lado": "even",
+            "odd": 1.833
+          }
+        ]
+      },
+      "sentAt": 1795812575469,
+      "probModeloA": 0.5868,
+      "pushA": 0,
+      "valorA": 0.0757,
+      "aprovaA": true,
+      "probModeloB": null,
+      "pushB": null,
+      "valorB": null,
+      "aprovaB": null,
+      "golos2pA": 1.7224,
+      "golos2pB": 1.9172,
+      "ligaForaDoTreinoA": false,
+      "semModelo": null,
+      "probMercadoVivo": null,
+      "preJogoFonte": {
+        "x12": "Pinnacle",
+        "totais": "Pinnacle"
+      },
+      "seriaCortado": {
+        "dia8": false,
+        "hora3": false,
+        "odd170": false
+      },
+      "result": "RED",
+      "finalHome": 1,
+      "finalAway": 3,
+      "pnl": -0.5,
+      "return": 0,
+      "resolvedAt": 1795816875091
+    }
+  ]
+}

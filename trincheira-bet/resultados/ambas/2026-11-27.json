@@ -67,7 +67,38 @@
       "frase": "O Heracles marcou em 7 dos últimos 8 jogos fora, e o Jong Ajax sofreu em 6 dos últimos 8 em casa.",
       "sentAt": 1795764217851,
       "textoGrupo": "🟢🟢 <b>Ambas marcam — Jong Ajax vs Heracles</b> (19:00)\n\n📊 Heracles marca fora 90% · Jong Ajax marca em casa 75%\n💰 1xBet <b>@1.42</b> · justo @1.49 · sem valor hoje (stake 0)\n\nO Heracles marcou em 7 dos últimos 8 jogos fora, e o Jong Ajax sofreu em 6 dos últimos 8 em casa.",
-      "vaiNoBomDia": true
+      "vaiNoBomDia": true,
+      "pertoEm": "2026-11-27T17:38:51.899Z",
+      "oddPertoDoJogo": 1.42,
+      "evPertoDoJogo": {
+        "formula": -0.0447,
+        "consenso": -0.062
+      },
+      "stakePertoDoJogo": 0,
+      "noticiaPertoDoJogo": {
+        "baixa_grave": false,
+        "quem": [],
+        "resumo": "Não encontrei nenhuma notícia de hoje ou de ontem à noite sobre baixas no ataque do Heracles, e o onze ainda não estava publicado. Os resultados da pesquisa eram de épocas anteriores.",
+        "link": null,
+        "onze_publicado": false,
+        "pesquisas": 2
+      },
+      "result": "GREEN",
+      "finalHome": 4,
+      "finalAway": 4,
+      "pnl": 0,
+      "return": 0,
+      "resolvedAt": 1795830324666,
+      "pnlSombra": 0.21,
+      "odd_fecho_ref": 1.49,
+      "prob_fecho": 0.6712,
+      "fonte_fecho": "mediana 7 casas",
+      "fecho_fonte": "api",
+      "fecho_at": "2026-11-27T18:00:17+00:00",
+      "fecho_idade_min": 60,
+      "clv": -0.0469,
+      "prob_fecho_formula": 0.6764,
+      "clv_formula": -0.0396
     }
   ],
   "escolhidaEm": "2026-11-27T07:23:03.704Z",
@@ -284,7 +315,23 @@
     "oddsUpdate": "2026-11-27T06:00:46+00:00",
     "mercado": "ambas sim",
     "odds": 1.61,
-    "origem": "ambas-formula"
+    "origem": "ambas-formula",
+    "result": "RED",
+    "finalHome": 2,
+    "finalAway": 0,
+    "pnl": 0,
+    "return": 0,
+    "resolvedAt": 1795830325439,
+    "pnlSombra": -0.5,
+    "odd_fecho_ref": 1.915,
+    "prob_fecho": 0.5221,
+    "fonte_fecho": "mediana 7 casas",
+    "fecho_fonte": "api",
+    "fecho_at": "2026-11-27T13:49:14+00:00",
+    "fecho_idade_min": 31,
+    "clv": -0.1594,
+    "prob_fecho_formula": 0.5597,
+    "clv_formula": -0.0989
   },
   "candidatasLive": [
     {
